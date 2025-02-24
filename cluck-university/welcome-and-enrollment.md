@@ -2,11 +2,11 @@
 
 ## Getting started
 
-To kick off your automation journey, we have an entire [getting-started](getting-started/ "mention") section dedicated to introducing you to both automation practices as well as the Rewst Platform itself. Dive in and get your talons wet with the basics, including some exercises!
+To kick off your automation journey, we have an entire [getting-started](getting-started/ "mention") section dedicated to introducing you to both automation practices as well as the Rewst Platform itself.&#x20;
 
 ## On-demand training
 
-We offer courses sequentially, and you can use the self-serve resources. Use the hyperlinks below to get started. Let us know if you hit a roadblock or have questions in our [Cluck University Discord Channel](https://discord.gg/WKwsZngc). If you stick to it, you’ll have your [certification](rewst-foundations/foundations-certification.md) in no time!&#x20;
+Use the hyperlinks below to get started. Let us know if you hit a roadblock or have questions in our [Cluck University Discord Channel](https://discord.com/channels/936789089703845988/1121465945295167588).&#x20;
 
 {% hint style="info" %}
 * [automation-basics](automation-basics/ "mention")
@@ -15,11 +15,9 @@ We offer courses sequentially, and you can use the self-serve resources. Use the
 * [micro-courses](micro-courses/ "mention")
 {% endhint %}
 
-## Live training enrollment
+## Live training
 
-If you're interested in taking the Clean Automation series live, [you can sign up](https://calendly.com/cluck-u) and join the legendary Eddie Chow for 5 sessions that will be delivered over 2 weeks.&#x20;
-
-To maximize your learning experience, it's recommended to complete the sessions in order. On-demand recordings are available for our global audience, or for rewatching at your own pace.
+If you're interested in live, instructor-led training, [you can sign up](https://calendly.com/cluck-u) for sessions with the legendary Eddie Chow! We offer sessions for Rewst foundations and Clean automation, as well as weekly office hours for deeper dives into any Cluck University content.
 
 {% hint style="info" %}
 [Go here to get the schedule with all the links you need!](https://calendly.com/cluck-u)
@@ -30,7 +28,7 @@ To maximize your learning experience, it's recommended to complete the sessions 
 As you get started on your automation journey, don't forget all the incredible resources available to you! If you want to get direct help and inspiration for building automation, don't forget to join the Kewp in Discord!&#x20;
 
 {% hint style="success" %}
-&#x20;💻 **On-demand YouTube videos:** [https://www.youtube.com/@rewst](https://www.youtube.com/@rewst)
+&#x20;💻 **YouTube videos:** [https://www.youtube.com/@rewst](https://www.youtube.com/@rewst)
 
 🙋 **Cluck U Office Hours:** [https://calendly.com/cluck-u/office-hours](https://calendly.com/cluck-u/office-hours)
 

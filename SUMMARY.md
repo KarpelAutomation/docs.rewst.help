@@ -94,7 +94,7 @@
   * [Automation feedback request](cluck-university/automation-jump-start/automation-feedback-request.md)
   * [User report (Microsoft Graph)](cluck-university/automation-jump-start/user-report-microsoft-graph.md)
   * [PSA automation](cluck-university/automation-jump-start/psa-automation.md)
-* [Micro Courses](cluck-university/micro-courses/README.md)
+* [Micro courses](cluck-university/micro-courses/README.md)
   * [Extending the power of Rewst workflows](cluck-university/micro-courses/extending-the-power-of-rewst-workflows/README.md)
     * [Part 1: Introduction to completion handlers](cluck-university/micro-courses/extending-the-power-of-rewst-workflows/part-1-introduction-to-completion-handlers.md)
     * [Part 2: How to take action on workflow results](cluck-university/micro-courses/extending-the-power-of-rewst-workflows/part-2-how-to-take-action-on-workflow-results.md)
