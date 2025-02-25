@@ -1,38 +1,73 @@
-# Connectwise Control (ScreenConnect)
+# ConnectWise ScreenConnect integration
 
 {% hint style="success" %}
 **This Integration supports multiple instances**
 
-[Check out the instructions to set up multiple instances here](../../general/multi-instance-integration/multi-instance-integration-setup.md).
+[Check out the instructions to set up multiple instances here](../general/multi-instance-integration/multi-instance-integration-setup.md).
+
+Note that ConnectWise ScreenConnect was previously known as ConnectWise Control. They are the same product, and our ConnectWise Control integration will soon be updated to reflect this name change within ConnectWise's branding.
 {% endhint %}
 
-## ConnectWise Control
+## ConnectWise ScreenConnect
 
-Run commands on your ConnectWise Control agents and get logs from your sessions.
+Run commands on your ConnectWise ScreenConnect agents and get logs from your sessions.
 
 {% hint style="danger" %}
-Heads up!
+**Heads up!**
 
-ConnectWise Control utilizes the `CustomProperty1` property - typically referenced as `Company` within the UI - to store the organization name.
+ConnectWise ScreenConnect utilizes the `CustomProperty1` property—typically referenced as `Company` within the UI—to store the organization name.
 
 If you are using this property for another purpose, you will need to update the `CustomProperty1` property to store the organization name.
 {% endhint %}
 
 ## Setup
 
-To allow Rewst access to your ConnectWise Control, you'll need to create a new user and allow it access to your sessions. To add a new user:
+To allow Rewst access to your ConnectWise ScreenConnect, you'll need to create a new user and allow it access to your sessions. To add a new user:
 
-1. **Click** the "Admin" button on the left-hand side of the screen on your ConnectWise Control Instance.
-2. **Click** "Security" in the sidebar.
-3. **Click** "Show User Table".
-4. **Click** "Add User".
+### Setup steps in ConnectWise ScreenConnect
+
+1. Click the **Admin** button on the left-hand side of the screen on your ConnectWise ScreenConnect instance.
+2. Click **Security** in the sidebar.
+3. Click **Show User Table.**
+4. Click **Add User**.
 5. **Fill out** the required data.
-6. **Ensure** you select at minimum the _Control Host_ permission.
-7. **Make a note** of the **username**, **password**, and **TOTP** secret you provide and input them below.
-8. **Click** Save Configuration.
+6. Ensure that you select at minimum the **Control Host** permission.
+7. Make a note of the **username**, **password**, and **TOTP** secret , which you'll need for setup steps in Rewst.
+
+### Setup steps in Rewst
+
+1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
+2. In the Integrations page, search for the ConnectWise ScreenConnect integration.\
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2025-02-25 at 3.13.53 PM.png>)
+3. Click on the integration tile to launch the **Configuration** setup page.
+4. Under **Configuration**:
+   1. Edit the **Name**
+   2. Add an optional **Description** for your configuration.
+   3. Check on **Is Default**.
+5. Under **Parameters**:
+   1. Enter your ConnectWise ScreenConnect domain in the **Hostname** field.
+   2. Enter the password you created for your Rewst API user in the **Password** field.
+   3. Enter the username for your Rewst user in the **Username** field.
+   4. Enter the base32 TOTP secret copied from ConnectWise ScreenConnect into the **TOTP Secret** field.
+6.  Click **Save Configuration.**
+
+
+
+
 
 {% hint style="warning" %}
-You may run into a scenario where refesh options is not working. If this is the case, you can change the root session group to _All Machines_ to see if it pulls in customers. If this doesn't resolve the issue, you can contact support as found here: [support-priorities.md](../../../../support/roc-support/support-priorities.md "mention")
+You may run into a scenario where refesh options is not working. If this is the case, you can change the root session group to _All Machines_ to see if it pulls in customers. If this doesn't resolve the issue, you can contact support as found here: [support-priorities.md](../../../support/roc-support/support-priorities.md "mention")
+{% endhint %}
+
+{% hint style="danger" %}
+**ConnectWise ScreenConnect Failed Authentication**&#x20;
+
+When using the `ConnectWise Control - ConnectWise Control API Request` action, the token can expire in transit when ConnectWise is sending the response back to Rewst.&#x20;
+
+This will then result in a failed authentication against the user set in the integration. When there are a number of these failed authentication attempts in rapid succession, the user account will get locked out.
+
+This is most commonly seen in cases where a workflow is scheduled to run across multiple computers at multiple orgs for a customer.&#x20;
 {% endhint %}
 
 ## Actions
@@ -66,11 +101,11 @@ Action to run a command template on an agent.
 
 #### Session[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#session) <a href="#session" id="session"></a>
 
-A reference to a "Session" within ConnectWise Control.
+A reference to a "Session" within ConnectWise ScreenConnect.
 
 #### Session Group[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#session-group) <a href="#session-group" id="session-group"></a>
 
-A reference to a session group within ConnectWise Control.
+A reference to a session group within ConnectWise ScreenConnect.
 
 #### Event Types[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#event-types) <a href="#event-types" id="event-types"></a>
 

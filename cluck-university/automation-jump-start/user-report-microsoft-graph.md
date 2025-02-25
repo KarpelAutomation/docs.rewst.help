@@ -59,7 +59,7 @@ No need to mess around with cron coding for your testing. Simply hit the **test*
 1. Add the **List Users** action from **Microsoft Graph** to the workflow canva&#x73;**.**&#x20;
 2. Click on the **On Success Transition.**
 3. Click the **+** button next to Data Aliases.
-4. Type `result` for the key.
+4. Type `all_users` for the key.
 5.  Add the following to the value:&#x20;
 
     `{{ RESULT.result.data.value }}`
@@ -73,7 +73,7 @@ No need to mess around with cron coding for your testing. Simply hit the **test*
 
 8. Click the **+** button next to **Data Aliases**.
 9. Type `failure_message` for the key.
-10. Add the following to the value: Failed to list all users
+10. Add the following to the value: Failed to list all users.
 
 {% hint style="success" %}
 What the heck is \{{ RESULT.result.data.value \}}? [Check out this video to learn more](../micro-courses/how-to-reference-data-with-variables.md).

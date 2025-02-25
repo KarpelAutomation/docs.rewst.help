@@ -109,8 +109,8 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% tab title="Command/Continuum/Control" %}
 ### ConnectWise Control
 
-{% content-ref url="../../../documentation/integrations/rmm/connectwise-control/connectwise-control-screenconnect.md" %}
-[connectwise-control-screenconnect.md](../../../documentation/integrations/rmm/connectwise-control/connectwise-control-screenconnect.md)
+{% content-ref url="../../../documentation/integrations/rmm/connectwise-control-screenconnect.md" %}
+[connectwise-control-screenconnect.md](../../../documentation/integrations/rmm/connectwise-control-screenconnect.md)
 {% endcontent-ref %}
 {% endtab %}
 
