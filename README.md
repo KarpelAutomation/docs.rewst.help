@@ -27,5 +27,5 @@ layout:
 
 
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center">✨ <a href="cluck-university/getting-started/rewst-overview/rewst-platform-overview.md">Platform overview</a></td></tr><tr><td align="center">🔌 <a href="cluck-university/getting-started/rewst-overview/setting-up-your-integrations.md">Setting up your integrations</a></td></tr><tr><td align="center">🎓 <a href="cluck-university/micro-courses/">Additional learning</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center">✨ <a href="broken-reference">Platform overview</a></td></tr><tr><td align="center">🔌 <a href="broken-reference">Setting up your integrations</a></td></tr><tr><td align="center">🎓 <a href="cluck-university/micro-courses/">Additional learning</a></td></tr></tbody></table>
 

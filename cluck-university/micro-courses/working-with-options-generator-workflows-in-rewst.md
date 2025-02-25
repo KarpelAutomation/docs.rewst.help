@@ -1,4 +1,4 @@
-# Working with Options Generator Workflows in Rewst
+# Working with options generator workflows in Rewst
 
 {% embed url="https://youtu.be/zeSMXSm0BK0" %}
 
@@ -40,7 +40,7 @@ Make sure the variable you assign from your workflow to your `options` output ha
 
 For troubleshooting unsynced workflows or to better understand the operations of an Options Generator, utilize the tool RoboRewsty.
 
-**Additional Resources**: For more detailed guidance on using RoboRewsty, [check out this Robo Rewsty Elective!](automate-documentation-with-robo-rewsty.md)
+**Additional Resources**: For more detailed guidance on using RoboRewsty, [check out this Robo Rewsty Micro Course!](automate-documentation-with-robo-rewsty.md)
 
 ### **Conclusion**
 

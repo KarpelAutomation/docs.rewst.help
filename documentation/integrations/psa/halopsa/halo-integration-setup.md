@@ -85,5 +85,42 @@ If you run into an issue where the Email, Name, Department, or other information
 * The Custom Field IDs need to be added as an organization variable
 * The Custom Field should not be marked as mandatory
 
+### New User Onboarding and Offboarding Crate Halo Issues
 
+Rewst only uses the bare minimum of fields for ticket creation in these Crates.
 
+#### Ticket Creation
+
+* team
+* source
+* summary
+* user\_id
+* client\_id
+* site\_name
+* status\_id
+* category\_1
+* category\_2
+* category\_3
+* category\_4
+* priority\_id
+* details\_html
+* tickettype\_id
+* new\_approvalprocess\_cab
+  * type
+  * cab\_id
+
+#### Ticket Updates
+
+* note
+* outcome
+* ticket\_id
+* new\_status
+* who\_agent\_id
+* timetaken
+
+{% hint style="danger" %}
+It's possible that Halo is set up to require multiple other fields. If this is the case, there are two paths:
+
+1. You can make sure additional fields are not checked as required.
+2. You can unsync the Crate and modify it to include the required fields in your setup.&#x20;
+{% endhint %}

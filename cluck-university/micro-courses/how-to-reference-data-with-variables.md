@@ -31,4 +31,4 @@ Unlock the full potential of your Rewst automation by mastering the intricacies 
 
 ## Conclusion and Exploration
 
-Explore further in our [rewst-foundations](../rewst-foundations/ "mention"), specifically  [jinja-essentials-for-workflow-automation](../rewst-foundations/jinja-essentials-for-workflow-automation/ "mention"), to become a proficient Jinja Ninja. Join the [Cluck U Discord Channel ](https://discord.com/channels/936789089703845988/1121465945295167588)for additional support and stay tuned for more Electives! Like, comment, and subscribe to the Rewst YouTube Channel for continuous updates, and let's elevate your Rewst automation skills together!
+Explore further in our [rewst-foundations](../rewst-foundations/ "mention"), specifically  [jinja-essentials-for-workflow-automation](../rewst-foundations/jinja-essentials-for-workflow-automation/ "mention"), to become a proficient Jinja Ninja. Join the [Cluck U Discord Channel ](https://discord.com/channels/936789089703845988/1121465945295167588)for additional support and stay tuned for more Micro Courses!&#x20;
