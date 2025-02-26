@@ -18,7 +18,7 @@ Explore what new changes the Training team has made in the last week.
 **What's New at Cluck University?**
 
 * Fixed duplicate questions in Cluck-U exams! Shoutout to James Kim for the help!
-* Sign-up links have been added to the [advanced-automation-concepts.md](../../../cluck-university/clean-automation/advanced-automation-concepts.md "mention") and [data-types-and-jinja.md](../../../cluck-university/clean-automation/data-types-and-jinja.md "mention")course pages.
+* Sign-up links have been added to the [advanced-automation-concepts](../../../cluck-university/clean-automation/advanced-automation-concepts/ "mention") and [data-types-and-jinja](../../../cluck-university/clean-automation/data-types-and-jinja/ "mention")course pages.
 
 **New & Updated Pages:**
 

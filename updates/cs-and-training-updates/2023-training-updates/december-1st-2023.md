@@ -24,11 +24,11 @@ Explore what new changes the Training team has made in the last week.
 **What's New in Cluck University?**
 
 * &#x20;[clean-automation](../../../cluck-university/clean-automation/ "mention") landing page and course descriptions have been added!
-  * Available now:[advanced-automation-concepts.md](../../../cluck-university/clean-automation/advanced-automation-concepts.md "mention")
+  * Available now:[advanced-automation-concepts](../../../cluck-university/clean-automation/advanced-automation-concepts/ "mention")
   * **Coming soon:**
-    * [data-types-and-jinja.md](../../../cluck-university/clean-automation/data-types-and-jinja.md "mention")
-    * [modular-automation-through-abstraction.md](../../../cluck-university/clean-automation/modular-automation-through-abstraction.md "mention")
-    * [avoiding-automation-anti-patterns.md](../../../cluck-university/clean-automation/avoiding-automation-anti-patterns.md "mention")
+    * [data-types-and-jinja](../../../cluck-university/clean-automation/data-types-and-jinja/ "mention")
+    * [modular-automation-through-abstraction](../../../cluck-university/clean-automation/modular-automation-through-abstraction/ "mention")
+    * [avoiding-automation-anti-patterns](../../../cluck-university/clean-automation/avoiding-automation-anti-patterns/ "mention")
     * [Broken link](broken-reference "mention")
 
 **New & Updated Pages:**

@@ -1,12 +1,11 @@
 ---
-description: >-
-  Explore advanced automation concepts in the Clean Automation series at Cluck
-  University. Dive into data handling, abstraction principles, and defensive
-  strategies for robust automations.
 icon: circle-3
+description: >-
+  Dive into the concepts that maximize the value of your automation and minimize
+  the things that take away from the value.
 ---
 
-# Clean Automation
+# Clean automation
 
 ## Series Overview
 
@@ -18,13 +17,11 @@ This course is designed for individuals who have completed the Rewst Foundations
 
 ## Learning Objectives
 
-* **Advanced Automation Mastery**: Develop an advanced understanding of automation in Rewst, focusing on integrating human creativity with computer precision, and mastering clean automating principles for efficient workflows.
-* **Data Types and Jinja Proficiency**: Gain comprehensive skills in handling various data types and utilizing Jinja for dynamic, complex data manipulation and workflow enhancement.
-* **Strategic Automation Thinking**: Cultivate a developer’s mindset for automation, focusing on abstraction, modularity, and avoiding common anti-patterns to create robust, defensible automation strategies.
-* **Practical Application and Problem-Solving**: Learn through hands-on application, emphasizing practical problem-solving, efficient configuration, and defensive programming in real-world scenarios.
+* **Advanced automation mastery**: Develop an advanced understanding of automation in Rewst and mastering clean automating principles for efficient workflows.
+* **Data dypes and Jinja proficiency**: Gain comprehensive skills in handling various data types and utilizing Jinja for dynamic, complex data manipulation and workflow enhancement.
+* **Strategic automation thinking**: Cultivate a developer’s mindset for automation, focusing on abstraction, modularity, and avoiding common anti-patterns to create robust, defensible automation strategies.
+* **Practical application and problem-solving**: Learn through emphasizing practical problem-solving, efficient configuration, and defensive programming in real-world scenarios.
 
 ## **Included Courses**
 
-<table data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><a href="advanced-automation-concepts.md"><strong>Advanced Automation Concepts</strong></a></td><td align="center"></td><td align="center">Enhance efficiency by balancing human creativity and computer precision; learn key principles for clean, scalable automation.</td><td></td></tr><tr><td align="center"><a href="data-types-and-jinja.md"><strong>Data Types and Jinja</strong></a></td><td align="center"></td><td align="center">Master Rewst’s data handling in Jinja for dynamic, precise automation tasks.</td><td></td></tr><tr><td align="center"><a href="boolean-logic-and-comparisons.md"><strong>Boolean Logic &#x26; Comparisons</strong></a></td><td align="center"></td><td align="center">Adopt a developer mindset for simplified, reusable, and efficient workflows.</td><td><a href="boolean-logic-and-comparisons.md">boolean-logic-and-comparisons.md</a></td></tr><tr><td align="center"><a href="modular-automation-through-abstraction.md"><strong>Modular Automation Through Abstraction</strong></a></td><td align="center"></td><td align="center">Focus on proactive error handling and clear planning in automation to avoid common pitfalls.</td><td><a href="modular-automation-through-abstraction.md">modular-automation-through-abstraction.md</a></td></tr><tr><td align="center"><a href="avoiding-automation-anti-patterns.md"><strong>Avoiding Automation Anti-Patterns</strong></a></td><td align="center"></td><td align="center">Build robust automations with consistent outcomes and strong error management strategies.</td><td><a href="avoiding-automation-anti-patterns.md">avoiding-automation-anti-patterns.md</a></td></tr><tr><td align="center"><a href="avoiding-automation-anti-patterns.md"><strong>Clean Automation Certification</strong></a></td><td align="center"></td><td align="center">Once you've completed the courses, take the certification exam!</td><td><a href="clean-automation-certification.md">clean-automation-certification.md</a></td></tr></tbody></table>
-
-###
+<table data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="advanced-automation-concepts/">Lesson 1</a></td><td align="center"><strong>Advanced automation concepts</strong></td><td align="center">Master the principles of clean automation—maximizing value through best practices and avoiding the pitfalls that hinder long-term success.</td></tr><tr><td align="center"><a href="data-types-and-jinja/">Lesson 2</a></td><td align="center"><strong>Data types and Jinja</strong></td><td align="center">Mastering data types and Jinja for efficient automation.</td></tr><tr><td align="center"><a href="boolean-logic-and-comparisons/">Lesson 3</a></td><td align="center"><strong>Boolean logic and comparisons</strong></td><td align="center">Mastering Boolean logic and comparisons for efficient decision-making in automation.</td></tr><tr><td align="center"><a href="modular-automation-through-abstraction/">Lesson 4</a></td><td align="center"><strong>Modular automation through abstraction</strong></td><td align="center">Building scalable and maintainable automation through modular design.</td></tr><tr><td align="center"><a href="avoiding-automation-anti-patterns/">Lesson 5</a></td><td align="center"><strong>Avoiding automation anti-patterns</strong></td><td align="center">Building sustainable automation: Avoiding common pitfalls for efficiency and scalability.</td></tr></tbody></table>

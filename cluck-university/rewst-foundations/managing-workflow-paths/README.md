@@ -36,8 +36,8 @@ Check out these supplementary resources.
 * [how-to-use-powershell-in-rewst.md](../../micro-courses/how-to-use-powershell-in-rewst.md "mention")(strongly encourage watching!)
 * Microsoft Groups API: [Working with groups in Microsoft Graph](https://learn.microsoft.com/en-us/graph/api/resources/groups-overview?view=graph-rest-1.0\&tabs=http)
 * Powershell 'Add' Commandlet: [Add-DistributionGroupMember](https://learn.microsoft.com/en-us/powershell/module/exchange/add-distributiongroupmember?view=exchange-ps)
-* [boolean-logic-and-comparisons.md](../../clean-automation/boolean-logic-and-comparisons.md "mention")
-* [advanced-automation-concepts.md](../../clean-automation/advanced-automation-concepts.md "mention")
+* [boolean-logic-and-comparisons](../../clean-automation/boolean-logic-and-comparisons/ "mention")
+* [advanced-automation-concepts](../../clean-automation/advanced-automation-concepts/ "mention")
 {% endhint %}
 
 ## Next Steps
