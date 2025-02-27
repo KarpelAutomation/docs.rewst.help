@@ -1,15 +1,7 @@
 # PSA integrations
 
 {% hint style="success" %}
-Integrating your PSA is the foundation to streamlining and automating your MSP workflows. It's one of the first things you'll need to do to get started with Rewst. Centralize service tickets, automate billing and reporting, and improve your turnaround times.
-{% endhint %}
-
-{% hint style="warning" %}
-Remember your prerequisites! Before you set up your PSA integration, make sure that you:
-
-* Have administrative access to your PSA
-* Create a dedicated user and security role for the API integration
-* Read through our introductions to [Crates](https://docs.rewst.help/prebuilt-automations/crates) and [integrations](https://docs.rewst.help/documentation/integrations)
+Integrating your PSA is the foundation to streamlining and automating your MSP workflows. It's one of the first things you'll need to do to get started with Rewst. Centralize service tickets, automate billing and reporting, and improve your turnaround times. Before attempting to integrate your PSA, read through our introductions to [Crates](https://docs.rewst.help/prebuilt-automations/crates) and [integrations](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ## Unpack Crates after integrating your PSA: Optional

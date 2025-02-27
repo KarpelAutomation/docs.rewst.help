@@ -1,18 +1,11 @@
 # Documentation integrations
 
-{% hint style="info" %}
+{% hint style="success" %}
 Integrating your documentation tool centralizes and automates your documentation processes.&#x20;
 
-Rewst is constantly adding new integrations. If Rewst doesn't currently have an integration for your particular documentation tool, you can still build a custom integration, as long as your tool has an API.
-{% endhint %}
+Rewst is constantly adding new integrations. If Rewst doesn't currently have an integration for your particular documentation tool, you can still build a custom integration, as long as your tool has an API.&#x20;
 
-{% hint style="warning" %}
-**Remember your prerequisites!**&#x20;
-
-Before you set up this integration, make sure that you:
-
-* Have administrative access to your documentation tool
-* Read through our introduction to [Crates](https://docs.rewst.help/prebuilt-automations/crates) and [integrations](https://docs.rewst.help/documentation/integrations)
+Before you attempt to integrate your documentation tool, read through our introduction to [Crates](https://docs.rewst.help/prebuilt-automations/crates) and [integrations](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ## Crates to optionally unpack after integrating your documentation tool

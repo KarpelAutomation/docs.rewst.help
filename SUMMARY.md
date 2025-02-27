@@ -754,6 +754,7 @@
     * [May 31st 2024 - Marketplace Update](updates/marketplace-updates/2024-marketplace-updates/may-31st-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
   * [2025 ROC Open Mics](updates/roc-open-mics/2025-roc-open-mics.md)
+    * [February 21, 2025: Live from Right of Boom 2025, It's the Weekly ROC Open Mic!](updates/roc-open-mics/2025-roc-open-mics/february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md)
     * [February 14, 2025: Valentine's Day Edition](updates/roc-open-mics/2025-roc-open-mics/february-14-2025-valentines-day-edition.md)
     * [February 7, 2025: It's Official! Rewst Now Supports Agent Smith!](updates/roc-open-mics/2025-roc-open-mics/february-7-2025-its-official-rewst-now-supports-agent-smith.md)
     * [January 31, 2025: Aharon has some big news about platform improvments](updates/roc-open-mics/2025-roc-open-mics/january-31-2025-aharon-has-some-big-news-about-platform-improvments.md)

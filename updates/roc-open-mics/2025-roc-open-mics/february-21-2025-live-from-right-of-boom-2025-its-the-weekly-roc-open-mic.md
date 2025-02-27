@@ -1,4 +1,4 @@
-# ROC Open Mics
+# February 21, 2025: Live from Right of Boom 2025, It's the Weekly ROC Open Mic!
 
 ### **Join Live!**
 
@@ -26,6 +26,8 @@ Join us live every Friday at 3 pm EST!
 
 💡 Insights from the Right of Boom pre-day session, discussing automation best practices and the concept of an Automation Center of Excellence.
 
+
+
 <details>
 
 <summary><strong>How to Get Help</strong></summary>
@@ -52,4 +54,3 @@ Join us live every Friday at 3 pm EST!
 * 📝 Feature Request + Integration Requests: [https://rewst.canny.io/](https://rewst.canny.io/)
 
 </details>
-
