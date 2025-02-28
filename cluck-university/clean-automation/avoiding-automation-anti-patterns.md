@@ -12,6 +12,6 @@ When you've completed this training [don't forget to get credit!](https://app.re
 
 ## Lesson modules
 
-1. [What are anti-patterns?](what-are-anti-patterns.md) _(8 minutes)_
-2. [More anti-patterns (part 1)](more-anti-patterns-part-1.md) _(6 minutes)_
-3. [More anti-patterns (part 2)](more-anti-patterns-part-2.md) _(15 minutes)_
+1. [What are anti-patterns?](avoiding-automation-anti-patterns/what-are-anti-patterns.md) _(8 minutes)_
+2. [More anti-patterns (part 1)](avoiding-automation-anti-patterns/more-anti-patterns-part-1.md) _(6 minutes)_
+3. [More anti-patterns (part 2)](avoiding-automation-anti-patterns/more-anti-patterns-part-2.md) _(15 minutes)_

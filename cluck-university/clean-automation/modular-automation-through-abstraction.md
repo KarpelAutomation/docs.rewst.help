@@ -16,10 +16,10 @@ When you've completed this training, [don't forget to get credit!](https://app.r
 
 ## Lesson modules
 
-1. [Thinking like a developer](thinking-like-a-developer.md) _(4 minutes)_
-2. [Abstraction in automation](abstraction-in-automation.md) _(5 minutes)_
-3. [Applying abstraction in Rewst](applying-abstraction-in-rewst.md) _(4 minutes)_
-4. [God functions and workflows](god-functions-and-workflows.md) _(3 minutes)_
-5. [Keeping it stupidly simple](keeping-it-stupidly-simple.md) _(6 minutes)_
-6. [What is pseudocode](what-is-pseudocode.md)? _(6 minutes)_
+1. [Thinking like a developer](modular-automation-through-abstraction/thinking-like-a-developer.md) _(4 minutes)_
+2. [Abstraction in automation](modular-automation-through-abstraction/abstraction-in-automation.md) _(5 minutes)_
+3. [Applying abstraction in Rewst](modular-automation-through-abstraction/applying-abstraction-in-rewst.md) _(4 minutes)_
+4. [God functions and workflows](modular-automation-through-abstraction/god-functions-and-workflows.md) _(3 minutes)_
+5. [Keeping it stupidly simple](modular-automation-through-abstraction/keeping-it-stupidly-simple.md) _(6 minutes)_
+6. [What is pseudocode](modular-automation-through-abstraction/what-is-pseudocode.md)? _(6 minutes)_
 

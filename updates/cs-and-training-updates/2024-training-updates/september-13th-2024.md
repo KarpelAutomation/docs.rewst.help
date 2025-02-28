@@ -21,7 +21,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* The video for Rewst [avoiding-automation-anti-patterns](../../../cluck-university/clean-automation/avoiding-automation-anti-patterns/ "mention") is UP!
+* The video for Rewst [avoiding-automation-anti-patterns.md](../../../cluck-university/clean-automation/avoiding-automation-anti-patterns.md "mention") is UP!
   * Make sure to get credit for this and other Cluck University videos you've gone through.
 * Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.

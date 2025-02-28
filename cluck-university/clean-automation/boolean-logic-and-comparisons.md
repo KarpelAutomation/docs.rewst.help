@@ -18,7 +18,7 @@ When you've completed this training, [don't forget to get credit!](https://app.r
 
 ## Lesson modules
 
-1. [Introduction to Boolean logic](introduction-to-boolean-logic.md) _(5 minutes)_
-2. [Comparisons in Jinja](comparisons-in-jinja.md) _(4 minutes)_
-3. [Creating cleaner code](creating-cleaner-code.md) _(13 minutes)_
-4. [Short circuit evaluation](short-circuit-evaluation.md) _(9 minutes)_
+1. [Introduction to Boolean logic](boolean-logic-and-comparisons/introduction-to-boolean-logic.md) _(5 minutes)_
+2. [Comparisons in Jinja](boolean-logic-and-comparisons/comparisons-in-jinja.md) _(4 minutes)_
+3. [Creating cleaner code](boolean-logic-and-comparisons/creating-cleaner-code.md) _(13 minutes)_
+4. [Short circuit evaluation](boolean-logic-and-comparisons/short-circuit-evaluation.md) _(9 minutes)_

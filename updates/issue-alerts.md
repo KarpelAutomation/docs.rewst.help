@@ -1,5 +1,23 @@
 # Alerts
 
+
+
+<details>
+
+<summary>⚠️ Routine System Maintenance for UK March 7th / March 8th</summary>
+
+We will be performing maintenance on:\
+**March 7th, 2025** 2100–2300 EST / March 8th, 2025 0200–0400 UTC
+
+No outages or end user impacts are expected. Thank you for your understanding.&#x20;
+
+If you have any urgent concerns, please contact your support team.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+
+</details>
+
 <details>
 
 <summary>⚠️ Routine System Maintenance February 8th and 15th</summary>

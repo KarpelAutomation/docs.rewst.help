@@ -16,10 +16,10 @@ When you've completed this training, [don't forget to get credit!](https://app.r
 
 ## Lesson modules
 
-1. [Tech debt prevention essentials](tech-debt-prevention-essentials.md) _(5 minutes)_
-2. [DRY and WET workflows](dry-and-wet-workflows.md) _(5 minutes)_
-3. [WET vs. DRY documentation](wet-vs.-dry-documentation.md) _(7 minutes)_
-4. [Making workflows easy to change](making-workflows-easy-to-change.md) _(4 minutes)_
-5. [ETC tooling](etc-tooling.md) _(5 minutes)_
-6. [Automate defensively](automate-defensively.md) _(12 minutes)_
-7. [Automate securely](automate-securely.md) _(1 minute)_
+1. [Tech debt prevention essentials](advanced-automation-concepts/tech-debt-prevention-essentials.md) _(5 minutes)_
+2. [DRY and WET workflows](advanced-automation-concepts/dry-and-wet-workflows.md) _(5 minutes)_
+3. [WET vs. DRY documentation](advanced-automation-concepts/wet-vs.-dry-documentation.md) _(7 minutes)_
+4. [Making workflows easy to change](advanced-automation-concepts/making-workflows-easy-to-change.md) _(4 minutes)_
+5. [ETC tooling](advanced-automation-concepts/etc-tooling.md) _(5 minutes)_
+6. [Automate defensively](advanced-automation-concepts/automate-defensively.md) _(12 minutes)_
+7. [Automate securely](advanced-automation-concepts/automate-securely.md) _(1 minute)_

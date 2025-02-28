@@ -30,7 +30,7 @@ To get started, select the first module. Each module includes a video and writte
 
 {% hint style="info" %}
 * [how-to-use-powershell-in-rewst.md](../../micro-courses/how-to-use-powershell-in-rewst.md "mention")
-* [advanced-automation-concepts](../../clean-automation/advanced-automation-concepts/ "mention")
+* [advanced-automation-concepts.md](../../clean-automation/advanced-automation-concepts.md "mention")
 * [navigating-between-tasks-with-transitions.md](../../../documentation/workflows/configuring-your-workflow-tasks/navigating-between-tasks-with-transitions.md "mention")
 * [how-to-reference-data-with-variables.md](../../micro-courses/how-to-reference-data-with-variables.md "mention")
 
