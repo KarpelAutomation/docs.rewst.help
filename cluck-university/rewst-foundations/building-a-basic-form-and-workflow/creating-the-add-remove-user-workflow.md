@@ -4,7 +4,7 @@ description: >-
   trigger to use information from the form
 ---
 
-# Creating the "Add or Remove User - Microsoft Group" Workflow
+# Creating the "Add or Remove User - Microsoft Group" workflow
 
 ## Module Overview
 
@@ -74,5 +74,3 @@ After completing a significant piece of work (like adding a trigger or actions),
 Create your workflow using the steps outlined above, ensuring you configure the input variables (in workflow configuration settings) and trigger (to connect to the form you've built).
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:<br><a data-mention href="building-the-add-remove-user-form.md">building-the-add-remove-user-form.md</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="adding-actions-to-add-remove-workflow.md">adding-actions-to-add-remove-workflow.md</a></td><td></td></tr></tbody></table>

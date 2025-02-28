@@ -84,5 +84,3 @@ For those new to automation, it’s recommended to start with smaller tasks that
 Write down a task that's ripe for automation. Make sure the task or process is possible to automate and get clear on your goal (whether it's to save time, reduce errors, and/or any of the other benefits you just learned about). This will help you apply key concepts from this course to a scenario that's relevant to your MSP!
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go back to the lesson page:<br><a data-mention href="./">.</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="3-key-principles-for-every-automation.md">3-key-principles-for-every-automation.md</a></td><td></td></tr></tbody></table>

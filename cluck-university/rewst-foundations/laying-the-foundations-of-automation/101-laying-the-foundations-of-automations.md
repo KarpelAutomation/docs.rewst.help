@@ -4,7 +4,7 @@ description: >-
   stakeholders
 ---
 
-# Automating a Business Process
+# Automating a business process
 
 ## Module Overview
 
@@ -119,5 +119,3 @@ Before moving on, ensure that your main organization and Microsoft Graph integra
 Once that's done, you’re ready to dive into creating your own form and workflow. This is where the real hands-on building begins!
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:</td><td align="center"><a data-mention href="3-key-principles-for-every-automation.md">3-key-principles-for-every-automation.md</a></td><td></td></tr><tr><td align="center">Go to wrap up the lesson:</td><td align="center"><a data-mention href="./#next-steps">#next-steps</a></td><td></td></tr></tbody></table>

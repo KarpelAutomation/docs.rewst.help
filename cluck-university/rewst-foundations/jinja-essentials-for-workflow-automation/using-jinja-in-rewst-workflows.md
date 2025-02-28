@@ -2,7 +2,7 @@
 description: Recognize where to use Jinja in workflows.
 ---
 
-# Using Jinja in Rewst Workflows
+# Using Jinja in Rewst workflows
 
 ## Module Overview
 
@@ -55,5 +55,3 @@ Check out this example of a Microsoft Graph List Groups action:
 Beyond the examples reviewed in this module, you can also use Jinja in a feature available for workflow actions, called "Publish Results As." To see this in action, watch the video on how to reference data with variables [here](https://docs.rewst.help/cluck-university/electives/how-to-reference-data-with-variables).
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><p>Go to the previous module:</p><p><a data-mention href="jinja-list-comprehension-examples-them-apples.md">jinja-list-comprehension-examples-them-apples.md</a></p></td><td align="center"></td><td></td></tr><tr><td align="center">Go to wrap up the lesson:</td><td align="center"><a data-mention href="./#next-steps">#next-steps</a></td><td></td></tr></tbody></table>

@@ -43,6 +43,5 @@ Explore what new changes the Training team has made in the last week.
   * Added alert/note in [connectsecure-integration-migration-v3-to-v4.md](../../../documentation/integrations/security/cybercns/connectsecure-integration-migration-v3-to-v4.md "mention") about V3 to V4 user migration.
   * Added [rewst-certification-how-to-and-troubleshooting-guide.md](../../../cluck-university/rewst-certification-how-to-and-troubleshooting-guide.md "mention")
   * Added [app-builder-amas](../../app-builder-amas/ "mention") section
-  * Updated [welcome-and-enrollment.md](../../../cluck-university/welcome-and-enrollment.md "mention")
 
 </details>

@@ -70,7 +70,7 @@ Understanding crates video (_6 min_)
 {% endembed %}
 
 {% hint style="success" %}
-You've already used a few crates — e.g., "Configure Organizational Variables" — to set up your environment. Now, unpack crates that leverage your new integrations! Check out [Stewart's 30 favorite crates](https://docs.rewst.help/prebuilt-automations/crates/stewarts-30-favorite-crates).
+You've already used a few crates — e.g., Configure Organizational Variables — to set up your environment. Now, unpack crates that leverage your new integrations! Check out [Stewart's favorite crates](https://docs.rewst.help/prebuilt-automations/crates/stewarts-30-favorite-crates).
 {% endhint %}
 {% endstep %}
 

@@ -71,5 +71,3 @@ JSON simplifies complex data, making Rewst workflows easier to manage and unders
 {% embed url="https://www.surveymonkey.com/r/BSSLMJW" %}
 
 ## Keep on cluckin'
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module: </td><td><a href="api/">api</a></td><td><a href="api/">api</a></td></tr><tr><td align="center">Go to the next module:</td><td><a href="data-intro/">data-intro</a></td><td><a href="data-intro/">data-intro</a></td></tr></tbody></table>

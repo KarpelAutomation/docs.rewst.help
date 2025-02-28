@@ -2,7 +2,7 @@
 description: Finishing up our Parent workflow
 ---
 
-# Adding Other Parent Workflow Actions
+# Adding other parent workflow actions
 
 ## Module Overview
 
@@ -74,5 +74,3 @@ Log into Rewst and complete the following steps
 With actions that implement With Items, test the Collected Results and use Publish Result As to simplify managing collected\_results of actions.
 
 ### Navigation
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Previous Module:</td><td><a data-mention href="sub-workflow-and-with-items-overview.md">sub-workflow-and-with-items-overview.md</a></td><td></td></tr><tr><td>Go to the Next Module:</td><td><a data-mention href="testing-the-final-workflow.md">testing-the-final-workflow.md</a></td><td></td></tr></tbody></table>

@@ -64,5 +64,3 @@ This combination makes workflows more adaptable, efficient, and capable of handl
 * Check out our [programming concepts activities](programming-concept-activities.md) to solidify your understanding even more!&#x20;
 
 ## Keep on cluckin'
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module: </td><td><a href="../variables-and-context/">variables-and-context</a></td><td><a href="../variables-and-context/">variables-and-context</a></td></tr><tr><td align="center">Go to the next module:</td><td><a href="../webhooks-and-parameters/">webhooks-and-parameters</a></td><td><a href="../webhooks-and-parameters/">webhooks-and-parameters</a></td></tr></tbody></table>

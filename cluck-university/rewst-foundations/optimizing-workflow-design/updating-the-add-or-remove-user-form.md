@@ -2,7 +2,7 @@
 description: Going from one group to many groups.
 ---
 
-# Updating the Add or Remove User Form
+# Updating the add or remove user form
 
 ## Module Overview
 
@@ -48,5 +48,3 @@ Log into Rewst and complete the following steps
 
 
 ### Navigation
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Previous Module:</td><td><a data-mention href="using-a-sub-workflow-to-update-multiple-groups.md">using-a-sub-workflow-to-update-multiple-groups.md</a></td><td></td></tr><tr><td>Go to the Next Module:</td><td><a data-mention href="creating-a-new-parent-workflow.md">creating-a-new-parent-workflow.md</a></td><td></td></tr></tbody></table>

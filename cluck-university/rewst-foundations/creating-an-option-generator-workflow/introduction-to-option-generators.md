@@ -5,7 +5,7 @@ description: >-
   options in workflow output configuration
 ---
 
-# Introduction to Option Generators
+# Introduction to option generators
 
 ## Module Overview
 
@@ -81,5 +81,3 @@ In both cases (add or remove), we end up with the context variable `group_list` 
 
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go back to the lesson page:<br><a data-mention href="./">.</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="how-to-create-configure-and-trigger-an-option-generator-workflow.md">how-to-create-configure-and-trigger-an-option-generator-workflow.md</a></td><td></td></tr></tbody></table>

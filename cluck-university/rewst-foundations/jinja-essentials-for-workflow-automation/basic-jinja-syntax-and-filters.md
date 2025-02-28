@@ -4,7 +4,7 @@ description: >-
   Jinja code on data from the context
 ---
 
-# Basic Jinja Syntax and Filters
+# Basic Jinja syntax and filters
 
 ## Module Overview
 
@@ -89,5 +89,3 @@ Navigate to the "Lesson Resources" section to access the "Lunch Menu" sample dat
 By practicing these exercises, you’ll solidify your understanding of Jinja syntax, filters, and data manipulation in Rewst workflows.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module: </td><td align="center"><a data-mention href="intro-to-jinja-json-the-context.md">intro-to-jinja-json-the-context.md</a></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="jinja-list-comprehension.md">jinja-list-comprehension.md</a></td><td></td></tr></tbody></table>

@@ -4,7 +4,7 @@ description: >-
   execution results, it's much harder for someone filling out the form.
 ---
 
-# Implementing Error Handling with Feedback Messages
+# Implementing error handling with feedback messages
 
 ## Module Overview
 
@@ -95,6 +95,4 @@ Log into Rewst and complete the following steps
 Test the workflow and check the workflow results to find the feedback\_message Data Alias as a context variable.
 
 ### Navigation
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Previous Module:</td><td><a data-mention href="adding-error-handling-to-workflow-actions.md">adding-error-handling-to-workflow-actions.md</a></td><td></td></tr><tr><td>Go to Wrap Up the Lesson:</td><td><a data-mention href="./#next-steps">#next-steps</a></td><td></td></tr></tbody></table>
 

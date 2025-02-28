@@ -1,4 +1,4 @@
-# Using a Sub Workflow to Update Multiple Groups
+# Using a subworkflow to update multiple groups
 
 ## Module Overview
 
@@ -27,6 +27,4 @@ Log into Rewst and complete the following steps
 Review [data-input-and-output.md](../../../documentation/workflows/data-input-and-output.md "mention") to gain further understanding of Output Configurations.
 
 ### Navigation
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Go to the Lesson Page: </td><td><a data-mention href="./">.</a></td><td></td></tr><tr><td>Go to the Next Module: </td><td><a data-mention href="updating-the-add-or-remove-user-form.md">updating-the-add-or-remove-user-form.md</a></td><td></td></tr></tbody></table>
 

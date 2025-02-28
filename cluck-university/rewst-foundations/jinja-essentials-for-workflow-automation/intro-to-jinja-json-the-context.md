@@ -4,7 +4,7 @@ description: >-
   Live Editor to practice Jinja code on data from the context
 ---
 
-# Introduction to Jinja, JSON, and The Context
+# Introduction to Jinja, JSON, and the context
 
 ## Module Overview
 
@@ -67,5 +67,3 @@ The Jinja Live Editor is a great place to experiment with Jinja code. You can pa
 * Review the context data from your "Add or Remove User - Microsoft Group" workflow execution (part of the lesson, "Building a Basic Form and Workflow").&#x20;
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><p>Go back to the lesson page: </p><p><a data-mention href="./">.</a><br></p></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="basic-jinja-syntax-and-filters.md">basic-jinja-syntax-and-filters.md</a></td><td></td></tr></tbody></table>

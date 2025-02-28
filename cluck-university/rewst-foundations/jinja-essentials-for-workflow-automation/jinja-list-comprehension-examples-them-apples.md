@@ -4,7 +4,7 @@ description: >-
   existing list data.
 ---
 
-# Jinja List Comprehension Examples ("Them Apples")
+# Jinja list comprehension examples ("Them Apples")
 
 ## Module Overview
 
@@ -55,5 +55,3 @@ This gives us a new list of only pink and green apples, stored in `CTX.best_appl
 * Post further questions about list comprehension in the #cluck-u Rewst Discord channel to get help from professors and peers!
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module: </td><td align="center"><a data-mention href="jinja-list-comprehension.md">jinja-list-comprehension.md</a></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="using-jinja-in-rewst-workflows.md">using-jinja-in-rewst-workflows.md</a></td><td></td></tr></tbody></table>

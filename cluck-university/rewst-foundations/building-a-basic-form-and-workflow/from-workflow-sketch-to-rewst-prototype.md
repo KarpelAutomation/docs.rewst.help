@@ -2,7 +2,7 @@
 description: Sketch a workflow, including the workflow trigger
 ---
 
-# From Workflow Sketch to Rewst Prototype
+# From workflow sketch to Rewst prototype
 
 ## Module Overview
 
@@ -32,5 +32,3 @@ Here's a visual to use for inspiration:
 Sketch your workflow, ensuring you’ve identified the trigger (e.g., a Rewst form). Feel free to use the example from this video as a guide.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go back to the lesson page:<br><a data-mention href="./">.</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="building-the-add-remove-user-form.md">building-the-add-remove-user-form.md</a></td><td></td></tr></tbody></table>

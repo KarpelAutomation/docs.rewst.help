@@ -37,5 +37,5 @@ Want live support? Register for these [online group sessions](https://outlook.of
 * **Onboarding office hours** are a great opportunity to ask general questions about setting up child organizations.
 {% endhint %}
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="./"><strong>Continue the onboarding checklist</strong></a></td><td><a href="../../../.gitbook/assets/NEXT.png">NEXT.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="https://docs.rewst.help/cluck-university/getting-started/onboarding-checklist#start-automating-common-msp-processes-with-crates"><strong>Continue the onboarding checklist</strong></a></td><td><a href="../../../.gitbook/assets/NEXT.png">NEXT.png</a></td></tr></tbody></table>
 

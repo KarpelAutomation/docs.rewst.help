@@ -66,13 +66,13 @@ To customize variables for client organizations:
 
 #### **Identity & access management**
 
-| Field Label                  | Description                                                                                                                                                          |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Default RMM                  | Select your RMM                                                                                                                                                      |
-| Primary Identity Provider    | <p>Select what your organization uses for IDP.<br>Note if you use a hybrid setup with or with out ADsync you will want to select On-Prem</p>                         |
-| Preferred Domain Controller  | <p>The host name for the domain controller you would like Rewst to run Powershell on<br>Note: This does not need to be the fully qualified name and can be DC-01</p> |
-| Preferred ADConnect Server   | The name of the Server running ADConnect                                                                                                                             |
-| On-Prem Exchange Server      | Name of the On-Prem Exchange Server (if you are not running On-Prem Exchange, leave blank)                                                                           |
+| Field Label                  | Description                                                                                                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Default RMM                  | Select your RMM                                                                                                                                                                                                                                                    |
+| Primary Identity Provider    | <p>Select what your organization uses for IDP.<br>Note if you use a hybrid setup with or with out ADsync you will want to select On-Prem</p>                                                                                                                       |
+| Preferred Domain Controller  | Enter the domain controller's (DC) host name for Rewst to run PowerShell on — e.g., DC-01; fully qualified name not required. Note: Rewst auto-selects a DC for most RMMs, but you must specify one for N-able N-sight, N-able N-central, and ConnectWise Control. |
+| Preferred ADConnect Server   | The name of the Server running ADConnect                                                                                                                                                                                                                           |
+| On-Prem Exchange Server      | Name of the On-Prem Exchange Server (if you are not running On-Prem Exchange, leave blank)                                                                                                                                                                         |
 
 #### Licensing & purchases
 

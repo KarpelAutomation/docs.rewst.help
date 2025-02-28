@@ -1,4 +1,4 @@
-# Demystifying Process Automation
+# Demystifying process automation
 
 {% embed url="https://www.youtube.com/watch?v=3e3IPAp3Et4" %}
 

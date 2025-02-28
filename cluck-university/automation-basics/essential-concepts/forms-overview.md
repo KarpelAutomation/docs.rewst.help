@@ -60,5 +60,3 @@ Forms kick off workflows with the right data, reducing delays and back-and-forth
 {% embed url="https://www.surveymonkey.com/r/BFZPD9R" %}
 
 ## Keep on cluckin'
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module: </td><td><a href="webhooks-and-parameters/">webhooks-and-parameters</a></td><td><a href="webhooks-and-parameters/">webhooks-and-parameters</a></td></tr><tr><td align="center">Go to the next lesson:</td><td><a href="../back-to-rewst.md">back-to-rewst.md</a></td><td><a href="../back-to-rewst.md">back-to-rewst.md</a></td></tr></tbody></table>

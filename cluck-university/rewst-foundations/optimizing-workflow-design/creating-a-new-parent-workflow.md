@@ -4,7 +4,7 @@ description: >-
   automate while you automate.
 ---
 
-# Creating a New Parent Workflow
+# Creating a new parent workflow
 
 ## Module Overview
 
@@ -62,5 +62,3 @@ Log into Rewst and complete the following steps
 In your own processes, begin considering how to apply sub workflows in current and future automations.
 
 ### Navigation
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Previous Module:</td><td><a data-mention href="updating-the-add-or-remove-user-form.md">updating-the-add-or-remove-user-form.md</a></td><td></td></tr><tr><td>Go to the Next Module:</td><td><a data-mention href="sub-workflow-and-with-items-overview.md">sub-workflow-and-with-items-overview.md</a></td><td></td></tr></tbody></table>

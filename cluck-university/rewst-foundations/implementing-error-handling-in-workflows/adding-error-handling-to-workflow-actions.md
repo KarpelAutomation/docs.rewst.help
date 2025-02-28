@@ -4,7 +4,7 @@ description: >-
   actions. But...what if something fails
 ---
 
-# Adding Error Handling to Workflow Actions
+# Adding error handling to workflow actions
 
 ## Module Overview
 
@@ -56,6 +56,4 @@ Review the lesson resources on task transitions and experiment with adjusting th
 Start thinking about how you'd like to implement error handling in your workflows. Consider whether you'd prefer simple feedback messages, detailed error logs, or automated corrective actions. Defining clear criteria for handling different types of errors can ensure smoother workflow execution and make troubleshooting more efficient.
 
 ### Navigation
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>Go to the Lesson Page: <a data-mention href="./">.</a></td><td></td></tr><tr><td></td><td>Go to the Next Module: <a data-mention href="implementing-error-handling-with-feedback-messages.md">implementing-error-handling-with-feedback-messages.md</a></td><td></td></tr></tbody></table>
 

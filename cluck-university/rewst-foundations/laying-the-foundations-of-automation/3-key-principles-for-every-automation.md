@@ -4,7 +4,7 @@ description: >-
   planning with the end state in mind and involving your stakeholders
 ---
 
-# 3 Key Principles for Every Automation
+# 3 key principles for every automation
 
 ## Module Overview
 
@@ -38,5 +38,3 @@ This may be time saved or a different metric (or set of metrics), and goes back 
 * Make sure to collaborate with stakeholders to ensure your task/process is well-documented, and consider creating a diagram/flowchart to help you translate these starting points into the visual interface of a Rewst workflow.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:<br><a data-mention href="intro-to-automation-and-scoping.md">intro-to-automation-and-scoping.md</a></td><td align="center"></td><td></td></tr><tr><td align="center"><p>Go to the next module:</p><p><a data-mention href="101-laying-the-foundations-of-automations.md">101-laying-the-foundations-of-automations.md</a><br></p></td><td align="center"></td><td></td></tr></tbody></table>

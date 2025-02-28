@@ -4,7 +4,7 @@ description: >-
   decision-making in workflows, based on the properties of a Microsoft Group.
 ---
 
-# Getting Object Properties for Microsoft Groups
+# Getting object properties for Microsoft Groups
 
 ## Module Overview
 
@@ -13,8 +13,6 @@ description: >-
 ### Video (8:47 _Minutes)_
 
 {% embed url="https://youtu.be/Z6IWP50i9zA" %}
-
-
 
 <details>
 
@@ -54,5 +52,3 @@ description: >-
 * Implement a noop to control the workflow's flow, determining the appropriate action based on the group type.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:<br><a data-mention href="introduction-to-workflow-logic-microsoft-apis.md">introduction-to-workflow-logic-microsoft-apis.md</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:<br><a data-mention href="creating-a-microsoft-exchange-online-path-in-the-workflow.md">creating-a-microsoft-exchange-online-path-in-the-workflow.md</a></td><td align="center"></td><td></td></tr></tbody></table>

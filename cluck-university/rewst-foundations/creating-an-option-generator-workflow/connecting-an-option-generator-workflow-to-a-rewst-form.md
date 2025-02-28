@@ -5,7 +5,7 @@ description: >-
   and Workflow" lesson.
 ---
 
-# Connecting an Option Generator Workflow to a Rewst Form
+# Connecting an option generator workflow to a Rewst form
 
 ## Module Overview
 
@@ -54,5 +54,3 @@ description: >-
 * Test the form to ensure the Group field populates with different options based on the selected action.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:<br><a data-mention href="using-jinja-in-data-aliases-and-creating-an-api-request-action.md">using-jinja-in-data-aliases-and-creating-an-api-request-action.md</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to wrap up the lesson:<br><a data-mention href="./#next-steps">#next-steps</a></td><td align="center"></td><td></td></tr></tbody></table>

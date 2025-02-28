@@ -1,4 +1,4 @@
-# How to Scope an Automation
+# How to scope an automation
 
 {% embed url="https://youtu.be/2ocLIJAe2YY?si=z_K2HaB7k_-yUFGL" %}
 

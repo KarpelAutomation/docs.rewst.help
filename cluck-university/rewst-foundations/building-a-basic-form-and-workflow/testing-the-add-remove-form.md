@@ -2,7 +2,7 @@
 description: Test a workflow and view the results.
 ---
 
-# Testing the "Add or Remove User - Microsoft Group" Form
+# Testing the "Add or Remove User - Microsoft Group" form
 
 ## Module Overview
 
@@ -63,5 +63,3 @@ If the workflow succeeded: Congratulations! You’ve successfully completed your
 * If the workflow fails, investigate the error data and make necessary corrections. For help with this, post in the #cluck-u Discord channel.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><p>Go to the previous module:</p><p><a data-mention href="adding-actions-to-add-remove-workflow.md">adding-actions-to-add-remove-workflow.md</a></p></td><td align="center"></td><td></td></tr><tr><td align="center">Go to wrap up the lesson:</td><td align="center"><a data-mention href="./#next-steps">#next-steps</a></td><td></td></tr></tbody></table>

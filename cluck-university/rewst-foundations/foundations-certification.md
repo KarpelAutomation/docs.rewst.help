@@ -1,4 +1,4 @@
-# Foundations Certification
+# Foundations certification
 
 ## Congratulations on Completing the Rewst Foundations Series!
 
@@ -43,7 +43,7 @@ Please be aware that occasionally due to a caching issue within the exam workflo
 ### Preparation Tips
 
 * **Review Training Material:** Revisit the Rewst 101 \~ 106 training modules, focusing on practical applications.
-* **Resource Utilization:** Make full use of the [resources outlined on our Welcome and Enrollment page](../welcome-and-enrollment.md#learning-resources).
+* **Resource Utilization:** Make full use of the [resources outlined on our Getting Started page](../getting-started/).
 * **Community Engagement:** Engage with the Cluck U channel in our Discord community for peer discussions and insights.
 
 ## Best of luck with your Rewst Foundations Certification Exam!

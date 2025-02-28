@@ -2,7 +2,7 @@
 description: Create a form that contains the required input to automate a process
 ---
 
-# Building the "Add or Remove User - Microsoft Group" Form
+# Building the "Add or Remove User - Microsoft Group" form
 
 ## Module Overview
 
@@ -78,5 +78,3 @@ Log into Rewst and complete the following steps.
 * Make sure to set up your Microsoft Graph integration if you haven’t already, as it's required for the dynamic options in the form fields (and you'll see those after creating the workflow).
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:<br><a data-mention href="from-workflow-sketch-to-rewst-prototype.md">from-workflow-sketch-to-rewst-prototype.md</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="creating-the-add-remove-user-workflow.md">creating-the-add-remove-user-workflow.md</a></td><td></td></tr></tbody></table>

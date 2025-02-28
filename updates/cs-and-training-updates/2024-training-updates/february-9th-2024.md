@@ -18,7 +18,6 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* Added a [welcome-and-enrollment.md](../../../cluck-university/welcome-and-enrollment.md "mention")page to sign up for our live course schedule and access all the resources you need to get started!
 * Updated the [rewst-foundations](../../../cluck-university/rewst-foundations/ "mention")page to include links to both self-serve and live sign-ups.
 
 **New & Updated Pages:**

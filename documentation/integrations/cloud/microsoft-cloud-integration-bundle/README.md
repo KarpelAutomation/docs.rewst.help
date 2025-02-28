@@ -5,7 +5,7 @@ description: >-
   setup.
 ---
 
-# Microsoft Cloud Integration Bundle
+# Microsoft Cloud integration bundle
 
 ***
 
@@ -22,9 +22,13 @@ Welcome to the Rewst Microsoft Cloud Integration Bundle guide. This document is 
 
 ***
 
-## Getting Started with the Bundle
+## **Prerequisites and best Practices for Microsoft Integrations**
+
+Before getting started with the Microsoft Cloud bundle, refer to: [authorization-best-practices.md](authorization-best-practices.md "mention").
 
 ***
+
+## Getting Started with the Bundle
 
 ### **Initial Setup**
 
@@ -87,7 +91,3 @@ Review each of the integrations respective pages for the individual details on t
 {% hint style="info" %}
 For troubleshooting tips, check out the [troubleshooting-installation-issues.md](common-issues-with-microsoft-bundle/troubleshooting-installation-issues.md "mention") and [common-issues-with-microsoft-bundle](common-issues-with-microsoft-bundle/ "mention") pages.
 {% endhint %}
-
-## **Best Practices for Microsoft Integrations**
-
-For best practice information please refer to: [Best Practices for Microsoft Integrations](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices).

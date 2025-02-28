@@ -5,7 +5,7 @@ description: >-
   appropriate trigger.
 ---
 
-# How to Create, Configure, and Trigger an Option Generator Workflow
+# How to create, configure, and trigger an option generator workflow
 
 ## Module Overview
 
@@ -109,5 +109,3 @@ Log into Rewst and complete the following steps.
 * Add an Integration Override to the Option Generator so it can be used across all your managed organizations. This ensures the workflow is flexible and scalable for different environments
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:<br><a data-mention href="introduction-to-option-generators.md">introduction-to-option-generators.md</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:<br><a data-mention href="using-jinja-in-data-aliases-and-creating-an-api-request-action.md">using-jinja-in-data-aliases-and-creating-an-api-request-action.md</a></td><td align="center"></td><td></td></tr></tbody></table>

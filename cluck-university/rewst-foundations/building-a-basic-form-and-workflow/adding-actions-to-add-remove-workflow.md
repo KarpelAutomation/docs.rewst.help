@@ -2,7 +2,7 @@
 description: Create part of a workflow to test, starting with just a few actions.
 ---
 
-# Adding Actions to the "Add or Remove User - Microsoft Group" Workflow
+# Adding actions to the "Add or Remove User - Microsoft Group" workflow
 
 ## Module Overview
 
@@ -79,5 +79,3 @@ Remember, while Rewst auto-saves your work, it’s a good habit to **publish** a
 Add the actions to your workflow as outlined above, ensuring that you configure each action correctly and connect them to the appropriate transitions.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><p>Go to the previous module:</p><p><a data-mention href="creating-the-add-remove-user-workflow.md">creating-the-add-remove-user-workflow.md</a></p></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="testing-the-add-remove-form.md">testing-the-add-remove-form.md</a></td><td></td></tr></tbody></table>

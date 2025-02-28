@@ -42,6 +42,5 @@ Explore what new changes the Training team has made in the last week.
 * Updated Pages
   * Updated and added instructions to [datto-psa-integration-setup.md](../../../documentation/integrations/psa/autotask-datto-psa/datto-psa-integration-setup.md "mention")
   * Reordered steps in [connectwise-integration-setup.md](../../../documentation/integrations/psa/connectwise-manage/connectwise-integration-setup.md "mention")
-  * Updated [welcome-and-enrollment.md](../../../cluck-university/welcome-and-enrollment.md "mention")
 
 </details>

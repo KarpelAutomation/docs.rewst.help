@@ -53,4 +53,4 @@ Take a quick quiz and get instant feedback!
 
 In the next lesson, you'll learn about how Rewst can save you money!
 
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go back a step</td><td><a href="./">.</a></td><td><a href="../getting-started/">getting-started</a></td></tr><tr><td align="center">Go to the next lesson:</td><td><a href="measuring-roi.md">measuring-roi.md</a></td><td></td></tr><tr><td align="center">Get help with this lesson in office hours!</td><td><a href="../office-hours.md">office-hours.md</a></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Get help with this lesson in office hours!</td><td><a href="../office-hours.md">office-hours.md</a></td><td></td></tr></tbody></table>

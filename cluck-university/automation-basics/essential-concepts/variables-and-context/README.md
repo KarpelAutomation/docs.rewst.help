@@ -60,5 +60,3 @@ Together, variables, data aliases, and the context make your workflows in Rewst 
 * Check out our [variable practice activities](variables-activities.md) to solidify your understanding even more!&#x20;
 
 ## Keep on cluckin'
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module: </td><td><a href="../reading-json/">reading-json</a></td><td><a href="../reading-json/">reading-json</a></td></tr><tr><td align="center">Go to the next module:</td><td><a href="../programming-concepts/">programming-concepts</a></td><td><a href="../programming-concepts/">programming-concepts</a></td></tr></tbody></table>

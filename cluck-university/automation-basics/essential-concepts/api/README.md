@@ -124,5 +124,3 @@ APIs might seem complex, but it all comes down to understanding the verbs and co
 * Check out our [API practice activities](api-activities.md) to solidify your understanding even more!&#x20;
 
 ## Keep on cluckin'
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go back to the lesson page: </td><td><a href="../">..</a></td><td></td></tr><tr><td align="center">Go to the next module:</td><td><a href="../json-intro.md">json-intro.md</a></td><td><a href="../json-intro.md">json-intro.md</a></td></tr></tbody></table>

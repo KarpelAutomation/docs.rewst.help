@@ -4,7 +4,7 @@ description: >-
   existing list data
 ---
 
-# Jinja List Comprehension
+# Jinja list comprehension
 
 ## Module Overview
 
@@ -44,5 +44,3 @@ Practice the list comprehension exercises included in the "Lunch Menu" data set:
 
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module: </td><td align="center"><a data-mention href="basic-jinja-syntax-and-filters.md">basic-jinja-syntax-and-filters.md</a></td><td></td></tr><tr><td align="center">Go to the next module:</td><td align="center"><a data-mention href="jinja-list-comprehension-examples-them-apples.md">jinja-list-comprehension-examples-them-apples.md</a></td><td></td></tr></tbody></table>

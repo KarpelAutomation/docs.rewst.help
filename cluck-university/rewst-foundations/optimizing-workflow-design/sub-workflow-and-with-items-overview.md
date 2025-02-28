@@ -4,7 +4,7 @@ description: >-
   up to create highly efficient workflows.
 ---
 
-# Sub Workflow and With Items Overview
+# Subworkflow and with items overview
 
 ## Module Overview
 
@@ -60,5 +60,3 @@ Log into Rewst and complete the following steps
 Test the "With Items" feature with other actions in Rewst to see how it performs and functions.
 
 ### Navigation
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Previous Module:</td><td><a data-mention href="creating-a-new-parent-workflow.md">creating-a-new-parent-workflow.md</a></td><td></td></tr><tr><td>Go to the Next Module:</td><td><a data-mention href="adding-other-parent-workflow-actions.md">adding-other-parent-workflow-actions.md</a></td><td></td></tr></tbody></table>

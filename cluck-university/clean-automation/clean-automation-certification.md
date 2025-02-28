@@ -1,4 +1,4 @@
-# Clean Automation Certification
+# Clean automation certification
 
 ## Congratulations on Completing the Rewst Clean Automation Series!
 
@@ -61,7 +61,7 @@ Please be aware that occasionally due to a caching issue within the exam workflo
 ### Preparation Tips
 
 * **Review Training Material:** Revisit the Clean Automation lessons, focusing on practical applications.
-* **Resource Utilization:** Make full use of the [resources outlined on our Welcome and Enrollment page](../welcome-and-enrollment.md#learning-resources).
+* **Resource Utilization:** Make full use of the resources [outlined on our Getting Started page](../getting-started/).
 * **Community Engagement:** Engage with the Cluck U channel in our Discord community for peer discussions and insights.
 
 ## Best of luck with your Rewst Clean Automation Certification Exam!

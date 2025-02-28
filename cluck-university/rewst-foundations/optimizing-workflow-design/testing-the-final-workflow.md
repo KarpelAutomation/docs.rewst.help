@@ -2,9 +2,20 @@
 description: >-
   It's time for the best part... testing out all this hard work to see what
   happens!
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
-# Testing the Final Workflow
+# Testing the final workflow
 
 ## Module Overview
 

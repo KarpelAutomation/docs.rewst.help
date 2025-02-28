@@ -96,5 +96,3 @@ Remember, everything we’re doing is to output data to the group field connecte
 * Review [how-to-reference-data-with-variables.md](../../micro-courses/how-to-reference-data-with-variables.md "mention") to store objects from the action into Data Aliases.
 
 ## Navigation
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">Go to the previous module:<br><a data-mention href="how-to-create-configure-and-trigger-an-option-generator-workflow.md">how-to-create-configure-and-trigger-an-option-generator-workflow.md</a></td><td align="center"></td><td></td></tr><tr><td align="center">Go to the next module:<br><a data-mention href="connecting-an-option-generator-workflow-to-a-rewst-form.md">connecting-an-option-generator-workflow-to-a-rewst-form.md</a></td><td align="center"></td><td></td></tr></tbody></table>
