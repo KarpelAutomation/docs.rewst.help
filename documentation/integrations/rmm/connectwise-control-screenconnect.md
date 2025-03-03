@@ -27,12 +27,20 @@ To allow Rewst access to your ConnectWise ScreenConnect, you'll need to create a
 ### Setup steps in ConnectWise ScreenConnect
 
 1. Click the **Admin** button on the left-hand side of the screen on your ConnectWise ScreenConnect instance.
-2. Click **Security** in the sidebar.
-3. Click **Show User Table.**
-4. Click **Add User**.
-5. **Fill out** the required data.
-6. Ensure that you select at minimum the **Control Host** permission.
-7. Make a note of the **username**, **password**, and **TOTP** secret , which you'll need for setup steps in Rewst.
+2. Click **Security** in the left side menu.
+3. Click **Show User Table** under the **Internal** submen&#x75;**.**
+4. Click **Create User**.
+5.  **Fill out** the required data.\
+
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt=""><figcaption></figcaption></figure>
+6. Ensure that you check on at minimum the **Control Host** permission.
+7. Make a note of the **username**, **password**, and **OTP** secret , which you'll need for setup steps in Rewst.
+8. Click **Save User**.
+
+{% hint style="warning" %}
+The steps to generate your OTP secret will differ depending on your MFA tool. See [ConnectWise's own documentation here](https://docs.connectwise.com/ScreenConnect_Documentation/Get_started/Administration_page/Security_page/Enable_two-factor_authentication_for_host_accounts) for steps pertaining to your particular MFA method.
+{% endhint %}
 
 ### Setup steps in Rewst
 
@@ -49,7 +57,7 @@ To allow Rewst access to your ConnectWise ScreenConnect, you'll need to create a
    1. Enter your ConnectWise ScreenConnect domain in the **Hostname** field.
    2. Enter the password you created for your Rewst API user in the **Password** field.
    3. Enter the username for your Rewst user in the **Username** field.
-   4. Enter the base32 TOTP secret copied from ConnectWise ScreenConnect into the **TOTP Secret** field.
+   4. Enter the base32 OTP secret copied from ConnectWise ScreenConnect into the **TOTP Secret** field.
 6.  Click **Save Configuration.**
 
 
@@ -69,6 +77,30 @@ This will then result in a failed authentication against the user set in the int
 
 This is most commonly seen in cases where a workflow is scheduled to run across multiple computers at multiple orgs for a customer.&#x20;
 {% endhint %}
+
+## Troubleshoot the ConnectWise ScreenConnect integration
+
+### Failed to refresh options: Error failed to get sessions
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-03 at 4.25.10 PM.png" alt="" width="375"><figcaption><p>The error message will appear in a red box across the configuration screen</p></figcaption></figure>
+
+
+
+In ScreenConnect:
+
+1. Create a session group named `All Machines by Company` and give it a sub group expression of `CustomProperty2`.
+2. Create a session group called `All Machines` with no sub group expression.
+
+In Rewst:
+
+1. Navigate to the ConnectWise ScreenConnect integrations' configuration page.
+2. Set the following values:
+   1. Organization Subgroup Expression: `CustomProperty2`
+   2. Root Session Group: `All Machines by Company`
+
+View ConnectWise's own documentation for how to create a session group in the below video.
+
+{% embed url="https://www.youtube.com/watch?v=f2L-eXBKT2U" %}
 
 ## Actions
 

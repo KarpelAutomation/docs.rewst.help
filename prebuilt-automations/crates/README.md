@@ -6,10 +6,6 @@ description: >-
 
 # Crates in Rewst
 
-
-
-{% embed url="https://youtu.be/KsrC5xjySds" %}
-
 ## What is a Crate?
 
 Essentially, a Crate is a prebuilt automation. A Rewst crate contains all the pieces that power the automation: workflows, triggers, and often forms. These are usually built and curated by our ROC team or from our community to facilitate easy deployment. Many of our Crates depend on your first setting up relevant integrations
@@ -44,6 +40,12 @@ Begin to unpack a Crate by clicking the pink **Unpack Crate** button in the top 
 
 
 You might encounter a screen prompting you to enable or disable specific triggers. Make sure that you're only enabling the triggers that are relevant to you. Add any necessary customizations required by your business logic to avoid overwriting on Crate updates.
+
+{% hint style="danger" %}
+Generally, integration overrides will be enabled on triggers when unpacking a crate. As a best practice, keep the integration overrides on at this step.
+{% endhint %}
+
+
 
 Optionally rename your workflow, trigger and form names, and update your **Time Saved** in the **Crate Configuration** page before finally confirming that you want to **Unpack**.
 

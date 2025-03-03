@@ -485,6 +485,7 @@
   * [Document M365 groups setup](prebuilt-automations/existing-crate-documentation/document-m365-groups-setup.md)
   * [Document M365 shared mailboxes setup](prebuilt-automations/existing-crate-documentation/document-m365-shared-mailboxes-setup.md)
   * [Document M365 users setup](prebuilt-automations/existing-crate-documentation/document-m365-users-setup.md)
+  * [Document Rewst Form URLs (IT Glue/Hudu) Crate](prebuilt-automations/existing-crate-documentation/document-rewst-form-urls-it-glue-hudu-crate.md)
   * [Export Intune Policies and Configurations Crate](prebuilt-automations/existing-crate-documentation/export-intune-policies-and-configurations-crate.md)
   * [Just in Time Admin Access Crate](prebuilt-automations/existing-crate-documentation/just-in-time-admin-access-crate.md)
   * [Microsoft: User Onboarding Crate V2](prebuilt-automations/existing-crate-documentation/microsoft-user-onboarding-crate-v2/README.md)
