@@ -6,7 +6,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the Cisco Meraki integration do?
 
-This integration enables seamless automation of network management and IT operations using Cisco Miraki's API, helping you manage alerts, licenses, and hardware.
+This integration enables seamless automation of network management and IT operations using Cisco Meraki's API, helping you manage alerts, licenses, and hardware.
 
 ### Integration use cases
 
@@ -18,7 +18,7 @@ This integration enables seamless automation of network management and IT operat
 
 ### Set up steps in Cisco Meraki
 
-1. Log in to Cisco Miraki.&#x20;
+1. Log in to Cisco Meraki.&#x20;
 2. Navigate to the **My Profile** page, accessed via the avatar icon in the top right-hand corner of dashboard.
 3. Click **Generate new API key**.\
    \

@@ -1,4 +1,4 @@
-# ROC Open Mics
+# February 28, 2025: Rewst Just Dropped 4 New Integrations
 
 ### **Join Live!**
 
@@ -6,7 +6,7 @@ Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request_type=open_mic_link&)!
 
-## Latest Open Mic Video Recording
+## Open Mic Video Recording
 
 {% embed url="https://youtu.be/1pIY15pdXhs" %}
 
@@ -27,6 +27,8 @@ Join us live every Friday at 3 pm EST!
 🗃 Jason automates cleaning up outdated companies in ConnectWise Manage, saving days of manual work with sub-workflows for deletion and inactivation.&#x20;
 
 ❓ Phillip troubleshoots a with items issue, leading to a live debugging session and solution using proper Jinja syntax.
+
+
 
 <details>
 
@@ -54,4 +56,3 @@ Join us live every Friday at 3 pm EST!
 * 📝 Feature Request + Integration Requests: [https://rewst.canny.io/](https://rewst.canny.io/)
 
 </details>
-
