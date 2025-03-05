@@ -1,4 +1,4 @@
-# Getting Started
+# Getting started with App Builder
 
 #### Welcome to the App Builder Getting Started Guide!
 
@@ -23,10 +23,10 @@ In this guide, we’ll focus on:
 3. **Designing a Workflow**: See how workflows bring your app to life.
 4. **Utilising Built-in Components**: Make your app functional with ready-made building blocks.
 
-As we move through these steps, we’ll gradually evolve our project into a fully-functional Forms Portal—a complete system that your users can interact with. Later on, we’ll add CSS styling to ensure that your app not only works well but also looks great.
+
 
 **What’s Next?**
 
-We’ll start with the basics to get you comfortable with the platform. You’ll soon see how easy it is to build and scale your Apps. Each section of this guide will build on the last, taking you from a simple "Hello World" to a professional, end-user-friendly portal.
+We’ll start with the basics to get you comfortable with the platform. You’ll soon see how easy it is to build and scale your apps.&#x20;
 
 Let’s dive in and start building your first app!

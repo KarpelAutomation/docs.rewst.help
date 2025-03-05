@@ -163,12 +163,12 @@ Configure the following ticketing-related settings in **Rewst > Configuration > 
 | **Variable name**                 | **Purpose**                                                            |
 | --------------------------------- | ---------------------------------------------------------------------- |
 | `default_psa`                     | Select the PSA where tickets will be logged.                           |
-| `default_ticket_location`         | The board where Rewst-generated tickets will be placed.                |
+| `psa_default_board_id`            | The board where Rewst-generated tickets will be placed.                |
 | `default_ticket_status`           | The status used when Rewst is actively working on a ticket.            |
 | `ticket_status_waiting_input`     | The status when Rewst is waiting for input, such as license purchases. |
 | `ticket_status_workflow_complete` | The status when Rewst has finished the workflow.                       |
 | `default_priority`                | Sets the priority for Rewst-created tickets.                           |
-| `send_from_address`               | Defines the reply-to address for emails sent from Rewst.               |
+| `psa_send_from_address`           | Defines the reply-to address for emails sent from Rewst.               |
 
 {% hint style="warning" %}
 Your PSA integration must be fully functional before assigning ticket-related variables.

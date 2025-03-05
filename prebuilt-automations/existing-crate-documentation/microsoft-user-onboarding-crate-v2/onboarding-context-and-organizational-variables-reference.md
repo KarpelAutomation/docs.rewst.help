@@ -90,7 +90,7 @@ Expand each of the categories below to see that type of variable's reference tab
 | `CTX.password_storage_location` | Defines where the password is stored (PSA, ITGlue, Hudu, etc.).  |
 | `CTX.require_password_change`   | Indicates if the user must change the password upon first login. |
 | `CTX.prevent_password_change`   | Restricts the user from manually updating their password.        |
-| CTX.store\_password\_in\_ticket | Determines whether the password should be stored as a ticket.    |
+| `CTX.store_password_in_ticket`  | Determines whether the password should be stored as a ticket.    |
 
 </details>
 
@@ -163,7 +163,7 @@ Expand each of the categories below to see that type of variable's reference tab
 
 | **ORG.VARIABLES**                         | **Purpose**                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------------------- |
-| `microsoft_licensing_distributor`         | Selects the default Microsoft 365 license distributor (Pax8, Sherweb, etc.). |
+| `ms_licensing_distributor`                | Selects the default Microsoft 365 license distributor (Pax8, Sherweb, etc.). |
 | `auto_purchase_license_if_none_available` | Enables auto-purchase of Microsoft 365 licenses when unavailable.            |
 
 </details>

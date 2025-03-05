@@ -246,7 +246,7 @@ The technician has two options:
 
 | **ORG.VARIABLES**                         | **Purpose**                                                                    |   |
 | ----------------------------------------- | ------------------------------------------------------------------------------ | - |
-| `microsoft_licensing_distributor`         | Defines the distributor for license purchases (if auto-purchasing is enabled). |   |
+| `ms_licensing_distributor`                | Defines the distributor for license purchases (if auto-purchasing is enabled). |   |
 | `auto_purchase_license_if_none_available` | Enables auto-purchase of licenses when none are available.                     |   |
 | `default_psa`                             | Defines which PSA system to log ticket updates in.                             |   |
 | `default_ticket_status`                   | Defines the PSA ticket status when waiting for technician input.               |   |
