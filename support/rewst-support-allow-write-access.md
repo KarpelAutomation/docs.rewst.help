@@ -1,7 +1,3 @@
----
-noIndex: true
----
-
 # Rewst support: Allow write access
 
 {% hint style="warning" %}

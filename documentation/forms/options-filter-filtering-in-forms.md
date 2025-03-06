@@ -40,9 +40,15 @@ The **All Options** drop-down selector holds all of the options which you’ve s
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-25 at 4.36.22 PM.png" alt=""><figcaption></figcaption></figure>
 
-The Filtered Options drop-down selector holds ?? a list of your selected options after applying the filter. It acts as a preview for what to expect from your filtering.
+The Filtered Options drop-down selector holds a list of your selected options after applying the filter. It acts as a preview for what to expect from your filtering.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-25 at 4.36.30 PM.png" alt=""><figcaption></figcaption></figure>
+
+If a drop-down uses a custom options filter, there will be a badge indicator in the top right of the drop-down field.
+
+<figure><img src="../../.gitbook/assets/indicator.png" alt=""><figcaption></figcaption></figure>
+
+
 
 #### The JSON interface
 
@@ -53,7 +59,7 @@ Toggle from the default **Simple** view to the **JSON** view. This will switch t
 ### AND and OR conditional options filtering
 
 {% hint style="info" %}
-Using the options filter for forms will require a basic understanding of Boolean. If you’re new to the topic, be sure to complete our [Clean Automation course in Cluck University](https://docs.rewst.help/cluck-university/clean-automation/boolean-logic-and-comparisons) before trying out this feature.
+Using the options filter for forms will require a basic understanding of Boolean. If you’re new to the topic, be sure to complete our Clean Automation course in Cluck University before trying out this feature.
 {% endhint %}
 
 The options filter works off of two boolean operators, which are used to build queries for a variety of filtering situations.
