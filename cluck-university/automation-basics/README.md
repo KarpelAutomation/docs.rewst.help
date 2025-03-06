@@ -12,6 +12,16 @@ From understanding what makes Rewst’s **process-based automation** unique, to 
 
 If you're ready to streamline operations, reduce manual work, and tap into the full potential of Rewst, this course will give you the tools to become a true automation trailblazer.
 
+## Live instructor-led sessions
+
+Join our weekly live instructor-led session, where an expert instructor will guide you through this course a single(1) hour long session. Live instructor-led sessions are designed to provide:
+
+* **Provide Real-Time Interaction**: Ask questions and get immediate answers as you progress through each lesson, ensuring you fully understand each concept.
+* **Offer Dedicated Time for Learning**: With a structured schedule and a knowledgeable instructor, you’ll stay focused and motivated, maximizing your learning experience.
+* **Go In-Depth with Rewst**: Dive deeper into Rewst’s capabilities, with insights into best practices and advanced strategies for optimal usage.
+
+## Sign-up for the live session [here](https://calendly.com/cluck-u/automation-basics).
+
 ## Course lessons
 
 Complete each lesson sequentially, and revisit anything you need a refresher on.
