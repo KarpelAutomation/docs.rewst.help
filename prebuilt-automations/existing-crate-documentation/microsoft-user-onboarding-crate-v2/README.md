@@ -301,27 +301,12 @@ The following templates define approval processes, ticket summaries, and structu
 ## Migration guide: Moving from a previous onboarding Crate
 
 {% hint style="warning" %}
-☝️If you’re using a previous version of the onboarding workflow, follow these migration steps to transition to the new version. If this is your first time using this Crate, this information isn't relevant to you.
+☝️If you’re using a previous version of the onboarding workflow, follow these migration steps below. If this is your first time using this Crate, this information isn't relevant to you.
 {% endhint %}
 
-<details>
-
-<summary>Crate migration steps</summary>
-
-1. Unpack the new Crate in your environment.
-2. Test the setup to verify that your organizational variables are correctly configured.
-   * The same org variables are used as in the previous version.
-   * If updates are required, refer to the [Organizational Variables Guide](https://www.notion.so/Draft-Microsoft-User-Onboarding-Crate-Part-1-19fb56f9907180118ca4c28be86cda8a?pvs=21).
-3. Once testing is complete, transition to the new workflow:
-   * If using the new form:
-     * Disable form triggers in the previous onboarding workflow.
-     * Update internal documentation with the new form URL.
-     * If necessary, provide customers with the new onboarding form link.
-   * If keeping the previous form linked:
-     * The previous form can be linked to this version, but will not receive future updates.
-     * Rewst will only maintain this version moving forward.
-
-</details>
+{% content-ref url="../../crates/migrating-between-crate-versions.md" %}
+[migrating-between-crate-versions.md](../../crates/migrating-between-crate-versions.md)
+{% endcontent-ref %}
 
 {% hint style="success" %}
 🚀 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

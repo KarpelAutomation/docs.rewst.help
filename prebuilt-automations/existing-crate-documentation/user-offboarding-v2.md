@@ -1,4 +1,4 @@
-# User Offboarding v2
+# User offboarding v2
 
 ## Overview
 
@@ -57,12 +57,11 @@ Within the form select various options such as session invalidation, license rem
 
 ## Considerations When Migrating
 
-When officially migrating to offboarding v2 various items should be taken into consideration as part of this process. Below is a common list of actionable items to consider when migrating to v2 of the offboarding crate.
+If you're considering migrating, follow the steps found on the page below:
 
-* Disabling workflow triggers for v1 of the offboarding crate
-* Updating any workflow wrappers or completion handlers (aka workflow listeners) to utilize v2 of the offboarding crate
-* Update references to the v1 form. For example, this may include any workflows that add form links to tickets
-* Update any custom forms that currently utilize v1 to be compatible with and utilize v2
+{% content-ref url="../crates/migrating-between-crate-versions.md" %}
+[migrating-between-crate-versions.md](../crates/migrating-between-crate-versions.md)
+{% endcontent-ref %}
 
 {% hint style="success" %}
 Note: Rewst-managed workflows that contain the above functionality will automatically be updated when v1 is officially deprecated.

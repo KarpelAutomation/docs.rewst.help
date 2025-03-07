@@ -94,7 +94,7 @@ Agent Smith installs itself as a service. You can use PowerShell or the SC comma
 
 * Ensure admin-level account setup, so the service will install as SYSTEM.
 * Verify the recent MS PowerShell version on your devices.
-* Ensure that no firewalls are preventing communications with Rewst or your IoT Hub. Check our[Rewst Security Configuration Page](https://docs.rewst.help/security) for details.
+* Ensure that no firewalls are preventing communications with Rewst or your IoT Hub. Check our [Rewst Security Configuration Page](https://docs.rewst.help/security) for details.
 * Ensure that endpoint security software is not preventing executions or comms.
 * Check device connectivity to Azure IoT Hub via MQTT: `<your_iothub_name>.azure-devices.net:8883`.
 * Get packet captures from the agent while workflows are running. This can help us determine if the agent is properly communicating with the IoT Hub and/or the Rewst engine.
