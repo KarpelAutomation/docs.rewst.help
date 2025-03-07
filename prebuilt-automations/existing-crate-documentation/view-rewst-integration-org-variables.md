@@ -1,4 +1,4 @@
-# View Rewst Integration Org Variables
+# View Rewst integration org variables
 
 <details>
 
@@ -25,7 +25,7 @@
 </details>
 
 {% hint style="success" %}
-If you're interested in taking advantage of the **View Rewst Integration Org Variables** within your Rewst organization, [unpack it from the Crate Marketplace](https://app.rewst.io/marketplace/crates/cc5a7acf-790a-423e-be19-1a5cbf0c3f07).
+If you're interested in taking advantage of the **View Rewst Integration Org Variables** within your Rewst organization, unpack it from the Crate Marketplace.
 {% endhint %}
 
 ## Crate Overview

@@ -1,7 +1,7 @@
 # Export Intune Policies and Configurations Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Export Intune Policies and Configurations Crate in our [Crate Marketplace](https://app.rewst.io/marketplace/crates/873e86d3-5d7e-42c3-b876-c811ddf59a77).
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Export Intune Policies and Configurations Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the Export Intune Policies and Configurations Crate do?

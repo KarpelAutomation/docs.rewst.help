@@ -10,7 +10,7 @@ The Microsoft: User Onboarding Crate automates the user onboarding process by st
 
 Ensure that new employees or contractors are provisioned accurately and consistently based on predefined policies, integrating seamlessly with PSA, RMM, documentation, and licensing systems.
 
-## **Crate use cases**
+## **Why use the Microsoft: User Onboarding Crate?**
 
 This Crate is ideal for MSPs and IT teams managing Microsoft environments.
 

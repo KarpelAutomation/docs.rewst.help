@@ -1,47 +1,55 @@
 # Add Client to Rewst Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Just in Time Admin Access Crate in our Crate Marketplace.
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Add Client to Rewst Crate in our Crate Marketplace.
 {% endhint %}
 
 {% hint style="info" %}
 ### There are two ways to add clients to Rewst:
 
-1. With the _Add Client to Rewst_ Crate.
+1. With the Add Client to Rewst Crate.
 2. Through your CSP integration.
 
-This article will cover how to do this with the _Add Client to Rewst_ Crate. [You can find alternative instructions here](../../documentation/user-management/adding-a-new-client-to-rewst.md).
+This page will cover how to do this with the Add Client to Rewst Crate. [You can find alternative instructions for the second method here](../../documentation/user-management/adding-a-new-client-to-rewst.md).
 {% endhint %}
 
+## What does the Add Client to Rewst Crate do?
 
+The Add Client to Rewst Crate lets you easily use a form to add a new client to Rewst, and map your installed integrations to the organization.
 
 ### Set up the Add Client to Rewst Crate
 
-1. **Go to** _Crates_ → _Crate Marketplace_ in the app.
-2. **Click** on the _Add Client to Rewst_ Crate.
-3. (Optional) **Change** the name of the Workflow to suit your needs.
-4. **Click** _Unpack_ at the bottom.
+1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+2.  Search for **Add Client to Rewst**.
+
+    \
+    \
+    ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 9.50.14 AM.png>)
+3. Click on the Crate tile to begin unpacking.
+4. Click **Unpack Crate**.
+5. Click **Continue**.
+6. Add your **Time Saved**.
+7. Click **Unpack**.
 
 <figure><img src="../../.gitbook/assets/unpack-client-add-crate.gif" alt=""><figcaption><p>Adding the Crate</p></figcaption></figure>
 
 ### How to get to the form
 
-You can get to the form to add a client with the following:
+After unpacking, use the Crate's form to add a client.
 
-1. **Go to** _Automations_ → _Forms_.
-2. **Find** the new Form.
-   * If you have many forms, it's possible it will be on another page. You can use the search to help find it.
-3. **Click** on the _Options_ menu to the right of the form.
-4. **Click** _Usages_.
-5. **Click** _View Direct URL_.
-6. **Click** or **Copy** the form URL to access the form.
+1. **Navigate to** **Automations > Forms**.
+2. Find the new form. Use search to help with this, if your form list is lengthy.
+3. Click on the **Options** menu to the right of the form.
+4. Click **Usages**.
+5. Click **View Direct URL**.
+6. Click or copy the form URL to access the form.
 
 ### What you need to fill out the form
 
-Once you're in the form, you will see the following fields:
+Once you're in the form, you'll see the following fields:
 
-* **Company Name**: The Name of the company you want in Rewst
-* **Customer Primary Domain**: The domain of the company (ex. `Rewstyhouse.com`)
+* **Company Name**: The name of the company you want to add to Rewst
+* **Customer Primary Domain**: The domain of the company. For example, `Rewstyhouse.com .`
 
 This form will also give you the option to map the following installed integration categories:
 
@@ -52,9 +60,9 @@ This form will also give you the option to map the following installed integrati
 * **Licensing & Distribution**
 * **Backup & Security**
 
-With the above filled out and configured, you can add or invite users to the new Site as the following Roles:
+With the above filled out and configured, you can add or invite users to the new site as the following roles:
 
-* **Forms-only User**: Only able to view Rewst Forms
+* **Forms-only User**: Only able to view Rewst forms
 * **Member Users**: Able to view forms, results, and create workflows in Rewst
 
 <figure><img src="../../.gitbook/assets/filling-out-the-form.gif" alt=""><figcaption><p>Filling out the Form</p></figcaption></figure>
@@ -73,12 +81,14 @@ Setting the following variables will allow a number of Crates (including the New
 
 ### Finish up
 
-Once your form is complete you can submit your form.
+Once your form is complete, you can submit your form.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Make sure you map the CSP tenant for your customer**
 
 You will then want to find the CSP tenant for your new customer and map it to the Rewst organization that you have created. You can do this by navigating to _Configuration_ → _Integrations_ → _Microsoft Cloud_ to find the relevant CSP tenant.
 {% endhint %}
 
-You are now set up and ready to run workflows for your customer!
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% endhint %}

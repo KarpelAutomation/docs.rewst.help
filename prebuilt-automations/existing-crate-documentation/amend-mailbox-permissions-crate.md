@@ -1,7 +1,7 @@
 # Amend Mailbox Permissions Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Amend Mailbox Permissions Crate in our [Crate Marketplace](https://app.rewst.io/marketplace/crates/2955cae5-de8d-43df-bb52-717e498315f5).
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Amend Mailbox Permissions Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the Amend Mailbox Permissions Crate do?
@@ -28,7 +28,7 @@ The Amend Mailbox Permissions Crate automates the following processes.
 * Creates or updates tickets in your PSA
 * Provides a clear audit trail of access modifications
 
-## Crate use cases
+## Why use the Amend Mailbox Permissions Crate?
 
 This Crate is designed to support MSPs and IT teams in efficiently and securely managing email access from the parent organization. By enabling the child organizations in the form trigger, MSPs can seamlessly grant and control access to the form for their customers. Common use cases include:
 

@@ -1,7 +1,7 @@
 # Document Rewst Form URLs (IT Glue/Hudu) Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Amend Mailbox Permissions Crate in our [Crate Marketplace](https://app.rewst.io/marketplace/crates/2955cae5-de8d-43df-bb52-717e498315f5).
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Amend Mailbox Permissions Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the Document Rewst Form URLs (IT Glue/Hudu) Crate do?
@@ -14,7 +14,7 @@ Our Document Rewst Form URLs (IT Glue/Hudu) Crate takes your Rewst form URLs and
 * Makes retrieving forms easier for technicians by keeping them in a central space
 * Allows forms only users to have easy access to forms
 
-## Crate prerequisites
+## Why use the Document Rewst Form URLs (IT Glue/Hudu) Crate?
 
 IT Glue or Hudu must be integrated with Rewst prior to unpacking this Crate.
 
@@ -23,12 +23,14 @@ IT Glue or Hudu must be integrated with Rewst prior to unpacking this Crate.
 1. Navigate to **Crates** > **Crate Marketplace** in the Rewst platform.
 2. Search for the Document Rewst Form URLs Crate.
 3. Click on the Crate tile to begin unpacking.\
-   \
-   ![](<../../.gitbook/assets/Screenshot 2025-03-03 at 2.05.49 PM.png>)
+   ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 9.59.07 AM.png>)\
+
 4. Click **Unpack Crate**.
-5. Select your documentation platform from the drop-down selector.\
-   \
-   ![](<../../.gitbook/assets/image (14) (1).png>)
+5.  Select your documentation platform from the drop-down selector.\
+    \
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-03-07 at 9.59.24 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Continue**.
 7. Change the **Workflow name**, if desired.
 8. Click **Unpack**.

@@ -1,7 +1,7 @@
 # Ad-Hoc Install/Uninstall Software via Chocolatey Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Just in Time Admin Access Crate in our Crate Marketplace.
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Ad-Hoc Install/Uninstall Software via Chocolatey Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the Ad-Hoc Install/Uninstall Software via Chocolatey Crate do?
@@ -10,7 +10,7 @@ Our Ad-Hoc Install/Uninstall Software via Chocolatey Crate enables technicians t
 
 This Crate focuses on simplifying common software management tasks, but doesn't handle complex configuration management or application settings. You can extend its functionality by connecting it to other automation workflows in Rewst.
 
-## Crate use case
+## Why use the Ad-Hoc Install/Uninstall Software via Chocolatey Crate?
 
 * Quickly respond to software installation requests from clients
 * Remove unauthorized or problematic software from client devices

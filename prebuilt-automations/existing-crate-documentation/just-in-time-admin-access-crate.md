@@ -25,7 +25,7 @@ The Just in Time Admin Access Crate automates the following processes.
      * On-premises accounts have Domain Admin removed, are disabled, and have their passwords reset.
    * Status updates are added to the ticket when access is granted and revoked.
 
-## Crate use cases
+## Why use the Just in Time Admin Access Crate?
 
 This Crate is ideal for MSPs managing client environments securely and efficiently. It ensures that admin access is time-limited, reducing security risks while streamlining support operations. Common use cases include:
 

@@ -88,7 +88,7 @@ Crate features include:
 
 ### Windows
 
-Agent Smith installs itself as a service. You can use PowerShell or the SC command to modify or remove the service. Application logs and data are installed in `C:\ProgramData\RewstRemoteAgent` or whatever root path you've overridden that to in you environment. Application Program files are in `%ProgramFiles%\RewstRemoteAgent` folders.
+Agent Smith installs itself as a service. You can use PowerShell or the SC command to modify or remove the service. Application logs and data are installed in `C:\ProgramData\RewstRemoteAgent` or whatever root path you've overridden in your environment. Application Program files are in `%ProgramFiles%\RewstRemoteAgent` folders.
 
 ## Troubleshoot Agent Smith
 

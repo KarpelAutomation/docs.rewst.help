@@ -28,7 +28,7 @@ Uses the `Core- Always` Pass [trigger](../../documentation/triggers/intro-to-tri
 </details>
 
 {% hint style="success" %}
-If you're interested in taking advantage of the CSP/CPV Permission Checker within your Rewst organization, [unpack it from the Crate Marketplace](https://app.rewst.io/marketplace/crates/94d861ee-2fb9-45df-8af5-63cc73b351de).
+If you're interested in taking advantage of the CSP/CPV Permission Checker within your Rewst organization, unpack it from the Crate Marketplace.
 {% endhint %}
 
 ## Overview
