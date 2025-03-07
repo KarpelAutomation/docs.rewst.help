@@ -475,6 +475,7 @@
   * [Stewart's 30 favorite Crates](prebuilt-automations/crates/stewarts-30-favorite-crates.md)
   * [Production Crate list](prebuilt-automations/crates/production-crate-list.md)
 * [Individual Crate documentation](prebuilt-automations/existing-crate-documentation/README.md)
+  * [Ad-Hoc Install/Uninstall Software via Chocolatey Crate](prebuilt-automations/existing-crate-documentation/ad-hoc-install-uninstall-software-via-chocolatey-crate.md)
   * [Add Client to Rewst Crate](prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md)
   * [Amend Mailbox Permissions Crate](prebuilt-automations/existing-crate-documentation/amend-mailbox-permissions-crate.md)
   * [Configure organization variables](prebuilt-automations/existing-crate-documentation/configure-organization-variables.md)

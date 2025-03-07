@@ -1,7 +1,7 @@
 # Just in Time Admin Access Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Just in Time Admin Access Crate in our [Crate Marketplace](https://app.rewst.io/marketplace/crates/b4d8dac7-981c-40ee-b4d8-91fe7424b1f2).
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Just in Time Admin Access Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the **Just in Time Admin Access** Crate do?

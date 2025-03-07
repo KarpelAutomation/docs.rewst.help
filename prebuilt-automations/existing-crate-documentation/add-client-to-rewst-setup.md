@@ -1,17 +1,21 @@
-# Add client to Rewst
+# Add Client to Rewst Crate
 
-### Introduction
+{% hint style="info" %}
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Just in Time Admin Access Crate in our Crate Marketplace.
+{% endhint %}
 
-This guide will walk you through adding customers to Rewst, allowing you to run workflows for them. There are two ways to add clients to Rewst:
+{% hint style="info" %}
+### There are two ways to add clients to Rewst:
 
 1. With the _Add Client to Rewst_ Crate.
 2. Through your CSP integration.
 
 This article will cover how to do this with the _Add Client to Rewst_ Crate. [You can find alternative instructions here](../../documentation/user-management/adding-a-new-client-to-rewst.md).
+{% endhint %}
 
-### How to set up the Crate
 
-The first thing we need to do is unpack the _Add Client to Rewst_ Crate by doing the following:
+
+### Set up the Add Client to Rewst Crate
 
 1. **Go to** _Crates_ → _Crate Marketplace_ in the app.
 2. **Click** on the _Add Client to Rewst_ Crate.
