@@ -504,8 +504,8 @@
   * [OpenAI ticket categorization](prebuilt-automations/existing-crate-documentation/openai-ticket-categorisation-setup.md)
   * [OpenAI ticket sentiment](prebuilt-automations/existing-crate-documentation/openai-ticket-sentiment-setup.md)
   * [Triage SentinelOne Threat Alerts Crate](prebuilt-automations/existing-crate-documentation/triage-sentinelone-threat-alerts-crate.md)
-  * [User offboarding v2](prebuilt-automations/existing-crate-documentation/user-offboarding-v2.md)
-  * [View Rewst integration org variables](prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md)
+  * [User Offboarding V2 Crate](prebuilt-automations/existing-crate-documentation/user-offboarding-v2.md)
+  * [View Rewst integration Org Variables](prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md)
 
 ## Community Corner
 

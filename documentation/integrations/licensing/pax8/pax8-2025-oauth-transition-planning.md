@@ -1,3 +1,7 @@
+---
+noIndex: true
+---
+
 # Pax8 - 2025 OAuth transition planning
 
 {% hint style="info" %}
