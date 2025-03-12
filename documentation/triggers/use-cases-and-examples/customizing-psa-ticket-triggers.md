@@ -59,7 +59,7 @@ Once the ticket is visible in Rewst, click the pause button to stop more tickets
 
 Find and click the values in the ticket you want as trigger criteria. They will have their corresponding path entered into the Trigger Criteria on the right.
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -75,7 +75,7 @@ Find and click the values in the ticket you want as trigger criteria. They will 
 * Copy these criteria values.
 * Paste them into other workflows you are configuring.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

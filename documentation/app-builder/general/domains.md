@@ -37,7 +37,7 @@ To modify the custom subdomain of your app:
 3. Enter your desired custom subdomain.
 4. Confirm the changes.
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Example:
 
