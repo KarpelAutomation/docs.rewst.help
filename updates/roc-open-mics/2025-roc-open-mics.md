@@ -2,6 +2,14 @@
 
 <details>
 
+<summary>March 2025</summary>
+
+[march-7-2025-microsoft-now-auditing-p1-licenses-usage.md](2025-roc-open-mics/march-7-2025-microsoft-now-auditing-p1-licenses-usage.md "mention")
+
+</details>
+
+<details>
+
 <summary>February 2025</summary>
 
 [february-14-2025-valentines-day-edition.md](2025-roc-open-mics/february-14-2025-valentines-day-edition.md "mention")
