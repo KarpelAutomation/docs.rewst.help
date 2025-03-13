@@ -4,13 +4,17 @@ description: Learn how to build and customize your Rewst Forms
 
 # Dynamic options & inputs
 
-{% hint style="success" %}
-Check out our [video on using Options Generators here](../../cluck-university/micro-courses/working-with-options-generator-workflows-in-rewst.md)!
-{% endhint %}
-
 ## Introduction to the Form Builder
 
 Within the forms section of Rewst, you will find the form builder. This page provides an overview of the tools and options available for creating dynamic forms.
+
+Forms use different types of fields to collect data:
+
+* **Text fields** for names or notes
+* **Date fields** for deadlines
+* **Dropdowns** for set options
+
+Using the right fields ensures your workflows receive clean, organized data.
 
 The fields found on the left of the form builder are generally self-explanatory. An important field to note is the "dropdown" field, allowing linking directly to specific workflows and presenting real-time information to your users.
 

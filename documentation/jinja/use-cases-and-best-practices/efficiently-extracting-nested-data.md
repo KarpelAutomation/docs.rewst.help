@@ -103,9 +103,3 @@ All methods output a list of event names:
 ### Conclusion
 
 Select the method that best suits your task's complexity and your familiarity with programming concepts. Filters like `jsonpath_query` and `map` simplify the extraction process, making them efficient choices for various scenarios in Rewst. For more insights and community discussions, visit the [Rewst Discord](https://discord.gg/rewst) `#jinja` channel.
-
-***
-
-{% hint style="info" %}
-**Don't forget to check out** [jinja-essentials-for-workflow-automation](../../../cluck-university/rewst-foundations/jinja-essentials-for-workflow-automation/ "mention")
-{% endhint %}

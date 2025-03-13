@@ -6,12 +6,6 @@ Lists or Arrays are very common when working with sets of data in Rewst.
 
 Any time you see information encapsulated in `[` `]` brackets, you are looking at a list, and working with the items in that list requires certain considerations. Working with these lists is referred to as "List Comprehension."
 
-**Want more practice?**
-
-{% hint style="success" %}
-[You can check out our Rewst 103 and 104 Courses](../../../cluck-university/rewst-foundations/).
-{% endhint %}
-
 ### Standard List
 
 ```json

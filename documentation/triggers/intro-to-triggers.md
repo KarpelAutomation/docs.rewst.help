@@ -67,8 +67,6 @@ This trigger is most useful for:
 
 {% hint style="info" %}
 For help building a form, refer to [form-best-practices.md](../forms/form-best-practices.md "mention").
-
-For more details on forms, check out the [forms-overview.md](../../cluck-university/automation-basics/essential-concepts/forms-overview.md "mention") lesson.
 {% endhint %}
 
 ### Core - Webhook
@@ -87,8 +85,6 @@ This trigger is most useful for:
 
 {% hint style="info" %}
 For more information on webhook triggers, refer to [using-webhook-triggers.md](use-cases-and-examples/using-webhook-triggers.md "mention").
-
-For more details on webhooks, check out the [webhooks-and-parameters](../../cluck-university/automation-basics/essential-concepts/webhooks-and-parameters/ "mention") lesson.
 {% endhint %}
 
 ### Core - Always Pass
@@ -135,9 +131,3 @@ While these five triggers cover the most common use cases, Rewst offers addition
 ## Trigger criteria
 
 When you're comfortable with the basics of triggers, learn more about [trigger criteria here](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/~/changes/1274/documentation/intro-to-triggers/trigger-criteria).
-
-{% hint style="success" %}
-**Want more practice?**
-
-[Check out our Rewst Foundations Courses](../../cluck-university/rewst-foundations/)
-{% endhint %}

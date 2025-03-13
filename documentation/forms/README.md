@@ -1,27 +1,27 @@
----
-description: >-
-  Create versatile and dynamic forms that integrate seamlessly with your
-  automation workflows.
----
-
 # Forms
 
-Rewst's form functionality is designed to empower users with the tools to build interactive, responsive, and customizable forms. Whether you're looking to gather user input, integrate real-time data, or embed forms within your web pages, Rewst offers a comprehensive solution.
+## What is a form?
 
-**Key Highlights and Features**
+In Rewst, _forms_ are powerful tools used to collect the information your workflows need to start. They streamline the data collection process by gathering key details from users such as names, dates, or options.
 
-* **Dynamic Form Creation**: Build forms that adapt to user needs and display real-time information, enhancing the user experience.
-* **Integration with Workflows**: Link forms directly to your automation workflows, allowing seamless transitions and increased efficiency.
-* **Embedding Capability**: Expand the reach of your forms by embedding them into various web pages, providing increased accessibility to users.
-* **Customization and Cloning**: Tailor forms to specific scenarios through cloning and modification, ensuring the right fit for every situation.
-* **Best Practices**: Leverage Rewst's recommended practices for optimal form management, from utilizing conditional fields to implementing organizational variables.
+Rewst's form functionality is designed to empower users with the tools to build interactive, responsive, and customizable forms.&#x20;
 
-**Ready to Dive In?**
+## Why use forms?
 
-Whether you're just starting with Rewst's forms or seeking to expand your expertise, this guide is your go-to resource. Explore detailed instructions, practical examples, and valuable insights to unlock the full potential of Rewst's form capabilities.
+Forms collect data in one simple step, reducing manual data entry and saving you time. They can also function as triggers in Rewst when building workflows, allowing for seamless transitions and increased efficiency.&#x20;
 
-**Want more practice?**
+Expand the reach of your forms by embedding them into various web pages, providing increased accessibility to users. Tailor forms to specific scenarios through cloning and modification, ensuring the right fit for every situation.
+
+## View forms in Rewst
+
+Access all forms, be they manually created by you or obtained as part of unpacking Crates, by navigating to **Automations > Forms** in the left side menu.
+
+<figure><img src="../../.gitbook/assets/Forms home.png" alt=""><figcaption><p>An example of what your forms page might look like</p></figcaption></figure>
+
+## Request a forms feature update
+
+We’re constantly adding new features to Rewst. If you have a suggestion for what we could add to our forms functionality, add a request or upvote other existing suggestion posts [in our Canny.](https://rewst.canny.io/integrations)
 
 {% hint style="success" %}
-[Check out our Rewst Foundations Courses](../../cluck-university/rewst-foundations/).
+Want to learn more? Search for the **How to build forms** course in Cluck University.
 {% endhint %}

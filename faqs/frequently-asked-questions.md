@@ -31,8 +31,6 @@ The Automation Maturity Model, devised by our beloved Aharon, illustrates four s
 
 This model serves as a roadmap for organizations to assess and elevate their automation capabilities, aligning with the broader operational goals to drive growth and innovation.
 
-For more information, check out our [dymistifying-process-automation.md](../cluck-university/getting-started/automation-inspiration/dymistifying-process-automation.md "mention") page in the Getting Started section.
-
 </details>
 
 <details>

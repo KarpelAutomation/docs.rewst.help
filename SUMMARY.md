@@ -169,6 +169,7 @@
       * [Documenting with RoboRewsty](documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/documenting-with-roborewsty.md)
     * [Multiselect](documentation/workflows/workflow-building-tips-and-tricks/multiselect.md)
     * [Favorite actions](documentation/workflows/workflow-building-tips-and-tricks/favorite-actions.md)
+  * [Boolean logic in Rewst workflows](documentation/workflows/boolean-logic-in-rewst-workflows.md)
 * [Forms](documentation/forms/README.md)
   * [Dynamic options & inputs](documentation/forms/intro-to-forms.md)
   * [Embedding a form into an iFrame](documentation/forms/embedding-a-form-into-an-iframe.md)
