@@ -30,7 +30,7 @@ PSA integration overview (_5:09 min_)
 
 ## **Demo: Integrate ConnectWise PSA with Rewst** <a href="#demo-integrating-connectwise-psa-with-rewst" id="demo-integrating-connectwise-psa-with-rewst"></a>
 
-### **Part 1: Integration setup steps to do in ConnectWise PSA**  <a href="#part-1-integration-setup-steps-to-do-in-connectwise-psa-8-42-min" id="part-1-integration-setup-steps-to-do-in-connectwise-psa-8-42-min"></a>
+### **Part 1: Integration setup steps to do in ConnectWise PSA** <a href="#part-1-integration-setup-steps-to-do-in-connectwise-psa-8-42-min" id="part-1-integration-setup-steps-to-do-in-connectwise-psa-8-42-min"></a>
 
 {% embed url="https://www.youtube.com/watch?v=0F1PAWkZwtc" %}
 PSA integration demo: Part 1 (ConnectWise) (_8:42 min_)
@@ -62,7 +62,7 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 
 {% tabs %}
 {% tab title="ConnectWise PSA" %}
-### ConnectWise PSA setup
+#### ConnectWise PSA setup
 
 {% content-ref url="../../../documentation/integrations/psa/connectwise-manage/connectwise-integration-setup.md" %}
 [connectwise-integration-setup.md](../../../documentation/integrations/psa/connectwise-manage/connectwise-integration-setup.md)
@@ -70,7 +70,7 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 {% endtab %}
 
 {% tab title="Datto Autotask" %}
-### Datto Autotask PSA setup
+#### Datto Autotask PSA setup
 
 {% content-ref url="../../../documentation/integrations/psa/autotask-datto-psa/datto-psa-integration-setup.md" %}
 [datto-psa-integration-setup.md](../../../documentation/integrations/psa/autotask-datto-psa/datto-psa-integration-setup.md)
@@ -78,7 +78,7 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 {% endtab %}
 
 {% tab title="Halo" %}
-### Datto Autotask PSA setup
+#### Datto Autotask PSA setup
 
 {% content-ref url="../../../documentation/integrations/psa/halopsa/halo-integration-setup.md" %}
 [halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md)
@@ -86,7 +86,7 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 {% endtab %}
 
 {% tab title="Kaseya" %}
-### Kaseya BMS PSA setup
+#### Kaseya BMS PSA setup
 
 {% content-ref url="../../../documentation/integrations/psa/kaseya-bms/kaseya-bms-integration-setup.md" %}
 [kaseya-bms-integration-setup.md](../../../documentation/integrations/psa/kaseya-bms/kaseya-bms-integration-setup.md)
@@ -98,8 +98,7 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 **Need help?**
 
 * Join an Onboarding Session – If you need general guidance on setting up an integration, [sign up for live training](https://outlook.office365.com/owa/calendar/RewstImplementation1@rewst.io/bookings/).
-* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:the_roc@rewst.io) for troubleshooting.
+* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:roc@rewst.io) for troubleshooting.
 {% endhint %}
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="integrate-your-rmm.md"><strong>Integrate your RMM</strong></a></td><td><a href="../../../.gitbook/assets/NEXT.png">NEXT.png</a></td></tr></tbody></table>
-

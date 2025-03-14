@@ -1,7 +1,7 @@
 # Image component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Image component allows you to integrate visual content into your web applications. This component is essential for enhancing the visual appeal, conveying information visually, and supporting the textual content within your applications.
+As part of the page builder in App Builder, the image component allows you to integrate visual content into your web applications. This component is essential for enhancing the visual appeal, conveying information visually, and supporting the textual content within your applications.
 {% endhint %}
 
 
@@ -36,7 +36,3 @@ An MSP might use the Image component to enhance a tutorial page on their client 
    * **In-line styles**: Define custom CSS properties for the component.&#x20;
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

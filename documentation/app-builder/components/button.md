@@ -1,7 +1,7 @@
 # Button component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Button component allows you to integrate clickable buttons that trigger actions within your web applications. These buttons can initiate any number of functions, from submitting forms to redirecting users to other pages or executing custom scripts.
+As part of the page builder in App Builder, the button component allows you to integrate clickable buttons that trigger actions within your web applications. These buttons can initiate any number of functions, from submitting forms to redirecting users to other pages or executing custom scripts.
 {% endhint %}
 
 ## Why we developed the button component
@@ -15,7 +15,7 @@ Buttons are essential interactive elements that facilitate user actions and deci
 * Initiating downloads or transactions.
 * Triggering various functions defined within the application, such as opening a modal window or starting a workflow.
 
-## **Example \ use case for the button component**
+## **Example use case for the button component**
 
 For an MSP’s internal tool that manages client device setups, a Button component labeled "Deploy Software" could be implemented. This button could initiate a rewst workflow install or update software across client systems. By simplifying complex actions into a single button click, MSPs can ensure consistent software deployments, reduce human error, and increase operational efficiency.
 
@@ -48,7 +48,3 @@ For an MSP’s internal tool that manages client device setups, a Button compone
      * **Font Weight**: Adjust the font weight.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

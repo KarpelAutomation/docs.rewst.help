@@ -4,7 +4,7 @@
 
 Welcome to the "Managing Your Pages" documentation! This guide will take you through the steps to create, view, edit, and delete pages within your Rewst app. Efficiently managing your pages is crucial for crafting a seamless user experience.
 
-### Creating a Page
+### Create a page
 
 1. **Navigate to the App Platform**: In the left navigation under App Platform, click on "Apps."
 2. **Select App**: Click on the app from the list that you want to add a page to. This will bring you to the app's page.
@@ -14,13 +14,13 @@ Welcome to the "Managing Your Pages" documentation! This guide will take you thr
 
 **Note**: You can only have one home page and one login page.
 
-### Editing a Page
+### Edit a page
 
 1. **Navigate to the App Platform**: In the left navigation under App Platform, click on "Apps."
 2. **Select App**: Click on the app from the list to view your app details.
 3. **Access Page Builder**: In the table listing all your pages, click on the page you want to edit. This will bring you to the Page Builder canvas.
 
-### Deleting a Page
+### Delete a page
 
 1. **Navigate to the App Platform**: In the left navigation under App Platform, click on "Apps."
 2. **Select App**: Click on the app from the list to view your app details.
@@ -31,11 +31,11 @@ Welcome to the "Managing Your Pages" documentation! This guide will take you thr
 
 **Important Note**: Once a page is deleted, it cannot be recovered.
 
-### Viewing Live Pages
+### View live pages
 
 You can view the live page by directly entering the URL in your browser. Alternatively, open the Page Builder and click the link on the top of the page.
 
-### Why Manage Your Pages?
+### Why manage your pages?
 
 Effectively managing your pages allows you to build a structured and engaging user interface for your app. Whether creating, viewing, editing, or deleting pages, these steps empower you to craft a user experience tailored to your needs.
 

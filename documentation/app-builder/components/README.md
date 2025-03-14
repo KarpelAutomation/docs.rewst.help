@@ -70,7 +70,7 @@ More information for each individual component can be found on the following pag
 [sidebar.md](sidebar.md)
 {% endcontent-ref %}
 
-### Data Visualization
+### Data visualization
 
 {% content-ref url="chart.md" %}
 [chart.md](chart.md)

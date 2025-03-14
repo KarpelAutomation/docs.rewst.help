@@ -38,8 +38,3 @@ In a service management application, the Text component could be employed to pro
        * **Shadow**: Adjust the intensity of the text's shadow.
      * **Margin**: Adjust the distance between the text component and its surrounding components.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

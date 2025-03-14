@@ -1,4 +1,4 @@
-# August 9th 2024
+# August 9, 2024 - Dev Update
 
 Explore what new changes the Dev team has deployed in the last week!
 
@@ -8,8 +8,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>New features and items</strong></summary>
 
-* Added select all and clear all buttons in CSP permissions dialog to allow selecting or clearing of all permissions 
-  that match a search filter.
+* Added select all and clear all buttons in CSP permissions dialog to allow selecting or clearing of all permissions that match a search filter.
 
 </details>
 
@@ -17,8 +16,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-* Removed OpenAPI spec from packConfig queries so that it doesn't get added to workflow executions since it's not 
-  needed there and can be quite large
+* Removed OpenAPI spec from packConfig queries so that it doesn't get added to workflow executions since it's not needed there and can be quite large
 * Marked the Address, Contact, and Document fields as required for IT Portal facilities actions
 
 </details>

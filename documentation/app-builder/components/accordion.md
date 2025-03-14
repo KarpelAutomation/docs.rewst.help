@@ -16,7 +16,7 @@ The accordion is there to help manage and organize information efficiently, part
 * Collapsing or expanding informational sections on dashboards or reports
 * Providing step-by-step instructions, with each step expandable to reveal more details
 
-## **Example \ use case for the accordion component**
+## **Example use case for the accordion component**
 
 A support website may use an accordion to present frequently asked questions (FAQs). Each question appears as a header, and when clicked, expands to reveal the answer. This lets users focus on a specific question without being distracted by other content.
 
@@ -45,7 +45,3 @@ Another great example of how accordions can be utilized are in the sidebar. By a
      * **Margin**: Set the distance between the accordion and its surrounding components.&#x20;
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

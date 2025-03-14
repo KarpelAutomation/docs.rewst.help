@@ -1,24 +1,22 @@
 # Manage your apps
 
-### Introduction
+App Builder lets you easily create, view, and delete your apps on the Rewst platform.&#x20;
 
-Welcome to the "Managing Your App" documentation! This guide will walk you through the steps to create, view, and delete your apps on the Rewst platform. Managing your apps is a straightforward process, and we're here to guide you through each step.
-
-### Creating an App
+### Create an app
 
 1. **Navigate to the App Platform**: In the left navigation under App Platform, click on "Apps."
 2. **Create a New App**: Above the table listing all your apps, find the "Create App" button.
 3. **Enter App Details**: Provide a name for your app and choose a [domain](domains.md).&#x20;
-4. **Save and Create**: Once you've entered the details, click "Submit" to generate your new app.
+4. **Save and Create**: Once you've entered the details, click **Submit** to generate your new app.
 
-### Viewing Your App
+### View your app
 
 1. **Navigate to the App Platform**: In the left navigation under App Platform, click on "Apps."
 2. **Select App**: In the table listing all your apps, click on the app you want to view.
 
 Now you're ready to explore and manage the specific details of your app.
 
-### Deleting Your App
+### Delete your app
 
 1. **Navigate to the App Platform**: In the left navigation under App Platform, click on "Apps."
 2. **Access App Options**: In the table listing all your apps, click on the three dots next to the app you want to delete.
@@ -28,7 +26,7 @@ Now you're ready to explore and manage the specific details of your app.
 
 **Important Note**: Once an app is deleted, it cannot be recovered. Exercise caution before deleting an app.
 
-### Why Manage Your Apps?
+### Why manage your apps?
 
 Managing your apps allows you to keep your workspace organized and ensures that you have control over the apps you've created. Whether you're creating a new app, exploring its details, or deciding to remove it, these steps make the process simple and user-friendly.
 

@@ -1,6 +1,6 @@
-# 🗓️ Prebuilt Apps: Available by request
+# Prebuilt Apps: Available by request
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Prebuilt Apps is a new feature in Rewst that will be available for all users in the future, to eventually download via our Crate Marketplace. Currently, use of Prebuilt Apps is by request only for customers in the United States, as we finalize features. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
 {% endhint %}
 
@@ -8,7 +8,7 @@ Prebuilt Apps is a new feature in Rewst that will be available for all users in 
 If you're a current user of Prebuilt Apps, send us your feedback on current features, desired features, and any bugs you encounter in [this feedback collection form](https://forms.office.com/Pages/ResponsePage.aspx?id=VtqdWutbQEiD4Zr8GtojiJFelL-3rz1JvOPdoNrnRFRUNTg4VEdSUEdCS0c2TTU4U0tOVFBXR0ZCOC4u\&origin=Invitation\&channel=0).
 {% endhint %}
 
-## Welcome to Prebuilt Apps
+## What are Prebuilt Apps?
 
 Prebuilt Apps are your gateway to powerful, ready-made solutions that enhance your workflows and user experience. Think of them like App Builder's version of regular Rewst Crates: prepackaged applications meant to help you get started with App Builder, without having to build from scratch.\
 Each app is designed to help you streamline operations, improve user satisfaction, and unlock valuable insights.&#x20;
@@ -26,21 +26,15 @@ As a bonus, you can customize your Prebuilt Apps by unpacking our [App Builder -
 
 For more detailed information about each app and how they can benefit your organization, click on the above feature tiles to visit their individual documentation pages, which include screenshots and additional feature breakdowns.
 
-### Forms Portal
+### Forms portal
 
-The **Forms Portal** provides a centralized hub for users to access and manage forms that they have permission to view. It includes powerful search and filtering options on the table component itself, allowing you to quickly navigate to the forms you need, all in one convenient location.
+The **forms portal** provides a centralized hub for users to access and manage forms that they have permission to view. It includes powerful search and filtering options on the table component itself, allowing you to quickly navigate to the forms you need, all in one convenient location.
 
-### End User Portal
+### End user portal
 
-The **End User Portal** is built around self-service automation, letting you manage tasks independently while still maintaining the ability to log tickets for more complex needs. With 24/7 access to essential automations, this portal reduces reliance on service desk calls and streamlines operations for both you and your end users.
+The **end user portal** is built around self-service automation, letting you manage tasks independently while still maintaining the ability to log tickets for more complex needs. With 24/7 access to essential automations, this portal reduces reliance on service desk calls and streamlines operations for both you and your end users.
 
-### Operational Analytics Reporting Portal
+### Operational analytics reporting portal
 
-The **Operational Analytics** **Reporting Portal** offers powerful reporting capabilities with insights into devices and service trends. Tailored to integrate seamlessly with your Rewst workflows and PSA data, this Portal simplifies operational analytics to keep your business efficient and informed.
-
-
-
-
-
-
+The **operational analytics** **reporting portal** offers powerful reporting capabilities with insights into devices and service trends. Tailored to integrate seamlessly with your Rewst workflows and PSA data, this Portal simplifies operational analytics to keep your business efficient and informed.
 

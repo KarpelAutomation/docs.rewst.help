@@ -1,7 +1,7 @@
 # Sidebar component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Sidebar component allows you to create a vertical navigation menu or information panel that sits alongside the main content of your web applications. This component provides users with easy access to additional functionalities, navigation links, or supplementary information, without cluttering the main view.
+As part of the page builder in App Builder, the sidebar component allows you to create a vertical navigation menu or information panel that sits alongside the main content of your web applications. This component provides users with easy access to additional functionalities, navigation links, or supplementary information, without cluttering the main view.
 {% endhint %}
 
 ## Why we developed the sidebar component
@@ -35,8 +35,3 @@ Only ONE instance of the Sidebar component can be used, per app platform page!
    * **Layout**
      * **Position**: Toggle to set the position of sidebar on the canvas; 'Left' or 'Right'.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

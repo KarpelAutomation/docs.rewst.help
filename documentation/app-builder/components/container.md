@@ -1,7 +1,7 @@
 # Container component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Container component allows you to group and organize various UI elements within a structured and styled section. This component is essential for creating visually coherent and logically organized layouts in your web applications.
+As part of the page builder in App Builder, the container component allows you to group and organize various UI elements within a structured and styled section. This component is essential for creating visually coherent and logically organized layouts in your web applications.
 {% endhint %}
 
 ## Why we developed the container component
@@ -52,7 +52,3 @@ Imagine setting up a user profile page within an application on the App Platform
      * **Justify Content**: Align the container's flex items on the cross-axis and main-axis
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

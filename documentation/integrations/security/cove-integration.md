@@ -8,7 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our Cove integration links N-able’s Cove Data Protection with Rewst, to automate and manage data protection tasks within your Rewst workflows. Use the N-able Cove API to create, read, update, or delete backup jobs, monitor backup statuses, and access detailed reporting functionalities.
 
-### Integration use cases
+### Why use the Cove integration?
 
 * Billing reconciliation
 * Onboarding of customers and devices

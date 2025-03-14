@@ -8,7 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our Anthropic integration enables automation of Anthropic LLMs. Use the Anthropic API within Rewst workflows to automate text analysis, sentiment analysis, and more.&#x20;
 
-### Integration use cases
+### Why use the Anthropic integration?
 
 Leverage conversational AI and content intelligence as a service to automate text analysis, sentiment analysis, and more.
 

@@ -1,7 +1,7 @@
 # HTML container component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the HTML Container component allows you to embed custom HTML code directly into your web applications. This component is essential for incorporating bespoke elements, custom scripts, or third-party integrations that enhance the functionality and uniqueness of your applications.
+As part of the page builder in App Builder, the HTML container component allows you to embed custom HTML code directly into your web applications. This component is essential for incorporating bespoke elements, custom scripts, or third-party integrations that enhance the functionality and uniqueness of your applications.
 {% endhint %}
 
 ## Why we developed the HTML container component
@@ -32,7 +32,3 @@ An MSP could use the HTML Container component to enhance the support section of 
    * **In-line HTML**: Define custom HTML code for the component.&#x20;
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

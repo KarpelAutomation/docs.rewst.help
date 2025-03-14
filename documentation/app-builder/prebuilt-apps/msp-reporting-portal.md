@@ -1,10 +1,10 @@
-# Operational Analytics Reporting Portal
+# Operational analytics reporting portal
 
 {% hint style="warning" %}
-MSP Reporting Portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
+MSP reporting portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
 {% endhint %}
 
-The **Operational Analytics** **Reporting Portal** offers powerful reporting capabilities with insights into devices and service trends. Tailored to integrate seamlessly with your Rewst workflows and PSA data, this Portal simplifies operational analytics to keep your business efficient and informed.
+The **operational analytics** **reporting portal** offers powerful reporting capabilities with insights into devices and service trends. Tailored to integrate seamlessly with your Rewst workflows and PSA data, this Portal simplifies operational analytics to keep your business efficient and informed.
 
 <figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ The **Operational Analytics** **Reporting Portal** offers powerful reporting cap
 * Export reports
 * _Coming soon:_ Reporting on SaaS licenses
 
-### Integration prerequisites for Operational Analytics Reporting Portal setup
+### Integration prerequisites for operational analytics reporting portal setup
 
 * For Device EOL: Connectwise Automate, Datto RMM, or NinjaRMM
 * For Get Device Inventory: Connectwise PSA

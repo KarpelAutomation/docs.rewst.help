@@ -1,7 +1,7 @@
 # Row component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Row component allows you to organize and align content horizontally within a container. This structural component is essential for creating clean, orderly layouts that enhance both the aesthetics and the functionality of your web applications.
+As part of the page builder in App Builder, the row component allows you to organize and align content horizontally within a container. This structural component is essential for creating clean, orderly layouts that enhance both the aesthetics and the functionality of your web applications.
 {% endhint %}
 
 ## Why we developed the row component
@@ -33,8 +33,3 @@ You could use the Row component on a service overview page to align icons or but
      * **Alignment**: Set the alignment of the content placed within the row component; 'Space between', 'Start', Center' or 'End'.&#x20;
      * **Reverse order**: Toggle to reverse the order of the components within the row component.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

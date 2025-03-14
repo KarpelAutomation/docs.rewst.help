@@ -1,7 +1,7 @@
 # Link component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Link component allows you to embed hyperlinks within your apps, enabling users to navigate to different sections with the app or external sites, or even to download resources with just a click.
+As part of the page builder in App Builder, the link component allows you to embed hyperlinks within your apps, enabling users to navigate to different sections with the app or external sites, or even to download resources with just a click.
 {% endhint %}
 
 ## Why we developed the link component
@@ -54,7 +54,3 @@ Consider an internal company portal where employees need to access various depar
      * **Radius**: Adjust the degree of rounded appearance.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

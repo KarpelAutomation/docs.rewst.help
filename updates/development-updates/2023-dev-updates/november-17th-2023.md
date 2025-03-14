@@ -1,4 +1,4 @@
-# November 17th 2023
+# November 17, 2023 - Dev Update
 
 Explore what new changes the Dev team has deployed in the last week!
 
@@ -28,8 +28,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 * Fixed a client side error with workflow listeners causing the page to crash
 * Fixed a bug where the time saved was allowing negative values
 * Return the description field when listing forms from the Rewst list forms action
-* Fixed a bug where users could accidentally resize the right hand column in the workflow builder to zero and not be 
-  able to get it back
+* Fixed a bug where users could accidentally resize the right hand column in the workflow builder to zero and not be able to get it back
 * Fixed a bug causing the form builder to crash if there was a dynamic field pointed at a deleted workflow
 * Fixed a bug that was preventing Forms only users from viewing pods
 * Fixed a bug where ConnectWise PSA Sales Activity Status was returning Types instead of Statuses

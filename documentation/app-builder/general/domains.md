@@ -1,16 +1,14 @@
 # Domains
 
-### Introduction
+Understanding how to configure subdomains and manage custom subdomains is key to making your apps accessible to the world.
 
-Welcome to the App Domains documentation! In this guide, we'll walk you through the domain setup for your apps hosted on Rewst. Understanding how to configure subdomains and manage custom subdomains is key to making your apps accessible to the world.
-
-### Default Subdomain Structure
+### Default subdomain structure
 
 By default, all apps hosted on Rewst are assigned a subdomain under `*.rew.st`. This means your app's URL will be in the format `your-app-name.rew.st`. Rewst takes care of the underlying infrastructure, allowing you to focus on building and deploying your apps.
 
-### Custom Subdomains
+### Custom subdomains
 
-#### Initial Setup
+#### Initial setup
 
 When you first create your app, Rewst provides an option for a custom subdomain. This custom subdomain follows the pattern `<org-slug>-<custom-subdomain>.rew.st`.
 
@@ -19,7 +17,7 @@ When you first create your app, Rewst provides an option for a custom subdomain.
 
 <figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-#### Updating Organization Slug
+#### Updating organization slug
 
 If you wish to update your organization's slug:
 
@@ -28,7 +26,7 @@ If you wish to update your organization's slug:
 3. Update the slug as needed.
 4. Changes will take effect immediately.
 
-#### Updating Custom Subdomain
+#### Updating custom subdomain
 
 To modify the custom subdomain of your app:
 
@@ -43,15 +41,15 @@ To modify the custom subdomain of your app:
 
 Let's say your organization slug is `myorg` and your custom subdomain is `app1`. Your app's URL would be `myorg-app1.rew.st`.
 
-### Why Customize Subdomains?
+### Why customize subdomains?
 
 Custom subdomains provide a branded and personalized touch to your apps. It makes them easily identifiable and memorable for your users. Whether you're representing a business, project, or personal endeavor, a custom subdomain adds a professional touch to your online presence.
 
-### Coming Soon: Custom Domain Support
+### Custom domain support
 
-Exciting news! We will soon be introducing custom domain support, allowing you to use your own domain name for your Rewst-hosted apps. Stay tuned for updates on this feature.
+Rewst offers custom domain support, allowing you to use your own domain name for your Rewst-hosted apps. Stay tuned for updates on this feature.
 
-### Important Note
+### Important note
 
 Ensure that your custom subdomains comply with Rewst's guidelines and any applicable legal or branding standards. Abusive or inappropriate subdomains may be subject to action by Rewst.
 

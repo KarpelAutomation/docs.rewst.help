@@ -18,7 +18,7 @@ On The ROC we are always here to help any way we can. You can reach us via the f
   * Private msp channel
   * [#the-kewp](https://discord.com/channels/936789089703845988/1005169634682609704)
   * Birds of a Feather channels
-* **Create a Ticket** - [E-mail the team](mailto:the_roc@rewst.io) and someone will be in touch ASAP!
+* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
 
 **ROC Leadership:**
 

@@ -8,7 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our Webroot integration enables automation of endpoint and license management. Use the Webroot Unity API within Rewst workflows to manage sites, users, policies, endpoints, GSM console access and more.
 
-### Integration use cases
+### Why use the Webroot integration?
 
 * Direct management of antivirus functions within Rewst for operational efficiency
 * Enhanced security monitoring capabilities integrated into daily workflows

@@ -2,7 +2,7 @@
 description: Create dynamic web applications powered by your Rewst workflows.
 ---
 
-# Getting Started
+# General
 
 {% hint style="danger" %}
 **Experimental Feature**
@@ -10,11 +10,11 @@ description: Create dynamic web applications powered by your Rewst workflows.
 This is an advanced feature that does not offer the same level of support as Rewst's built-in integrations. While we have made efforts to ensure its stability, we recommend caution in using this feature in production environments until further testing and development have been completed.
 {% endhint %}
 
-App Platform, when paired with the Rewst automations you know and love, lets you create dynamic web applications (AKA web sites) powered by workflows. Apps consist of pages, and pages are made up of components like images, text, forms, tables, charts, etc.
+App Builder, when paired with the Rewst automations you know and love, lets you create dynamic web applications— also known as websites— powered by workflows. Apps consist of pages, and pages are made up of components like images, text, forms, tables, and charts.
 
-Rewst hosts your apps for you on a configurable subdomain of Rewst, with custom domains coming soon. You are free to fully customize your pages using our drag-and-drop page builder.
+Rewst hosts your apps for you on a configurable subdomain of Rewst, with custom domains. You're free to fully customize your pages using our drag-and-drop page builder.
 
-Learn more about App Platform by using it, or by reading through some of our documentation below.
+Learn more about App Builder by reading through our documentation below.
 
 {% content-ref url="glossary.md" %}
 [glossary.md](glossary.md)

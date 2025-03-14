@@ -1,7 +1,7 @@
 # Form component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Form component allows you to present rewst forms for data entry, ensuring that data is collected  efficiently from users, clients, or internal staff.
+As part of the page builder in App Builder, the form component allows you to present rewst forms for data entry, ensuring that data is collected  efficiently from users, clients, or internal staff.
 {% endhint %}
 
 ## Why we developed the form component
@@ -38,7 +38,3 @@ Imagine an MSP that needs to onboard new clients and gather detailed information
      * **Redirect on Submit**: Specify the URL to which the Submit redirects when a user once clicked.&#x20;
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

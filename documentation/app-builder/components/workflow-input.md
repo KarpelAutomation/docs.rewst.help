@@ -1,7 +1,7 @@
 # Workflow input component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Workflow Input component allows you to integrate interactive forms or fields that capture user inputs essential for triggering and controlling workflows within your web applications.
+As part of the page builder in App Builder, the workflow Input component allows you to integrate interactive forms or fields that capture user inputs essential for triggering and controlling workflows within your web applications.
 {% endhint %}
 
 ## Why we developed workflow input
@@ -34,8 +34,3 @@ In an MSP’s client management system, the Workflow Input component might be us
      * **Input Variant**: Define the variant of expected input; 'Standard', "Outlined' or 'Filled'.
      * **Input Variabl**e: Define the input variable.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

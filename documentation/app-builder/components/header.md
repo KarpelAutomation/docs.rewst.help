@@ -1,7 +1,7 @@
 # Header component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Header component allows you to design and implement top-level navigation and branding elements for your web applications. This component is crucial for creating a consistent and professional look across your platform, providing users with accessible navigation and clear identification of your brand.
+As part of the page builder in App Builder, the header component allows you to design and implement top-level navigation and branding elements for your web applications. This component is crucial for creating a consistent and professional look across your platform, providing users with accessible navigation and clear identification of your brand.
 {% endhint %}
 
 ## Why we developed the header component
@@ -47,8 +47,3 @@ Only ONE instance of the Header component can be used, per app platform page!
      * **Add new menu item**: Specify a new link to add to the Profile Menu.
      * **Drag\Drop**: Reorder the links in the Profile Menu.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

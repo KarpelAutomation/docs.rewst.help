@@ -1,7 +1,7 @@
 # Grid item component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Grid Item component is used in conjunction with the Grid Container to structure and align content within a grid layout. This component allows for precise placement and organization of elements like text, images, buttons, and more within individual grid cells, enabling a clean and responsive design for your web applications.
+As part of the page builder in App Builder, the grid item component is used in conjunction with the grid container to structure and align content within a grid layout. This component allows for precise placement and organization of elements like text, images, buttons, and more within individual grid cells, enabling a clean and responsive design for your web applications.
 {% endhint %}
 
 ## Why we developed the grid item component
@@ -36,7 +36,3 @@ In a client reporting dashboard managed by an MSP, the Grid Item component could
    * **In-line styles**: Define custom CSS properties for the component.&#x20;
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

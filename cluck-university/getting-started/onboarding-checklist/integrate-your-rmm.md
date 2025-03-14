@@ -53,7 +53,7 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 
 {% tabs %}
 {% tab title="ConnectWise Automate" %}
-### ConnectWise Automate setup
+#### ConnectWise Automate setup
 
 {% content-ref url="../../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md" %}
 [connectwise-automate-integration-setup.md](../../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md)
@@ -61,7 +61,7 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% endtab %}
 
 {% tab title="Datto RMM" %}
-### Datto RMM setup
+#### Datto RMM setup
 
 {% content-ref url="../../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md" %}
 [datto-rmm-integration-setup.md](../../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md)
@@ -69,7 +69,7 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% endtab %}
 
 {% tab title="ImmyBot" %}
-### ImmyBot setup
+#### ImmyBot setup
 
 {% content-ref url="../../../documentation/integrations/rmm/immybot/immybot-integration-setup.md" %}
 [immybot-integration-setup.md](../../../documentation/integrations/rmm/immybot/immybot-integration-setup.md)
@@ -77,13 +77,13 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% endtab %}
 
 {% tab title="Kaseya" %}
-### Kaseya VSA setup
+#### Kaseya VSA setup
 
 {% content-ref url="../../../documentation/integrations/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md" %}
 [kaseya-vsa-integration-setup.md](../../../documentation/integrations/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md)
 {% endcontent-ref %}
 
-### Kaseya VSX setup
+#### Kaseya VSX setup
 
 {% content-ref url="../../../documentation/integrations/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md" %}
 [kaseya-vsa-x-integration-setup.md](../../../documentation/integrations/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md)
@@ -91,7 +91,7 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% endtab %}
 
 {% tab title="N-able N-Central" %}
-### N-able N-central setup
+#### N-able N-central setup
 
 {% content-ref url="../../../documentation/integrations/rmm/nable/nable-integration-setup.md" %}
 [nable-integration-setup.md](../../../documentation/integrations/rmm/nable/nable-integration-setup.md)
@@ -99,7 +99,7 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% endtab %}
 
 {% tab title="NinjaOne" %}
-### NinjaOne setup
+#### NinjaOne setup
 
 {% content-ref url="../../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md" %}
 [ninjaone-integration-setup.md](../../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md)
@@ -107,7 +107,7 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% endtab %}
 
 {% tab title="Command/Continuum/Control" %}
-### ConnectWise Control
+#### ConnectWise Control
 
 {% content-ref url="../../../documentation/integrations/rmm/connectwise-control-screenconnect.md" %}
 [connectwise-control-screenconnect.md](../../../documentation/integrations/rmm/connectwise-control-screenconnect.md)
@@ -115,19 +115,19 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% endtab %}
 
 {% tab title="Other RMMs" %}
-### Addigy setup
+#### Addigy setup
 
 {% content-ref url="../../../documentation/integrations/rmm/addigy/addigy-integration-setup.md" %}
 [addigy-integration-setup.md](../../../documentation/integrations/rmm/addigy/addigy-integration-setup.md)
 {% endcontent-ref %}
 
-### Auvik setup
+#### Auvik setup
 
 {% content-ref url="../../../documentation/integrations/rmm/auvik/auvik-integration-setup.md" %}
 [auvik-integration-setup.md](../../../documentation/integrations/rmm/auvik/auvik-integration-setup.md)
 {% endcontent-ref %}
 
-### RPort setup
+#### RPort setup
 
 {% content-ref url="../../../documentation/integrations/rmm/rport/rport-integration-setup.md" %}
 [rport-integration-setup.md](../../../documentation/integrations/rmm/rport/rport-integration-setup.md)
@@ -139,9 +139,7 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 **Need help?**
 
 * Join an Onboarding Session – If you need general guidance on setting up an integration, [sign up for live training](https://outlook.office365.com/owa/calendar/RewstImplementation1@rewst.io/bookings/).
-* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:the_roc@rewst.io) for troubleshooting.\
-
+* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:roc@rewst.io) for troubleshooting.\\
 {% endhint %}
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="integrate-the-microsoft-cloud-bundle.md"><strong>Integrate the Microsoft Cloud bundle</strong></a></td><td><a href="../../../.gitbook/assets/NEXT.png">NEXT.png</a></td></tr></tbody></table>
-

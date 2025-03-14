@@ -1,7 +1,7 @@
 # Grid container component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Grid Container component allows you to create organized layouts with a grid structure. This documentation provides instructions on adding a Grid Container to your canvas and customizing its properties.
+As part of the page builder in App Builder, the grid container component allows you to create organized layouts with a grid structure. This documentation provides instructions on adding a grid container to your canvas and customizing its properties.
 {% endhint %}
 
 ## Why we developed the grid container component
@@ -15,7 +15,7 @@ The Grid Container component provides a flexible and powerful way to arrange UI 
 * Aligning components precisely within a page, enhancing the visual structure.
 * Organizing text, images, and interactive elements in a clean, navigable format.
 
-## **Example \ use case for the grid container component**
+## **Example use case for the grid container component**
 
 Imagine a real estate website where property listings need to be displayed in an organized manner. The Grid Container can be used to create a uniform grid layout where each property's image, description, and key details are presented in individual grid cells. This setup allows users to easily compare listings and navigate through options without overwhelming visual clutter, enhancing user experience and engagement.
 
@@ -40,8 +40,3 @@ Imagine a real estate website where property listings need to be displayed in an
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
    * **In-line styles**: Define custom CSS properties for the component.&#x20;
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

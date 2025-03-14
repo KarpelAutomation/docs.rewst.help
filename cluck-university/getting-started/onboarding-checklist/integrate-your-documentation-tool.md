@@ -52,7 +52,7 @@ Rewst integrates with a variety of documentation tools. Each brand has its own s
 
 {% tabs %}
 {% tab title="IT Glue" %}
-### ITGlue setup
+#### ITGlue setup
 
 {% content-ref url="../../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md" %}
 [it-glue-integration-setup.md](../../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md)
@@ -60,7 +60,7 @@ Rewst integrates with a variety of documentation tools. Each brand has its own s
 {% endtab %}
 
 {% tab title="Hudu" %}
-### Hudu setup
+#### Hudu setup
 
 {% content-ref url="../../../documentation/integrations/documentation/hudu/hudu-integration-setup.md" %}
 [hudu-integration-setup.md](../../../documentation/integrations/documentation/hudu/hudu-integration-setup.md)
@@ -68,7 +68,7 @@ Rewst integrates with a variety of documentation tools. Each brand has its own s
 {% endtab %}
 
 {% tab title="IT Portal" %}
-### IT Portal setup
+#### IT Portal setup
 
 {% content-ref url="../../../documentation/integrations/documentation/it-portal-coming-soon/it-portal-integration-setup.md" %}
 [it-portal-integration-setup.md](../../../documentation/integrations/documentation/it-portal-coming-soon/it-portal-integration-setup.md)
@@ -76,7 +76,7 @@ Rewst integrates with a variety of documentation tools. Each brand has its own s
 {% endtab %}
 
 {% tab title="Jumpcloud" %}
-### Jumpcloud setup
+#### Jumpcloud setup
 
 {% content-ref url="../../../documentation/integrations/documentation/jumpcloud/jumpcloud-integration-setup.md" %}
 [jumpcloud-integration-setup.md](../../../documentation/integrations/documentation/jumpcloud/jumpcloud-integration-setup.md)
@@ -84,7 +84,7 @@ Rewst integrates with a variety of documentation tools. Each brand has its own s
 {% endtab %}
 
 {% tab title="Jira" %}
-### Jira setup
+#### Jira setup
 
 {% content-ref url="../../../documentation/integrations/documentation/jira/jira-integration-setup.md" %}
 [jira-integration-setup.md](../../../documentation/integrations/documentation/jira/jira-integration-setup.md)
@@ -96,8 +96,7 @@ Rewst integrates with a variety of documentation tools. Each brand has its own s
 **Need help?**
 
 * Join an Onboarding Session – If you need general guidance on setting up an integration, [sign up for live training](https://outlook.office365.com/owa/calendar/RewstImplementation1@rewst.io/bookings/).
-* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:the_roc@rewst.io) for troubleshooting.
+* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:roc@rewst.io) for troubleshooting.
 {% endhint %}
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="integrate-your-licensing-tool.md"><strong>Integrate your licensing tool</strong></a></td><td><a href="integrate-your-licensing-tool.md">integrate-your-licensing-tool.md</a></td><td><a href="../../../.gitbook/assets/NEXT.png">NEXT.png</a></td></tr></tbody></table>
-

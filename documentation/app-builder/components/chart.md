@@ -1,7 +1,7 @@
 # Chart component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Chart component allows you to group and organize various UI elements within a structured and styled section. This component is essential for creating visually coherent and logically organized layouts in your web applications.
+As part of the page builder in App Builder, the chart component allows you to group and organize various UI elements within a structured and styled section. This component is essential for creating visually coherent and logically organized layouts in your web applications.
 {% endhint %}
 
 ## Why we developed the chart component
@@ -15,7 +15,7 @@ The Chart component enables the display of data analytics and trends visually. B
 * Visualizing demographic data and user engagement statistics.
 * Showcasing real-time data updates such as stock prices or performance metrics.
 
-## **Example \ use case for the chart component**
+## **Example use case for the chart component**
 
 An MSP might use the Chart component to visualize client network usage, system performance or support\ticket metrics over time. For instance, line charts could display changes in bandwidth usage or storage capacity across multiple client sites, helping you identify trends, anticipate needs, and allocate resources more effectively. This visualization aids in proactive management and enhances the strategic advising role of the MSP with their clients.
 
@@ -48,8 +48,3 @@ An MSP might use the Chart component to visualize client network usage, system p
          * **Y axis data key**: Select the data point to associate to the Y axis.
          * **X Scale type**: Select the desired X-scale type; 'linear', 'logarithmic', 'category', 'time' or 'timeseries'.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

@@ -1,4 +1,4 @@
-# April 19th 2024
+# April 19, 2024 - Dev Update
 
 Explore what new changes the Dev team has deployed in the last week!
 
@@ -34,10 +34,8 @@ This can be anything from new features, bug fixes, or QoL changes!
 * Re-ordered Component library and renamed some components in App Platform
 * Made ConnectWise Automate Update EDF action easier to use
 * Adjusted N-Able pagination limit
-* Fixed an error seen when viewing org variables when an org id is not present on the variable (due to the org being 
-  deleted)
-* Fixed a bug where switching org context while viewing a form would throw an error if the org being switched to 
-  doesn't have that form
+* Fixed an error seen when viewing org variables when an org id is not present on the variable (due to the org being deleted)
+* Fixed a bug where switching org context while viewing a form would throw an error if the org being switched to doesn't have that form
 
 </details>
 

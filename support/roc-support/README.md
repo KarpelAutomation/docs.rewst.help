@@ -9,7 +9,7 @@ Monday thru Friday 4AM to 9PM Eastern
 To log a ticket, we have various channels available to you
 * You can send a message to our team via your private customer channel in Discord. We aim to respond to these messages within 60 minutes
 * [Use the command to create a ticket from a message](create-a-ticket-via-discord.md). This will alert our support team and they will respond as quickly as possible.
-* Email us at [the_roc@rewst.io](mailto:the\_roc@rewst.io)
+* Email us at [roc@rewst.io](mailto:roc@rewst.io)
 
 ## Our Commitment
 

@@ -1,21 +1,31 @@
 ---
-description: Revolutionize your MSP operations with Rewst's App Platform.
+description: Revolutionize your MSP operations with Rewst's App Builder.
 ---
 
-# App Platform (Coming Soon!)
+# App Builder
 
 {% embed url="https://www.youtube.com/watch?v=m7uBInSHXd8" %}
-Introducing The Application Platform
+Introducing App Builder
 {% endembed %}
 
-**Key Highlights:**
+## **What is App Builder?**&#x20;
 
-* **Purpose**: Complements your existing Rewst automations, offering the ability to design user-friendly apps that interact with workflows, forms, and data.
-* **User-Friendly**: With a drag-and-drop interface, Rewst customers can create branded apps, complete with text blocks, images, forms, and more.
-* **Endless Possibilities**: Build a variety of apps, from analytics dashboards to client onboarding solutions, all tightly integrated with Rewst workflows.
-* **Customer Interaction**: Users can interact directly with workflows, forms, and data, enhancing efficiency and user satisfaction.
-* **Additional Features**: Advanced functionality for the power users among us, like theme customization, granular access controls, flexible authentication methods, and customizable code blocks.
+App Builder is an extension of Rewst’s automation platform that allows MSPs to quickly build web applications for interacting with Rewst-generated data from workflows, forms, and data. It drives additional efficiency, consistency, and visibility gains, and helps our MSPs differentiate themselves through engaging front-end experiences.
 
 {% hint style="info" %}
-For more detailed information, [read our full press release here](https://rewst.io/press-release/rewst-unveils-low-code-app-platform-enabling-msps-to-extend-automations-with-branded-front-end-experiences/). Alpha release coming soon to select customers with interest submission available now. A beta release will follow, slated for early 2024.
+Rewst's earliest version of App Builder was called App Platform. App Builder is the same product at App Platform, now with a more descriptive name.&#x20;
+{% endhint %}
+
+## Why use App Builder?
+
+Design app screens or pages by dragging and dropping UI components such as text blocks, images, buttons, data tables, grid containers, forms, and workflow inputs. Theme your apps with your company's logo, color palette, and typography, and host them on custom subdomains to provide a fully white-labeled experience.
+
+## View App Builder in Rewst <a href="#view-forms-in-rewst" id="view-forms-in-rewst"></a>
+
+Access App Builder by navigating to the separate **App Builder** section in the left side menu of your Rewst Platform, and clicking **Apps**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 5.04.57 PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Rewst's App Builder is available to all Rewst customers, but is still in its earlier stages of development. If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
 {% endhint %}

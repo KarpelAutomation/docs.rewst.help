@@ -1,7 +1,7 @@
 # Menu component
 
 {% hint style="info" %}
-As part of the page builder in App Builder, the Menu component enables you to create dynamic navigation menus within your web applications. This component is crucial for structuring the navigation of your site, allowing users to easily access various sections and functionalities offered by your application.
+As part of the page builder in App Builder, the menu component enables you to create dynamic navigation menus within your web applications. This component is crucial for structuring the navigation of your site, allowing users to easily access various sections and functionalities offered by your application.
 {% endhint %}
 
 ## Why we developed the menu component
@@ -33,8 +33,3 @@ Consider an MSP that manages a complex array of IT services, including cloud sto
      * **Add new Link**: Specify a new link to add to the menu component
      * **Drag\Drop**: Reorder the links in the menu component.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-
-
-If you have any questions or need assistance, feel free to reach out to our support team.\
-&#x20;\- Happy designing! 🎨🚀

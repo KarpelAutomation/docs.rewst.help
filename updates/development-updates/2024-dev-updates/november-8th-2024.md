@@ -1,4 +1,4 @@
-# November 8th, 2024
+# November 8, 2024 - Dev Update
 
 Explore what new changes the Dev team has deployed in the last week!
 
@@ -10,9 +10,9 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 * Multiplayer workflows have been fully released
 * Added a root level USER namespace to jinja
-* Added  an action column to Datatable components in App Builder that allows for opening a dialog and passing the
+* Added an action column to Datatable components in App Builder that allows for opening a dialog and passing the
 * Added a confirrmation dialog when deleting Apps in App Builder
- 
+
 </details>
 
 <details>
@@ -26,23 +26,19 @@ This can be anything from new features, bug fixes, or QoL changes!
 * Improved error logging for workflow execution kick off
 * Fixed the Get Ticket action for Freshdesk
 * Simplified timezone naming anywhere there is a dropdown to select a timezone
-* Fixed a problem where updating a sub-workflow was not updating the parent workflow causing bugs with sub-workflow 
-  inputs
+* Fixed a problem where updating a sub-workflow was not updating the parent workflow causing bugs with sub-workflow inputs
 * Fixed ORG.INTEGRATIONS jinja to only return integrations for the ORG in scope and not it's child orgs
 * Fixed the Generic API request action for custom integrations v2
 * Added more scopes to Google Workspace Admin actions
 * Fixed a bug with Webroot integration access token caching
 * Hide the Authorize button on custom integration v2 integrations for authorization schemas that it's not relevant for
-* Fixed a bug with auth checks for embedded forms causing users to receive a 503
-  row context to be used in jinja in that dialog
-* Replaced calls from our engine to our graph-api to retrieve integration configurations with direct database calls 
-  to improve performance and eliminate network connection level bugs
+* Fixed a bug with auth checks for embedded forms causing users to receive a 503 row context to be used in jinja in that dialog
+* Replaced calls from our engine to our graph-api to retrieve integration configurations with direct database calls to improve performance and eliminate network connection level bugs
 * Increased max page size and max pages for Bit Defender integration
 * Fixed a bug with MS Graph Teams Sensors where they were unable to be used to create multiple triggers
 * Fixed a bug related to org mapping causing Workflow Initialization Failures
-* Fixed a bug with Webroot causing Client AttributeError when requesting the access_token
+* Fixed a bug with Webroot causing Client AttributeError when requesting the access\_token
 * Fixed a bug where updating a cron trigger would sometimes not apply the change to all trigger instances
-
 
 </details>
 

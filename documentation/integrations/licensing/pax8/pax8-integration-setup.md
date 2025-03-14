@@ -20,7 +20,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our Pax8 integration allows MSPs to automate license procurement and billing reconciliation processes. By integrating Pax8 with Rewst, you can streamline operations, reduce manual tasks, and enhance accuracy in billing and license management.
 
-### Integration use cases
+### Why use the Pax8 integration?
 
 * Automate the procurement of licenses for various services.
 * Streamline billing reconciliation processes to ensure accurate invoicing.

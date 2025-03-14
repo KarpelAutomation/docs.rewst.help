@@ -8,7 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 This integration enables seamless automation of network management and IT operations using Cisco Meraki's API, helping you manage alerts, licenses, and hardware.
 
-### Integration use cases
+### Why use the Cisco Meraki integration?
 
 * Automated onboarding and offboarding of clients (PSA integration)
 * Organization management
@@ -18,7 +18,7 @@ This integration enables seamless automation of network management and IT operat
 
 ### Set up steps in Cisco Meraki
 
-1. Log in to Cisco Meraki.&#x20;
+1. Log in to Cisco Meraki.
 2. Navigate to the **My Profile** page, accessed via the avatar icon in the top right-hand corner of dashboard.
 3. Click **Generate new API key**.\
    \
@@ -32,8 +32,7 @@ This integration enables seamless automation of network management and IT operat
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-02-26 at 9.58.00 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
-4.  Under **Parameters**:\
-
+4.  Under **Parameters**:\\
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-26 at 10.37.16 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -52,10 +51,10 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Cisco Meraki integration actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Cisco's complete documentation can be found [here](../../../updates/roc-open-mics/2022-roc-open-mics/may-27th-2022-graph-api.md).&#x20;
+Cisco's complete documentation can be found [here](../../../updates/roc-open-mics/2022-roc-open-mics/may-27th-2022-graph-api.md).
 
 | Category            | Action                                                                   | Description                                                                                                                                                                    |
 | ------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

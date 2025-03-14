@@ -1,10 +1,10 @@
-# End User Portal
+# End user portal
 
 {% hint style="warning" %}
-End User Portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
+End user portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
 {% endhint %}
 
-The **End User Portal** is built around self-service automation, letting you manage tasks independently while still maintaining the ability to log tickets for more complex needs. With 24/7 access to essential automations, this portal reduces reliance on service desk calls and streamlines operations for both you and your end users.
+The **end user portal** is built around self-service automation, letting you manage tasks independently while still maintaining the ability to log tickets for more complex needs. With 24/7 access to essential automations, this portal reduces reliance on service desk calls and streamlines operations for both you and your end users.
 
 <figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
@@ -19,7 +19,7 @@ The **End User Portal** is built around self-service automation, letting you man
 * View tickets that have been submitted, along with their status
 * Export reports
 
-### **Crate prerequisites for End User Portal setup:**
+### **Crate prerequisites for end user portal setup:**
 
 * [User Onboarding](https://app.rewst.io/marketplace/crates/739fbe90-70da-454e-888e-5fa416665ce1)
 * [User Offboarding](https://app.rewst.io/marketplace/crates/c3f4316f-f599-4943-af50-29cde06dd863)
@@ -27,7 +27,7 @@ The **End User Portal** is built around self-service automation, letting you man
 * [Change A User's Password](https://app.rewst.io/marketplace/crates/2380ea0b-00b6-47d5-8107-77fc55a63938)
 * [Add or Remove Group Membership](https://app.rewst.io/marketplace/crates/022c71ff-985c-4a8a-a0ac-efbdc4705a70)
 
-### **Integration prerequisites for End User Portal setup:**
+### **Integration prerequisites for end user portal setup:**
 
 * View tickets feature
   * PSA: Connectwise PSA, Datto Autotask, Halo PSA

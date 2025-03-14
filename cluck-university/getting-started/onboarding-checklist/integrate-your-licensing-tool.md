@@ -25,7 +25,7 @@ Rewst is constantly adding new integrations. If Rewst doesn't currently have an 
 Note that for licensing tools other than Pax8, you'll need to:
 
 * Create an API user in your licensing tool
-* Gather API credentials and keys&#x20;
+* Gather API credentials and keys
 * Possibly gather your licensing tool's additional information, like the subscription ID
 {% endhint %}
 
@@ -37,7 +37,7 @@ Licensing integration demo: Pax8 (_1:45 min_)
 
 #### **Video summary**
 
-* Search for the Pax8 under **Configuration&#x20;**_**>**_**&#x20;Integrations**.&#x20;
+* Search for the Pax8 under **Configuration&#x20;**_**>**_**&#x20;Integrations**.
 * Click on the Pax8 integration tile. Scroll down to the bottom of the page. Next to **OAuth Configuration**, click on the **Authorize** button. Then, select the service account user you set up in Pax 8 to log in as that user, in the dialog that appears.
 * Once logged in, you'll see a green confirmation message at the top of your screen letting you know that you have successfully authorized Pax8.
 
@@ -49,7 +49,7 @@ Rewst integrates with a variety of licensing tools. Each brand has its own setup
 
 {% tabs %}
 {% tab title="Pax8" %}
-### Pax8 setup
+#### Pax8 setup
 
 {% content-ref url="../../../documentation/integrations/licensing/pax8/pax8-integration-setup.md" %}
 [pax8-integration-setup.md](../../../documentation/integrations/licensing/pax8/pax8-integration-setup.md)
@@ -57,7 +57,7 @@ Rewst integrates with a variety of licensing tools. Each brand has its own setup
 {% endtab %}
 
 {% tab title="Ingram Micro" %}
-### Ingram Micro Setup
+#### Ingram Micro Setup
 
 {% content-ref url="../../../documentation/integrations/licensing/ingram-micro/ingram-micro-integration-setup.md" %}
 [ingram-micro-integration-setup.md](../../../documentation/integrations/licensing/ingram-micro/ingram-micro-integration-setup.md)
@@ -65,7 +65,7 @@ Rewst integrates with a variety of licensing tools. Each brand has its own setup
 {% endtab %}
 
 {% tab title="Sherweb" %}
-### Sherweb setup
+#### Sherweb setup
 
 {% content-ref url="../../../documentation/integrations/licensing/sherweb/sherweb-integration-setup.md" %}
 [sherweb-integration-setup.md](../../../documentation/integrations/licensing/sherweb/sherweb-integration-setup.md)
@@ -73,7 +73,7 @@ Rewst integrates with a variety of licensing tools. Each brand has its own setup
 {% endtab %}
 
 {% tab title="Synnex" %}
-### Synnex setup
+#### Synnex setup
 
 {% content-ref url="../../../documentation/integrations/licensing/synnex/synnex-integration-setup.md" %}
 [synnex-integration-setup.md](../../../documentation/integrations/licensing/synnex/synnex-integration-setup.md)
@@ -85,8 +85,7 @@ Rewst integrates with a variety of licensing tools. Each brand has its own setup
 **Need help?**
 
 * Join an Onboarding Session – If you need general guidance on setting up an integration, [sign up for live training](https://outlook.office365.com/owa/calendar/RewstImplementation1@rewst.io/bookings/).
-* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:the_roc@rewst.io) for troubleshooting.
+* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:roc@rewst.io) for troubleshooting.
 {% endhint %}
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="intro-to-organizations-and-organization-variables.md"><strong>Intro to organizations and organization variables</strong></a></td><td><a href="../../../.gitbook/assets/NEXT.png">NEXT.png</a></td></tr></tbody></table>
-

@@ -55,7 +55,7 @@ Rewst integrates with a variety of cloud tools. Each brand has its own setup doc
 
 {% tabs %}
 {% tab title="Microsoft Cloud bundle" %}
-### Microsoft cloud bundle setup
+#### Microsoft cloud bundle setup
 
 {% content-ref url="../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/" %}
 [microsoft-cloud-integration-bundle](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/)
@@ -63,7 +63,7 @@ Rewst integrates with a variety of cloud tools. Each brand has its own setup doc
 {% endtab %}
 
 {% tab title="Google Admin" %}
-### Google Admin setup
+#### Google Admin setup
 
 {% content-ref url="../../../documentation/integrations/cloud/google-admin/" %}
 [google-admin](../../../documentation/integrations/cloud/google-admin/)
@@ -71,7 +71,7 @@ Rewst integrates with a variety of cloud tools. Each brand has its own setup doc
 {% endtab %}
 
 {% tab title="Nerdio" %}
-### Nerdio setup
+#### Nerdio setup
 
 {% content-ref url="../../../documentation/integrations/cloud/nerdio/" %}
 [nerdio](../../../documentation/integrations/cloud/nerdio/)
@@ -83,8 +83,7 @@ Rewst integrates with a variety of cloud tools. Each brand has its own setup doc
 **Need help?**
 
 * Join an Onboarding Session – If you need general guidance on setting up an integration, [sign up for live training](https://outlook.office365.com/owa/calendar/RewstImplementation1@rewst.io/bookings/).
-* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:the_roc@rewst.io) for troubleshooting.
+* Create a Support Ticket – If something isn't working with a specific integration, contact the [Robotics Operations Center (ROC)](mailto:roc@rewst.io) for troubleshooting.
 {% endhint %}
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="integrate-your-documentation-tool.md"><strong>Integrate your documentation tool</strong></a></td><td><a href="../../../.gitbook/assets/NEXT.png">NEXT.png</a></td></tr></tbody></table>
-
