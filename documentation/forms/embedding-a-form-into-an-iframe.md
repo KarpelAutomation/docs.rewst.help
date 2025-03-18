@@ -1,23 +1,22 @@
-# Embedding a Form into an iFrame
+# Embed a form into an iFrame
 
-### Embedding Forms
+### Embed forms
 
-There is often a need to embed a form in an iframe to give users the ability to complete a form and trigger automation. The form can be embedded into other web pages that use iFrame Links.
+There is often a need to embed a form in an iframe to give users the ability to complete a form and trigger automation. The form can be embedded into other web pages that use iFrame links.
 
 {% hint style="success" %}
-To get the dynamic form URL, make sure your form is already set up as a Trigger for a Workflow.
+To get the dynamic form URL, make sure your form is already set up as a trigger for a workflow.
 {% endhint %}
 
-### How to Get an Embeddable Link
+### Get an embeddable link
 
 Follow these steps to get the embeddable link:
 
-1. **Go to** your account in [Rewst](https://app.rewst.io/).
-2. **Go to** _Automations_ → _Workflows_.
-3. **Click** on the Workflow that includes the Form Trigger.
-4. **Click** on _Edit Trigger_ in the top menu.
-5. **Click** on _Copy Embeddable iFrame code._
+1. Navigate to **Automations > Workflows**.
+2. Click on the Workflow that includes the form trigger.
+3. Click **Edit Trigger** in the top menu.
+4. Click on **Copy Embeddable iFrame code**.
 
-This copies the embeddable Iframe Code. You can paste the code into your compatible webpage editor.
+This copies the embeddable Iframe code. Paste the code into your compatible webpage editor.
 
 <figure><img src="../../.gitbook/assets/get-embed-link.gif" alt=""><figcaption></figcaption></figure>

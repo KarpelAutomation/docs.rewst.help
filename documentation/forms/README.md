@@ -2,7 +2,7 @@
 
 ## What is a form?
 
-In Rewst, _forms_ are powerful tools used to collect the information your workflows need to start. They streamline the data collection process by gathering key details from users such as names, dates, or options.
+In Rewst, every automation starts with a single click. _Forms_ are powerful tools used to collect the information your workflows need to start. They streamline the data collection process by gathering key details from users such as names, dates, or options. Forms can be manually created, or added as part of [Crate unpacking](https://docs.rewst.help/prebuilt-automations/crates#unpack-a-crate).&#x20;
 
 Rewst's form functionality is designed to empower users with the tools to build interactive, responsive, and customizable forms.&#x20;
 
