@@ -33,46 +33,39 @@ In the following table, `John Smith` is used as the example. All value to enter 
 
 * **F** = first initial E.g., J for John
 * **L** = last initial E.g., S for Smith
-* **firstname** = full first name E.g., John
-* **lastname** = full last name E.g., Smith
+* **first** = full first name E.g., John
+* **last** = full last name E.g., Smith
 * **middle** = middle name E.g., Michael
 * **period (.)** = separator between first name and last name
-* \*underscore (\_) \*\* = separator between first name and last name
 
-| **Example**         | **Value to enter**          |
-| ------------------- | --------------------------- |
-| John.Smith          | `firstname.lastname`        |
-| John\_Smith         | `firstname_lastname`        |
-| JohnSmith           | `firstnamelastname`         |
-| johnsmith           | `firstnamelastname`         |
-| John.S              | `firstname.l`               |
-| John\_S             | `firstname_l`               |
-| JohnL               | `firstnamel`                |
-| johnl               | `firstnamel`                |
-| John                | `firstname`                 |
-| john                | `firstname`                 |
-| J.Smith             | `f.lastname`                |
-| JSmith              | `flast`                     |
-| jsmith              | `flast`                     |
-| Smith.John          | `lastname.firstname`        |
-| smith\_john         | `lastname_firstname`        |
-| SmithJohn           | `lastnamefirstname`         |
-| smithjohn           | `lastnamefirstname`         |
-| Smith.J             | `last.f`                    |
-| smith.j             | `last.f`                    |
-| SmithJ              | `lastf`                     |
-| smithj              | `lastf`                     |
-| Smith               | `lastname`                  |
-| S.John              | `l.firstname`               |
-| smithj              | `lfirst`                    |
-| John.Middle.Smith   | `firstname.middle.lastname` |
-| John\_Middle\_Smith | `firstname_middle_lastname` |
-| John.M.Smith        | `firstname.m.lastname`      |
-| john\_m\_smith      | `firstname_m_lastname`      |
-| JohnM.Smith         | `firstnamemiddlelastname`   |
-| johnmsmith          | `firstnamemiddlelastname`   |
-| J.M.Smith           | `fmlast`                    |
-| jmsmith             | `fmlast`                    |
+| **Example** | **Value to enter** |
+| ----------- | ------------------ |
+| John.Smith  | `first_last`       |
+| JohnSmith   | `firstlast`        |
+| John.S      | `first_l`          |
+| JohnL       | `firstl`           |
+| John        | `first`            |
+| J.Smith     | `f_last`           |
+| JSmith      | `flast`            |
+| JS          | `fl`               |
+| Smith.John  | `last_first`       |
+| SmithJohn   | `lastfirst`        |
+| Smith.J     | `last_f`           |
+| SmithJ      | `lastf`            |
+| Smith       | `last`             |
+| S.John      | `l_first`          |
+| SJohn       | `lfirst`           |
+
+**When a middle name is present, additional options include:**
+
+| **Example**       | **Value to enter**  |
+| ----------------- | ------------------- |
+| John.Middle.Smith | `first_middle_last` |
+| John.MiddleSmith  | `first_middlelast`  |
+| John.M.Smith      | `first_m_last`      |
+| JohnMSmith        | `firstmlast`        |
+| JMSmith           | `fmlast`            |
+| JMS               | `fml`               |
 
 {% hint style="warning" %}
 Ensure that these variables are set before testing onboarding workflows.
