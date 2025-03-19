@@ -18,23 +18,6 @@ layout:
 
 <details>
 
-<summary>Aharon's Automation Maturity Model</summary>
-
-<img src="../.gitbook/assets/2023-08-07_16-06-46 (4).png" alt="" data-size="original">
-
-The Automation Maturity Model, devised by our beloved Aharon, illustrates four stages of automation adoption within an organization. These stages include:
-
-* **No Automation:** Initial stage with manual processes, requiring human intervention for tasks.
-* **Task Automation:** Automation of repetitive tasks to enhance efficiency and accuracy.
-* **Human-assisted Process Automation:** Integration of human decision-making within automated processes for more complex workflows.
-* **Autonomous Process Automation:** Advanced stage where processes are automated end-to-end with minimal to no human intervention, achieving significant operational efficiency and cost-effectiveness.
-
-This model serves as a roadmap for organizations to assess and elevate their automation capabilities, aligning with the broader operational goals to drive growth and innovation.
-
-</details>
-
-<details>
-
 <summary>You keep mentioning the "ROC", who or what is that?</summary>
 
 Our Robotic Operations Center, or ROC team, is here to support you in your journey to create, monitor, and manage your workflows. As a member of the Kewp, you'll have access to our dedicated team of specialists through [Discord](https://discord.gg/rewst), [Support Tickets](../support/roc-support/) and our ROC Open Mic Friday calls.
@@ -77,14 +60,6 @@ This process may not be necessary if you have already [whitelisted our outgoing 
 </details>
 
 ### Platform
-
-<details>
-
-<summary>What are workflows, forms, crates, and templates?</summary>
-
-Have a look at the [terminology page for more information](../cluck-university/getting-started/rewst-terminology.md).
-
-</details>
 
 <details>
 
@@ -136,14 +111,6 @@ This is one of the great things about how we have implemented the product - ther
 </details>
 
 ### Forms
-
-<details>
-
-<summary>How do I created the form URLs to test the form?</summary>
-
-For further information on generating the form URLs for your clients, [please click here](https://docs.rewst.help/documentation/forms/intro-to-forms#how-do-you-get-the-form-url-to-try-it).
-
-</details>
 
 <details>
 

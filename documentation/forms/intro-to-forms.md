@@ -264,7 +264,7 @@ Recall that you can access all forms in your form list in Rewst. Understanding h
 
 ## Restrict form drop-downs
 
-The Onboarding form includes a number of fields to be filled out when onboarding new users. The default behavior of all the dropdown fields is to pull the list of options from the API. This is because the dropdown fields have **Dynamic Options** toggled on.
+The onboarding form includes a number of fields to be filled out when onboarding new users. The default behavior of all the dropdown fields is to pull the list of options from the API. This is because the dropdown fields have **Dynamic Options** toggled on.
 
 <figure><img src="../../.gitbook/assets/dynamic-options (1).png" alt=""><figcaption></figcaption></figure>
 

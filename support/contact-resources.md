@@ -1,16 +1,12 @@
 # Contact resources
 
-### Contacts
-
-If you need any further assistance, would like further clarification, or believe there is a mistake on this page then please feel free to reach out to [Jamie Moore](mailto:Jamie@rewst.io).
-
-### Cluck U Office Hours
+### Cluck U office hours
 
 For those going through our [Rewst Foundations Training](../cluck-university/rewst-foundations/), you can join our weekly [Office Hours](../cluck-university/office-hours.md) to get help with questions from training or implementing what you're learning.
 
 Please note that if you need any help or have questions, you can review the FAQs.
 
-### Support Channels
+### Support channels
 
 On The ROC we are always here to help any way we can. You can reach us via the following channels:
 
