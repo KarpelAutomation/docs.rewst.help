@@ -3,7 +3,7 @@
 {% hint style="success" %}
 **This Integration supports multiple instances**
 
-[Check out the instructions to set up multiple instances here](../../general/multi-instance-integration/multi-instance-integration-setup.md).
+[Check out the instructions to set up multiple instances here](../../multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
 {% hint style="info" %}

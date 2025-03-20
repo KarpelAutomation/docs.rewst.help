@@ -28,15 +28,15 @@ Explore what new changes the Training team has made in the last week.
   * [Broken link](broken-reference "mention")
   * [Broken link](broken-reference "mention")
   * [Broken link](broken-reference "mention")
-* [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")A step-by-step guide video added!
+* [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")A step-by-step guide video added!
 
 **Documentation**
 
 * [october-6th-2023-mfa-buffet.md](../../roc-open-mics/2023-roc-open-mics/october-6th-2023-mfa-buffet.md "mention")added
-* [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")page with video added&#x20;
+* [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")page with video added&#x20;
 * **Updates and Fixes:**&#x20;
-  * [pod-configuration.md](../../../documentation/integrations/psa/connectwise-manage/pod-configuration.md "mention"): Added a section on **r**e-running a pod from a ticket
-  * [common-issues-with-microsoft-bundle](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/ "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
-  * [datto-rmm-integration-setup.md](../../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md "mention"): Replaced the Rewst Script Run Powershell.cpt file with an updated version
+  * [pod-configuration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md "mention"): Added a section on **r**e-running a pod from a ticket
+  * [common-issues-with-microsoft-bundle](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/ "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
+  * [datto-rmm-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/datto-rmm/datto-rmm-integration-setup.md "mention"): Replaced the Rewst Script Run Powershell.cpt file with an updated version
 
 </details>

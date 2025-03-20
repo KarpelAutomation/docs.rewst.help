@@ -34,7 +34,7 @@ To get started, select the first module. Each module includes a video and writte
 Check out these supplementary resources.
 
 * [workflow-generated-options.md](../../../documentation/workflows/workflow-generated-options.md "mention")
-* [microsoft-graph-integration-setup.md](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md "mention")
+* [microsoft-graph-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md "mention")
 * [jinja-lists.md](../../../documentation/jinja/use-cases-and-best-practices/jinja-lists.md "mention")
 * [diff-lists.md](../../../documentation/workflows/actions-in-rewst/transform-actions/diff-lists.md "mention")
 * [Microsoft Graph REST API v1.0 endpoint reference](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0)

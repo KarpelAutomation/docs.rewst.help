@@ -40,13 +40,13 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Updated Pages
-  * [servicenow-integration-setup.md](../../../documentation/integrations/psa/servicenow-coming-soon/servicenow-integration-setup.md "mention") - Formatting Update
+  * [servicenow-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/servicenow-coming-soon/servicenow-integration-setup.md "mention") - Formatting Update
   * Added Section [#live-instructor-led-bootcamp](../../../cluck-university/rewst-foundations/#live-instructor-led-bootcamp "mention") in Rewst Foundation Lesson
   * Added App Builder Alert in [issue-alerts.md](../../issue-alerts.md "mention")
   * Reorganized RMM section under [integrations](../../../documentation/integrations/ "mention")
   * Updated [creating-an-option-generator-workflow](../../../cluck-university/rewst-foundations/creating-an-option-generator-workflow/ "mention")
     * Added "Special Instructions" to [#optional-instructions-for-all-managed-organizations](../../../cluck-university/rewst-foundations/creating-an-option-generator-workflow/how-to-create-configure-and-trigger-an-option-generator-workflow.md#optional-instructions-for-all-managed-organizations "mention")
-  * Added note in [ninjaone-integration-setup.md](../../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md "mention")
-  * Added note in [datto-rmm-integration-setup.md](../../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md "mention")
+  * Added note in [ninjaone-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/ninjaone/ninjaone-integration-setup.md "mention")
+  * Added note in [datto-rmm-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/datto-rmm/datto-rmm-integration-setup.md "mention")
 
 </details>

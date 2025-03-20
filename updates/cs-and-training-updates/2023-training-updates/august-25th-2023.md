@@ -27,9 +27,9 @@ Explore what new changes the Training team has made in the last week.
 
 * [Open Mic - August 18th Video and Page Added](../../roc-open-mics/2023-roc-open-mics/august-18th-2023-info-nuggets-and-jinja-burgers.md)
 * Updates and Fixes
-  * Updated [Connectwise Pods documentation](../../../documentation/integrations/psa/connectwise-manage/pod-configuration.md) to include steps for Adding Pods to Tickets
+  * Updated [Connectwise Pods documentation](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md) to include steps for Adding Pods to Tickets
   * Fixed some broken links on the front page
-  * Fixed the IT Glue Documentation link on the [IT Glue Integration Setup Page](../../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md).
+  * Fixed the IT Glue Documentation link on the [IT Glue Integration Setup Page](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/it-glue-integration-setup.md).
   * Fixed the Workflow and Crate links on the [Rewst Terminology Page](../../../cluck-university/getting-started/rewst-terminology.md).
   * Fixed Broken links on [Actions in Rewst page](../../../documentation/workflows/actions-in-rewst/).
   * Fixed code snippet and formatting errors on the [Dynamic Options and Inputs page](../../../documentation/forms/intro-to-forms.md).

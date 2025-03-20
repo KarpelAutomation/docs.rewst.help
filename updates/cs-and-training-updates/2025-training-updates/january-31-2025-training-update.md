@@ -1,4 +1,4 @@
-# January 31, 2025 - Training Update
+# January 31, 2025 - Training update
 
 Explore what new changes the Training team has made in the last week.
 
@@ -35,11 +35,11 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [itglue](../../../documentation/integrations/documentation/itglue/ "mention")pages combined.
-* [halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md "mention") pages combined.
+* [itglue](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/ "mention")pages combined.
+* [halo-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/halopsa/halo-integration-setup.md "mention") pages combined.
 * [components](../../../documentation/app-builder/components/ "mention")subpages updated.
-* [pod-configuration.md](../../../documentation/integrations/psa/connectwise-manage/pod-configuration.md "mention")page updated.
-* [add-rewst-flexible-assets-to-sidebar-in-it-glue.md](../../../documentation/integrations/documentation/itglue/add-rewst-flexible-assets-to-sidebar-in-it-glue.md "mention") page added.
+* [pod-configuration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md "mention")page updated.
+* [add-rewst-flexible-assets-to-sidebar-in-it-glue.md](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/add-rewst-flexible-assets-to-sidebar-in-it-glue.md "mention") page added.
 * [tags-in-rewst.md](../../../documentation/workflows/tags-in-rewst.md "mention") page added.
 * [roc-open-mics](../../roc-open-mics/ "mention") video added.
 

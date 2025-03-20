@@ -51,32 +51,32 @@ Rewst integrates with a variety of licensing tools. Each brand has its own setup
 {% tab title="Pax8" %}
 #### Pax8 setup
 
-{% content-ref url="../../../documentation/integrations/licensing/pax8/pax8-integration-setup.md" %}
-[pax8-integration-setup.md](../../../documentation/integrations/licensing/pax8/pax8-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/licensing/pax8/pax8-integration-setup.md" %}
+[pax8-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/licensing/pax8/pax8-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Ingram Micro" %}
 #### Ingram Micro Setup
 
-{% content-ref url="../../../documentation/integrations/licensing/ingram-micro/ingram-micro-integration-setup.md" %}
-[ingram-micro-integration-setup.md](../../../documentation/integrations/licensing/ingram-micro/ingram-micro-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/licensing/ingram-micro/ingram-micro-integration-setup.md" %}
+[ingram-micro-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/licensing/ingram-micro/ingram-micro-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Sherweb" %}
 #### Sherweb setup
 
-{% content-ref url="../../../documentation/integrations/licensing/sherweb/sherweb-integration-setup.md" %}
-[sherweb-integration-setup.md](../../../documentation/integrations/licensing/sherweb/sherweb-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/licensing/sherweb/sherweb-integration-setup.md" %}
+[sherweb-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/licensing/sherweb/sherweb-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Synnex" %}
 #### Synnex setup
 
-{% content-ref url="../../../documentation/integrations/licensing/synnex/synnex-integration-setup.md" %}
-[synnex-integration-setup.md](../../../documentation/integrations/licensing/synnex/synnex-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/licensing/synnex/synnex-integration-setup.md" %}
+[synnex-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/licensing/synnex/synnex-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

@@ -9,7 +9,7 @@ Note that this is V2 of our custom integrations feature. Customers who previousl
 {% hint style="success" %}
 **This Integration supports multiple instances**
 
-[Check out our instructions to set up multiple instances here](../general/multi-instance-integration/multi-instance-integration-setup.md).
+[Check out our instructions to set up multiple instances here](../multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
 

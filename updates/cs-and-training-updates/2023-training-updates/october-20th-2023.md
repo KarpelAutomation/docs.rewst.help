@@ -26,14 +26,14 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [october-13th-2023-mail-tracking-error-handling-and-onsite-requests.md](../../roc-open-mics/2023-roc-open-mics/october-13th-2023-mail-tracking-error-handling-and-onsite-requests.md "mention") added
-* [godaddy-integration-setup.md](../../../documentation/integrations/dns/godaddy/godaddy-integration-setup.md "mention")and Actions & Endpoints added
-* [synnex-integration-setup.md](../../../documentation/integrations/licensing/synnex/synnex-integration-setup.md "mention")and Actions & Endpoints added
-* [crowdstrike-integration-setup.md](../../../documentation/integrations/security/crowdstrike/crowdstrike-integration-setup.md "mention")and Actions & Endpoints added
-* [liongard-integration-setup.md](../../../documentation/integrations/security/liongard/liongard-integration-setup.md "mention")and Actions & Endpoints added
+* [godaddy-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/dns/godaddy/godaddy-integration-setup.md "mention")and Actions & Endpoints added
+* [synnex-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/licensing/synnex/synnex-integration-setup.md "mention")and Actions & Endpoints added
+* [crowdstrike-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/security/crowdstrike/crowdstrike-integration-setup.md "mention")and Actions & Endpoints added
+* [liongard-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/security/liongard/liongard-integration-setup.md "mention")and Actions & Endpoints added
 * **Updates and Fixes:**&#x20;
-  * Added Powershell Script to [ninjaone-integration-setup.md](../../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md "mention")
+  * Added Powershell Script to [ninjaone-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/ninjaone/ninjaone-integration-setup.md "mention")
   * Updated [organization-variables.md](../../../documentation/user-management/organization-variables.md "mention")
-  * Updated [microsoft-csp-integration-setup.md](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-csp/microsoft-csp-integration-setup.md "mention")
-  * Added Steps to the [halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md "mention")
+  * Updated [microsoft-csp-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/microsoft-csp-integration-setup.md "mention")
+  * Added Steps to the [halo-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/halopsa/halo-integration-setup.md "mention")
 
 </details>

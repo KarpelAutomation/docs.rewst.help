@@ -33,7 +33,7 @@ Explore what new changes the Training team has made in the last week.
   * [dec-29th-2023-last-open-mic-of-2023.md](../../roc-open-mics/2023-roc-open-mics/dec-29th-2023-last-open-mic-of-2023.md "mention")
 * Added [Broken link](broken-reference "mention")
 * Added [app-builder](../../../documentation/app-builder/ "mention")pages
-* Added [nable](../../../documentation/integrations/rmm/nable/ "mention")pages
+* Added [nable](../../../documentation/integrations/individual-integration-documentation/rmm/nable/ "mention")pages
 * Added [agent-smith](../../../documentation/agent-smith/ "mention")pages
 
 </details>

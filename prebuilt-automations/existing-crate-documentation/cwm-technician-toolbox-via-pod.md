@@ -1,4 +1,4 @@
-# CWM: technician toolbox via pod
+# CWM: Technician toolbox via pod
 
 ## Introduction
 
@@ -6,7 +6,7 @@ The Technical Toolbox crate gives your technicians access to Rewst automation wi
 
 ## Prerequisites&#x20;
 
-Before unpacking this crate, you must configure the pod to work with Rewst. Follow our guide: [Pod Configuration](../../documentation/integrations/psa/connectwise-manage/pod-configuration.md)
+Before unpacking this crate, you must configure the pod to work with Rewst. Follow our guide: [Pod Configuration](../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md)
 
 ## Unpack the Crate
 

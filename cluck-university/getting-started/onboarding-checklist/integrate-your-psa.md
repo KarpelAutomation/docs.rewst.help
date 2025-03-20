@@ -64,32 +64,32 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 {% tab title="ConnectWise PSA" %}
 #### ConnectWise PSA setup
 
-{% content-ref url="../../../documentation/integrations/psa/connectwise-manage/connectwise-integration-setup.md" %}
-[connectwise-integration-setup.md](../../../documentation/integrations/psa/connectwise-manage/connectwise-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/connectwise-integration-setup.md" %}
+[connectwise-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/connectwise-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Datto Autotask" %}
 #### Datto Autotask PSA setup
 
-{% content-ref url="../../../documentation/integrations/psa/autotask-datto-psa/datto-psa-integration-setup.md" %}
-[datto-psa-integration-setup.md](../../../documentation/integrations/psa/autotask-datto-psa/datto-psa-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/psa/autotask-datto-psa/datto-psa-integration-setup.md" %}
+[datto-psa-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/autotask-datto-psa/datto-psa-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Halo" %}
 #### Datto Autotask PSA setup
 
-{% content-ref url="../../../documentation/integrations/psa/halopsa/halo-integration-setup.md" %}
-[halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/psa/halopsa/halo-integration-setup.md" %}
+[halo-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/halopsa/halo-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Kaseya" %}
 #### Kaseya BMS PSA setup
 
-{% content-ref url="../../../documentation/integrations/psa/kaseya-bms/kaseya-bms-integration-setup.md" %}
-[kaseya-bms-integration-setup.md](../../../documentation/integrations/psa/kaseya-bms/kaseya-bms-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/psa/kaseya-bms/kaseya-bms-integration-setup.md" %}
+[kaseya-bms-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/kaseya-bms/kaseya-bms-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

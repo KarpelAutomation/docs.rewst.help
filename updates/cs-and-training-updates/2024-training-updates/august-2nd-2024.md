@@ -36,10 +36,10 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [july-29th-2022-how-do-you-know-that-the-person-on-the-phone-is-who-they-say.md](../../roc-open-mics/2022-roc-open-mics/july-29th-2022-how-do-you-know-that-the-person-on-the-phone-is-who-they-say.md "mention") page has been added
-* [it-portal-coming-soon](../../../documentation/integrations/documentation/it-portal-coming-soon/ "mention") section added
-* [dns-filter](../../../documentation/integrations/dns/dns-filter/ "mention") page added
-* [servicenow-coming-soon](../../../documentation/integrations/psa/servicenow-coming-soon/ "mention") section added
-* [webroot](../../../documentation/integrations/security/webroot/ "mention") section added
+* [it-portal-coming-soon](../../../documentation/integrations/individual-integration-documentation/documentation/it-portal-coming-soon/ "mention") section added
+* [dns-filter](../../../documentation/integrations/individual-integration-documentation/dns/dns-filter/ "mention") page added
+* [servicenow-coming-soon](../../../documentation/integrations/individual-integration-documentation/psa/servicenow-coming-soon/ "mention") section added
+* [webroot](../../../documentation/integrations/individual-integration-documentation/security/webroot/ "mention") section added
 
 </details>
 

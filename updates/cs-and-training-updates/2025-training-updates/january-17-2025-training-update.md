@@ -1,4 +1,4 @@
-# January 17, 2025 - Training Update
+# January 17, 2025 - Training update
 
 Explore what new changes the Training team has made in the last week.
 
@@ -35,9 +35,9 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* Updates to [google-enterprise-integration-setup.md](../../../documentation/integrations/cloud/google-admin/google-enterprise-integration-setup.md "mention")
+* Updates to [google-enterprise-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/cloud/google-admin/google-enterprise-integration-setup.md "mention")
 * Updates to [stewarts-30-favorite-crates.md](../../../prebuilt-automations/crates/stewarts-30-favorite-crates.md "mention")
-* Formatting on [datto-psa-integration-setup.md](../../../documentation/integrations/psa/autotask-datto-psa/datto-psa-integration-setup.md "mention")
+* Formatting on [datto-psa-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/autotask-datto-psa/datto-psa-integration-setup.md "mention")
 * Open Mics Video Added
 
 </details>

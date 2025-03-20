@@ -12,7 +12,7 @@ description: >-
 
 **Creation Date**: August 27th, 2023
 
-**Required Integrations**: [Microsoft Graph](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md)
+**Required Integrations**: [Microsoft Graph](../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md)
 
 **Components**:
 
@@ -33,7 +33,7 @@ If you're interested in taking advantage of the CSP/CPV Permission Checker withi
 
 ## Overview
 
-Your Rewst service account that is used to manage your Microsoft tenants requires [specific GDAP roles in order to perform it's various actions](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md#recommended-roles-for-gdap), without them you can run into a slew of issues. This workflow is designed to identify if any of these roles are missing at a specified client location.
+Your Rewst service account that is used to manage your Microsoft tenants requires [specific GDAP roles in order to perform it's various actions](../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md#recommended-roles-for-gdap), without them you can run into a slew of issues. This workflow is designed to identify if any of these roles are missing at a specified client location.
 
 ## Usage&#x20;
 
@@ -69,7 +69,7 @@ A data alias is created for the `msp_tenant_id`, which is extracted from the ret
 #### **Assess roles**
 
 * The **\[ROC] M365: Get Role Assignments** sub-workflow is initiated.
-* The [Necessary GDAP roles](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md#recommended-roles-for-gdap) are confirmed through a `GET` request to the following Graph endpoint:
+* The [Necessary GDAP roles](../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md#recommended-roles-for-gdap) are confirmed through a `GET` request to the following Graph endpoint:
   * Base URL: `https://graph.microsoft.com/beta`
   * Endpoint: `/roleManagement/directory/roleAssignments?$filter=roleDefinitionId eq '{{ CTX.role_id }}'&$expand=principal`
 * The output differentiates between present and absent roles, with results set for comparison in the subsequent step.

@@ -52,21 +52,21 @@ _**Monthly Clean Automation Starting March 24:**_
 
 **New & Updated Pages:**
 
-* [cisco-meraki-integration.md](../../../documentation/integrations/security/cisco-meraki-integration.md "mention") page added.
-* [syncmonkey-integration.md](../../../documentation/integrations/documentation/syncmonkey-integration.md "mention") page added.
-* [anthropic-integration.md](../../../documentation/integrations/ai/anthropic-integration.md "mention") page added.
-* [superops-integration.md](../../../documentation/integrations/psa/superops-integration.md "mention") page added.&#x20;
+* [cisco-meraki-integration.md](../../../documentation/integrations/individual-integration-documentation/security/cisco-meraki-integration.md "mention") page added.
+* [syncmonkey-integration.md](../../../documentation/integrations/individual-integration-documentation/documentation/syncmonkey-integration.md "mention") page added.
+* [anthropic-integration.md](../../../documentation/integrations/individual-integration-documentation/ai/anthropic-integration.md "mention") page added.
+* [superops-integration.md](../../../documentation/integrations/individual-integration-documentation/psa/superops-integration.md "mention") page added.&#x20;
 * [microsoft-user-onboarding-crate-v2](../../../prebuilt-automations/existing-crate-documentation/microsoft-user-onboarding-crate-v2/ "mention") pages added (MASSIVE shout out to Ray).
 * Reorganization of [Broken link](broken-reference "mention") to provide more clarity with new [getting-started](../../../cluck-university/getting-started/ "mention") page.&#x20;
 * [clean-automation](../../../cluck-university/clean-automation/ "mention") broken down into micro-lessons to match our Foundations update.&#x20;
-* [halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md "mention") page updated to include not about required field expectations
+* [halo-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/halopsa/halo-integration-setup.md "mention") page updated to include not about required field expectations
 * [user-report-microsoft-graph.md](../../../cluck-university/automation-jump-start/user-report-microsoft-graph.md "mention") Quick Start steps updated.
-* [connectwise-control-screenconnect.md](../../../documentation/integrations/rmm/connectwise-control-screenconnect.md "mention") branding and setup steps updated.
-* [documentation](../../../documentation/integrations/documentation/ "mention") landing page updated to include information and crates available.
-* [rmm](../../../documentation/integrations/rmm/ "mention") landing page updated to include information and crates available.
-* [licensing](../../../documentation/integrations/licensing/ "mention") landing page updated to include information and crates available.
-* [cloud](../../../documentation/integrations/cloud/ "mention") landing page updated to include information and crates available.
-* [microsoft-cloud-integration-bundle](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/ "mention") page updated prerequisites and best practices.
+* [connectwise-control-screenconnect.md](../../../documentation/integrations/individual-integration-documentation/rmm/connectwise-control-screenconnect.md "mention") branding and setup steps updated.
+* [documentation](../../../documentation/integrations/individual-integration-documentation/documentation/ "mention") landing page updated to include information and crates available.
+* [rmm](../../../documentation/integrations/individual-integration-documentation/rmm/ "mention") landing page updated to include information and crates available.
+* [licensing](../../../documentation/integrations/individual-integration-documentation/licensing/ "mention") landing page updated to include information and crates available.
+* [cloud](../../../documentation/integrations/individual-integration-documentation/cloud/ "mention") landing page updated to include information and crates available.
+* [microsoft-cloud-integration-bundle](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/ "mention") page updated prerequisites and best practices.
 * [configure-organization-variables.md](../../../prebuilt-automations/existing-crate-documentation/configure-organization-variables.md "mention") updated to include Preferred Domain Controller field.
 * [february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md](../../roc-open-mics/2025-roc-open-mics/february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md "mention") page added
 

@@ -4,7 +4,7 @@
 **Azure OpenAI Instance**
 
 Note that this crate works for both OpenAI and OpenAI with an Azure instance.\
-In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../documentation/integrations/ai/openai/azure-openai-integration-setup.md) steps and follow the below steps.
+In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../documentation/integrations/individual-integration-documentation/ai/openai/azure-openai-integration-setup.md) steps and follow the below steps.
 {% endhint %}
 
 ### What does this Crate do?
@@ -56,7 +56,7 @@ There are three steps to getting this crate up and running:
 
 In order to use this crate, you'll need to have an OpenAI account.
 
-Follow the instructions on the [OpenAI Integration Setup](../../documentation/integrations/ai/openai/openai-integration-setup.md) page to get this set up and then come back here!
+Follow the instructions on the [OpenAI Integration Setup](../../documentation/integrations/individual-integration-documentation/ai/openai/openai-integration-setup.md) page to get this set up and then come back here!
 
 Remember, you can also set up an Azure instance of OpenAI, and use that with this crate. If you want to do that, you'll need to follow the Azure OpenAI Integration Setup steps.
 
@@ -85,11 +85,11 @@ That's it, hit "Unpack" and you're good to go! Create a ticket in your PSA with 
 ### Useful Organization Variables (Optional)
 
 These Organization Variables give you more control over the functionality of this workflow.
- - ORG.VARIABLES.ticket_cat_max_tokens
-    - Allows you to manually set the max tokens
- - ORG.VARIABLES.ai_model_ticket_cat
-    - Allows you to manually set the model
 
+* ORG.VARIABLES.ticket\_cat\_max\_tokens
+  * Allows you to manually set the max tokens
+* ORG.VARIABLES.ai\_model\_ticket\_cat
+  * Allows you to manually set the model
 
 ### Feedback
 

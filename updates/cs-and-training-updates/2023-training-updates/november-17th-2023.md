@@ -21,11 +21,11 @@ Explore what new changes the Training team has made in the last week.
 
 **New Pages**
 
-* Added a page for the [discord-integration-setup.md](../../../documentation/integrations/chat/discord/discord-integration-setup.md "mention")
-* Added a page for the [jira-integration-setup.md](../../../documentation/integrations/documentation/jira/jira-integration-setup.md "mention")
+* Added a page for the [discord-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/chat/discord/discord-integration-setup.md "mention")
+* Added a page for the [jira-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/jira/jira-integration-setup.md "mention")
 * Added a page for the [Broken link](broken-reference "mention")
 * Added a page for [app-builder](../../../documentation/app-builder/ "mention") and how to submit your[Broken link](broken-reference "mention") to us.
-* Added the [embracing-the-microsoft-minute.md](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
+* Added the [embracing-the-microsoft-minute.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
 * Added a page for the [view-rewst-integration-org-variables.md](../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
 * Added page about [documenting-with-roborewsty.md](../../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/documenting-with-roborewsty.md "mention")
 * Added a use case page about [efficiently-extracting-nested-data.md](../../../documentation/jinja/use-cases-and-best-practices/efficiently-extracting-nested-data.md "mention")
@@ -34,8 +34,8 @@ Explore what new changes the Training team has made in the last week.
 **Updated & Enhanced Pages**
 
 * Updated the [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") page to include more context on what types of questions the Exam will be asking to incorporate into a study guide
-* Updated the [azure-openai-integration-setup.md](../../../documentation/integrations/ai/openai/azure-openai-integration-setup.md "mention") page for more explicit instructions on how to craft your Base URL.
-* Updated the [cybercns](../../../documentation/integrations/security/cybercns/ "mention") page to include reference to ConnectSecure branding.
+* Updated the [azure-openai-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/ai/openai/azure-openai-integration-setup.md "mention") page for more explicit instructions on how to craft your Base URL.
+* Updated the [cybercns](../../../documentation/integrations/individual-integration-documentation/security/cybercns/ "mention") page to include reference to ConnectSecure branding.
 * Updated the [organization-variables.md](../../../documentation/user-management/organization-variables.md "mention") page to explain how Use as Default works
 * Updated the [rewst-actions](../../../documentation/workflows/actions-in-rewst/rewst-actions/ "mention") page for more context and reference to usage including breaking out pages for the following categories:
   * [organization-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions/organization-actions.md "mention")

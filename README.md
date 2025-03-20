@@ -27,5 +27,3 @@ layout:
 
 
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center">✨ <a href="broken-reference">Platform overview</a></td></tr><tr><td align="center">🔌 <a href="broken-reference">Setting up your integrations</a></td></tr><tr><td align="center">🎓 <a href="cluck-university/micro-courses/">Additional learning</a></td></tr></tbody></table>
-

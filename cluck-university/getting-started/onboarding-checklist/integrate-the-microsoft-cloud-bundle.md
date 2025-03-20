@@ -57,24 +57,24 @@ Rewst integrates with a variety of cloud tools. Each brand has its own setup doc
 {% tab title="Microsoft Cloud bundle" %}
 #### Microsoft cloud bundle setup
 
-{% content-ref url="../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/" %}
-[microsoft-cloud-integration-bundle](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/" %}
+[microsoft-cloud-integration-bundle](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Google Admin" %}
 #### Google Admin setup
 
-{% content-ref url="../../../documentation/integrations/cloud/google-admin/" %}
-[google-admin](../../../documentation/integrations/cloud/google-admin/)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/cloud/google-admin/" %}
+[google-admin](../../../documentation/integrations/individual-integration-documentation/cloud/google-admin/)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Nerdio" %}
 #### Nerdio setup
 
-{% content-ref url="../../../documentation/integrations/cloud/nerdio/" %}
-[nerdio](../../../documentation/integrations/cloud/nerdio/)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/cloud/nerdio/" %}
+[nerdio](../../../documentation/integrations/individual-integration-documentation/cloud/nerdio/)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

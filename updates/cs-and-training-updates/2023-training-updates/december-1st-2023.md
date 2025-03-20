@@ -35,7 +35,7 @@ Explore what new changes the Training team has made in the last week.
 
 * Last week's Open Mic page and recording is available here: [dec-1st-2023-app-platform-ticket-generation-and-custom-integrations.md](../../roc-open-mics/2023-roc-open-mics/dec-1st-2023-app-platform-ticket-generation-and-custom-integrations.md "mention")
 * [automate-documentation-with-robo-rewsty.md](../../../cluck-university/micro-courses/automate-documentation-with-robo-rewsty.md "mention")elective page added
-* [connectwise-automate-integration-setup.md](../../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md "mention")**:** Important note added regarding IP address restrictions. If applicable, add Rewst IP (3.139.170.31) to your allowed list.
+* [connectwise-automate-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/connectwise-automate/connectwise-automate-integration-setup.md "mention")**:** Important note added regarding IP address restrictions. If applicable, add Rewst IP (3.139.170.31) to your allowed list.
 * [support-priorities.md](../../../support/roc-support/support-priorities.md "mention"): Added details on response objectives, operating hours, and holiday availability to our support section for your visibility.
 
 </details>

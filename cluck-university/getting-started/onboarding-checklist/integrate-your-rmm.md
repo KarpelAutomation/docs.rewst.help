@@ -31,7 +31,7 @@ RMM integration demo: Part 1 (Ninja) (_1:30 min_)
 
 * Add a PowerShell script to Ninja that enables Rewst to interact with your endpoints.
 * Make sure to update the Base URL.
-* The script and Base URL details can be found at: [#complete-setup-in-ninja](../../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md#complete-setup-in-ninja "mention")
+* The script and Base URL details can be found at: [#complete-setup-in-ninja](../../../documentation/integrations/individual-integration-documentation/rmm/ninjaone/ninjaone-integration-setup.md#complete-setup-in-ninja "mention")
 
 ### **Part 2: Integration setup steps to do in Rewst** <a href="#part-2-integration-setup-steps-to-do-in-rewst-min" id="part-2-integration-setup-steps-to-do-in-rewst-min"></a>
 
@@ -55,82 +55,82 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% tab title="ConnectWise Automate" %}
 #### ConnectWise Automate setup
 
-{% content-ref url="../../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md" %}
-[connectwise-automate-integration-setup.md](../../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/connectwise-automate/connectwise-automate-integration-setup.md" %}
+[connectwise-automate-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/connectwise-automate/connectwise-automate-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Datto RMM" %}
 #### Datto RMM setup
 
-{% content-ref url="../../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md" %}
-[datto-rmm-integration-setup.md](../../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/datto-rmm/datto-rmm-integration-setup.md" %}
+[datto-rmm-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/datto-rmm/datto-rmm-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="ImmyBot" %}
 #### ImmyBot setup
 
-{% content-ref url="../../../documentation/integrations/rmm/immybot/immybot-integration-setup.md" %}
-[immybot-integration-setup.md](../../../documentation/integrations/rmm/immybot/immybot-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/immybot/immybot-integration-setup.md" %}
+[immybot-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/immybot/immybot-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Kaseya" %}
 #### Kaseya VSA setup
 
-{% content-ref url="../../../documentation/integrations/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md" %}
-[kaseya-vsa-integration-setup.md](../../../documentation/integrations/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md" %}
+[kaseya-vsa-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md)
 {% endcontent-ref %}
 
 #### Kaseya VSX setup
 
-{% content-ref url="../../../documentation/integrations/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md" %}
-[kaseya-vsa-x-integration-setup.md](../../../documentation/integrations/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md" %}
+[kaseya-vsa-x-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="N-able N-Central" %}
 #### N-able N-central setup
 
-{% content-ref url="../../../documentation/integrations/rmm/nable/nable-integration-setup.md" %}
-[nable-integration-setup.md](../../../documentation/integrations/rmm/nable/nable-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/nable/nable-integration-setup.md" %}
+[nable-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/nable/nable-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="NinjaOne" %}
 #### NinjaOne setup
 
-{% content-ref url="../../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md" %}
-[ninjaone-integration-setup.md](../../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/ninjaone/ninjaone-integration-setup.md" %}
+[ninjaone-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/ninjaone/ninjaone-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Command/Continuum/Control" %}
 #### ConnectWise Control
 
-{% content-ref url="../../../documentation/integrations/rmm/connectwise-control-screenconnect.md" %}
-[connectwise-control-screenconnect.md](../../../documentation/integrations/rmm/connectwise-control-screenconnect.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/connectwise-control-screenconnect.md" %}
+[connectwise-control-screenconnect.md](../../../documentation/integrations/individual-integration-documentation/rmm/connectwise-control-screenconnect.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Other RMMs" %}
 #### Addigy setup
 
-{% content-ref url="../../../documentation/integrations/rmm/addigy/addigy-integration-setup.md" %}
-[addigy-integration-setup.md](../../../documentation/integrations/rmm/addigy/addigy-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/addigy/addigy-integration-setup.md" %}
+[addigy-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/addigy/addigy-integration-setup.md)
 {% endcontent-ref %}
 
 #### Auvik setup
 
-{% content-ref url="../../../documentation/integrations/rmm/auvik/auvik-integration-setup.md" %}
-[auvik-integration-setup.md](../../../documentation/integrations/rmm/auvik/auvik-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/auvik/auvik-integration-setup.md" %}
+[auvik-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/auvik/auvik-integration-setup.md)
 {% endcontent-ref %}
 
 #### RPort setup
 
-{% content-ref url="../../../documentation/integrations/rmm/rport/rport-integration-setup.md" %}
-[rport-integration-setup.md](../../../documentation/integrations/rmm/rport/rport-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/rmm/rport/rport-integration-setup.md" %}
+[rport-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/rport/rport-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

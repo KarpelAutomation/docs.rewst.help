@@ -54,40 +54,40 @@ Rewst integrates with a variety of documentation tools. Each brand has its own s
 {% tab title="IT Glue" %}
 #### ITGlue setup
 
-{% content-ref url="../../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md" %}
-[it-glue-integration-setup.md](../../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/documentation/itglue/it-glue-integration-setup.md" %}
+[it-glue-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/it-glue-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Hudu" %}
 #### Hudu setup
 
-{% content-ref url="../../../documentation/integrations/documentation/hudu/hudu-integration-setup.md" %}
-[hudu-integration-setup.md](../../../documentation/integrations/documentation/hudu/hudu-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/documentation/hudu/hudu-integration-setup.md" %}
+[hudu-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/hudu/hudu-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="IT Portal" %}
 #### IT Portal setup
 
-{% content-ref url="../../../documentation/integrations/documentation/it-portal-coming-soon/it-portal-integration-setup.md" %}
-[it-portal-integration-setup.md](../../../documentation/integrations/documentation/it-portal-coming-soon/it-portal-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/documentation/it-portal-coming-soon/it-portal-integration-setup.md" %}
+[it-portal-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/it-portal-coming-soon/it-portal-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Jumpcloud" %}
 #### Jumpcloud setup
 
-{% content-ref url="../../../documentation/integrations/documentation/jumpcloud/jumpcloud-integration-setup.md" %}
-[jumpcloud-integration-setup.md](../../../documentation/integrations/documentation/jumpcloud/jumpcloud-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/documentation/jumpcloud/jumpcloud-integration-setup.md" %}
+[jumpcloud-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/jumpcloud/jumpcloud-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Jira" %}
 #### Jira setup
 
-{% content-ref url="../../../documentation/integrations/documentation/jira/jira-integration-setup.md" %}
-[jira-integration-setup.md](../../../documentation/integrations/documentation/jira/jira-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/individual-integration-documentation/documentation/jira/jira-integration-setup.md" %}
+[jira-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/jira/jira-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

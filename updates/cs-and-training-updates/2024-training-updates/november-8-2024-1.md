@@ -42,14 +42,14 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * New Doc Pages
-  * [xero](../../../documentation/integrations/accounting/xero/ "mention") Integegration Page
-  * [quickbooks-online](../../../documentation/integrations/accounting/quickbooks-online/ "mention") Integration Page
-  * [bamboohr](../../../documentation/integrations/hris/bamboohr/ "mention") Integration Page
+  * [xero](../../../documentation/integrations/individual-integration-documentation/accounting/xero/ "mention") Integegration Page
+  * [quickbooks-online](../../../documentation/integrations/individual-integration-documentation/accounting/quickbooks-online/ "mention") Integration Page
+  * [bamboohr](../../../documentation/integrations/individual-integration-documentation/hris/bamboohr/ "mention") Integration Page
 
 - Updated Pages
   * [security-policy.md](../../../security/security-policy.md "mention") updated with latest IPs and Domains
-  * Added note to [connectwise-automate-integration-setup.md](../../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md "mention") about customers not populating.
-  * Added note to [datto-psa-integration-setup.md](../../../documentation/integrations/psa/autotask-datto-psa/datto-psa-integration-setup.md "mention") about long loading times.
-  * Added note to [least-privilege-access-requirements-for-connectwise-manage-integration.md](../../../documentation/integrations/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md "mention") about 403 Forbidden error.
+  * Added note to [connectwise-automate-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/connectwise-automate/connectwise-automate-integration-setup.md "mention") about customers not populating.
+  * Added note to [datto-psa-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/autotask-datto-psa/datto-psa-integration-setup.md "mention") about long loading times.
+  * Added note to [least-privilege-access-requirements-for-connectwise-manage-integration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md "mention") about 403 Forbidden error.
 
 </details>

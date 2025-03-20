@@ -27,11 +27,11 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [Open Mic - September 22nd Video and Page Added](../../roc-open-mics/2023-roc-open-mics/september-22-2023-efficient-onboarding-custom-integrations-and-sql-magic.md)
-* Shoutouts to Kevin Grube and Kelvin for contributing to the docs this week! For those who missed it, we're building out the ability to contribute to our docs, [starting with updates and fixes](../../../community-corner/how-to-contribute/).&#x20;
+* Shoutouts to Kevin Grube and Kelvin for contributing to the docs this week! For those who missed it, we're building out the ability to contribute to our docs, [starting with updates and fixes](broken-reference).&#x20;
 * Updates and Fixes
-  * Updated the URL note on the [Connectwise Pod Configuration](../../../documentation/integrations/psa/connectwise-manage/pod-configuration.md) page.
-  * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](../../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md)
+  * Updated the URL note on the [Connectwise Pod Configuration](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md) page.
+  * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md)
   * Added Read-only information on the [How to Add or Remove Users](../../../documentation/user-management/how-to-add-and-remove-users.md) and [Roles](../../../documentation/user-management/roles.md) pages.
-  * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/integrations/database/database-integration-setup.md) page.
+  * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/integrations/individual-integration-documentation/database/database-integration-setup.md) page.
 
 </details>
