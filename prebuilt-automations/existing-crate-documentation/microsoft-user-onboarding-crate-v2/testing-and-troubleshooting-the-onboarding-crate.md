@@ -1,6 +1,6 @@
-# Testing and troubleshooting the Onboarding crate
+# Test and troubleshoot the Onboarding crate
 
-## **Testing the Microsoft: User Onboarding Crate**
+## **Test the Microsoft: User Onboarding Crate**
 
 To verify that the Microsoft: User Onboarding Crate is functioning correctly, follow the testing steps below.
 
@@ -45,7 +45,7 @@ If a user does not appear in AD or Azure AD, check the **workflow execution logs
 If the ticket was not created or updated, verify that [PSA integration is configured correctly](https://docs.rewst.help/documentation/integrations/psa).
 {% endhint %}
 
-## **Troubleshooting common issues**
+## **Troubleshoot common issues**
 
 {% hint style="info" %}
 We highly recommend that all [Rewst users be certified](https://docs.rewst.help/cluck-university/rewst-certification-how-to-and-troubleshooting-guide) before attempting to build workflows or customize Crates. Completing proper training sets you up to succeed with Rewst and helps prevent poorly executed workflow design. Proper training minimizes errors and ensures workflows function as intended.
