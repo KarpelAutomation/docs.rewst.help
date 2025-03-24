@@ -1,14 +1,14 @@
 # Migrating between Crate versions
 
-## Considerations When Migrating
+## Considerations when migrating
 
 When officially migrating to a newer version of a Crate, various items should be taken into consideration as part of this process. Below is a common list of actionable items to consider when migrating.
 
 * Disabling workflow triggers
 * Updating any workflow wrappers or completion handlers to utilize the new version of the Crate
-* Update references to the form.&#x20;
+* Updating references to the form.
   * For example, this may include any workflows that add form links to tickets
-* Update any custom forms that currently utilize the current version to be compatible with and utilize the new version
+* Updating any custom forms that currently utilize the current version to be compatible with and utilize the new version
 
 ## Crate migration steps
 
