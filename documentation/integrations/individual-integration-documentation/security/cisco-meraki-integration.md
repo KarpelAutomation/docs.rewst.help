@@ -10,7 +10,7 @@ This integration enables seamless automation of network management and IT operat
 
 ### Why use the Cisco Meraki integration?
 
-* Automated onboarding and offboarding of clients (PSA integration)
+* Automated onboarding and offboarding of clients via PSA integration
 * Organization management
 * Network management
 
@@ -19,7 +19,7 @@ This integration enables seamless automation of network management and IT operat
 ### Set up steps in Cisco Meraki
 
 1. Log in to Cisco Meraki.
-2. Navigate to the **My Profile** page, accessed via the avatar icon in the top right-hand corner of dashboard.
+2. Navigate to the **My Profile** page, accessed via the avatar icon in the top right-hand corner of the dashboard.
 3. Click **Generate new API key**.\
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.01.48 PM.png>)
@@ -32,7 +32,7 @@ This integration enables seamless automation of network management and IT operat
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 9.58.00 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
-4.  Under **Parameters**:\\
+4.  Under **Parameters**:
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 10.37.16 AM.png" alt=""><figcaption></figcaption></figure>
 

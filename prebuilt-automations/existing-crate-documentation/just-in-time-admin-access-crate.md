@@ -13,7 +13,7 @@ Our Just in Time Admin Access Crate provides Just-in-Time (JIT) administrative a
 
 The Just in Time Admin Access Crate automates the following processes.
 
-1. Granting Temporary Administrative Access
+1. Grant Temporary Administrative Access
    * For Microsoft 365, it assigns Global Admin privileges for a specified duration.
    * For on-premises, it assigns Domain Admin rights within Active Directory.
    * It creates or re-enables accounts as needed.

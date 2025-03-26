@@ -2,6 +2,33 @@
 
 <details>
 
+<summary>⚠️ New Crates Available with Old Crate Deprecation March 26th, 2025</summary>
+
+We're thrilled to announce the launch of four new crates in the Crate Marketplace:
+
+* Microsoft: User Onboarding
+* Google: User Onboarding
+* Microsoft: User Offboarding
+* Google: User Offboarding
+
+These new crates come with the latest features and enhancements to make your user onboarding and user offboarding processes smoother and more efficient. **The following crates will no longer be available in the Crate Marketplace as of April 4, 2025**:
+
+* Rewst: User Onboarding
+* User Offboarding v2
+* User Offboarding Crate
+
+While these crates will still function, they will not receive any additional feature enhancements. We recommend migrating to the new crates listed above to take advantage of the latest updates.\
+For crate migration assistance, please reference the [migrating-between-crate-versions.md](../prebuilt-automations/crates/migrating-between-crate-versions.md "mention") and [crate-deprecation-faq.md](../prebuilt-automations/crates/crate-deprecation-faq.md "mention").
+
+If you have any urgent concerns, please contact your support team.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+
+</details>
+
+<details>
+
 <summary>⚠️ App Builder Incorrectly Displays HTML Containers March 14th</summary>
 
 On Friday, March 14th, some Rewst users experienced disruptions with App Builder where their HTML containers were not displaying correctly. The issue has been identified and a resolution has been implemented.&#x20;
@@ -246,43 +273,5 @@ During this period, the system will remain online; however, you may experience t
 **Time:** 22:00 UTC / 6:00 PM EDT
 
 October 3, 2024 at 22:00 UTC Rewst was notified of slow user interface (UI) load times and reduced accessibility of the platform. This was escalated internally for review per standard process. Rewst traced the issue to a slow-running common request. This resulted in Rewst Forms and UI elements not loading for some users and reduced functionality for other users from 22:00 to 23:15 UTC. Rewst is currently operating as normal while we continue to investigate the root cause of this issue. More information will be provided as it becomes available.
-
-</details>
-
-<details>
-
-<summary>⚠️  Update To Disable Forms (September 30th, 2024)</summary>
-
-### **Issue Identified**
-
-**Date**: Monday, September 30th, 2024
-
-We released an update that corrected an issue where some forms marked as "disabled" were still functioning. If you had disabled form triggers within a workflow, they may now be correctly inactive. We’ve noticed a few customers were using these forms in production, and the update has properly disabled them.&#x20;
-
-If you’re impacted by this change, simply re-enable the form in your trigger settings.
-
-</details>
-
-<details>
-
-<summary>⚠️ Resolved: Lost Form Access (September 12th, 2024)</summary>
-
-### **Issue Identified**
-
-**Date**: Thursday, September 12, 2024\
-**Time**: 11:17 PM EDT
-
-An update aimed at improving load times for custom forms was implemented at 3 PM EDT. This update unintentionally caused some users to lose access to forms.
-
-### Issue Resolved
-
-**Date**: Thursday, September 12, 2024\
-**Time**: 11:55 PM EDT
-
-Following standard procedures, the update was rolled back, and the issue was resolved.
-
-If you have any questions or concerns, please contact the ROC support team via Discord or contact your Customer Success Manager.
-
-Thank you for your understanding and patience as we work to improve our platform!
 
 </details>
