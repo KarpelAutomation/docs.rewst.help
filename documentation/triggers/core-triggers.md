@@ -17,5 +17,5 @@ Time intervals can be set to trigger a workflow repeatedly over specified period
   * Weekly
 
 {% hint style="success" %}
-Check out our [using-webhook-triggers.md](use-cases-and-examples/using-webhook-triggers.md "mention") page for a more detailed example!
+Check out our [using-webhook-triggers.md](use-cases-and-examples/using-webhook-triggers.md "mention") page for a more detailed example.
 {% endhint %}

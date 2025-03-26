@@ -1,6 +1,6 @@
-# Roles & permissions
+# Roles and permissions
 
-Roles settings can be accessed in the Rewst platform by navigating to **Settings** > **Permissions** > **Roles**. Rewst has several different role choices available when adding a user:
+Roles settings can be accessed in the Rewst platform by navigating to **Settings** **>** **Permissions** **>** **Roles**. Rewst has several different role choices available when [adding a user](./#add-and-remove-users-from-rewst):
 
 1. Admin
 2. Member
@@ -9,13 +9,11 @@ Roles settings can be accessed in the Rewst platform by navigating to **Settings
 
 Let's take a look at how these are defined.
 
-
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-10 at 11.03.39 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>The Permissions menu screen</p></figcaption></figure>
 
 ### Admin
 
-The admin role is for the super user who will have access permissions to everything in their organization. They can do the following at the top level organization:
+The _admin_ role is for the super user who will have access permissions to everything in their organization. They can do the following at the top level organization:
 
 * Add and remove users
 * Add user roles
@@ -37,9 +35,9 @@ An admin will be able to see all of the customer organizations and manage inform
 
 ### Member
 
-The Member role can do the following in the Member's organization:
+The _member_ role can do the following in the member's organization:
 
-* Add and remove Users
+* Add and remove users
 * View, edit, and build workflows
 * Check results
 * Add, edit, and configure forms
@@ -47,17 +45,17 @@ The Member role can do the following in the Member's organization:
 
 ### Forms
 
-The primary use case for this permission level is to provide customers or internal employees with a way to fill out forms. A user with the forms role will only have access to form URLs that are provided to them by an admin or member. This means they will not have access to the platform itself and only have the ability to view and fill out different forms for the organization or customer they're added to. This means anyone added at a customer level will only have access to forms for that customer, while a user added at the top-level organization would have access to forms from any customer organization and the top-level organization itself.
+The primary use case for this permission level is to provide customers or internal employees with a way to fill out forms. A user with the forms role will only have access to form URLs that are provided to them by an admin or member. This means they will not have access to the platform itself and only have the ability to view and fill out different forms for the organization or customer they're added to. Anyone added at a customer level will only have access to forms for that customer, while a user added at the parent organization level would have access to forms from any child organization and the parent organization itself.
 
 ### Read only
 
-The **read only** role has been introduced to meet various needs. The primary use case is to grant lower-level technicians access to Rewst, enabling them to view workflow results. Additionally, it serves as a mechanism to limit access to certain features and configurations. Users with the read only role can access Rewst and review data and information but are restricted from creating or updating anything within the platform.
+The _read only_ role's primary use case is to grant lower-level technicians access to Rewst, enabling them to view workflow results. Additionally, it serves as a mechanism to limit access to certain features and configurations. Users with the read only role can access Rewst and review data and information but are restricted from creating or updating anything within the platform.
 
 ### Custom roles
 
 The custom roles feature lets you add and define additional roles however you wish.&#x20;
 
-Add a custom role by clicking the **+** icon in the **Roles** menu.
+Add a custom role by clicking **+** in the **Roles** menu.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-10 at 11.06.34 AM.png" alt="" width="366"><figcaption></figcaption></figure>
 

@@ -1,13 +1,24 @@
 # Organization variables
 
-{% hint style="info" %}
-Organization Variables serve as the foundational elements for setting and managing configurations across different organizational levels within Rewst. They ensure consistency and control within workflows and facilitate efficient management across the organizational hierarchy.
+## What is an organization?
+
+A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short.
+
+Rewst uses a two-tier system to manage organizations, with your MSP as the _parent org_ and your customers as _child orgs_. To make automations work for your managed clients/customers, set them up as child orgs.
+
+{% hint style="success" %}
+We recommend using the [Bulk Create Client from PSA Crate](../../prebuilt-automations/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly, and using the [Add Client to Rewst Crate](../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the mapping process for each new customer you add in the future. You can also add organizations manually, or through the [Microsoft Cloud Bundle](../integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/).
 {% endhint %}
+
+## What is an organization variable?
+
+_Organization variables_, referred to as _org variables_ for short, serve as the foundational elements for setting and managing configurations across different organizational levels within Rewst. They ensure consistency and control within workflows, and facilitate efficient management across the organizational hierarchy.
 
 ## **Inheritance and overrides**
 
-* **Inheritance**: Values set at the parent organization cascade down, providing a default setup for all client organizations.
-* **Overrides**: Sub-organizations can establish their own variables, prioritizing local settings over inherited defaults.
+**Inheritance**: Values set at the parent organization leven cascade down, providing a default setup for all client organizations.
+
+**Overrides**: Suborganizations can establish their own variables, prioritizing local settings over inherited defaults.
 
 ## **Org variable usage in workflows**
 
@@ -28,15 +39,15 @@ Access variables seamlessly in any workflow with the following syntax:
 
 ## **Use as default feature**
 
-The "Use as Default" feature allows managing organizations to set a universal default value for an ORG variable. This default is applied to sub-organizations unless they specify their own value.
+The _use as default_ feature allows managing organizations to set a universal default value for an org variable. This default is applied to suborganizations unless they specify their own value.
 
 ### **How use as default works**
 
-* **Setting a Default**: When you set a variable as default at the MSP level, it becomes the fallback for sub-organizations without a specified value.
-* **Workflow Execution Context**:
-  * The default value is only utilized if the workflow is initiated from the managing organization.
+* **Set a default**: When you set a variable as default at the MSP level, it becomes the fallback for suborganizations without a specified value.
+* **Workflow execution context**:
+  * The default value is only used if the workflow is initiated from the managing organization.
   * To apply the default value to Client A, the workflow must start from the MSP, even if it operates within Client A’s context.
-* **Triggers and Context**:
+* **Triggers and context**:
   * Implementing triggers in the workflow ensures that the execution context is recognized. This facilitates the use of MSP-level defaults in sub-organization workflows.
 
 ## Finding numerical values in org variables
@@ -60,7 +71,7 @@ An easy way to find these is through the workflow builder, using create ticket a
        <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.13 pm.png" alt=""><figcaption></figcaption></figure>
 4. Click the ⋮ in your action to open up its settings.
 5. Click in any field with a blue arrow.
-6.  Select the Display name you want the ID for, then click the Jinja editor button to the left to get the ID\
+6.  Select the Display name you want the ID for, then click the ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the left to get the ID.\
     \
     \
 
