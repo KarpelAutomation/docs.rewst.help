@@ -2,11 +2,11 @@
 description: Identify the differences between two input lists.
 ---
 
-# Diff Lists
+# Diff lists transform action
 
-## Use Case
+## Use case
 
-You need to compare two lists and highlight the unique entries or entries exclusive to the first list, and require a transformation action that simplifies this complex comparison process.
+You need to compare two lists and highlight the unique entries or entries exclusive to the first list, A transformation action that simplifies this complex comparison process is required.
 
 ## Overview
 

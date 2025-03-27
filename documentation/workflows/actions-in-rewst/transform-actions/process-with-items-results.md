@@ -2,15 +2,15 @@
 description: Seamlessly integrate "With Items" task results into your original list.
 ---
 
-# Process With Items Results
+# Append with items results transform action
 
 ## Use case
 
-You're dealing with nested data structures and need to extract results from tasks ran "With Items" into your original list. You want a unified, easy-to-manipulate list that includes all necessary data.
+You're dealing with nested data structures and need to extract results from tasks ran With Items into your original list. You want a unified, easy-to-manipulate list that includes all necessary data.
 
 ## Overview
 
-The `Process With Items Results` transform enables effective incorporation of "With Items" task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient.
+The `Process With Items Results` transform action enables effective incorporation of With Items task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient.
 
 ***
 

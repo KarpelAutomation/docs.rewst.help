@@ -80,8 +80,8 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 {% tab title="Halo" %}
 #### Datto Autotask PSA setup
 
-{% content-ref url="../../../documentation/integrations/individual-integration-documentation/psa/halopsa/halo-integration-setup.md" %}
-[halo-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/halopsa/halo-integration-setup.md)
+{% content-ref url="../../../documentation/integrations/psa/halopsa/halo-integration-setup.md" %}
+[halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md)
 {% endcontent-ref %}
 {% endtab %}
 

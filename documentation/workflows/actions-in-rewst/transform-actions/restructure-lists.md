@@ -2,15 +2,15 @@
 description: Redefine your list structure by reshaping attribute values.
 ---
 
-# Restructure Lists
+# Restructure lists transform action
 
 ## Use case
 
-You have a list where the current structure isn't effectively supporting your data analysis & transition decision making needs. You want to remap fields, flatten nested items, or count instances within your list to provide more meaningful insights.
+You have a list where the current structure isn't effectively supporting your data analysis and transition decision making needs. You want to remap fields, flatten nested items, or count instances within your list to provide more meaningful insights.
 
 ## Overview
 
-The Restructure Lists transform offers versatile functionality to modify the structure of your list. Whether it's remapping fields for better clarity, flattening for easier data extraction, or counting to reveal data trends, this transform is your ally in data restructuring.
+The restructure lists transform action offers versatile functionality to modify the structure of your list. Whether it's remapping fields for better clarity, flattening for easier data extraction, or counting to reveal data trends, this transform is a strong tool for data restructuring.
 
 ***
 

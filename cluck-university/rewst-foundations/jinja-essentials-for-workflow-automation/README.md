@@ -36,7 +36,7 @@ Check out these supplementary resources.
 * [data-types.md](../../../documentation/jinja/data-types.md "mention")
 * [list-of-jinja-filters.md](../../../documentation/jinja/list-of-jinja-filters.md "mention")
 * [filter-examples.md](../../../documentation/jinja/filter-examples.md "mention")
-* [Lunch Menu Exercise](https://app.rewst.io/jinja-live-editor?id=4ee84407-d0c1-4a9a-94b3-84c643b8dd3f)
+* [Lunch Menu Exercise](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAQQ1EHVcEsGKBPVHmiav%2Fuploads%2FV9nVGEwLAy2kydraOW5r%2FLunch%20Menu%20Jinja%20Practice.pdf?alt=media\&token=f74b3d91-5f35-4889-9c30-6df624d462a9)
 * [intro-to-templates.md](../../../documentation/templates-messages/intro-to-templates.md "mention")
 * [jinja-lists.md](../../../documentation/jinja/use-cases-and-best-practices/jinja-lists.md "mention")
 * [how-to-reference-data-with-variables.md](../../micro-courses/how-to-reference-data-with-variables.md "mention")

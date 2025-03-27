@@ -7,7 +7,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 {% hint style="success" %}
 **This Integration supports multiple instances**
 
-[Check out the instructions to set up multiple instances here](../../../multi-instance-integration/multi-instance-integration-setup.md).
+[Check out the instructions to set up multiple instances here](../../multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
 ## What does the Halo PSA integration do?
@@ -46,7 +46,7 @@ Before configuring the Rewst integration you must generate an API user. Here is 
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.40.25 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.40.25 AM.png" alt=""><figcaption></figcaption></figure>
 3. Create an agent for Rewst to use. We suggest naming this user `Rewst API` or similar.
 4. Grant the user permissions according to what you would like Rewst to do for you. However, for optimal functionality and reliability of the Halo integration, assign administrator permissions to the service account. We’ve consistently observed higher success rates and fewer connectivity issues when using admin-level access for this integration. While lower permission levels may work in limited scenarios, they often lead to unexpected failures during automated workflows.
 5. Click **Save**.
@@ -56,7 +56,7 @@ Before configuring the Rewst integration you must generate an API user. Here is 
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.43.40 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.43.40 AM.png" alt=""><figcaption></figcaption></figure>
 9. Name the application `Rewst` .
 10. Choose the authentication method for **Client ID and Secret (Services)**.
 11. Click the **Permissions** tab.
@@ -64,7 +64,7 @@ Before configuring the Rewst integration you must generate an API user. Here is 
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.45.18 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.45.18 AM.png" alt=""><figcaption></figcaption></figure>
 13. Click **Save**.
 14. Navigate to **Configuration > Teams & Agents > Agents**
 15. Click on the user you set up for your Rewst integration.
@@ -72,10 +72,10 @@ Before configuring the Rewst integration you must generate an API user. Here is 
 17. Click **Edit** on the top left. Within **Teams**, select **Add**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.57.22 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.57.22 PM.png" alt=""><figcaption></figcaption></figure>
 18. Add all teams from the **Team** drop-down selector.\
     \
-    ![](<../../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.58.11 PM.png>)
+    ![](<../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.58.11 PM.png>)
 19. Click **Save**.
 
 {% hint style="warning" %}
@@ -89,7 +89,7 @@ When creating the API Agent, ensure that the **Allow use of all Customers** Clie
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the Halo PSA integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-03-10 at 11.09.57 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-10 at 11.09.57 AM.png>)
 3. Click on the integration tile to launch the **Configuration** setup page.
 4. Fill out the form with the details you created:
    1. **Resource Server Hostname**: Halo PSA Resource Server hostname, e.g. `example.halopsa.com`.
@@ -112,30 +112,30 @@ When creating the API Agent, ensure that the **Allow use of all Customers** Clie
 2. Create a new workflow and name it with something short and descriptive, such as `Test Halo Integration`.
 3. Add the action **List Agents** to the workflow builder canvas, by dragging it from the left pane.\
    \
-   ![](<../../../../../.gitbook/assets/image (21).png>)
+   ![](<../../../../.gitbook/assets/image (21).png>)
 4. Add a trigger to your test workflow by clicking on the /lightning bolt image. Name your trigger whatever you’d like.
 5. Click into the trigger’s settings.
 6. Toggle **Enabled** to on.\
    \
-   ![](<../../../../../.gitbook/assets/image (22).png>)
+   ![](<../../../../.gitbook/assets/image (22).png>)
 7. Set the **Trigger Type** to **Core - Always Pass**.
 8. Click **+** next to **Integration Overrides**. Add **Halo PSA** as your integration override.\
    \
-   ![](<../../../../../.gitbook/assets/image (24).png>)
+   ![](<../../../../.gitbook/assets/image (24).png>)
 9. In the **Activate Trigger To Run For** section, keep **Selected Organization** toggled on. **Toggle All current and future managed organizations** on, or choose just one or individually selected organizations from the **Organizations** drop-down selector.\
    \
-   ![](<../../../../../.gitbook/assets/image (25).png>)
+   ![](<../../../../.gitbook/assets/image (25).png>)
 10. Click **Submit** to save your trigger.
 11. Click **Publish** to save your changes.
 12. Click Test to run your workflow. Note that this will bring up a drop-down selector to choosing organizations.
 13. Select your MSP level.
 14. Click **Test** and confirm that the execution finishes without errors.\
-    ![](<../../../../../.gitbook/assets/image (26).png>)
+    ![](<../../../../.gitbook/assets/image (26).png>)
 15. If the test for your MSP is successful, do the same test again. At this point in your steps, select a client organization instead, and ensure that it finishes with no errors.
 
 ## Crates related to the Halo PSA integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-01-21 at 11.05.26 AM.png">Screenshot 2025-01-21 at 11.05.26 AM.png</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../../.gitbook/assets/Openai ticket categorization.png">Openai ticket categorization.png</a></td></tr><tr><td><strong>Add Rewst Form Link to New User Request Tickets</strong></td><td><a href="../../../../../.gitbook/assets/Add rewst form link to new user request tickets.png">Add rewst form link to new user request tickets.png</a></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../../.gitbook/assets/Open ai ticket sentiment analysis.png">Open ai ticket sentiment analysis.png</a></td></tr><tr><td><strong>Add Rewst Form Link to Offboarding Request Tickets</strong></td><td><a href="../../../../../.gitbook/assets/Add REwst form link to offboarding.png">Add REwst form link to offboarding.png</a></td></tr><tr><td><strong>Assign Asset/Config to Ticket based on Contact</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.28.57 AM.png">Screenshot 2025-03-11 at 10.28.57 AM.png</a></td></tr><tr><td><strong>Use</strong> <strong>OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.33 AM.png">Screenshot 2025-03-11 at 10.29.33 AM.png</a></td></tr><tr><td><strong>Browse Rewst Form Triggers within a Form and Attach to a Ticket</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.57 AM.png">Screenshot 2025-03-11 at 10.29.57 AM.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-01-21 at 11.05.26 AM.png">Screenshot 2025-01-21 at 11.05.26 AM.png</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../.gitbook/assets/Openai ticket categorization.png">Openai ticket categorization.png</a></td></tr><tr><td><strong>Add Rewst Form Link to New User Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Add rewst form link to new user request tickets.png">Add rewst form link to new user request tickets.png</a></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../.gitbook/assets/Open ai ticket sentiment analysis.png">Open ai ticket sentiment analysis.png</a></td></tr><tr><td><strong>Add Rewst Form Link to Offboarding Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Add REwst form link to offboarding.png">Add REwst form link to offboarding.png</a></td></tr><tr><td><strong>Assign Asset/Config to Ticket based on Contact</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.28.57 AM.png">Screenshot 2025-03-11 at 10.28.57 AM.png</a></td></tr><tr><td><strong>Use</strong> <strong>OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.33 AM.png">Screenshot 2025-03-11 at 10.29.33 AM.png</a></td></tr><tr><td><strong>Browse Rewst Form Triggers within a Form and Attach to a Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.57 AM.png">Screenshot 2025-03-11 at 10.29.57 AM.png</a></td></tr></tbody></table>
 
 
 
@@ -319,7 +319,7 @@ Halo's own API documentation can be found [here](broken-reference).&#x20;
 | List Actions                          | Returns an object containing the count of actions, and an array of action objects for a given ticket.                                                        | /Actions                       |
 | Halo PSA API Request                  | Generic action for making authenticated requests against the Halo PSA API                                                                                    |                                |
 
-{% hint style="info" %}
+{% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 

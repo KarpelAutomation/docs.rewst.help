@@ -1,4 +1,4 @@
-# Ingram Micro Integration Setup
+# Ingram Micro integration setup
 
 Integrating Rewst with Ingram Micro Cloud Marketplace offers users a seamless and efficient way to access and manage cloud services and subscriptions. With the integration, Rewst users can leverage the vast catalog of cloud solutions available in the Ingram Micro Cloud Marketplace, making it easier to discover, provision, and manage cloud services within the Rewst platform. Users can streamline the procurement and provisioning processes, track usage and billing, and efficiently manage their cloud subscriptions, all from a single integrated platform. The integration empowers users to maximize the value of cloud services, simplify their workflows, and ensure a seamless experience when working with cloud solutions through Rewst and the Ingram Micro Cloud Marketplace.
 
@@ -137,6 +137,12 @@ POST `/resellers/{id}/customers`
 | phoneNumber | String (?) | This is the phone number of the contact in ITU-T E.164 notation. Extension numbers may be added by adding a '#' at the end.                                                                                                                                                 |
 | login       | String (?) | This is an optional parameter (only for the contactPerson of type `admin`) used when you musthave a certain login name for a customer administrator instead of an automatically generated one.                                                                              |
 | password    | String (?) | This is a password assigned to the administrator login.The password strength must comply with the quality level requirements in the platform. Typically, it must beat least 7-character length, including letters in upper and lower cases, digits, and special characters. |
+
+### Ingram Micro generic request
+
+#### Ingram Micro API Request <a href="#get-order" id="get-order"></a>
+
+Generic action for making authenticated requests against the IM Cloud API
 
 ### Orders
 

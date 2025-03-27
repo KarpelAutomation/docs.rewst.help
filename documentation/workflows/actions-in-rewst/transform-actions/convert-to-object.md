@@ -2,11 +2,11 @@
 description: Transforms a list into an object with extracted key-value pairs.
 ---
 
-# Convert to Object
+# Convert to object transform action
 
 ## Overview
 
-This transform allows you to convert a list of objects into a single object, creating each object's property using user-defined key-value pairs extracted from the list, and simplifying the handling of complicated list structures.
+This transform action allows you to convert a list of objects into a single object, creating each object's property using user-defined key-value pairs extracted from the list, and simplifying the handling of complicated list structures.
 
 ***
 

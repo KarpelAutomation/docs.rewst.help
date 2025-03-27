@@ -2,9 +2,9 @@
 description: Blend two input lists into one using a shared identifier.
 ---
 
-# Merge Lists
+# Merge lists transform action
 
-## Use Case
+## Use case
 
 You're faced with two separate lists of data that need to be combined based on a common attribute. You require a merging method that mimics SQL JOINs.
 
