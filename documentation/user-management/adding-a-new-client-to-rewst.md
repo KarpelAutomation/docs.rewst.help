@@ -2,11 +2,13 @@
 
 {% hint style="success" %}
 For a more streamlined process for adding new clients, check our [add-client-to-rewst-setup.md](../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md "mention") Crate installation page.
+
+
 {% endhint %}
 
 
 
-The first part of adding a client is to create them within Rewst itself. The easiest way to do this is to add them via the Microsoft CSP Integration.&#x20;
+The first part of adding a client is to create them within Rewst itself. The easiest way to do this is to add them via the Microsoft Cloud Integration Bundle, which contains Rewst's CSP Integration.&#x20;
 
 1. Navigate on the left navigation menu to **Configuration > Integrations > Microsoft CSP**_._ You'll see a list of your clients on the left, which you can filter using the column header options across the top.
 

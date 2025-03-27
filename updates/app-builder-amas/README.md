@@ -1,16 +1,10 @@
 # App Builder AMAs
 
-### 📣 **Join live!**
+### App Builder AMAs are currently on hold
 
-Join us live biweekly on Wednesdays at 1:30 pm EST for all things App Builder:
+Click through our existing App Builder AMA recordings to learn more about use and functionality.&#x20;
 
-* Product updates
-* Demos
-* Q\&A
-
-➡️ Download the calendar invite below.
-
-{% file src="../../.gitbook/assets/App Builder AMA (1) (1).ics" %}
+For specific App Builder questions, [reach out to the ROC](../../support/roc-support/).&#x20;
 
 ## Latest App Builder AMA video recording
 

@@ -475,6 +475,7 @@
   * [Add Client to Rewst Crate](prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md)
   * [Amend Mailbox Permissions Crate](prebuilt-automations/existing-crate-documentation/amend-mailbox-permissions-crate.md)
   * [Bulk Create Client from PSA Crate](prebuilt-automations/existing-crate-documentation/bulk-create-client-from-psa-crate.md)
+  * [Change a User’s Password Crate](prebuilt-automations/existing-crate-documentation/change-a-users-password-crate.md)
   * [Configure organization variables](prebuilt-automations/existing-crate-documentation/configure-organization-variables.md)
   * [Connectwise PSA agreement mapping](prebuilt-automations/existing-crate-documentation/connectwise-psa-agreement-mapping.md)
   * [CSP/CPV permission checker](prebuilt-automations/existing-crate-documentation/csp-cpv-permission-checker.md)
