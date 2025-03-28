@@ -492,6 +492,7 @@
   * [Document Rewst Form URLs (IT Glue/Hudu) Crate](prebuilt-automations/existing-crate-documentation/document-rewst-form-urls-it-glue-hudu-crate.md)
   * [Document User Details V2 Crate](prebuilt-automations/existing-crate-documentation/document-user-details-v2-crate.md)
   * [Export Intune Policies and Configurations Crate](prebuilt-automations/existing-crate-documentation/export-intune-policies-and-configurations-crate.md)
+  * [Identify Users in Bypass Mode Crate](prebuilt-automations/existing-crate-documentation/identify-users-in-bypass-mode-crate.md)
   * [Just in Time Admin Access Crate](prebuilt-automations/existing-crate-documentation/just-in-time-admin-access-crate.md)
   * [Manage Duo Phones Crate](prebuilt-automations/existing-crate-documentation/manage-duo-phones-crate.md)
   * [Microsoft: User Onboarding Crate](prebuilt-automations/existing-crate-documentation/microsoft-user-onboarding-crate-v2/README.md)
