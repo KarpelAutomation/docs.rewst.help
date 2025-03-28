@@ -10,6 +10,8 @@ You're dealing with nested data structures and need to extract results from task
 
 ## Overview
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.26.27 AM.png" alt=""><figcaption></figcaption></figure>
+
 The `Process With Items Results` transform action enables effective incorporation of With Items task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient.
 
 ***

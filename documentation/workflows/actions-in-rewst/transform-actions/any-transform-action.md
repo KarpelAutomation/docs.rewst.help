@@ -6,6 +6,8 @@ You are reviewing a list of users and you need to determine if any of the users 
 
 ### Overview
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.25.51 AM.png" alt=""><figcaption></figcaption></figure>
+
 This transform action will look at a list of boolean values and return true if any of the elements are true.
 
 ***
