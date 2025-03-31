@@ -354,7 +354,6 @@
         * [Halo PSA integration setup](documentation/integrations/psa/halopsa/halo-integration-setup.md)
       * [Kaseya BMS](documentation/integrations/individual-integration-documentation/psa/kaseya-bms/README.md)
         * [Kaseya BMS integration setup](documentation/integrations/individual-integration-documentation/psa/kaseya-bms/kaseya-bms-integration-setup.md)
-        * [Kaseya BMS actions & Endpoints](documentation/integrations/individual-integration-documentation/psa/kaseya-bms/actions-and-endpoints.md)
       * [ServiceNow](documentation/integrations/individual-integration-documentation/psa/servicenow-coming-soon/README.md)
         * [ServiceNow integration setup](documentation/integrations/individual-integration-documentation/psa/servicenow-coming-soon/servicenow-integration-setup.md)
         * [ServiceNow actions & endpoints](documentation/integrations/individual-integration-documentation/psa/servicenow-coming-soon/actions-and-endpoints.md)
