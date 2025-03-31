@@ -1,4 +1,4 @@
-# Microsoft: User Onboarding Crate V2
+# Microsoft: User Onboarding Crate
 
 {% hint style="info" %}
 This Crate is a big one! Unlike most of our other Crates, our documentation for the Microsoft: User Onboarding Crate is spread over several pages. Look in the left side tree of the navigation menu for our documentation site, and click through the pages nested under this one to see all related documentation.
@@ -120,7 +120,7 @@ If not set, your organization's default settings will be applied.
 
 To update organizational variables, follow [this guide](https://docs.rewst.help/prebuilt-automations/existing-crate-documentation/configure-organization-variables).
 
-For a complete list of required variables, refer to the [**Context & Organizational Variables Reference**](https://www.notion.so/Draft-Microsoft-User-Onboarding-Crate-Part-1-19fb56f9907180118ca4c28be86cda8a?pvs=21).
+For a complete list of required variables, refer to the [Context & Organizational Variables Reference](onboarding-context-and-organizational-variables-reference.md).
 
 ## Unpack the Crate
 
