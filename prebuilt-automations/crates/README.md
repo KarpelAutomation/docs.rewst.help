@@ -16,7 +16,7 @@ Prebuilt automations are made by the Rewst team. We've tested them and created t
 
 ## Find and use Crates in Rewst’s Crate Marketplace
 
-Rewst's Crate Marketplace is the submenu where you'll find our evergrowing collection of Crates. Access it in the left side menu of the platform by navigating to **Crates > Crate Marketplace**.\
+Rewst's Crate Marketplace is the submenu where you'll find our ever-growing collection of Crates. Access it in the left side menu of the platform by navigating to **Crates > Crate Marketplace**.\
 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 10.57.46 AM.png" alt=""><figcaption></figcaption></figure>

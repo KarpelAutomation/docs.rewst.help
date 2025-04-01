@@ -27,9 +27,9 @@ Our Export Intune Policies and Configurations Crate allows you to select and exp
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-12 at 3.23.32 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click on **Export Intune Policies and Configurations** to open up its Crate Details page, which breaks down the purpose, features, and setup requirements of the Crate.
 4. Click **Unpack Crate** in the right side menu.\
-   ![](<../../.gitbook/assets/image (4) (1).png>)
+   ![](<../../.gitbook/assets/image (4) (1) (1).png>)
 5. Click **Continue**.\
-   ![](<../../.gitbook/assets/image (5) (1).png>)
+   ![](<../../.gitbook/assets/image (5) (1) (1).png>)
 6. Enter the time saved.
 7.  Click **unpack**.\
 

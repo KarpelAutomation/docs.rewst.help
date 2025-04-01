@@ -2,7 +2,7 @@
 description: Blend two input lists into one using a shared identifier.
 ---
 
-# Merge lists transform action
+# Merge lists
 
 ## Use case
 
@@ -16,6 +16,8 @@ You're faced with two separate lists of data that need to be combined based on a
 
 The `Merge Lists` transform equips you with the functionality to effectively merge two lists into one. By aligning items based on a shared key attribute and allowing for three types of merging strategies (`inner`, `left`, and `outer`), it enhances your data analysis and manipulation capabilities.
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.59.22 AM.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Parameters
@@ -26,7 +28,7 @@ Here are the parameters you have available to you within the action, and their d
 
 ## Usage
 
-### Input Lists
+### Input lists
 
 For this transform, we will want to provide the action two lists and their corresponding key's to be used for mapping the comparisons. Let's use the below for our examples:
 
@@ -48,19 +50,19 @@ list_2: [
 ]
 ```
 
-### Merge Methods
+### Merge methods
 
 This transform offers three different methods for merging your lists: `Inner`, `Left`, and `Outer` joins. These three methods mimic the functionality of SQL JOINs and each has its own use cases:
 
-1. **Inner Join:** useful when you're dealing with two datasets and only want to focus on data that is common between them.
-2. **Left Join:** useful when the first list is your primary dataset and you wish to append any additional, relevant data from the second list to it.
-3. **Outer Join:** useful when you aim for a comprehensive view, combining all data from both lists, and filling in gaps where possible.
+1. **Inner join:** useful when you're dealing with two datasets and only want to focus on data that is common between them.
+2. **Left join:** useful when the first list is your primary dataset and you wish to append any additional, relevant data from the second list to it.
+3. **Outer join:** useful when you aim for a comprehensive view, combining all data from both lists, and filling in gaps where possible.
 
 Here are some examples of these methods in action to help you better understand their operation:
 
 <details>
 
-<summary>Inner Join</summary>
+<summary>Inner join</summary>
 
 The `Inner` merge method is used when you only want to retain the entries that are present in both lists. The intersection is based on the values of the specified keys.
 
@@ -96,7 +98,7 @@ jinjaCopy code
 
 <details>
 
-<summary>Left Join</summary>
+<summary>Left join</summary>
 
 The `Left` merge method is employed when you want to keep all the entries from the first list and incorporate matching entries from the second list.
 
@@ -131,7 +133,7 @@ list2_key: id
 
 <details>
 
-<summary>Outer Join</summary>
+<summary>Outer join</summary>
 
 The `Outer` merge method is used when you want to keep all entries from both lists, regardless of whether they have a match.
 
@@ -162,11 +164,11 @@ list2_key: id
 
 </details>
 
-## Results Output
+## Results output
 
 The outputs of the three different merge method examples above can be seen as follows:
 
-**Inner Join:** only John's object is returned in the output, as his `id` is present in both lists.
+**Inner join:** only John's object is returned in the output, as his `id` is present in both lists.
 
 ```json
 results: [
@@ -174,7 +176,7 @@ results: [
 ]
 ```
 
-**Left Join:** all objects from `list_1` are returned, with matching objects from `list_2` added on. This is why John's object includes the age from `list_2`, but Mary's object remains the same, as there was no matching `id` in `list_2`.
+**Left join:** all objects from `list_1` are returned, with matching objects from `list_2` added on. This is why John's object includes the age from `list_2`, but Mary's object remains the same, as there was no matching `id` in `list_2`.
 
 ```json
 results: [
@@ -183,7 +185,7 @@ results: [
 ]
 ```
 
-**Outer Join:** all objects from both lists are returned, with matching objects merged together. Therefore, we get John's object with the `age` from `list_2`, Mary's object from `list_1`, and the object with `id` 3 from `list_2` which didn't have a matching `id` in `list_1`.
+**Outer join:** all objects from both lists are returned, with matching objects merged together. Therefore, we get John's object with the `age` from `list_2`, Mary's object from `list_1`, and the object with `id` 3 from `list_2` which didn't have a matching `id` in `list_1`.
 
 ```css
 results: [

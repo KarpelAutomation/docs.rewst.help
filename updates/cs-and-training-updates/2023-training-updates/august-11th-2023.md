@@ -30,10 +30,10 @@ Explore what new changes the Training team has made in the last week.
   * Broken Links
   * Missing Integration Actions
   * Missing Pages
-* Add[ Tips and Tricks](../../../documentation/workflows/workflow-building-tips-and-tricks/) Page for Building Workflows
-  * [Workflow Notes](../../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/)
-  * [Multiselect](../../../documentation/workflows/workflow-building-tips-and-tricks/multiselect.md)
-  * [Favorite Actions](../../../documentation/workflows/workflow-building-tips-and-tricks/favorite-actions.md)
+* Add[ Tips and Tricks](broken-reference) Page for Building Workflows
+  * [Workflow Notes](broken-reference)
+  * [Multiselect](broken-reference)
+  * [Favorite Actions](broken-reference)
 
 **Cluck University**
 

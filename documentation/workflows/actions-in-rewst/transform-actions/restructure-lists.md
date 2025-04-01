@@ -1,8 +1,4 @@
----
-description: Redefine your list structure by reshaping attribute values.
----
-
-# Restructure lists transform action
+# Transform list objects
 
 ## Use case
 
@@ -10,7 +6,9 @@ You have a list where the current structure isn't effectively supporting your da
 
 ## Overview
 
-The restructure lists transform action offers versatile functionality to modify the structure of your list. Whether it's remapping fields for better clarity, flattening for easier data extraction, or counting to reveal data trends, this transform is a strong tool for data restructuring.
+The `transform list objects` action offers versatile functionality to modify the structure of your list. Whether it's remapping fields for better clarity, flattening for easier data extraction, or counting to reveal data trends, this transform is a strong tool for data restructuring.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.56.59 AM.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -26,7 +24,7 @@ The parameters listed under `Field Actions` are all required. Those listed under
 
 Let's break this down into specific use-case examples, to show how each of these methods can be used within the `Restructure Lists` Transform.
 
-### Input List
+### Input list
 
 Assume that we have a list of objects called `my_list` that looks like this:
 
@@ -53,7 +51,7 @@ my_list: [
 ];
 ```
 
-### Transformation Methods
+### Transformation methods
 
 Here is the breakdown of the different transformation methods, and when you'd want to use them:
 
@@ -203,7 +201,7 @@ field_actions:
 
 </details>
 
-## Results Output
+## Results output
 
 After all these actions are performed, your newly transformed list would output looking like this:
 
@@ -225,7 +223,3 @@ results = [
     }
 ]
 ```
-
-***
-
-Now that you're familiar with the `Restructure Lists` transform, you can start applying it to your lists to enhance your data processing. Remember, restructuring is not just about changing the layout of your data, but about making it more useful and accessible for your needs.

@@ -112,16 +112,16 @@ When creating the API Agent, ensure that the **Allow use of all Customers** Clie
 2. Create a new workflow and name it with something short and descriptive, such as `Test Halo Integration`.
 3. Add the action **List Agents** to the workflow builder canvas, by dragging it from the left pane.\
    \
-   ![](<../../../../.gitbook/assets/image (21).png>)
+   ![](<../../../../.gitbook/assets/image (21) (2).png>)
 4. Add a trigger to your test workflow by clicking on the /lightning bolt image. Name your trigger whatever you’d like.
 5. Click into the trigger’s settings.
 6. Toggle **Enabled** to on.\
    \
-   ![](<../../../../.gitbook/assets/image (22).png>)
+   ![](<../../../../.gitbook/assets/image (22) (2).png>)
 7. Set the **Trigger Type** to **Core - Always Pass**.
 8. Click **+** next to **Integration Overrides**. Add **Halo PSA** as your integration override.\
    \
-   ![](<../../../../.gitbook/assets/image (24).png>)
+   ![](<../../../../.gitbook/assets/image (24) (2).png>)
 9. In the **Activate Trigger To Run For** section, keep **Selected Organization** toggled on. **Toggle All current and future managed organizations** on, or choose just one or individually selected organizations from the **Organizations** drop-down selector.\
    \
    ![](<../../../../.gitbook/assets/image (25).png>)

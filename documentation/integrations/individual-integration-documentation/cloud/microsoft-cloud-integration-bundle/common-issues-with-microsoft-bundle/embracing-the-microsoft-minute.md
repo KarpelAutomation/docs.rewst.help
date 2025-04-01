@@ -22,7 +22,7 @@ While we may not know the exact science behind the duration of a Microsoft Minut
 2. **Dive into a Digital Detour**: Take a quick scroll through our [Getting Started](../../../../../../cluck-university/getting-started/) resources or a brief dive into our [electives](../../../../../../cluck-university/micro-courses/) – who knows what nuggets of wisdom you’ll find?
 3. **Revamp Your Digital Persona**: Update your professional profile picture or give your desktop background a fresh look.
 4. **Become a Jinja Ninja**: Check out [Broken link](broken-reference "mention")
-5. **Craft a Code Comment Masterpiece**: Get creative with your workflow notes – maybe give [RoboRewsty ](../../../../../workflows/workflow-building-tips-and-tricks/workflow-notes/documenting-with-roborewsty.md)a try?
+5. **Craft a Code Comment Masterpiece**: Get creative with your workflow notes – maybe give [RoboRewsty ](../../../../../workflows/documenting-with-roborewsty.md)a try?
 6. **Step Outside the Server Room**: A quick stroll can refresh your mind and bring new perspectives to your workflow designs.
 7. **Read** [**The MSP KB**](https://docs.themspkb.com/): You never know what MSP secrets you might uncover.
 8. **Origami Your Workflows**: Turn those old workflow diagrams into paper art.

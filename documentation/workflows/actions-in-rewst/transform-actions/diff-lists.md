@@ -2,7 +2,7 @@
 description: Identify the differences between two input lists.
 ---
 
-# Diff lists transform action
+# Diff lists
 
 ## Use case
 
@@ -14,6 +14,8 @@ You need to compare two lists and highlight the unique entries or entries exclus
 
 The `Diff Lists` transform is your solution for list comparison tasks. It uses two methods - `Anti-Join` and `Symmetric Difference` - to focus on unique or exclusive entries, thereby streamlining your data comparison process.
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.59.50 AM.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Parameters
@@ -24,7 +26,7 @@ Here are the parameters you have available to you within the action, and their d
 
 ## Usage
 
-### **Input Lists**
+### **Input lists**
 
 For this transform, we will want to feed the action two separate lists, that we will then identify the fields in which we want to identify differences. Let's use these two lists as example:
 
@@ -46,22 +48,22 @@ list_2: [
 ]
 ```
 
-### Difference Methods
+### Difference methods
 
 We have two options for the `Difference Method` you can pick to have the action perform, these method have slight differences that are quite helpful in various situations:
 
-* **Anti-Join:** for scenarios where you want to find entries that are exclusive to the first list.
-* **Symmetric Difference:** for comparing two sets of data and identifying unique records in each.
+* **Anti-join:** for scenarios where you want to find entries that are exclusive to the first list.
+* **Symmetric difference:** for comparing two sets of data and identifying unique records in each.
 
 Take a look at examples of both below:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" data-size="original"></td><td>The <code>Symmetric Difference</code> method is used when you want to identify entries that are unique to each list, i.e., items that exist in the one list and not in the other.</td><td></td></tr><tr><td></td><td><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""></td><td>The <code>Anti Join</code> difference method is used when you want to determine the items in the first list that don't have a corresponding match in the second list.</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" data-size="original"></td><td>The <code>Symmetric Difference</code> method is used when you want to identify entries that are unique to each list, i.e., items that exist in the one list and not in the other.</td><td></td></tr><tr><td></td><td><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""></td><td>The <code>Anti Join</code> difference method is used when you want to determine the items in the first list that don't have a corresponding match in the second list.</td></tr></tbody></table>
 
 ***
 
 <details>
 
-<summary>Anti Join</summary>
+<summary>Anti join</summary>
 
 **Action Parameters:**
 
@@ -93,7 +95,7 @@ list2_key: id
 
 <details>
 
-<summary>Symmetric Difference</summary>
+<summary>Symmetric difference</summary>
 
 **Action Parameters:**
 
@@ -128,11 +130,11 @@ list2_key: id
 
 </details>
 
-### Results Output
+### Results output
 
 The results of the two different diff methods can be seen as follows:
 
-**Anti Join:** only Mary's object from `list_1` is returned in the output, as she didn't have a correlating `id` in `list_2`.
+**Anti join:** only Mary's object from `list_1` is returned in the output, as she didn't have a correlating `id` in `list_2`.
 
 ```json
 result: [
@@ -140,7 +142,7 @@ result: [
 ]
 ```
 
-**Symmetric Difference:** both Mary's object from `list_1` and the object in `list_2` that didn't have a correlating id in `list_1` were returned in the returned list.
+**Symmetric difference:** both Mary's object from `list_1` and the object in `list_2` that didn't have a correlating id in `list_1` were returned in the returned list.
 
 ```json
 result: [
@@ -152,9 +154,3 @@ result: [
 ***
 
 With a grasp on the `Diff Lists` transform, you're ready to analyze and compare your lists for unique entries or entries exclusive to the first list. Understanding the differences between `Anti-Join` and `Symmetric Difference` methods will aid you in making effective data comparisons.
-
-**Want more practice?**
-
-{% hint style="success" %}
-[Check out our Rewst Foundations Courses](../../../../cluck-university/rewst-foundations/).
-{% endhint %}

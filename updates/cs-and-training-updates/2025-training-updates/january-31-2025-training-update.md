@@ -40,7 +40,7 @@ Explore what new changes the Training team has made in the last week.
 * [components](../../../documentation/app-builder/components/ "mention")subpages updated.
 * [pod-configuration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md "mention")page updated.
 * [add-rewst-flexible-assets-to-sidebar-in-it-glue.md](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/add-rewst-flexible-assets-to-sidebar-in-it-glue.md "mention") page added.
-* [tags-in-rewst.md](../../../documentation/workflows/tags-in-rewst.md "mention") page added.
+* [tags-in-rewst.md](../../../documentation/tags-in-rewst.md "mention") page added.
 * [roc-open-mics](../../roc-open-mics/ "mention") video added.
 
 </details>

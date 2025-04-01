@@ -2,13 +2,15 @@
 description: Transforms a list into an object with extracted key-value pairs.
 ---
 
-# Convert to object transform action
+# Convert list to object
 
 ## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.26.59 AM.png" alt=""><figcaption></figcaption></figure>
 
 This transform action allows you to convert a list of objects into a single object, creating each object's property using user-defined key-value pairs extracted from the list, and simplifying the handling of complicated list structures.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.54.26 AM.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -22,7 +24,7 @@ For nested field names, separate them by dots (e.g., `details.age`).
 
 ## Usage
 
-The `Convert to Object` transform provides a powerful way to reshape your data to meet specific requirements. The ability to define keys and values, including the ability to access nested data, makes it versatile for a range of scenarios. Let's go through a couple of use-case examples to demonstrate how this transform can be applied to your data.
+The `Convert List to Object` transform provides a powerful way to reshape your data to meet specific requirements. The ability to define keys and values, including the ability to access nested data, makes it versatile for a range of scenarios. Let's go through a couple of use-case examples to demonstrate how this transform can be applied to your data.
 
 <details>
 
@@ -120,7 +122,7 @@ value_field: details.age
 
 </details>
 
-## Results Output
+## Results output
 
 In both of these examples, your new output object would look as follows:
 
@@ -130,10 +132,6 @@ results: {
   "Mary": 35
 }
 ```
-
-***
-
-You've learned how to simplify complex lists using the `Convert to Object` transform. Remember, the key to using this transform effectively is understanding your data's structure and identifying the appropriate key-value pairs that will make your object meaningful.
 
 {% hint style="info" %}
 _This transform is especially useful when dealing with data structures like ConnectWise PSA Custom Fields or Communication Items._

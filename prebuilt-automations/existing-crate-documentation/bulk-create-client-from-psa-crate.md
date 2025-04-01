@@ -30,7 +30,7 @@ Prior to unpacking and running this Crate, you should have one of the following 
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-17 at 1.14.34 PM.png>)
 3. Click on the Crate tile to open its details page.
-4. Locate the **Required Org Variables** menu on the right of the Crate details page. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1).png" alt="" data-size="line"> to launch the **Add Organization Variable** dialog.\
+4. Locate the **Required Org Variables** menu on the right of the Crate details page. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1) (1).png" alt="" data-size="line"> to launch the **Add Organization Variable** dialog.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-17 at 1.28.30 PM.png>)
 5. Set the **Name** field to `default_PSA`, if Rewst does not automatically populate this into the field for you.

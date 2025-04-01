@@ -31,8 +31,8 @@ To get started, select the first module. Each module includes a video and writte
 {% hint style="info" %}
 Check out these supplementary resources.
 
-* [navigating-between-tasks-with-transitions.md](../../../documentation/workflows/configuring-your-workflow-tasks/navigating-between-tasks-with-transitions.md "mention")
-* [#transition-modes](../../../documentation/workflows/configuring-your-workflow-tasks/advanced-workflow-operations.md#transition-modes "mention")
+* [navigating-between-tasks-with-transitions.md](../../../documentation/workflows/navigating-between-tasks-with-transitions.md "mention")
+* [#transition-modes](../../../documentation/workflows/advanced-workflow-operations.md#transition-modes "mention")
 * [how-to-use-powershell-in-rewst.md](../../micro-courses/how-to-use-powershell-in-rewst.md "mention")(strongly encourage watching!)
 * Microsoft Groups API: [Working with groups in Microsoft Graph](https://learn.microsoft.com/en-us/graph/api/resources/groups-overview?view=graph-rest-1.0\&tabs=http)
 * Powershell 'Add' Commandlet: [Add-DistributionGroupMember](https://learn.microsoft.com/en-us/powershell/module/exchange/add-distributiongroupmember?view=exchange-ps)

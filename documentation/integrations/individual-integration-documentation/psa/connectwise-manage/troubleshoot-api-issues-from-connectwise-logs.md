@@ -20,13 +20,13 @@ This guide outlines the steps for Rewst users to pull API logs from ConnectWise 
 
 Here, you'll find settings specific to API interactions and configurations.
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Select the Rewst user
 
 Under the API Members tab, locate and select the user associated with Rewst's integration.
 
-<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Step 3: Open the API logs tab**
 
@@ -37,7 +37,7 @@ After selecting the Rewst user:
 * **Click** on the `Start Debug Mode` hyperlink.
   * This action opens the `Start Debug Mode` pop-up
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 4: Set debug duration
 
@@ -46,7 +46,7 @@ In the Debug Mode pop-up:
 * **Enter** length of time (e.g. `5`) in the `Minutes` textbox. This will capture logs for the specified duration.
 * **Click** the `Ok` button to start the debug mode.
 
-<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 5: Replicate the issue and troubleshoot
 

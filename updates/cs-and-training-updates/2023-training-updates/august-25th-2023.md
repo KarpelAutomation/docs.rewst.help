@@ -33,7 +33,7 @@ Explore what new changes the Training team has made in the last week.
   * Fixed the Workflow and Crate links on the [Rewst Terminology Page](../../../cluck-university/getting-started/rewst-terminology.md).
   * Fixed Broken links on [Actions in Rewst page](../../../documentation/workflows/actions-in-rewst/).
   * Fixed code snippet and formatting errors on the [Dynamic Options and Inputs page](../../../documentation/forms/intro-to-forms.md).
-  * Removed broken links on the [Workflow Notes page](../../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/).
+  * Removed broken links on the [Workflow Notes page](broken-reference).
   * Fixed Broken Rewst platform links on all integration setup pages.
   * Various punctuation and formatting fixes on all the integration setup pages.
 

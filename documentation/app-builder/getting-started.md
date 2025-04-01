@@ -64,7 +64,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
 4. Add a noop action to the workflow builder canvas by clicking on the action in the left action menu and dragging and dropping it on the canvas.
 5. Click on the action.
-6. Click the <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line">in the action's menu.
+6. Click the <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1).png" alt="" data-size="line">in the action's menu.
 7.  Change the name of the action to `BEGIN`, which allows other users reviewing the workflow to clearly identify the top of a workflow.\
     \
 
@@ -128,7 +128,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
 
     <figure><img src="../../.gitbook/assets/test 17-min.png" alt=""><figcaption></figcaption></figure>
-21. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line"> in the top right of the workflow builder.
+21. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1).png" alt="" data-size="line"> in the top right of the workflow builder.
 22. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Output Configuration**.
 23. Name the output configuration`form_output`.&#x20;
 24. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .&#x20;

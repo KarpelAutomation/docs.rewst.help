@@ -15,7 +15,7 @@ The first part of adding a client is to create them within Rewst itself. The eas
 <figure><img src="../../.gitbook/assets/csp-add-client.png" alt=""><figcaption></figcaption></figure>
 
 2. Find the empty drop-down field under **Rewst Organization**. Enter a name. Note that this is the name of the organization within Rewst. We recommend you match this with the company in the PSA to make it more quickly identifiable.&#x20;
-3. Click ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1).png>) to the right of the drop-down.
+3. Click ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1) (1).png>) to the right of the drop-down.
 4. Click **Submit**. The drop-down will auto-fill with the client you created.
 
 ## Step Two

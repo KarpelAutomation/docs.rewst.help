@@ -53,7 +53,7 @@ Integration overrides will automatically be added during the Crate's unpacking p
 6. Copy the associated URL of the company you will be using to test the Crate.&#x20;
 7. Open that URL in a new browser window.
 8. Choose a user to use for your test. Fill out the form, then click **Submit**.
-9. View the workflow results by clicking <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM.png" alt="" data-size="line"> from the workflow. If the Crate is functioning correctly, your results log won't contain errors.
+9. View the workflow results by clicking <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> from the workflow. If the Crate is functioning correctly, your results log won't contain errors.
 
 ## Troubleshoot the Change a User’s Password Crate
 

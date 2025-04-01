@@ -1,43 +1,53 @@
-# Different types of workflows
+# Option generator workflows
 
-### Overview
+When automating certain processes, it's important to use dynamic options that adjust based on the input. Using the same list of options every time can lead to errors by applying choices that don't fit the situation. When an automation gets information from a form, it's important that the data on the form be dynamic, and adjust based on previous inputs or selections on that same form.
 
-Within this guide, we will discuss the different types of workflows and in which situation you would use each one.
+An _option generator_ workflow will always be connected to a form, and allows you to provide tailored, dynamic options for specific fields in that form. For example, in an automation that updates a user's group memberships, the list of groups is tailored to the input. You wouldn't want to add an individual to a group that they're already a member of, nor would you want to remove them from a group that they're not a member of. To add a user to a group, you would generate a list of groups that are not already part of the user's group memberships. To remove a user from a group, you would generate the user's current list of group memberships.
 
-### Standard Workflow
+{% hint style="info" %}
+The order of operations for creating the pieces needed to pull off an option generator is flexible. You can create the option generator workflow first, or the form that connects to the option generator workflow. In the below example, the workflow is made first.
 
-This is the most basic of all workflows. As soon as you hit Create on the workflow page, that is what is made, and can then start adding actions to it.
+Ultimately, an option generator workflow needs three things:
 
-### Subworkflow
-
-This is the same as a standard workflow, except that it is also a part of another workflow. In the example below, we have a main workflow called "Create Ticket" in which we choose which PSA the organization has. Once that has been decided, we then go to a sub-workflow (note the pink border and icon on the action) which has the actual creation of the ticket.
-
-<figure><img src="../../.gitbook/assets/subworkflow-example.png" alt=""><figcaption></figcaption></figure>
-
-There are a few reasons to do this such as:
-
-1. Ensuring a "tidy" workflow - rather than having 20 steps per PSA on a single workflow, we can split it up and make it convenient to read and understand.
-2. When doing something on various objects, the equivalent of a "for each", we can pass all of the objects to a sub-workflow and get the output back of each.
-
-Note that you can click the pink icon on a sub-workflow to go directly to it. You can also view sub-workflows on the main workflow page, indicated by the green "Subworkflow" button. This can be clicked to see which workflow it is a part of.
-
-### Option Generator
-
-An option generator is used directly with a form.
-
-If you have a form with a dropdown where you want to list all the users in a tenant, you would use an Option Generator workflow. There are a few things to bear in mind to make sure this works properly, as below
-
-1. Ensure that the workflow type is set to "Options Generator" by clicking the icon at the top. This should be as per the image below
-
-<figure><img src="../../.gitbook/assets/option-generator-workflow.png" alt=""><figcaption></figcaption></figure>
-
-2. Every option generator workflow must have an [output variable](data-input-and-output.md#workflow-output) called options, containing the data that you want to display.
-3. You must have a trigger set up on the workflow, which is then selected on the form when selecting the dynamic workflow.
-
-More can be found on [workflow-generated options here](workflow-generated-options.md).
-
-**Want more practice?**
-
-{% hint style="success" %}
-[Check out our Rewst Foundations Courses](../../cluck-university/rewst-foundations/).
+1. A workflow designated as an option generator in the workflow configuration.
+2. Workflow output configuration that sets the value of options to the relevant workflow context variable.
+3. A Rewst form that contains a form field connected to the option generator workflow and its trigger.
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=NGImOFnyeo8&t=1s" %}
+
+### Create an option generator workflow
+
+Before you begin, decide which options need to be displayed based on the user’s selection. For this example, the list of groups will change depending on whether the action is to add or remove a user.
+
+1. [Create a new workflow](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
+2. Click  <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1) (1).png" alt="" data-size="line">in the top menu bar of your workflow's workflow builder canvas.&#x20;
+3. Click the **Workflow Type** drop-down selector.&#x20;
+4.  Select **Option Generator**.\
+    \
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 at 5.07.54 PM.png" alt=""><figcaption></figcaption></figure>
+5. Click ![](<../../.gitbook/assets/Screenshot 2025-03-24 at 11.22.42 AM.png>) next to **Output Configuration** to create an output variable. Name the variable `options`. Every option generator workflow must have an [output variable](data-input-and-output.md#workflow-output) called `options`, which will contain the context variable that holds the data that you want to display.
+6. Click **Submit**. This will launch the workflow builder.
+7. Set up a [trigger](../triggers/intro-to-triggers.md) for the workflow.&#x20;
+
+### Create a form to be used with the workflow
+
+Remember, workflow generated options allow forms to be highly dynamic. When a form field is connected to an option workflow, it will return a list of options based on the input.
+
+See the documentation for how to use our form builder to achieve this step [here](../forms/intro-to-forms.md#option-two-workflow-generated-options).
+
+### How the form and workflow come together to generate options
+
+1.  When the workflow runs, it should result in a context variable `{{ CTX.options }}` that contains a list of items with key-value pairs that will be referenced in the form editor.\
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-04-01 at 2.39.11 PM.png" alt=""><figcaption><p>An example of an options generator workflow for one of our unpacked Crates</p></figcaption></figure>
+2. The values here will be used in the **Label Field** an **Value Field** for a form fiel&#x64;_._
+   1. The **Label** is what gets shown to the user who fills out the form as an available choice.
+   2. The **Value** field will be set to the value of the **Field Name** when that form is submitted. Workflows will reference this as `{{ CTX.<field_name> }}`
+   3. Using the **Default Selected Field** will evaluate an attribute of the `options` list for truthiness. Items which evaluate `true` will be selected by default when this field populates.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-04-01 at 2.42.54 PM.png" alt=""><figcaption></figcaption></figure>
+

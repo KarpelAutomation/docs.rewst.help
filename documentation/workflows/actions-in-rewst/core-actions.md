@@ -1,16 +1,12 @@
----
-description: Discover the Power of Rewst Core Actions
----
+# Core actions
 
-# Core Actions
+Core actions in Rewst are your gateway to the platform's vast array of intrinsic functionalities. These actions, usable right out of the box, offer features ranging from ad-hoc HTTP requests to document parsing.&#x20;
 
-The Core Actions in Rewst are your gateway to the platform's vast array of intrinsic functionalities. These actions, usable right out of the box, offer features ranging from ad-hoc HTTP requests to document parsing. This guide offers a comprehensive overview of each Core Action, its usage, and its capabilities, aiding you in designing robust, versatile workflows.
+Core actions are used in the same way as regular actions within workflows. They are selected from the list of available actions, configured based on their parameters, and then added to the workflow at the appropriate place.
 
-## How to Use Core Actions
-
-Core Actions are used in the same way as regular actions within workflows. They are selected from the list of available actions, configured based on their parameters, and then added to the workflow at the appropriate place.
-
-Here are some details of the available core actions:
+{% hint style="info" %}
+Expand each of the action types below to see their individual information.
+{% endhint %}
 
 <details>
 
@@ -60,7 +56,7 @@ _<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _I
 
 <details>
 
-<summary>Create &#x26; Await Webhook Actions</summary>
+<summary>Create and Await Webhook Actions</summary>
 
 ***
 
@@ -520,6 +516,3 @@ For additional understanding on XPath expressions, refer to this [w3schools arti
 
 </details>
 
-***
-
-Core Actions are a powerful part of the Rewst platform, providing a wide range of capabilities that are essential to designing and automating your workflows. By understanding and utilizing these Core Actions, you can create more dynamic and versatile workflows.

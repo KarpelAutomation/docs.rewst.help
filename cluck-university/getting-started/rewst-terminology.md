@@ -74,7 +74,7 @@ For more information, see: [actions-in-rewst](../../documentation/workflows/acti
 
 **Transitions** are found at the bottom of every action. These determine the path the workflow will take. For example: if **Success**, then you'll have an arrow coming from that transition to the next action. You also have transitions for **Failure**, **Always**, and **Custom Conditions**.
 
-For more information, see: [navigating-between-tasks-with-transitions.md](../../documentation/workflows/configuring-your-workflow-tasks/navigating-between-tasks-with-transitions.md "mention")
+For more information, see: [navigating-between-tasks-with-transitions.md](../../documentation/workflows/navigating-between-tasks-with-transitions.md "mention")
 
 ***
 

@@ -2,7 +2,7 @@
 description: Modify a specific field's value within your list objects.
 ---
 
-# Set field value transform action
+# Set list field value
 
 ## Use case
 
@@ -12,7 +12,9 @@ You have a list of objects where certain field values need adjusting. You need a
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.27.48 AM.png" alt=""><figcaption></figcaption></figure>
 
-The `Set Field Value` action enables the customization of a field's value within a list of objects. Whether it's for conditional value adjustment based on specific criteria or working with nested elements, this action offers the flexibility you need.
+The `Set List Field Value` action enables the customization of a field's value within a list of objects. Whether it's for conditional value adjustment based on specific criteria or working with nested elements, this action offers the flexibility you need.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.57.50 AM.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -24,7 +26,7 @@ The `Set Field Value` action enables the customization of a field's value within
 
 Let's break this down into specific use-case examples, to show how each of these methods can be used within the `Set Field Value` Transform.
 
-### Input List
+### Input list
 
 Assume that we have a list of objects called `my_list` that looks like this:
 
@@ -43,7 +45,7 @@ my_list: [
 ]
 ```
 
-### Update Methods
+### Update methods
 
 Using the `New Value Mode` you can define how you want to provide the data for the outputting field. You can do one of two things:
 
@@ -135,7 +137,7 @@ field_actions:
 
 </details>
 
-## Results Output
+## Results output
 
 After all these examples are performed in the transformation, your newly updated list would reflect these changes in their outputted results as such:
 

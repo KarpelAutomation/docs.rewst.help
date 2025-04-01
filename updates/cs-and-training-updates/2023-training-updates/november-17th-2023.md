@@ -27,7 +27,7 @@ Explore what new changes the Training team has made in the last week.
 * Added a page for [app-builder](../../../documentation/app-builder/ "mention") and how to submit your[Broken link](broken-reference "mention") to us.
 * Added the [embracing-the-microsoft-minute.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
 * Added a page for the [view-rewst-integration-org-variables.md](../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
-* Added page about [documenting-with-roborewsty.md](../../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/documenting-with-roborewsty.md "mention")
+* Added page about [documenting-with-roborewsty.md](../../../documentation/workflows/documenting-with-roborewsty.md "mention")
 * Added a use case page about [efficiently-extracting-nested-data.md](../../../documentation/jinja/use-cases-and-best-practices/efficiently-extracting-nested-data.md "mention")
 * Added a use case page about [customizing-psa-ticket-triggers.md](../../../documentation/triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md "mention")
 
@@ -37,12 +37,12 @@ Explore what new changes the Training team has made in the last week.
 * Updated the [azure-openai-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/ai/openai/azure-openai-integration-setup.md "mention") page for more explicit instructions on how to craft your Base URL.
 * Updated the [cybercns](../../../documentation/integrations/individual-integration-documentation/security/cybercns/ "mention") page to include reference to ConnectSecure branding.
 * Updated the [organization-variables.md](../../../documentation/user-management/organization-variables.md "mention") page to explain how Use as Default works
-* Updated the [rewst-actions](../../../documentation/workflows/actions-in-rewst/rewst-actions/ "mention") page for more context and reference to usage including breaking out pages for the following categories:
-  * [organization-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions/organization-actions.md "mention")
-  * [organization-variable-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions/organization-variable-actions.md "mention")
-  * [users-and-invitation-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions/users-and-invitation-actions.md "mention")
-  * [integrations-and-external-association-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions/integrations-and-external-association-actions.md "mention")
-  * [template-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions/template-actions.md "mention")
-  * [form-and-trigger-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions/form-and-trigger-actions.md "mention")
+* Updated the [rewst-actions.md](../../../documentation/workflows/actions-in-rewst/rewst-actions.md "mention") page for more context and reference to usage including breaking out pages for the following categories:
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
 
 </details>

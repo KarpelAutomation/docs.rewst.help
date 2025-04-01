@@ -43,11 +43,11 @@ Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to creat
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 4. Create your new user with an easily identifiable name. Set the user type to **Employee**. Use the **Administrator** security role to ensure that the API has the necessary permissions for Rewst to integrate seamlessly. Note that you must use a valid email address to set up this account. That email will be used for further setup steps later in the process.\
 
 
-<figure><img src="../../../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Log out of your current Kaseya sessions. Log in as the newly created user.
 6. Navigate to **My Profile**. As this is your first time logging in, Kaseya should display this page at login.
@@ -55,10 +55,10 @@ Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to creat
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 8. Click **Show secret key for manual configuration** in the dialog that appears. Copy and save this code, which you’ll need to finish setup in Rewst.\
    \
-   ![](<../../../../../.gitbook/assets/image (56).png>)
+   ![](<../../../../../.gitbook/assets/image (56) (1).png>)
 9. Configure MFA with your preferred app.
 10. Click **Enable**.
 
@@ -104,16 +104,16 @@ Successful organization importing via the Bulk Create Client from PSA Crate is a
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (57) (1).png" alt=""><figcaption></figcaption></figure>
 4. Search for `Kaseya BMS` in the actions menu of your workflow builder.
 5.  Drag and drop the **List accounts** action on to the workflow builder canvas.\
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (58) (1).png" alt=""><figcaption></figcaption></figure>
 6. Click **Test** in the top right corner of the workflow builder. If all is working after the test, the task's highlight will turn green.
 
-<figure><img src="../../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Crates related to the Kaseya BMS integration
 

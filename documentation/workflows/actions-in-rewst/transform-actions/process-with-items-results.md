@@ -2,7 +2,7 @@
 description: Seamlessly integrate "With Items" task results into your original list.
 ---
 
-# Append with items results transform action
+# Append with items results
 
 ## Use case
 
@@ -12,7 +12,9 @@ You're dealing with nested data structures and need to extract results from task
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.26.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-The `Process With Items Results` transform action enables effective incorporation of With Items task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient.
+The `Append With Items Results` transform enables effective incorporation of "With Items" task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.58.44 AM.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -24,7 +26,7 @@ The `Process With Items Results` transform action enables effective incorporatio
 
 The below scenario will attempt to illustrate how the `Process With Items Results` transform can be utilized to simplify `With Items` results collection.
 
-### **Input Lists**
+### **Input lists**
 
 Assume we have a base list called `base_list`:
 
@@ -58,7 +60,7 @@ collected_list: [
 ]
 ```
 
-### Action Parameters:
+### Action parameters:
 
 We want to extract the `result.result` list from each item in the `collected_list` and append it to each corresponding item in the `base_list` as a new attribute named `hobbies`.
 
@@ -68,7 +70,7 @@ collected_list: collected_list
 attribute_name: hobbies
 ```
 
-### **Jinja2 Equivalent:**
+### **Jinja2 equivalent:**
 
 ```jinja2
 {% raw %}
@@ -79,7 +81,7 @@ attribute_name: hobbies
 {% endraw %}
 ```
 
-## Results Output
+## Results output
 
 After processing, your results will look like this:
 
@@ -98,6 +100,6 @@ results: [
 ]
 ```
 
-***
-
-Having understood the `Process With Items Results` transform, you're now capable of seamlessly integrating data from one list to another. Remember to carefully specify your `Collected List`, `Base List`, and `Attribute Name` to ensure a successful transformation.
+{% hint style="success" %}
+Remember to carefully specify your `Collected List`, `Base List`, and `Attribute Name` to ensure a successful transformation.
+{% endhint %}

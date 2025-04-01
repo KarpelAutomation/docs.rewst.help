@@ -6,7 +6,7 @@ description: Learn how to build and customize your Rewst Forms
 
 ## Create a new form
 
-The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Forms**, and click  ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1).png>).&#x20;
+The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Forms**, and click  ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1) (1).png>).&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-17 at 5.21.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -179,7 +179,7 @@ Selecting the Microsoft Graph integration to list all users.
 If you want more flexibility around the output of the data your user is seeing, you may need to opt for a workflow generated option instead, which allows for data manipulation using [Jinja](../jinja/).
 
 {% hint style="info" %}
-This setup requires the workflow to be an options generator. See the [Workflow Generated Options](../workflows/workflow-generated-options.md) page for more details on this functionality.
+This setup requires the workflow type be an option generator. See our [option generator workflow page](../workflows/different-types-of-workflows.md) for more details on this functionality. The below documentation is high-level only.
 {% endhint %}
 
 #### Options generator example
