@@ -60,13 +60,13 @@ Stay consistent with your styling when naming variables. Choose a naming convent
 
 ### Work with data aliases
 
-* Separate complex [data alias](navigating-between-tasks-with-transitions.md) creation or modification into `Set Variable` tasks rather than creating them on the actual task doing the API call. This helps with easier troubleshooting should you encounter errors, such as determining if the API is experiencing issues versus if there is a Jinja error in your variable assignment.
+* Separate complex [data alias](data-aliases.md) creation or modification into `Set Variable` tasks rather than creating them on the actual task doing the API call. This helps with easier troubleshooting should you encounter errors, such as determining if the API is experiencing issues versus if there is a Jinja error in your variable assignment.
 * Separating the data aliases makes debugging easier, allowing you to test your code with real data.
 
 ### Work with task transitions
 
 {% hint style="info" %}
-For more on transitions, see our documentation [here](configuring-your-workflow-tasks.md).&#x20;
+For more on transitions, see our documentation [here](task-transitions.md).&#x20;
 {% endhint %}
 
 * Use conditions like `{{ SUCCEEDED and CTX.list_of_things|d }}` to control the flow based on task success or failure.

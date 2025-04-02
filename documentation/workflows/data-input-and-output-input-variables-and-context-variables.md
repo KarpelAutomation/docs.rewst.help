@@ -85,7 +85,7 @@ Despite the data being static at this point, the process is the same regardless 
 
 Similarly to the above, you can configure an output of a workflow. These are generally used in two situations:
 
-1. In an [Options Generator](broken-reference) workflow, the output is what is passed through to the form. For example, if you have a workflow that lists users in a variable called `{{ CTX.users }}` - you would configure an output variable of options mapped to this variable, as per the below image. This then, in the form, would list the users in a dropdown field. This is how dynamic data works in form - more about that in [types of workflows](different-types-of-workflows.md).
+1. In an [Options Generator](broken-reference) workflow, the output is what is passed through to the form. For example, if you have a workflow that lists users in a variable called `{{ CTX.users }}` - you would configure an output variable of options mapped to this variable, as per the below image. This then, in the form, would list the users in a dropdown field. This is how dynamic data works in form - more about that in [types of workflows](option-generator-workflows.md).
 
 <figure><img src="../../.gitbook/assets/output-configuration-example.png" alt=""><figcaption></figcaption></figure>
 
@@ -105,7 +105,7 @@ If you ran this action as-is, you would get the list of users, but wouldn't be a
 
 This is where [Transitions](../../cluck-university/getting-started/rewst-terminology.md#transitions) come into play.
 
-Click the **On Success** transition on the action. This gives you the option to create a [data alias](navigating-between-tasks-with-transitions.md).
+Click the **On Success** transition on the action. This gives you the option to create a [data alias](data-aliases.md).
 
 A data alias allows you to create a variable, similar to an input variable, but with data direct from an action API request. In our example below, we are creating a variable with the key called `user_details` and populating it with the data of the user using Jinja.
 

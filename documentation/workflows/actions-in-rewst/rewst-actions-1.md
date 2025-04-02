@@ -18,4 +18,4 @@ Unpacking a Crate will also add the workflows in that Crate to the Workflows act
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 11.58.02 AM.png" alt="" width="375"><figcaption><p>The parameters tab of a workflows task, when there are inputs</p></figcaption></figure>
 
-Note that most workflows actions will use [input variables](../data-input-and-output.md). If present, these will appear in the **Parameters** tab of the task.&#x20;
+Note that most workflows actions will use [input variables](../data-input-and-output-input-variables-and-context-variables.md). If present, these will appear in the **Parameters** tab of the task.&#x20;

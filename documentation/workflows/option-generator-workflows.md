@@ -28,7 +28,7 @@ Before you begin, decide which options need to be displayed based on the user’
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 at 5.07.54 PM.png" alt=""><figcaption></figcaption></figure>
-5. Click ![](<../../.gitbook/assets/Screenshot 2025-03-24 at 11.22.42 AM.png>) next to **Output Configuration** to create an output variable. Name the variable `options`. Every option generator workflow must have an [output variable](data-input-and-output.md#workflow-output) called `options`, which will contain the context variable that holds the data that you want to display.
+5. Click ![](<../../.gitbook/assets/Screenshot 2025-03-24 at 11.22.42 AM.png>) next to **Output Configuration** to create an output variable. Name the variable `options`. Every option generator workflow must have an [output variable](data-input-and-output-input-variables-and-context-variables.md#workflow-output) called `options`, which will contain the context variable that holds the data that you want to display.
 6. Click **Submit**. This will launch the workflow builder.
 7. Set up a [trigger](../triggers/intro-to-triggers.md) for the workflow.&#x20;
 

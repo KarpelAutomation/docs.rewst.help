@@ -4,13 +4,13 @@ description: >-
   without getting caught up in details.
 ---
 
-# Documenting with RoboRewsty
+# Document with RoboRewsty
 
 {% hint style="info" %}
 RoboRewsty is your go-to tool for simplifying the creation of comprehensive documentation for your workflow tasks. It takes care of the process behind the scenes, freeing you to focus on building your workflow while ensuring that the documentation is handled seamlessly.
 {% endhint %}
 
-## How does RoboRewsty Work?
+## How does RoboRewsty work?
 
 RoboRewsty integrates with the workflow builder canvas. It takes your workflows' JSON objects, and sends them to a private OpenAI Azure instance. The result is a quickly presented, well structured documentation breakdown of all selected tasks in your workflow.&#x20;
 

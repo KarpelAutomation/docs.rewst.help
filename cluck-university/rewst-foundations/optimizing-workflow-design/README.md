@@ -37,8 +37,8 @@ To get started, select the first module. Each module includes a video and writte
 Check out these supplementary resources.
 
 * [how-to-reference-data-with-variables.md](../../micro-courses/how-to-reference-data-with-variables.md "mention")
-* [advanced-workflow-operations.md](../../../documentation/workflows/advanced-workflow-operations.md "mention")
-* [data-input-and-output.md](../../../documentation/workflows/data-input-and-output.md "mention")
+* [advanced-workflow-operations-menu.md](../../../documentation/workflows/advanced-workflow-operations-menu.md "mention")
+* [data-input-and-output-input-variables-and-context-variables.md](../../../documentation/workflows/data-input-and-output-input-variables-and-context-variables.md "mention")
 * [cloning-an-existing-form.md](../../../documentation/forms/cloning-an-existing-form.md "mention")
 * [foundations-certification.md](../foundations-certification.md "mention")
 {% endhint %}

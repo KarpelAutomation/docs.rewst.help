@@ -38,7 +38,7 @@ We have a data alias called `CTX.m365_users` with a bunch of relevant informatio
 
 We then use a "With Items" action to loop through each of those users, getting a list of the groups they are a part of.
 
-Because of the way our [With Items](../../workflows/advanced-workflow-operations.md) works, we have a data alias
+Because of the way our [With Items](../../workflows/advanced-workflow-operations-menu.md) works, we have a data alias
 
 `CTX.all_group_info_collected`
 

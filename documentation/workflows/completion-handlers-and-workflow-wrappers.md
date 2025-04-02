@@ -2,7 +2,7 @@
 
 ## Completion handlers
 
-_Completion handlers_ are workflows that execute after another workflow has been completed. They provide a mechanism to extend or modify existing workflows without altering their core structure. These workflows have a [context variable ](data-input-and-output.md)that can be used to reference previous contexts from the workflow that was completed. Configure completion handlers to either trigger another workflow after the existing one finishes, or execute the current workflow when another workflow is completed.
+_Completion handlers_ are workflows that execute after another workflow has been completed. They provide a mechanism to extend or modify existing workflows without altering their core structure. These workflows have a [context variable ](data-input-and-output-input-variables-and-context-variables.md)that can be used to reference previous contexts from the workflow that was completed. Configure completion handlers to either trigger another workflow after the existing one finishes, or execute the current workflow when another workflow is completed.
 
 ### Example workflow use cases for completion handlers
 

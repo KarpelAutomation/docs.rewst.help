@@ -26,11 +26,11 @@ At the top of the workflow builder, you'll find several settings buttons.
 
 **Execution History** <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.52 PM.png" alt="" data-size="line">: This reveals the same information as History, but provides an easy way to view the data without leaving your workflow builder.
 
-**Data Aliases** <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.42.21 PM.png" alt="" data-size="line">: Click to view a list of all set [data aliases](navigating-between-tasks-with-transitions.md). Click on the data alias to take you directly to that action.
+**Data Aliases** <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.42.21 PM.png" alt="" data-size="line">: Click to view a list of all set [data aliases](data-aliases.md). Click on the data alias to take you directly to that action.
 
 **Add Trigger** <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.42.56 PM.png" alt="" data-size="line">: Click to open up the **Add Trigger** form, where you can set up your [trigger](../triggers/intro-to-triggers.md)'s configuration, parameters, criteria, and activated organizations.
 
-**Configure Workflow Settings** <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.43.27 PM.png" alt="" data-size="line">: Click to open the menu that contains the settings for workflow type, workflow timeout, time saved, and variable, [input, and output configuration](data-input-and-output.md).
+**Configure Workflow Settings** <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.43.27 PM.png" alt="" data-size="line">: Click to open the menu that contains the settings for workflow type, workflow timeout, time saved, and variable, [input, and output configuration](data-input-and-output-input-variables-and-context-variables.md).
 
 **Workflow Completion Handlers** <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.43.57 PM.png" alt="" data-size="line">: Click to open a submenu where you can set [completion handlers](https://docs.rewst.help/documentation/workflows/completion-handlers). Click the button a second time to collapse the menu.
 
@@ -99,7 +99,7 @@ Remember, once an action is placed on the canvas, we then call it a task.
    2. Four distinct tabs beneath the basic details:&#x20;
       1. **Parameters**: Unique to each task, this tab houses options for defining the task's behavior during execution, including settings for endpoints, filters, conditions, and query parameters.
          1. Note the **Redact on Hover** setting for inputs that are set to **Password**. This can be toggled on or off via the ![](<../../.gitbook/assets/Screenshot 2025-03-25 at 4.55.28 PM.png>).
-      2. **Advanced**: In this tab, you'll set the rules for your task's path and behavior within the workflow. Options include Integration Overrides, Transition Mode, Task Transition Criteria Sensitivity, Run as Org, With Items, Items Concurrency, and Task Timeout. See more about this on the [Advanced Workflow Operations](advanced-workflow-operations.md) page.
+      2. **Advanced**: In this tab, you'll set the rules for your task's path and behavior within the workflow. Options include Integration Overrides, Transition Mode, Task Transition Criteria Sensitivity, Run as Org, With Items, Items Concurrency, and Task Timeout. See more about this on the [Advanced Workflow Operations](advanced-workflow-operations-menu.md) page.
       3. **Mocking**: This tab provides the option to simulate the task's function with a user-defined result, useful for testing and debugging.
       4. **Time Savings**: In this tab, specify your estimate of the time a human would need to complete the task. This is used for creating Time Entries in PSA platforms.
       5. **Security**: This tab allows for meticulous redaction of sensitive information within workflow tasks. This is especially vital when using generic HTTP actions for services without official integrations, where API tokens or other sensitive data in headers could be exposed in results.&#x20;
@@ -127,7 +127,7 @@ When determining how much time to set for any given process, it's a good practic
 ### Add, edit, or delete workflow notes
 
 {% hint style="info" %}
-Rewst now also offers our [RoboRewsty](documenting-with-roborewsty.md) note taking feature, to automate your documentation. Choose to document manually, or with RoboRewsty. &#x20;
+Rewst now also offers our [RoboRewsty](document-with-roborewsty.md) note taking feature, to automate your documentation. Choose to document manually, or with RoboRewsty. &#x20;
 {% endhint %}
 
 Notes are a great way to jot down your thinking behind workflow aspects, and an essential step to building workflows for any team that has multiple employees editing workflows. They save in the workflow itself, and can be viewed via the <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.06 PM (1).png" alt="" data-size="line"> notes button by anyone who has permissions to edit that workflow. These boxes provide a title and a markdown editor.
@@ -182,6 +182,6 @@ Similarly, if you're searching for the name as it relates to completion handlers
 `{{ COMPLETED_WORKFLOW.WORKFLOW.name }}` .
 
 {% hint style="info" %}
-Information for the **Advanced** tab of tasks and actions in a workflow can be found in our documentation for the [advanced workflow operations menu](advanced-workflow-operations.md).
+Information for the **Advanced** tab of tasks and actions in a workflow can be found in our documentation for the [advanced workflow operations menu](advanced-workflow-operations-menu.md).
 {% endhint %}
 

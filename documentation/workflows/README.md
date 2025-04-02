@@ -38,7 +38,7 @@ There are a few reasons to set up subworkflows.
 * Smaller, self-contained workflows are easier to test and debug individually.
 
 {% hint style="info" %}
-_Workflow wrapper_ is an informal term sometimes used colloquially by the ROC to describe a situation where a primary workflow is used in a separate workflow as a subworkflow. More information on workflow wrappers can be found [here](completion-handlers.md).&#x20;
+_Workflow wrapper_ is an informal term sometimes used colloquially by the ROC to describe a situation where a primary workflow is used in a separate workflow as a subworkflow. More information on workflow wrappers can be found [here](completion-handlers-and-workflow-wrappers.md).&#x20;
 {% endhint %}
 
 ## Find and use workflows in Rewst
@@ -82,39 +82,39 @@ This will take you to a new page that will show all the results of that workflow
 [actions-in-rewst](actions-in-rewst/)
 {% endcontent-ref %}
 
-{% content-ref url="configuring-your-workflow-tasks.md" %}
-[configuring-your-workflow-tasks.md](configuring-your-workflow-tasks.md)
+{% content-ref url="task-transitions.md" %}
+[task-transitions.md](task-transitions.md)
 {% endcontent-ref %}
 
-{% content-ref url="navigating-between-tasks-with-transitions.md" %}
-[navigating-between-tasks-with-transitions.md](navigating-between-tasks-with-transitions.md)
+{% content-ref url="data-aliases.md" %}
+[data-aliases.md](data-aliases.md)
 {% endcontent-ref %}
 
-{% content-ref url="workflow-best-practices.md" %}
-[workflow-best-practices.md](workflow-best-practices.md)
+{% content-ref url="best-practices-for-designing-workflows.md" %}
+[best-practices-for-designing-workflows.md](best-practices-for-designing-workflows.md)
 {% endcontent-ref %}
 
-{% content-ref url="advanced-workflow-operations.md" %}
-[advanced-workflow-operations.md](advanced-workflow-operations.md)
+{% content-ref url="advanced-workflow-operations-menu.md" %}
+[advanced-workflow-operations-menu.md](advanced-workflow-operations-menu.md)
 {% endcontent-ref %}
 
-{% content-ref url="data-input-and-output.md" %}
-[data-input-and-output.md](data-input-and-output.md)
+{% content-ref url="data-input-and-output-input-variables-and-context-variables.md" %}
+[data-input-and-output-input-variables-and-context-variables.md](data-input-and-output-input-variables-and-context-variables.md)
 {% endcontent-ref %}
 
-{% content-ref url="different-types-of-workflows.md" %}
-[different-types-of-workflows.md](different-types-of-workflows.md)
+{% content-ref url="option-generator-workflows.md" %}
+[option-generator-workflows.md](option-generator-workflows.md)
 {% endcontent-ref %}
 
-{% content-ref url="completion-handlers.md" %}
-[completion-handlers.md](completion-handlers.md)
+{% content-ref url="completion-handlers-and-workflow-wrappers.md" %}
+[completion-handlers-and-workflow-wrappers.md](completion-handlers-and-workflow-wrappers.md)
 {% endcontent-ref %}
 
 {% content-ref url="boolean-logic-in-rewst-workflows.md" %}
 [boolean-logic-in-rewst-workflows.md](boolean-logic-in-rewst-workflows.md)
 {% endcontent-ref %}
 
-{% content-ref url="documenting-with-roborewsty.md" %}
-[documenting-with-roborewsty.md](documenting-with-roborewsty.md)
+{% content-ref url="document-with-roborewsty.md" %}
+[document-with-roborewsty.md](document-with-roborewsty.md)
 {% endcontent-ref %}
 

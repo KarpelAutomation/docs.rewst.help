@@ -179,7 +179,7 @@ Selecting the Microsoft Graph integration to list all users.
 If you want more flexibility around the output of the data your user is seeing, you may need to opt for a workflow generated option instead, which allows for data manipulation using [Jinja](../jinja/).
 
 {% hint style="info" %}
-This setup requires the workflow type be an option generator. See our [option generator workflow page](../workflows/different-types-of-workflows.md) for more details on this functionality. The below documentation is high-level only.
+This setup requires the workflow type be an option generator. See our [option generator workflow page](../workflows/option-generator-workflows.md) for more details on this functionality. The below documentation is high-level only.
 {% endhint %}
 
 #### Options generator example

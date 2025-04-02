@@ -24,7 +24,7 @@ Log into Rewst and complete the following steps
 
 ### Action Item
 
-Review [data-input-and-output.md](../../../documentation/workflows/data-input-and-output.md "mention") to gain further understanding of Output Configurations.
+Review [data-input-and-output-input-variables-and-context-variables.md](../../../documentation/workflows/data-input-and-output-input-variables-and-context-variables.md "mention") to gain further understanding of Output Configurations.
 
 ### Navigation
 

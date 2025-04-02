@@ -27,7 +27,7 @@ Explore what new changes the Training team has made in the last week.
 * Added a page for [app-builder](../../../documentation/app-builder/ "mention") and how to submit your[Broken link](broken-reference "mention") to us.
 * Added the [embracing-the-microsoft-minute.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
 * Added a page for the [view-rewst-integration-org-variables.md](../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
-* Added page about [documenting-with-roborewsty.md](../../../documentation/workflows/documenting-with-roborewsty.md "mention")
+* Added page about [document-with-roborewsty.md](../../../documentation/workflows/document-with-roborewsty.md "mention")
 * Added a use case page about [efficiently-extracting-nested-data.md](../../../documentation/jinja/use-cases-and-best-practices/efficiently-extracting-nested-data.md "mention")
 * Added a use case page about [customizing-psa-ticket-triggers.md](../../../documentation/triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md "mention")
 

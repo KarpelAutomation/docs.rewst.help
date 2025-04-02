@@ -32,6 +32,6 @@ Explore what new changes the Training team has made in the last week.
 * [collecting-ctx-variables-dynamically-using-jinja.md](../../../documentation/jinja/use-cases-and-best-practices/collecting-ctx-variables-dynamically-using-jinja.md "mention") Page added
 * **Updates and Fixes:**&#x20;
   * [Broken link](broken-reference "mention") has an added integration section
-  * [configuring-your-workflow-tasks.md](../../../documentation/workflows/configuring-your-workflow-tasks.md "mention")has been updated with new security information
+  * [task-transitions.md](../../../documentation/workflows/task-transitions.md "mention")has been updated with new security information
 
 </details>

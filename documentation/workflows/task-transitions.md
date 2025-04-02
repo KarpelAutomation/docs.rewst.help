@@ -18,7 +18,7 @@ _Task transitions_ are the bridges that connect different tasks, ensuring that w
   * **Failure**: if the task fails
   * **Always**: regardless of the outcome of the task
   * **Custom Condition**: set custom, with Jinja
-* [**Data Aliases**](navigating-between-tasks-with-transitions.md): Clicking the **+** button lets you define an easy-to-use variable that stores the results of the task transition.
+* [**Data Aliases**](data-aliases.md): Clicking the **+** button lets you define an easy-to-use variable that stores the results of the task transition.
 
 {% hint style="success" %}
 In the advanced options in the workflow body, you can opt to either follow the first left to right transition condition that returns true, or to follow all transitions from the action.
@@ -26,5 +26,5 @@ In the advanced options in the workflow body, you can opt to either follow the f
 
 ## Transition modes
 
-For information on how these work, see our documentation for [advanced workflow operations](advanced-workflow-operations.md#transition-modes).&#x20;
+For information on how these work, see our documentation for [advanced workflow operations](advanced-workflow-operations-menu.md#transition-modes).&#x20;
 

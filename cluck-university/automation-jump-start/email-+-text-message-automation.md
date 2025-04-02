@@ -183,7 +183,7 @@ Once you have a new user onboarding Crate set up, this workflow can be configure
    * Include additional details or resources specific to the onboarding process.
 
 {% hint style="success" %}
-For more information on setting up completion handlers, you can go to [completion-handlers.md](../../documentation/workflows/completion-handlers.md "mention")
+For more information on setting up completion handlers, you can go to [completion-handlers-and-workflow-wrappers.md](../../documentation/workflows/completion-handlers-and-workflow-wrappers.md "mention")
 {% endhint %}
 
 ***

@@ -58,7 +58,7 @@ You can also use a data alias to extract specific information and manipulate dat
 
 ## Add a data alias to a workflow
 
-Data aliases are added via transitions. See more about how to use [transitions in workflows here](configuring-your-workflow-tasks.md).
+Data aliases are added via transitions. See more about how to use [transitions in workflows here](task-transitions.md).
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 at 11.21.18 AM.png" alt=""><figcaption></figcaption></figure>
 
