@@ -100,7 +100,7 @@ For more information, see: [how-to-use-powershell-in-rewst.md](../micro-courses/
 
 **Templates** can be used as a way to store frequently repeated text. For example, if you always want to create a ticket with the same information, you could put that info in a template and reference the template within the action itself.
 
-For more information, see: [templates-messages.md](../../documentation/templates-messages.md "mention")
+For more information, see: [templates-and-scripts.md](../../documentation/templates-and-scripts.md "mention")
 
 ***
 

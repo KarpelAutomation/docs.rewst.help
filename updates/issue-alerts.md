@@ -2,6 +2,19 @@
 
 <details>
 
+<summary>⚠️ Service Degradation in US Instance April 3rd, 2025</summary>
+
+As of April 3, 2025 at 5:00 PM EDT, Rewst has identified an issue that is causing service degradation in the US instance. We are actively working to resolve the issue. We will update you when a permanent fix is implemented.
+
+If you have any urgent concerns, please contact your support team.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+
+</details>
+
+<details>
+
 <summary>⚠️ New Crates Available with Old Crate Deprecation March 26th, 2025</summary>
 
 We're thrilled to announce the launch of four new crates in the Crate Marketplace:
@@ -261,17 +274,5 @@ Please contact our support team if you have any questions or need further assist
 **Time:** 3PM to 3:30PM ET
 
 During this period, the system will remain online; however, you may experience temporary performance degradation, such as slower response times. We appreciate your understanding as we work to enhance the performance and reliability of our platform. If you have any concerns or experience significant issues, please reach out to our support team or your CSM.
-
-</details>
-
-<details>
-
-<summary>⚠️  Resolved: Slow User Interface (UI) Load Times (October 3rd, 2024)</summary>
-
-**Date:** Thursday, October 3rd, 2024
-
-**Time:** 22:00 UTC / 6:00 PM EDT
-
-October 3, 2024 at 22:00 UTC Rewst was notified of slow user interface (UI) load times and reduced accessibility of the platform. This was escalated internally for review per standard process. Rewst traced the issue to a slow-running common request. This resulted in Rewst Forms and UI elements not loading for some users and reduced functionality for other users from 22:00 to 23:15 UTC. Rewst is currently operating as normal while we continue to investigate the root cause of this issue. More information will be provided as it becomes available.
 
 </details>

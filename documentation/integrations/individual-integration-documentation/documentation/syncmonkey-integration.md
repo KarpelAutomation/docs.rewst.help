@@ -31,7 +31,7 @@ Our SyncMonkey integration enables the automation of document processes and mana
 5. Click **Save Configuration**.\
 
 
-## Test the Integration
+## Test the integration
 
 Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.\
 

@@ -37,7 +37,7 @@ Check out these supplementary resources.
 * [list-of-jinja-filters.md](../../../documentation/jinja/list-of-jinja-filters.md "mention")
 * [filter-examples.md](../../../documentation/jinja/filter-examples.md "mention")
 * [Lunch Menu Exercise](https://app.rewst.io/jinja-live-editor?id=4ee84407-d0c1-4a9a-94b3-84c643b8dd3f)
-* [templates-messages.md](../../../documentation/templates-messages.md "mention")
+* [templates-and-scripts.md](../../../documentation/templates-and-scripts.md "mention")
 * [jinja-lists.md](../../../documentation/jinja/use-cases-and-best-practices/jinja-lists.md "mention")
 * [how-to-reference-data-with-variables.md](../../micro-courses/how-to-reference-data-with-variables.md "mention")
 {% endhint %}
