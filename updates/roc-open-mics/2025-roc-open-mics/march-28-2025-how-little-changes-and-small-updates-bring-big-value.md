@@ -1,20 +1,12 @@
-# ROC Open Mics
+# March 28, 2025: How Little Changes and Small Updates Bring BIG Value
 
-## **Join Live!**
+### **Join Live!**
 
-Join us live for Rewst's Community Open Mics. Attend any of our regular sessions regardless of your geographic location. Our North American weekly Open Mic is recorded and posted here soon after for easy viewing.&#x20;
+Join us live every Friday at 3 pm EST!
 
-### [Click here to access calendar invites for all regional Open Mics.](https://go.rew.st/open-mic?hs_preview=BFeQDWBI-187816500244)
+&#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request_type=open_mic_link&)!
 
-### &#x20;🇺🇸🇨🇦North America - every Friday at 3pm EST
-
-### 🇪🇺 Europe - First Thursday of every month at 3pm GMT
-
-### 🇦🇺 🇳🇿Australia, New Zealand - First Friday of every month at 2pm AEDT
-
-
-
-## Latest Open Mic Video Recording
+## Open Mic Video Recording
 
 {% embed url="https://youtu.be/nLZePQvTBDs" %}
 
@@ -58,4 +50,3 @@ Join us live for Rewst's Community Open Mics. Attend any of our regular sessions
 * 📝 Feature Request + Integration Requests: [https://rewst.canny.io/](https://rewst.canny.io/)
 
 </details>
-

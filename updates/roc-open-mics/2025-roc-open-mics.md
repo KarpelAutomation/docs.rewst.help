@@ -10,6 +10,8 @@
 
 [march-21-2025-showing-the-first-workflow-we-ever-made.md](2025-roc-open-mics/march-21-2025-showing-the-first-workflow-we-ever-made.md "mention")
 
+[march-28-2025-how-little-changes-and-small-updates-bring-big-value.md](2025-roc-open-mics/march-28-2025-how-little-changes-and-small-updates-bring-big-value.md "mention")
+
 </details>
 
 <details>
