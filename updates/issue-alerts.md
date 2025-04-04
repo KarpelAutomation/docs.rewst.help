@@ -2,6 +2,19 @@
 
 <details>
 
+<summary>⚠️ Interrupted Workflow Execution in US Instance April 4th, 2025</summary>
+
+On April 4, Rewst identified an issue that interrupted workflow execution in the US instance from 2:30 PM EDT to 2:45 PM EDT. Running workflows may have been interrupted and may need to be restarted.&#x20;
+
+If you have any urgent concerns, please contact your support team.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+
+</details>
+
+<details>
+
 <summary>⚠️ Resolved: Service Degradation in US Instance April 3rd, 2025</summary>
 
 As of April 3, 2025 at 5:00 PM EDT, Rewst has identified an issue that is causing service degradation in the US instance. We are actively working to resolve the issue. We will update you when a permanent fix is implemented.
