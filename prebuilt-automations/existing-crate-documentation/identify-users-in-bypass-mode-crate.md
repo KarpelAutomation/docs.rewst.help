@@ -28,7 +28,7 @@ Our Duo integration must be set up before unpacking this Crate.
 5. Enter your estimated time saved.
 6. Click **Unpack**.
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Test the Crate
 

@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>⚠️ Service Degradation in US Instance April 3rd, 2025</summary>
+<summary>⚠️ Resolved: Service Degradation in US Instance April 3rd, 2025</summary>
 
 As of April 3, 2025 at 5:00 PM EDT, Rewst has identified an issue that is causing service degradation in the US instance. We are actively working to resolve the issue. We will update you when a permanent fix is implemented.
 

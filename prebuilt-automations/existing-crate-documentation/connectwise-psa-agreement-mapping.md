@@ -46,7 +46,7 @@ A form unpacked from this Crate is used to maintain mappings between environment
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 3. Click the trigger drop-down and select **Form Trigger.**\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-27 at 12.46.00 PM.png>)
@@ -54,7 +54,7 @@ A form unpacked from this Crate is used to maintain mappings between environment
 5. Click **View Direct URLs**.
 6. Copy the form URL and paste it in a different browser window.\
    \
-   ![](<../../.gitbook/assets/image (47).png>)
+   ![](<../../.gitbook/assets/image (47) (1).png>)
 7. Fill out the form to add, modify, or remove an agreement--see the below section for information on what each selection does. Once the form is fully filled out, click **Submit**.
 
 {% hint style="warning" %}

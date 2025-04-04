@@ -466,6 +466,7 @@
   * [Ad-Hoc Install/Uninstall Software via Chocolatey Crate](prebuilt-automations/existing-crate-documentation/ad-hoc-install-uninstall-software-via-chocolatey-crate.md)
   * [Add Client to Rewst Crate](prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md)
   * [Amend Mailbox Permissions Crate](prebuilt-automations/existing-crate-documentation/amend-mailbox-permissions-crate.md)
+  * [Billing Count Report Crate](prebuilt-automations/existing-crate-documentation/billing-count-report-crate.md)
   * [Bulk Create Client from PSA Crate](prebuilt-automations/existing-crate-documentation/bulk-create-client-from-psa-crate.md)
   * [Change a User’s Password Crate](prebuilt-automations/existing-crate-documentation/change-a-users-password-crate.md)
   * [Configure organization variables](prebuilt-automations/existing-crate-documentation/configure-organization-variables.md)
