@@ -1,28 +1,35 @@
 ---
+description: Cluck University has moved! Read on for more info.
 icon: circle-1
-description: >-
-  Whether you're just starting out or looking to refine your automation skills,
-  this is your home base.  Bookmark this page so you never feel lost in a sea of
-  links!
 ---
 
 # Getting started
 
-**Curious about Rewst?** To kick off your automation journey, explore the sections below for automation concepts and the Rewst platform.&#x20;
+{% hint style="danger" %}
+We've moved! All Cluck University content in this site will be archived on Friday, April 11th, 2025. Sign up for all self-paced and live courses in the new [Cluck University.](https://learn.rewst.io)
 
-**Ready to get set up in Rewst?** Complete the onboarding checklist.
+If you have questions, reach out to us at [CluckU@rewst.io](mailto:CluckU@rewst.io) or in the #cluck-u Discord channel.
+{% endhint %}
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="automation-inspiration/"><strong>Automation Strategy</strong></a></td><td>Learn essential concepts around automation.</td></tr><tr><td><a href="rewst-overview/"><strong>Rewst Overview</strong></a></td><td>Learn about the features that power the platform.</td></tr><tr><td><a href="onboarding-checklist/"><strong>Onboarding Checklist</strong></a></td><td>Your step-by-step guide to Rewst. Use this checklist to set up, learn key concepts, and start automating confidently.</td></tr></tbody></table>
+## **Welcome to the New CluckU!**
 
-## Essential learning
+We leveled up Cluck University, making learning in Rewst smarter, and more flexible than ever.
 
-### Automation fundamentals
+Now, you can register for courses, track your progress, and explore educational content — all from inside the Rewst app.
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="../automation-basics/"><strong>Automation basics</strong></a></td><td>Your essential intro to APIs, JSON, and the tech behind automation. Perfect for beginners or those needing a refresher.</td></tr><tr><td><a href="../rewst-foundations/"><strong>Rewst foundations</strong></a></td><td>Learn Jinja fundamentals and build in Rewst with confidence. Master essential tools and techniques for powerful automation.</td></tr><tr><td><a href="../automation-jump-start/"><strong>Quick start automations</strong></a></td><td>Get started with automation fast. These step-by-step guides help you build simple, effective automations in 30 minutes or less—no experience needed.</td></tr></tbody></table>
+What’s new in CluckU:
 
-### Automation upskilling&#x20;
+* Learn your way – Dive into self-paced courses or join live events on core topics.
+* Fresh content – Courses have been revamped based on your feedback.
+* Smarter search – Find exactly what you need with new search and filter options.
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="../clean-automation/"><strong>Clean automation</strong></a></td><td>Master workflow design to build streamlined, scalable, and effective automations.</td></tr><tr><td><a href="../micro-courses/"><strong>Micro courses</strong></a></td><td>On-demand lessons to deepen your Rewst knowledge, including crates and more—learn at your own pace.</td></tr></tbody></table>
+Ready to jump in?
+
+Click the **Cluck U** button in the [Rewst app](https://app.rewst.io) or sign in with your Rewst credentials at [learn.rewst.io](https://learn.rewst.io).
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-04-07 at 10.16.13 AM.png" alt="" width="264"><figcaption></figcaption></figure>
+
+
 
 ## Additional education resources
 
