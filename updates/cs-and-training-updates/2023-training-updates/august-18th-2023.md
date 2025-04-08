@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [Open Mic - August 11th Video and Page Added](../../roc-open-mics/2023-roc-open-mics/august-11th-2023-if-you-smell-what-the-roc-is-cooking.md)
+* [Open Mic - August 11th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-11th-2023-if-you-smell-what-the-roc-is-cooking.md)
 * Created a [Microsoft Azure Actions Page](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-azure/azure-actions.md) and [Enhanced Setup instructions](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup.md).
 * Added a new consolidated [Microsoft CSP Integration Setup page](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/microsoft-csp-integration-setup.md).
 * Consolidated the [Microsoft Graph integration setup page](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md), added an [Actions page](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-graph/graph-actions.md), and enhanced the [Graph Subscriptions page](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-subscriptions.md).

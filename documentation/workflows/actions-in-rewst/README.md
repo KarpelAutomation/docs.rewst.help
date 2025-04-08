@@ -38,8 +38,8 @@ Rewst actions: These actions are for interacting with your Rewst environment. Yo
 
 Transform actions: These actions help you shape and modify your data for efficient workflow execution, replacing the need for complex Jinja statements.
 
-{% content-ref url="rewst-actions-1.md" %}
-[rewst-actions-1.md](rewst-actions-1.md)
+{% content-ref url="workflows-actions.md" %}
+[workflows-actions.md](workflows-actions.md)
 {% endcontent-ref %}
 
 Workflows actions: These actions allow you to call other workflows within your environment. They enable you to feed information from the parent workflow as inputs and return the results upon completion.

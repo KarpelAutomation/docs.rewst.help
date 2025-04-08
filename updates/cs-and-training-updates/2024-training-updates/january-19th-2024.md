@@ -26,7 +26,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* The [jan-12th-2024-alpha-app-platform-demos.md](../../roc-open-mics/2024-roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md "mention")page is available
+* The [jan-12th-2024-alpha-app-platform-demos.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md "mention")page is available
 * Added a [Broken link](broken-reference "mention")page to the App Platform Section
 
 </details>

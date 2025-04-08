@@ -44,7 +44,7 @@ Sign up on the [Cluck University Landing Page](https://go.rew.st/cluck-universit
 
 **New & Updated Pages:**
 
-* [august-2-2024-provision-the-entire-microsoft-teams-bot-framework-with-a-single-form.md](../../roc-open-mics/2024-roc-open-mics/august-2-2024-provision-the-entire-microsoft-teams-bot-framework-with-a-single-form.md "mention")
+* [august-2-2024-provision-the-entire-microsoft-teams-bot-framework-with-a-single-form.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/august-2-2024-provision-the-entire-microsoft-teams-bot-framework-with-a-single-form.md "mention")
 
 </details>
 

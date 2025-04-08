@@ -4,11 +4,11 @@ description: Seamlessly integrate "With Items" task results into your original l
 
 # Append with items results
 
-## Use case
+### Use case
 
 You're dealing with nested data structures and need to extract results from tasks ran With Items into your original list. You want a unified, easy-to-manipulate list that includes all necessary data.
 
-## Overview
+### Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.26.27 AM.png" alt=""><figcaption></figcaption></figure>
 

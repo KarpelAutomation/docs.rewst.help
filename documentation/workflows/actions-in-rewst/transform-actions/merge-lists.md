@@ -4,11 +4,11 @@ description: Blend two input lists into one using a shared identifier.
 
 # Merge lists
 
-## Use case
+### Use case
 
 You're faced with two separate lists of data that need to be combined based on a common attribute. You require a merging method that mimics SQL JOINs.
 
-## Overview
+### Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.23.33 AM.png" alt=""><figcaption></figcaption></figure>
 

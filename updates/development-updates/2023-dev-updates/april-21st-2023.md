@@ -33,4 +33,4 @@ This can be anything from new features, bug fixes or QoL changes!
 
 </details>
 
-If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/2023-roc-open-mics/april-21st-2023-redacted-and-custom-integrations.md)
+If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/april-21st-2023-redacted-and-custom-integrations.md)

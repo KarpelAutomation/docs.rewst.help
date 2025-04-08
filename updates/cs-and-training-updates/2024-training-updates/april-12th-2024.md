@@ -27,7 +27,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [april-5th-2024-the-microsoft-bundle-you-cant-miss-out-on.md](../../roc-open-mics/2024-roc-open-mics/april-5th-2024-the-microsoft-bundle-you-cant-miss-out-on.md "mention") Open Mic page added
+* [april-5th-2024-the-microsoft-bundle-you-cant-miss-out-on.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/april-5th-2024-the-microsoft-bundle-you-cant-miss-out-on.md "mention") Open Mic page added
 * [cwm-technician-toolbox-via-pod.md](../../../prebuilt-automations/existing-crate-documentation/cwm-technician-toolbox-via-pod.md "mention") page added
 * [common-issues-with-microsoft-bundle](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/ "mention") updated with Entra UI known issue
 * [ingram-micro-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/licensing/ingram-micro/ingram-micro-integration-setup.md "mention") updated with Ingram credential workaround

@@ -21,7 +21,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New Pages**
 
-* Added an Open Mic Page for [nov-24th-2023-thanksgiving-edition-canadian-takeover.md](../../roc-open-mics/2023-roc-open-mics/nov-24th-2023-thanksgiving-edition-canadian-takeover.md "mention")&#x20;
+* Added an Open Mic Page for [nov-24th-2023-thanksgiving-edition-canadian-takeover.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/nov-24th-2023-thanksgiving-edition-canadian-takeover.md "mention")&#x20;
 * Added a page for [troubleshoot-api-issues-from-connectwise-logs.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/troubleshoot-api-issues-from-connectwise-logs.md "mention")&#x20;
 
 </details>

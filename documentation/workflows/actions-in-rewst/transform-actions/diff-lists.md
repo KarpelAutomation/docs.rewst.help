@@ -4,11 +4,11 @@ description: Identify the differences between two input lists.
 
 # Diff lists
 
-## Use case
+### Use case
 
 You need to compare two lists and highlight the unique entries or entries exclusive to the first list, A transformation action that simplifies this complex comparison process is required.
 
-## Overview
+### Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.24.48 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -130,7 +130,7 @@ list2_key: id
 
 </details>
 
-### Results output
+## Results Output
 
 The results of the two different diff methods can be seen as follows:
 

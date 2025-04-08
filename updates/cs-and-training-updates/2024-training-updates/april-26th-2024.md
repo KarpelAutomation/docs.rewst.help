@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md](../../roc-open-mics/2024-roc-open-mics/april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md "mention")page added
+* [april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md "mention")page added
 * [core-triggers.md](../../../documentation/triggers/core-triggers.md "mention") page added
 * [agent-smith](../../../documentation/agent-smith/ "mention") page updated with link to setup
 * [agent-smith-configuration-overview.md](../../../documentation/agent-smith/agent-smith-configuration-overview.md "mention") page updated with new Track Agent Inventory In Azure Tables Crate section

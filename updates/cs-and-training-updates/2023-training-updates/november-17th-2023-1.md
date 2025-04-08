@@ -38,7 +38,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md](../../roc-open-mics/2023-roc-open-mics/nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md "mention")available
+* [nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md "mention")available
 * [Broken link](broken-reference "mention")Coming soon page added - Shout-out to Reed Kimble!
 * [collecting-diagnostics-with-browser-developer-tools.md](../../../support/roc-support/collecting-diagnostics-with-browser-developer-tools.md "mention") added to the ROC Support section
 * [Broken link](broken-reference "mention")subpage added to [Broken link](broken-reference "mention")

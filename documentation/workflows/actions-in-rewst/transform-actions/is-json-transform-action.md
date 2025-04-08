@@ -2,7 +2,7 @@
 
 ## Check If String is Valid JSON
 
-## Use case
+### Use case
 
 You are working with an API and the return comes back as a JSON string instead of being a JSON object. You would like to verify that the string is valid JSON before attempting to convert it to JSON.
 

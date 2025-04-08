@@ -314,7 +314,9 @@ Returns detailed information about the external reference(s), such as the `org_i
 
 <summary>Template actions</summary>
 
-Templates are vital components of workflows, allowing dynamic content to be incorporated into tasks. The actions here provide an interface for creating, updating, fetching, and deleting these templates, effectively aiding in workflow customization and dynamic content management.
+Templates are vital components of workflows, allowing dynamic content to be incorporated into tasks. The actions here provide an interface for creating, updating, fetching, and deleting these templates, effectively aiding in workflow customization and dynamic content management.&#x20;
+
+Use our template actions to manage templates that exist at the organization level of the workflow in which you are building. These actions won't work for child orgs of that workflow's organization.
 
 ### **Create Template**
 

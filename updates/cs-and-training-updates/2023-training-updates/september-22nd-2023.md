@@ -28,7 +28,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [Open Mic - September 15th Video and Page Added](../../roc-open-mics/2023-roc-open-mics/september-15-2023-if-you-smell-what-the-roc-is-cooking-pt.2.md)
+* [Open Mic - September 15th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/september-15-2023-if-you-smell-what-the-roc-is-cooking-pt.2.md)
 * Updates and Fixes
   * Updated Capitalization for ConnectWise pages.
   * Fixed formatting and links on the [OpenAI Ticket Categorization](../../../prebuilt-automations/existing-crate-documentation/openai-ticket-categorisation-setup.md) and [OpenAI Ticket Sentiment](../../../prebuilt-automations/existing-crate-documentation/openai-ticket-sentiment-setup.md) crate pages.

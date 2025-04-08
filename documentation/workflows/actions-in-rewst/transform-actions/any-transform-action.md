@@ -12,11 +12,11 @@ This transform action will look at a list of boolean values and return true if a
 
 ***
 
-### Parameters
+## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>List</td><td>List of boolean values to check against.</td><td>true</td></tr></tbody></table>
 
-### Usage
+## Usage
 
 <details>
 
@@ -30,7 +30,7 @@ This transform action will look at a list of boolean values and return true if a
 
 </details>
 
-### Results Output
+## Results Output
 
 This transform will output a boolean value.
 

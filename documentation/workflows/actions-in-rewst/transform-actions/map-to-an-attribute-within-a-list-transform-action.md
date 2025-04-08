@@ -12,7 +12,7 @@ Map to an attribute for each dictionary object in a list.
 
 ***
 
-### Parameters
+## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>Attribute</td><td>The attribute to map to, dot notation can be used. For example, result.result</td><td>true</td></tr><tr><td>List</td><td>The list you would like to perform the map on.</td><td>true</td></tr></tbody></table>
 
@@ -20,7 +20,7 @@ Map to an attribute for each dictionary object in a list.
 This is useful for working with results returned from actions running with items so you don't have to worry about the nested result keys.
 {% endhint %}
 
-### Usage
+## Usage
 
 <details>
 
@@ -84,7 +84,7 @@ Inputs:
 
 </details>
 
-### Results Output
+## Results Output
 
 This transform is expected to return a new list that is mapped to the selected attribute.
 

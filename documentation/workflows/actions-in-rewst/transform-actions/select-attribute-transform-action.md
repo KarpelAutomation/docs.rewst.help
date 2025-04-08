@@ -12,7 +12,7 @@ This action filters a sequence of objects by applying a test to the specified at
 
 ***
 
-### Parameters
+## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>Attribute</td><td>The attribute of an object in the list that you would like to select if the condition is true. If nested, please use dot notation.</td><td>true</td></tr><tr><td>Comparison Operator</td><td>Test used for selecting matches. For information on the tests see <a href="https://jinja.palletsprojects.com/en/stable/templates/#jinja-tests">Jinja's documentation here</a>.</td><td>true</td></tr><tr><td>List</td><td>This is the list to run select attribute against.</td><td>true</td></tr><tr><td>Value to Compare Against</td><td>The value to compare the attribute against, this is required for most tests but tests such as true, false, defined, undefined do not require it. If a value is supplied and not needed it will be ignored.</td><td>false</td></tr></tbody></table>
 
@@ -20,7 +20,7 @@ This action filters a sequence of objects by applying a test to the specified at
 For nested field names, separate them by dots (e.g., `details.age`).
 {% endhint %}
 
-### Usage
+## Usage
 
 <details>
 
@@ -132,7 +132,7 @@ Inputs:
 
 </details>
 
-### Results Output
+## Results Output
 
 The expected output for this transform is a list of objects that tested true.
 

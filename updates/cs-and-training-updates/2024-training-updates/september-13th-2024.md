@@ -35,7 +35,7 @@ Explore what new changes the Training team has made in the last week.
 
 * Page Clean Ups and Minor Edits
 * [godaddy-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/dns/godaddy/godaddy-integration-setup.md "mention") API access limit disclaimer added.
-* Open Mic: [sept-6-2024-see-this-custom-cloud-backup-integration-implemented-in-rewst.md](../../roc-open-mics/2024-roc-open-mics/sept-6-2024-see-this-custom-cloud-backup-integration-implemented-in-rewst.md "mention")
+* Open Mic: [sept-6-2024-see-this-custom-cloud-backup-integration-implemented-in-rewst.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/sept-6-2024-see-this-custom-cloud-backup-integration-implemented-in-rewst.md "mention")
 * Changed Final Steps in [kaseya-vsa-x-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md "mention")
 
 </details>

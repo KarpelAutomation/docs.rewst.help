@@ -24,7 +24,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [Open Mic - August 4th Video and Page Added](../../roc-open-mics/2023-roc-open-mics/august-4th-2023-aharon-on-a-plane.md)
+* [Open Mic - August 4th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-4th-2023-aharon-on-a-plane.md)
 * The entire docs.rewst.help Site has been audited and updated to fix the following errors across every page:
   * Missing Images
   * Broken Links

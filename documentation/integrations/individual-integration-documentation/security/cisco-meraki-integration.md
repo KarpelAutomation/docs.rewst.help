@@ -54,7 +54,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Cisco's complete documentation can be found [here](../../../../updates/roc-open-mics/2022-roc-open-mics/may-27th-2022-graph-api.md).
+Cisco's complete documentation can be found [here](../../../../updates/roc-open-mics/roc-open-mics-north-america/2022-roc-open-mics/may-27th-2022-graph-api.md).
 
 | Category            | Action                                                                   | Description                                                                                                                                                                    |
 | ------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

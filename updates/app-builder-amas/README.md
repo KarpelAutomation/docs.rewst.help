@@ -1,10 +1,10 @@
 # App Builder AMAs
 
-### App Builder AMAs are currently on hold
-
-Click through our existing App Builder AMA recordings to learn more about use and functionality.&#x20;
+{% hint style="info" %}
+### New App Builder AMAs are currently on hold. Click through our existing App Builder AMA recordings to learn more about use and functionality.&#x20;
 
 For specific App Builder questions, [reach out to the ROC](../../support/roc-support/).&#x20;
+{% endhint %}
 
 ## Latest App Builder AMA video recording
 
@@ -12,21 +12,21 @@ For specific App Builder questions, [reach out to the ROC](../../support/roc-sup
 
 ### Contents of the recording:
 
-👋 Welcomed a new Product Manager, outlined the AMA’s purpose, and shared a quick agenda.&#x20;
+👋 Welcomed a new Product Manager, outlined the AMA’s purpose, and shared a quick agenda
 
-⚙️ Highlighted recent updates—Options Filter Early Access, bug fixes, and reliability improvements.&#x20;
+⚙️ Highlighted recent updates—Options Filter Early Access, bug fixes, and reliability improvements
 
-🎨 Revealed a major UI/UX overhaul in progress, aiming for a more intuitive and efficient App Builder experience.&#x20;
+🎨 Revealed a major UI/UX overhaul in progress, aiming for a more intuitive and efficient App Builder experience
 
-🗣️ Discussed advanced permissions use cases, including multi-tenant scenarios and component-level visibility controls.&#x20;
+🗣️ Discussed advanced permissions use cases, including multi-tenant scenarios and component-level visibility controls
 
-💻 Showcased a custom-built client portal replacing third-party software, with role-based links, forms, and direct workflows.
+💻 Showcased a custom-built client portal replacing third-party software, with role-based links, forms, and direct workflows
 
 <figure><img src="../../.gitbook/assets/Good app builder example.png" alt=""><figcaption><p>A great example of what App Builder can do for you</p></figcaption></figure>
 
-### App Builder Docs
+### App Builder docs
 
-📒 General Topics: [https://docs.rewst.help/documentation/app-builder/general](https://docs.rewst.help/documentation/app-builder/general)
+📒 General topics: [https://docs.rewst.help/documentation/app-builder/general](https://docs.rewst.help/documentation/app-builder/general)
 
 🧱 Components: [https://docs.rewst.help/documentation/app-builder/components](https://docs.rewst.help/documentation/app-builder/components)
 

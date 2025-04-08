@@ -68,7 +68,7 @@ _**Monthly Clean Automation Starting March 24:**_
 * [cloud](../../../documentation/integrations/cloud/ "mention") landing page updated to include information and crates available.
 * [microsoft-cloud-integration-bundle](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/ "mention") page updated prerequisites and best practices.
 * [configure-organization-variables.md](../../../prebuilt-automations/existing-crate-documentation/configure-organization-variables.md "mention") updated to include Preferred Domain Controller field.
-* [february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md](../../roc-open-mics/2025-roc-open-mics/february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md "mention") page added
+* [february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md](../../roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md "mention") page added
 
 </details>
 
