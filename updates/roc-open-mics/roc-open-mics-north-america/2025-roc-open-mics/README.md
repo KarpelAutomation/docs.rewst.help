@@ -2,6 +2,14 @@
 
 <details>
 
+<summary>April 2025</summary>
+
+
+
+</details>
+
+<details>
+
 <summary>March 2025</summary>
 
 [march-7-2025-microsoft-now-auditing-p1-licenses-usage.md](march-7-2025-microsoft-now-auditing-p1-licenses-usage.md "mention")
