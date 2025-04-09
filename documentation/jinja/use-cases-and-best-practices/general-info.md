@@ -1,4 +1,4 @@
-# Combining lists
+# Combine Jinja lists
 
 Quite often, you will be in a situation where you have two lists and want to combine them, ensuring that the data matches between the two lists.
 
@@ -6,7 +6,7 @@ For example, if you pull a list of users and then want to add a list of groups t
 
 There are a couple of ways to achieve this, both are outlined below
 
-## Step One - List M365 Users on a Tenant
+## Step one - List M365 users on a tenant
 
 We have a data alias called `CTX.m365_users` with a bunch of relevant information, we want to pull.
 
@@ -151,7 +151,7 @@ The end result?
 
 We can see the lists have combined and we now have access to all that information in a single list.
 
-## The Alternative Method
+## Alternative method
 
 Using the **ZIP** function is probably the most effective way to do this, however, the alternative is the **enumerate** function
 

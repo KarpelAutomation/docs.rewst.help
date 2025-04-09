@@ -6,7 +6,7 @@ Ensuring secure access to your app is crucial, and we've integrated authenticati
 
 ### Authentication for live pages
 
-When users attempt to view live pages within your app, authentication is required. We've extended our existing authentication system to App platform, leveraging Entra ID and Google authentication, just like the rest of Rewst. This ensures a consistent and secure user experience across the platform.
+When users attempt to view live pages within your app, authentication is required. We've extended our existing authentication system to App Builder, leveraging Entra ID and Google authentication, just like the rest of Rewst. This ensures a consistent and secure user experience across the platform.
 
 ### Default login page
 

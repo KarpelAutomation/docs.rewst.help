@@ -8,13 +8,13 @@ The Jinja language is meant to be extensible, and within Rewst there are many [f
 
 ### Types of Jinja
 
-#### Variable Expressions
+#### Variable expressions
 
 Variable expressions are encapsulated by double curly braces (`{{` and `}}`) and will output the value of the variable or expression as they are evaluated.
 
 `{{ CTX.my_var }}`
 
-#### Control Flow Statements
+#### Control flow statements
 
 These are used for decision-making functions such as `set`s, `if` statements and `for each`es. They are encapsulated by curly+percent signs (`{%` `%}`)
 
@@ -47,7 +47,7 @@ By default, when Jinja begins a statement block, it preserves any whitespace cha
 
 ```
 
-### Jinja Resources
+### Jinja resources
 
 Below are some resources, external to Rewst, that can be used to assist during the use of Jinja.
 

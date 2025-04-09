@@ -2,7 +2,7 @@
 description: Streamlining Data Retrieval with Jinja Filters vs. List Comprehension
 ---
 
-# Efficiently extracting nested data
+# Efficiently extract nested data
 
 ## Introduction
 
@@ -10,11 +10,11 @@ Explore how to use `jsonpath_query`, list comprehension, and the `map` filter in
 
 ***
 
-## Example Scenario
+## Example scenario
 
 Extract event names from a JSON list containing detailed event information.
 
-#### JSON Structure:
+#### JSON structure:
 
 ```json
 {
@@ -27,7 +27,7 @@ Extract event names from a JSON list containing detailed event information.
 
 ***
 
-### Method 1: Using List Comprehension
+### Method one: Use list comprehension
 
 List comprehension is a straightforward Pythonic way to create lists by iterating over sequences.
 
@@ -47,7 +47,7 @@ This method loops through each event in `CTX.events`, extracting the `name` from
 
 ***
 
-### Method 2: Using `jsonpath_query`
+### Method two: Use `jsonpath_query`
 
 `jsonpath_query` provides a more direct approach to targeting and extracting nested data.
 
@@ -66,7 +66,7 @@ This expression directly navigates to and extracts the `name` field from each ev
 
 ***
 
-### Method 3: Using `map` with an Attribute
+### Method three: Use `map` with an attribute
 
 **Example:**
 
@@ -83,14 +83,14 @@ This example demonstrates using the `map` filter in Jinja to extract a specific 
 
 ***
 
-### Comparison and Effectiveness
+### Comparison and effectiveness
 
 * **List Comprehension**: Offers control and flexibility, best for simpler structures or specific manipulations.
 * **Filters (`jsonpath_query`, `map`)**: Streamline the process with specialized functionality. Choose `jsonpath_query` for deep JSON navigation and `map` for straightforward, uniform transformations.
 
 ***
 
-### Expected Output
+### Expected output
 
 All methods output a list of event names:
 

@@ -33,9 +33,9 @@ Once the trigger has been created on a workflow, it can then be used on a form. 
 
 The above is a snippet from a form where a dropdown field has been selected and the output will be based on the workflow output. When running the form, if the client is added on the trigger and the trigger is set on the form, the workflow will run, and the options will fill into the form field.
 
-## Common triggers
+## Core triggers
 
-There are five key triggers to understand when getting started with Rewst. These triggers cover a range of automation scenarios, from scheduled executions to real-time event responses. In Rewst, we denote these from other triggers by calling them _core triggers_. Type `core` into the **Trigger Type** field to isolate most of these trigger types from the total list.
+There are six key triggers to understand when getting started with Rewst. These triggers cover a range of automation scenarios, from scheduled executions to real-time event responses. In Rewst, we denote these from other triggers by calling them _core triggers_. Type `core` into the **Trigger Type** field to isolate most of these trigger types from the total list.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-21 at 11.44.46 AM (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -49,9 +49,9 @@ For example, you can configure a workflow to run every Monday at 3:00 PM to gene
 
 This trigger is most useful for:
 
-* Scheduled maintenance workflows (e.g., clearing stale data, running audits)
-* Recurring notifications (e.g., sending reminders, generating reports)
-* Automated check-ins (e.g., verifying system statuses, updating dashboards)
+* Scheduled maintenance workflows: clearing stale data, running audits
+* Recurring notifications: sending reminders, generating reports
+* Automated check-ins: verifying system statuses, updating dashboards
 
 ### Core - Form Submission
 
@@ -61,9 +61,9 @@ For example, you can submit an employee onboarding form to trigger a workflow th
 
 This trigger is most useful for:
 
-* Request-based workflows (e.g., access requests, service requests)
-* Intake processes (e.g., user registrations, issue reporting)
-* Approval workflows (e.g., leave requests, expense approvals)
+* Request-based workflows: access requests, service requests
+* Intake processes: user registrations, issue reporting
+* Approval workflows: leave requests, expense approvals
 
 {% hint style="info" %}
 For help building a form, refer to [form-best-practices.md](../forms/form-best-practices.md "mention").
@@ -79,9 +79,9 @@ For example, a webhook could trigger a workflow whenever a new customer signs up
 
 This trigger is most useful for:
 
-* Event-driven automation (e.g., responding to new leads, updating records on status changes)
-* Real-time notifications (e.g., escalating high-priority tickets, alerting teams to critical updates)
-* External system integrations (e.g., syncing data between platforms, processing incoming requests)
+* Event-driven automation: responding to new leads, updating records on status changes
+* Real-time notifications: escalating high-priority tickets, alerting teams to critical updates
+* External system integrations: syncing data between platforms, processing incoming requests
 
 {% hint style="info" %}
 For more information on webhook triggers, refer to [using-webhook-triggers.md](use-cases-and-examples/using-webhook-triggers.md "mention").
@@ -95,13 +95,27 @@ For example, you might use this trigger when testing workflows, executing a work
 
 This trigger is most useful for:
 
-* Manual workflow execution (e.g., running a workflow on demand)
-* Subworkflows or completion handlers (e.g., workflows triggered by other workflows)
-* Testing automation (e.g., verifying workflow functionality)
-* Option generators (e.g., dynamically populating form fields in Rewst)
+* Manual workflow execution: running a workflow on demand
+* Subworkflows or completion handlers: workflows triggered by other workflows
+* Testing automation: verifying workflow functionality
+* Option generators: dynamically populating form fields in Rewst
 
 {% hint style="info" %}
 For more information on option generators, refer to [how-to-create-configure-and-trigger-an-option-generator-workflow.md](../../cluck-university/rewst-foundations/creating-an-option-generator-workflow/how-to-create-configure-and-trigger-an-option-generator-workflow.md "mention").
+{% endhint %}
+
+### Core - Time Interval
+
+Time intervals can be set to trigger a workflow repeatedly over specified periods. This trigger is suitable for workflows that need to repeat on a regular basis.
+
+* **Examples**:
+  * Every 5 minutes
+  * Every hour
+  * Daily
+  * Weekly
+
+{% hint style="info" %}
+Check out our [using-webhook-triggers.md](use-cases-and-examples/using-webhook-triggers.md "mention") page for a more detailed example.
 {% endhint %}
 
 ### PSA: Ticket record saved
@@ -116,9 +130,9 @@ For example, if a ticket is updated to **Escalated**, a workflow can trigger an 
 
 This trigger is most useful for:
 
-* Automating ticket management (e.g., escalating high-priority tickets, auto-assigning technicians)
-* SLA enforcement (e.g., sending reminders for unresolved tickets, auto-responding to specific cases)
-* Status-based automation (e.g., triggering follow-up workflows when a ticket is created or reaches a certain stage)
+* Automating ticket management: escalating high-priority tickets, auto-assigning technicians
+* SLA enforcement: sending reminders for unresolved tickets, auto-responding to specific cases
+* Status-based automation: triggering follow-up workflows when a ticket is created or reaches a certain stage
 
 {% hint style="info" %}
 For more detailed information on PSA triggers, refer to [customizing-psa-ticket-triggers.md](use-cases-and-examples/customizing-psa-ticket-triggers.md "mention").
@@ -126,7 +140,9 @@ For more detailed information on PSA triggers, refer to [customizing-psa-ticket-
 
 ## Other triggers
 
-While these five triggers cover the most common use cases, Rewst offers additional triggers tailored to different automation needs. Explore the available triggers in the trigger type list to find the best fit for your specific processes, and learn more about them in our additional trigger type documentation [here](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/s8z0MoTR6SpBJcxlRNNY/).
+While these six triggers cover the most common use cases, Rewst offers additional triggers tailored to different automation needs. Explore the available triggers in the trigger type list to find the best fit for your specific processes.
+
+<figure><img src="../../.gitbook/assets/trigger drop-down gif.gif" alt="A moving GIF image depicting scrolling through the trigger type list in an example organization in Rewst. Various integrations&#x27; actions are shown."><figcaption><p>The contents of the complete trigger type list will depend on your particular integrations</p></figcaption></figure>
 
 ## Trigger criteria
 

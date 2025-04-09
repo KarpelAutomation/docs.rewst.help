@@ -1,6 +1,6 @@
 # Internal Rewst Jinja examples
 
-## Shortcuts & General Help
+## Shortcuts and general help
 
 * Access the Jinja Editor on any fields where you see the code editor icon <img src="../../.gitbook/assets/jinja-burger.png" alt="" data-size="line">(fondly called the Jinja Burger amongst other Kewp Members)
 * Press `F1` within the editor to see menu and shortcut options
@@ -9,7 +9,7 @@
 
 ***
 
-## Variable Roots
+## Variable roots
 
 {% tabs %}
 {% tab title="CTX" %}
@@ -62,14 +62,16 @@ Variables prefixed with `ORG` are related to data and functions specific to the 
 {% endtab %}
 {% endtabs %}
 
-#### Things to Keep in Mind
+{% hint style="info" %}
+**Remember!**
 
 * Variable and function names are case-sensitive.
 * Autocompletion is generally available after typing the dot (`.`) following a variable root like `CTX`, `ORG`, etc.
+{% endhint %}
 
 ***
 
-## Date-Time Operations
+## Date-time operations
 
 Date-Time manipulations in Jinja can be easily achieved using context variables and built-in filters. This section provides examples to perform various date-time operations with JSON objects. Here are various examples demonstrating how to manipulate date-time values using Jinja filters in Rewst.
 
@@ -179,7 +181,7 @@ The `time delta` filter allows you to add or subtract time from a datetime varia
 {% endtab %}
 {% endtabs %}
 
-### **Additional Resources**
+### **Additional resources**
 
 The `format_datetime` filter leverages format codes to specify the output string's structure. Here is a breakdown of commonly used format codes:
 
@@ -200,11 +202,11 @@ For more context and assistance with date-time formats, consult [this Python str
 
 ***
 
-## Rewst's Custom Jinja2 Extensions
+## Rewst's custom Jinja2 extensions
 
 In your Rewst environment, you have access to several custom Jinja2 extensions that enhance the functionality of Jinja templates in Rewst. These extensions provide additional features and capabilities for your templating needs.
 
-### Date and Time Handling
+### Date and time handling
 
 * **Purpose:** This extension allows you to work with date and time values directly within your Jinja2 templates.
 * **Usage:**
@@ -221,7 +223,7 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
     {% endraw %}
     ```
 
-### &#x20;Try and Catch Blocks
+### &#x20;Try and catch blocks
 
 * **Purpose:** The Try Catch extension introduces try and catch blocks in your Jinja2 templates, allowing you to handle exceptions gracefully.
 * **Usage:**
@@ -239,7 +241,7 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
     {% endraw %}
     ```
 
-### UUID Generation
+### UUID generation
 
 * **Purpose:** The UUID extension simplifies the generation of Universally Unique Identifiers (`UUIDs`) within your Jinja2 templates.
 * **Usage:**
@@ -252,7 +254,7 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
     {% endraw %}
     ```
 
-### List Comprehension
+### List comprehension
 
 List comprehensions in Rewst's implementation of Jinja provide a compact way to transform lists, filter them, or generate new lists.
 
@@ -294,7 +296,7 @@ To read more in depth about this topic, please review the [Jinja List ](use-case
 
 ***
 
-### **List Comprehension Examples**
+### **List comprehension examples**
 
 This section breaks down two practical examples of how to leverage list comprehensions in your Jinja templates: returning a new list of only a specified attribute, and filtering a list by the existence of a specific value within the specified attribute. Check out the details below.
 

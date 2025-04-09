@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Welcome to the App Platform Themes documentation! This guide will walk you through the process of managing themes for your app pages within Rewst. Themes provide a powerful way to customize the look and feel of your app, and we follow the Material UI (MUI) theming principles.
+Welcome to the App Builder Themes documentation! This guide will walk you through the process of managing themes for your app pages within Rewst. Themes provide a powerful way to customize the look and feel of your app, and we follow the Material UI (MUI) theming principles.
 
 ### Applying themes
 

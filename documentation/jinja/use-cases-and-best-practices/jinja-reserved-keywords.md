@@ -6,11 +6,9 @@
 
 ***
 
-## List of Reserved Keywords
+## List of reserved keywords
 
-​
-
-### Control Structures
+### Control structures
 
 * `if`, `elif`, `else`: Conditional statements
 * `for`: Looping through sequences
@@ -18,13 +16,13 @@
 * `try`, `except`, `finally`: Exception handling
 * `with`: Context management ​
 
-### Variables and Data Types
+### Variables and data types
 
 * `True`, `False`: Boolean values
 * `None`: Represents null value
 * `del`: Deletes a variable ​
 
-### Functions and Definitions
+### Functions and definitions
 
 * `def`: Function definition
 * `return`: Returns a value from a function
@@ -32,7 +30,7 @@
 * `lambda`: Anonymous function
 * `class`: Defines a class ​
 
-### Operators and Keywords
+### Operators and keywords
 
 * `and`, `or`, `not`: Logical operators
 * `in`, `is`: Comparison operators
@@ -42,7 +40,7 @@
 * `pass`: Null operation
 * `global`, `nonlocal`: Scope specifiers ​
 
-### Built-in Methods
+### Built-in methods
 
 * `split`: Splits a string into a list
 * `items`: Returns a list of dictionary's key-value tuple pairs
@@ -50,14 +48,14 @@
 * `get`: Retrieves the value of a dictionary key
 * `result`, `results`: Used in Rewst to store outputs. Note that these are not built-in methods, they're used in Rewst as variable named to store outputs and should not cause issues. ​
 
-### Imports and Modules
+### Imports and modules
 
 * `import`: Importing modules
 * `from`: Specifies what attributes to import from a module ​
 
 ***
 
-## Common Error: JSON Serialization Issue
+## Common error: JSON serialization issue
 
 ​
 
@@ -81,7 +79,7 @@
 
 ***
 
-## Best Practices
+## Best practices
 
 ​
 

@@ -4,7 +4,7 @@
 Forms portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
 {% endhint %}
 
-The **forms portal** provides a centralized hub for users to access and manage forms. It includes powerful search and filtering options on the table component itself, allowing you to quickly navigate to the forms you need, all in one convenient location.
+The _forms portal_ provides a centralized hub for users to access and manage forms. It includes powerful search and filtering options on the table component itself, allowing you to quickly navigate to the forms you need, all in one convenient location.
 
 <figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 

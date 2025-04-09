@@ -30,7 +30,7 @@ If you wish to update your organization's slug:
 
 To modify the custom subdomain of your app:
 
-1. Open your app in the App Platorm.
+1. Open your app in App Builder.
 2. Look for the option to update the subdomain.
 3. Enter your desired custom subdomain.
 4. Confirm the changes.

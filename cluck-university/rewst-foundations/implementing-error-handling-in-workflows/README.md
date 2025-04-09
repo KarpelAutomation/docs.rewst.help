@@ -33,8 +33,6 @@ To get started, select the first module. Each module includes a video and writte
 * [advanced-automation-concepts.md](../../clean-automation/advanced-automation-concepts.md "mention")
 * [data-aliases.md](../../../documentation/workflows/data-aliases.md "mention")
 * [how-to-reference-data-with-variables.md](../../micro-courses/how-to-reference-data-with-variables.md "mention")
-
-You can also find more information in our FAQ page: [#what-does-this-error-mean-unreachablejoinerror-the-join-task-or-route-xxxxxxx-is-partially-satisfied](../../../faqs/frequently-asked-questions.md#what-does-this-error-mean-unreachablejoinerror-the-join-task-or-route-xxxxxxx-is-partially-satisfied "mention")
 {% endhint %}
 
 ## Next Steps

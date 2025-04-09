@@ -1,14 +1,14 @@
-# Dictionary Unpacking
+# Dictionary unpacking
 
 ## **Introduction**
 
 Dictionary unpacking is a powerful technique in Jinja templating that enables the merging of dictionaries seamlessly. This article explores the concept of dictionary unpacking, providing clear explanations and practical examples to help users harness this feature effectively.
 
-### **Understanding Dictionary Unpacking**
+### **Understanding dictionary unpacking**
 
 Dictionary unpacking involves combining the contents of two dictionaries into a new dictionary. The `**` syntax is used while looping through dictionaries, allowing all the items within the dictionaries to be extracted and added to a new dictionary effortlessly.
 
-### **Merged on Attribute**
+### **Merged on attribute**
 
 In scenarios where you want to merge dictionaries based on a specific attribute, the following code demonstrates how to achieve this:
 
@@ -39,7 +39,7 @@ In scenarios where you want to merge dictionaries based on a specific attribute,
 
 In this example, the dictionaries `dict1` and `dict2` are merged based on the matching `"name"` attribute, resulting in a new merged dictionary.
 
-### **Stacked Dictionary**
+### **Stacked dictionary**
 
 If you simply want to stack dictionaries one on top of the other without merging them, you can use the `+` operator:
 
@@ -63,7 +63,7 @@ If you simply want to stack dictionaries one on top of the other without merging
 
 In this case, the dictionaries `dict1` and `dict2` are stacked on top of each other, preserving their individual structures.
 
-### **Straight Merged**
+### **Straight merged**
 
 For a straightforward merging of dictionaries without any conditional logic, the following code demonstrates how to achieve a direct merge:
 

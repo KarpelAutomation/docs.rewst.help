@@ -1,10 +1,8 @@
 # Permissions
 
-
-
 By default, users with Admin and Member roles have access to app platform. We plan to add more granular access to manage who can build apps in the future.
 
-#### App Permissions
+#### App permissions
 
 1. **Navigate to the App Page**: If you've created an app, find the app you want to manage in the Apps Table.
 2. **Click the Three Dots**: Look for the three dots next to your app. Click on them for more options.
@@ -12,7 +10,7 @@ By default, users with Admin and Member roles have access to app platform. We pl
 4. **Choose Roles and Organizations**: Pick the roles and organizations that should have access to your live app.
 5. **Save Changes**: Don't forget to save your changes!
 
-#### Page Permissions
+#### Page permissions
 
 1. **Open an App to get to the Pages table**: Locate the specific page you want to manage in the Pages Table.
 2. **Click the Three Dots**: Just like with apps, click on the three dots next to your page.
@@ -34,5 +32,5 @@ _Organizations_ are larger groups that might include multiple users. When you gr
 
 Setting permissions ensures that only the right people have access to your apps and pages. It's like putting up a virtual fence, allowing you to control who can view or edit your work.
 
-Remember, managing permissions is a powerful way to keep things organized and secure in App Platform. If you ever need to change access, just revisit the permission settings and adjust them accordingly.
+Remember, managing permissions is a powerful way to keep things organized and secure in App Builder. If you ever need to change access, just revisit the permission settings and adjust them accordingly.
 

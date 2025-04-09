@@ -1,8 +1,6 @@
 # Manage your pages
 
-### Introduction
 
-Welcome to the "Managing Your Pages" documentation! This guide will take you through the steps to create, view, edit, and delete pages within your Rewst app. Efficiently managing your pages is crucial for crafting a seamless user experience.
 
 ### Create a page
 

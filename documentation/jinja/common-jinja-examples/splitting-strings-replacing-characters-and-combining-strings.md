@@ -1,10 +1,10 @@
-# Splitting Strings, Replacing Characters, and Combining Strings
+# Split strings, replace characters, and combine strings
 
 ## **Introduction**
 
 In Jinja templating, manipulating strings is a common requirement. This article explores three essential string operations: splitting strings, replacing characters, and combining strings. Understanding these techniques is crucial for developers working with Jinja templates, allowing for efficient data processing and presentation.
 
-### **Splitting Strings: Using .split()**
+### **Split strings: Use .split()**
 
 The `.split()` method in Jinja is employed to divide a string into multiple substrings based on a specified character or a set of characters. By providing a delimiter, you can split the string at occurrences of that character.
 
@@ -21,7 +21,7 @@ The `.split()` method in Jinja is employed to divide a string into multiple subs
 
 In this example, the string `"this_is_a_string"` is split at each underscore (`_`), resulting in the output: `["this", "is", "a", "string"]`.
 
-### **Replacing Characters: Using .replace() and | regex\_replace()**
+### **Replace characters: Use .replace() and | regex\_replace()**
 
 The `.replace()` method or the `| regex_replace()` filter is utilized to replace specific characters in a string with another set of characters.
 
@@ -36,7 +36,7 @@ The `.replace()` method or the `| regex_replace()` filter is utilized to replace
 
 In both cases, the underscore (`_`) in the string `"this_is_a_string"` is replaced with a space, resulting in the output: `"this is a string"`.
 
-### **Combining Strings: Using Concatenation**
+### **Combine strings: Use concatenation**
 
 Combining strings in Jinja is achieved similarly to Python. Strings can be concatenated using the `+` operator.
 

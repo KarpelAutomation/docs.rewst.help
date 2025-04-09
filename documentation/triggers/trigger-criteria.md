@@ -2,9 +2,9 @@
 
 A trigger criteria is a set of conditions that determine whether a workflow should start. A condition can be a simple comparison of two values, a complex set of conditions, or even a Jinja-based query. Trigger criteria can resolve into the following possible statuses:
 
-1. <mark style="color:green;">VALID</mark> - A valid trigger criteria means the triggered event satisfies all possible conditions and will start the workflow. A criteria is satisfied when all specified conditions are satisfied by logical means against the trigger context.
-2. <mark style="color:orange;">FILTERED</mark> - A filtered trigger criteria will not start the workflow and could be due to multiple reasons. The most common reason is one of the conditions is not satisfied by logical means by design and the system will filter out the event. Another reason could be due to a malformed condition that could not be parsed by the system. And finally, any malformed request initiating the trigger itself will also be filtered out.
-3. <mark style="color:red;">UNDEFINED</mark> - A trigger criteria is undefined if the notification system is unable to determine the status of the trigger criteria. Please create a bug ticket if you encounter this status.
+1. VALID - A valid trigger criteria means the triggered event satisfies all possible conditions and will start the workflow. A criteria is satisfied when all specified conditions are satisfied by logical means against the trigger context.
+2. FILTERED - A filtered trigger criteria will not start the workflow and could be due to multiple reasons. The most common reason is one of the conditions is not satisfied by logical means by design and the system will filter out the event. Another reason could be due to a malformed condition that could not be parsed by the system. And finally, any malformed request initiating the trigger itself will also be filtered out.
+3. UNDEFINED - A trigger criteria is undefined if the notification system is unable to determine the status of the trigger criteria. Please create a bug ticket if you encounter this status.
 
 ## Trigger Criteria Functions
 
@@ -80,7 +80,7 @@ The test dialog aims to assist you in developing your trigger criteria, with inc
 
 <figure><img src="../../.gitbook/assets/tc-notification.png" alt=""><figcaption></figcaption></figure>
 
-1. Start/Stop receiving trigger events. This does not **disable** the trigger itself. It only stops the UI from displaying additional trigger events from showing.
+1. Start/Stop receiving trigger events. This does not disable the trigger itself. It only stops the UI from displaying additional trigger events from showing.
 2. Click the value of the trigger context to generate trigger criteria. This will automatically map the field accessor and the selected value of the trigger context.
 
 {% hint style="info" %}

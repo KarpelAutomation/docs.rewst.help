@@ -1,10 +1,10 @@
-# Data Types
+# Data types
 
 ## **Introduction**
 
 Understanding data types is fundamental for effective programming in Jinja templating. This article provides a comprehensive overview of the main data types in Jinja, exploring integers, floats, strings, lists, tuples, dictionaries, sets, booleans, and NoneType. By grasping the characteristics and use cases of these data types, developers can harness the full potential of Jinja templates.
 
-### **Integers: Whole Numbers**
+### **Integers: Whole numbers**
 
 Integers in Jinja are whole numbers without decimal points. Examples include 1, 2, and 3.
 
@@ -12,7 +12,7 @@ Integers in Jinja are whole numbers without decimal points. Examples include 1, 
 {{- 1 -}}
 ```
 
-### **Floats: Decimal Numbers**
+### **Floats: Decimal numbers**
 
 Floats encompass numbers with decimal points, such as 1.1, 2.2, and 3.14.
 
@@ -20,7 +20,7 @@ Floats encompass numbers with decimal points, such as 1.1, 2.2, and 3.14.
 {{- 1.1 -}}
 ```
 
-### **Strings: Textual Data**
+### **Strings: Textual data**
 
 Strings represent words or sentences enclosed in quotes, like "Hello World".
 
@@ -36,7 +36,7 @@ Lists are ordered collections of data, allowing a mix of different types within 
 {{- ["hello", "world", 1, 2, 3] -}}
 ```
 
-### **Tuples: Immutable Pairs**
+### **Tuples: Immutable pairs**
 
 Tuples consist of two or more linked values, enclosed in parentheses and separated by commas. Tuples cannot be changed after creation.
 
@@ -44,7 +44,7 @@ Tuples consist of two or more linked values, enclosed in parentheses and separat
 {{- (1, 0) -}}
 ```
 
-### **Dictionaries: Key-Value Pairs**
+### **Dictionaries: Key-value pairs**
 
 Dictionaries store data in key-value pairs, similar to JSON. They can be modified and appended to after creation.
 
@@ -58,7 +58,7 @@ Dictionaries store data in key-value pairs, similar to JSON. They can be modifie
 -}}
 ```
 
-### **Sets: Unique Values**
+### **Sets: Unique values**
 
 Sets are collections of unique values, eliminating duplicates. Converting a list into a set removes duplicate items.
 
@@ -66,7 +66,7 @@ Sets are collections of unique values, eliminating duplicates. Converting a list
 {{- {1, 2, 3} -}}
 ```
 
-### **Booleans: True or False**
+### **Booleans: True or false**
 
 Booleans represent truth values and can be either true or false.
 
@@ -74,7 +74,7 @@ Booleans represent truth values and can be either true or false.
 {{- true -}}
 ```
 
-### **NoneType: Null Values**
+### **NoneType: Null values**
 
 NoneType represents null or None values, indicating the absence of a value. To check for NoneType, the keyword `none` is used.
 

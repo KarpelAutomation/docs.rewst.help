@@ -2,7 +2,7 @@
 
 ## What are components?&#x20;
 
-In the App Platform, components are the building blocks that enable users to rapidly create and customize their apps. Each component is designed to fulfill a specific function; from basic navigation to data visualization, allowing the construction of robust and user-friendly pages.&#x20;
+In App Builder, components are the building blocks that enable users to rapidly create and customize their apps. Each component is designed to fulfill a specific function; from basic navigation to data visualization, allowing the construction of robust and user-friendly pages.&#x20;
 
 Components are grouped into logical categories based on their primary functions, making it easier to identify and choose the right ones for a given task. By combining different components, users can craft fully customized pages that align with their brand and business needs.
 

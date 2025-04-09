@@ -2,21 +2,21 @@
 description: Take a deep dive into the world of Jinja.
 ---
 
-# Jinja Essentials
+# Jinja essentials
 
 ## **What is Jinja?**
 
-Jinja is a versatile templating language for creating dynamic content. It supports loops, conditional statements, and variable manipulation, making it ideal for complex data processing in workflows.
+_Jinja_ is a versatile templating language for creating dynamic content. It supports loops, conditional statements, and variable manipulation, making it ideal for complex data processing in workflows.
 
-### Key Features:
+### Key features:
 
 * **Variable Manipulation:** Create and modify context variables.
 * **Dynamic Content Creation:** Use loops and conditionals to tailor content.
 * **Filter Utilization:** Apply built-in filters for efficient data processing.
 
-## Understanding Jinja Syntax in Rewst
+## Understanding Jinja syntax in Rewst
 
-### Braces and Their Functions:
+### Braces and their functions:
 
 * **Output Values (`{{ }}`):** Display variables or expressions. For instance, `{{ CTX.user_id }}` in Rewst 102 shows user-specific data.
 * **Code Blocks (`{% %}`):** Used for control structures like `if`, `else`, `for` loops.
@@ -36,9 +36,9 @@ Jinja is a versatile templating language for creating dynamic content. It suppor
 }
 ```
 
-## Core Concepts in Jinja
+## Core concepts in Jinja
 
-### Conditional Statements:
+### Conditional statements:
 
 Jinja supports conditional statements like `if,` `else` and `elif`. These statements allow you to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios.
 
@@ -68,7 +68,7 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
 
 ```
 
-### For Loops:
+### For loops:
 
 For loops in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.
 
@@ -84,7 +84,7 @@ For loops in Jinja enable you to iterate through JSON lists, executing actions f
 
 ```
 
-### Jinja Filters:
+### Jinja filters:
 
 * **Basics:** Transform data with pre-defined functions to streamline common tasks, enhancing efficiency in data processing.
 * **Examples:**
@@ -94,12 +94,12 @@ For loops in Jinja enable you to iterate through JSON lists, executing actions f
 
 ## Advanced Jinja in Rewst
 
-### List Comprehension in Action
+### List comprehension in action
 
 * **Functionality:** Efficiently creates new lists from existing ones, based on specific criteria. You can combine filters and conditions to produce concise, targeted lists.
 * **Application:** Tailors data selection in workflows, enhancing efficiency and precision.
 
-**Three-Step Structure**
+**Three-step structure**
 
 List comprehension combines filters and conditions to create concise and targeted lists. This structure (`[item for item in list if condition]`) allows you to filter data efficiently.
 
@@ -121,13 +121,13 @@ List comprehension combines filters and conditions to create concise and targete
 
 This example demonstrates filtering active users from `CTX.my_user_list`.
 
-#### List Comprehension with Conditions
+#### List comprehension with conditions
 
 * **Purpose:** Allows you to filter data based on specific criteria.
   * For example, using filters like `lower` to standardize data before comparison.
 * **Benefit:** Ensures more accurate and relevant data processing, critical for complex workflows.
 
-#### List Comprehension with Math
+#### List comprehension with math
 
 * **Purpose:** This method allows you to apply specific mathematical functions to each element in a list, thereby modifying the output based on your needs.
 * **Benefit:** Offers a succinct method to apply mathematical transformations across a list, yielding a new list with modified values.
@@ -143,19 +143,19 @@ If `list_of_numbers = [1, 2, 3, 4]`, then the `squared_numbers` list after apply
 This concise approach efficiently applies the squaring function to each item in the original list and collects the results in a new list.
 
 {% hint style="info" %}
-Interested in seeing Jinja Examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.
+Interested in seeing Jinja examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.
 {% endhint %}
 
 ***
 
-## **Creating Variables in Jinja**
+## **Creating variables in Jinja**
 
-### **In-Workflow Variable Creation**
+### **In-workflow variable creation**
 
 * **Purpose:** Vital for organizing and managing data within workflows.
 * **Usage:** Variables store task results, facilitate dynamic content generation, and enhance the readability and maintainability of Jinja templates.
 
-### **Variable Management with Jinja:**
+### **Variable management with Jinja:**
 
-* **Creation and Modification:** Use context (`CTX`) variables in Data Aliases on your Task's Transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
-* **Scope and Accessibility:** These types of variables can be created and modified by workflow tasks but are not global; their scope is confined to the workflow.
+* **Creation and modification:** Use context (`CTX`) variables in Data Aliases on your Task's Transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
+* **Scope and accessibility:** These types of variables can be created and modified by workflow tasks but are not global; their scope is confined to the workflow.

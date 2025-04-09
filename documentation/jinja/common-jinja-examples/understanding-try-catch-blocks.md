@@ -1,18 +1,18 @@
-# Understanding Try/Catch Blocks
+# Try/catch blocks
 
 ## **Introduction**
 
-In the realm of Jinja templating, Try/Catch blocks serve as indispensable tools for handling errors gracefully. This article delves into the concept of Try/Catch blocks in Jinja, explaining their significance and providing practical examples of their usage.
+In the realm of Jinja templating, _Try/Catch blocks_ serve as indispensable tools for handling errors gracefully. This article delves into the concept of Try/Catch blocks in Jinja, explaining their significance and providing practical examples of their usage.
 
-### **Understanding Try/Catch Blocks**
+### **Understanding try/catch blocks**
 
 Try/Catch blocks in Jinja function similarly to error-handling mechanisms in other programming languages. They allow developers to anticipate potential errors and handle them in a controlled manner. By encapsulating code within a Try block, developers can monitor for errors and respond appropriately when issues arise.
 
-### **Usage of Try/Catch Blocks**
+### **Use try/catch blocks**
 
 The Try section contains the code that might throw an error. If an error occurs within this section, the Catch section is activated, providing an opportunity to handle the error gracefully.
 
-#### **Example: Implementing Try/Catch Blocks**
+#### **Example: Implement try/catch blocks**
 
 ```django
 {% raw %}
@@ -27,7 +27,7 @@ The Try section contains the code that might throw an error. If an error occurs 
 
 In this example, the Try block attempts to display the variable `data`. If `data` exists, it will be displayed without any issues. However, if `data` doesn't exist or encounters an error, the Catch block will execute, displaying the message "data doesn't exist."
 
-### **Best Practices for Try/Catch Blocks**
+### **Best practices for try/catch blocks**
 
 1. **Specific Error Handling:** Consider specifying the types of errors to catch within the Catch block. This allows for tailored responses to different types of errors.
 2. **Informative Error Messages:** Craft clear and informative error messages within the Catch block. This aids in debugging and provides valuable insights into the nature of the error.

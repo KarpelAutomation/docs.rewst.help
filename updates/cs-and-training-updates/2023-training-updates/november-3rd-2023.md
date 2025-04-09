@@ -28,7 +28,7 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [october-27th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflo.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/october-27th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflo.md "mention")
-* [api-specific-terminology.md](../../../faqs/glossary-of-terms/api-specific-terminology.md "mention") Page added
+* [api-specific-terminology.md](../../../additional-resources/glossary-of-terms/api-specific-terminology.md "mention") Page added
 * [collecting-ctx-variables-dynamically-using-jinja.md](../../../documentation/jinja/use-cases-and-best-practices/collecting-ctx-variables-dynamically-using-jinja.md "mention") Page added
 * **Updates and Fixes:**&#x20;
   * [Broken link](broken-reference "mention") has an added integration section

@@ -1,14 +1,14 @@
-# Mimicking Switch Statements in Jinja
+# Mimick switch statements in Jinja
 
 ## Introduction
 
 Jinja doesn't offer traditional switch statements like some other programming languages. However, fear not! You can achieve similar functionality using dictionary switches. This article will guide you through the concept of dictionary switches in Jinja and how they can be used effectively.
 
-### What are Dictionary Switches?
+### What are dictionary switches?
 
 A dictionary switch in Jinja is a clever way to mimic the functionality of a switch statement using dictionaries. Essentially, you create a dictionary where the keys represent different cases, and the values are the actions or values associated with those cases. Let's explore how to create and use dictionary switches in Jinja.
 
-### Basic Dictionary Switch
+### Basic dictionary switch
 
 In its simplest form, a dictionary switch can be used to map a key to a specific value or action. Here's an example:
 
@@ -24,7 +24,7 @@ In its simplest form, a dictionary switch can be used to map a key to a specific
 
 In this code, we define a dictionary `mydict` where each key corresponds to a case, and the associated value represents the desired outcome. When we set `var1` to "datto" and access `mydict[var1]`, it returns the value associated with "datto," which is "datto\_psa."
 
-### Using Dictionary Switch with Macros
+### Use dictionary switch with macros
 
 You can also leverage dictionary switches when working with macros. Macros are reusable code snippets in Jinja, and you can dynamically select which macro to execute based on a key. Here's an example:
 
@@ -43,7 +43,7 @@ You can also leverage dictionary switches when working with macros. Macros are r
 
 In this code, we create a macro `split_str` that splits a string at underscores and returns the first part. The dictionary switch `mydict` assigns different macros to each case. When we set `var1` to "datto" and access `mydict[var1]`, it executes the `split_str` macro with the parameter "datto\_psa" and returns "datto."
 
-### Dynamic Parameter Passing
+### Dynamic parameter passing
 
 What if you want to pass dynamic parameters to the selected macro? You can achieve this by storing the macros as values in the dictionary. Here's an example:
 

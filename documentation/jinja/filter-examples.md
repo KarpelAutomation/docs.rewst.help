@@ -1,6 +1,6 @@
-# Filter Examples
+# Jinja filter examples
 
-### General Filters
+### General filters
 
 `{{ CTX.firstname | capitalize }}`
 
