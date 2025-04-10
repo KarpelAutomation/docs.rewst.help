@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>⚠️ Integration Authentication Failures April 9th, 2025</summary>
+<summary>⚠️ Resolved: Integration Authentication Failures April 9th, 2025</summary>
 
 On April 9th, Our monitoring system detected that authentication for some integrations in Rewst are experiencing failures. We are currently investigating the issue and will provide more information as soon as it is available.
 
@@ -15,7 +15,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Interrupted Workflow Execution in US Instance April 4th, 2025</summary>
+<summary>⚠️ Resolved: Interrupted Workflow Execution in US Instance April 4th, 2025</summary>
 
 On April 4, Rewst identified an issue that interrupted workflow execution in the US instance from 2:30 PM EDT to 2:45 PM EDT. Running workflows may have been interrupted and may need to be restarted.&#x20;
 
