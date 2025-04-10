@@ -71,7 +71,7 @@ For more on organizational variables, see our introductory documentation [here](
 
 ## Unpack the User Offboarding V2 Crate
 
-1. Navigate to **Crates > Marketplace** in the Rewst platform.
+1. Navigate to **Crates > Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Rewst: User Offboarding V2`\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-12 at 3.33.22 PM.png>)

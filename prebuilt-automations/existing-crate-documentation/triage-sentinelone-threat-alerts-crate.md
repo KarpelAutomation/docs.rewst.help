@@ -23,7 +23,7 @@ Our Triage SentinelOne Tickets Crate streamlines the process of matching Sentine
 
 ### Unpack the Triage SentinelOne Tickets Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for **Triage SentinelOne Tickets Crate**.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 9.42.53 AM.png>)

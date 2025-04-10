@@ -1,7 +1,7 @@
 # ConnectWise PSA Agreement Mapping Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Bulk Create Client from PSA Crate in our Crate Marketplace.
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the ConnectWise PSA Agreement Mapping Crate do?
@@ -21,7 +21,7 @@ Rewst’s ConnectWise PSA Integration must be set up.
 
 ## Unpack the ConnectWise PSA Agreement Mapping Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for **ConnectWise PSA Agreement Mapping**.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-27 at 12.33.47 PM.png>)

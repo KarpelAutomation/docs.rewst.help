@@ -18,7 +18,7 @@ The Microsoft Exchange Integration must be set up before unpacking this Crate.&#
 
 ## Unpack the Microsoft 365 Quarantine Email Release Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platfor&#x6D;**.**
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Microsoft 365 Quarantine`.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-31 at 5.10.27 PM.png>)

@@ -20,18 +20,18 @@ Our Export Intune Policies and Configurations Crate allows you to select and exp
 
 ## Unpack the Export Intune Policies and Configurations Crate
 
-1. Access the Crate Marketplace by going to the left side menu of the platform and navigating to **Crates > Crate Marketplace**.
-2.  Use the search bar to search for **Export Intune Policies and Configurations**.\
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+2.  Use the search bar to search for `Export Intune Policies and Configurations`.\
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-12 at 3.23.32 PM.png" alt=""><figcaption></figcaption></figure>
-3. Click on **Export Intune Policies and Configurations** to open up its Crate Details page, which breaks down the purpose, features, and setup requirements of the Crate.
+3. Click on **Export Intune Policies and Configurations** to open up its Crate details page, which breaks down the purpose, features, and setup requirements of the Crate.
 4. Click **Unpack Crate** in the right side menu.\
    ![](<../../.gitbook/assets/image (4) (1) (1).png>)
 5. Click **Continue**.\
    ![](<../../.gitbook/assets/image (5) (1) (1).png>)
 6. Enter the time saved.
-7.  Click **unpack**.\
+7.  Click **Unpack**.\
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-12 at 3.53.31 PM.png" alt=""><figcaption></figcaption></figure>
@@ -42,31 +42,33 @@ Our Export Intune Policies and Configurations Crate allows you to select and exp
 
 ## Test the Crate
 
-1. Access the form by going to the left side menu of the platform and navigating to A**utomations > Forms**.
-2.  Search for Intune. On the form labelled \[ROC] Endpoint: Export Intune Policies, click the actions menu, then usages.\
+1. Access the form by going to the left side menu of the platform and navigating to **Automations > Forms**.
+2. Search for Intune.&#x20;
+3. Click the form named **\[ROC] Endpoint: Export Intune Policies.**
+4.  Click the **⋮** , then usages.\
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-12 at 4.09.22 PM.png" alt=""><figcaption></figcaption></figure>
-3.  Click **view direct URLs**.\
+5.  Click **View Direct URLs**.\
 
 
     <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
-4.  Click the form link for the organization you would like to use for your test.\
+6.  Click the form link for the organization you would like to use for your test.\
 
 
     <figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
-5. Click the policies and configurations you would like to export, then click **Submit**.\
+7. Click the policies and configurations you would like to export, then click **Submit**.\
    ![](<../../.gitbook/assets/image (8) (1).png>)
-6. Access the workflow results by navigating to **Automations > Results**.
-7.  Search for **Export Intune Configurations** **and Policies** and open the workflow result.\
+8. Access the workflow results by navigating to **Automations > Results**.
+9.  Search for `Export Intune Configurations and Policies` and open the workflow result.\
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-12 at 4.26.46 PM.png" alt=""><figcaption></figcaption></figure>
-8.  Scroll down and expand the **core\_create\_webhook** action. Copy the URL listed underneath **Result:**\
+10. Scroll down and expand the **core\_create\_webhook** action. Copy the URL listed underneath **Result:**\
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-12 at 4.28.07 PM.png" alt=""><figcaption></figcaption></figure>
-9.  Paste the URL into any web browser and click enter. A JSON document will then be downloaded. Review and check that the JSON document is accurate.\
+11. Paste the URL into any web browser and click enter. A JSON document will then be downloaded. Review and check that the JSON document is accurate.\
 
 
     <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>

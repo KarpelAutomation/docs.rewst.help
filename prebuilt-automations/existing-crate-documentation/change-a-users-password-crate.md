@@ -15,14 +15,14 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 
 ## Crate prerequisites
 
-* PSA integration must be set up
-* RMM integration must be set up
+* [PSA integration](../../documentation/integrations/individual-integration-documentation/psa/) must be set up
+* [RMM integration](../../documentation/integrations/individual-integration-documentation/rmm/) must be set up
 * default\_psa org variable set
 * default\_rmm org variable set
 
 ## Unpack the Change a User’s Password Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for Change a User’s Password.
 3. Click on the Crate tile to begin unpacking.\
    \

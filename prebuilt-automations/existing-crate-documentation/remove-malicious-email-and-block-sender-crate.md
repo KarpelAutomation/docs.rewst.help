@@ -37,7 +37,7 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 
 ## Unpack the Remove Malicious Email and Block Sender Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for [`Remove Malicious Email and Block Sender`](https://app.rewst.io/marketplace/crates/c93b810f-8f3e-4e60-b9b0-27c9caad02e1).\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-04-01 at 4.37.10 PM.png>)

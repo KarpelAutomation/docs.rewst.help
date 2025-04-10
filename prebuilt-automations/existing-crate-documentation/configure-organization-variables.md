@@ -1,20 +1,32 @@
-# Configure organization variables
+# Configure Organizational Variables
 
-### Introduction
+{% hint style="info" %}
+If you're new to organization variables, read through [our documentation on them here](../../documentation/user-management/organization-variables.md) before unpacking this Crate.&#x20;
 
-An organization variable is a universal setting that applies across your MSP Rewst Organization and your Client's organizations. Organization variables are used to apply values at the organization and sub-org layers. They are referenced in workflows using the syntax `{{ ORG.VARIABLES. }}`.&#x20;
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find this Crate in our Crate Marketplace.
+{% endhint %}
 
-Sub-organizations can inherit organization variables unless a sub-org has the same variable defined, which will override the value.
+## What does the Configure Organizational Variables Crate do?
 
-The Configure Organizational Variables crate is used to help you set the essential variables that will allow Rewst prebuilt crates to work.
+The Configure Organizational Variables Crate is used to help you set the essential variables that will allow Rewst's prebuilt Crates to work.&#x20;
 
-### Installation
+## Set up the Configure Organizational Variables Crate
 
-1. **Go to** _Crates_ → _Crate Marketplace._
-2. **Select** _Configure Organizational Variables_ and follow the unpacking steps.
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+2. Search for `Configure Organizational Variables` .\
+   \
+   ![](<../../.gitbook/assets/Screenshot 2025-04-10 at 4.59.42 PM.png>)
+3. Click on the Crate tile to begin unpacking.
+4. Click **Unpack Crate**.
+5. Click **Continue**.
+6.  Enter your **Time Saved**.\
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-04-10 at 5.02.35 PM.png" alt=""><figcaption></figcaption></figure>
+7. Click **Unpack**.
 
 {% hint style="success" %}
-You will now have two forms:
+Unpacking this Crate adds two forms to your Rewst platform.
 
 * \[ROC] Rewst: Configure Organizational Variables
 * \[ROC] Rewst: Simple Organizational Variable Form for Child Accounts
@@ -22,13 +34,14 @@ You will now have two forms:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-02-29 at 2.26.18 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Use the forms
+## Use the forms
 
-1. **Go to** Automations → Forms → \[ROC] Rewst: Configure Organizational Variables
-2. **Click** the three dots to the right and select Usages → View Direct URLs
-3. **Choose** your MSP URL
-4. **Select** _Standard_ in the form options
-5. **Fill out** the form&#x20;
+1. Navigate to **Automations > Forms > \[ROC] Rewst: Configure Organizational Variables**.
+2. Click **⋮** .
+3. Click **Usages > View Direct URLs**.
+4. Choose your MSP URL.
+5. Select **Standard** in the form options.
+6. **Fill out** the form.&#x20;
 
 {% hint style="info" %}
 &#x20;Use the table at the bottom of this page for a definition of each field
@@ -40,9 +53,10 @@ You will now have two forms:
 
 To customize variables for client organizations:
 
-1. **Navigate** to _Automations_ → _Forms_ → _\[ROC] Rewst: Simple Organizational Variable Form for Child Accounts._
-2. **Click** the three dots to the right and select Usages → View Direct URLs
-3. **Select** the URL of the client you would like to configure
+1. Navigate to **Automations > Forms > \[ROC] Rewst: Simple Organizational Variable Form for Child Accounts**.
+2. Click ⋮ .&#x20;
+3. Click **Usages > View Direct URLs**.
+4. Select the URL of the client you would like to configure.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-02-29 at 2.30.14 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,7 +78,7 @@ To customize variables for client organizations:
 | Default Priority                       | Priority for Rewst created tickets                                                                                                              |
 | Send From Address                      | Define the reply to address when sending emails to ensure replies automatically get created in your PSA. This will likely be your support email |
 
-#### **Identity & access management**
+#### **Identity and access management**
 
 | Field Label                  | Description                                                                                                                                                                                                                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -74,7 +88,7 @@ To customize variables for client organizations:
 | Preferred ADConnect Server   | The name of the Server running ADConnect                                                                                                                                                                                                                           |
 | On-Prem Exchange Server      | Name of the On-Prem Exchange Server (if you are not running On-Prem Exchange, leave blank)                                                                                                                                                                         |
 
-#### Licensing & purchases
+#### Licensing and purchases
 
 | Field Label                      | Description                  |
 | -------------------------------- | ---------------------------- |
@@ -88,22 +102,26 @@ To customize variables for client organizations:
 | Onboarding - Password Save Location  | Select another location to create the user onboard password. Such as PSA, ItGlue, Hudu                                                    |
 | PWPush URL                           | Add the URL for your PWPush if you have selected that option above                                                                        |
 
-#### User onboarding & offboarding defaults&#x20;
+#### User onboarding and offboarding defaults&#x20;
 
 {% hint style="warning" %}
-#### These settings are specific to the User Onboarding & Offboarding crates
+#### These settings are specific to the User Onboarding and Offboarding Crates
 {% endhint %}
 
-| Field Label                             | Description                                                                                                                                                                                                                                                                                |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| User Onboarding & Offboarding Defaults  | These settings are specific to the user onboarding workflow                                                                                                                                                                                                                                |
-| User Start-Date Behavior                | <p>Start Automation Immediately: WIll create the user immediately regardless of the account creation date specified in the user onboarding form<br>Pause Workflow until Start Date Specified: Pause the workflow until the account creation date specified in the user onboarding form</p> |
-| Type for Created New User Ticket        | Select the ticket type for a user onboard creation                                                                                                                                                                                                                                         |
-| Subtype for Created New User Ticket     | Select the subtype for a user onboard creation                                                                                                                                                                                                                                             |
-| Item for Created New User Ticket        | Select the item for the user onboard creation                                                                                                                                                                                                                                              |
-| User Name Format                        | Select the username format for new users for your organization. Note you can specify a different username for each of your organizations with the "\[ROC] Rewst: Simple Organizational Variable Form for Child Accounts form"                                                              |
-| No AD Sync                              | Check if you have an OnPrem AD with no Ad Sync                                                                                                                                                                                                                                             |
-| Miscellaneous Settings                  |                                                                                                                                                                                                                                                                                            |
-| Preferred Phone Number Format           | Select a Preferred Phone number format                                                                                                                                                                                                                                                     |
-| M365 Usage Location                     | Select a default M365 Usage Location                                                                                                                                                                                                                                                       |
-| New User Approval Email                 | If set, Rewst will send an email to this address requesting approval before it continues the user onboarding workflow.                                                                                                                                                                     |
+| Field Label                               | Description                                                                                                                                                                                                                                                                                |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| User Onboarding & Offboarding Defaultsand | These settings are specific to the user onboarding workflow                                                                                                                                                                                                                                |
+| User Start-Date Behavior                  | <p>Start Automation Immediately: WIll create the user immediately regardless of the account creation date specified in the user onboarding form<br>Pause Workflow until Start Date Specified: Pause the workflow until the account creation date specified in the user onboarding form</p> |
+| Type for Created New User Ticket          | Select the ticket type for a user onboard creation                                                                                                                                                                                                                                         |
+| Subtype for Created New User Ticket       | Select the subtype for a user onboard creation                                                                                                                                                                                                                                             |
+| Item for Created New User Ticket          | Select the item for the user onboard creation                                                                                                                                                                                                                                              |
+| User Name Format                          | Select the username format for new users for your organization. Note you can specify a different username for each of your organizations with the "\[ROC] Rewst: Simple Organizational Variable Form for Child Accounts form"                                                              |
+| No AD Sync                                | Check if you have an OnPrem AD with no Ad Sync                                                                                                                                                                                                                                             |
+| Miscellaneous Settings                    |                                                                                                                                                                                                                                                                                            |
+| Preferred Phone Number Format             | Select a Preferred Phone number format                                                                                                                                                                                                                                                     |
+| M365 Usage Location                       | Select a default M365 Usage Location                                                                                                                                                                                                                                                       |
+| New User Approval Email                   | If set, Rewst will send an email to this address requesting approval before it continues the user onboarding workflow.                                                                                                                                                                     |
+
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% endhint %}

@@ -46,7 +46,7 @@ By automating account provisioning and de-provisioning, this Crate enhances secu
 
 ## Unpack the **Just in Time Admin Access** Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for **Just in Time Admin Access Crate.**
 3. Click on the Crate tile to begin unpacking.
 4. Change the name of the Workflow to suit your needs, if desired.

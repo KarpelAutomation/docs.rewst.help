@@ -21,7 +21,7 @@ The Microsoft Cloud Bundle must be unpacked, and configured, with GDAP Relations
 
 ## Unpack the Document User Details V2 Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for the Document User Details V2 Crate.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-24 at 2.53.14 PM.png>)
