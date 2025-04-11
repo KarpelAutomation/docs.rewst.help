@@ -8,10 +8,10 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Alexander, Kevin, Zia, Stephen, Leia, Rob, Joshua, and Daniel for passing the Foundations Certification.
-    * Take the [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
+    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
     * You also get access to a super secret Discord channel.
   * Kabyn, Michael, Dominic, Jordon, and Colby for passing the Clean Automation Certification.
-    * Take the new [clean-automation-certification.md](../../../cluck-university/clean-automation/clean-automation-certification.md "mention") exam!
+    * Take the new [Broken link](broken-reference "mention") exam!
 * **Rewst Foundations Bootcamp: Jan 6 - Jan 7:**
   * For More Details, Visit:[https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp)
     * [https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1)
@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* New section added for Rewst Foundations Bootcamp: [#live-instructor-led-bootcamp](../../../cluck-university/rewst-foundations/#live-instructor-led-bootcamp "mention")
+* New section added for Rewst Foundations Bootcamp: [Broken link](broken-reference "mention")
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.
 
 **The List of Reminders:**
@@ -41,7 +41,7 @@ Explore what new changes the Training team has made in the last week.
 
 * Updated Pages
   * Added alert/note in [connectsecure-integration-migration-v3-to-v4.md](../../../documentation/integrations/individual-integration-documentation/security/cybercns/connectsecure-integration-migration-v3-to-v4.md "mention") about V3 to V4 user migration.
-  * Added [rewst-certification-how-to-and-troubleshooting-guide.md](../../../cluck-university/rewst-certification-how-to-and-troubleshooting-guide.md "mention")
+  * Added [Broken link](broken-reference "mention")
   * Added [app-builder-amas](../../app-builder-amas/ "mention") section
 
 </details>

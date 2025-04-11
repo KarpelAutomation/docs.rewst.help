@@ -24,7 +24,7 @@ Explore what new changes the Training team has made in the last week.
 **Cluck University**
 
 * Added the [Rewst 106 video](broken-reference).
-* Added Resource and Documentation links to [Rewst 102 \~ 106 pages](../../../cluck-university/rewst-foundations/).
+* Added Resource and Documentation links to [Rewst 102 \~ 106 pages](broken-reference).
 * Updated steps on [Rewst 104 page](broken-reference) based on feedback.
 
 **Documentation**

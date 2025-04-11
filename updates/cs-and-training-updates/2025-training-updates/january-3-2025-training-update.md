@@ -1,4 +1,4 @@
-# January 3, 2025 - Training Update
+# January 3, 2025 - Training update
 
 Explore what new changes the Training team has made in the last week.
 
@@ -8,9 +8,9 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Timothy, Kenneth, Matt, Shraga, Juliette, and Christopher for passing the Foundations Certification.
-    * Take the [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
+    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
   * Sarah, Clea, and William (all Rewsters!) for passing the Clean Automation Certification.
-    * Take the [clean-automation-certification.md](../../../cluck-university/clean-automation/clean-automation-certification.md "mention") exam and get that fancy certificate!
+    * Take the [Broken link](broken-reference "mention") exam and get that fancy certificate!
 * The next [**Rewst Foundations Bootcamp**](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp) is coming up **Jan 6 - Jan 7.** Remember to register for **both parts** 1 and 2!
   * [Part 1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1?month=2025-01) (Lessons 1-3)
   * [Part 2](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-2) (Lessons 4-7)

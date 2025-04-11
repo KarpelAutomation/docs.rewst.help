@@ -43,7 +43,7 @@ Input variables get their values in a Rewst workflow through the workflow's init
 
 ### Workflow action inputs
 
-When variables are created within the workflow, they become [Context Variables](../../cluck-university/getting-started/rewst-terminology.md#context-variables), and can be used directly in action inputs.
+When variables are created within the workflow, they become [Context Variables](broken-reference), and can be used directly in action inputs.
 
 {% hint style="info" %}
 Recall from your Cluck University training that _the context_ is where all data generated, captured, or used in a workflow is stored.
@@ -103,7 +103,7 @@ First, take the action of **List Users** from the Microsoft Graph integration in
 
 If you ran this action as-is, you would get the list of users, but wouldn't be able to use that data anywhere.
 
-This is where [Transitions](../../cluck-university/getting-started/rewst-terminology.md#transitions) come into play.
+This is where [Transitions](broken-reference) come into play.
 
 Click the **On Success** transition on the action. This gives you the option to create a [data alias](data-aliases.md).
 

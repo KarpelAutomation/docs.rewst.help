@@ -8,11 +8,11 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Hiruni, Adam, Andy, Tim, Mikhael, Nhlanhla, Joven, and James for passing the Foundations Certification
-    * Take the [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
+    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
     * You also get access to a super secret Discord channel.
   * Michael, Dustin, Chris, Kris, Paul, Andres, Mikhael, Chris, Alden, Jean, Devin, Andrey, Jonathan, Thomas, Andy, and Kai
     * and...Kai PERFECT SCORES!!!
-    * Take the new [clean-automation-certification.md](../../../cluck-university/clean-automation/clean-automation-certification.md "mention")exam!
+    * Take the new [Broken link](broken-reference "mention")exam!
 * Rewst Foundations Bootcamp:
   * Sign up: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
     * [https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1)
@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 **What's New at Cluck University?**
 
 * Courses have been updated on docs.rewst.help! New structure and sets of pages to create a better learning experience.
-  * Check it out at [rewst-foundations](../../../cluck-university/rewst-foundations/ "mention")
+  * Check it out at [Broken link](broken-reference "mention")
   * New naming convention adopted for our courses
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.
 

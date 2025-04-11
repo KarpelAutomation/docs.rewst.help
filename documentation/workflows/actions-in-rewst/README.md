@@ -26,8 +26,8 @@ Core actions: These are the essential platform components like webhooks, email d
 
 Integrations actions: When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. Each integration's action accordion menu will also contain an action to allow you to pull in additional actions. This action is titled `[Integration Name] API Request`. See our [individual integration setup pages](../../integrations/) for more information on available actions.
 
-{% content-ref url="rewst-actions.md" %}
-[rewst-actions.md](rewst-actions.md)
+{% content-ref url="rewst-actions/" %}
+[rewst-actions](rewst-actions/)
 {% endcontent-ref %}
 
 Rewst actions: These actions are for interacting with your Rewst environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables.

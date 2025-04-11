@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
+* **SHOUT OUT** to all those who've successfully taken our [Broken link](broken-reference "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
 * Express your interest in the App Platform Alpha Program by filling out the form on the [Broken link](broken-reference "mention") page.
 * **Reminder about Cluck U Holiday Hours:**
   * Live Training will be unavailable from December 18th \~ January 8th for the Holidays and New Year

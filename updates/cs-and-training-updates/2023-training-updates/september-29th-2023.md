@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 **Cluck University**
 
 * Minor fixes to steps in Cluck U exercise steps based on feedback.
-* Updated the [Hello World](../../../cluck-university/getting-started/rewst-overview/hello-world-workflow.md) exercise steps for clarity.
+* Updated the [Hello World](broken-reference) exercise steps for clarity.
 
 **Documentation**
 

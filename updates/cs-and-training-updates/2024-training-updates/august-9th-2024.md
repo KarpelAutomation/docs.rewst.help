@@ -17,7 +17,7 @@ Sign up on the [Cluck University Landing Page](https://go.rew.st/cluck-universit
 
 * **SHOUT OUTS** **TO:**
   * Jason, Ed, Adam, Anne, and Zachary
-  * Take the [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.  As well as access to a super secret Discord channel.
+  * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.  As well as access to a super secret Discord channel.
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 * Join us during [Office Hours](https://calendly.com/cluck-u/office-hours), and if there is something you want us to cover, Let us know!
   * List Comprehension?

@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to our new bird brains; Greg, Elliot, Craig, and David for successfully taking our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to our new bird brains; Greg, Elliot, Craig, and David for successfully taking our [Broken link](broken-reference "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 
 - **Reminder about the Rewst Onsite:**
   * Training will be paused again the week of **January 22nd** due to the Rewst Onsite!&#x20;

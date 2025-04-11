@@ -24,9 +24,9 @@ Explore what new changes the Training team has made in the last week.
 **Cluck University**
 
 * We've added more self-service features to provide more value to those taking training on the [Cluck University](broken-reference) pages, including:
-  * A [signup for the welcome package](../../../cluck-university/rewst-foundations/), including an email and schedule for live training.
+  * A [signup for the welcome package](broken-reference), including an email and schedule for live training.
   * Get Credit forms for each course where you can give feedback and validate your understanding!
-  * Added a [Foundations Certification](../../../cluck-university/rewst-foundations/foundations-certification.md) sign-up page!
+  * Added a [Foundations Certification](broken-reference) sign-up page!
 
 **Documentation**
 

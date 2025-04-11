@@ -10,10 +10,10 @@ title: Untitled
   * On December 1st, ModRetro's Chromatic, a modern take on the Gameboy Color, comes out with a slew of Indie games that can be played on the OG Gameboy as well. The lineup looks amazing and the console has been getting stellar reviews, so check it out! I'm starting with Dragonyhm and Chantley!
 * **SHOUT OUTS** **TO:**
   * Narvada, Alex, Aaron, Mitchell, Eugene, Andrew, Jonathan, and Colby for passing the Foundations Certification.
-    * Take the [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.
+    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.
     * You also get access to a super secret Discord channel.
   * Alexander, Aaron, Shannyn, RJ, Brian, and Charles for passing the Clean Automation Certification.
-    * Take the new [clean-automation-certification.md](../../cluck-university/clean-automation/clean-automation-certification.md "mention") exam!
+    * Take the new [Broken link](broken-reference "mention") exam!
 * **Rewst Foundations Bootcamp: Dec 2 - Dec 3:**
   * For More Details, Visit:[https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp)
     * [https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1)

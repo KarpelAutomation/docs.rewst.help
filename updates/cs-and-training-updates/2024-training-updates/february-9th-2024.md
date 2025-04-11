@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Muhsin, Sarah, and Kal for successfully taking our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Muhsin, Sarah, and Kal for successfully taking our [Broken link](broken-reference "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * For those joining us at **Right of Boom** who couldn't get into the pre-day, we've opened up more seats! You can modify your registration to add our pre-day now!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
@@ -18,7 +18,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* Updated the [rewst-foundations](../../../cluck-university/rewst-foundations/ "mention")page to include links to both self-serve and live sign-ups.
+* Updated the [Broken link](broken-reference "mention")page to include links to both self-serve and live sign-ups.
 
 **New & Updated Pages:**
 

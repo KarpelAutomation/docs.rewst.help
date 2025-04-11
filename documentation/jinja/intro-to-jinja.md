@@ -22,7 +22,6 @@ These are used for decision-making functions such as `set`s, `if` statements and
 {% raw %}
 {% set x = 100 %}
 {% endraw %}
-
 ```
 
 These statements typically do not output anything.
@@ -43,8 +42,6 @@ By default, when Jinja begins a statement block, it preserves any whitespace cha
   {{- part.name -}}
 {%- endfor -%}
 {% endraw %}
-
-
 ```
 
 ### Jinja resources
@@ -62,5 +59,5 @@ Note that whilst right now Jinja is required, the plan is to create actions to m
 **Want more practice?**
 
 {% hint style="success" %}
-Want to learn more? Search for **Jinja** in Cluck University to find related courses.
+Want to learn more? Search for **Jinja** in [Cluck University](https://learn.rewst.io) to find related courses.
 {% endhint %}

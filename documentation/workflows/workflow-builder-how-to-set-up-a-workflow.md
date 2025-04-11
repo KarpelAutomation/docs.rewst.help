@@ -3,7 +3,7 @@
 ## Workflow Builder&#x20;
 
 {% hint style="info" %}
-Remember, the [Core](actions-in-rewst/core-actions.md) actions accordion menu contains your base actions that apply for all integrations. The [Rewst](actions-in-rewst/rewst-actions.md) actions accordion holds actions form the foundation of your interaction with the platform. The [workflows](actions-in-rewst/workflows-actions.md) actions accordion contains any existing workflows in the workflow list for the related child organization. The other accordions contain actions that apply to that particular brand of integration.
+Remember, the [Core](actions-in-rewst/core-actions.md) actions accordion menu contains your base actions that apply for all integrations. The [Rewst](actions-in-rewst/rewst-actions/) actions accordion holds actions form the foundation of your interaction with the platform. The [workflows](actions-in-rewst/workflows-actions.md) actions accordion contains any existing workflows in the workflow list for the related child organization. The other accordions contain actions that apply to that particular brand of integration.
 
 Once an action has been dragged onto the canvas, we refer to that dragged action as a _task_.
 {% endhint %}

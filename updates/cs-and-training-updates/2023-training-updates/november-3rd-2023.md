@@ -23,7 +23,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* [part-2-how-to-take-action-on-workflow-results.md](../../../cluck-university/micro-courses/extending-the-power-of-rewst-workflows/part-2-how-to-take-action-on-workflow-results.md "mention")The elective is now live! Look forward to many more to come!
+* [Broken link](broken-reference "mention")The elective is now live! Look forward to many more to come!
 
 **Documentation**
 

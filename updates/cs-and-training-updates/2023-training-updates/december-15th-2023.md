@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to all those who've successfully taken our [Broken link](broken-reference "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
   * Stay tuned for more information on how to get your official certification issued for sharing on LinkedIn, and hanging on your wall with pride.
 * Reminder to express your interest in the App Platform Alpha Program by filling out the form on the[Broken link](broken-reference "mention") page.&#x20;
   * More info to come on the early January launch details next week.
@@ -23,7 +23,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* &#x20;**Added** [support-and-troubleshooting-dynamic-form-fields.md](../../../cluck-university/micro-courses/support-and-troubleshooting-dynamic-form-fields.md "mention") Elective Page
+* &#x20;**Added** [Broken link](broken-reference "mention") Elective Page
 * More to come in the New Year!
 
 **New & Updated Pages:**

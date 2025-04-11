@@ -101,7 +101,7 @@ This trigger is most useful for:
 * Option generators: dynamically populating form fields in Rewst
 
 {% hint style="info" %}
-For more information on option generators, refer to [how-to-create-configure-and-trigger-an-option-generator-workflow.md](../../cluck-university/rewst-foundations/creating-an-option-generator-workflow/how-to-create-configure-and-trigger-an-option-generator-workflow.md "mention").
+For more information on option generators, refer to [Rewst Foundations](https://learn.rewst.io).
 {% endhint %}
 
 ### Core - Time Interval

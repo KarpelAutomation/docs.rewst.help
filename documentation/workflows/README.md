@@ -7,7 +7,7 @@ _Workflows_, made up of [actions](https://docs.rewst.help/documentation/workflow
 [Crates](https://docs.rewst.help/prebuilt-automations/crates) contain pre-built workflows. Workflows can also be built from scratch, or edited to match your custom needs.&#x20;
 
 {% hint style="warning" %}
-We recommend you only edit the pre-built workflows that come in Crates after taking our courses in Cluck University. This is a more advanced way to use Rewst.
+We recommend you only edit the pre-built workflows that come in Crates after taking our courses in [Cluck University](https://learn.rewst.io). This is a more advanced way to use Rewst.
 
 Before building any workflow, remember to sketch out what you'd like the workflow to look like, and identify the trigger that will kick it off.
 {% endhint %}

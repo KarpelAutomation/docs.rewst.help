@@ -8,9 +8,9 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Kurt, Alex, Casey, Chaels, Doug, Luke, and Bryon for passing the Foundations Certification.
-    * Take the [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
+    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
   * Phillip, Blake, and. Ethan for passing the Clean Automation Certification.
-    * Take the [clean-automation-certification.md](../../../cluck-university/clean-automation/clean-automation-certification.md "mention") exam and get that fancy certificate!
+    * Take the [Broken link](broken-reference "mention") exam and get that fancy certificate!
 * New training schedule is live on [calendly.com/cluck-u](https://www.calendly.com/cluck-u)!
   * Automation Basics is offered live
   * Rewst Foundations is now offered weekly

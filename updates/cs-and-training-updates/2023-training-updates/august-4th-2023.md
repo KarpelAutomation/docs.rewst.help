@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [Open Mic - July 28th Video and Page Added](https://docs.rewst.help/updates/roc-open-mics/july-21st-2023-transform-er-s-jinja-in-disguise)
-* [Updated the Getting Started Section](../../../cluck-university/getting-started/):
+* [Updated the Getting Started Section](../../../cluck-university/getting-started.md):
   * Updated the Intro Page
   * Updated Rewst Platform Overview Video
   * Updated the Rewst Terminology Page

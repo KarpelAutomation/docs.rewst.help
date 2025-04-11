@@ -10,9 +10,9 @@ This Rewst feature is currently in beta! If you've come across this doc and you 
 {% endhint %}
 
 {% hint style="info" %}
-The options filter makes customizing dropdown fields within [forms](https://www.notion.so/DRAFT-Options-filter-Filtering-in-forms-1a4b56f990718003be7dce9325d9e8e9?pvs=21) straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source.
+The options filter makes customizing dropdown fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source.
 
-Option generators are still a fantastic option for those who need a more powerful, in-depth, solution. We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://docs.rewst.help/cluck-university/rewst-foundations/creating-an-option-generator-workflow/introduction-to-option-generators) and [micro course](https://docs.rewst.help/cluck-university/micro-courses/working-with-options-generator-workflows-in-rewst). If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
+Option generators are still a fantastic option for those who need a more powerful, in-depth, solution. We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io) and [micro course](https://learn.rewst.io). If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
 {% endhint %}
 
 ## Options filter guidance

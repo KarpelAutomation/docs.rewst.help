@@ -1,3 +1,7 @@
+---
+description: Model and transform your data with drag and drop actions
+---
+
 # Transform actions
 
 Jinja2 templating offers powerful capabilities to shape and manipulate data to fit your needs. Sometimes, these actions are common enough to repeat regularly. Data transformation actions provide the ability to modify, combine, and reshape the data you are working with in your workflows. These actions are particularly useful when dealing with complex data structures, such as nested lists and objects. They empower you to transform data according to your needs without additional coding.&#x20;

@@ -348,5 +348,5 @@ Send a request to any [Microsoft Graph endpoint](https://learn.microsoft.com/en-
 **Want more practice?**
 
 {% hint style="success" %}
-[Check out our Rewst Foundations Courses](../../../../../../cluck-university/rewst-foundations/).
+[Check out our Rewst Foundations Courses](broken-reference).
 {% endhint %}

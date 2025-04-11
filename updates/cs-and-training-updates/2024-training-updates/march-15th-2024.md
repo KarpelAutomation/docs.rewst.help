@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Hayden, Jordan, Eugene, Chris, Brett, Dan, and Tahla for successfully taking our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Hayden, Jordan, Eugene, Chris, Brett, Dan, and Tahla for successfully taking our [Broken link](broken-reference "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * We have unified the docs format for our 100 series, making it more searchable, and beefed up our resources section for each page.
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 

@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Robert, Kaelyn, Jonathon, Jared, Eric, Nick, and Scott for successfully taking our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Robert, Kaelyn, Jonathon, Jared, Eric, Nick, and Scott for successfully taking our [Broken link](broken-reference "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Clea will be taking some time for the next couple of weeks, leaving Eddie to enter back into the fray for the 100 series
 
 ![](<../../../.gitbook/assets/Copy of Clea.png>)
@@ -23,7 +23,7 @@ Explore what new changes the Training team has made in the last week.
 
 * We'd love to get your feedback on our Training and Documentation! [Please fill out this form to let us know how we can improve](https://app.sli.do/event/m8C3AjPUnuDgpkVDmPsQL3)!
 * As a reminder, you can make training and documentation requests at [https://rewst.canny.io/](https://rewst.canny.io/)
-* [office-hours.md](../../../cluck-university/office-hours.md "mention") page added with more information about signing up!
+* [Broken link](broken-reference "mention") page added with more information about signing up!
 * Shout Out to Brandon Martinez (Giga) for contributing the [using-webhook-triggers.md](../../../documentation/triggers/use-cases-and-examples/using-webhook-triggers.md "mention") page!
 
 **New & Updated Pages:**
@@ -31,7 +31,7 @@ Explore what new changes the Training team has made in the last week.
 * [april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md "mention") Open Mic Page Added
 * [okta-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/iam/okta-integration-setup.md "mention") page added
 * [actions-and-endpoints.md](../../../documentation/integrations/individual-integration-documentation/iam/actions-and-endpoints.md "mention") for OKTA added
-* [working-with-options-generator-workflows-in-rewst.md](../../../cluck-university/micro-courses/working-with-options-generator-workflows-in-rewst.md "mention") Elective page added
+* [Broken link](broken-reference "mention") Elective page added
 * [intro-to-forms.md](../../../documentation/forms/intro-to-forms.md "mention") page updated with a link to the elective
 * [agent-smith-configuration-overview.md](../../../documentation/agent-smith/agent-smith-configuration-overview.md "mention") page updated
 * [list-of-jinja-filters.md](../../../documentation/jinja/list-of-jinja-filters.md "mention") updated for `regex_search` filter

@@ -2,7 +2,7 @@
 
 ### Cluck U office hours
 
-For those going through our [Rewst Foundations Training](../cluck-university/rewst-foundations/), you can join our weekly [Office Hours](../cluck-university/office-hours.md) to get help with questions from training or implementing what you're learning.
+For those going through our [Rewst Foundations Training](broken-reference), you can join our weekly [Office Hours](broken-reference) to get help with questions from training or implementing what you're learning.
 
 Please note that if you need any help or have questions, you can review the FAQs.
 

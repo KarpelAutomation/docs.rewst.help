@@ -52,7 +52,6 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
     <p>Please log in to continue.</p>
 {% endif %}
 {% endraw %}
-
 ```
 
 ```django
@@ -65,7 +64,6 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
     <p>The rooster is trying out new sounds. Perhaps it's starting a band!</p>
 {% endif %}
 {% endraw %}
-
 ```
 
 ### For loops:
@@ -80,8 +78,6 @@ For loops in Jinja enable you to iterate through JSON lists, executing actions f
     <li>{{ thing }}</li>
 {% endfor %}
 {% endraw %}
-
-
 ```
 
 ### Jinja filters:

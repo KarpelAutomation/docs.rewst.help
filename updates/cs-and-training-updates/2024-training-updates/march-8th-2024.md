@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to James, Jeffrey, Tom, and Andy for successfully taking our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to James, Jeffrey, Tom, and Andy for successfully taking our [Broken link](broken-reference "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Eddie-the-legend-Chow is back from Right of Boom! So Training time will continue as expected next week!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 

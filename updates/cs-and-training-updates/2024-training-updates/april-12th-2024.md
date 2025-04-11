@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Nick, Hubert, Morgan, Cory, Danny, and Chantal for successfully taking our [foundations-certification.md](../../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Nick, Hubert, Morgan, Cory, Danny, and Chantal for successfully taking our [Broken link](broken-reference "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Shout out to the Bird Brain channel for your awesome feedback this week!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
@@ -20,7 +20,7 @@ Explore what new changes the Training team has made in the last week.
 
 * We'd love to get your feedback on our Training and Documentation! [Please fill out this form to let us know how we can improve](https://app.sli.do/event/m8C3AjPUnuDgpkVDmPsQL3)!
 * As a reminder, you can make training and documentation requests at [https://rewst.canny.io/](https://rewst.canny.io/)
-* [office-hours.md](../../../cluck-university/office-hours.md "mention") page added with more information about signing up!
+* [Broken link](broken-reference "mention") page added with more information about signing up!
 * Clea has joined the battle to educate! AGAIN! She will be delivering the Rewst 105  Training next week!
 
 ![](<../../../.gitbook/assets/Clea (3).png>)
