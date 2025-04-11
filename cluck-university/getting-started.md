@@ -11,9 +11,9 @@ We've moved! All Cluck University content in this site will be archived on Frida
 If you have questions, reach out to us at [CluckU@rewst.io](mailto:CluckU@rewst.io) or in the #cluck-u Discord channel.
 {% endhint %}
 
-## **Welcome to the New CluckU!**
+## **Welcome to the New Cluck U**
 
-We leveled up Cluck University, making learning in Rewst smarter, and more flexible than ever.
+We leveled up Cluck University, making learning in Rewst smarter and more flexible than ever.
 
 Now, you can register for courses, track your progress, and explore educational content — all from inside the Rewst app.
 
@@ -25,7 +25,7 @@ What’s new in Cluck U:
 
 Ready to jump in?
 
-Click the **Cluck U** button in the [Rewst app](https://app.rewst.io) or sign in with your Rewst credentials at [learn.rewst.io](https://learn.rewst.io).
+Click the **Cluck U** button in the [Rewst ](https://app.rewst.io)platform or sign in with your Rewst credentials at [learn.rewst.io](https://learn.rewst.io).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-04-07 at 10.16.13 AM.png" alt="" width="264"><figcaption></figcaption></figure>
 

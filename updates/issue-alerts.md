@@ -2,6 +2,19 @@
 
 <details>
 
+<summary>⚠️ Issues with Workflow Processing April 11th, 2025</summary>
+
+On April 11 at 1:30 ET, we detected some functionalities within Rewst are currently impaired. Users are experiencing issues related to multi-level default values not properly populating. This is primarily being experienced with certain ITGlue functionalities. We have identified a fix and are rolling it out on a region-by-region basis.
+
+If you have any urgent concerns, please contact your support team.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+
+</details>
+
+<details>
+
 <summary>⚠️ Resolved: Integration Authentication Failures April 9th, 2025</summary>
 
 On April 9th, Our monitoring system detected that authentication for some integrations in Rewst are experiencing failures. We are currently investigating the issue and will provide more information as soon as it is available.

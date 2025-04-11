@@ -50,7 +50,7 @@ _**Monthly Clean Automation Starting March 24:**_
 * [ConnectWise PSA Agreement Mapping Crate](https://docs.rewst.help/prebuilt-automations/existing-crate-documentation/connectwise-psa-agreement-mapping)
 * [Identify Users in Bypass Mode Crate](https://docs.rewst.help/prebuilt-automations/existing-crate-documentation/identify-users-in-bypass-mode-crate)
 * [User management documentation updated to reflect current UI](https://docs.rewst.help/documentation/user-management)
-* [New open mic landing page to go along with our announcement of two new additional open mics](../../../documentation/integrations/individual-integration-documentation/documentation/shortcut-integration.md)
+* [New open mic landing page to go along with our announcement of two new additional open mics](../../../documentation/integrations/individual-integration-documentation/project-management-integrations/shortcut-integration.md)
 * [Shortcut integration](https://docs.rewst.help/documentation/integrations/individual-integration-documentation/documentation/syncmonkey-integration-1)
 * [Stripe integration](https://docs.rewst.help/documentation/integrations/individual-integration-documentation/accounting/stripe-integration)
 * [Traceless integration](../../../documentation/integrations/individual-integration-documentation/security/traceless-integration.md)

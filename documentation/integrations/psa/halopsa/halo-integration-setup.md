@@ -1,4 +1,4 @@
-# Halo PSA integration setup
+# HaloPSA integration setup
 
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
@@ -10,23 +10,23 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 [Check out the instructions to set up multiple instances here](../../multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
-## What does the Halo PSA integration do?
+## What does the HaloPSA integration do?
 
-Our Halo PSA integration provides automation and workflow capabilities by connecting Halo PSA’s IT service management functions with Rewst’s automation platform. This integration allows users to manage and interact with various components of their PSA system directly from Rewst.
+Our HaloPSA integration provides automation and workflow capabilities by connecting HaloPSA’s IT service management functions with Rewst’s automation platform. This integration allows users to manage and interact with various components of their PSA system directly from Rewst.
 
 ### Integration use cases
 
-#### **Automated Ticket Handling**
+#### **Automated ticket handling**
 
-A new support ticket is submitted in Halo PSA. Automation: A Rewst workflow can automatically classify the ticket, assign it to the correct team based on predefined criteria, and send an acknowledgment email to the customer.
+A new support ticket is submitted in HaloPSA. A Rewst workflow can automatically classify the ticket, assign it to the correct team based on predefined criteria, and send an acknowledgment email to the customer.
 
-#### **Asset Management & Tracking**
+#### **Asset management and tracking**
 
-When a new asset (laptop, server, etc.) is assigned to a client, update inventory records. Automation: Rewst can capture the asset details and update Halo PSA records, ensuring real-time inventory tracking.
+When a new asset is assigned to a client, update inventory records. Rewst can capture the asset details and update HaloPSA records, ensuring real-time inventory tracking.
 
-#### **Client Onboarding Automation**
+#### **Client onboarding automation**
 
-A new client signs a contract for IT services. Automation: Rewst can automatically create the client profile, set up relevant permissions, and initiate onboarding tasks.
+A new client signs a contract for IT services. Rewst can automatically create the client profile, set up relevant permissions, and initiate onboarding tasks.
 
 
 
@@ -35,13 +35,13 @@ A new client signs a contract for IT services. Automation: Rewst can automatical
 * Access to the Rewst platform with administrative rights
 * You must have a Halo administrator account.
 
-## Set up the Halo PSA Integration
+## Set up the HaloPSA Integration
 
-### Set up steps in Halo PSA
+### Set up steps in HaloPSA
 
 Before configuring the Rewst integration you must generate an API user. Here is the instruction for the generation of the integration user:
 
-1. Log in to Halo PSA as an Administrator.
+1. Log in to HaloPSA as an Administrator.
 2.  Navigate to **Configuration > Teams & Agents > Agents > New**.\
     \
 
@@ -50,7 +50,8 @@ Before configuring the Rewst integration you must generate an API user. Here is 
 3. Create an agent for Rewst to use. We suggest naming this user `Rewst API` or similar.
 4. Grant the user permissions according to what you would like Rewst to do for you. However, for optimal functionality and reliability of the Halo integration, assign administrator permissions to the service account. We’ve consistently observed higher success rates and fewer connectivity issues when using admin-level access for this integration. While lower permission levels may work in limited scenarios, they often lead to unexpected failures during automated workflows.
 5. Click **Save**.
-6. Navigate to **Configuration > Integrations > HaloPSA API** ([Halo Authorization Docs](https://halo.haloservicedesk.com/apidoc/authorisation)).
+6. Navigate to **Configuration > Integrations > HaloPSA API** \
+   See [Halo Authorization Docs](https://halo.haloservicedesk.com/apidoc/authorisation) here.
 7. Select **View Applications**.
 8.  Click **New**.\
     \
@@ -79,7 +80,7 @@ Before configuring the Rewst integration you must generate an API user. Here is 
 19. Click **Save**.
 
 {% hint style="warning" %}
-**Required for Mapping Customers in the Integration**
+**Required for mapping customers in the Integration**
 
 When creating the API Agent, ensure that the **Allow use of all Customers** Client Restriction setting is set to **Yes** if you want to allow Rewst to interact with your customer records.
 {% endhint %}
@@ -87,17 +88,17 @@ When creating the API Agent, ensure that the **Allow use of all Customers** Clie
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. In the Integrations page, search for the Halo PSA integration.\
+2. In the integrations page, search for `HaloPSA`.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-03-10 at 11.09.57 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-11 at 4.50.15 PM.png>)
 3. Click on the integration tile to launch the **Configuration** setup page.
 4. Fill out the form with the details you created:
-   1. **Resource Server Hostname**: Halo PSA Resource Server hostname, e.g. `example.halopsa.com`.
-   2. **Client ID**: Fill in the ID for the application registered in Halo PSA.
-   3. **Tenant ID**: When using a cloud-hosted Halo PSA instance, this must be specified. This value can be found in the Halo PSA web application under **Configuration > Integrations > HaloPSA API > API Details**.
-   4. **Auth Server Hostname**: Halo PSA Auth Server hostname, e.g. `example.halopsa.com/auth,` if different from the Resource Server Hostname.
-   5. **Client Secret**: Fill in the authentication secret for the application registered in Halo PSA.
-   6. **Is On-Premise?**: Clarify whether or not the Halo PSA instance is hosted on an on-premise server.
+   1. **Resource Server Hostname**: HaloPSA Resource Server hostname, e.g. `example.halopsa.com`.
+   2. **Client ID**: Fill in the ID for the application registered in HaloPSA.
+   3. **Tenant ID**: When using a cloud-hosted Halo PSA instance, this must be specified. This value can be found in the HaloPSA web application under **Configuration > Integrations > HaloPSA API > API Details**.
+   4. **Auth Server Hostname**: HaloPSA Auth Server hostname, e.g. `example.halopsa.com/auth,` if different from the Resource Server Hostname.
+   5. **Client Secret**: Fill in the authentication secret for the application registered in HaloPSA.
+   6. **Is On-Premise?**: Clarify whether or not the HaloPSA instance is hosted on an on-premise server.
 5.  Save the configuration. Rewst will do a quick validation of your input.&#x20;
 
     Beneath that integration authentication section you'll see the following options:
@@ -133,13 +134,13 @@ When creating the API Agent, ensure that the **Allow use of all Customers** Clie
     ![](<../../../../.gitbook/assets/image (26).png>)
 15. If the test for your MSP is successful, do the same test again. At this point in your steps, select a client organization instead, and ensure that it finishes with no errors.
 
-## Crates related to the Halo PSA integration
+## Crates related to the HaloPSA integration
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-01-21 at 11.05.26 AM.png">Screenshot 2025-01-21 at 11.05.26 AM.png</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../.gitbook/assets/Openai ticket categorization.png">Openai ticket categorization.png</a></td></tr><tr><td><strong>Add Rewst Form Link to New User Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Add rewst form link to new user request tickets.png">Add rewst form link to new user request tickets.png</a></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../.gitbook/assets/Open ai ticket sentiment analysis.png">Open ai ticket sentiment analysis.png</a></td></tr><tr><td><strong>Add Rewst Form Link to Offboarding Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Add REwst form link to offboarding.png">Add REwst form link to offboarding.png</a></td></tr><tr><td><strong>Assign Asset/Config to Ticket based on Contact</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.28.57 AM.png">Screenshot 2025-03-11 at 10.28.57 AM.png</a></td></tr><tr><td><strong>Use</strong> <strong>OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.33 AM.png">Screenshot 2025-03-11 at 10.29.33 AM.png</a></td></tr><tr><td><strong>Browse Rewst Form Triggers within a Form and Attach to a Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.57 AM.png">Screenshot 2025-03-11 at 10.29.57 AM.png</a></td></tr></tbody></table>
 
 
 
-## Troubleshooting Halo PSA integration setup
+## Troubleshooting HaloPSA integration setup
 
 {% hint style="info" %}
 Click on any of the issues below to expand and view its solution. If your issue isn't included here, contact Rewst support in your dedicated support Discord channel.
@@ -187,8 +188,6 @@ If you run into an issue where the Email, Name, Department, or other information
 
 <summary>New User Onboarding and Offboarding Crate Halo Issues</summary>
 
-
-
 Rewst only uses the bare minimum of fields for ticket creation in these Crates.
 
 #### Ticket Creation
@@ -235,7 +234,7 @@ It's possible that Halo is set up to require multiple other fields. If this is t
 
 <summary>General workflow issues</summary>
 
-When creating custom workflows, you may encounter the error **Halo PSA integration is not installed**. To resolve this, either install the integration or implement integration overrides.
+When creating custom workflows, you may encounter the error **HaloPSA integration is not installed**. To resolve this, either install the integration or implement integration overrides.
 
 {% hint style="info" %}
 To execute workflows at the MSP level across client accounts, you must configure Halo integration overrides to ensure proper functionality in the workflow and form field triggers
@@ -245,7 +244,7 @@ To execute workflows at the MSP level across client accounts, you must configure
 
 </details>
 
-## Halo PSA actions and endpoints
+## HaloPSA actions and endpoints
 
 {% hint style="info" %}
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).

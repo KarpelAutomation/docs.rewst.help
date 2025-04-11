@@ -8,7 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our Stripe integration enables automation of payment processes. Use the Stripe API within Rewst workflows to manage payments, billing, reporting, and payment portals in App Builder apps.
 
-### Integration use cases
+### Why use the Stripe integration?
 
 * Generate new quotes programmatically and send them to customers for review
 * Create draft invoices for newly added line items or subscription changes and finalize them automatically&#x20;
