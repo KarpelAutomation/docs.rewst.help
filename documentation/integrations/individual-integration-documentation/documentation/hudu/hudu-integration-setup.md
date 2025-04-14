@@ -24,29 +24,31 @@ Rewst's Hudu integration enables the automation of documentation management. Use
 
 1. Log in to your Hudu instance.
 2. Click on the **Admin** tab in the top menu.
-3. Scroll down and click **API Keys** under the **Account Administration** menu.
+3.  Scroll down and click **API Keys** under the **Account Administration** menu.\
+    \
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-04 at 2.07.19 PM.png" alt=""><figcaption></figcaption></figure>
 
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-14 at 2.30.36 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click **+ New API Key** at the upper right of the page.
-5.  Enter the following:\
-
-
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-04 at 2.10.32 PM.png" alt=""><figcaption></figcaption></figure>
+5.  Enter or select the following:
 
     1. **Name:** Rewst
-    2. **Allowed IP Addresses:** View Rewst IPs [here](https://docs.rewst.help/security/security-policy)
-    3. Check the box for **Can access passwords?**
-    4. Check the box for **Can perform destructive actions?**
-    5. Check the box for **Can perform export actions?**
-6. Click **Create New Key**.
+    2. **Limit scope to:**&#x20;
+    3. **Allowed IP Addresses:** View Rewst IPs [here](https://docs.rewst.help/security/security-policy)
+    4. Check the box for **View passwords**
+    5. Check the box for **Delete data**
+    6. Check the box for **Export data**
+
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-14 at 2.36.13 PM (1).png" alt=""><figcaption></figcaption></figure>
+6. Click **Create**.
 7. Copy and save the API key that is generated and listed at the top of the page under **New API Key**.
 
 ## Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. In the Integrations page, search for the Hudu integration.\
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-04 at 2.15.09 PM.png>)
+2. In the integrations page, search for `Hudu`.\
+   \
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-04-14 at 2.40.46 PM.png>)
 3. Click on the integration tile to begin the installation process.
 4. Enter the name of your choice for your integration.
 5. Enter a description if desired.
