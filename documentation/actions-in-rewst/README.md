@@ -1,10 +1,10 @@
-# Actions in Rewst
+# Actions
 
-_Actions_ are the operations available for creating and automating, which live inside of a [workflow](../). You grab these actions from the left side menu of the workflow builder, and drag them onto the workflow canvas. When you run a workflow, Rewst is completing a series of actions specified within that workflow. Once an action has been dragged onto the canvas, we refer to that dragged action as a _task_, to differentiate between a dragged and undragged action.
+_Actions_ are the operations available for creating and automating, which live inside of a [workflow](../workflows/). You grab these actions from the left side menu of the workflow builder, and drag them onto the workflow canvas. When you run a workflow, Rewst is completing a series of actions specified within that workflow. Once an action has been dragged onto the canvas, we refer to that dragged action as a _task_, to differentiate between a dragged and undragged action.
 
 Once you've set up an [integration](https://docs.rewst.help/documentation/integrations), Rewst offers you a number of actions related to that integration to build your workflows. They're accessible from the accordion menus in the left side menu of the workflow builder, and sorted based on their respective sources, including integrations by brand, Core, Rewst, Transform, and Workflow. Expand any accordion to see the related actions it contains.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-04 at 4.15.14 PM.png" alt="" width="242"><figcaption><p>The actions menu of the workflow builder</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-04 at 4.15.14 PM.png" alt="" width="242"><figcaption><p>The actions menu of the workflow builder</p></figcaption></figure>
 
 
 
@@ -20,14 +20,14 @@ Click through to any of the related action type pages to learn more.
 
 Core actions: These are the essential platform components like webhooks, email dispatching, and [noops](https://docs.rewst.help/documentation/workflows/actions-in-rewst/core-actions#no-operation-noop).&#x20;
 
-{% content-ref url="../../integrations/" %}
-[integrations](../../integrations/)
+{% content-ref url="../integrations/" %}
+[integrations](../integrations/)
 {% endcontent-ref %}
 
-Integrations actions: When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. Each integration's action accordion menu will also contain an action to allow you to pull in additional actions. This action is titled `[Integration Name] API Request`. See our [individual integration setup pages](../../integrations/) for more information on available actions.
+Integrations actions: When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. Each integration's action accordion menu will also contain an action to allow you to pull in additional actions. This action is titled `[Integration Name] API Request`. See our [individual integration setup pages](../integrations/) for more information on available actions.
 
-{% content-ref url="rewst-actions/" %}
-[rewst-actions](rewst-actions/)
+{% content-ref url="rewst-actions.md" %}
+[rewst-actions.md](rewst-actions.md)
 {% endcontent-ref %}
 
 Rewst actions: These actions are for interacting with your Rewst environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables.
@@ -88,7 +88,7 @@ This error is related to having multiple transitions going to a single action.
 2. Under the field **Task Transition Criteria**_,_ you'll likely have a 0. This means that all actions previously have to be complete before that action will run.
 3. Change this to the relevant number. For example, change to a 1 so that only one of the previous actions must complete before that action runs.\
    \
-   ![](<../../../.gitbook/assets/image (24).png>)
+   ![](<../../.gitbook/assets/image (24).png>)
 
 {% hint style="info" %}
 In the image above, the workflow chooses the RMM of the client. Then, depending on the result, it runs a script on that system. The client likely isn't going to have multiple RMMs, so only one of the script tasks is going to run.

@@ -1,4 +1,4 @@
-# Workflows in Rewst
+# Workflows
 
 ## What is a workflow?
 
@@ -78,8 +78,8 @@ This will take you to a new page that will show all the results of that workflow
 [workflow-builder-how-to-set-up-a-workflow.md](workflow-builder-how-to-set-up-a-workflow.md)
 {% endcontent-ref %}
 
-{% content-ref url="actions-in-rewst/" %}
-[actions-in-rewst](actions-in-rewst/)
+{% content-ref url="../actions-in-rewst/" %}
+[actions-in-rewst](../actions-in-rewst/)
 {% endcontent-ref %}
 
 {% content-ref url="task-transitions.md" %}

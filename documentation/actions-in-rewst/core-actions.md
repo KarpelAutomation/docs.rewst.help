@@ -50,7 +50,7 @@ Performs an HTTP request to a specified URL, supporting a variety of methods, bo
 
 **Output**: The action returns the content returned by the server in response to the HTTP request. This could be a success message, a failure message, a data object, or any other content that the server sends as a response.
 
-_<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _If you need more advanced security around calling particular endpoints, you can also use a_ [_Custom Integration_](../../integrations/other/custom-integrations/) _in addition to this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs._
+_<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _If you need more advanced security around calling particular endpoints, you can also use a_ [_Custom Integration_](../integrations/other/custom-integrations/) _in addition to this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs._
 
 </details>
 

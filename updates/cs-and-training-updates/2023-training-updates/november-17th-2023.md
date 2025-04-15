@@ -37,7 +37,7 @@ Explore what new changes the Training team has made in the last week.
 * Updated the [azure-openai-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/ai/openai/azure-openai-integration-setup.md "mention") page for more explicit instructions on how to craft your Base URL.
 * Updated the [cybercns](../../../documentation/integrations/individual-integration-documentation/security/cybercns/ "mention") page to include reference to ConnectSecure branding.
 * Updated the [organization-variables.md](../../../documentation/user-management/organization-variables.md "mention") page to explain how Use as Default works
-* Updated the [rewst-actions](../../../documentation/workflows/actions-in-rewst/rewst-actions/ "mention") page for more context and reference to usage including breaking out pages for the following categories:
+* Updated the [rewst-actions.md](../../../documentation/actions-in-rewst/rewst-actions.md "mention") page for more context and reference to usage including breaking out pages for the following categories:
   * [Broken link](broken-reference "mention")
   * [Broken link](broken-reference "mention")
   * [Broken link](broken-reference "mention")

@@ -6,7 +6,7 @@ The **Workflows** actions accordion menu contains any existing workflows in the 
 
 The available actions in this submenu will be different for each of your child organizations. Each time you create a new workflow, the list will grow.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 10.40.02 AM.png" alt="" width="208"><figcaption><p>An example of an org's Workflows action<br>accordion menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 10.40.02 AM.png" alt="" width="208"><figcaption><p>An example of an org's Workflows action<br>accordion menu</p></figcaption></figure>
 
 
 
@@ -16,6 +16,6 @@ Unpacking a Crate will also add the workflows in that Crate to the Workflows act
 
 
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 11.58.02 AM.png" alt="" width="375"><figcaption><p>The parameters tab of a workflows task, when there are inputs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-05 at 11.58.02 AM.png" alt="" width="375"><figcaption><p>The parameters tab of a workflows task, when there are inputs</p></figcaption></figure>
 
-Note that most workflows actions will use [input variables](../data-input-and-output-input-variables-and-context-variables.md). If present, these will appear in the **Parameters** tab of the task.&#x20;
+Note that most workflows actions will use [input variables](../workflows/data-input-and-output-input-variables-and-context-variables.md). If present, these will appear in the **Parameters** tab of the task.&#x20;

@@ -15,7 +15,7 @@ In the Rewst platform:
 1. Navigate to **Workflows > Create**.
 2. Enter a workflow name, like `My First Webhook Trigger`.
 3. Click **Submit** to proceed to a blank workflow creation screen.
-4. Add a single [no-op](../../workflows/actions-in-rewst/core-actions.md#no-operation-noop) action to the canvas. Name it `BEGIN`. Click **Publish** to save your workflow. No other actions are needed, as you'll just be working with triggers.
+4. Add a single [no-op](../../actions-in-rewst/core-actions.md#no-operation-noop) action to the canvas. Name it `BEGIN`. Click **Publish** to save your workflow. No other actions are needed, as you'll just be working with triggers.
 5. Click **Add Trigger** at the top of your workflow builder.
 
 <figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
