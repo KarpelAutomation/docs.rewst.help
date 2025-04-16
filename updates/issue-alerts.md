@@ -2,6 +2,19 @@
 
 <details>
 
+<summary>⚠️ Issues with Sherweb Service Provider API April 15th, 2025</summary>
+
+We are currently experiencing issues with the Sherweb Service Provider API, which is impacting functionality in Sherweb-related integrations. Our team is in active communication with Sherweb to better understand the root cause and work toward a resolution. We'll provide updates as more information becomes available.
+
+If you have any urgent concerns, please contact your support team.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+
+</details>
+
+<details>
+
 <summary>⚠️ Issues with Workflow Processing April 11th, 2025</summary>
 
 On April 11 at 1:30 ET, we detected some functionalities within Rewst are currently impaired. Users are experiencing issues related to multi-level default values not properly populating. This is primarily being experienced with certain ITGlue functionalities. We have identified a fix and are rolling it out on a region-by-region basis.
