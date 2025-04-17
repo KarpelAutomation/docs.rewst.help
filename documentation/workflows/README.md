@@ -61,11 +61,11 @@ The general results page will show you the results of every workflow that has ru
 2.  Search for the specific workflow.\
 
 
-    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 3.  Select the graph icon in the far right corner for that specific workflow. \
 
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 This will take you to a new page that will show all the results of that workflow.\
 

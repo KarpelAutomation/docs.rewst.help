@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 To use the PowerShell interpreter, you’ll first need to set up our[ Microsoft Cloud Bundle](../integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/), which contains the Azure integration.
 
-PowerShell support is currently in beta, with general availability expected soon. We're gathering customer feedback to improve performance and expand context support.
+PowerShell support is currently in beta, with general availability expected soon. We're gathering customer feedback to improve performance and expand context support. Scroll to the end of this page to view our current known issue list.
 {% endhint %}
 
 ## Use PowerShell in Rewst
@@ -205,7 +205,28 @@ The interpreter also allows for a `#psl` header for line-by-line PowerShell. Cur
 * Azure Function execution timeout for PowerShell is similar to that of Jinja. Expect 30-60 seconds for actions, and 10 seconds for parameters.
 * All output from PowerShell is processed as JSON. For best results, use `ConvertTo-JSON` when returning data.
 
+## PowerShell interpreter known issues list
 
+* JSON Parsing Error:\
+  Blocks accessing \`$CTX.user\` due to an empty property name error during serialization.
+* Subworkflow Hangs:\
+  PowerShell code hangs silently in subworkflows when the parent uses Integration Override, breaking complex structures.
+* Azure Region Quotas:\
+  Users hitting deployment failures in popular regions (like East US) because subscription quotas are \`0\`. Requires manually selecting other regions.
+* Process Timeouts: \
+  PowerShell scripts time out near completion, causing failed workflow renders. Needs longer timeout limits.
+* Auth/Refresh Errors:\
+  Users get \`401\` errors (or Python \`\_'str' object has no attribute 'get'\_\` errors) when authorizing or refreshing resource groups, blocking setup.
+* Module Persistence:\
+  Modules installed during a run don't persist, forcing users to reinstall them in scripts every time.
+* UI Syntax Highlighting:\
+  Requires double backslashes (\`\\\\\`) in the UI editor while actual PS code needs single (\`\\\`), causing confusion.
+* Serialization Failures:\
+  Returning non-JSON serializable objects (e.g., from \`New-Item\`) causes errors even if the command worked. Requires explicit \`ConvertTo-Json\`.
+* Common PS Pitfalls:\
+  Users misusing \`Write-Host\` (doesn't return output), not using \`finally\` blocks for output, or using incorrect \`ConvertTo-Json\` pipe syntax.
+* Live Editor Friction:\
+  Users can enter the Live Editor for PowerShell before the required Azure setup is complete, leading to confusion.
 
 ## Send us your feedback on PowerShell in Rewst
 

@@ -14,7 +14,7 @@ Find this integration [here in your Rewst Platform](https://app.rewst.io/organiz
 Note: Rewst supports multiple instances for Google Enterprise License Manager, but one instance of Google Enterprise License Manager is generally not multi-tenant. You may need a 1:1 relationship between an instance of this integration and a subtenant or a Rewst suborganization. Editor or owner permissions are needed to complete these steps in your Google Cloud Console.
 {% endhint %}
 
-### **Updating your Google Cloud API connector**
+### **Update your Google Cloud API connector**
 
 In your Google Cloud console:
 
