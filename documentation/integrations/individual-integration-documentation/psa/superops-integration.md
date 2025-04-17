@@ -23,13 +23,46 @@ The SuperOps integration automates core MSP tasks, from customer-facing to inter
 4. Copy the token. Save this for later use.
 5. Navigate to **Settings > My Company > Company information**. \
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.57.35 PM.png>)
-6. Locate your subdomain under the **Branding** submenu. Copy the **Subdomain Name** and save it for later use.\
+6. Locate your subdomain under the **Branding** submenu. Copy the **Subdomain Name** and save it for later use.
 
+{% hint style="info" %}
+Next, add the PowerShell script. This portion of setup is optional for the general integration, but required for any workflows that require on-prem functionality
+{% endhint %}
+
+1. Navigate to <img src="../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.21.10 AM.png" alt="" data-size="line"> **> Scripts** in SuperOps.
+2. Click **+ Script**.\
+   \
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.22.09 AM.png>)
+3. Enter the following information in the relevant fields on the screen that appears:
+   1. Script name: `Rewst PowerShell`
+   2. Description: `PowerShell Execution Wrapper for Rewst`
+   3. Set the **Language** in the drop-down selector to **PowerShell**
+   4. Set **Run as** as **System/Root User**
+   5. For **Script timeout duration**, set to a value of `20` mins
+4. In the text editor, enter the following:
+
+```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$wc = New-Object System.Net.WebClient
+$wc.Encoding = [System.Text.Encoding]::UTF8
+$commands = ($wc.DownloadString($content_webhook))
+$post_url = $post_webhook
+iex $commands
+```
+
+9. Under the **Script variables** submenu, click **+ Add Run time Variables** to add the following:
+
+* content\_webhook
+* post\_webhook\
+  \
+  ![](<../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.25.59 AM.png>)
+
+10. Click **Save**.
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. In the Integrations page, search for the **SuperOps** integration. \
+2. In the Integrations page, search for `SuperOps`. \
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.44.53 PM.png>)\
 
@@ -45,6 +78,8 @@ The SuperOps integration automates core MSP tasks, from customer-facing to inter
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.51.54 PM.png" alt=""><figcaption></figcaption></figure>
 
+
+
 ## Test the Integration
 
 Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.
@@ -52,8 +87,6 @@ Saving your configuration during integration setup automatically triggers a test
 {% hint style="info" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
-
-
 
 ## SuperOps actions and endpoints
 
