@@ -70,7 +70,11 @@ The general results page will show you the results of every workflow that has ru
 This will take you to a new page that will show all the results of that workflow.\
 
 
+## View triggers for a specific workflow
 
+From the workflows page, you can view triggers associated with each workflow, without leaving that page. Hover over the workflow's **triggers** count in the **Attributes** column to see a list of every trigger linked to your workflow, and toggle each on or off to suit your needs.&#x20;
+
+<figure><img src="../../.gitbook/assets/workflows trigger gif.gif" alt="A moving .gif image of a mouse hovering over the triggers label for a workflow in the total workflows list page. It reveals a list of triggers, with a green toggle that can be turned on or off next to each." width="375"><figcaption><p>The dialog that appears when hovering</p></figcaption></figure>
 
 ## Additional workflow documentation
 

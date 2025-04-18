@@ -16,37 +16,24 @@ Join us live for Rewst's Community Open Mics. You're welcome to attend any of ou
 
 ### 🇦🇺 🇳🇿[Australia, New Zealand](roc-open-mics-oceania/) - First Friday of every month at 2pm AEDT
 
-
-
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/E8mFfAnrkEA" %}
+{% embed url="https://youtu.be/b5XlTOsvrN0" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🗣️ Aharon emphasizes the importance of asking questions, engaging on Discord, tracking time savings in workflows, and reminds that the call is geared toward technical users.
-
-- 🎤 Ash announces a fun internal and community April Fools’ workflow challenge.
-
-* 🌍 George launches Europe and ANZ Open Mics and requests feedback via an App Builder usage survey.
-
-- 🧰 Danial shares updates on App Builder UX, Shortcut & Traceless integrations, and invites testers to try the new beta PowerShell interpreter.
-
-* 🛠️ JP highlights new Marketplace crates for inactive users/devices, login anomaly detection, and password reset improvements.
-
-- 🎓 Brandon gives certification shout-outs, previews LMS progress, and reviews new documentation and transform actions.
-
-* 📨 \[External Demo] Gareth demos a simple completion handler workflow to onboard users and send portal instructions.
-
-- 🧩 \[External Demo] Tre shows a templated approach to managing user groups and permissions at scale.
-
-* 📊 \[External Demo] Justin presents an automated, modular workflow for M365 reporting using direct API registrations.
-
-- 🛡️ \[External Demo] David demonstrates how to sanitize Jinja input and redact sensitive data to prevent injection.
-
-* 🎬 Aaron wraps with thanks to demo participants and a PowerShell beta sign-up update.
+* 🎤 Aharon welcomed everyone back from the Berlin conference and highlighted the purpose of the call — showcasing new features, bug fixes, and inspiring automation ideas.
+* 🌍 Ashe announced that Open Mic may not occur next week due to holidays across various regions.
+* 🛠️ Danial provided product and development updates including new transforms, integration improvements, PowerShell beta feedback, and upcoming integrations.
+* 🛒 JP introduced a new crate for alerting on privileged role account creation and previewed features like disk space monitoring and orchart builder.
+* 🎓 Brandon gave Cluck University updates, congratulated certification achievers, and announced a transition to a new LMS platform.
+* 💻 Derek demonstrated a PowerShell-based user creation workflow and shared debugging insights from the beta experience.
+* 🌐 Hunter showcased a complex automation for handling Azure conditional access policies during user travel with detailed error handling and policy rollback.
+* 🎭 Clea demoed an April Fool’s “Mad Libs” style email workflow built in Rewst with audience participation.
+* 🔍 Reed walked through a PowerShell project to normalize and associate user-device data using Ninja integration and schema manipulation.
+* 📣 Aharon closed with reflections on a Reddit thread about value realization in Rewst, encouraging community participation and ongoing AI enhancements.
 
 </details>
 

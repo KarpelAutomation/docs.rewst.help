@@ -1,9 +1,11 @@
-# Triggers in Rewst
+# Triggers
 
 {% hint style="info" %}
 _Triggers_ initiate [workflows](https://docs.rewst.help/documentation/workflows) in Rewst. Every workflow must have a trigger to define when and how it starts. Essentially, triggers put the automate in automation. Choosing the right trigger ensures that your workflows execute at the right time, with the right data, to drive efficiency and consistency in your operations.
 
 A trigger is also used on any [form](https://docs.rewst.help/documentation/forms) input that requires a workflow. If a form uses the **Dynamic** button, then you must also create a trigger on the workflow associated with that form.
+
+For more on how to see which triggers appear on a specific workflow, view our documentation [here](../workflows/#view-triggers-for-a-specific-workflow).
 {% endhint %}
 
 ## Create a trigger
