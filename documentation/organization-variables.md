@@ -6,10 +6,10 @@ A group or entity within the Rewst platform that may have its own variables, for
 
 Rewst uses a two-tier system to manage organizations, with your MSP as the _parent org_ and your customers as _child orgs_. To make automations work for your managed clients/customers, set them up as child orgs.
 
-<figure><img src="../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-We recommend using the [Bulk Create Client from PSA Crate](../../prebuilt-automations/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly, and using the [Add Client to Rewst Crate](../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the mapping process for each new customer you add in the future. You can also add organizations manually, or through the [Microsoft Cloud Bundle](../integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/).
+We recommend using the [Bulk Create Client from PSA Crate](../prebuilt-automations/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly, and using the [Add Client to Rewst Crate](../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the mapping process for each new customer you add in the future. You can also add organizations manually, or through the [Microsoft Cloud Bundle](integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/).
 {% endhint %}
 
 ## What is an organization variable?
@@ -70,17 +70,17 @@ An easy way to find these is through the workflow builder, using create ticket a
    3.  **Halo PSA:** Add or Update Tickets\
 
 
-       <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.13 pm.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../.gitbook/assets/Screenshot 2024-12-31 at 1.59.13 pm.png" alt=""><figcaption></figcaption></figure>
 4. Click the ⋮ in your action to open up its settings.
 5. Click in any field with a blue arrow.
-6.  Select the Display name you want the ID for, then click the ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the left to get the ID.\
+6.  Select the Display name you want the ID for, then click the ![](<../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the left to get the ID.\
     \
     \
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.27 pm.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2024-12-31 at 1.59.27 pm.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.32 pm.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2024-12-31 at 1.59.32 pm.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Note that this method will only work for the three indicated PSA brands: ConnectWise, Datto, and Halo.

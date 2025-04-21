@@ -32,7 +32,7 @@ Explore what new changes the Training team has made in the last week.
 * [liongard-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/security/liongard/liongard-integration-setup.md "mention")and Actions & Endpoints added
 * **Updates and Fixes:**&#x20;
   * Added Powershell Script to [ninjaone-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/ninjaone/ninjaone-integration-setup.md "mention")
-  * Updated [organization-variables.md](../../../documentation/user-management/organization-variables.md "mention")
+  * Updated [organization-variables.md](../../../documentation/organization-variables.md "mention")
   * Updated [microsoft-csp-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/microsoft-csp-integration-setup.md "mention")
   * Added Steps to the [halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md "mention")
 

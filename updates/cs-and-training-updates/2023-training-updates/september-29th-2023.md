@@ -31,7 +31,7 @@ Explore what new changes the Training team has made in the last week.
 * Updates and Fixes
   * Updated the URL note on the [Connectwise Pod Configuration](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md) page.
   * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md)
-  * Added Read-only information on the [How to Add or Remove Users](broken-reference) and [Roles](../../../documentation/user-management/roles.md) pages.
+  * Added Read-only information on the [How to Add or Remove Users](broken-reference) and [Roles](../../../documentation/settings/roles.md) pages.
   * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/integrations/individual-integration-documentation/database/database-integration-setup.md) page.
 
 </details>

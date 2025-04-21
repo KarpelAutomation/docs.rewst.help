@@ -221,7 +221,7 @@ Below are some key aspects of workflow inputs:
 
 #### **Use org variables for client-specific workflows**
 
-If you have a form used across multiple clients, each with distinct environments like Microsoft 365 or On-Prem, you can use an o[rg variable](../user-management/organization-variables.md) to dictate the source of the data.
+If you have a form used across multiple clients, each with distinct environments like Microsoft 365 or On-Prem, you can use an o[rg variable](../organization-variables.md) to dictate the source of the data.
 
 For example, by employing `{{ ORG.VARIABLES.primary_identity_provider }}`, which is set per client as either `on_prem` or `azure_ad`, you can use the same form for both client cases. The form will be pulled from the relevant system.
 

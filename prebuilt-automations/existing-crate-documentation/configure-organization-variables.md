@@ -1,7 +1,7 @@
 # Configure Organizational Variables
 
 {% hint style="info" %}
-If you're new to organization variables, read through [our documentation on them here](../../documentation/user-management/organization-variables.md) before unpacking this Crate.&#x20;
+If you're new to organization variables, read through [our documentation on them here](../../documentation/organization-variables.md) before unpacking this Crate.&#x20;
 
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find this Crate in our Crate Marketplace.
 {% endhint %}

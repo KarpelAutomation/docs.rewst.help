@@ -1,21 +1,17 @@
-# Adding a new client via Microsoft Cloud Solution Provider
+# Add a new client via Microsoft Cloud Solution Provider
 
 {% hint style="success" %}
-For a more streamlined process for adding new clients, check our [add-client-to-rewst-setup.md](../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md "mention") Crate installation page.
-
-
+For a more streamlined process for adding new clients, see our [add-client-to-rewst-setup.md](../../../../../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md "mention") setup page.
 {% endhint %}
 
-
-
-The first part of adding a client is to create them within Rewst itself. The easiest way to do this is to add them via the Microsoft Cloud Integration Bundle, which contains Rewst's CSP Integration.&#x20;
+The first part of adding a client is to create them within Rewst itself. The easiest way to do this is to add them via the Microsoft Cloud Integration Bundle, which contains Rewst's [CSP Integration](microsoft-csp-integration-setup.md).&#x20;
 
 1. Navigate on the left navigation menu to **Configuration > Integrations > Microsoft CSP**_._ You'll see a list of your clients on the left, which you can filter using the column header options across the top.
 
-<figure><img src="../../.gitbook/assets/csp-add-client.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/csp-add-client.png" alt=""><figcaption></figcaption></figure>
 
 2. Find the empty drop-down field under **Rewst Organization**. Enter a name. Note that this is the name of the organization within Rewst. We recommend you match this with the company in the PSA to make it more quickly identifiable.&#x20;
-3. Click ![](<../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1) (1).png>) to the right of the drop-down.
+3. Click ![](<../../../../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1) (1).png>) to the right of the drop-down.
 4. Click **Submit**. The drop-down will auto-fill with the client you created.
 
 ## Step Two
@@ -24,7 +20,7 @@ The second step is matching the organization you created to the various companie
 
 Navigate on the left navigation menu to **Configuration > Integrations** and click through each installed integration (shown at the top).
 
-<figure><img src="../../.gitbook/assets/match-integration.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/match-integration.png" alt=""><figcaption></figcaption></figure>
 
 On the right-hand side, you will see an empty dropdown for the org you made. You can either:
 

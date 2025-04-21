@@ -27,7 +27,7 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 3. Click on the Crate tile to begin unpacking.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-26 at 4.25.01 PM.png>)
-4.  Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the Required Org Variables section, as seen in the screenshot below. An org variable without a check mark [will still need to be set up](../../documentation/user-management/organization-variables.md) before proceeding with unpacking the Crate. When confirmed, click Unpack Crate.\
+4.  Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the Required Org Variables section, as seen in the screenshot below. An org variable without a check mark [will still need to be set up](../../documentation/organization-variables.md) before proceeding with unpacking the Crate. When confirmed, click Unpack Crate.\
     \
 
 

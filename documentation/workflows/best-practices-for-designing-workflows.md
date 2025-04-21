@@ -47,7 +47,7 @@ Adhering to a consistent naming convention helps in understanding the purpose an
 **Improper example:** `Steve's Workflow`
 {% endhint %}
 
-You can also use [tags](../tags-in-rewst.md) within Rewst to organize your automations effectively.
+You can also use [tags](../settings/tags-in-rewst.md) within Rewst to organize your automations effectively.
 
 ## Manage variables and tasks
 

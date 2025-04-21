@@ -10,7 +10,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 1. With the Add Client to Rewst Crate.
 2. Through your CSP integration.
 
-This page will cover how to do this with the Add Client to Rewst Crate. [You can find alternative instructions for the second method here](../../documentation/user-management/adding-a-new-client-to-rewst.md).
+This page will cover how to do this with the Add Client to Rewst Crate. [You can find alternative instructions for the second method here](../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/adding-a-new-client-to-rewst.md).
 {% endhint %}
 
 ## What does the Add Client to Rewst Crate do?

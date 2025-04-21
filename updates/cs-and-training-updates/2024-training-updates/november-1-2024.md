@@ -43,7 +43,7 @@ Explore what new changes the Training team has made in the last week.
 
 * Updated Pages
   * [owned-app-registration.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/owned-app-registration.md "mention") page updated to refine CSP instructions
-  * [roles.md](../../../documentation/user-management/roles.md "mention") now includes more information about the Admin and Member roles
+  * [roles.md](../../../documentation/settings/roles.md "mention") now includes more information about the Admin and Member roles
   * [Broken link](broken-reference "mention") page updated
 
 </details>

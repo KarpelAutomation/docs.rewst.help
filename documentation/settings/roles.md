@@ -1,6 +1,12 @@
-# Roles and permissions
+# Permissions and roles
 
-Roles settings can be accessed in the Rewst platform by navigating to **Settings** **>** **Permissions** **>** **Roles**. Rewst has several different role choices available when [adding a user](./#add-and-remove-users-from-rewst):
+The **Permissions** menu contains several different submenus for managing permissions in Rewst.
+
+{% hint style="info" %}
+See our [separate documentation here](../../support/rewst-support-allow-write-access.md) for the purpose and use of the **Rewst Support Access** submenu.&#x20;
+{% endhint %}
+
+Roles settings can be accessed in the Rewst platform by navigating to **Settings** **>** **Permissions** **>** **Roles**. Rewst has several different role choices available when [adding a user](user-management.md#add-and-remove-users-from-rewst):
 
 1. Admin
 2. Member

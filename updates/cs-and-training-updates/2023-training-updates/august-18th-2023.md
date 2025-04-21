@@ -41,7 +41,7 @@ Explore what new changes the Training team has made in the last week.
   * Updated [ConnectWise Manage Integration Setup](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/connectwise-integration-setup.md) and [Pod Configuration](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md) pages.
   * Update the[ Rewst Script Run file on the Datto RMM Integration Setup page](../../../documentation/integrations/individual-integration-documentation/rmm/datto-rmm/datto-rmm-integration-setup.md).
   * Added Auth Server Hostname information in the [Halo PSA Integration setup page](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md).
-  * Updated the [Organization Variables](../../../documentation/user-management/organization-variables.md) list.
+  * Updated the [Organization Variables](../../../documentation/organization-variables.md) list.
   * Various spelling issues were fixed [SonicWall Integration Page](../../../documentation/integrations/individual-integration-documentation/security/sonicwall-nsm/sonicwall-integration-setup.md).
   * Updated [Jinja Filters page](../../../documentation/jinja/list-of-jinja-filters.md).
 
