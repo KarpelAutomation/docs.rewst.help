@@ -207,7 +207,6 @@
         * [Synnex actions & endpoints](documentation/integrations/individual-integration-documentation/licensing/synnex/actions-and-endpoints.md)
       * [Synnex Group Australia](documentation/integrations/individual-integration-documentation/licensing/synnex-group-australia/README.md)
         * [Synnex Australia integration setup](documentation/integrations/individual-integration-documentation/licensing/synnex-group-australia/synnex-australia-integration-setup.md)
-        * [Synnex actions & endpoints](documentation/integrations/individual-integration-documentation/licensing/synnex-group-australia/actions-and-endpoints.md)
     * [Mail integrations](documentation/integrations/individual-integration-documentation/mail/README.md)
       * [MailGun](documentation/integrations/individual-integration-documentation/mail/mailgun/README.md)
         * [Mailgun integration setup](documentation/integrations/individual-integration-documentation/mail/mailgun/mailgun-integration-setup.md)
