@@ -64,6 +64,7 @@
 * [Organization variables](documentation/organization-variables.md)
 * [Settings](documentation/settings/README.md)
   * [Users](documentation/settings/user-management.md)
+  * [Organizations](documentation/settings/organizations.md)
   * [Permissions and roles](documentation/settings/roles.md)
   * [Tags](documentation/settings/tags-in-rewst.md)
 * [Triggers](documentation/triggers/intro-to-triggers.md)
