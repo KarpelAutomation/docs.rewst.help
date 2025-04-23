@@ -37,6 +37,15 @@ When you use a `#ps` block:
 Only CTX and RESULT objects are available as context inside PowerShell blocks.
 {% endhint %}
 
+In Rewst’s version of PowerShell, the return behavior is streamlined: whatever the last evaluated expression is, be it a string, variable or object, that’s what gets returned as the raw response. Unlike traditional PowerShell, where Write-Output may return multiple values throughout the script’s execution, the interpreter doesn’t collect all of those outputs. It only captures the final evaluated value. If you want to return multiple items, wrap them in an array or object and ensure that’s the last line in your script. For example:
+
+```
+$first = @{ Name = "Alpha"; ID = 1 }
+$second = @{ Name = "Beta"; ID = 2 }
+$results = @($first, $second)
+$results  # <- This will be the returned value in Rewst
+```
+
 ## Why use PowerShell in Rewst?
 
 If you already know your way around PowerShell, there’s a good chance that you’ve used it to script against systems like Active Directory, Exchange, Intune, or local machine configurations. Rewst now lets you tap into those skills directly, without needing to learn Jinja first.
