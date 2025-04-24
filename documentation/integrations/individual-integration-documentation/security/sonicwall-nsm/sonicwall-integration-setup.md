@@ -14,7 +14,7 @@ description: >-
 
 To setup SonicWall NSM (Network Security Manager- SaaS) Integration with Rewst, you'll need to perform the following steps:&#x20;
 
-### Generating a MySonicWall API Key&#x20;
+### Generate a MySonicWall API Key&#x20;
 
 1. **Log in** to [MySonicWall](https://www.mysonicwall.com/)&#x20;
 2. **Navigate** to My Workspace | User Groups > User list tab.&#x20;

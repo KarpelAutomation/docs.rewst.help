@@ -86,7 +86,7 @@ Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to creat
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (62) (1).png" alt=""><figcaption></figcaption></figure>
 6. This step will vary depending on if you have set up your customers in Rewst.
    1. If you have not setup your customers in Rewst, unpack the [Bulk Create Client from PSA Crate](../../../../../prebuilt-automations/existing-crate-documentation/bulk-create-client-from-psa-crate.md).
    2. If you have already set up customers or imported clients, scrolling down on the integration page will display a list of your customers.

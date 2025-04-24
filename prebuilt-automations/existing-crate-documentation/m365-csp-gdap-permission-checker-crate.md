@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the M365 CSP/GDAP Permission Checker Crate do?
 
-This Crate gives you a simple way to help validate that your GDAP roles and permissions are correct and assigned to the appropriate account. Your Rewst service account that is used to manage your Microsoft tenants requires [specific GDAP roles in order to perform it's various actions](https://docs.rewst.help/documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices#recommended-roles-for-gdap).  The workflow in this Crate is designed to identify if any of these roles are missing at a specified client location.
+This Crate gives you a simple way to help validate that your GDAP roles and permissions are correct and assigned to the appropriate account. Your Rewst service account that is used to manage your Microsoft tenants requires [specific GDAP roles in order to perform it's various actions](https://docs.rewst.help/documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices#recommended-roles-for-gdap).  The workflow in this Crate is designed to identify if any of these roles are correct and assigned to the appropriate account for a specified org.
 
 For more information on the recommended GDAP roles, see the [Best Practices for Microsoft Integration](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices) page in our documentation.
 
