@@ -64,7 +64,7 @@ Automated GDAP migration is only available until **November 1st**. Post-deadline
 If Rewst was functioning correctly post-GDAP migration but is now experiencing errors, the likely cause is the retirement of your DAP relationships by Microsoft.
 
 {% hint style="info" %}
-**To diagnose missing roles,** run the [CSP/CPV Permission Checker ](../../../../../../prebuilt-automations/existing-crate-documentation/csp-cpv-permission-checker.md)crate against one of the clients experiencing issues.
+**To diagnose missing roles,** run the [CSP/CPV Permission Checker ](../../../../../../prebuilt-automations/existing-crate-documentation/m365-csp-gdap-permission-checker-crate.md)crate against one of the clients experiencing issues.
 {% endhint %}
 
 ### Modifying GDAP Relationships: Migration Wizard vs. Manual Methods

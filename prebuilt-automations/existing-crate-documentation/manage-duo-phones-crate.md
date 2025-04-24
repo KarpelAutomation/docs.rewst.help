@@ -35,7 +35,7 @@ Before unpacking this Crate, you must have your PSA integrated with Rewst, and h
 ## Unpack the **Manage Duo Phones** Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
-2. Search for **Manage Duo Phones.**\
+2. Search for `Manage Duo Phones`**.**\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-03-10 at 4.56.52 PM.png>)
 3. Click on the Crate tile to begin unpacking.
