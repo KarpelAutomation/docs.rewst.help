@@ -237,6 +237,22 @@ The interpreter also allows for a `#psl` header for line-by-line PowerShell. Cur
 * Live Editor Friction:\
   Users can enter the Live Editor for PowerShell before the required Azure setup is complete, leading to confusion.
 
+## Troubleshoot the PowerShell interpreter
+
+If you encounter an error of `The subscription is not registered to use namespace Microsoft.Storage`, you may need to add providers in Azure to complete setup.&#x20;
+
+In Azure:
+
+1. Navigate to **Home > Subscriptions.**&#x20;
+2. Register each of the following Resource Providers:
+   1. Microsoft.Web
+   2. Microsoft.Insight
+   3. Microsoft.Storage
+   4. Microsoft.Quota
+   5. Microsoft.OpratoinalInsights
+
+<figure><img src="../../.gitbook/assets/image (59) (4).png" alt="Screenshot of the Microsoft Azure portal showing the &#x22;Resource providers&#x22; section for an MCP Subscription. The user has searched for &#x22;web,&#x22; and the results display the &#x22;Microsoft.Web&#x22; provider. Its status is &#x22;Registering,&#x22; and the &#x22;Registration Policy&#x22; is marked as &#x22;RegistrationRequired.&#x22; On the left, a navigation menu is visible with sections like Overview, Activity log, Access control (IAM), Tags, Security, and Resource providers highlighted."><figcaption><p>The screen in Azure where you will register Resource Providers</p></figcaption></figure>
+
 ## Send us your feedback on PowerShell in Rewst
 
 Have questions or feedback? Reach out to Support or post in your dedicated Discord support channel. Suggest improvements or new features in our [Canny](https://rewst.canny.io/features) feedback collector.

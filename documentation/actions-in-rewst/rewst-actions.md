@@ -437,3 +437,61 @@ Forms are typically used for collecting user inputs, while triggers are events t
 
 </details>
 
+<details>
+
+<summary>App Builder-specific Rewst actions</summary>
+
+These Rewst actions are for use with [App Builder](../app-builder/) only.&#x20;
+
+### **List Apps**
+
+**Description:** Lists all apps, also known as sites, associated with the current organization in Rewst.
+
+**Parameters:**
+
+* **Run as user - optional:** The ID of the user to run the query as. If omitted, defaults to the workflow's context user.
+
+**Output:** Returns a list of apps, including details such as ID, name, and organization association.
+
+***
+
+### **List Pages**
+
+**Description:** Lists all pages for a specified app in Rewst.
+
+**Parameters:**
+
+* **App ID:** The ID of the app for which to fetch pages.
+* **Run as user - optional:** The ID of the user to run the query as.
+
+**Output:** Returns a list of pages within the specified app, including each page's ID, name, and metadata.
+
+***
+
+### **List Page Elements**
+
+**Description:** Lists all elements within a specific page in an app, including their Element IDs and key properties.
+
+**Parameters:**
+
+* **Page ID:** The ID of the page whose elements you want to retrieve.
+* **Run as user - optional:** The ID of the user to run the query as.
+
+**Output:** Returns a dictionary mapping element IDs to their properties, including type, Craft ID, and other element-specific details.
+
+***
+
+### **Update Text Element Content**
+
+**Description:** Updates the text-based content of a page element— such as a text block, button, link, HTML container, markdown block, or accordion— within a specified page.
+
+**Parameters:**
+
+* **Content:** The new text content to set for the element.
+* **Page ID:** The ID of the page containing the element to update.
+* **Element ID:** The ID of the page element whose text content you want to update.
+* **Run as user - optional:** The ID of the user to run the query as.
+
+**Output:** Returns the updated element's details, including confirmation of the new text content.
+
+</details>

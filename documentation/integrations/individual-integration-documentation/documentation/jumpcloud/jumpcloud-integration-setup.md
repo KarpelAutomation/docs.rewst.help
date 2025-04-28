@@ -1,32 +1,39 @@
-# JumpCloud Integration Setup
+# JumpCloud integration setup
 
-Integrating Rewst with JumpCloud offers users a powerful combination of IT documentation and cloud directory services. With this integration, Rewst users can seamlessly leverage JumpCloud's comprehensive identity and access management capabilities within the Rewst platform. Users can efficiently manage user accounts, access permissions, and authentication processes, all while maintaining a centralized documentation repository in Rewst. This integration streamlines IT operations, enhances security, and simplifies user management, providing a seamless experience for managing identities and accessing IT documentation within the Rewst platform.
+## What does the JumpCloud integration do?
 
-## Setup[​](http://localhost:3000/docs/integrations/Documentation/jumpcloud-integration-setup#setup) <a href="#setup" id="setup"></a>
+Integrating Rewst with JumpCloud offers users a powerful combination of IT documentation and cloud directory services. Seamlessly leverage JumpCloud's comprehensive identity and access management capabilities within the Rewst platform. Manage user accounts, access permissions, and authentication processes, all while maintaining a centralized documentation repository in Rewst.&#x20;
 
-### Jumpcloud Setup[​](http://localhost:3000/docs/integrations/Documentation/jumpcloud-integration-setup#jumpcloud-setup) <a href="#jumpcloud-setup" id="jumpcloud-setup"></a>
+## Set up the JumpCloud integration[​](http://localhost:3000/docs/integrations/Documentation/jumpcloud-integration-setup#setup) <a href="#setup" id="setup"></a>
 
-1. **Log in** to the [JumpCloud Console](https://console.jumpcloud.com/).
-2. **Click** on your User Icon to reveal the user settings menu.
-3. **Click** "My API Key".
-4. **Copy** the API Key.
-
-To access multiple organizations with this integration you must also:
+{% hint style="warning" %}
+If you need to access multiple organizations with this integration, you'll also need to:
 
 * Have access to the JumpCloud Multi-Tenant Portal
-* Define a default organization ID in the integration configuration form in Rewst
-* Map organizations to their JumpCloud counterparts in Rewst
+* Define a default organization ID in the configuration form in Rewst
+* Map Rewst organizations to their JumpCloud counterparts
 
-[Click here](https://support.jumpcloud.com/support/s/article/FAQ-for-Managed-Service-Providers#how-partner1) for more information about multi-tenancy in JumpCloud.
+For more details, see [JumpCloud’s documentation on multi-tenancy](https://jumpcloud.com/support/multi-tenancy).
+{% endhint %}
 
-### Rewst Setup[​](http://localhost:3000/docs/integrations/Documentation/jumpcloud-integration-setup#rewst-setup) <a href="#rewst-setup" id="rewst-setup"></a>
+### Set up steps in JumpCloud
 
-1. **Navigate** to the integrations page in [Rewst](https://app.rewst.io/).
-2. **Click** on the JumpCloud integration.
-3. **Fill out** the configuration form using the API key generated in JumpCloud.
-4. (Optional) **Define** a default organization ID in the configuration form.
-5. **Save** the configuration form.
-6. **Map** Rewst organizations to their JumpCloud counterparts in Rewst.
+1. Log in to the JumpCloud Console.
+2. Click your **User icon**, then click **My API Key**.
+3. Copy your API key.
+
+### Set up steps in Rewst
+
+1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
+2. In the integrations page, search for `JumpCloud`.\
+   \
+   ![Screenshot of the JumpCloud integration card in Rewst. It shows the JumpCloud logo and a description: "Enables automation of identity and access management. Utilize the JumpCloud API within Rewst workflows to manage user identities and groups, streamline access controls, enforce security policies, and more." The card also notes it was last updated on April 24th, 2025, and includes a teal "SSO" badge at the bottom.](<../../../../../.gitbook/assets/Screenshot 2025-04-28 at 2.42.49 PM.png>)
+3. Click on the integration tile to launch setup.
+4. Enter the API key copied from JumpCloud into the **API Key** field.
+5. Optionally, define a default organization ID.
+6. Select **True** or **False** from the **Do you have multiple organizations in this JumpCloud instance** drop-down selector.&#x20;
+7. Click **Save**.
+8. Map Rewst organizations to their JumpCloud counterparts in Rewst.
 
 ## Actions
 
