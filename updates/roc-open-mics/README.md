@@ -18,22 +18,24 @@ Join us live for Rewst's Community Open Mics. You're welcome to attend any of ou
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/b5XlTOsvrN0" %}
+{% embed url="https://youtu.be/-XCdZ-fs9r4" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 Aharon welcomed everyone back from the Berlin conference and highlighted the purpose of the call — showcasing new features, bug fixes, and inspiring automation ideas.
-* 🌍 Ashe announced that Open Mic may not occur next week due to holidays across various regions.
-* 🛠️ Danial provided product and development updates including new transforms, integration improvements, PowerShell beta feedback, and upcoming integrations.
-* 🛒 JP introduced a new crate for alerting on privileged role account creation and previewed features like disk space monitoring and orchart builder.
-* 🎓 Brandon gave Cluck University updates, congratulated certification achievers, and announced a transition to a new LMS platform.
-* 💻 Derek demonstrated a PowerShell-based user creation workflow and shared debugging insights from the beta experience.
-* 🌐 Hunter showcased a complex automation for handling Azure conditional access policies during user travel with detailed error handling and policy rollback.
-* 🎭 Clea demoed an April Fool’s “Mad Libs” style email workflow built in Rewst with audience participation.
-* 🔍 Reed walked through a PowerShell project to normalize and associate user-device data using Ninja integration and schema manipulation.
-* 📣 Aharon closed with reflections on a Reddit thread about value realization in Rewst, encouraging community participation and ongoing AI enhancements.
+* 🎤 Aharon covers why the Open Mic exists, emphasizing the value of asking questions to succeed in automation.
+* ⛳ Ashe gives a fun update about being away last week and teases upcoming Flow conference perks for regulars.
+* 📦 JP announces new marketplace features including SuperOps RMM support, a duplicate account detection crate, and upcoming PSA support.
+* 🧳 Danial shares highlights from Robin Robbins and details new integrations with Notion, Slide, Cork, and Asana, plus UI and bug fixes.
+* 📘 Eddie celebrates user certifications, announces the Jinja course release, and shares documentation and training updates.
+* 📊 Danial presents a detailed client profitability tracking workflow using PowerShell and subworkflows for automated agreement updates.
+* 🤖 Daniel (with an E) demonstrates a Teams bot that assigns tickets based on SLA urgency, streamlining tech workflows using subworkflows and adaptive cards.
+* 🗂️ Craig shares a solution using PythonAnywhere and Flask to pull CSV data from Ingram and convert it into SQL-ready JSON for analysis.
+* 💾 Jonathan shows how he uses VS Code and PowerShell to update Rewst templates via webhook, massively speeding up modular app development.
+* 🔄 A brief discussion follows on leveraging PowerShell and automation growth, with Danial mentioning success using Rewst's custom integration feature for Domotz.
+* 🧠 Community questions close the session, including one about Mass360 and general API integration troubleshooting.
+* 🛫 The outro wraps with excitement for the upcoming Flow event and appreciation for the community's organic use of PowerShell.
 
 </details>
 

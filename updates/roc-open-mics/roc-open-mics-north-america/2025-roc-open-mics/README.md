@@ -4,7 +4,11 @@
 
 <summary>April 2025</summary>
 
+[april-25-2025-from-guesswork-to-gold-automating-client-profitability-with-precision.md](april-25-2025-from-guesswork-to-gold-automating-client-profitability-with-precision.md "mention")
 
+[april-11-2025.md](april-11-2025.md "mention")
+
+[april-4-2025-powershell-in-rewst-preview.md](april-4-2025-powershell-in-rewst-preview.md "mention")
 
 </details>
 
