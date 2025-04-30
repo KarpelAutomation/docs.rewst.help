@@ -146,7 +146,6 @@
           * [Add a new client via Microsoft Cloud Solution Provider](documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/adding-a-new-client-to-rewst.md)
         * [Microsoft Exchange Online](documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-exchange-online/README.md)
           * [Microsoft Exchange Online](documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-exchange-online/microsoft-exchange-online.md)
-          * [Exchange Online actions](documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-exchange-online/exchange-online-actions.md)
           * [Exchange Online and multi-property values](documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-exchange-online/exchange-online-and-multi-property-values.md)
         * [Microsoft Cloud permissions](documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-cloud-permissions.md)
         * [Common issues with Microsoft Bundle](documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/README.md)

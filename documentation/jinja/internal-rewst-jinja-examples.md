@@ -216,11 +216,9 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
 *   **Example:**
 
     ```jinja2
-    Current Time: {% raw %}
-    {% now %}
-    Formatted Time: {% now, "%Y-%m-%d" %}
-    Timestamp: {% now, False %}
-    {% endraw %}
+    Current Time: {{now("UTC")|convert_from_epoch|}}
+    Formatted Time: {{ now("UTC")|convert_from_epoch|format_datetime("%I:%m:%S %p) }}
+    Timestamp: {{ now("UTC") }}
     ```
 
 ### &#x20;Try and catch blocks
