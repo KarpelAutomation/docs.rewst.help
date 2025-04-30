@@ -678,6 +678,7 @@
     * [June 7th, 2024 - Marketplace Update](updates/marketplace-updates/2024-marketplace-updates/june-7th-2024.md)
     * [May 31st 2024 - Marketplace Update](updates/marketplace-updates/2024-marketplace-updates/may-31st-2024.md)
 * [ROC Open Mic](updates/roc-open-mics/README.md)
+  * [Sign up to present at any Open Mic](updates/roc-open-mics/sign-up-to-present-at-any-open-mic.md)
   * [ROC Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/README.md)
     * [2025 ROC Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/README.md)
       * [April 25, 2025: From Guesswork to Gold – Automating Client Profitability with Precision](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/april-25-2025-from-guesswork-to-gold-automating-client-profitability-with-precision.md)

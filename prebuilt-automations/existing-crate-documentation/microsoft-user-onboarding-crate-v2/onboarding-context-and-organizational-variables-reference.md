@@ -188,14 +188,15 @@ Expand each of the categories below to see that type of variable's reference tab
 
 
 
-| **ORG.VARIABLES**                     | **Purpose**                                                                           |
-| ------------------------------------- | ------------------------------------------------------------------------------------- |
-| `user_start_date_behavior`            | Controls whether onboarding starts immediately or waits for the specified start date. |
-| `type_for_created_new_user_ticket`    | Defines the ticket type for new user onboarding.                                      |
-| `subtype_for_created_new_user_ticket` | Defines the subtype for new user onboarding tickets.                                  |
-| `item_for_created_new_user_ticket`    | Defines the item for new user onboarding tickets.                                     |
-| `user_name_format`                    | Defines the username format for new users.                                            |
-| `no_ad_sync`                          | Specifies if the organization has an OnPrem AD without AD Sync.                       |
+| **ORG.VARIABLES**                     | **Purpose**                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `user_start_date_behavior`            | Controls whether onboarding starts immediately or waits for the specified start date.                                                                                                                                                                                                                                                                        |
+| `type_for_created_new_user_ticket`    | Defines the ticket type for new user onboarding.                                                                                                                                                                                                                                                                                                             |
+| `subtype_for_created_new_user_ticket` | Defines the subtype for new user onboarding tickets.                                                                                                                                                                                                                                                                                                         |
+| `item_for_created_new_user_ticket`    | Defines the item for new user onboarding tickets.                                                                                                                                                                                                                                                                                                            |
+| `user_name_format`                    | Defines the username format for new users.                                                                                                                                                                                                                                                                                                                   |
+| `no_ad_sync`                          | Specifies if the organization has an OnPrem AD without AD Sync.                                                                                                                                                                                                                                                                                              |
+| `tz_country`                          | Reduces the number of options available when selecting a time zone for delaying user onboarding. The field is generated via the \[REWST - OPT GEN] List Timezones workflow, and will either generate all time zone options or only show ones for a set country. Values must be stored as the entire country name, for example Canada, Mexico, United States. |
 
 </details>
 

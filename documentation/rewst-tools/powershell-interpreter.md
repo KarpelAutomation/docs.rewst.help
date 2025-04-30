@@ -249,7 +249,7 @@ In Azure:
    2. Microsoft.Insight
    3. Microsoft.Storage
    4. Microsoft.Quota
-   5. Microsoft.OpratoinalInsights
+   5. Microsoft.OperationalInsights
 
 <figure><img src="../../.gitbook/assets/image (59) (4).png" alt="Screenshot of the Microsoft Azure portal showing the &#x22;Resource providers&#x22; section for an MCP Subscription. The user has searched for &#x22;web,&#x22; and the results display the &#x22;Microsoft.Web&#x22; provider. Its status is &#x22;Registering,&#x22; and the &#x22;Registration Policy&#x22; is marked as &#x22;RegistrationRequired.&#x22; On the left, a navigation menu is visible with sections like Overview, Activity log, Access control (IAM), Tags, Security, and Resource providers highlighted."><figcaption><p>The screen in Azure where you will register Resource Providers</p></figcaption></figure>
 
