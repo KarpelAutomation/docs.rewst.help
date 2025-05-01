@@ -185,8 +185,7 @@
       * [Notion integration](documentation/integrations/individual-integration-documentation/documentation/notion-integration.md)
       * [SyncMonkey integration](documentation/integrations/individual-integration-documentation/documentation/syncmonkey-integration.md)
     * [Email security integrations](documentation/integrations/individual-integration-documentation/email-security/README.md)
-      * [Proofpoint](documentation/integrations/individual-integration-documentation/email-security/proofpoint/README.md)
-        * [Proofpoint integration setup](documentation/integrations/individual-integration-documentation/email-security/proofpoint/proofpoint-integration-setup.md)
+      * [Proofpoint integration setup](documentation/integrations/individual-integration-documentation/email-security/proofpoint-integration-setup.md)
     * [HRIS integrations](documentation/integrations/individual-integration-documentation/hris/README.md)
       * [BambooHR](documentation/integrations/individual-integration-documentation/hris/bamboohr/README.md)
         * [BambooHR integration setup](documentation/integrations/individual-integration-documentation/hris/bamboohr/bamboohr-integration-setup.md)
@@ -857,7 +856,7 @@
 
 ## 🔐 Security
 
-* [Incoming & outgoing domains and IPs](security/security-policy.md)
+* [Incoming and outgoing domains and IP addresses](security/security-policy.md)
 
 ## 🆘 Support
 

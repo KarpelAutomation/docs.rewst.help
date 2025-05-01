@@ -210,9 +210,9 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
 
 * **Purpose:** This extension allows you to work with date and time values directly within your Jinja2 templates.
 * **Usage:**
-  * `{% now %}`: Inserts the current date and time.
-  * `{% now, "%Y-%m-%d" %}`: Inserts the current date and time formatted according to the specified format (e.g., `2023-11-22`).
-  * `{% now, False %}`: Inserts the current timestamp.
+  * `{{ now }}`: Inserts the current date and time.
+  * `{{ now, "%Y-%m-%d" }}`: Inserts the current date and time formatted according to the specified format (e.g., `2023-11-22`).
+  * `{{ now, False }}`: Inserts the current timestamp.
 *   **Example:**
 
     ```jinja2
@@ -225,31 +225,27 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
 
 * **Purpose:** The Try Catch extension introduces try and catch blocks in your Jinja2 templates, allowing you to handle exceptions gracefully.
 * **Usage:**
-  * `{% try %}`: Defines a try block where you can place code that may raise exceptions.
-  * `{% catch %}`: Optionally defines a catch block to handle exceptions. If no catch block is specified, an empty string is returned in case of an exception.
+  * `{{ try }}`: Defines a try block where you can place code that may raise exceptions.
+  * `{{ catch }}`: Optionally defines a catch block to handle exceptions. If no catch block is specified, an empty string is returned in case of an exception.
 *   **Example:**
 
     ```jinja2
-    {% raw %}
-    {% try %}
+    {{ try }}
         The thing: {{ i_do_not_exist_and_throw_an_error }}
-    {% catch %}
+    {{ catch }}
         Error: {{ exception }}
-    {% endtry %}
-    {% endraw %}
+    {{ endtry }}
     ```
 
 ### UUID generation
 
 * **Purpose:** The UUID extension simplifies the generation of Universally Unique Identifiers (`UUIDs`) within your Jinja2 templates.
 * **Usage:**
-  * `{% uuid4 %}`: Inserts a randomly generated UUID version 4.
+  * `{{ uuid4 }}`: Inserts a randomly generated UUID version 4.
 *   **Example:**
 
     ```jinja2
-    Generated UUID: {% raw %}
-    {% uuid4 %}
-    {% endraw %}
+    Generated UUID: {{ uuid4 }}
     ```
 
 ### List comprehension
