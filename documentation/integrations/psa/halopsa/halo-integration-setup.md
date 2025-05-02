@@ -16,7 +16,7 @@ Our HaloPSA integration provides automation and workflow capabilities by connect
 
 ### Integration use cases
 
-#### **Automated ticket handling**
+#### **Automated ticket handling**&#x20;
 
 A new support ticket is submitted in HaloPSA. A Rewst workflow can automatically classify the ticket, assign it to the correct team based on predefined criteria, and send an acknowledgment email to the customer.
 
@@ -93,19 +93,30 @@ When creating the API Agent, ensure that the **Allow use of all Customers** Clie
    ![](<../../../../.gitbook/assets/Screenshot 2025-04-11 at 4.50.15 PM.png>)
 3. Click on the integration tile to launch the **Configuration** setup page.
 4. Fill out the form with the details you created:
-   1. **Resource Server Hostname**: HaloPSA Resource Server hostname, e.g. `example.halopsa.com`.
-   2. **Client ID**: Fill in the ID for the application registered in HaloPSA.
-   3. **Tenant ID**: When using a cloud-hosted Halo PSA instance, this must be specified. This value can be found in the HaloPSA web application under **Configuration > Integrations > HaloPSA API > API Details**.
+   1. **Client ID**: Fill in the ID for the application registered in HaloPSA.
+   2. **Client Secret**: Fill in the authentication secret for the application registered in HaloPSA.
+   3. **Resource Server Hostname**: HaloPSA Resource Server hostname, e.g. `example.halopsa.com`.
    4. **Auth Server Hostname**: HaloPSA Auth Server hostname, e.g. `example.halopsa.com/auth,` if different from the Resource Server Hostname.
-   5. **Client Secret**: Fill in the authentication secret for the application registered in HaloPSA.
-   6. **Is On-Premise?**: Clarify whether or not the HaloPSA instance is hosted on an on-premise server.
-5.  Save the configuration. Rewst will do a quick validation of your input.&#x20;
+   5. **Is On-Premise?**: Clarify whether or not the HaloPSA instance is hosted on an on-premise server.
+   6. **Tenant ID**: When using a cloud-hosted Halo PSA instance, this must be specified. This value can be found in the HaloPSA web application under **Configuration > Integrations > HaloPSA API > API Details**.
 
-    Beneath that integration authentication section you'll see the following options:
+{% hint style="warning" %}
+The Resource Server Hostname and Auth Server Hostname must be in the correct format. Incorrect formatting will lead to setup failure.
 
-    1. **Suggest Values**: This option will attempt to generate mappings between Rewst organizations and child organizations in this integration.
-    2. **Refresh Options**: This will re-read the potential mapping options - both organizations and companies in Halo.
-    3. **Save Mappings** This will apply mapping configuration changes.
+Note that the links copied from HaloPSA contain https:// at their start. You'll need to remove this from the link before pasting into fields in Rewst. For the Resource server, you'll also need to remove the end of the link, /api. See the below example.
+
+Resource Server Hostname: `https://sanboxrewst.halopsa.com/api` should be `sandboxrewst.halopsa.com`
+
+Auth Server Hostname: `https://sanboxrewst.halopsa.com/auth` should be `sanboxrewst.halopsa.com/auth`&#x20;
+{% endhint %}
+
+5. Save the configuration. Rewst will do a quick validation of your input.&#x20;
+
+Beneath that integration authentication section you'll see the following options:
+
+* **Suggest Values**: This option will attempt to generate mappings between Rewst organizations and child organizations in this integration.
+* **Refresh Options**: This will re-read the potential mapping options - both organizations and companies in Halo.
+* **Save Mappings** This will apply mapping configuration changes.
 
 ## Test the Integration
 

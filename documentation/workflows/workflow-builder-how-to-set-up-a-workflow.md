@@ -160,7 +160,7 @@ Select multiple workflow tasks and notes simultaneously by drawing a selection b
 
 <figure><img src="../../.gitbook/assets/multiselect gif.gif" alt="" width="375"><figcaption><p>The duplication of tasks and transitions</p></figcaption></figure>
 
-### Favoriting actions
+### Favorite actions
 
 Commonly used actions can be favorited to easily find and add actions to workflows. When favorited, actions can be found in the **favorites** section and added on the workflow canvas by right-clicking.
 

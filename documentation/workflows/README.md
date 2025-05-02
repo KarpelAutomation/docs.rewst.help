@@ -70,6 +70,10 @@ The general results page will show you the results of every workflow that has ru
 This will take you to a new page that will show all the results of that workflow.\
 
 
+{% hint style="info" %}
+When you delete the result of a workflow, consider it to be fully deleted. Only delete results when you are confident that they will not be needed. The result will remain in Rewst's database backup snapshots for a short length of time until it is past the retention period, at which point it will be purged. Meta data and stats about the deleted workflow execution remain in the system. Deleting a workflow execution will not affect time saved or remove time saved.
+{% endhint %}
+
 ## View triggers for a specific workflow
 
 From the workflows page, you can view triggers associated with each workflow, without leaving that page. Hover over the workflow's **triggers** count in the **Attributes** column to see a list of every trigger linked to your workflow, and toggle each on or off to suit your needs.&#x20;
