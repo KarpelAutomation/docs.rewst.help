@@ -120,9 +120,7 @@ If there are too many customers in the query, you may experience long loading ti
 
 1. Navigate to **Automation > Workflows** in Rewst.
 2. Create a new workflow and name it with something short and descriptive, such as `Test Autotask Integration`.
-3. Drag and drop the action **List Agents** from the left actions menu to the workflow builder canvas.\
-   \
-   ![](<../../../../../.gitbook/assets/CleanShot 2025-03-18 at 17.43.00.jpg>)
+3. Drag and drop the action **List Companies** from the left actions menu to the workflow builder canvas.
 4. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (1).png" alt="" data-size="line"> to add a trigger to your workflow.
 5. Name your trigger whatever you’d like.
 6. Click into the trigger’s settings.
