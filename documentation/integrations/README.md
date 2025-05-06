@@ -59,10 +59,14 @@ Organization mapping for Microsoft integrations is slightly different than the p
 
 ### How to complete the organization mapping process
 
+{% hint style="info" %}
+Note that the mapping menu won't be visible during initial integration set up. It appears at the bottom of that integration's configuration page after you click **Save Configuration**.
+{% endhint %}
+
 The general steps to map each organization are as follows.
 
 1. Navigate to **Configuration > Integrations** in the Rewst platform.
-2. Select the integration that you want to map.
+2. Select the integration that you want to map from your collection of already set up integrations.&#x20;
 3. Scroll down the page to the **Organization Mapping** submenu. Here you'll see your **Organizations** listed in a table.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-21 at 10.48.43 AM.png" alt="An image of the organizational mapping sub menu inside an integration. It contains four columns across a page with customer information."><figcaption><p>An example of the Organization Mapping sub menu, in an installed integration's configuration page</p></figcaption></figure>
@@ -72,10 +76,11 @@ The general steps to map each organization are as follows.
    2. If accounts are missing:&#x20;
       1. Check if the customer account exists in your integrated tool.
       2. Adjust any applied filters that might be excluding accounts.
-5. Click **Suggest Values**. Rewst will try to match organization names automatically.
-6. Review the suggestions to ensure that organizations in Rewst and customer names in the integrated tool are aligned. If a match is missing, manually select the correct organization from the dropdown menu.
-7. Double-check all mappings, especially if you have multiple pages of organizations. By default, only the first 10 organizations will be listed.
-8. Click **Save Mappings** to finalize the connections.
+5. Click **Suggest Values**. Rewst will try to match organization names automatically. This generates mappings between Rewst organizations and corresponding entities in the partner app.
+6. **Refresh Options** will re-read the potential mapping options for both organizations and companies in the partner app.
+7. Review the suggestions to ensure that organizations in Rewst and customer names in the integrated tool are aligned. If a match is missing, manually select the correct organization from the dropdown menu.
+8. Double-check all mappings, especially if you have multiple pages of organizations. By default, only the first 10 organizations will be listed.
+9. Click **Save Mappings** to finalize the connections.
 
 ## Request an integration
 
