@@ -10,7 +10,7 @@ On your scheduled day, attend the Open Mic, and wait for us to introduce you and
 
 Open Mic calls are a key opportunity to show off how you use Rewst to save time and deliver results. To ensure every presentation is clear, engaging, and impactful, follow these best practices.
 
-#### **1. Preparation is key**
+### **1. Preparation is key**
 
 ✅ **Know your content** – Outline what you'll present and rehearse your key talking points.
 
@@ -25,7 +25,7 @@ Follow a simple format:
 
 ✅ **Test your demo** – Ensure everything works smoothly beforehand to avoid technical issues.
 
-#### **2. Delivery and engagement**
+### **2. Delivery and engagement**
 
 ✅ **Be energetic and enthusiastic** – Your tone sets the mood. Show excitement for what you’re presenting!
 
@@ -39,7 +39,7 @@ Follow a simple format:
 
 🚫 **Don't share sensitive information** like the Organization Picker, Customer Names, or proprietary data like API keys, etc.
 
-#### **3. Effective demos**
+### **3. Effective demos**
 
 ✅ **Highlight key features** – Show what’s most important, not every single detail.
 
@@ -53,7 +53,7 @@ Follow a simple format:
 
 🚫 **Don’t assume prior knowledge** – Always assume brand new users are in the audience - cater to them.
 
-#### **4. Close strong**
+### **4. Close strong**
 
 ✅ **Summarize key takeaways** – Reinforce the main points in one or two sentences.
 

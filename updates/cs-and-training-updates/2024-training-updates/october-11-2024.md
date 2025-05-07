@@ -31,6 +31,6 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* New Open Mic Page Added: [oct-4-2024-when-this-integration-tells-rewst-to-do-things-for-it.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/oct-4-2024-when-this-integration-tells-rewst-to-do-things-for-it.md "mention")
+* New Open Mic Page Added: [oct-4-2024-when-this-integration-tells-rewst-to-do-things-for-it.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/oct-4-2024-when-this-integration-tells-rewst-to-do-things-for-it.md "mention")
 
 </details>

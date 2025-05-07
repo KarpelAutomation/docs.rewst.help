@@ -28,7 +28,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md "mention") Open Mic Page Added
+* [april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md "mention") Open Mic Page Added
 * [okta-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/iam/okta-integration-setup.md "mention") page added
 * [actions-and-endpoints.md](../../../documentation/integrations/individual-integration-documentation/iam/actions-and-endpoints.md "mention") for OKTA added
 * [Broken link](broken-reference "mention") Elective page added

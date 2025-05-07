@@ -32,4 +32,4 @@ This can be anything from new features, bug fixes or QoL changes!
 
 </details>
 
-If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/march-3rd-2023-new-webhooks-tracking-steam-deals-and-templates-oh-my.md)
+If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/march-3rd-2023-new-webhooks-tracking-steam-deals-and-templates-oh-my.md)

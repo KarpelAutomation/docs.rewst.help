@@ -1,13 +1,6 @@
----
-description: >-
-  At Rewst, our approach to support requests is both client-focused and
-  realistic. We classify requests into four priority levels: Critical, High,
-  Medium, and Low.
----
-
 # Support priorities
 
-Below are the definitions, examples, and our response objectives for each level.
+At Rewst, our approach to support requests is both client-focused and realistic. We classify requests into four priority levels: Critical, High, Medium, and Low. Below are the definitions, examples, and our response objectives for each level.
 
 {% hint style="info" %}
 Please note that these objectives are goals aimed at guiding our response times and should not be interpreted as rigid Service Level Agreements (SLAs).
@@ -49,15 +42,15 @@ Please note that these objectives are goals aimed at guiding our response times 
 
 ### Need Escalation?
 
-If you believe your support query requires some level of escalation, we understand. Flexibility is important to us, and we're here to accommodate your needs. Please contact ROC Leadership or your Customer Success Manager (CSM) via the [Contact page](../contact-resources.md). You can also ping us in Discord, knock on our doors or throw something through our windows - our focus is on making you guys happy.
+If you believe your support query requires some level of escalation, we understand. Flexibility is important to us, and we're here to accommodate your needs. Please contact support leadership or your Customer Success Manager (CSM) via the [Contact page](../contact-resources.md). You can also ping us in Discord, knock on our doors or throw something through our windows - our focus is on making you guys happy.
 
-## Operating Hours and Holiday Availability
+## Operating hours and holiday availability
 
 At Rewst, we are committed to providing exceptional support while also respecting the work-life balance of our international team. Here’s what you can expect in terms of our operating hours and availability during holidays.
 
-### Standard Operating Hours
+### Standard operating hours
 
-**ROC Support Operating Hours:** Monday through Friday, 4 AM to 9 PM Eastern Time. During these hours, our team is actively available to address your support requests based on the priority levels outlined above.
+**Support operating hours:** Monday through Friday, 4 AM to 9 PM Eastern Time. During these hours, our team is actively available to address your support requests based on the priority levels outlined above.
 
 ### Extended support and flexibility
 
@@ -67,10 +60,10 @@ While our official operating hours are until 9 PM EST, our team often goes above
 
 As an international company, our team members observe official holidays according to their respective countries. However, due to the global nature of our team, there is often someone available, even during local holidays. This means you may still receive support during these times, though response times might be longer than usual.
 
-#### Notable Points:
+#### Notable points:
 
-* **Extended Support:** This is a discretionary effort from our team members and not an official part of our service agreement.
-* **Holiday Support:** While we strive to provide assistance during local holidays, this is subject to the availability of our international team members.
+* **Extended support:** This is a discretionary effort from our team members and not an official part of our service agreement.
+* **Holiday support:** While we strive to provide assistance during local holidays, this is subject to the availability of our international team members.
 
 ### Acknowledgements and gratitude
 

@@ -1,4 +1,4 @@
-# ROC Open Mic
+# Rewst Open Mic
 
 ## **Join us live!**
 
@@ -10,11 +10,13 @@ Join us live for Rewst's Community Open Mics. You're welcome to attend any of ou
 ### Click any of the region links below to browse through their recording archives.
 {% endhint %}
 
-### 🇺🇸🇨🇦[North America](roc-open-mics-north-america/) - every Friday at 3pm EST
+### 🇺🇸🇨🇦[North America](rewst-open-mics-north-america/) - every Friday at 3pm EST
 
-### 🇪🇺 [Europe](roc-open-mics-europe/) - First Thursday of every month at 3pm GMT
+### 🇪🇺 [Europe](rewst-open-mics-europe/) - First Thursday of every month at 3pm GMT
 
 ### 🇦🇺 🇳🇿[Australia, New Zealand](roc-open-mics-oceania/) - First Friday of every month at 2pm AEDT
+
+
 
 ## Latest North American Open Mic video recording
 

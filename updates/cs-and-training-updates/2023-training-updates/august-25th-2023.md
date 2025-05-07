@@ -25,7 +25,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [Open Mic - August 18th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-18th-2023-info-nuggets-and-jinja-burgers.md)
+* [Open Mic - August 18th Video and Page Added](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/august-18th-2023-info-nuggets-and-jinja-burgers.md)
 * Updates and Fixes
   * Updated [Connectwise Pods documentation](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md) to include steps for Adding Pods to Tickets
   * Fixed some broken links on the front page

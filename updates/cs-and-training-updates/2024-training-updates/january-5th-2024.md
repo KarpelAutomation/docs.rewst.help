@@ -28,9 +28,9 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * The last 3 weeks of 2023 Open Mic Pages are here:
-  * [dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md "mention")
-  * [dec-22nd-2023-simply-having-a-wonderful-rewsty-time.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-22nd-2023-simply-having-a-wonderful-rewsty-time.md "mention")
-  * [dec-29th-2023-last-open-mic-of-2023.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-29th-2023-last-open-mic-of-2023.md "mention")
+  * [dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md "mention")
+  * [dec-22nd-2023-simply-having-a-wonderful-rewsty-time.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/dec-22nd-2023-simply-having-a-wonderful-rewsty-time.md "mention")
+  * [dec-29th-2023-last-open-mic-of-2023.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/dec-29th-2023-last-open-mic-of-2023.md "mention")
 * Added [Broken link](broken-reference "mention")
 * Added [app-builder](../../../documentation/app-builder/ "mention")pages
 * Added [nable](../../../documentation/integrations/individual-integration-documentation/rmm/nable/ "mention")pages

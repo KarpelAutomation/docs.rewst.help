@@ -34,6 +34,6 @@ Explore what new changes the Training team has made in the last week.
 * [When are Folders coming?](https://engine.rewst.io/webhooks/custom/trigger/019258a0-a160-7cba-87ed-b4fee5dffc33/01916c87-6aa0-7415-a102-a7cd52543e4c)
 * Update to [kaseya-vsa-x-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md "mention")removed notice about waiting for VSA X to use specific crates.
 * Added to [#update-to-disable-forms-september-30th-2024](../../issue-alerts.md#update-to-disable-forms-september-30th-2024 "mention") notice of disabled forms still functioning.
-* New Open Mic added [sept-27-2024-3-examples-of-automations-that-help-with-ticket-management.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/sept-27-2024-3-examples-of-automations-that-help-with-ticket-management.md "mention")
+* New Open Mic added [sept-27-2024-3-examples-of-automations-that-help-with-ticket-management.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/sept-27-2024-3-examples-of-automations-that-help-with-ticket-management.md "mention")
 
 </details>

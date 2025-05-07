@@ -25,7 +25,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [october-13th-2023-mail-tracking-error-handling-and-onsite-requests.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/october-13th-2023-mail-tracking-error-handling-and-onsite-requests.md "mention") added
+* [october-13th-2023-mail-tracking-error-handling-and-onsite-requests.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/october-13th-2023-mail-tracking-error-handling-and-onsite-requests.md "mention") added
 * [godaddy-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/dns/godaddy/godaddy-integration-setup.md "mention")and Actions & Endpoints added
 * [synnex-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/licensing/synnex/synnex-integration-setup.md "mention")and Actions & Endpoints added
 * [crowdstrike-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/security/crowdstrike/crowdstrike-integration-setup.md "mention")and Actions & Endpoints added

@@ -1,6 +1,6 @@
 # Collecting diagnostics with browser developer tools
 
-At times, the ROC Support team needs further information to better solve your issue. When asked to provide a HAR file, follow the steps below.
+At times, the support team needs further information to better solve your issue. When asked to provide a HAR file, follow the steps below.
 
 ### Sanitize your HAR file prior to sending to support:
 
@@ -34,4 +34,4 @@ For more information on why you would want to sanitize your HAR file please refe
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-9. Provide the HAR file via Discord or via the ticket for ROC support to review.
+9. Provide the HAR file via Discord or via the ticket for support to review.

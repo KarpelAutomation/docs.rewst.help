@@ -37,7 +37,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [october-20th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflows.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/october-20th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflows.md "mention")
+* [october-20th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflows.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/october-20th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflows.md "mention")
 * **Updates and Fixes:**&#x20;
   * [internal-rewst-jinja-examples.md](../../../documentation/jinja/internal-rewst-jinja-examples.md "mention")Updated
   * [list-of-jinja-filters.md](../../../documentation/jinja/list-of-jinja-filters.md "mention")Updated with hmac and hex filters

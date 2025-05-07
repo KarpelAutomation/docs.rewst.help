@@ -33,6 +33,6 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [issue-alerts.md](../../issue-alerts.md "mention")updated regarding lost form access
-* Open Mic: [sept-13-2024-see-how-to-seamless-sync-calendly-events-and-tickets-with-rewst.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/sept-13-2024-see-how-to-seamless-sync-calendly-events-and-tickets-with-rewst.md "mention")
+* Open Mic: [sept-13-2024-see-how-to-seamless-sync-calendly-events-and-tickets-with-rewst.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/sept-13-2024-see-how-to-seamless-sync-calendly-events-and-tickets-with-rewst.md "mention")
 
 </details>

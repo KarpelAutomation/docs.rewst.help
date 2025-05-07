@@ -36,7 +36,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* Last week's Open Mic video [august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md "mention")has been added.
+* Last week's Open Mic video [august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md "mention")has been added.
 * [least-privilege-access-requirements-for-connectwise-manage-integration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md "mention") has been updated.
 
 </details>

@@ -4,7 +4,7 @@
 
 <summary>Will deprecated Crates still be supported?</summary>
 
-The ROC will continue to provide best effort support to help resolve issues with deprecated Crates. However, if a fault is identified within a deprecated Crate, we'll suggest you migrate to the new Crates for the best long-term solution.
+Rewst support will continue to provide best effort support to help resolve issues with deprecated Crates. However, if a fault is identified within a deprecated Crate, we'll suggest you migrate to the new Crates for the best long-term solution.
 
 </details>
 
@@ -75,6 +75,6 @@ End customers will experience no immediate impact. However, migrating to the new
 {% hint style="warning" %}
 If you have any urgent concerns, please contact your support team.
 
-* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
-* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+* **Discord** - Rewst's support team is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 {% endhint %}

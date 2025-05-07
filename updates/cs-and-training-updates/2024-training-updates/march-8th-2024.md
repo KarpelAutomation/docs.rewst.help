@@ -25,7 +25,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [march-1-2024-early-bird-specials-for-flow-in-the-kewp.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/march-1-2024-early-bird-specials-for-flow-in-the-kewp.md "mention")page added
+* [march-1-2024-early-bird-specials-for-flow-in-the-kewp.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/march-1-2024-early-bird-specials-for-flow-in-the-kewp.md "mention")page added
 * [kaseya-bms-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/kaseya-bms/kaseya-bms-integration-setup.md "mention")instructions updated
 * [nable](../../../documentation/integrations/individual-integration-documentation/rmm/nable/ "mention")pages updated
 * [organization-variables.md](../../../documentation/organization-variables.md "mention")page updated

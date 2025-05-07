@@ -13,7 +13,8 @@ Rewst’s support access feature allows you to control levels of child organizat
 {% hint style="info" %}
 The two levels of access for this feature are:
 
-1. Read-only access: Rewst support will be able to see all details in the organization. We will not be able to edit anything within that organization. This is the default setting for organizations for all support. NOTE: Rewst support with read-only access are able to use the Jinja live editor.
+1. Read-only access: Rewst support will be able to see all details in the organization. We will not be able to edit anything within that organization. This is the default setting for organizations for all support. \
+   NOTE: Rewst support with read-only access are able to use the Jinja live editor.
 2. Write access: Rewst support will be able to edit and make changes to the contents of that organization.
 {% endhint %}
 

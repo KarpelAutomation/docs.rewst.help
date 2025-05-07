@@ -32,7 +32,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [october-6th-2023-mfa-buffet.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/october-6th-2023-mfa-buffet.md "mention")added
+* [october-6th-2023-mfa-buffet.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/october-6th-2023-mfa-buffet.md "mention")added
 * [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")page with video added&#x20;
 * **Updates and Fixes:**&#x20;
   * [pod-configuration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md "mention"): Added a section on **r**e-running a pod from a ticket

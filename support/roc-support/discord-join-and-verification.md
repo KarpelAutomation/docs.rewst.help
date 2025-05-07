@@ -1,4 +1,4 @@
-# Discord join & verification
+# Discord join and verification
 
 ## Discord verification process
 
@@ -27,9 +27,9 @@ You must have an existing Rewst account to use the form
 2. **Confirm your organization**\
    The form should automatically display your organization's name. If correct, proceed to the next step.
 3. **Confirm self-verification**\
-   Choose the "Me" option to confirm that you are verifying yourself.
+   Choose the **Me** option to confirm that you are verifying yourself.
 4. **Authorize Discord access**\
-   A dropdown will appear with the option to "Add New User to Rewst Discord". Click on the link that says "Click here to authorise access to Discord".
+   A dropdown will appear with the option to "Add New User to Rewst Discord". Click on the link that says **Click here to authorize access to Discord**.
 
 <figure><img src="../../.gitbook/assets/image (29).png" alt="" width="354"><figcaption></figcaption></figure>
 
@@ -47,7 +47,5 @@ You must have an existing Rewst account to use the form
 If you're already part of our community server, you can follow the same steps above to start the verification process.
 
 ***
-
-By following these steps, you'll be successfully verified and added to the appropriate Discord servers, ensuring you have access to the resources you need.
 
 If you encounter any issues during the process, please reach out to our support team for assistance.

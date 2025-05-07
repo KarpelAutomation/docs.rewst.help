@@ -62,4 +62,4 @@ This can be anything from new features, bug fixes or QoL changes!
 
 </details>
 
-If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/roc-open-mics-north-america/2022-roc-open-mics/november-4th-2022-your-workflows-are-listening.md)
+If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/rewst-open-mics-north-america/2022-roc-open-mics/november-4th-2022-your-workflows-are-listening.md)

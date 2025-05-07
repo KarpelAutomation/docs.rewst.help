@@ -68,7 +68,7 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
 
 ### For loops:
 
-For loops in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.
+_For loops_ in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.
 
 **Example:**
 
@@ -92,7 +92,9 @@ For loops in Jinja enable you to iterate through JSON lists, executing actions f
 
 ### List comprehension in action
 
-* **Functionality:** Efficiently creates new lists from existing ones, based on specific criteria. You can combine filters and conditions to produce concise, targeted lists.
+*   **Functionality:** Efficiently creates new lists from existing ones, based on specific criteria. You can combine filters and conditions to produce concise, targeted lists, all in one Jinja expression.
+
+    > “Give me a list of all X from Y, but only if Z.”
 * **Application:** Tailors data selection in workflows, enhancing efficiency and precision.
 
 **Three-step structure**

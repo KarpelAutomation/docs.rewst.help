@@ -48,4 +48,4 @@ This can be anything from new features, bug fixes or QoL changes!
 
 </details>
 
-If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/june-9th-2023-automation-doesnt-have-to-be-like-pulling-teeth.md)
+If you'd like to see these in action, review the latest [Open Mic recording here](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/june-9th-2023-automation-doesnt-have-to-be-like-pulling-teeth.md)
