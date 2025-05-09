@@ -2,7 +2,7 @@
 
 ## What is included in Rewst support
 
-Our below Abuse Prevention Policy outlines what you can expect from working with the Rewst support team.
+To clarify what our support team provides and the scope of our services, here are the guidelines we follow to ensure a smooth and productive experience for all customers
 
 ### Issue troubleshooting
 
@@ -20,7 +20,7 @@ Our support team is here to help you troubleshoot issues and ensure the applicat
 
 ### Consulting guidance
 
-We provide guidance to address specific concerns or clarify best practices on a fair-use and best-effort basis, aligned with our Abuse Prevention Policy.
+We provide guidance to address specific concerns or clarify best practices on a fair-use and best-effort basis, aligned with our below Abuse Prevention Policy.
 
 1. What we do - Offer recommendations and advice to help you achieve your goals.
 2. What we don’t do

@@ -34,7 +34,7 @@ To allow Rewst access to your ConnectWise ScreenConnect, you'll need to create a
 
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt=""><figcaption></figcaption></figure>
-6. Ensure that you check on at minimum the **Control Host** permission.
+6. Ensure that you check on at minimum the **Control Admin** permission.
 7. Make a note of the **username**, **password**, and **OTP** secret , which you'll need for setup steps in Rewst.
 8. Click **Save User**.
 

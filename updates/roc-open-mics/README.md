@@ -2,7 +2,10 @@
 
 ## **Join us live!**
 
-Join us live for Rewst's Community Open Mics. You're welcome to attend any of our regular sessions regardless of your geographic location. Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
+This isn’t your typical vendor call—it’s where our community gathers to grow! Every Friday, we meet to share company updates, celebrate ingenious MSP workflows, and spotlight the innovative automations our partners have been cooking up. Think of it as part town hall, part talent show, with a dash of nerdy fun. Whether you join to learn, laugh, or present your masterpiece, this is your stage to connect, collaborate, and inspire. Grab your coffee (or your drink of choice), and let’s keep building brilliance together!\
+Is 3pm EST on Fridays not a great time for you? Check out our EU and ANZ monthly calls where you can catch all the latest Rewst updates and have the opportunity to view or present live automation demos.
+
+Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ### [Click here to access calendar invites for all regional Open Mics.](https://go.rew.st/open-mic?hs_preview=BFeQDWBI-187816500244)
 
