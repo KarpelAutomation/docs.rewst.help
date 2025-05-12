@@ -37,8 +37,8 @@ Check them (and our other courses) out on the [Cluck University Landing Page](ht
 
 **New & Updated Pages:**
 
-* Added Merge Tickets to [#additional-action-requirements](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md#additional-action-requirements "mention") in [least-privilege-access-requirements-for-connectwise-manage-integration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md "mention")
-* [form-organizational-variables.md](../../../documentation/forms/form-organizational-variables.md "mention") has been updated
+* Added Merge Tickets to [Broken link](broken-reference "mention") in [Broken link](broken-reference "mention")
+* [form-organizational-variables.md](../../../documentation/automations/forms/form-organizational-variables.md "mention") has been updated
 * Every [Broken link](broken-reference "mention") course page has been updated with a new structure to reflect changes as well as the new Knowledge Checks! More to come on these!
 
 </details>

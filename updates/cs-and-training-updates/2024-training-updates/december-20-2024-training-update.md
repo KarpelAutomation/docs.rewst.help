@@ -40,11 +40,11 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Updated Pages
-  * [pax8-2025-oauth-transition-planning.md](../../../documentation/integrations/individual-integration-documentation/licensing/pax8/pax8-2025-oauth-transition-planning.md "mention")
-  * [datto-psa-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/autotask-datto-psa/datto-psa-integration-setup.md "mention")&#x20;
-  * [it-portal-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/it-portal-coming-soon/it-portal-integration-setup.md "mention")
   * [Broken link](broken-reference "mention")
-  * [pod-configuration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md "mention")
+  * [datto-psa-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/psa/datto-psa-integration-setup.md "mention")&#x20;
+  * [it-portal-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/documentation/it-portal-integration-setup.md "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
 * Formatting and Standardization
 
 </details>

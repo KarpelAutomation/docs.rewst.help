@@ -10,11 +10,11 @@ _Jinja_ is a versatile templating language for creating dynamic content. It supp
 
 ### Key features:
 
-* **Variable Manipulation:** Create and modify context variables.
-* **Dynamic Content Creation:** Use loops and conditionals to tailor content.
-* **Filter Utilization:** Apply built-in filters for efficient data processing.
+* **Variable manipulation:** Create and modify context variables.
+* **Dynamic content creation:** Use loops and conditionals to tailor content.
+* **Filter utilization:** Apply built-in filters for efficient data processing.
 
-## Understanding Jinja syntax in Rewst
+## Understand Jinja syntax in Rewst
 
 ### Braces and their functions:
 
@@ -146,7 +146,7 @@ Interested in seeing Jinja examples in the platform? Search the crate marketplac
 
 ***
 
-## **Creating variables in Jinja**
+## **Create variables in Jinja**
 
 ### **In-workflow variable creation**
 

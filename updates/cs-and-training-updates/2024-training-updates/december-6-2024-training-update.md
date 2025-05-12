@@ -40,7 +40,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Updated Pages
-  * Added alert/note in [connectsecure-integration-migration-v3-to-v4.md](../../../documentation/integrations/individual-integration-documentation/security/cybercns/connectsecure-integration-migration-v3-to-v4.md "mention") about V3 to V4 user migration.
+  * Added alert/note in [connectsecure-integration-migration-v3-to-v4.md](../../../documentation/configuration/integrations/individual-integration-documentation/security/cybercns/connectsecure-integration-migration-v3-to-v4.md "mention") about V3 to V4 user migration.
   * Added [Broken link](broken-reference "mention")
   * Added [app-builder-amas](../../app-builder-amas/ "mention") section
 

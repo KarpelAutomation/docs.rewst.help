@@ -16,7 +16,7 @@ Explore what new changes the Training team has made in the last week.
 
 * The first Rewst 101: Laying the Foundations of Automation is scheduled for June 15th! [You can sign up now!](https://calendly.com/cluck-u/laying-the-foundations-of-automation)
 * The Following Documentation have been released:
-  * [IT Glue Integration Setup](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/it-glue-integration-setup.md)
+  * [IT Glue Integration Setup](../../../documentation/configuration/integrations/individual-integration-documentation/documentation/it-glue-integration-setup.md)
 * The following Documentation bugs have been fixed:
   * Fixed broken link in note for multi-tenancy integration.
 

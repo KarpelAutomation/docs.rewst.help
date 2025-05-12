@@ -1,4 +1,8 @@
-# Incoming and outgoing domains and IP addresses
+---
+icon: arrow-right-arrow-left
+---
+
+# Incoming and outgoing domains and IPs
 
 ## **Outgoing IP addresses**
 

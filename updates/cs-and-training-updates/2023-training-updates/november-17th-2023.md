@@ -21,23 +21,23 @@ Explore what new changes the Training team has made in the last week.
 
 **New Pages**
 
-* Added a page for the [discord-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/chat/discord/discord-integration-setup.md "mention")
-* Added a page for the [jira-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/documentation/jira/jira-integration-setup.md "mention")
+* Added a page for the [discord-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/chat/discord-integration-setup.md "mention")
+* Added a page for the [jira-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/documentation/jira-integration-setup.md "mention")
 * Added a page for the [Broken link](broken-reference "mention")
 * Added a page for [app-builder](../../../documentation/app-builder/ "mention") and how to submit your[Broken link](broken-reference "mention") to us.
-* Added the [embracing-the-microsoft-minute.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
-* Added a page for the [view-rewst-integration-org-variables.md](../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
-* Added page about [document-with-roborewsty.md](../../../documentation/workflows/document-with-roborewsty.md "mention")
+* Added the [embracing-the-microsoft-minute.md](../../../documentation/configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
+* Added a page for the [view-rewst-integration-org-variables.md](../../../documentation/crates/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
+* Added page about [document-with-roborewsty.md](../../../documentation/automations/workflows/document-with-roborewsty.md "mention")
 * Added a use case page about [efficiently-extracting-nested-data.md](../../../documentation/jinja/use-cases-and-best-practices/efficiently-extracting-nested-data.md "mention")
-* Added a use case page about [customizing-psa-ticket-triggers.md](../../../documentation/triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md "mention")
+* Added a use case page about [customizing-psa-ticket-triggers.md](../../../documentation/automations/intro-to-triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md "mention")
 
 **Updated & Enhanced Pages**
 
 * Updated the [Broken link](broken-reference "mention") page to include more context on what types of questions the Exam will be asking to incorporate into a study guide
-* Updated the [azure-openai-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/ai/openai/azure-openai-integration-setup.md "mention") page for more explicit instructions on how to craft your Base URL.
-* Updated the [cybercns](../../../documentation/integrations/individual-integration-documentation/security/cybercns/ "mention") page to include reference to ConnectSecure branding.
-* Updated the [organization-variables.md](../../../documentation/organization-variables.md "mention") page to explain how Use as Default works
-* Updated the [rewst-actions.md](../../../documentation/actions-in-rewst/rewst-actions.md "mention") page for more context and reference to usage including breaking out pages for the following categories:
+* Updated the [azure-openai-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/ai/openai/azure-openai-integration-setup.md "mention") page for more explicit instructions on how to craft your Base URL.
+* Updated the [cybercns](../../../documentation/configuration/integrations/individual-integration-documentation/security/cybercns/ "mention") page to include reference to ConnectSecure branding.
+* Updated the [organization-variables.md](../../../documentation/configuration/organization-variables.md "mention") page to explain how Use as Default works
+* Updated the [rewst-actions.md](../../../documentation/automations/actions-in-rewst/rewst-actions.md "mention") page for more context and reference to usage including breaking out pages for the following categories:
   * [Broken link](broken-reference "mention")
   * [Broken link](broken-reference "mention")
   * [Broken link](broken-reference "mention")

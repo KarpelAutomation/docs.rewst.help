@@ -1,6 +1,16 @@
 # The Live Editor
 
-Access Rewst's Live Editor by navigating to **Tools > Live Editor** in the left side menu of your Rewst platform.
+## What is the Live Editor?
+
+Rewst's _Live Editor_ is an interactive environment in the Rewst platform where you can test and debug workflows, Jinja, PowerShell, and variables in real time. Instead of building blindly and hoping it works later, check your code and see if it delivers your desired result.&#x20;
+
+* Run individual steps or entire branches of a workflow and see how things behave.&#x20;
+* Inspect the actual data moving through a workflow, including step outputs, parsed inputs, and runtime values.
+* Test your Jinja expressions directly on real data without deploying the full workflow.
+
+## Use the Live Editor in Rewst
+
+Access the Live Editor by navigating to **Tools > Live Editor** in the left side menu of your Rewst platform.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-04-17 at 11.02.40 AM.png" alt=""><figcaption></figcaption></figure>
 

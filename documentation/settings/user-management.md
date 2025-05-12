@@ -1,6 +1,8 @@
 # Users
 
-A _user_ in Rewst is an individual. That individual will be allowed to interact with Rewst in some way, as dictated by their [role](roles.md). Users should not be confused with [organizations](../organization-variables.md).
+## What is a Rewst user?
+
+A _user_ in Rewst is an individual. That individual will be allowed to interact with Rewst in some way, as dictated by their [role](roles.md). Users should not be confused with [organizations](../configuration/organization-variables.md).
 
 ## View users in Rewst
 

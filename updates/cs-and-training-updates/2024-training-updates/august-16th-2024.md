@@ -40,7 +40,7 @@ Sign up on the [Cluck University Landing Page](https://go.rew.st/cluck-universit
 
 **New & Updated Pages:**
 
-* [form-organizational-variables.md](../../../documentation/forms/form-organizational-variables.md "mention") has been updated, shout out to Brian Simpson ALSO HAPPY BIRTHDAY BRIAN!!!! 🎉🎂🎊🎁
+* [form-organizational-variables.md](../../../documentation/automations/forms/form-organizational-variables.md "mention") has been updated, shout out to Brian Simpson ALSO HAPPY BIRTHDAY BRIAN!!!! 🎉🎂🎊🎁
 * Every [Broken link](broken-reference "mention") course page has been updated with a new structure to reflect changes as well as the new Knowledge Checks! More to come on these!
 
 </details>

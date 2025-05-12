@@ -1,3 +1,18 @@
+---
+icon: microphone-lines
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Rewst Open Mic
 
 ## **Join us live!**
@@ -13,9 +28,9 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 ### Click any of the region links below to browse through their recording archives.
 {% endhint %}
 
-### 🇺🇸🇨🇦[North America](rewst-open-mics-north-america/) - every Friday at 3pm EST
+### 🇺🇸🇨🇦[North America](roc-open-mics-north-america/) - every Friday at 3pm EST
 
-### 🇪🇺 [Europe](rewst-open-mics-europe/) - First Thursday of every month at 3pm GMT
+### 🇪🇺 [Europe](roc-open-mics-europe/) - First Thursday of every month at 3pm GMT
 
 ### 🇦🇺 🇳🇿[Australia, New Zealand](roc-open-mics-oceania/) - First Friday of every month at 2pm AEDT
 

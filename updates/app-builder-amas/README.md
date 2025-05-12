@@ -1,9 +1,24 @@
+---
+icon: seal-question
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # App Builder AMAs
 
 {% hint style="info" %}
 ### New App Builder AMAs are currently on hold. Click through our existing App Builder AMA recordings to learn more about use and functionality.&#x20;
 
-For specific App Builder questions, [reach out to the ROC](../../support/roc-support/).&#x20;
+For specific App Builder questions, [reach out to the ROC](../../support-and-community/roc-support/).&#x20;
 {% endhint %}
 
 ## Latest App Builder AMA video recording

@@ -1,2 +1,0 @@
-# IT Portal (Coming soon)
-

@@ -13,7 +13,7 @@
 
 {% tabs %}
 {% tab title="CTX" %}
-Context Variables are specific to the currently executing workflow. They include variables like [inputs ](../workflows/data-input-and-output-input-variables-and-context-variables.md#workflow-input)from the [workflow's trigger](../triggers/intro-to-triggers.md), any defined [Data Aliases](../workflows/data-aliases.md#diving-into-data-aliases), and results from tasks that have been executed.
+Context Variables are specific to the currently executing workflow. They include variables like [inputs ](../automations/workflows/data-input-and-output-input-variables-and-context-variables.md#workflow-input)from the [workflow's trigger](../automations/intro-to-triggers/), any defined [Data Aliases](../automations/workflows/data-aliases.md#diving-into-data-aliases), and results from tasks that have been executed.
 
 * **Usage**: `{{ CTX.variable_name }}`
 * **Additional Note**: Task results can be accessed once the task is complete. If attempted earlier, the variable will be `undefined`.

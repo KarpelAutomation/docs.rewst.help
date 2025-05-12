@@ -25,14 +25,14 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [Open Mic - August 18th Video and Page Added](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/august-18th-2023-info-nuggets-and-jinja-burgers.md)
+* [Open Mic - August 18th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-18th-2023-info-nuggets-and-jinja-burgers.md)
 * Updates and Fixes
-  * Updated [Connectwise Pods documentation](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md) to include steps for Adding Pods to Tickets
+  * Updated [Connectwise Pods documentation](broken-reference) to include steps for Adding Pods to Tickets
   * Fixed some broken links on the front page
-  * Fixed the IT Glue Documentation link on the [IT Glue Integration Setup Page](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/it-glue-integration-setup.md).
+  * Fixed the IT Glue Documentation link on the [IT Glue Integration Setup Page](../../../documentation/configuration/integrations/individual-integration-documentation/documentation/it-glue-integration-setup.md).
   * Fixed the Workflow and Crate links on the [Rewst Terminology Page](broken-reference).
-  * Fixed Broken links on [Actions in Rewst page](../../../documentation/actions-in-rewst/).
-  * Fixed code snippet and formatting errors on the [Dynamic Options and Inputs page](../../../documentation/forms/intro-to-forms.md).
+  * Fixed Broken links on [Actions in Rewst page](../../../documentation/automations/actions-in-rewst/).
+  * Fixed code snippet and formatting errors on the [Dynamic Options and Inputs page](../../../documentation/automations/forms/intro-to-forms.md).
   * Removed broken links on the [Workflow Notes page](broken-reference).
   * Fixed Broken Rewst platform links on all integration setup pages.
   * Various punctuation and formatting fixes on all the integration setup pages.

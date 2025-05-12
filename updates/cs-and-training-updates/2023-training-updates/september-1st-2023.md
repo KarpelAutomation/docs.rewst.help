@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 **Cluck University**
 
 * Added a [feedback and credit form](broken-reference) to the Rewst Foundation Pages
-* Added text summaries for all the [Getting Started pages](../../../cluck-university/getting-started.md) for our partners who prefer reading over video
+* Added text summaries for all the [Getting Started pages](../../../support-and-community/getting-started.md) for our partners who prefer reading over video
 * Chow Time: Added Updated [Rewst 102](broken-reference) and [Rewst 103](broken-reference) videos made by our very own Legend - Eddie Chow
 * Added [How to Scope an Automation](broken-reference) video in the Getting Started Section
 * Added a Workflow [Tips & Tricks video to Getting Started](broken-reference), focusing on documenting your workflows, using multi-select, and favoriting actions
@@ -32,19 +32,19 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [Open Mic - August 25th Video and Page Added](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/august-25th-2023-looks-like-brandwichs-back-on-the-menu.md)
-* Added a [CSP/CPV Permission Checker Page](../../../prebuilt-automations/existing-crate-documentation/m365-csp-gdap-permission-checker-crate.md)
-* Added a [DattoRMM Bring Your Own Database Page](../../../documentation/integrations/individual-integration-documentation/database/byod-for-dattormm.md)
-* Added a [Integrating with Two CSPs Page](../../../documentation/integrations/multi-instance-integration/integrate-multiple-instances-of-the-same-integration.md)
+* [Open Mic - August 25th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-25th-2023-looks-like-brandwichs-back-on-the-menu.md)
+* Added a [CSP/CPV Permission Checker Page](../../../documentation/crates/existing-crate-documentation/m365-csp-gdap-permission-checker-crate.md)
+* Added a [DattoRMM Bring Your Own Database Page](../../../documentation/configuration/integrations/individual-integration-documentation/database/byod-for-dattormm.md)
+* Added a [Integrating with Two CSPs Page](../../../documentation/configuration/integrations/multi-instance-integration/integrate-multiple-instances-of-the-same-integration.md)
 * Updates and Fixes
-  * Updated [Intro to Triggers page](../../../documentation/triggers/intro-to-triggers.md)
-  * Add instructions for unpacking a Crate on the [What is a Crate page](../../../prebuilt-automations/crates/)
-  * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/it-glue-integration-setup.md)
-  * Updated the wording on the [Database Setup Page](../../../documentation/integrations/individual-integration-documentation/database/database-integration-setup.md)
-  * Updated Support note in [Custom Integrations Page](../../../documentation/integrations/other/custom-integrations/)
-  * Fixed incorrect information on [Least Privilege Access Requirements for the ConnectWise Manage Integration Page](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md)
-  * Added missing images to [Form Best Practices](../../../documentation/forms/form-best-practices.md) Page
-  * Fixed Rewst Script Run Powershell file name for download on [Datto RMM Integration Setup Page](../../../documentation/integrations/individual-integration-documentation/rmm/datto-rmm/datto-rmm-integration-setup.md)
+  * Updated [Intro to Triggers page](../../../documentation/automations/intro-to-triggers/)
+  * Add instructions for unpacking a Crate on the [What is a Crate page](../../../documentation/crates/)
+  * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../../documentation/configuration/integrations/individual-integration-documentation/documentation/it-glue-integration-setup.md)
+  * Updated the wording on the [Database Setup Page](../../../documentation/configuration/integrations/individual-integration-documentation/database/database-integration-setup.md)
+  * Updated Support note in [Custom Integrations Page](../../../documentation/configuration/integrations/custom-integrations/)
+  * Fixed incorrect information on [Least Privilege Access Requirements for the ConnectWise Manage Integration Page](broken-reference)
+  * Added missing images to [Form Best Practices](../../../documentation/automations/forms/form-best-practices.md) Page
+  * Fixed Rewst Script Run Powershell file name for download on [Datto RMM Integration Setup Page](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/datto-rmm-integration-setup.md)
 
 </details>
 

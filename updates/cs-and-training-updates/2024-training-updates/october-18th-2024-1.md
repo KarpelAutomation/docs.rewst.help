@@ -36,6 +36,6 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* New Open Mic Page Added: [oct-11-2024-unlock-hidden-azure-ad-data-with-this-genius-workflow-trick.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/oct-11-2024-unlock-hidden-azure-ad-data-with-this-genius-workflow-trick.md "mention")
+* New Open Mic Page Added: [oct-11-2024-unlock-hidden-azure-ad-data-with-this-genius-workflow-trick.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/oct-11-2024-unlock-hidden-azure-ad-data-with-this-genius-workflow-trick.md "mention")
 
 </details>

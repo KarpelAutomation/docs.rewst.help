@@ -4,6 +4,6 @@
 [Click here to access the calendar invite for future Oceania Open Mics.](https://go.rew.st/open-mic?hs_preview=BFeQDWBI-187816500244)
 {% endhint %}
 
-{% content-ref url="2025-rewst-open-mics-oceania/" %}
-[2025-rewst-open-mics-oceania](2025-rewst-open-mics-oceania/)
+{% content-ref url="2025-roc-open-mics-oceania/" %}
+[2025-roc-open-mics-oceania](2025-roc-open-mics-oceania/)
 {% endcontent-ref %}

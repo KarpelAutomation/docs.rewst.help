@@ -35,11 +35,11 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [itglue](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/ "mention")pages combined.
-* [halo-integration-setup.md](../../../documentation/integrations/psa/halopsa/halo-integration-setup.md "mention") pages combined.
+* [Broken link](broken-reference "mention")pages combined.
+* [halo-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/psa/halo-integration-setup.md "mention") pages combined.
 * [components](../../../documentation/app-builder/components/ "mention")subpages updated.
-* [pod-configuration.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/pod-configuration.md "mention")page updated.
-* [add-rewst-flexible-assets-to-sidebar-in-it-glue.md](../../../documentation/integrations/individual-integration-documentation/documentation/itglue/add-rewst-flexible-assets-to-sidebar-in-it-glue.md "mention") page added.
+* [Broken link](broken-reference "mention")page updated.
+* [Broken link](broken-reference "mention") page added.
 * [tags-in-rewst.md](../../../documentation/settings/tags-in-rewst.md "mention") page added.
 * [roc-open-mics](../../roc-open-mics/ "mention") video added.
 

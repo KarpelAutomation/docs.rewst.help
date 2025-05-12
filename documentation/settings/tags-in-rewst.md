@@ -1,14 +1,14 @@
-# Tags in Rewst
+# Tags
 
-{% hint style="info" %}
-Tags let you earmark the automations that you care about most, for quick searching and access. Tags can be added by users with the [permission levels](https://docs.rewst.help/documentation/user-management/roles) of member, staff, and admin.
-{% endhint %}
+## What are tags in Rewst?
+
+_Tags_ let you earmark the automations that you care about most, for quick searching and access. Tags can be added by users with the [permission levels](https://docs.rewst.help/documentation/user-management/roles) of member, staff, and admin.
+
+## Add tags to workflows
 
 {% hint style="success" %}
 The below directions will walk you through how to use tags for workflows, as an example. These same directions will work for how to add tags to forms, scripts, and templates, all found under Automations in the left side menu of Rewst. Once a tag is created, it can be applied to any automation type.
 {% endhint %}
-
-## Add tags to workflows
 
 1. Navigate to **Automations** > **Workflows** in Rewst.
 2. Click the three dots to the right of your relevant workflow.

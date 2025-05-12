@@ -38,15 +38,15 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md "mention")available
+* [nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/nov-3rd-2023-huge-rewst-announcements-you-cant-miss-out-on.md "mention")available
 * [Broken link](broken-reference "mention")Coming soon page added - Shout-out to Reed Kimble!
-* [collecting-diagnostics-with-browser-developer-tools.md](../../../support/roc-support/collecting-diagnostics-with-browser-developer-tools.md "mention") added to the ROC Support section
+* [collecting-diagnostics-with-browser-developer-tools.md](../../../support-and-community/roc-support/collecting-diagnostics-with-browser-developer-tools.md "mention") added to the ROC Support section
 * [Broken link](broken-reference "mention")subpage added to [Broken link](broken-reference "mention")
 * [Broken link](broken-reference "mention") page added
 * **Updates and Fixes:**&#x20;
   * [Broken link](broken-reference "mention")updated with new information
-  * Liongard [actions-and-endpoints.md](../../../documentation/integrations/individual-integration-documentation/security/liongard/actions-and-endpoints.md "mention")page updated
-  * [sonicwall-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/security/sonicwall-nsm/sonicwall-integration-setup.md "mention")updated with new steps
-  * [byod-for-dattormm.md](../../../documentation/integrations/individual-integration-documentation/database/byod-for-dattormm.md "mention")instructions added
+  * Liongard [Broken link](broken-reference "mention")page updated
+  * [sonicwall-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/security/sonicwall-integration-setup.md "mention")updated with new steps
+  * [byod-for-dattormm.md](../../../documentation/configuration/integrations/individual-integration-documentation/database/byod-for-dattormm.md "mention")instructions added
 
 </details>

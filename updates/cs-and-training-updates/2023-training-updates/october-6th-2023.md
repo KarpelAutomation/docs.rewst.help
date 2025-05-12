@@ -25,8 +25,8 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [september-29-2023-no-microtransactions-with-these-new-crates.md](../../roc-open-mics/rewst-open-mics-north-america/2023-roc-open-mics/september-29-2023-no-microtransactions-with-these-new-crates.md "mention")
-* [collecting-diagnostics-with-browser-developer-tools.md](../../../support/roc-support/collecting-diagnostics-with-browser-developer-tools.md "mention") page added.
+* [september-29-2023-no-microtransactions-with-these-new-crates.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/september-29-2023-no-microtransactions-with-these-new-crates.md "mention")
+* [collecting-diagnostics-with-browser-developer-tools.md](../../../support-and-community/roc-support/collecting-diagnostics-with-browser-developer-tools.md "mention") page added.
 * [jinja-reserved-keywords.md](../../../documentation/jinja/use-cases-and-best-practices/jinja-reserved-keywords.md "mention") added to Jinja Use Cases & Best Practices.
 * [data-types.md](../../../documentation/jinja/data-types.md "mention") page added to the Jinja section.
 * **Updates and Fixes:** Moved existing use case specific Jinja docs into the Common Jinja Examples section, and added the following pages:

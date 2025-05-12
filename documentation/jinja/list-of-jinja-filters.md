@@ -1,6 +1,6 @@
 # List of Jinja filters
 
-In any Jinja editor in the Rewst platform, see what's available by using the `|` character within `{{ }}` .
+_Jinja filters_ are used to modify the value of a variable. You use them with the pipe (`|`) symbol. In any Jinja editor in the Rewst platform, see what's available by using  `|` character within `{{ }}` .
 
 <figure><img src="../../.gitbook/assets/jinja-filter-list.gif" alt=""><figcaption></figcaption></figure>
 

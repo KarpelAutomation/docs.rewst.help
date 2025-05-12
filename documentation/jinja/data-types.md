@@ -28,7 +28,7 @@ Strings represent words or sentences enclosed in quotes, like "Hello World".
 {{- "hello world" -}}
 ```
 
-### **Lists: Ordered Collections**
+### **Lists: Ordered collections**
 
 Lists are ordered collections of data, allowing a mix of different types within the same list.
 
@@ -82,6 +82,3 @@ NoneType represents null or None values, indicating the absence of a value. To c
 {{- none -}}
 ```
 
-### **Conclusion**
-
-Understanding the various data types in Jinja is crucial for data manipulation and template rendering. By mastering these data types, developers can create versatile templates capable of handling diverse types of information. Whether it's integers for numerical operations, strings for text manipulation, or dictionaries for structured data, knowing when and how to use each data type empowers developers to craft powerful and dynamic Jinja templates. Incorporate these concepts into your templates to enhance their functionality and flexibility, creating more efficient and robust applications.

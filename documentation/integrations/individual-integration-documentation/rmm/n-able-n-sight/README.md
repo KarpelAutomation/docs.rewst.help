@@ -1,2 +1,0 @@
-# N-able N-sight
-

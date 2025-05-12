@@ -25,13 +25,13 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [march-1-2024-early-bird-specials-for-flow-in-the-kewp.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/march-1-2024-early-bird-specials-for-flow-in-the-kewp.md "mention")page added
-* [kaseya-bms-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/kaseya-bms/kaseya-bms-integration-setup.md "mention")instructions updated
-* [nable](../../../documentation/integrations/individual-integration-documentation/rmm/nable/ "mention")pages updated
-* [organization-variables.md](../../../documentation/organization-variables.md "mention")page updated
-* [connectwise-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/psa/connectwise-manage/connectwise-integration-setup.md "mention")page updated
+* [march-1-2024-early-bird-specials-for-flow-in-the-kewp.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/march-1-2024-early-bird-specials-for-flow-in-the-kewp.md "mention")page added
+* [kaseya-bms-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/psa/kaseya-bms-integration-setup.md "mention")instructions updated
+* [Broken link](broken-reference "mention")pages updated
+* [organization-variables.md](../../../documentation/configuration/organization-variables.md "mention")page updated
+* [connectwise-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/psa/connectwise-integration-setup.md "mention")page updated
 * [security-policy.md](../../../security/security-policy.md "mention")page updated
-* [twilio-integration-setup.md](../../../documentation/integrations/individual-integration-documentation/voip-and-sms/twilio/twilio-integration-setup.md "mention")and [actions-and-endpoints.md](../../../documentation/integrations/individual-integration-documentation/voip-and-sms/twilio/actions-and-endpoints.md "mention")pages added
+* [twilio-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/voip-and-sms/twilio-integration-setup.md "mention")and [Broken link](broken-reference "mention")pages added
 
 </details>
 

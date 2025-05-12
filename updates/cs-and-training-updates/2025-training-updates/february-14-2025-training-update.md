@@ -49,7 +49,7 @@ Explore what new changes the Training team has made in the last week.
 * [Cove integration documentation](https://docs.rewst.help/documentation/integrations/security/cove-integration)
 * [Webroot integration documentation](https://docs.rewst.help/documentation/integrations/security/webroot)
 * [Updated Crate documentation template to include more styling examples and links to other new existing documentation](https://www.notion.so/rewst/CLONE-ME-Crate-documentation-template-18cb56f9907180a2a9bcca3b6b26506d)
-* [Updated the Completion Handler documentation](../../../documentation/workflows/completion-handlers-and-workflow-wrappers.md)
+* [Updated the Completion Handler documentation](../../../documentation/automations/workflows/completion-handlers-and-workflow-wrappers.md)
 * [Updated Email + Text Automation Jump Start Page to clarify last step with link to Completion handler docs](broken-reference)
 
 </details>

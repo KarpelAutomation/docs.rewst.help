@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [Open Mic - July 28th Video and Page Added](https://docs.rewst.help/updates/roc-open-mics/july-21st-2023-transform-er-s-jinja-in-disguise)
-* [Updated the Getting Started Section](../../../cluck-university/getting-started.md):
+* [Updated the Getting Started Section](../../../support-and-community/getting-started.md):
   * Updated the Intro Page
   * Updated Rewst Platform Overview Video
   * Updated the Rewst Terminology Page
@@ -32,8 +32,8 @@ Explore what new changes the Training team has made in the last week.
   * Updated Hello World Video
   * New Video on how to scope automation coming soon!
 * [Added Actions in Rewst Documentation](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/)
-* [Added Core Actions Documentation](../../../documentation/actions-in-rewst/core-actions.md)
-* [Added Existing Crates Page](../../../prebuilt-automations/existing-crate-documentation/) (with more updates to come!)
+* [Added Core Actions Documentation](../../../documentation/automations/actions-in-rewst/core-actions.md)
+* [Added Existing Crates Page](../../../documentation/crates/existing-crate-documentation/) (with more updates to come!)
 * Updates:
   * Fixed Links on the front page
   * Removed incorrect page under Forms best practices

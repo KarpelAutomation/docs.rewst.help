@@ -1,5 +1,17 @@
 ---
 description: Revolutionize your MSP operations with Rewst's App Builder.
+icon: compass-drafting
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # App Builder
@@ -10,10 +22,14 @@ Introducing App Builder
 
 ## **What is App Builder?**&#x20;
 
-App Builder is an extension of Rewst’s automation platform that allows MSPs to quickly build web applications for interacting with Rewst-generated data from workflows, forms, and data. It drives additional efficiency, consistency, and visibility gains, and helps our MSPs differentiate themselves through engaging front-end experiences.
+App Builder is an extension of Rewst’s automation platform that allows MSPs to quickly build web applications for interacting with Rewst-generated data from workflows, forms, and data. Apps consist of pages, and pages are made up of components like images, text, forms, tables, and charts. Use App Builder to drive additional efficiency, consistency, and visibility gains, and differentiate your personal brand through engaging front-end experiences.
 
 {% hint style="info" %}
 Rewst's earliest version of App Builder was called App Platform. App Builder is the same product at App Platform, now with a more descriptive name.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+App Builder is still in development. This is an advanced feature that does not offer the same level of support as Rewst's built-in integrations. While we have made efforts to ensure its stability, we recommend caution in using this feature in production environments until further testing and development have been completed.
 {% endhint %}
 
 ## Why use App Builder?

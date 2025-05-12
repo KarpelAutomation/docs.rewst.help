@@ -25,9 +25,9 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [feb-16th-2024-pizzas-cooking-in-the-oven.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/feb-16th-2024-pizzas-cooking-in-the-oven.md "mention")Open Mic page added
-* [autotask-datto-psa](../../../documentation/integrations/individual-integration-documentation/psa/autotask-datto-psa/ "mention")page updated with new link to Datto's Documentation
-* [adding-a-new-client-to-rewst.md](../../../documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/adding-a-new-client-to-rewst.md "mention")page updated to reflect accurate steps
+* [feb-16th-2024-pizzas-cooking-in-the-oven.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/feb-16th-2024-pizzas-cooking-in-the-oven.md "mention")Open Mic page added
+* [Broken link](broken-reference "mention")page updated with new link to Datto's Documentation
+* [adding-a-new-client-to-rewst.md](../../../documentation/configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/adding-a-new-client-to-rewst.md "mention")page updated to reflect accurate steps
 
 </details>
 

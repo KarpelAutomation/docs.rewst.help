@@ -35,7 +35,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* Updated [production-crate-list.md](../../../prebuilt-automations/crates/production-crate-list.md "mention") page
+* Updated [production-crate-list.md](../../../documentation/crates/production-crate-list.md "mention") page
 * Latest App Builder AMA added to [app-builder-amas](../../app-builder-amas/ "mention")
 * Open Mics from the Holidays have been added to [roc-open-mics](../../roc-open-mics/ "mention")&#x20;
 

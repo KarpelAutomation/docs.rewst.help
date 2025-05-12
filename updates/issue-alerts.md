@@ -1,3 +1,18 @@
+---
+icon: circle-exclamation
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Alerts
 
 <details>
@@ -83,7 +98,7 @@ These new crates come with the latest features and enhancements to make your use
 * User Offboarding Crate
 
 While these crates will still function, they will not receive any additional feature enhancements. We recommend migrating to the new crates listed above to take advantage of the latest updates.\
-For crate migration assistance, please reference the [migrating-between-crate-versions.md](../prebuilt-automations/crates/migrating-between-crate-versions.md "mention") and [crate-deprecation-faq.md](../prebuilt-automations/crates/crate-deprecation-faq.md "mention").
+For crate migration assistance, please reference the [migrating-between-crate-versions.md](../documentation/crates/migrating-between-crate-versions.md "mention") and [crate-deprecation-faq.md](../documentation/crates/crate-deprecation-faq.md "mention").
 
 If you have any urgent concerns, please contact your support team.
 
@@ -159,7 +174,7 @@ If you have any urgent concerns, please contact your support team.
 
 As of **January 31st, 2025**, Pax8 will retire API Key requests as a method of authentication. To ensure uninterrupted access to the Pax8 integration, Rewst customers are required to transition to OAuth 2.0 for API authentication.
 
-To continue using the Pax8 integration with Rewst, you will need to transition to OAuth 2.0 authentication before January 31st, 2025. For information on how to update the configuration in Rewst, check this page: [pax8-2025-oauth-transition-planning.md](../documentation/integrations/individual-integration-documentation/licensing/pax8/pax8-2025-oauth-transition-planning.md "mention")
+To continue using the Pax8 integration with Rewst, you will need to transition to OAuth 2.0 authentication before January 31st, 2025. For information on how to update the configuration in Rewst, check this page: [Broken link](broken-reference "mention")
 
 This transition to OAuth 2.0 provides enhanced security, streamlined user experience, and improved API access management.&#x20;
 

@@ -26,9 +26,9 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md](../../roc-open-mics/rewst-open-mics-north-america/2024-roc-open-mics/march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md "mention") page added
+* [march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md "mention") page added
 * [jinja-essentials.md](../../../documentation/jinja/jinja-essentials.md "mention") page updated with Crate callout
-* [microsoft-graph-vs-exchange-online.md](../../../documentation/integrations/microsoft-graph-vs-exchange-online.md "mention") added link to Microsoft documentation
+* [microsoft-graph-vs-exchange-online.md](../../../documentation/configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-graph-vs-exchange-online.md "mention") added link to Microsoft documentation
 * [Broken link](broken-reference "mention") page updated with Scripts and Template sections
 * [..](../../../ "mention") page design update
 
