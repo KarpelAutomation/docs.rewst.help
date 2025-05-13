@@ -103,6 +103,10 @@ Once you’ve [mapped your customers](https://docs.rewst.help/documentation/inte
     <figure><img src="../../../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 7. Click **Test**, and select a company to run the action for. Test a handful of companies to ensure the integration is working.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Crates related to the NinjaOne integration
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Sync NinjaRMM Device Counts to Gradient Synthesize</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.32.49 AM.png">Screenshot 2025-03-14 at 11.32.49 AM.png</a></td></tr><tr><td><strong>Just in Time Admin Access</strong></td><td><a href="../../../../../.gitbook/assets/Just in time admin access (2).png">Just in time admin access (2).png</a></td></tr><tr><td><strong>Agent Smith: Device Provisioning, and Agent Smith Service Provisioning</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.06 AM.png">Screenshot 2025-03-14 at 11.34.06 AM.png</a></td></tr><tr><td><strong>Ad-Hoc Install/Uninstall Software via Chocolatey</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-02-27 at 3.37.42 PM (1).png">Screenshot 2025-02-27 at 3.37.42 PM (1).png</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.17 AM.png">Screenshot 2025-03-14 at 11.34.17 AM.png</a></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.29 AM.png">Screenshot 2025-03-14 at 11.34.29 AM.png</a></td></tr></tbody></table>

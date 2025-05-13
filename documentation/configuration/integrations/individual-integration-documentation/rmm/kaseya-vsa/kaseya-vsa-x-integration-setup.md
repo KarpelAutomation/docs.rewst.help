@@ -14,6 +14,7 @@ Our Kaseya VSA X integration enables automation of remote monitoring and managem
 
 1. Log in to the Kaseya VSA X Admin Console. You will need to have administrator privileges to create API tokens.
 2. Navigate **Administration > Server Admin > Overview**. \
+   \
    <img src="../../../../../../.gitbook/assets/Screenshot 2025-05-05 at 3.59.33 PM.png" alt="" data-size="original">
 3. Copy the **Name** under the **Server Information** submenu.
 4. Paste the copied name value into the `hostname` parameter field IN REWST?
@@ -66,9 +67,15 @@ iex $commands
 
 Optionally, reduce API calls to Kaseya by setting an org var called `kaseya_vsa_10_scriptid` with the GUID value of the above script.
 
-
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
 
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category            | Action                                 | Description                                                                   |
 | ------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |

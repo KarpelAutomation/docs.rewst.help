@@ -133,6 +133,10 @@ To be able to utilize Rewst with least privilege you will need to configure a ne
 
 ## Actions and endpoints
 
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
+
 | Category            | Action                       | Description                                                                           |
 | ------------------- | ---------------------------- | ------------------------------------------------------------------------------------- |
 | **Computers**       | List Computers               |                                                                                       |
@@ -162,3 +166,7 @@ To be able to utilize Rewst with least privilege you will need to configure a ne
 | **System**          | List User Folders            | List user folders                                                                     |
 | **System**          | List User Classes            | List user classes                                                                     |
 | **System**          | Get System Patch Information | Retrieve patch build information                                                      |
+
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}

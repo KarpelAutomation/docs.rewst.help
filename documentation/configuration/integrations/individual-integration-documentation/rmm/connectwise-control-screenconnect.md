@@ -58,8 +58,6 @@ The steps to generate your OTP secret will differ depending on your MFA tool. Se
 
 
 
-
-
 {% hint style="warning" %}
 You may run into a scenario where refesh options is not working. If this is the case, you can change the root session group to _All Machines_ to see if it pulls in customers. If this doesn't resolve the issue, you can contact support as found here: [support-priorities.md](../../../../../support-and-community/roc-support/support-priorities.md "mention")
 {% endhint %}
@@ -98,9 +96,17 @@ View ConnectWise's own documentation for how to create a session group in the be
 
 {% embed url="https://www.youtube.com/watch?v=f2L-eXBKT2U" %}
 
-## Actions
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
 
-### Get Session
+## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
+
+### Get session
 
 Used to help you debug issues with your PowerShell scripts by providing logs associated with a specific connection ID.
 
@@ -113,11 +119,11 @@ Used to help you debug issues with your PowerShell scripts by providing logs ass
 | `Session Group` | [Session Group](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#session-group) | **Required**. The session group.                                         |
 | `Event Types`   | `Array[[Event Type](#event-types]`                                                                          | **Required**. The event types to filter the logs.                        |
 
-### Invoke Command
+### Invoke command
 
 Action to run a command template on an agent.
 
-#### Invoke Command Parameters[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#invoke-command-parameters) <a href="#invoke-command-parameters" id="invoke-command-parameters"></a>
+#### Invoke command parameters[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#invoke-command-parameters) <a href="#invoke-command-parameters" id="invoke-command-parameters"></a>
 
 | Name            | Type                                                                                                        | Description                                                                                    |
 | --------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -125,17 +131,17 @@ Action to run a command template on an agent.
 | `session_group` | [Session Group](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#session-group) | **Required**. The session group.                                                               |
 | `script`        | `Template`                                                                                                  | **Required**. The Powershell script template. You can create this under Automations → Scripts. |
 
-## Reference Types
+## Reference types
 
 #### Session[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#session) <a href="#session" id="session"></a>
 
 A reference to a "Session" within ConnectWise ScreenConnect.
 
-#### Session Group[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#session-group) <a href="#session-group" id="session-group"></a>
+#### Session group[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#session-group) <a href="#session-group" id="session-group"></a>
 
 A reference to a session group within ConnectWise ScreenConnect.
 
-#### Event Types[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#event-types) <a href="#event-types" id="event-types"></a>
+#### Event types[​](http://localhost:3000/docs/integrations/Remote%20Control/connectwise-control#event-types) <a href="#event-types" id="event-types"></a>
 
 | Event                      | Value |
 | -------------------------- | ----- |

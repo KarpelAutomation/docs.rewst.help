@@ -68,6 +68,10 @@ Rewst's Hudu integration enables the automation of documentation management. Use
    ![](<../../../../../.gitbook/assets/image (40) (1).png>)
 5. Click **Test**. If the action succeeds, then you’re all set.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Crates related to the Hudu integration
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Document M365 Environment</strong></td><td><a href="../../../../../.gitbook/assets/Document m365 environment (4).png">Document m365 environment (4).png</a></td></tr><tr><td><strong>Document Rewst Form URLs</strong></td><td><a href="../../../../../.gitbook/assets/Document Rewst form urls it glue hudu.png">Document Rewst form urls it glue hudu.png</a></td></tr><tr><td><strong>Document Shared Mailbox Details</strong></td><td><a href="../../../../../.gitbook/assets/Document shared mailbox details (2).png">Document shared mailbox details (2).png</a></td></tr><tr><td><strong>Document Group Details</strong></td><td><a href="../../../../../.gitbook/assets/Document Group Details V2 (1).png">Document Group Details V2 (1).png</a></td></tr><tr><td><strong>Document User Details</strong></td><td><a href="../../../../../.gitbook/assets/Document user details v2 (2).png">Document user details v2 (2).png</a></td></tr></tbody></table>

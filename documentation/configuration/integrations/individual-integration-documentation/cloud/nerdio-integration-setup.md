@@ -44,7 +44,15 @@ The Nerdio Integration offers Rewst customers a seamless way to extend their clo
    6. Enter the **Base URL** specific to your Nerdio Manager page. For example, `web-admin-portal-xxxxxx.azurewebsites.net`.
 5. Click **Save Configuration**.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 Below is a summary of each section, highlighting the diverse capabilities and opportunities provided through the Nerdio Integration:
 

@@ -79,6 +79,10 @@ Thank you,&#x20;
 
 ### Actions and endpoints
 
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
+
 | Action                     | Description                                                                |
 | -------------------------- | -------------------------------------------------------------------------- |
 | Get Pod Connections        | Gets connections that a pod is using                                       |
@@ -88,3 +92,7 @@ Thank you,&#x20;
 | Get License for Device     | Gets a firewall's license                                                  |
 | Get Firewall's Connections | Gets connections that a device is using                                    |
 | SonicWall NSM API Request  | Generic action for making authenticated requests against the SonicWall API |
+
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}

@@ -48,7 +48,15 @@ Input the API Key, Secret Key, and Seller Number values below.
 5. Optionally, choose if you would like to **Use Sandbox** from the drop-down selector.
 6. Click **Save Configuration**.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 For more comprehensive instructions, refer to [GoDaddy's Official Documentation Here](https://developer.godaddy.com/doc).
 

@@ -29,9 +29,15 @@ Our BambooHR integration enables data synchronization and automation in HR proce
    2. &#x20;Enter the company domain from your BambooHR account. E.g. If you navigate to `https://example.bamboohr.com`, your company domain is `example`.
 5. Click **Save Configuration**.
 
-
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
 
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category                | Action                  | Description                                                                    |
 | ----------------------- | ----------------------- | ------------------------------------------------------------------------------ |

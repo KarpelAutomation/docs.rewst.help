@@ -5,7 +5,7 @@ ConnectSecure integrations (formerly known as CyberCNS) will require attention t
 
 Rewst can’t automatically migrate V3 users to V4 due to ConnectSecure’s configuration requirements. If you’re a Rewst customer using our ConnectSecure integration, reach out to your ConnectSecure rep or access your ConnectSecure instance to retrieve your new V4 credentials and hostname. This document walks you through how to retrieve credentials on your own.
 
-All related V3 endpoints in existing generic Rewst actions will also need to be manually updated to new URLs to reflect this change. See our existing guide for how to set up your integration for the first time here in this document: [cybercns-integration-setup.md](cybercns-integration-setup.md "mention")
+All related V3 endpoints in existing generic Rewst actions will also need to be manually updated to new URLs to reflect this change. See our existing guide for how to set up your integration for the first time here in this document: [.](./ "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -39,7 +39,7 @@ ConnectSecure’s own documentation site can be found [here](https://cybercns.at
 4. Your hostname will be unique for your instance. The image below, for example, shows the hostname for Rewst’s own account, [pod103.myconnectsecure.com](http://pod103.myconnectsecure.com/).\
    ![](<../../../../../../.gitbook/assets/Screenshot 2024-12-02 at 2.59.44 PM.png>)
 5. Install the new ConnectSecure V4 integration in Rewst, and enter the required credentials.\
-   ![](<../../../../../../.gitbook/assets/image (3) (1) (1) (1).png>)
+   ![](<../../../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 6. Save the configuration. It should automatically attempt to authenticate for you.
 
 ## Migrate Rewst actions and workflows

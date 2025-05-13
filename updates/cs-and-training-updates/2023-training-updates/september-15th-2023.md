@@ -39,7 +39,7 @@ Explore what new changes the Training team has made in the last week.
 * Added [Jinja Macros Jinja page](../../../documentation/jinja/common-jinja-examples/jinja-macros.md)
 * Added note about signing up for the Australian Open Mic on the [Resources page](broken-reference)
 * Updates and Fixes
-  * Updated steps and added images to the [Auvik Integration Setup](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/auvik-integration-setup.md) page.
+  * Updated steps and added images to the [Auvik Integration Setup](../../../documentation/configuration/integrations/individual-integration-documentation/networking-integrations/auvik-integration-setup.md) page.
   * Updated steps and added images to the [ConnectWise Automate Integration](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/connectwise-automate-integration-setup.md) Setup page.
   * Updated [IT Glue Integration Setup](../../../documentation/configuration/integrations/individual-integration-documentation/documentation/it-glue-integration-setup.md) page.
   * Fixed Typo on [Datto RMM](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/datto-rmm-integration-setup.md) page.

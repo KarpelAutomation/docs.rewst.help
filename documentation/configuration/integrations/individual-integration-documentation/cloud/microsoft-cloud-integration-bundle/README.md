@@ -13,7 +13,7 @@ description: >-
 
 Welcome to the Rewst Microsoft Cloud Integration Bundle guide. This document is designed to assist you in setting up and managing integrations with Microsoft services like Microsoft Graph, Exchange Online, CSP, and Azure. Whether you are transitioning from the Legacy Rewst App or starting anew, this guide will provide you with all the necessary steps to ensure a smooth integration process within your Microsoft tenant.
 
-## Key Benefits
+## Key benefits
 
 * **Granular Permission Control:** Customize permissions tailored to your organization’s needs.
 * **Simplified Management:** Centralize the management of all Microsoft integrations through the Rewst platform.
@@ -22,15 +22,15 @@ Welcome to the Rewst Microsoft Cloud Integration Bundle guide. This document is 
 
 ***
 
-## **Prerequisites and best Practices for Microsoft Integrations**
+## **Prerequisites and best practices for Microsoft integrations**
 
 Before getting started with the Microsoft Cloud bundle, refer to: [authorization-best-practices.md](authorization-best-practices.md "mention").
 
 ***
 
-## Getting Started with the Bundle
+## Get started with the Bundle
 
-### **Initial Setup**
+### **Initial setup**
 
 1. **Login**: Access your Rewst account by navigating to the Rewst platform and logging in with your credentials.
 2. **Navigate to Integration Setup**: Once logged in, proceed to the dashboard, and under Configuration -> Integrations, locate the Microsoft Cloud Integration Bundle.
@@ -38,7 +38,7 @@ Before getting started with the Microsoft Cloud bundle, refer to: [authorization
 
 ***
 
-### Step 1: Select Integrations
+### Step 1: Select integrations
 
 * **Microsoft Graph:** Enables automation of M365 services. Utilize the Microsoft Graph API to integrate M365, Entra ID, SharePoint, OneDrive, Teams, etc., into Rewst workflows.
 * **Microsoft Exchange Online:** Facilitates automation of email and collaboration management. Access and manage mailboxes, distribution groups, and more through the Microsoft Exchange Online API within your Rewst workflows.
@@ -47,7 +47,7 @@ Before getting started with the Microsoft Cloud bundle, refer to: [authorization
 
 ***
 
-### Step 2: Configuration Parameters
+### Step 2: Configuration parameters
 
 Configure the Microsoft Entra App Registration that Rewst will use to interact with your Microsoft tenant. Options include:
 
@@ -65,7 +65,7 @@ Customers wanting more information on how to migrate from the legacy app can rev
 
 ***
 
-### Step 3: Tenant Permissions&#x20;
+### Step 3: Tenant permissions&#x20;
 
 Review each of the integrations respective pages for the individual details on tenant details and permissions:
 
@@ -76,14 +76,14 @@ Review each of the integrations respective pages for the individual details on t
 
 ***
 
-### **Step 4: Authorize Integration**
+### **Step 4: Authorize integration**
 
 * In the `Authorize Integrations` section, click the `Authorize` button. This will open a Microsoft login window for authentication.
 * Follow the prompts to complete the authorization process.
 
 ***
 
-## **Troubleshooting Tips**
+## **Troubleshoot the Microsoft Cloud integration bundle**
 
 * **Authorization Issues**: If you encounter problems during the authorization step, ensure that you are using the correct account and that all permissions are properly set.
 * **Permission Configuration Errors**: Double-check the permissions if there are issues with accessing certain functionalities. Ensure that the appropriate permissions are enabled and correctly configured.

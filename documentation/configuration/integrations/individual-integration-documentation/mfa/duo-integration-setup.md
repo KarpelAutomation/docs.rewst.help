@@ -88,3 +88,6 @@ For all of the following, make sure to copy the designated information into a se
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 7. Apply the Admin API Directory Key under `Setting up the API accounts` for each organization in the `duo_admin_api_directory_key` field.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}

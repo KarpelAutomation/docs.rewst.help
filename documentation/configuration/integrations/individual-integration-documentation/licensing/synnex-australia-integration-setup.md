@@ -8,7 +8,9 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our Synnex Australia integration enables the automation of supply chain and business processes.
 
-## Set up steps in Synnex Australia
+## Set up the Synnex Australia integration
+
+### Set up steps in Synnex Australia
 
 1. Log in to the Synnex Australia API application. Do so from one of the two login links listed below. Note that you should choose the link that matches your situation of using either the production or staging login.&#x20;
    1. Production - [link](https://partnerapi-developer.synnex.com.au/)
@@ -19,7 +21,7 @@ Our Synnex Australia integration enables the automation of supply chain and busi
    ![](<../../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.37.16 AM.png>)
 4. Copy the key value to a secure location. You'll need it for the next set up steps in Rewst.
 
-## Set up steps in Rewst
+### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `Synnex Australia` integration.\
@@ -35,7 +37,7 @@ Our Synnex Australia integration enables the automation of supply chain and busi
        <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.55.21 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 

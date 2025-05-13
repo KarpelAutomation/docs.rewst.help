@@ -6,6 +6,8 @@
 
 ## What does the Auvik integration do?
 
+Our Auvik integration enables the automation of network management and monitoring. Use the Auvik API within Rewst workflows to perform actions such as listing alerts, network device discovery, mapping, and configuration backups.
+
 ## Why use the Auvik integration?
 
 <details>
@@ -109,13 +111,19 @@ You can find the the Auvik documentation instructions [here](https://support.auv
 5. Click **Save Configuration.**
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-### Integration Form
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
+### Integration form
 
 <table><thead><tr><th width="235.66590389016017">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Region</td><td>To locate the region, log into your Auvik dashboard and look at the URL in your browser’s address bar.<br>E.g. us1, us2, us3, us4, eu1, eu2, au1, ca1</td></tr><tr><td>API Username</td><td>API Username for the integrations account on Auvik</td></tr><tr><td>API Secret</td><td>API Key for the integrations account for Auvik</td></tr><tr><td>Default Tenant Prefix</td><td>Allows us to query your subtenants automatically by using this tenant as the root-level</td></tr></tbody></table>
 
 ## Actions and endpoints
 
-
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category                | Action                                     | Description                                                                                                                           |
 | ----------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |

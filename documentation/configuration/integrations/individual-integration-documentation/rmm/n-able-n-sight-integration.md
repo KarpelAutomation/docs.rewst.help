@@ -62,7 +62,7 @@ Our N-able N-sight integration enables automation of device and customer managem
 
 
 
-{% hint style="info" %}
+{% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 

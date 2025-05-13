@@ -55,7 +55,15 @@ Webhook triggers in Rewst's Discord integration are all about making your workfl
 * **Command Type**: Choose from Slash, User, Message, or Custom commands.
 * **Guild ID**: Identify the server where this magic will happen.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 Discord's own API documentation can be found [here](https://discord.com/developers/docs/intro).
 

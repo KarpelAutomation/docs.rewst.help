@@ -64,7 +64,7 @@ There is no org mapping available for this integration. To test its functionalit
 2. Run the workflow.
 3. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.52 PM (1).png" alt="" data-size="line"> in your workflow builder's top toolbar to view the execution log. If set up correctly, the log should not contain failures.&#x20;
 
-{% hint style="info" %}
+{% hint style="success" %}
 Got an idea for a new integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 

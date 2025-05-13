@@ -109,6 +109,10 @@ Successful organization importing via the Bulk Create Client from PSA Crate is a
 
 <figure><img src="../../../../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Crates related to the Kaseya BMS integration
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client From PSA</strong></td><td><a href="../../../../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md">bulk-create-client-from-psa-crate.md</a></td><td><a href="../../../../../.gitbook/assets/Bulk create client from psa (1).png">Bulk create client from psa (1).png</a></td></tr><tr><td><strong>Microsoft: User Onboarding</strong></td><td><a href="../../../../crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/">microsoft-user-onboarding-crate-v2</a></td><td><a href="../../../../../.gitbook/assets/Microsoft user onboarding.png">Microsoft user onboarding.png</a></td></tr><tr><td><strong>Open AI Ticket Sentiment Analysis</strong></td><td><a href="../../../../crates/existing-crate-documentation/openai-ticket-sentiment-setup.md">openai-ticket-sentiment-setup.md</a></td><td><a href="../../../../../.gitbook/assets/Open ai ticket sentiment analysis (2).png">Open ai ticket sentiment analysis (2).png</a></td></tr><tr><td><strong>Microsoft: User Offboarding</strong></td><td></td><td><a href="../../../../../.gitbook/assets/Microsoft user offboarding (1).png">Microsoft user offboarding (1).png</a></td></tr></tbody></table>

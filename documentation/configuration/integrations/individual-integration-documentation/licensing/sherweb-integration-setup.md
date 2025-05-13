@@ -78,6 +78,10 @@ After saving your configuration, a new section called [**Organization Mapping**]
 1. Initiate a test action within Rewst that utilizes the Sherweb integration, such as fetching the customer catalog.
 2. Verify that the data retrieved matches your Sherweb account information, confirming a successful integration.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Crates related to the Sherweb integration
 
 Explore the following Crates in the Rewst Crate Marketplace to maximize the power of your Sherweb integration.

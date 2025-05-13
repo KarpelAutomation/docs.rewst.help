@@ -18,7 +18,7 @@ Before you complete integration setup, you'll need to obtain a developer instanc
 2.  Click on the **Developer Program** tile under the **My Apps** menu.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 3. Click **Start Building** if prompted. This will appear if this is your first time logging in to the Developer Portal.
 4. Find the hostname for your ServiceNow instance. This would be the part of the URL that appears before the first / . For example, in a URL that reads as `dev12345.service-now.com/abc123/4567` , the host name would be `dev12345.service-now.com` .
 5. Copy the hostname someplace secure. You'll need this for further steps in Rewst.
@@ -26,7 +26,7 @@ Before you complete integration setup, you'll need to obtain a developer instanc
 7.  Click **New** to add a new user.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The new user set up page</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The new user set up page</p></figcaption></figure>
 8. Enter `RewstAPI` into the **User ID** field. Save this information with your hostname. You'll need it for further steps in Rewst.&#x20;
 9. Check the **Active** box.&#x20;
 10. Click **Submit**.
@@ -49,7 +49,15 @@ Before you complete integration setup, you'll need to obtain a developer instanc
 5. Click **Save Configuration**.
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 ### Endpoint plugin requirements
 

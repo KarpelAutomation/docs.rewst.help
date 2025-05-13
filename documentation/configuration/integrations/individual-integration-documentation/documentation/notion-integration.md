@@ -80,7 +80,7 @@ Notion grants access for the integration on a page-by-page basis. Add each desir
 
 <figure><img src="../../../../../.gitbook/assets/image (62).png" alt=""><figcaption><p>The view of the actions menu and all related submenus, once the page has been set up to use the integration</p></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 

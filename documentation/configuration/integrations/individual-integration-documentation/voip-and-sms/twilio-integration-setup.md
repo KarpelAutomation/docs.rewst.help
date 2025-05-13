@@ -4,69 +4,96 @@
 &#x20;If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
-## Overview
+## What does the Twilio integration do?
 
-When you first sign up with Twilio, you have one account, your main account; however, you can also create subaccounts. Your main account will have an Account SID and Auth Token that Rewst will use to authenticate. When using Twilio actions within workflows, you can specify the Account SID to be used for a particular action.
+Our Twilio integration enables the automization of communication services. Use the Twilio API within Rewst workflows to manage SMA and voice communication.
 
-### Setting up the API account
+## Set up the Twilio integration
 
-1. **Log in** to the [Twilio Console](https://console.twilio.com/).
-2. **Copy** your main **Account SID** and **Auth Token.**
+When you first sign up with Twilio, you have one main account. However, you can also create subaccounts. Your main account will have an Account SID and Auth Token that Rewst will use to authenticate. When using Twilio actions within workflows, you can specify the Account SID to be used for a particular action.
 
-### Configuring the Integration
+### Set up steps in Twilio
 
-1. **Log in** to the [Rewst platform](https://app.rewst.io/).
-2. **Click** **on** the _"Integrations"_ menu on the left sidebar.
-3. **Click** or search for "Twilio".
-4. **Enter** your main **Account SID** and **Auth Token** from step 2 in "Setting up the API account".
+1. Log in to your [Twilio Console](https://console.twilio.com/).
+2.  Navigate to **Admin > Account management > Keys & Credentials > API keys & tokens**.\
+    \
 
-### Setting up the Messaging Service
 
-1. **Log in** to the [Twilio Console](https://console.twilio.com/).
-2. **Go to** _Messaging_ -> _Services_
-3. **Click** _Create Messaging Service_
-4. **Type** Rewst in the messaging service-friendly name
-5. **Click** _Create Messaging Service_&#x20;
-6. **Click** _add sender_
-7. **Select** _Phone Number_
-8. **Click** _Continue_
-9. **Select** the phone number you would like to SMS from Rewst
-10. **Click** _Add phone numbers_
-11. **Click** _Step 3 Set up integration_
-12. **Click** _Complete Messaging Service Set up_
-13. **Click** _View My New Messaging Service_
-14. **Copy** the Messaging Service SID
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.06.55 PM.png" alt=""><figcaption></figcaption></figure>
+3. Click **Create API Key**.
+4. Name your credential Rewst API key.
+5. Click **Create**.
+6. Copy the SID and key that are displayed. Note that once you navigate away from the page, you won't be able to see this information again. Store it somewhere secure. You'll need it for further steps in Rewst.\
+   \
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.08.31 PM.png>)
 
-### Configure the Rewst Organizational Variables
+### Set up steps in Rewst
 
-1. **Log in** to the [Rewst platform](https://app.rewst.io/).
-2. **Go to** _Configuration_ -> _Organization Variables_
+1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
+2. Search for `Twilio` in the integrations page.\
+   \
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-13 at 3.50.26 PM.png>)
+3. Click on the integration tile to launch the configuration setup page.
+4. Under **Parameters**, enter the information copied from Twilio into its relevant field:
+   1. Account SID
+   2. Auth Token
+5. Click **Save Configuration**.
 
-#### Configure Messaging Service SID
+### Set up the messaging service
 
-1. **Click** the add button (+ icon)&#x20;
-2. **Set** the following for your organization variable
+1. Return to your [Twilio Console](https://console.twilio.com/).
+2. Navigate to **Messaging > Services**.\
+   \
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.11.46 PM.png>)
+3. Click **Create Messaging Service**.
+4. Enter `Rewst` in as the messaging service-friendly name.
+5. Click **Create Messaging Servic**e.
+6. Click **add sender.**
+7. Select **Phone Number**.
+8. Click **Continue**.
+9. Select the phone number you would like to SMS from Rewst.
+10. Click **Add phone numbers**.
+11. Click **Step 3 Set up integration**.
+12. Click **Complete Messaging Service Set up**.
+13. Click **View My New Messaging Service**.
+14. Copy the Messaging Service SID.
+
+### Configure the Rewst organizational variables
+
+1. Return to the Rewst platform.
+2. Navigate to **Configuration > Organization Variables**.
+
+#### Configure messaging service SID
+
+1. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
+2. Select the following for your organization variable drop-down options:
    * **Name**: `messaging_service_sid`&#x20;
    * **Value**: Your Messaging Service SID
    * **Category**: general
    * **Organization**: Select your organization
-3. **Click** save (checkmark icon)
+3. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.01.28 PM.png" alt="" data-size="line">.
 
-#### **Configure Send SMS to User**
+#### **Configure send SMS to user**
 
-1. **Click** the add button (+ icon)&#x20;
-2. **Set** the following for your organization variable
-   * **Name**: `send_sms_to_user`&#x20;
-   * **Value**: `1`
-   * **Category**: general
-   * **Organization**: Select your organization
-3. **Click** save (checkmark icon)
+1. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
+2. Select the following for your organization variable drop-down options:
+   1. **Name**: `send_sms_to_user`&#x20;
+   2. **Value**: `1`
+   3. **Category**: general
+   4. **Organization**: Select your organization
+3. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.01.28 PM.png" alt="" data-size="line">.
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2024-03-12 at 1.17.09 PM.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
 
-
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category                  | Action                                                | Description                                                                                                                                                         |
 | ------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

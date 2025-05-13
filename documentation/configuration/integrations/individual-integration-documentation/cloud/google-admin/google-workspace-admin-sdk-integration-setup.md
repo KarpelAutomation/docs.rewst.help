@@ -3,10 +3,19 @@
 {% hint style="info" %}
 Note: Rewst supports multi-instance for Google Workspace Admin, but generally one instance of Google Workspace Admin is not multi-tenant. You may need a 1:1 relationship between an instance of this integration and a sub-tenant or a Rewst sub-org.
 
+Currently, Rewst does not support domain-wide delegation. The integration will only have access to resources that the user who authorized the integration has access to. In particular, there will be no Mailbox Delegation or personal Drive access for other user accounts.
+
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
+As of May 2025, this integration now supports the following APIs using the generic request action:\
 
+
+* Google Drive
+* Gmail
+* Group Settings
+
+Rewst customers who set up this integration prior to the additional API support can take advantage of this development by enabling the corresponding API services in the Google Cloud Console, then re-authorizing their integration in Rewst. Set up steps for these API services can be found further down in this document, under the section titled Enable Google APIs.
 
 ## **Set up steps in Google**
 
@@ -77,7 +86,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 4.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Set reauthentication policy for exemption**
 
@@ -88,9 +97,51 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 5. Choose your method under the **Re-authentication method** menu.
 6. Click **Save**.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+### Enable Google APIs
+
+#### Enable Google Drive API
+
+1. Select your Project from the drop-down selector.
+2. Select **APIs and Services** from the left side menu.
+3. Search for `Google Drive API.`
+4.  Click **Enable**.\
+    \
+
+
+    <figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Enable Gmail API
+
+1. Select your Project from the drop-down selector.
+2. Select **APIs and Services** from the left side menu.
+3. Search for `Gmail API.`
+4.  Click **Enable**.\
+    \
+
+
+    <figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### Enable Group Settings API
+
+1. Select your Project from the drop-down selector.
+2. Select **APIs and Services** from the left side menu.
+3. Search for `Google Drive API.`
+4.  Click **Enable**.\
+
+
+    <figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
 
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category  | Action                                       | Description                                                 |
 | --------- | -------------------------------------------- | ----------------------------------------------------------- |

@@ -80,6 +80,10 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
     <figure><img src="../../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>An example of what your test workflow might look like</p></figcaption></figure>
 2. Run the workflow and verify that it successfully interacts with your Pax8 account, confirming that the integration is functioning correctly.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Crates related to the Pax8 integration
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Microsoft: User Onboarding</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-12 at 10.11.58 AM.png">Screenshot 2025-03-12 at 10.11.58 AM.png</a></td></tr><tr><td><strong>Microsoft: User Offboarding</strong></td><td><a href="../../../../../.gitbook/assets/User offboarding (1).png">User offboarding (1).png</a></td></tr><tr><td><strong>Alert on Unused M365 Licenses</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-12 at 10.12.26 AM.png">Screenshot 2025-03-12 at 10.12.26 AM.png</a></td></tr></tbody></table>

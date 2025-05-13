@@ -32,7 +32,7 @@ Our TD Synnex Stellr integration enables automation of supply chain and business
 
 ### Set up steps in Rewst
 
-1. Navigate to Configuration > Integrations in the left side menu of your Rewst platform.
+1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `TD Synnex Stellr` in the integrations page.\
    \
    ![](<../../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.14.52 PM.png>)
@@ -47,31 +47,21 @@ Our TD Synnex Stellr integration enables automation of supply chain and business
 
 
 
-## Synnex Integration Limitations
+## Synnex integration limitations
 
 {% hint style="danger" %}
 Note that in order to purchase licences via the New User Employee automation, you must follow the below instructions
 {% endhint %}
 
-### **The Problem**
+When you purchase a license, Rewst validates the number of licenses that are available in the Microsoft Tenant. The Graph API returns the quantity, SkuID, and several other properties related to the license. When you need to purchase a license via your distributor, such as Synnex, we need to match that license to the product and subscription in the distributor.  Some distributors have a way to say the XYZ SkuID is the ABC Subscription, which then allows us to match, and therefore update the relevant subscription.
 
-When you purchase a licence, we validate the number of licences that are available in the Microsoft Tenant - the Graph API returns the quantity, SkuID and a couple of other properties related to the licence.
+Currently, Synnex does not have a way for us to match the license in M365, to their own product or subscription. This limitation on the Synnex end, means Rewst must give you a choice about which subscription you wish to update. The fix is to use a field on the New User form that returns the subscriptions from Synnex itself, and choose which is the relevant sub you want to update.
 
-When you need to purchase a licence via your distributor, such as Synnex, we need to match that licence to the product and/or subscription in the distributor.  Some distributors have a way to say the XYZ SkuID is the ABC Subscription which then allows us to match, and therefore update the relevant subscription.
+### Set up the Synnex limitation workaround
 
-Currently, Synnex does not have a way for us to match the licence in M365, to their own product or subscription.
+There is a single requirement, an org variable to be created either at the MSP Level with default set or an org variable created at the customer level.  The former means that the field will appear for all customers, the latter will just appear for the single org you select.
 
-### **The Fix in Theory**
-
-This limitation on the Synnex end, means we have to give you a choice about which subscription you want to update.  There are benefits here, such as you being able to select the NCE Annual Sub vs the NCE Monthly Sub. &#x20;
-
-The fix is to use a field on the New User form that returns the subscriptions from Synnex itself, and choose which is the relevant sub you want to update.
-
-### **The Actual Fix**
-
-There is a single requirement, an Org Variable to be created either at the MSP Level (with default ticked) or an Org Var created at the customer level.  The former means that the field will appear for all customers, the latter will just appear for the single org you select.
-
-#### Step 1: Create the Org Var
+#### Step 1: Create the org variable
 
 `Org Variable Name: licencing_choose_subscription`
 
@@ -81,9 +71,9 @@ There is a single requirement, an Org Variable to be created either at the MSP L
 
 <figure><img src="https://i.ibb.co/2n8XCwy/Adam-Synnex.png" alt=""><figcaption><p>Org Var Example - All Customers</p></figcaption></figure>
 
-#### Step 2: Choose the Subscription
+#### Step 2: Choose the subscription
 
-Once the Org Var has been created, navigate to the New User form as normal.  You will notice a new field, as outlined in the image below.
+Once the org variable has been created, navigate to the New User form as normal.  You will notice a new field, as outlined in the image below.
 
 <figure><img src="https://i.ibb.co/P1TkvTK/Screenshot-20240513-234203.png" alt=""><figcaption><p>Example Sub via Synnex</p></figcaption></figure>
 
@@ -93,11 +83,15 @@ Note there is a limitation on only being able to select a single licence at this
 
 Ensure that you correctly select the Direct M365 License Assignment, which is from the M365 tenant itself and reflects the quantity.  In License Subscription, ensure that you select the Sub returned from Synnex that matches the one you want to increase.&#x20;
 
-#### Step 3: Enjoy automatic license purchases via Synnex!
-
-
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
 
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category            | Action                               | Description                                                                                                                                             |
 | ------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |

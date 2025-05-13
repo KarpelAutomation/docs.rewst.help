@@ -34,10 +34,16 @@ Log in to your Jira account.
 7. Save your OAuth configuration settings.
 8. Click **Save Configuration**.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
 
 {% hint style="info" %}
 For more information on which endpoints you have access to, check out the [Jira Developer Documentation](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#about) and the [Jira Service Desk API documentation](jira-integration-setup.md#https-docs.atlassian.com-jira-servicedesk-rest-3.6.2).
+
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
 {% endhint %}
 
 ### **Jira API generic request:**

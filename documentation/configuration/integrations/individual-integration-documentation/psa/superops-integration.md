@@ -68,7 +68,7 @@ iex $commands
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for `SuperOps`. \
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.44.53 PM.png>)\
+   ![](../../../../../.gitbook/assets/superops.png)\
 
 3. Click on the integration tile to launch the **Configuration** setup page.
 4.  Under **Parameters**:
@@ -88,7 +88,7 @@ iex $commands
 
 Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 

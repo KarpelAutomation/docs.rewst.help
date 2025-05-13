@@ -10,7 +10,7 @@ GitHub’s own documentation for registering an app can be found [here](https://
 
 Our GitHub integration enables automation of GitHub’s version control system. Use GitHub’s API within Rewst workflows to automate aspects of version control in GitHub.
 
-### Integration use cases
+### Why use the GitHub integration?
 
 * Say you want to create a Crate that automatically backs up all workflow exports any time they change. You could use the GitHub integration to make a commit of each change of the file. This would give you a more fully featured option than Rewst’s built in version control.
 * Use this integration to set up a system for sharing workflows you’ve created with other Rewst customers. Create a public repository, and post exported repositories of your shareable workflows.
@@ -77,6 +77,10 @@ To fix this failure:
 <figure><img src="../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
 
 ## GitHub actions and endpoints
 

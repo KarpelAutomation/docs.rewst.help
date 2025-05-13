@@ -64,7 +64,7 @@ Here's how you can do it:
 1. Navigate to the IP Access Control settings within IT Glue.
 2. Add [Rewst's IP address](../../../../../security/security-policy.md#rewst-outgoing-ip-address) to the list of allowed IP addresses.
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After adding Rewst's IP address, the forbidden error should be resolved and you should be able to successfully set up the IT Glue integration.
 
@@ -90,9 +90,15 @@ If you have created flexible assets in Rewst, and want to add them to your sideb
    \
    ![](<../../../../../.gitbook/assets/Screenshot 2025-01-28 at 2.42.02 PM.png>)
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
 
-
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category                     | Action                         | Description                                                                                                                                 |
 | ---------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |

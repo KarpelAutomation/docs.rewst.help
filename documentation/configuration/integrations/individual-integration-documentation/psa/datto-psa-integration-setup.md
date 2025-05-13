@@ -196,11 +196,17 @@ Autotask enforces API call limits. Use Rewst’s error handling to retry failed 
 
 </details>
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Datto Autotask actions and endpoints
 
-For details on Autotask’s API documentation, refer to their [official documentation](https://ww2.autotask.net/help/developerhelp/Content/0_HOME/HOME.htm).
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
-Learn more about Rewst actions [here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
+For details on Autotask’s API documentation, refer to their [official documentation](https://ww2.autotask.net/help/developerhelp/Content/0_HOME/HOME.htm).
 
 | Action name                      | Description                                           | Endpoint                                         |
 | -------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |

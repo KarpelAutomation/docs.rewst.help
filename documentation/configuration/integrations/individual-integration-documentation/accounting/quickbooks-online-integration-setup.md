@@ -63,7 +63,15 @@ https://engine.rewst.io/integrations/quickbooks_online/callback/01954351-002e-7d
    \
    ![](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.50 PM.png>)
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category            | Action                        | Description                                                                                                                                                                                                     |
 | ------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

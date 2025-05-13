@@ -131,6 +131,10 @@ Once imported, you must update your script's $rewst\_base\_url variable. Your Re
     <figure><img src="../../../../../.gitbook/assets/CleanShot 2025-03-31 at 19.31.20.jpg" alt=""><figcaption></figcaption></figure>
 15. If the test for your MSP is successful, do the same test again. At this point in your steps, select a client organization instead, and ensure that it finishes with no errors.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Crates related to the N-able N-central integration
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Run Powershell script on Selected Devices</strong></td><td><a href="../../../../../.gitbook/assets/Run Powershell Script on Selected Devices.png">Run Powershell Script on Selected Devices.png</a></td><td></td></tr><tr><td><strong>Agent Smith: Device Provisioning [Install First/ Install Second]</strong></td><td><a href="../../../../../.gitbook/assets/Agent Smith Device Provisioning 1.png">Agent Smith Device Provisioning 1.png</a></td><td><a href="../../../../agent-smith/agent-smith-configuration-overview.md">agent-smith-configuration-overview.md</a></td></tr><tr><td><strong>Just in Time Admin Access</strong></td><td><a href="../../../../../.gitbook/assets/Just in time admin access (3).png">Just in time admin access (3).png</a></td><td><a href="../../../../crates/existing-crate-documentation/just-in-time-admin-access-crate.md">just-in-time-admin-access-crate.md</a></td></tr><tr><td><strong>Ad-Hoc Install/ Uninstall Software via Chocolatey</strong></td><td><a href="../../../../../.gitbook/assets/Chocolatey.png">Chocolatey.png</a></td><td><a href="../../../../crates/existing-crate-documentation/ad-hoc-install-uninstall-software-via-chocolatey-crate.md">ad-hoc-install-uninstall-software-via-chocolatey-crate.md</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../../.gitbook/assets/Windows 11 Compatibility checker.png">Windows 11 Compatibility checker.png</a></td><td></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-02-27 at 3.36.32 PM (1).png">Screenshot 2025-02-27 at 3.36.32 PM (1).png</a></td><td></td></tr></tbody></table>
@@ -150,7 +154,9 @@ There is currently no way to identify a Domain Controller via the N-able REST AP
 
 ## N-able N-central actions and endpoints
 
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 For detailed endpoint documentation, log in to your N-able account or view their API documentation [here](https://documentation.n-able.com/).
 

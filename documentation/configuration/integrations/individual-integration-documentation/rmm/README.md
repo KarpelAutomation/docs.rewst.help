@@ -18,8 +18,8 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 [addigy-integration-setup.md](addigy-integration-setup.md)
 {% endcontent-ref %}
 
-{% content-ref url="auvik-integration-setup.md" %}
-[auvik-integration-setup.md](auvik-integration-setup.md)
+{% content-ref url="../networking-integrations/auvik-integration-setup.md" %}
+[auvik-integration-setup.md](../networking-integrations/auvik-integration-setup.md)
 {% endcontent-ref %}
 
 {% content-ref url="connectwise-automate-integration-setup.md" %}

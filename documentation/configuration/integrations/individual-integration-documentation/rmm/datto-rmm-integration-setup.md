@@ -92,3 +92,7 @@ Copy the API Key, API Secret, and Datto RMM Server for your new API user. Store 
 {% hint style="danger" %}
 Please note that Datto Quick Jobs can take 10 - 30 minutes to execute. To speed this up, you can either use BYOD to speed up form load time. You can find more information here: [byod-for-dattormm.md](../database/byod-for-dattormm.md "mention")
 {% endhint %}
+
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}

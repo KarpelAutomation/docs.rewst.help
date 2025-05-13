@@ -8,7 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 This integration allows you to automate the management of Google Workspace licenses for clients, via assigning, revoking, and monitoring licenses. Streamline your operations, reduce manual workload, and improve accuracy in license management.
 
-### Pre-requisites
+### Prerequisites
 
 Before setting up your Rewst integration, you'll need to set up the Google Workspace Admin SDK API in your Google Cloud Console. Please refer to the [Google Workspace Admin SDK API documentation](https://docs.rewst.help/documentation/integrations/cloud/google-admin/google-workspace-admin-sdk-integration-setup) for detailed instructions on how to set up the API.
 
@@ -58,7 +58,15 @@ In your Google Cloud console:
 4. Enter the information you received from Google Cloud into the relevant **Client ID**, **Client Secret**, and **Email / User ID** fields.
 5. Click **Save Configuration**.
 
+{% hint style="success" %}
+Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+{% endhint %}
+
 ## Actions and endpoints
+
+{% hint style="info" %}
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+{% endhint %}
 
 | Category      | Action                                       | Description                                                 |
 | ------------- | -------------------------------------------- | ----------------------------------------------------------- |
