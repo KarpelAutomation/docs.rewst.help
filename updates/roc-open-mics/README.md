@@ -15,6 +15,8 @@ layout:
 
 # Rewst Open Mic
 
+##
+
 ## **Join us live!**
 
 This isn’t your typical vendor call—it’s where our community gathers to grow! Every Friday, we meet to share company updates, celebrate ingenious MSP workflows, and spotlight the innovative automations our partners have been cooking up. Think of it as part town hall, part talent show, with a dash of nerdy fun. Whether you join to learn, laugh, or present your masterpiece, this is your stage to connect, collaborate, and inspire. Grab your coffee (or your drink of choice), and let’s keep building brilliance together!\
@@ -38,69 +40,59 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/-XCdZ-fs9r4" %}
+{% embed url="https://youtu.be/t908I_SGqn8" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 Aharon covers why the Open Mic exists, emphasizing the value of asking questions to succeed in automation.
-* ⛳ Ashe gives a fun update about being away last week and teases upcoming Flow conference perks for regulars.
-* 📦 JP announces new marketplace features including SuperOps RMM support, a duplicate account detection crate, and upcoming PSA support.
-* 🧳 Danial shares highlights from Robin Robbins and details new integrations with Notion, Slide, Cork, and Asana, plus UI and bug fixes.
-* 📘 Eddie celebrates user certifications, announces the Jinja course release, and shares documentation and training updates.
-* 📊 Danial presents a detailed client profitability tracking workflow using PowerShell and subworkflows for automated agreement updates.
-* 🤖 Daniel (with an E) demonstrates a Teams bot that assigns tickets based on SLA urgency, streamlining tech workflows using subworkflows and adaptive cards.
-* 🗂️ Craig shares a solution using PythonAnywhere and Flask to pull CSV data from Ingram and convert it into SQL-ready JSON for analysis.
-* 💾 Jonathan shows how he uses VS Code and PowerShell to update Rewst templates via webhook, massively speeding up modular app development.
-* 🔄 A brief discussion follows on leveraging PowerShell and automation growth, with Danial mentioning success using Rewst's custom integration feature for Domotz.
-* 🧠 Community questions close the session, including one about Mass360 and general API integration troubleshooting.
-* 🛫 The outro wraps with excitement for the upcoming Flow event and appreciation for the community's organic use of PowerShell.
+* 🎙️ Aharon kicks off the call with Flow event news, encourages Discord engagement, and stresses the value of asking questions.
+* 🛠️ Danial presents upcoming platform updates including a workflow dashboard and enhanced filtering features.
+* 📊 JP introduces a new Org Chart Builder crate that maps org hierarchy using M365 data.
+* 🏫 Clea shares Cluck University updates, certification shoutouts, and new quizzes for continued learning.
+* 🔁 Joe and Jim demo a Microsoft Bookings integration using email parsing as a workaround for missing webhooks.
+* 🚦 Linda presents an automation to tag and untag at-risk clients with a clear visual banner in tickets.
+* 📈 Rod shows a Power BI-powered portal integrated with Roost forms for seamless reporting and automation.
+* 💬 Q\&A covers concurrency, licensing, and future plans to improve form customization.
+* 🎤 Aharon wraps up with thanks to all presenters and attendees.
 
 </details>
 
 ## Latest EU Open Mic video recording
 
-{% embed url="https://youtu.be/enr0xLuAnkE" %}
+{% embed url="https://youtu.be/4yScyV2Hbc8" %}
 
 <details>
 
 <summary>Contents of EU Open Mic recording:</summary>
 
-* 🗣️ Aharon kicks off with reminders to engage on Discord, upcoming Flow event details, and tips for succeeding with automation.
-* 🎓 Clea demos the new Cluck University LMS, showcasing self-paced and live learning options, certifications, and new course structures.
-* 🔧 Danial highlights March’s platform updates including new integrations, new global regions, PowerShell beta launch, and improved performance.
-* 🛠️ Aharon and Danial explain the technical reasons behind using Azure Functions for secure PowerShell support in Rewst.
-* 📩 \[External Demo] Gareth presents an enhanced workflow for securely removing MFA methods while logging all changes for audit purposes.
-* 🛠️ \[Internal Demo] Ashe demos the new Just-In-Time Admin Access crate, showing how it automates temporary admin account creation and auditing.
-* 📞 \[External Demo] Adam showcases a workflow that logs 3CX calls into Halo, automatically transcribes calls using OpenAI, and generates a live wallboard.
-* 🎬 George and Aaron close by thanking demo participants, inviting feedback, and encouraging attendance at future European Open Mics.
+* 🎤 The session begins with George channeling Aharon’s usual Open Mic intro, emphasizing Discord engagement, asking questions, and tracking time savings.
+* 🧰 Danial gives a product update for April, showcasing new integrations with Cork, Slide, Notion, and Asana, and introducing PowerShell in beta.
+* 🧩 JP from the Marketplace team details April’s crate releases including admin alerts, RMM/AV gap analysis, and duplicate account detection.
+* 🎓 Clea from Education shares updates including a redesigned onboarding page, advanced Jinja course, a webhook micro-course, and certifications.
+* 📬 Ben presents a demo of a crate that alerts when mailboxes are nearing quota and explains how to configure and deploy it for proactive support.
+* ⚙️ Craig Duff demos a custom solution that extracts data from CSVs sent via Ingram and loads it into SQL for BrightGauge analysis using PythonAnywhere.
+* 📋 Elliot Rees walks through an automated IT Glue cheat sheet generator using Roost and HTML templates for tracking client software/service usage.
+* 📣 George and Clea conclude by plugging cohort onboarding calls and encouraging participants to share and present at future sessions.
 
 </details>
 
 ## Latest ANZ Open Mic video recording
 
-{% embed url="https://youtu.be/10zO4ZuFwFU" %}
+{% embed url="https://youtu.be/NUGM5-Ye7Ak" %}
 
 <details>
 
 <summary>Contents of ANZ Open Mic recording:</summary>
 
-* 🎙️ Sarah introduces the first Australian Open Mic, highlights Discord support importance, and reminds about Flow 2025 tickets.
-
-- 🇦🇺 Jo, Scarlett, Jake, Greggory (3G), Sarah, and Michael introduce themselves as part of the local Rewst support team.
-
-* 🎓 Joe shares an update on the new Cluck University LMS, covering new features, certifications, and improved accessibility.
-
-- 💻 Michael demos new PowerShell support in Rewst, allowing scripts to run securely via Azure Functions.
-
-* 🛠️ Jake showcases the revamped User Onboarding crate, walking through its streamlined form, workflows, and documentation.
-
-- 🔒 Ben Marshall presents a DLP emergency response workflow allowing VIP users to trigger protective actions independently.
-
-* 🔧 James Allen shares a simple automation to sync product IDs between Autotask and Xero, saving accounting team hours weekly.
-
-- 🎬 Sarah and George close the session, invite regional feedback, and remind about the upcoming Flow conference
+* 🎤 Sarah welcomed attendees, introduced the Aussie Open Mic format, and shared details on Rewst's upcoming presence at Cynics Alliance 2025.
+* 📊 Ray highlighted new integrations, UI updates, transform improvements, and increased PowerShell adoption.
+* 🧱 Jo explained common Microsoft bundle errors and how to avoid them using updated documentation and tools.
+* 🔐 Tim from Colton Computers demoed an automated M365 onboarding workflow that saves hours of manual setup.
+* 🧠 Tim fielded technical questions on policy management, auditing, templates, and drift tracking tools.
+* ⚙️ Ray showcased a PowerShell-based workflow and discussed scenarios where PowerShell excels over Ginger.
+* 📦 Ray answered questions on importing PowerShell modules and customizing Azure Functions.
+* 👋 Sarah wrapped up the session, inviting future demos and wishing everyone a good weekend.
 
 </details>
 

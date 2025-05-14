@@ -2,6 +2,16 @@
 
 <details>
 
+<summary>May 2025</summary>
+
+[may-9-2025.md](../../rewst-open-mics-north-america/2025-roc-open-mics/may-9-2025.md "mention")
+
+[may-2-2025-how-one-trick-tamed-this-workflow-builders-chaos.md](../../rewst-open-mics-north-america/2025-roc-open-mics/may-2-2025-how-one-trick-tamed-this-workflow-builders-chaos.md "mention")
+
+</details>
+
+<details>
+
 <summary>April 2025</summary>
 
 [april-25-2025-from-guesswork-to-gold-automating-client-profitability-with-precision.md](april-25-2025-from-guesswork-to-gold-automating-client-profitability-with-precision.md "mention")
