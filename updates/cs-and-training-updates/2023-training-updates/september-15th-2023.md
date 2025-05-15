@@ -31,19 +31,19 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [Open Mic - September 8th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/september-8-2023-special-guest-automation-from-down-under.md)
-* [Added Huntress Integration Setup Page](../../../documentation/configuration/integrations/individual-integration-documentation/security/huntress-integration-setup.md)
+* [Added Huntress Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/security/huntress-integration-setup.md)
 * [Added an Actions & Endpoints page for IT Glue](broken-reference)
-* Added alternative download instructions for [Datto RMM](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/datto-rmm-integration-setup.md) PowerShell cpt file
+* Added alternative download instructions for [Datto RMM](../../../documentation/configuration/integrations/integration-guides/rmm/datto-rmm-integration-setup.md) PowerShell cpt file
 * Added [Date-Time Comparisons Jinja Page](../../../documentation/jinja/common-jinja-examples/date-time-comparisons.md)
 * Added [Block Scope Jinja page](../../../documentation/jinja/common-jinja-examples/block-scope.md)
 * Added [Jinja Macros Jinja page](../../../documentation/jinja/common-jinja-examples/jinja-macros.md)
 * Added note about signing up for the Australian Open Mic on the [Resources page](broken-reference)
 * Updates and Fixes
-  * Updated steps and added images to the [Auvik Integration Setup](../../../documentation/configuration/integrations/individual-integration-documentation/networking-integrations/auvik-integration-setup.md) page.
-  * Updated steps and added images to the [ConnectWise Automate Integration](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/connectwise-automate-integration-setup.md) Setup page.
-  * Updated [IT Glue Integration Setup](../../../documentation/configuration/integrations/individual-integration-documentation/documentation/it-glue-integration-setup.md) page.
-  * Fixed Typo on [Datto RMM](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/datto-rmm-integration-setup.md) page.
-  * Fixed Typo on [Kaseya VSA](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md) page
+  * Updated steps and added images to the [Auvik Integration Setup](../../../documentation/configuration/integrations/integration-guides/networking-integrations/auvik-integration-setup.md) page.
+  * Updated steps and added images to the [ConnectWise Automate Integration](../../../documentation/configuration/integrations/integration-guides/rmm/connectwise-automate-integration-setup.md) Setup page.
+  * Updated [IT Glue Integration Setup](../../../documentation/configuration/integrations/integration-guides/documentation/it-glue-integration-setup.md) page.
+  * Fixed Typo on [Datto RMM](../../../documentation/configuration/integrations/integration-guides/rmm/datto-rmm-integration-setup.md) page.
+  * Fixed Typo on [Kaseya VSA](../../../documentation/configuration/integrations/integration-guides/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md) page
   * Updated List Comprehension title to "[Working with Lists](../../../documentation/jinja/use-cases-and-best-practices/jinja-lists.md)"
   * Updated [Internal Rewst Jinja](../../../documentation/jinja/internal-rewst-jinja-examples.md) Examples!
   * Added "What is meant by the term "Workflow Wrapper" when discussed by the ROC team?" section to the [FAQ page](broken-reference).

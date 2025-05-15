@@ -1,10 +1,10 @@
 # Add or subtract from DateTime transform action
 
-### Use case
+## Use case
 
 You would like to programmatically determine what the date was thirty days ago.
 
-### Overview
+## Overview
 
 
 
@@ -14,11 +14,11 @@ Add or Subtract from a DateTime
 
 ***
 
-### Parameters
+## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>DateTime to add or subtract from</td><td>Use https://strftime.org/ for various options</td><td>true</td></tr><tr><td>Days to add or subtract</td><td>Integer value for how many days to add or subtract.</td><td>false</td></tr><tr><td>Hours to add or subtract</td><td>Integer value for how many hours to add or subtract.</td><td>false</td></tr><tr><td>Microseconds to add or subtract</td><td>Integer value for how many microseconds to add or subtract.</td><td>false</td></tr><tr><td>Minutes to add or subtract</td><td>Integer value for how many minutes to add or subtract.</td><td>false</td></tr><tr><td>Months to add or subtract</td><td>Integer value for how many months to add or subtract.</td><td>false</td></tr><tr><td>Seconds to add or subtract</td><td>Integer value for how many seconds to add or subtract.</td><td>false</td></tr><tr><td>Years to add or subtract</td><td>Integer value for how many years to add or subtract.</td><td>false</td></tr></tbody></table>
 
-### Usage
+## Usage
 
 <details>
 
@@ -32,7 +32,7 @@ The rest of the inputs in this example are blank.
 
 </details>
 
-### Results output
+## Results output
 
 Result from Example 1 (if run on 04/16/2025):
 

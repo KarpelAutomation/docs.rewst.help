@@ -4,17 +4,15 @@ description: Redefine your list structure by reshaping attribute values.
 
 # Transform list objects transform action
 
-### Use case
+## Use case
 
 You have a list where the current structure isn't effectively supporting your data analysis and transition decision making needs. You want to remap fields, flatten nested items, or count instances within your list to provide more meaningful insights.
 
-### Overview
+## Overview
 
 The `transform list objects` action offers versatile functionality to modify the structure of your list. Whether it's remapping fields for better clarity, flattening for easier data extraction, or counting to reveal data trends, this transform is a strong tool for data restructuring.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.56.59 AM.png" alt="A screenshot of transform list objects transform action, seen in the actions list menu of the workflow builder canvas. It indicates that the action is in beta."><figcaption></figcaption></figure>
-
-***
 
 ## Parameters
 

@@ -20,7 +20,7 @@ The generated chart reflects a snapshot in time and does not auto-update as org 
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll first need to set up the Microsoft Graph integration, via our [Microsoft Cloud Bundle](../../configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/).
+Before unpacking this Crate, you'll first need to set up the Microsoft Graph integration, via our [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/).
 
 ## Unpack the M365: Generate Org Chart Crate
 

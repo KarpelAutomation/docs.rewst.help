@@ -1,22 +1,20 @@
 # Parse CSV transform action
 
-### Use case
+## Use case
 
 You have received a return with a string in CSV format and you would like to convert this to a list of JSON objects.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 3.03.41 PM.png" alt="A screenshot of the parse csv transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
 
 Parse CSV Data into JSON. The first line will be keys, and subsequent lines will be values.
 
-***
-
-### Parameters
+## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>Delimiter</td><td>Character or sequence of characters to used as a delimiter in the CSV (default is ), such as '|';':', etc.</td><td>true</td></tr><tr><td>String Contents</td><td>Input the CSV formatted string you would like to convert to JSON.</td><td>true</td></tr></tbody></table>
 
-### Usage
+## Usage
 
 <details>
 
@@ -43,7 +41,7 @@ Index,Name,Description,Brand,Category,Price,Currency,Stock,EAN,Color,Size,Availa
 
 </details>
 
-### Results output
+## Results output
 
 Result of Example:
 

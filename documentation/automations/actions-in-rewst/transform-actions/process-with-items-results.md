@@ -2,21 +2,19 @@
 description: Seamlessly integrate "With Items" task results into your original list.
 ---
 
-# Append with items results
+# Append with items results transform action
 
-### Use case
+## Use case
 
 You're dealing with nested data structures and need to extract results from tasks ran With Items into your original list. You want a unified, easy-to-manipulate list that includes all necessary data.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.26.27 AM.png" alt=""><figcaption></figcaption></figure>
 
 The `Append With Items Results` transform enables effective incorporation of "With Items" task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.58.44 AM.png" alt=""><figcaption></figcaption></figure>
-
-***
 
 ## Parameters
 

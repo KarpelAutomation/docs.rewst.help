@@ -1,7 +1,7 @@
 # PowerShell interpreter
 
 {% hint style="warning" %}
-To use the PowerShell interpreter, you’ll first need to set up our[ Microsoft Cloud Bundle](../configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/), which contains the Azure integration.
+To use the PowerShell interpreter, you’ll first need to set up our[ Microsoft Cloud Bundle](../configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/), which contains the Azure integration.
 
 PowerShell support is currently in beta, with general availability expected soon. We're gathering customer feedback to improve performance and expand context support. Scroll to the end of this page to view our current known issue list.
 {% endhint %}

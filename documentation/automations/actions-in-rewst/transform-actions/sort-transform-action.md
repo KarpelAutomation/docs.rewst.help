@@ -6,12 +6,9 @@
 
 You are listing users from Microsoft Graph and you would like to sort the result alphabetically based on their displayName attribute.
 
-### Overview
+## Overview
 
-Given an iterable, return a new sorted list from the items in the iterable.\
-
-
-***
+Given an iterable, return a new sorted list from the items in the iterable.
 
 ## Parameters
 

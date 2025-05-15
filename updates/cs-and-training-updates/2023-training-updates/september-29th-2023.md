@@ -30,8 +30,8 @@ Explore what new changes the Training team has made in the last week.
 * Shoutouts to Kevin Grube and Kelvin for contributing to the docs this week! For those who missed it, we're building out the ability to contribute to our docs, [starting with updates and fixes](broken-reference).&#x20;
 * Updates and Fixes
   * Updated the URL note on the [Connectwise Pod Configuration](broken-reference) page.
-  * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](../../../documentation/configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md)
+  * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](../../../documentation/configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/authorization-best-practices.md)
   * Added Read-only information on the [How to Add or Remove Users](broken-reference) and [Roles](../../../documentation/settings/roles.md) pages.
-  * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/configuration/integrations/individual-integration-documentation/database/database-integration-setup.md) page.
+  * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/configuration/integrations/integration-guides/database/database-integration-setup.md) page.
 
 </details>

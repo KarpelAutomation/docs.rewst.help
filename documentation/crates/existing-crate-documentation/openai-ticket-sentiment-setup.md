@@ -4,7 +4,7 @@
 **Azure OpenAI Instance**
 
 Note that this Crate works for both OpenAI and OpenAI with an Azure instance.\
-In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../configuration/integrations/individual-integration-documentation/ai/openai/azure-openai-integration-setup.md) steps and follow the below steps.
+In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../configuration/integrations/integration-guides/ai/openai/azure-openai-integration-setup.md) steps and follow the below steps.
 {% endhint %}
 
 ### What does this Crate do?
@@ -58,7 +58,7 @@ There are three steps to getting this crate up and running:
 
 In order to use this crate, you'll need to have an OpenAI account.
 
-Follow the instructions on the [OpenAI Integration Setup](../../configuration/integrations/individual-integration-documentation/ai/openai/openai-integration-setup.md) page to get this set up and then come back here!
+Follow the instructions on the [OpenAI Integration Setup](../../configuration/integrations/integration-guides/ai/openai/openai-integration-setup.md) page to get this set up and then come back here!
 
 Remember, you can also set up an Azure instance of OpenAI, and use that with this crate. If you want to do that, you'll need to follow the Azure OpenAI Integration Setup steps.
 

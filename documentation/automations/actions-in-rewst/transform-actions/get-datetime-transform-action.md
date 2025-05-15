@@ -1,18 +1,16 @@
 # Get DateTime transform action
 
-### Use case
+## Use case
 
 You would like to get the current date/datetime.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.55.53 PM.png" alt="An image of the get datetime transform action in the actions menu in the workflow builder canvas."><figcaption></figcaption></figure>
 
 Returns the current date/time in the requested timezone.
 
-***
-
-### Parameters
+## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>DateTime format to return</td><td>Use https://strftime.org/ for various options</td><td>true</td></tr><tr><td>Timezone to return</td><td>The timezone you would like to have the date returned in.</td><td>true</td></tr></tbody></table>
 
@@ -22,7 +20,7 @@ Some timezone values are timezone naive, such as EST. Say you would like to use 
 A good point of reference is: https://en.wikipedia.org/wiki/List\_of\_tz\_database\_time\_zones
 {% endhint %}
 
-### Usage
+## Usage
 
 <details>
 
@@ -36,7 +34,7 @@ Inputs:
 
 </details>
 
-### Results output
+## Results output
 
 Results of Example:
 

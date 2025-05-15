@@ -1,16 +1,14 @@
 # Map to an attribute within a list transform action
 
-### Use case
+## Use case
 
 You are trying to create a list of users from a Microsoft Graph return and want to create a flat list of all the display names for the users.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.29.02 AM.png" alt=""><figcaption></figcaption></figure>
 
 Map to an attribute for each dictionary object in a list.
-
-***
 
 ## Parameters
 
@@ -84,7 +82,7 @@ Inputs:
 
 </details>
 
-## Results Output
+## Results output
 
 This transform is expected to return a new list that is mapped to the selected attribute.
 

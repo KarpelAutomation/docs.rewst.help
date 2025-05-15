@@ -2,21 +2,19 @@
 description: Modify a specific field's value within your list objects.
 ---
 
-# Set list field value
+# Set list field value transform action
 
-### Use case
+## Use case
 
 You have a list of objects where certain field values need adjusting. You need a solution that not only allows straightforward field value modifications, but also supports conditional changes and nested element modifications.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.27.48 AM.png" alt=""><figcaption></figcaption></figure>
 
 The `Set List Field Value` action enables the customization of a field's value within a list of objects. Whether it's for conditional value adjustment based on specific criteria or working with nested elements, this action offers the flexibility you need.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.57.50 AM.png" alt=""><figcaption></figcaption></figure>
-
-***
 
 ## Parameters
 
@@ -160,6 +158,3 @@ results: [
 ]
 ```
 
-***
-
-With the knowledge of the `Set Field Value` action, you're now equipped to make modifications to the field values in your lists of objects. Remember, the aim is not just to change values but to improve the readability and utility of your data.

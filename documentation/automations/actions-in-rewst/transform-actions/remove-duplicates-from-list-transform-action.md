@@ -1,16 +1,14 @@
 # Remove duplicates from list transform action
 
-### Use case
+## Use case
 
 You are working with a list of users however, the dataset contains multiple objects with the same GUID, you would like to remove the duplicates from the list.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-04 at 3.12.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 Returns a list of unique items from the given list/iterable.
-
-***
 
 ## Parameters
 

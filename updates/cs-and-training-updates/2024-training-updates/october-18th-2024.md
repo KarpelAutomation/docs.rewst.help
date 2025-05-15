@@ -42,7 +42,7 @@ Explore what new changes the Training team has made in the last week.
 
 * Added Pages
   * [Addigy Integration Page](https://docs.rewst.help/documentation/integrations/rmm/addigy)
-  * [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")
+  * [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")
   * [#routine-system-maintenance-october-26-2024](../../issue-alerts.md#routine-system-maintenance-october-26-2024 "mention")
   * [app-builder](../../../documentation/app-builder/ "mention") pages
 

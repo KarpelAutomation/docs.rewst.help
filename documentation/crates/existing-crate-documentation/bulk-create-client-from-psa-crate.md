@@ -15,7 +15,7 @@ Our **Bulk Create Client from PSA** Crate allows you to create organizations in 
 
 ## Crate prerequisites
 
-Prior to unpacking and running this Crate, you should have one of the following [PSA integrations ](../../configuration/integrations/individual-integration-documentation/psa/)configured in Rewst:
+Prior to unpacking and running this Crate, you should have one of the following [PSA integrations ](../../configuration/integrations/integration-guides/psa/)configured in Rewst:
 
 * ConnectWise PSA
 * DattoPSA

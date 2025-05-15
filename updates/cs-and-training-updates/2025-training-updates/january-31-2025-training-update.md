@@ -36,7 +36,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [Broken link](broken-reference "mention")pages combined.
-* [halo-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/psa/halo-integration-setup.md "mention") pages combined.
+* [halo-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/psa/halo-integration-setup.md "mention") pages combined.
 * [components](../../../documentation/app-builder/components/ "mention")subpages updated.
 * [Broken link](broken-reference "mention")page updated.
 * [Broken link](broken-reference "mention") page added.

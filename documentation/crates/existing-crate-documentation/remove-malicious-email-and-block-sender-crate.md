@@ -57,7 +57,7 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 4.39.48 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **⋮** to the right of your searched form. Select **Usages**.
 4. Click **View Direct URLs** for the Workflow named **\[ROC] M365: Remove Malicious Emails and Block Sender**.
-5. Click the link that corresponds to your target organization. Note that the target organization will need to have been mapped and authorized within the [Microsoft Cloud Integration Bundle](../../configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/).\
+5. Click the link that corresponds to your target organization. Note that the target organization will need to have been mapped and authorized within the [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/).\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-04-01 at 4.40.56 PM.png>)
 6. Select the ticket number to document the workflow actions for the request from the **Ticket Number** drop-down selector.

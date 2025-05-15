@@ -4,19 +4,17 @@ description: Identify the differences between two input lists.
 
 # Diff lists transform action
 
-### Use case
+## Use case
 
 You need to compare two lists and highlight the unique entries or entries exclusive to the first list, A transformation action that simplifies this complex comparison process is required.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.24.48 AM.png" alt=""><figcaption></figcaption></figure>
 
 The `Diff Lists` transform is your solution for list comparison tasks. It uses two methods - `Anti-Join` and `Symmetric Difference` - to focus on unique or exclusive entries, thereby streamlining your data comparison process.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.59.50 AM.png" alt=""><figcaption></figcaption></figure>
-
-***
 
 ## Parameters
 
@@ -130,7 +128,7 @@ list2_key: id
 
 </details>
 
-## Results Output
+## Results output
 
 The results of the two different diff methods can be seen as follows:
 

@@ -10,8 +10,6 @@ Returns the Nth element of a string or list
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-01 at 2.53.38 PM.png" alt="A screenshot of the set return element transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
 
-***
-
 ## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>Element</td><td>Element number to Return, starting at 0 for the first element. -1 will return the last element</td><td>true</td></tr><tr><td>Input String or List</td><td>String or list that you would like to return the element of.</td><td>true</td></tr></tbody></table>

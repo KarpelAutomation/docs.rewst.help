@@ -48,8 +48,8 @@ Explore what new changes the Training team has made in the last week.
 
 - Updated Pages
   * [security-policy.md](../../../security/security-policy.md "mention") updated with latest IPs and Domains
-  * Added note to [connectwise-automate-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/rmm/connectwise-automate-integration-setup.md "mention") about customers not populating.
-  * Added note to [datto-psa-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/psa/datto-psa-integration-setup.md "mention") about long loading times.
+  * Added note to [connectwise-automate-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/rmm/connectwise-automate-integration-setup.md "mention") about customers not populating.
+  * Added note to [datto-psa-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/psa/datto-psa-integration-setup.md "mention") about long loading times.
   * Added note to [Broken link](broken-reference "mention") about 403 Forbidden error.
 
 </details>

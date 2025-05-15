@@ -1,20 +1,16 @@
 # Is JSON transform action
 
-## Check If String is Valid JSON
-
-### Use case
+## Use case
 
 You are working with an API and the return comes back as a JSON string instead of being a JSON object. You would like to verify that the string is valid JSON before attempting to convert it to JSON.
 
-### Overview
+## Overview
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.22.11 AM.png" alt=""><figcaption></figcaption></figure>
 
 This transform will check whether or not a string provided via the 'String to Check' input is a valid JSON string.
 
-***
-
-### Parameters
+## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>String to Check</td><td>The string to validate.</td><td>true</td></tr></tbody></table>
 
@@ -48,7 +44,7 @@ I am not a JSON string!
 
 </details>
 
-## Results Output
+## Results output
 
 \
 This transform will output a boolean value (True/False) based on whether or not the string is a valid JSON string.
