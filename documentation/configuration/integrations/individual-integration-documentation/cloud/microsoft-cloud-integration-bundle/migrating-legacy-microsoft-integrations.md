@@ -1,12 +1,4 @@
----
-description: >-
-  Transition smoothly from legacy setups to the new Microsoft Cloud Bundle with
-  our step-by-step guide, designed to ensure a secure and efficient setup.
----
-
-# Migrating Legacy Microsoft Integrations
-
-## Overview
+# Migrate legacy Microsoft integrations
 
 Transitioning from the legacy setup to the new Microsoft Cloud Bundle is straightforward. This guide ensures a seamless migration process, enabling you to enjoy a more secure and efficient setup with granular permission control.
 

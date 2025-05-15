@@ -10,8 +10,6 @@ This individual guide is specific to the Microsoft Graph section. You can learn 
 Microsoft Graph does not suppot multi-instance integration. For more on this topic, see our documentation [here](../../../../multi-instance-integration/),&#x20;
 {% endhint %}
 
-## **Overview**
-
 The Microsoft Graph integration within the Rewst Microsoft Cloud Integration Bundle facilitates seamless interaction with Microsoft services like Office 365, Azure Active Directory, SharePoint, and more. This integration is designed to simplify access to a wide array of Microsoft products through a single API endpoint.
 
 ## **Key Features**
@@ -54,3 +52,5 @@ For troubleshooting tips, check out the [troubleshooting-installation-issues.md]
 ## **Best Practices for Microsoft Integrations**
 
 For best practice information please refer to: [Best Practices for Microsoft Integrations](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices).
+
+Our documentation comes directly from Microsoft. If you need more information on managing groups in Microsoft Graph, we recommend visiting [this Microsoft reference page](https://learn.microsoft.com/en-us/graph/api/resources/groups-overview).

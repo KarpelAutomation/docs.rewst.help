@@ -17,7 +17,7 @@ This individual guide for the sections specific to the Microsoft CSP setup. You 
 Microsoft CSP does not support multi-instance integration. For more on this topic, see our documentation [here](../../../../multi-instance-integration/integrate-multiple-instances-of-the-same-integration.md).&#x20;
 {% endhint %}
 
-## **Overview**
+
 
 The Microsoft CSP integration within the Rewst Microsoft Cloud Integration Bundle enhances the management of Cloud Solution Provider relationships and services. It simplifies the delegation and management of permissions across customer tenants, offering streamlined access to manage and administer Microsoft services.
 

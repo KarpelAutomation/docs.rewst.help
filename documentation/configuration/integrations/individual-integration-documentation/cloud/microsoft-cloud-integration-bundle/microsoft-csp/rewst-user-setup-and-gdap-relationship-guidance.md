@@ -12,7 +12,7 @@ While effort is required to get GDAP set up up front, but this setup will allow 
 This guide walks through the process of setting up the GDAP relationship step-by-step. But manual processes are for the birds. Check out the [Configure New GDAP Relationship](https://app.rewst.io/marketplace/crates/019100c6-5290-7f70-a353-70c628cc7f2e) Crate!
 {% endhint %}
 
-## Introduction
+
 
 This guide specifically goes over the following:
 

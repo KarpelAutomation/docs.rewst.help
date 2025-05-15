@@ -1,6 +1,6 @@
 # Graph actions
 
-## Overview
+
 
 Microsoft Graph API offers a collection of actions for managing Microsoft services like Teams, Users, and OneDrive. These actions enable tasks such as creating events, managing licenses, and sending emails.
 

@@ -16,10 +16,6 @@ This individual guide is for the sections specific to Microsoft Exchange Online 
 Microsoft Exchange Online does not suppot multi-instance integration. For more on this topic, see our documentation [here](../../../../multi-instance-integration/),&#x20;
 {% endhint %}
 
-***
-
-## **Overview**
-
 The Microsoft Exchange Online integration in the Rewst Microsoft Cloud Integration Bundle provides advanced email and calendar management capabilities. This integration simplifies the administration of Exchange services, enhancing productivity and security within your organization.
 
 ## **Key Features**

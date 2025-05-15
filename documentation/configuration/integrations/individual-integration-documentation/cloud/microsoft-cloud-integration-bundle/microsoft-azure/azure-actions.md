@@ -1,6 +1,6 @@
-# Azure Actions
+# Azure actions
 
-## Overview
+
 
 The Microsoft Azure Actions page details the range of operations that can be performed through the Azure integration within Rewst. Organized by categories, it provides specific actions for managing accounts, blob containers, key vaults, storage accounts, virtual machines, and virtual networks.
 

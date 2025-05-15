@@ -1,14 +1,10 @@
-# Microsoft Azure Integration Setup
+# Microsoft Azure integration setup
 
 {% hint style="warning" %}
 **Microsoft Azure is now part of our new Microsoft Cloud Integration Bundle!** 🌟 We've combined our Microsoft integrations into a single, streamlined package for easier management and enhanced security.
 
 This individual guide is specific to the Microsoft Azure section. You can learn more about the entire bundle on the [Microsoft Cloud Integration Bundle](../) page.
 {% endhint %}
-
-***
-
-## **Overview**
 
 The Microsoft Azure integration, as part of the Rewst Microsoft Cloud Integration Bundle, offers streamlined management of Azure services, providing tools and capabilities that are essential for building scalable infrastructure, robust data storage solutions, advanced analytics, and comprehensive application management.
 

@@ -6,10 +6,6 @@ description: >-
 
 # Owned app registration
 
-***
-
-## **Overview**
-
 Owned App Registration within your Microsoft tenant allows for a tailored configuration and heightened security settings. This advanced option is **suited for users with proficiency in their Microsoft Entra environment** who require custom control over their Microsoft integrations.
 
 ## **Reasons to Choose Owned App Registration**

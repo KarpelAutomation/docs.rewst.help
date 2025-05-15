@@ -1,6 +1,6 @@
-# Graph Subscriptions
+# Graph subscriptions
 
-## Overview
+
 
 Microsoft Graph subscriptions enable applications to receive real-time notifications when changes occur in user or organizational resources. Through Rewst, you can utilize subscriptions as workflow triggers, automating processes such as ticket creation in your PSA when a new user is added to Microsoft 365.
 

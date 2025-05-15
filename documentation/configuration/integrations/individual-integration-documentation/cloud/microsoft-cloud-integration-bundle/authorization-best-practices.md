@@ -1,6 +1,4 @@
-# Best Practices for Microsoft Integrations
-
-## Overview
+# Prerequisites and best practices for Microsoft integrations
 
 Understanding Microsoft integrations can be complex due to the multitude of products and services involved. This section provides a comprehensive guide to the recommended setup for Rewst, detailing aspects such as **account usage**, **multi-factor authentication (MFA)**, **GDAP** **groups**, and **Conditional Access Policies**. Proper implementation as described herein ensures smooth integration with the [Microsoft CSP](microsoft-csp/), [Microsoft Graph](microsoft-graph/), or [Microsoft Exchange Online](microsoft-exchange-online/) integrations. Failure to adhere to these instructions may result in integration issues.
 
@@ -23,7 +21,7 @@ Ensuring secure access to your tenants with Rewst requires careful configuration
 
 ### **Setup Your Policies**
 
-1. **Browse to Azure**: Navigate to the [Conditional Access Policies](https://portal.azure.com/#view/Microsoft\_AAD\_ConditionalAccess/ConditionalAccessBlade/\~/Policies) blade in Azure..
+1. **Browse to Azure**: Navigate to the [Conditional Access Policies](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies) blade in Azure..
 2. **Exclude Rewst Service Account**: Remove the Rewst service account from existing policies.
 3. **Create a New Policy**:
    * **Include Rewst User**: Add the Rewst user to the policy.
@@ -34,7 +32,7 @@ Ensuring secure access to your tenants with Rewst requires careful configuration
 
 Granular access is influenced by your clients' conditional access policies. To ensure seamless access to your clients using your Rewst integration user, follow these steps:
 
-1. **Browse to Client's Azure**: Navigate to your client's [Conditional Access Policies](https://portal.azure.com/#view/Microsoft\_AAD\_ConditionalAccess/ConditionalAccessBlade/\~/Policies) blade in Azure.
+1. **Browse to Client's Azure**: Navigate to your client's [Conditional Access Policies](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies) blade in Azure.
 2. **Modify Policies**: For each policy listed, add an exclusion to `Users and Groups` with these settings:
    * Guest or external users
    * Service Provider Users

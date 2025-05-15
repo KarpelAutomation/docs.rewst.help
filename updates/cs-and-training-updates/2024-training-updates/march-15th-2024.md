@@ -35,7 +35,7 @@ Explore what new changes the Training team has made in the last week.
 * [data-input-and-output-input-variables-and-context-variables.md](../../../documentation/automations/workflows/data-input-and-output-input-variables-and-context-variables.md "mention") page updated for clarity and searchability&#x20;
 * [twilio-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/voip-and-sms/twilio-integration-setup.md "mention") page updated to include full steps
 * [jinja-essentials.md](../../../documentation/jinja/jinja-essentials.md "mention") page added with expanded examples from 103
-* [microsoft-graph-vs-exchange-online.md](../../../documentation/configuration/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/microsoft-graph-vs-exchange-online.md "mention") page added with more detail from 104 and 105
+* [Broken link](broken-reference "mention") page added with more detail from 104 and 105
 
 </details>
 
