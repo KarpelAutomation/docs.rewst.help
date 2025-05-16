@@ -13,7 +13,7 @@ To access the new Cluck U, your Rewst account must have the Member or Admin role
 If you have questions, reach out to us at [CluckU@rewst.io](mailto:CluckU@rewst.io) or in the #cluck-u Discord channel.
 {% endhint %}
 
-## **Welcome to the new CluckU**
+## **Welcome to the new Cluck U**
 
 We've leveled up Cluck University, making learning in Rewst smarter and more flexible than ever.
 
