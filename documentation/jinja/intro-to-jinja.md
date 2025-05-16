@@ -48,9 +48,9 @@ By default, when Jinja begins a statement block, it preserves any whitespace cha
 
 Below are some resources, external to Rewst, that can be used to assist during the use of Jinja.
 
-[Jinja Docs](https://documentation.bloomreach.com/engagement/docs/jinja)
-
-[Jinja Examples](https://www.webforefront.com/django/usebuiltinjinjafilters.html)
+* [Jinja Docs](https://documentation.bloomreach.com/engagement/docs/jinja) and [Jinja syntax examples](https://documentation.bloomreach.com/engagement/docs/jinja-syntax)
+* [Jinja's official documentation examples](ttps://jinja.palletsprojects.com/en/stable/)
+* [What is Jinja - Pushmetrics](https://pushmetrics.io/learn/jinja/what-is-jinja/)
 
 {% hint style="info" %}
 Note that whilst right now Jinja is required, the plan is to create actions to make this easier for everyday users to manipulate their data and not have to worry about using Jinja at all.
