@@ -22,7 +22,7 @@ Rewst’s ConnectWise PSA Integration must be set up.
 ## Unpack the ConnectWise PSA Agreement Mapping Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
-2. Search for **ConnectWise PSA Agreement Mapping**.\
+2. Search for `ConnectWise PSA Agreement Mapping`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-03-27 at 12.33.47 PM.png>)
 3. Click on the Crate tile to begin unpacking.

@@ -72,7 +72,7 @@ End customers will experience no immediate impact. However, migrating to the new
 
 </details>
 
-{% hint style="warning" %}
+{% hint style="info" %}
 If you have any urgent concerns, please contact your support team.
 
 * **Discord** - Rewst's support team is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)

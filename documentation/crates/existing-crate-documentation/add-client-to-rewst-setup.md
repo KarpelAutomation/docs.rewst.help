@@ -20,7 +20,7 @@ The Add Client to Rewst Crate lets you easily use a form to add a new client to 
 ### Set up the Add Client to Rewst Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
-2.  Search for **Add Client to Rewst**.
+2.  Search for `Add Client to Rewst`.
 
     \
     \

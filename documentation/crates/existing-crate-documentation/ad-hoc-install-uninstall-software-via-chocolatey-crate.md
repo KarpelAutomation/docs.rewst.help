@@ -27,7 +27,7 @@ This Crate focuses on simplifying common software management tasks, but doesn't 
 ## Unpack the Ad-Hoc Install/Uninstall Software via Chocolatey Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
-2. Search for **Ad-Hoc Install/Uninstall Software via Chocolatey**.\
+2. Search for `Ad-Hoc Install/Uninstall Software via Chocolatey`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-03-06 at 5.44.07 PM.png>)
 3. Click on the Crate tile to begin unpacking and ensure that the required org variables are added.\

@@ -1,4 +1,4 @@
-# Twilio integration setup
+# Twilio integration
 
 {% hint style="info" %}
 &#x20;If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).

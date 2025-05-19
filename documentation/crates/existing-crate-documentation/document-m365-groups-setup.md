@@ -1,14 +1,14 @@
 # Document M365 groups setup
 
 {% hint style="danger" %}
-Note that this documentation applies to the v2 of this crate.
+Note that this documentation applies to V2 of this Crate.
 
-The original crate documented against an asset called "M365 Groups (auto)", the new version uses "MS365 Groups (auto)" instead.
+The original Crate documented against an asset called M365 Groups (auto). The new version uses MS365 Groups (auto) instead.
 
 It is recommended that you disable the trigger on the old automations and delete the flexible asset types to avoid confusion.
 {% endhint %}
 
-## Introduction
+## What does the Document M365
 
 The "Document M365 GroupInformation" crate is a handy automation tool designed to streamline the documentation of all group information in Microsoft 365. It records details such as group type, visibility type, mail-enabled vs security enabled etc.
 

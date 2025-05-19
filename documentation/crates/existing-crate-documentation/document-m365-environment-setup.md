@@ -1,46 +1,34 @@
-# Document M365 environment setup
+# Document M365 environment Crate
 
-## Introduction
+{% hint style="info" %}
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
+{% endhint %}
 
-The "Document M365 Environment" crate is a handy automation tool designed to streamline the documentation of all related information to the Microsoft 365 environment. It records details such as total users, disabled, enabled, synced, licences etc as well as all members of privileged groups - ensuring that all changes are recorded as part of the version history.
+## What does the Document M365 Environment Crate do?
 
-The purpose of this crate is to automate the process of the M365 environment, auditing, reporting, and overall IT administration. The automation benefits include improved reporting accuracy, time-saving through automated documentation, and easy troubleshooting with readily available group information. Out of date documentation provided little benefit, so this ensures that automated documentation is constantly dynamically updated.
+The Document M365 Environment Crate fetches user details from the Microsoft 365 API and documents this information on your ITGlue or Hudu platform. It records details such as licenses, total users, and disabled, enabled, synced uses, as well as all members of privileged groups. The Crate ensures that all changes are recorded as part of the version history. Improve reporting accuracy, save time through automated documentation, and aid troubleshooting with readily available group information.&#x20;
 
-Before using this automation, ensure you have an existing Microsoft 365 account and your ITGlue or Hudu integration is set up.
+## Crate prerequisites
 
-## What does the automation do?
+Before using this automation:
 
-The automation fetches user details from the Microsoft 365 API and documents this information on your ITGlue or Hudu platform.
+* Ensure that you have an existing Microsoft 365 account&#x20;
+* Your [IT Glue](../../configuration/integrations/integration-guides/documentation/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/documentation/hudu-integration-setup.md) integration must be set up
 
-The benefits include:
+## Unpack the Document M365 Environment Crate
 
-* Automated documentation saving you considerable time.
-* Enhanced internal reporting and auditing with systematically documented user information.
-* Easy troubleshooting due to readily available user data.
+1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+2. Search for `Document M365 Environment`.\
+   \
+   ![A field of white text on a dark blue background titled Document M365 Environment. The text advises documenting Microsoft 365 environment details in Hudu or IT Glue for M365-enabled organizations. It specifies including data like Active Users, Guests, Licenses, and Privileged Group Information. Tags include “Documentation,” “Hudu,” “IT Glue,” “Marketing,” “Microsoft,” and “Stewart's Favorites.” At the bottom, there are visual counters indicating 528 engagements and the Crate state of “SOARING”.](<../../../.gitbook/assets/Screenshot 2025-05-12 at 1.26.32 PM.png>)
+3. Click on the Crate tile to begin unpacking.
+4. Click **Unpack Crate**.
+5. Click **Continue**.
+6. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), trigger criteria, or for integration overrides.&#x20;
+7. Click **Unpack**.
 
-## Compatibility
 
-This automation is compatible with ITGlue and Hudu at the moment.
 
-If your system or platform is not on this list, please let us know. We'll explore whether it can integrate with our crate.
-
-## Automation steps
-
-1. The automation fetches various details from integrations such as MS Graph.
-2. The information is then updated, or creates a new flexible asset and uses a HTML table to insert the information in a nice-to-look-at way.
-
-## Get started
-
-**Step 1:** Ensure that you have the Microsoft Graph, Exchange Online and ITG or Hudu integrations set up and configured, which you can get to via the below links
-
-[Microsoft Graph](https://app.rewst.io/integrations/microsoft_graph)
-
-[ITGlue](https://app.rewst.io/integrations/it_glue)
-
-[Hudu](https://app.rewst.io/integrations/hudu)
-
-**Step 2:** Unpack the crate in the marketplace. Find the crate titled "Document M365 Groups V2". You can also [find the crate by clicking here](https://app.rewst.io/marketplace/crates/ad23cb3a-d4fb-4066-91d1-719ea95a6355)
-
-## Feedback
-
-Genuinely, if you like this crate and have followed these instructions to get it up and running, we'd love to hear from you! We're always looking for feedback on how we can improve our crates, so please [click me](mailto:roc@rewst.io) and let us know what you think! If you'd like to only say thanks, that's cool too! You can [click me instead](https://engine.rewst.io/webhooks/custom/trigger/db81c9a8-13f7-458a-9306-287054605844/c47fdd7f-4075-47a8-ba92-94e790e67c06?crate=Document365Environment) and we'll send an awesome gif to our internal slack channel! 😁
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% endhint %}

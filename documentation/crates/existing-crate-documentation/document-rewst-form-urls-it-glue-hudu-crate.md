@@ -21,7 +21,7 @@ IT Glue or Hudu must be integrated with Rewst prior to unpacking this Crate.
 ## Unpack the Document Rewst Form URLs (IT Glue/Hudu) Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
-2. Search for the Document Rewst Form URLs Crate.
+2. Search for the `Document Rewst Form URLs` Crate.
 3. Click on the Crate tile to begin unpacking.\
    ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 9.59.07 AM.png>)\
 

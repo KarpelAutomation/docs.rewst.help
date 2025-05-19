@@ -4,13 +4,17 @@
 
 _Completion handlers_ are workflows that execute after another workflow has been completed. They provide a mechanism to extend or modify existing workflows without altering their core structure. These workflows have a [context variable ](data-input-and-output-input-variables-and-context-variables.md)that can be used to reference previous contexts from the workflow that was completed. Configure completion handlers to either trigger another workflow after the existing one finishes, or execute the current workflow when another workflow is completed.
 
+{% hint style="info" %}
+You might hear some of our support staff or customers who present on our Open Mics refer to completion handlers as _workflow listeners_. Listener is a more coding-focused term that they're already familiar with. A completion handler and workflow listener are the same thing.&#x20;
+{% endhint %}
+
 ### Example workflow use cases for completion handlers
 
 Let's look at a few use cases for using completion handlers:
 
 * Taking additional steps after the onboarding workflow is complete
   * Add additional functionality to an existing synced workflow without having to unsync it from the template.
-* Alerting for failed workflow executions, like kicking off the listener based on a failed status
+* Alerting for failed workflow executions, like kicking off the completion handler based on a failed status
 
 ### Configure a completion handler in a workflow
 
@@ -67,7 +71,7 @@ Add static values that represent a good test case for ensuring that your complet
 
 #### Example
 
-In the example below, we’ve created a workflow with a single noop. In the **On Success** transition, we’ve added several data aliases that represent user data that could be used to test a workflow listener, which could be used after a user is onboarded or offboarded.
+In the example below, we’ve created a workflow with a single noop. In the **On Success** transition, we’ve added several data aliases that represent user data that could be used to test a completion handler, which could be used after a user is onboarded or offboarded.
 
 <figure><img src="../../../.gitbook/assets/image (50) (1).png" alt="Screenshot of the Rewst workflow editor showing a single step labeled core_noop. The transition panel on the right displays options to edit the transition, including setting a custom label, moving the step left or right, and selecting a condition (On Success, On Error, Always, or Expression). Below that, a section titled &#x22;Data Aliases&#x22; shows several variables being mapped: first_name to &#x22;Listener&#x22;, last_name to &#x22;Testing&#x22;, email to &#x22;test@rewst.io&#x22;, license to &#x22;Microsoft Business&#x22;, and password to &#x22;RadicalMongoose123!&#x22;. Each alias has controls for reordering and deleting. A &#x22;Sub-Workflow&#x22; node is partially visible at the bottom."><figcaption><p>The noop action, its On Success transition, and the corresponding data aliases</p></figcaption></figure>
 

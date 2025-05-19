@@ -20,7 +20,7 @@ Our Duo integration must be set up before unpacking this Crate.
 ## Unpack the Identify Users in Bypass Mode Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
-2. Search for **Identify Users in Bypass Mode**.\
+2. Search for `Identify Users in Bypass Mode`\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-03-28 at 11.16.31 AM.png>)
 3. Click on the Crate tile to begin unpacking.

@@ -62,7 +62,7 @@ This Crate is designed to support MSPs and IT teams in efficiently and securely 
 ## Unpack the Amend Mailbox Permissions Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
-2. Search for the **Amend Mailbox Permissions** Crate.
+2. Search for the `Amend Mailbox Permissions` Crate.
 3. Click on the Crate tile to begin unpacking.\
    ![](<../../../.gitbook/assets/Screenshot 2025-02-13 at 10.20.14 AM.png>)
 4. This will open that PSA integration’s configuration form in a new tab. Note that this list will have check marks if you have already met the prerequisite integration and org variable setup needs.\

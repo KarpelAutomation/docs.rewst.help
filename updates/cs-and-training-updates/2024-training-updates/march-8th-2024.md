@@ -31,7 +31,7 @@ Explore what new changes the Training team has made in the last week.
 * [organization-variables.md](../../../documentation/configuration/organization-variables.md "mention")page updated
 * [connectwise-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/psa/connectwise-integration-setup.md "mention")page updated
 * [security-policy.md](../../../security/security-policy.md "mention")page updated
-* [twilio-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/voip-and-sms/twilio-integration-setup.md "mention")and [Broken link](broken-reference "mention")pages added
+* [twilio-integration-setup.md](../../../documentation/configuration/integrations/individual-integration-documentation/voip-and-sms/twilio-integration-setup.md "mention")and [Broken link](broken-reference "mention")pages added
 
 </details>
 
