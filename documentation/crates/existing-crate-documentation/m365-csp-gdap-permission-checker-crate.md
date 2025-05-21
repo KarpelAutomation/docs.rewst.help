@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the M365 CSP/GDAP Permission Checker Crate do?
 
-This Crate gives you a simple way to help validate that your GDAP roles and permissions are correct and assigned to the appropriate account. Your Rewst service account that is used to manage your Microsoft tenants requires [specific GDAP roles in order to perform it's various actions](https://docs.rewst.help/documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices#recommended-roles-for-gdap).  The workflow in this Crate is designed to identify if any of these roles are correct and assigned to the appropriate account for a specified org.
+This Crate gives you a simple way to help validate that your GDAP roles and permissions are correct and assigned to the appropriate account. Your Rewst service account that is used to manage your Microsoft tenants requires [specific GDAP roles in order to perform it's various actions](https://docs.rewst.help/documentation/integrations/individual-integration-documentation/cloud/microsoft-cloud-integration-bundle/authorization-best-practices#recommended-roles-for-gdap).  The Administrative Relationships set up for each customer in Microsoft CSP must also match those roles tied to the user. The workflow in this Crate is designed to identify if any of these roles are correct and assigned to the appropriate account for a specified org.
 
 For more information on the recommended GDAP roles, see the [Best Practices for Microsoft Integration](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices) page in our documentation.
 
@@ -32,8 +32,6 @@ The [Microsoft Graph integration](../../configuration/integrations/integration-g
 8. Click **Unpack**.
 
 ## How to use the Crate
-
-Using this Crate involves investigating the workflow within it.&#x20;
 
 1. Navigate to **Automations > Workflows**.
 2.  Search for `[ROC] M365: CSP/CPV Permission Checker`. Click on the workflow to open it in the workflow builder. \
