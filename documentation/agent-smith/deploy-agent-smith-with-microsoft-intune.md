@@ -92,7 +92,7 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 
     <figure><img src="../../.gitbook/assets/image (60) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (61) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Use Microsoft Endpoint Manager to deploy**
 

@@ -1,11 +1,11 @@
 # User Offboarding V2 Crate
 
 {% hint style="warning" %}
-This Crate is [deprecated](../crate-deprecation-faq.md). Documentation remains for legacy users. For new users, search for and set up the Microsoft User Offboarding Crate in our Crate Marketplace instead.
+This Crate is [deprecated](../crate-deprecation-faq.md). Documentation remains for legacy users. For new users, search for and set up the Microsoft: User Offboarding Crate in our Crate Marketplace instead.
 {% endhint %}
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). The User Offboarding V2 Crate can be found in our Crate Marketplace.
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates).&#x20;
 {% endhint %}
 
 ## What does the User Offboarding V2 Crate do?

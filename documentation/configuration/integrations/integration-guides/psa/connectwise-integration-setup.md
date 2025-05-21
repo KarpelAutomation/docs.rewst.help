@@ -20,7 +20,7 @@ Here’s just a taste of what you can automate with relevant Crates, after you'v
 
 ## Integration prerequisites
 
-Rewst has a number of tasks that can be performed using the ConnectWise Manage API, all of which require different permissions. You can review the [ConnectWise Manage Security Roles Matrix](https://developer.connectwise.com/@api/deki/files/422/Security_Roles_Matrix_11132017.xlsx?revision=1) for more information.
+Rewst has a number of tasks that can be performed using the ConnectWise API, all of which require different permissions. You can review the [ConnectWise PSA Security Roles Matrix](https://developer.connectwise.com/@api/deki/files/422/Security_Roles_Matrix_11132017.xlsx?revision=1) for more information.
 
 {% hint style="info" %}
 You'll need an active ConnectWise Developer account to access the above URL.
@@ -35,7 +35,7 @@ You'll need an active ConnectWise Developer account to access the above URL.
    2. Click the **+** in the top left of your screen.
    3. Name the Security Role **Rewst API**. &#x20;
    4. Click the **save** icon.
-   5. Set your permission as per [this document](broken-reference).
+   5. Set your permissions as per the [#least-privilege-access-requirements-for-connectwise-psa-integration](connectwise-integration-setup.md#least-privilege-access-requirements-for-connectwise-psa-integration "mention") section of this document.
 2. Create an API account
    1. This can be done by following [ConnectWise's own instructions](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FManage%2FDeveloper_Guide%2FAuthentication#tab=login).&#x20;
    2. Note that you'll need to be signed in to ConnectWise to view the documentation.&#x20;
@@ -54,7 +54,7 @@ You'll need an active ConnectWise Developer account to access the above URL.
    12. Click **Save**.
    13. Copy and save the public and private key in a secure location. You'll need these to move on to the rest of the setup steps in Rewst.
 
-<figure><img src="../../../../../.gitbook/assets/cwm-api-member.jpg" alt=""><figcaption><p>Creating an API Member in ConnectWise Manage</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/cwm-api-member.jpg" alt=""><figcaption><p>Creating an API Member in ConnectWise PSA</p></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/public-api-key.jpg" alt=""><figcaption><p>Public and Private Key</p></figcaption></figure>
 
@@ -62,6 +62,7 @@ You'll need an active ConnectWise Developer account to access the above URL.
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for `ConnectWise PSA`. \
+   \
    ![](<../../../../../.gitbook/assets/Screenshot 2025-02-11 at 6.01.15 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. In the **Configuration** form, enter the following into the relevant fields:
@@ -73,7 +74,7 @@ You'll need an active ConnectWise Developer account to access the above URL.
 5. Click **Save Configuration**.
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/cwm-rewst-integration-setup.jpg" alt=""><figcaption><p>Configuring ConnectWise Manage Integration in Rewst</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/cwm-rewst-integration-setup.jpg" alt=""><figcaption><p>Configuring ConnectWise PSA integration in Rewst</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Other Configurations**
@@ -586,24 +587,34 @@ Note that this form asks for information about your RMM / M365 settings as well.
 ## ConnectWise PSA pod configuration
 
 {% hint style="warning" %}
-Pod Authorization
+Pod authorization
 
 Note that pods do not allow the use of the fat client due to authorization pass-through issues. This means that you can use the web client to access pods.
 {% endhint %}
 
+During pod configuration, you'll need to update your Rewst Base URL to match your geographic Rewst instance. This will vary depending on which Rewst instance you are on. Identify your instance by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst Base URL
+
+| Rewst URL        | Base URL            |
+| ---------------- | ------------------- |
+| app.rewst.io     | engine.rewst.io     |
+| app.pdx.rewst.io | engine.pdx.rewst.io |
+| app.eu.rewst.io  | engine.eu.rewst.io  |
+| app.rewst.eu     | engine.rewst.eu     |
+| app.rewst.asia   | engine.rewst.asia   |
+
 ### Configure ConnectWise pods
 
-To configure the connection between your pods and Rewst, follow the below steps.
-
-1. Login to ConnectWise Manage as a user that has access to the Setup Tables. This is likely an admin account.
-2. Click the **System** icon on the bottom left of the ConnectWise Manage UI.
+1. Login to ConnectWise PSA as a user that has access to the setup tables. This is likely an admin account.
+2. Click the **System** icon on the bottom left of the ConnectWise PSA UI.
 3. Click on the **Setup Tables** menu that appears.
 4. Enter `\*api\` in the table filter. Your returned result should be **Manage Hosted API**.
 5. Click **Add** and use the below settings:
    1. **Description** - Enter **Rewst**
    2. **Screen** - For our example, we use **Service Tickets**
-   3. **Origin** - [https://app.rewst.io](https://app.rewst.io)
-   4. **URL** - [https://app.rewst.io/organizations/\<org\_id>/integrations/embed/ticket/\[cw\_id\]](https://app.rewst.io/organizations/%3Corg_id%3E/integrations/embed/ticket/\[cw_id)
+   3. **Origin** - [https://app.rewst.io](https://app.rewst.io)\
+      Note that you'll need to update this origin URL to match your Rewst instance. Determine your instance by referencing the included instance table.
+   4. **URL** - [https://app.rewst.io/organizations/\<org\_id>/integrations/embed/ticket/\[cw\_id\]](https://app.rewst.io/organizations/%3Corg_id%3E/integrations/embed/ticket/\[cw_id)\
+      Note that you'll need to update this URL to match your Rewst instance. Determine your instance by referencing the included instance table. You'll also need to add your own `org_id`to the URL. This can be obtained by going to your Rewst platform, looking at the URL, locating the org id between the / marks, and pasting it into the URL below. `[cw_id]`should be left as-is.
 6. Select **Pod**.
 
 {% hint style="warning" %}

@@ -75,7 +75,7 @@ Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to creat
     * **Username**: The username we created in BMS
 
     \
-    ![](<../../../../../.gitbook/assets/image (61).png>)
+    ![](<../../../../../.gitbook/assets/image (61) (1).png>)
 5.  Click **Save Configuration**. You should see the following confirmation message display if your setup has completed properly.\
     \
 

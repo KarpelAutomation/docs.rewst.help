@@ -50,7 +50,7 @@ Contact Ingram Micro Integration Support at [marketplacepsa@ingrammicro.com](mai
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
 4. If the workflow succeeds and you see customers listed in the results, then you’re all set. If it fails, review the setup instructions and make sure customers are mapped in the integration in Rewst.
 
 {% hint style="success" %}

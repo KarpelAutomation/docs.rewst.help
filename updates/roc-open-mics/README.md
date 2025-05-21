@@ -40,21 +40,23 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/t908I_SGqn8" %}
+{% embed url="https://youtu.be/0VAaMvC0n-g" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎙️ Aharon kicks off the call with Flow event news, encourages Discord engagement, and stresses the value of asking questions.
-* 🛠️ Danial presents upcoming platform updates including a workflow dashboard and enhanced filtering features.
-* 📊 JP introduces a new Org Chart Builder crate that maps org hierarchy using M365 data.
-* 🏫 Clea shares Cluck University updates, certification shoutouts, and new quizzes for continued learning.
-* 🔁 Joe and Jim demo a Microsoft Bookings integration using email parsing as a workaround for missing webhooks.
-* 🚦 Linda presents an automation to tag and untag at-risk clients with a clear visual banner in tickets.
-* 📈 Rod shows a Power BI-powered portal integrated with Roost forms for seamless reporting and automation.
-* 💬 Q\&A covers concurrency, licensing, and future plans to improve form customization.
-* 🎤 Aharon wraps up with thanks to all presenters and attendees.
+* 🎙️ "Aharon" opens with reminders about the call, Flow registration urgency, and the importance of asking questions to succeed with automation.
+* 📹 George encourages community content contributions for Workflow Wednesday and shares a success story.
+* 🛠️ Danial presents updates like “no validate” in Halo PSA, new ServiceNow triggers, and UI improvements.
+* 📦 JP shares marketplace progress on bug fixes, transforms, and upcoming refactors.
+* 🏫 Clea gives shoutouts to new certification earners and highlights updates to Cluck University’s layout and calendar.
+* 🔐 Stephen demos a face-checking workflow using Entra Verified ID to securely verify identities across tenants.
+* 📦 Jen shares a QR-based label and inventory tracking workflow using Halo and Roost to manage tech items.
+* 🤖 Emmitt shows a workflow using Teams bots to track ticket status changes and escalate after delays.
+* ⚙️ Owen demos a GitHub-shared workflow for monitoring admin password alerts via Microsoft Graph.
+* 🧪 Ben shares form tips like markdown tricks, prefilled fields, and hidden metadata use cases.
+* 💬 Q\&A covers crate improvement requests, folder features, filtering execution history, error handling in workflows, and onboarding edge cases.
 
 </details>
 

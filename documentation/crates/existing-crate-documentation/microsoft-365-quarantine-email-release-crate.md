@@ -40,13 +40,13 @@ The Microsoft Exchange Integration must be set up before unpacking this Crate.&#
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (65) (1).png" alt=""><figcaption></figcaption></figure>
 3. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png" alt="" data-size="line"> to access the **Edit Trigger** page.
 4.  Click ![](<../../../.gitbook/assets/Screenshot 2025-03-31 at 5.16.58 PM.png>) under **Trigger Configuration** to copy the form's URL. \
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (66) (1).png" alt=""><figcaption></figcaption></figure>
 5. Paste the URL into a new browser tab.
 6. Fill out the form as follows:
    1. Choose the organization that you want to release an email from.
