@@ -4,7 +4,7 @@
 **Azure OpenAI Instance**
 
 Note that this crate works for both OpenAI and OpenAI with an Azure instance.\
-In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../configuration/integrations/integration-guides/ai/openai/azure-openai-integration-setup.md) steps and follow the below steps.
+In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../configuration/integrations/integration-guides/openai/azure-openai-integration-setup.md) steps and follow the below steps.
 {% endhint %}
 
 ### What does the OpenAI Ticket Categorization Crate do?

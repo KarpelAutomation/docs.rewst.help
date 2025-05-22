@@ -24,7 +24,7 @@ Explore what new changes the Training team has made in the last week.
 
 * [Broken link](broken-reference "mention")page in the App Platform Section has been updated with the latest
 * [jan-12th-2024-alpha-app-platform-demos.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md "mention")Added
-* [nerdio-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/cloud/nerdio-integration-setup.md "mention")page added
+* [nerdio-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/nerdio-integration-setup.md "mention")page added
 * Nerdio[Broken link](broken-reference "mention")page added
 * Added combine filter to [list-of-jinja-filters.md](../../../documentation/jinja/list-of-jinja-filters.md "mention")page
 

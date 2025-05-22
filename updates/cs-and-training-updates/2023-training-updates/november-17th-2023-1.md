@@ -46,7 +46,7 @@ Explore what new changes the Training team has made in the last week.
 * **Updates and Fixes:**&#x20;
   * [Broken link](broken-reference "mention")updated with new information
   * Liongard [Broken link](broken-reference "mention")page updated
-  * [sonicwall-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/security/sonicwall-integration-setup.md "mention")updated with new steps
-  * [byod-for-dattormm.md](../../../documentation/configuration/integrations/integration-guides/database/byod-for-dattormm.md "mention")instructions added
+  * [sonicwall-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/sonicwall-integration-setup.md "mention")updated with new steps
+  * [byod-for-dattormm.md](../../../documentation/configuration/integrations/integration-guides/byod-for-dattormm.md "mention")instructions added
 
 </details>

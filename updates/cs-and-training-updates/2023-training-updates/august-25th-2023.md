@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 * Updates and Fixes
   * Updated [Connectwise Pods documentation](broken-reference) to include steps for Adding Pods to Tickets
   * Fixed some broken links on the front page
-  * Fixed the IT Glue Documentation link on the [IT Glue Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/documentation/it-glue-integration-setup.md).
+  * Fixed the IT Glue Documentation link on the [IT Glue Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/it-glue-integration-setup.md).
   * Fixed the Workflow and Crate links on the [Rewst Terminology Page](broken-reference).
   * Fixed Broken links on [Actions in Rewst page](../../../documentation/automations/actions-in-rewst/).
   * Fixed code snippet and formatting errors on the [Dynamic Options and Inputs page](../../../documentation/automations/forms/intro-to-forms.md).

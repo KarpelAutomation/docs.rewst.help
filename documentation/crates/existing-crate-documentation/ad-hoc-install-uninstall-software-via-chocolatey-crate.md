@@ -21,8 +21,8 @@ This Crate focuses on simplifying common software management tasks, but doesn't 
 
 ## Crate prerequisites
 
-* An active [PSA integration](../../configuration/integrations/integration-guides/psa/) with Rewst
-* [RMM integration](../../configuration/integrations/integration-guides/rmm/) with Rewst that supports PowerShell script execution
+* An active PSA integration with Rewst
+* RMM integration with Rewst that supports PowerShell script execution
 
 ## Unpack the Ad-Hoc Install/Uninstall Software via Chocolatey Crate
 

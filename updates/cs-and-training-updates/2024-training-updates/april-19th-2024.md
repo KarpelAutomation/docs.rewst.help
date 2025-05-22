@@ -29,13 +29,13 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md "mention") Open Mic Page Added
-* [okta-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/iam/okta-integration-setup.md "mention") page added
+* [okta-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/okta-integration-setup.md "mention") page added
 * [Broken link](broken-reference "mention") for OKTA added
 * [Broken link](broken-reference "mention") Elective page added
 * [intro-to-forms.md](../../../documentation/automations/forms/intro-to-forms.md "mention") page updated with a link to the elective
 * [agent-smith-configuration-overview.md](../../../documentation/agent-smith/agent-smith-configuration-overview.md "mention") page updated
 * [list-of-jinja-filters.md](../../../documentation/jinja/list-of-jinja-filters.md "mention") updated for `regex_search` filter
-* [microsoft-cloud-integration-bundle](../../../documentation/configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/ "mention") reorganized and enhanced for clarity&#x20;
+* [microsoft-cloud-integration-bundle](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/ "mention") reorganized and enhanced for clarity&#x20;
 
 </details>
 

@@ -40,13 +40,13 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Updated Pages
-  * [servicenow-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/psa/servicenow-integration-setup.md "mention") - Formatting Update
+  * [servicenow-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/servicenow-integration-setup.md "mention") - Formatting Update
   * Added Section [Broken link](broken-reference "mention") in Rewst Foundation Lesson
   * Added App Builder Alert in [issue-alerts.md](../../issue-alerts.md "mention")
   * Reorganized RMM section under [integrations](../../../documentation/configuration/integrations/ "mention")
   * Updated [Broken link](broken-reference "mention")
     * Added "Special Instructions" to [Broken link](broken-reference "mention")
-  * Added note in [ninjaone-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/rmm/ninjaone-integration-setup.md "mention")
-  * Added note in [datto-rmm-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/rmm/datto-rmm-integration-setup.md "mention")
+  * Added note in [ninjaone-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ninjaone-integration-setup.md "mention")
+  * Added note in [datto-rmm-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md "mention")
 
 </details>

@@ -1,2 +1,0 @@
-# Kaseya VSA
-

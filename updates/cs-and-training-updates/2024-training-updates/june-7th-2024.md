@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * The [..](../../../ "mention") page has been updated thanks to the effort of Tricia Timney!
-* [google-workspace-admin-sdk-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/cloud/google-admin/google-workspace-admin-sdk-integration-setup.md "mention") page updated with clarifying notes
+* [google-workspace-admin-sdk-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/google-admin/google-workspace-admin-sdk-integration-setup.md "mention") page updated with clarifying notes
 
 </details>
 

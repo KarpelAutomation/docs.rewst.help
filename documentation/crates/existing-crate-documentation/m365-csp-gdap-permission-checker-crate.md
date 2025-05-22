@@ -12,7 +12,7 @@ For more information on the recommended GDAP roles, see the [Best Practices for 
 
 ## Crate prerequisites
 
-The [Microsoft Graph integration](../../configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md) must first be set up before unpacking this Crate.
+The [Microsoft Graph integration](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md) must first be set up before unpacking this Crate.
 
 ## Unpack the M365 CSP/GDAP Permission Checker Crate
 

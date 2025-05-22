@@ -28,7 +28,7 @@ Explore what new changes the Training team has made in the last week.
 
 * [feb-23rd-2024-pardon-my-jinja.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/feb-23rd-2024-pardon-my-jinja.md "mention")Open Mic page added
 * [configure-organization-variables.md](../../../documentation/crates/existing-crate-documentation/configure-organization-variables.md "mention")Crate documentation added (Shout out to Ryan!)
-* [connectwise-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/psa/connectwise-integration-setup.md "mention")page updated for accuracy
+* [connectwise-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/connectwise-integration-setup.md "mention")page updated for accuracy
 * App Platform [Broken link](broken-reference "mention")page has been updated with the latest
 
 </details>

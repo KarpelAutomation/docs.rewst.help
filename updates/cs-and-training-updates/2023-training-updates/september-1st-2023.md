@@ -34,17 +34,17 @@ Explore what new changes the Training team has made in the last week.
 
 * [Open Mic - August 25th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-25th-2023-looks-like-brandwichs-back-on-the-menu.md)
 * Added a [CSP/CPV Permission Checker Page](../../../documentation/crates/existing-crate-documentation/m365-csp-gdap-permission-checker-crate.md)
-* Added a [DattoRMM Bring Your Own Database Page](../../../documentation/configuration/integrations/integration-guides/database/byod-for-dattormm.md)
+* Added a [DattoRMM Bring Your Own Database Page](../../../documentation/configuration/integrations/integration-guides/byod-for-dattormm.md)
 * Added a [Integrating with Two CSPs Page](../../../documentation/configuration/integrations/multi-instance-integration/integrate-multiple-instances-of-the-same-integration.md)
 * Updates and Fixes
   * Updated [Intro to Triggers page](../../../documentation/automations/intro-to-triggers/)
   * Add instructions for unpacking a Crate on the [What is a Crate page](../../../documentation/crates/)
-  * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/documentation/it-glue-integration-setup.md)
-  * Updated the wording on the [Database Setup Page](../../../documentation/configuration/integrations/integration-guides/database/database-integration-setup.md)
+  * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/it-glue-integration-setup.md)
+  * Updated the wording on the [Database Setup Page](../../../documentation/configuration/integrations/integration-guides/database-integration-setup.md)
   * Updated Support note in [Custom Integrations Page](../../../documentation/configuration/integrations/custom-integrations/)
   * Fixed incorrect information on [Least Privilege Access Requirements for the ConnectWise Manage Integration Page](broken-reference)
   * Added missing images to [Form Best Practices](../../../documentation/automations/forms/form-best-practices.md) Page
-  * Fixed Rewst Script Run Powershell file name for download on [Datto RMM Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/rmm/datto-rmm-integration-setup.md)
+  * Fixed Rewst Script Run Powershell file name for download on [Datto RMM Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
 
 </details>
 

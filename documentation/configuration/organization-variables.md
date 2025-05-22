@@ -9,7 +9,7 @@ Rewst uses a two-tier system to manage organizations, with your MSP as the _pare
 <figure><img src="../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-We recommend using the [Bulk Create Client from PSA Crate](../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly, and using the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the mapping process for each new customer you add in the future. You can also add organizations manually, or through the [Microsoft Cloud Bundle](integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/).
+We recommend using the [Bulk Create Client from PSA Crate](../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly, and using the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the mapping process for each new customer you add in the future. You can also add organizations manually, or through the [Microsoft Cloud Bundle](integrations/integration-guides/microsoft-cloud-integration-bundle/).
 {% endhint %}
 
 ## What is an organization variable?

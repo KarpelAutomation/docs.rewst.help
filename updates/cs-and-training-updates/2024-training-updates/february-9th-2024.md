@@ -24,7 +24,7 @@ Explore what new changes the Training team has made in the last week.
 
 * Added [feb-2nd-2024-inside-the-eye-of-the-brainstrom.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/feb-2nd-2024-inside-the-eye-of-the-brainstrom.md "mention")Open Mic page.
 * [Broken link](broken-reference "mention")page in the App Platform Section has been updated with the latest.
-* Fixed the instructions for the [azure-openai-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ai/openai/azure-openai-integration-setup.md "mention")page.
+* Fixed the instructions for the [azure-openai-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/openai/azure-openai-integration-setup.md "mention")page.
 * Fixed steps to get a Form Embed link on the [embedding-a-form-into-an-iframe.md](../../../documentation/automations/forms/embedding-a-form-into-an-iframe.md "mention")page.
 * Fixed `datadelta` to `datedelta` on [list-of-jinja-filters.md](../../../documentation/jinja/list-of-jinja-filters.md "mention")page.
 

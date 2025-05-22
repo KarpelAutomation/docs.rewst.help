@@ -40,7 +40,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Updated Pages
-  * Updated and added instructions to [datto-psa-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/psa/datto-psa-integration-setup.md "mention")
-  * Reordered steps in [connectwise-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/psa/connectwise-integration-setup.md "mention")
+  * Updated and added instructions to [datto-psa-integration-setup](../../../documentation/configuration/integrations/integration-guides/datto-psa-integration-setup/ "mention")
+  * Reordered steps in [connectwise-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/connectwise-integration-setup.md "mention")
 
 </details>

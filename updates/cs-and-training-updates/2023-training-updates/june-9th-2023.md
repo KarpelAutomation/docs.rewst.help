@@ -16,7 +16,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>Cluck U and Documentation Updates</strong></summary>
 
-* [Ingram Micro Cloud Integration](../../../documentation/configuration/integrations/integration-guides/licensing/ingram-micro-integration-setup.md) Doc added
+* [Ingram Micro Cloud Integration](../../../documentation/configuration/integrations/integration-guides/ingram-micro-integration-setup.md) Doc added
 * [New Prebuilt Automations](https://github.com/RewstApp/gitbook/blob/main/gitbook/external_docs/updates/cs-and-training-updates/broken-reference/README.md) section in rewst.help
   * Incoming Crate and Workflow Docs incoming
 * Company filter information added to Datto page

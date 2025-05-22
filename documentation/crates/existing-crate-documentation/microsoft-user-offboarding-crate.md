@@ -18,7 +18,7 @@ This Crate does not handle On-Prem Exchange and will only handle Exchange functi
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll need to successfully set up the Microsoft Graph integration, now a part of our [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/).
+Before unpacking this Crate, you'll need to successfully set up the Microsoft Graph integration, now a part of our [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
 
 ### Identity provider configuration
 

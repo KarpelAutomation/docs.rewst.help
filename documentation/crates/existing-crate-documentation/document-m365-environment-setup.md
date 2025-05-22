@@ -13,7 +13,7 @@ The Document M365 Environment Crate fetches user details from the Microsoft 365 
 Before using this automation:
 
 * Ensure that you have an existing Microsoft 365 account&#x20;
-* Your [IT Glue](../../configuration/integrations/integration-guides/documentation/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/documentation/hudu-integration-setup.md) integration must be set up
+* Your [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must be set up
 
 ## Unpack the Document M365 Environment Crate
 

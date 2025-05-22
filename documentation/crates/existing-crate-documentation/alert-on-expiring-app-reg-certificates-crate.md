@@ -10,7 +10,7 @@ Our Alert on Expiring App Reg Certificates Crate identifies any expiring certifi
 
 ## Crate prerequisites
 
-* The [Microsoft Graph integration](../../configuration/integrations/integration-guides/cloud/microsoft-cloud-integration-bundle/microsoft-graph/) must be set up before unpacking this Crate
+* The [Microsoft Graph integration](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/) must be set up before unpacking this Crate
 * default\_psa organization variable
 
 ## Unpack the Alert on Expiring App Reg Certificates Crate
