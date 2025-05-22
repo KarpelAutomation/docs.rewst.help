@@ -505,6 +505,7 @@
       * [April 3, 2025: The Very First EU Open Mic!](updates/roc-open-mics/roc-open-mics-europe/2025-roc-open-mics-europe/april-3-2025-the-very-first-eu-open-mic.md)
   * [ROC Open Mics: Oceania](updates/roc-open-mics/roc-open-mics-oceania/README.md)
     * [2025 Rewst Open Mics: Oceania](updates/roc-open-mics/roc-open-mics-oceania/2025-roc-open-mics-oceania/README.md)
+      * [May 2, 2025: Smarter Microsoft Integrations & Workflows – Tips from the Rewst Open Mic](updates/roc-open-mics/roc-open-mics-oceania/2025-rewst-open-mics-oceania/may-2-2025-smarter-microsoft-integrations-and-workflows-tips-from-the-rewst-open-mic.md)
       * [April 4, 2025: The Very First ANZ Open Mic!](updates/roc-open-mics/roc-open-mics-oceania/2025-roc-open-mics-oceania/april-4-2025-the-very-first-anz-open-mic.md)
 * [Development updates](updates/development-updates/README.md)
   * [2025 Dev updates](updates/development-updates/2025-dev-updates/README.md)
