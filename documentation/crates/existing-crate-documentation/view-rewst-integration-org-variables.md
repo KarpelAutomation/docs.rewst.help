@@ -16,7 +16,7 @@ If you're struggling with inconsistent naming across various platforms, the adva
 
 This Crate includes two key workflows:
 
-1. **\[ROC] Rewst: Get All Integration Ids**
+1. **\[ROC] Rewst: Get All Integration IDs**
 2. **get\_org\_ids**
 
 The parent workflow `[ROC] Rewst: Get All Integration Ids`begins by listing all organizations within Rewst, gathering their respective integrations.
