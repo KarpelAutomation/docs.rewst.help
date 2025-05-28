@@ -15,9 +15,9 @@ Our Document User Details V2 Crate streamlines the documentation of user informa
 
 ## Crate prerequisites
 
-IT Glue or Hudu must be integrated with Rewst prior to unpacking this Crate.
+[IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) must be integrated with Rewst prior to unpacking this Crate.
 
-The Microsoft Cloud Bundle must be unpacked, and configured, with GDAP Relationships established for your customers.
+The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be integrated, and configured, with GDAP Relationships established for your customers.
 
 ## Unpack the Document User Details V2 Crate
 

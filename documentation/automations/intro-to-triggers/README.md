@@ -29,7 +29,7 @@ To modify an existing trigger, click **Edit Trigger**. If there are multiple tri
 
 ### How to use a trigger on a form
 
-Once the trigger has been created on a workflow, it can then be used on a form. This must be an options generator workflow, [whose requirements can be found here](../workflows/option-generator-workflows.md).
+Once the trigger has been created on a workflow, it can then be used on a form. This must be an options generator workflow. The requirements for this[ can be found here](../workflows/option-generator-workflows.md).
 
 <figure><img src="../../../.gitbook/assets/form-trigger.png" alt=""><figcaption></figcaption></figure>
 

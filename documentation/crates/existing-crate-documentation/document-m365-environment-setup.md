@@ -6,14 +6,14 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Document M365 Environment Crate do?
 
-The Document M365 Environment Crate fetches user details from the Microsoft 365 API and documents this information on your ITGlue or Hudu platform. It records details such as licenses, total users, and disabled, enabled, synced uses, as well as all members of privileged groups. The Crate ensures that all changes are recorded as part of the version history. Improve reporting accuracy, save time through automated documentation, and aid troubleshooting with readily available group information.&#x20;
+The Document M365 Environment Crate fetches user details from the Microsoft 365 API and documents this information in your documentation tool. It records details such as licenses, total users, and disabled, enabled, synced uses, as well as all members of privileged groups. The Crate ensures that all changes are recorded as part of the version history. Improve reporting accuracy, save time through automated documentation, and aid troubleshooting with readily available group information.&#x20;
 
 ## Crate prerequisites
 
 Before using this automation:
 
 * Ensure that you have an existing Microsoft 365 account&#x20;
-* Your [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must be set up
+* Your [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must be set up
 
 ## Unpack the Document M365 Environment Crate
 
