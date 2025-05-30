@@ -313,6 +313,7 @@
   * [Sign up to present at any Open Mic](updates/roc-open-mics/sign-up-to-present-at-any-open-mic.md)
   * [Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/README.md)
     * [2025 Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/README.md)
+      * [May 23, 2025: What If Client Onboarding Just… Ran Itself?](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/may-23-2025-what-if-client-onboarding-just...-ran-itself.md)
       * [May 16, 2025: Secure Your Help Desk with Face Match Automation](updates/roc-open-mics/rewst-open-mics-north-america/2025-roc-open-mics/may-16-2025-secure-your-help-desk-with-face-match-automation.md)
       * [May 9, 2025: No Webhook? No Problem - Automating Microsoft Bookings with Emails](updates/roc-open-mics/rewst-open-mics-north-america/2025-roc-open-mics/may-9-2025-no-webhook-no-problem-automating-microsoft-bookings-with-emails.md)
       * [May 2, 2025: How One Trick Tamed This Workflow Builder's Chaos](updates/roc-open-mics/rewst-open-mics-north-america/2025-roc-open-mics/may-2-2025-how-one-trick-tamed-this-workflow-builders-chaos.md)

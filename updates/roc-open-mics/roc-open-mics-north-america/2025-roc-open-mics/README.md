@@ -4,6 +4,8 @@
 
 <summary>May 2025</summary>
 
+[may-23-2025-what-if-client-onboarding-just...-ran-itself.md](may-23-2025-what-if-client-onboarding-just...-ran-itself.md "mention")
+
 [may-16-2025-secure-your-help-desk-with-face-match-automation.md](../../rewst-open-mics-north-america/2025-roc-open-mics/may-16-2025-secure-your-help-desk-with-face-match-automation.md "mention")
 
 [may-9-2025-no-webhook-no-problem-automating-microsoft-bookings-with-emails.md](../../rewst-open-mics-north-america/2025-roc-open-mics/may-9-2025-no-webhook-no-problem-automating-microsoft-bookings-with-emails.md "mention")

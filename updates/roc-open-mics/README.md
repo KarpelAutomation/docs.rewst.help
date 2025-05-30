@@ -40,23 +40,22 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/0VAaMvC0n-g" %}
+{% embed url="https://youtu.be/vKyQ_VbxNm8" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎙️ "Aharon" opens with reminders about the call, Flow registration urgency, and the importance of asking questions to succeed with automation.
-* 📹 George encourages community content contributions for Workflow Wednesday and shares a success story.
-* 🛠️ Danial presents updates like “no validate” in Halo PSA, new ServiceNow triggers, and UI improvements.
-* 📦 JP shares marketplace progress on bug fixes, transforms, and upcoming refactors.
-* 🏫 Clea gives shoutouts to new certification earners and highlights updates to Cluck University’s layout and calendar.
-* 🔐 Stephen demos a face-checking workflow using Entra Verified ID to securely verify identities across tenants.
-* 📦 Jen shares a QR-based label and inventory tracking workflow using Halo and Roost to manage tech items.
-* 🤖 Emmitt shows a workflow using Teams bots to track ticket status changes and escalate after delays.
-* ⚙️ Owen demos a GitHub-shared workflow for monitoring admin password alerts via Microsoft Graph.
-* 🧪 Ben shares form tips like markdown tricks, prefilled fields, and hidden metadata use cases.
-* 💬 Q\&A covers crate improvement requests, folder features, filtering execution history, error handling in workflows, and onboarding edge cases.
+* 🎙️ Ashe kicks things off with reminders about Flow registration and community engagement.
+* 📹 George promotes Workflow Wednesday video contributions and shares how participants can earn Rewst swag.
+* 🛠️ Danial announces new features, including the TD Synnex StreamOne Ion integration and a Freshdesk polling trigger.
+* 📦 JP details updates to older crates like Acronis and previews a ConnectWise Toolbox refactor.
+* 🏫 Clea celebrates recent certifications and highlights new documentation for Rewst features.
+* 🔁 Owen demos a role monitoring workflow that alerts on added and removed roles using org variables.
+* 🧱 Brian presents a client onboarding workflow that sets org variables and lays the foundation for deeper automation across integrated tools.
+* 🔄 Daniel shows automated end-to-end tests for onboarding/offboarding workflows and PowerShell integrations.
+* 🧪 Community Q\&A covers data handling in loops, version control challenges, Git integration ideas, and extending Rewst's dev functionality.
+* 🏢 The session ends with creative suggestions for office automation and coffee-making robots, adding humor and engagement.
 
 </details>
 

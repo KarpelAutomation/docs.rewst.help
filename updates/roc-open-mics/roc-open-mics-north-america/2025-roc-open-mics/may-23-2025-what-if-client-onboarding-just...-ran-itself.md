@@ -1,0 +1,51 @@
+# May 23, 2025:
+
+### **Join Live!**
+
+Join us live every Friday at 3 pm EST!
+
+&#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request_type=open_mic_link&)!
+
+## Open Mic Video Recording
+
+{% embed url="https://youtu.be/vKyQ_VbxNm8" %}
+
+### Contents of the Recording:
+
+* 🎙️ Ashe kicks things off with reminders about Flow registration and community engagement.
+* 📹 George promotes Workflow Wednesday video contributions and shares how participants can earn Rewst swag.
+* 🛠️ Danial announces new features, including the TD Synnex StreamOne Ion integration and a Freshdesk polling trigger.
+* 📦 JP details updates to older crates like Acronis and previews a ConnectWise Toolbox refactor.
+* 🏫 Clea celebrates recent certifications and highlights new documentation for Rewst features.
+* 🔁 Owen demos a role monitoring workflow that alerts on added and removed roles using org variables.
+* 🧱 Brian presents a client onboarding workflow that sets org variables and lays the foundation for deeper automation across integrated tools.
+* 🔄 Daniel shows automated end-to-end tests for onboarding/offboarding workflows and PowerShell integrations.
+* 🧪 Community Q\&A covers data handling in loops, version control challenges, Git integration ideas, and extending Rewst's dev functionality.
+* 🏢 The session ends with creative suggestions for office automation and coffee-making robots, adding humor and engagement.
+
+<details>
+
+<summary><strong>How to Get Help</strong></summary>
+
+* 💬 Chat (Discord): [https://discord.gg/rewst​​ ](https://discord.gg/rewst%E2%80%8B%E2%80%8B)
+  * Private #\{{ msp \}} channel
+  * \#the-kewp
+* 🎫 Submit Tickets to: the\_roc@rewst.io
+* 📝 Feature Request + Integration Requests: [https://rewst.canny.io/](https://rewst.canny.io/)
+
+**CLUCK UNIVERSITY – REWST TRAINING:**&#x20;
+
+* 👨‍🏫 Live Instructor-Led Training: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
+* 🏁 Rewst Foundations Training: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
+* ▶️ On-demand Videos: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
+
+**DOCS:**&#x20;
+
+* 🥚 Rewst Docs: [https://docs.rewst.help ](https://docs.rewst.help)
+* ⛩️ Jinja Docs: [https://jinja.palletsprojects.com/](https://jinja.palletsprojects.com/)
+
+**KEY LINKS:**&#x20;
+
+* 📝 Feature Request + Integration Requests: [https://rewst.canny.io/](https://rewst.canny.io/)
+
+</details>
