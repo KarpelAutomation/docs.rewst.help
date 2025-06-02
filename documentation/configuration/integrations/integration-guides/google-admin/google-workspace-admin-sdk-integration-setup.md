@@ -66,7 +66,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 1. Navigate to **Configuration > Integrations** in the left side menu of the Rewst platform.
 2. Search for `Google Workspace Admin`.\
    \
-   ![](<../../../../../../.gitbook/assets/Screenshot 2025-04-17 at 3.34.50 PM.png>)
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-04-17 at 3.34.50 PM.png>)
 3. Click on the integration tile to launch set up.
 4. Enter the API credentials copied from Google into the relevant fields:
    1. **Client ID**
@@ -74,19 +74,19 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
    3. Email / User ID: this should be the one used to authenticate with the API
 5. Click **Save Configuration**.
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-04-17 at 3.51.49 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-17 at 3.51.49 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Final setup steps in Google
 
 #### Add integraton as trusted app
 
-1. Navigate to **Security > API controls > App access control > Rewst** in your Google console.
+1. Navigate to **Security > API controls > App access control > Rewst** in your Google console at [admin.google.com](https://admin.google.com).&#x20;
 2. Click to expand the **Access to Google data** accordion menu.
 3. Select **Trusted** under **Status**.
 4.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Set reauthentication policy for exemption**
 
@@ -97,7 +97,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 5. Choose your method under the **Re-authentication method** menu.
 6. Click **Save**.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Enable Google APIs
 
@@ -110,7 +110,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
     \
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Enable Gmail API
 
@@ -121,7 +121,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
     \
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### Enable Group Settings API
 
@@ -131,7 +131,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 4.  Click **Enable**.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

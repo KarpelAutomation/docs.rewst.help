@@ -4,7 +4,7 @@
 
 <summary>May 2025</summary>
 
-[may-30-2025.md](may-30-2025.md "mention")
+[may-30-2025-inside-a-new-partners-first-workflow.md](may-30-2025-inside-a-new-partners-first-workflow.md "mention")
 
 [may-23-2025.md](may-23-2025.md "mention")
 

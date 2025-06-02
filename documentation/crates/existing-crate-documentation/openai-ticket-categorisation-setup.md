@@ -1,7 +1,7 @@
 # OpenAI Ticket Categorization Crate
 
 {% hint style="info" %}
-**Azure OpenAI Instance**
+**Azure OpenAI instance**
 
 Note that this crate works for both OpenAI and OpenAI with an Azure instance.\
 In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../configuration/integrations/integration-guides/openai/azure-openai-integration-setup.md) steps and follow the below steps.
@@ -62,14 +62,22 @@ Create a ticket in your PSA with a typical description and summary.
 
 <figure><img src="../../../.gitbook/assets/HaloPSANote.png" alt=""><figcaption></figcaption></figure>
 
-### Useful organization variables: Optional
+## Useful organization variables: Optional
 
 These organization variables give you more control over the functionality of this workflow.
 
 * `ORG.VARIABLES.ticket_cat_max_tokens`
   * Allows you to manually set the max tokens
-* `ORG.VARIABLES.ai_model_ticket_cat`
-  * Allows you to manually set the model
+*   `ORG.VARIABLES.ai_model_ticket_cat`
+
+    * Allows you to manually set the model
+
+
+
+## Increase the success rate of categorization
+
+* Creating more types, subtypes, and items in your PSA will give OpenAI more choices to choose from to better fit the response.
+* Choosing a different model may improve your response. Note that different models have different price points. See more on OpenAI's model pricing [here](https://openai.com/api/pricing/).&#x20;
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
