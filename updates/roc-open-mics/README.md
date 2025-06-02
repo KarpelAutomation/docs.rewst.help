@@ -40,22 +40,27 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/vKyQ_VbxNm8" %}
+{% embed url="https://youtu.be/y4qJCh71H9g" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎙️ Ashe kicks things off with reminders about Flow registration and community engagement.
-* 📹 George promotes Workflow Wednesday video contributions and shares how participants can earn Rewst swag.
-* 🛠️ Danial announces new features, including the TD Synnex StreamOne Ion integration and a Freshdesk polling trigger.
-* 📦 JP details updates to older crates like Acronis and previews a ConnectWise Toolbox refactor.
-* 🏫 Clea celebrates recent certifications and highlights new documentation for Rewst features.
-* 🔁 Owen demos a role monitoring workflow that alerts on added and removed roles using org variables.
-* 🧱 Brian presents a client onboarding workflow that sets org variables and lays the foundation for deeper automation across integrated tools.
-* 🔄 Daniel shows automated end-to-end tests for onboarding/offboarding workflows and PowerShell integrations.
-* 🧪 Community Q\&A covers data handling in loops, version control challenges, Git integration ideas, and extending Rewst's dev functionality.
-* 🏢 The session ends with creative suggestions for office automation and coffee-making robots, adding humor and engagement.
+* 🎤 The host kicks off the session with housekeeping notes, encourages questions, and highlights the value of the Rewst Discord community.
+* 📣 An update on the upcoming Flow conference is shared, with encouragement to register for the Tampa event.
+* 🔧 Danial from the product team reports no new deploys this week but previews upcoming stability enhancements and dashboard features.
+* 🛒 JP and Paul provide updates on the Rewst Marketplace and demo new Sync Monkey documentation workflow crates.
+* 📂 Paul showcases how Sync Monkey integration automates documentation across shared mailboxes, users, and groups.
+* 📚 Clea from the education team shares certification shoutouts, updates to Cluck University, and a new process engineering course.
+* 🎯 Clea announces a competition for simple automation ideas, with submissions eligible for prizes from the Rewst storefront.
+* 💼 The host introduces a new Business Leaders Focus Group aimed at discussing automation ROI and strategic outcomes.
+* 🔁 Derrik from My IT Crew demos a subworkflow for paginated Graph API data collection, focusing on scalable automation.
+* 🛡️ Daniel from Raven showcases a security workflow to identify risky apps via the Huntress rogue app list.
+* 📋 Matt from Usherwood demos a workflow for automating device-based invoice reconciliation using Cove data and ConnectWise.
+* 🔍 Andrew raises a question about Cove API device categorization, prompting a technical discussion.
+* 🧠 Austin from C Forward presents an expanded EDR coverage gap workflow that compares RMM, EDR, and Entra data.
+* 🚀 Andrew from Infinity Network Solutions walks through his first workflow for billing reconciliation, built via the Rewst onboarding cohort.
+* 🥂 The session wraps with reminders about community programs and encouragement to join the next Open Mic.
 
 </details>
 
