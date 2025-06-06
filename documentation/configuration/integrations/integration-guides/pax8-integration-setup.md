@@ -39,27 +39,27 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Click Create.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
 5.  Name your integration something recognizable, such as `Rewst API`.\
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 6.  Copy your Client ID and Client Secret. You’ll need both to complete setup steps in Rewst.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. In the Integrations page, search for the **Pax8** integration.\
+2. In the Integrations page, search for the `Pax8` integration.\
    \
-   ![](<../../../../../.gitbook/assets/image (27) (1).png>)
+   ![](<../../../../.gitbook/assets/image (27) (1).png>)
 3. Click on the integration tile to launch setup.
 4. Enter your copied **Client ID** and **Client Secret** into their relevant fields.
 5. Leave **Is Default** checked to on.
@@ -69,7 +69,7 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Test the Integration
 
@@ -77,7 +77,7 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>An example of what your test workflow might look like</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>An example of what your test workflow might look like</p></figcaption></figure>
 2. Run the workflow and verify that it successfully interacts with your Pax8 account, confirming that the integration is functioning correctly.
 
 {% hint style="success" %}
@@ -86,7 +86,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Crates related to the Pax8 integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Microsoft: User Onboarding</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-12 at 10.11.58 AM.png">Screenshot 2025-03-12 at 10.11.58 AM.png</a></td></tr><tr><td><strong>Microsoft: User Offboarding</strong></td><td><a href="../../../../../.gitbook/assets/User offboarding (1).png">User offboarding (1).png</a></td></tr><tr><td><strong>Alert on Unused M365 Licenses</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-12 at 10.12.26 AM.png">Screenshot 2025-03-12 at 10.12.26 AM.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Microsoft: User Onboarding</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-12 at 10.11.58 AM.png">Screenshot 2025-03-12 at 10.11.58 AM.png</a></td></tr><tr><td><strong>Microsoft: User Offboarding</strong></td><td><a href="../../../../.gitbook/assets/User offboarding (1).png">User offboarding (1).png</a></td></tr><tr><td><strong>Alert on Unused M365 Licenses</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-12 at 10.12.26 AM.png">Screenshot 2025-03-12 at 10.12.26 AM.png</a></td></tr></tbody></table>
 
 ## Troubleshoot the **Pax8** integration
 
@@ -148,7 +148,7 @@ Our team expects the OAuth changes will be released on December 21, 2024. Follow
    1. Once OAuth is authorized, you’ll see a **success** message.
    2. The OAuth button will change to **Re-Authorize**.
 
-{% file src="../../../../../.gitbook/assets/Pax 8 OAuth.mp4" %}
+{% file src="../../../../.gitbook/assets/Pax 8 OAuth.mp4" %}
 This quick video shows step two of the process, where you’ll log in to Pax8 and authorize OAuth.
 {% endfile %}
 

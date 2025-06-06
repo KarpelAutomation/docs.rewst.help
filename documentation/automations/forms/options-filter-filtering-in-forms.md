@@ -18,7 +18,7 @@ Option generators are still a fantastic option for those who need a more powerfu
 ## Options filter guidance
 
 * Modifying a form using the options filter will work for both parent and child organizations, as long as data formatting is set up the same way for both organizations.
-* You can add as many conditions as desired, but groups will be limited to 3 layers.
+* Add as many conditions as desired.
 * Access the options filter feature in our standard form builder. Currently, it only applies to our dropdown element. If you’d like to see this feature expand to include other elements, send us feedback in our [Canny](https://rewst.canny.io/features).
 
 ## Practical uses for options filter
@@ -32,17 +32,17 @@ Option generators are still a fantastic option for those who need a more powerfu
 
 In the dialog, you’ll see two submenus: **Dropdown Options** and **Options Filter**.
 
-### Dropdown Options menu
+### Drop-down options menu
 
-The **All Options** drop-down selector holds all of the options which you’ve set in the standard form builder right side menu. Adding more options in that menu will populate those options into your drop-down selector.
+The **All Options** drop-down selector holds all of the options which you’ve set in the standard form builder right side menu. Adding more options in that menu will populate those options into your drop-down selector.&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 5.02.18 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 4.36.22 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-03 at 1.06.45 PM.png" alt=""><figcaption></figcaption></figure>
 
-The Filtered Options drop-down selector holds a list of your selected options after applying the filter. It acts as a preview for what to expect from your filtering.
+The **Filtered Options** drop-down selector holds a list of your selected options after applying the filter. It acts as a preview for what to expect from your filtering.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 4.36.30 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-03 at 1.07.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 If a drop-down uses a custom options filter, there will be a badge indicator in the top right of the drop-down field.
 
@@ -56,6 +56,12 @@ Toggle from the default **Simple** view to the **JSON** view. This will switch t
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 4.36.39 PM.png" alt=""><figcaption></figcaption></figure>
 
+#### Jinja for options filters
+
+If you manage many organizations, use Jinja in options filters to scale filtering logic without manually configuring filters for every suborganization. When simple boolean logic operators feel limiting, go straight to Jinja for greater customization.&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-03 at 1.05.33 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### AND and OR conditional options filtering
 
 {% hint style="info" %}
@@ -67,7 +73,7 @@ The options filter works off of two boolean operators, which are used to build q
 1. **AND** sets that all conditions must be true to be filtered into the returned result. E.g., Red AND white would count only items with both those characteristics.
 2. **OR** sets that either of several conditions can be true to be filtered into the return result E.g., Red OR white would count items with either of those characteristics.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 11.17.38 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-03 at 1.11.33 PM.png" alt=""><figcaption></figcaption></figure>
 
 Click **X** to the right of any added rule or group to delete it from your options filter list.
 
@@ -84,7 +90,9 @@ By grouping terms, you can control the order in which Boolean operators like AND
 * Without grouping, A OR B AND C would be evaluated as: A OR (B AND C) due to precedence rules
 * With grouping, (A OR B) AND C forces OR to be evaluated before AND.
 
-## Use the options filter in a form
+## Forms and options filter
+
+### Use the options filter in a form
 
 1. Create a new form by navigating to **Automations > Forms > + Add**.
 2. Name your form, and click **Submit**.
@@ -99,8 +107,28 @@ By grouping terms, you can control the order in which Boolean operators like AND
 
 ![](<../../../.gitbook/assets/Screenshot 2025-02-26 at 12.28.51 PM.png>)
 
-## Options filter and syncing of forms
+
+
+### Options filter and syncing of forms
 
 The greatest advantage of the options filter is that it allows for the overriding of a form. Synchronized forms will block you from modifying attributes to prevent sync malfunction, by default. Under filter options in the form builder, you’ll find an **Override** button at the bottom right. Clicking will override this individual filter. Note that if you have multiple filters, and want to modify all of them, you’ll need to click **Override** for each filter.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 5.14.54 PM.png" alt=""><figcaption></figcaption></figure>
+
+### Org-based preview and org-specific instances
+
+Use the org context drop-down selector to choose the suborganization that you'd like to preview, and see how the form will function for that specific organization. Previews don't require cloning, and won't affect the saved form configurations except for the options filter. The options generator will display data as if the form were triggered in just that specific organization.  The default-set options filter will be used if no custom filters were provided for the selected organization.
+
+Click the drop-down selector to view and chose from your list of all total organizations.
+
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/Screenshot 2025-06-03 at 12.16.25 PM.png" alt=""><figcaption></figcaption></figure></div>
+
+Selecting the preview organization sets the context of the form builder. and opening the preview dialog will use that organization's context to generate the correct preview, tailoring filtering logic for each instance without duplicating forms or unsyncing fields.
+
+{% hint style="info" %}
+By default, a field will inherit the parent organization's filter unless if it explicitly overridden.&#x20;
+{% endhint %}
+
+
+
+\
