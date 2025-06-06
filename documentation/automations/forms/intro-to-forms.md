@@ -174,6 +174,10 @@ Selecting the Microsoft Graph integration to list all users.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/reference-options.png" alt=""><figcaption></figcaption></figure></div>
 
+{% hint style="info" %}
+Pulling data straight from the integration like this only works at the top level organization where the integrations are installed. This option won't work for dynamically pulling suborganization data. To achieve this, you would require an [options generator](../workflows/option-generator-workflows.md).
+{% endhint %}
+
 ### Option two: Workflow generated options
 
 If you want more flexibility around the output of the data your user is seeing, you may need to opt for a workflow generated option instead, which allows for data manipulation using [Jinja](../../jinja/).

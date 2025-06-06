@@ -12,13 +12,19 @@ We recommend you only edit the pre-built workflows that come in Crates after tak
 Before building any workflow, remember to sketch out what you'd like the workflow to look like, and identify the trigger that will kick it off.
 {% endhint %}
 
+{% hint style="info" %}
+As of mid 2025, Rewst also offers _kits._ A kit is a collection of pre-built, pre-defined tasks that provide a quick start to setting up solutions to specific business needs, or to demonstrate all available actions within a given integration. For example, if you have a Halo PSA kit, there will be an actios or automations Rewst has identified that are smaller use cases compared to our larger Crates.
+
+Kits are a newer feature of our Crate Marketplace. Check back as the collection grows. See our up-to-date list of available kits [here](../kits/).&#x20;
+{% endhint %}
+
 ## Why build workflows?
 
 While the pre-built workflows in Crates are the quickest way to get started, a workflow built custom to your situation can offer powerful, personalized efficiency measures that fit your particular MSP and customer needs.
 
 ## Subworkflows
 
-A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow.&#x20;
+A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).&#x20;
 
 In the example below, you have a main workflow called **Create Ticket**. In it, you choose which PSA the organization has. Once that has been decided, you then go to a subworkflow, which encompasses the actual creation of the ticket. Note the pink border and icon on the action, denoting that it is a subworkflow.
 
@@ -43,32 +49,29 @@ _Workflow wrapper_ is an informal term sometimes used colloquially by the ROC to
 
 ## Find and use workflows in Rewst
 
-Access workflows in the Rewst platform by navigating to **Automations > Workflows** in the left side menu.
+Access workflows in the Rewst platform by navigating to **Automations > Workflows** in the left side menu. Create a new workflow from scratch by clicking **Create Workflow**.\
+\
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-04 at 3.39.58 PM.png" alt=""><figcaption></figcaption></figure>
 
-The list of workflows that appears in the center of your screen will include both the workflows you create and the workflows unpacked from Crates. As you continue to set up automation in Rewst, this list can grow quite a bit. The **Updated By**, **Attributes**, and [**Tags**](https://docs.rewst.help/documentation/workflows/tags-in-rewst) columns each offer the option to filter your results by relevant criteria. You can also use **Search** in the top right corner to find a particular workflow, and the <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 6.09.13 PM.png" alt="" data-size="line"> icon to the right to choose which columns you'd like to see in your workflow list.
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.37.00 PM (2).png" alt=""><figcaption><p>The workflows list page, without any filters applied</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-04 at 3.40.33 PM.png" alt="" width="143"><figcaption></figcaption></figure>
+The list of workflows that appears in the center of your screen will include both the workflows you create and the workflows unpacked from Crates. As you continue to set up automation in Rewst, this list can grow quite a bit. The **Updated At**, **Updated By**, **Attributes**, and [**Tags**](https://docs.rewst.help/documentation/workflows/tags-in-rewst) columns each offer the option to filter your results by relevant criteria, with attributes and tags filters operating for both inclusion and exclusion of desired parameters. You can also use **Search** in the top center of your screen to find a particular workflow, and the <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 6.09.13 PM.png" alt="" data-size="line"> icon to the right to choose which columns you'd like to see in your workflow list.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.38.10 PM.png" alt="" width="159"><figcaption></figcaption></figure>
 
 Once you create a workflow, you'll be taken to the [_workflow builder_](workflow-builder-how-to-set-up-a-workflow.md), a canvas for assembling your workflows. See our documentation for how to use the workflow builder [here](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
 
 ## View specific workflow results
 
-The general results page will show you the results of every workflow that has run in your organization. To see all results for a specific workflow, you can do the following:
+The general results page will show you the results of every workflow that has run in your organization. Apply a date range filter to view execution results from a specific time period, up to 30 days prior.
+
+To see all results for a specific workflow, you can do the following:
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for the specific workflow.\
+2. Search for the specific workflow.
+3. Select <img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.52.44 PM.png" alt="" data-size="line"> in the far right corner for that specific workflow. This will take you to a new page that will show all the results of that workflow.
 
-
-    <figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
-3.  Select the graph icon in the far right corner for that specific workflow. \
-
-
-    <figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
-
-This will take you to a new page that will show all the results of that workflow.\
-
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.51.40 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 When you delete the result of a workflow, consider it to be fully deleted. Only delete results when you are confident that they will not be needed. The result will remain in Rewst's database backup snapshots for a short length of time until it is past the retention period, at which point it will be purged. Meta data and stats about the deleted workflow execution remain in the system. Deleting a workflow execution will not affect time saved or remove time saved.
@@ -78,7 +81,7 @@ When you delete the result of a workflow, consider it to be fully deleted. Only 
 
 From the workflows page, you can view triggers associated with each workflow, without leaving that page. Hover over the workflow's **triggers** count in the **Attributes** column to see a list of every trigger linked to your workflow, and toggle each on or off to suit your needs.&#x20;
 
-<figure><img src="../../../.gitbook/assets/workflows trigger gif.gif" alt="A moving .gif image of a mouse hovering over the triggers label for a workflow in the total workflows list page. It reveals a list of triggers, with a green toggle that can be turned on or off next to each." width="375"><figcaption><p>The dialog that appears when hovering</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/trigger hover gif.gif" alt=""><figcaption><p>The dialog that appears when hovering over trigger counts</p></figcaption></figure>
 
 ## Additional workflow documentation
 
@@ -126,3 +129,10 @@ From the workflows page, you can view triggers associated with each workflow, wi
 [document-with-roborewsty.md](document-with-roborewsty.md)
 {% endcontent-ref %}
 
+{% content-ref url="../kits/" %}
+[kits](../kits/)
+{% endcontent-ref %}
+
+{% content-ref url="../subworkflows/" %}
+[subworkflows](../subworkflows/)
+{% endcontent-ref %}
