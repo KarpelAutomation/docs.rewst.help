@@ -171,6 +171,7 @@
     * [Change a User’s Password Crate](documentation/crates/existing-crate-documentation/change-a-users-password-crate.md)
     * [Configure Organizational Variables Crate](documentation/crates/existing-crate-documentation/configure-organization-variables.md)
     * [ConnectWise PSA Agreement Mapping Crate](documentation/crates/existing-crate-documentation/connectwise-psa-agreement-mapping.md)
+    * [Cork Compliance Event to PSA Ticket Crate](documentation/crates/existing-crate-documentation/cork-compliance-event-to-psa-ticket-crate.md)
     * [CWM: Technician Toolbox via Pod Crate](documentation/crates/existing-crate-documentation/cwm-technician-toolbox-via-pod.md)
     * [Document M365 environment Crate](documentation/crates/existing-crate-documentation/document-m365-environment-setup.md)
     * [Document Group Details V2 Crate](documentation/crates/existing-crate-documentation/document-m365-groups-setup.md)
