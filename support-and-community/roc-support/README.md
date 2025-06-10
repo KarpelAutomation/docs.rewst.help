@@ -21,7 +21,9 @@ Short for _Robotic Operations Center_, the ROC is Rewst’s dedicated support te
 
 ## Rewst support operating hours
 
-Rewst support is available for responses and support assistance Monday thru Friday, 4AM to 9PM Eastern.
+Our support team provides **24-hour coverage from Monday to Friday**, ensuring uninterrupted assistance across the globe. Due to our global presence, our actual coverage runs from:
+
+<table><thead><tr><th width="124.30078125">Region</th><th width="179.640625">Time Zone</th><th>Support Start </th><th>Support End </th></tr></thead><tbody><tr><td>Americas</td><td>ET</td><td>Sunday 4:00 PM</td><td>Friday 8:00 PM</td></tr><tr><td>Europe</td><td>CET</td><td>Sunday 10:00 PM</td><td>Saturday 2:00 AM</td></tr><tr><td>Australia</td><td>AET</td><td>Monday 6:00 AM</td><td>Saturday 10:00 AM</td></tr></tbody></table>
 
 Learn more about our support priority levels [here](support-priorities.md).&#x20;
 
@@ -29,10 +31,12 @@ Learn more about our support priority levels [here](support-priorities.md).&#x20
 
 To create a support request, you have several options.
 
-* You can send a message to our team via your private customer channel in Discord. We aim to respond to these messages within 60 minutes.
-* [Use the command to create a ticket from a message](create-a-ticket-via-discord.md). This will alert our support team and they'll respond as quickly as possible.
-* Email us at [roc@rewst.io](mailto:roc@rewst.io)
+* **Email:** Send your request to [roc@rewst.io](mailto:roc@rewst.io)
+* **Self-Service Portal:** If you have access, log in and submit a ticket at [https://service.rewst.io/portal](https://service.rewst.io/portal)
+  * **Requesting Portal Access:** If you don’t have access to the portal but would like it, please contact your Customer Success Advisor or email our support team at [roc@rewst.io](mailto:roc@rewst.io)
+* **Discord:** You can send a message to our team via your private customer channel in Discord. We aim to respond to these messages within 60 minutes.
+  * [Create a ticket via Discord](create-a-ticket-via-discord.md). This will alert our support team and they'll respond as quickly as possible.
 
 ## Our commitment
 
-We're committed to providing you with an excellent support experience. If you would like to speak with a member of the support leadership team, please visit our [Contact Resources](../../contact-resources.md) page for all the details you need. If you have any questions about this process, feel free to tag a member of the support team in Discord or via our [Contact Us page](../../contact-resources.md). We're here to help!
+We're committed to providing you with an excellent support experience. If you would like to speak with a member of the support leadership team, please visit our [Contact Resources](../../contact-resources.md) page for all the details you need.
