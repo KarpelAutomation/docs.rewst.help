@@ -2,6 +2,14 @@
 
 <details>
 
+<summary>June 2025</summary>
+
+[june-6-2025-auto-assign-connectwise-tickets.md](june-6-2025-auto-assign-connectwise-tickets.md "mention")
+
+</details>
+
+<details>
+
 <summary>May 2025</summary>
 
 [may-30-2025-inside-a-new-partners-first-workflow.md](may-30-2025-inside-a-new-partners-first-workflow.md "mention")

@@ -40,65 +40,68 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/y4qJCh71H9g" %}
+{% embed url="https://youtu.be/MLfULeJdOc0" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 The host kicks off the session with housekeeping notes, encourages questions, and highlights the value of the Rewst Discord community.
-* 📣 An update on the upcoming Flow conference is shared, with encouragement to register for the Tampa event.
-* 🔧 Danial from the product team reports no new deploys this week but previews upcoming stability enhancements and dashboard features.
-* 🛒 JP and Paul provide updates on the Rewst Marketplace and demo new Sync Monkey documentation workflow crates.
-* 📂 Paul showcases how Sync Monkey integration automates documentation across shared mailboxes, users, and groups.
-* 📚 Clea from the education team shares certification shoutouts, updates to Cluck University, and a new process engineering course.
-* 🎯 Clea announces a competition for simple automation ideas, with submissions eligible for prizes from the Rewst storefront.
-* 💼 The host introduces a new Business Leaders Focus Group aimed at discussing automation ROI and strategic outcomes.
-* 🔁 Derrik from My IT Crew demos a subworkflow for paginated Graph API data collection, focusing on scalable automation.
-* 🛡️ Daniel from Raven showcases a security workflow to identify risky apps via the Huntress rogue app list.
-* 📋 Matt from Usherwood demos a workflow for automating device-based invoice reconciliation using Cove data and ConnectWise.
-* 🔍 Andrew raises a question about Cove API device categorization, prompting a technical discussion.
-* 🧠 Austin from C Forward presents an expanded EDR coverage gap workflow that compares RMM, EDR, and Entra data.
-* 🚀 Andrew from Infinity Network Solutions walks through his first workflow for billing reconciliation, built via the Rewst onboarding cohort.
-* 🥂 The session wraps with reminders about community programs and encouragement to join the next Open Mic.
+* 🗣️ Aharon opens the session emphasizing curiosity, community participation, and issues with a recent system loop bug affecting Redis utilization.
+* 📢 Ashe previews the agenda and transitions to internal updates, beginning with George.
+* 🤝 George announces the new Ninja One channel in Discord, upcoming PAX 8 Beyond conference, and keynote speaker Duncan Wardle for Flow.
+* 🔍 Danial highlights multiple product updates, including improved search/filtering for workflows, Open Tech Secure Cloud integration, and dynamic dropdowns in App Builder.
+* 🛠️ JP introduces new and updated crates, including a refactor of the ConnectWise Pod and a new crate for Cork, plus bug fixes and testing efforts.
+* 🎓 Clea celebrates recent certifications, previews updated training and onboarding materials, and introduces a new course on completion handlers.
+* 🧠 Linda demos a workflow that automates assigning ConnectWise tickets using parsed customer data and team tab info for accurate routing.
+* ⚙️ Tre presents a dual-purpose ticket tool listener that logs successes and failures, with Jira bug creation for failed workflows and PSA health checks.
+* ♻️ Jon shares a reusable retry logic workflow to simplify failure handling using pre-set Jinja snippets and streamlined connections.
+* 📊 Rod shows a PowerApps-based UI update that visually reflects workflow execution status via iframe and update text elements in App Builder.
+* 📥 Reed details a workflow addressing Microsoft Defender's email quarantining conflicts with Perception Point, automating false positive management.
+* 🎤 Aharon closes the session with reminders about Flow, platform updates, and supporting peers in Discord.
 
 </details>
 
 ## Latest EU Open Mic video recording
 
-{% embed url="https://youtu.be/4yScyV2Hbc8" %}
+{% embed url="https://youtu.be/FjAU5v3HCQg" %}
 
 <details>
 
 <summary>Contents of EU Open Mic recording:</summary>
 
-* 🎤 The session begins with George channeling Aharon’s usual Open Mic intro, emphasizing Discord engagement, asking questions, and tracking time savings.
-* 🧰 Danial gives a product update for April, showcasing new integrations with Cork, Slide, Notion, and Asana, and introducing PowerShell in beta.
-* 🧩 JP from the Marketplace team details April’s crate releases including admin alerts, RMM/AV gap analysis, and duplicate account detection.
-* 🎓 Clea from Education shares updates including a redesigned onboarding page, advanced Jinja course, a webhook micro-course, and certifications.
-* 📬 Ben presents a demo of a crate that alerts when mailboxes are nearing quota and explains how to configure and deploy it for proactive support.
-* ⚙️ Craig Duff demos a custom solution that extracts data from CSVs sent via Ingram and loads it into SQL for BrightGauge analysis using PythonAnywhere.
-* 📋 Elliot Rees walks through an automated IT Glue cheat sheet generator using Roost and HTML templates for tracking client software/service usage.
-* 📣 George and Clea conclude by plugging cohort onboarding calls and encouraging participants to share and present at future sessions.
+* 📢 Rewst’s Tampa conference is announced, with reminders to register soon due to limited tickets and accommodations, plus mentions of secret side events and a call for attendees to connect.
+* 💬 Discord is emphasized as a core support and knowledge-sharing hub, with private MSP channels and direct Rock team access for building tickets.
+* 🧑‍🏫 George introduces the “Call to Cohorts” program for structured onboarding and invites experienced partners to serve as guest mentors.
+* 📈 A business leaders focus group is launched to discuss strategic hiring and high-level automation ROI, with a sign-up form shared.
+* 🧵 A new NinjaOne Discord channel is introduced, and attendees are invited to record Workflow Wednesday clips in exchange for Rewst swag.
+* 🛠️ Danial shares product updates including a new StreamOne Ion integration, Freshdesk polling triggers, Proofpoint API enhancements, transform improvements, and a new workflow search/filter UI.
+* 🎓 Lauren highlights new educational content including a video ROI course call, new certifications, course filtering improvements, and featured partner-created content.
+* 🧰 JP and Paul share May's marketplace additions including Chocolatey, SuperOps support, disk space alerts, Org Chart Builder, Acronis script refactor, and SyncMonkey documentation support.
+* 🔧 Paul demonstrates SyncMonkey integration, showing automatic documentation of environments, mailboxes, users, and groups with no manual setup required.
+* 🔁 Brent from Cloudbox explains a robust error-handling framework using listeners, adaptive cards, Teams alerts, and fallback triggers, also addressing marketplace learnings and improvements.
+* 🔂 Rainard presents a reusable workflow that avoids redundant tickets for recurring issues and introduces an acknowledgment flow to suppress alerts as needed.
+* 🔗 Tim and Charlie describe a Microsoft PAL onboarding automation using app registrations, Datau execution, SQL syncing, and webhook communication to replace manual steps.
+* 🧠 Daniel showcases a ConnectWise enhancement that allows engineers to re-run OpenAI ticket analysis from the UI, with other toolbox refinements shared.
+* 🎤 The session wraps with thanks to all presenters, reminders of cohort and focus group sign-ups, and a look ahead to the next Open Mic.
 
 </details>
 
 ## Latest ANZ Open Mic video recording
 
-{% embed url="https://youtu.be/NUGM5-Ye7Ak" %}
+{% embed url="https://youtu.be/-0iWdmYkN7Q" %}
 
 <details>
 
 <summary>Contents of ANZ Open Mic recording:</summary>
 
-* 🎤 Sarah welcomed attendees, introduced the Aussie Open Mic format, and shared details on Rewst's upcoming presence at Cynics Alliance 2025.
-* 📊 Ray highlighted new integrations, UI updates, transform improvements, and increased PowerShell adoption.
-* 🧱 Jo explained common Microsoft bundle errors and how to avoid them using updated documentation and tools.
-* 🔐 Tim from Colton Computers demoed an automated M365 onboarding workflow that saves hours of manual setup.
-* 🧠 Tim fielded technical questions on policy management, auditing, templates, and drift tracking tools.
-* ⚙️ Ray showcased a PowerShell-based workflow and discussed scenarios where PowerShell excels over Ginger.
-* 📦 Ray answered questions on importing PowerShell modules and customizing Azure Functions.
-* 👋 Sarah wrapped up the session, inviting future demos and wishing everyone a good weekend.
+* 👋 The session begins with a welcome and reminder about Open Mic logistics.
+* 📚 New training courses and certifications are introduced, with Discord badges and LinkedIn certificates.
+* 🧰 Marketplace adds Chocolatey, SuperOps, Acronis, and SyncMonkey documentation crates.
+* 🔍 Jake demos improved workflow filtering and showcases new transform actions for sorting and formatting.
+* 🔌 A walkthrough of the TD Synnex integration setup and execution is presented.
+* 🔄 Ray builds a live workflow for handling Microsoft Graph API paging using OData links.
+* 🧪 Jake walks through creating a custom integration using OpenAPI specs and Swagger tools using CIPP as an example.
+* 💬 The session closes with Q\&A, a feature request for form variable display, and a call for feedback.
 
 </details>
 

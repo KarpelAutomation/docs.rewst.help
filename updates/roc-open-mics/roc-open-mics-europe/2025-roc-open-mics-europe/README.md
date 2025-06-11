@@ -2,9 +2,17 @@
 
 <details>
 
+<summary>June 2025</summary>
+
+[may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md](may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md "mention")
+
+</details>
+
+<details>
+
 <summary>May 2025</summary>
 
-[may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md](../../rewst-open-mics-europe/2025-rewst-open-mics-europe/may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md "mention")
+[may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation-1.md](may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation-1.md "mention")
 
 </details>
 

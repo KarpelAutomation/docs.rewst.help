@@ -17,6 +17,28 @@ layout:
 
 <details>
 
+<summary>⚠️ Resolved: Performance Degradation Due to Memory Exhaustion - US Region June 6th, 2025</summary>
+
+On June 6, 2025, from 8:15 AM to 10:00 AM EDT, we detected that workflow processing in Rewst was experiencing significant delays in the US region. The issue has since been resolved, and workflows are now processing normally.&#x20;
+
+We appreciate your patience as we continue to strengthen our systems. Our team has taken steps to improve monitoring and infrastructure responsiveness to help prevent similar incidents across all regions in the future.
+
+#### Updates
+
+For ongoing status updates, please visit: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need Help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a Ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
+<details>
+
 <summary>⚠️ Issues with Sherweb Service Provider API April 15th, 2025</summary>
 
 We are currently experiencing issues with the Sherweb Service Provider API, which is impacting functionality in Sherweb-related integrations. Our team is in active communication with Sherweb to better understand the root cause and work toward a resolution. We'll provide updates as more information becomes available.

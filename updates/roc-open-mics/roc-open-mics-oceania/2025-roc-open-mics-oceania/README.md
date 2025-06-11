@@ -2,9 +2,17 @@
 
 <details>
 
+<summary>June 2025</summary>
+
+[june-6-2025.md](june-6-2025.md "mention")
+
+</details>
+
+<details>
+
 <summary>May 2025</summary>
 
-[may-2-2025-smarter-microsoft-integrations-and-workflows-tips-from-the-rewst-open-mic.md](../2025-rewst-open-mics-oceania/may-2-2025-smarter-microsoft-integrations-and-workflows-tips-from-the-rewst-open-mic.md "mention")
+[june-6-2025.md](june-6-2025.md "mention")
 
 </details>
 
