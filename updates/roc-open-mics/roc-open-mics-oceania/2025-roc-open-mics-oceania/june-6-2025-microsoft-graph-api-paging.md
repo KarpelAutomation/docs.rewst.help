@@ -1,4 +1,4 @@
-# June 6, 2025:
+# June 6, 2025: Microsoft Graph API paging
 
 ### **Join Live!**
 
@@ -8,7 +8,7 @@ Join us live on the first Friday of every month at 2pm AEDT
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/-0iWdmYkN7Q" %}
+{% embed url="https://youtu.be/tXQe4mE8N5A" %}
 
 ### Contents of the Recording:
 

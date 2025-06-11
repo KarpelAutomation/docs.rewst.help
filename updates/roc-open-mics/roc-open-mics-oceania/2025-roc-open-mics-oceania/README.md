@@ -4,7 +4,7 @@
 
 <summary>June 2025</summary>
 
-[june-6-2025.md](june-6-2025.md "mention")
+[june-6-2025-microsoft-graph-api-paging.md](june-6-2025-microsoft-graph-api-paging.md "mention")
 
 </details>
 
@@ -12,7 +12,7 @@
 
 <summary>May 2025</summary>
 
-[june-6-2025.md](june-6-2025.md "mention")
+[june-6-2025-microsoft-graph-api-paging.md](june-6-2025-microsoft-graph-api-paging.md "mention")
 
 </details>
 

@@ -88,7 +88,7 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest ANZ Open Mic video recording
 
-{% embed url="https://youtu.be/-0iWdmYkN7Q" %}
+{% embed url="https://youtu.be/tXQe4mE8N5A" %}
 
 <details>
 

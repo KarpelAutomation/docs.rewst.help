@@ -33,24 +33,24 @@ You'll need an active ConnectWise Developer account to access the above URL.
 1. Create a security role in ConnectWise PSA
    1. Navigate to **System > Security Roles**.
    2. Click the **+** in the top left of your screen.
-   3. Name the Security Role **Rewst API**. &#x20;
-   4. Click the **save** icon.
+   3. Name the securityrRole `Rewst API`. &#x20;
+   4. Click **save**.
    5. Set your permissions as per the [#least-privilege-access-requirements-for-connectwise-psa-integration](connectwise-integration-setup.md#least-privilege-access-requirements-for-connectwise-psa-integration "mention") section of this document.
-2. Create an API account
+2. Create an API account.
    1. This can be done by following [ConnectWise's own instructions](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FManage%2FDeveloper_Guide%2FAuthentication#tab=login).&#x20;
-   2. Note that you'll need to be signed in to ConnectWise to view the documentation.&#x20;
-3. Create an API member
+   2. Note that you'll need to be signed in to ConnectWise PSA to view the documentation.&#x20;
+3. Create an API member.
    1. Navigate to **System > Members > API Members in ConnectWise PSA**.
    2. Click **+** to create a new API member.
-   3. Enter a **Member ID** and **Member Name**. We suggest naming each of these Rewst.
+   3. Enter a **Member ID** and **Member Name**. We suggest naming each of these `Rewst`.
    4. Select **Rewst API** as your **Role ID**.
    5. Select your highest **Level**, such as Corporate (Level 1)_._
    6. Select a **Location**, **Department**, **Name**, and **Default Territory**, as per your company guidelines.
-   7. Click the **Save** icon at the top.
+   7. Click **Save**.
    8. Click on the **Rewst API member**.
-   9. Click API Keys **+**.
+   9. Click **API Keys** **+**.
    10. Add a new API Key.
-   11. Add Rewst API as the **Description**.
+   11. Add `Rewst API` as the **Description**.
    12. Click **Save**.
    13. Copy and save the public and private key in a secure location. You'll need these to move on to the rest of the setup steps in Rewst.
 
@@ -69,15 +69,16 @@ You'll need an active ConnectWise Developer account to access the above URL.
    1. The copied **API Member ID**&#x20;
    2. The **company ID** used when logging into ConnectWise PSA
    3. The **Hostname** for ConnectWise PSA
-   4. The Private & Public API Key.
-      1. Optionally, change the Company Query Conditions to filter what companies are returned by the API
+   4. The private and public API key.
+      1. Optionally, change the company query conditions to filter what companies are returned by the API.
+   5. Add your own **client ID** - this is optional, but recommended. Instructions for how to find the client ID can be found [here](https://www.youtube.com/watch?v=4ZZMM-ERFf0).&#x20;
 5. Click **Save Configuration**.
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/cwm-rewst-integration-setup.jpg" alt=""><figcaption><p>Configuring ConnectWise PSA integration in Rewst</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-11 at 11.28.24 AM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-**Other Configurations**
+**Other configurations**
 
 Once the integration has been configured within Rewst, we can use the Rewst Crate: Configure Organization Variables to configure your own custom settings and how Rewst should interact with ConnectWise PSA. Our Guide for that Crate can be found here: [_Configure Organization Variable_](https://docs.rewst.help/prebuilt-automations/existing-crate-documentation/configure-organization-variables)[_s_](../../../crates/existing-crate-documentation/configure-organization-variables.md)
 
@@ -85,6 +86,8 @@ Note that this form asks for information about your RMM / M365 settings as well.
 {% endhint %}
 
 ## Actions and endpoints
+
+Click to expand the below table and view all related ConnectWise PSA actions and endpoints.
 
 <details>
 
@@ -592,7 +595,7 @@ Pod authorization
 Note that pods do not allow the use of the fat client due to authorization pass-through issues. This means that you can use the web client to access pods.
 {% endhint %}
 
-During pod configuration, you'll need to update your Rewst Base URL to match your geographic Rewst instance. This will vary depending on which Rewst instance you are on. Identify your instance by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst Base URL
+During pod configuration, you'll need to update your Rewst base URL to match your geographic Rewst instance. This will vary depending on which Rewst instance you are on. Identify your instance by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst base URL
 
 | Rewst URL        | Base URL            |
 | ---------------- | ------------------- |
@@ -814,5 +817,5 @@ Different conditions serve different purposes. Mastering these conditions enable
 9. Click **Download Logs**. Once downloaded, you can review these logs, and provide to the ROC for troubleshooting assistance.
 
 {% hint style="success" %}
-Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
+Got an idea for a new integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
