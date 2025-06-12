@@ -10,10 +10,7 @@ GitHub’s own documentation for registering an app can be found [here](https://
 
 Our GitHub integration enables automation of GitHub’s version control system. Use GitHub’s API within Rewst workflows to automate aspects of version control in GitHub.
 
-### Why use the GitHub integration?
 
-* Say you want to create a Crate that automatically backs up all workflow exports any time they change. You could use the GitHub integration to make a commit of each change of the file. This would give you a more fully featured option than Rewst’s built in version control.
-* Use this integration to set up a system for sharing workflows you’ve created with other Rewst customers. Create a public repository, and post exported repositories of your shareable workflows.
 
 ## Set up the GitHub integration
 
@@ -26,7 +23,7 @@ Our GitHub integration enables automation of GitHub’s version control system. 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `GitHub` integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-05 at 10.06.23 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-05 at 10.06.23 AM.png>)
 3. Click the integration tile to launch the setup page.
 4. Enter the following in the relevant fields of the form:
    1. The **Name** that will be used to refer to the integration configuration
@@ -37,11 +34,11 @@ Our GitHub integration enables automation of GitHub’s version control system. 
 6. Click **Authorize**.
 7. Click **Continue** next to your desired installation location, from the list in the dialog that appears. The dialog will contain a list of organizations. It’s important that you choose the organization to match the one you entered for the organization name of the Rewst configuration form.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.13.19 PM.png>)\
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.13.19 PM.png>)\
 
 8. Click **Install & Authorize**.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.13.32 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.13.32 PM.png>)
 9. A green confirmation message will appear at the top of your screen. Now, the configuration form will have an option to **Re-Authorize**.
 10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
@@ -50,9 +47,9 @@ Our GitHub integration enables automation of GitHub’s version control system. 
 Whenever you save configuration and reauthorize, Rewst will run a test action to make sure the integration is working.\
 
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.22.03 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.22.03 PM.png" alt=""><figcaption></figcaption></figure>
 
-For additional testing, click the Refresh Options button under the Organization Mapping section of the integration configuration page. This will return a list of repositories accessible by that organization.
+For additional testing, click **Refresh Options** under the Organization Mapping section of the integration configuration page. This will return a list of repositories accessible by that organization.
 
 ## Troubleshoot the GitHub integration
 
@@ -65,7 +62,7 @@ If you encounter any errors, contact us in your Discord support channel for assi
 If you uninstall the GitHub integration in Rewst but don’t uninstall our GitHub App in your organization, any attempt to re-install and authorize the integration will fail, and you’ll be stuck at this screen:\
 
 
-<figure><img src="../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 To fix this failure:
 
@@ -74,9 +71,9 @@ To fix this failure:
 3. Click the **Configure** button.
 4. Uninstall the app. You should now be able to re-authorize in Rewst, and the GitHub App will be reinstalled once successful.
 
-<figure><img src="../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
