@@ -180,7 +180,9 @@ Pulling data straight from the integration like this only works at the top level
 
 ### Option two: Workflow generated options
 
-If you want more flexibility around the output of the data your user is seeing, you may need to opt for a workflow generated option instead, which allows for data manipulation using [Jinja](../../jinja/).
+If you want more flexibility around the output of the data your user is seeing, you may need to opt for a workflow generated option instead, which allows for in-depth data manipulation using [Jinja](../../jinja/). We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io) and [micro course](https://learn.rewst.io). If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
+
+Alternatively, dynamic forms use cases can be handled with our options filter feature. The options filter makes customizing dropdown fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source. See our separate [options filter documentation here](options-filter-filtering-in-forms.md).&#x20;
 
 {% hint style="info" %}
 This setup requires the workflow type be an option generator. See our [option generator workflow page](../workflows/option-generator-workflows.md) for more details on this functionality. The below documentation is high-level only.

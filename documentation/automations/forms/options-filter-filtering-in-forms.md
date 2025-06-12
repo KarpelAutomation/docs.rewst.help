@@ -1,13 +1,4 @@
----
-hidden: true
-noIndex: true
----
-
 # Options filter: Filtering in forms
-
-{% hint style="warning" %}
-This Rewst feature is currently in beta! If you've come across this doc and you don't see a corresponding feature in your Rewst platform to match, stay tuned. Beta features will be rolled out to all customers after a period of testing. Thank you to our testers for their feedback.
-{% endhint %}
 
 {% hint style="info" %}
 The options filter makes customizing dropdown fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source.
@@ -27,6 +18,20 @@ Option generators are still a fantastic option for those who need a more powerfu
 * Filter out admins from a total list of users, to create a cleaner list for copying into user onboarding.
 * When offboarding a user, you may want to exclude a list of specific people to prevent accidental offboarding of key individuals, like the CEO.
 * Hide on.microsoft email domains that are purely administrative, to provide a cleaner list.
+
+### Detailed options filter example
+
+You work at an MSP and are building a license request form for technicians. Your customer, XYZ Corp, only purchases Microsoft 365 Business Premium licenses, not E3, E1, or other license types. To prevent techs from accidentally selecting the wrong license type, which would lead to support tickets and billing issues, you want the drop-down in your form to only show Business Premium.
+
+<figure><img src="../../../.gitbook/assets/screen shot 1.png" alt=""><figcaption><p>Building the form with the different license types</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/screen shot 2.png" alt=""><figcaption><p>What is seen after clicking <strong>filter options</strong></p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screen shot 3.png" alt=""><figcaption><p>Filtering using the <strong>simple</strong>  logic option. The $.label equals Microsoft 365 Business Premium. Note that you haven't clicked <strong>apply filter</strong> on the bottom right, so there are still 4 filtered options shown under <strong>Dropdown Options</strong>.</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screen shot 4 (1).png" alt=""><figcaption><p>What you see after you click <strong>apply filter</strong>. Now, there's only 1 filtered option: Microsoft 365 Business Premium</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 5.png" alt=""><figcaption><p>A preview of the form, or a preview of what the end user would see. Only one option would display.</p></figcaption></figure>
 
 ## Options filter dialog
 
@@ -59,6 +64,10 @@ Toggle from the default **Simple** view to the **JSON** view. This will switch t
 #### Jinja for options filters
 
 If you manage many organizations, use Jinja in options filters to scale filtering logic without manually configuring filters for every suborganization. When simple boolean logic operators feel limiting, go straight to Jinja for greater customization.&#x20;
+
+{% hint style="info" %}
+The CTX variable you want to reference will always be called `options`.
+{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-03 at 1.05.33 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -103,7 +112,8 @@ By grouping terms, you can control the order in which Boolean operators like AND
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 11.02.23 AM.png" alt=""><figcaption></figcaption></figure>
 
 6. Set up your desired filters using the AND and OR options, with relevant use of the **+Rule** and **+Group** buttons.
-7. Click **Close** when finished. The option filter will automatically save and be applied to your form. Note that you’ll still need to click **Save** at the top right of your form builder screen to update these changes within your form.
+7. Click **apply filter** at the bottom right of your screen.
+8. Click **Close** when finished. The option filter will automatically save and be applied to your form. Note that you’ll still need to click **Save** at the top right of your form builder screen to update these changes within your form.
 
 ![](<../../../.gitbook/assets/Screenshot 2025-02-26 at 12.28.51 PM.png>)
 
