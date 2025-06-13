@@ -2,7 +2,7 @@
 
 ## What is an organization?
 
-A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short.
+A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short. For information on how to add a new organization or access the organizations menu in Rewst, see our documentation [here](../settings/organizations.md).&#x20;
 
 Rewst uses a two-tier system to manage organizations, with your MSP as the _parent org_ and your customers as _child orgs_. To make automations work for your managed clients/customers, set them up as child orgs.
 
@@ -16,9 +16,44 @@ We recommend using the [Bulk Create Client from PSA Crate](../crates/existing-cr
 
 _Organization variables_, referred to as _org variables_ for short, serve as the foundational elements for setting and managing configurations across different organizational levels within Rewst. They ensure consistency and control within workflows, and facilitate efficient management across the organizational hierarchy.
 
+## **View all organization variables in Rewst**
+
+Organization variables can manually be added by navigating to **Configuration > Organization Variables** in the left side menu of your Rewst platform. In this page, view a total list of all org variables for your selected organization.&#x20;
+
+When unpacking Crates, you may be prompted to fill out forms within those Crates to set up your organization variables. Once the form is submitted, the variables will appear in this total list.
+
+Filter or view the list by using the section headers of the **Name**, **Value**, **Category**, **Organization** or **Created By** date columns to specify your criteria.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.46.38 PM.png" alt=""><figcaption><p>The Organization Variables submenu of the Rewst platform</p></figcaption></figure>
+
+## Manually add a new organization variable
+
+1.  Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.51.13 PM.png" alt="" data-size="line">to add a new org variable. This will open up a new, editable row at the top of the total org variable list.\
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.53.33 PM.png" alt=""><figcaption></figcaption></figure>
+2. Enter the information for your variable into the relevant fields.
+3. Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.54.36 PM.png" alt="" data-size="line"> to save your org variable when done. Alternatively, click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.59.23 PM.png" alt="" data-size="line">to cancel the creation of the org variable.&#x20;
+
+## Edit or delete existing organization variables
+
+Organization variables may be edited one-by-one, or in bulk.
+
+Edit all organization variables by clicking <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.00.15 PM.png" alt="" data-size="line"> at the top right corner of the total organization variables list.&#x20;
+
+Edit an individual organization variable by clicking <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.00.15 PM.png" alt="" data-size="line"> to the right of that organization variable.&#x20;
+
+Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.04.03 PM.png" alt="" data-size="line">to the right of an individual organization variable to delete it.
+
+## Create secret values for organization variables
+
+The **Category** drop-down selector holds several options to choose from when creating new organization variables. If you choose Secret, whatever text you enter into the **Value** field for that organization variable will be its secret. You might be asked for this value when unpacking several of our more complicated Crates.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.06.11 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## **Inheritance and overrides**
 
-_Inheritance_: Values set at the parent organization leven cascade down, providing a default setup for all client organizations.
+_Inheritance_: Values set at the parent organization level cascade down, providing a default setup for all client organizations.
 
 _Overrides_: Suborganizations can establish their own variables, prioritizing local settings over inherited defaults.
 

@@ -1,4 +1,4 @@
-# June 6, 2025 - Training update
+# June 13, 2025 - Training update
 
 Explore what new changes the Cluck University team made in the last week.
 

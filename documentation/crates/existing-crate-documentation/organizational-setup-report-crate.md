@@ -1,5 +1,9 @@
 # Organizational Setup Report Crate
 
+{% hint style="info" %}
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
+{% endhint %}
+
 ## What does the Organizational Setup Report Crate do?
 
 The Organizational Setup Report Crate offers a report of your managed organizations, including their installed integrations, mapping IDs, users, and organization variables. This can be helpful during the onboarding process to track your setup progress.
@@ -56,3 +60,7 @@ If the error `x-Rewstsecret header not provided` is given when pasting the webho
 4. Refresh the tab where you pasted the webhook URL. The report should now appear.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-23 at 4.02.31 PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% endhint %}
