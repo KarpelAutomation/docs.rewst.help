@@ -3,7 +3,7 @@
 {% hint style="info" %}
 The options filter makes customizing dropdown fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source.
 
-Option generators are still a fantastic option for those who need a more powerful, in-depth, solution. We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io) and [micro course](https://learn.rewst.io). If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
+Option generators are still a fantastic option for those who need a more powerful, in-depth, solution. We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io/creating-an-option-generator) and [micro course](https://learn.rewst.io/working-with-options-generator-workflows-in-rewst). If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
 {% endhint %}
 
 ## Options filter guidance

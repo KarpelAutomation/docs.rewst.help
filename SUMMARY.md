@@ -173,6 +173,7 @@
     * [ConnectWise PSA Agreement Mapping Crate](documentation/crates/existing-crate-documentation/connectwise-psa-agreement-mapping.md)
     * [Cork Compliance Event to PSA Ticket Crate](documentation/crates/existing-crate-documentation/cork-compliance-event-to-psa-ticket-crate.md)
     * [CWM: Technician Toolbox via Pod Crate](documentation/crates/existing-crate-documentation/cwm-technician-toolbox-via-pod.md)
+    * [CW PSA: Pod Technician Toolbox Crate V2](documentation/crates/existing-crate-documentation/cwm-technician-toolbox-via-pod-1.md)
     * [Document M365 environment Crate](documentation/crates/existing-crate-documentation/document-m365-environment-setup.md)
     * [Document Group Details V2 Crate](documentation/crates/existing-crate-documentation/document-m365-groups-setup.md)
     * [Document M365 Shared Mailbox Details V2 Crate](documentation/crates/existing-crate-documentation/document-m365-shared-mailboxes-setup.md)

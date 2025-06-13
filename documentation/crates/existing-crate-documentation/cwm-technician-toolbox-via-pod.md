@@ -1,12 +1,16 @@
 # CWM: Technician Toolbox via Pod Crate
 
+{% hint style="warning" %}
+This Crate is [deprecated](https://docs.rewst.help/documentation/crates/crate-deprecation-faq). Documentation remains for legacy users. For new users, search for and set up the ConnectWise PSA: Pod Technician Toolbox Crate in our Crate Marketplace instead.
+{% endhint %}
+
 ## What does the CWM: Technician Toolbox via Pod Crate do?
 
 The Technical Toolbox Crate gives your technicians access to a wide range of tools, without the need to leave ConnectWise PSA's web-based service desk.
 
 ## Crate prerequisites&#x20;
 
-Before unpacking this crate, you must configure the pod to work with Rewst. Follow our guide for pod configuration [here](broken-reference).
+Before unpacking this crate, you must configure the pod to work with Rewst. Follow our guide for pod configuration [here](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup#connectwise-psa-pod-configuration).
 
 ## Unpack the Crate
 
