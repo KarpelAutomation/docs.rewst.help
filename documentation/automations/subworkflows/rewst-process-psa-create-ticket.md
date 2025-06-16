@@ -1,6 +1,6 @@
 # \[REWST - PROCESS] PSA: Create Ticket
 
-This workflow functions as a universal PSA ticket creation utility that intelligently routes ticket creation requests to the appropriate PSA system (ConnectWise, Datto, Kaseya BMS, Halo, Freshdesk, or ServiceNow), serving as a foundational building block for any automation that requires ticket generation. MSPs will find this particularly valuable for scenarios requiring consistent ticket creation across varied triggers—such as RMM alerts, client portal submissions, email-to-ticket conversions, or scheduled maintenance tasks—without needing to build PSA-specific logic into each automation. Technically, the workflow determines the target PSA platform, passes standardized ticket parameters to the appropriate PSA-specific subworkflow, and returns a normalized response that can be leveraged by parent workflows, creating a vendor-agnostic approach to ticket management that remains functional even if the MSP changes PSA platforms.
+This workflow acts as a universal ticket creation tool that routes requests to the correct PSA system. It’s great for MSPs who need consistent ticketing across different triggers without hardcoding PSA-specific logic. It identifies the right platform, hands off the request to a matching subworkflow, and returns a standard response, making your automations flexible and vendor-agnostic even if your PSA changes later.
 
 This workflow contains 12 tasks.
 

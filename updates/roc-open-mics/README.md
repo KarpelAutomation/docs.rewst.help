@@ -40,24 +40,26 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/MLfULeJdOc0" %}
+{% embed url="https://www.youtube.com/watch?v=jKTirfD99Qo" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🗣️ Aharon opens the session emphasizing curiosity, community participation, and issues with a recent system loop bug affecting Redis utilization.
-* 📢 Ashe previews the agenda and transitions to internal updates, beginning with George.
-* 🤝 George announces the new Ninja One channel in Discord, upcoming PAX 8 Beyond conference, and keynote speaker Duncan Wardle for Flow.
-* 🔍 Danial highlights multiple product updates, including improved search/filtering for workflows, Open Tech Secure Cloud integration, and dynamic dropdowns in App Builder.
-* 🛠️ JP introduces new and updated crates, including a refactor of the ConnectWise Pod and a new crate for Cork, plus bug fixes and testing efforts.
-* 🎓 Clea celebrates recent certifications, previews updated training and onboarding materials, and introduces a new course on completion handlers.
-* 🧠 Linda demos a workflow that automates assigning ConnectWise tickets using parsed customer data and team tab info for accurate routing.
-* ⚙️ Tre presents a dual-purpose ticket tool listener that logs successes and failures, with Jira bug creation for failed workflows and PSA health checks.
-* ♻️ Jon shares a reusable retry logic workflow to simplify failure handling using pre-set Jinja snippets and streamlined connections.
-* 📊 Rod shows a PowerApps-based UI update that visually reflects workflow execution status via iframe and update text elements in App Builder.
-* 📥 Reed details a workflow addressing Microsoft Defender's email quarantining conflicts with Perception Point, automating false positive management.
-* 🎤 Aharon closes the session with reminders about Flow, platform updates, and supporting peers in Discord.
+* 🎉 The call kicks off with excitement for the upcoming Flow conference, which has more than doubled in attendance from last year.
+* 🙋‍♂️ Attendees are reminded that asking questions—especially in Discord and via private channels—is key to succeeding in automation.
+* ⏱️ Engineers are urged to record time savings in automations to clearly demonstrate value to their leadership.
+* 🎥 George invites attendees to record short Workflow Wednesday videos, offering swag and extra goodies at Flow for participants.
+* 📊 A business leaders focus group is highlighted again, and George announces the graduation of the first onboarding cohort with an invitation for others to join the next one.
+* 📚 Clea provides an education update, celebrating certification achievements, highlighting new training content and homepage updates in CluckU, and launching a simple automation contest.
+* 🛠️ Danial presents product updates including lag fixes on the workflow canvas, new form options filtering (demoed by James), and an upcoming marketplace search overhaul (demoed by Brooke).
+* 🔎 Brooke demos the redesigned crate marketplace with improved filtering and search capabilities.
+* 🧪 James demos the new options filtering interface, showcasing use cases like advanced JSON path rules, Ginga filters, org-specific previews, and overrides for synced forms.
+* 🐞 Eric reviews numerous bug fixes across PSA and ticket workflows and previews upcoming crate releases and enhancements.
+* 📦 Paul walks through new crates: Core Compliance to PSA, Nodeware Alert to PSA, and Openext Endpoint Protection ticketing, with setup guidance and automation flows.
+* 📊 Nick shares an advanced monitoring solution using LogicMonitor and Rewst, with full integration via GraphQL and templates to track and alert on workflow execution issues.
+* 🧠 Nick explains how the dashboard helps identify failures, drifts, deletions, and correlates performance trends—providing visibility and reliability across automation.
+* 🗣️ Open discussion follows with questions about workflow continuation after failure, feedback on timeout statuses, and shoutouts to those offering help and support in public channels.
 
 </details>
 
