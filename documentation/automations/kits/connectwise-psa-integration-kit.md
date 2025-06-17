@@ -5,8 +5,6 @@ Click to navigate to the individual information page for each of the subworkflow
 Note that kits are still a newer Rewst feature. Check back as we add additional kits in the near future.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-02 at 4.58.00 PM.png" alt=""><figcaption></figcaption></figure>
-
 {% content-ref url="../subworkflows/rewst-task-psa-cwm-upsert-contact.md" %}
 [rewst-task-psa-cwm-upsert-contact.md](../subworkflows/rewst-task-psa-cwm-upsert-contact.md)
 {% endcontent-ref %}

@@ -32,16 +32,22 @@ You'll need an active ConnectWise Developer account to access the above URL.
 
 1. Create a security role in ConnectWise PSA
    1. Navigate to **System > Security Roles**.
-   2. Click the **+** in the top left of your screen.
-   3. Name the securityrRole `Rewst API`. &#x20;
+   2.  Click **+** in the top left of your screen.\
+
+
+       <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 12.53.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+   3. Name the security Role `Rewst API`. &#x20;
    4. Click **save**.
    5. Set your permissions as per the [#least-privilege-access-requirements-for-connectwise-psa-integration](connectwise-integration-setup.md#least-privilege-access-requirements-for-connectwise-psa-integration "mention") section of this document.
 2. Create an API account.
    1. This can be done by following [ConnectWise's own instructions](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FManage%2FDeveloper_Guide%2FAuthentication#tab=login).&#x20;
    2. Note that you'll need to be signed in to ConnectWise PSA to view the documentation.&#x20;
 3. Create an API member.
-   1. Navigate to **System > Members > API Members in ConnectWise PSA**.
-   2. Click **+** to create a new API member.
+   1. Navigate to **System > Members > API Members**.
+   2.  Click **+** to create a new API member.\
+
+
+       <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 1.32.24 PM.png" alt="" width="375"><figcaption></figcaption></figure>
    3. Enter a **Member ID** and **Member Name**. We suggest naming each of these `Rewst`.
    4. Select **Rewst API** as your **Role ID**.
    5. Select your highest **Level**, such as Corporate (Level 1)_._
@@ -84,6 +90,32 @@ Once the integration has been configured within Rewst, we can use the Rewst Crat
 
 Note that this form asks for information about your RMM / M365 settings as well. While this form can be completed again separately, we recommend that you also set up the integration for Microsoft Graph and your RMM at this same time.
 {% endhint %}
+
+## Test the ConnectWise PSA integration
+
+1. Navigate to **Automations > Workflows in the left side menu of your Rewst platform.**
+2. Click **Create Workflow**.
+3. Enter `CW Test Workflow` as the name for your workflow.
+4.  Click **Submit**.\
+    \
+
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 2.20.05 PM.png" alt="" width="310"><figcaption></figcaption></figure>
+5.  Click to expand the ConnectWise PSA accordion menu and open the list of available actions.\
+    \
+
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 3.18.52 PM.png" alt="" width="175"><figcaption></figcaption></figure>
+6. **Scroll within the section to find the List Companies** action and drag it to your canvas.
+7.  Click **Test** in the top right corner of the screen.\
+
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 3.21.27 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+8. You'll be prompted to select a trigger context organization.
+9. Click **Test** at the bottom right corner of the dialog.
+10. Allow the workflow to run. Click **View Results**.
+11. Click **connect\_wise\_psa\_list\_companies**.
+12. Expand any list under **Results** to see part of your list of companies.
 
 ## Actions and endpoints
 
@@ -638,7 +670,7 @@ You will need to add your own `org_id`to the URL above. This can be obtained by 
 <figure><img src="../../../../.gitbook/assets/cwm-pod-configuration-window.png" alt=""><figcaption><p>Adding Rewst Configured Pods</p></figcaption></figure>
 
 {% hint style="danger" %}
-**Firefox Dynamic State Partitioning**
+**Firefox dynamic state partitioning**
 
 An issue arises with Firefox's Dynamic State Partitioning where the default `network.cookie.cookieBehavior` value of 5 rejects (known) trackers and partitions third-party storage, hindering the authentication process and causing a logged GraphQL error. This issue also occurs with embedded forms.
 
@@ -735,18 +767,44 @@ The following tables outline the various actions the ConnectWise PSA integration
 
 ## Query and filter in ConnectWise PSA actions
 
-### Understanding Query String Parameters and Conditions
+### Query string parameters and conditions
 
-Query string parameters and conditions allow you to filter results in ConnectWise PSA Actions. By using specific symbols and expressions, you can pinpoint the data you need.
+The ability to filter and query specific data is essential when working with ConnectWise PSA Actions in Rewst. Query string parameters and conditions let you use specific symbols and expressions to pinpoint the exact data you need.
 
-### **How to Use Symbols:**
+#### **Build a query string**
+
+Query strings are made up of three parts:
+
+1. Attribute - This can be the name of the attribute you’re looking to filter on (eg: `name`), or it can be the path to get to the attribute you’re looking to filter on (eg: `board/name`).
+2. Symbol - These define how you want to filter your incoming data. This can range from one-character symbols (eg: `=`), to entire words (eg: `contains`).
+3. Value - This is what you’re actually looking for. This can be a wide range of data types including Strings (eg: `"hello world"`) and Booleans (eg: `True`)
+
+These three parts can be combine to pull any data you need.
+
+**Query conditions vs child conditions**
+
+_Query conditions_ are used to find any value that can contain only one value, such as a string or a boolean. _Child conditions_ are used when the property you're filtering on contains many values, such as a list.
+
+**Examples**
+
+1. Easily locate companies by name
+   1. Action: `List Companies`
+   2. Query Condition: `name="Test Rewst"`
+2. Organize tickets by board names for efficient processing
+   1. Action: `List Service Tickets`
+   2. Query Condition: `board/name="Integration"`
+3. Target contacts based on communication preferences
+   1. Action: `List Contacts`
+   2. Child Condition: `communicationItems/value like "[john@Outlook.com](<mailto:john@Outlook.com>)" AND communicationItems/communicationType="Email"`
+
+### **How to use symbols:**
 
 * `=`: Matches exactly
 * `!=`: Does not match
 * `<, <=, >, >=`: Relational operators
 * `contains, like, in, not`: Specific condition operators
 
-### Practical Examples
+### Practical examples
 
 Learn how to apply query string parameters and conditions in real-world scenarios.
 
@@ -814,7 +872,13 @@ Different conditions serve different purposes. Mastering these conditions enable
 
 7. Replicate the issue or process you are troubleshooting
 8. Return to the **API Logs** tab.
-9. Click **Download Logs**. Once downloaded, you can review these logs, and provide to the ROC for troubleshooting assistance.
+9. Click **Download Logs**. Once downloaded, you can review these logs, and send them to Rewst support for troubleshooting assistance.
+
+## Crates related to the ConnectWise PSA integration
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.39.46 PM.png">Screenshot 2025-06-17 at 3.39.46 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md">bulk-create-client-from-psa-crate.md</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.47.08 PM.png">Screenshot 2025-06-17 at 3.47.08 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-categorisation-setup.md">openai-ticket-categorisation-setup.md</a></td></tr><tr><td><strong>Add Rewst Form Link to New User Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.47.42 PM.png">Screenshot 2025-06-17 at 3.47.42 PM.png</a></td><td></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.48.28 PM.png">Screenshot 2025-06-17 at 3.48.28 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-sentiment-setup.md">openai-ticket-sentiment-setup.md</a></td></tr><tr><td><strong>CW PSA: Pod Technician Toolbox Crate V2</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.49.13 PM.png">Screenshot 2025-06-17 at 3.49.13 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/cwm-technician-toolbox-via-pod-1.md">cwm-technician-toolbox-via-pod-1.md</a></td></tr><tr><td><strong>Add Rewst Form Link to Offboarding Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.49.44 PM.png">Screenshot 2025-06-17 at 3.49.44 PM.png</a></td><td></td></tr><tr><td><strong>Assign Asset/Config to Ticket Based on Contact</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.50.15 PM.png">Screenshot 2025-06-17 at 3.50.15 PM.png</a></td><td></td></tr><tr><td><strong>Use OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.29 PM.png">Screenshot 2025-06-17 at 3.51.29 PM.png</a></td><td></td></tr><tr><td><strong>Prompt to Combine Similar Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.04 PM.png">Screenshot 2025-06-17 at 3.51.04 PM.png</a></td><td></td></tr><tr><td><strong>Browse Rewst Form Triggers Within a Form and Attach to a Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.02 PM.png">Screenshot 2025-06-17 at 3.52.02 PM.png</a></td><td></td></tr><tr><td><strong>ConnectWise PSA Agreement Mapping</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.20 PM.png">Screenshot 2025-06-17 at 3.52.20 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/connectwise-psa-agreement-mapping.md">connectwise-psa-agreement-mapping.md</a></td></tr><tr><td><strong>Consolidate and Manage Duplicate Configurations</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.39 PM.png">Screenshot 2025-06-17 at 3.52.39 PM.png</a></td><td></td></tr><tr><td><strong>Sync AzureAD Account Information with ConnectWise PSA Contacts (V3)</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.00 PM.png">Screenshot 2025-06-17 at 3.53.00 PM.png</a></td><td></td></tr><tr><td><strong>Upload File to PSA Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.16 PM.png">Screenshot 2025-06-17 at 3.53.16 PM.png</a></td><td></td></tr><tr><td><strong>Configure CWM Agreement for Duo Sync</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.36 PM.png">Screenshot 2025-06-17 at 3.53.36 PM.png</a></td><td></td></tr><tr><td><strong>Set ConnectWise PSA Board OnCall Member</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.10 PM.png">Screenshot 2025-06-17 at 3.54.10 PM.png</a></td><td></td></tr><tr><td><strong>Deactivate ConnectWise PSA Contacts When Their Company is Deactivated</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.32 PM.png">Screenshot 2025-06-17 at 3.54.32 PM.png</a></td><td></td></tr><tr><td><strong>Sync On-Prem Users to CWM Contacts</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.55 PM.png">Screenshot 2025-06-17 at 3.54.55 PM.png</a></td><td></td></tr><tr><td><strong>Mark CWM Overdue Tasks Complete</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.21 PM.png">Screenshot 2025-06-17 at 3.55.21 PM.png</a></td><td></td></tr><tr><td><strong>Sync VIP Contact Status to ITG Status</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.39 PM.png">Screenshot 2025-06-17 at 3.55.39 PM.png</a></td><td></td></tr></tbody></table>
+
+
 
 {% hint style="success" %}
 Got an idea for a new integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

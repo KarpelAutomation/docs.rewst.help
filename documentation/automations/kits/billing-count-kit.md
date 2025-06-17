@@ -6,8 +6,6 @@ Click to navigate to the individual information page for each of the subworkflow
 Note that kits are still a newer Rewst feature. Check back as we add additional kits in the near future.&#x20;
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-02 at 4.47.53 PM.png" alt=""><figcaption></figcaption></figure>
-
 {% content-ref url="../subworkflows/prod-task-pax8-get-license-counts.md" %}
 [prod-task-pax8-get-license-counts.md](../subworkflows/prod-task-pax8-get-license-counts.md)
 {% endcontent-ref %}

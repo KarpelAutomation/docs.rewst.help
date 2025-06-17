@@ -115,3 +115,5 @@ In your Discord server, the [#agent-smith ](https://discord.com/channels/9367890
   * No, support for outdated OS is not available.
 * **Will there be MacOS and Linux support?**
   * Eventually! If you feel strongly about the timeline for this, add it to our Canny feature request form [here](https://rewst.canny.io/agent-smith).
+* **I want to deploy agents to my endpoints in bulk. How should I prepare?**
+  * View the separate guide for how to do this [here](bulk-onboarding-with-agent-smith.md).&#x20;

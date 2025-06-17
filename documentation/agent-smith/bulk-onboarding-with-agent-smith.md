@@ -18,7 +18,7 @@ On a standard‑1 (S1) hub, that registry is capped at 100 identity operations p
 \
 Rewst deliberately leaves rate‑limiting in your hands so you can tune roll‑outs to match your Azure budget.\
 A large, unthrottled burst will exceed IoT Hub limits, pile up HTTP 429 retries, and slow down all of your Rewst workflows during onboarding.\
-To avoid this, either add jitter/batching in your RMM job, or do a temporary IoT Hub scale‑up before the push.
+To avoid this, either add jitter/batching in your RMM script, or do a temporary IoT Hub scale‑up before the push.
 {% endhint %}
 
 ## What is an IoT hub unit?
