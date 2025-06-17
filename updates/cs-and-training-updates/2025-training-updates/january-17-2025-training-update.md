@@ -36,7 +36,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Updates to [google-enterprise-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/google-admin/google-enterprise-integration-setup.md "mention")
-* Updates to [stewarts-30-favorite-crates.md](../../../documentation/crates/stewarts-30-favorite-crates.md "mention")
+* Updates to [stewarts-30-favorite-crates.md](../../../prebuilt-automations/crates/stewarts-30-favorite-crates.md "mention")
 * Formatting on [datto-psa-integration-setup](../../../documentation/configuration/integrations/integration-guides/datto-psa-integration-setup/ "mention")
 * Open Mics Video Added
 

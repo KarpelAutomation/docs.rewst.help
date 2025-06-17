@@ -38,7 +38,7 @@ Explore what new changes the Training team has made in the last week.
 * Added a [Integrating with Two CSPs Page](../../../documentation/configuration/integrations/multi-instance-integration/integrate-multiple-instances-of-the-same-integration.md)
 * Updates and Fixes
   * Updated [Intro to Triggers page](../../../documentation/automations/intro-to-triggers/)
-  * Add instructions for unpacking a Crate on the [What is a Crate page](../../../documentation/crates/)
+  * Add instructions for unpacking a Crate on the [What is a Crate page](../../../prebuilt-automations/crates/)
   * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/it-glue-integration-setup.md)
   * Updated the wording on the [Database Setup Page](../../../documentation/configuration/integrations/integration-guides/database-integration-setup.md)
   * Updated Support note in [Custom Integrations Page](../../../documentation/configuration/integrations/custom-integrations/)

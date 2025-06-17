@@ -1,7 +1,7 @@
 # User Offboarding V2 Crate
 
 {% hint style="warning" %}
-This Crate is [deprecated](../crate-deprecation-faq.md). Documentation remains for legacy users. For new users, search for and set up the Microsoft: User Offboarding Crate in our Crate Marketplace instead.
+This Crate is [deprecated](../../../prebuilt-automations/crates/crate-deprecation-faq.md). Documentation remains for legacy users. For new users, search for and set up the Microsoft: User Offboarding Crate in our Crate Marketplace instead.
 {% endhint %}
 
 {% hint style="info" %}

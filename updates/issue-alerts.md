@@ -120,7 +120,7 @@ These new crates come with the latest features and enhancements to make your use
 * User Offboarding Crate
 
 While these crates will still function, they will not receive any additional feature enhancements. We recommend migrating to the new crates listed above to take advantage of the latest updates.\
-For crate migration assistance, please reference the [migrating-between-crate-versions.md](../documentation/crates/migrating-between-crate-versions.md "mention") and [crate-deprecation-faq.md](../documentation/crates/crate-deprecation-faq.md "mention").
+For crate migration assistance, please reference the [migrating-between-crate-versions.md](../documentation/crates/migrating-between-crate-versions.md "mention") and [crate-deprecation-faq.md](../prebuilt-automations/crates/crate-deprecation-faq.md "mention").
 
 If you have any urgent concerns, please contact your support team.
 

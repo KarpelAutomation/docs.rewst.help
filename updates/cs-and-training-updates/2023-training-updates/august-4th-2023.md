@@ -33,7 +33,7 @@ Explore what new changes the Training team has made in the last week.
   * New Video on how to scope automation coming soon!
 * [Added Actions in Rewst Documentation](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/)
 * [Added Core Actions Documentation](../../../documentation/automations/actions-in-rewst/core-actions.md)
-* [Added Existing Crates Page](../../../documentation/crates/existing-crate-documentation/) (with more updates to come!)
+* [Added Existing Crates Page](../../../prebuilt-automations/existing-crate-documentation/) (with more updates to come!)
 * Updates:
   * Fixed Links on the front page
   * Removed incorrect page under Forms best practices

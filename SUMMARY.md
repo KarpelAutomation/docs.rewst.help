@@ -166,12 +166,12 @@
   * [Authentication](documentation/app-builder/authentication.md)
   * [Themes](documentation/app-builder/themes.md)
   * [Page builder](documentation/app-builder/page-builder.md)
-* [Crates](documentation/crates/README.md)
-  * [Stewart's 30 favorite Crates](documentation/crates/stewarts-30-favorite-crates.md)
+* [Crates](prebuilt-automations/crates/README.md)
+  * [Stewart's 30 favorite Crates](prebuilt-automations/crates/stewarts-30-favorite-crates.md)
   * [Production Crate list](documentation/crates/production-crate-list.md)
   * [Migrate between Crate versions](documentation/crates/migrating-between-crate-versions.md)
-  * [Crate deprecation FAQ](documentation/crates/crate-deprecation-faq.md)
-  * [Crate guides](documentation/crates/existing-crate-documentation/README.md)
+  * [Crate deprecation FAQ](prebuilt-automations/crates/crate-deprecation-faq.md)
+  * [Crate guides](prebuilt-automations/existing-crate-documentation/README.md)
     * [Ad-Hoc Install/Uninstall Software via Chocolatey Crate](documentation/crates/existing-crate-documentation/ad-hoc-install-uninstall-software-via-chocolatey-crate.md)
     * [Add Client to Rewst Crate](documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
     * [Alert on Expiring App Reg Certificates Crate](documentation/crates/existing-crate-documentation/alert-on-expiring-app-reg-certificates-crate.md)
@@ -374,6 +374,7 @@
   * [Agent Smith configuration overview](documentation/agent-smith/agent-smith-configuration-overview.md)
   * [Deploy Agent Smith with ImmyBot](documentation/agent-smith/deploying-agent-smith-with-immybot.md)
   * [Deploy Agent Smith with Microsoft Intune](documentation/agent-smith/deploy-agent-smith-with-microsoft-intune.md)
+  * [Bulk onboarding with Agent Smith](documentation/agent-smith/bulk-onboarding-with-agent-smith.md)
 
 ## Security
 
@@ -878,3 +879,5 @@
 ***
 
 * [Contact resources](contact-resources.md)
+
+## 📦 Prebuilt Automations

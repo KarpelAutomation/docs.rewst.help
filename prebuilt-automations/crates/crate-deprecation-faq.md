@@ -1,8 +1,12 @@
 # Crate deprecation FAQ
 
+{% hint style="info" %}
+See our how-to guide for migrating between deprecated and up-to-date versions of Crates [here](../../documentation/crates/migrating-between-crate-versions.md).&#x20;
+{% endhint %}
+
 <details>
 
-<summary>Why is a crate deprecated?</summary>
+<summary>Why is a Crate deprecated?</summary>
 
 Crates are deprecated when they've been replaced by newer versions offering improved functionality, ease of use, better resilience, and ongoing support.
 
