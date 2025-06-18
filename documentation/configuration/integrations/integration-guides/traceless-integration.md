@@ -45,14 +45,17 @@ Our Traceless integration empowers MSPs and businesses with enhanced data securi
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `Traceless` integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.40.21 PM.png>)\
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.40.21 PM.png>)\
 
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
    1. Paste your UUID into the **Organization UUID** field.
    2. Paste your signing secret into the **Signing Secret** field.
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+
+{% hint style="info" %}
+The Traceless integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 ## Test the integration
 
@@ -62,7 +65,7 @@ There is no org mapping available for this integration. To test its functionalit
 
 1. Create a test workflow in Rewst that utilizes a Traceless action. Note that after testing, this workflow won't be needed, and could be deleted.
 2. Run the workflow.
-3. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.52 PM (1).png" alt="" data-size="line"> in your workflow builder's top toolbar to view the execution log. If set up correctly, the log should not contain failures.&#x20;
+3. Click <img src="../../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.52 PM (1).png" alt="" data-size="line"> in your workflow builder's top toolbar to view the execution log. If set up correctly, the log should not contain failures.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

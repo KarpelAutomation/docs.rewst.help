@@ -1,4 +1,4 @@
-# Okta integration setup
+# Okta integration
 
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
@@ -21,14 +21,13 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Okta` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-02 at 2.40.19 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-02 at 2.40.19 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
    1. Enter the copied key value into the **API Key** field.
    2. Enter your hostname.
 5. Click **Save Configuration**.
-
-We'll perform a quick test to ensure that the connection to Okta is working as expected. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

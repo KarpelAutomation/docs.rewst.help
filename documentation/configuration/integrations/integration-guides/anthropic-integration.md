@@ -27,12 +27,12 @@ Leverage conversational AI and content intelligence as a service to automate tex
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the Anthropic integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.10.46 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.10.46 PM.png>)
 3.  Click on the integration tile to launch the **Configuration** setup page.\
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.13.01 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.13.01 PM.png" alt=""><figcaption></figcaption></figure>
 4. Under **Configuration**:
    1. Edit the **Name**
    2. Add an optional **Description** for your configuration.
@@ -42,6 +42,10 @@ Leverage conversational AI and content intelligence as a service to automate tex
    2. Enter your copied API key in the **API Key** field.
    3. The base URL of the Anthropic API in the **Base URL** field will automatically populate into the form when you begin integration setup.
 6. Click **Save Configuration.**
+
+{% hint style="info" %}
+The Anthropic integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 ## Test the integration
 

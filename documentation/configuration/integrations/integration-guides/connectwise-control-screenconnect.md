@@ -29,7 +29,7 @@ If you are using this property for another purpose, you will need to update the 
 5.  **Fill out** the required data.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt=""><figcaption></figcaption></figure>
 6. Ensure that you check on at minimum the **Control Admin** permission.
 7. Make a note of the **username**, **password**, and **OTP** secret , which you'll need for setup steps in Rewst.
 8. Click **Save User**.
@@ -43,7 +43,7 @@ The steps to generate your OTP secret will differ depending on your MFA tool. Se
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the ConnectWise ScreenConnect integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-25 at 3.13.53 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-25 at 3.13.53 PM.png>)
 3. Click on the integration tile to launch the **Configuration** setup page.
 4. Under **Configuration**:
    1. Edit the **Name**
@@ -54,12 +54,13 @@ The steps to generate your OTP secret will differ depending on your MFA tool. Se
    2. Enter the password you created for your Rewst API user in the **Password** field.
    3. Enter the username for your Rewst user in the **Username** field.
    4. Enter the base32 OTP secret copied from ConnectWise ScreenConnect into the **TOTP Secret** field.
-6.  Click **Save Configuration.**
+6. Click **Save Configuration.**
+7.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 
 
 {% hint style="warning" %}
-You may run into a scenario where refesh options is not working. If this is the case, you can change the root session group to _All Machines_ to see if it pulls in customers. If this doesn't resolve the issue, you can contact support as found here: [support-priorities.md](../../../../../support-and-community/roc-support/support-priorities.md "mention")
+You may run into a scenario where refesh options is not working. If this is the case, you can change the root session group to _All Machines_ to see if it pulls in customers. If this doesn't resolve the issue, you can contact support as found here: [support-priorities.md](../../../../support-and-community/roc-support/support-priorities.md "mention")
 {% endhint %}
 
 {% hint style="danger" %}
@@ -76,7 +77,7 @@ This is most commonly seen in cases where a workflow is scheduled to run across 
 
 ### Failed to refresh options: Error failed to get sessions
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.25.10 PM.png" alt="" width="375"><figcaption><p>The error message will appear in a red box across the configuration screen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.25.10 PM.png" alt="" width="375"><figcaption><p>The error message will appear in a red box across the configuration screen</p></figcaption></figure>
 
 
 

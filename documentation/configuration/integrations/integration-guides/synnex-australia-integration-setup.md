@@ -18,7 +18,7 @@ Our Synnex Australia integration enables the automation of supply chain and busi
 2. Click the **Profile** tab in the top right menu.&#x20;
 3. Scroll down to **Subscriptions**. Click **Show** next to the Primary key. \
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.37.16 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.37.16 AM.png>)
 4. Copy the key value to a secure location. You'll need it for the next set up steps in Rewst.
 
 ### Set up steps in Rewst
@@ -26,7 +26,7 @@ Our Synnex Australia integration enables the automation of supply chain and busi
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `Synnex Australia` integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.41.59 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.41.59 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
    1. Click on the arrow to expand your options and select your host name in the **Host Name** drop-down selector. The option you choose should match with your login type, for either production or staging.
@@ -34,8 +34,9 @@ Our Synnex Australia integration enables the automation of supply chain and busi
        \
 
 
-       <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.55.21 AM.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.55.21 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

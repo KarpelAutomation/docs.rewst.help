@@ -23,12 +23,13 @@ Our SyncMonkey integration enables the automation of document processes and mana
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the SyncMonkey integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-26 at 11.54.36 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 11.54.36 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
    1. Enter the API Key you copied from SyncMonkey into the **API Key** field.
    2. Enter the secret API key used to authenticate with the API in the **Secret** field.
-5. Click **Save Configuration**.\
+5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
 
 
 ## Test the integration

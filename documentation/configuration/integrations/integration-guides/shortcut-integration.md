@@ -18,19 +18,19 @@ Our Shortcut integration leverages Rewst’s workflow automation capabilities to
 4. Click **Generate Token**.&#x20;
 5. Copy this token. You'll need it for later setup steps in Rewst. Note that if you do not copy this token, you won't be able to retrieve it again later.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.26.00 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.26.00 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the Shortcut integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.43.16 PM.png>)\
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.43.16 PM.png>)\
 
 3. Click on the integration tile to launch the configuration setup page.
-4. Under **Parameters**:
-   1. Paste the API token copied from Shortcut into the **API Token** field.
-   2. Click **Save Configuration**.\
+4. Paste the API token copied from Shortcut into the **API Token** field.
+5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
 
 
 ## Test the integration

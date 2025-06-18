@@ -88,6 +88,7 @@ Copy the API Key, API Secret, and Datto RMM Server for your new API user. Store 
    2. **API Secret**
    3. **Datto RMM Server**: The API URL provided to your API user, provided on the same page as the API key and secret
 5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="danger" %}
 Please note that Datto Quick Jobs can take 10 - 30 minutes to execute. To speed this up, you can either use BYOD to speed up form load time. You can find more information here: [byod-for-dattormm.md](byod-for-dattormm.md "mention")

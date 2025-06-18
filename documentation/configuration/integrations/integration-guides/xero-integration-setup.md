@@ -30,7 +30,7 @@ Our Xero integration enables the automation of finance processes by seamlessly c
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Xero` in the integrations page.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-05-01 at 2.02.18 PM.png" alt="A dark-themed information card titled &#x22;Xero&#x22; with a circular Xero logo at the top. The card explains that the Xero integration for Rewst automates finance processes, enabling users to connect their Xero account with Rewst for managing client financial data, invoices, and workflows. It notes the last update date as December 7th, 2024, and includes a labeled tag at the bottom that says &#x22;Accounting.&#x22;"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-01 at 2.02.18 PM.png" alt="A dark-themed information card titled &#x22;Xero&#x22; with a circular Xero logo at the top. The card explains that the Xero integration for Rewst automates finance processes, enabling users to connect their Xero account with Rewst for managing client financial data, invoices, and workflows. It notes the last update date as December 7th, 2024, and includes a labeled tag at the bottom that says &#x22;Accounting.&#x22;"><figcaption></figcaption></figure>
 
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
@@ -41,8 +41,7 @@ Our Xero integration enables the automation of finance processes by seamlessly c
       2. This is case sensitive - make sure to enter the name exactly as it appears in Xero
 5. Click **Save Configuration**.
 6. Click **Authorize** to connect your Xero account
-7. Rewst will do a quick validation of your input.
-8. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

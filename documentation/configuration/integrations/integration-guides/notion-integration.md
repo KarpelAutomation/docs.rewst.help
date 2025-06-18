@@ -31,7 +31,7 @@ Our Notion integration enables teams to automate document creation, database man
 3.  Click **New Integration**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.38.58 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.38.58 PM.png" alt=""><figcaption></figcaption></figure>
 4. Select a workspace to install the integration to from the **Associated Workspace** drop-down selector.
 5. Keep the **Type** set to **internal**.
 6. Click **Save.**
@@ -40,14 +40,14 @@ Our Notion integration enables teams to automate document creation, database man
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 9. Copy the **Internal Integration Secret.**
 10. Set settings for the **Capabilities** menu as follows:
     1. Check off all check boxes
     2.  Set **User Capabilities** to **Read user information including email addresses**.\
 
 
-        <figure><img src="../../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 11. Click **Save**.
 
 ### Set up steps in Rewst
@@ -55,13 +55,16 @@ Our Notion integration enables teams to automate document creation, database man
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2.  In the integrations page, search for `Notion`.\
     \
-    ![](<../../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.43.52 PM.png>)
+    ![](<../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.43.52 PM.png>)
 
 
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the key copied from Notion into the **Internal Integration Secret** field.&#x20;
-5. Click **Save Configuration**.\
+5. Click **Save Configuration**.
 
+{% hint style="info" %}
+The Notion integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 ## Test the integration
 
@@ -78,7 +81,7 @@ Notion grants access for the integration on a page-by-page basis. Add each desir
 5. Confirm that the integration can access the page and all of its child pages.\
 
 
-<figure><img src="../../../../../.gitbook/assets/image (62) (2).png" alt=""><figcaption><p>The view of the actions menu and all related submenus, once the page has been set up to use the integration</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (62) (2).png" alt=""><figcaption><p>The view of the actions menu and all related submenus, once the page has been set up to use the integration</p></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

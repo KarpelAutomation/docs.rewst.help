@@ -1,4 +1,4 @@
-# Ingram Micro integration setup
+# Ingram Micro integration
 
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
@@ -34,13 +34,13 @@ Contact Ingram Micro Integration Support at [marketplacepsa@ingrammicro.com](mai
 2. In the Integrations page, search for the Ingram Micro Cloud Marketplace integration.
 3. Click on the integration tile to begin setup.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-03-19 at 2.50.26 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-19 at 2.50.26 PM.png>)
 4. Fill out the configuration form as follows:
    1. **Username**: This is the username of the user associated with the API. Clicking on the Marketplace API menu on the left navigation will show you the username.
    2. **Password**: The password is the password of that account. This can be set in the "Users" section of the control panel. The right user will match the "Username" under "User Settings".
    3. **Subscription Key**: The subscription key can then be found on the Marketplace API.
 5. Click **Save Configuration**.
-6. Make sure you [map your customers](https://docs.rewst.help/documentation/integrations#map-your-organizations-to-finish-integrating) once the integration saves successfully. You may need to click **Refresh Options** for customers to populate.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 ## Test the integration
 
@@ -50,7 +50,7 @@ Contact Ingram Micro Integration Support at [marketplacepsa@ingrammicro.com](mai
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
 4. If the workflow succeeds and you see customers listed in the results, then you’re all set. If it fails, review the setup instructions and make sure customers are mapped in the integration in Rewst.
 
 {% hint style="success" %}

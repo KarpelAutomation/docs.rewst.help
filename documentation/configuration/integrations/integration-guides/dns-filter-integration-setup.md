@@ -19,10 +19,11 @@ Please contact DNSFilter support and request for a JWT/API token.
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `DNSFilter` in the integrations page.\
    \
-   ![A visual card for "DNSFilter" integration with Rewst, showing the DNSFilter logo. The description states: “Enables automation of DNS-based content filtering and web security tasks. Utilize DNSFilter APIs within Rewst workflows to allow help desk teams to apply policy exceptions and complete user onboarding and offboarding, without needing login access to DNSFilter. Rewst workflows can manage DNSFilter users, networks, policies, and more.” The card is marked as last updated on May 1st, 2025, and includes two category tags: "DNS" and "Security" at the bottom. This is how the integration's search result appears in Rewst's integrations collection.](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.09.22 PM.png>)
+   ![A visual card for "DNSFilter" integration with Rewst, showing the DNSFilter logo. The description states: “Enables automation of DNS-based content filtering and web security tasks. Utilize DNSFilter APIs within Rewst workflows to allow help desk teams to apply policy exceptions and complete user onboarding and offboarding, without needing login access to DNSFilter. Rewst workflows can manage DNSFilter users, networks, policies, and more.” The card is marked as last updated on May 1st, 2025, and includes two category tags: "DNS" and "Security" at the bottom. This is how the integration's search result appears in Rewst's integrations collection.](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.09.22 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the value given to you by DNSFilter into the **API Token** field.
 5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 
 

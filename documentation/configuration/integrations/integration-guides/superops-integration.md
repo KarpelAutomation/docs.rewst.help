@@ -23,20 +23,20 @@ The SuperOps integration automates core MSP tasks, from customer-facing to inter
 3.  Click **Generate Token.**\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.02.29 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.02.29 PM.png" alt=""><figcaption></figcaption></figure>
 4. Copy the token. Save this for later use.
 5. Navigate to **Settings > My Company > Company information**. \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.57.35 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.57.35 PM.png>)
 6. Locate your subdomain under the **Branding** submenu. Copy the **Subdomain Name** and save it for later use.
 
 {% hint style="info" %}
 Next, add the PowerShell script. This portion of setup is optional for the general integration, but required for any workflows that require on-prem functionality
 {% endhint %}
 
-1. Navigate to <img src="../../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.21.10 AM.png" alt="" data-size="line"> **> Scripts** in SuperOps.
+1. Navigate to <img src="../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.21.10 AM.png" alt="" data-size="line"> **> Scripts** in SuperOps.
 2. Click **+ Script**.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.22.09 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.22.09 AM.png>)
 3. Enter the following information in the relevant fields on the screen that appears:
    1. Script name: `Rewst PowerShell`
    2. Description: `PowerShell Execution Wrapper for Rewst`
@@ -59,7 +59,7 @@ iex $commands
 * content\_webhook
 * post\_webhook\
   \
-  ![](<../../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.25.59 AM.png>)
+  ![](<../../../../.gitbook/assets/Screenshot 2025-04-17 at 10.25.59 AM.png>)
 
 10. Click **Save**.
 
@@ -68,19 +68,19 @@ iex $commands
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for `SuperOps`. \
    \
-   ![](../../../../../.gitbook/assets/superops.png)\
+   ![](../../../../.gitbook/assets/superops.png)\
 
 3. Click on the integration tile to launch the **Configuration** setup page.
-4.  Under **Parameters**:
+4. Under **Parameters**:
+   1. Paste the API key copied from SuperOps into the **API Key** field of the configuration form.
+   2. Choose your relevant data center from the **Data Center** drop-down selector.
+   3. Paste your subdomain for your SuperOps account into the **Subdomain** field.
+5. Click **Save Configuration.**
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-    1. Paste the API key copied from SuperOps into the **API Key** field of the configuration form.
-    2. Choose your relevant data center from the **Data Center** drop-down selector.
-    3. Paste your subdomain for your SuperOps account into the **Subdomain** field.
-    4. Click **Save Configuration.**
 
 
-
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.51.54 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 2.51.54 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 

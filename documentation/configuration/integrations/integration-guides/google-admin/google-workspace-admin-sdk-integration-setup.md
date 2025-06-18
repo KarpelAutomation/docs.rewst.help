@@ -73,6 +73,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
    2. **Client Secret**
    3. Email / User ID: this should be the one used to authenticate with the API
 5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-17 at 3.51.49 PM.png" alt=""><figcaption></figcaption></figure>
 

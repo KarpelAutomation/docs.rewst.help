@@ -17,28 +17,29 @@ Our ITPortal integration enables you to seamlessly update documentation.
 3. Click **Generate API Key** under the **Security** section.
 4. Select the option to **Generate API Key** under the **Security** section.
 
-<figure><img src="../../../../../.gitbook/assets/step4-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/step4-5.png" alt=""><figcaption></figcaption></figure>
 
 5. Enter a description for the API key. We recommend REWST.
 6. Toggle the option **Allow to create same name objects** to off.
 7. Click **Generate API Key**.
 8.  Copy the new API key and store it somewhere secure. Once you leave this screen you won't be able to view the key again. You'll need this information for further steps in Rewst.
 
-    <figure><img src="../../../../../.gitbook/assets/Step6 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Step6 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `ITPortal` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-02 at 11.45.36 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-02 at 11.45.36 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
    1. Enter the key copied from ITPortal into the **API Key** field
    2. Enter the **Base URL** from your ITPortal environment - e.g. demo.itportal.com
-   3. Click **Save Configuration**.
+5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/step8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/step8 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

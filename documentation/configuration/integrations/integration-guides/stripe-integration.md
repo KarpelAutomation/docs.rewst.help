@@ -23,7 +23,7 @@ Our Stripe integration enables automation of payment processes. Use the Stripe A
 2. If there is a **Get started with Stripe** section, copy the secret key value in the **API key** field. Note that you'll only see this section if you haven't completed your onboarding in Stripe.&#x20;
 3. If that section doesn't exist, navigate to **Developers > API keys**.\
    \
-   <img src="../../../../../.gitbook/assets/Screenshot 2025-02-26 at 12.51.30 PM.png" alt="" data-size="original">
+   <img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 12.51.30 PM.png" alt="" data-size="original">
 4. Copy the **Secret key** value under the **Standard keys** menu. You'll need this for your setup steps in Rewst.
 
 ### Set up steps in Rewst
@@ -31,10 +31,11 @@ Our Stripe integration enables automation of payment processes. Use the Stripe A
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the Stripe integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-26 at 12.45.43 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 12.45.43 PM.png>)
 3. Click on the integration tile to launch the setup page.
 4. Paste the API key copied from Stripe into the **API Key** field.
 5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 ## Test the Integration
 

@@ -30,15 +30,15 @@ Our Sherweb integration enables seamless management of customer information, pro
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Click **Create** to set up a new API client.\
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 4. Copy the **Client ID** and **Client Secret**.
 5.  Copy and save your Subscription Key, available in the same section. You’ll need this information to continue set up in Rewst.\
-    ![](<../../../../../.gitbook/assets/image (19) (1).png>)
+    ![](<../../../../.gitbook/assets/image (19) (1).png>)
 
     \
 
@@ -49,7 +49,7 @@ Our Sherweb integration enables seamless management of customer information, pro
 2. Navigate to **Configuration** > **Integrations** in the left side menu.
 3. In the Integrations page, search for the **Sherweb** integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-03-04 at 9.29.59 AM (1).png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-04 at 9.29.59 AM (1).png>)
 4. Click on the integration tile to launch the Configuration setup page.
 5. Under **Configuration**:
    1. Optionally provide a short description of the intended use of the configuration.
@@ -59,19 +59,14 @@ Our Sherweb integration enables seamless management of customer information, pro
     1. Paste the client ID copied from Sherweb into the **Client ID** field of the configuration form.
     2. Paste your client secret copied from Sherweb into the **Client Secret** field.
     3. Paste your subdomain copied from Sherweb into the **Subdomain** field.
-    4. Click **Save Configuration.**
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-04 at 9.32.45 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-04 at 9.32.45 AM.png" alt=""><figcaption></figcaption></figure>
+7. Click **Save Configuration.**
+8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-After saving your configuration, a new section called [**Organization Mapping**](https://docs.rewst.help/documentation/integrations/general/organization-mapping) will appear in your configuration page. There you'll see the following options:
 
-1. **Suggest Values**: This option will attempt to generate mappings between Rewst organizations and child organizations in this integration.
-2. **Refresh Options**: This will re-read the potential mapping options - for both organizations and companies in Sherweb.
-3. **Save Mappings**: This will apply mapping configuration changes.
-
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-04 at 1.54.35 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Test the integration
 
@@ -86,7 +81,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 Explore the following Crates in the Rewst Crate Marketplace to maximize the power of your Sherweb integration.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Microsoft User Onboarding</strong><br><br>This automation streamlines the offboarding process for users within an organization allowing for time savings and increased efficiency.</td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-04 at 10.16.21 AM.png">Screenshot 2025-03-04 at 10.16.21 AM.png</a></td></tr><tr><td><strong>Microsoft User Offboarding</strong><br><br>This automated workflow streamlines the New User Onboarding process by guiding users through a form to collect necessary information.</td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-04 at 10.14.00 AM.png">Screenshot 2025-03-04 at 10.14.00 AM.png</a></td></tr><tr><td><strong>Sync Sherweb Customer Subscriptions to Gradient Synthesize</strong><br>Daily at 9AM UTC, synchronize products and usage counts from all active subscriptions in Sherweb to Gradient Synthesize</td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-04 at 10.17.35 AM.png">Screenshot 2025-03-04 at 10.17.35 AM.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Microsoft User Onboarding</strong><br><br>This automation streamlines the offboarding process for users within an organization allowing for time savings and increased efficiency.</td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-04 at 10.16.21 AM.png">Screenshot 2025-03-04 at 10.16.21 AM.png</a></td></tr><tr><td><strong>Microsoft User Offboarding</strong><br><br>This automated workflow streamlines the New User Onboarding process by guiding users through a form to collect necessary information.</td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-04 at 10.14.00 AM.png">Screenshot 2025-03-04 at 10.14.00 AM.png</a></td></tr><tr><td><strong>Sync Sherweb Customer Subscriptions to Gradient Synthesize</strong><br>Daily at 9AM UTC, synchronize products and usage counts from all active subscriptions in Sherweb to Gradient Synthesize</td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-04 at 10.17.35 AM.png">Screenshot 2025-03-04 at 10.17.35 AM.png</a></td></tr></tbody></table>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas[ here](https://rewst.canny.io/integrations).

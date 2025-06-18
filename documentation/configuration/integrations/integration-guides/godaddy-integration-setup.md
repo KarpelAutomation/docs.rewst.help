@@ -23,7 +23,7 @@ Our GoDaddy integration enables automation of domain, DNS, and certificate manag
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.17.40 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.17.40 PM.png" alt=""><figcaption></figcaption></figure>
 5. Provide a name for your API client or app.
 6. Choose the required API access permissions (Read, Write, etc.).
 7. Click **Next**.
@@ -47,6 +47,10 @@ Input the API Key, Secret Key, and Seller Number values below.
    3. **Shopper ID** - remember, this is the '**Customer ID**' from GoDaddy
 5. Optionally, choose if you would like to **Use Sandbox** from the drop-down selector.
 6. Click **Save Configuration**.
+
+{% hint style="info" %}
+The GoDaddy integration does not require you to complete the organization mapping setup process.
+{% endhint %}
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

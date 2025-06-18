@@ -27,12 +27,16 @@ Before you begin, ensure you have:
 1. Navigate to Configuration > Integrations in the left side menu of your Rewst platform.
 2. Search for `Discord` in the integrations page.\
    \
-   ![A dark-themed information card titled "Discord" with the Discord logo displayed at the top. The card describes the Discord integration for Rewst, enabling automation of messaging and interactions using the Discord API. It lists capabilities like retrieving or creating channels, creating commands, and sending or receiving messages. The last updated date is May 1st, 2025. A labeled tag at the bottom reads "Messaging."](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.18.26 PM.png>)
+   ![A dark-themed information card titled "Discord" with the Discord logo displayed at the top. The card describes the Discord integration for Rewst, enabling automation of messaging and interactions using the Discord API. It lists capabilities like retrieving or creating channels, creating commands, and sending or receiving messages. The last updated date is May 1st, 2025. A labeled tag at the bottom reads "Messaging."](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.18.26 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Click on the `Authorize` button and log into your Discord account.
 5. Select the desired Discord server for use with the integration.
 6. Click `Authorize` on the Discord modal to grant permissions.
 7. Click **Save Configuration**.
+
+{% hint style="info" %}
+The Discord integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 ## Webhook triggers for the Discord integration
 

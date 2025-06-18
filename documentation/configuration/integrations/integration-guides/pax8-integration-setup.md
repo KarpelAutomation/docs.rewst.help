@@ -65,7 +65,9 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
 5. Leave **Is Default** checked to on.
 6. Click the **Authorize** button.
 7. If prompted, log in to your Pax8 account by entering your username, password, and one-time code.
-8.  Accept the authorization request. You'll know that the integration was successfully installed if you now see an option to **ReAuthorize**.\
+8. Accept the authorization request. You'll know that the integration was successfully installed if you now see an option to **ReAuthorize**.
+9. Click **Save Configuration**.
+10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
     \
 
 

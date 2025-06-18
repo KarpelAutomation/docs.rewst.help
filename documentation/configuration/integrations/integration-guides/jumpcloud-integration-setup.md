@@ -31,13 +31,13 @@ For more details, see [JumpCloud’s documentation on multi-tenancy](https://jum
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for `JumpCloud`.\
    \
-   ![Screenshot of the JumpCloud integration card in Rewst. It shows the JumpCloud logo and a description: "Enables automation of identity and access management. Utilize the JumpCloud API within Rewst workflows to manage user identities and groups, streamline access controls, enforce security policies, and more." The card also notes it was last updated on April 24th, 2025, and includes a teal "SSO" badge at the bottom.](<../../../../../.gitbook/assets/Screenshot 2025-04-28 at 2.42.49 PM.png>)
+   ![Screenshot of the JumpCloud integration card in Rewst. It shows the JumpCloud logo and a description: "Enables automation of identity and access management. Utilize the JumpCloud API within Rewst workflows to manage user identities and groups, streamline access controls, enforce security policies, and more." The card also notes it was last updated on April 24th, 2025, and includes a teal "SSO" badge at the bottom.](<../../../../.gitbook/assets/Screenshot 2025-04-28 at 2.42.49 PM.png>)
 3. Click on the integration tile to launch setup.
 4. Enter the API key copied from JumpCloud into the **API Key** field.
 5. Optionally, define a default organization ID.
 6. Select **True** or **False** from the **Do you have multiple organizations in this JumpCloud instance** drop-down selector.&#x20;
-7. Click **Save**.
-8. Map Rewst organizations to their JumpCloud counterparts in Rewst.
+7. Click **Save Configuration**.
+8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

@@ -27,12 +27,16 @@ Log in to your Jira account.
 2. In the integrations page, search for the `Jira` integration.
 3. Click the integration tile to launch setup.\
    \
-   ![Screenshot of the Jira integration card in Rewst. It shows the Jira logo and a description: "Enables automation of issue tracking and project management. Utilize the Jira or Jira Service Desk APIs within Rewst workflows to efficiently manage and update tickets, streamline task assignments, track progress, and more." The card notes it was last updated on April 3rd, 2024, and includes a teal "PSA" badge at the bottom.](<../../../../../.gitbook/assets/Screenshot 2025-04-28 at 2.55.00 PM.png>)
+   ![Screenshot of the Jira integration card in Rewst. It shows the Jira logo and a description: "Enables automation of issue tracking and project management. Utilize the Jira or Jira Service Desk APIs within Rewst workflows to efficiently manage and update tickets, streamline task assignments, track progress, and more." The card notes it was last updated on April 3rd, 2024, and includes a teal "PSA" badge at the bottom.](<../../../../.gitbook/assets/Screenshot 2025-04-28 at 2.55.00 PM.png>)
 4. Name your integration and provide a short description.
 5. Choose **True** or **False** from the drop-down selector to indicate if you'd like to include access to your Jira Service Management Instance. Including access is optional.
 6. Click **Authorize** and follow the OAuth setup steps provided by Jira.
 7. Save your OAuth configuration settings.
 8. Click **Save Configuration**.
+
+{% hint style="info" %}
+The Jira integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

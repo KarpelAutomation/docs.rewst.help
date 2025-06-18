@@ -22,12 +22,16 @@ Our BambooHR integration enables data synchronization and automation in HR proce
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `BambooHR` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.48.56 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.48.56 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
    1. Paste the API token into the **API token** field.
    2. &#x20;Enter the company domain from your BambooHR account. E.g. If you navigate to `https://example.bamboohr.com`, your company domain is `example`.
 5. Click **Save Configuration**.
+
+{% hint style="info" %}
+The BambooHR integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

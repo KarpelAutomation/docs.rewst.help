@@ -24,7 +24,7 @@ Cork's requirements for their API keys set them to expire every 180 days. We rec
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-10 at 9.13.59 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-10 at 9.13.59 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Generate API Key**.
 7. Copy the key. Note that you won't be able to return to this key to copy or view it again.
 
@@ -34,10 +34,11 @@ Cork's requirements for their API keys set them to expire every 180 days. We rec
 2. In the integrations page, search for the `Cork` integration.
 3. Click on the integration tile to launch the configuration setup page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-04-10 at 9.18.15 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-10 at 9.18.15 AM.png>)
 4. Scroll down the page to **Parameters**.
 5. Enter the API key you copied from Cork into the **API Key** field.
 6. Click **Save Configuration**.
+7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 ## Test the integration
 

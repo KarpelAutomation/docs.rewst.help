@@ -21,12 +21,12 @@ Our QuickBooks Online integration automates financial and operational, workflows
 7.  Check off the box for **com.intuit.quickbooks.accounting** under **Authorization scope**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.19.43 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.19.43 PM.png" alt=""><figcaption></figcaption></figure>
 8. Click **Done**.
 9. Click **Confirm** in the **Add these permissions?** Dialog that appears.&#x20;
 10. Copy your Client ID and Client Secret. Store them somewhere secure. You’ll need these for further set up steps in Rewst.\
     \
-    ![](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.20.37 PM.png>)
+    ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.20.37 PM.png>)
 11. Navigate to **Settings** in the left side menu.
 12. Click the **Redirect URIs** tab.
 13. Click **+ Add URI**.
@@ -41,7 +41,7 @@ https://engine.rewst.io/integrations/quickbooks_online/callback/01954351-002e-7d
 1. Navigate to Configuration > Integrations in the left side menu of your Rewst platform.
 2. Search for `QuickBooks` in the integrations page.\
    \
-   ![A visual card for "QuickBooks Online" integration with Rewst. It includes the QuickBooks logo and a description: “Automates financial and operational workflows. Utilize the QuickBooks Online API within Rewst workflows to enable automatic invoicing, real-time synchronization of customer and financial data, and reduce manual data entry.” The card notes it was last updated on December 7th, 2024, and has a tag labeled "Accounting" at the bottom.](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 11.58.23 AM.png>)
+   ![A visual card for "QuickBooks Online" integration with Rewst. It includes the QuickBooks logo and a description: “Automates financial and operational workflows. Utilize the QuickBooks Online API within Rewst workflows to enable automatic invoicing, real-time synchronization of customer and financial data, and reduce manual data entry.” The card notes it was last updated on December 7th, 2024, and has a tag labeled "Accounting" at the bottom.](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 11.58.23 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters:**
    1. Choose your hostname from the drop-down selector - set as `quickbooks.api.intuit.com` for production or `sandbox-quickbooks.api.intuit.com` for development
@@ -57,11 +57,15 @@ https://engine.rewst.io/integrations/quickbooks_online/callback/01954351-002e-7d
 6. Click **Authorize**. A dialog will appear from QuickBooks Online to authorize the connection. You may be prompted to log in.&#x20;
 7. Choose a company from the drop-down selector. This is the company that Rewst will interact with.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.40 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.40 PM.png>)
 8. Click **Next**.
 9. Click **Connect**.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.50 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.50 PM.png>)
+
+{% hint style="info" %}
+The QuickBooks integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

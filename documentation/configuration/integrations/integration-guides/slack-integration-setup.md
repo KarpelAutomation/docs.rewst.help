@@ -13,12 +13,16 @@ The Slack integration allows Rewst users to set up real-time notifications and u
 1. Navigate to Configuration > Integrations in the left side menu of your Rewst platform.
 2. Search for `Slack` in the integrations page.\
    \
-   ![A dark-themed information card titled "Slack" featuring the Slack logo at the top. The card outlines how the Slack integration supports automation of communication and collaboration in Rewst. It mentions using the Slack API in workflows to manage users, send messages, and post confirmations. The last update date is noted as March 6th, 2025. At the bottom, there is a single labeled tag: "Messaging."](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.13.41 PM.png>)
+   ![A dark-themed information card titled "Slack" featuring the Slack logo at the top. The card outlines how the Slack integration supports automation of communication and collaboration in Rewst. It mentions using the Slack API in workflows to manage users, send messages, and post confirmations. The last update date is noted as March 6th, 2025. At the bottom, there is a single labeled tag: "Messaging."](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.13.41 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Note the **Include Admin Scopes** drop-down selector under **Parameters**. Set this to **True** if authorizing an account that uses Slack Enterprise. Leave it as **False** if the Slack account is not an Enterprise account.
 5. Click **Authorize**. A dialog will appear.
 6. Click **Allow**.
 7. Click **Save Configuration**.
+
+{% hint style="info" %}
+The Slack integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

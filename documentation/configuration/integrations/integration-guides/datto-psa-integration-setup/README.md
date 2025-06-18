@@ -82,11 +82,7 @@ Before saving and closing the API user page, copy the Secret Key and Username . 
    2. **API Username**: `APIUser@example.com`
    3. **API User Password**: `[Paste Secret Key]`&#x20;
 6. Click **Save**.&#x20;
-7.  Rewst will do a quick validation of your input. A new submenu will appear in your configuration page for **Organization Mapping**.&#x20;
-
-    1. **Suggest Values**: This option will attempt to generate mappings between Rewst organizations and child organizations in this integration.
-    2. **Refresh Options**: This will re-read the potential mapping options - both organizations and companies in Datto.
-    3. **Save Mappings** This will apply mapping configuration changes.
+7.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-04 at 1.08.48 PM.png" alt=""><figcaption></figcaption></figure>
 8. Note the **company Filter** section at the bottom of the configuration page. Click ![](<../../../../../.gitbook/assets/Screenshot 2025-03-26 at 11.10.58 AM.png>)to create a new company filter. This will display a new submenu of options.

@@ -64,22 +64,23 @@ $commands = ($wc.DownloadString($script_content_url))
 iex $commands
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the NinjaOne integration.\
    \
-   ![](<../../../../../.gitbook/assets/image (35) (1).png>)
+   ![](<../../../../.gitbook/assets/image (35) (1).png>)
 3. Click on the integration tile to launch setup.
 4.  Choose your Region from the **Region Instance** drop-down selector.\
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 5. Authorize OAuth into NinjaOne, via Microsoft. You should see your customer show up at the bottom. You may need to click **Refresh Options** for customers to populate.
-6. Click **Save**.
+6. Click **Save Configuration**.
+7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 ## Test the Integration
 
@@ -90,8 +91,8 @@ Once you’ve [mapped your customers](https://docs.rewst.help/documentation/inte
 3. Name your workflow, and click **Submit**.
 4. Drag a Ninja action onto your workflow builder canvas. In this example, we use **List Contacts**.\
    \
-   ![](<../../../../../.gitbook/assets/image (38) (1).png>)
-5. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (1).png" alt="" data-size="line"> to add a trigger. In the relevant fields, choose or enter the following settings:
+   ![](<../../../../.gitbook/assets/image (38) (1).png>)
+5. Click <img src="../../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (1).png" alt="" data-size="line"> to add a trigger. In the relevant fields, choose or enter the following settings:
    1. **Name** your trigger
    2. **Trigger Type**: **Core - Always Pass**
    3. **Integration Overrides**: **NinjaRMM**
@@ -100,7 +101,7 @@ Once you’ve [mapped your customers](https://docs.rewst.help/documentation/inte
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 7. Click **Test**, and select a company to run the action for. Test a handful of companies to ensure the integration is working.
 
 {% hint style="success" %}
@@ -109,7 +110,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Crates related to the NinjaOne integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Sync NinjaRMM Device Counts to Gradient Synthesize</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.32.49 AM.png">Screenshot 2025-03-14 at 11.32.49 AM.png</a></td></tr><tr><td><strong>Just in Time Admin Access</strong></td><td><a href="../../../../../.gitbook/assets/Just in time admin access (2).png">Just in time admin access (2).png</a></td></tr><tr><td><strong>Agent Smith: Device Provisioning, and Agent Smith Service Provisioning</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.06 AM.png">Screenshot 2025-03-14 at 11.34.06 AM.png</a></td></tr><tr><td><strong>Ad-Hoc Install/Uninstall Software via Chocolatey</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-02-27 at 3.37.42 PM (1).png">Screenshot 2025-02-27 at 3.37.42 PM (1).png</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.17 AM.png">Screenshot 2025-03-14 at 11.34.17 AM.png</a></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.29 AM.png">Screenshot 2025-03-14 at 11.34.29 AM.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Sync NinjaRMM Device Counts to Gradient Synthesize</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.32.49 AM.png">Screenshot 2025-03-14 at 11.32.49 AM.png</a></td></tr><tr><td><strong>Just in Time Admin Access</strong></td><td><a href="../../../../.gitbook/assets/Just in time admin access (2).png">Just in time admin access (2).png</a></td></tr><tr><td><strong>Agent Smith: Device Provisioning, and Agent Smith Service Provisioning</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.06 AM.png">Screenshot 2025-03-14 at 11.34.06 AM.png</a></td></tr><tr><td><strong>Ad-Hoc Install/Uninstall Software via Chocolatey</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-02-27 at 3.37.42 PM (1).png">Screenshot 2025-02-27 at 3.37.42 PM (1).png</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.17 AM.png">Screenshot 2025-03-14 at 11.34.17 AM.png</a></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.29 AM.png">Screenshot 2025-03-14 at 11.34.29 AM.png</a></td></tr></tbody></table>
 
 ## Troubleshoot the NinjaOne integration
 

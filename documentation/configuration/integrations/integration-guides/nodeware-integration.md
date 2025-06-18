@@ -15,29 +15,27 @@ Our Nodeware integration enhances automation capabilities in network vulnerabili
 1. Log in to your Nodeware account.
 2. Click on **Reports** in the left side menu.
 3. Copy the **API Key,** displayed in the lower right corner. You'll need this value to authenticate your API calls.\
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-20 at 10.33.04 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-20 at 10.33.04 AM.png>)
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the Nodeware integration.\
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-18 at 2.43.57 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-18 at 2.43.57 PM.png>)
 3. Paste the API key copied from Nodeware into the **API Key** field of the form.
 4.  Click **Save Configuration**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-18 at 3.12.49 PM.png" alt=""><figcaption></figcaption></figure>
-5.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-18 at 3.12.49 PM.png" alt=""><figcaption></figcaption></figure>
+5. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
 
-
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-18 at 3.42.18 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Test the Integration
 
 Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.\
 
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-20 at 8.34.57 AM.png" alt=""><figcaption><p>The error message, shown when the Nodeware integration configuration fails</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-20 at 8.34.57 AM.png" alt=""><figcaption><p>The error message, shown when the Nodeware integration configuration fails</p></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

@@ -19,32 +19,36 @@ When you first sign up with Twilio, you have one main account. However, you can 
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.06.55 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.06.55 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **Create API Key**.
 4. Name your credential Rewst API key.
 5. Click **Create**.
 6. Copy the SID and key that are displayed. Note that once you navigate away from the page, you won't be able to see this information again. Store it somewhere secure. You'll need it for further steps in Rewst.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.08.31 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.08.31 PM.png>)
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Twilio` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-13 at 3.50.26 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-13 at 3.50.26 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**, enter the information copied from Twilio into its relevant field:
    1. Account SID
    2. Auth Token
 5. Click **Save Configuration**.
 
+{% hint style="info" %}
+The Twilio integration does not require you to complete the organization mapping process.
+{% endhint %}
+
 ### Set up the messaging service
 
 1. Return to your [Twilio Console](https://console.twilio.com/).
 2. Navigate to **Messaging > Services**.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.11.46 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.11.46 PM.png>)
 3. Click **Create Messaging Service**.
 4. Enter `Rewst` in as the messaging service-friendly name.
 5. Click **Create Messaging Servic**e.
@@ -65,25 +69,25 @@ When you first sign up with Twilio, you have one main account. However, you can 
 
 #### Configure messaging service SID
 
-1. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
+1. Click <img src="../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
 2. Select the following for your organization variable drop-down options:
    * **Name**: `messaging_service_sid`&#x20;
    * **Value**: Your Messaging Service SID
    * **Category**: general
    * **Organization**: Select your organization
-3. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.01.28 PM.png" alt="" data-size="line">.
+3. Click <img src="../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.01.28 PM.png" alt="" data-size="line">.
 
 #### **Configure send SMS to user**
 
-1. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
+1. Click <img src="../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
 2. Select the following for your organization variable drop-down options:
    1. **Name**: `send_sms_to_user`&#x20;
    2. **Value**: `1`
    3. **Category**: general
    4. **Organization**: Select your organization
-3. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.01.28 PM.png" alt="" data-size="line">.
+3. Click <img src="../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.01.28 PM.png" alt="" data-size="line">.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-03-12 at 1.17.09 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-03-12 at 1.17.09 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

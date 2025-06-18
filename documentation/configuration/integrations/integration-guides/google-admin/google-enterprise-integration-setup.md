@@ -25,12 +25,12 @@ In your Google Cloud console:
 3.  Find the **Enterprise License Manager** via the search bar within the API Librar&#x79;**.** Select it from the results.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-01-14 at 3.50.27 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-14 at 3.50.27 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click **Manage**.
 5.  Verify that the API is enabled for your project on the **API/Service details** page. You should see a blue button to **Disable API** if it is enabled. If not, click the **Enable** button.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-01-14 at 3.54.25 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-14 at 3.54.25 PM.png" alt=""><figcaption></figcaption></figure>
 6. Return to the **APIs and Services** menu. Select **OAuth consent screen.**
 7. Ensure that the correct user type for your application is selected: **Internal** or **External**.
 8. Click **EDIT APP**. Review and update the necessary information about your application, including the **App name**, **User support email**, and optionally an **App logo**. Click **SAVE AND CONTINUE**.
@@ -38,11 +38,11 @@ In your Google Cloud console:
 10. Search for **Enterprise License Manager** in the search box, and select all related scopes.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-01-14 at 4.00.36 PM (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-14 at 4.00.36 PM (1).png" alt=""><figcaption></figcaption></figure>
 11. Click **UPDATE** once you've reviewed the necessary scopes.
 12. Navigate to **Credentials** within the **APIs and Services** menu. Click on **+CREATE CREDENTIALS** and choose **OAuth client ID** from the drop-down menu if new credentials are needed.\
     \
-    ![](<../../../../../../.gitbook/assets/Screenshot 2025-01-14 at 4.03.32 PM.png>)
+    ![](<../../../../../.gitbook/assets/Screenshot 2025-01-14 at 4.03.32 PM.png>)
 13. Ensure that the type of application you are building is correctly selected from the **Application type** drop down menu (e.g., Web application, Android, iOS, etc.).
 14. Provide a name for your client ID and check that the following URL is entered under **Authorized Redirect URIs**:\
     [`https://engine.rewst.io/integrations/google_enterprise_license_manager/callback`](https://engine.rewst.io/integrations/google_enterprise_license_manager/callback)
@@ -54,9 +54,10 @@ In your Google Cloud console:
 2. In the **Find Integrations** search bar, search for `Google Enterprise License Manager` **.**
 3. Click on the integration tile to launch the configuration setup page.\
    \
-   ![](<../../../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.25.51 PM.png>)
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.25.51 PM.png>)
 4. Enter the information you received from Google Cloud into the relevant **Client ID**, **Client Secret**, and **Email / User ID** fields.
 5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
