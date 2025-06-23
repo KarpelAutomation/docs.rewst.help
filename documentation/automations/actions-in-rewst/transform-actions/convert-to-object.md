@@ -57,12 +57,10 @@ value_field: age
 **Jinja2 Equivalent:**
 
 ```jinja2
-{% raw %}
 {% set new_object = {} %}
 {% for item in mylist %}
   {% set _ = new_object.update({item['name']: item['age']}) %}
 {% endfor %}
-{% endraw %}
 
 
 ```
@@ -108,12 +106,10 @@ value_field: details.age
 **Jinja2 Equivalent:**
 
 ```jinja2
-{% raw %}
 {% set new_object = {} %}
 {% for item in mylist %}
   {% set _ = new_object.update({item['name']: item['details']['age']}) %}
 {% endfor %}
-{% endraw %}
 
 
 ```

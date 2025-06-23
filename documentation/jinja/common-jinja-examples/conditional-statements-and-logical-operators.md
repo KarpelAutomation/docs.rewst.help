@@ -1,4 +1,4 @@
-# Conditional Statements and Logical Operators
+# Conditional statements and logical operators
 
 ## **Introduction**
 
@@ -15,7 +15,6 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 ### **Example 1: Using `if` and `else` Statements in Jinja**
 
 ```django
-{% raw %}
 {%- set dogs = 1 -%}
 {%- set cats = 0 -%}
 {%- if dogs -%}
@@ -29,14 +28,12 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 {%- else -%}
     {{- "we have cats!\n" -}}
 {%- endif -%}
-{% endraw %}
 
 ```
 
 ### **Example 2: Using `if`, `elif`, and `else` Ladders in Jinja**
 
 ```django
-{% raw %}
 {%- set value = 1 -%}
 {%- if value == 2 -%}
     {{- "value is 2" -}}
@@ -49,7 +46,6 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 {%- else -%}
     {{- "value is "+value | string -}}
 {% endif %}
-{% endraw %}
 
 
 ```
@@ -69,7 +65,6 @@ Logical operators in Jinja allow you to combine multiple conditions or negate a 
 ### **Example: Using Logical Operators in Jinja**
 
 ```django
-{% raw %}
 {%- set dogs = 1 -%}
 {%- set cats = 0 -%}
 {%- set lizards = 1 -%}
@@ -106,7 +101,6 @@ Logical operators in Jinja allow you to combine multiple conditions or negate a 
 {%- if lizards > chickens -%}
     {{- "we have more lizards than chickens.\n" -}}
 {%- endif -%}
-{% endraw %}
 ```
 
 ### **Conclusion**

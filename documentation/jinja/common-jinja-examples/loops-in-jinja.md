@@ -9,12 +9,10 @@ Loops are the backbone of dynamic content generation in Jinja templating. They e
 In a traditional for loop, you iterate through a sequence of values and execute specific instructions. Here’s an example of populating a list from 0 to 8 using a for loop:
 
 ```django
-{% raw %}
 {% set mylist = [] %}
 {%- for item in range(0,9) -%}
     {% do mylist.append(item) %}
 {% endfor %}
-{% endraw %}
 {{ mylist }}
 ```
 
@@ -39,9 +37,7 @@ This one-liner creates a list containing numbers from 0 to 8, simplifying the pr
 List comprehension can also be used for appending values directly to a list, eliminating the need for separate append statements. Here’s an example of appending a list using list comprehension:
 
 ```django
-{% raw %}
 {%- set mylist = [] -%}
-{% endraw %}
 {%- do mylist.append(
     [
         item for item in range(0,9)

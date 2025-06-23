@@ -82,9 +82,7 @@ This action retains the original value of `name`.
 **Jinja2 Equivalent:**
 
 ```jinja2
-{% raw %}
 {% set _ = transformed_item.update({'name': item['name']}) %}
-{% endraw %}
 
 
 ```
@@ -113,9 +111,7 @@ field_actions:
 **Jinja2 Equivalent:**
 
 ```jinja2
-{% raw %}
 {% set _ = transformed_item.update({'status': 'age' ~ ':' ~ item['age']}) %}
-{% endraw %}
 
 
 ```
@@ -140,9 +136,7 @@ field_actions:
 **Jinja2 Equivalent:**
 
 ```jinja2
-{% raw %}
 {% set _ = transformed_item.update({'hobbies_count': item['hobbies']|length}) %}
-{% endraw %}
 
 
 ```
@@ -169,9 +163,7 @@ field_actions:
 **Jinja2 Equivalent:**
 
 ```jinja2
-{% raw %}
 {% set _ = transformed_item.update({'family_names': ', '.join([dep['name'] for dep in item['family']])}) %}
-{% endraw %}
 
 
 ```
@@ -196,9 +188,7 @@ field_actions:
 **Jinja2 Equivalent:**
 
 ```jinja2
-{% raw %}
 {% set _ = transformed_item.update({'hobbies_flat': ', '.join(item['hobbies'])}) %}
-{% endraw %}
 ```
 
 </details>

@@ -71,12 +71,10 @@ attribute_name: hobbies
 ### **Jinja2 equivalent:**
 
 ```jinja2
-{% raw %}
 {% set normalized_list = [item.result.result for item in my_collected_list] %}
 {% for list_item in normalized_list %}
   {% do my_base_list[loop.index0].update({'hobbies': list_item}) %}
 {% endfor %}
-{% endraw %}
 ```
 
 ## Results output

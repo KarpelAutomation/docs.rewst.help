@@ -118,9 +118,7 @@ You can convert datetime time to an epoch object. First, you set it to datetime 
 **Jinja:**
 
 ```django
-{% raw %}
 {% set current = now('utc', '%Y-%m-%dT%H:%M:%SZ') %}
-{% endraw %}
 {{ current | format_datetime("%s") | int}}
 ```
 

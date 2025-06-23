@@ -1,4 +1,4 @@
-# Working with Jinja lists
+# Work with Jinja lists
 
 ## Introduction
 
@@ -174,9 +174,7 @@ Sometimes you may wish to do something if a single item exists in two different 
 If you need a single list, you can do the following:
 
 ```django
-{% raw %}
 {% set list1 = [1,2,3,4,5,6] %}
 {% set list2 = [7,8,9,10,11,12] %}
-{% endraw %}
 {{ list1 + list2 }}
 ```

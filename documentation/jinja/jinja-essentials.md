@@ -45,17 +45,14 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
 **Example:**
 
 ```django
-{% raw %}
 {% if user_is_looged_in %}
     <p>Welcome, {{ user_name }}!</p>
 {% else %} 
     <p>Please log in to continue.</p>
 {% endif %}
-{% endraw %}
 ```
 
 ```django
-{% raw %}
 {% if rooster_sound == 'cock-a-doodle-doo' %}
     <p>Time to rise and shine!</p>
 {% elif rooster_sound == 'moo' %}
@@ -63,7 +60,6 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
 {% else %} 
     <p>The rooster is trying out new sounds. Perhaps it's starting a band!</p>
 {% endif %}
-{% endraw %}
 ```
 
 ### For loops:
@@ -73,11 +69,9 @@ _For loops_ in Jinja enable you to iterate through JSON lists, executing actions
 **Example:**
 
 ```django
-{% raw %}
 {% for thing in CTX.list_of_things %}
     <li>{{ thing }}</li>
 {% endfor %}
-{% endraw %}
 ```
 
 ### Jinja filters:

@@ -19,9 +19,7 @@ Variable expressions are encapsulated by double curly braces (`{{` and `}}`) and
 These are used for decision-making functions such as `set`s, `if` statements and `for each`es. They are encapsulated by curly+percent signs (`{%` `%}`)
 
 ```django
-{% raw %}
 {% set x = 100 %}
-{% endraw %}
 ```
 
 These statements typically do not output anything.
@@ -37,11 +35,9 @@ Comments do nothing. In the Rewst Monaco editor, you can use the hotkey `CTRL-/`
 By default, when Jinja begins a statement block, it preserves any whitespace characters (spaces, carriage returns, etc) before or after the block. In many cases, you will want to remove any spaces you did not explicitly intend to have, so the addition of the `-` character in the open and closing braces will remove the whitespace before or after the statement, respectively.
 
 ```django
-{% raw %}
 {%- for part in parts_list -%}
   {{- part.name -}}
 {%- endfor -%}
-{% endraw %}
 ```
 
 ### Jinja resources

@@ -16,9 +16,7 @@ In its simplest form, a dictionary switch can be used to map a key to a specific
 {%- set mydict = {'cwm': "cwm_psa",
             'datto': "datto_psa",
             'halo': "halo_psa"} -%}
-{% raw %}
 {%- set var1 = "datto" -%}
-{% endraw %}
 {{- mydict[var1] -}}
 ```
 
@@ -29,7 +27,6 @@ In this code, we define a dictionary `mydict` where each key corresponds to a ca
 You can also leverage dictionary switches when working with macros. Macros are reusable code snippets in Jinja, and you can dynamically select which macro to execute based on a key. Here's an example:
 
 ```django
-{% raw %}
 {% macro split_str(item) %}
     {{ item.split("_") | first |d  }}
 {% endmacro %}
@@ -37,7 +34,6 @@ You can also leverage dictionary switches when working with macros. Macros are r
             'datto': split_str("datto_psa"),
             'halo': split_str("halo_psa")} -%}
 {%- set var1 = "datto" -%}
-{% endraw %}
 {{- mydict[var1] -}}
 ```
 
@@ -48,14 +44,12 @@ In this code, we create a macro `split_str` that splits a string at underscores 
 What if you want to pass dynamic parameters to the selected macro? You can achieve this by storing the macros as values in the dictionary. Here's an example:
 
 ```django
-{% raw %}
 {% macro split_str(item) %}
     {{ item.split(",") | first |d  }}
 {% endmacro %}
 {% macro rep_str(item) %}
     {{ item.replace(",", "") }}
 {% endmacro %}
-{% endraw %}
 {%- set mydict = {'split': split_str,
             'rep': rep_str
             } -%}

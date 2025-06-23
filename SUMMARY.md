@@ -232,6 +232,7 @@
     * [OpenText Core Endpoint Protection: Create Ticket from File Detection Crate](documentation/crates/existing-crate-documentation/opentext-core-endpoint-protection-create-ticket-from-file-detection-crate.md)
     * [Organizational Setup Report Crate](documentation/crates/existing-crate-documentation/organizational-setup-report-crate.md)
     * [Remove Malicious Email and Block Sender Crate](documentation/crates/existing-crate-documentation/remove-malicious-email-and-block-sender-crate.md)
+    * [Thread Automations Crate](documentation/crates/existing-crate-documentation/thread-automations-crate.md)
     * [Time Savings Report Crate](documentation/crates/existing-crate-documentation/time-savings-report-crate.md)
     * [Triage SentinelOne Threat Alerts Crate](documentation/crates/existing-crate-documentation/triage-sentinelone-threat-alerts-crate.md)
     * [User Offboarding V2 Crate](documentation/crates/existing-crate-documentation/user-offboarding-v2.md)

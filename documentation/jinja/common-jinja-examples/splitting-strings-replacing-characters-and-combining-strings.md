@@ -9,9 +9,7 @@ In Jinja templating, manipulating strings is a common requirement. This article 
 The `.split()` method in Jinja is employed to divide a string into multiple substrings based on a specified character or a set of characters. By providing a delimiter, you can split the string at occurrences of that character.
 
 ```django
-{% raw %}
 {%- set mystring = "this_is_a_string" -%}
-{% endraw %}
 {{- 
     [
         item for item in mystring.split("_")
@@ -26,9 +24,7 @@ In this example, the string `"this_is_a_string"` is split at each underscore (`_
 The `.replace()` method or the `| regex_replace()` filter is utilized to replace specific characters in a string with another set of characters.
 
 ```django
-{% raw %}
 {%- set mystring = "this_is_a_string" -%}
-{% endraw %}
 {{-mystring.replace("_", " ")-}}
 {#- another way is like this -#}
 {{- mystring | regex_replace("_", " ") -}}
@@ -41,10 +37,8 @@ In both cases, the underscore (`_`) in the string `"this_is_a_string"` is replac
 Combining strings in Jinja is achieved similarly to Python. Strings can be concatenated using the `+` operator.
 
 ```django
-{% raw %}
 {%- set string1 = "hello" -%}
 {%- set string2 = "world" -%}
-{% endraw %}
 {{ string1 + string2 }}
 ```
 

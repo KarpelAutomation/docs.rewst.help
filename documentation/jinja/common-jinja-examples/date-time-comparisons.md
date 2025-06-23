@@ -1,4 +1,4 @@
-# Date-Time Comparisons
+# Date-time comparisons
 
 ## Date-Time Comparisons in Jinja
 
@@ -9,9 +9,7 @@ Date and time manipulations are a crucial aspect of template engines like Jinja,
 Often, you need to display the current date and time in a specific format. Jinja provides the `now` filter for this purpose. Here's how you can format the current date and time in UTC:
 
 ```django
-now_formatted -> {% raw %}
-{% now 'utc', '%Y-%m-%dT%H:%M:%SZ' %}
-{% endraw %}
+now_formatted -> {% now 'utc', '%Y-%m-%dT%H:%M:%SZ' %}
 ```
 
 This will output the current UTC date and time in the format 'YYYY-MM-DDTHH:MM:SSZ'.
@@ -21,9 +19,7 @@ This will output the current UTC date and time in the format 'YYYY-MM-DDTHH:MM:S
 Jinja allows you to perform date calculations easily. For example, to get the date and time from two days ago in the same format as above:
 
 ```django
-two_days_ago -> {% raw %}
-{% now 'utc' - 'days=2', '%Y-%m-%dT%H:%M:%SZ' %}
-{% endraw %}
+two_days_ago -> {% now 'utc' - 'days=2', '%Y-%m-%dT%H:%M:%SZ' %}
 ```
 
 This code subtracts two days from the current UTC date and time and formats the result accordingly.

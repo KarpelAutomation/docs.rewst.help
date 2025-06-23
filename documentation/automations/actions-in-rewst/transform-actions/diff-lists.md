@@ -76,14 +76,12 @@ list2_key: id
 **Jinja2 Equivalent:**
 
 ```django
-{% raw %}
 {% set result = [] %}
 {% for item1 in list_1 %}
   {% if all(item1[list1_key] != item2[list2_key] for item2 in list_2) %}
     {% do result.append(item1) %}
   {% endif %}
 {% endfor %}
-{% endraw %}
 
 
 {{ result }}
@@ -108,7 +106,6 @@ list2_key: id
 **Jinja2 Equivalent:**
 
 ```django
-{% raw %}
 {% set result = [] %}
 {% for item1 in list_1 %}
   {% if all(item1[list1_key] != item2[list2_key] for item2 in list_2) %}
@@ -120,7 +117,6 @@ list2_key: id
     {% do result.append(item2) %}
   {% endif %}
 {% endfor %}
-{% endraw %}
 
 
 {{ result }}

@@ -15,14 +15,12 @@ The Try section contains the code that might throw an error. If an error occurs 
 #### **Example: Implement try/catch blocks**
 
 ```django
-{% raw %}
 {% set data = "data exists" %}
 {% try %}
     {{ data }}
 {% catch %}
     {{ "data doesn't exist" }}
 {% endtry %}
-{% endraw %}
 ```
 
 In this example, the Try block attempts to display the variable `data`. If `data` exists, it will be displayed without any issues. However, if `data` doesn't exist or encounters an error, the Catch block will execute, displaying the message "data doesn't exist."

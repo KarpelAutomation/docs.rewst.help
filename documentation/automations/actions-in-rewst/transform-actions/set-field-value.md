@@ -70,9 +70,7 @@ field_actions:
 **Jinja2 Equivalent:**
 
 ```django
-{% raw %}
 {% set _ = item.update({'adult': true}) %}
-{% endraw %}
 
 
 ```
@@ -97,9 +95,7 @@ field_actions:
 **Jinja2 Equivalent:**
 
 ```django
-{% raw %}
 {% set _ = item.update({'years': item['age']}) %}
-{% endraw %}
 
 
 ```
@@ -126,11 +122,9 @@ field_actions:
 **Jinja2 Equivalent:**
 
 ```django
-{% raw %}
 {% if item['age'] == 35 %}
   {% set _ = item.update({'name': 'Senior'}) %}
 {% endif %}
-{% endraw %}
 ```
 
 </details>
