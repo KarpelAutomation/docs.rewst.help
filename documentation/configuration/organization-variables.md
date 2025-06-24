@@ -47,7 +47,7 @@ Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.04.03 PM.png"
 
 ## Create secret values for organization variables
 
-The **Category** drop-down selector holds several options to choose from when creating new organization variables. If you choose Secret, whatever text you enter into the **Value** field for that organization variable will be its secret. You might be asked for this value when unpacking several of our more complicated Crates.&#x20;
+The **Category** drop-down selector holds several options to choose from when creating new organization variables. If you choose secret, whatever text you enter into the **Value** field for that organization variable will be its secret. You might be asked for this value when unpacking several of our more complicated Crates. &#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.06.11 PM.png" alt=""><figcaption></figcaption></figure>
 

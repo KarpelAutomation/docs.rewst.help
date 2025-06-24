@@ -4,6 +4,7 @@
 
 ## Documentation
 
+* [Rewst Dashboard](documentation/rewst-dashboard.md)
 * [Automations](documentation/automations/README.md)
   * [Workflows](documentation/automations/workflows/README.md)
     * [Workflow builder: How to set up a workflow](documentation/automations/workflows/workflow-builder-how-to-set-up-a-workflow.md)
