@@ -50,7 +50,7 @@ A form unpacked from this Crate is used to maintain mappings between environment
 3. Click the trigger drop-down and select **Form Trigger.**\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-03-27 at 12.46.00 PM.png>)
-4. &#x20;Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png" alt="" data-size="line">.&#x20;
+4. &#x20;Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1).png" alt="" data-size="line">.&#x20;
 5. Click **View Direct URLs**.
 6. Copy the form URL and paste it in a different browser window.\
    \

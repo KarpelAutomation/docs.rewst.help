@@ -206,6 +206,8 @@
     * [Billing Count Report Crate](documentation/crates/existing-crate-documentation/billing-count-report-crate.md)
     * [Bulk Create Client from PSA Crate](documentation/crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md)
     * [Change a User’s Password Crate](documentation/crates/existing-crate-documentation/change-a-users-password-crate.md)
+    * [Clean up Global Address List from Disabled Users Crate](documentation/crates/existing-crate-documentation/clean-up-global-address-list-from-disabled-users-crate.md)
+    * [Comprehensive Rewst Forms List Crate](documentation/crates/existing-crate-documentation/comprehensive-rewst-forms-list-crate.md)
     * [Configure Organizational Variables Crate](documentation/crates/existing-crate-documentation/configure-organization-variables.md)
     * [ConnectWise PSA Agreement Mapping Crate](documentation/crates/existing-crate-documentation/connectwise-psa-agreement-mapping.md)
     * [Cork Compliance Event to PSA Ticket Crate](documentation/crates/existing-crate-documentation/cork-compliance-event-to-psa-ticket-crate.md)

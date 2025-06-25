@@ -48,7 +48,7 @@ Integration overrides will automatically be added during the Crate's unpacking p
 
 
     <figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-4. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png" alt="" data-size="line"> next to the trigger name to edit the trigger.
+4. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1).png" alt="" data-size="line"> next to the trigger name to edit the trigger.
 5. Select **View Direct URLs** under the **Trigger Configuration** submenu.
 6. Copy the associated URL of the company you will be using to test the Crate.&#x20;
 7. Open that URL in a new browser window.

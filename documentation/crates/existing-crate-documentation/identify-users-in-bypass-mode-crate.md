@@ -39,7 +39,7 @@ Our Duo integration must be set up before unpacking this Crate.
 
 
     <figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
-4. The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png" alt="" data-size="line">. You also have the option to set an email send to notify you if the workflow fails.\
+4. The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1).png" alt="" data-size="line">. You also have the option to set an email send to notify you if the workflow fails.\
    \
    ![](<../../../.gitbook/assets/image (51).png>)
 

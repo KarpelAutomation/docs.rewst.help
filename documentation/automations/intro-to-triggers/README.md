@@ -25,7 +25,7 @@ Update the relevant fields in the form as needed, to set up your trigger.\
 ## Modify an existing trigger
 
 To modify an existing trigger, click **Edit Trigger**. If there are multiple triggers for the workflow, select the appropriate trigger from the dropdown menu.\
-![](<../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1).png>)
+![](<../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1) (1).png>)
 
 ### How to use a trigger on a form
 
