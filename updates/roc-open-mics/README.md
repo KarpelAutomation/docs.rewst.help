@@ -40,26 +40,28 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://www.youtube.com/watch?v=jKTirfD99Qo" %}
+{% embed url="https://youtu.be/i7W-u-n6HB8" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎉 The call kicks off with excitement for the upcoming Flow conference, which has more than doubled in attendance from last year.
-* 🙋‍♂️ Attendees are reminded that asking questions—especially in Discord and via private channels—is key to succeeding in automation.
-* ⏱️ Engineers are urged to record time savings in automations to clearly demonstrate value to their leadership.
-* 🎥 George invites attendees to record short Workflow Wednesday videos, offering swag and extra goodies at Flow for participants.
-* 📊 A business leaders focus group is highlighted again, and George announces the graduation of the first onboarding cohort with an invitation for others to join the next one.
-* 📚 Clea provides an education update, celebrating certification achievements, highlighting new training content and homepage updates in CluckU, and launching a simple automation contest.
-* 🛠️ Danial presents product updates including lag fixes on the workflow canvas, new form options filtering (demoed by James), and an upcoming marketplace search overhaul (demoed by Brooke).
-* 🔎 Brooke demos the redesigned crate marketplace with improved filtering and search capabilities.
-* 🧪 James demos the new options filtering interface, showcasing use cases like advanced JSON path rules, Ginga filters, org-specific previews, and overrides for synced forms.
-* 🐞 Eric reviews numerous bug fixes across PSA and ticket workflows and previews upcoming crate releases and enhancements.
-* 📦 Paul walks through new crates: Core Compliance to PSA, Nodeware Alert to PSA, and Openext Endpoint Protection ticketing, with setup guidance and automation flows.
-* 📊 Nick shares an advanced monitoring solution using LogicMonitor and Rewst, with full integration via GraphQL and templates to track and alert on workflow execution issues.
-* 🧠 Nick explains how the dashboard helps identify failures, drifts, deletions, and correlates performance trends—providing visibility and reliability across automation.
-* 🗣️ Open discussion follows with questions about workflow continuation after failure, feedback on timeout statuses, and shoutouts to those offering help and support in public channels.
+* 🎙️ The session opens with a welcome from Aharon, who emphasizes the importance of asking questions for MSP success and highlights the upcoming FLOW event.
+* 💬 Ashe introduces the technical nature of the session and hands it off to George, who encourages attendance at FLOW and shares community best practices.
+* 📱 Brooke provides a developer update, showcasing new app builder features, dashboard improvements, and workflow filtering upgrades.
+* 🔧 Riggs details a major fix that significantly reduced workflow initialization failures through backend optimizations.
+* 📊 Brooke presents a new workflow executions widget for the dashboard, clarifying its recent launch and data availability.
+* 🛠️ George gives a demo of new app builder features including updated themes, reset buttons, background customization, and layout presets.
+* 🧰 JP introduces a new Windows Patch Deployer crate and previews upcoming marketplace additions, including BitLocker-focused workflows.
+* 🎓 Clea shares certification shoutouts, upcoming training, a course preview, and tips for navigating unfinished courses in CluckU.
+* 🏃 Ben demos a wellness contest workflow that integrates forms, Slack, SQL, and block kit to create an interactive engagement tool.
+* 📋 Hunter presents a workflow that ensures ConnectWise tasks are completed, automatically notifies users, and prevents duplicates with Ginga logic.
+* 🔁 Derek shares a subworkflow for setting ticket statuses in ConnectWise using board lookups and status name-to-ID matching.
+* ⚙️ Stuart walks through a dramatically optimized auditing workflow for client devices using SQL caching and ID normalization.
+* 🗣️ The open mic begins with Aharon teasing surprises for FLOW, including ideas like a promotional chicken suit for the event.
+* 🧪 Andrew raises an issue with DNS Filter user retrieval, which sparks a group troubleshooting session about API limitations and endpoint access.
+* 🧵 Jeffrey demos a mirrored ticketing system and gets help resolving an issue with duplicate notes through custom field locking suggestions.
+* 🎤 The session closes with open Q\&A and final comments from Aharon about the upcoming FLOW keynote and conference excitement.
 
 </details>
 

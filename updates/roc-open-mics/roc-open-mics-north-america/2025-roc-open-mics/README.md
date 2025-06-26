@@ -4,6 +4,8 @@
 
 <summary>June 2025</summary>
 
+[june-20-2025-the-psa-automations-that-quietly-saves-hours-every-week.md](june-20-2025-the-psa-automations-that-quietly-saves-hours-every-week.md "mention")
+
 [june-13-2025-build-peace-of-mind-into-your-automation-stack-with-this-setup.md](june-13-2025-build-peace-of-mind-into-your-automation-stack-with-this-setup.md "mention")
 
 [june-6-2025-auto-assign-connectwise-tickets.md](june-6-2025-auto-assign-connectwise-tickets.md "mention")

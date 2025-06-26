@@ -419,6 +419,7 @@
   * [Sign up to present at any Open Mic](updates/roc-open-mics/sign-up-to-present-at-any-open-mic.md)
   * [Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/README.md)
     * [2025 Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/README.md)
+      * [June 20, 2025: The PSA Automations That Quietly Saves Hours Every Week](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/june-20-2025-the-psa-automations-that-quietly-saves-hours-every-week.md)
       * [June 13, 2025: Build Peace of Mind Into Your Automation Stack With This Setup](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/june-13-2025-build-peace-of-mind-into-your-automation-stack-with-this-setup.md)
       * [June 6, 2025: Auto-assign ConnectWise tickets](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/june-6-2025-auto-assign-connectwise-tickets.md)
       * [May 30, 2025: Inside a new partner’s first workflow](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/may-30-2025-inside-a-new-partners-first-workflow.md)
