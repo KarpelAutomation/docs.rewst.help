@@ -10,14 +10,15 @@ Our Alert on Expiring App Reg Certificates Crate identifies any expiring certifi
 
 ## Crate prerequisites
 
-* The [Microsoft Graph integration](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/) must be set up before unpacking this Crate
+* The [Microsoft Graph integration](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/) , a part of our Microsoft Cloud Bundle, must be set up before unpacking this Crate
 * default\_psa organization variable
 
 ## Unpack the Alert on Expiring App Reg Certificates Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
 2. Search for `Alert on Expiring App Reg Certificates`.
-3. Click **Unpack Crate**.\
+3. Click on the Crate tile to begin the unpacking process.
+4. Click **Unpack Crate**.\
 
 
 <figure><img src="../../../.gitbook/assets/image (54) (2).png" alt="Screenshot of the Rewst platform showing the unpacking screen for a workflow crate titled &#x22;[Rewst Master v3] Azure: Alert on Expiring App Certs [Part 1]&#x22;. The page displays a description: &#x22;Identify any Application Registrations that have expiring certificates and log a ticket per client, with an overall ticket with all detailed information.&#x22; Below that, there&#x27;s a &#x22;Crate Configuration&#x22; section with fields for &#x22;Workflow Name&#x22; (pre-filled), &#x22;Time Saved (seconds)&#x22; (set to 0), and a trigger configuration showing a Cron Job marked as &#x22;Enabled&#x22;. Buttons for &#x22;Previous&#x22; and &#x22;Unpack&#x22; appear at the bottom right."><figcaption><p>The Crate's configuration page</p></figcaption></figure>

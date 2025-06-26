@@ -199,6 +199,7 @@
   * [Crate guides](prebuilt-automations/existing-crate-documentation/README.md)
     * [Ad-Hoc Install/Uninstall Software via Chocolatey Crate](documentation/crates/existing-crate-documentation/ad-hoc-install-uninstall-software-via-chocolatey-crate.md)
     * [Add Client to Rewst Crate](documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
+    * [Add or Remove Group Membership Crate](documentation/crates/existing-crate-documentation/add-or-remove-group-membership-crate.md)
     * [Alert on Expiring App Reg Certificates Crate](documentation/crates/existing-crate-documentation/alert-on-expiring-app-reg-certificates-crate.md)
     * [Alert on Expiring App Reg Secrets Crate](documentation/crates/existing-crate-documentation/alert-on-expiring-app-reg-secrets-crate.md)
     * [Alert when Users' Mailboxes are Reaching Quota Crate](documentation/crates/existing-crate-documentation/alert-when-users-mailboxes-are-reaching-quota-crate.md)
