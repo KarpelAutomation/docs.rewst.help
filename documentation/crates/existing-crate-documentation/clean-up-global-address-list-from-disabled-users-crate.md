@@ -33,7 +33,7 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 
 The Crate runs on a cron trigger, and will execute the workflow at the same time each day. You can adjust the chosen time for execution in the workflow itself.
 
-1. Navigate to Automations > Workflows in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Remove Disabled Users from GAL`.
 3. Click on the workflow to view it in the workflow builder.
 4. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png" alt="" data-size="line"> to open the edit trigger menu.\
