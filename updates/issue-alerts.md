@@ -6,6 +6,42 @@ icon: circle-exclamation
 
 <details>
 
+<summary>⚠️ Upcoming: Planned maintenance window - All Regions June 19th, 2025</summary>
+
+On Saturday, July 19th, the Rewst engineering team will be performing regional critical PostgreSQL upgrades and infrastructure enhancements. The Rewst platform—including the user interface, API access, and all workflow execution—may be intermittently unavailable during the maintenance window. We recommend rescheduling any critical automations during those periods. Please check your region's maintenance time window in the list below. While we'll try to minimize disruptions, we do recommend rescheduling any critical automations during that period.
+
+The maintenance is scheduled across multiple regions during off-hours as follows:\
+
+
+* US Instance:
+  * Date: Saturday, July 19, 2025 10:00 PM – Sunday, July 20, 2025 12:00 AM EDT
+  * Sunday, July 20, 2025 02:00 – 04:00 UTC
+* UK Instance:
+  * Date: Saturday, July 19, 2025 2:00 AM – 4:00 AM BST
+  * Saturday, July 19, 2025 01:00 – 03:00 UTC
+* EU Instance:
+  * Date: Saturday, July 19, 2025 3:00 AM – 5:00 AM CEST
+  * Saturday, July 19, 2025 01:00 – 03:00 UTC
+* AU Instance:
+  * Date: Sunday, July 20, 2025 2:00 AM – 4:00 AM AEST
+  * Saturday, July 19, 2025 16:00 – 18:00 UTC
+
+#### Updates
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
+<details>
+
 <summary>⚠️ Resolved: Performance Degradation Due to Memory Exhaustion - US Region June 6th, 2025</summary>
 
 On June 6, 2025, from 8:15 AM to 10:00 AM EDT, we detected that workflow processing in Rewst was experiencing significant delays in the US region. The issue has since been resolved, and workflows are now processing normally.&#x20;
