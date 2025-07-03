@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # N-able N-sight integration
 
 {% hint style="info" %}
@@ -28,7 +14,7 @@ Our N-able N-sight integration enables automation of device and customer managem
 
 1. Navigate to your dashboard for N-able N-sight
 2. Navigate to **Toolbar > Settings > General Settings > API**.\
-   ![](<../../../../../.gitbook/assets/Nsight final.png>)
+   ![](<../../../../.gitbook/assets/Nsight final.png>)
 3. Click **Generate** to generate an API token.
 4. Copy the API token.
 
@@ -37,10 +23,10 @@ Our N-able N-sight integration enables automation of device and customer managem
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `N-able N-sight` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-03 at 3.08.43 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-03 at 3.08.43 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-03 at 3.40.37 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-03 at 3.40.37 PM.png" alt=""><figcaption></figcaption></figure>
 
 4. Enter your copied API key into the **API Key** field.
 5. Fill in the **Server** field with the base URL of your N-able N-sight environment.

@@ -4,17 +4,6 @@ description: >-
   you're a new or experienced builder of integrations, this is your resource hub
   for learning how to save time with Rewst.
 icon: hand-wave
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: false
 ---
 
 # Welcome to Rewst

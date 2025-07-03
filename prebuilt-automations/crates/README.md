@@ -3,17 +3,6 @@ description: >-
   Learn all about our prebuilt automations: where to find them, and how to set
   them up
 icon: box
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Crates

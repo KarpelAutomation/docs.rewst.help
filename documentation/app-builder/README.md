@@ -1,17 +1,6 @@
 ---
 description: Revolutionize your MSP operations with Rewst's App Builder.
 icon: compass-drafting
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # App Builder

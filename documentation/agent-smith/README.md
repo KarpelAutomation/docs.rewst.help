@@ -3,17 +3,6 @@ description: >-
   Rewst's lean, open-source command executor that fits right into your Rewst
   workflows.
 icon: user-secret
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Agent Smith

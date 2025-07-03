@@ -64,6 +64,7 @@
       * [Split text transform action](documentation/automations/actions-in-rewst/transform-actions/split-text-transform-action.md)
       * [Transform list objects transform action](documentation/automations/actions-in-rewst/transform-actions/restructure-lists.md)
       * [Trim variable transform action](documentation/automations/actions-in-rewst/transform-actions/trim-variable-transform-action.md)
+      * [YAML parse transform action](documentation/automations/actions-in-rewst/transform-actions/yaml-parse-transform-action.md)
     * [Workflows actions](documentation/automations/actions-in-rewst/workflows-actions.md)
   * [Triggers](documentation/automations/intro-to-triggers/README.md)
     * [Trigger criteria](documentation/automations/intro-to-triggers/trigger-criteria.md)

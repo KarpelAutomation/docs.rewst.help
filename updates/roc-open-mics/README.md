@@ -1,16 +1,5 @@
 ---
 icon: microphone-lines
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Rewst Open Mic

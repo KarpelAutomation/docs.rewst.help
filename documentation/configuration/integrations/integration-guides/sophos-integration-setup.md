@@ -12,7 +12,7 @@ Integrating Rewst with Sophos brings robust cybersecurity capabilities to your R
 
 <details>
 
-<summary>Account and Data Consistency Management</summary>
+<summary>Account and data consistency management</summary>
 
 * Ensure consistent and standardized data across platforms by automating the setup of customer accounts.
   * Automatically synchronize client names between Rewst and Sophos, eliminating the need for manual adjustments or TenantName overrides.
@@ -23,7 +23,7 @@ Integrating Rewst with Sophos brings robust cybersecurity capabilities to your R
 
 <details>
 
-<summary>Alert Management and Security Compliance</summary>
+<summary>Alert management and security compliance</summary>
 
 * Build workflows to effectively handle alerts and ensure security compliance measures are in place.
   * Enable proactive alerting when tamper protection is disabled, ensuring prompt action and maintaining security standards.
@@ -32,7 +32,7 @@ Integrating Rewst with Sophos brings robust cybersecurity capabilities to your R
 
 <details>
 
-<summary>Policy and Resource Management</summary>
+<summary>Policy and resource management</summary>
 
 * Streamline policy and resource management within Sophos, ensuring consistency and efficiency.
   * Create, read, update, delete, reset, and clone policies and their settings.
@@ -65,7 +65,7 @@ Sophos credentials expire 36 months from the date of creation. We suggest settin
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Sophos` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-06 at 3.01.21 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-06 at 3.01.21 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**, enter the information copied from Sophos into the relevant fields:
    1. **Client ID**
@@ -84,6 +84,10 @@ For more on how actions work in Rewst, check out our [introductory actions docum
 {% endhint %}
 
 Sophos' own API documentation can be found [here](https://developer.sophos.com/intro).&#x20;
+
+{% hint style="warning" %}
+The Generic API Request action does _not_ automatically include tenant context. To avoid authentication errors, set the tenant value from your `X-Tenant-ID` in the request headers. You can manually add it in the headers section of the action, or pull it from the tenant dropdown in the UI.
+{% endhint %}
 
 | Category                       | Action                                           | Description                                                                                                                                                                                               |
 | ------------------------------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -154,7 +158,7 @@ Sophos' own API documentation can be found [here](https://developer.sophos.com/i
 | **Firewalls**                  | Check Firmware                                   | Check firmware for firewalls                                                                                                                                                                              |
 | **Firewalls**                  | Upgrade Firewall                                 | Upgrade firewalls                                                                                                                                                                                         |
 | **Firewalls**                  | Cancel Scheduled Firewall Upgrade                | Cancel scheduled upgrade for a firewall                                                                                                                                                                   |
-| **Generic Request**            | Sophos API Request                               | Generic action for making authenticated requests against the Sophos API                                                                                                                                   |
+| **Generic Request**            | Sophos API Request                               | Generic action for making authenticated requests against the Sophos API - see note at the top of this table for instructions about how to use this particular action                                      |
 | **Global Tamper Protection**   | Check Global Tamper Protection Setting           | Check whether Tamper Protection is turned on globally                                                                                                                                                     |
 | **Intrusion Prevention**       | List Intrusion Prevention Exclusions             | Get all Intrusion Prevention exclusions                                                                                                                                                                   |
 | **Intrusion Prevention**       | Add Intrusion Prevention Exclusion               | Add a new Intrusion Prevention exclusion                                                                                                                                                                  |
