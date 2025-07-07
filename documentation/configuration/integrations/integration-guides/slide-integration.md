@@ -28,7 +28,7 @@ Common uses include:
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.26.52 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.26.52 PM.png" alt=""><figcaption></figcaption></figure>
 4. Enter a name that lets you know the token is being used for Rewst into the **Name** field of the dialog that appears.
 5. Click **Create**.
 6. Copy the API token. Note that the token will only be displayed once, and cannot be retrieved once the dialog is closed. You'll need this token for the rest of the set up steps in Rewst.
@@ -38,7 +38,7 @@ Common uses include:
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `Slide` integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.30.55 PM.png>)\
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.30.55 PM.png>)\
 
 3. Click on the integration tile to launch the configuration setup page.
 4. Paste the API token copied from Slide into the **API Token** field.
@@ -69,6 +69,8 @@ Slide's complete documentation can be found [here](https://docs.slide.tech/api/)
 | **Agents**          | List Agents            | Returns a list of agents                                               |
 | **Agents**          | Get Agent              | Returns details for a specific agent                                   |
 | **Agents**          | Update Agent           | Updates an agent's details                                             |
+| **Agents**          | Create Agent           | Create an agent for an auto-pair installation                          |
+| **Agents**          | Pair Agent             | Pairs an unpaired agent to a device using a pair code                  |
 | **Alerts**          | List Alerts            | Returns a list of alerts                                               |
 | **Alerts**          | Get Alert              | Returns details for a specific alert                                   |
 | **Alerts**          | Update Alert           | Updates an alert's details                                             |
@@ -98,9 +100,9 @@ Slide's complete documentation can be found [here](https://docs.slide.tech/api/)
 | **Snapshots**       | Get Snapshot           | Returns details for a specific snapshot                                |
 | **Users**           | List Users             | Returns a list of users                                                |
 | **Users**           | Get User               | Returns details for a specific user                                    |
-| **VM Restores**     | List Virtual Machines  | Returns a list of virtual machine restores                             |
-| **VM Restores**     | Create Virtual Machine | Initiates a new virtual machine restore                                |
-| **VM Restores**     | Delete Virtual Machine | Deletes a specific virtual machine restore                             |
-| **VM Restores**     | Get Virtual Machine    | Returns details for a specific virtual machine restore                 |
-| **VM Restores**     | Update Virtual Machine | Updates details of a virtual machine restore                           |
+| **Vm Restores**     | List Virtual Machines  | Returns a list of virtual machine restores                             |
+| **Vm Restores**     | Create Virtual Machine | Initiates a new virtual machine restore                                |
+| **Vm Restores**     | Delete Virtual Machine | Deletes a specific virtual machine restore                             |
+| **Vm Restores**     | Get Virtual Machine    | Returns details for a specific virtual machine restore                 |
+| **Vm Restores**     | Update Virtual Machine | Updates details of a virtual machine restore                           |
 

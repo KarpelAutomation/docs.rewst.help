@@ -281,6 +281,7 @@
       * [Cork integration](documentation/configuration/integrations/integration-guides/cork-integration.md)
       * [Cove integration](documentation/configuration/integrations/integration-guides/cove-integration.md)
       * [CrowdStrike integration](documentation/configuration/integrations/integration-guides/crowdstrike-integration-setup.md)
+      * [CrushBank integration](documentation/configuration/integrations/integration-guides/crushbank-integration.md)
       * [Database integration setup](documentation/configuration/integrations/integration-guides/database-integration-setup.md)
       * [Datto Autotask PSA integration](documentation/configuration/integrations/integration-guides/datto-psa-integration-setup/README.md)
         * [Least privilege access guide for Datto's Autotask PSA integration](documentation/configuration/integrations/integration-guides/datto-psa-integration-setup/least-privilege-access-guide-for-dattos-autotask-psa-integration.md)
