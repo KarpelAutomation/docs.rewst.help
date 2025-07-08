@@ -111,7 +111,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Enable Gmail API
 
@@ -122,7 +122,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Enable Group Settings API
 

@@ -16,35 +16,59 @@ Each action serves a unique purpose and comes with a brief description to aid in
 Click through to any of the related action type pages to learn more.
 {% endhint %}
 
+### Core actions
+
+These are the essential platform components like webhooks, email dispatching, and [noops](https://docs.rewst.help/documentation/workflows/actions-in-rewst/core-actions#no-operation-noop).&#x20;
+
 {% content-ref url="core-actions.md" %}
 [core-actions.md](core-actions.md)
 {% endcontent-ref %}
 
-Core actions: These are the essential platform components like webhooks, email dispatching, and [noops](https://docs.rewst.help/documentation/workflows/actions-in-rewst/core-actions#no-operation-noop).&#x20;
+### Integrations actions
+
+When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. See our [individual integration setup pages](../../configuration/integrations/) for more information on available actions.
 
 {% content-ref url="../../configuration/integrations/" %}
 [integrations](../../configuration/integrations/)
 {% endcontent-ref %}
 
-Integrations actions: When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. Each integration's action accordion menu will also contain an action to allow you to pull in additional actions. This action is titled `[Integration Name] API Request`. See our [individual integration setup pages](../../configuration/integrations/) for more information on available actions.
+### Rewst actions
+
+These actions are for interacting with your Rewst environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables.
 
 {% content-ref url="rewst-actions.md" %}
 [rewst-actions.md](rewst-actions.md)
 {% endcontent-ref %}
 
-Rewst actions: These actions are for interacting with your Rewst environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables.
+### Transform actions&#x20;
+
+These actions help you shape and modify your data for efficient workflow execution, replacing the need for complex Jinja statements.
 
 {% content-ref url="transform-actions/" %}
 [transform-actions](transform-actions/)
 {% endcontent-ref %}
 
-Transform actions: These actions help you shape and modify your data for efficient workflow execution, replacing the need for complex Jinja statements.
+### Workflows actions&#x20;
+
+These actions allow you to call other workflows within your environment. They enable you to feed information from the parent workflow as inputs and return the results upon completion.
 
 {% content-ref url="workflows-actions.md" %}
 [workflows-actions.md](workflows-actions.md)
 {% endcontent-ref %}
 
-Workflows actions: These actions allow you to call other workflows within your environment. They enable you to feed information from the parent workflow as inputs and return the results upon completion.
+### Generic actions
+
+For each integration, Rewst provides a single action that isn't predefined like the other integration-related actions, but which can be used to define a URL path. Using that path for the endpoint you wish to reach in the partner's API allows you to specify data, cookies, headers, etc., for custom targeting beyond what Rewst's other predefined actions allow.&#x20;
+
+Generic actions rely heavily on your reading the integration's API documentation and researching the endpoints yourself. Most frequently, we suggest this as a feature for more advanced users, though customers with specific goals might be required to use it early on in their onboarding process.
+
+Generic actions are typically named after the integration in the format of `[integration] API Request`. For example, for HaloPSA the action is called `HaloPSA API Request` .
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="246"><figcaption><p>The HaloPSA generic action</p></figcaption></figure>
+
+{% hint style="warning" %}
+Note that the paginate request option in any generic action modifies how the request is formed. This can cause issues on the API's side, causing them to behave unexpectedly and return error messages.
+{% endhint %}
 
 ## Known actions issues and errors
 

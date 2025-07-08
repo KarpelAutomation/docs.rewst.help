@@ -1,7 +1,3 @@
----
-description: Interact and Innovate with Rewst Actions
----
-
 # Rewst actions
 
 ## Available Rewst actions
