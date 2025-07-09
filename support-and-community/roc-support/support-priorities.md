@@ -42,7 +42,7 @@ Please note that these objectives are goals aimed at guiding our response times 
 
 ### Need Escalation?
 
-If you believe your support query requires some level of escalation, we understand. Flexibility is important to us, and we're here to accommodate your needs. Please contact support leadership or your Customer Success Manager (CSM) via the [Contact page](../../contact-resources.md). You can also ping us in Discord, knock on our doors or throw something through our windows - our focus is on making you guys happy.
+If you believe your support query requires some level of escalation, we understand. Flexibility is important to us, and we're here to accommodate your needs. Please contact support leadership or your Customer Success Advisor (CSA) via the [Contact page](../../contact-resources.md). You can also ping us in Discord, knock on our doors or throw something through our windows - our focus is on making you guys happy.
 
 ## Operating hours and holiday availability
 
@@ -50,20 +50,11 @@ At Rewst, we are committed to providing exceptional support while also respectin
 
 ### Standard operating hours
 
-**Support operating hours:** Monday through Friday, 4 AM to 9 PM Eastern Time. During these hours, our team is actively available to address your support requests based on the priority levels outlined above.
-
-### Extended support and flexibility
-
-While our official operating hours are until 9 PM EST, our team often goes above and beyond to assist customers outside of these times. This extended support is not guaranteed and should not be expected as the norm. However, you can always tag a request as required, and if someone is available to help, they will do their best to assist you.
+Support operating hours can be [found here ](./#rewst-support-operating-hours)
 
 ### Holiday availability
 
 As an international company, our team members observe official holidays according to their respective countries. However, due to the global nature of our team, there is often someone available, even during local holidays. This means you may still receive support during these times, though response times might be longer than usual.
-
-#### Notable points:
-
-* **Extended support:** This is a discretionary effort from our team members and not an official part of our service agreement.
-* **Holiday support:** While we strive to provide assistance during local holidays, this is subject to the availability of our international team members.
 
 ### Acknowledgements and gratitude
 

@@ -10,7 +10,9 @@ Short for _Robotic Operations Center_, the ROC is Rewst’s dedicated support te
 
 ## Rewst support operating hours
 
-Our support team provides **24-hour coverage from Monday to Friday**, ensuring uninterrupted assistance across the globe. Due to our global presence, our actual coverage runs from:
+Our support team provides **24-hour coverage from Monday to Friday**, ensuring uninterrupted assistance across the globe. Due to our global presence, our actual coverage runs as follows:
+
+**Note:** Between **October and March**, there is a brief daily support gap from **5:00 AM to 7:00 AM UTC** due to daylight saving time differences between regions.
 
 <table><thead><tr><th width="124.30078125">Region</th><th width="179.640625">Time Zone</th><th>Support Start </th><th>Support End </th></tr></thead><tbody><tr><td>Americas</td><td>ET</td><td>Sunday 4:00 PM</td><td>Friday 8:00 PM</td></tr><tr><td>Europe</td><td>CET</td><td>Sunday 10:00 PM</td><td>Saturday 2:00 AM</td></tr><tr><td>Australia</td><td>AET</td><td>Monday 6:00 AM</td><td>Saturday 10:00 AM</td></tr></tbody></table>
 
