@@ -919,5 +919,3 @@
 ***
 
 * [Contact resources](contact-resources.md)
-
-## 📦 Prebuilt Automations

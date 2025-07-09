@@ -8,7 +8,7 @@ icon: circle-exclamation
 
 <summary>⚠️ Upcoming: Planned maintenance window - All Regions June 19th, 2025</summary>
 
-On Saturday, July 19th, the Rewst engineering team will be performing regional critical PostgreSQL upgrades and infrastructure enhancements. The Rewst platform—including the user interface, API access, and all workflow execution—may be intermittently unavailable during the maintenance window. We recommend rescheduling any critical automations during those periods. Please check your region's maintenance time window in the list below. While we'll try to minimize disruptions, we do recommend rescheduling any critical automations during that period.
+On Saturday, July 19th, the Rewst engineering team will be performing regional critical PostgreSQL upgrades and infrastructure enhancements. The Rewst platform—including the user interface, API access, and all workflow execution—may be intermittently unavailable during the maintenance window. While the duration may be as little as 15 minutes, there is potential for it to last as much as two hours. Our team will work to minimize service disruption in each region. We recommend rescheduling any critical automations during those periods. Please check your region's maintenance time window in the list below. While we'll try to minimize disruptions, we do recommend rescheduling any critical automations during that period.
 
 The maintenance is scheduled across multiple regions during off-hours as follows:\
 
