@@ -648,7 +648,7 @@ During pod configuration, you'll need to update your Rewst base URL to match you
    2. **Screen** - For our example, we use **Service Tickets**
    3. **Origin** - [https://app.rewst.io](https://app.rewst.io)\
       Note that you'll need to update this origin URL to match your Rewst instance. Determine your instance by referencing the included instance table.
-   4. **URL** - [https://app.rewst.io/organizations/\<org\_id>/integrations/embed/ticket/\[cw\_id\]](https://app.rewst.io/organizations/%3Corg_id%3E/integrations/embed/ticket/\[cw_id)\
+   4. **URL** - `https://app.rewst.io/organizations/<org_id>/integrations/embed/ticket/[cw_id]`\
       Note that you'll need to update this URL to match your Rewst instance. Determine your instance by referencing the included instance table. You'll also need to add your own `org_id`to the URL. This can be obtained by going to your Rewst platform, looking at the URL, locating the org id between the / marks, and pasting it into the URL below. `[cw_id]`should be left as-is.
 6. Select **Pod**.
 
