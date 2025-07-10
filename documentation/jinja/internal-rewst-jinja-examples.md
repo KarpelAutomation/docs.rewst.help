@@ -248,9 +248,19 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
 
 ### List comprehension
 
-List comprehensions in Rewst's implementation of Jinja provide a compact way to transform lists, filter them, or generate new lists.
+_List comprehension_ in Rewst's implementation of Jinja provides a compact way to transform lists, filter them, or generate new lists, without needing to end the code with `{% endfor %}`. It consists of three parts:
 
-#### Iterating through a list
+1. Output – What do you want in your new list?
+2. For Loop – How do you loop through data in the original list?
+3. Condition – Do you need to filter items to include in your new list? This is optional.
+
+The basic structure for list comprehension is:
+
+`{{ [ output for output`\
+&#x20;`in CTX.list` \
+`if condition ]}}`
+
+#### Iterate through a list
 
 `{{ [users.userPrincipalName for users in TASKS.task_name.result.result ]}}`
 
