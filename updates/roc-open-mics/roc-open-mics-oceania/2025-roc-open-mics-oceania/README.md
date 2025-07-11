@@ -2,6 +2,14 @@
 
 <details>
 
+<summary>July 2025</summary>
+
+[july-4-2025-real-time-leds-driven-by-rewst.md](july-4-2025-real-time-leds-driven-by-rewst.md "mention")
+
+</details>
+
+<details>
+
 <summary>June 2025</summary>
 
 [june-6-2025-microsoft-graph-api-paging.md](june-6-2025-microsoft-graph-api-paging.md "mention")

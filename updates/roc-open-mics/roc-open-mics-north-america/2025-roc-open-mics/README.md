@@ -2,7 +2,17 @@
 
 <details>
 
+<summary>July 2025</summary>
+
+[july-4-2025-the-value-of-learning-with-a-noob-mindset.md](july-4-2025-the-value-of-learning-with-a-noob-mindset.md "mention")
+
+</details>
+
+<details>
+
 <summary>June 2025</summary>
+
+[june-27-2025-the-big-news-from-flow-2025.md](june-27-2025-the-big-news-from-flow-2025.md "mention")
 
 [june-20-2025-the-psa-automations-that-quietly-saves-hours-every-week.md](june-20-2025-the-psa-automations-that-quietly-saves-hours-every-week.md "mention")
 

@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>June 2025</summary>
+<summary>July 2025</summary>
 
 [may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md](may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md "mention")
 
@@ -10,9 +10,17 @@
 
 <details>
 
-<summary>May 2025</summary>
+<summary>June 2025</summary>
 
 [may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation-1.md](may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation-1.md "mention")
+
+</details>
+
+<details>
+
+<summary>May 2025</summary>
+
+[may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation-2.md](may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation-2.md "mention")
 
 </details>
 

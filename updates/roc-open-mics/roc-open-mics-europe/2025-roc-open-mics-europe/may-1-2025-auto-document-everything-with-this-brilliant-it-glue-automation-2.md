@@ -1,4 +1,4 @@
-# July 3, 2025: Secret AI Sneak Peek & Next-Level Crates
+# May 1, 2025: Auto-Document Everything with This Brilliant IT Glue Automation!
 
 ### **Join Live!**
 
@@ -8,17 +8,18 @@ Join us live on the first Thursday of every month at 3pm GMT
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/MY4vnM-ev8s" %}
+{% embed url="https://youtu.be/4yScyV2Hbc8" %}
 
 ### Contents of the Recording:
 
-* 🟢 George welcomes everyone to the Rewst EU Open Mic, kicking off our monthly update and community collaboration space.
-* 📊 Danial presented June’s product highlights including the dashboard workflow table, forms options filters, enhanced workflow result filtering, marketplace redesign, new integrations, and previewed RoboRewsty AI functionality.
-* 🛒 JP detailed several new and refactored crates released in June with improved supportability, including Windows Patch Deployer, security integrations, and expanded automated unit testing.
-* 🎓 Clea encouraged attendees to leverage Cluck University courses this summer, announced deprecation of seven micro courses, and highlighted process engineering and automation basics offerings.
-* 🎉 George shared upcoming Flow 2026 early bird pricing, NinjaOne webinar, Discord channels, community creation videos, and business leaders focus groups .
-* 🔗 Gareth demonstrated a two-way integration between ClickUp and Rewst workflows and tickets, showcasing task creation, updates, and synchronization with ClickUp tasks and ConnectWise tickets.
-* 🚀 The session concluded with an open Q\&A, reminders for August’s EU Open Mic, and an invitation to join the fun open mic event tomorrow.
+* 🎤 The session begins with George channeling Aharon’s usual Open Mic intro, emphasizing Discord engagement, asking questions, and tracking time savings.
+* 🧰 Danial gives a product update for April, showcasing new integrations with Cork, Slide, Notion, and Asana, and introducing PowerShell in beta.
+* 🧩 JP from the Marketplace team details April’s crate releases including admin alerts, RMM/AV gap analysis, and duplicate account detection.
+* 🎓 Clea from Education shares updates including a redesigned onboarding page, advanced Jinja course, a webhook micro-course, and certifications.
+* 📬 Ben presents a demo of a crate that alerts when mailboxes are nearing quota and explains how to configure and deploy it for proactive support.
+* ⚙️ Craig Duff demos a custom solution that extracts data from CSVs sent via Ingram and loads it into SQL for BrightGauge analysis using PythonAnywhere.
+* 📋 Elliot Rees walks through an automated IT Glue cheat sheet generator using Roost and HTML templates for tracking client software/service usage.
+* 📣 George and Clea conclude by plugging cohort onboarding calls and encouraging participants to share and present at future sessions.
 
 <details>
 

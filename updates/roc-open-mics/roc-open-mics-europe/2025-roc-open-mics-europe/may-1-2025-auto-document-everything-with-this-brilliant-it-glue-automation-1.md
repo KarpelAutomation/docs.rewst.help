@@ -1,4 +1,4 @@
-# May 1, 2025: Auto-Document Everything with This Brilliant IT Glue Automation!
+# June 5, 2025:
 
 ### **Join Live!**
 
@@ -8,18 +8,24 @@ Join us live on the first Thursday of every month at 3pm GMT
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/4yScyV2Hbc8" %}
+{% embed url="https://youtu.be/FjAU5v3HCQg" %}
 
 ### Contents of the Recording:
 
-* 🎤 The session begins with George channeling Aharon’s usual Open Mic intro, emphasizing Discord engagement, asking questions, and tracking time savings.
-* 🧰 Danial gives a product update for April, showcasing new integrations with Cork, Slide, Notion, and Asana, and introducing PowerShell in beta.
-* 🧩 JP from the Marketplace team details April’s crate releases including admin alerts, RMM/AV gap analysis, and duplicate account detection.
-* 🎓 Clea from Education shares updates including a redesigned onboarding page, advanced Jinja course, a webhook micro-course, and certifications.
-* 📬 Ben presents a demo of a crate that alerts when mailboxes are nearing quota and explains how to configure and deploy it for proactive support.
-* ⚙️ Craig Duff demos a custom solution that extracts data from CSVs sent via Ingram and loads it into SQL for BrightGauge analysis using PythonAnywhere.
-* 📋 Elliot Rees walks through an automated IT Glue cheat sheet generator using Roost and HTML templates for tracking client software/service usage.
-* 📣 George and Clea conclude by plugging cohort onboarding calls and encouraging participants to share and present at future sessions.
+* 📢 Rewst’s Tampa conference is announced, with reminders to register soon due to limited tickets and accommodations, plus mentions of secret side events and a call for attendees to connect.
+* 💬 Discord is emphasized as a core support and knowledge-sharing hub, with private MSP channels and direct Rock team access for building tickets.
+* 🧑‍🏫 George introduces the “Call to Cohorts” program for structured onboarding and invites experienced partners to serve as guest mentors.
+* 📈 A business leaders focus group is launched to discuss strategic hiring and high-level automation ROI, with a sign-up form shared.
+* 🧵 A new NinjaOne Discord channel is introduced, and attendees are invited to record Workflow Wednesday clips in exchange for Rewst swag.
+* 🛠️ Danial shares product updates including a new StreamOne Ion integration, Freshdesk polling triggers, Proofpoint API enhancements, transform improvements, and a new workflow search/filter UI.
+* 🎓 Lauren highlights new educational content including a video ROI course call, new certifications, course filtering improvements, and featured partner-created content.
+* 🧰 JP and Paul share May's marketplace additions including Chocolatey, SuperOps support, disk space alerts, Org Chart Builder, Acronis script refactor, and SyncMonkey documentation support.
+* 🔧 Paul demonstrates SyncMonkey integration, showing automatic documentation of environments, mailboxes, users, and groups with no manual setup required.
+* 🔁 Brent from Cloudbox explains a robust error-handling framework using listeners, adaptive cards, Teams alerts, and fallback triggers, also addressing marketplace learnings and improvements.
+* 🔂 Rainard presents a reusable workflow that avoids redundant tickets for recurring issues and introduces an acknowledgment flow to suppress alerts as needed.
+* 🔗 Tim and Charlie describe a Microsoft PAL onboarding automation using app registrations, Datau execution, SQL syncing, and webhook communication to replace manual steps.
+* 🧠 Daniel showcases a ConnectWise enhancement that allows engineers to re-run OpenAI ticket analysis from the UI, with other toolbox refinements shared.
+* 🎤 The session wraps with thanks to all presenters, reminders of cohort and focus group sign-ups, and a look ahead to the next Open Mic.
 
 <details>
 
