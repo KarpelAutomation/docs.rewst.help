@@ -2,7 +2,7 @@
 
 ## What is an organization?
 
-A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short. For information on how to add a new organization or access the organizations menu in Rewst, see our documentation [here](../settings/organizations.md).&#x20;
+A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short. For information on how to add a new organization or access the organizations menu in Rewst, see our documentation [here](../settings/organizations.md).
 
 Rewst uses a two-tier system to manage organizations, with your MSP as the _parent org_ and your customers as _child orgs_. To make automations work for your managed clients/customers, set them up as child orgs.
 
@@ -18,7 +18,7 @@ _Organization variables_, referred to as _org variables_ for short, serve as the
 
 ## **View all organization variables in Rewst**
 
-Organization variables can manually be added by navigating to **Configuration > Organization Variables** in the left side menu of your Rewst platform. In this page, view a total list of all org variables for your selected organization.&#x20;
+Organization variables can manually be added by navigating to **Configuration > Organization Variables** in the left side menu of your Rewst platform. In this page, view a total list of all org variables for your selected organization.
 
 When unpacking Crates, you may be prompted to fill out forms within those Crates to set up your organization variables. Once the form is submitted, the variables will appear in this total list.
 
@@ -28,26 +28,25 @@ Filter or view the list by using the section headers of the **Name**, **Value**,
 
 ## Manually add a new organization variable
 
-1.  Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.51.13 PM.png" alt="" data-size="line">to add a new org variable. This will open up a new, editable row at the top of the total org variable list.\
-
+1.  Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.51.13 PM.png" alt="" data-size="line">to add a new org variable. This will open up a new, editable row at the top of the total org variable list.\\
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.53.33 PM.png" alt=""><figcaption></figcaption></figure>
 2. Enter the information for your variable into the relevant fields.
-3. Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.54.36 PM.png" alt="" data-size="line"> to save your org variable when done. Alternatively, click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.59.23 PM.png" alt="" data-size="line">to cancel the creation of the org variable.&#x20;
+3. Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.54.36 PM.png" alt="" data-size="line"> to save your org variable when done. Alternatively, click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 4.59.23 PM.png" alt="" data-size="line">to cancel the creation of the org variable.
 
 ## Edit or delete existing organization variables
 
 Organization variables may be edited one-by-one, or in bulk.
 
-Edit all organization variables by clicking <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.00.15 PM.png" alt="" data-size="line"> at the top right corner of the total organization variables list.&#x20;
+Edit all organization variables by clicking <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.00.15 PM.png" alt="" data-size="line"> at the top right corner of the total organization variables list.
 
-Edit an individual organization variable by clicking <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.00.15 PM.png" alt="" data-size="line"> to the right of that organization variable.&#x20;
+Edit an individual organization variable by clicking <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.00.15 PM.png" alt="" data-size="line"> to the right of that organization variable.
 
 Click <img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.04.03 PM.png" alt="" data-size="line">to the right of an individual organization variable to delete it.
 
 ## Create secret values for organization variables
 
-The **Category** drop-down selector holds several options to choose from when creating new organization variables. If you choose secret, whatever text you enter into the **Value** field for that organization variable will be its secret. You might be asked for this value when unpacking several of our more complicated Crates. &#x20;
+The **Category** drop-down selector holds several options to choose from when creating new organization variables. If you choose secret, whatever text you enter into the **Value** field for that organization variable will be its secret. You might be asked for this value when unpacking several of our more complicated Crates.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-13 at 5.06.11 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -102,16 +101,12 @@ An easy way to find these is through the workflow builder, using create ticket a
 3. Add the following action type, depending on the brand of PSA you use:
    1. **ConnectWise PSA:** Create Service Ticket
    2. **Datto PSA:** Create Ticket v2
-   3.  **Halo PSA:** Add or Update Tickets\
-
+   3.  **Halo PSA:** Add or Update Tickets
 
        <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.13 pm.png" alt=""><figcaption></figcaption></figure>
 4. Click the ⋮ in your action to open up its settings.
 5. Click in any field with a blue arrow.
-6.  Select the Display name you want the ID for, then click the ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the left to get the ID.\
-    \
-    \
-
+6.  Select the Display name you want the ID for, then click the ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the left to get the ID.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.27 pm.png" alt=""><figcaption></figcaption></figure>
 
@@ -123,544 +118,6 @@ Note that this method will only work for the three indicated PSA brands: Connect
 
 ## Onboarding requirements
 
-Certain ORG Variables are essential for onboarding processes and are utilized by the Get and Set ORG Variables Workflow to ensure smooth integration and setup for new users or systems.
+Certain org variables are essential for onboarding processes and are utilized by the Get and Set Org Variables Workflow to ensure smooth integration and setup for new users or systems.
 
-<table data-full-width="true">
-    <thead>
-        <tr>
-            <th>Variable</th>
-            <th>Form Field</th>
-            <th>Use</th>
-            <th>Valid Values</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>automation_task_new_user_time</td>
-            <td>New User Automation Task Time</td>
-            <td>Default time for the &quot;New User&quot; workflow, to add to the ticket at completion</td>
-            <td>int in minutes</td>
-        </tr>
-        <tr>
-            <td>automation_task_offboard_user_time</td>
-            <td>Offboard User Automation Task Time</td>
-            <td>Default time for the &quot;Offboard User&quot; workflow, to add to the ticket at completion</td>
-            <td>int in minutes</td>
-        </tr>
-        <tr>
-            <td>crate_sync_contacts_report_only</td>
-            <td>Crate - Sync Contacts - Report Only</td>
-            <td>If a user is missing, this will create a ticket for them with the relevant user information</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>cw_control_session_group_override</td>
-            <td>CW Control Session Group Override</td>
-            <td>This org variable setting will allow you to use a different session group than All Machines. The session
-                group name needs to match whatever session group you would like to use and is case sensitive. Example:
-                All Machines by Company</td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>cwm_nopod</td>
-            <td>Manual License Confirmation No Pod Notification</td>
-            <td>This organization variable is used in the manual license purchase workflow, by default the workflow
-                attempts to prompt for approval via a Manage pod. If pods are not configured in your environment then
-                this org variable should be used to override the default behavior which will provide the prompt via a
-                ticket note.</td>
-            <td>true(string)</td>
-        </tr>
-        <tr>
-            <td>default_psa</td>
-            <td>Default PSA</td>
-            <td>Identifies the PSA that you use</td>
-            <td>cw_manage kaseya_bms datto_psa halo_psa freshdesk servicenow mail_only etc</td>
-        </tr>
-        <tr>
-            <td>default_psa_contact_type</td>
-            <td>N/A</td>
-            <td>This will make the PSA Contact Type field in the user on-boarding form auto populate the field with the
-                provided value(s)</td>
-            <td>This org variable should be a JSON formatted string with a list of id(s), as an example [3].</td>
-        </tr>
-        <tr>
-            <td>default_rmm</td>
-            <td>Default RMM</td>
-            <td>Identifies the RMM that you use</td>
-            <td>cw_automatecw_control datto_rmm immybot ninja_rmm n_able kaseya_vsa kaseya_vsa_x etc</td>
-        </tr>
-        <tr>
-            <td>form_default_aad_groups</td>
-            <td>Form Default: AAD Groups</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is
-                [{&quot;department&quot;: &quot;Jesse&quot;},{&quot;department&quot;: &quot;dam&quot;}]</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>form_default_department</td>
-            <td>Form Default: Department</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is
-                [{&quot;id&quot;: &quot;68c2878a-6739-438c-bf5a-d8c2bea39573&quot;,&quot;label&quot;: &quot;Dist Group
-                Two&quot;},{&quot;id&quot;: &quot;936eb764-36c4-4ac6-b264-c532caeb217c&quot;,&quot;label&quot;:
-                &quot;Group Me Up Buttercup - Distribution&quot;}]</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>form_default_distribution_aad_groups</td>
-            <td>Form Default: AAD Distribution Groups</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is
-                [{&quot;department&quot;: &quot;Jesse&quot;},{&quot;department&quot;: &quot;dam&quot;}]</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>form_default_email_domain</td>
-            <td>Form Default: Email Domain</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement</td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>form_default_license_sku</td>
-            <td>Form Default: License SKU</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>form_default_location</td>
-            <td>Form Default: Location</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement</td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>form_default_onprem_groups</td>
-            <td>Form Default: On-Prem Groups</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is
-                [{&quot;id&quot;: &quot;68c2878a-6739-438c-bf5a-d8c2bea39573&quot;,&quot;label&quot;: &quot;Dist Group
-                Two&quot;},{&quot;id&quot;: &quot;936eb764-36c4-4ac6-b264-c532caeb217c&quot;,&quot;label&quot;:
-                &quot;Group Me Up Buttercup - Distribution&quot;}]</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>form_default_orgunit</td>
-            <td>Form Default: OU (OrgUnit)</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is
-                [{&quot;id&quot;: &quot;fb53fb9f-208f-451c-9391-6092eb7c4e1b&quot;,&quot;label&quot;:&quot;OU=Disabled
-                Users,OU=Pedro Users,OU=Pedro Ltd,DC=ad2,DC=pedroaviary,DC=com&quot;}]</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>form_default_phone_number</td>
-            <td>Form Default: Default Phone Number</td>
-            <td>Used in the workflow itself that if the org var is specified, it&#39;ll use it if none on the form</td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>form_default_security_aad_groups</td>
-            <td>Form Default: AAD Security Groups</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is
-                [{&quot;department&quot;: &quot;Jesse&quot;},{&quot;department&quot;: &quot;dam&quot;}]</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>form_default_supervisor</td>
-            <td>Form Default: Supervisor</td>
-            <td>Used so that if the form forces a default, this is the value supplied in the if statement</td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>halo_ticket_site_name</td>
-            <td>Halo Site Name Override</td>
-            <td>This org variable is used to define a site name in the Halo ticket creation sub workflow, if not defined
-                then &#39;Main&#39; will be used. This is only required if you would like to use something other than
-                &#39;Main&#39;</td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>hudu_create_contact_in_asset</td>
-            <td>HUDU Create Contact In Asset</td>
-            <td>Used to create a contact in Hudu and the password and relate them togehter</td>
-            <td>int</td>
-        </tr>
-        <tr>
-            <td>hudu_form_excluded_forms</td>
-            <td>Hudu excluded forms</td>
-            <td>For adding Rewst forms to Hudu, variable can be defined to set forms to ignore</td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td>itg_form_excluded_forms</td>
-            <td>ITGlue excluded forms</td>
-            <td>For adding Rewst forms to ITGlue, variable can be defined to set forms to ignore</td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td>itglue_custom_actions</td>
-            <td>IT Glue Custom Actions</td>
-            <td>If the client uses ITG, this will trigger a subworkflow for actions in the user onboarding workflow</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>licencing_choose_subscription</td>
-            <td>Licensing Choose Subscription</td>
-            <td>Used to decide whether the &quot;Show Subs&quot; option appears in New User Onboarding form</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>license_purchases_in_new_ticket</td>
-            <td>New Ticket for License Purchases</td>
-            <td>When prompting in tickets for license purchases, do so in a new ticket</td>
-            <td>1 or 0 (boolean )</td>
-        </tr>
-        <tr>
-            <td>m365_mandatory_license_groups</td>
-            <td>Mandatory Licensing Groups</td>
-            <td>If you use license groups with Microsoft 365 you can specify those groups here. This allows you to
-                create a group of licenses that the user will be added to if selected.</td>
-            <td>list of group_names</td>
-        </tr>
-        <tr>
-            <td>m365_require_authorization_for_new_licenses</td>
-            <td>Require Authorization for License Purchases</td>
-            <td>Pause workflows for Inquiry when new license purchases are needed</td>
-            <td>1 or 0 (boolean )</td>
-        </tr>
-        <tr>
-            <td>m365_usage_location</td>
-            <td>M365 Usage Location (not in form)</td>
-            <td>Country Code such as &quot;US&quot; or GB&quot;</td>
-            <td>str</td>
-        </tr>
-        <tr>
-            <td>ms_licensing_distributor</td>
-            <td>Microsoft Licensing Distributor</td>
-            <td>Microsoft License Distributor (where to purchase CSP licenses)</td>
-            <td>pax8 microsoft_csp ingram_micro sherweb synnex manual_only</td>
-        </tr>
-        <tr>
-            <td>new_user_approval_email</td>
-            <td>New User Approval Email</td>
-            <td>When email approval is needed for new user adds, use this address</td>
-            <td>email address</td>
-        </tr>
-        <tr>
-            <td>new_user_azure_ad_attributes_to_copy</td>
-            <td>Form Default: new_user_azure_ad_attributes_to_copy</td>
-            <td>Used to specify which properties of the user being copied to apply to the new user Example is
-                [&quot;location&quot;,&quot;city&quot;,&quot;street_address&quot;,&quot;desk_phone&quot;,&quot;company&quot;,&quot;usage_location&quot;,&quot;department&quot;,&quot;user_title&quot;,&quot;mobile_phone&quot;,&quot;postcode&quot;,&quot;state&quot;]
-            </td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>new_user_manual_approver_field</td>
-            <td>Adds a field on forms for specific approver email</td>
-            <td>Allows the field in New User to show up and add a specific e-mail approver</td>
-            <td>1 or 0 (boolean )</td>
-        </tr>
-        <tr>
-            <td>new_user_password_save_location_custom_url</td>
-            <td>New User Password Save Location Custom URL</td>
-            <td>In the event that we are storing a password in a custom PWPush, put the URL here</td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td>new_user_password_save_locations</td>
-            <td>New User Password Save Location</td>
-            <td>Where to store the password during new user creation. Default to PSA if not defined</td>
-            <td>List of psa``itglue``hudu``custom-pwpushother systems</td>
-        </tr>
-        <tr>
-            <td>no_azure_ad</td>
-            <td>No Azure AD</td>
-            <td>ORG Does not use AzureAD</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>no_psa_mail_address</td>
-            <td>No PSA - Mail to Address</td>
-            <td>If there is no PSA, we will mail information to this address</td>
-            <td>str email addr</td>
-        </tr>
-        <tr>
-            <td>offboarding_user_approval_email</td>
-            <td>Offboard User Approval Email</td>
-            <td>When email approval is needed for offobarding users, use this address</td>
-            <td>email address</td>
-        </tr>
-        <tr>
-            <td>onboard_excluded_org_variables</td>
-            <td>Onboard Excluded Org Variables</td>
-            <td>This org variable overrides the variables automatically excluded when you create a user using new
-                employee onboarding.</td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>onboard_output_ignore_vars</td>
-            <td>New Employee Output Exclusion Variables</td>
-            <td>This organization variable is used to override the default output configuration exclusions for the
-                output_context variable. Example value:
-                [&quot;execution_id&quot;,&quot;organization&quot;,&quot;originating_execution_id&quot;,&quot;rewst&quot;,&quot;sentry_trace&quot;,&quot;trigger_instance&quot;,&quot;max_retries&quot;,&quot;sendMail_from_user_object&quot;]
-            </td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>onboarding_form_default_orgunit</td>
-            <td>Microsoft Onboarding Form Default: Organization Unit Field</td>
-            <td>Used in the Microsoft Onboarding form at the Organization Unit Field which allows users to set a default
-                OU, this is the value supplied in the if statement.</td>
-            <td>Example Value:
-                [{&quot;id&quot;:&quot;63111ab9-136e-4072-32a5-24221a331ded&quot;,&quot;default&quot;:true,&quot;label&quot;:&quot;OU=REWSTUsers,OU=Users,OU=RewstTest,DC=rewsttest,DC=local&quot;}]
-            </td>
-        </tr>
-        <tr>
-            <td>onprem_exchange_server</td>
-            <td>On-Prem Exchange Server</td>
-            <td>Server name to use if you have on-prem Exchange</td>
-            <td>ComputerName in RMM</td>
-        </tr>
-        <tr>
-            <td>onprem_hybrid_exchange</td>
-            <td>On-Prem Hybrid Exchange</td>
-            <td>Set to true to identify this client as using Hybrid Exchange setup (Usage of Enable-RemoteMailbox)</td>
-            <td> </td>
-        </tr>
-        <tr>
-            <td>onprem_no_adsync</td>
-            <td>On-Prem No AD Sync (not in form)</td>
-            <td>If there is no ADSync configured between on-prem and M365 (needs to be added manually)</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>override_email_domains</td>
-            <td>Override Email Domains</td>
-            <td>List of email domains to show rather than querying from M365</td>
-            <td>List of domains</td>
-        </tr>
-        <tr>
-            <td>pax_8_removal_ignored_subs</td>
-            <td>N/A</td>
-            <td>Add product&#39;s to ignore based on the Microsoft product displayname</td>
-            <td>Value is expected to be a json formatted list such as [&quot;O365DOMAIN_STANDARDW_PRIVACY&quot;]</td>
-        </tr>
-        <tr>
-            <td>pax8_unmapped_alert_ignore_list</td>
-            <td>PAX8 Unmapped Company Alert Exclusions</td>
-            <td>This organization variable is used to specify a list of Rewst OrgID&#39;s to ignore when creating alerts
-                for the alert_on_unmapped_orgs setting in the &quot;Pax8 Extra License Removal&quot; workflow of the
-                &quot;Alert on Unused M365 Licenses&quot; crate</td>
-            <td>list</td>
-        </tr>
-        <tr>
-            <td>phone_number_format</td>
-            <td>Preferred Phone Number Format</td>
-            <td>Format to use for phone numbers (stringifies ints with formatting)</td>
-            <td>NXX NXX XXXX NXXNXXXXXX NXX-NXX-XXXX NXX.NXX.XXXX</td>
-        </tr>
-        <tr>
-            <td>preferred_domain_controller</td>
-            <td>Preferred Domain Controller</td>
-            <td>Choose this DC instead of letting automation decide</td>
-            <td>ComputerName in RMM</td>
-        </tr>
-        <tr>
-            <td>primary_identity_provider</td>
-            <td>Primary Identity Provider</td>
-            <td>Specify where users are created for the organization, either on premise or in Azure</td>
-            <td>on_prem azure_ad jumpcloud</td>
-        </tr>
-        <tr>
-            <td>psa_active_customer_status</td>
-            <td>Active Customer Statuses</td>
-            <td>Statuses in PSA for active customer organizations</td>
-            <td>List of status types from PSA</td>
-        </tr>
-        <tr>
-            <td>psa_alert_ticket_type</td>
-            <td>PSA Alert Type Variable (Halo)</td>
-            <td>This organization variable is used to specify the ticket type for Halo PSA customers in workflows such
-                as the DUO bypass user workflow and Exchange mailbox nearing quota workflow. The type id should be
-                specified (example: 32)</td>
-            <td>int</td>
-        </tr>
-        <tr>
-            <td>psa_all_notes_internal</td>
-            <td>All Internal Notes</td>
-            <td>When adding notes, check if they should all be internal or allowed some external</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>psa_custom_actions</td>
-            <td>PSA Custom Actions</td>
-            <td>Used to allow a sub-workflow execution at the end of the new employee workflow (set to 1 to enable)</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>psa_custom_note</td>
-            <td>PSA Custom Note</td>
-            <td>If the client wants a custom note on a ticket, we can use this variable to branch off on update tickets
-            </td>
-            <td>string</td>
-        </tr>
-        <tr>
-            <td>psa_default_agreement_name</td>
-            <td>Default Agreement Name</td>
-            <td>If you set a default agreement in your PSA on ticket creation, enter the name of it here.</td>
-            <td>str name of agreement</td>
-        </tr>
-        <tr>
-            <td>psa_default_board_id</td>
-            <td>Default Ticket Location</td>
-            <td>The default PSA board (or other organizing feature) that Rewst will use to create tickets on when
-                running automations</td>
-            <td>(depends on psa)</td>
-        </tr>
-        <tr>
-            <td>psa_default_tech_id</td>
-            <td>Default Tech ID</td>
-            <td>Tech Id to user when updating ticket time</td>
-            <td>id of tech to use for time entries</td>
-        </tr>
-        <tr>
-            <td>psa_default_tech_workrole</td>
-            <td>Default Work Role</td>
-            <td>Tech Work Type to user when updating ticket time</td>
-            <td>id of tech work type to use for time entries</td>
-        </tr>
-        <tr>
-            <td>psa_default_tech_worktype</td>
-            <td>Default Work Type</td>
-            <td>Tech Work Role to user when updating ticket time</td>
-            <td>id of tech work role to use for time entries</td>
-        </tr>
-        <tr>
-            <td>psa_default_ticket_priority</td>
-            <td>Default Priority</td>
-            <td>The default ticket priority that Rewst will use when creating tickets</td>
-            <td>name or id of ticket status</td>
-        </tr>
-        <tr>
-            <td>psa_default_ticket_source</td>
-            <td>PSA Default Ticket Source</td>
-            <td>Used in the Datto creation of the ticket during new user workflow and defines the source of the ticket
-            </td>
-            <td>int</td>
-        </tr>
-        <tr>
-            <td>psa_default_ticket_status</td>
-            <td>Default Ticket Status</td>
-            <td>The default ticket status that Rewst will use when updating tickets. This is the status that Rewst will
-                use when actively working on a ticket. It usually set to &quot;In Progress&quot; or a similar status.
-            </td>
-            <td>name or id of ticket status</td>
-        </tr>
-        <tr>
-            <td>psa_license_purchase_board_id</td>
-            <td>Board ID for License Tickets</td>
-            <td>The PSA Board ID to use when license purchases are in a separate ticket</td>
-            <td>int board_id for CWM</td>
-        </tr>
-        <tr>
-            <td>psa_new_user_ticket_item</td>
-            <td>New User Ticket Item</td>
-            <td>Ticket Item to use on the New User Board when creating a ticket</td>
-            <td>int for item_id in CWM</td>
-        </tr>
-        <tr>
-            <td>psa_new_user_ticket_subtype</td>
-            <td>New User Ticket Subtype</td>
-            <td>Ticket SubType to use on the New User Board when creating a ticket</td>
-            <td>int for subtype_id in CWM</td>
-        </tr>
-        <tr>
-            <td>psa_new_user_ticket_type</td>
-            <td>New User Ticket Type</td>
-            <td>Ticket Type to use on the New User Board when creating a ticket</td>
-            <td>int for type_id in CWM</td>
-        </tr>
-        <tr>
-            <td>psa_no_ticket_time</td>
-            <td>No Time in Tickets</td>
-            <td>Set this when you don&#39;t want automation to put time_worked in tickets. The &quot;Yes&quot; option
-                will add notes in the ticket we create when running an automation. The &quot;No&quot; option will let us
-                impersonate a technician to apply time under there name for automations that run. We do this because we
-                can&#39;t apply time via the API for most PSAs.</td>
-            <td>1 or 0 (boolean )</td>
-        </tr>
-        <tr>
-            <td>psa_send_from_address</td>
-            <td>Send From Address</td>
-            <td>When sending mail, we can set the &quot;replyTo&quot; address to this, to allow for proper ticket
-                responses</td>
-            <td>str email addr</td>
-        </tr>
-        <tr>
-            <td>psa_store_password_in_ticket</td>
-            <td>Store Password in Ticket</td>
-            <td>When documenting the password, this will never store it in the ticket if set to false</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>psa_ticket_status_completed_task</td>
-            <td>Ticket Status when Workflow Complete</td>
-            <td>The default ticket status that Rewst will use when we finish an automation. Consider this the
-                &quot;quality check&quot; status to make sure everything ran properly.</td>
-            <td>name or id of ticket status</td>
-        </tr>
-        <tr>
-            <td>psa_ticket_status_waiting_input</td>
-            <td>Ticket Status while Waiting for Input</td>
-            <td>The default ticket status that Rewst will use when tickets are waiting for user input. This applies in
-                cases where the automation will pause and prompt a technician to do an additional step outside of the
-                automation before then returning to the ticket to confirm that action has taken place. This will then
-                kickoff the automation to continue from the position it left off.</td>
-            <td>name or id of ticket status</td>
-        </tr>
-        <tr>
-            <td>psa_vip_contact_type</td>
-            <td>VIP Contact Type</td>
-            <td>Contact Type to set for VIP users</td>
-            <td>name or id of Contact Type</td>
-        </tr>
-        <tr>
-            <td>require_approval_for_new_users</td>
-            <td>Require Approval For New User</td>
-            <td>Controls the new user approval requirement.</td>
-            <td>(1 or 0) or (true or false)</td>
-        </tr>
-        <tr>
-            <td>require_approval_for_offboarding_users</td>
-            <td>Require Approval For Offboarding Users</td>
-            <td>Controls the new user approval requirement.</td>
-            <td>bool</td>
-        </tr>
-        <tr>
-            <td>rmm_preferred_adconnect_server</td>
-            <td>Preferred ADConnect Server</td>
-            <td>If your ADConnect is on a specific server, specify it here</td>
-            <td>str hostname of server</td>
-        </tr>
-        <tr>
-            <td>send_sms_to_user</td>
-            <td>Form Option: Send password via SMS</td>
-            <td>Sending passwords via SMS carries associated risks. Please be sure that your risk tolerance is
-                considered before enabling this option.</td>
-            <td>int</td>
-        </tr>
-        <tr>
-            <td>time_entry_ticket_status</td>
-            <td>Time Entry Ticket Status</td>
-            <td>Set tickets to this status to enable time entry</td>
-            <td>strStatus Name or int ID to use</td>
-        </tr>
-        <tr>
-            <td>user_start_date_action</td>
-            <td>User Start Date Action</td>
-            <td>How to handle start_date in user onboarding</td>
-            <td>default document_only : only show in ticket</td>
-        </tr>
-        <tr>
-            <td>username_format</td>
-            <td>Username Format</td>
-            <td>The format of the users username</td>
-            <td>flast firstl firstmlast</td>
-        </tr>
-    </tbody>
-</table>
+<table data-full-width="true"><thead><tr><th>Variable</th><th>Form Field</th><th>Use</th><th>Valid Values</th></tr></thead><tbody><tr><td><code>automation_task_new_user_time</code></td><td>New User Automation Task Time</td><td>Default time for the "New User" workflow, to add to the ticket at completion</td><td>int in minutes</td></tr><tr><td><code>automation_task_offboard_user_time</code></td><td>Offboard User Automation Task Time</td><td>Default time for the "Offboard User" workflow, to add to the ticket at completion</td><td>int in minutes</td></tr><tr><td><code>crate_sync_contacts_report_only</code></td><td>Crate - Sync Contacts - Report Only</td><td>If a user is missing, this will create a ticket for them with the relevant user information</td><td>bool</td></tr><tr><td><code>cw_control_session_group_override</code></td><td>CW Control Session Group Override</td><td>This org variable setting will allow you to use a different session group than All Machines. The session group name needs to match whatever session group you would like to use and is case sensitive. Example: All Machines by Company</td><td>string</td></tr><tr><td><code>cwm_nopod</code></td><td>Manual License Confirmation No Pod Notification</td><td>This organization variable is used in the manual license purchase workflow, by default the workflow attempts to prompt for approval via a Manage pod. If pods are not configured in your environment then this org variable should be used to override the default behavior which will provide the prompt via a ticket note.</td><td>true(string)</td></tr><tr><td><code>default_psa</code></td><td>Default PSA</td><td>Identifies the PSA that you use</td><td>cw_manage kaseya_bms datto_psa halo_psa freshdesk servicenow mail_only etc</td></tr><tr><td><code>default_psa_contact_type</code></td><td>N/A</td><td>This will make the PSA Contact Type field in the user on-boarding form auto populate the field with the provided value(s)</td><td>This org variable should be a JSON formatted string with a list of id(s), as an example [3].</td></tr><tr><td><code>default_rmm</code></td><td>Default RMM</td><td>Identifies the RMM that you use</td><td>cw_automatecw_control datto_rmm immybot ninja_rmm n_able kaseya_vsa kaseya_vsa_x etc</td></tr><tr><td><code>form_default_aad_groups</code></td><td>Form Default: AAD Groups</td><td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is [{"department": "Jesse"},{"department": "dam"}]</td><td>list</td></tr><tr><td><code>form_default_department</code></td><td>Form Default: Department</td><td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is [{"id": "68c2878a-6739-438c-bf5a-d8c2bea39573","label": "Dist Group Two"},{"id": "936eb764-36c4-4ac6-b264-c532caeb217c","label": "Group Me Up Buttercup - Distribution"}]</td><td>list</td></tr><tr><td><code>form_default_distribution_aad_groups</code></td><td>Form Default: AAD Distribution Groups</td><td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is [{"department": "Jesse"},{"department": "dam"}]</td><td>list</td></tr><tr><td><code>form_default_email_domain</code></td><td>Form Default: Email Domain</td><td>Used so that if the form forces a default, this is the value supplied in the if statement</td><td>string</td></tr><tr><td><code>form_default_license_sku</code></td><td>Form Default: License SKU</td><td>Used so that if the form forces a default, this is the value supplied in the if statement</td><td>list</td></tr><tr><td><code>form_default_location</code></td><td>Form Default: Location</td><td>Used so that if the form forces a default, this is the value supplied in the if statement</td><td>string</td></tr><tr><td><code>form_default_onprem_groups</code></td><td>Form Default: On-Prem Groups</td><td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is [{"id": "68c2878a-6739-438c-bf5a-d8c2bea39573","label": "Dist Group Two"},{"id": "936eb764-36c4-4ac6-b264-c532caeb217c","label": "Group Me Up Buttercup - Distribution"}]</td><td>list</td></tr><tr><td><code>form_default_orgunit</code></td><td>Form Default: OU (OrgUnit)</td><td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is [{"id": "fb53fb9f-208f-451c-9391-6092eb7c4e1b","label":"OU=Disabled Users,OU=Pedro Users,OU=Pedro Ltd,DC=ad2,DC=pedroaviary,DC=com"}]</td><td>list</td></tr><tr><td><code>form_default_phone_number</code></td><td>Form Default: Default Phone Number</td><td>Used in the workflow itself that if the org var is specified, it'll use it if none on the form</td><td>string</td></tr><tr><td><code>form_default_security_aad_groups</code></td><td>Form Default: AAD Security Groups</td><td>Used so that if the form forces a default, this is the value supplied in the if statement. Example is [{"department": "Jesse"},{"department": "dam"}]</td><td>list</td></tr><tr><td><code>form_default_supervisor</code></td><td>Form Default: Supervisor</td><td>Used so that if the form forces a default, this is the value supplied in the if statement</td><td>string</td></tr><tr><td><code>halo_ticket_site_name</code></td><td>Halo Site Name Override</td><td>This org variable is used to define a site name in the Halo ticket creation sub workflow, if not defined then 'Main' will be used. This is only required if you would like to use something other than 'Main'</td><td>string</td></tr><tr><td><code>hudu_create_contact_in_asset</code></td><td>HUDU Create Contact In Asset</td><td>Used to create a contact in Hudu and the password and relate them togehter</td><td>int</td></tr><tr><td><code>hudu_form_excluded_forms</code></td><td>Hudu excluded forms</td><td>For adding Rewst forms to Hudu, variable can be defined to set forms to ignore</td><td></td></tr><tr><td><code>itg_form_excluded_forms</code></td><td>ITGlue excluded forms</td><td>For adding Rewst forms to ITGlue, variable can be defined to set forms to ignore</td><td></td></tr><tr><td><code>itglue_custom_actions</code></td><td>IT Glue Custom Actions</td><td>If the client uses ITG, this will trigger a subworkflow for actions in the user onboarding workflow</td><td>bool</td></tr><tr><td><code>licencing_choose_subscription</code></td><td>Licensing Choose Subscription</td><td>Used to decide whether the "Show Subs" option appears in New User Onboarding form</td><td>bool</td></tr><tr><td><code>license_purchases_in_new_ticket</code></td><td>New Ticket for License Purchases</td><td>When prompting in tickets for license purchases, do so in a new ticket</td><td>1 or 0 (boolean )</td></tr><tr><td><code>m365_mandatory_license_groups</code></td><td>Mandatory Licensing Groups</td><td>If you use license groups with Microsoft 365 you can specify those groups here. This allows you to create a group of licenses that the user will be added to if selected.</td><td>list of group_names</td></tr><tr><td><code>m365_require_authorization_for_new_licenses</code></td><td>Require Authorization for License Purchases</td><td>Pause workflows for Inquiry when new license purchases are needed</td><td>1 or 0 (boolean )</td></tr><tr><td><code>m365_usage_location</code></td><td>M365 Usage Location (not in form)</td><td>Country Code such as "US" or GB"</td><td>str</td></tr><tr><td><code>ms_licensing_distributor</code></td><td>Microsoft Licensing Distributor</td><td>Microsoft License Distributor (where to purchase CSP licenses)</td><td>pax8 microsoft_csp ingram_micro sherweb synnex manual_only</td></tr><tr><td><code>new_user_approval_email</code></td><td>New User Approval Email</td><td>When email approval is needed for new user adds, use this address</td><td>email address</td></tr><tr><td><code>new_user_azure_ad_attributes_to_copy</code></td><td>Form Default: new_user_azure_ad_attributes_to_copy</td><td>Used to specify which properties of the user being copied to apply to the new user Example is ["location","city","street_address","desk_phone","company","usage_location","department","user_title","mobile_phone","postcode","state"]</td><td>list</td></tr><tr><td><code>new_user_manual_approver_field</code></td><td>Adds a field on forms for specific approver email</td><td>Allows the field in New User to show up and add a specific e-mail approver</td><td>1 or 0 (boolean )</td></tr><tr><td><code>new_user_password_save_location_custom_url</code></td><td>New User Password Save Location Custom URL</td><td>In the event that we are storing a password in a custom PWPush, put the URL here</td><td></td></tr><tr><td><code>new_user_password_save_locations</code></td><td>New User Password Save Location</td><td>Where to store the password during new user creation. Default to PSA if not defined</td><td>List of psa``itglue``hudu``custom-pwpushother systems</td></tr><tr><td><code>no_azure_ad</code></td><td>No Azure AD</td><td>ORG Does not use AzureAD</td><td>bool</td></tr><tr><td><code>no_psa_mail_address</code></td><td>No PSA - Mail to Address</td><td>If there is no PSA, we will mail information to this address</td><td>str email addr</td></tr><tr><td><code>offboarding_user_approval_email</code></td><td>Offboard User Approval Email</td><td>When email approval is needed for offobarding users, use this address</td><td>email address</td></tr><tr><td><code>onboard_excluded_org_variables</code></td><td>Onboard Excluded Org Variables</td><td>This org variable overrides the variables automatically excluded when you create a user using new employee onboarding.</td><td>string</td></tr><tr><td><code>onboard_output_ignore_vars</code></td><td>New Employee Output Exclusion Variables</td><td>This organization variable is used to override the default output configuration exclusions for the output_context variable. Example value: ["execution_id","organization","originating_execution_id","rewst","sentry_trace","trigger_instance","max_retries","sendMail_from_user_object"]</td><td>list</td></tr><tr><td><code>onboarding_form_default_orgunit</code></td><td>Microsoft Onboarding Form Default: Organization Unit Field</td><td>Used in the Microsoft Onboarding form at the Organization Unit Field which allows users to set a default OU, this is the value supplied in the if statement.</td><td>Example Value: [{"id":"63111ab9-136e-4072-32a5-24221a331ded","default":true,"label":"OU=REWSTUsers,OU=Users,OU=RewstTest,DC=rewsttest,DC=local"}]</td></tr><tr><td><code>onprem_exchange_server</code></td><td>On-Prem Exchange Server</td><td>Server name to use if you have on-prem Exchange</td><td>ComputerName in RMM</td></tr><tr><td><code>onprem_hybrid_exchange</code></td><td>On-Prem Hybrid Exchange</td><td>Set to true to identify this client as using Hybrid Exchange setup (Usage of Enable-RemoteMailbox)</td><td></td></tr><tr><td><code>onprem_no_adsync</code></td><td>On-Prem No AD Sync (not in form)</td><td>If there is no ADSync configured between on-prem and M365 (needs to be added manually)</td><td>bool</td></tr><tr><td><code>override_email_domains</code></td><td>Override Email Domains</td><td>List of email domains to show rather than querying from M365</td><td>List of domains</td></tr><tr><td><code>pax_8_removal_ignored_subs</code></td><td>N/A</td><td>Add product's to ignore based on the Microsoft product displayname</td><td>Value is expected to be a json formatted list such as ["O365DOMAIN_STANDARDW_PRIVACY"]</td></tr><tr><td><code>pax8_unmapped_alert_ignore_list</code></td><td>PAX8 Unmapped Company Alert Exclusions</td><td>This organization variable is used to specify a list of Rewst OrgID's to ignore when creating alerts for the alert_on_unmapped_orgs setting in the "Pax8 Extra License Removal" workflow of the "Alert on Unused M365 Licenses" crate</td><td>list</td></tr><tr><td><code>phone_number_format</code></td><td>Preferred Phone Number Format</td><td>Format to use for phone numbers (stringifies ints with formatting)</td><td>NXX NXX XXXX NXXNXXXXXX NXX-NXX-XXXX NXX.NXX.XXXX</td></tr><tr><td><code>preferred_domain_controller</code></td><td>Preferred Domain Controller</td><td>Choose this DC instead of letting automation decide</td><td>ComputerName in RMM</td></tr><tr><td><code>primary_identity_provider</code></td><td>Primary Identity Provider</td><td>Specify where users are created for the organization, either on premise or in Azure</td><td>on_prem azure_ad jumpcloud</td></tr><tr><td><code>psa_active_customer_status</code></td><td>Active Customer Statuses</td><td>Statuses in PSA for active customer organizations</td><td>List of status types from PSA</td></tr><tr><td><code>psa_alert_ticket_type</code></td><td>PSA Alert Type Variable (Halo)</td><td>This organization variable is used to specify the ticket type for Halo PSA customers in workflows such as the DUO bypass user workflow and Exchange mailbox nearing quota workflow. The type id should be specified (example: 32)</td><td>int</td></tr><tr><td><code>psa_all_notes_internal</code></td><td>All Internal Notes</td><td>When adding notes, check if they should all be internal or allowed some external</td><td>bool</td></tr><tr><td><code>psa_custom_actions</code></td><td>PSA Custom Actions</td><td>Used to allow a sub-workflow execution at the end of the new employee workflow (set to 1 to enable)</td><td>bool</td></tr><tr><td><code>psa_custom_note</code></td><td>PSA Custom Note</td><td>If the client wants a custom note on a ticket, we can use this variable to branch off on update tickets</td><td>string</td></tr><tr><td><code>psa_default_agreement_name</code></td><td>Default Agreement Name</td><td>If you set a default agreement in your PSA on ticket creation, enter the name of it here.</td><td>str name of agreement</td></tr><tr><td><code>psa_default_board_id</code></td><td>Default Ticket Location</td><td>The default PSA board (or other organizing feature) that Rewst will use to create tickets on when running automations</td><td>(depends on psa)</td></tr><tr><td><code>psa_default_tech_id</code></td><td>Default Tech ID</td><td>Tech Id to user when updating ticket time</td><td>id of tech to use for time entries</td></tr><tr><td><code>psa_default_tech_workrole</code></td><td>Default Work Role</td><td>Tech Work Type to user when updating ticket time</td><td>id of tech work type to use for time entries</td></tr><tr><td><code>psa_default_tech_worktype</code></td><td>Default Work Type</td><td>Tech Work Role to user when updating ticket time</td><td>id of tech work role to use for time entries</td></tr><tr><td><code>psa_default_ticket_priority</code></td><td>Default Priority</td><td>The default ticket priority that Rewst will use when creating tickets</td><td>name or id of ticket status</td></tr><tr><td><code>psa_default_ticket_source</code></td><td>PSA Default Ticket Source</td><td>Used in the Datto creation of the ticket during new user workflow and defines the source of the ticket</td><td>int</td></tr><tr><td><code>psa_default_ticket_status</code></td><td>Default Ticket Status</td><td>The default ticket status that Rewst will use when updating tickets. This is the status that Rewst will use when actively working on a ticket. It usually set to "In Progress" or a similar status.</td><td>name or id of ticket status</td></tr><tr><td><code>psa_license_purchase_board_id</code></td><td>Board ID for License Tickets</td><td>The PSA Board ID to use when license purchases are in a separate ticket</td><td>int board_id for CWM</td></tr><tr><td><code>psa_new_user_ticket_item</code></td><td>New User Ticket Item</td><td>Ticket Item to use on the New User Board when creating a ticket</td><td>int for item_id in CWM</td></tr><tr><td><code>psa_new_user_ticket_subtype</code></td><td>New User Ticket Subtype</td><td>Ticket SubType to use on the New User Board when creating a ticket</td><td>int for subtype_id in CWM</td></tr><tr><td><code>psa_new_user_ticket_type</code></td><td>New User Ticket Type</td><td>Ticket Type to use on the New User Board when creating a ticket</td><td>int for type_id in CWM</td></tr><tr><td><code>psa_no_ticket_time</code></td><td>No Time in Tickets</td><td>Set this when you don't want automation to put time_worked in tickets. The "Yes" option will add notes in the ticket we create when running an automation. The "No" option will let us impersonate a technician to apply time under there name for automations that run. We do this because we can't apply time via the API for most PSAs.</td><td>1 or 0 (boolean )</td></tr><tr><td><code>psa_send_from_address</code></td><td>Send From Address</td><td>When sending mail, we can set the "replyTo" address to this, to allow for proper ticket responses</td><td>str email addr</td></tr><tr><td><code>psa_store_password_in_ticket</code></td><td>Store Password in Ticket</td><td>When documenting the password, this will never store it in the ticket if set to false</td><td>bool</td></tr><tr><td><code>psa_ticket_status_completed_task</code></td><td>Ticket Status when Workflow Complete</td><td>The default ticket status that Rewst will use when we finish an automation. Consider this the "quality check" status to make sure everything ran properly.</td><td>name or id of ticket status</td></tr><tr><td><code>psa_ticket_status_waiting_input</code></td><td>Ticket Status while Waiting for Input</td><td>The default ticket status that Rewst will use when tickets are waiting for user input. This applies in cases where the automation will pause and prompt a technician to do an additional step outside of the automation before then returning to the ticket to confirm that action has taken place. This will then kickoff the automation to continue from the position it left off.</td><td>name or id of ticket status</td></tr><tr><td><code>psa_vip_contact_type</code></td><td>VIP Contact Type</td><td>Contact Type to set for VIP users</td><td>name or id of Contact Type</td></tr><tr><td><code>require_approval_for_new_users</code></td><td>Require Approval For New User</td><td>Controls the new user approval requirement.</td><td>(1 or 0) or (true or false)</td></tr><tr><td><code>require_approval_for_offboarding_users</code></td><td>Require Approval For Offboarding Users</td><td>Controls the new user approval requirement.</td><td>bool</td></tr><tr><td><code>rmm_preferred_adconnect_server</code></td><td>Preferred ADConnect Server</td><td>If your ADConnect is on a specific server, specify it here</td><td>str hostname of server</td></tr><tr><td><code>send_sms_to_user</code></td><td>Form Option: Send password via SMS</td><td>Sending passwords via SMS carries associated risks. Please be sure that your risk tolerance is considered before enabling this option.</td><td>int</td></tr><tr><td><code>time_entry_ticket_status</code></td><td>Time Entry Ticket Status</td><td>Set tickets to this status to enable time entry</td><td>strStatus Name or int ID to use</td></tr><tr><td><code>user_start_date_action</code></td><td>User Start Date Action</td><td>How to handle start_date in user onboarding</td><td>default document_only : only show in ticket</td></tr><tr><td><code>username_format</code></td><td>Username Format</td><td>The format of the users username</td><td>flast firstl firstmlast</td></tr></tbody></table>

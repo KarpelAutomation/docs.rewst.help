@@ -83,7 +83,7 @@ Our Crate states denote the various stages of a Crate's deployment lifecycle. De
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.06.04 AM.png" alt=""><figcaption></figcaption></figure>
 
-Similarly, the ![](<../../.gitbook/assets/Screenshot 2025-04-15 at 2.00.55 PM.png>) on the bottom left corner of a Crate tile shows you the current count of fellow Rewsters that have unpacked and used the Crate. Click to expand and learn about each of our Crate states below.&#x20;
+Similarly, the number on the bottom left corner of a Crate tile shows you the current count of fellow Rewsters that have unpacked and used the Crate. Click to expand and learn about each of our Crate states below.&#x20;
 
 {% hint style="success" %}
 Note that each Crate may differ in terms of requirements, setup time, and complexity.&#x20;
