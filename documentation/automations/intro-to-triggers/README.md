@@ -17,7 +17,11 @@ Note that you can have multiple triggers per workflow, for example a webhook and
 
 <figure><img src="../../../.gitbook/assets/add-trigger-form.png" alt=""><figcaption></figcaption></figure>
 
-Update the relevant fields in the form as needed, to set up your trigger.\
+Update the relevant fields in the form as needed, to set up your trigger.
+
+### Trigger criteria
+
+When you're comfortable with the basics of triggers, learn more about [trigger criteria here](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/~/changes/1274/documentation/intro-to-triggers/trigger-criteria). It's a separate submenu within the trigger menu, and has its own documentation page. \
 
 
 <table data-full-width="false"><thead><tr><th width="267">Item</th><th>Description</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>Whatever you would like to name your trigger, with a descriptive word or phrase for what it does.</td></tr><tr><td><strong>Enabled</strong></td><td>Toggle this on or off.</td></tr><tr><td><strong>Organizations</strong></td><td>Select all the organization that exist within Rewst that may need to use this workflow. If you add a new client, they will have to be added in that workflow trigger.</td></tr><tr><td><strong>Integration Override</strong></td><td>Integration overrides allow you to specify which integration configurations should be used.  When a workflow is triggered by and running within the context of a child organization, by default they only have access to their own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden. In the above example image, the trigger allows your clients to use your PSA, RRM and licensing integration.</td></tr><tr><td><strong>Trigger Type</strong></td><td>There are a number of types to choose from, such as a webhook, form submission, ticket saved, M365 alerts. See <a data-mention href="./#core-triggers">#core-triggers</a> for more information on common trigger types.</td></tr><tr><td><strong>Form</strong></td><td>If your trigger type is a form submission, you would select the form that links to the workflow.</td></tr></tbody></table>
@@ -146,6 +150,3 @@ While these six triggers cover the most common use cases, Rewst offers additiona
 
 <figure><img src="../../../.gitbook/assets/trigger drop-down gif.gif" alt="A moving GIF image depicting scrolling through the trigger type list in an example organization in Rewst. Various integrations&#x27; actions are shown."><figcaption><p>The contents of the complete trigger type list will depend on your particular integrations</p></figcaption></figure>
 
-## Trigger criteria
-
-When you're comfortable with the basics of triggers, learn more about [trigger criteria here](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/~/changes/1274/documentation/intro-to-triggers/trigger-criteria).
