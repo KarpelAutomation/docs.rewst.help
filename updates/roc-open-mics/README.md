@@ -29,21 +29,21 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/DB5ab3lyTTY" %}
+{% embed url="https://youtu.be/vIulSdhJv3E" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 Aharon and Ashe kick off the non-agenda MSP open mic with platform updates, automation ideas, and a happy 4th reminder.
-* 🌟 Reed demonstrates a custom app builder that tags, indexes, and organizes workflows into a dynamic folder tree, sharing a desktop installer and transparent source code via Rewst CSS.
-* 🛠️ Reed recounts his journey from VB6 to VB.NET community moderator and MVP, highlighting how a beginner’s mindset and community engagement fueled his expertise.
-* 💡 Reed and attendees discuss the shift from custom code to a workflow-first approach with Rewst, emphasizing flexibility, integration via web hooks, and the value of learning with a noob mindset.
-* 📧 Christopher showcases a time-saving workflow that automates Microsoft 365 guest invitations and ticket updates for SharePoint access, built with existing subworkflows and the Graph API.
-* 🧮 Andrew presents a complex billing-count workflow that handles Mail Protector pagination via loops, aggregates data across RMM and billing systems, and dynamically structures headers.
-* ⏱️ Ashe unveils a developer-focused timer app with URL-configurable parameters, auto-start, local storage of completed tasks, and optional webhook integration for workflow time tracking.
-* 💺 Attendees exchange ergonomic home office chair recommendations—highlighting the Herman Miller Embody, Steelcase Gesture, and Secretlab models—for lumbar support and posture.
-* 🎉 Outro | The host closes with a light-mode/dark-mode rave and weekend wishes.
+* 🎉 Aharon welcomed attendees, explained the call’s purpose of sharing Rewst product updates and learning automation ideas from MSP peers.
+* 🚀 Ashe outlined two scheduled demos, invited spontaneous presentations, and introduced live building time.
+* 📚 George highlighted the docs.help site with feedback tracking and announced the new teal heart Rewst server tag on Discord.
+* 🔧 Danial recapped two weeks of feature releases—including the CrushBank AI integration, Microsoft CSP link/unlink actions, app builder improvements, and workflow reliability fixes.
+* 🛒 JP summarized marketplace bug fixes, corrected crate spelling, and previewed upcoming BitLocker crate deployments.
+* 🎓 Clea celebrated Rewst certification achievements, detailed on-demand and shortened training formats, introduced a technical preassessment quiz, and noted documentation updates.
+* 📦 Danial demonstrated an automated FedEx tracking workflow in Rewst that parses carrier numbers, retrieves statuses via HTTP, and updates ticket fields.
+* 🤖 Sam showcased a Copilot Studio feedback webhook into Slack and an AppSmith public front-end leveraging Rewst webhooks for dynamic asset and ticket management.
+* 🧩 Volunteer Presenter shared an AI response template proof of concept in Rewst, using JSON parsing and Jinga tasks to generate customizable chat completions.
 
 </details>
 
