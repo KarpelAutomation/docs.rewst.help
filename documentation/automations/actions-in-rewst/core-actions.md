@@ -105,10 +105,15 @@ Allows you to send a text message to a specified phone number.
 
 **Action Name:** `Confirmation Email`
 
-**Confirmation Email:** Sends a confirmation email with reply options to a specified recipient.
+Send a confirmation email with reply options to a specified recipient. \
+This action pauses the workflow and places it in an `Awaiting-User-Input` state. The workflow will not proceed until the confirmation email is interacted with via buttons, or the task times out. You can configure task timeout on the **Advanced** tab of the action. Task time out means that the action fails. Note that this setup means that buttons are required for the workflow to proceed. \
+\
+![](<../../../.gitbook/assets/image (69).png>)
 
 * **Parameters:** This action requires the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also offers user interaction buttons (`buttons`) and has the option to render markdown as HTML (`render_markdown`).
-* **Output:** If the action is correctly executed, a confirmation email will be sent.
+* **Output:** If the action is correctly executed, a confirmation email will be sent. Output variable `inquiry_result` is an output of the task and can be used to route the workflow in a specific path. `Inquiry_result` 's value is that of the button clicked, and is configured as a string value on the action itself in the workflow builder.
+
+<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
