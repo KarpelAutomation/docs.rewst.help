@@ -29,21 +29,21 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/vIulSdhJv3E" %}
+{% embed url="https://youtu.be/e8j78Uq8UGQ" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎉 Aharon welcomed attendees, explained the call’s purpose of sharing Rewst product updates and learning automation ideas from MSP peers.
-* 🚀 Ashe outlined two scheduled demos, invited spontaneous presentations, and introduced live building time.
-* 📚 George highlighted the docs.help site with feedback tracking and announced the new teal heart Rewst server tag on Discord.
-* 🔧 Danial recapped two weeks of feature releases—including the CrushBank AI integration, Microsoft CSP link/unlink actions, app builder improvements, and workflow reliability fixes.
-* 🛒 JP summarized marketplace bug fixes, corrected crate spelling, and previewed upcoming BitLocker crate deployments.
-* 🎓 Clea celebrated Rewst certification achievements, detailed on-demand and shortened training formats, introduced a technical preassessment quiz, and noted documentation updates.
-* 📦 Danial demonstrated an automated FedEx tracking workflow in Rewst that parses carrier numbers, retrieves statuses via HTTP, and updates ticket fields.
-* 🤖 Sam showcased a Copilot Studio feedback webhook into Slack and an AppSmith public front-end leveraging Rewst webhooks for dynamic asset and ticket management.
-* 🧩 Volunteer Presenter shared an AI response template proof of concept in Rewst, using JSON parsing and Jinga tasks to generate customizable chat completions.
+* 🎤 Aharon kicked off the call with reminders, encouraged questions, and outlined upcoming maintenance windows.
+* 💻 George set the Microsoft Teams-focused demo theme and handed off to Danial.
+* 🔧 Danial shared the Rewst status page, upcoming Ninja integration webinar, and a sneak peek at AI features including Robo Rewsty.
+* 📦 JP presented marketplace enhancements, licensing SKU updates, and offboarding bug fixes.
+* 📘 Clea highlighted certification achievements, announced shorter Foundations and upcoming Clean Automation courses, and new documentation.
+* 🌐 George covered community events (Ninja webinar, Flow conference) and launched Ben Climber’s weekly tips segment.
+* 💡 Ben Climber demonstrated best practices for trigger criteria in Rewst workflows.
+* 🤖 Danial, Chris Arnot, and Jonathan Bramley showcased partner demos on Teams bot meeting scheduling, courier request automation, and GraphQL-based future workflow scheduling.
+* 🔔 Aharon closed the session with community sharing reminders and next week’s call details.
 
 </details>
 

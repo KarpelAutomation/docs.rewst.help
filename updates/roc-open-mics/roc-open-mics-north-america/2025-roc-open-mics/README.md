@@ -4,6 +4,8 @@
 
 <summary>July 2025</summary>
 
+[july-18-2025-mastering-ms-teams-automations.md](july-18-2025-mastering-ms-teams-automations.md "mention")
+
 [july-11-2025-a-fedex-automation-that-delivers.md](july-11-2025-a-fedex-automation-that-delivers.md "mention")
 
 [july-4-2025-the-value-of-learning-with-a-noob-mindset.md](july-4-2025-the-value-of-learning-with-a-noob-mindset.md "mention")
