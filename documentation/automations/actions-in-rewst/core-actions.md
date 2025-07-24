@@ -115,6 +115,155 @@ This action pauses the workflow and places it in an `Awaiting-User-Input` state.
 
 <figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
+* **Confirmation email class and confirmation examples**
+  * Button classes:
+    * Primary; primary
+    * Default; default
+    * Danger; danger
+  * Title class:
+    * Title; title
+  * Customization options
+    * Custom Button CSS - control the CSS styling for the buttons.
+    * Custom footer - overwrite the default Rewst footer or remove the footer entirely.
+    * Custom Title CSS - customize the title CSS.
+    * Logo Link - customize the hyperlink for the logo image.
+    * Logo URI:
+      * This will take the link to the image itself.
+      * **TIP**: This is essentially providing a value for the src param of a img tag. You could also provide a base64 encoded value.
+
+- #### Example custom button CSS
+
+```css
+a,
+
+a:visited,
+
+a:hover,
+
+a:active {
+
+color: inherit !important;
+
+}
+
+  
+
+table, td, div, h1, p {
+
+font-family: "Times New Roman", Times, serif;
+
+}
+
+  
+
+.primary {
+
+background: #4d7c0f;
+
+}
+
+  
+
+.default {
+
+background: #365314;
+
+}
+
+  
+
+.danger {
+
+background: #dc2626;
+
+}
+```
+
+
+
+*   #### Example custom footer
+
+
+
+    ```
+    <tr>
+
+    <td
+
+    style="text-align:center;padding:30px 0 30px 0;background-color:#1a2e05;color:#ffffff;">
+
+    <p style="display:inline-block;margin-right:10px;">&copy; The Dougnut {% now 'local', '%Y' %}</p>
+
+    <p style="display:inline-block;margin-right:10px;"><a
+
+    href="https://rewst.io/terms-of-service/">Order</a></p>
+
+    <p style="display:inline-block;margin-right:10px;"><a href="https://rewst.io/privacy-policy/">Contact Us</a></p>
+
+      
+
+    <p style="display:inline-block;margin-right:10px;color:#84cc16"><a href="mailto:support@rewst.io">Need
+
+    Delivery?</a></p>
+
+      
+
+    <p style="display:inline-block;margin:0px 4px 0 4px;vertical-align:middle;"><a href="https://www.linkedin.com/company/rewst"><img
+
+    src="https://rewst-splash.s3.us-east-2.amazonaws.com/linkedin.png" width="24" height="24"
+
+    alt="linkedin"></a></p>
+
+      
+
+    <p style="display:inline-block;margin:0px 4px 0 4px;vertical-align:middle;"><a href="https://twitter.com/rewst_dot_io"><img
+
+    src="https://rewst-splash.s3.us-east-2.amazonaws.com/twitter.png" width="24" height="24" alt="twitter"></a>
+
+    </p>
+
+      
+
+    </td>
+
+    </tr>
+    ```
+* #### Example custom title CSS
+
+```
+.title {
+
+font-size: 20px;
+
+line-height: 16px;
+
+font-weight: 700;
+
+font-style: normal;
+
+color: #0c0a09;
+
+text-decoration: none;
+
+letter-spacing: 0px;
+
+padding: 25px 30px 0 30px;
+
+}
+```
+
+* #### Example logo link
+
+```
+https://google.com
+```
+
+* #### Example logo URI
+
+```
+https://www.svgrepo.com/download/533811/donuts-cake.svg
+```
+
 </details>
 
 <details>
