@@ -64,7 +64,7 @@ Generic actions rely heavily on your reading the integration's API documentation
 
 Generic actions are typically named after the integration in the format of `[integration] API Request`. For example, for HaloPSA the action is called `HaloPSA API Request` .
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="246"><figcaption><p>The HaloPSA generic action</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (68).png" alt="" width="246"><figcaption><p>The HaloPSA generic action</p></figcaption></figure>
 
 {% hint style="warning" %}
 Note that the paginate request option in any generic action modifies how the request is formed. This can cause issues on the API's side, causing them to behave unexpectedly and return error messages.

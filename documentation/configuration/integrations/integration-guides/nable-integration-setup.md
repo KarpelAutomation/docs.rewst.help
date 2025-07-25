@@ -68,20 +68,29 @@ Set up steps in N-able N-central
 
 
 
-### Run Powershell via RMM - Script setup
+### Run Powershell via RMM: Script setup
 
 To run Powershell on devices via the RMM, you must create the script in your N-able repository and enable its access for use over the API, as per N-able security policies.
 
-1. Navigate to **Configuration > Scheduled Tasks > Script/Software Repository** in N-able.
-2. Click **Add > Scripting**.
-3. Name the script **Rewst (Powershell)**.
-4. Enter a script description.
-5. Download and upload the provided PS1 file.
-6. Enable **API Access** for the script.
-7. Note the **Repository ID**.
-8.  In Rewst, create an organization variable named **nable\_rewst\_powershell\_script\_id** with the Repository ID as its value.
+{% hint style="info" %}
+To complete all the needed script setup steps in N-able N-central, you'll need to be assigned their Default Administrator Role.
+{% endhint %}
 
-    Update your Powershell script's `$rewst_base_url` variable to match your Rewst Instance URL:
+1. Navigate to **Configuration > Scheduled Tasks > Script/Software Repository** in N-able.
+2. Click **Add > Scripting**.\
+   ![](<../../../../.gitbook/assets/Screenshot 2025-07-24 at 12.07.14 PM.png>)
+3. Name the script `Rewst (Powershell)`.
+4. Enter `Executes Powershell sent via API from Rewst` into the **Description** field.
+5. Download the provided PS1 file from the bottom of this instruction section. Update your Powershell script's `$rewst_base_url` variable to match your Rewst Instance URL, using the table provided at the bottom of this section. You can identify which instance you are on by referencing the URL you use to access Rewst. The content of the **Command Line Parameters** field will automatically populate when you upload the file.
+6. Click **Browse** to upload the edited file into N-able N-central.
+7. Click **Ok**.
+8.  Navigate to **Configuration > Scheduled Tasks > Script/Software Repository.**\
+
+
+    <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+9. Enable **API Access** for the script.
+10. Note the **Repository ID**.
+11. In Rewst, [create an organization variable](../../organization-variables.md#manually-add-a-new-organization-variable) named `nable_rewst_powershell_script_id` with the Repository ID as its value. Set this organization variable as default.&#x20;
 
 | Rewst URL        | Base URL            |
 | ---------------- | ------------------- |
@@ -94,11 +103,7 @@ To run Powershell on devices via the RMM, you must create the script in your N-a
 {% file src="../../../../.gitbook/assets/run-nable-powershell (2).ps1" %}
 
 {% hint style="info" %}
-The ORG Var is only currently required as there is no way to search for a script with the existing API Endpoints
-{% endhint %}
-
-{% hint style="info" %}
-Once imported, you must update your script's $rewst\_base\_url variable. Your Rewst Base URL will vary depending on which Rewst instance you are on. You must update the $rewst\_base\_url property in the script below to match your Rewst Instance. You can identify which instance you are on by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst Base URL
+The org variable is only currently required as there is no way to search for a script with the existing API endpoints.
 {% endhint %}
 
 ## Test the integration
@@ -141,16 +146,16 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Troubleshoot the N-able N-central integration
 
-* **API Authentication Errors**: Verify JSON Web Token permissions and validity.
-* **Powershell Script Execution Issues**: Check script API access permissions in N-able.
+* **API authentication errors**: Verify JSON Web Token permissions and validity.
+* **PowerShell script execution issues**: Check script API access permissions in N-able.
 
 {% hint style="info" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
-## Current Limitations
+## Current limitations
 
-There is currently no way to identify a Domain Controller via the N-able REST API. You must manually set the hostname of the preferred DC. Do this using the organization variable form that was discussed during your onboarding. The end result will be an organizational variable called **preferred\_domain\_controller** and a value of the hostname of that client's DC.
+There is currently no way to identify a domain controller via the N-able REST API. You must manually set the hostname of the preferred DC. Do this using the organization variable form that was discussed during your onboarding. The end result will be an organizational variable called **preferred\_domain\_controller** and a value of the hostname of that client's DC.
 
 ## N-able N-central actions and endpoints
 
