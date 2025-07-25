@@ -32,5 +32,5 @@ Click **Share** to create a link to share your context and code in the editor, t
 * Add `|` to the end of your variables to access [Jinja filters](https://docs.rewst.help/documentation/jinja/list-of-jinja-filters). e.g.: `{{ ORG.ATTRIBUTES.id|default('test default string') }}`&#x20;
 
 {% hint style="info" %}
-For more on how to use Jinja in Rewst, see our [Jinja documentation here](https://docs.rewst.help/documentation/jinja), and sign up for courses in [Cluck University](https://docs.rewst.help/cluck-university/getting-started).
+For more on how to use Jinja in Rewst, see our [Jinja documentation here](https://docs.rewst.help/documentation/jinja), and sign up for courses in [Cluck University](https://learn.rewst.io/).
 {% endhint %}
