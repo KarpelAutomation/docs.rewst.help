@@ -422,6 +422,7 @@
   * [Sign up to present at any Open Mic](updates/roc-open-mics/sign-up-to-present-at-any-open-mic.md)
   * [Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/README.md)
     * [2025 Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/README.md)
+      * [July 25, 2025: How to Streamline Your Automations with Organization Tags](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/july-25-2025-how-to-streamline-your-automations-with-organization-tags.md)
       * [July 18, 2025: Mastering MS Teams automations](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/july-18-2025-mastering-ms-teams-automations.md)
       * [July 11, 2025: A Fedex Automation that Delivers](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/july-11-2025-a-fedex-automation-that-delivers.md)
       * [July 4, 2025: The Value of Learning with a Noob Mindset](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/july-4-2025-the-value-of-learning-with-a-noob-mindset.md)

@@ -4,6 +4,8 @@
 
 <summary>July 2025</summary>
 
+[july-25-2025-how-to-streamline-your-automations-with-organization-tags.md](july-25-2025-how-to-streamline-your-automations-with-organization-tags.md "mention")
+
 [july-18-2025-mastering-ms-teams-automations.md](july-18-2025-mastering-ms-teams-automations.md "mention")
 
 [july-11-2025-a-fedex-automation-that-delivers.md](july-11-2025-a-fedex-automation-that-delivers.md "mention")

@@ -29,21 +29,24 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/e8j78Uq8UGQ" %}
+{% embed url="https://youtu.be/h9dW1T92n1o" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 Aharon kicked off the call with reminders, encouraged questions, and outlined upcoming maintenance windows.
-* 💻 George set the Microsoft Teams-focused demo theme and handed off to Danial.
-* 🔧 Danial shared the Rewst status page, upcoming Ninja integration webinar, and a sneak peek at AI features including Robo Rewsty.
-* 📦 JP presented marketplace enhancements, licensing SKU updates, and offboarding bug fixes.
-* 📘 Clea highlighted certification achievements, announced shorter Foundations and upcoming Clean Automation courses, and new documentation.
-* 🌐 George covered community events (Ninja webinar, Flow conference) and launched Ben Climber’s weekly tips segment.
-* 💡 Ben Climber demonstrated best practices for trigger criteria in Rewst workflows.
-* 🤖 Danial, Chris Arnot, and Jonathan Bramley showcased partner demos on Teams bot meeting scheduling, courier request automation, and GraphQL-based future workflow scheduling.
-* 🔔 Aharon closed the session with community sharing reminders and next week’s call details.
+* 🗣️ Aharon opens the session by emphasizing the importance of community questions and using Discord for support and collaboration.
+* 📢 George provides updates on the Ninja integration webinar and announces the team's attendance at ChannelCon in Nashville.
+* 🧑‍💻 James shares product updates, including bug fixes and improvements in form and template publishing across regions.
+* 🧪 Danial demos customizable confirmation emails, showcasing enhanced branding options and available documentation.
+* 🧰 JP introduces new Marketplace crates, highlighting improvements to BitLocker documentation and onboarding workflows.
+* 📈 Paul demos the M365 Build Org Chart crate, illustrating how to visualize user-supervisor relationships through a MermaidJS-powered workflow.
+* 📚 Clea unveils a revamped documentation homepage and gives shoutouts to recent CluckU graduates and training contributors.
+* 🌍 Mark from Superfast IT showcases an automated client security report that streamlines account manager prep and highlights service gaps.
+* 🏷️ Logan walks through a workflow to apply organization tags based on ConnectWise agreements, enabling targeted automation.
+* 🌐 Danial from Network Essentials presents a form-based process for managing out-of-country user notifications, reducing errors and manual effort.
+* 🎉 Linda is welcomed to the Rewst team as a new automation strategist, sharing her background and how she joined officially.
+* 👋 The call wraps up with final questions, acknowledgments of demo participants, and goodbyes from Aharon and George.
 
 </details>
 
