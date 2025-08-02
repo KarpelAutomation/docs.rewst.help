@@ -4,7 +4,7 @@ icon: microphone-lines
 
 # Rewst Open Mic
 
-##
+
 
 ## **Join us live!**
 
@@ -29,24 +29,24 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/h9dW1T92n1o" %}
+{% embed url="https://youtu.be/mR80Z8_rGx0" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🗣️ Aharon opens the session by emphasizing the importance of community questions and using Discord for support and collaboration.
-* 📢 George provides updates on the Ninja integration webinar and announces the team's attendance at ChannelCon in Nashville.
-* 🧑‍💻 James shares product updates, including bug fixes and improvements in form and template publishing across regions.
-* 🧪 Danial demos customizable confirmation emails, showcasing enhanced branding options and available documentation.
-* 🧰 JP introduces new Marketplace crates, highlighting improvements to BitLocker documentation and onboarding workflows.
-* 📈 Paul demos the M365 Build Org Chart crate, illustrating how to visualize user-supervisor relationships through a MermaidJS-powered workflow.
-* 📚 Clea unveils a revamped documentation homepage and gives shoutouts to recent CluckU graduates and training contributors.
-* 🌍 Mark from Superfast IT showcases an automated client security report that streamlines account manager prep and highlights service gaps.
-* 🏷️ Logan walks through a workflow to apply organization tags based on ConnectWise agreements, enabling targeted automation.
-* 🌐 Danial from Network Essentials presents a form-based process for managing out-of-country user notifications, reducing errors and manual effort.
-* 🎉 Linda is welcomed to the Rewst team as a new automation strategist, sharing her background and how she joined officially.
-* 👋 The call wraps up with final questions, acknowledgments of demo participants, and goodbyes from Aharon and George.
+* 🎤 Intro: Aharon welcomed participants and outlined the call’s purpose and technical focus.
+* 💡 Ashe shared community updates, upcoming events, and announced the International Cat Day photo competition for Rewst.
+* 📣 Clea recapped new ROI series, training updates, certifications, and documentation enhancements.
+* 🛠️ JP reviewed marketplace status, recent bug fixes, and plans for workstation offboarding crates.
+* 🔧 Danial detailed integration fixes, improved testing, upcoming features, and hourly dashboard updates.
+* 🧠 Pizza demonstrated the new real-time workflow context sidebar and variable exploration in the editor.
+* 🔒 Aharon presented a local administrator password rotation workflow for multiple OS environments.
+* 📞 Logan explained the process of converting Asterisk REST specifications and integrating them into Rewst.
+* 🤖 Chris Williams showcased an AI-driven after-hours call handling workflow with multi-channel alerts.
+* 📬 Nick introduced an email forwarding scheduling tool with delay workflows and thread management.
+* ❓ Q\&A: Participants engaged in troubleshooting, feature questions, and shared feedback.
+* 🏁 Outro: Ashe and Aharon closed the session, encouraged Discord engagement, and previewed the next Open Mic.
 
 </details>
 
@@ -70,17 +70,19 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest ANZ Open Mic video recording
 
-{% embed url="https://youtu.be/QT4_t7wumLU" %}
+{% embed url="https://youtu.be/d_sc6pvpqsc" %}
 
 <details>
 
 <summary>Contents of ANZ Open Mic recording:</summary>
 
-* 🎤 Scarlett outlined the agenda, introduced a poll, and invited customer demos before handing over to Jake.
-* 🎉 Jake presented product, education, marketplace, and dev updates—including new Rewst dashboard widgets, form filters, integrations, and the upcoming Robo Roost AI assistant.
-* 💡 Hugh from Computer Culture demonstrated an LED alerting system integrated with Rewst and Home Assistant to visually display active alerts in real time.
-* 🔄 Tim showcased an automated change management workflow using the IT portal change log to track device configuration changes.
-* 📝 Michael shared text/markdown field tips and tricks, including custom org variables and prefilled form links for dynamic, user-friendly forms.
+* 🔔 Sarah outlines today’s agenda, notes the community demo reschedule, and invites questions.
+* 🔧 Jake presents July 18 and July 25 Rewst updates—crate reliability, custom HTML branding, Ninja ticketing actions, JSONB null-character fixes, upcoming DropSuite/VoIP integrations, and previews Danial’s RoboRewsty feature.
+* 📧 Jake demonstrates the new core confirmation email in Rewst, showcasing actionable buttons with default, footer-less, and custom-branded examples.
+* 🎓 Jake announces the embedded LMS in the Rewst docs portal, highlights onboarding and automation courses, and teases an Easter-egg change hunt.
+* 📂 Michael walks through a PowerShell-driven Rewst workflow that downloads a PDF as Base64 and uploads it in chunks to SharePoint.
+* 🌐 Jake shows how to embed an App Builder iframe into Halo PSA tickets, enabling in-ticket Rewst form interactions.
+* ❓ The host leads a community Q\&A on AI workflow timelines, GraphQL failure-reporting workflows, tag-based handlers, and upcoming customer demos.
 
 </details>
 

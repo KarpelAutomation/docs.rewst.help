@@ -2,6 +2,14 @@
 
 <details>
 
+<summary>August 2025</summary>
+
+[august-1-2025.md](august-1-2025.md "mention")
+
+</details>
+
+<details>
+
 <summary>July 2025</summary>
 
 [july-25-2025-how-to-streamline-your-automations-with-organization-tags.md](july-25-2025-how-to-streamline-your-automations-with-organization-tags.md "mention")

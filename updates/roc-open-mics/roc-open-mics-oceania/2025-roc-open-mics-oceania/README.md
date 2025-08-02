@@ -2,6 +2,14 @@
 
 <details>
 
+<summary>August 2025</summary>
+
+[august-1-2025.md](august-1-2025.md "mention")
+
+</details>
+
+<details>
+
 <summary>July 2025</summary>
 
 [july-4-2025-real-time-leds-driven-by-rewst.md](july-4-2025-real-time-leds-driven-by-rewst.md "mention")
