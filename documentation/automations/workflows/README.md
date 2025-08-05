@@ -30,7 +30,7 @@ In the example below, you have a main workflow called **Create Ticket**. In it, 
 
 Click <img src="../../../.gitbook/assets/Subworkflow icon.png" alt="" data-size="line"> on a subworkflow to navigate directly to it. You can also view subworkflows on the main workflow page, indicated by the green **Subworkflow** button under the **Attributes** column. Clicking will reveal which workflow the subworkflow is a part of.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>An example of subworkflows, flowing out of a larger executing workflow</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt="An image of a small subworkflow, flowing out of a larger executing workflow. The subworkflow is composed of actions, via rectangles outlined in  pink. The flow of subworkflow out of larger workflow is communicated via blue directional arrows. Under each subworkflow action, there&#x27;s the option to click a blue plus button to add additional actions on success or failure of that action."><figcaption><p>An example of subworkflows, flowing out of a larger executing workflow</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 3.14.32 PM (1).png" alt="" width="563"><figcaption><p>The Subworkflow button, under the <strong>Attributes</strong> column of the workflows list page</p></figcaption></figure>
 
@@ -53,7 +53,7 @@ Access workflows in the Rewst platform by navigating to **Automations > Workflow
 \
 
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.37.00 PM (2).png" alt=""><figcaption><p>The workflows list page, without any filters applied</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.37.00 PM (2).png" alt="A screenshot of a dashboard interface labeled &#x27;Workflows&#x27; showing a list of workflows with details including &#x27;Updated At&#x27;, &#x27;Updated By&#x27;, &#x27;Time Saved&#x27;, and options to configure each workflow. The left sidebar contains navigation options."><figcaption><p>The workflows list page, without any filters applied</p></figcaption></figure>
 
 The list of workflows that appears in the center of your screen will include both the workflows you create and the workflows unpacked from Crates. As you continue to set up automation in Rewst, this list can grow quite a bit. The **Updated At**, **Updated By**, **Attributes**, and [**Tags**](https://docs.rewst.help/documentation/workflows/tags-in-rewst) columns each offer the option to filter your results by relevant criteria, with attributes and tags filters operating for both inclusion and exclusion of desired parameters. You can also use **Search** in the top center of your screen to find a particular workflow, and the <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 6.09.13 PM.png" alt="" data-size="line"> icon to the right to choose which columns you'd like to see in your workflow list.
 
@@ -71,7 +71,7 @@ To see all results for a specific workflow, you can do the following:
 2. Search for the specific workflow.
 3. Select <img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.52.44 PM.png" alt="" data-size="line"> in the far right corner for that specific workflow. This will take you to a new page that will show all the results of that workflow.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.51.40 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.51.40 PM.png" alt="A user interface displaying a &#x27;Workflows&#x27; section with a dark background. It includes search and filter options, a list of workflows, and buttons for actions such as &#x27;Configure&#x27; and &#x27;Trigger&#x27; beside a specific workflow titled &#x27;Integration Checklists and WBS.&#x27;"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 When you delete the result of a workflow, consider it to be fully deleted. Only delete results when you are confident that they will not be needed. The result will remain in Rewst's database backup snapshots for a short length of time until it is past the retention period, at which point it will be purged. Meta data and stats about the deleted workflow execution remain in the system. Deleting a workflow execution will not affect time saved or remove time saved.

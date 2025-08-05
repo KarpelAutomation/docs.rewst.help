@@ -1,4 +1,4 @@
-# Document M365 environment Crate
+# Document M365 Environment Crate
 
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
@@ -38,6 +38,7 @@ To test this Crate, you'll need to adjust the [cron trigger](../../automations/i
 3. Click on the workflow to open it in the workflow builder.
 4. Click <img src="../../../.gitbook/assets/Screenshot 2025-05-21 at 2.57.06 PM (1).png" alt="" data-size="line"> to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then. A fresh documentation record will appear in your documentation tool if the workflow is successful.
+6. Re-adjust the time of the cron trigger to when you would like it to routinely ru&#x6E;**.**
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-25 at 8.57.08 AM.png" alt="Screenshot of a Rewst automation interface titled “[REWST - CRATE] Docs: Document M365 Environment,” showing the configuration for an enabled cron job trigger named “General_Trigger.” The integration overrides include IT Glue, Hudu Documentation, and others. The cron schedule is set to run daily at 8:20 PM UTC, and the system confirms no errors detected."><figcaption></figcaption></figure>
 
