@@ -3,7 +3,7 @@
 {% hint style="info" %}
 Agent Smith consists of three main components:
 
-* An Open Source agent written in Python in the [Rewst GitHub](https://github.com/RewstApp/agent-smith-go)
+* An open-source agent written in Python in the [Rewst GitHub](https://github.com/RewstApp/agent-smith-go)
 * The Microsoft [Azure IoTHub](https://azure.microsoft.com/en-us/products/iot-hub) service
 * Rewst Crates to configure the IoTHub and interact with agents
 
@@ -18,24 +18,19 @@ For the Azure Integration to work, you’ll need to have an Azure Subscription t
 The Rewst integration user setup for the Microsoft Cloud Bundle may require you to adjust permissions for your Azure subscription. Most commonly, it is recommended to grant the Rewst Service Account with "Contributor" access to your Azure subscription.
 {% endhint %}
 
-1. Install and authorize our Microsoft Cloud Integration Bundle by navigating to **Configuration > Integrations** in the Rewst platform. This bundle contains an integration for Microsoft Azure.&#x20;
-   1. Our setup instructions for the bundle can be found [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle).&#x20;
-   2. Setup instructions for just the Azure integration can be found [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup).&#x20;
-2. Navigate to **Crates > Crate Marketplace** in the Rewst platform. \
-   NOTE: You'll need to install the below Crates in order for Agent Smith setup to complete.&#x20;
-   1.  Search for and install the **Agent Smith: Device Provisioning** Crate.\
-
+1. Install and authorize our Microsoft Cloud Integration Bundle by navigating to **Configuration > Integrations** in the Rewst platform. This bundle contains an integration for Microsoft Azure.
+   1. Our setup instructions for the bundle can be found [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle).
+   2. Setup instructions for just the Azure integration can be found [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup).
+2. Navigate to **Crates > Crate Marketplace** in the Rewst platform.\
+   NOTE: You'll need to install the below Crates in order for Agent Smith setup to complete.
+   1.  Search for and install the **Agent Smith: Device Provisioning** Crate.\\
 
        <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 1.35.34 PM.png" alt=""><figcaption></figcaption></figure>
-   2.  Search for and install the **Agent Smith: Service Provisioning** Crate. Unpacking this Crate will install a form named **Agent Smith: Service Configuration.**\
-
+   2.  Search for and install the **Agent Smith: Service Provisioning** Crate. Unpacking this Crate will install a form named **Agent Smith: Service Configuration.**\\
 
        <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 1.36.54 PM.png" alt=""><figcaption></figcaption></figure>
 3. Navigate to the live **Agent Smith: Service Configuration** form and choose **Action: Create IoT Hub Instance** from the **Action** drop down menu.
-4.  Select the proper **Azure Subscription**, **Azure Location**, type in a unique **IoT Hub Name**, and select the desired **IoT Hub Service Tier**.\
-
-
-
+4.  Select the proper **Azure Subscription**, **Azure Location**, type in a unique **IoT Hub Name**, and select the desired **IoT Hub Service Tier**.\\
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 2.43.55 PM.png" alt=""><figcaption></figcaption></figure>
 5. **Submit** the form and monitor workflow results for success.
@@ -58,8 +53,6 @@ The Rewst integration user setup for the Microsoft Cloud Bundle may require you 
 Only Up-to-date versions of PowerShell have been tested to work. Make sure your devices are updated! We suggest you provision one or a few agents to test with before doing mass provisioning.
 {% endhint %}
 
-
-
 ### Test Agent Smith
 
 1. Return to the form and choose **Run PowerShell Code on Agent**
@@ -72,11 +65,9 @@ Only Up-to-date versions of PowerShell have been tested to work. Make sure your 
 * This includes anything that calls the Run PowerShell subworkflows, such as New Employee, etc.
 {% endhint %}
 
-
-
 ### Agent Smith: Track Agent Inventory In Azure Tables Crate
 
-This Crate will add some additional capabilities to your Agent Smith Deployments. Using it is optional.&#x20;
+This Crate will add some additional capabilities to your Agent Smith Deployments. Using it is optional.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 2.57.50 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -92,6 +83,10 @@ Crate features include:
 
 Agent Smith installs itself as a service. You can use PowerShell or the SC command to modify or remove the service. Application logs and data are installed in `C:\ProgramData\RewstRemoteAgent` or whatever root path you've overridden in your environment. Application Program files are in `%ProgramFiles%\RewstRemoteAgent` folders.
 
+### Linux
+
+Agent Smith installs itself as a service. You can use `systemd` and `bash` to stop and remove the service file. Application logs and data are installed in `/etc/rewst_remote_agent` folders. Application program files are in `/usr/local/bin/rewst_remote_agent` folders.
+
 ## Troubleshoot Agent Smith
 
 * Ensure admin-level account setup, so the service will install as SYSTEM.
@@ -105,7 +100,7 @@ Agent Smith installs itself as a service. You can use PowerShell or the SC comma
 
 In your Discord server, the [#agent-smith ](https://discord.com/channels/936789089703845988/1184866106482110608)channel is your first stop for help with setting up and running Agent Smith. Post your questions and share your successes for how you're using Agent Smith to save time.
 
-## Agent Smith FAQs&#x20;
+## Agent Smith FAQs
 
 * **Am I allowed to customize Agent Smith?**
   * Yes, you're free to [fork and modify it](https://github.com/RewstApp/rewst_remote_agent).
@@ -113,7 +108,7 @@ In your Discord server, the [#agent-smith ](https://discord.com/channels/9367890
   * Our focus for Agent Smith is on simplicity. Consider adding additional functionality by writing a PowerShell script and kicking it off with a workflow.
 * **Does Rewst provide Agent Smith support for older operating systems?**
   * No, support for outdated OS is not available.
-* **Will there be MacOS and Linux support?**
+* **Will there be MacOS support?**
   * Eventually! If you feel strongly about the timeline for this, add it to our Canny feature request form [here](https://rewst.canny.io/agent-smith).
 * **I want to deploy agents to my endpoints in bulk. How should I prepare?**
-  * View the separate guide for how to do this [here](bulk-onboarding-with-agent-smith.md).&#x20;
+  * View the separate guide for how to do this [here](bulk-onboarding-with-agent-smith.md).

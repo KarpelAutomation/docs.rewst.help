@@ -6,7 +6,7 @@
 
 ## What does the Cork Compliance Event to PSA Ticket Crate do?
 
-The Cork Compliance Event to PSA Ticket Crate scans Cork compliance events daily and automatically creates PSA tickets for any detected issues. It checks for existing open tickets to prevent duplicates, ensuring efficient tracking. If a previous ticket has been closed and a new event is found, it generates a new ticket
+The Cork Compliance Event to PSA Ticket Crate scans Cork compliance events daily and automatically creates PSA tickets for any detected issues. It checks for existing open tickets to prevent duplicates, ensuring efficient tracking. If a previous ticket has been closed and a new event is found, it generates a new ticket. If all events in the ticket have been resolved, the ticket will be automatically closed.
 
 ## Crate prerequisites
 
@@ -38,9 +38,10 @@ Before unpacking this Crate, you must first:
 14. Select a **Board ID** from the drop-down selector.
 15. Select a **Ticket Creation Status**.
 16. Check the **(Optional) Ticket Type** box, if desired, and choose the type from the **Ticket Type** drop-down selector.
-17. Click **Submit**.
+17. Select a **Ticket Closure Status**.
+18. Click **Submit**.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-09 at 12.25.17 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (70).png" alt="Screenshot of the REWST Cork Compliance Setup Form interface, displaying dropdown configuration fields including reporting type (set to “One Ticket With All Combined Events/Assets”), board ID (set to “IT:Level I”), ticket creation status (set to “New”), ticket closure status (set to “Complete”), and an optional ticket type section enabled with the ticket type set to “IT:Hardware.” Each field includes a refresh icon for dynamic updates, and required fields are marked with red asterisks."><figcaption></figcaption></figure>
 
 ## Use the Cork Compliance Event to PSA Ticket Crate
 
