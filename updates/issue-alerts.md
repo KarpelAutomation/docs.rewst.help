@@ -6,6 +6,26 @@ icon: circle-exclamation
 
 <details>
 
+<summary>⚠️ Upcoming: Planned maintenance window - US region August 9th, 2025</summary>
+
+On Saturday, August 9th, at 11:45 PM EDT, Rewst will be performing performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be conducting work involving database connection management to ensure continued platform stability and performance. During this brief window, the Rewst platform, including the user interface, API access, and workflow execution, will be temporarily unavailable. The duration of this work outage will be approximately five minutes. Normal operation will resume immediately after the work is complete. We believe that disruption will be minimal, but recommend that you monitor for failed workflows after the maintenance is conducted, and rerun workflows as needed.&#x20;
+
+#### Updates
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
+<details>
+
 <summary>⚠️ Upcoming: Planned maintenance window - All Regions June 19th, 2025</summary>
 
 On Saturday, July 19th, the Rewst engineering team will be performing regional critical PostgreSQL upgrades and infrastructure enhancements. The Rewst platform—including the user interface, API access, and all workflow execution—may be intermittently unavailable during the maintenance window. While the duration may be as little as 15 minutes, there is potential for it to last as much as two hours. Our team will work to minimize service disruption in each region. We recommend rescheduling any critical automations during those periods. Please check your region's maintenance time window in the list below. While we'll try to minimize disruptions, we do recommend rescheduling any critical automations during that period.
