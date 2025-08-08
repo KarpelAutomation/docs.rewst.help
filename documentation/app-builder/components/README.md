@@ -80,10 +80,6 @@ More information for each individual component can be found on the following pag
 [data-table.md](data-table.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ### Automation
 
 {% content-ref url="form.md" %}

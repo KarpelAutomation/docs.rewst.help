@@ -19,14 +19,12 @@ There are two relationship types associated with this Crate.
 * Creates a bundled relationship while preserving both ticket numbers
 * Both tickets remain independently accessible
 * Can be undone by detaching the relationship
-* Better aligns with your preference for bundling vs. merging
 
 **Merge - uses /merge API:** This combines tickets where the merged ticket number becomes invalid.
 
 * Permanently combines tickets into one
 * The merged ticket number becomes invalid or inaccessible
 * Can't be easily undone
-* Requires edit permissions on Service Desk security role
 
 ## Crate prerequisites
 
@@ -53,6 +51,8 @@ You'll need to first successfully integrate ConnectWise PSA with Rewst before un
 ## Test the Crate
 
 Create a new ticket in ConnectWise PSA that you know is a duplicate of another existing ticket. If the Crate is working properly, you should see the new buttons for handling duplicates appear on the ticket.&#x20;
+
+
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

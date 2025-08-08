@@ -20,13 +20,17 @@ The _operational analytics reporting portal_ offers powerful reporting capabilit
 
 ### Integration prerequisites for operational analytics reporting portal setup
 
-* For Device EOL: Connectwise Automate, Datto RMM, or NinjaRMM
-* For Get Device Inventory: Connectwise PSA
-* For Ticket Data: Connectwise PSA, Datto Autotask
+* For Device EOL: ConnectWise Automate, Datto RMM, or NinjaRMM
+* For Get Device Inventory: ConnectWise PSA
+* For Ticket Data: ConnectWise PSA, Datto Autotask
 
 ### Custom branding with Rewst's Style Customization Crate
 
-As a bonus, you can customize your end user portal by unpacking our [App Builder - Create Branding Variables](https://app.rewst.io/organizations/40f8b55a-e8a9-42fc-8dc1-179616275f10/marketplace/crates/0192bf3c-1cc2-7726-b33b-ecf5878e559b) Crate, which lets you update all of your Prebuilt Apps without manual CSS edits for a professional, client-ready appearance.
+As a bonus, you can customize your Operational Analytics Reporting Portal by unpacking our App Builder - Create Branding Variables Crate, which lets you update all of your Prebuilt Apps without manual CSS edits for a professional, client-ready appearance.\
+\
+
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-08-08 at 4.40.40 PM.png" alt="" width="309"><figcaption><p>Find this Crate in the Crate Marketplace section of your Rewst platform.</p></figcaption></figure>
 
 * Apply consistent branding across all apps
 * Input hex codes, upload logos, and select themes to apply at the MSP or client level

@@ -1,4 +1,4 @@
-# July 25th, 2025 - Marketplace Update
+# July 25, 2025 - Marketplace Update
 
 <details>
 
@@ -15,19 +15,19 @@
 <summary><strong>Bug fixes and chores</strong></summary>
 
 * Google: User Onboarding
-  * Added 'employee\_id' to excluded keys (60186)
+  * Added 'employee\_id' to excluded keys&#x20;
 * Microsoft: User Onboarding
-  * Added proper handling for undefined `psa_default_tech_worktype` org var when adding time entries using "Datto PSA: Update Ticket" workflow (61620)
+  * Added proper handling for undefined `psa_default_tech_worktype` org var when adding time entries using "Datto PSA: Update Ticket" workflow&#x20;
 * Google: User Offboarding
-  * Added options gen trigger to the existing ticket field in form (60946)
+  * Added options gen trigger to the existing ticket field in form&#x20;
 * Compromised User Response
   * Fixed a typo in the internal notes of `update_psa_ticket` and `create_psa_service_ticket` tasks (60655)
 * Just in Time Admin Access
-  * Updated Powershell script's Jinja (60995)
+  * Updated Powershell script's Jinja&#x20;
 * Microsoft: User Onboarding
-  * Added missing licenses to Pax8 SKU mapping list (57863)
+  * Added missing licenses to Pax8 SKU mapping list&#x20;
 * Multiple
-  * Changed logic in Pax8 workflows to allow for a base product match template and an extension template to be combined to allow users to specify custom SKU matchings should they not exist in the base template (61620)
+  * Changed logic in Pax8 workflows to allow for a base product match template and an extension template to be combined to allow users to specify custom SKU matchings should they not exist in the base template&#x20;
 
 </details>
 

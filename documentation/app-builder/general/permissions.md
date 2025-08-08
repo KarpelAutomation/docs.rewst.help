@@ -1,6 +1,6 @@
 # Permissions
 
-By default, users with Admin and Member roles have access to app platform. We plan to add more granular access to manage who can build apps in the future.
+By default, users with Admin and Member roles have access to App Builder.&#x20;
 
 #### App permissions
 

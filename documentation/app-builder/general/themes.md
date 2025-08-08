@@ -1,10 +1,8 @@
 # Themes
 
-### Introduction
+Themes provide a powerful way to customize the look and feel of your app. App Builder follows [Material UI (MUI) theming principles](https://mui.com/material-ui/customization/theming/).
 
-Welcome to the App Builder Themes documentation! This guide will walk you through the process of managing themes for your app pages within Rewst. Themes provide a powerful way to customize the look and feel of your app, and we follow the Material UI (MUI) theming principles.
-
-### Applying themes
+### Apply themes
 
 Themes are applied globally to all app pages. Here's how you can manage and customize them:
 
