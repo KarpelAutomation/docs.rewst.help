@@ -38,9 +38,9 @@ The _Text/Markdown_ field lets you present text, optionally formatted with Markd
 
 <details>
 
-<summary>Dropdown</summary>
+<summary>Drop-down</summary>
 
-_Dropdown_ fields let you select from multiple options, which can either be hard coded into the form or dynamically generated. Each option on the form has a _label_ and a _value_, and default options can be preselected if specified. There are also options for: &#x20;
+_Drop-down_ fields let you select from multiple options, which can either be hard coded into the form or dynamically generated. Each option on the form has a _label_ and a _value_, and default options can be preselected if specified. There are also options for: &#x20;
 
 * _Auto-Populate_: if enabled, will always pre-populate the field if only a single option has been returned.
 * _Allow Custom Input_: lets the enduser write in the field and have that be the value passed into the workflow.
@@ -48,7 +48,7 @@ _Dropdown_ fields let you select from multiple options, which can either be hard
 * _Always Override Option_: used when the auto-populate setting is enabled, this will cause the field to repopulate itself. This is needed in cases where the field is populated via an option generator and another field is being used as input for the option generator. In that case, you would need the option generator to run again, as the output would likely be different.
 
 These are used most commonly when the list of options is being generated via an options generator _._\
-Dropdown selection is limited to a single option. For multiple options for selection, see the multi-select form field option.\
+Drop-down selection is limited to a single option. For multiple options for selection, see the multi-select form field option.\
 \
 <img src="../../../.gitbook/assets/Screenshot 2025-03-18 at 11.09.12 AM.png" alt="" data-size="original">
 
@@ -182,7 +182,7 @@ Pulling data straight from the integration like this only works at the top level
 
 If you want more flexibility around the output of the data your user is seeing, you may need to opt for a workflow generated option instead, which allows for in-depth data manipulation using [Jinja](../../jinja/). We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io) and [micro course](https://learn.rewst.io). If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
 
-Alternatively, dynamic forms use cases can be handled with our options filter feature. The options filter makes customizing dropdown fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source. See our separate [options filter documentation here](options-filter-filtering-in-forms.md).&#x20;
+Alternatively, dynamic forms use cases can be handled with our options filter feature. The options filter makes customizing drop-down fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source. See our separate [options filter documentation here](options-filter-filtering-in-forms.md).&#x20;
 
 {% hint style="info" %}
 This setup requires the workflow type be an option generator. See our [option generator workflow page](../workflows/option-generator-workflows.md) for more details on this functionality. The below documentation is high-level only.
@@ -243,7 +243,6 @@ Here's a Jinja code snippet for achieving this:
 
 {% code overflow="wrap" %}
 ```django
-{% raw %}
 {%- set attribute_collection = [] -%} 
 {%- set my_attribute = CTX.attribute -%} 
 {%- set my_data = CTX.data|selectattr(my_attribute) -%} 
@@ -252,8 +251,7 @@ Here's a Jinja code snippet for achieving this:
         {%- set value=user[my_attribute] -%}         
         {%- set tmp = attribute_collection.append({my_attribute:value}) -%}     
     {%- endif -%} 
-{%- endfor -%}
-{% endraw %} 
+{%- endfor -%} 
 {{- attribute_collection | unique(attribute=my_attribute) | sort(attribute=my_attribute)  -}}
 ```
 {% endcode %}
@@ -270,7 +268,7 @@ Recall that you can access all forms in your form list in Rewst. Understanding h
 
 ## Restrict form drop-downs
 
-The onboarding form includes a number of fields to be filled out when onboarding new users. The default behavior of all the dropdown fields is to pull the list of options from the API. This is because the dropdown fields have **Dynamic Options** toggled on.
+The onboarding form includes a number of fields to be filled out when onboarding new users. The default behavior of all the drop-down fields is to pull the list of options from the API. This is because the drop-down fields have **Dynamic Options** toggled on.
 
 <figure><img src="../../../.gitbook/assets/dynamic-options (1).png" alt=""><figcaption></figcaption></figure>
 

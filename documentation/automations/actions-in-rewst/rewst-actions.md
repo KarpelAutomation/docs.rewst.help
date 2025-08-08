@@ -248,6 +248,58 @@ The actions grouped under this section are designed to manage users and their in
 
 **Output:** The returned object shows the number of invites deleted.
 
+***
+
+### Link Microsoft CSP Customer <a href="#delete-user-invite" id="delete-user-invite"></a>
+
+**Description:** Link one or more Rewst organizations to a microsoft CSP customer in Microsoft
+
+**Parameters:**
+
+* **CSP Integration Configuration ID**: The ID of a Microsoft CSP integration configuration in Rewst.
+* **Microsoft CSP Customer ID**: The ID of the Microsoft CSP Customer in Rewst that you want to link your organization or organizations to.
+* **Organization IDs**: The list of Rewst organization IDs to link.
+
+**Output:** The returned object lists a confirmation of the linked organizations
+
+***
+
+### Get Microsoft CSP Customer <a href="#delete-user-invite" id="delete-user-invite"></a>
+
+**Description:** Get data for a single Microsoft CSP customer in Rewst.
+
+**Parameters:**
+
+* **CSP Integration Configuration ID**: The ID of a Microsoft integration configuration in Rewst.
+
+***
+
+### List Microsoft CSP Customer <a href="#delete-user-invite" id="delete-user-invite"></a>
+
+**Description:** Get a list of Microsoft CSP customers in Rewst.
+
+**Parameters:**
+
+* **CSP Integration Configuration ID**: The ID of a Microsoft integration configuration in Rewst.
+* **Microsoft CSP Customer ID**: The ID of the Microsoft CSP Customer in Rewst that you want to link your organization or organizations to.
+* **Organization IDs**: The list of Rewst organization IDs to link.
+
+***
+
+### Unlink Microsoft CSP Customer <a href="#delete-user-invite" id="delete-user-invite"></a>
+
+**Description:** Unlink one or more Rewst organizations from a Microsoft CSP customer in Rewst.
+
+**Parameters:**
+
+* **CSP Integration Configuration ID**: The ID of a Microsoft integration configuration in Rewst.
+* **Microsoft CSP Customer ID**: The ID of the Microsoft CSP Customer in Rewst that you want to link your organization or organizations to.
+* **Organization IDs**: The list of Rewst organization IDs to link.
+
+**Output:** The returned object lists a status for the unlink action
+
+***
+
 </details>
 
 <details>

@@ -16,7 +16,7 @@ The below directions will walk you through how to use tags for workflows, as an 
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-01-06 at 5.12.34 PM.png" alt=""><figcaption></figcaption></figure>
-4. Open the **Tags** drop down in the **Edit Workflow Attributes** dialog to choose an existing tag from the list. Alternatively, begin typing in the drop down field and select the box to **Create tag**. This action will also add that new tag to your drop down list for all future tag selections.
+4. Open the **Tags** drop down in the **Edit Workflow Attributes** dialog to choose an existing tag from the list. Alternatively, begin typing in the drop down field and select the box to **Create tag**. This action will also add that new tag to your drop-down list for all future tag selections.
 5. **Submit** when finished tagging. If successful, you’ll see a green **Workflow saved!** confirmation pop up at the top of your screen. Now, tags for that workflow will appear in the tag column of your workflows page.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-06 at 5.18.53 PM.png" alt="" width="336"><figcaption></figcaption></figure>
@@ -36,7 +36,7 @@ Bulk editing workflow tags will overwrite all previous tags currently set for th
 
 ## Filter by tag
 
-1. Open the **Tags** drop down menu under the header of your workflows page. Check off one or more tags from the list.\
+1. Open the **Tags** drop-down menu under the header of your workflows page. Check off one or more tags from the list.\
    ![](<../../.gitbook/assets/Screenshot 2025-01-06 at 5.22.19 PM.png>)
 2. Your returned list will filter results to only display workflows tagged with your chosen tag.
 
