@@ -10,10 +10,16 @@ Our OpenText Secure Cloud integration automates secure content management workfl
 
 ## Set up the OpenText Secure Cloud integration
 
+{% hint style="info" %}
+To have access to the OpenText Secure Cloud menus needed to set up this integration, you'll need to have Admin permissions for the application.
+{% endhint %}
+
 ### Set up steps in OpenText Secure Cloud
 
 1. Log in to the OpenText Secure Cloud developer portal.
-2. Navigate to **Partner Services > Partner Integrations > API Credentials Management**.
+2. Navigate to **Partner Services > Partner Integrations > API Credentials Management**.\
+   \
+   ![Screenshot of a vertical navigation menu on a dark blue background with white icons and text. The top section has a house icon labeled “Home,” followed by a collapsible “My Solutions” section. Below is an expanded “Partner Services” section with submenu options: Partner Dashboard, Customer Management, Partner Management, Partner Integrations, Branding, and Tools. Further down are collapsed sections labeled “Service Administration” with a gear and document icon, and “Billing” with a bar chart icon.](<../../../../.gitbook/assets/image (71).png>)
 3. Generate new credentials on this page.
 4. Copy the client ID and client secret to your clipboard. You will need these values for further set up steps in Rewst.
 
