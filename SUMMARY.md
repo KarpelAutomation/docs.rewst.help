@@ -290,6 +290,7 @@
       * [Datto RMM integration](documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
       * [Discord integration](documentation/configuration/integrations/integration-guides/discord-integration-setup.md)
       * [DNSFilter integration](documentation/configuration/integrations/integration-guides/dns-filter-integration-setup.md)
+      * [Dropsuite integration](documentation/configuration/integrations/integration-guides/dropsuite-integration.md)
       * [Duo integration setup](documentation/configuration/integrations/integration-guides/duo-integration-setup.md)
       * [FlexPoint integration](documentation/configuration/integrations/integration-guides/flexpoint-integration.md)
       * [Freshdesk integration](documentation/configuration/integrations/integration-guides/freshdesk-integration-setup.md)
