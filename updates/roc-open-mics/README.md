@@ -29,42 +29,47 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/mR80Z8_rGx0" %}
+{% embed url="https://youtu.be/6YMWdYgDInQ" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 Intro: Aharon welcomed participants and outlined the call’s purpose and technical focus.
-* 💡 Ashe shared community updates, upcoming events, and announced the International Cat Day photo competition for Rewst.
-* 📣 Clea recapped new ROI series, training updates, certifications, and documentation enhancements.
-* 🛠️ JP reviewed marketplace status, recent bug fixes, and plans for workstation offboarding crates.
-* 🔧 Danial detailed integration fixes, improved testing, upcoming features, and hourly dashboard updates.
-* 🧠 Pizza demonstrated the new real-time workflow context sidebar and variable exploration in the editor.
-* 🔒 Aharon presented a local administrator password rotation workflow for multiple OS environments.
-* 📞 Logan explained the process of converting Asterisk REST specifications and integrating them into Rewst.
-* 🤖 Chris Williams showcased an AI-driven after-hours call handling workflow with multi-channel alerts.
-* 📬 Nick introduced an email forwarding scheduling tool with delay workflows and thread management.
-* ❓ Q\&A: Participants engaged in troubleshooting, feature questions, and shared feedback.
-* 🏁 Outro: Ashe and Aharon closed the session, encouraged Discord engagement, and previewed the next Open Mic.
+* 🎤 Aaron opens the session with reminders about asking questions and stresses curiosity as key to automation success.
+* 🛠️ Ashe returns from vacation and hands over to Frank for the product update.
+* 📦 Frank shares integration fixes, dashboard improvements, upcoming features, and AI-related enhancements.
+* 🛍️ Jesse delivers the marketplace update, covering bug fixes, crate enhancements, and upcoming workflows.
+* 👶 Clea gives certifications shoutouts, announces a new onboarding course, and shares CluckU updates.
+* 📅 George announces upcoming events, a Halo PSA webinar, and reveals the winner of the International Cat Day contest.
+* 🐱 Dave demos his first workflow for automating license purchase requests via Teams, with built-in checks and database tracking.
+* 🌍 Emmitt showcases a workflow to automate adding Layer 7 rules to Moroi firewalls with verification and GIF-based prompts.
+* 💻 Rod explains using PowerShell Universal APIs to run scripts and SQL queries locally for more reliable on-prem automation.
+* 📡 Daniel presents a Moroi webhook-based workflow for handling multiple network alerts with customizable responses.
+* 🤖 Reed demonstrates an AI agent integrated with Rewst workflows for dynamic function execution and data retrieval.
+* 🧩 Daniel and the team discuss MCP triggers for connecting AI agents to Rewst automations.
+* 👋 Closing remarks thank presenters and encourage more community members to share their workflows.
 
 </details>
 
 ## Latest EU Open Mic video recording
 
-{% embed url="https://youtu.be/MY4vnM-ev8s" %}
+{% embed url="https://youtu.be/Py-1ZqsRHpM" %}
 
 <details>
 
 <summary>Contents of EU Open Mic recording:</summary>
 
-* 🟢 George welcomes everyone to the Rewst EU Open Mic, kicking off our monthly update and community collaboration space.
-* 📊 Danial presented June’s product highlights including the dashboard workflow table, forms options filters, enhanced workflow result filtering, marketplace redesign, new integrations, and previewed RoboRewsty AI functionality.
-* 🛒 JP detailed several new and refactored crates released in June with improved supportability, including Windows Patch Deployer, security integrations, and expanded automated unit testing.
-* 🎓 Clea encouraged attendees to leverage Cluck University courses this summer, announced deprecation of seven micro courses, and highlighted process engineering and automation basics offerings.
-* 🎉 George shared upcoming Flow 2026 early bird pricing, NinjaOne webinar, Discord channels, community creation videos, and business leaders focus groups .
-* 🔗 Gareth demonstrated a two-way integration between ClickUp and Rewst workflows and tickets, showcasing task creation, updates, and synchronization with ClickUp tasks and ConnectWise tickets.
-* 🚀 The session concluded with an open Q\&A, reminders for August’s EU Open Mic, and an invitation to join the fun open mic event tomorrow.
+* 🎤 Welcome & Reminders - Host emphasizes asking questions, encourages technical participation, and reminds to track time savings in workflows.
+* 🖥️ Product Updates - Frank shares July improvements including smarter crates, automated support access inheritance, app builder design tweaks, and better workflow reliability.
+* 🔗 Integrations - New Crush Bank integration, updates to Ninja One, Microsoft CSP, Super Ops, Acronis, plus upcoming BVOIP and Leader integrations.
+* 🛒 Marketplace Update - New BitLocker recovery keys crate, updated onboarding/offboarding crates, over 40 bug fixes, and key enhancements in July.
+* 📚 Education Update - Clea announces new technical pre-assessment course, updated live training, enhanced onboarding videos, and contest winner recognition.
+* 🌐 Community & Events - Highlights Aharon’s keynote on YouTube, upcoming Halo webinar, and International Cat Day photo contest.
+* 📧 Demo 1 (Reinier) - Showcases a workflow for sending welcome emails to all client employees post-onboarding, plus an app builder tool for viewing and linking organization variables.
+* 🔒 Demo 2 (Linden) - Presents a permission-controlled form system using Microsoft group checks to restrict access and secure workflows.
+* 📚 Demo 3 (Brent & Chantelle) - Demonstrate “The Beast” app for exam prep tracking with mobile-friendly design, and “Question of the Day” app for standup meetings with random participant selection.
+* 🛡️ Expired Token Monitor - Shares a monitoring automation that detects expired API tokens using org tags, error handling, and status checks to prevent automation failures.
+* 📅 Closing & Call for Demos - Encourages community members to share their work in future sessions and reminds about ongoing open mic calls.
 
 </details>
 

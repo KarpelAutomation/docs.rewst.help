@@ -4,7 +4,7 @@
 
 <summary>August 2025</summary>
 
-[august-1-2025.md](august-1-2025.md "mention")
+[august-1-2025-automating-pdf-uploads-to-sharepoint-with-powershell-+-rewst.md](august-1-2025-automating-pdf-uploads-to-sharepoint-with-powershell-+-rewst.md "mention")
 
 </details>
 

@@ -2,9 +2,17 @@
 
 <details>
 
+<summary>August 2025</summary>
+
+[august-7-2025.md](august-7-2025.md "mention")
+
+</details>
+
+<details>
+
 <summary>July 2025</summary>
 
-[may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md](may-1-2025-auto-document-everything-with-this-brilliant-it-glue-automation.md "mention")
+[july-3-2025-secret-ai-sneak-peek-and-next-level-crates.md](july-3-2025-secret-ai-sneak-peek-and-next-level-crates.md "mention")
 
 </details>
 

@@ -4,6 +4,8 @@
 
 <summary>August 2025</summary>
 
+[august-8-2025-automating-license-purchase-requests-via-teams.md](august-8-2025-automating-license-purchase-requests-via-teams.md "mention")
+
 [august-1-2025.md](august-1-2025.md "mention")
 
 </details>
