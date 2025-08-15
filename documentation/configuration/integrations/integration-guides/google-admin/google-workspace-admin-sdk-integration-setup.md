@@ -132,7 +132,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 4.  Click **Enable**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
