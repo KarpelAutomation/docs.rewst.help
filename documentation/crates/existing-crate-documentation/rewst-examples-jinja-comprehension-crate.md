@@ -29,13 +29,17 @@ This Crate offers a collection of common Jinja examples, all consolidated into a
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Rewst Example: Common Jinja`.
+3. Click on the workflow to open it in the workflow builder.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-14 at 3.14.28 PM.png" alt=""><figcaption></figcaption></figure>
 
-3. Click on any of the tasks on the workflow builder canvas to open up its right side configuration menu.
-4. Click <img src="../../../.gitbook/assets/Screenshot 2025-08-14 at 3.21.41 PM.png" alt="" data-size="line"> to open the editor for that task. This will display the Jinja, which can be copied and pasted as needed.
+3. Click **Test** and execute the workflow. This will execute all the tasks on your canvas and display a confirmation message at the top of your screen.
+4. Click **View Results** <img src="../../../.gitbook/assets/Screenshot 2025-08-15 at 10.31.06 AM.png" alt="" data-size="line">to launch the results in a new tab of your browser.
+5. Click **Load Context**.
+6. Click on each of the numbered sets in the **{}** brackets.&#x20;
+7. Click each **...** in every set of brackets to expand and view the Jinja.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-08-14 at 3.21.27 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/jinja examples context gif.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
