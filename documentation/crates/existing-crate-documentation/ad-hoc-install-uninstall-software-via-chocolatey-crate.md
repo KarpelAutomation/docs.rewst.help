@@ -40,14 +40,17 @@ This Crate focuses on simplifying common software management tasks, but doesn't 
 
 ### Test the Crate
 
-1. Open the **\[ROC] RMM- Install Chocolatey Package** form
-2. In the workflow form, select the following:
+1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+2. Search for `[ROC] RMM- Install Chocolatey Package`.
+3. Click **⋮> Usages > View Direct URLs.**
+4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
+5. In the workflow form, select the following:
    1. Action type - Install or Uninstall
    2. Client
    3. Target device or devices
    4. Software package name
-3. Click **Submit** to run the workflow. The workflow will run and automatically add notes to your PSA with the results of the software operation.
-4. Verify that the software has been successfully installed or uninstalled on the target device.
+6. Click **Submit** to run the workflow. The workflow will run and automatically add notes to your PSA with the results of the software operation.
+7. Verify that the software has been successfully installed or uninstalled on the target device.
 
 ## Troubleshoot the Ad-Hoc Install/Uninstall Software via Chocolatey Crate
 
