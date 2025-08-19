@@ -85,10 +85,10 @@ If you haven't done so already, we recommended that you run the [Configure Organ
 * `superops_client_id`
 * `superops_site_id`
 * `time_entry_ticket_status`
-* `user_offboard_form_default_trigger_id`
-* `user_offboard_form_name`
-* `psa_offboarding_user_ticket_type`
-* `psa_offboarding_user_ticket_subtype`
+* `user_onboard_form_default_trigger_id` - set this variable to the value of a trigger ID of the form you want added to the ticket note
+* `user_onboard_form_name`
+* `psa_new_user_ticket_type`
+* `psa_new_user_ticket_subtype`
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

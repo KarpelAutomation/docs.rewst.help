@@ -4,6 +4,8 @@
 
 <summary>August 2025</summary>
 
+[august-15-2025-how-msps-are-using-ai-for-automation-today.md](august-15-2025-how-msps-are-using-ai-for-automation-today.md "mention")
+
 [august-8-2025-automating-license-purchase-requests-via-teams.md](august-8-2025-automating-license-purchase-requests-via-teams.md "mention")
 
 [august-1-2025.md](august-1-2025.md "mention")

@@ -51,33 +51,33 @@ Organization variables not found in our standard organization variables document
 If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](configure-organization-variables.md), which will help you set org variables that are relevant to you and your customer's environments.
 {% endhint %}
 
-* cw\_manage\_company\_id
-* datto\_bill\_ticket\_time
-* datto\_note\_type
-* default\_psa
-* default\_ticket\_subcause
-* no\_ticket\_time
-* psa\_all\_notes\_internal
-* psa\_default\_tech\_id
-* psa\_default\_tech\_workrole
-* psa\_default\_tech\_worktype
-* psa\_default\_ticket\_category
-* psa\_default\_ticket\_cause
-* psa\_default\_ticket\_status
-* psa\_default\_ticket\_subcategory
-* psa\_default\_ticket\_subcause
-* psa\_default\_ticket\_urgency
-* psa\_halo\_ticket\_outcome\_completed\_task
-* psa\_no\_ticket\_time
-* psa\_ticket\_status\_completed\_task
-* psa\_ticket\_status\_waiting\_input
-* superops\_client\_id
-* superops\_site\_id
-* time\_entry\_ticket\_status
-* user\_offboard\_form\_default\_trigger\_id
-* user\_offboard\_form\_name
-* psa\_offboarding\_user\_ticket\_type
-* psa\_offboarding\_user\_ticket\_subtype
+* `cw_manage_company_id`
+* `datto_bill_ticket_time`
+* `datto_note_type`
+* `default_psa`
+* `default_ticket_subcause`
+* `no_ticket_time`
+* `psa_all_notes_internal`
+* `psa_default_tech_id`
+* `psa_default_tech_workrole`
+* `psa_default_tech_worktype`
+* `psa_default_ticket_category`
+* `psa_default_ticket_cause`
+* `psa_default_ticket_status`
+* `psa_default_ticket_subcategory`
+* `psa_default_ticket_subcause`
+* `psa_default_ticket_urgency`
+* `psa_halo_ticket_outcome_completed_task`
+* `psa_no_ticket_time`
+* `psa_ticket_status_completed_task`
+* `psa_ticket_status_waiting_input`
+* `superops_client_id`
+* `superops_site_id`
+* `time_entry_ticket_status`
+* `user_offboard_form_default_trigger_id` - set to the value of a trigger ID of the form you want added to the ticket note
+* `user_offboard_form_name`
+* `psa_offboarding_user_ticket_type`
+* `psa_offboarding_user_ticket_subtype`
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

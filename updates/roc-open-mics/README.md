@@ -29,25 +29,26 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/6YMWdYgDInQ" %}
+{% embed url="https://youtu.be/MjaWJf2e2eU" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 Aaron opens the session with reminders about asking questions and stresses curiosity as key to automation success.
-* 🛠️ Ashe returns from vacation and hands over to Frank for the product update.
-* 📦 Frank shares integration fixes, dashboard improvements, upcoming features, and AI-related enhancements.
-* 🛍️ Jesse delivers the marketplace update, covering bug fixes, crate enhancements, and upcoming workflows.
-* 👶 Clea gives certifications shoutouts, announces a new onboarding course, and shares CluckU updates.
-* 📅 George announces upcoming events, a Halo PSA webinar, and reveals the winner of the International Cat Day contest.
-* 🐱 Dave demos his first workflow for automating license purchase requests via Teams, with built-in checks and database tracking.
-* 🌍 Emmitt showcases a workflow to automate adding Layer 7 rules to Moroi firewalls with verification and GIF-based prompts.
-* 💻 Rod explains using PowerShell Universal APIs to run scripts and SQL queries locally for more reliable on-prem automation.
-* 📡 Daniel presents a Moroi webhook-based workflow for handling multiple network alerts with customizable responses.
-* 🤖 Reed demonstrates an AI agent integrated with Rewst workflows for dynamic function execution and data retrieval.
-* 🧩 Daniel and the team discuss MCP triggers for connecting AI agents to Rewst automations.
-* 👋 Closing remarks thank presenters and encourage more community members to share their workflows.
+* 🎤 Aharon introduces the weekly open mic, explains its technical nature, and emphasizes the importance of asking questions for success in automation.
+* 📢 Ashe notes George is on vacation and transitions to Danial for product and dev updates.
+* 🛠️ Danial shares bug fixes, app builder improvements, and previews Robo Roosti’s completion handler feature with documentation links.
+* ⚡ Aharon highlights major performance improvements thanks to backend engine optimizations.
+* 🛍️ JP presents the marketplace update, releasing the "Rotate Account Password" crate and discussing customization options.
+* 📚 Clea announces new training courses, updated documentation, certifications, and gamified CluckU features before heading out on vacation.
+* 👨‍💻 Matt demonstrates an MSP Duo user onboarding workflow using child account APIs and HMAC signatures to streamline processes.
+* 🔧 Austin showcases a form-driven Active Directory update workflow with PowerShell logging before/after values for attributes.
+* 🤖 Will presents an agentic AI workflow in Slack that orchestrates multiple specialized agents, generates reports, and explores future integrations.
+* 💬 Community members discuss use cases for AI, MCP triggers, and integrating chat interfaces with Rewst for automation.
+* 📝 Emmitt demonstrates a workflow that automatically generates SOPs with AI and emails them as documentation.
+* 🚦 Aharon gives a humorous “traffic report” while critiquing school pickup lines and recycling habits.
+* ⚠️ Members raise awareness about serious vulnerabilities in N-central, emphasizing urgent patching and MFA protection.
+* 👋 The session closes with thanks to first-time presenters and encouragement for future demos.
 
 </details>
 
