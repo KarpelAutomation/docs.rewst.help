@@ -87,6 +87,14 @@ Agent Smith installs itself as a service. You can use PowerShell or the SC comma
 
 Agent Smith installs itself as a service. You can use `systemd` and `bash` to stop and remove the service file. Application logs and data are installed in `/etc/rewst_remote_agent` folders. Application program files are in `/usr/local/bin/rewst_remote_agent` folders.
 
+## Use custom PowerShell scripts with Agent Smith
+
+Agent Smith allows PowerShell scripts to be passed via API. To report the script back to Rewst, you'lll need to add a manual webhook action. We recommend using the run PowerShell script subworkflow to handle this for you and if using custom scripts you will need to add this to bottom to ensure the call back to Rewst is made.
+
+```
+$postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8
+```
+
 ## Troubleshoot Agent Smith
 
 * Ensure admin-level account setup, so the service will install as SYSTEM.

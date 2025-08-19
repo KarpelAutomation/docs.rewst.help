@@ -94,6 +94,25 @@ Copy the API Key, API Secret, and Datto RMM Server for your new API user. Store 
 Please note that Datto Quick Jobs can take 10 - 30 minutes to execute. To speed this up, you can either use BYOD to speed up form load time. You can find more information here: [byod-for-dattormm.md](byod-for-dattormm.md "mention")
 {% endhint %}
 
+## Use custom PowerShell scripts with your RMM integration
+
+If you're writing custom PowerShell scripts to use and be run with your RMM integration, you'll need to manually add webhook calls. Any custom script will time out if used without first adding the webhook calls. The use of standard built-in Rewst scripts with your RMM does not require you to add the calls.
+
+* The webhook calls everyone doing this custom scripting should use will always be as follows.
+
+```
+`
+
+### Send all the data back to RewstyRewst ###
+
+
+
+$postData = $PS_Results | ConvertTo-Json
+
+Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
+`
+```
+
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}

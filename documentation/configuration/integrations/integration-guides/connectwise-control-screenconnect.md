@@ -73,6 +73,14 @@ This will then result in a failed authentication against the user set in the int
 This is most commonly seen in cases where a workflow is scheduled to run across multiple computers at multiple orgs for a customer.&#x20;
 {% endhint %}
 
+## Use custom PowerShell scripts with your RMM integration
+
+This brand of RMM allows PowerShell scripts to be passed via API. To report the script back to Rewst, you'lll need to add a manual webhook action. We recommend using the run PowerShell script subworkflow to handle this for you and if using custom scripts you will need to add this to bottom to ensure the call back to Rewst is made.
+
+```
+$postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8
+```
+
 ## Troubleshoot the ConnectWise ScreenConnect integration
 
 ### Failed to refresh options: Error failed to get sessions

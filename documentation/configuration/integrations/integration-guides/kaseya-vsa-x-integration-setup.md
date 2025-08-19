@@ -15,7 +15,7 @@ Our Kaseya VSA X integration enables automation of remote monitoring and managem
 1. Log in to the Kaseya VSA X Admin Console. You will need to have administrator privileges to create API tokens.
 2. Navigate **Administration > Server Admin > Overview**. \
    \
-   <img src="../../../../../../.gitbook/assets/Screenshot 2025-05-05 at 3.59.33 PM.png" alt="" data-size="original">
+   <img src="../../../../.gitbook/assets/Screenshot 2025-05-05 at 3.59.33 PM.png" alt="" data-size="original">
 3. Copy the **Name** under the **Server Information** submenu.
 4. Paste the copied name value into the `hostname` parameter field IN REWST?
 5. Navigate to **Administration > Configuration > API Access**.
@@ -33,7 +33,7 @@ Our Kaseya VSA X integration enables automation of remote monitoring and managem
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Kaseya VSA X` in the integrations page.\
    \
-   ![](<../../../../../../.gitbook/assets/Screenshot 2025-05-05 at 3.48.06 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-05 at 3.48.06 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**, enter the information copied from Kaseya into the relevant fields:
    1. **Hostname**: Kaseya VSA X server hostname, e.g. `example.kaseyalab.com`
@@ -53,7 +53,7 @@ Our Kaseya VSA X integration enables automation of remote monitoring and managem
 
 3. Create a script called `Run Powershell (Rewst)` with the inputs `post_url` and `script_url`:
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot 2024-09-09 at 2.44.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-09-09 at 2.44.05 PM.png" alt=""><figcaption></figcaption></figure>
 
 and the contents:
 
@@ -70,6 +70,25 @@ Optionally, reduce API calls to Kaseya by setting an org var called `kaseya_vsa_
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
+
+## Use custom PowerShell scripts with your RMM integration
+
+If you're writing custom PowerShell scripts to use and be run with your RMM integration, you'll need to manually add webhook calls. Any custom script will time out if used without first adding the webhook calls. The use of standard built-in Rewst scripts with your RMM does not require you to add the calls.
+
+* The webhook calls everyone doing this custom scripting should use will always be as follows.
+
+```
+`
+
+### Send all the data back to RewstyRewst ###
+
+
+
+$postData = $PS_Results | ConvertTo-Json
+
+Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
+`
+```
 
 ## Actions and endpoints
 

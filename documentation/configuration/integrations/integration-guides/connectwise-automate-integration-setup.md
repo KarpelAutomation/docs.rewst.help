@@ -31,17 +31,17 @@ To create a new ConnectWise Automate integration, you'll need to create a system
 5.  Set the **First Name**, **Last Name**, **Email**, **User Name**, and **Password**. \
 
 
-    <figure><img src="../../../../../.gitbook/assets/2023-09-13_14-04-24.png" alt=""><figcaption><p>Our recommended setup information for the user</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/2023-09-13_14-04-24.png" alt=""><figcaption><p>Our recommended setup information for the user</p></figcaption></figure>
 6. **Click** the **User Classes** tab.
 7. Click **Edit User Classes**.&#x20;
 8. Select the **Rewst Automation** user class you configured earlier.
 
-<figure><img src="../../../../../.gitbook/assets/2023-09-13_14-06-21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2023-09-13_14-06-21.png" alt=""><figcaption></figcaption></figure>
 
 8. Check the **Integrator** box at the bottom.&#x20;
 9. Click **Save**.
 
-<figure><img src="../../../../../.gitbook/assets/2023-09-13_14-07-16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2023-09-13_14-07-16.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 If you have completed these steps and customers are not showing up when refreshing options, this is a permission issue. validate that you performed the steps above, and check to ensure the user class has access to customers.&#x20;
@@ -52,7 +52,7 @@ If you have completed these steps and customers are not showing up when refreshi
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `ConnectWise Automate` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-06 at 12.00.32 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-06 at 12.00.32 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**, enter the following information from ConnectWise Automate into the relevant fields:
    1. **Hostname**
@@ -66,6 +66,14 @@ If you have completed these steps and customers are not showing up when refreshi
 {% hint style="info" %}
 Note that if you have IP address restrictions in place, you'll need to add the Rewst IP to your allowed list. The IP for Rewst is 3.139.170.31.
 {% endhint %}
+
+## Use custom PowerShell scripts with your RMM integration
+
+This brand of RMM allows PowerShell scripts to be passed via API. To report the script back to Rewst, you'lll need to add a manual webhook action. We recommend using the run PowerShell script subworkflow to handle this for you and if using custom scripts you will need to add this to bottom to ensure the call back to Rewst is made.
+
+```
+$postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8
+```
 
 ## Least privilege access guide for ConnectWise Automate integration
 

@@ -82,7 +82,7 @@ iex $commands
 6. Click **Save Configuration**.
 7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-## Test the Integration
+## Test the integration
 
 Once you’ve [mapped your customers](https://docs.rewst.help/documentation/integrations/general/organization-mapping#what-is-organization-mapping), test the integration by following the steps below.
 
@@ -107,6 +107,14 @@ Once you’ve [mapped your customers](https://docs.rewst.help/documentation/inte
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
+
+## Use custom PowerShell scripts with your RMM integration
+
+This brand of RMM allows PowerShell scripts to be passed via API. To report the script back to Rewst, you'lll need to add a manual webhook action. We recommend using the run PowerShell script subworkflow to handle this for you and if using custom scripts you will need to add this to bottom to ensure the call back to Rewst is made.
+
+```
+$postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8
+```
 
 ## Crates related to the NinjaOne integration
 

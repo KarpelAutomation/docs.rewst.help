@@ -106,6 +106,25 @@ To complete all the needed script setup steps in N-able N-central, you'll need t
 The org variable is only currently required as there is no way to search for a script with the existing API endpoints.
 {% endhint %}
 
+## Use custom PowerShell scripts with your RMM integration
+
+If you're writing custom PowerShell scripts to use and be run with your RMM integration, you'll need to manually add webhook calls. Any custom script will time out if used without first adding the webhook calls. The use of standard built-in Rewst scripts with your RMM does not require you to add the calls.
+
+* The webhook calls everyone doing this custom scripting should use will always be as follows.
+
+```
+`
+
+### Send all the data back to RewstyRewst ###
+
+
+
+$postData = $PS_Results | ConvertTo-Json
+
+Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
+`
+```
+
 ## Test the integration
 
 1. Navigate to **Automation > Workflows** in Rewst.
