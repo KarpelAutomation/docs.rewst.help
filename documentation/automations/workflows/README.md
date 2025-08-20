@@ -61,6 +61,10 @@ The list of workflows that appears in the center of your screen will include bot
 
 Once you create a workflow, you'll be taken to the [_workflow builder_](workflow-builder-how-to-set-up-a-workflow.md), a canvas for assembling your workflows. See our documentation for how to use the workflow builder [here](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
 
+## Synced versus unsynced workflows
+
+Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and synronization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
+
 ## View specific workflow results
 
 The general results page will show you the results of every workflow that has run in your organization. Apply a date range filter to view execution results from a specific time period, up to 30 days prior.

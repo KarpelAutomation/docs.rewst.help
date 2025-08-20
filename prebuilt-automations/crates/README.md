@@ -71,11 +71,39 @@ After unpacking a Crate, always check its performance to ensure it's functioning
 
 ## Synced versus unsynced Crates
 
-When you unpack a Crate, you’re creating synced clones of the Crate components for your own use. Crates are maintained and updated by the Rewst team. When something in the underlying technology changes, your Crate seamlessly keeps working, as long as it’s synced.
+When you unpack a Crate, you’re creating synchronized clones of the Crate components for your own use. Crates are maintained and updated by the Rewst team. When something in the underlying technology changes, your Crate seamlessly keeps working, as long as it’s synced. This minimizes your overhead and ensures that you're always using the latest, most stable version.
 
-By default, all Crates are synced when you unpack them. However, you have the option to unsync a Crate after you unpack it. If you unsync a Crate, you’ll be responsible for updating it on your own, and won’t benefit from the automatic maintenance of synced Crates. Unsyncing a crate does allow you to customize the contents of that Crate, such as altered triggers or workflows, to better suit your particular business needs.
+By default, all Crates are synced when you unpack them. However, you have the option to unsync a Crate after you unpack it. If you unsync a Crate, you’ll be responsible for updating it on your own, and won’t benefit from the automatic maintenance of synced Crates. Unsyncing a Crate does allow you to customize the contents of that Crate, such as altered triggers or workflows, to better suit your particular business needs.
 
 We recommend starting out with synced Crates only until you’ve completed all of your Rewst training in Cluck University.
+
+### Why modify Crates?
+
+Modifying a Crate allows you to:
+
+* **Add functionality**: Insert steps before or after the main workflow to meet unique requirements.
+* **Simplify**: Remove unnecessary actions from a crate.
+* **Build upon the original design**: Use crates as a base for more complex automations.
+* **Orchestrate**: Integrate crates as sub-workflows into broader workflows.
+* **Adapt triggers/forms**: Customize user input experiences without affecting the core automation.
+
+### How to tell if a workflow is synced and from a Crate
+
+* The left-side panel shows no editable actions when you are viewing the workflow. Instead, it contains a message letting you know it's cloned and synchronized.
+* A warning appears when testing the workflow: **This workflow is synchronized. No changes will be saved.**
+* The **Is synchronized** box will be checked in the workflow settings menu. Additionally, view the status in the **Attributes** column of the main workflow list page. Synced workflows will be listed as **Clone (sync)**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-21 at 5.47.05 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-21 at 5.45.04 PM.png" alt=""><figcaption><p>The <strong>Is Synchronized</strong> box, in a synced workflow</p></figcaption></figure>
+
+### Sync or unsync sub-workflows in a Crate
+
+Unsyncing a top level workflow doesn't affect the subworkflows inside it. They remain synced unless you unsync them individually. However, if you unsync a subworkflow and leave the top level synced, future updates to the crate will overwrite your changes. To avoid this, also unsync the parent workflow.
+
+{% hint style="info" %}
+[Completion handlers](../../documentation/automations/workflows/completion-handlers-and-workflow-wrappers.md) are a great, useful way to keep Crates synced while expanding functionality.
+{% endhint %}
 
 ## Crate state and maturity
 
