@@ -26,7 +26,7 @@ If your YAML string contains multiple documents you should process them individu
 
 <details>
 
-<summary>Example: Parsing a YAML string</summary>
+<summary>Example: Parse a YAML string</summary>
 
 **YAML input**:
 
@@ -59,8 +59,6 @@ workflows:
 </details>
 
 ## Results output
-
-Result of example:
 
 ```json
 {

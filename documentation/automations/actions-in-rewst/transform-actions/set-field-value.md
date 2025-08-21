@@ -129,7 +129,7 @@ field_actions:
 
 </details>
 
-## Results output
+### Results output
 
 After all these examples are performed in the transformation, your newly updated list would reflect these changes in their outputted results as such:
 
