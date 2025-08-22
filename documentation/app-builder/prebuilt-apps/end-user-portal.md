@@ -1,7 +1,7 @@
-# End user portal
+# App Builder Prebuilt Apps: End user portal
 
-{% hint style="warning" %}
-End user portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
+{% hint style="info" %}
+End user portals, like all Prebuilt Apps, are available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
 {% endhint %}
 
 The _end user portal_ is built around self-service automation, letting you manage tasks independently while still maintaining the ability to log tickets for more complex needs. With 24/7 access to essential automations, this portal reduces reliance on service desk calls and streamlines operations for both you and your end users.
@@ -44,10 +44,6 @@ As a bonus, you can customize your End User Portal by unpacking our App Builder 
 
 * Apply consistent branding across all apps
 * Input hex codes, upload logos, and select themes to apply at the MSP or client level
-
-### Feedback
-
-You tell us what comes next! If you're a current user of our End User Portal, send us your feedback on current features, desired features, and any bugs you encounter in [this feedback collection form](https://forms.office.com/Pages/ResponsePage.aspx?id=VtqdWutbQEiD4Zr8GtojiJFelL-3rz1JvOPdoNrnRFRUNTg4VEdSUEdCS0c2TTU4U0tOVFBXR0ZCOC4u\&origin=Invitation\&channel=0).
 
 
 

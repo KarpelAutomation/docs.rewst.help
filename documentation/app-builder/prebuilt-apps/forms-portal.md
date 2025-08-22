@@ -1,7 +1,7 @@
-# Forms portal
+# App Builder Prebuilt Apps: Forms portal
 
-{% hint style="warning" %}
-Forms portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
+{% hint style="info" %}
+Forms portals, like all Prebuilt Apps, are available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
 {% endhint %}
 
 The _forms portal_ provides a centralized hub for users to access and manage forms. It includes powerful search and filtering options on the table component itself, allowing you to quickly navigate to the forms you need, all in one convenient location.
@@ -23,10 +23,4 @@ As a bonus, you can customize your Forms Portal by unpacking our App Builder - C
 
 * Apply consistent branding across all apps
 * Input hex codes, upload logos, and select themes to apply at the MSP or client level
-
-### What's next for Forms Portal?
-
-You tell us! If you're a current user of our Forms Portal, send us your feedback on current features, desired features, and any bugs you encounter in [this feedback collection form](https://forms.office.com/Pages/ResponsePage.aspx?id=VtqdWutbQEiD4Zr8GtojiJFelL-3rz1JvOPdoNrnRFRUNTg4VEdSUEdCS0c2TTU4U0tOVFBXR0ZCOC4u\&origin=Invitation\&channel=0).
-
-***
 

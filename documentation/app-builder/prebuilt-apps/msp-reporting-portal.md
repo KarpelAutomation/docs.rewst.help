@@ -1,7 +1,7 @@
-# Operational analytics reporting portal
+# App Builder Prebuilt Apps: Operational analytics reporting portal
 
-{% hint style="warning" %}
-MSP reporting portals, like all Prebuilt Apps, are currently available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
+{% hint style="info" %}
+MSP reporting portals, like all Prebuilt Apps, are available by request only. To request Prebuilt Apps, send us a message in your dedicated Discord support channel.
 {% endhint %}
 
 The _operational analytics reporting portal_ offers powerful reporting capabilities with insights into devices and service trends. Tailored to integrate seamlessly with your Rewst workflows and PSA data, this portal simplifies operational analytics to keep your business efficient and informed.
@@ -34,10 +34,6 @@ As a bonus, you can customize your Operational Analytics Reporting Portal by unp
 
 * Apply consistent branding across all apps
 * Input hex codes, upload logos, and select themes to apply at the MSP or client level
-
-### Feedback
-
-You tell us what comes next! If you're a current user of our MSP reporting portal, send us your feedback on current features, desired features, and any bugs you encounter in [this feedback collection form](https://forms.office.com/Pages/ResponsePage.aspx?id=VtqdWutbQEiD4Zr8GtojiJFelL-3rz1JvOPdoNrnRFRUNTg4VEdSUEdCS0c2TTU4U0tOVFBXR0ZCOC4u\&origin=Invitation\&channel=0).
 
 
 

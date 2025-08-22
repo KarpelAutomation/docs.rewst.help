@@ -1,4 +1,4 @@
-# Domains
+# App Builder: Domains
 
 Understanding how to configure subdomains and manage custom subdomains is key to making your apps accessible to the world.
 
@@ -45,12 +45,10 @@ Let's say your organization slug is `myorg` and your custom subdomain is `app1`.
 
 Custom subdomains provide a branded and personalized touch to your apps. It makes them easily identifiable and memorable for your users. Whether you're representing a business, project, or personal endeavor, a custom subdomain adds a professional touch to your online presence.
 
-### Custom domain support
+### Custom domain support and creation guidelines
 
-Rewst offers custom domain support, allowing you to use your own domain name for your Rewst-hosted apps. Stay tuned for updates on this feature.
+Rewst offers custom domain support, allowing you to use your own domain name for your Rewst-hosted apps. Ensure that your custom subdomains comply with Rewst's guidelines and any applicable legal or branding standards. Abusive or inappropriate subdomains may be subject to action by Rewst.
 
-### Important note
-
-Ensure that your custom subdomains comply with Rewst's guidelines and any applicable legal or branding standards. Abusive or inappropriate subdomains may be subject to action by Rewst.
-
-Now that you understand how to configure subdomains, go ahead and give your apps a unique online address! If you have any questions or encounter issues, feel free to reach out to Rewst support. Happy app building! 🚀
+{% hint style="info" %}
+If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
+{% endhint %}

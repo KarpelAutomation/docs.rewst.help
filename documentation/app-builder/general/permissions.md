@@ -1,36 +1,37 @@
-# Permissions
+# App Builder: Permissions
 
-By default, users with Admin and Member roles have access to App Builder.&#x20;
+{% hint style="info" %}
+By default, users with Rewst Admin and Member roles have access to to the App Builder feature in Rewst.
 
-#### App permissions
-
-1. **Navigate to the App Page**: If you've created an app, find the app you want to manage in the Apps Table.
-2. **Click the Three Dots**: Look for the three dots next to your app. Click on them for more options.
-3. **Select "Permission"**: A modal will appear where you can manage who has access.
-4. **Choose Roles and Organizations**: Pick the roles and organizations that should have access to your live app.
-5. **Save Changes**: Don't forget to save your changes!
-
-#### Page permissions
-
-1. **Open an App to get to the Pages table**: Locate the specific page you want to manage in the Pages Table.
-2. **Click the Three Dots**: Just like with apps, click on the three dots next to your page.
-3. **Choose "Permission"**: This will open the permission settings for that particular page.
-4. **Pick Roles and Organizations**: Select the roles and organizations that you want to grant access to for this page.
-5. **Save Your Settings**: Make sure to save your changes so they take effect.
-
-### What are roles and organizations?
-
-#### Roles
-
-_Roles_ are like groups that define what someone can do. For example, you might have a role for "Editors" who can modify content and another role for "Viewers" who can only see things. When you assign a role to a user, they inherit the permissions that come with that role.
-
-#### Organizations
-
-_Organizations_ are larger groups that might include multiple users. When you grant permissions to an organization, everyone in that organization gets the specified access.
-
-### Why set permissions?
+Roles and permissions for App Builder follow the general role and permission guidance for Rewst for more information on what those roles and permissions are, see our documentation [here](../../settings/roles.md).
+{% endhint %}
 
 Setting permissions ensures that only the right people have access to your apps and pages. It's like putting up a virtual fence, allowing you to control who can view or edit your work.
 
-Remember, managing permissions is a powerful way to keep things organized and secure in App Builder. If you ever need to change access, just revisit the permission settings and adjust them accordingly.
+## Update App Builder app permissions
 
+1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
+2. Locate the app you want to edit permissions for in your app list.
+3.  Click **⋮ > Permissions** next to the app. \
+
+
+    <div align="left"><figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 5.20.42 PM.png" alt="" width="137"><figcaption></figcaption></figure></div>
+4. Use the drop-down selectors to choose the roles and organizations that should have access to your live app.\
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2025-08-21 at 5.36.01 PM.png>)
+5. Click **Update**.
+
+## App Builder page permissions
+
+1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
+2. Locate the app you want to edit permissions for in your app list and click on it.
+3. Find your desired page in the **Pages** list of the App Builder
+4. Click **⋮** to the right of your app.
+5. Click **Permissions**.
+6. This will open the permission settings for that particular page.
+7. Use the drop-down selectors to choose the roles and organizations that should have access to your page.
+8. Click **Update**.
+
+{% hint style="info" %}
+If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
+{% endhint %}

@@ -1,10 +1,10 @@
-# Get started with App Builder
+# App Builder: Overview of how to create an app
 
 {% hint style="info" %}
-As an example, we'll show you how to create a simple Hello World in App Builder. If you need help with App Builder and your issue isn't resolved by our documentation, reach out to Rewst in your dedicated Discord support channel.
+App Builder lets you build a wide variety of front-end web content to work on top of your Rewst automations. As an example, we'll show you how to create a simple Hello World in App Builder. If you need help with App Builder and your issue isn't resolved by our documentation, reach out to Rewst in your dedicated Discord support channel.
 {% endhint %}
 
-## Create an app
+## How to create an App Builder app
 
 1. In Rewst, navigate to **App Builder > Apps**.
 2.  Click **Create New App**.\
@@ -19,10 +19,9 @@ As an example, we'll show you how to create a simple Hello World in App Builder.
     <figure><img src="../../.gitbook/assets/test 2-min.png" alt=""><figcaption></figcaption></figure>
 4. Click **Create**.
 
-## Create a page in an app
+## Create a page in an App Builder app
 
-&#x20;1\. Navigate to the newly created app by clicking on it in your **Apps** list. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Every app you create will have both a **home** and **login** page.  Both are customizable.\
-\
+1. Navigate to the newly created app by clicking on it in your **Apps** list. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Each app you create will have both a **home** and **login** page.  Both are customizable. Note that you can only have one home and one login page per app. For more on App Builder pages, see our pages documentation [here](general/manage-your-pages.md).\
 
 
 <figure><img src="../../.gitbook/assets/test 3-min.png" alt=""><figcaption></figcaption></figure>
@@ -52,7 +51,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
 6\. Click **>** to the right of your page's record, under the **Actions** column. This will take you to the builder screen for that page.&#x20;
 
-## Create a workflow to use in your app
+## Create a workflow to use in your App Builder app
 
 ### Add workflow actions
 
@@ -159,12 +158,31 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 ## Add components to your app
 
 {% hint style="info" %}
-App Builder's component library contains many pre-built components that you can drag and drop onto the App Builder canvas. Detailed information for what each component does and how to use it in your apps can be found in individual pages, in the [components](components/ "mention") section of App Builder's documentation.
+App Builder's component library contains many pre-built components that you can drag and drop onto the App Builder canvas. Detailed information for what each component does and how to use it in your apps can be found in individual pages, in the [components.md](components.md "mention") section of App Builder's documentation.
 
-A detailed example of one such component can best be found for our [data-table.md](components/data-table.md "mention").
+A detailed example of one such component can best be found for our [Broken link](broken-reference "mention").
 {% endhint %}
 
 1. Navigate to **App Builder > Apps**. Click on your **relevant** app.&#x20;
 2. Click ![](<../../.gitbook/assets/Screenshot 2025-03-14 at 10.07.35 AM.png>) in the left side menu of the App Builder canvas. This will open the full component library.
 3. Click on any component to drag and drop it into your App Builder canvas.&#x20;
 
+## Delete an App Builder app
+
+1. Click **App Builder > Apps i**n the left side menu of your Rewst platform.
+2. Click ⋮ next to the app you wish to delete, in the table listing all your apps.
+3. Click **Delete**.\
+   ![](<../../.gitbook/assets/Screenshot 2025-08-21 at 3.16.26 PM.png>)
+4. Click **I want to delete this app**.
+5. Read through the warning message on the dialog that appears.
+6. Click **I have read and understand these effects.**&#x20;
+7. Enter the text shown on the dialog into the confirmation field.
+8. Click **Delete**. If successful, a green confirmation dialog will appear at the top center of your screen.
+
+{% hint style="danger" %}
+&#x20;Once an app is deleted, it cannot be recovered. Exercise caution before deleting an app.
+{% endhint %}
+
+{% hint style="info" %}
+If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
+{% endhint %}

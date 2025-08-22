@@ -37,7 +37,7 @@ Explore what new changes the Training team has made in the last week.
 
 * [Broken link](broken-reference "mention")pages combined.
 * [halo-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/halo-integration-setup.md "mention") pages combined.
-* [components](../../../documentation/app-builder/components/ "mention")subpages updated.
+* [components.md](../../../documentation/app-builder/components.md "mention")subpages updated.
 * [Broken link](broken-reference "mention")page updated.
 * [Broken link](broken-reference "mention") page added.
 * [tags-in-rewst.md](../../../documentation/settings/tags-in-rewst.md "mention") page added.
