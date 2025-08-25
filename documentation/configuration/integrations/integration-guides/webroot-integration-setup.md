@@ -1,49 +1,51 @@
-# Webroot integration
+# OpenText Core Endpoint Protection integration
 
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+
+Note that OpenText Core Endpoint Protection was formerly known as Webroot.
 {% endhint %}
 
-## What does the Webroot integration do?
+## What does the OpenText Core Endpoint Protection integration do?
 
-Our Webroot integration enables automation of endpoint and license management. Use the Webroot Unity API within Rewst workflows to manage sites, users, policies, endpoints, GSM console access and more.
+Our OpenText Core Endpoint Protection integration enables automation of endpoint and license management. Use the OpenText Core Endpoint Protection API within Rewst workflows to manage sites, users, policies, endpoints, GSM console access and more.
 
-### Why use the Webroot integration?
+### Why use the OpenText Core Endpoint Protection integration?
 
 * Direct management of antivirus functions within Rewst for operational efficiency
 * Enhanced security monitoring capabilities integrated into daily workflows
 * Automated reporting and alerts based on antivirus activities and findings
 
-## Set up the Webroot integration
+## Set up the OpenText Core Endpoint Protection integration
 
-### Set up steps in Webroot
+### Set up steps in OpenText Core Endpoint Protection
 
 1. Navigate to **Settings > Unity API Access**.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.24.48 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.24.48 PM.png" alt=""><figcaption></figcaption></figure>
 
 2. Click on **New**.
 3. Enter the **Name** and **Description**_**.**_
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.29.10 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.29.10 PM.png" alt=""><figcaption></figcaption></figure>
 
-4. Describe how you will use the Unity API
+4. Describe how you will use the API.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.29.26 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.29.26 PM.png" alt=""><figcaption></figcaption></figure>
 
-5. Enter any suggestions or feedback you might have regarding the Unity API.&#x20;
+5. Enter any suggestions or feedback you might have regarding the API.&#x20;
 6. Click **Save**.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.29.36 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-13 at 4.29.36 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. In the integrations page, search for the `Webroot` integration.\
+2. In the integrations page, search for the `OpenText Core Endpoint Protection` integration.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-06 at 12.29.38 PM.png>)\
+   ![](<../../../../.gitbook/assets/Screenshot 2025-08-25 at 10.11.15 AM.png>)\
 
 3. Click on the integration tile to launch the Configuration setup page.
 4. Under **Configuration**:
@@ -54,8 +56,11 @@ Our Webroot integration enables automation of endpoint and license management. U
    1. Enter your Cove username in the **Client ID** field.
    2. Enter your client secret in the **Client Secret** field.
    3. Enter the parent key code in the **Parent Key Code** field.
-   4. Enter the password of the user from your Webroot account into the **Password** field.
-   5. Enter the username of the user from your Webroot account into the **Username** field.
+   4. Enter the password of the user from your OpenText account into the **Password** field.
+   5.  Enter the username of the user from your OpenText account into the **Username** field.\
+
+
+       <figure><img src="../../../../.gitbook/assets/Screenshot 2025-08-25 at 10.13.51 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Save Configuration**.
 7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 

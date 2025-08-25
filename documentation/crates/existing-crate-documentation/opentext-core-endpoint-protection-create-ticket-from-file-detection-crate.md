@@ -16,7 +16,7 @@ Ticket information includes:
 
 ### Crate prerequisites
 
-The [Webroot integration](../../configuration/integrations/integration-guides/webroot-integration-setup.md) must be successfully set up in Rewst before unpacking this Crate.\
+The [OpenText Core Endpoint Protection](../../configuration/integrations/integration-guides/webroot-integration-setup.md) integration must be successfully set up in Rewst before unpacking this Crate.\
 
 
 ### Unpack the OpenText Core Endpoint Protection: Create Ticket from File Detection Crate

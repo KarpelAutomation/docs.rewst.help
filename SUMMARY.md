@@ -363,7 +363,7 @@
       * [TD Synnex StreamOne Ion integration](documentation/configuration/integrations/integration-guides/td-synnex-streamone-ion-integration.md)
       * [Traceless integration](documentation/configuration/integrations/integration-guides/traceless-integration.md)
       * [Twilio integration](documentation/configuration/integrations/integration-guides/twilio-integration-setup.md)
-      * [Webroot integration](documentation/configuration/integrations/integration-guides/webroot-integration-setup.md)
+      * [OpenText Core Endpoint Protection integration](documentation/configuration/integrations/integration-guides/webroot-integration-setup.md)
       * [Xero integration](documentation/configuration/integrations/integration-guides/xero-integration-setup.md)
   * [Organizations and organization variables](documentation/configuration/organization-variables.md)
 * [Rewst Tools](documentation/rewst-tools/README.md)
