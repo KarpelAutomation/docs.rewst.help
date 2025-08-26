@@ -8,6 +8,14 @@ icon: message-question
 
 Short for _Robotic Operations Center_, the ROC is Rewst’s dedicated support team, here to assist with all platform-related questions, technical guidance, and automation best practices. They're not a fit to talk about account issues or commercial needs such as contract, billing, or general relationship questions. For those, please contact your Rewst CSM.
 
+{% hint style="info" %}
+**Other Rewst employees who help**
+
+During your onboarding process, you'll be assigned an &#x61;_&#x75;tomation strategist_, or _AS_, to help you get set up. If you're experiencing issues during your onboarding process, reach out to your automation specialist as your first step.
+
+Once you're through Rewst onboarding, you'll be assigned a _customer success advisor_, or _CSA,_ for all your account needs. Reach out to your CSA for all your strategic, but not necessarily technical, questions and concerns.
+{% endhint %}
+
 ## Rewst support operating hours
 
 Our support team provides **24-hour coverage from Monday to Friday**, ensuring uninterrupted assistance across the globe. Due to our global presence, our actual coverage runs as follows:
