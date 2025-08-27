@@ -13,7 +13,7 @@ Boost your team's efficiency with our Time Savings Report Crate, designed to tur
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Time Savings Report`**.**\
    \
-   ![A field of white text on a dark blue background titled Time Savings Report. At the bottom, there are visual counters indicating 373 engagements and the Crate state of “NESTLING”.](<../../../.gitbook/assets/Screenshot 2025-05-12 at 1.41.57 PM.png>)
+   ![](<../../../.gitbook/assets/Screenshot 2025-08-26 at 2.11.01 PM.png>)
 3. Click on the Crate tile to begin unpacking.
 4. Use the drop-down selectors for each option to set your preferences for the report.&#x20;
    1. **Group Report By:** Suborg or workflow
@@ -28,6 +28,8 @@ Boost your team's efficiency with our Time Savings Report Crate, designed to tur
 ## Test the Crate
 
 This Crate will send the email at a set date and time based off of the preferences you set during the unpacking process. To force the Crate to trigger sooner, update your configuration page for the Crate to send the report every 5 minutes. Once you've confirmed that it works, update the configuration again to your desired timeline.&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-08-26 at 2.08.31 PM.png" alt=""><figcaption><p>To edit the schedule and content of the email, update your configuration settings and re-save the configuration.</p></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

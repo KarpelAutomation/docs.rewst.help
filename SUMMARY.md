@@ -418,6 +418,7 @@
   * [Sign up to present at any Open Mic](updates/roc-open-mics/sign-up-to-present-at-any-open-mic.md)
   * [Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/README.md)
     * [2025 Rewst Open Mics: North America](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/README.md)
+      * [August 22, 2025: Self Serve Portals that Turn Staff Ideas into Automations](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations.md)
       * [August 15, 2025: How MSPs Are Using AI for Automation Today](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/august-15-2025-how-msps-are-using-ai-for-automation-today.md)
       * [August 8, 2025: Automating license purchase requests via Teams](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/august-8-2025-automating-license-purchase-requests-via-teams.md)
       * [August 1, 2025: Real-time workflow context sidebar](updates/roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/august-1-2025.md)

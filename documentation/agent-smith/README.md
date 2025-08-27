@@ -9,7 +9,7 @@ icon: user-secret
 
 ## ![:agentrewsty:](https://cdn.discordapp.com/emojis/1184572742255779850.webp?size=40\&quality=lossless) Introducing Agent Smith
 
-Built with Python and leveraging Microsoft Azure IoT Hub, Agent Smith is all about keeping things fast, simple, and within your control. Agent Smith steps in to fill any gaps in your ability to execute scripts and syncs smoothly within your workflows.
+Built with [GoLang](https://go.dev/) and leveraging Microsoft Azure IoT Hub, Agent Smith is all about keeping things fast, simple, and within your control. Agent Smith steps in to fill any gaps in your ability to execute scripts and syncs smoothly within your workflows.
 
 {% hint style="success" %}
 Share feedback, and help us buff out any rough edges by [joining the early birds](https://app.rewst.io/form/018c63b6-e449-7bc7-8080-bd646bdc33eb).

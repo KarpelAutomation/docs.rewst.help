@@ -29,26 +29,20 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/MjaWJf2e2eU" %}
+{% embed url="https://youtu.be/G54spxe1i4E" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🎤 Aharon introduces the weekly open mic, explains its technical nature, and emphasizes the importance of asking questions for success in automation.
-* 📢 Ashe notes George is on vacation and transitions to Danial for product and dev updates.
-* 🛠️ Danial shares bug fixes, app builder improvements, and previews Robo Roosti’s completion handler feature with documentation links.
-* ⚡ Aharon highlights major performance improvements thanks to backend engine optimizations.
-* 🛍️ JP presents the marketplace update, releasing the "Rotate Account Password" crate and discussing customization options.
-* 📚 Clea announces new training courses, updated documentation, certifications, and gamified CluckU features before heading out on vacation.
-* 👨‍💻 Matt demonstrates an MSP Duo user onboarding workflow using child account APIs and HMAC signatures to streamline processes.
-* 🔧 Austin showcases a form-driven Active Directory update workflow with PowerShell logging before/after values for attributes.
-* 🤖 Will presents an agentic AI workflow in Slack that orchestrates multiple specialized agents, generates reports, and explores future integrations.
-* 💬 Community members discuss use cases for AI, MCP triggers, and integrating chat interfaces with Rewst for automation.
-* 📝 Emmitt demonstrates a workflow that automatically generates SOPs with AI and emails them as documentation.
-* 🚦 Aharon gives a humorous “traffic report” while critiquing school pickup lines and recycling habits.
-* ⚠️ Members raise awareness about serious vulnerabilities in N-central, emphasizing urgent patching and MFA protection.
-* 👋 The session closes with thanks to first-time presenters and encouragement for future demos.
+* 🚀 [Danial shares new transforms, improved marketplace UX, database optimization, and faster deployments.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=194s)
+* 🤖 [Dan Hayes demos the new MCP server with AI agent integrations, showing how workflows can be triggered and summarized.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=621s)
+* 🛠 [JP covers recent marketplace fixes and previews upcoming workflows like BitLocker and offboarding.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1269s)
+* 📚 [Eddie gives training updates, certification shoutouts, and highlights the AI documentation search tool.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1369s)
+* 🔁 [David demos a revamped password reset form with automated redaction, SMS/email delivery, and ticket logging.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1549s)
+* 🧩 [Josh shares how Centrics IT is launching Rewst automation with internal branding, idea intake, and project planning.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2003s)
+* 📊 [Derek showcases a fully custom idea portal inside Rewst with dashboards, SQL backend, and admin controls.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2460s)
+* 🔁 [Josh returns to show the structure of his process board and explains how they prioritize automation based on ROI and internal feedback.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2944s)
 
 </details>
 

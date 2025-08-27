@@ -33,6 +33,10 @@ Your[ PSA must be integrated](../../configuration/integrations/top-5-integration
 
 ## Use the Alert on Unused M365 Licenses Crate
 
+{% hint style="info" %}
+The workflow must first be run as the top level parent organization. Then, the workflow can be used by  child organizations.
+{% endhint %}
+
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
