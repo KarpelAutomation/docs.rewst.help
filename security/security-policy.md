@@ -90,6 +90,18 @@ It is important to note that SSL inspection or filtering performed directly on t
 
 To avoid disruption, it’s recommended to configure allowlists or bypass rules in network security systems to exclude these one-time webhook URLs from scanning, pre-fetching, or blocking.
 
+### ThreatLocker whitelisting
+
+Depending on their level of security and permissions, ThreatLocker users may also need to click the following buttons in the ThreatLocker app to allow the server to look up the DNS hostname.&#x20;
+
+1. Click **Devices**.
+2. Select the relevant row from the **Name / Operating System** column.
+3. Click **Options**.
+4. Use the drop-down selector to add **UseDNSCacheTooGetHostnames**.
+5. Click **Save**.
+
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+
 ## **Email filter considerations**
 
 In environments where Rewst webhook URLs are sent via email, such as in workflow notifications, approval requests, or alert messages, it's important to consider how email security systems interact with these links.

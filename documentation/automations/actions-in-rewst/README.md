@@ -100,7 +100,7 @@ To set this up in ThreatLocker:
 4. In the **Actions** section, click **Tags**.
 5. Add **Rewst**.
 
-This process may not be necessary if you have already [whitelisted our outgoing IP addresses](https://docs.rewst.help/security/security-policy), but it's something to consider if you run into any issues.
+This process may not be necessary if you have already [whitelisted our outgoing IP addresses](https://docs.rewst.help/security/security-policy), but it's something to consider if you run into any issues. Additional steps for whitelisting in ThreatLocker are outlined in this linked document.
 
 </details>
 
