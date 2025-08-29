@@ -4,7 +4,7 @@
 
 <summary><strong>New Crates and enhancements</strong></summary>
 
-* Rotate Account Password Crate
+* [Rotate Account Password Crate](../../../documentation/crates/existing-crate-documentation/rotate-account-passwords-crate.md)
 
 </details>
 

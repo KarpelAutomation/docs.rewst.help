@@ -1,5 +1,9 @@
 # Billing Count Report Crate
 
+{% hint style="info" %}
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
+{% endhint %}
+
 ## What does the Billing Count Report Crate do?
 
 Our Billing Count Report Crate is designed to streamline and enhance the process of compiling billing counts from various integrations. This tool iterates through multiple integrations, collects relevant billing data, and generates a comprehensive report, ensuring accuracy, efficiency, and consistency.
@@ -10,12 +14,12 @@ Streamline and aggregate billing data from multiple integrations and ensure cons
 
 ## Crate prerequisites
 
-Your [RMM integration](broken-reference) with Rewst must be set up before unpacking this Crate.
+Your [RMM integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst must be set up before unpacking this Crate.
 
 ## Unpack the Billing Count Report Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
-2. Search for the `Billing Count Report Crate`.
+2. Search for the `Billing Count Report` Crate.
 3. Click on the Crate tile to begin unpacking.
 4.  Click **Unpack Crate**.\
     \
