@@ -149,10 +149,10 @@ Note that the time zone or this field is based on your browser locale. Rewst con
 
 The _File Upload_ field allows for the uploading of specific file types:
 
-.csv\
-.xls\
-.xlsx\
-.json. \
+.CSV\
+.JSON\
+\
+If you are working with an XL or XLSX file format, [convert it to CSV ](https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)before uploading.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.24.20 AM.png>)
 
