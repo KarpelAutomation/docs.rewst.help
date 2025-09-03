@@ -29,20 +29,13 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/G54spxe1i4E" %}
+{% embed url="https://youtu.be/9v4fBv4MDFE" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🚀 [Danial shares new transforms, improved marketplace UX, database optimization, and faster deployments.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=194s)
-* 🤖 [Dan Hayes demos the new MCP server with AI agent integrations, showing how workflows can be triggered and summarized.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=621s)
-* 🛠 [JP covers recent marketplace fixes and previews upcoming workflows like BitLocker and offboarding.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1269s)
-* 📚 [Eddie gives training updates, certification shoutouts, and highlights the AI documentation search tool.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1369s)
-* 🔁 [David demos a revamped password reset form with automated redaction, SMS/email delivery, and ticket logging.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1549s)
-* 🧩 [Josh shares how Centrics IT is launching Rewst automation with internal branding, idea intake, and project planning.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2003s)
-* 📊 [Derek showcases a fully custom idea portal inside Rewst with dashboards, SQL backend, and admin controls.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2460s)
-* 🔁 [Josh returns to show the structure of his process board and explains how they prioritize automation based on ROI and internal feedback.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2944s)
+
 
 </details>
 

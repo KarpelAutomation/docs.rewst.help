@@ -35,6 +35,10 @@ This setting is used to indicate how many parent tasks need to be satisfied. For
 
 The _Run as Org_ option allows the workflow action to run in the context of another organization.
 
+{% hint style="warning" %}
+You can only run as org going from a parent organization to child organization. The workflow will fail when attempting to run as the parent organization, when the workflow is running in the child organization context.
+{% endhint %}
+
 The purpose of `Run as Org` is to temporarily pass the execution of a workflow task into the context of another organization. This is something you may see done when you have a task— be it an individual action or a subworkflow— that needs to be executed as if it were for a different org than the one the workflow is running for.&#x20;
 
 For example, if you wanted to have something run once for the parent organization that needed to also reference items for a child organization, a Run as Org option would solve this issue. Start by listing all organizations. Then, using `Run as Org` on a subworkflow, do things within that subworkflow for one or many of your managed organizations.

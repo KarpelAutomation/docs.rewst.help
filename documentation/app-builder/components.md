@@ -12,6 +12,10 @@ Each component can be fine-tuned with various settings to meet unique requiremen
 
 Click <img src="../../.gitbook/assets/Screenshot 2025-08-21 at 6.37.51 PM.png" alt="" data-size="line"> in the left side menu of your Page Builder Canvas to expose the total **Component Library** submenu.&#x20;
 
+Add any component to the canvas by clicking on it in the Component Library, dragging it, and dropping it onto the canvas. Then, click on that component on the canvas to open its configuration settings and expand the hidden right side menu.
+
+<figure><img src="../../.gitbook/assets/drag drop components.gif" alt=""><figcaption></figcaption></figure>
+
 ## App Builder components
 
 {% hint style="success" %}
@@ -50,7 +54,7 @@ Manage and organize information efficiently, particularly when users need to nav
          1. **Background**: Set the color of the component.
          2. **Text**: Set the color of the text in the component.
       5. **Margin**: Set the distance between the accordion and its surrounding components.
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.
 
 </details>
 
@@ -72,11 +76,6 @@ The button component allows you to integrate clickable buttons that trigger acti
 ### **Example use case for the button component** <a href="#example-use-case-for-the-button-component" id="example-use-case-for-the-button-component"></a>
 
 For an MSP’s internal tool that manages client device setups, a Button component labeled "Deploy Software" could be implemented. This button could initiate a rewst workflow install or update software across client systems. By simplifying complex actions into a single button click, MSPs can ensure consistent software deployments, reduce human error, and increase operational efficiency.
-
-### Add a button to your page <a href="#add-a-button-to-your-page" id="add-a-button-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Button' component in the component library, then drag and drop it onto the canvas.
 
 ### Configure the button component <a href="#configure-the-button-component" id="configure-the-button-component"></a>
 
@@ -100,7 +99,7 @@ For an MSP’s internal tool that manages client device setups, a Button compone
      * **Override Theme**: Toggle to enable\disable custom styling.
      * **Font Size**: Adjust the font size.
      * **Font Weight**: Adjust the font weight.
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.
 
 </details>
 
@@ -123,11 +122,6 @@ The image component allows you to integrate visual content into your web applica
 
 An MSP might use the Image component to enhance a tutorial page on their client portal. By incorporating screenshots and diagrams, they can visually guide clients through the steps to set up a VPN or configure email settings on various devices. This not only makes the instructions clearer and more accessible but also reduces the cognitive load on users, potentially decreasing the number of support calls and increasing client satisfaction with the self-service options provided.
 
-### Add an image to your page <a href="#add-an-image-to-your-page" id="add-an-image-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Image' component in the component library, then drag and drop it onto the canvas.
-
 ### Configure the image component <a href="#configure-the-image-component" id="configure-the-image-component"></a>
 
 1. **Select the component**: Click on the added 'Image' component to select it.
@@ -136,7 +130,7 @@ An MSP might use the Image component to enhance a tutorial page on their client 
    * **Link**: Specify the URL to which the image redirects when clicked.
    * **Open link as new tab**: Toggle to open the Link URL in a new tab.
    * **In-line styles**: Define custom CSS properties for the component.
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.
 
 </details>
 
@@ -158,11 +152,6 @@ The text component allows you to incorporate customizable text blocks into your 
 
 In a service management application, the Text component could be employed to provide detailed descriptions of each service offered, such as network security monitoring, data backup solutions, or technical support services. Each service page could feature headings, subheadings, and paragraphs that explain what the service includes, its benefits, and how clients can subscribe or inquire for more details.
 
-### Add text component to your page <a href="#add-text-component-to-your-page" id="add-text-component-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Text' component in the component library, then drag and drop it onto the canvas.
-
 ### Configure the text component <a href="#configure-the-text-component" id="configure-the-text-component"></a>
 
 1. **Select the component**: Click on the added 'Text' component to select it.
@@ -177,10 +166,7 @@ In a service management application, the Text component could be employed to pro
        * **Text**: Set the color of the text.
        * **Shadow**: Adjust the intensity of the text's shadow.
      * **Margin**: Adjust the distance between the text component and its surrounding components.
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-[\
-](https://docs.rewst.help/documentation/app-builder/components/sidebar)
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.
 
 </details>
 
@@ -195,18 +181,13 @@ The link component allows you to embed hyperlinks within your apps, enabling use
 * Navigating to different pages within the application.
 * Linking to external websites that provide additional information or resources.
 * Downloading files, such as PDFs, directly from the application.
-* Initiating email communications by linking to "mailto:" addresses, or other, URL syntax's.
+* Initiating email communications by linking to "mailto:" addresses, or other, URL syntaxes.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.22.48 AM (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Example use case for the link component** <a href="#example-use-case-for-the-link-component" id="example-use-case-for-the-link-component"></a>
 
 Consider an internal company portal where employees need to access various departments. The Link component could be used to create a central dashboard with links to each department. For instance, clicking on a "Human Resources" link might take an employee to an internal HR page where they can find forms and contact information, streamlining navigation and improving the user experience within the portal.
-
-### Add a link on your page <a href="#add-a-link-on-your-page" id="add-a-link-on-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Link' component in the component library, then drag and drop it onto the canvas.
 
 ### Configure the link component <a href="#configure-the-link-component" id="configure-the-link-component"></a>
 
@@ -236,7 +217,7 @@ Consider an internal company portal where employees need to access various depar
      * **Padding**: Adjust the size of the link, relative to its text.
    * **Decoration**
      * **Radius**: Adjust the degree of rounded appearance.
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.
 
 </details>
 
@@ -257,11 +238,6 @@ The menu component enables you to create dynamic navigation menus within your we
 ### **Example use case for the menu component** <a href="#example-use-case-for-the-menu-component" id="example-use-case-for-the-menu-component"></a>
 
 Consider an MSP that manages a complex array of IT services, including cloud storage solutions, network security, and technical support. The Menu component can be used to structure these services into a well-organized menu in the sidebar of the application. For instance, each major service category could be a menu item, with drop-downs for subcategories like FAQs, pricing, setup guides, and case studies. This organization allows clients to quickly navigate through the services, find the information they need without hassle, and understand the full range of what the MSP offers, thereby improving the user experience and engagement with the platform.
-
-### Add a menu to your page <a href="#add-a-menu-to-your-page" id="add-a-menu-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Menu' component in the component library, then drag and drop it onto the canvas.
 
 ### Configure the menu component <a href="#configure-the-menu-component" id="configure-the-menu-component"></a>
 
@@ -295,17 +271,12 @@ The container component allows you to group and organize various UI elements wit
 
 ### **Example use case for the container component** <a href="#example-use-case-for-the-container-component" id="example-use-case-for-the-container-component"></a>
 
-Imagine setting up a user profile page within an application on the App Platform. The Container component can be strategically utilized to separate information into distinct blocks, such as personal details, contact information, and account settings. Each container ensures that the elements within it, like text fields, images, and buttons, are well-organized and visually distinct from other sections. This not only improves the aesthetics but also enhances the usability of the profile page, making it easier for users to navigate and update their information efficiently.
+Imagine setting up a user profile page within an application on the App Builder. The Container component can be strategically utilized to separate information into distinct blocks, such as personal details, contact information, and account settings. Each container ensures that the elements within it, like text fields, images, and buttons, are well-organized and visually distinct from other sections. This not only improves the aesthetics but also enhances the usability of the profile page, making it easier for users to navigate and update their information efficiently.
 
 ### Container versus grid container <a href="#container-versus-grid-container" id="container-versus-grid-container"></a>
 
 * **Container Component**: The Container component is a versatile element for structuring content and styling containers. It allows for flexible arrangements but does not enforce a grid structure.
-* **Grid Container Component**: The Grid Container component, on the other hand, is specifically designed to create layouts with a grid structure. It simplifies the process of aligning and organizing content in a grid format. More on the grid container component can be found [here](https://docs.rewst.help/documentation/app-builder/components/grid-container).
-
-### Add a container to your page <a href="#add-a-container-to-your-page" id="add-a-container-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Container' component in the component library, then drag and drop it onto the canvas.
+* **Grid Container Component**: The Grid Container component, on the other hand, is specifically designed to create layouts with a grid structure. It simplifies the process of aligning and organizing content in a grid format.&#x20;
 
 ### Configure the container component <a href="#configure-the-container-component" id="configure-the-container-component"></a>
 
@@ -328,10 +299,7 @@ Imagine setting up a user profile page within an application on the App Platform
      * **Fill Space**: Toggle to make the container fill all available space.
      * **Align Items:** Align the container's flex items on the cross-axis and main-axis
      * **Justify Content**: Align the container's flex items on the cross-axis and main-axis
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-[\
-](https://docs.rewst.help/documentation/app-builder/components/button)
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.
 
 </details>
 
@@ -357,27 +325,20 @@ Imagine a real estate website where property listings need to be displayed in an
 ### Grid container versus container <a href="#grid-container-versus-container" id="grid-container-versus-container"></a>
 
 * **Grid Container Component**: The Grid Container component is specifically designed to create layouts with a grid structure. It simplifies the process of aligning and organizing content in a grid format.
-* **Container Component**: The Container component, on the other hand, is a versatile element for structuring content and styling containers. It allows for flexible arrangements but does not enforce a grid structure. More on the container component can be found [here](https://docs.rewst.help/documentation/app-builder/components/container).
+* **Container Component**: The Container component, on the other hand, is a versatile element for structuring content and styling containers. It allows for flexible arrangements but does not enforce a grid structure.&#x20;
 
 ### Grid container versus grid item <a href="#grid-container-versus-grid-item" id="grid-container-versus-grid-item"></a>
 
 * **Grid Container Component**: The Grid Container acts as the foundational element of a grid layout. It defines the overall grid structure within which Grid Items are placed. It sets the framework for how the grid behaves and how items within it are aligned and distributed.
-* **Grid Item Component**: The Grid Item component is used within a Grid Container to place individual elements like text, images, buttons, etc. It represents the content blocks that fill the grid defined by the Grid Container. More on the grid item component can be found [here](https://docs.rewst.help/documentation/app-builder/components/grid-item).
-
-### Add a grid container to your page <a href="#add-a-grid-container-to-your-page" id="add-a-grid-container-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Grid Container' component in the component library, then drag and drop it onto the canvas.
+* **Grid Item Component**: The Grid Item component is used within a Grid Container to place individual elements like text, images, buttons, etc. It represents the content blocks that fill the grid defined by the Grid Container.
 
 ### Configure the grid container component <a href="#configure-the-grid-container-component" id="configure-the-grid-container-component"></a>
 
 1. **Select the component**: Click on the added 'Grid Container' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
    * **In-line styles**: Define custom CSS properties for the component.
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
-
-[PreviousForm component](https://docs.rewst.help/documentation/app-builder/components/form)[\
-](https://docs.rewst.help/documentation/app-builder/components/grid-item)
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.[\
+   ](https://docs.rewst.help/documentation/app-builder/components/grid-item)
 
 </details>
 
@@ -403,12 +364,7 @@ In a client reporting dashboard managed by an MSP, the Grid Item component could
 ### Grid item versus grid container <a href="#grid-item-versus-grid-container" id="grid-item-versus-grid-container"></a>
 
 * **Grid Item Component**: The Grid Item component is used within a Grid Container to place individual elements like text, images, buttons, etc. It represents the content blocks that fill the grid defined by the Grid Container.
-* **Grid Container Component**: The Grid Container acts as the foundational element of a grid layout. It defines the overall grid structure within which Grid Items are placed. It sets the framework for how the grid behaves and how items within it are aligned and distributed. More on the grid container component can be found [here](https://docs.rewst.help/documentation/app-builder/components/grid-container).
-
-### Add a grid item to your page <a href="#add-a-grid-item-to-your-page" id="add-a-grid-item-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Grid Item' component in the component library, then drag and drop it onto the canvas.
+* **Grid Container Component**: The Grid Container acts as the foundational element of a grid layout. It defines the overall grid structure within which Grid Items are placed. It sets the framework for how the grid behaves and how items within it are aligned and distributed.
 
 ### Configure the grid item component <a href="#configure-the-grid-item-component" id="configure-the-grid-item-component"></a>
 
@@ -438,11 +394,6 @@ The HTML container component allows you to embed custom HTML code directly into 
 
 An MSP could use the HTML Container component to enhance the support section of their client portal by embedding a real-time support ticket status widget. This widget, crafted with custom HTML and JavaScript, could connect directly to your ticketing system to display the current status of a client's support tickets, including open issues, pending actions, and resolved cases.
 
-### Add an HTML container to a page <a href="#add-an-html-container-to-a-page" id="add-an-html-container-to-a-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'HTML Container' component in the component library, then drag and drop it onto the canvas.
-
 ### Configure the HTML container component <a href="#configure-the-html-container-component" id="configure-the-html-container-component"></a>
 
 1. **Select the component**: Click on the added 'HTML Container' component to select it.
@@ -471,11 +422,6 @@ The row component allows you to organize and align content horizontally within a
 ### **Example use case for the row component** <a href="#example-use-case-for-the-row-component" id="example-use-case-for-the-row-component"></a>
 
 You could use the Row component on a service overview page to align icons or buttons that link to different IT services you offer, such as cybersecurity, cloud infrastructure, and network management. Each service could be represented by an icon and a short description in a separate row element, ensuring that the page is easy to scan and that users can quickly find the service they need. This usage not only makes the page visually attractive but also enhances user navigation and improves overall site organization.
-
-### Add a row to a page <a href="#add-a-row-to-a-page" id="add-a-row-to-a-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Row' component in the component library, then drag and drop it onto the canvas.
 
 ### Configure the row component <a href="#configure-the-row-component" id="configure-the-row-component"></a>
 
@@ -509,13 +455,6 @@ The header component allows you to design and implement top-level navigation and
 ### **Example use case for the header component** <a href="#example-use-case-for-the-header-component" id="example-use-case-for-the-header-component"></a>
 
 Consider an MSP that provides a variety of IT services and uses the App Platform to manage client interactions. The Header component can be utilized to prominently display your logo for brand recognition and include navigation links to services, support, account management, and contact pages. This setup ensures that clients can easily navigate the platform, find the information they need quickly, and have constant access to assistance, enhancing overall user satisfaction and engagement with the platform.
-
-### Add a header to your page <a href="#add-a-header-to-your-page" id="add-a-header-to-your-page"></a>
-
-Only ONE instance of the Header component can be used, per app platform page!
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Header' component in the component library, then drag and drop it onto the canvas.
 
 ### Configure the header component <a href="#configure-the-header-component" id="configure-the-header-component"></a>
 
@@ -558,13 +497,6 @@ The sidebar component allows you to create a vertical navigation menu or informa
 
 You could use the Sidebar component in a client management system to consistently provide users with access to various sections such as Dashboard, Reports, Settings, Support, and Account Information. For instance, when a user navigates to view detailed reports, the sidebar remains visible, offering the ability to quickly jump to other sections or perform actions like updating account settings or returning to the dashboard. This consistent access improves user experience by making navigation straightforward and reducing the number of steps needed to switch between different parts of the application.
 
-### Add a sidebar to your page <a href="#add-a-sidebar-to-your-page" id="add-a-sidebar-to-your-page"></a>
-
-Only ONE instance of the Sidebar component can be used, per app platform page!
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Sidebar' component in the component library, then drag and drop it onto the canvas.
-
 ### Configure the sidebar component <a href="#configure-the-sidebar-component" id="configure-the-sidebar-component"></a>
 
 1. **Select the component**: Click on the added 'Sidebar' component to select it.
@@ -598,11 +530,6 @@ The chart component allows you to group and organize various UI elements within 
 ### **Example use case for the chart component** <a href="#example-use-case-for-the-chart-component" id="example-use-case-for-the-chart-component"></a>
 
 An MSP might use the Chart component to visualize client network usage, system performance or support\ticket metrics over time. For instance, line charts could display changes in bandwidth usage or storage capacity across multiple client sites, helping you identify trends, anticipate needs, and allocate resources more effectively. This visualization aids in proactive management and enhances the strategic advising role of the MSP with their clients.
-
-### Add a chart to your page <a href="#add-a-chart-to-your-page" id="add-a-chart-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Chart' component in the component library, then drag and drop it onto the canvas.
 
 ### Configure the chart component <a href="#configure-the-chart-component" id="configure-the-chart-component"></a>
 
@@ -757,6 +684,13 @@ Change the Type to **action.**
 
 ### Automation
 
+{% hint style="info" %}
+All components in this section of the component library require you to drag a button component to your canvas before adding. Think of the button as the trigger that will kick off the workflow once clicked. Adding any of the automation components with a button is the App Builder way of creating an ad-hoc form.
+
+Whenever you add a button to a page, you'll need to choose the workflow that will execute when you click that button by selecting it from the drop-down in the right side button configuration menu. Then, go to any of the input fields for your automation component. At the bottom you'll find workflow input settings with a drop-down list of inputs you can select. That particular component will be passing the selected info into the workflow. \
+
+{% endhint %}
+
 <details>
 
 <summary>Form component</summary>
@@ -776,24 +710,19 @@ The form component allows you to present rewst forms for data entry, ensuring th
 
 Imagine an MSP that needs to onboard new clients and gather detailed information about their IT infrastructure. The Form component can be used to present an existing rewst form that clients fill out online. This form might include fields for company details, types of services required, existing hardware and software inventory, and preferred contact methods. Once submitted, the form data is automatically integrated into a rewst workflow that consumes that data, facilitating a smooth and organized onboarding process that enhances client experience and administrative efficiency.
 
-### Add a form to your page <a href="#add-a-form-to-your-page" id="add-a-form-to-your-page"></a>
-
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
-2. **Drag-and-Drop**: Locate the 'Form' component in the component library, then drag and drop it onto the canvas.
-
 ### Configure the form component <a href="#configure-the-form-component" id="configure-the-form-component"></a>
 
-1. **Select the component**: Click on the added 'Form' component to select it.
+1. **Select the component**: Click on the added **Form** component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
-   * **Form**: **S**pecify the workflow to load.
-   * **Trigger**: **S**pecify the trigger to load when loading the form.
+   * **Form**: Specify the workflow to load.
+   * **Trigger**: Specify the trigger to load when loading the form.
    * **Colors**
-     * **Mode**: Set the color mode of the form; 'Light' or 'Dark'.
+     * **Mode**: Set the color mode of the form to **Light** or **Dark**.
      * **Background**: Set the color of the component's background.
-     * **Primary**: Set the color of the component's text.
+     * **Primary:** Set the color of the component's text.
    * **Functions**
      * **Redirect on Submit**: Specify the URL to which the Submit redirects when a user once clicked.
-3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.
 
 </details>
 
@@ -818,7 +747,7 @@ In an MSP’s client management system, the text field component might be used o
 
 ### Add text field to your page <a href="#add-workflow-input-to-your-page" id="add-workflow-input-to-your-page"></a>
 
-1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
+1. **Access the Canvas**: Open the page you're working on in edit mode, in App Builder.
 2. **Drag-and-Drop**: Locate the 'Text Field' component in the component library, then drag and drop it onto the canvas.
 
 ### Configure the workflow input component <a href="#configure-the-workflow-input-component" id="configure-the-workflow-input-component"></a>
@@ -836,6 +765,92 @@ In an MSP’s client management system, the text field component might be used o
 ](https://docs.rewst.help/documentation/app-builder/components/text)
 
 </details>
+
+<details>
+
+<summary>Dropdown component</summary>
+
+The dropdown component allows you to integrate a drop-down selector, triggered by a button, that's similar to what exists in Rewst's regular form builder.
+
+### What dropdown could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
+
+* Add options
+* Link it to a workflow to get an options generator's information
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.25.41 PM.png" alt=""><figcaption></figcaption></figure>
+
+
+
+</details>
+
+<details>
+
+<summary>Number input component</summary>
+
+The number input component allows you to integrate interactive forms or fields that capture number inputs essential for triggering and controlling workflows within your web applications.
+
+### What text field could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
+
+* Gathering parameters before executing a workflow, such as specific user requirements.
+* Allowing users to initiate workflows that require real-time data, such as support ticket submissions or service requests.
+
+- Facilitating user interactions that trigger complex sequences of tasks, enhancing dynamic response capabilities.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.26.38 PM.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+</details>
+
+<details>
+
+<summary>Switch component</summary>
+
+The switch component offers an easy on-off toggle for your page. The toggle operates on a true-false logic.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.27.19 PM.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+## Custom components
+
+App Builder's custom components function as a way for you to save your own component grouping, configured in a container, to your component library for future use.&#x20;
+
+{% hint style="info" %}
+Custom components can't be deleted from your component library once created. They can be renamed.
+
+Once a custom component has been added, it will show up for you and all Rewst users in your MSP who have App Builder access.
+{% endhint %}
+
+### Create a custom component
+
+1. Drag your desired components to the canvas.
+2. Click <img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.48.10 AM.png" alt="" data-size="line"> to the right of **Container** to open the **Custom Component** dialog.\
+   \
+   ![](<../../.gitbook/assets/Screenshot 2025-09-03 at 11.47.13 AM.png>)
+3.  Enter text into the **Component Name** and **Description** fields. Note that you can rename custom component as needed, but should give them clear names that explain their intended usage. \
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.47.20 AM.png" alt=""><figcaption></figcaption></figure>
+4. Click **Submit**.
+5. Your custom component will now be viewable in the separate <img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.55.44 AM.png" alt="" data-size="line"> tab of the component library.\
+   ![](<../../.gitbook/assets/Screenshot 2025-09-03 at 11.55.26 AM.png>)
+
+
+
+### Edit custom components
+
+1. Locate your custom component in the **Custom Components** tab of your component library.
+2. Click **⋮**. This will open the **Edit Custom Component** dialog.
+3. &#x20;Note that you can change settings to your component, but not add or remove components from your original container grouping. For significant changes, you'll want to make a brand new custom component and save it to your library.
+4. Click **Submit** when changes are complete.\
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.09.04 PM.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;
 
 {% hint style="info" %}
 If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;

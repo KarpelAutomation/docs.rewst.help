@@ -35,24 +35,25 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
 
 1. Log in to your Pax8 partner account.
 2. If required, generate an API access token. Refer to Pax8's [API documentation](https://devx.pax8.com/) for detailed instructions.
-3.  Click on your user profile name in the top right of the screen and select **Integrations**.\
-    \
+3. Navigate to **Settings > Integrations > Credentials**.\
+   \
+   ![](<../../../../.gitbook/assets/Screenshot 2025-08-13 at 10.38.41 AM.png>)
+4. Click **+ Create API credential**.
+5. Enter `Rewst` into the **Name** field.\
+   \
+   ![](<../../../../.gitbook/assets/Screenshot 2025-08-13 at 10.45.24 AM.png>)
+6. Click **Create**. You’ll see a green confirmation dialog appear in the top right corner of your screen.
+7. Click ![](<../../../../.gitbook/assets/Screenshot 2025-08-13 at 10.49.47 AM.png>) to the right of your newly created credential to open the **View Developer App** dialog.
+8. Copy the Client ID and Client Secret for the credential and store them somewhere secure. You’ll need both for further setup steps in Rewst.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-08-13 at 10.47.20 AM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Once further Rewst set up steps are completed, you'll be able to see Rewst as an integrated app in Pax8 by navigating to **Settings > Integrations > Apps** and searching for `Rewst` from the total app list.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
-4.  Click Create.\
-
-
-    <figure><img src="../../../../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
-5.  Name your integration something recognizable, such as `Rewst API`.\
-    \
-
-
-    <figure><img src="../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
-6.  Copy your Client ID and Client Secret. You’ll need both to complete setup steps in Rewst.\
-
-
-    <figure><img src="../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+<p align="center"><img src="../../../../.gitbook/assets/image (74).png" alt=""></p>
+{% endhint %}
 
 ### Set up steps in Rewst
 
