@@ -106,12 +106,14 @@ $postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $
 
 ## Agent Smith Support
 
-In your Discord server, the [#agent-smith ](https://discord.com/channels/936789089703845988/1184866106482110608)channel is your first stop for help with setting up and running Agent Smith. Post your questions and share your successes for how you're using Agent Smith to save time.
+Contact the [Rewst Support Team](https://docs.rewst.help/support-and-community/roc-support) if you need help at any time!
+
+In our Discord server, the [#agent-smith ](https://discord.com/channels/936789089703845988/1184866106482110608)channel is a great place for community help with setting up and running Agent Smith. Post your questions and share your successes for how you're using Agent Smith to save time.
 
 ## Agent Smith FAQs
 
 * **Am I allowed to customize Agent Smith?**
-  * Yes, you're free to [fork and modify it](https://github.com/RewstApp/rewst_remote_agent).
+  * Yes, you're free to [fork and modify it](https://github.com/RewstApp/agent-smith-go).
 * **Will new features be added? Can you add Feature X?**
   * Our focus for Agent Smith is on simplicity. Consider adding additional functionality by writing a PowerShell script and kicking it off with a workflow.
 * **Does Rewst provide Agent Smith support for older operating systems?**
