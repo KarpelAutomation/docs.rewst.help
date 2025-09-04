@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Rewst documentatio](README.md)
+* [Welcome to Rewst documentation](README.md)
 
 ## Documentation
 
