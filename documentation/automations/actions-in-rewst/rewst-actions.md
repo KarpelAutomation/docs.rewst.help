@@ -543,3 +543,11 @@ These Rewst actions are for use with [App Builder](../../app-builder/) only.&#x2
 **Output:** Returns the updated element's details, including confirmation of the new text content.
 
 </details>
+
+<details>
+
+<summary>Generic GraphQL request action</summary>
+
+This action has its own separate documentation page [here](generic-graphql-request-action.md).&#x20;
+
+</details>
