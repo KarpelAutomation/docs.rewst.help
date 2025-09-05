@@ -83,13 +83,15 @@ variable_values:
   workflowId: "{{ CTX.workflow_id }}"
 ```
 
-## Generic GraphQL request action: Allowed operations for non-staff organizations
+## Generic GraphQL request action: Allowed operations&#x20;
 
 ### Queries
 
 #### **Action and configuration queries**
 
-**`actionOption` -** Retrieves a specific action option configuration.
+<details>
+
+<summary><strong><code>actionOption</code> -</strong> Retrieves a specific action option configuration.</summary>
 
 **GraphQL schema**
 
@@ -121,7 +123,11 @@ variable_values:
 fields: "id, optionLabel, optionValue, resourceName"
 ```
 
-**`actionOptions`**-Retrieves multiple action options with filtering and sorting.
+</details>
+
+<details>
+
+<summary><strong><code>actionOptions</code></strong>-Retrieves multiple action options with filtering and sorting.</summary>
 
 **GraphQL schema:**
 
@@ -147,7 +153,11 @@ variable_values:
 fields: "id, optionLabel, optionValue, organization { name }"
 ```
 
-**`localReferenceOptions`**-Gets dropdown options for local reference models.
+</details>
+
+<details>
+
+<summary><strong><code>localReferenceOptions</code></strong>-Gets dropdown options for local reference models.</summary>
 
 **GraphQL schema:**
 
@@ -192,7 +202,11 @@ variable_values:
 fields: "label, value"
 ```
 
-**`resourceTypesByPack`**-Gets resource types organized by pack.
+</details>
+
+<details>
+
+<summary><strong><code>resourceTypesByPack</code></strong>-Gets resource types organized by pack.</summary>
 
 **GraphQL schema:**
 
@@ -206,9 +220,13 @@ type PackResourceTypesContainer {
 }
 ```
 
+</details>
+
 #### **Action management queries**
 
-**`action`**-Retrieves a specific action definition.
+<details>
+
+<summary><strong><code>action</code></strong>-Retrieves a specific action definition.</summary>
 
 **GraphQL schema:**
 
@@ -255,7 +273,11 @@ variable_values:
 fields: "id, name, description, parameters, outputSchema"
 ```
 
-**`actions`**-Retrieves multiple actions with filtering.
+</details>
+
+<details>
+
+<summary><strong><code>actions</code></strong>-Retrieves multiple actions with filtering.</summary>
 
 **GraphQL schema:**
 
@@ -284,11 +306,21 @@ actionsForOrg(
 ): [Action!]!
 ```
 
+</details>
+
 #### **System and Debug Queries**
 
-**`announcement`**-Gets system announcements.
+<details>
 
-**`debug-`**&#x44;ebug endpoint for system information.
+<summary><strong><code>announcement</code></strong>-Gets system announcements.</summary>
+
+
+
+</details>
+
+<details>
+
+<summary><strong><code>debug-</code></strong>Debug endpoint for system information.</summary>
 
 **GraphQL schema:**
 
@@ -296,9 +328,13 @@ actionsForOrg(
 debug: Boolean
 ```
 
+</details>
+
 #### **Component management queries**
 
-**`component`**-Retrieves a specific component definition.
+<details>
+
+<summary><strong><code>component</code></strong>-Retrieves a specific component definition.</summary>
 
 **GraphQL schema:**
 
@@ -321,7 +357,11 @@ type Component {
 }
 ```
 
-**`components`**-Gets multiple components for an organization.
+</details>
+
+<details>
+
+<summary><strong><code>components</code></strong>-Gets multiple components for an organization.</summary>
 
 **GraphQL schema:**
 
@@ -337,7 +377,13 @@ components(orgId: ID!): [Component]
 componentsByRoots(rootIds: [ID]!): [Component]
 ```
 
-**`componentTree`**-Gets the component tree structure.
+</details>
+
+<details>
+
+<summary><strong><code>componentTree</code></strong>-Gets the component tree structure.</summary>
+
+
 
 **GraphQL schema:**
 
@@ -355,9 +401,13 @@ type ComponentTree {
 }
 ```
 
+</details>
+
 #### **Crate management queries**
 
-**`crateTokenTypes`**-Gets available crate token types.
+<details>
+
+<summary><strong><code>crateTokenTypes</code></strong>-Gets available crate token types.</summary>
 
 **GraphQL schema:**
 
@@ -365,7 +415,11 @@ type ComponentTree {
 crateTokenTypes: [String!]!
 ```
 
-**`crate`**-Retrieves a specific crate.
+</details>
+
+<details>
+
+<summary><strong><code>crate</code></strong>-Retrieves a specific crate.</summary>
 
 **GraphQL schema:**
 
@@ -413,7 +467,11 @@ type Crate {
 }
 ```
 
-**`crates`**-Gets multiple crates with filtering and sorting.
+</details>
+
+<details>
+
+<summary><strong><code>crates</code></strong>-Gets multiple crates with filtering and sorting.</summary>
 
 **GraphQL schema:**
 
@@ -428,7 +486,11 @@ crates(
 ): [Crate!]!
 ```
 
-**`crateExportInfo`**-Gets export information for a workflow to crate.
+</details>
+
+<details>
+
+<summary><strong><code>crateExportInfo</code></strong>-Gets export information for a workflow to crate.</summary>
 
 **GraphQL schema:**
 
@@ -436,7 +498,11 @@ crates(
 crateExportInfo(workflowId: ID!): JSON
 ```
 
-**`crateUnpackingArgumentSet`**-Gets crate unpacking argument sets.
+</details>
+
+<details>
+
+<summary><strong><code>crateUnpackingArgumentSet</code></strong>-Gets crate unpacking argument sets.</summary>
 
 **GraphQL schema:**
 
@@ -463,9 +529,13 @@ type CrateUnpackingArgumentSet {
 }
 ```
 
+</details>
+
 #### **Feature preview queries**
 
-**`featurePreviewSetting`**-Gets a specific feature preview setting.
+<details>
+
+<summary><strong><code>featurePreviewSetting</code></strong>-Gets a specific feature preview setting.</summary>
 
 **GraphQL schema:**
 
@@ -480,7 +550,11 @@ type FeaturePreviewSetting {
 }
 ```
 
-**`featurePreviewSettings`**-Gets multiple feature preview settings.
+</details>
+
+<details>
+
+<summary><strong><code>featurePreviewSettings</code></strong>-Gets multiple feature preview settings.</summary>
 
 **GraphQL schema:**
 
@@ -491,9 +565,13 @@ featurePreviewSettings(
 ): [FeaturePreviewSetting]
 ```
 
+</details>
+
 #### **Foreign Object Reference Queries**
 
-**`foreignObjectReference`**-Gets a specific foreign object reference.
+<details>
+
+<summary><strong><code>foreignObjectReference</code></strong>-Gets a specific foreign object reference.</summary>
 
 **GraphQL schema:**
 
@@ -517,7 +595,11 @@ type ForeignObjectReference {
 }
 ```
 
-**`foreignObjectReferences`**-Gets multiple foreign object references.
+</details>
+
+<details>
+
+<summary><strong><code>foreignObjectReferences</code></strong>-Gets multiple foreign object references.</summary>
 
 **GraphQL schema:**
 
@@ -527,9 +609,13 @@ foreignObjectReferences(
 ): [ForeignObjectReference!]!
 ```
 
+</details>
+
 #### **Form management queries**
 
-**`form`**-Retrieves a specific form definition.
+<details>
+
+<summary><strong><code>form</code></strong>-Retrieves a specific form definition.</summary>
 
 **GraphQL schema:**
 
@@ -566,7 +652,11 @@ type Form {
 }
 ```
 
-**`forms`**-Gets multiple forms with filtering.
+</details>
+
+<details>
+
+<summary><strong><code>forms</code></strong>-Gets multiple forms with filtering.</summary>
 
 **GraphQL schema:**
 
@@ -581,7 +671,11 @@ forms(
 ): [Form!]!
 ```
 
-**`packConfigsForForm`**-Gets pack configurations associated with a form.
+</details>
+
+<details>
+
+<summary><strong><code>packConfigsForForm</code></strong>-Gets pack configurations associated with a form.</summary>
 
 **GraphQL schema:**
 
@@ -589,7 +683,11 @@ forms(
 packConfigsForForm(formId: ID!, orgId: ID!, triggerId: ID): [PackConfig!]!
 ```
 
-**`evaluatedForm`**-Gets an evaluated form for a specific trigger.
+</details>
+
+<details>
+
+<summary><strong><code>evaluatedForm</code></strong>-Gets an evaluated form for a specific trigger.</summary>
 
 **GraphQL schema:**
 
@@ -600,9 +698,13 @@ evaluatedForm(
 ): Form
 ```
 
+</details>
+
 #### **Microsoft CSP Queries**
 
-**`microsoftCSPCustomer`**-Gets Microsoft CSP customer information.
+<details>
+
+<summary><strong><code>microsoftCSPCustomer</code></strong>-Gets Microsoft CSP customer information.</summary>
 
 **GraphQL schema:**
 
@@ -624,7 +726,11 @@ type MicrosoftCSPCustomer {
 }
 ```
 
-**`microsoftCSPCustomers`**-Gets multiple Microsoft CSP customers.
+</details>
+
+<details>
+
+<summary><strong><code>microsoftCSPCustomers</code></strong>-Gets multiple Microsoft CSP customers.</summary>
 
 **GraphQL schema:**
 
@@ -636,9 +742,13 @@ microsoftCSPCustomers(
 ): [MicrosoftCSPCustomer!]!
 ```
 
+</details>
+
 #### **Trigger instance queries**
 
-**`orgTriggerInstance`**-Gets a specific organization trigger instance.
+<details>
+
+<summary><strong><code>orgTriggerInstance</code></strong>-Gets a specific organization trigger instance.</summary>
 
 **GraphQL schema:**
 
@@ -662,7 +772,11 @@ type OrgTriggerInstance {
 }
 ```
 
-**`orgTriggerInstances`**-Gets multiple organization trigger instances.
+</details>
+
+<details>
+
+<summary><strong><code>orgTriggerInstances</code></strong>-Gets multiple organization trigger instances.</summary>
 
 **GraphQL schema:**
 
@@ -676,9 +790,13 @@ orgTriggerInstances(
 ): [OrgTriggerInstance!]!
 ```
 
+</details>
+
 #### **Organization variable queries**
 
-**`orgVariable`**-Gets a specific organization variable.
+<details>
+
+<summary><strong><code>orgVariable</code></strong>-Gets a specific organization variable.</summary>
 
 **GraphQL schema:**
 
@@ -711,7 +829,11 @@ enum OrgVariableCategory {
 }
 ```
 
-**`orgVariables`**-Gets multiple organization variables.
+</details>
+
+<details>
+
+<summary><strong><code>orgVariables</code></strong>-Gets multiple organization variables.</summary>
 
 **GraphQL schema:**
 
@@ -726,7 +848,11 @@ orgVariables(
 ): [OrgVariable!]!
 ```
 
-**`visibleOrgVariables`**-Gets organization variables visible to a specific organization.
+</details>
+
+<details>
+
+<summary><strong><code>visibleOrgVariables</code></strong>-Gets organization variables visible to a specific organization.</summary>
 
 **GraphQL schema:**
 
@@ -740,9 +866,13 @@ visibleOrgVariables(
 ): [OrgVariable!]!
 ```
 
+</details>
+
 #### **Organization management queries**
 
-**`organization`**-Gets a specific organization.
+<details>
+
+<summary><strong><code>organization</code></strong>-Gets a specific organization.</summary>
 
 **GraphQL schema:**
 
@@ -794,7 +924,11 @@ type Organization {
 }
 ```
 
-**`organizations`**-Gets multiple organizations.
+</details>
+
+<details>
+
+<summary><strong><code>organizations</code></strong>-Gets multiple organizations.</summary>
 
 **GraphQL schema:**
 
@@ -808,7 +942,11 @@ organizations(
 ): [Organization!]!
 ```
 
-**`orgSearch`**-Performs organization search with breadcrumbs.
+</details>
+
+<details>
+
+<summary><strong><code>orgSearch</code></strong>-Performs organization search with breadcrumbs.</summary>
 
 **GraphQL schema:**
 
@@ -827,10 +965,14 @@ type OrgSearchResult {
   managingOrgId: ID
   supportAccessStatus: SupportAccessStatus
   isInternal: Boolean
-}
+  }
 ```
 
-**`softDeletedOrgs`**-Gets soft-deleted organizations.
+</details>
+
+<details>
+
+<summary><strong><code>softDeletedOrgs</code></strong>-Gets soft-deleted organizations.</summary>
 
 **GraphQL schema:**
 
@@ -838,9 +980,13 @@ type OrgSearchResult {
 softDeletedOrgs(managingOrgId: ID!): [Organization!]!
 ```
 
+</details>
+
 #### **Pack action option queries**
 
-**`packActionOption`**-Gets a specific pack action option.
+<details>
+
+<summary><strong><code>packActionOption</code></strong>-Gets a specific pack action option.</summary>
 
 **GraphQL schema:**
 
@@ -870,7 +1016,11 @@ type PackActionOption {
 }
 ```
 
-**`packActionOptions`**-Gets multiple pack action options.
+</details>
+
+<details>
+
+<summary><strong><code>packActionOptions</code></strong>-Gets multiple pack action options.</summary>
 
 **GraphQL schema:**
 
@@ -883,9 +1033,13 @@ packActionOptions(
 ): [PackActionOption!]!
 ```
 
+</details>
+
 #### **Pack bundle queries**
 
-**`packBundle`**-Gets a specific pack bundle.
+<details>
+
+<summary><strong><code>packBundle</code></strong>-Gets a specific pack bundle.</summary>
 
 **GraphQL schema:**
 
@@ -902,7 +1056,11 @@ type PackBundle {
 }
 ```
 
-**`packBundles`**-Gets multiple pack bundles.
+</details>
+
+<details>
+
+<summary><strong><code>packBundles</code></strong>-Gets multiple pack bundles.</summary>
 
 **GraphQL schema:**
 
@@ -916,9 +1074,13 @@ packBundles(
 ): [PackBundle]!
 ```
 
+</details>
+
 #### **Pack configuration queries**
 
-**`packConfig`**-Gets a specific pack configuration.
+<details>
+
+<summary><strong><code>packConfig</code></strong>-Gets a specific pack configuration.</summary>
 
 **GraphQL schema:**
 
@@ -950,7 +1112,11 @@ type PackConfig {
 }
 ```
 
-**`packConfigs`**-Gets multiple pack configurations.
+</details>
+
+<details>
+
+<summary><strong><code>packConfigs</code></strong>-Gets multiple pack configurations.</summary>
 
 **GraphQL schema:**
 
@@ -964,7 +1130,11 @@ packConfigs(
 ): [PackConfig!]!
 ```
 
-**`packConfigsForOrg`**-Gets pack configurations for a specific organization.
+</details>
+
+<details>
+
+<summary><strong><code>packConfigsForOrg</code></strong>-Gets pack configurations for a specific organization.</summary>
 
 **GraphQL schema:**
 
@@ -976,9 +1146,13 @@ packConfigsForOrg(
 ): [PackConfig!]!
 ```
 
+</details>
+
 #### **Pack management queries**
 
-**`pack`**-Gets a specific integration pack.
+<details>
+
+<summary><strong><code>pack</code></strong>-Gets a specific integration pack.</summary>
 
 **GraphQL schema:**
 
@@ -1017,7 +1191,11 @@ type Pack {
 }
 ```
 
-**`packsAndBundlesByInstalledState`**-Gets packs and bundles organized by installation state.
+</details>
+
+<details>
+
+<summary><strong><code>packsAndBundlesByInstalledState</code></strong>-Gets packs and bundles organized by installation state.</summary>
 
 **GraphQL schema:**
 
@@ -1033,9 +1211,13 @@ type PacksAndBundlesByInstalledState {
 }
 ```
 
+</details>
+
 #### **Page management queries**
 
-**`page`**-Gets a specific page definition.
+<details>
+
+<summary><strong><code>page</code></strong>-Gets a specific page definition.</summary>
 
 **GraphQL schema:**
 
@@ -1070,7 +1252,11 @@ type Page {
 }
 ```
 
-**`pageVars`**-Gets page variables.
+</details>
+
+<details>
+
+<summary><strong><code>pageVars</code></strong>-Gets page variables.</summary>
 
 **GraphQL schema:**
 
@@ -1078,7 +1264,11 @@ type Page {
 pageVars(id: ID!, query: JSON): JSON
 ```
 
-**`pages`**-Gets multiple pages.
+</details>
+
+<details>
+
+<summary><strong><code>pages</code></strong>-Gets multiple pages.</summary>
 
 **GraphQL schema:**
 
@@ -1092,9 +1282,13 @@ pages(
 ): [Page!]!
 ```
 
-#### **Permission queries**
+</details>
 
-**`permission`**-Gets a specific permission.
+**Permission queries**
+
+<details>
+
+<summary><strong><code>permission</code></strong>-Gets a specific permission.</summary>
 
 **GraphQL schema:**
 
@@ -1119,7 +1313,11 @@ type Permission {
 }
 ```
 
-**`permissions`**-Gets multiple permissions.
+</details>
+
+<details>
+
+<summary><strong><code>permissions</code></strong>-Gets multiple permissions.</summary>
 
 **GraphQL schema:**
 
@@ -1127,11 +1325,15 @@ type Permission {
 permissions(where: PermissionWhereInput): [Permission!]!
 ```
 
-#### **Sensor type queries**
+</details>
 
-**`sensorType`**-Gets a specific sensor type.
+**Sensor type queries**
 
-**GraphQL wchema:**
+<details>
+
+<summary><strong><code>sensorType</code></strong>-Gets a specific sensor type.</summary>
+
+**GraphQL schema:**
 
 ```graphql
 sensorType(
@@ -1152,7 +1354,11 @@ type SensorType {
 }
 ```
 
-**`sensorTypes`**-Gets multiple sensor types.
+</details>
+
+<details>
+
+<summary><strong><code>sensorTypes</code></strong>-Gets multiple sensor types.</summary>
 
 **GraphQL schema:**
 
@@ -1166,9 +1372,13 @@ sensorTypes(
 ): [SensorType!]!
 ```
 
-#### **Site and app management queries**
+</details>
 
-**`site`**-Gets a specific site/app.
+**Site and app management queries**
+
+<details>
+
+<summary><strong><code>site</code></strong>-Gets a specific site/app.</summary>
 
 **GraphQL schema:**
 
@@ -1208,7 +1418,11 @@ type Site {
 }
 ```
 
-**`sites`**-Gets multiple sites/apps.
+</details>
+
+<details>
+
+<summary><strong><code>sites</code></strong>-Gets multiple sites/apps.</summary>
 
 **GraphQL schema:**
 
@@ -1216,7 +1430,11 @@ type Site {
 sites(where: SiteWhereInput, search: SiteSearchInput): [Site!]!
 ```
 
-**`getAppPermissions`**-Gets app permissions for an organization.
+</details>
+
+<details>
+
+<summary><strong><code>getAppPermissions</code></strong>-Gets app permissions for an organization.</summary>
 
 **GraphQL schema:**
 
@@ -1224,7 +1442,11 @@ sites(where: SiteWhereInput, search: SiteSearchInput): [Site!]!
 getAppPermissions(orgId: ID!): [Site!]!
 ```
 
-**`getSiteTheme`**-Gets site theme configuration.
+</details>
+
+<details>
+
+<summary><strong><code>getSiteTheme</code></strong>-Gets site theme configuration.</summary>
 
 **GraphQL schema:**
 
@@ -1232,9 +1454,13 @@ getAppPermissions(orgId: ID!): [Site!]!
 getSiteTheme(id: ID, domain: String): JSON
 ```
 
-#### **Tag management queries**
+</details>
 
-**`tag`**-Gets a specific tag.
+**Tag management queries**
+
+<details>
+
+<summary><strong><code>tag</code></strong>-Gets a specific tag.</summary>
 
 **GraphQL schema:**
 
@@ -1257,7 +1483,11 @@ type Tag {
 }
 ```
 
-**`tags`**-Gets multiple tags.
+</details>
+
+<details>
+
+<summary><strong><code>tags</code></strong>-Gets multiple tags.</summary>
 
 **GraphQL schema:**
 
@@ -1272,7 +1502,11 @@ tags(
 ): [Tag!]!
 ```
 
-**`crateTags`**-Gets tags associated with crates.
+</details>
+
+<details>
+
+<summary><strong><code>crateTags</code></strong>-Gets tags associated with crates.</summary>
 
 **GraphQL schema:**
 
@@ -1286,9 +1520,13 @@ crateTags(
 ): [Tag!]!
 ```
 
-#### **Task and execution analytics queries**
+</details>
 
-**`dailyTaskCountsByDateRange`**-Gets daily task counts within a date range.
+**Task and execution analytics queries**
+
+<details>
+
+<summary><strong><code>dailyTaskCountsByDateRange</code></strong>-Gets daily task counts within a date range.</summary>
 
 **GraphQL schema:**
 
@@ -1305,7 +1543,11 @@ type TaskCountByDate {
 }
 ```
 
-**`taskExecutionStats`**-Gets task execution statistics.
+</details>
+
+<details>
+
+<summary><strong><code>taskExecutionStats</code></strong>-Gets task execution statistics.</summary>
 
 **GraphQL schema:**
 
@@ -1313,7 +1555,11 @@ type TaskCountByDate {
 taskExecutionStats(orgId: ID!, createdSince: String): Int!
 ```
 
-**`taskLog`**-Gets a specific task log entry.
+</details>
+
+<details>
+
+<summary><strong><code>taskLog</code></strong>-Gets a specific task log entry.</summary>
 
 **GraphQL schema:**
 
@@ -1356,7 +1602,11 @@ type TaskLog {
 }
 ```
 
-**`taskLogs`**-Gets multiple task log entries.
+</details>
+
+<details>
+
+<summary><strong><code>taskLogs</code></strong>-Gets multiple task log entries.</summary>
 
 **GraphQL schema:**
 
@@ -1367,14 +1617,16 @@ taskLogs(
   limit: Int
   offset: Int
   order: [[String!]!] = [["createdAt"]]
-): [TaskLog!]!
+  ): [TaskLog!]!
 ```
 
-#### **Template management queries**
+</details>
 
-**`template`**
+**Template management queries**
 
-Gets a specific template.
+<details>
+
+<summary><strong><code>template</code></strong>- Gets a specific template.</summary>
 
 **GraphQL schema:**
 
@@ -1408,7 +1660,11 @@ type Template {
 }
 ```
 
-**`templates`**-Gets multiple templates.
+</details>
+
+<details>
+
+<summary><strong><code>templates</code></strong>-Gets multiple templates.</summary>
 
 **GraphQL schema:**
 
@@ -1422,7 +1678,11 @@ templates(
 ): [Template!]!
 ```
 
-**`jinjaTemplate`**-Gets a Jinja template for rendering.
+</details>
+
+<details>
+
+<summary><strong><code>jinjaTemplate</code></strong>-Gets a Jinja template for rendering.</summary>
 
 **GraphQL schema:**
 
@@ -1430,9 +1690,13 @@ templates(
 jinjaTemplate(where: TemplateInput): Template
 ```
 
-#### **Trigger type queries**
+</details>
 
-**`triggerType`**-Gets a specific trigger type.
+**Trigger type queries**
+
+<details>
+
+<summary><strong><code>triggerType</code></strong>-Gets a specific trigger type.</summary>
 
 **GraphQL schema:**
 
@@ -1457,7 +1721,11 @@ type TriggerType {
 }
 ```
 
-**`triggerTypes`**-Gets multiple trigger types.
+</details>
+
+<details>
+
+<summary><strong><code>triggerTypes</code></strong>-Gets multiple trigger types.</summary>
 
 **GraphQL schema:**
 
@@ -1471,9 +1739,13 @@ triggerTypes(
 ): [TriggerType!]!
 ```
 
-#### **Trigger management queries**
+</details>
 
-**`trigger`**-Gets a specific trigger.
+**Trigger management queries**
+
+<details>
+
+<summary><strong><code>trigger</code></strong>-Gets a specific trigger.</summary>
 
 **GraphQL schema:**
 
@@ -1515,7 +1787,11 @@ type Trigger {
 }
 ```
 
-**`workflowCompletionListeners`**-Gets workflow completion listeners.
+</details>
+
+<details>
+
+<summary><strong><code>workflowCompletionListeners</code></strong>-Gets workflow completion listeners.</summary>
 
 **GraphQL schema:**
 
@@ -1526,7 +1802,11 @@ workflowCompletionListeners(
 ): [Trigger!]!
 ```
 
-**`triggers`**-Gets multiple triggers.
+</details>
+
+<details>
+
+<summary><strong><code>triggers</code></strong>-Gets multiple triggers.</summary>
 
 **GraphQL schema:**
 
@@ -1541,7 +1821,11 @@ triggers(
 ): [Trigger!]!
 ```
 
-**`triggerDbNotificationErrors`**-Gets database notification errors for a trigger.
+</details>
+
+<details>
+
+<summary><strong><code>triggerDbNotificationErrors</code></strong>-Gets database notification errors for a trigger.</summary>
 
 **GraphQL schema:**
 
@@ -1555,9 +1839,13 @@ type DatabaseNotificationError {
 }
 ```
 
-#### **User invite queries**
+</details>
 
-**`userInvite`**-Gets a specific user invite.
+**User invite queries**
+
+<details>
+
+<summary><strong><code>userInvite</code></strong>-Gets a specific user invite.</summary>
 
 **GraphQL schema:**
 
@@ -1583,7 +1871,11 @@ type UserInvite {
 }
 ```
 
-**`userInvites`**-Gets multiple user invites.
+</details>
+
+<details>
+
+<summary><strong><code>userInvites</code></strong>-Gets multiple user invites.</summary>
 
 **GraphQL schema:**
 
@@ -1597,9 +1889,13 @@ userInvites(
 ): [UserInvite]
 ```
 
-#### **User management queries**
+</details>
 
-**`me`**-Gets current user information.
+**User management queries**
+
+<details>
+
+<summary><strong><code>me</code></strong>-Gets current user information.</summary>
 
 **GraphQL schema:**
 
@@ -1626,7 +1922,11 @@ type User {
 }
 ```
 
-**`userOrganization`**-Gets the user's organization.
+</details>
+
+<details>
+
+<summary><strong><code>userOrganization</code></strong>-Gets the user's organization.</summary>
 
 **GraphQL schema:**
 
@@ -1634,7 +1934,11 @@ type User {
 userOrganization: Organization
 ```
 
-**`user`**-Gets a specific user.
+</details>
+
+<details>
+
+<summary><strong><code>user</code></strong>-Gets a specific user.</summary>
 
 **GraphQL schema:**
 
@@ -1642,7 +1946,11 @@ userOrganization: Organization
 user(where: UserWhereInput, search: UserSearchInput): User
 ```
 
-**`users`**-Gets multiple users.
+</details>
+
+<details>
+
+<summary><strong><code>users</code></strong>-Gets multiple users.</summary>
 
 **GraphQL schema:**
 
@@ -1656,7 +1964,11 @@ users(
 ): [User!]!
 ```
 
-**`getTestUsers`**-Gets test users.
+</details>
+
+<details>
+
+<summary><strong><code>getTestUsers</code></strong>-Gets test users.</summary>
 
 **GraphQL schema:**
 
@@ -1664,7 +1976,11 @@ users(
 getTestUsers(where: UserWhereInput): [User!]!
 ```
 
-**`getTestUserSession`**-Gets current test user session.
+</details>
+
+<details>
+
+<summary><strong><code>getTestUserSession</code></strong>-Gets current test user session.</summary>
 
 **GraphQL schema:**
 
@@ -1672,9 +1988,13 @@ getTestUsers(where: UserWhereInput): [User!]!
 getTestUserSession: User
 ```
 
-#### **Workflow analytics queries**
+</details>
 
-**`timeSavedGroupByWorkflow`**-Gets time saved statistics grouped by workflow.
+**Workflow analytics queries**
+
+<details>
+
+<summary><strong><code>timeSavedGroupByWorkflow</code></strong>-Gets time saved statistics grouped by workflow.</summary>
 
 **GraphQL schema:**
 
@@ -1696,7 +2016,11 @@ type TimeSavedGroupByWorkflow {
 }
 ```
 
-**`timeSavedGroupBySubOrg`**-Gets time saved statistics grouped by sub-organization.
+</details>
+
+<details>
+
+<summary><strong><code>timeSavedGroupBySubOrg</code></strong>-Gets time saved statistics grouped by sub-organization.</summary>
 
 **GraphQL schema:**
 
@@ -1714,10 +2038,14 @@ type TimeSavedGroupByOrg {
   secondsSaved: Int
   totalExecutions: Int
   ranForOrg: String
-}
+  }
 ```
 
-**`workflowExecutionStats`**-Gets workflow execution statistics.
+</details>
+
+<details>
+
+<summary><strong><code>workflowExecutionStats</code></strong>-Gets workflow execution statistics.</summary>
 
 **GraphQL schema:**
 
@@ -1740,7 +2068,11 @@ type WorkflowExecutionStats {
 }
 ```
 
-**`workflowExecution`**-Gets a specific workflow execution.
+</details>
+
+<details>
+
+<summary><strong><code>workflowExecution</code></strong>-Gets a specific workflow execution.</summary>
 
 **GraphQL schema:**
 
@@ -1775,7 +2107,11 @@ type WorkflowExecution {
 }
 ```
 
-**`workflowExecutions`**-Gets multiple workflow executions.
+</details>
+
+<details>
+
+<summary><strong><code>workflowExecutions</code></strong>-Gets multiple workflow executions.</summary>
 
 **GraphQL schema:**
 
@@ -1790,7 +2126,11 @@ workflowExecutions(
 ): [WorkflowExecution]
 ```
 
-**`workflowExecutionContexts`**-Gets workflow execution contexts.
+</details>
+
+<details>
+
+<summary><strong><code>workflowExecutionContexts</code></strong>-Gets workflow execution contexts.</summary>
 
 **GraphQL schema:**
 
@@ -1798,7 +2138,11 @@ workflowExecutions(
 workflowExecutionContexts(workflowExecutionId: ID!): JSON
 ```
 
-**`dailyTimeSavedByDateRange`**-Gets daily time saved within a date range.
+</details>
+
+<details>
+
+<summary><strong><code>dailyTimeSavedByDateRange</code></strong>-Gets daily time saved within a date range.</summary>
 
 **GraphQL schema:**
 
@@ -1815,9 +2159,13 @@ type TimeSavedByDate {
 }
 ```
 
-#### **Workflow patch queries**
+</details>
 
-**`workflowPatch`**-Gets a specific workflow patch.
+**Workflow patch queries**
+
+<details>
+
+<summary><strong><code>workflowPatch</code></strong>-Gets a specific workflow patch.</summary>
 
 **GraphQL schema:**
 
@@ -1838,7 +2186,11 @@ type WorkflowPatch {
 }
 ```
 
-**`workflowPatches`**-Gets multiple workflow patches.
+</details>
+
+<details>
+
+<summary><strong><code>workflowPatches</code></strong>-Gets multiple workflow patches.</summary>
 
 **GraphQL schema:**
 
@@ -1852,9 +2204,13 @@ workflowPatches(
 ): [WorkflowPatch!]!
 ```
 
-#### **Workflow management queries**
+</details>
 
-**`workflow`**-Gets a specific workflow.
+**Workflow management queries**
+
+<details>
+
+<summary><strong><code>workflow</code></strong>-Gets a specific workflow.</summary>
 
 **GraphQL schema:**
 
@@ -1911,7 +2267,11 @@ type Workflow {
 }
 ```
 
-**`workflows`**-Gets multiple workflows.
+</details>
+
+<details>
+
+<summary><strong><code>workflows</code></strong>-Gets multiple workflows.</summary>
 
 **GraphQL schema:**
 
@@ -1939,7 +2299,11 @@ workflows(
 ): [Workflow!]!
 ```
 
-**`workflowNote`**-Gets a specific workflow note.
+</details>
+
+<details>
+
+<summary><strong><code>workflowNote</code></strong>-Gets a specific workflow note.</summary>
 
 **GraphQL schema:**
 
@@ -1961,7 +2325,11 @@ type WorkflowNote {
 }
 ```
 
-**`workflowNotes`**-Gets multiple workflow notes.
+</details>
+
+<details>
+
+<summary><strong><code>workflowNotes</code></strong>-Gets multiple workflow notes.</summary>
 
 **GraphQL schema:**
 
@@ -1972,10 +2340,14 @@ workflowNotes(
   limit: Int
   offset: Int
   order: [[String!]!] = [["index"]]
-): [WorkflowNote!]!
+  ): [WorkflowNote!]!
 ```
 
-**`workflowTask`**-Gets a specific workflow task.
+</details>
+
+<details>
+
+<summary><strong><code>workflowTask</code></strong>-Gets a specific workflow task.</summary>
 
 **GraphQL schema:**
 
@@ -2008,7 +2380,11 @@ type WorkflowTask {
 }
 ```
 
-**`workflowTasks`**-Gets multiple workflow tasks.
+</details>
+
+<details>
+
+<summary><strong><code>workflowTasks</code></strong>-Gets multiple workflow tasks.</summary>
 
 **GraphQL schema:**
 
@@ -2021,11 +2397,15 @@ workflowTasks(
 ): [WorkflowTask!]!
 ```
 
+</details>
+
 ### Mutations
 
 #### **Action option mutations**
 
-**`createActionOptions`**-Creates multiple action options.
+<details>
+
+<summary><strong><code>createActionOptions</code></strong>-Creates multiple action options.</summary>
 
 **GraphQL schema:**
 
@@ -2052,9 +2432,13 @@ variable_values:
 fields: "id, optionLabel, optionValue"
 ```
 
-#### **Clone operations**
+</details>
 
-**`unlinkClone`**-Unlinks a cloned object from its source.
+**Clone operations**
+
+<details>
+
+<summary><strong><code>unlinkClone</code></strong>-Unlinks a cloned object from its source.</summary>
 
 **GraphQL schema:**
 
@@ -2081,9 +2465,13 @@ variable_values:
   objectType: "workflow"
 ```
 
-#### **Component mutations**
+</details>
 
-**`createComponent`**-Creates a new component.
+**Component mutations**
+
+<details>
+
+<summary><strong><code>createComponent</code></strong>-Creates a new component.</summary>
 
 **GraphQL schema:**
 
@@ -2100,7 +2488,11 @@ input CreateComponentInput {
 }
 ```
 
-**`updateComponent`**-Updates an existing component.
+</details>
+
+<details>
+
+<summary><strong><code>updateComponent</code></strong>-Updates an existing component.</summary>
 
 **GraphQL schema:**
 
@@ -2108,7 +2500,11 @@ input CreateComponentInput {
 updateComponent(component: UpdateComponentInput!): Component
 ```
 
-**`deleteComponent`**-Deletes a component.
+</details>
+
+<details>
+
+<summary><strong><code>deleteComponent</code></strong>-Deletes a component.</summary>
 
 **GraphQL schema:**
 
@@ -2116,7 +2512,11 @@ updateComponent(component: UpdateComponentInput!): Component
 deleteComponent(id: ID!): Boolean
 ```
 
-**`duplicateComponent`**-Duplicates an existing component.
+</details>
+
+<details>
+
+<summary><strong><code>duplicateComponent</code></strong>-Duplicates an existing component.</summary>
 
 **GraphQL schema:**
 
@@ -2124,9 +2524,13 @@ deleteComponent(id: ID!): Boolean
 duplicateComponent(id: ID!): Component
 ```
 
-#### **Foreign object reference mutations**
+</details>
 
-**`createForeignObjectReference`**-Creates a foreign object reference.
+**Foreign object reference mutations**
+
+<details>
+
+<summary><strong><code>createForeignObjectReference</code></strong>-Creates a foreign object reference.</summary>
 
 **GraphQL schema:**
 
@@ -2146,7 +2550,11 @@ input CreateForeignObjectReferenceInput {
 }
 ```
 
-**`createOrUpdateForeignObjectReference`**-Creates or updates a foreign object reference.
+</details>
+
+<details>
+
+<summary><strong><code>createOrUpdateForeignObjectReference</code></strong>-Creates or updates a foreign object reference.</summary>
 
 **GraphQL schema:**
 
@@ -2156,9 +2564,13 @@ createOrUpdateForeignObjectReference(
 ): ForeignObjectReference
 ```
 
-#### **Form mutations**
+</details>
 
-**`createForm`**-Creates a new form.
+**Form mutations**
+
+<details>
+
+<summary><strong><code>createForm</code></strong>-Creates a new form.</summary>
 
 **GraphQL schema:**
 
@@ -2176,6 +2588,7 @@ input FormCreateInput {
   orgId: ID!
   unpackedFromId: ID
 }
+
 ```
 
 **Usage example:**
@@ -2197,7 +2610,11 @@ variable_values:
 fields: "id, name, description, fields { id, type, schema }"
 ```
 
-**`submitForm`**-Submits form data and triggers associated workflow.
+</details>
+
+<details>
+
+<summary><strong><code>submitForm</code></strong>-Submits form data and triggers associated workflow.</summary>
 
 **GraphQL schema:**
 
@@ -2210,7 +2627,11 @@ submitForm(
 ): JSON
 ```
 
-**`setFormTags`**-Sets tags for a form.
+</details>
+
+<details>
+
+<summary><strong><code>setFormTags</code></strong>-Sets tags for a form.</summary>
 
 **GraphQL schema:**
 
@@ -2223,7 +2644,11 @@ input SetFormTagsInput {
 }
 ```
 
-**`shallowCloneForm`**-Creates a shallow clone of a form.
+</details>
+
+<details>
+
+<summary><strong><code>shallowCloneForm</code></strong>-Creates a shallow clone of a form.</summary>
 
 **GraphQL schema:**
 
@@ -2232,10 +2657,14 @@ shallowCloneForm(
   id: ID!
   orgId: ID!
   overrides: ShallowCloneOverridesInput
-): Form
+  : Form)
 ```
 
-**`updateForm`**-Updates an existing form.
+</details>
+
+<details>
+
+<summary><strong><code>updateForm</code></strong>-Updates an existing form.</summary>
 
 **GraphQL schema:**
 
@@ -2243,17 +2672,25 @@ shallowCloneForm(
 updateForm(form: FormUpdateInput!): Form
 ```
 
-**`deleteForm`**-Deletes a form.
+</details>
 
-**GraphQL dchema:**
+<details>
+
+<summary><strong><code>deleteForm</code></strong>-Deletes a form.</summary>
+
+**GraphQL schema:**
 
 ```graphql
 deleteForm(id: ID!): Void
 ```
 
-#### **Organization trigger instance mutations**
+</details>
 
-**`updateOrgTriggerInstance`**-Updates an organization trigger instance.
+**Organization trigger instance mutations**
+
+<details>
+
+<summary><strong><code>updateOrgTriggerInstance</code></strong>-Updates an organization trigger instance.</summary>
 
 **GraphQL schema:**
 
@@ -2274,9 +2711,13 @@ input OrgTriggerInstanceInput {
 }
 ```
 
-#### **Organization variable mutations**
+</details>
 
-**`createOrgVariable`**-Creates a new organization variable.
+**Organization variable mutations**
+
+<details>
+
+<summary><strong><code>createOrgVariable</code></strong>-Creates a new organization variable.</summary>
 
 **GraphQL schema:**
 
@@ -2309,7 +2750,11 @@ variable_values:
 fields: "id, name, value, category, cascade"
 ```
 
-**`deleteOrgVariable`**-Deletes an organization variable.
+</details>
+
+<details>
+
+<summary><strong><code>deleteOrgVariable</code></strong>-Deletes an organization variable.</summary>
 
 **GraphQL schema:**
 
@@ -2317,7 +2762,11 @@ fields: "id, name, value, category, cascade"
 deleteOrgVariable(id: ID!): ID
 ```
 
-**`updateOrgVariables`**-Updates multiple organization variables.
+</details>
+
+<details>
+
+<summary><strong><code>updateOrgVariables</code></strong>-Updates multiple organization variables.</summary>
 
 **GraphQL schema:**
 
@@ -2337,9 +2786,13 @@ input OrgVariableUpdateInput {
 }
 ```
 
-#### **Organization management mutations**
+</details>
 
-**`bulkCreateOrganizations`**-Creates multiple organizations in bulk.
+**Organization management mutations**
+
+<details>
+
+<summary><strong><code>bulkCreateOrganizations</code></strong>-Creates multiple organizations in bulk.</summary>
 
 **GraphQL schema:**
 
@@ -2349,7 +2802,11 @@ bulkCreateOrganizations(
 ): [Organization!]!
 ```
 
-**`bulkDeleteOrganizations`**-Deletes multiple organizations in bulk.
+</details>
+
+<details>
+
+<summary><strong><code>bulkDeleteOrganizations</code></strong>-Deletes multiple organizations in bulk.</summary>
 
 **GraphQL schema:**
 
@@ -2357,7 +2814,11 @@ bulkCreateOrganizations(
 bulkDeleteOrganizations(organizationIds: [ID!]!): Void
 ```
 
-**`createOrganization`**-Creates a single organization.
+</details>
+
+<details>
+
+<summary><strong><code>createOrganization</code></strong>-Creates a single organization.</summary>
 
 **GraphQL schema:**
 
@@ -2377,7 +2838,11 @@ input OrganizationInput {
 }
 ```
 
-**`createOrganizations`**-Creates multiple organizations.
+</details>
+
+<details>
+
+<summary><strong><code>createOrganizations</code></strong>-Creates multiple organizations.</summary>
 
 **GraphQL schema:**
 
@@ -2387,7 +2852,11 @@ createOrganizations(
 ): [Organization]
 ```
 
-**`deleteOrganization`**-Deletes an organization.
+</details>
+
+<details>
+
+<summary><strong><code>deleteOrganization</code></strong>-Deletes an organization.</summary>
 
 **GraphQL schema:**
 
@@ -2395,7 +2864,11 @@ createOrganizations(
 deleteOrganization(id: ID!): Void
 ```
 
-**`updateManagedAndSubOrganizations`**-Updates managed and sub-organizations.
+</details>
+
+<details>
+
+<summary><strong><code>updateManagedAndSubOrganizations</code></strong>-Updates managed and sub-organizations.</summary>
 
 **GraphQL schema:**
 
@@ -2405,7 +2878,11 @@ updateManagedAndSubOrganizations(
 ): Int
 ```
 
-**`updateOrganization`**-Updates an organization.
+</details>
+
+<details>
+
+<summary><strong><code>updateOrganization</code></strong>-Updates an organization.</summary>
 
 **GraphQL schema:**
 
@@ -2413,7 +2890,11 @@ updateManagedAndSubOrganizations(
 updateOrganization(organization: OrganizationUpdateInput): Organization
 ```
 
-**`bulkUpdateOrganizationFeaturePreviewSettingByLabel`**-Bulk updates feature preview settings by label.
+</details>
+
+<details>
+
+<summary><strong><code>bulkUpdateOrganizationFeaturePreviewSettingByLabel</code></strong>-Bulk updates feature preview settings by label.</summary>
 
 **GraphQL schema:**
 
@@ -2425,9 +2906,13 @@ bulkUpdateOrganizationFeaturePreviewSettingByLabel(
 ): [OrganizationFeaturePreviewSetting!]!
 ```
 
-#### **Pack configuration mutations**
+</details>
 
-**`synchronizePackBundleConfigs`**-Synchronizes pack bundle configurations.
+**Pack configuration mutations**
+
+<details>
+
+<summary><strong><code>synchronizePackBundleConfigs</code></strong>-Synchronizes pack bundle configurations.</summary>
 
 **GraphQL schema:**
 
@@ -2439,7 +2924,11 @@ synchronizePackBundleConfigs(
 ): [SynchronizedPackConfig!]!
 ```
 
-**`createPackConfig`**-Creates a new pack configuration.
+</details>
+
+<details>
+
+<summary><strong><code>createPackConfig</code></strong>-Creates a new pack configuration.</summary>
 
 **GraphQL schema:**
 
@@ -2458,7 +2947,11 @@ input PackConfigCreateInput {
 }
 ```
 
-**`deletePackConfig`**-Deletes a pack configuration.
+</details>
+
+<details>
+
+<summary><strong><code>deletePackConfig</code></strong>-Deletes a pack configuration.</summary>
 
 **GraphQL schema:**
 
@@ -2466,7 +2959,11 @@ input PackConfigCreateInput {
 deletePackConfig(id: ID!, orgId: ID!): Void
 ```
 
-**`refetchPackConfigRefOptions`**-Refetches pack configuration reference options.
+</details>
+
+<details>
+
+<summary><strong><code>refetchPackConfigRefOptions</code></strong>-Refetches pack configuration reference options.</summary>
 
 **GraphQL schema:**
 
@@ -2477,7 +2974,11 @@ refetchPackConfigRefOptions(
 ): JobRequestedResponse
 ```
 
-**`testPackConfig`**-Tests a pack configuration.
+</details>
+
+<details>
+
+<summary><strong><code>testPackConfig</code></strong>-Tests a pack configuration.</summary>
 
 **GraphQL schema:**
 
@@ -2485,7 +2986,11 @@ refetchPackConfigRefOptions(
 testPackConfig(packConfig: PackConfigTestInput!): JobRequestedResponse
 ```
 
-**`updatePackConfig`**-Updates a pack configuration.
+</details>
+
+<details>
+
+<summary><strong><code>updatePackConfig</code></strong>-Updates a pack configuration.</summary>
 
 **GraphQL schema:**
 
@@ -2493,7 +2998,11 @@ testPackConfig(packConfig: PackConfigTestInput!): JobRequestedResponse
 updatePackConfig(packConfig: PackConfigUpdateInput!): PackConfig
 ```
 
-**`updatePackConfigs`**-Updates multiple pack configurations.
+</details>
+
+<details>
+
+<summary><strong><code>updatePackConfigs</code></strong>-Updates multiple pack configurations.</summary>
 
 **GraphQL schema:**
 
@@ -2503,9 +3012,13 @@ updatePackConfigs(
 ): [PackConfig!]!
 ```
 
-#### **Pack mutations**
+</details>
 
-**`generatePackOrBundleAuthUrl`**-Generates authorization URL for pack or bundle.
+**Pack mutations**
+
+<details>
+
+<summary><strong><code>generatePackOrBundleAuthUrl</code></strong>-Generates authorization URL for pack or bundle.</summary>
 
 **GraphQL schema:**
 
@@ -2523,7 +3036,11 @@ type AuthUrlResponse {
 }
 ```
 
-**`installPack`**-Installs a pack for an organization.
+</details>
+
+<details>
+
+<summary><strong><code>installPack</code></strong>-Installs a pack for an organization.</summary>
 
 **GraphQL schema:**
 
@@ -2531,7 +3048,11 @@ type AuthUrlResponse {
 installPack(orgId: ID!, packId: ID!, name: String): Organization
 ```
 
-**`getPackInstallations`**-Gets pack installation information.
+</details>
+
+<details>
+
+<summary><strong><code>getPackInstallations</code></strong>-Gets pack installation information.</summary>
 
 **GraphQL schema:**
 
@@ -2539,7 +3060,11 @@ installPack(orgId: ID!, packId: ID!, name: String): Organization
 getPackInstallations(packId: ID!): PackInstalledByResponse
 ```
 
-**`getPackPageUrl`**-Gets the URL for a pack page.
+</details>
+
+<details>
+
+<summary><strong><code>getPackPageUrl</code></strong>-Gets the URL for a pack page</summary>
 
 **GraphQL schema:**
 
@@ -2547,7 +3072,11 @@ getPackInstallations(packId: ID!): PackInstalledByResponse
 getPackPageUrl(integrationRef: String!, pagePath: String!): String
 ```
 
-**`updatePack`**-Updates a pack.
+</details>
+
+<details>
+
+<summary><strong><code>updatePack</code></strong>-Updates a pack.</summary>
 
 **GraphQL schema:**
 
@@ -2555,9 +3084,13 @@ getPackPageUrl(integrationRef: String!, pagePath: String!): String
 updatePack(pack: PackUpdateInput!): Pack
 ```
 
-#### **Page mutations**
+</details>
 
-**`createPage`**-Creates a new page.
+**Page mutations**
+
+<details>
+
+<summary><strong><code>createPage</code></strong>-Creates a new page.</summary>
 
 **GraphQL schema:**
 
@@ -2583,7 +3116,11 @@ input PageCreateInput {
 }
 ```
 
-**`updatePage`**-Updates an existing page.
+</details>
+
+<details>
+
+<summary><strong><code>updatePage</code></strong>-Updates an existing page.</summary>
 
 **GraphQL schema:**
 
@@ -2594,7 +3131,11 @@ updatePage(
 ): Page
 ```
 
-**`deletePage`**-Deletes a page.
+</details>
+
+<details>
+
+<summary><strong><code>deletePage</code></strong>-Deletes a page.</summary>
 
 **GraphQL schema:**
 
@@ -2602,7 +3143,11 @@ updatePage(
 deletePage(id: ID!): Void
 ```
 
-**`updatePageNode`**-Updates a page node.
+</details>
+
+<details>
+
+<summary><strong><code>updatePageNode</code></strong>-Updates a page node.</summary>
 
 **GraphQL schema:**
 
@@ -2610,7 +3155,11 @@ deletePage(id: ID!): Void
 updatePageNode(id: ID!, props: JSON!): PageNode
 ```
 
-**`updatePageNodeByCraftId`**-Updates a page node by craft ID.
+</details>
+
+<details>
+
+<summary><strong><code>updatePageNodeByCraftId</code></strong>-Updates a page node by craft ID.</summary>
 
 **GraphQL schema:**
 
@@ -2622,9 +3171,13 @@ updatePageNodeByCraftId(
 ): PageNode
 ```
 
-#### **Site mutations**
+</details>
 
-**`createSite`**-Creates a new site/app.
+**Site mutations**
+
+<details>
+
+<summary><strong><code>createSite</code></strong>-Creates a new site/app.</summary>
 
 **GraphQL schema:**
 
@@ -2644,7 +3197,11 @@ input SiteCreateInput {
 }
 ```
 
-**`updateSite`**-Updates an existing site/app.
+</details>
+
+<details>
+
+<summary><strong><code>updateSite</code></strong>-Updates an existing site/app.</summary>
 
 **GraphQL schema:**
 
@@ -2652,7 +3209,11 @@ input SiteCreateInput {
 updateSite(site: SiteUpdateInput!): Site
 ```
 
-**`updateSites`**-Updates multiple sites.
+</details>
+
+<details>
+
+<summary><strong><code>updateSites</code></strong>-Updates multiple sites.</summary>
 
 **GraphQL schema:**
 
@@ -2660,7 +3221,11 @@ updateSite(site: SiteUpdateInput!): Site
 updateSites(sites: [SiteUpdateInput!]!): [Site!]!
 ```
 
-**`deleteSite`**-Deletes a site/app.
+</details>
+
+<details>
+
+<summary><strong><code>deleteSite</code></strong>-Deletes a site/app.</summary>
 
 **GraphQL schema:**
 
@@ -2668,7 +3233,11 @@ updateSites(sites: [SiteUpdateInput!]!): [Site!]!
 deleteSite(id: ID!): Void
 ```
 
-**`validateSiteCustomDomainDNS`**-Validates custom domain DNS settings.
+</details>
+
+<details>
+
+<summary><strong><code>validateSiteCustomDomainDNS</code></strong>-Validates custom domain DNS settings.</summary>
 
 **GraphQL schema:**
 
@@ -2681,9 +3250,13 @@ type DNSValidationResponse {
 }
 ```
 
-#### **Tag mutations**
+</details>
 
-**`createTag`**-Creates a new tag.
+**Tag mutations**
+
+<details>
+
+<summary><strong><code>createTag</code></strong>-Creates a new tag.</summary>
 
 **GraphQL schema:**
 
@@ -2699,7 +3272,11 @@ input TagCreateInput {
 }
 ```
 
-**`deleteTag`**-Deletes a tag.
+</details>
+
+<details>
+
+<summary><strong><code>deleteTag</code></strong>-Deletes a tag.</summary>
 
 **GraphQL schema:**
 
@@ -2707,7 +3284,11 @@ input TagCreateInput {
 deleteTag(id: ID!): ID
 ```
 
-**`updateTag`**-Updates a tag.
+</details>
+
+<details>
+
+<summary><strong><code>updateTag</code></strong>-Updates a tag.</summary>
 
 **GraphQL schema:**
 
@@ -2715,7 +3296,11 @@ deleteTag(id: ID!): ID
 updateTag(tag: TagUpdateInput!): Tag
 ```
 
-**`updateTags`**-Updates multiple tags.
+</details>
+
+<details>
+
+<summary><strong><code>updateTags</code></strong>-Updates multiple tags.</summary>
 
 **GraphQL schema:**
 
@@ -2723,7 +3308,11 @@ updateTag(tag: TagUpdateInput!): Tag
 updateTags(tags: [TagUpdateInput!]!): [Tag!]!
 ```
 
-**`setOrganizationTags`**-Sets tags for an organization.
+</details>
+
+<details>
+
+<summary><strong><code>setOrganizationTags</code></strong>-Sets tags for an organization.</summary>
 
 **GraphQL schema:**
 
@@ -2731,9 +3320,13 @@ updateTags(tags: [TagUpdateInput!]!): [Tag!]!
 setOrganizationTags(tagIds: [ID!]!, orgId: ID!): Organization
 ```
 
-#### **Template mutations**
+</details>
 
-**`createTemplate`**-Creates a new template.
+**Template mutations**
+
+<details>
+
+<summary><strong><code>createTemplate</code></strong>-Creates a new template.</summary>
 
 **GraphQL schema:**
 
@@ -2782,6 +3375,8 @@ input TemplateCreateInput {
     - log_error:
         message: "GraphQL query failed: {{ RESULT.error }}"
 ````
+
+</details>
 
 ## Security considerations
 
@@ -2880,8 +3475,6 @@ input TemplateCreateInput {
 ### **Permission denied**
 
 * Verify the feature flag is enabled for your organization
-* Check if your organization has staff privileges for the requested operation
-* Ensure the operation is in the allowed list for non-staff organizations
 
 ### **Query syntax errors**
 
