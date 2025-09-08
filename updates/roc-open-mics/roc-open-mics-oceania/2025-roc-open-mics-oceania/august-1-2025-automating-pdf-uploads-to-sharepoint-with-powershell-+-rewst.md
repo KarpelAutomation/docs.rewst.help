@@ -1,4 +1,4 @@
-# August 1, 2025:
+# September 5, 2025:
 
 ### **Join Live!**
 
@@ -8,17 +8,19 @@ Join us live on the first Friday of every month at 2pm AEDT
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/d_sc6pvpqsc" %}
+{% embed url="https://youtu.be/TqymHQ6xe1o" %}
 
 ### Contents of the Recording:
 
-* 🔔 Sarah outlines today’s agenda, notes the community demo reschedule, and invites questions.
-* 🔧 Jake presents July 18 and July 25 Rewst updates—crate reliability, custom HTML branding, Ninja ticketing actions, JSONB null-character fixes, upcoming DropSuite/VoIP integrations, and previews Danial’s RoboRewsty feature.
-* 📧 Jake demonstrates the new core confirmation email in Rewst, showcasing actionable buttons with default, footer-less, and custom-branded examples.
-* 🎓 Jake announces the embedded LMS in the Rewst docs portal, highlights onboarding and automation courses, and teases an Easter-egg change hunt.
-* 📂 Michael walks through a PowerShell-driven Rewst workflow that downloads a PDF as Base64 and uploads it in chunks to SharePoint.
-* 🌐 Jake shows how to embed an App Builder iframe into Halo PSA tickets, enabling in-ticket Rewst form interactions.
-* ❓ The host leads a community Q\&A on AI workflow timelines, GraphQL failure-reporting workflows, tag-based handlers, and upcoming customer demos.
+* 🛠️ Jake shares product updates including Microsoft CSP linking, RoboRewsty beta rollout, workflow auto-documentation, and failure tracing.
+* 📦 Jake covers marketplace updates with a new Autotask crate, bug fixes, billing improvements, and upcoming BitLocker and workstation offboarding features.
+* 🤖 Jake highlights dev updates such as GPT-5 model integration, Entra sign-in improvements, bug fixes, and upcoming DropSuite integration.
+* 🎓 Jake closes with education news, introducing new Troubleshooting in Rewst and ROI with Rewst courses.
+* 📧 Ben demos his Weekly Change Digest workflow, which emails a clear summary of new and updated workflows to help his team track changes.
+* 🔐 Ryan presents a Defender for Endpoint integration, using an AI-built API spec to generate vulnerability notifications, HTML emails, and CSV attachments.
+* 📂 Josh shows his SharePoint and OneDrive migration workflow, which logs progress in ConnectWise tickets, manages jobs in the background, and improves client visibility.
+* ⚡ Ray demonstrates using GraphQL in forms to speed up data retrieval, reuse previous execution results, and prefill multiple dropdowns dynamically.
+* 💬 The group discusses client portal performance, caching strategies, and ideas for future sessions including AI-powered workflow creation.
 
 <details>
 

@@ -29,53 +29,56 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/9v4fBv4MDFE" %}
+{% embed url="https://youtu.be/-Cu91xXPpqg?si=9cFxI8NdGSrf_z_A" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-
+* 🧩 Brooke outlines product updates: two ConnectWise PSA fixes (date-time parsing and opportunity ID handling), smarter template overrides, fewer GraphQL calls, and streamlined Microsoft CSP tenant transfers.
+* 🛡️ JP shares dev notes: configurable password length, updates for ConnectWise time-entry API changes, and added Google Workspace offboarding capabilities.
+* 🤖 Paul demos the OpenAI Ticket Sentiment Analysis crate, showing setup, JSON outputs, escalation thresholds, and how to customize or unsync subworkflows.
+* 🎓 Eddie highlights education wins, congratulates new certification holders, and walks through Learn on Rewst plus live trainings and Friday office hours.
+* 🧪 Andre (Apex Computers) presents a compact Autotask workflow that classifies tickets with AI and auto-sets issue/sub-issue types, illustrating a fast, focused approach.
+* 🧰 Alex (SJA Solutions), new to Rewst, debuts a device add/remove workflow with Duo approval, NinjaOne actions, tags for decommissioning, and automatic ticket auditing.
+* 🗣️ Group Discussion explores using OpenAI for ticket QA on closure, with guidance to repurpose the sentiment crate and craft role-specific prompts.
+* 🔧 Stuart & Team surface an Autotask V2 question about user-defined fields, agreeing to pursue a product ticket and verify task coverage.
 
 </details>
 
 ## Latest EU Open Mic video recording
 
-{% embed url="https://youtu.be/Py-1ZqsRHpM" %}
+{% embed url="https://youtu.be/vlBC8eupTmg" %}
 
 <details>
 
 <summary>Contents of EU Open Mic recording:</summary>
 
-* 🎤 Welcome & Reminders - Host emphasizes asking questions, encourages technical participation, and reminds to track time savings in workflows.
-* 🖥️ Product Updates - Frank shares July improvements including smarter crates, automated support access inheritance, app builder design tweaks, and better workflow reliability.
-* 🔗 Integrations - New Crush Bank integration, updates to Ninja One, Microsoft CSP, Super Ops, Acronis, plus upcoming BVOIP and Leader integrations.
-* 🛒 Marketplace Update - New BitLocker recovery keys crate, updated onboarding/offboarding crates, over 40 bug fixes, and key enhancements in July.
-* 📚 Education Update - Clea announces new technical pre-assessment course, updated live training, enhanced onboarding videos, and contest winner recognition.
-* 🌐 Community & Events - Highlights Aharon’s keynote on YouTube, upcoming Halo webinar, and International Cat Day photo contest.
-* 📧 Demo 1 (Reinier) - Showcases a workflow for sending welcome emails to all client employees post-onboarding, plus an app builder tool for viewing and linking organization variables.
-* 🔒 Demo 2 (Linden) - Presents a permission-controlled form system using Microsoft group checks to restrict access and secure workflows.
-* 📚 Demo 3 (Brent & Chantelle) - Demonstrate “The Beast” app for exam prep tracking with mobile-friendly design, and “Question of the Day” app for standup meetings with random participant selection.
-* 🛡️ Expired Token Monitor - Shares a monitoring automation that detects expired API tokens using org tags, error handling, and status checks to prevent automation failures.
-* 📅 Closing & Call for Demos - Encourages community members to share their work in future sessions and reminds about ongoing open mic calls.
+* ⚙️ Leia demos her first custom workflow: tracking tickets moved to “waiting for approval,” storing audit data in Azure SQL, and troubleshooting with SQL queries.
+* 📊 Sarah, a product manager at Rewst, who covers suborg support inheritance and CSP automation enhancements.
+* 🤝 Pizza, a lead developer, who demos upcoming RoboRewsty AI features like Chat with Docs, workflow analysis, and automated documentation.
+* 📦 JP shares marketplace updates, introducing new crates for password rotation and Autotask configuration contact-matching.
+* 📚 Clea presents education updates, highlighting new courses (ROI with Rewst, Troubleshooting), certificate programs, and LMS improvements.
 
 </details>
 
 ## Latest ANZ Open Mic video recording
 
-{% embed url="https://youtu.be/d_sc6pvpqsc" %}
+{% embed url="https://youtu.be/TqymHQ6xe1o?si=L1zCncLh2ndsQHF_" %}
 
 <details>
 
 <summary>Contents of ANZ Open Mic recording:</summary>
 
-* 🔔 Sarah outlines today’s agenda, notes the community demo reschedule, and invites questions.
-* 🔧 Jake presents July 18 and July 25 Rewst updates—crate reliability, custom HTML branding, Ninja ticketing actions, JSONB null-character fixes, upcoming DropSuite/VoIP integrations, and previews Danial’s RoboRewsty feature.
-* 📧 Jake demonstrates the new core confirmation email in Rewst, showcasing actionable buttons with default, footer-less, and custom-branded examples.
-* 🎓 Jake announces the embedded LMS in the Rewst docs portal, highlights onboarding and automation courses, and teases an Easter-egg change hunt.
-* 📂 Michael walks through a PowerShell-driven Rewst workflow that downloads a PDF as Base64 and uploads it in chunks to SharePoint.
-* 🌐 Jake shows how to embed an App Builder iframe into Halo PSA tickets, enabling in-ticket Rewst form interactions.
-* ❓ The host leads a community Q\&A on AI workflow timelines, GraphQL failure-reporting workflows, tag-based handlers, and upcoming customer demos.
+* 🛠️ Jake shares product updates including Microsoft CSP linking, RoboRewsty beta rollout, workflow auto-documentation, and failure tracing.
+* 📦 Jake covers marketplace updates with a new Autotask crate, bug fixes, billing improvements, and upcoming BitLocker and workstation offboarding features.
+* 🤖 Jake highlights dev updates such as GPT-5 model integration, Entra sign-in improvements, bug fixes, and upcoming DropSuite integration.
+* 🎓 Jake closes with education news, introducing new Troubleshooting in Rewst and ROI with Rewst courses.
+* 📧 Ben demos his Weekly Change Digest workflow, which emails a clear summary of new and updated workflows to help his team track changes.
+* 🔐 Ryan presents a Defender for Endpoint integration, using an AI-built API spec to generate vulnerability notifications, HTML emails, and CSV attachments.
+* 📂 Josh shows his SharePoint and OneDrive migration workflow, which logs progress in ConnectWise tickets, manages jobs in the background, and improves client visibility.
+* ⚡ Ray demonstrates using GraphQL in forms to speed up data retrieval, reuse previous execution results, and prefill multiple dropdowns dynamically.
+* 💬 The group discusses client portal performance, caching strategies, and ideas for future sessions including AI-powered workflow creation.
 
 </details>
 

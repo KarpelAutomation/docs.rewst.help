@@ -1,4 +1,4 @@
-# August 29, 2025: Using webhooks to automate escalation
+# September 5, 2025:
 
 ### **Join Live!**
 
@@ -8,18 +8,18 @@ Join us live every Friday at 3 pm EST!
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/9v4fBv4MDFE" %}
+{% embed url="https://youtu.be/-Cu91xXPpqg?si=kGha8iZ54hfAJNcT" %}
 
 ### Contents of the Recording:
 
-* ✂️ [Danial shares product updates on bug fixes, new integrations, and GPT-5 availability in the OpenAI chat completions.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=134s)
-* 🛠️ [JP presents a new Autotask-related crate and improvements in Microsoft user onboarding workflows.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=301s)
-* 📚 [Eddie highlights recent certification achievers and encourages use of Cluck U office hours and Discord.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=557s)
-* 🧪 [Ben showcases major improvements to Schema Doctor, including endpoint filtering and vector logo importing.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=729s)
-* 🤖 [Stuart demonstrates using an outgoing Teams webhook to trigger Rewst workflows and streamline ticket escalation.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=979s)
-* 💡 [Alden presents a lightweight automation for pushing SQL data to a vector database for improved AI querying.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=2131s)
-* 🔄 [Tanner shares a detailed demo of migrating from Automate to Ninja using Rewst to lift and shift legacy data.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=2348s)
-* 🔁 [Alan and Linda offer practical advice on prompting, subworkflow design, and leveraging PSA team structures.](https://www.youtube.com/watch?v=9v4fBv4MDFE\&t=3162s)
+* 🧩 Brooke outlines product updates: two ConnectWise PSA fixes (date-time parsing and opportunity ID handling), smarter template overrides, fewer GraphQL calls, and streamlined Microsoft CSP tenant transfers.
+* 🛡️ JP shares dev notes: configurable password length, updates for ConnectWise time-entry API changes, and added Google Workspace offboarding capabilities.
+* 🤖 Paul demos the OpenAI Ticket Sentiment Analysis crate, showing setup, JSON outputs, escalation thresholds, and how to customize or unsync subworkflows.
+* 🎓 Eddie highlights education wins, congratulates new certification holders, and walks through Learn on Rewst plus live trainings and Friday office hours.
+* 🧪 Andre (Apex Computers) presents a compact Autotask workflow that classifies tickets with AI and auto-sets issue/sub-issue types, illustrating a fast, focused approach.
+* 🧰 Alex (SJA Solutions), new to Rewst, debuts a device add/remove workflow with Duo approval, NinjaOne actions, tags for decommissioning, and automatic ticket auditing.
+* 🗣️ Group Discussion explores using OpenAI for ticket QA on closure, with guidance to repurpose the sentiment crate and craft role-specific prompts.
+* 🔧 Stuart & Team surface an Autotask V2 question about user-defined fields, agreeing to pursue a product ticket and verify task coverage.
 
 <details>
 

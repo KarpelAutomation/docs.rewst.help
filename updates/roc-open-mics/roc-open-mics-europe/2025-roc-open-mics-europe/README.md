@@ -2,9 +2,17 @@
 
 <details>
 
-<summary>August 2025</summary>
+<summary>September 2025</summary>
 
 [august-7-2025.md](august-7-2025.md "mention")
+
+</details>
+
+<details>
+
+<summary>August 2025</summary>
+
+[august-7-2025-1.md](august-7-2025-1.md "mention")
 
 </details>
 

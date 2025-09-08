@@ -1,22 +1,24 @@
-# September 4, 2025:
+# August 1, 2025:
 
 ### **Join Live!**
 
-Join us live on the first Thursday of every month at 3pm GMT
+Join us live on the first Friday of every month at 2pm AEDT
 
 &#x20;[Download the Calendar Invite here](https://go.rew.st/open-mic?hs_preview=BFeQDWBI-187816500244)!
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/vlBC8eupTmg" %}
+{% embed url="https://youtu.be/d_sc6pvpqsc" %}
 
 ### Contents of the Recording:
 
-* ⚙️ Leia demos her first custom workflow: tracking tickets moved to “waiting for approval,” storing audit data in Azure SQL, and troubleshooting with SQL queries.
-* 📊 Sarah, a product manager at Rewst, who covers suborg support inheritance and CSP automation enhancements.
-* 🤝 Pizza, a lead developer, who demos upcoming RoboRewsty AI features like Chat with Docs, workflow analysis, and automated documentation.
-* 📦 JP shares marketplace updates, introducing new crates for password rotation and Autotask configuration contact-matching.
-* 📚 Clea presents education updates, highlighting new courses (ROI with Rewst, Troubleshooting), certificate programs, and LMS improvements.
+* 🔔 Sarah outlines today’s agenda, notes the community demo reschedule, and invites questions.
+* 🔧 Jake presents July 18 and July 25 Rewst updates—crate reliability, custom HTML branding, Ninja ticketing actions, JSONB null-character fixes, upcoming DropSuite/VoIP integrations, and previews Danial’s RoboRewsty feature.
+* 📧 Jake demonstrates the new core confirmation email in Rewst, showcasing actionable buttons with default, footer-less, and custom-branded examples.
+* 🎓 Jake announces the embedded LMS in the Rewst docs portal, highlights onboarding and automation courses, and teases an Easter-egg change hunt.
+* 📂 Michael walks through a PowerShell-driven Rewst workflow that downloads a PDF as Base64 and uploads it in chunks to SharePoint.
+* 🌐 Jake shows how to embed an App Builder iframe into Halo PSA tickets, enabling in-ticket Rewst form interactions.
+* ❓ The host leads a community Q\&A on AI workflow timelines, GraphQL failure-reporting workflows, tag-based handlers, and upcoming customer demos.
 
 <details>
 
