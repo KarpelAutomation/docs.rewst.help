@@ -40,7 +40,7 @@ You'll first need to have your PSA successfully integrated before unpacking. Thi
 2. Search for `PSA: Update Ticket With User Onboard Links`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/image (2).png>)\
+   ![](<../../../.gitbook/assets/image (2) (5).png>)\
 
 4. Click **Unpack Crate**.
 5. Click **Continue**.

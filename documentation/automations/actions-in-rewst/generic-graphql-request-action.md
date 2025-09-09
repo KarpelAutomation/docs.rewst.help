@@ -15,8 +15,7 @@ This action is available in the Rewst actions section of the workflow builder's 
 {% hint style="warning" %}
 Before using the Generic GraphQL Request action, ensure that you have:
 
-* Staff organization privileges or appropriate permissions for allowed operations
-* Understanding of GraphQL query structure and syntax
+* An understanding of GraphQL query structure and syntax
 * Familiarity with Rewst's data model and available schema
 * The necessary feature flag enabled for your organization
 
