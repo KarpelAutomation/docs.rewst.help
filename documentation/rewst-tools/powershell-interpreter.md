@@ -126,6 +126,18 @@ To start using PowerShell, you’ll need to deploy an Azure Function App interpr
 
 Make sure that you have successfully set up the Microsoft Cloud integration bundle before attempting these steps.
 
+{% hint style="info" %}
+To deploy the PowerShell Interpreter, you'll need these roles for your service account.
+{% endhint %}
+
+| Scope          | Resource type                     | Purpose                                          | Minimum role required  |
+| -------------- | --------------------------------- | ------------------------------------------------ | ---------------------- |
+| Subscription   | Subscription                      | View or select subscription in deployment        | Reader                 |
+| Resource group | Resource group                    | Create and manage resources - Function App, etc. | Contributor            |
+| Key vault      | Microsoft.KeyVault/vaults/secrets | Access to the key vault if one is being used     | Key Vault Secrets User |
+
+
+
 1.  Navigate to **Tools > Interpreters** in the left side menu of your Rewst platform.\
 
 
