@@ -84,3 +84,7 @@ From the MSP organization, use this form to **Add**, **Modify**, or **Remove** a
 
 * **Department** fields are free-form text. If you aren't automating the filling-in of these, there's always the chance that spellings or formatting may vary, resulting in incomplete data.
 * The **Description** field in PSA Agreement Additions is limited to 6000 characters. Large sets of users can easily exceed that maximum and usernames won't appear in the Addition. When this happens, an email will be sent to the person who created the mapping to let them know that this is the case.&#x20;
+
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% endhint %}

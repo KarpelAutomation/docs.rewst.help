@@ -26,7 +26,7 @@ This estimate is generated from the time saved number entered in your workflow's
 
 The **Workflows** menu shows stats for how many workflows in your selected time period were running, as well as how many executions were successful and how many errors were given. The time period selected at the top of your dashboard will determine the time period displayed in the widget.
 
-Scroll further down the Rewst Dashboard page to see the **Workflows** widget.&#x20;
+Scroll further down the Rewst Dashboard page to see the **Workflows** widget. The data in this section updates daily.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-06-23 at 12.00.34 PM.png" alt="A user interface displaying a table of word counts with columns for total words, word generations, and other related metrics. The table has a dark background with light text, showcasing various entries and pagination controls at the bottom."><figcaption><p>The lower workflow widget, viewable at the bottom of the Rewst Dashboard page</p></figcaption></figure>
 

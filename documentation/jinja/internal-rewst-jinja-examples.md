@@ -13,7 +13,7 @@
 
 {% tabs %}
 {% tab title="CTX" %}
-Context Variables are specific to the currently executing workflow. They include variables like [inputs ](../automations/workflows/data-input-and-output-input-variables-and-context-variables.md#workflow-input)from the [workflow's trigger](../automations/intro-to-triggers/), any defined [Data Aliases](../automations/workflows/data-aliases.md#diving-into-data-aliases), and results from tasks that have been executed.
+Context Variables are specific to the currently executing workflow. They include variables like [inputs ](../automations/workflows/data-input-and-output-input-variables-and-context-variables.md#workflow-input)from the [workflow's trigger](../automations/intro-to-triggers/), any defined [Data Aliases](../automations/workflows/data-aliases.md), and results from tasks that have been executed.
 
 * **Usage**: `{{ CTX.variable_name }}`
 * **Additional Note**: Task results can be accessed once the task is complete. If attempted earlier, the variable will be `undefined`.
@@ -59,6 +59,45 @@ Variables prefixed with `ORG` are related to data and functions specific to the 
 * **UTILS.uuid4**
   * **Description**: Generates a new UUID (Universally Unique Identifier).
   * **Usage**: `{{ UTILS.uuid4 }}`
+{% endtab %}
+
+{% tab title="WORKFLOW" %}
+
+
+Used to reference attributes and properties of the "current workflow", the workflow that these commands are used in
+
+* WORKFLOW.human\_seconds\_saved
+  * Description: Returns the value set in the Time Saved field in a workflow's settings
+  * Usage: `{{ WORKFLOW.human_seconds_saved }}`
+* WORKFLOW.id
+  * Description: Returns the Id of the workflow
+  * Usage: `{{ WORKFLOW.id}}`
+* WORKFLOW.name
+  * Description: Returns the name of the workflow
+  * Usage: `{{ WORKFLOW.name}}`
+* WORKFLOW.org\_id
+  * Description: Returns the Id of the Rewst Organization that the workflow was execute in.
+  * Usage: `{{ WORKFLOW.org_id}}`
+* WORKFLOW.timeout
+  * Description: Returns the value set in the Workflow Timeout field in a workflow's settings
+  * Usage: `{{ WORKFLOW.timeout}}`
+* WORKFLOW.type
+  * Description: Returns the value set in the Workflow Type dropdown in a workflow's settings.
+  * Usage: `{{ WORKFLOW.}}`
+* WORKFLOW.usage
+  * Description:
+  * Usage: `{{ WORKFLOW.}}`
+{% endtab %}
+
+{% tab title="USER" %}
+Reference attributes and properties of the user that ran, executed, triggered, tested, etc. a workflow.
+
+* USER.id
+  * Description: Returns the Id of the user that executed or triggered the workflow.
+  * Usage: `{{ USER.id }}`
+* USER.username
+  * Description: Returns the email address of the user that executed or triggered the workflow
+  * Usage: `{{ USER.username }}`
 {% endtab %}
 {% endtabs %}
 
