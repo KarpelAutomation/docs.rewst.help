@@ -247,7 +247,7 @@ Returning non-JSON serializable objects (e.g., from `New-Item`) causes errors ev
 \
 If you see this error, you're trying to pass an object back from PowerShell, and will need to convert it to JSON first. Add `ConvertTo-Json` to resolve this.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -277,7 +277,7 @@ You can't `Write-Output` with Rewst's PowerShell interpreter. With Rewst's imple
 
 To work around this, record everything into a variable, and provide that variable at the end instead. Or, `Write-Output` that string at the end.
 
-<figure><img src="../../.gitbook/assets/image (72) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

@@ -18,7 +18,7 @@ This Crate only handles membership changes, not group creation. It focuses on si
 
 ## Crate prerequisites
 
-The [Microsoft Graph integration](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/) and [Microsoft Exchange integration](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-exchange-online/), both a part of our Microsoft Cloud Bundle, must be set up before unpacking this Crate.
+The [Microsoft Graph integration](broken-reference) and [Microsoft Exchange integration](broken-reference), both a part of our Microsoft Cloud Bundle, must be set up before unpacking this Crate.
 
 If you'll be using the Crate for any on-premisese environments, you'll need to have your RMM integrated with Rewst before unpacking the Crate.
 

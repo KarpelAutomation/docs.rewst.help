@@ -30,10 +30,10 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [Open Mic - August 11th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-11th-2023-if-you-smell-what-the-roc-is-cooking.md)
-* Created a [Microsoft Azure Actions Page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-azure/azure-actions.md) and [Enhanced Setup instructions](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup.md).
-* Added a new consolidated [Microsoft CSP Integration Setup page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-csp/microsoft-csp-integration-setup.md).
-* Consolidated the [Microsoft Graph integration setup page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md), added an [Actions page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/graph-actions.md), and enhanced the [Graph Subscriptions page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-subscriptions.md).
-* Completely reworked the [Best Practices for Microsoft Integrations](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/authorization-best-practices.md) and [Common Issues with Microsoft Integrations pages](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/).
+* Created a [Microsoft Azure Actions Page](broken-reference) and [Enhanced Setup instructions](broken-reference).
+* Added a new consolidated [Microsoft CSP Integration Setup page](broken-reference).
+* Consolidated the [Microsoft Graph integration setup page](broken-reference), added an [Actions page](broken-reference), and enhanced the [Graph Subscriptions page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph-subscriptions.md).
+* Completely reworked the [Best Practices for Microsoft Integrations](broken-reference) and [Common Issues with Microsoft Integrations pages](broken-reference).
 * Updated the [Auvik Integration setup page](../../../documentation/configuration/integrations/integration-guides/auvik-integration-setup.md) and added a [Actions & Endpoints](broken-reference) page.
 * Updates and Fixes
   * Updated the top and left navigation for clarity + updated some text on the front page.

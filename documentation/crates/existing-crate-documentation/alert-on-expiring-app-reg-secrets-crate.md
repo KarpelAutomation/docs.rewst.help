@@ -1,4 +1,4 @@
-# &#x20;Alert on Expiring App Reg Secrets Crate
+# Alert on Expiring App Reg Secrets Crate
 
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
@@ -10,7 +10,7 @@ Our Alert on Expiring App Reg Secrets Crate identifies any expiring client secre
 
 ## Crate prerequisites
 
-* The [Microsoft Graph integration](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md) must be set up before unpacking this Crate
+* The [Microsoft Graph integration](broken-reference) must be set up before unpacking this Crate
 * psa\_default\_board\_id organization variable
 * default\_psa organization variable
 

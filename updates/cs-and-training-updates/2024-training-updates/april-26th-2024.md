@@ -34,7 +34,7 @@ Explore what new changes the Training team has made in the last week.
 * [agent-smith](../../../documentation/agent-smith/ "mention") page updated with link to setup
 * [agent-smith-configuration-overview.md](../../../documentation/agent-smith/agent-smith-configuration-overview.md "mention") page updated with new Track Agent Inventory In Azure Tables Crate section
 * [ninjaone-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ninjaone-integration-setup.md "mention") page script updated
-* [rewst-user-setup-and-gdap-relationship-guidance.md](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention") page steps updated
+* [Broken link](broken-reference "mention") page steps updated
 * [Broken link](broken-reference "mention") page updated with I use **Threatlocker and it's causing issues with executions in Rewst. How do I fix it?** section
 
 </details>

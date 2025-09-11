@@ -29,6 +29,6 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Last week's Open Mic page and recording is available here: [dec-8th-2023-never-send-a-human-to-do-a-machines-job.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-8th-2023-never-send-a-human-to-do-a-machines-job.md "mention")
-* Note added to [microsoft-azure-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup.md "mention")
+* Note added to [Broken link](broken-reference "mention")
 
 </details>

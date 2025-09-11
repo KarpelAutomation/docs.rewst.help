@@ -33,7 +33,7 @@ Explore what new changes the Training team has made in the last week.
 * **Updates and Fixes:**&#x20;
   * Added Powershell Script to [ninjaone-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ninjaone-integration-setup.md "mention")
   * Updated [organization-variables.md](../../../documentation/configuration/organization-variables.md "mention")
-  * Updated [microsoft-csp-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-csp/microsoft-csp-integration-setup.md "mention")
+  * Updated [Broken link](broken-reference "mention")
   * Added Steps to the [halo-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/halo-integration-setup.md "mention")
 
 </details>

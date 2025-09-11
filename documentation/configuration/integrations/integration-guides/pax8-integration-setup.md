@@ -52,7 +52,7 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
 Once further Rewst set up steps are completed, you'll be able to see Rewst as an integrated app in Pax8 by navigating to **Settings > Integrations > Apps** and searching for `Rewst` from the total app list.\
 
 
-<p align="center"><img src="../../../../.gitbook/assets/image (74).png" alt=""></p>
+<p align="center"><img src="../../../../.gitbook/assets/image (74) (1).png" alt=""></p>
 {% endhint %}
 
 ### Set up steps in Rewst

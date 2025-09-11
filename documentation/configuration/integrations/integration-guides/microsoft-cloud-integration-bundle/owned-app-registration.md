@@ -4,15 +4,9 @@ description: >-
   control.
 ---
 
-# Owned app registration
+# Microsoft owned app registration
 
 Owned App Registration within your Microsoft tenant allows for a tailored configuration and heightened security settings. This advanced option is suited for users with proficiency in their Microsoft Entra environment who require custom control over their Microsoft integrations. For most cases, Rewst recommends that you not choose this option when configuring your Microsoft Cloud Integration Bundle.
-
-## **Reasons to choose Owned App Registration**
-
-* Specialized access: Your requirements are not natively met via Rewst's Cloud Connector.
-* Enhanced security control: You need control over the application for security purposes.
-* Utilization of existing applications: You wish to integrate with already existing applications.
 
 ## **Configuration instructions**
 
@@ -22,7 +16,7 @@ Below is a high-level walkthrough of what you need to configure your owned app i
 
 1. **Access the Azure Portal:**
    * Log into your [Microsoft Entra Admin Center](https://entra.microsoft.com/).
-   * Navigate to **Identity** > **Applications** > **App Registrations**.
+   * Navigate to **Identity > Applications > App Registrations**.
 2. Create or Select an App Registratio&#x6E;**:**
    * To create a new app, click **New registration**.
    * To use an existing app, select one from the **Owned applications** list.
@@ -31,13 +25,13 @@ Below is a high-level walkthrough of what you need to configure your owned app i
 4. Gather essential information:
    * Note the Client ID and generate a Client Secret under **Certificates & Secrets**.
    * Enter these credentials when configuring the application in Rewst.
-5. **Decide the auth subject:**
-   * Select **common** if your app registration is accessible across multiple tenants.
+5. Decide the auth subject:
+   * Choose **common** if your app registration is accessible across multiple tenants.
    * Choose **Tenant ID** if your registration is restricted to your own tenant, and ensure this ID is included in the **Tenant ID** field to generate the correct authentication URL.
 
-## **Minimum Permissions Needed**
+## **Minimum permissions needed**
 
-### Azure Integration
+### Owned app registration: Microsoft Azure integration
 
 In order to use the Azure Integration, you will need the following at minimum:&#x20;
 
@@ -47,26 +41,26 @@ In order to use the Azure Integration, you will need the following at minimum:&#
 Depending on the use-case, you may require the other two shown above.&#x20;
 {% endhint %}
 
-### Microsoft Graph Integration
+### Owned app registration: Microsoft Graph integration
 
 In order to use the Graph Integration, you'll need the following highlighted in red at minimum to authorize the integration. The following highlighted in yellow are also highly recommended to ensure all expected actions work:&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/graph_permissions_needed.png" alt=""><figcaption></figcaption></figure>
 
-### Microsoft Graph Subscription Triggers&#x20;
+### Owned app registration: Microsoft Graph subscription triggers&#x20;
 
 In order to use the Microsoft Graph Subscription Triggers, the following permissions are required:&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/MS_Graph_Triggers_permissions_needed.png" alt=""><figcaption></figcaption></figure>
 
-### CSP Integration
+### Owned app registration: Microsoft CSP integration
 
-These are the permissions required to use the CSP integration:
+These are the permissions required to use the Microsoft CSP integration:
 
 <figure><img src="../../../../../.gitbook/assets/csp_permissions_needed.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Make sure to choose the _Microsoft Partner Center_ API highlighted below as the duplicates will cause issues with your integration.
+Make sure to choose the **Microsoft Partner Center** API highlighted below as the duplicates will cause issues with your integration.
 {% endhint %}
 
 <figure><img src="../../../../../.gitbook/assets/msft-app-ids (1).png" alt=""><figcaption></figcaption></figure>
@@ -82,7 +76,7 @@ When choosing the Auth Subject:
 
 <figure><img src="../../../../../.gitbook/assets/single-tenant-multi-tenant-owned-app.png" alt=""><figcaption></figcaption></figure>
 
-### EXO Integration
+### Owned app registration: Microsoft EXO integration
 
 In order to use the EXO Integration, the highlighted permissions are required:
 

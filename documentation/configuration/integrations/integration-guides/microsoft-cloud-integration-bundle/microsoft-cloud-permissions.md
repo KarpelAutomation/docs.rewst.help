@@ -1,10 +1,14 @@
-# Microsoft Cloud Permissions
+# Microsoft Cloud permissions
 
-This documentation outlines the permissions available for integrations included in the Microsoft Cloud Integration Bundle, detailing the actions, methods, URLs, and trigger types associated with each permission.
+This documentation outlines the permissions available for integrations included in the Microsoft Cloud integration bundle, detailing the actions, methods, URLs, and trigger types associated with each permission.
 
-## Microsoft CSP Permissions
+Click to expand any of the app accordions below and view their permission information.
 
-### User Impersonation
+<details>
+
+<summary>Microsoft CSP permissions</summary>
+
+User impersonation
 
 This permission is necessary to pull the list of customers from your CSP tenant and map them to managed Rewst organizations.
 
@@ -14,7 +18,11 @@ This permission is necessary to pull the list of customers from your CSP tenant 
   * microsoft\_csp.list\_customer\_subscriptions
   * microsoft\_csp.update\_customer\_subscription\_quantity
 
-## Microsoft Exchange Online Permissions
+</details>
+
+<details>
+
+<summary>Microsoft Exchange Online permissions</summary>
 
 ### Exchange.Manage
 
@@ -31,16 +39,20 @@ This permission is necessary to pull the list of customers from your CSP tenant 
 * **Actions**:
   * microsoft\_exo.invoke\_command
 
-## Microsoft Azure Permissions
+</details>
 
-### Key Vault User Impersonation
+<details>
+
+<summary>Microsoft Azure permissions</summary>
+
+## Key Vault user impersonation
 
 * **Actions**:
   * microsoft\_azure.list\_keys\_in\_vault
   * microsoft\_azure.create\_key\_in\_vault
   * microsoft\_azure.delete\_key\_in\_vault
 
-### Service Management User Impersonation
+### Service Management user impersonation
 
 * **Actions**:
   * microsoft\_azure.generic\_request
@@ -74,7 +86,7 @@ This permission is necessary to pull the list of customers from your CSP tenant 
   * microsoft\_azure.list\_subscriptions
   * microsoft\_azure.list\_resource\_groups
 
-### Storage User Impersonation
+### Storage user impersonation
 
 * **Actions**:
   * microsoft\_azure.generic\_request
@@ -88,9 +100,15 @@ This permission is necessary to pull the list of customers from your CSP tenant 
   * https://{storageAccountName}.blob.core.windows.net/{containerName}
   * https://{storageAccountName}.table.core.windows.net/{tableName}
 
-## Microsoft Graph Permissions
+</details>
 
-### AccessReview.Read.All
+<details>
+
+<summary>Microsoft Graph permissions</summary>
+
+{% hint style="info" %}
+Microsoft Graph has the largest amount of required permissions out of all Microsoft Cloud integration bundle apps. If you're looking for a specific permission, search this list with **Control + F** or **Command + F**.
+{% endhint %}
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1900,3 +1918,6 @@ This permission is necessary for Rewst to be able to authenticate with your Micr
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
+
+</details>
+
