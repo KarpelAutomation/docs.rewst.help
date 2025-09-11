@@ -27,7 +27,7 @@ A good workflow should meet all of these requirements.
 ## Design, test, and document workflows
 
 {% hint style="info" %}
-For more on templating in Rewst, see our documentation [here](broken-reference).&#x20;
+For more on templating in Rewst, see our documentation [here](../templates-and-scripts.md).&#x20;
 {% endhint %}
 
 * Use pre-defined templates to speed up development and ensure adherence to best practices.
