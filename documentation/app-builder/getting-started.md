@@ -183,6 +183,55 @@ A detailed example of one such component can best be found for our [Broken link]
 &#x20;Once an app is deleted, it cannot be recovered. Exercise caution before deleting an app.
 {% endhint %}
 
+## Sync and clone App Builder apps
+
+Cloning and syncing functionality is limited to apps, not pages, and can only be implemented from parent to child. Use cloning and syncing to export entire apps into compact, bundled JSON files that you can share with other Rewst users.
+
+With cloning and syncing, you can:
+
+* Easily duplicate an app in just a few clicks
+* Keep cloned apps updated with the latest improvements
+* Unync apps if you don’t want to inherit updates from the parent app
+
+Portals or our Prebuilt Apps must still be initially cloned into customer environments by Rewst Support, and synced with updates by Rewst engineers. This functionality is available for US customers only.
+
+### Clone an app
+
+1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
+2. Click **⋮** to the right of the app you wish to clone.&#x20;
+3.  Click **Clone**.\
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.47.42 AM.png" alt=""><figcaption></figcaption></figure>
+4. &#x20;Enter whatever you would like to call your cloned app in he **New Name** field. This will need to be different from the name of the original app.
+5. Choose the organization that you would like the app to be cloned to from the **Organization** drop-down selector.
+6.  If you would like the cloned form to stay synced and inerit updates from the parent app, toggle **Synchronize Changes** on.\
+    \
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.49.08 AM.png" alt=""><figcaption></figcaption></figure>
+7. Click **Clone**. Watch the progress of your cloning in the dialog that appears.
+8. If your clone is successful, you'll see a green confirmation message. If the cloning fails, you'll see a <img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.54.11 AM.png" alt="" data-size="line"> in the cloning dialog with a short description of the failure's cause.
+
+### Export an app to a bundled file
+
+1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
+2.  Click **⋮** to the right of the app you wish to export. \
+    \
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.56.55 AM.png" alt=""><figcaption></figcaption></figure>
+3. Click **Export**.
+4. The file will be automatically downloaded to you computer.\
+   ![](<../../.gitbook/assets/Screenshot 2025-09-12 at 8.57.20 AM.png>)
+
+### Import a bundle to add an app to your Apps library
+
+1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
+2. Click <img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.54.56 AM.png" alt="" data-size="line">.
+3. Drag your app file to the **Import Bundle** dialog that appears.
+4. Click **Submit**.
+
 {% hint style="info" %}
 If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
 {% endhint %}
