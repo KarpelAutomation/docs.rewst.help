@@ -20,15 +20,19 @@ This Crate simplifies the process of authentication by allowing you to reset the
 2. The workflow automatically resets the authentication method specified in the form.
 3. The corresponding ticket is updated with the necessary information.
 
+{% hint style="success" %}
+For this Crate to work, you must have the policy in place that MFA is required. Using the Crate without this policy will result in the app being deleted without enforcing re-enrollment at the next login.&#x20;
+{% endhint %}
+
 ### Crate prerequisites
 
 * The Microsoft Graph integration must be set up before unpacking this Crate.
 * For ticketing functionality, set up one of the following PSA integrations:
-  * Kaseya BMS
-  * Halo PSA
-  * ConnectWise PSA
-  * Freshdesk
-  * Datto PSA
+  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [Halo PSA](../../automations/kits/halo-psa-integration-kit.md)
+  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+  * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+  * [Datto PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
 
 ## Unpack the Reset Microsoft MFA Crate
 
