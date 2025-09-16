@@ -14,19 +14,18 @@ This Crate enables form submission, allowing for automated email quarantine rele
 
 ## Crate prerequisites
 
-The Microsoft Exchange Integration must be set up before unpacking this Crate.&#x20;
+The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Microsoft 365 Quarantine Email Release Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Microsoft 365 Quarantine`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-31 at 5.10.27 PM.png>)
+   ![](<../../../.gitbook/assets/image (159).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.&#x20;
 6.  Enter your estimated time saved into the **Time Saved (seconds)** field. \
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-31 at 5.11.51 PM.png" alt=""><figcaption></figcaption></figure>
@@ -37,13 +36,11 @@ The Microsoft Exchange Integration must be set up before unpacking this Crate.&#
 
 1. Navigate to **Automations > Workflows**.
 2.  Search for M365 Quarantine Release. Click on the workflow to open it in the workflow builder. Note that this workflow is triggered by a form submission.\
-    \
 
 
-    <figure><img src="../../../.gitbook/assets/image (65) (1).png" alt=""><figcaption></figcaption></figure>
-3. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1).png" alt="" data-size="line"> to access the **Edit Trigger** page.
+    <figure><img src="../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+3. Click ![](<../../../.gitbook/assets/image (183).png>) to access the **Edit Trigger** page.
 4.  Click ![](<../../../.gitbook/assets/Screenshot 2025-03-31 at 5.16.58 PM.png>) under **Trigger Configuration** to copy the form's URL. \
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (66) (1).png" alt=""><figcaption></figcaption></figure>
@@ -57,7 +54,6 @@ The Microsoft Exchange Integration must be set up before unpacking this Crate.&#
    6. Choose to release the email to all recipients, or only the selected user.
 7. Click **Submit**.
 8.  Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> to view the results of the workflow. If there are errors in the result record, the Crate is not working properly. \
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>

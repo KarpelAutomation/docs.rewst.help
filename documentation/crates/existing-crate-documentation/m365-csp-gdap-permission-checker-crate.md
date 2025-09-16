@@ -12,18 +12,17 @@ For more information on the recommended GDAP roles, see the [Best Practices for 
 
 ## Crate prerequisites
 
-The [Microsoft Graph integration](broken-reference) must first be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the M365 CSP/GDAP Permission Checker Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `M365 CSP/GDAP Permission Checker`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-04-22 at 3.33.58 PM.png>)
+   ![](<../../../.gitbook/assets/image (151).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5.  Click **Continue**.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-22 at 3.52.52 PM.png" alt=""><figcaption><p>The Crate's configuration page</p></figcaption></figure>
@@ -34,10 +33,7 @@ The [Microsoft Graph integration](broken-reference) must first be set up before 
 ## How to use the Crate
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for `[ROC] M365: CSP/CPV Permission Checker`. Click on the workflow to open it in the workflow builder. \
-
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-22 at 4.27.59 PM.png" alt=""><figcaption></figcaption></figure>
+2. Search for `[ROC] M365: CSP/CPV Permission Checker`. Click on the workflow to open it in the Workflow Builder.&#x20;
 3. Within the **\[ROC] M365: CSP/CPV Permission Checker** main workflow, click `Test`.
 4. Select the tenant you want to check permissions for from the **Trigger Context Organization** dropdown menu. This list is derived from the organizations enabled in your trigger configuration.
 5.  Enter the domain associated with the managing organization's tenant in the **Primary Domain of the MSP** field. \

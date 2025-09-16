@@ -17,9 +17,10 @@ The Microsoft Exchange integration must first be successfully installed. This is
 ## Unpack the Alert when Users' Mailboxes are Reaching Quota Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
-2. Search for the `Unpack the Alert when Users' Mailboxes are Reaching Quota` Crate.\
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-11 at 7.13.13 PM.png>)
+2.  Search for the `Unpack the Alert when Users' Mailboxes are Reaching Quota` Crate.
+
+    \
+    ![](<../../../.gitbook/assets/image (104).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack**.
 5. Enter your desired percentage capacity threshold for the mailbox quota.
@@ -46,7 +47,6 @@ To test if the Crate is working properly, you'll want to use the test function d
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `Alert when Users' Mailboxes are Reaching Quota`.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-16 at 3.34.41 PM.png" alt=""><figcaption></figcaption></figure>
@@ -55,7 +55,7 @@ To test if the Crate is working properly, you'll want to use the test function d
 5.  Choose the organization you'd like to use to test the workflow.\
 
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-16 at 3.34.55 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 6. Click **Test**.
 7. Allow the workflow to run.
 8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.

@@ -15,7 +15,7 @@ Find the [webhook](https://docs.rewst.help/documentation/automations/intro-to-tr
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Organizational Setup Report`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-14 at 3.32.52 PM.png>)
+   ![](<../../../.gitbook/assets/image (168).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.&#x20;
 5. Click **Continue**.
@@ -32,7 +32,6 @@ The first run of the report usually takes some time, with subsequent runs comple
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platfor,.
 2.  Search for `View Org Setup Report`.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-23 at 3.59.12 PM.png" alt=""><figcaption></figcaption></figure>
@@ -40,7 +39,7 @@ The first run of the report usually takes some time, with subsequent runs comple
 4. Select the **Web GET** trigger from the trigger drop-down selector.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-05-23 at 4.00.05 PM.png>)
-5. Click <img src="../../../.gitbook/assets/Screenshot 2025-05-21 at 2.57.06 PM.png" alt="" data-size="line"> to open the trigger.
+5. Click ![](<../../../.gitbook/assets/image (182).png>) to open the trigger.
 6. Under **Trigger Configuration**, click **View Webhook URLs**.
 7. Copy the URL and launch it in a new tab.
 

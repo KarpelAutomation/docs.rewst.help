@@ -40,8 +40,7 @@ You'll first need to have your PSA successfully integrated before unpacking. Thi
 2. Search for `PSA: Update Ticket With User Onboard Links`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/image (2) (5).png>)\
-
+   ![](<../../../.gitbook/assets/image (171).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Expand each of the sections under **Configure Triggers** to toggle **Enabled** to on for your desired PSA triggers. By default, all available PSA triggers are disabled.&#x20;

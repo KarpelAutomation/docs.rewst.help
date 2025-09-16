@@ -11,8 +11,8 @@ This Crate simplifies managing calendar access in Microsoft 365 by allowing IT s
 * Specifies whose calendar permissions will be updated.
 * Displays the user's current calendar permission entries.
 * Adds or removes permissions:
-  * `Add`: Grants access
-  * `Remove`: Revokes access
+  * Add: Grants access
+  * Remove: Revokes access
 * Chooses the users who will gain or lose access, and allows you to select the desired access level
 * Defines the calendar permission level&#x20;
 * Includes additional delegation settings if needed
@@ -30,8 +30,7 @@ The Microsoft Exchange integration must first be successfully installed. This is
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Amend Calendar Permission on User`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-14 at 3.27.36 PM.png>)\
-
+   ![](<../../../.gitbook/assets/image (119).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

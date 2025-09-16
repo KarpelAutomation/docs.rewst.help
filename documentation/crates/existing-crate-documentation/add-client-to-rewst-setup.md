@@ -23,7 +23,7 @@ The Add Client to Rewst Crate lets you easily use a form to add a new client to 
 2.  Search for `Add Client to Rewst`.
 
     \
-    ![](<../../../.gitbook/assets/Screenshot 2025-08-18 at 4.02.30 PM.png>)\
+    ![](<../../../.gitbook/assets/image (79).png>)\
 
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
@@ -39,7 +39,7 @@ After unpacking, use the Crate's form to add a client.
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `Add New Client to Rewst`.
-3. Click **⋮> Usages > View Direct URLs.**
+3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
 5. Fill out the form as follows:
 

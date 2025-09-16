@@ -76,9 +76,10 @@ For more on organizational variables, see our introductory documentation [here](
 ## Unpack the User Offboarding V2 Crate
 
 1. Navigate to **Crates > Marketplace** in the left side menu of the Rewst platform.
-2. Search for `Rewst: User Offboarding V2`\
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-12 at 3.33.22 PM.png>)
+2.  Search for `Rewst: User Offboarding V2`.&#x20;
+
+    \
+    ![](<../../../.gitbook/assets/image (178).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Click **Continue**.
@@ -92,11 +93,11 @@ For more on organizational variables, see our introductory documentation [here](
 
 1. Navigate to **Automations > Forms**.
 2. Search for `user offboarding` to find the form unpacked from the Crate.
-3.  Click the ⋮ next to the form.\
+3.  Click the **⋮** next to the form.\
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-12 at 3.35.42 PM.png" alt=""><figcaption></figcaption></figure>
-4. Click **usages**, then **View direct URLs**.
+4. Click **Usages**, then **View direct URLs**.
 5. Select the form of the customer for which you wish to test.
 6. Run through the form and test offboarding a user.
 

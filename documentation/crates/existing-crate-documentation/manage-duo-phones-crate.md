@@ -18,8 +18,6 @@ These PSA brands are still in development, but will be added to this Crate's fun
 * Kaseya BMS
 * Freshdesk PSA
 
-
-
 ## Why use the Manage Duo Phones Crate?
 
 Automate phone number management by streamlining the process of adding, removing, and auditing phone assignments. Reduce your manual efforts, minimize errors, and ensure consistency.
@@ -28,7 +26,7 @@ This Crate ensures controlled access and accurate tracking of phone assignments 
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you must have your PSA integrated with Rewst, and have integrated Duo with Rewst.
+Before unpacking this Crate, you must have your [PSA integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst, and have integrated Duo with Rewst.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 at 4.59.05 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -37,7 +35,7 @@ Before unpacking this Crate, you must have your PSA integrated with Rewst, and h
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Manage Duo Phones`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-10 at 4.56.52 PM.png>)
+   ![](<../../../.gitbook/assets/image (155).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.&#x20;
 5. Click **Continue**.
@@ -50,7 +48,7 @@ Before unpacking this Crate, you must have your PSA integrated with Rewst, and h
 
 1. Navigate to **Automations > Forms.**
 2. Search for the form named **\[Rewst] Duo: Manage Phones.**
-3. Click **⋮** and select **usages**.
+3. Click **⋮** and select **Usages**.
 4. Locate the workflow named  **\[Rewst - CRATE] Duo: Manage Phones.**
 5. Click **View Direct URLs**.
 6. Click the link that corresponds to your MSP’s organization.

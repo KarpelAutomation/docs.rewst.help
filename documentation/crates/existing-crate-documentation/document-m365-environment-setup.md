@@ -12,16 +12,15 @@ The Document M365 Environment Crate fetches user details from the Microsoft 365 
 
 Before using this automation:
 
-* Ensure that you have an existing Microsoft 365 account&#x20;
-* Your [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must be set up
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* Your [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must be set up.
 
 ## Unpack the Document M365 Environment Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Document M365 Environment`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-07-24 at 12.26.02 PM.png>)\
-
+   ![](<../../../.gitbook/assets/image (137).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -36,7 +35,7 @@ To test this Crate, you'll need to adjust the [cron trigger](../../automations/i
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document M365 Environment` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click <img src="../../../.gitbook/assets/Screenshot 2025-05-21 at 2.57.06 PM (1).png" alt="" data-size="line"> to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (183).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then. A fresh documentation record will appear in your documentation tool if the workflow is successful.
 6. Re-adjust the time of the cron trigger to when you would like it to routinely ru&#x6E;**.**
 

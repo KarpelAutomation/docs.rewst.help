@@ -19,8 +19,7 @@ This Crate offers a collection of common Jinja examples, all consolidated into a
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Rewst Examples: Jinja Comprehension`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-14 at 3.19.54 PM.png>)\
-
+   ![](<../../../.gitbook/assets/image (174).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Click **Unpack**.
@@ -34,7 +33,7 @@ This Crate offers a collection of common Jinja examples, all consolidated into a
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-14 at 3.14.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 3. Click **Test** and execute the workflow. This will execute all the tasks on your canvas and display a confirmation message at the top of your screen.
-4. Click **View Results** <img src="../../../.gitbook/assets/Screenshot 2025-08-15 at 10.31.06 AM.png" alt="" data-size="line">to launch the results in a new tab of your browser.
+4. Click **View Results** <img src="../../../.gitbook/assets/Screenshot 2025-08-15 at 10.31.06 AM.png" alt="" data-size="line"> to launch the results in a new tab of your browser.
 5. Click **Load Context**.
 6. Click on each of the numbered sets in the **{}** brackets.&#x20;
 7. Click each **...** in every set of brackets to expand and view the Jinja.

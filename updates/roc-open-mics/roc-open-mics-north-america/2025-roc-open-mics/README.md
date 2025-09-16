@@ -4,7 +4,8 @@
 
 <summary>September 2025</summary>
 
-[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations.md "mention")
+[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations.md "mention")\
+[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md "mention")
 
 </details>
 
@@ -12,7 +13,7 @@
 
 <summary>August 2025</summary>
 
-[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md "mention")
+[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-2.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-2.md "mention")
 
 [august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1-1.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1-1.md "mention")&#x20;
 

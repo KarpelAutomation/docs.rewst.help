@@ -18,17 +18,17 @@ This Crate monitors Microsoft 365 Conditional Access Policy changes and generate
 
 Before unpacking this Crate:
 
-* The Microsoft Cloud integration must be set up in Rewst
-* Have Access to Conditional Access Policies via Microsoft Graph API
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* You must have access to Conditional Access Policies via Microsoft Graph API
 * Set up email configuration for notifications, if using email alerts
-* Your PSA integration must be configured, if using ticket notifications
+* Your [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be configured, if using ticket notifications
 
 ### Unpack the Notify on Conditional Access Policy Changes Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Notify on Conditional Access Policy Changes`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-04-14 at 10.27.46 AM.png>)
+   ![](<../../../.gitbook/assets/image (164).png>)
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate.**
 5. Click **Continue**.
@@ -36,7 +36,7 @@ Before unpacking this Crate:
 
     1. Sending an email, including who to send the reports to
     2. Creating a PSA Ticket
-    3. Choose to use OpenAI\
+    3. Choosing to use OpenAI\
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-14 at 10.30.39 AM.png" alt=""><figcaption></figcaption></figure>
@@ -46,7 +46,7 @@ Before unpacking this Crate:
 
 ### How the Crate triggers
 
-This Crate can be triggered in two ways.
+This Crate can be triggered in one of two ways.
 
 #### **Cron job trigger**
 

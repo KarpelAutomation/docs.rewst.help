@@ -30,10 +30,10 @@ This Crate uses the OpenAI API to categorize tickets, using your built-in types,
 
 *   Before unpacking the Crate, you'll need to have the integration for one of the following PSAs set up:
 
-    * ConnectWise Manage
-    * Datto PSA
-    * HaloPSA
-    * Kaseya BMS
+    * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+    * [Datto PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
+    * [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+    * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
 
     If you're using a PSA that isn't on this list, please let us know. Our support team will look at whether it has the ability to trigger an automation based on a ticket being created.
 * You'll also need to have the OpenAI integration set up in Rewst.
@@ -44,7 +44,7 @@ This Crate uses the OpenAI API to categorize tickets, using your built-in types,
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `OpenAI Ticket Categorization`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-12 at 3.42.48 PM.png>)
+   ![](<../../../.gitbook/assets/image (165).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Choose your desired PSA from the drop-down selector. This is especially important for customers using multiple PSAs.&#x20;

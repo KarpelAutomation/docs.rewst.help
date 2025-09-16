@@ -34,12 +34,11 @@ Your [ITGlue](../../configuration/integrations/integration-guides/it-glue-integr
 2. Search for the `Document M365 Shared Mailbox Details V2`Crate.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-28 at 3.04.49 PM.png>)
+   ![](<../../../.gitbook/assets/image (139).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your **Time Saved (seconds)**.
 7.  Note that under the **Cron Job** accordion menu, you have the option to activate the trigger for all current and future managed organizations, or for specific organizations chosen from the **Activate for organizations** drop-down selector. You may also activate the trigger for organizations with specific tags. \
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-28 at 3.43.12 PM.png" alt=""><figcaption></figcaption></figure>

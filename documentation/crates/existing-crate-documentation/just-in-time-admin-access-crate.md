@@ -42,7 +42,7 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Just in Time Admin Access Crate`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-18 at 4.12.57 PM.png>)
+   ![](<../../../.gitbook/assets/image (147).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Change the name of the Workflow to suit your needs, if desired.
 5. Leave all the form options as the default.
@@ -150,7 +150,6 @@ If you need to retrieve the username and password for the temporary admin accoun
 4. Click on the link **\[Rewst] Just-In-Time Admin Access v2**, in the **Workflow** column.
 5. Click ![](<../../../.gitbook/assets/Screenshot 2025-08-18 at 4.37.03 PM.png>) in the top toolbar to **View results for this workflow**.
 6.  If multiple workflows exist, verify the approximate submission time of the \[Rewst] Just In Time Admin Access form with the requester. Locate the workflow result under the **Created At** column, and open it by clicking **>**.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>

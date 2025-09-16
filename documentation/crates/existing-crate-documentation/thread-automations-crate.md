@@ -53,9 +53,7 @@ Note that the individual setting up the integration must be an admin in Thread.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.10.59 AM.png" alt=""><figcaption></figcaption></figure>
 
-6. Optionally, enter `Reply with the summary of what they provided against the field names, so for instance telling us that the first name they provided was X` in the **Describe what the AI should reply** field of the **External Reply (Optional)** submenu. \
-   \
-
+6. Optionally, enter `Reply with the summary of what they provided against the field names, so for instance telling us that the first name they provided was X` in the **Describe what the AI should reply** field of the **External Reply (Optional)** submenu.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.11.30 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -67,7 +65,7 @@ Note that the individual setting up the integration must be an admin in Thread.
 2. Search for `Thread Automation`.
 3. Click on the Crate tile to open its details page. \
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-04-18 at 11.05.32 AM.png>)
+   ![](<../../../.gitbook/assets/image (176).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your time saved.
@@ -77,7 +75,7 @@ Note that the individual setting up the integration must be an admin in Thread.
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-29 at 11.42.58 AM.png" alt=""><figcaption></figcaption></figure>
 8. Choose which organizations this Crate should be applied to in the Activate for Organizations drop-down selector, if desired.
 9. Click **Unpack**.
-10. Navigate to **Configuraton > Organization Variables**.
+10. Navigate to **Configuration > Organization Variables**.
 11. Create an [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) with the name `rewst_thread_webhook_secret` . Change the category of the organization variable to **Secret**.  Enter a secure password into the **Value** field. Copy this password value somewhere secure. You'll need it for later set up steps in both Rewst and Thread.\
 
 
@@ -85,7 +83,7 @@ Note that the individual setting up the integration must be an admin in Thread.
 12. Navigate to **Automations > Workflows**.&#x20;
 13. Search for `[Rewst - Crate] Thread Automations`.
 14. Click on the workflow to enter the workflow builder view.
-15. Click <img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.41.17 AM.png" alt="" data-size="line"> to open the trigger.
+15. Click ![](<../../../.gitbook/assets/image (180).png>) to open the trigger.
 16. Click **View Webhook URLs** under **Trigger Configuration**.\
 
 
@@ -100,7 +98,6 @@ Note that the individual setting up the integration must be an admin in Thread.
 ### Additional setup steps in Thread
 
 1.  Enter the webhook URL copied from Rewst into the **API URL field** of the **Automation (Optional)** submenu.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.44.07 AM.png" alt=""><figcaption></figcaption></figure>

@@ -27,7 +27,7 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `M365: Generate Org Chart`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-08 at 5.45.18 PM.png>)
+   ![](<../../../.gitbook/assets/image (153).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -37,7 +37,7 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 ## Use the M365: Generate Org Chart Crate
 
 {% hint style="info" %}
-The crate workflow is triggered by a form submission. Initiate the org chart generation by submitting a request through the form with the necessary inputs.
+The Crate workflow is triggered by a form submission. Initiate the org chart generation by submitting a request through the form with the necessary inputs.
 {% endhint %}
 
 ### Use the form
@@ -48,7 +48,7 @@ The crate workflow is triggered by a form submission. Initiate the org chart gen
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-08 at 5.51.59 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **⋮ > Usages**.
-4. Click View Direct URLS.
+4. Click **View Direct URLs**.
 5. Click on the link in the dialog that appears.
 6. Fill out the form as desired.\
    \
@@ -60,6 +60,7 @@ The crate workflow is triggered by a form submission. Initiate the org chart gen
 
 1. Navigate to **Automations > Templates**.
 2. Search for `Org Chart HTML Template`**.**\
+   \
    ![](<../../../.gitbook/assets/Screenshot 2025-05-08 at 5.57.56 PM.png>)
 3. Click **>** to open and edit the template.&#x20;
 

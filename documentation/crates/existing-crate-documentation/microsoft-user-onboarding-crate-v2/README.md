@@ -125,10 +125,11 @@ For a complete list of required variables, refer to the [Context & Organizationa
 ## Unpack the Crate
 
 1. Navigate to **Crates > Marketplace** in the left side menu of the Rewst platform.
-2. Search for `Microsoft: User Onboarding`.
+2.  Search for `Microsoft: User Onboarding`.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot%202025-02-25%20at%209.31.21%E2%80%AFAM.png" alt=""><figcaption></figcaption></figure>
 
+
+    <div align="left"><figure><img src="../../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure></div>
 3. Click on the Crate to open the details page.
 4. Click **Unpack Crate**, then **Continue**.
 5. If you wish, update the workflow name.

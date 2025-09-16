@@ -25,14 +25,14 @@ Typically, the Crate is triggered as a scheduled run across all relevant configu
 
 ## Crate prerequisites
 
-Prior to unpacking and running this Crate, you'll need to have successfully integrated your Datto Autotask PSA.
+Prior to unpacking and running this Crate, you'll need to have successfully integrated your [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/).
 
 ## Unpack the Assign Autotask Configuration Contact Based on Last Logged In User Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Assign Autotask Configuration Contact Based on Last Logged In User` .\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-29 at 10.25.53 AM.png>)\
+   ![](<../../../.gitbook/assets/image (120).png>)\
 
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate**.

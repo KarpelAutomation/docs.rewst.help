@@ -15,10 +15,10 @@ The OpenAI Ticket Sentiment Analysis Crate streamlines support operations by usi
 ### Crate prerequisites
 
 * Before unpacking the Crate, you'll need to have the integration for one of the following PSAs set up:
-  * ConnectWise Manage
-  * Datto PSA
-  * HaloPSA
-  * Kaseya BMS
+  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+  * [Datto PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
+  * [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
 
 &#x20;      If you're using a PSA that isn't on this list, please let us know and we'll look at whether it has the    ability to trigger an automation based on a ticket being created.
 
@@ -29,7 +29,7 @@ The OpenAI Ticket Sentiment Analysis Crate streamlines support operations by usi
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `OpenAI Ticket Sentiment`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-19 at 4.33.23 PM.png>)
+   ![](<../../../.gitbook/assets/image (166).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 

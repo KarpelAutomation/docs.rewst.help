@@ -19,17 +19,17 @@ Your [RMM integration](../../configuration/integrations/top-5-integration-types-
 ## Unpack the Billing Count Report Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
-2. Search for the `Billing Count Report` Crate.
-3. Click on the Crate tile to begin unpacking.
-4.  Click **Unpack Crate**.\
+2.  Search for the `Billing Count Report` Crate.
+
     \
+    ![](<../../../.gitbook/assets/image (110).png>)
+3. Click on the Crate tile to begin unpacking.
+4. Click **Unpack Crate**.
+5. Scroll to the bottom of the page. Choose how you want the billing report delivered by selecting your option from the **Billing Report Delivery Mechanism** drop-down. Fill out the other required information fields, depending on your delivery method.
 
+<figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
-5. Scroll to the bottom of the page. Choose how you want the billing report delivered. Fill out the other required information, depending on your delivery method.
-6. Click **Continue**.\
-   \
-   ![](<../../../.gitbook/assets/image (47).png>)
+6. Click **Continue**.
 7. Click **Unpack**.
 
 ## Test the Crate

@@ -15,12 +15,11 @@ Use the Crate to have a centralized page that includes all rewst forms unpacked 
 2. Search for `Comprehensive Rewst Forms List` .
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-11 at 6.09.15 PM.png>)
+   ![](<../../../.gitbook/assets/image (125).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Ensure that both the cron and webhook triggers have **Enabled** toggled on.
 7.  Click **Unpack**.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-11 at 6.21.31 PM.png" alt=""><figcaption></figcaption></figure>
@@ -36,7 +35,7 @@ Use the Crate to have a centralized page that includes all rewst forms unpacked 
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-25 at 3.24.46 PM.png" alt=""><figcaption></figcaption></figure>
 
-5. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png" alt="" data-size="line"> to open the workflow's trigger settings.
+5. Click ![](<../../../.gitbook/assets/image (186).png>) to open the workflow's trigger settings.
 6. Click **View Webhook URLs**.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-06-25 at 3.26.06 PM.png>)\

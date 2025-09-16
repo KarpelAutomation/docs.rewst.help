@@ -16,15 +16,15 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 
 ## Crate prerequisites
 
-* The Microsoft Graph integration must be set up before unpacking this Crate.
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * For ticketing functionality, set up one of the following PSA integrations:
-  * Halo PSA
-  * Datto PSA
-  * ConnectWise PSA
-  * Freshdesk
-  * Kaseya BMS
-  * ServiceNow
-* For ticketing functionality, the organizational variable `default_psa` should be defined per the table below.
+  * [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+  * [Datto PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
+  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+  * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [ServiceNow](../../configuration/integrations/integration-guides/servicenow-integration-setup.md)
+* For ticketing functionality, the [organizational variable](../../configuration/organization-variables.md#what-is-an-organization-variable) `default_psa` should be defined per the table below.
 
 | PSA             | Value        |
 | --------------- | ------------ |
@@ -40,8 +40,7 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Remove Malicious Email and Block Sender`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-07 at 4.26.55 PM.png>)\
-
+   ![](<../../../.gitbook/assets/image (172).png>)
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

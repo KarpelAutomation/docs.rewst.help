@@ -11,22 +11,17 @@ Our Amend Mailbox Permissions Crate provides a streamlined, secure method for ma
 The Amend Mailbox Permissions Crate automates the following processes.
 
 1. Permission management
-
-* Adding or removing Full Access permissions
-* Adding or removing Send As permissions
-* Viewing current mailbox access levels
-
+   1. Adding or removing Full Access permissions
+   2. Adding or removing Send As permissions
+   3. Viewing current mailbox access levels
 2. Automatic documentation
-
-* Creates a new ticket or allows selection of an existing one.
-* Captures the reason for permission changes
-* Ensures accountability and compliance for mailbox access modifications
-
+   1. Creates a new ticket or allows selection of an existing one.
+   2. Captures the reason for permission changes
+   3. Ensures accountability and compliance for mailbox access modifications
 3. Automated logging and tracking
-
-* Generates detailed logs of all permission changes
-* Creates or updates tickets in your PSA
-* Provides a clear audit trail of access modifications
+   1. Generates detailed logs of all permission changes
+   2. Creates or updates tickets in your PSA
+   3. Provides a clear audit trail of access modifications
 
 ## Why use the Amend Mailbox Permissions Crate?
 
@@ -56,20 +51,23 @@ This Crate is designed to support MSPs and IT teams in efficiently and securely 
 
 ### Integration requirements
 
-* The Microsoft 365 bundle must be setup. View instructions for how to do this [here](https://docs.rewst.help/documentation/integrations/cloud/-cloud-integration-bundle).
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * Your PSA must be [integrated with Rewst](https://docs.rewst.help/documentation/integrations/psa).
 
 ## Unpack the Amend Mailbox Permissions Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for the `Amend Mailbox Permissions` Crate.
-3. Click on the Crate tile to begin unpacking.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-02-13 at 10.20.14 AM.png>)
-4. This will open that PSA integration’s configuration form in a new tab. Note that this list will have check marks if you have already met the prerequisite integration and org variable setup needs.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-02-13 at 12.00.12 PM.png>)
+3.  Click on the Crate tile to begin unpacking.
+
+    \
+    ![](<../../../.gitbook/assets/image (106).png>)
+4. This will open that PSA integration’s configuration form in a new tab. Note that this list will have check marks if you have already met the prerequisite integration and org variable setup needs.
 5. Click **Unpack Crate**.
-6. Choose your PSA from the drop down list.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-02-19 at 12.11.13 PM.png>)
+6.  Choose your PSA from the drop down list.\
+
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-19 at 12.11.13 PM.png" alt=""><figcaption></figcaption></figure>
 7. Click **Continue**.
 8. Change the **Workflow name**, if desired.
 9. Leave form options at their default state.
@@ -81,51 +79,31 @@ This Crate is designed to support MSPs and IT teams in efficiently and securely 
 
 ## Amend Mailbox Permissions form
 
-### Access the Form
+### Access the form
 
-1. Navigate to **Automations** > **Forms**.
-2. Search for **\[Rewst] M365: Amend Mailbox Permissions**.
-3. Open the form’s options by clicking the ⋮ menu to the right.
-4. Click **Usages.**\
-   ![](<../../../.gitbook/assets/Screenshot 2025-02-12 at 12.14.12 PM (1).png>)
-5. Click **View Direct URLs.**
-6. Click on the form for the child organization, or use the parent org form for MSPs form users.
+1. Navigate to **Automations** > **Forms** in the left side menu of your Rewst platform.
+2. Search for `[Rewst] M365: Amend Mailbox Permissions`.
+3. Click **⋮ > Usages > View Direct URLs.**
+4.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+5. Click on the form for the child organization, or use the parent org form for MSPs form users.
 
-### Fill Out the Form
+### Fill out the form
 
-1. Customer or client
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-15 at 4.15.45 PM.png" alt=""><figcaption></figcaption></figure>
 
-Choose the specific client for whom permissions will be modified. Click the drop down arrow of the **Client** field, or begin typing the name into the field to jump to the client name.
-
-* Ensures changes are applied to the correct organization
-* **Example**: `Cluck-U`
-
-2. Ticket
-
-Choose the ticket number related to the access request. Click the drop down arrow of the **Ticket** field, or begin typing the name into the field to jump to the ticket name.
-
-* Links permission changes to a specific support context
-* Provides tracking and audit trail
-
-3. User
-
-* Identifies the primary mailbox for permission modifications
-* Both of these mailbox types will work with the form.
-  * Individual User Accounts: `john.smith@pedroaviary.com`
-  * Shared Mailboxes: `hr-manager@pedroaviary.com`
-
-4. Action Type
-
-* Specify the type of permission modification you would like to execute by clicking on one of the following options. Clicking on each will add additional relevant fields and options to the form.
-  * **Add Perms**: Grant new access rights via **Add Full Access Users to Selected Mailbox** and **Add Send As Access Users to Selected Mailbox**
-  * **Remove Perms**: Revoke existing access via **Remove Existing Full Access Users** and **Remove Existing Send As Users**
-  * **View Perms**: Check current access levels via **All Perms** permission data check
-
-{% hint style="warning" %}
-When finished filling out the form, remember to click Submit.
-{% endhint %}
+1. Choose the specific client for whom permissions will be modified. Click the drop down arrow of the **Client** field, or begin typing the name into the field to jump to the client name.&#x20;
+2. Click the drop down arrow of the **Ticket** field, or begin typing the name into the field to jump to the ticket name related to the request.&#x20;
+3. Select the mail-enabled user to perform the permission modification action on.
+   1. Both of these mailbox types will work with the form:
+      1. Individual User Accounts: `john.smith@pedroaviary.com`
+      2. Shared Mailboxes: `hr-manager@pedroaviary.com`
+4. Click on one of the following actions to specify the type of permission modification you would like to execute. Clicking on each will add additional relevant fields and options to the form.
+   1. **Add Perms**: Grant new access rights via **Add Full Access Users to Selected Mailbox** and **Add Send As Access Users to Selected Mailbox**
+   2. **Remove Perms**: Revoke existing access via **Remove Existing Full Access Users** and **Remove Existing Send As Users**
+   3. **View Perms**: Check current access levels via **All Perms** permission data check
+5. Click **Submit**.
 
 ### Add permissions form example
 
@@ -206,7 +184,7 @@ When finished filling out the form, remember to click Submit.
   * Logs all permission modification details
   * Provides clear, traceable record of access changes
 
-#### Removing permissions
+Removing permissions
 
 * **Permission revocation process**
   * Methodically removes specified access rights

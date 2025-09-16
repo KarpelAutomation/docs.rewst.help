@@ -18,23 +18,24 @@ Our Triage SentinelOne Tickets Crate streamlines the process of matching Sentine
 
 ## Crate prerequisites
 
-* An active SentinelOne integration with Rewst
-* ConnectWise PSA integration with Rewst
+* An active [SentinelOne integration](../../configuration/integrations/integration-guides/sentinelone-integration-setup.md) with Rewst
+* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) integration with Rewst
 
 ### Unpack the Triage SentinelOne Tickets Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for **Triage SentinelOne Tickets Crate**.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 9.42.53 AM.png>)
+   ![](<../../../.gitbook/assets/image (177).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate** to complete the installation.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 9.43.26 AM.png>)
-5. Click **Continue**.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 9.44.03 AM.png>)
+   ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 9.43.26 AM.png>)
+5.  Click **Continue**.\
+
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 9.44.03 AM.png" alt=""><figcaption></figcaption></figure>
 6.  Configure Trigger Criteria. Trigger criteria should trigger the workflow when `Entity.summary` starts with `SentinelOne -` .\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-05 at 22.37.01@2x.png" alt=""><figcaption></figcaption></figure>

@@ -13,7 +13,7 @@ This Crate allows you to bulk add or update organization variables using a CSV f
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Mass Update Org Variables via CSV`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-04-28 at 1.15.23 PM.png>)
+   ![](<../../../.gitbook/assets/image (157).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.&#x20;
 5. Click **Continue**.

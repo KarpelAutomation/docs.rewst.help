@@ -18,7 +18,7 @@ This Crate does not handle On-Prem Exchange and will only handle Exchange functi
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll need to successfully set up the Microsoft Graph integration, now a part of our [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ### Identity provider configuration
 
@@ -33,7 +33,7 @@ Before unpacking this Crate, you'll need to successfully set up the Microsoft Gr
 2. Search for `Microsoft: User Offboarding`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-19 at 5.05.26 PM.png>)
+   ![](<../../../.gitbook/assets/image (161).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Click **Unpack.**
@@ -43,23 +43,21 @@ Before unpacking this Crate, you'll need to successfully set up the Microsoft Gr
 1. Navigate to **Automations > Workflows** in the Rewst platform
 2. Search for `Microsoft: User Offboarding`.
 3. Click into the workflow.
-4.  Click <img src="../../../.gitbook/assets/Screenshot 2025-05-21 at 2.57.06 PM.png" alt="" data-size="line"> to navigate to the trigger.\
+4.  Click ![](<../../../.gitbook/assets/image (180).png>) to navigate to the trigger.\
     \
 
 
     <figure><img src="../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 5. Click **View Direct URLs.**
 6.  Select the company you'd like to use to test the workflow. Copy the URL and paste it into a new window.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 7.  Fill out the form as appropriate for the company and user you are offboarding. Make sure to click **Submit** at the end of the form.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
-8.  Once the form is submitted, the workflow will begin to run. To view the results, click ![](<../../../.gitbook/assets/Screenshot 2025-05-21 at 3.04.33 PM.png>) in the workflow editor page.\
+8.  Once the form is submitted, the workflow will begin to run. To view the results, click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> in the workflow editor page.\
 
 
     <figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>

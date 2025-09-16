@@ -16,8 +16,7 @@ Ticket information includes:
 
 ### Crate prerequisites
 
-The [OpenText Core Endpoint Protection](../../configuration/integrations/integration-guides/webroot-integration-setup.md) integration must be successfully set up in Rewst before unpacking this Crate.\
-
+The [OpenText Core Endpoint Protection](../../configuration/integrations/integration-guides/webroot-integration-setup.md) integration must be successfully set up in Rewst before unpacking this Crate.
 
 ### Unpack the OpenText Core Endpoint Protection: Create Ticket from File Detection Crate
 
@@ -25,18 +24,17 @@ The [OpenText Core Endpoint Protection](../../configuration/integrations/integra
 2. Search for `OpenText Core Endpoint Protection: Create Ticket from File Detection`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-13 at 12.08.20 PM.png>)
+   ![](<../../../.gitbook/assets/image (167).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. &#x20;Enable both  triggers by toggling the File Detection  and Form Setup trigger **Enabled** toggles on.
 7. Click **Unpack**.
 8. You'll now need to run the Crate form once at your top parent level organization to establish organization variables for your PSA and finish Crate set up. Navigate to **Automations > Forms**.
 9.  Search for `[OpenText] Set File Detection Org Vars` .\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-13 at 12.18.27 PM.png" alt=""><figcaption></figcaption></figure>
-10. Click **⋮> Usages > View Direct URLs.**&#x20;
+10. Click **⋮** **> Usages > View Direct URLs.**&#x20;
 11. Copy the URL and open it in a new browser window or tab.\
     \
     ![](<../../../.gitbook/assets/Screenshot 2025-06-13 at 12.36.29 PM.png>)

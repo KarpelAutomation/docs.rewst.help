@@ -13,14 +13,14 @@ The Cork Compliance Event to PSA Ticket Crate scans Cork compliance events daily
 Before unpacking this Crate, you must first:
 
 * Set up the [Cork integration](../../configuration/integrations/integration-guides/cork-integration.md)
-* Set up your PSA integration
+* Set up your[ PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)
 
 ## Unpack the Cork Compliance Event to PSA Ticket Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Cork: Compliance Event To PSA Ticket`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-09 at 11.41.23 AM.png>)
+   ![](<../../../.gitbook/assets/image (132).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Enter your estimate into the **Time Saved (seconds)** field.
@@ -31,7 +31,7 @@ Before unpacking this Crate, you must first:
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-09 at 11.46.48 AM.png" alt=""><figcaption></figcaption></figure>
-10. Click **⋮** , then **Usages**.
+10. Click **⋮**, then **Usages**.
 11. Click **View Direct URLs**.
 12. Click on the URL to launch the form.
 13. Select a **Reporting Type** from the drop-down selector.
@@ -57,7 +57,7 @@ After submitting the form during the unpacking process, the Crate will function 
 * The setup form creates the org variable: `cork_compliance_reporting_type` when a reporting type is selected.
 * To change this, rerun the form or manually edit via organization variables in Rewst.
 
-#### Reporting Types
+#### Reporting types
 
 * **Company (default):** One ticket for all device events per company.
 * **Device:** Separate ticket for each device with compliance events.

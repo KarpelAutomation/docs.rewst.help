@@ -17,14 +17,14 @@ Our ConnectWise PSA Agreement Mapping Crate synchronizes users into Connectwise 
 
 ## Crate prerequisites
 
-Rewst’s ConnectWise PSA Integration must be set up.
+Rewst’s [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be set up.
 
 ## Unpack the ConnectWise PSA Agreement Mapping Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `ConnectWise PSA Agreement Mapping`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-27 at 12.33.47 PM.png>)
+   ![](<../../../.gitbook/assets/image (130).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 
@@ -39,18 +39,15 @@ Rewst’s ConnectWise PSA Integration must be set up.
 A form unpacked from this Crate is used to maintain mappings between environments and PSA agreements. These are stored in organizational variables in Rewst, based on the form inputs.&#x20;
 {% endhint %}
 
-
-
 1. Navigate to **Automations > Workflows**.
 2.  Search for **Map Organization Users to Manage Agreement**. Click on the workflow.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 3. Click the trigger drop-down and select **Form Trigger.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-27 at 12.46.00 PM.png>)
-4. &#x20;Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1).png" alt="" data-size="line">.&#x20;
+   ![](<../../../.gitbook/assets/image (131).png>)
+4. &#x20;Click ![](<../../../.gitbook/assets/image (185).png>).&#x20;
 5. Click **View Direct URLs**.
 6. Copy the form URL and paste it in a different browser window.\
    \
@@ -64,8 +61,6 @@ Note: Once an agreement has been added, a cron trigger runs daily to sync users 
 ## **Map Organization Users to Manage Agreement form information**
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 at 5.11.29 PM.png" alt=""><figcaption></figcaption></figure>
-
-
 
 From the MSP organization, use this form to **Add**, **Modify**, or **Remove** a mapping configuration. When adding or modifying a mapping, you'll make the following choices:
 

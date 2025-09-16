@@ -22,7 +22,7 @@ Automate the process of group management, auditing, reporting, and overall IT ad
 
 ## Crate prerequisites
 
-Before using this automation, ensure that you have an existing Microsoft 365 account. Use that account to set up the [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 Your [ITGlue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must also be set up.
 
@@ -32,12 +32,11 @@ Your [ITGlue](../../configuration/integrations/integration-guides/it-glue-integr
 2. Search for the `Document Group Details V2` Crate.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-28 at 4.05.40 PM.png>)
+   ![](<../../../.gitbook/assets/image (138).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your **Time Saved (seconds)**.
 7.  Note that under the **Cron Job** accordion menu, you have the option to activate the trigger for all current and future managed organizations, or for specific organizations chosen from the **Activate for organizations** drop-down selector. You may also activate the trigger for organizations with specific tags. \
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-28 at 4.06.43 PM.png" alt=""><figcaption></figcaption></figure>

@@ -19,14 +19,15 @@ Our Document BitLockers crate automates the collection and documentation of BitL
 
 Before unpacking this Crate, you'll first need to have:
 
-* An active PSA integration with Rewst
-* An active RMM integration with Rewst
+* An active [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst
+* An active [RMM integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst
 
 ## Unpack the Document BitLocker Information Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Document BitLocker Information`.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-07-25 at 3.17.12 PM.png>)
+   \
+   ​![](<../../../.gitbook/assets/image (136).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Click **Continue**.
@@ -44,7 +45,7 @@ To test this Crate, you'll need to adjust the [cron trigger](https://docs.rewst.
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document Bitlockers` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click <img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252Fs2rtQjlO7hCTp1f4UAwO%252FScreenshot%25202025-05-21%2520at%25202.57.06%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3Da4f94b62-bc7a-4639-80f7-b6894c929f3c&#x26;width=36&#x26;dpr=4&#x26;quality=100&#x26;sign=5e49e311&#x26;sv=2" alt="" data-size="line"> to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (183).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then.
 6. Verify documented results. Depending on your configured documentation platform:
    1. Check for computer assets/configurations and verify they match with your RMM.

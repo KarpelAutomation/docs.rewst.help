@@ -29,7 +29,7 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/-Cu91xXPpqg?si=9cFxI8NdGSrf_z_A" %}
+{% embed url="https://youtu.be/40bGcLTXrc8" %}
 
 <details>
 

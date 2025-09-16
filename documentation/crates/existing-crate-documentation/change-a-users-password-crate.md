@@ -15,10 +15,10 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 
 ## Crate prerequisites
 
-* PSA integration must be set up
-* RMM integration must be set up
-* default\_psa org variable set
-* default\_rmm org variable set
+* Your[ PSA must be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
+* Your [RMM integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be integrated with Rewst.
+* The `psa_default_board_id` [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) must be added
+* The `default_psa` organization variable must be added
 
 ## Unpack the Change a User’s Password Crate
 
@@ -26,9 +26,8 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 2. Search for `Change a User’s Password`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-26 at 4.25.01 PM.png>)
-4.  Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the Required Org Variables section, as seen in the screenshot below. An org variable without a check mark [will still need to be set up](../../configuration/organization-variables.md) before proceeding with unpacking the Crate. When confirmed, click Unpack Crate.\
-    \
+   ![](<../../../.gitbook/assets/image (123).png>)
+4.  Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the **Required Org Variables** section, as seen in the screenshot below. An org variable without a check mark [will still need to be set up](../../configuration/organization-variables.md) before proceeding with unpacking the Crate. When confirmed, click **Unpack Crate**.\
 
 
     <figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -41,14 +40,13 @@ Integration overrides will automatically be added during the Crate's unpacking p
 
 ## Test the Crate
 
-1. Navigate to **Automations > Workflow**s.
+1. Navigate to **Automations > Workflows**.
 2. Search for `User: Change Password` .
 3.  Click into the workflow.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-4. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1).png" alt="" data-size="line"> next to the trigger name to edit the trigger.
+4. Click ![](<../../../.gitbook/assets/image (188).png>) next to the trigger name to edit the trigger.
 5. Select **View Direct URLs** under the **Trigger Configuration** submenu.
 6. Copy the associated URL of the company you will be using to test the Crate.&#x20;
 7. Open that URL in a new browser window.
@@ -57,8 +55,10 @@ Integration overrides will automatically be added during the Crate's unpacking p
 
 ## Troubleshoot the Change a User’s Password Crate
 
-If you experience a PSA or RMM error, make sure you have set the org variables **default\_psa** and **default\_rmm**. For any other error, please [reach out to the ROC](../../../support-and-community/roc-support/).
+If you experience a PSA or RMM error, make sure you have set the org variables **default\_psa** and **default\_rmm**. For any other error, please [reach out to Rewst Support](#user-content-fn-1)[^1].
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
+
+[^1]: 

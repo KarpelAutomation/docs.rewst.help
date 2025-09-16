@@ -24,7 +24,7 @@ Contents of the ticket include:
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Nodeware: Alert to PSA`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-13 at 1.35.38 PM.png>)
+   ![](<../../../.gitbook/assets/image (163).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Unpack**.
@@ -35,7 +35,7 @@ Contents of the ticket include:
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-13 at 1.41.20 PM.png" alt=""><figcaption></figcaption></figure>
-10. Click **⋮> Usages > View Direct URLs.**&#x20;
+10. Click **⋮** **> Usages > View Direct URLs.**&#x20;
 11. Copy the URL and open it in a new browser window or tab.\
     \
     ![](<../../../.gitbook/assets/Screenshot 2025-06-13 at 1.47.43 PM.png>)

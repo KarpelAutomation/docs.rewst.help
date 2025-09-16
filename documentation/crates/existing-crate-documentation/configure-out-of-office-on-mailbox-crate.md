@@ -23,20 +23,20 @@ This Crate lets you select a user to enable, disable, or schedule both internal 
 
 ### Crate prerequisites
 
-* The Microsoft Graph integration must be set up before unpacking this Crate.
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * For ticketing functionality, set up one of the following PSA integrations:
-  * Kaseya BMS
-  * Halo PSA
-  * ConnectWise PSA
-  * Freshdesk
-  * Datto Autotask PSA
+  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+  * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+  * [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
 
 ## Unpack the Configure Out of Office on Mailbox Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Configure Out of Office on Mailbox`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-18 at 3.35.38 PM.png>)
+   ![](<../../../.gitbook/assets/image (129).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Choose your relevant PSA from the drop-down selector.
@@ -48,7 +48,7 @@ This Crate lets you select a user to enable, disable, or schedule both internal 
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `M365: Set Out of Office Message for Users`.
-3. Click **⋮> Usages > View Direct URLs.**
+3. Click **⋮** **> Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
 5. Fill out the form as follows:
    1. The **Client** drop-down selector should already be populated with the organization name for your user.&#x20;

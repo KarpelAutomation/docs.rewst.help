@@ -16,59 +16,43 @@ Our Export Intune Policies and Configurations Crate allows you to select and exp
 
 ## Crate prerequisites
 
-[The Microsoft Graph integration](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Export Intune Policies and Configurations Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
-2.  Use the search bar to search for `Export Intune Policies and Configurations`.\
+2.  Search for `Export Intune Policies and Configurations`.
 
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 3.23.32 PM.png" alt=""><figcaption></figcaption></figure>
-3. Click on **Export Intune Policies and Configurations** to open up its Crate details page, which breaks down the purpose, features, and setup requirements of the Crate.
-4. Click **Unpack Crate** in the right side menu.\
-   ![](<../../../.gitbook/assets/image (4) (1) (1).png>)
-5. Click **Continue**.\
-   ![](<../../../.gitbook/assets/image (5) (1) (1).png>)
+    \
+    ![](<../../../.gitbook/assets/image (142).png>)
+3. Click on the Crate tile to begin unpacking.
+4. Click **Unpack Crate**.
+5. Click **Continue**.
 6. Enter the time saved.
-7.  Click **Unpack**.\
+7. Click **Unpack**.\
 
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 3.53.31 PM.png" alt=""><figcaption></figcaption></figure>
-8.  The Crate will now unpack the workflow, trigger and form ready to be used.\
-
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 3.56.08 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Test the Crate
 
-1. Access the form by going to the left side menu of the platform and navigating to **Automations > Forms**.
-2. Search for Intune.&#x20;
+1. Access the form by navigating to **Automations > Forms** in the left side menu of your Rewst platform.
+2. Search for `Intune`.&#x20;
 3. Click the form named **\[ROC] Endpoint: Export Intune Policies.**
-4.  Click the **⋮** , then usages.\
+4. Click **⋮ >** **Usages >View Direct URLs**.
+5. Click the form link for the organization you would like to use for your test.
+6.  Click the policies and configurations you would like to export, then click **Submit**.
 
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 4.09.22 PM.png" alt=""><figcaption></figcaption></figure>
-5.  Click **View Direct URLs**.\
-
-
-    <figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
-6.  Click the form link for the organization you would like to use for your test.\
-
-
-    <figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
-7. Click the policies and configurations you would like to export, then click **Submit**.\
-   ![](<../../../.gitbook/assets/image (8) (1).png>)
-8. Access the workflow results by navigating to **Automations > Results**.
-9.  Search for `Export Intune Configurations and Policies` and open the workflow result.\
+    \
+    ![](<../../../.gitbook/assets/image (8) (1).png>)
+7. Access the workflow results by navigating to **Automations > Results**.
+8.  Search for `Export Intune Configurations and Policies` and open the workflow result.\
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 4.26.46 PM.png" alt=""><figcaption></figcaption></figure>
-10. Scroll down and expand the **core\_create\_webhook** action. Copy the URL listed underneath **Result:**\
+9.  Scroll down and expand the **core\_create\_webhook** action. Copy the URL listed underneath **Result:**\
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 4.28.07 PM.png" alt=""><figcaption></figcaption></figure>
-11. Paste the URL into any web browser and click enter. A JSON document will then be downloaded. Review and check that the JSON document is accurate.\
+10. Paste the URL into any web browser and click enter. A JSON document will then be downloaded. Review and check that the JSON document is accurate.\
 
 
     <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>

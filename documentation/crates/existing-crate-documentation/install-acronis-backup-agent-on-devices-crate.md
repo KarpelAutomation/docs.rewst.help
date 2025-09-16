@@ -16,13 +16,13 @@ The Crate starts by listing all devices in the RMM. Each device then undergoes a
 
 ## Crate prerequisites
 
-* You must have the Acronis integration set up before unpacking this Crate.
+* You must have the [Acronis](../../configuration/integrations/integration-guides/acronis-integration.md) integration set up before unpacking this Crate.
 * Optionally, you could integrate your RMM with Rewst, which would allow for problem reporting capabilities. RMM types compatible with this Crate are:
-  * Datto RMM
-  * ConnectWise Automate
-  * Ninja RMM
-  * Immybot
-  * Kaseya VSA
+  * [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
+  * [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
+  * [Ninja One RMM](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
+  * [Immybot](../../configuration/integrations/integration-guides/immybot-integration-setup.md)
+  * [Kaseya VSA](../../configuration/integrations/integration-guides/kaseya-vsa-integration-setup.md)
 
 ## Unpack the Install Acronis Backup Agent on Devices Crate
 
@@ -30,16 +30,14 @@ The Crate starts by listing all devices in the RMM. Each device then undergoes a
 2. Search for `Install Acronis Backup Agent on Devices`**.**
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-11 at 6.02.28 PM.png>)\
-
+   ![](<../../../.gitbook/assets/image (145).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your **Time Saved (seconds)**.
 7.  Expand the **New Computer** accordion menu under **Configure Triggers** if you are using this Crate in conjunction with your integrated RMM. Toggle **Enabled** to on.\
-    \
 
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-07 at 11.36.12 AM.png" alt="Screenshot of the &#x22;Crate Configuration&#x22; interface in Rewst&#x27;s workflow builder. The workflow is titled &#x22;[Rewst Master] Software Audit: Acronis Installation&#x22; and estimates 3600 seconds of time saved. The trigger section shows a &#x22;New Computer&#x22; trigger named &#x22;New RMM Device&#x22; that is currently disabled. Options for adding trigger criteria and integration overrides are visible, along with a dropdown and an &#x22;Add All (14/14)&#x22; button in the bottom right."><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 8. Click **Unpack**.
 
 

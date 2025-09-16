@@ -16,18 +16,17 @@ Our Document Rewst Form URLs (IT Glue/Hudu) Crate takes your Rewst form URLs and
 
 ## Why use the Document Rewst Form URLs (IT Glue/Hudu) Crate?
 
-IT Glue or Hudu must be integrated with Rewst prior to unpacking this Crate.
+[IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) must be integrated with Rewst prior to unpacking this Crate.
 
 ## Unpack the Document Rewst Form URLs (IT Glue/Hudu) Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for the `Document Rewst Form URLs` Crate.
 3. Click on the Crate tile to begin unpacking.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 9.59.07 AM.png>)\
-
+   \
+   ![](<../../../.gitbook/assets/image (140).png>)
 4. Click **Unpack Crate**.
 5.  Select your documentation platform from the drop-down selector.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 9.59.24 AM.png" alt=""><figcaption></figcaption></figure>

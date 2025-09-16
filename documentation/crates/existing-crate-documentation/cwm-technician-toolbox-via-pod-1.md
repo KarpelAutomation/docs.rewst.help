@@ -15,14 +15,17 @@ This Crate gives your technicians access to a wide range of tools, without the n
 
 ## Crate prerequisites&#x20;
 
-Before unpacking this crate, you must configure the pod to work with Rewst. Follow our guide for pod configuration [here](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup#connectwise-psa-pod-configuration).
+Before unpacking this Crate:
+
+* Your [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be successfully set up.
+* You must configure the pod to work with Rewst. Follow our guide for pod configuration [here](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup#connectwise-psa-pod-configuration).
 
 ## Unpack the Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform
 2. Search for `CW PSA: Pod Technician Toolbox V2`_._\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-09 at 11.15.05 AM.png>)
+   ![](<../../../.gitbook/assets/image (134).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -118,3 +121,7 @@ If you're using the deprecated v1 version of this crate, follow these steps to m
 3. Locate and delete the existing Rewst pod link.
 
 This Crate will automatically create a new link the next time it runs. No other steps are required.
+
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% endhint %}

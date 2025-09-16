@@ -1,13 +1,7 @@
----
-hidden: true
----
-
 # Dropsuite integration
 
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
-
-Our Dropsuite integration is currently in beta.  If you experience issues using or setting up this integration, [reach out to Rewst support](../../../../support-and-community/roc-support/).&#x20;
 {% endhint %}
 
 ## What does the Dropsuite integration do?
@@ -50,12 +44,18 @@ For more on how actions work in Rewst, check out our [introductory actions docum
 
 | Category            | Action                    | Description                                                                                   |
 | ------------------- | ------------------------- | --------------------------------------------------------------------------------------------- |
+| **Accounts**        | List Accounts             | List all accounts                                                                             |
+| **Calendars**       | List Calendars            | List all calendars                                                                            |
+| **Contacts**        | List Contacts             | List all contacts                                                                             |
 | **Generic Request** | Dropsuite API Request     | Generic action for making authenticated requests against the Dropsuite API                    |
+| **Googledrives**    | List Google Drives        | List all Google Drives                                                                        |
+| **Onedrives**       | List OneDrives            | List all OneDrives                                                                            |
 | **Shareddrives**    | List Shared Drive Backups | List backups for a specific shared drive                                                      |
 | **Shareddrives**    | List Shared Drives        | List all shared drives for a specific domain                                                  |
 | **Shareddrives**    | List Shared Drive Domains | List all shared drive domains                                                                 |
 | **Sharepoints**     | Get SharePoint Site       | Get summary of SharePoint Backup. This will show the list of all Sites in one specific domain |
 | **Sharepoints**     | List SharePoint Domains   | Get summary of SharePoint Backup. This will show the list of all registered domains           |
+| **Tasks**           | List Tasks                | List all tasks                                                                                |
 | **Teams**           | List Teams by Domain      | List all teams for a specific domain                                                          |
 | **Teams**           | List Team Domains         | List all team domains                                                                         |
 | **Users**           | List Users                | List all users                                                                                |

@@ -24,12 +24,11 @@ The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for the `Document User Details V2` Crate.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 2.53.14 PM.png>)
+   ![](<../../../.gitbook/assets/image (141).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6.  Change the **Workflow name**, if desired.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-24 at 2.54.27 PM.png" alt=""><figcaption></figcaption></figure>
@@ -37,12 +36,9 @@ The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides
 8. Navigate to **Automation > Workflows**.
 9. Search for `[Rewst Master v3] ITG: Document Users - [Part 1]`.
 10. Click into the workflow.
-11. Select the Gear icon to view trigger details.\
-    \
-    ![](<../../../.gitbook/assets/image (41).png>)
+11. Click ![](<../../../.gitbook/assets/image (189).png>) to view trigger details.
 12. Set the trigger to **Enabled**.
 13. Set the **Cron Schedule** as desired.\
-    \
 
 
     <figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
@@ -62,7 +58,7 @@ The workflow is designed to run at the MSP level organization. The workflow will
 
 ### Forbidden error on Microsoft Graph actions
 
-Check your Microsoft Cloud Bundle to make sure the client is configured correctly. Click the green shield icon next to your client to reconsent to delegate admin permission. If errors continue, check GDAP permissions.
+Check your Microsoft Cloud Bundle to make sure the client is configured correctly. Click the green shield icon next to your client to re-consent to delegate admin permission. If errors continue, check GDAP permissions.
 
 ### Forbidden error on IT Glue actions
 

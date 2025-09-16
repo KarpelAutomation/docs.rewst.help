@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the **Bulk Create Client from PSA** Crate do?
 
-Our **Bulk Create Client from PSA** Crate allows you to create organizations in Rewst from a filtered PSA client list, in bulk.
+Our Bulk Create Client from PSA Crate allows you to create organizations in Rewst from a filtered PSA client list, in bulk.
 
 ### Why use the Bulk Create Client from PSA Crate?
 
@@ -17,18 +17,18 @@ Our **Bulk Create Client from PSA** Crate allows you to create organizations in 
 
 Prior to unpacking and running this Crate, you should have one of the following PSA integrations configured in Rewst:
 
-* ConnectWise PSA
-* DattoPSA
-* Freshdesk
-* HaloPSA
-* Kaseya BMS
+* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+* [DattoPSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
+* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+* [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
 
 ## Unpack the **Bulk Create Client from PSA** Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Bulk Create Client from PSA`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-17 at 1.14.34 PM.png>)
+   ![](<../../../.gitbook/assets/image (121).png>)
 3. Click on the Crate tile to open its details page.
 4. Locate the **Required Org Variables** menu on the right of the Crate details page. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1) (1).png" alt="" data-size="line"> to launch the **Add Organization Variable** dialog.\
    \
@@ -56,7 +56,7 @@ Prior to unpacking and running this Crate, you should have one of the following 
 
 1. Navigate to **Automations > Forms**.
 2. Search for `[ROC] Rewst: Create Orgs from PSA Form`.
-3.  Click **⋮** and select **usages**.\
+3.  Click **⋮ > Usages**.\
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-19 at 2.05.38 PM.png" alt=""><figcaption></figcaption></figure>

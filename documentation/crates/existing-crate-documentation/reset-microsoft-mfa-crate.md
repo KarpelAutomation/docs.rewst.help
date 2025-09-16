@@ -26,7 +26,7 @@ For this Crate to work, you must have the policy in place that MFA is required. 
 
 ### Crate prerequisites
 
-* The Microsoft Graph integration must be set up before unpacking this Crate.
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * For ticketing functionality, set up one of the following PSA integrations:
   * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
   * [Halo PSA](../../automations/kits/halo-psa-integration-kit.md)
@@ -39,8 +39,7 @@ For this Crate to work, you must have the policy in place that MFA is required. 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Reset Microsoft MFA`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-14 at 4.31.22 PM.png>)\
-
+   ![](<../../../.gitbook/assets/image (173).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Choose your relevant PSA from the drop-down selector.
 5. Click **Continue**.
