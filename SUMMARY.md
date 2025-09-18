@@ -171,7 +171,7 @@
     * [Microsoft Onboarding solution kit](documentation/automations/kits/microsoft-onboarding-solution-kit.md)
 * [App Builder](documentation/app-builder/README.md)
   * [App Builder: Overview of how to create an app](documentation/app-builder/getting-started.md)
-  * [App Builder: Pages](documentation/app-builder/general/manage-your-pages.md)
+  * [App Builder: Pages](documentation/app-builder/app-builder-pages.md)
   * [App Builder: Domains](documentation/app-builder/general/domains.md)
   * [App Builder: Permissions](documentation/app-builder/general/permissions.md)
   * [App Builder: Authentication for apps](documentation/app-builder/general/authentication.md)

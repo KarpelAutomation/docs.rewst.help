@@ -21,7 +21,7 @@ Upon creating your app, you'll notice that a login page is automatically include
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 4.37.31 PM.png" alt=""><figcaption></figcaption></figure>
 
-You have the flexibility to customize the login page according to your app's branding and design, creating a cohesive and personalized experience for the users who log into your app. For more on editing pages, see our pages documentation [here](manage-your-pages.md).
+You have the flexibility to customize the login page according to your app's branding and design, creating a cohesive and personalized experience for the users who log into your app. For more on editing pages, see our pages documentation [here](../app-builder-pages.md).
 
 {% hint style="info" %}
 If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;

@@ -5,10 +5,10 @@
 Apps consist of _pages._ Pages are made up of _components_ like images, text, forms, tables, and charts. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Each app you create will automatically have both a **home** and **login** page.  Both are customizable. Note that you can only have one home and one login page per app.
 
 {% hint style="info" %}
-For more on authentication for App Builder using the login page, see our App Builder authentication documentation [here](authentication.md).
+For more on authentication for App Builder using the login page, see our App Builder authentication documentation [here](general/authentication.md).
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 4.02.12 PM.png" alt=""><figcaption><p>An example of the pages list inside an app in App Builder</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 4.02.12 PM.png" alt=""><figcaption><p>An example of the pages list inside an app in App Builder</p></figcaption></figure>
 
 ## Create a new App Builder app page
 
@@ -24,7 +24,7 @@ For more on authentication for App Builder using the login page, see our App Bui
    7. **Request Portal**
    8. **Two Column Layout**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 4.28.50 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 4.28.50 PM.png" alt=""><figcaption></figcaption></figure>
 
 4. Click **Create**.
 
@@ -35,7 +35,7 @@ For more on authentication for App Builder using the login page, see our App Bui
 3. The screen that appears is the info page for that app. It contains a list of all pages within the app.&#x20;
 4. Click **>** to open the Page Builder Canvas for that page. The Page Builder Canvas is where you can add, edit, and remove components for that page.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 4.08.09 PM.png" alt=""><figcaption><p>An example of the Page Builder for an app</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 4.08.09 PM.png" alt=""><figcaption><p>An example of the Page Builder for an app</p></figcaption></figure>
 
 ## Delete a page
 
@@ -44,7 +44,7 @@ For more on authentication for App Builder using the login page, see our App Bui
 3.  Click ⋮ next to the page you want to delete.\
 
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 4.25.33 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 4.25.33 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click **Delete**.
 5. Click **I want to delete this page**.
 6. Read through the warning message on the dialog that appears.

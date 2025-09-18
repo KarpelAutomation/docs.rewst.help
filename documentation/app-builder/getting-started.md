@@ -21,7 +21,7 @@ App Builder lets you build a wide variety of front-end web content to work on to
 
 ## Create a page in an App Builder app
 
-1. Navigate to the newly created app by clicking on it in your **Apps** list. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Each app you create will have both a **home** and **login** page.  Both are customizable. Note that you can only have one home and one login page per app. For more on App Builder pages, see our pages documentation [here](general/manage-your-pages.md).\
+1. Navigate to the newly created app by clicking on it in your **Apps** list. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Each app you create will have both a **home** and **login** page.  Both are customizable. Note that you can only have one home and one login page per app. For more on App Builder pages, see our pages documentation [here](app-builder-pages.md).\
 
 
 <figure><img src="../../.gitbook/assets/test 3-min.png" alt=""><figcaption></figcaption></figure>

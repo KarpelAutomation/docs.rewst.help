@@ -39,8 +39,8 @@ Click ⋮to the right of the app in the **Actions** column to expand the **Delet
 [getting-started.md](getting-started.md)
 {% endcontent-ref %}
 
-{% content-ref url="general/manage-your-pages.md" %}
-[manage-your-pages.md](general/manage-your-pages.md)
+{% content-ref url="app-builder-pages.md" %}
+[app-builder-pages.md](app-builder-pages.md)
 {% endcontent-ref %}
 
 {% content-ref url="general/domains.md" %}
