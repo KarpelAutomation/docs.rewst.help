@@ -74,4 +74,4 @@ Admin or member Rewst permissions are required to remove a user. If needed, re-a
 
 If you have many users to add from your organization or one of your customers, set up the Add Users To Rewst Via Group Crate for your environment. Search for it in Crate Marketplace.
 
-![](<../../.gitbook/assets/Screenshot 2025-03-25 at 3.53.12 PM.png>)\
+![](<../../.gitbook/assets/Screenshot 2025-09-19 at 3.02.11 PM.png>)\

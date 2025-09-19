@@ -34,7 +34,7 @@
 * Add Form Link to PSA Ticket Based on Type
 * Per Machine Password Rotation
 * BitLocker Activation - Bitlocker Management Crate series
-* Workstation offboarding
-* Enhanced logging for the user onboarding workflow
+
+- Enhanced logging for the user onboarding workflow
 
 </details>

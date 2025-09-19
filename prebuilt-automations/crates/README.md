@@ -15,6 +15,12 @@ Essentially, a Crate is a pre-built automation. A Rewst crate contains all the p
 
 Prebuilt automations are made by the Rewst team. We've tested them and created them for optimal time savings, with your most common tooling and processes in mind. Starting out with Crates is the quickest way to start seeing benefit from Rewst.
 
+{% hint style="success" %}
+Note that each Crate may differ in terms of requirements, setup time, and complexity.&#x20;
+
+We try to provide an estimate of the setup time for each Crate, whenever possible, but info may not be readily available for newly released Crates.
+{% endhint %}
+
 ## Find and use Crates in Rewst’s Crate Marketplace
 
 Rewst's Crate Marketplace is the submenu where you'll find our ever-growing collection of Crates. Access it in the left side menu of the platform by navigating to **Crates > Crate Marketplace**.
@@ -30,7 +36,9 @@ In the Crate Marketplace screen, you can:
 
 ![](<../../.gitbook/assets/Screenshot 2025-04-22 at 11.07.52 AM.png>)\
 \
+Each Crate has its own Crate tile in Crate Marketplace. The number on the bottom left corner of a Crate tile shows you the current count of fellow Rewsters that have unpacked and used the Crate.&#x20;
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.00.22 PM.png" alt=""><figcaption></figcaption></figure>
 
 * Filter Crates by a variety of criteria, including:
   * Crate category
@@ -39,13 +47,44 @@ In the Crate Marketplace screen, you can:
 * Click <img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.03.34 AM.png" alt="" data-size="line"> to access a shortcut to Rewst's documentation site section for Crates.\
 
 
-Click on the tile for your desired Crate to open up its **Crate Details** page, which breaks down the purpose, features, and setup requirements of the Crate.&#x20;
+Click on the Crate tile for your desired Crate to open up its **Crate Details** page, which breaks down the purpose, features, and setup requirements of the Crate.  Note that there are two tabs to this page: **Overview**, and **What's Being Unpacked**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-03 at 11.51.27 AM.png" alt=""><figcaption><p>An example of a Crate's details page, with Crate categories for Marketing and Microsoft</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 11.24.30 AM.png" alt=""><figcaption></figcaption></figure>
+
+In the center of the **Overview** tab of the Crate details page, you'll find links to instructions for unpacking and using the Crate on our documentation site, in addition to some brief instructions for what to expect during the unpacking process.&#x20;
+
+In the right side menu, find the following information:
+
+* Category of the Crate, via a rectangular, color-coded label
+* Total number of times the Crate has been unpacked by Rewst users
+* The workflow that will be unpacked with the Crate, and a clickable link to that workflow in Rewst
+* Confirmation or alert messaging to let you know if your existing installed integrations meet the requirements for this Crate
+* A list of the integrations required for the Crate to successfully work, with symbols next to each to let you know the status of those integrations
+  * grey - not installed
+  * orange - you've clicked on the integration tile to begin setup, but haven't entered in any configuration items
+  * green - the integration is installed and configured, which means that configurations are saved, and your integration prerequisite for unpacking the Crate is complete
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.11.55 PM.png" alt=""><figcaption></figcaption></figure>
+
+* If the Crate requires [organization variables](../../documentation/configuration/organization-variables.md#what-is-an-organization-variable), these required variables will be shown in a section at the bottom of the right side menu. Crates that don't require organization variables won't have this section.&#x20;
+
+{% hint style="warning" %}
+You have the option to unpack a Crate even if your required integrations or organization variables aren't set up. Rewst will ask you to check a box to acknowledge that the minimum requirements haven't been met, then let you click **Unpack Crate** without those requirements.&#x20;
+
+Any integrations or org variables set up after unpacking the Crate should be registered by the Crate and work towards satisfying its requirements to work properly. Rewst recommends you set up integrations and org variables before unpacking Crates unless you have a specific reason to do otherwise.
+{% endhint %}
+
+In the **What's Being Unpacked** tab, view a total list of all components that will be unpacked as part of the Crate, broken down by type.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.16.29 PM.png" alt=""><figcaption></figcaption></figure>
+
+Once you've unpacked the Crate, this collection of components will turn into clickable links that take you directly to that item in Rewst. You'll also have the option to **Update Configuration** for the Crate in the right side menu.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.20.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Unpack a Crate
 
-Begin to unpack a Crate by clicking the pink **Unpack Crate** button in the top right of that Crate’s Crate Details screen. Some Crates have unique settings that you set during the unpacking process. If your Crate is one of these, you’ll be prompted to follow the settings steps on your screen before unpacking begins.
+Begin to unpack a Crate by clicking the pink **Unpack Crate** button in the top right of that Crate’s Crate Details screen. Some Crates have unique settings that you set during the unpacking process. If your Crate is one of these, you’ll be prompted to follow the steps on your screen before unpacking begins.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 11.11.16 AM.png" alt=""><figcaption><p>An example of a setup prompt, from the unpacking process of the Rewst: User Onboarding Crate</p></figcaption></figure>
 
@@ -63,7 +102,13 @@ Optionally rename your workflow, trigger and form names, and update your **Time 
 
 
 
-Depending on the size of the Crate, unpacking may take a few minutes. Leave your browser window open without navigating away from your Rewst platform while the process completes.
+Depending on the size of the Crate, unpacking may take a few minutes. Leave your browser window open without navigating away from your Rewst platform while the process completes. You'll see an animation on your screen while the Crate unpacks.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.24.01 PM.png" alt=""><figcaption></figcaption></figure>
+
+A confirmation dialog will appear when unpacking is complete.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.20.09 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 After unpacking a Crate, always check its performance to ensure it's functioning as expected. Once done, you can test the Crate by completing a related task and watching for the Crate's success.
@@ -104,105 +149,6 @@ Unsyncing a top level workflow doesn't affect the subworkflows inside it. They r
 {% hint style="info" %}
 [Completion handlers](../../documentation/automations/workflows/completion-handlers-and-workflow-wrappers.md) are a great, useful way to keep Crates synced while expanding functionality.
 {% endhint %}
-
-## Crate state and maturity
-
-Our Crate states denote the various stages of a Crate's deployment lifecycle. Determine a Crate's state by looking it up in Crate Marketplace and checking its color coded state label in the top right of that Crate's details page.&#x20;
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.06.04 AM.png" alt=""><figcaption></figcaption></figure>
-
-Similarly, the number on the bottom left corner of a Crate tile shows you the current count of fellow Rewsters that have unpacked and used the Crate. Click to expand and learn about each of our Crate states below.&#x20;
-
-{% hint style="success" %}
-Note that each Crate may differ in terms of requirements, setup time, and complexity.&#x20;
-
-We try to provide an estimate of the setup time for each Crate, whenever possible, but info may not be readily available for Crates in earlier stages.
-{% endhint %}
-
-<details>
-
-<summary>Egg: Pre-alpha release</summary>
-
-This is the initial state of a Crate. It is the equivalent of a pre-alpha release. It is generally not recommended to use these Crates in production.\
-
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-15 at 2.08.26 PM.png" alt=""><figcaption></figcaption></figure>
-
-We will often create Crates in this state to show what is actively being worked on, and to get feedback from our clients to make sure that we're working on the right things.
-
-</details>
-
-<details>
-
-<summary>Hatchling: Alpha release</summary>
-
-This is the first stage of a Crate that is ready for testing, but still considered alpha. It's not recommended to use these Crates in production.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-15 at 2.07.53 PM.png" alt=""><figcaption></figcaption></figure>
-
-This state will often be used when we are doing internal testing, or the Crate was made for a very specific purpose/requirement and is being tested directly with the requesting client.
-
-</details>
-
-<details>
-
-<summary>Fledgling: Beta release</summary>
-
-This is the second stage of a Crate that is ready for testing, and is the equivalent of a beta release.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-15 at 2.07.24 PM.png" alt=""><figcaption></figcaption></figure>
-
-At this stage, it is recommended to use client discretion when using these Crates in production.
-
-This state will often be used when we have moved on from internal testing and believe that the Crate is ready for wider testing, but still needs to be tested in a production environment rather than our sandbox environments.
-
-The ROC team will support this Crate in this state.
-
-</details>
-
-<details>
-
-<summary>Nestling: Release candidate</summary>
-
-This is the third stage of a Crate that is ready for production, and is the equivalent of a release candidate.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-15 at 2.02.45 PM.png" alt=""><figcaption></figcaption></figure>
-
-At this stage, it's still recommended to use discretion when using these Crates in production. However, they have gone through vigorous testing in various environments and are considered stable.
-
-This state will often be used when we've moved on from a smaller range of clients testing the Crate, and are now ready to release it to a wider audience with potentially more complex environments.
-
-The ROC team will support this Crate in this state.
-
-</details>
-
-<details>
-
-<summary>Soaring: Full release</summary>
-
-This is the final stage of a Crate that's ready for production, and is the equivalent of a full release.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-15 at 2.02.14 PM.png" alt=""><figcaption></figcaption></figure>
-
-At this stage, the Crate is considered stable and ready for production use.
-
-The ROC team will support this Crate in this state.
-
-</details>
-
-<details>
-
-<summary>Migrating: Updating to a new version</summary>
-
-This is the state where a Crate has been updated to a new version, but the older version is still available for clients to use.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-15 at 2.01.44 PM.png" alt=""><figcaption></figcaption></figure>
-
-This state will often be used when we have made a breaking change to a Crate, and we want to ensure that clients have time to migrate to the new version before we remove the old version.
-
-The ROC team will support this Crate in this state.
-
-</details>
 
 ## Request a Crate and vote for Crate ideas
 

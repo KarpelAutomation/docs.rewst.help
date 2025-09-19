@@ -80,5 +80,5 @@ End customers will experience no immediate impact. However, migrating to the new
 If you have any urgent concerns, please contact your support team.
 
 * **Discord** - Rewst's support team is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
-* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
+* **Create a Ticket** - [Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 {% endhint %}
