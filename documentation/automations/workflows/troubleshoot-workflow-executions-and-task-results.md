@@ -27,7 +27,7 @@ The inputs and context sections tell the story of what data your workflow receiv
 
 
     <figure><img src="../../../.gitbook/assets/image (72) (2).png" alt=""><figcaption></figcaption></figure>
-*   The **Context** section shows variables created or passed between tasks. [Context variables](../../crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/onboarding-context-and-organizational-variables-reference.md#overview-of-ctx-and-org.variables) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
+*   The **Context** section shows variables created or passed between tasks. [Context variables](broken-reference) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
     \
 
 

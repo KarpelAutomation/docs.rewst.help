@@ -3506,6 +3506,3 @@ The Generic GraphQL Request action provides access to Rewst's complete GraphQL s
 * **Template**: Reusable templates and scripts
 * **User**: User accounts and permissions
 * **Pack**: Integration packs and their components
-
-For detailed schema information, [contact Rewst support](../../../support-and-community/roc-support/) or refer to the GraphQL schema documentation.
-
