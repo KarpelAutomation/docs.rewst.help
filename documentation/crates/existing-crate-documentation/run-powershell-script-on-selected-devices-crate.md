@@ -4,7 +4,7 @@
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-## What does the Run PowerShell Script on Selected Devices Cratee do?
+## What does the Run PowerShell Script on Selected Devices Crate do?
 
 This Crate allows for instant, managed execution of stored PowerShell scripts, streamlining your operations. Run PowerShell scripts effortlessly on selected devices within your specified organizations.
 
@@ -34,8 +34,6 @@ Before unpacking this Crate, you'll need to successfully integrate both your [PS
 7. Click **Unpack**.
 
 ## Use the Crate
-
-To manually run the workflow, create an always trigger with the desired organization enabled, then click the **test** button.&#x20;
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `Run Ad-Hoc PowerShell on Computer`.

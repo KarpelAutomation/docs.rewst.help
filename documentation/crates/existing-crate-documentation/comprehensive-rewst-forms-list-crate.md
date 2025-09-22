@@ -19,12 +19,7 @@ Use the Crate to have a centralized page that includes all rewst forms unpacked 
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Ensure that both the cron and webhook triggers have **Enabled** toggled on.
-7.  Click **Unpack**.\
-
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-11 at 6.21.31 PM.png" alt=""><figcaption></figcaption></figure>
-
-
+7. Click **Unpack**.
 
 ## Use the Comprehensive Rewst Forms List Crate
 
