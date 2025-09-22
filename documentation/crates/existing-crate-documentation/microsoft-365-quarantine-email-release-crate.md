@@ -25,12 +25,8 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.&#x20;
-6.  Enter your estimated time saved into the **Time Saved (seconds)** field. \
-
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-31 at 5.11.51 PM.png" alt=""><figcaption></figcaption></figure>
+6. Enter your estimated time saved into the **Time Saved (seconds)** field.&#x20;
 7. Click **Unpack**.&#x20;
-8. Click **Done** when finished unpacking, if prompted.
 
 ## Test the Crate
 

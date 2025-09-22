@@ -29,20 +29,21 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/40bGcLTXrc8" %}
+{% embed url="https://youtu.be/IbmPXosbSu8" %}
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* 🧩 Brooke outlines product updates: two ConnectWise PSA fixes (date-time parsing and opportunity ID handling), smarter template overrides, fewer GraphQL calls, and streamlined Microsoft CSP tenant transfers.
-* 🛡️ JP shares dev notes: configurable password length, updates for ConnectWise time-entry API changes, and added Google Workspace offboarding capabilities.
-* 🤖 Paul demos the OpenAI Ticket Sentiment Analysis crate, showing setup, JSON outputs, escalation thresholds, and how to customize or unsync subworkflows.
-* 🎓 Eddie highlights education wins, congratulates new certification holders, and walks through Learn on Rewst plus live trainings and Friday office hours.
-* 🧪 Andre (Apex Computers) presents a compact Autotask workflow that classifies tickets with AI and auto-sets issue/sub-issue types, illustrating a fast, focused approach.
-* 🧰 Alex (SJA Solutions), new to Rewst, debuts a device add/remove workflow with Duo approval, NinjaOne actions, tags for decommissioning, and automatic ticket auditing.
-* 🗣️ Group Discussion explores using OpenAI for ticket QA on closure, with guidance to repurpose the sentiment crate and craft role-specific prompts.
-* 🔧 Stuart & Team surface an Autotask V2 question about user-defined fields, agreeing to pursue a product ticket and verify task coverage.
+* [🌐 George shares community highlights, recent webinars, upcoming cybersecurity events, and a call for volunteers.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=128s)
+* [🎓 Clea provides education updates, announces new Rewst certifications, introduces a crash course, and discusses RoboRewsty documentation.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=339s)
+* [🛠️ Danial outlines recent engineering releases, including integrations, XML-to-Jinga filter, and RoboRewsty beta progress.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=817s)
+* [🖥️ Brooke demonstrates improvements to the Create Marketplace details page with easier unpacking and integration visibility.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=986s)
+* [🛒 JP delivers marketplace updates, detailing bug fixes, enhancements, and introduces Paul for a Huntress crate demo.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1217s)
+* [🔒 Paul presents the Huntress AD account lockdown crate, showing how it disables compromised accounts via workflows.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1408s)
+* [📊 Danial (USA) demonstrates a client portal with Rewst-native reporting, highlighting automation and data display tricks.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1985s)
+* [🥪 Brandon showcases an AI-powered triage and dispatch workflow that automates ticket classification and assignment.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=2405s)
+* [🙋 The group discusses clarifying questions, duplicate ticket handling, and the human dispatcher’s evolving role.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=3181s)
 
 </details>
 

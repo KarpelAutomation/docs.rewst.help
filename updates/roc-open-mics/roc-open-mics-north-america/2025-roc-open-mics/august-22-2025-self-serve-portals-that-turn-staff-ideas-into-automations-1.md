@@ -1,4 +1,4 @@
-# September 5, 2025:
+# September 12, 2025:
 
 ### **Join Live!**
 
@@ -8,18 +8,21 @@ Join us live every Friday at 3 pm EST!
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/-Cu91xXPpqg?si=_6DKzMH_tSv4ns44" %}
+{% embed url="https://youtu.be/40bGcLTXrc8" %}
 
 ### Contents of the Recording:
 
-* 🧩 Brooke outlines product updates: two ConnectWise PSA fixes (date-time parsing and opportunity ID handling), smarter template overrides, fewer GraphQL calls, and streamlined Microsoft CSP tenant transfers.
-* 🛡️ JP shares dev notes: configurable password length, updates for ConnectWise time-entry API changes, and added Google Workspace offboarding capabilities.
-* 🤖 Paul demos the OpenAI Ticket Sentiment Analysis crate, showing setup, JSON outputs, escalation thresholds, and how to customize or unsync subworkflows.
-* 🎓 Eddie highlights education wins, congratulates new certification holders, and walks through Learn on Rewst plus live trainings and Friday office hours.
-* 🧪 Andre (Apex Computers) presents a compact Autotask workflow that classifies tickets with AI and auto-sets issue/sub-issue types, illustrating a fast, focused approach.
-* 🧰 Alex (SJA Solutions), new to Rewst, debuts a device add/remove workflow with Duo approval, NinjaOne actions, tags for decommissioning, and automatic ticket auditing.
-* 🗣️ Group Discussion explores using OpenAI for ticket QA on closure, with guidance to repurpose the sentiment crate and craft role-specific prompts.
-* 🔧 Stuart & Team surface an Autotask V2 question about user-defined fields, agreeing to pursue a product ticket and verify task coverage.
+* [🌎 George shares community updates about CanITCon, upcoming CMIT conference, Rewst’s September webinar, and secret Discord plans.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=24s)
+* [📚 Clea returns from leave with education updates, certification shoutouts, new troubleshooting course, and improved Microsoft Cloud documentation.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=186s)
+* [🔧 Danial highlights feedback from CanITCon, collaborative Microsoft documentation updates, bug fixes, and upcoming RoboRewsty and integrations.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=519s)
+* [🛠 JP provides marketplace updates, focusing on bug fixes, onboarding workflow logging improvements, and automated testing enhancements.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=654s)
+* [💡 Lucas demos using Supabase as a caching solution in Rewst workflows, showing easy integration and generous free tier benefits.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=761s)
+* [🔐 Gareth showcases an automation to enable Temporary Access Pass (TAP) in Microsoft 365 and generate one-time login codes.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1202s)
+* [📅 Jeff presents a workflow detecting ConnectWise calendar sync bugs, notifying dispatchers of scheduling issues via email.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1525s)
+* [📄 Ashe demonstrates integrating Google Docs with Rewst to automatically capture Discord messages into formatted documents.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1834s)
+* [⚙️ Daniel shows a workflow that uses patch diffs and RoboRewsty to auto-generate ticket notes and time entries for workflow edits.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2528s)
+* [🔑 Andrew demos a passwordless workflow toggling Windows password provider settings via registry changes, enabling UAC compatibility.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2718s)
+* [🖥 The group discusses expanding similar workflows for power settings and UPS monitoring with Raspberry Pis and webhooks.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2966s)
 
 <details>
 

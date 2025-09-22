@@ -1,4 +1,4 @@
-# September 12, 2025:
+# September 19, 2025:
 
 ### **Join Live!**
 
@@ -8,21 +8,19 @@ Join us live every Friday at 3 pm EST!
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/40bGcLTXrc8" %}
+{% embed url="https://youtu.be/IbmPXosbSu8" %}
 
 ### Contents of the Recording:
 
-* [🌎 George shares community updates about CanITCon, upcoming CMIT conference, Rewst’s September webinar, and secret Discord plans.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=24s)
-* [📚 Clea returns from leave with education updates, certification shoutouts, new troubleshooting course, and improved Microsoft Cloud documentation.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=186s)
-* [🔧 Danial highlights feedback from CanITCon, collaborative Microsoft documentation updates, bug fixes, and upcoming RoboRewsty and integrations.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=519s)
-* [🛠 JP provides marketplace updates, focusing on bug fixes, onboarding workflow logging improvements, and automated testing enhancements.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=654s)
-* [💡 Lucas demos using Supabase as a caching solution in Rewst workflows, showing easy integration and generous free tier benefits.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=761s)
-* [🔐 Gareth showcases an automation to enable Temporary Access Pass (TAP) in Microsoft 365 and generate one-time login codes.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1202s)
-* [📅 Jeff presents a workflow detecting ConnectWise calendar sync bugs, notifying dispatchers of scheduling issues via email.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1525s)
-* [📄 Ashe demonstrates integrating Google Docs with Rewst to automatically capture Discord messages into formatted documents.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1834s)
-* [⚙️ Daniel shows a workflow that uses patch diffs and RoboRewsty to auto-generate ticket notes and time entries for workflow edits.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2528s)
-* [🔑 Andrew demos a passwordless workflow toggling Windows password provider settings via registry changes, enabling UAC compatibility.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2718s)
-* [🖥 The group discusses expanding similar workflows for power settings and UPS monitoring with Raspberry Pis and webhooks.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2966s)
+* [🌐 George shares community highlights, recent webinars, upcoming cybersecurity events, and a call for volunteers.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=128s)
+* [🎓 Clea provides education updates, announces new Rewst certifications, introduces a crash course, and discusses RoboRewsty documentation.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=339s)
+* [🛠️ Danial outlines recent engineering releases, including integrations, XML-to-Jinga filter, and RoboRewsty beta progress.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=817s)
+* [🖥️ Brooke demonstrates improvements to the Create Marketplace details page with easier unpacking and integration visibility.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=986s)
+* [🛒 JP delivers marketplace updates, detailing bug fixes, enhancements, and introduces Paul for a Huntress crate demo.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1217s)
+* [🔒 Paul presents the Huntress AD account lockdown crate, showing how it disables compromised accounts via workflows.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1408s)
+* [📊 Danial (USA) demonstrates a client portal with Rewst-native reporting, highlighting automation and data display tricks.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1985s)
+* [🥪 Brandon showcases an AI-powered triage and dispatch workflow that automates ticket classification and assignment.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=2405s)
+* [🙋 The group discusses clarifying questions, duplicate ticket handling, and the human dispatcher’s evolving role.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=3181s)
 
 <details>
 

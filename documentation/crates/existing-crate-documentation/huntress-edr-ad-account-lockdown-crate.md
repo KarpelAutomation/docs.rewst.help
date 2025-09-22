@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Huntress EDR: AD Account Lockdown Crate do?
 
-This crate identifies the last logged-on user from a compromised Huntress device and automatically adds a ticket note with a direct link to disable the corresponding Active Directory account.\
+This Crate identifies the last logged-on user from a compromised Huntress device and automatically adds a ticket note with a direct link to disable the corresponding Active Directory account.\
 This is only applicable to non-administrator accounts.
 
 ### How the Crate works
