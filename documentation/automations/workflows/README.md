@@ -13,7 +13,7 @@ Before building any workflow, remember to sketch out what you'd like the workflo
 {% endhint %}
 
 {% hint style="info" %}
-As of mid 2025, Rewst also offers _kits._ A kit is a collection of pre-built, pre-defined tasks that provide a quick start to setting up solutions to specific business needs, or to demonstrate all available actions within a given integration. For example, if you have a Halo PSA kit, there will be an actios or automations Rewst has identified that are smaller use cases compared to our larger Crates.
+As of mid 2025, Rewst also offers _kits._ A kit is a collection of pre-built, pre-defined tasks that provide a quick start to setting up solutions to specific business needs, or to demonstrate all available actions within a given integration. For example, if you have a Halo PSA kit, there will be actions or automations Rewst has identified that are smaller use cases compared to our larger Crates.
 
 Kits are a newer feature of our Crate Marketplace. Check back as the collection grows. See our up-to-date list of available kits [here](../kits/).&#x20;
 {% endhint %}
@@ -21,31 +21,6 @@ Kits are a newer feature of our Crate Marketplace. Check back as the collection 
 ## Why build workflows?
 
 While the pre-built workflows in Crates are the quickest way to get started, a workflow built custom to your situation can offer powerful, personalized efficiency measures that fit your particular MSP and customer needs.
-
-## Subworkflows
-
-A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).&#x20;
-
-In the example below, you have a main workflow called **Create Ticket**. In it, you choose which PSA the organization has. Once that has been decided, you then go to a subworkflow, which encompasses the actual creation of the ticket. Note the pink border and icon on the action, denoting that it is a subworkflow.
-
-Click <img src="../../../.gitbook/assets/Subworkflow icon.png" alt="" data-size="line"> on a subworkflow to navigate directly to it. You can also view subworkflows on the main workflow page, indicated by the green **Subworkflow** button under the **Attributes** column. Clicking will reveal which workflow the subworkflow is a part of.
-
-<figure><img src="../../../.gitbook/assets/image (4).png" alt="An image of a small subworkflow, flowing out of a larger executing workflow. The subworkflow is composed of actions, via rectangles outlined in  pink. The flow of subworkflow out of larger workflow is communicated via blue directional arrows. Under each subworkflow action, there&#x27;s the option to click a blue plus button to add additional actions on success or failure of that action."><figcaption><p>An example of subworkflows, flowing out of a larger executing workflow</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 3.14.32 PM (1).png" alt="" width="563"><figcaption><p>The Subworkflow button, under the <strong>Attributes</strong> column of the workflows list page</p></figcaption></figure>
-
-
-
-There are a few reasons to set up subworkflows.
-
-* Ensure a tidy workflow. Rather than having 20 steps per PSA on a single workflow, we can split it up for convenience and ease of understanding.
-* When addressing various objects, the equivalent of a [for each](https://docs.rewst.help/documentation/workflows/configuring-your-workflow-tasks/advanced-workflow-operations#with-items), we can pass all of the objects to a sub-workflow and get the output back of each object.
-* Subworkflows allow you to write a workflow once and reuse it multiple times. Subworkflows also accept parameters, making them adaptable for different use cases.
-* Smaller, self-contained workflows are easier to test and debug individually.
-
-{% hint style="info" %}
-_Workflow wrapper_ is an informal term sometimes used colloquially by the ROC to describe a situation where a primary workflow is used in a separate workflow as a subworkflow. More information on workflow wrappers can be found [here](completion-handlers-and-workflow-wrappers.md).&#x20;
-{% endhint %}
 
 ## Find and use workflows in Rewst
 
@@ -63,7 +38,7 @@ Once you create a workflow, you'll be taken to the [_workflow builder_](workflow
 
 ## Synced versus unsynced workflows
 
-Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and synronization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
+Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
 
 ## View specific workflow results
 
@@ -86,6 +61,63 @@ When you delete the result of a workflow, consider it to be fully deleted. Only 
 From the workflows page, you can view triggers associated with each workflow, without leaving that page. Hover over the workflow's **triggers** count in the **Attributes** column to see a list of every trigger linked to your workflow, and toggle each on or off to suit your needs.&#x20;
 
 <figure><img src="../../../.gitbook/assets/trigger hover gif.gif" alt=""><figcaption><p>The dialog that appears when hovering over trigger counts</p></figcaption></figure>
+
+## Subworkflows
+
+A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. Sub-workflows help you simplify complex processes, reuse logic, and manage error handling and data gathering cleanly in your Rewst automations. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).&#x20;
+
+In the example below, you have a main workflow called **Create Ticket**. In it, you choose which PSA the organization has. Once that has been decided, you then go to a subworkflow, which encompasses the actual creation of the ticket. Note the pink border and icon on the action, denoting that it is a subworkflow.
+
+Click <img src="../../../.gitbook/assets/Subworkflow icon.png" alt="" data-size="line"> on a subworkflow to navigate directly to it. You can also view subworkflows on the main workflow page, indicated by the green **Subworkflow** button under the **Attributes** column. Clicking will reveal which workflow the subworkflow is a part of.
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt="An image of a small subworkflow, flowing out of a larger executing workflow. The subworkflow is composed of actions, via rectangles outlined in  pink. The flow of subworkflow out of larger workflow is communicated via blue directional arrows. Under each subworkflow action, there&#x27;s the option to click a blue plus button to add additional actions on success or failure of that action."><figcaption><p>An example of subworkflows, flowing out of a larger executing workflow</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 3.14.32 PM (1).png" alt="" width="563"><figcaption><p>The Subworkflow button, under the <strong>Attributes</strong> column of the workflows list page</p></figcaption></figure>
+
+
+
+There are a few reasons to set up subworkflows.
+
+* Ensure a tidy workflow. Rather than having 20 steps per PSA on a single workflow, we can split it up for convenience and ease of understanding.
+* When addressing various objects, the equivalent of a [for each](https://docs.rewst.help/documentation/workflows/configuring-your-workflow-tasks/advanced-workflow-operations#with-items), we can pass all of the objects to a sub-workflow and get the output back of each object.
+* Run logic inside a subworkflow to isolate errors, apply retry or skip logic, and handle failures cleanly while using [with items](advanced-workflow-operations-menu.md), without failing your parent workflow.
+  * This is typically the best method for using with items loops inside Rewst. This allows you to run checks and balances on each iteration to prevent or handle possible failures on a per-item basis.
+* Subworkflows allow you to write a workflow once and reuse it multiple times. Subworkflows also accept parameters, making them adaptable for different use cases.
+* Smaller, self-contained workflows are easier to test and debug individually.
+
+### Configure the subworkflow inputs and output
+
+Click <img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 12.27.18 PM.png" alt="" data-size="line">to Navigate to **Configure** **Workflow Settings**. Then, configure which data comes into the subworkflow, and which data you want returned to the parent workflow upon completion— your [inputs and outputs](data-input-and-output-input-variables-and-context-variables.md). There are a variety of input types. Below are a few of the most common ones.
+
+<figure><img src="../../../.gitbook/assets/image (66) (2).png" alt="A screenshot of a sub-workflow configuration screen. At the top, there are sections labeled &#x22;Variable Configuration&#x22; and &#x22;Input Configuration&#x22; with a plus icon. Three input fields are defined:  list (type: List) with default value {{ [ ] }}, description &#x22;used for passing JSON object,&#x22; optional required checkbox.  boolean (type: Boolean) with default value {{ true }}, description &#x22;true or false,&#x22; optional required checkbox.  input_configuration (type: Text) with description &#x22;configure Inputs in the sub-wf,&#x22; optional required and multiline checkboxes.  Below, an &#x22;Output Configuration&#x22; section contains a field:  output_data with value {{ &#x22;The sub-wf test data&#x22; }}.  Each entry includes text fields for name, label, type, default value, and description, along with a red &#x22;Remove&#x22; button. At the bottom, there are &#x22;Cancel&#x22; and &#x22;Submit&#x22; buttons.  Highlighted in red boxes are the &#x22;Input Configuration&#x22; and &#x22;Output Configuration&#x22; headers, as well as a pencil icon in the top-right toolbar."><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (67) (1).png" alt="Alt text: A screenshot of a sub-workflow execution result. The header shows &#x22;Sub_Workflow&#x22; with a green checkmark and &#x22;1 successful tasks&#x22; on the right, along with a timestamp &#x22;07-21-25 05:10 PM.&#x22;  On the left, under Input, the JSON-style data is displayed:  boolean: true  input_configuration: &#x22;string&#x22;  list: containing one object with a field user_list that includes three values: &#x22;user1&#x22;, &#x22;user2&#x22;, and &#x22;user3&#x22;.  On the right, under Result, the output is shown:  output_data: &#x22;The sub-wf test data&#x22; Published as {{ CTX.sub_wf_results }}."><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+_Workflow wrapper_ is an informal term sometimes used colloquially by the ROC to describe a situation where a primary workflow is used in a separate workflow as a subworkflow. More information on workflow wrappers can be found [here](completion-handlers-and-workflow-wrappers.md).&#x20;
+{% endhint %}
+
+### Enable publish results in the parent workflow
+
+This setting publishes the configured output, allowing your parent workflow to use the results of the subworkflow immediately.
+
+1. Find your desired subworkflow in the **Workflows** actions menu in the left side of theWorkflow Builder.
+2. Drag your subworkflow from the actions list to the Workflow Builder canvas within your parent workflow.
+3. Click on the subworkflow to expose its configuration settings.
+4. Enter `sub_wf_results` in the **Publish Results As** field.
+5. Click **Publish**.
+
+<figure><img src="../../../.gitbook/assets/image (68) (2).png" alt=""><figcaption></figcaption></figure>
+
+### Access subworkflow data
+
+Results for subworkflows are nested inside published results for workflows. For example, the following Jinja wiuld contain the subworkflow data.
+
+```django
+{{ CTX.sub_wf_results.output_data }}
+```
+
+<figure><img src="../../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
 
 ## Additional workflow documentation
 
