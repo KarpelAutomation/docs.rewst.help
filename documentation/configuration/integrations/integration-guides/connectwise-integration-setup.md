@@ -624,7 +624,7 @@ Click to expand the below table and view all related ConnectWise PSA actions and
 {% hint style="warning" %}
 Pod authorization
 
-Note that pods do not allow the use of the fat client due to authorization pass-through issues. This means that you can use the web client to access pods.
+_Pods_ are a way to customize each of your screens in ConnectWise with relevant information that is often out of the view or displayed elsewhere in ConnectWise. Note that pods do not allow the use of the fat client due to authorization pass-through issues. This means that you can use the web client to access pods.
 {% endhint %}
 
 During pod configuration, you'll need to update your Rewst base URL to match your geographic Rewst instance. This will vary depending on which Rewst instance you are on. Identify your instance by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst base URL

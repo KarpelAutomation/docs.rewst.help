@@ -7,6 +7,8 @@ description: >-
 # Document with RoboRewsty
 
 {% hint style="info" %}
+RoboRewsty has expanded! As of October 2025, our RoboRewsty capabilities now help you with knowledge search and product education. See our general page on RoboRewsty [here](../../rewst-tools/roborewsty.md) to learn more.
+
 RoboRewsty is your go-to tool for simplifying the creation of comprehensive documentation for your workflow tasks. It takes care of the process behind the scenes, freeing you to focus on building your workflow while ensuring that the documentation is handled seamlessly.
 {% endhint %}
 

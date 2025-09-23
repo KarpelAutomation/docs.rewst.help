@@ -363,6 +363,7 @@
 * [Rewst Tools](documentation/rewst-tools/README.md)
   * [The Live Editor](documentation/rewst-tools/the-live-editor.md)
   * [PowerShell interpreter](documentation/rewst-tools/powershell-interpreter.md)
+  * [RoboRewsty](documentation/rewst-tools/roborewsty.md)
 * [Settings](documentation/settings/README.md)
   * [Users](documentation/settings/user-management.md)
   * [Organizations](documentation/settings/organizations.md)

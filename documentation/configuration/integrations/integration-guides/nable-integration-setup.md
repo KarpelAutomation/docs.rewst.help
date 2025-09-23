@@ -87,7 +87,7 @@ To complete all the needed script setup steps in N-able N-central, you'll need t
 8.  Navigate to **Configuration > Scheduled Tasks > Script/Software Repository.**\
 
 
-    <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 9. Enable **API Access** for the script.
 10. Note the **Repository ID**.
 11. In Rewst, [create an organization variable](../../organization-variables.md#manually-add-a-new-organization-variable) named `nable_rewst_powershell_script_id` with the Repository ID as its value. Set this organization variable as default.&#x20;

@@ -87,7 +87,7 @@ We've broken down instructions into four larger steps, each with its own section
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
     1. Name the user `Rewst`.
     2. Check the box **derive from user principal name**.
