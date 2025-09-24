@@ -23,7 +23,7 @@ Share feedback, and help us buff out any rough edges by [joining the early birds
 * **Easy Setup:** Simple device and service provisioning via Rewst Crates, suitable for domain controllers and endpoints.
 * **Secure CI/CD:** Ensures security and validity with automated builds, cryptographic signing, and SHA256 hashing.
 * **Seamless Integration:** Agents wait for Rewst messages, fitting effortlessly into existing automations.
-* **Rewst Supported:** Our [support team](https://docs.rewst.help/support-and-community/roc-support) will help you get up and going!
+* **Rewst Supported:** Our [support team](https://docs.rewst.help/support-and-community/roc-support) will help you get up and going.
 
 ### Architecture
 
@@ -41,7 +41,7 @@ Share feedback, and help us buff out any rough edges by [joining the early birds
 
 ### Requirements
 
-* You will need to obtain your own Microsoft Azure subscription, and integrate it to Rewst at your top-level organization. You can refer to our documentation [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle).
+* You will need to obtain your own Microsoft Azure subscription, and integrate it to Rewst at your top-level organization via the Microsoft Cloud Integration Bundle. You can refer to our documentation [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle).
 * Follow the setup instructions [here](https://docs.rewst.help/community-corner/agent-smith/agent-smith-configuration-overview)
 
 {% hint style="info" %}

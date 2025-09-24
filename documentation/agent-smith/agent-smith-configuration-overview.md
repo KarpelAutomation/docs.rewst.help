@@ -15,22 +15,22 @@ Agent Smith operates as an Azure IoT Hub instance, integrated with Rewst workflo
 {% hint style="warning" %}
 For the Azure Integration to work, you’ll need to have an Azure Subscription that includes a Keyvault.
 
-The Rewst integration user setup for the Microsoft Cloud Bundle may require you to adjust permissions for your Azure subscription. Most commonly, it is recommended to grant the Rewst Service Account with "Contributor" access to your Azure subscription.
+The Rewst integration user setup for the [Microsoft Cloud Integration Bundle](../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) may require you to adjust permissions for your Azure subscription. Most commonly, it is recommended to grant the Rewst Service Account with "Contributor" access to your Azure subscription.
 {% endhint %}
 
-1. Install and authorize our Microsoft Cloud Integration Bundle by navigating to **Configuration > Integrations** in the Rewst platform. This bundle contains an integration for Microsoft Azure.
-   1. Our setup instructions for the bundle can be found [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle).
-   2. Setup instructions for just the Azure integration can be found [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup).
+1.  Install and authorize our Microsoft Cloud Integration Bundle by navigating to **Configuration > Integrations** in the Rewst platform. This bundle contains an integration for Microsoft Azure.
+
+
 2. Navigate to **Crates > Crate Marketplace** in the Rewst platform.\
-   NOTE: You'll need to install the below Crates in order for Agent Smith setup to complete.
-   1.  Search for and install the **Agent Smith: Device Provisioning** Crate.\\
-
-       <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 1.35.34 PM.png" alt=""><figcaption></figcaption></figure>
-   2.  Search for and install the **Agent Smith: Service Provisioning** Crate. Unpacking this Crate will install a form named **Agent Smith: Service Configuration.**\\
-
-       <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 1.36.54 PM.png" alt=""><figcaption></figcaption></figure>
+   NOTE: You'll need to install the below Crates in order for Agent Smith setup to complete. Only unpack the Crates in the indicated order, or setup will fail.
+   1. Search for and install the **Agent Smith: Device Provisioning** Crate.\
+      \
+      ![](<../../.gitbook/assets/Screenshot 2025-09-24 at 12.00.30 PM.png>)
+   2. Search for and install the **Agent Smith: Service Provisioning** Crate. Unpacking this Crate will install a form named **Agent Smith: Service Configuration.**\
+      \
+      ![](<../../.gitbook/assets/Screenshot 2025-09-24 at 12.00.55 PM.png>)
 3. Navigate to the live **Agent Smith: Service Configuration** form and choose **Action: Create IoT Hub Instance** from the **Action** drop down menu.
-4.  Select the proper **Azure Subscription**, **Azure Location**, type in a unique **IoT Hub Name**, and select the desired **IoT Hub Service Tier**.\\
+4.  Select the proper **Azure Subscription**, **Azure Location**, type in a unique **IoT Hub Name**, and select the desired **IoT Hub Service Tier**.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 2.43.55 PM.png" alt=""><figcaption></figcaption></figure>
 5. **Submit** the form and monitor workflow results for success.
@@ -40,7 +40,7 @@ The Rewst integration user setup for the Microsoft Cloud Bundle may require you 
 * Agent Registration Workflow: Update the secret key in the trigger configuration.
   * Open Agent Smith: Agent Registration Workflow.
   * Update the Agent Smith Registration Webhook Trigger.
-* In the dropdown selector for Secret Key choose iothub\_registration\_secret
+* Choose **iothub\_registration\_secret i**n the **Secret Key** drop-down selector.
 
 ## Provision agents
 

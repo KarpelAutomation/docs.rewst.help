@@ -203,6 +203,7 @@
     * [Change a User’s Password Crate](documentation/crates/existing-crate-documentation/change-a-users-password-crate.md)
     * [Clean up Global Address List from Disabled Users Crate](documentation/crates/existing-crate-documentation/clean-up-global-address-list-from-disabled-users-crate.md)
     * [Comprehensive Rewst Forms List Crate](documentation/crates/existing-crate-documentation/comprehensive-rewst-forms-list-crate.md)
+    * [Compromised User Response Crate](documentation/crates/existing-crate-documentation/compromised-user-response-crate.md)
     * [Configure New GDAP Relationship Crate](documentation/crates/existing-crate-documentation/configure-new-gdap-relationship-crate.md)
     * [Configure Organizational Variables Crate](documentation/crates/existing-crate-documentation/configure-organization-variables.md)
     * [Configure Out of Office on Mailbox Crate](documentation/crates/existing-crate-documentation/configure-out-of-office-on-mailbox-crate.md)
