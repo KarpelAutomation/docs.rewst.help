@@ -28,6 +28,8 @@ Rewst support employees are granted read-only access to your organizations unles
 
 ## Set Rewst access control
 
+Note that only the Rewst [Admin role](../../documentation/settings/roles.md#admin-role) can enable or disable support access.
+
 ### Set write access control
 
 1. **Navigate** to **Settings > Permissions** in the Rewst platform.

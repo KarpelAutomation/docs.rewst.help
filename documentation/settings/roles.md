@@ -27,6 +27,7 @@ The _admin_ role is for the super user who will have access permissions to every
 * Check results
 * Add, edit, and configure forms
 * Manage integrations and organization variables
+* Enable or disable [support access](../../support-and-community/roc-support/rewst-support-allow-write-access.md#what-is-support-access)
 * Create a test user that can create, read, update, and delete
   * This is similar to user impersonation without requiring a real user
 * Create custom roles based on the following default permissions:

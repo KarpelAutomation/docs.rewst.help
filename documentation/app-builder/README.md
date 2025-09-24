@@ -31,7 +31,7 @@ Access App Builder by navigating to **App Builder** **> Apps** in the left side 
 
 The center of the App Builder screen contains a list of all your apps. Click either the name of the app or **>** to the right of your app to open its profile and info screen.&#x20;
 
-Click ⋮to the right of the app in the **Actions** column to expand the **Delete**, **Permissions**, **Export**, and **Clone** submenus. &#x20;
+Click **⋮** to the right of the app in the **Actions** column to expand the **Delete**, **Permissions**, **Export**, and **Clone** submenus. &#x20;
 
 ## More on how to use App Builder
 
