@@ -4,9 +4,9 @@
 
 <summary>September 2025</summary>
 
-[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations.md "mention")\
-[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md "mention")\
-[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-2.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-2.md "mention")
+[september-19-2025-using-rewst-to-triage-and-dispatch-tickets.md](september-19-2025-using-rewst-to-triage-and-dispatch-tickets.md "mention")\
+[september-12-2025-detecting-connectwise-calendar-sync-bugs-+-supabase-caching-demo.md](september-12-2025-detecting-connectwise-calendar-sync-bugs-+-supabase-caching-demo.md "mention")\
+[september-5-2025-automated-ticket-auditing.md](september-5-2025-automated-ticket-auditing.md "mention")
 
 </details>
 
@@ -14,9 +14,9 @@
 
 <summary>August 2025</summary>
 
-[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-3.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-3.md "mention")
+[august-29-2025-using-webhooks-to-automate-escalation.md](august-29-2025-using-webhooks-to-automate-escalation.md "mention")
 
-[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1-1.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1-1.md "mention")&#x20;
+[august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md](august-22-2025-self-serve-portals-that-turn-staff-ideas-into-automations-1.md "mention")&#x20;
 
 [august-15-2025-how-msps-are-using-ai-for-automation-today.md](august-15-2025-how-msps-are-using-ai-for-automation-today.md "mention")
 

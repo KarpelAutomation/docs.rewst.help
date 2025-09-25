@@ -11,7 +11,7 @@ This is only applicable to non-administrator accounts.
 
 ### How the Crate works
 
-1. The device name and Huntress organization name are parsed from the Isolated Critical EDR ticket title created by huntress, using regex. You must have your PSA setup as a integration within huntress.
+1. The device name and Huntress organization name are parsed from the Isolated Critical EDR ticket title created by Huntress, using regex. You must have your PSA setup as an integration within huntress.
 2. The correct Rewst organization ID is pulled from the mapped Huntress integration using the Huntress organization name.
 3. It queries the RMM to identify the last logged-in user.
 4. It pulls user group membership from Active Directory through PowerShell.

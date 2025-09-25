@@ -1,4 +1,4 @@
-# September 12, 2025:
+# August 22, 2025: Self Serve Portals that Turn Staff Ideas into Automations
 
 ### **Join Live!**
 
@@ -8,21 +8,18 @@ Join us live every Friday at 3 pm EST!
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/40bGcLTXrc8" %}
+{% embed url="https://youtu.be/G54spxe1i4E" %}
 
 ### Contents of the Recording:
 
-* [🌎 George shares community updates about CanITCon, upcoming CMIT conference, Rewst’s September webinar, and secret Discord plans.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=24s)
-* [📚 Clea returns from leave with education updates, certification shoutouts, new troubleshooting course, and improved Microsoft Cloud documentation.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=186s)
-* [🔧 Danial highlights feedback from CanITCon, collaborative Microsoft documentation updates, bug fixes, and upcoming RoboRewsty and integrations.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=519s)
-* [🛠 JP provides marketplace updates, focusing on bug fixes, onboarding workflow logging improvements, and automated testing enhancements.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=654s)
-* [💡 Lucas demos using Supabase as a caching solution in Rewst workflows, showing easy integration and generous free tier benefits.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=761s)
-* [🔐 Gareth showcases an automation to enable Temporary Access Pass (TAP) in Microsoft 365 and generate one-time login codes.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1202s)
-* [📅 Jeff presents a workflow detecting ConnectWise calendar sync bugs, notifying dispatchers of scheduling issues via email.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1525s)
-* [📄 Ashe demonstrates integrating Google Docs with Rewst to automatically capture Discord messages into formatted documents.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=1834s)
-* [⚙️ Daniel shows a workflow that uses patch diffs and RoboRewsty to auto-generate ticket notes and time entries for workflow edits.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2528s)
-* [🔑 Andrew demos a passwordless workflow toggling Windows password provider settings via registry changes, enabling UAC compatibility.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2718s)
-* [🖥 The group discusses expanding similar workflows for power settings and UPS monitoring with Raspberry Pis and webhooks.](https://www.youtube.com/watch?v=40bGcLTXrc8\&t=2966s)
+* 🚀 [Danial shares new transforms, improved marketplace UX, database optimization, and faster deployments.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=194s)
+* 🤖 [Dan Hayes demos the new MCP server with AI agent integrations, showing how workflows can be triggered and summarized.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=621s)
+* 🛠 [JP covers recent marketplace fixes and previews upcoming workflows like BitLocker and offboarding.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1269s)
+* 📚 [Eddie gives training updates, certification shoutouts, and highlights the AI documentation search tool.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1369s)
+* 🔁 [David demos a revamped password reset form with automated redaction, SMS/email delivery, and ticket logging.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=1549s)
+* 🧩 [Josh shares how Centrics IT is launching Rewst automation with internal branding, idea intake, and project planning.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2003s)
+* 📊 [Derek showcases a fully custom idea portal inside Rewst with dashboards, SQL backend, and admin controls.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2460s)
+* 🔁 [Josh returns to show the structure of his process board and explains how they prioritize automation based on ROI and internal feedback.](https://www.youtube.com/watch?v=G54spxe1i4E\&t=2944s)
 
 <details>
 
