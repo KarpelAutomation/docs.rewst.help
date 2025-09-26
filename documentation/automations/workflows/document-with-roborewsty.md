@@ -24,14 +24,16 @@ RoboRewsty does not replace the existing note feature in the workflow builder. Y
 
 ### Via workflow builder
 
-1. Create a new note.&#x20;
-2. Drag your note to encompass all actions in the workflow that you wish to document. This can be a subset of the workflow, or the entire workflow.
-3. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.06 PM (1).png" alt="" data-size="line"> in the top toolbar of the workflow builder.&#x20;
-4. Hover over the **Notes** note name field to reveal the hidden options for notes.\
+1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.06 PM (1).png" alt="" data-size="line"> in the top toolbar of the workflow builder to start a note for the entire workflow. To add notes on specific elements, drag around an area on the canvas while holding down **ctrl + left click** , or **right click** and select **Add Note** within the workflow builder.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-06 at 5.15.17 PM.png>)
-5. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-06 at 5.18.18 PM.png" alt="" data-size="line">. This will launch RoboRewsty. A waiting message will display while it runs on your workflow. This may take a moment, if your request holds a large number of tasks.
-6. View the notes generated in your **Notes** menu. Sections will include:
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 12.17.52 PM.png>)\
+
+2. Click **Generate Auto-Documentation** to generate documentation for the entire workflow.\
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.58.00 AM.png>)\
+
+3. A waiting message will display while it runs on your workflow. This may take a moment, if your request holds a large number of tasks.\
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.58.15 AM.png>)
+4. View the notes generated in your **Notes** menu. Sections will include:
    1. **What's Occurring: Task Overview:** Each documentation response begins with a clear and concise overview, providing users with a high-level understanding of the task's purpose and context.
    2. **Expected Outcome: Task's Expected Result:** Information about the expected outcome or result of the task or group of tasks is presented. This section helps users anticipate the outcomes when the workflow executes the associated tasks.
    3. **Special Considerations: Any Crucial Factors:** Special considerations or crucial factors related to the tasks are included. These details ensure that users have all the necessary information to understand the workflow path successfully.

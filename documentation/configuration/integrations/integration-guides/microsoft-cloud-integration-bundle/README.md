@@ -105,6 +105,10 @@ We've broken down instructions into four larger steps, each with its own section
     <figure><img src="../../../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 6. Click **Review and Create**, then **Create**.
 
+{% hint style="warning" %}
+Make sure the service account is part of the **admin agents** group in Microsoft Entra.
+{% endhint %}
+
 #### Turn on MFA requirement for the user
 
 1. Log in to the Microsoft 365 Admin Center.
@@ -278,6 +282,38 @@ We strongly recommend that you use the Crate to complete this step.
 
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-05 at 12.22.37 PM.png" alt=""><figcaption></figcaption></figure>
+
+## Manage your MSP parent organization with Rewst
+
+If you’d like to manage your internal organization with Rewst and enable it to run automations, you’ll need to assign specific roles to your Rewst service account.&#x20;
+
+* If you used the Configure New GDAP Relationship Crate to set up your GDAP roles, you'll still need to manually add these roles to your Rewst service account. The Crate does not add them at the MSP parent organization level for you.
+* If you chose to set up the GDAP roles manually without using the Crate, you'll also need to manually add these roles to your Rewst service account. Note that they're the same 12 roles that you used previously.
+
+Once this has been completed, you can remove the Global Administrator Role from your Service account
+
+{% hint style="warning" %}
+Important: Review your internal processes before proceeding, as Rewst will be able to make changes to your organization once these roles are applied.
+{% endhint %}
+
+<details>
+
+<summary>12 roles to add to Rewst Service account at the MSP level organization</summary>
+
+1. [Application Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#application-administrator) - Can create and manage all applications, service principals, app registration, enterprise apps, consent requests. Cannot manage directory roles, security groups.
+2. [Authentication Policy Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#authentication-policy-administrator) - Configures authentication methods policy, MFA settings, manages Password Protection settings, creates/manages verifiable credentials, Azure support tickets. Restrictions on updating sensitive properties, deleting/restoring users, legacy MFA settings.
+3. [Cloud App Security Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#cloud-app-security-administrator) - Manages all aspects of the Defender for Cloud App Security in Azure AD, including policies, alerts, and related configurations.
+4. [Cloud Device Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#cloud-device-administrator) - Enables, disables, deletes devices in Azure AD, reads Windows 10 BitLocker keys. Does not grant permissions to manage other properties on the device.
+5. [Exchange Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#exchange-administrator) - Manages all aspects of Exchange Online, including mailboxes, permissions, connectivity, and related settings. Limited access to related Exchange settings in Azure AD.
+6. [Intune Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#intune-administrator) - Manages all aspects of Intune, including all related resources, policies, configurations, and tasks.
+7. [User Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#user-administrator) - Manages all aspects of users, groups, registration, and resets passwords for limited admins. Cannot manage security-related policies or other configuration objects.
+8. [Privileged Authentication Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-authentication-administrator) - Sets and resets authentication methods for all users (admin or non-admin), deletes/restores any users. Manages support tickets in Azure and Microsoft 365. Restrictions on managing per-user MFA in legacy MFA portal.
+9. [Privileged Role Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator) - Manages role assignments in Azure AD, Azure AD Privileged Identity Management, creates/manages groups, manages all aspects of Privileged Identity Management, administrative units. Allows managing assignments for all Azure AD roles including Global Administrator.
+10. [Security Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-administrator) - Can read security information and reports, and manages security-related features, including identity protection, security policies, device management, and threat management in Azure AD and Office 365.
+11. [SharePoint Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#sharepoint-administrator) - Manages all aspects of SharePoint Online, Microsoft 365 groups, support tickets, service health. Scoped permissions for Microsoft Intune, SharePoint, and OneDrive resources.
+12. [Teams Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#teams-administrator) - Manages all aspects of Microsoft Teams, including telephony, messaging, meetings, teams, Microsoft 365 groups, support tickets, and service health.
+
+</details>
 
 ## **Troubleshoot the Microsoft Cloud Integration Bundle**
 
@@ -726,7 +762,3 @@ If you get this error while running EXO commands, check if the dedicated account
 
 
 </details>
-
-{% hint style="info" %}
-For troubleshooting tips, check out the [Broken link](broken-reference "mention") and [Broken link](broken-reference "mention") pages.
-{% endhint %}

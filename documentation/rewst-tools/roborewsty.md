@@ -1,5 +1,6 @@
 ---
 hidden: true
+noIndex: true
 ---
 
 # RoboRewsty
@@ -35,6 +36,7 @@ RoboRewsty can't:
 * Modify workflows, variables, or configurations - you'll need to do all of these manually in Rewst
 * Access billing or account management information
 * Provide general IT advice outside of Rewst functionality
+* RoboRewsty can tell you how many tasks are in a workflow, but that number should not be used to predict task usage. The actual number of tasks executed in each workflow run may vary depending on workflow logic, conditions, skips, and subworkflows. For accurate task counts, check the Execution History for individual workflow runs and your [Dashboard.](../rewst-dashboard.md)
 
 ## How to ask better questions
 
@@ -51,7 +53,7 @@ In future releases of this Rewst feature, RoboRewsty will expand to be able to h
 
 ## How RoboRewsty works
 
-RoboRewsty is built right into Rewst and powered by Anthropic’s Claude. If Claude isn't available, we automatically switch over to use Azure's OpenAI. This is what allows RoboRewsty to understand what you’re asking, identify the context it needs to help, and generate a plain-language response.&#x20;
+RoboRewsty is built right into Rewst and powered by Anthropic’s Claude, hosted on Amazon Bedrock. If Claude isn't available, RoboRewsty automatically switches over to use OpenAI, also hosted on Bedrock, to maintain service availability. This is what allows RoboRewsty to understand what you’re asking, identify the context it needs to help, and generate a plain-language response.&#x20;
 
 RoboRewsty can offer tailored support and guidance by pulling from two types of context:&#x20;
 
@@ -62,7 +64,7 @@ RoboRewsty can recognize where you are in the platform and use the details it ne
 
 Claude can only choose to request from a strict menu of pre-approved queries that Rewst has written and locked down, like `get workflow run details` or `list org variables`. Rewst executes that query through our GraphQL API, and sends minimum context needed to Claude to create RoboRewsty’s response.
 
-Note that Anthropic and Azure OpenAI process these request in real time, but don’t store your data or use it to train their models. Your credentials are securely stored within the Rewst platform and can't be accessed by RoboRewsty.
+Note that Anthropic and OpenAI process these request in real time, but don’t store your data or use it to train their models. Your credentials are securely stored within the Rewst platform and can't be accessed by RoboRewsty.
 
 <figure><img src="../../.gitbook/assets/RoboRewsty AI Simplified Diagram _ Mermaid Chart-2025-09-19-183620.png" alt="A flowchart with orange, purple, pink and teal boxes and arrows to denote a process. " width="375"><figcaption><p>The process for a RoboRewsty query</p></figcaption></figure>
 
