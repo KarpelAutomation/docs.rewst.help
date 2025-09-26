@@ -1,7 +1,7 @@
-# Triage SentinelOne Threat Alerts Crate
+# Triage SentinelOne Tickets Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Triage SentinelOne Threat Alerts Crate in our Crate Marketplace.
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the Triage SentinelOne Tickets Crate do?

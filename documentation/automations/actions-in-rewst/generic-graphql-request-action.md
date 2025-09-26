@@ -18,8 +18,6 @@ Before using the Generic GraphQL Request action, ensure that you have:
 * An understanding of GraphQL query structure and syntax
 * Familiarity with Rewst's data model and available schema
 * The necessary feature flag enabled for your organization
-
-This action requires the `ENABLE_ACTION_REWST_GENERIC_GRAPH_REQUEST` feature flag to be enabled for your organization. Contact Rewst staff if you need access to this advanced functionality.
 {% endhint %}
 
 **Parameters:**
