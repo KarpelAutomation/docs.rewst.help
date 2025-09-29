@@ -20,9 +20,9 @@ Our ImmyBot integration enables the automation of remote machine management and 
 
 ### Set up steps in ImmyBot
 
-Before configuring the Rewst integration you must get the Application ID and Client Secret Value from your ImmyBot account.
+Before configuring the Rewst integration,  you'll need to get the application ID and client secret value from your ImmyBot account.
 
-Please refer to [ImmyBot's Documentation](https://docs.immy.bot/azure-graph-permissions-setup.html) for instructions on retrieving your API key information.
+Please refer to [ImmyBot's Documentation](https://docs.immy.bot/azure-graph-permissions-setup.html) for up-to-date instructions on retrieving your API key information. Once you have the client secret, store the value somewhere safe. You'll need it for further set up steps in Rewst.
 
 ### Set up steps in Rewst
 
@@ -33,12 +33,13 @@ Please refer to [ImmyBot's Documentation](https://docs.immy.bot/azure-graph-perm
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter your ImmyBot **Hostname**. Click **Next**.
 5. Under **Azure App Registration**, enter the information copied from ImmyBot into the relevant fields:
-   * **Microsoft Tenant ID**
-   * **Application ID**
-   * **Client Secret**
-6. Click the link that appears on the integration configuration screen to navigate to ImmyBot's Persons Settings. Create a new Person for Rewst to use. Use your primary Tenant, and set the AD External ID field value.
-7. Click **Continue** to create your user and assign the admin Role.
-8. Click **Test configuration**.
+   * **Microsoft Tenant ID** - The ID of the Microsoft 365 Tenant associated with your ImmyBot instance
+   * **Application ID -** The Application ID of the Azure Enterprise App that Rewst will use to authenticate with ImmyBot
+   * **Client Secret -** The Client Secret of the Azure app registration Rewst will use to authenticate with ImmyBot
+6. Click **Next**.
+7. Click the link that appears on the integration configuration screen to navigate to ImmyBot's Persons Settings. Create a new Person for Rewst to use. Use your primary Tenant, and set the AD External ID field value.
+8. Click **Continue** to create your user and assign the admin Role.
+9. Click **Test configuration**. If the integration is working properly, a green confirmation message will appear at the top of your screen.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

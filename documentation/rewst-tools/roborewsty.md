@@ -123,6 +123,8 @@ For workflows, click <img src="../../.gitbook/assets/Screenshot 2025-09-16 at 12
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-16 at 12.58.14 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
+After you receive your workflow insights, you can ask RoboRewsty to add that information to your workflow in a note.&#x20;
+
 ## Submit your feedback
 
 RoboRewsty pulls from this documentation site to provide answers. The more content we add to our documentation, the more refined RoboRewsty's answers will be. If you're not satisfied with his response to a specific question, let us know so we can improve it! After each response, you'll have the option to give RoboRewsty’s answer a quick thumbs up 👍 or down👎. If you choose humbs down 👎, a **Tell us why** text box appears to collect more detailed feedback.
