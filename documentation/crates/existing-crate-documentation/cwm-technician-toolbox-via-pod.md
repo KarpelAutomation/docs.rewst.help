@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # CWM: Technician Toolbox via Pod Crate
 
 {% hint style="warning" %}

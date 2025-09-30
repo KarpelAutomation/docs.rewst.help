@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Ad-Hoc Install/Uninstall Software via Chocolatey Crate
 
 

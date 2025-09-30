@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # User Offboarding V2 Crate
 
 {% hint style="warning" %}
