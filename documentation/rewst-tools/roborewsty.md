@@ -1,8 +1,3 @@
----
-hidden: true
-noIndex: true
----
-
 # RoboRewsty
 
 ## What is RoboRewsty?
