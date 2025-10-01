@@ -4,6 +4,7 @@
 
 <summary>September 2025</summary>
 
+[september-26-2025.md](september-26-2025.md "mention")\
 [september-19-2025-using-rewst-to-triage-and-dispatch-tickets.md](september-19-2025-using-rewst-to-triage-and-dispatch-tickets.md "mention")\
 [september-12-2025-detecting-connectwise-calendar-sync-bugs-+-supabase-caching-demo.md](september-12-2025-detecting-connectwise-calendar-sync-bugs-+-supabase-caching-demo.md "mention")\
 [september-5-2025-automated-ticket-auditing.md](september-5-2025-automated-ticket-auditing.md "mention")

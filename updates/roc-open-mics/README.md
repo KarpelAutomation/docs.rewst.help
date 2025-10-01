@@ -29,21 +29,19 @@ Our Open Mics are recorded and posted here soon after for easy viewing.&#x20;
 
 ## Latest North American Open Mic video recording
 
-{% embed url="https://youtu.be/IbmPXosbSu8" %}
+{% embed url="https://youtu.be/DkjCDNSAe8Q" %}
+
+
 
 <details>
 
 <summary>Contents of NA Open Mic recording:</summary>
 
-* [🌐 George shares community highlights, recent webinars, upcoming cybersecurity events, and a call for volunteers.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=128s)
-* [🎓 Clea provides education updates, announces new Rewst certifications, introduces a crash course, and discusses RoboRewsty documentation.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=339s)
-* [🛠️ Danial outlines recent engineering releases, including integrations, XML-to-Jinga filter, and RoboRewsty beta progress.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=817s)
-* [🖥️ Brooke demonstrates improvements to the Create Marketplace details page with easier unpacking and integration visibility.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=986s)
-* [🛒 JP delivers marketplace updates, detailing bug fixes, enhancements, and introduces Paul for a Huntress crate demo.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1217s)
-* [🔒 Paul presents the Huntress AD account lockdown crate, showing how it disables compromised accounts via workflows.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1408s)
-* [📊 Danial (USA) demonstrates a client portal with Rewst-native reporting, highlighting automation and data display tricks.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=1985s)
-* [🥪 Brandon showcases an AI-powered triage and dispatch workflow that automates ticket classification and assignment.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=2405s)
-* [🙋 The group discusses clarifying questions, duplicate ticket handling, and the human dispatcher’s evolving role.](https://www.youtube.com/watch?v=IbmPXosbSu8\&t=3181s)
+* [🐦 Clea provides certification shoutouts, introduces a hidden Bird Brains course, and shares training updates.](https://www.youtube.com/watch?v=DkjCDNSAe8Q\&t=344s)
+* [⚙️ Danial announces the release of RoboRewsty, demonstrates AI-powered workflow analysis, documentation, and troubleshooting.](https://www.youtube.com/watch?v=DkjCDNSAe8Q\&t=858s)
+* [🛒 Jesse presents marketplace updates, bug fixes, and previews upcoming crates and integrations.](https://www.youtube.com/watch?v=DkjCDNSAe8Q\&t=2552s)
+* [📊 Aaron demos a license reporting workflow with dropdown challenges in emails.](https://www.youtube.com/watch?v=DkjCDNSAe8Q\&t=2722s)
+* [📝 Ray demonstrates advanced form techniques using dropdowns and GraphQL for better client data display.](https://www.youtube.com/watch?v=DkjCDNSAe8Q\&t=3204s)
 
 </details>
 

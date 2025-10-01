@@ -17,7 +17,7 @@ Note that you can have multiple triggers per workflow, for example a webhook and
 
 <figure><img src="../../../.gitbook/assets/add-trigger-form.png" alt=""><figcaption></figcaption></figure>
 
-Update the relevant fields in the form as needed, to set up your trigger.
+Update the relevant fields in the setup menu as needed, to set up your trigger. This might include [integration overrides](./) or [tags](../../settings/tags-in-rewst.md).
 
 ### Trigger criteria
 
@@ -95,13 +95,11 @@ For more information on webhook triggers, refer to [using-webhook-triggers.md](u
 
 ### Core - Always Pass
 
-The _always pass trigger_ allows a workflow to start without conditions. It is commonly used in workflows that do not depend on external events or schedules.
-
-For example, you might use this trigger when testing workflows, executing a workflow from another workflow without needing a specific event, or populating dynamic options in a Rewst form.
+The _always pass trigger_ allows a workflow to start without conditions. It is commonly used in workflows that do not depend on external events or schedules. It's mostly used with the **Test** button in the Workflow Builder Canvas, and options generators for forms that need an override for its fields. You might use this trigger when testing workflows, executing a workflow from another workflow without needing a specific event, or populating dynamic options in a Rewst form.
 
 This trigger is most useful for:
 
-* Manual workflow execution: running a workflow on demand
+* Manual workflow execution: running a workflow on demand&#x20;
 * Subworkflows or completion handlers: workflows triggered by other workflows
 * Testing automation: verifying workflow functionality
 * Option generators: dynamically populating form fields in Rewst

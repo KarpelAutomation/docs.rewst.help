@@ -18,26 +18,32 @@ Currently, you can ask it questions about the platform and get instant guidance 
   * "Help me find this specific action. Explain in detail its parameters, requirements, and usage."
   * "List and search organization variables across categories."
 * Ask RoboRewsty for help with troubleshooting workflows and understanding why something failed. Paste an error into the chat or ask why a run failed, and RoboRewsty will break it down, point to the issue, and suggest what to do next.
-  * Navigate to Automations > Workflows > Your Desired Workflow > View Results. In the execution results, ask RoboRewsty for help with understanding results, both successes and failures.
+  * Navigate to **Automations > Workflows > Your Desired Workflow > View Results**. In the execution results, ask RoboRewsty for help with understanding results, both successes and failures.
 * Use RoboRewsty as your personal Rewst navigator. Ask him about about your workflows, variables and integrations, and get answers specific to your individual Rewst environment.
   * “What integrations are available in my org?”&#x20;
   * "List recent executions of workflow \[name]."
 * Get tailored support and guidance while building in Rewst. Whether you’re working with Jinja, action parameters, or workflow design, ask RoboRewsty for best practices and guidance while you build.
 
-## What can't RoboRewsty help with?
+## What can't RoboRewsty do or help with?
 
 RoboRewsty can't:
 
+* View or expose sensitive credentials and secrets
+  * API keys, bearer tokens, OAuth tokens, session cookies, and other confidential values are never shared with RoboRewsty or the underlying LLM providers
+  * These are automatically blocked from leaving Rewst—personally identifiable information, like emails or phone numbers, is masked before being processed
 * Modify workflows, variables, or configurations - you'll need to do all of these manually in Rewst
 * Access billing or account management information
 * Provide general IT advice outside of Rewst functionality
-* RoboRewsty can tell you how many tasks are in a workflow, but that number should not be used to predict task usage. The actual number of tasks executed in each workflow run may vary depending on workflow logic, conditions, skips, and subworkflows. For accurate task counts, check the Execution History for individual workflow runs and your [Dashboard.](../rewst-dashboard.md)
+
+{% hint style="info" %}
+RoboRewsty can tell you how many tasks are in a workflow, but that number should not be used to predict task usage. The actual number of tasks executed in each workflow run may vary depending on workflow logic, conditions, skips, and subworkflows. For accurate task counts, check the Execution History for individual workflow runs and your [Dashboard.](../rewst-dashboard.md)
+{% endhint %}
 
 ## How to ask better questions
 
 If you're new to using AI assistants, here's one important takeaway: how you craft your question will determine the quality of your result.
 
-1. Be specific. Instead of "How do I automate tickets?", ask "What ConnectWise PSA actions are available for creating tickets?"
+1. Be specific. Instead of "How do I automate tickets?",ask "What ConnectWise PSA actions are available for creating tickets?"
 2. Provide context. If asking about a specific workflow or execution, provide the ID or name so RoboRewsty can hone in on your particular scenario.
 3. Ask follow-up questions. Think of it as a conversation where RoboRewsty can drill down into details once you help it identify the right resource.
 4. Ask questions before building, not just after. RoboRewsty can help you find the right tools before as part of your design and planning process.
@@ -48,18 +54,28 @@ In future releases of this Rewst feature, RoboRewsty will expand to be able to h
 
 ## How RoboRewsty works
 
-RoboRewsty is built right into Rewst and powered by Anthropic’s Claude, hosted on Amazon Bedrock. If Claude isn't available, RoboRewsty automatically switches over to use OpenAI, also hosted on Bedrock, to maintain service availability. This is what allows RoboRewsty to understand what you’re asking, identify the context it needs to help, and generate a plain-language response.&#x20;
+RoboRewsty is built right into Rewst and powered by private, Amazon Bedrock-hosted models. Anthropic’s Claude is the primary model, and if Claude isn’t available, RoboRewsty automatically switches to OpenAI, also hosted on [Amazon Bedrock](https://aws.amazon.com/bedrock/).  These models are what allow RoboRewsty to understand what you’re asking, identify the context it needs to help, and generate a plain-language response. They models are stateless and private. They do not store your data or use it to train their services.
 
 RoboRewsty can offer tailored support and guidance by pulling from two types of context:&#x20;
 
 * Rewst documentation including Rewst Docs and Jinja2 references
 * Users' environment context&#x20;
 
-RoboRewsty can recognize where you are in the platform and use the details it needs from your environment to give you tailored support. RoboRewsty's ability to retrieve this environment context is powered by our implementation of the [_Model Context Protocol_ _(MCP)_](https://www.anthropic.com/news/model-context-protocol). MCP is a framework by Anthropic that gives Rewst a way to provide authenticated and controlled methods for Claude to request information from Rewst’s backend via our GraphQL API, if it needs environment context to answer a question, like “Why did this workflow fail?”
+RoboRewsty can recognize where you are in the platform and use the details it needs from your environment to give you tailored support. RoboRewsty's ability to request the retrieval of this environment context is powered by our implementation of the [_Model Context Protocol_ _(MCP)_](https://www.anthropic.com/news/model-context-protocol). MCP is a framework by Anthropic that gives Rewst a way to provide authenticated and controlled methods for Claude to request information from Rewst’s backend via our GraphQL API, if it needs environment context to answer a question, like “Why did this workflow fail?”
 
-Claude can only choose to request from a strict menu of pre-approved queries that Rewst has written and locked down, like `get workflow run details` or `list org variables`. Rewst executes that query through our GraphQL API, and sends minimum context needed to Claude to create RoboRewsty’s response.
+Claude can only choose to request from a strict menu of pre-approved queries that Rewst has created, like `get workflow run details` or `list org variables`. Rewst applies your role-based permissions, executes that query through our GraphQL API, and sends minimum context needed to Claude to create RoboRewsty’s response.
 
-Note that Anthropic and OpenAI process these request in real time, but don’t store your data or use it to train their models. Your credentials are securely stored within the Rewst platform and can't be accessed by RoboRewsty.
+#### How data stays protected
+
+RoboRewsty is designed with multiple safeguards to ensure sensitive information and credentials never leak outside of Rewst:
+
+* RoboRewsty leverages [Amazon Bedrock Guardrails](https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-sensitive-filters.html) to automatically detect sensitive data in prompts or responses and either block it outright or mask it before the model processes it
+  * Credentials and secrets are blocked. Stored values such as API keys, OAuth tokens, bearer tokens, JWTs, session cookies, or `x-rewst-secret` headers are explicitly denied topics and never passed to the LLM
+  * Personally identifiable information (PII) items like emails, passwords, addresses, and phone numbers are automatically anonymized with placeholders —for example, `{EMAIL}` or `{NAME}` —before leaving Rewst
+* All data exchanged with [Bedrock is encrypted](https://docs.aws.amazon.com/bedrock/latest/userguide/data-encryption.html) using industry-standard protocols
+* Every request RoboRewsty makes runs under your existing user permissions, so it cannot access workflows, executions, or data beyond what your account can already view
+
+This layered design ensures RoboRewsty can provide tailored, context-aware help without exposing credentials or sensitive data outside of Rewst.
 
 <figure><img src="../../.gitbook/assets/RoboRewsty AI Simplified Diagram _ Mermaid Chart-2025-09-19-183620.png" alt="A flowchart with orange, purple, pink and teal boxes and arrows to denote a process. " width="375"><figcaption><p>The process for a RoboRewsty query</p></figcaption></figure>
 
@@ -122,4 +138,4 @@ After you receive your workflow insights, you can ask RoboRewsty to add that inf
 
 ## Submit your feedback
 
-RoboRewsty pulls from this documentation site to provide answers. The more content we add to our documentation, the more refined RoboRewsty's answers will be. If you're not satisfied with his response to a specific question, let us know so we can improve it! After each response, you'll have the option to give RoboRewsty’s answer a quick thumbs up 👍 or down👎. If you choose humbs down 👎, a **Tell us why** text box appears to collect more detailed feedback.
+RoboRewsty pulls from this documentation site to provide answers. The more content we add to our documentation, the more refined RoboRewsty's answers will be. If you're not satisfied with his response to a specific question, let us know so we can improve it! After each response, you'll have the option to give RoboRewsty’s answer a quick thumbs up 👍 or down👎. If you choose thumbs down 👎, a **Tell us why** text box appears to collect more detailed feedback.
