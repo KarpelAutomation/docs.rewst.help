@@ -1,7 +1,7 @@
 # Document Rewst Form URLs (IT Glue/Hudu) Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Amend Mailbox Permissions Crate in our Crate Marketplace.
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
 ## What does the Document Rewst Form URLs (IT Glue/Hudu) Crate do?
@@ -54,8 +54,27 @@ The workflow is designed to run at the MSP level organization. The workflow will
 1. Click **test** in the top right corner of the page.
 2. Select your MSP organization and click **Test**.
 3. Navigate to **Automation > Results** to view the workflow execution.
+4.  Navigate to your relevant documentation tool's portal and ensure that the documentation is present.
+
+    1. The new asset type created in Hudu will be called **Rewst Forms**.\
+       ![](<../../../.gitbook/assets/Screenshot 2025-10-02 at 2.43.17 PM.png>)
+    2. The new asset type created in IT Glue will be called **Rewst Forms**.\
+       ![](<../../../.gitbook/assets/Screenshot 2025-10-02 at 4.06.47 PM.png>)
+
+
+
+## Organization variables associated with this Crate
+
+{% hint style="info" %}
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables).
+
+Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
+
+If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.
+{% endhint %}
+
+`hudu_form_excluded_forms` will automatically be created while unpacking the Crate if it doesn't already exist in your organization. This org variable is created as an empty list between two `[]` and will contain a list of trigger IDs.  &#x20;
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

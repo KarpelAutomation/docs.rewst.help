@@ -79,7 +79,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 
 ### Final setup steps in Google
 
-#### Add integraton as trusted app
+#### Add integration as trusted app
 
 1. Navigate to **Security > API controls > App access control > Rewst** in your Google console at [admin.google.com](https://admin.google.com).&#x20;
 2. Click to expand the **Access to Google data** accordion menu.

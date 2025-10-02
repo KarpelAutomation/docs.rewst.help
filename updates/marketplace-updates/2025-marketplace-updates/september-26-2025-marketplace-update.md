@@ -19,13 +19,28 @@ There are no new Crates this week.
   * Reviewed the REWST - PROC Microsoft: User Onboarding - Rewst workflow and its sub-workflows and confirmed the `secondary_email_domains` variable is not utilized
 * [Deactivate ConnectWise PSA Contacts when their Company is Deactivated](../../../documentation/crates/existing-crate-documentation/deactivate-connectwise-psa-contacts-when-their-company-is-deactivated-crate.md)
   * When a company is listed as inactive, the workflow now creates a dummy replacement contact for that company
-  * With a replacement set, the crate can then delete/disable the original default contact
+  * With a replacement set, the Crate can then delete or disable the original default contact
 * [Alert on Login from Non-Native Country](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/documentation/crates/existing-crate-documentation/alert-on-login-from-non-native-country-crate)
-  * Updated the filter in microsoft\_graph\_list\_logins to check if include\_failed\_attempts or not
+  * Updated the filter in `microsoft_graph_list_logins` to check if include\_failed\_attempts or not
 * [Add Client to Rewst ](../../../documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
   * Updated the option configuration from "sites" to "site" to fix error
 * [Huntress EDR: AD Account Lockdown](../../../documentation/crates/existing-crate-documentation/huntress-edr-ad-account-lockdown-crate.md)
   * Increased webhook timeout length from 8 hours to 1 day&#x20;
+* [Document M365 Shared Mailboxes V2](../../../documentation/crates/existing-crate-documentation/document-m365-shared-mailboxes-setup.md)
+  * Updated cron trigger from daily to every 14 days based on user feedback, to alleviate high task counts
+  * Workflow: \[REWST - PROC] Docs: Document M365 Shared Mailboxes
+* [Document M365 Environment](../../../documentation/crates/existing-crate-documentation/document-m365-environment-setup.md)
+  * Updated cron trigger from daily to every 14 days based on user feedback, to alleviate high task counts
+  * Workflow: \[REWST - CRATE] Docs: Document M365 Environment
+* [Document User Details V2](../../../documentation/crates/existing-crate-documentation/document-user-details-v2-crate.md)
+  * Updated cron trigger from daily to every 14 days based on user feedback, to alleviate high task counts
+  * Workflow: \[REWST - CRATE] Docs: Document M365 Users
+* [Document Bitlocker Information](../../../documentation/crates/existing-crate-documentation/document-bitlocker-information-crate.md)
+  * Updated cron trigger from daily to every 14 days based on user feedback, to alleviate high task counts
+  * Workflow: \[REWST - CRATE] Docs: Document Bitlockers
+* [Document Group Details V2](../../../documentation/crates/existing-crate-documentation/document-m365-groups-setup.md)
+  * Updated cron trigger from daily to every 14 days based on user feedback, to alleviate high task counts
+  * Workflow: \[REWST - PROC] Docs: Document M365 Groups
 
 </details>
 
