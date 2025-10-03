@@ -23,11 +23,13 @@ Contact Ingram Micro Integration Support at usxvantageintegrations@ingrammicro.c
 
 1. Create a new [Staff Account](https://nam10.safelinks.protection.outlook.com/?data=05|02|lisa.dellaporta@rewst.io|786393803c5746832f9c08ddebcb3001|5a9dda565beb484083e19afc1ada2388|0|0|638925980473020030|Unknown|TWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ==|0|||\&reserved=0\&sdata=Fq6NvtafNIWFCqsoDUvwPWxUQLjHq1OkDRcCqnsu6Tk=\&url=https://kb.cloud.im/support/solutions/articles/66000396732-01-a-how-to-add-a-staff-user-to-unified-reseller-control-panel) for the Rewst Application.
 2. Name this user `Rewst` and ensure that you generate a safe, unique password.
-3. Activate the API from the [Ingram Cloud Marketplace.](https://help.ingrammicro.com/hc/en-us/articles/31763637563540-How-to-get-Cloud-Marketplace-API-Subscription-Key) You can only have a single user assigned to the Marketplace API App that you create.
-   * The user must be activated in the portal on the main Users page.
-   * When you click the user, it may have an orange bar that says the user needs to accept the invite in their mail.
-   * As an admin, you can activate the account manually for them and then reset the password if required.
-   * To check if you already have a Marketplace API created, please log into [Xvantage for Customers](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fusa.ingrammicro.com%2FSite%2Fhome\&data=05%7C02%7Clisa.dellaporta%40rewst.io%7C786393803c5746832f9c08ddebcb3001%7C5a9dda565beb484083e19afc1ada2388%7C0%7C0%7C638925980473094001%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C\&sdata=lBwyJJNDoNM%2BrbONB6oC0UtvCXGFaWpdyu1zufcB1GI%3D\&reserved=0) and use the left panel to navigate to **My Business > Cloud Services**. This will open a new window where you can then navigate to **Marketplace API** and obtain your API user and secret key. If there is no data, or no option for Marketplace API, then you can follow the above steps.
+3. Activate the API from the [Ingram Cloud Marketplace](https://help.ingrammicro.com/hc/en-us/articles/31739269049108-How-to-get-the-Marketplace-API-Subscription-Key-in-Xvantage).&#x20;
+   1. Note: You can only have a single user assigned to the Marketplace API App that you create. To check if you already have a Marketplace API created, please log into [Xvantage for Customers](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fusa.ingrammicro.com%2FSite%2Fhome\&data=05%7C02%7Clisa.dellaporta%40rewst.io%7C786393803c5746832f9c08ddebcb3001%7C5a9dda565beb484083e19afc1ada2388%7C0%7C0%7C638925980473094001%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C\&sdata=lBwyJJNDoNM%2BrbONB6oC0UtvCXGFaWpdyu1zufcB1GI%3D\&reserved=0) and use the left panel to navigate to **My Business > Cloud Services**. This will open a new window where you can then navigate to **Marketplace API** and obtain your API user and secret key. If there is no data, or no option for Marketplace API, then you can follow the above steps. With any issues, you can reach out to Ingram Micro support.
+   2. The user must be activated in the portal on the main Users page.
+   3. When you click the user, it may have an orange bar that says the user needs to accept the invite in their mail.
+   4.  As an admin, you can activate the account manually for them and then reset the password if required.
+
+
 
 ### Set up steps in Rewst
 

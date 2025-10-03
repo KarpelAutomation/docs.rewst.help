@@ -54,7 +54,7 @@ A new firewall is deployed, Rewst **creates a configuration item (CI) in Autotas
     5. **Primary Internal Location**\
        \
        ![](<../../../../../.gitbook/assets/CleanShot 2025-03-18 at 13.40.11.jpg>)
-12. Scroll down to the **Credentials** submenu. Click **Generate Key**. Click **Generate Secret**. Copy both keys into a secure location. You’ll need this information for continued setup steps in Rewst.\
+12. Scroll down to the **Credentials** submenu. Click **Generate Key**. Click **Generate Secret**. Copy both results into a secure location. You’ll need this information for continued setup steps in Rewst.\
     \
     ![](<../../../../../.gitbook/assets/CleanShot 2025-03-18 at 13.41.05.jpg>)
 13. Select **Integration Vendor** under the **API Tracking Identifier** submenu. Select **Rewst - Automation** from the **Integration Vendor** drop down selector.\
@@ -79,7 +79,7 @@ Before saving and closing the API user page, copy the Secret Key and Username . 
    1. **Platform**: `https://ww2.autotask.net`
       1. Choose your zone of residence from the drop-down selector.
       2. This can also be referenced in your Autotask URL.
-   2. **API Username**: `APIUser@example.com`
+   2. **Username (Key)**: `APIUser@example.com`
    3. **API User Password**: `[Paste Secret Key]`&#x20;
 6. Click **Save**.&#x20;
 7.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
