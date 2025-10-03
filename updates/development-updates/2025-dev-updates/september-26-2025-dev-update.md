@@ -32,8 +32,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>Coming Soon</strong></summary>
 
 * RoboRewsty AI in Rewst
-
-- BVoIP integration
-- Hourly dashboard updates
+* BVoIP integration
+* Hourly dashboard updates
 
 </details>
