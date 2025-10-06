@@ -1,3 +1,7 @@
+---
+noIndex: true
+---
+
 # 2022 Rewst Open Mics: North America
 
 <details>
