@@ -75,6 +75,8 @@ RoboRewsty is designed with multiple safeguards to ensure sensitive information 
 * All data exchanged with [Bedrock is encrypted](https://docs.aws.amazon.com/bedrock/latest/userguide/data-encryption.html) using industry-standard protocols
 * Every request RoboRewsty makes runs under your existing user permissions, so it cannot access workflows, executions, or data beyond what your account can already view
 
+For more information on how Rewst manages data processing, storage, and privacy in relation to AI features such as RoboRewsty, refer to our [Trust Center FAQs](https://rewst.io/trust/security-and-compliance-faq/).
+
 This layered design ensures RoboRewsty can provide tailored, context-aware help without exposing credentials or sensitive data outside of Rewst.
 
 <figure><img src="../../.gitbook/assets/RoboRewsty AI Simplified Diagram _ Mermaid Chart-2025-09-19-183620.png" alt="A flowchart with orange, purple, pink and teal boxes and arrows to denote a process. " width="375"><figcaption><p>The process for a RoboRewsty query</p></figcaption></figure>
