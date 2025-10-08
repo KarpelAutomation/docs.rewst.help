@@ -974,6 +974,7 @@
   * [Collecting diagnostics with browser developer tools](support-and-community/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
   * [Find your Rewst instance region](support-and-community/roc-support/find-your-rewst-instance-region.md)
   * [Rewst support: Allow write access](support-and-community/roc-support/rewst-support-allow-write-access.md)
+  * [Migrate between Rewst instances](support-and-community/roc-support/migrate-between-rewst-instances.md)
 * [Cluck University](support-and-community/getting-started.md)
 
 ***
