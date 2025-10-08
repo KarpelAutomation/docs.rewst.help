@@ -4,6 +4,34 @@ icon: circle-exclamation
 
 # Alerts
 
+## 2025
+
+<details>
+
+<summary>⚠️ Resolved: Service performance issue - US region October 8th, 2025</summary>
+
+On October 8, 2025, following a routine platform deployment, our US region experienced degraded performance affecting workflow execution speeds. From 10:30 AM EDT to 12:31 PM EDT, customers may have noticed slower task completion times and some webhook timeouts.
+
+During our v4.43.0 deployment, we introduced changes to optimize task log storage by writing data to cloud storage in addition to the current database storage method. However, the implementation created a new connection to AWS for each task log operation instead of reusing existing connections. This caused excessive resource consumption on our workflow processing servers, leading to the performance degradation.
+
+Our engineering team identified the issue within approximately 30 minutes of deployment completion and immediately deployed a fix that removed the problematic code. Service was fully restored by 12:31 PM EDT. We apologize for any inconvenience this incident caused. We take platform stability seriously and are committed to learning from this incident to provide you with more reliable service. The swift detection and resolution demonstrates our team's ability to respond quickly to issues, and the improvements we're implementing will help prevent similar issues in the future.
+
+It's recommended that all customers verify that tasks executed in their workflows executed as expected during this degradation window&#x20;
+
+#### Updates
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
 <details>
 
 <summary>⚠️ Upcoming: Planned maintenance window - US region August 9th, 2025</summary>
@@ -62,7 +90,7 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 <details>
 
-<summary>⚠️ Resolved: Performance Degradation Due to Memory Exhaustion - US Region June 6th, 2025</summary>
+<summary>⚠️ Resolved: Performance degradation due to memory exhaustion - US region June 6th, 2025</summary>
 
 On June 6, 2025, from 8:15 AM to 10:00 AM EDT, we detected that workflow processing in Rewst was experiencing significant delays in the US region. The issue has since been resolved, and workflows are now processing normally.&#x20;
 
@@ -84,7 +112,7 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 <details>
 
-<summary>⚠️ Issues with Sherweb Service Provider API April 15th, 2025</summary>
+<summary>⚠️ Issues with Sherweb service provider API - April 15th, 2025</summary>
 
 We are currently experiencing issues with the Sherweb Service Provider API, which is impacting functionality in Sherweb-related integrations. Our team is in active communication with Sherweb to better understand the root cause and work toward a resolution. We'll provide updates as more information becomes available.
 
@@ -97,7 +125,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Issues with Workflow Processing April 11th, 2025</summary>
+<summary>⚠️ Issues with workflow processing - April 11th, 2025</summary>
 
 On April 11 at 1:30 ET, we detected some functionalities within Rewst are currently impaired. Users are experiencing issues related to multi-level default values not properly populating. This is primarily being experienced with certain ITGlue functionalities. We have identified a fix and are rolling it out on a region-by-region basis.
 
@@ -110,7 +138,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Resolved: Integration Authentication Failures April 9th, 2025</summary>
+<summary>⚠️ Resolved: Integration authentication failures - April 9th, 2025</summary>
 
 On April 9th, Our monitoring system detected that authentication for some integrations in Rewst are experiencing failures. We are currently investigating the issue and will provide more information as soon as it is available.
 
@@ -123,7 +151,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Resolved: Interrupted Workflow Execution in US Instance April 4th, 2025</summary>
+<summary>⚠️ Resolved: Interrupted workflow execution in US instance - April 4th, 2025</summary>
 
 On April 4, Rewst identified an issue that interrupted workflow execution in the US instance from 2:30 PM EDT to 2:45 PM EDT. Running workflows may have been interrupted and may need to be restarted.&#x20;
 
@@ -136,7 +164,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Resolved: Service Degradation in US Instance April 3rd, 2025</summary>
+<summary>⚠️ Resolved: Service degradation in US instance - April 3rd, 2025</summary>
 
 As of April 3, 2025 at 5:00 PM EDT, Rewst has identified an issue that is causing service degradation in the US instance. We are actively working to resolve the issue. We will update you when a permanent fix is implemented.
 
@@ -149,7 +177,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ New Crates Available with Old Crate Deprecation March 26th, 2025</summary>
+<summary>⚠️ New Crates available with old Crate deprecation - March 26th, 2025</summary>
 
 We're thrilled to announce the launch of four new crates in the Crate Marketplace:
 
@@ -176,7 +204,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ App Builder Incorrectly Displays HTML Containers March 14th</summary>
+<summary>⚠️ App Builder incorrectly displays HTML containers - March 14th, 2025</summary>
 
 On Friday, March 14th, some Rewst users experienced disruptions with App Builder where their HTML containers were not displaying correctly. The issue has been identified and a resolution has been implemented.&#x20;
 
@@ -189,7 +217,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Routine System Maintenance March 8th</summary>
+<summary>⚠️ Routine system maintenance - March 8th, 2025</summary>
 
 We will be performing maintenance on: **Saturday**, **March 8th, 2025 from 1000 - 1300 EST (1500 – 1800 UTC).**
 
@@ -204,7 +232,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Routine System Maintenance for UK March 7th / March 8th</summary>
+<summary>⚠️ Routine system maintenance for UK - March 7th / March 8th, 2025</summary>
 
 We will be performing maintenance on:\
 **March 7th, 2025** 2100–2300 EST / March 8th, 2025 0200–0400 UTC
@@ -220,7 +248,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Routine System Maintenance February 8th and 15th</summary>
+<summary>⚠️ Routine system maintenance - February 8th and 15th, 2025</summary>
 
 We will be performing maintenance on:\
 **Saturday**, February 8th, 2025 from 2:00PM – 4:00PM EST (19:00–21:00 UTC)\
@@ -237,7 +265,7 @@ If you have any urgent concerns, please contact your support team.
 
 <details>
 
-<summary>⚠️ Transition to OAuth 2.0 Authentication for Pax8 APIs (January 7th, 2025)</summary>
+<summary>⚠️ Transition to OAuth 2.0 authentication for Pax8 APIs - January 7th, 2025</summary>
 
 As of **January 31st, 2025**, Pax8 will retire API Key requests as a method of authentication. To ensure uninterrupted access to the Pax8 integration, Rewst customers are required to transition to OAuth 2.0 for API authentication.
 
@@ -251,6 +279,8 @@ If you have any questions or need assistance with the transition, our team is he
 * **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
 
 </details>
+
+## 2024
 
 <details>
 
@@ -268,33 +298,7 @@ We’re here to support you every step of the way. If you have any questions or 
 
 <details>
 
-<summary>⚠️ Pax8 Rate Limit Issue (November 22nd, 2024)</summary>
-
-### Issue Identified
-
-**Date**: Friday, November 22nd, 2024\
-**Time**: 12:00 PM EST
-
-Shortly before 12:00 PM EST today, we became aware of an issue affecting users of the Pax8 integration on the US East instance of Rewst. This issue is resulting in "429 - Too Many Requests" errors being returned from the Pax8 integration. This issue prevents users from making changes to the Pax8 integration and running workflows utilizing the integration.This will affect users running our User Onboarding and User Offboarding crates that utilize the Pax8 Integration.\
-\
-Our team is actively collaborating with Pax8 to resolve the issue as quickly as possible. We are continuously monitoring the affected services to evaluate the extent and progression of the problem. \
-\
-We greatly appreciate your patience and understanding during this time. Updates will be shared as more information becomes available.
-
-### **Updates**&#x20;
-
-For the latest information, please refer to [https://status.rewst.io/](https://status.rewst.io/)
-
-Please contact our support team if you have any questions or need further assistance.
-
-* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
-* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
-
-</details>
-
-<details>
-
-<summary>⚠️ Resolved: App Builder Domains Not Provisioned in UK (November 13th, 2024)</summary>
+<summary>⚠️ Resolved: App Builder domains not provisioned in UK - November 13th, 2024</summary>
 
 ### Issue Resolved
 
@@ -323,7 +327,7 @@ Please contact our support team if you have any questions or need further assist
 
 <details>
 
-<summary>⚠️ Resolved: Platform Disruption to Workflow Processes for US Customers (November 6th, 2024)</summary>
+<summary>⚠️ Resolved: Platform disruption to workflow processes for US customers - November 6th, 2024</summary>
 
 **Date:** Wednesday, November 6th, 2024
 
@@ -346,7 +350,7 @@ Please contact our support team if you have any questions or need further assist
 
 <details>
 
-<summary>⚠️ Resolved: Rewst Experiencing Performance Degradation for US Region (November 1st, 2024)</summary>
+<summary>⚠️ Resolved: Rewst experiencing performance degradation for US Region - November 1st, 2024</summary>
 
 ### Issue Resolved
 
@@ -380,7 +384,7 @@ Please contact our support team if you have any questions or need further assist
 
 <details>
 
-<summary>⚠️ Resolved: Workflows Failing to Execute in app.rewst.eu (October 31st, 2024)</summary>
+<summary>⚠️ Resolved: Workflows failing to execute in app.rewst.eu - October 31st, 2024</summary>
 
 **Date:** Thursday, October 31st, 2024
 
@@ -401,7 +405,7 @@ Please contact our support team if you have any questions or need further assist
 
 <details>
 
-<summary>⚠️  Routine System Maintenance (October 26, 2024)</summary>
+<summary>⚠️  Routine system maintenance -October 26, 2024</summary>
 
 **Date:** Saturday, October 26, 2024
 

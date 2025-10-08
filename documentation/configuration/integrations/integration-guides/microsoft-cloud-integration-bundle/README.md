@@ -204,9 +204,11 @@ For this step, you have two options:
 We strongly recommend that you use the Crate to complete this step.
 {% endhint %}
 
+### Set up GDAP relationships without the Configure New GDAP Relationship Crate
+
 <details>
 
-<summary>Set up GDAP relationships without the Configure New GDAP Relationship Crate</summary>
+<summary>Click to read more</summary>
 
 #### Assign the security group to the service account user you created previously&#x20;
 
@@ -296,9 +298,11 @@ Once this has been completed, you can remove the Global Administrator Role from 
 Important: Review your internal processes before proceeding, as Rewst will be able to make changes to your organization once these roles are applied.
 {% endhint %}
 
+### 12 roles to add to Rewst Service account at the MSP level organization
+
 <details>
 
-<summary>12 roles to add to Rewst Service account at the MSP level organization</summary>
+<summary>Click to read more</summary>
 
 1. [Application Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#application-administrator) - Can create and manage all applications, service principals, app registration, enterprise apps, consent requests. Cannot manage directory roles, security groups.
 2. [Authentication Policy Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#authentication-policy-administrator) - Configures authentication methods policy, MFA settings, manages Password Protection settings, creates/manages verifiable credentials, Azure support tickets. Restrictions on updating sensitive properties, deleting/restoring users, legacy MFA settings.
