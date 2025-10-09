@@ -87,7 +87,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 4.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Set reauthentication policy for exemption**
 

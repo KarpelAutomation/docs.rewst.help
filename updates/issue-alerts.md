@@ -12,11 +12,11 @@ icon: circle-exclamation
 
 On October 8, 2025, following a routine platform deployment, our US region experienced degraded performance affecting workflow execution speeds. From 10:30 AM EDT to 12:31 PM EDT, customers may have noticed slower task completion times and some webhook timeouts.
 
-During our v4.43.0 deployment, we introduced changes to optimize task log storage by writing data to cloud storage in addition to the current database storage method. However, the implementation created a new connection to AWS for each task log operation instead of reusing existing connections. This caused excessive resource consumption on our workflow processing servers, leading to the performance degradation.
-
-Our engineering team identified the issue within approximately 30 minutes of deployment completion and immediately deployed a fix that removed the problematic code. Service was fully restored by 12:31 PM EDT. We apologize for any inconvenience this incident caused. We take platform stability seriously and are committed to learning from this incident to provide you with more reliable service. The swift detection and resolution demonstrates our team's ability to respond quickly to issues, and the improvements we're implementing will help prevent similar issues in the future.
-
-It's recommended that all customers verify that tasks executed in their workflows executed as expected during this degradation window&#x20;
+During this platform update, we introduced an enhancement to improve task log storage by writing data to cloud storage in addition to the existing database storage method. However, the new implementation opened a new AWS connection for each task log operation instead of reusing existing connections. This led to excessive resource use on our workflow processing servers and temporary performance degradation.\
+\
+Our engineering team identified the issue within approximately 30 minutes of the update’s completion and deployed a fix. Service was fully restored by 12:31 PM EDT. It's recommended that all customers verify that tasks executed in their workflows executed as expected during this degradation window.\
+\
+We apologize for any inconvenience this incident caused. We take platform stability seriously and are committed to learning from this incident to provide you with more reliable service. The swift detection and resolution demonstrates our team's ability to respond quickly to issues, and the improvements we're implementing will help prevent similar issues in the future.&#x20;
 
 #### Updates
 
