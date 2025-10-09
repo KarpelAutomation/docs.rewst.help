@@ -213,6 +213,7 @@ Before unpacking the Microsoft: User Onboarding Crate, make sure that the follow
 * [PSA Integration](https://docs.rewst.help/documentation/integrations/psa) must be setup. This is required for automated ticket creation and ticket updates. This is optional.
 * [Documentation Integrations](https://docs.rewst.help/documentation/integrations/documentation) must be set up if you wish to create documentation in your knowledge base. This is optional.
 * [Licensing integrations](https://docs.rewst.help/documentation/integrations/licensing) should be completed if you wish to set up automated license purchases. Configure Pax8, Ingram Micro, Sherweb, or Synnex. This is optional.
+* [OpenText SecureCloud](../../../configuration/integrations/integration-guides/opentext-secure-cloud-integration.md) must be integrated with Rewst if you wish to use OpenText SecureCloud with this Crate.&#x20;
 
 ### Overview of required context variables and organizational variables
 
@@ -421,6 +422,15 @@ Expand each of the categories below to see that type of org variable's reference
 | `new_user_approval_email`       | Specifies the email address for user approval requests. |
 
 </details>
+
+#### OpenText SecureCloud organizational variables
+
+If using OpenText SecureCloud with this Crate, you'll also need to set **`primary_identity_provider`&#x20;**&#x20; to one of the two values below:
+
+* **`secure_cloud`** if you're creating a SecureCloud user for Microsoft 365 usage
+* **`secure_cloud_and_on_prem`**  if you're using SecureCloud for Microsoft 365 usage and you have Active Directory without ad sync.
+
+To pre-populate the fields for OpenText SecureCloud in the [**User Onboarding** form](onboarding-form-inputs-and-workflow-process.md#form-fields-present-if-using-opentext-securecloud) unpacked with this Crate to a specific location, you can create the org variable **`secure_cloud_usage_location`** and set the location as the value.
 
 ### Recommended organizational variable configuration
 

@@ -121,7 +121,20 @@ Expand each of the categories below to see its related reference table.
 
 </details>
 
-### **Decoded advanced Jinja conditions**
+### **Form fields present if using OpenText SecureCloud**
+
+When filling out the Microsoft: User Onboarding form after setting the organization variable required to use this integration with the Crate, four new fields will populate.&#x20;
+
+* **Secure Cloud User Location**
+* **Secure Cloud Microsoft Services**
+* **SecureCloud Security Services**
+* **Secure Cloud Exchange Services**
+
+Choose the **Secure Cloud User Location** from the drop-down selector, and at least one **Secure Cloud Microsoft Service** from that relevant drop-down list. The other fields are optional.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/four new fields.png" alt="Form interface displaying four dropdown fields for configuring secure cloud settings. The fields are labeled “Secure Cloud User Location,” “Secure Cloud Microsoft Services,” “Secure Cloud Security Services,” and “Secure Cloud Exchange Services.” Each field includes a note prompting the user to select the required Microsoft or Secured Cloud services and features a circular turquoise refresh icon to the right. The background is dark with white text." width="341"><figcaption></figcaption></figure>
+
+## **Decoded advanced Jinja conditions**
 
 In some cases, form fields are dynamically determined using complex Jinja logic.
 

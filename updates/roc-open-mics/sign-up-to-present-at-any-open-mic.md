@@ -6,62 +6,59 @@ Sign up via our [interest form](https://app.rewst.io/organizations/40f8b55a-e8a9
 
 On your scheduled day, attend the Open Mic, and wait for us to introduce you and hand over presenting duties. Presenting on Open Mic calls is an opportunity to inform, engage, and inspire our customers. By following these best practices, we can ensure every session is clear, valuable, and enjoyable for all attendees. Let’s make every presentation count!
 
-## Best practices for presenting on Open Mics
+## Presenting at Open Mic? You've got this.
 
-Open Mic calls are a key opportunity to show off how you use Rewst to save time and deliver results. To ensure every presentation is clear, engaging, and impactful, follow these best practices.
+### Tips to help you feel confident and make an impact
 
-### **1. Preparation is key**
+Every Open Mic is a chance to show how you're using Rewst to solve real-world problems—and inspire others while you're at it. We've put together a few friendly tips to help you feel prepped and confident, whether it’s your first time or fiftieth.
 
-✅ **Know your content** – Outline what you'll present and rehearse your key talking points.
+* Think of it as a story, not a script. Tell us what you built, why it matters, and how it helps.
+* Use your voice. You know your work best—share it like you're showing a teammate.
+* Keep it casual. Nobody’s expecting a TED Talk—just your real experience.
+* Got a hiccup? No biggie. We’ve all been there. Your insights are what matter most.
 
-✅ **Have a clear structure**
+### **How to rock your Rewst Open Mic presentation without the pressure**
 
-Follow a simple format:
+Open Mic at Rewst is all about real partners showing real solutions. There’s no pressure to be perfect; just be real. If you’re thinking about presenting, or already signed up, this guide will help you feel ready and relaxed.
 
-* **What is it?** Describe how you came to your idea, and how it's built.
-* **Why it matters?** Explain business value and user benefits.
-* **How it works?** Live demo or walkthrough your creation.
-* **What’s next?** Suggest future improvements or related uses.
+### What to know before you present
 
-✅ **Test your demo** – Ensure everything works smoothly beforehand to avoid technical issues.
+* This is your story. You're showing something you made—so tell us why you built it, what problem it solved, and how it’s working out.
+* Keep it light, keep it human. No need for a rehearsed speech. Talk us through it like you would a coworker who asked, “Hey, what are you working on?”
+* If it breaks, that's okay. We're all building. If a demo hits a snag, talk through what it _should_ do. That’s just as valuable.
 
-### **2. Delivery and engagement**
+### **A simple flow that works**
 
-✅ **Be energetic and enthusiastic** – Your tone sets the mood. Show excitement for what you’re presenting!
+Use this structure to keep things on track without overthinking it.
 
-✅ **Use simple, relatable language** – Speak as if you’re explaining to a colleague, avoiding unnecessary jargon.
+1. What is it? Describe what you built and where the idea came from.
+2. Why does it matter? Briefly explain the value to your team or customers.
+3. How does it work? Give a live walkthrough or screen share the process.
+4. What's next? Share any ideas you have for improvements or related builds.
 
-✅ **Engage with the audience** – Ask at least one question, prompt reactions, or invite feedback.
+### Presentation tips that empower
 
-🚫 **Don’t read directly from a script** – Use bullet points or notes, but keep it conversational.
+* Trust your process. You built this—you know it better than anyone.
+* Speak like you’re talking to a teammate. Avoid jargon, unless you explain it.
+* Keep it tight. A 5-10 minute demo is perfect. Think highlight reel, not full feature tour.
+* Engage a little. Ask a question, invite feedback, or just share what excited you most.
 
-🚫 **Don’t ramble or go off-topic** – Stick to what’s relevant and valuable to our partners, and try to stick to your allotted time.
+### **Quick reminders**
 
-🚫 **Don't share sensitive information** like the Organization Picker, Customer Names, or proprietary data like API keys, etc.
+We want to make sure your presentation is safe and respectful of others. So, please avoid:
 
-### **3. Effective demos**
+* Sharing sensitive info - e.g., organization names, API keys, private dashboards
+* Going way off-topic - keep the focus on what brings value to our Rewst community
 
-✅ **Highlight key features** – Show what’s most important, not every single detail.
+### **A note on privacy and responsibility**
 
-✅ **Explain the why and frame the context** –Explain the problem the update solves before jumping into the solution.
+We trust our presenters to use discretion and only share what’s appropriate for public calls. Rewst does not assume responsibility for any sensitive or proprietary information shared during Open Mic sessions.
 
-✅ **Use real-world examples** – Show how a user would actually benefit from the update.
+### **After you present**
 
-✅ **Keep it concise** – A focused 3-5 minute demo is more effective than a long, unfocused walkthrough.
-
-🚫 **Don’t click randomly through screens** – Have a plan.
-
-🚫 **Don’t assume prior knowledge** – Always assume brand new users are in the audience - cater to them.
-
-### **4. Close strong**
-
-✅ **Summarize key takeaways** – Reinforce the main points in one or two sentences.
-
-✅ **Encourage engagement** – Ask for questions or invite follow-up discussions.
-
-✅ **Express excitement** – End on a high note with enthusiasm for what’s coming next.
-
-🚫 **Let us know when you're done** – Wrap up with a strong, confident closing statement.
+* Wrap with confidence. End by recapping what you shared and what’s next.
+* Let us know when you're done. A clear finish helps us move smoothly to the next presenter.
+* Stick around! Stay to hear from others and join the conversation.
 
 
 
