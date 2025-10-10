@@ -1,2 +1,6 @@
-# 2024 Marketplace Updates
+---
+noIndex: true
+---
+
+# 2024 Crate Marketplace updates
 

@@ -1,2 +1,6 @@
-# 2023 Training Updates
+---
+noIndex: true
+---
+
+# 2023 Training updates
 

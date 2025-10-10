@@ -1,2 +1,6 @@
-# 2024 Dev Updates
+---
+noIndex: true
+---
+
+# 2024 Dev updates
 

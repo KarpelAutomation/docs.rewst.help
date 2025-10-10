@@ -1,2 +1,6 @@
-# 2024 Training Updates
+---
+noIndex: true
+---
+
+# 2024 Training updates
 

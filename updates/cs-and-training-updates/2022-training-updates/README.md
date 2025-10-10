@@ -1,2 +1,6 @@
-# 2022 Training Updates
+---
+noIndex: true
+---
+
+# 2022 Training updates
 

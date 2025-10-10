@@ -1,2 +1,6 @@
-# 2023 Dev Updates
+---
+noIndex: true
+---
+
+# 2023 Dev updates
 
