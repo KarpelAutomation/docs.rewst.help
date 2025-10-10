@@ -53,8 +53,8 @@ The automation commences with the following:
 
 
     <figure><img src="../../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
-3. Click on the workflow to view it in the workflow builder.&#x20;
-4. Click **Test** in the top right corner of the builder canvas.
+3. Click on the workflow to view it in the Workflow Builder.&#x20;
+4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5. Click **Test**.
 6. Allow the workflow to run.
 7. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
