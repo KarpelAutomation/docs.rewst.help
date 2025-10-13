@@ -257,6 +257,7 @@
     * [Prompt to Combine Similar Tickets Crate](documentation/crates/existing-crate-documentation/prompt-to-combine-similar-tickets-crate.md)
     * [PSA: Update Ticket with User Offboard Links Crate](documentation/crates/existing-crate-documentation/psa-update-ticket-with-user-offboard-links-crate.md)
     * [PSA: Update Ticket With User Onboard Links Crate](documentation/crates/existing-crate-documentation/psa-update-ticket-with-user-onboard-links-crate.md)
+    * [Relate ITG Contact with ITG Configuration Crate](documentation/crates/existing-crate-documentation/relate-itg-contact-with-itg-configuration-crate.md)
     * [Remove Malicious Email and Block Sender Crate](documentation/crates/existing-crate-documentation/remove-malicious-email-and-block-sender-crate.md)
     * [Report on Disabled M365 Users with Licenses Crate](documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
     * [Reset Locked Accounts Crate](documentation/crates/existing-crate-documentation/reset-locked-accounts-crate.md)
