@@ -219,6 +219,144 @@ Fields to be filled out in the form:
 * **Label Field**: `label`
 * **Default Selected Field**: `current_default`
 
+### Dates in forms
+
+{% hint style="info" %}
+Form date formats — DD/MM/YYYY) versus MM/DD/YYYY— are influenced by browser locale settings, not controlled by the application itself. IT admins could deploy the desired locale to all of their customers if they want to ensure consistent appearance. Setting it once in the browser will set it for all forms.
+{% endhint %}
+
+#### Set your browser's locale
+
+Your browser’s locale controls:
+
+* How dates and times appear
+* The language used in websites and spellcheck
+* The region format for numbers and currency
+
+Follow the steps below for your relevant browser to use only the region you need, and remove the others for consistent behavior.
+
+<details>
+
+<summary>Mozilla Firefox</summary>
+
+#### Open Language Preferences
+
+1. Navigate to **Settings > General > Language**.
+2. Under **Language and Appearance**, click **Choose…** next to **Language for displaying pages**.
+3. Add only your desired language region:
+   * English (Australia)
+   * English (United States)
+   * English (United Kingdom)
+
+#### Remove Others
+
+* Highlight any extra languages and click **Remove** so only one remains.
+
+#### Confirm Locale
+
+(Optional advanced step)
+
+1. In the address bar, type `about:config`.
+2. Search for: `intl.locale.requested`
+3. Set it to:
+   * `en-AU` for Australia
+   * `en-US` for United States
+   * `en-GB` for United Kingdom
+4. Restart Firefox.
+
+</details>
+
+<details>
+
+<summary>Google Chrome</summary>
+
+#### Open language settings
+
+1.  In the address bar, go to:
+
+    ```
+    chrome://settings/languages
+    ```
+2. Under **Languages**, click **Add languages**.
+3. Search for and add **only one** of the following, depending on your region:
+   * **English (Australia)** → `en-AU`
+   * **English (United States)** → `en-US`
+   * **English (United Kingdom)** → `en-GB`
+
+#### Remove unused languages
+
+* Click the **⋯** next to any other languages and select **Remove**.\
+  This prevents Chrome from using fallback locales.
+
+#### Set as display language
+
+* Click the **⋯** next to your chosen language.
+* Select **Display Google Chrome in this language**.
+* Restart Chrome to apply the change.
+
+#### Check your date/time format
+
+* Open your system settings to make sure the region matches your browser locale:
+  * **Windows:** `Settings > Time & language > Language & region`
+  * **macOS:** `System Settings > General > Language & Region`
+
+</details>
+
+<details>
+
+<summary>Microsoft Edge</summary>
+
+#### Open Language Settings
+
+1.  Navigate to:
+
+    ```
+    edge://settings/languages
+    ```
+2. Click **Add languages** and add only one:
+   * English (Australia)
+   * English (United States)
+   * English (United Kingdom)
+
+#### Remove Extra Languages
+
+* Click the **⋯** beside any other languages and choose **Remove**.
+
+#### 3. Set Display Language
+
+* Click the **⋯** next to your chosen language.
+* Select **Display Microsoft Edge in this language** and restart Edge.
+
+#### 4. Match Your System Region
+
+* Go to `Settings > Time & language > Language & region > Regional format`
+* Choose the same region: Australia, United States, or United Kingdom.
+
+\
+
+
+</details>
+
+Then, confirm your browser's locale:
+
+1. Open the browser console by pressing `F12`, then navigating to **Console.**
+2.  Run:
+
+    ```
+    console.log(navigator.language);
+    console.log(new Date().toLocaleString());
+    ```
+3. Expected outputs are as follows.
+
+| Region         | navigator.language | Date rxample            | Format                    |
+| -------------- | ------------------ | ----------------------- | ------------------------- |
+| Australia      | `"en-AU"`          | `09/10/2025, 13:30:00`  | DD/MM/YYYY                |
+| United States  | `"en-US"`          | `10/9/2025, 1:30:00 PM` | MM/DD/YYYY                |
+| United Kingdom | `"en-GB"`          | `09/10/2025, 13:30:00`  | DD/MM/YYYY, 24-hour clock |
+
+\
+
+
 ### Workflow inputs
 
 _Workflow inputs_ in Rewst offer a flexible way to define specific inputs to a workflow via a form. This functionality allows you to handle various client cases and attributes dynamically. By understanding these concepts and utilizing the provided examples, you can create versatile and dynamic forms tailored to your specific needs.

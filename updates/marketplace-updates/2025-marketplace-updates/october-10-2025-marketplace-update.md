@@ -45,8 +45,8 @@
 * DropSuite Backup Monitoring
 * Various DropSuite Additions
 * 1Stream Technician Toolbox
-* Secure Cloud Addition to User Onboarding
-* Workstation Offboarding
+
+- Workstation Offboarding
 
 </details>
 

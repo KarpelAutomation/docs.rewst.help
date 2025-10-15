@@ -283,6 +283,7 @@
       * [Custom integrations: V2](documentation/configuration/integrations/custom-integrations/custom-integrations-v2.md)
       * [Custom integrations: V1](documentation/configuration/integrations/custom-integrations/integration-setup.md)
     * [Integration guides](documentation/configuration/integrations/integration-guides/README.md)
+      * [1Stream integration](documentation/configuration/integrations/integration-guides/1stream-integration.md)
       * [Acronis integration](documentation/configuration/integrations/integration-guides/acronis-integration.md)
       * [Addigy integration](documentation/configuration/integrations/integration-guides/addigy-integration-setup.md)
       * [Anthropic integration](documentation/configuration/integrations/integration-guides/anthropic-integration.md)
