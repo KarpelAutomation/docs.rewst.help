@@ -82,6 +82,15 @@ iex $commands
 6. Click **Save Configuration**.
 7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
+{% hint style="info" %}
+For APAC customers:
+
+* When you click **Authorize** during the set up process, you end up at the URL [https://app.ninjarmm.com/auth/](https://app.ninjarmm.com/auth/).&#x20;
+* If you change the **Region Instance** to APAC and click **Authorize**, you may still be redirected to the US site.
+* Click **Save Configuration** first. Then, reload Ninja's website and ensure that it's showing the correct APAC region.
+* Click **Authorize** again. The URL should now show the correct APAC address.&#x20;
+{% endhint %}
+
 ## Test the integration
 
 Once you’ve [mapped your customers](https://docs.rewst.help/documentation/integrations/general/organization-mapping#what-is-organization-mapping), test the integration by following the steps below.
