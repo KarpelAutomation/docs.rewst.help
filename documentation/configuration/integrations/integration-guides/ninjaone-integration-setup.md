@@ -122,7 +122,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 This brand of RMM allows PowerShell scripts to be passed via API. To report the script back to Rewst, you'lll need to add a manual webhook action. We recommend using the run PowerShell script subworkflow to handle this for you and if using custom scripts you will need to add this to bottom to ensure the call back to Rewst is made.
 
 ```
-$postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8
+$postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
 ```
 
 ## Crates related to the NinjaOne integration

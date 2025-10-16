@@ -29,8 +29,33 @@ If you are using this property for another purpose, you will need to update the 
 5.  **Fill out** the required data.\
 
 
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt=""><figcaption></figcaption></figure>
-6. Ensure that you check on at minimum the **Control Admin** permission.
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+6. Ensure that you check on the following minimum permissions:\
+   ![](<../../../../.gitbook/assets/image (211).png>)
+   1. Global permissions: **ManageSessionGroups**
+   2. Scoped permissions:
+      * **ViewSessionGroup**
+      * **ViewSessionGuestScreenshot**
+      * **JoinSession**
+      * **TransferSession**
+      * **EditSession**
+      * **RunCommandOutsideSession**
+      * **AddNoteToSession**
+      * **RemoveNoteFromSession**
+      * **RemoveCommandFromSession**
+      * **ReinstallSession**
+      * **TransferFiles**
+      * **PrintinSession**
+      * **RunSharedToolAsUser**
+      * **RunSharedToolAsSystemSilently**
+      * **RunPersonalToolAsUser**
+      * **RunPersonalToolAsSystemSilently**
+      * **HostSessionWithoutConsent**
+      * **ManageCredentials**
+      * **SwitchLogonSession**
+      * **CreateDelegatedAccessToken**
+      * **EnableBackstageLogonSession**
+      * **RespondToElevationRequest**
 7. Make a note of the **username**, **password**, and **OTP** secret , which you'll need for setup steps in Rewst.
 8. Click **Save User**.
 
