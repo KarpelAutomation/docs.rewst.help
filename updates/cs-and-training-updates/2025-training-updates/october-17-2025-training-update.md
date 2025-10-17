@@ -6,8 +6,10 @@ Explore what new changes the Cluck University team made in the last week.
 
 <summary><strong>Cluck University updates and shoutouts</strong> </summary>
 
-* Lots of stuff brewing behind the scenes! Stay tuned for new courses in November.
+* Lots of stuff brewing behind the scenes! Stay tuned for new courses in November.&#x20;
+  * Robo Rewsty tutorials are in the works!&#x20;
 * Reminders: Check out the new [About Cluck U](https://learn.rewst.io/page/how-to-use-cluck-u) page and [Rewst Crash Course.](https://learn.rewst.io/rewst-crash-course) These **starter resources** help others at your company learn Rewst with you!
+  * Another great resource: [Getting strategic with webhook triggers](https://learn.rewst.io/getting-strategic-with-webhook-triggers)
 
 - Get certified! Visit the [Rewst Certifications page](https://learn.rewst.io/page/certificates) to explore trainings (self-paced and live), take the certification exams, and earn prestigious badges.
   * **Rewst Foundations shoutouts**: A big shoutout to Denis, Karim, George, Kenny, James, Reilly, Justin, Miles, John, Ben, Ross, Joshua, and Noah for passing the Foundations Certification!

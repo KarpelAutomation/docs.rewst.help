@@ -10,12 +10,18 @@ Agent Smith consists of three main components:
 Agent Smith operates as an Azure IoT Hub instance, integrated with Rewst workflows for command communication to endpoint agents. The agent software, running as a Windows Service on devices, registers via a webhook trigger in Rewst, creating an IoT Hub entry and receiving configuration data.
 {% endhint %}
 
+## Choose the correct IoT Hub subscription&#x20;
+
+The Basic tier of Azure's IoT Hub will not provide the needed cloud-to-device messages functionality for Agent Smith. You can choose the S0 Free tier, but messages will be limited to 8,000 per day. The number of messages you need will depend on how many devices you create in total. Microsoft does not support converting from the Free tier to S1 or above without wiping and reprovisioning the account.
+
+Budget between 50 to 200 messages per day per agent, depending on your workflows. Visit [Microsoft's own documentation](https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-scaling) for specifics!
+
 ## Set up Agent Smith
 
 {% hint style="warning" %}
-For the Azure Integration to work, you’ll need to have an Azure Subscription that includes a Keyvault.
+For the Azure integration to work, you’ll need to have an Azure Subscription that includes a Keyvault.
 
-The Rewst integration user setup for the [Microsoft Cloud Integration Bundle](../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) may require you to adjust permissions for your Azure subscription. Most commonly, it is recommended to grant the Rewst Service Account with "Contributor" access to your Azure subscription.
+The Rewst integration user setup for the [Microsoft Cloud Integration Bundle](../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) may require you to adjust permissions for your Azure subscription. Most commonly, it is recommended to grant the Rewst Service Account with Contributor access to your Azure subscription.
 {% endhint %}
 
 1.  Install and authorize our Microsoft Cloud Integration Bundle by navigating to **Configuration > Integrations** in the Rewst platform. This bundle contains an integration for Microsoft Azure.
