@@ -98,7 +98,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 5. Choose your method under the **Re-authentication method** menu.
 6. Click **Save**.
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Enable Google APIs
 

@@ -30,7 +30,7 @@ This integration enables the automation of VoIP phone systems and communications
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the `1Stream` integration. \
    \
-   ![](<../../../../.gitbook/assets/image (210).png>)
+   ![](<../../../../.gitbook/assets/image (210) (1).png>)
 3. Click on the integration tile to launch the **Configuration** setup page.
 4. Enter the API Key copied from 1Stream into the **API Key** field.
 5. Choose your relevant environment from the **Environment** drop-down selector.
