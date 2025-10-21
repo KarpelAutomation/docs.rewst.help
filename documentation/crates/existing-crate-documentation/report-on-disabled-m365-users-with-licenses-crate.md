@@ -28,7 +28,7 @@ The Crate is kicked off with the following main workflow:
    * Graph user details
    * Exchange user details
 7. These are then compiled and then a ticket note is formatted.
-8. An existing ticket is checked on all PSAs based on the summary and whether the PSA-related ticket is open or not. If any is found, the existing one is updated.
+8. An existing ticket is checked on all PSAs based on the summary and whether the PSA-related ticket is open or not. If any is found, the existing one is updated. If no ticket exists, a new one is created.
 
 ## Crate prerequisites
 

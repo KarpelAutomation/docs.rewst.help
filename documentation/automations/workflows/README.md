@@ -62,6 +62,14 @@ From the workflows page, you can view triggers associated with each workflow, wi
 
 <figure><img src="../../../.gitbook/assets/trigger hover gif.gif" alt=""><figcaption><p>The dialog that appears when hovering over trigger counts</p></figcaption></figure>
 
+### Export and import workflows
+
+You can export a workflow to share with other Rewst customers, or create your own hard copies of workflow backups. To export a workflow as a JSON bundle, navigate to the [Workflow Builder Canvas](workflow-builder-how-to-set-up-a-workflow.md#workflow-builder) and find the export option under the **Workflow Options** menu.
+
+To import a workflow bundled as a JSON file, click **Import Bundle** in the top right navigation bar of the workflows page. Then, drag and drop your file into the upload dialog that appears.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-10-21 at 4.28.07 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## Subworkflows
 
 A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. Sub-workflows help you simplify complex processes, reuse logic, and manage error handling and data gathering cleanly in your Rewst automations. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).&#x20;

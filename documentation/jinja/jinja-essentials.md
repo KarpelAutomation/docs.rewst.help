@@ -16,13 +16,26 @@ _Jinja_ is a versatile templating language for creating dynamic content. It supp
 
 ## Understand Jinja syntax in Rewst
 
-### Braces and their functions:
+### Braces and their functions
+
+Jinja uses brace delimiters to distinguish between expressions and statements. Specifically, it uses double curly braces `{{ }}` to surround expressions that should be replaced with output and curly braces with percent signs `{% %}` to surround statements that control the logic of the template. Jinja uses the `{# #}` syntax for comments. Anything between the opening and closing comment delimiters will be ignored by Jinja and not included in the output.
 
 * **Output Values (`{{ }}`):** Display variables or expressions. For instance, `{{ CTX.user_id }}` in Rewst 102 shows user-specific data.
 * **Code Blocks (`{% %}`):** Used for control structures like `if`, `else`, `for` loops.
 * **Comments (`{# #}`):** Enable non-executable notes for clarity.
 
-### Working with JSON:
+### Use the Monaco Editor in Rewst
+
+The Monaco Editor is a powerful code editor that allows you to edit and preview Jinja templates in real-time. Here are some features and keystrokes you can use with the Monaco Editor in Rewst:
+
+* **Syntax highlighting:** The Monaco Editor provides syntax highlighting for Jinja templates, making it easier to read and understand your code.
+* **Code completion:** The Monaco Editor provides code completion for Jinja templates, suggesting possible completion options as you type.
+* **Find and Replace:** The Monaco Editor provides a powerful Find and Replace feature that allows you to quickly search for and replace text within your code.
+* **Keyboard shortcuts:** The Monaco Editor provides a variety of keyboard shortcuts that can help you to work more efficiently. For example:
+  * **Ctrl + Space:** Trigger code completion
+  * **Ctrl + /:** Toggle line commenting
+
+### Work with JSON
 
 **Format:** JSON (JavaScript Object Notation) structures data in key-value pairs.
 
@@ -38,17 +51,21 @@ _Jinja_ is a versatile templating language for creating dynamic content. It supp
 
 ## Core concepts in Jinja
 
-### Conditional statements:
+### Conditional statements
 
 Jinja supports conditional statements like `if,` `else` and `elif`. These statements allow you to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios.
 
-**Example:**
+**Examples:**
 
-```django
-{% if user_is_looged_in %}
-    <p>Welcome, {{ user_name }}!</p>
-{% else %} 
-    <p>Please log in to continue.</p>
+The if statement allows you to control the flow of your template based on certain conditions. If the first condition is true, expression 1 will be executed. If the first condition is false and the second condition is true, expression 2 will be executed. If both conditions are false, expression 3 will be executed.
+
+```python
+{% if condition %}
+    expression 1
+{% elif condition2 %}
+    expression 2
+{% else %}
+    expression 3
 {% endif %}
 ```
 
@@ -62,11 +79,28 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
 {% endif %}
 ```
 
-### For loops:
+```django
+{% if user_is_looged_in %}
+    <p>Welcome, {{ user_name }}!</p>
+{% else %} 
+    <p>Please log in to continue.</p>
+{% endif %}
+```
+
+### For loops
 
 _For loops_ in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.
 
-**Example:**
+**Examples:**
+
+In this example, the for loop iterates over a list called items and prints each item to the output. The item variable represents the current item in the list being iterated over. The tag marks the end of the loop.
+
+```python
+{%- set items = ["crawfish", "butter", "rice", "garlic", "onions"] -%}
+{% for item in items %}
+    {{ item }}
+{% endfor %}
+```
 
 ```django
 {% for thing in CTX.list_of_things %}
@@ -74,13 +108,17 @@ _For loops_ in Jinja enable you to iterate through JSON lists, executing actions
 {% endfor %}
 ```
 
-### Jinja filters:
+### Jinja filters
 
-* **Basics:** Transform data with pre-defined functions to streamline common tasks, enhancing efficiency in data processing.
-* **Examples:**
-  * Truncate text: `{{ text|truncate(20) }}`
-  * Capitalize names: `{{ user_name|capitalize }}`
-  * Lowercase & Replace text: `{{ user_email|lower|replace("@", "at") }}`
+For more detailed information on Jinja filters, see our list [here](jinja-essentials.md#jinja-filters).&#x20;
+
+Jinja filters are functions that can be applied to variables and expressions within Jinja templates to modify their output. They are used to perform a wide range of data manipulations, such as formatting strings, converting data types, and filtering lists. Some commonly used filters include `upper`, `lower`, `title`, `default,` `join`, and `random`. Jinja also allows for the creation of custom filters to meet specific needs. Overall, filters are a powerful tool that can help you to manipulate data more easily and efficiently within your Jinja templates
+
+**Examples:**
+
+* Truncate text: `{{ text|truncate(20) }}`
+* Capitalize names: `{{ user_name|capitalize }}`
+* Lowercase and replace text: `{{ user_email|lower|replace("@", "at") }}`
 
 ## Advanced Jinja in Rewst
 
@@ -138,8 +176,6 @@ This concise approach efficiently applies the squaring function to each item in 
 Interested in seeing Jinja examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.
 {% endhint %}
 
-***
-
 ## **Create variables in Jinja**
 
 ### **In-workflow variable creation**
@@ -147,7 +183,13 @@ Interested in seeing Jinja examples in the platform? Search the crate marketplac
 * **Purpose:** Vital for organizing and managing data within workflows.
 * **Usage:** Variables store task results, facilitate dynamic content generation, and enhance the readability and maintainability of Jinja templates.
 
-### **Variable management with Jinja:**
+### **Variable management with Jinja**
 
-* **Creation and modification:** Use context (`CTX`) variables in Data Aliases on your Task's Transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
+Variables in Rewst are referred to as [data aliases](../automations/workflows/data-aliases.md). Data aliases defined within a workflow are prefixed with `CTX` for context variable. There are several variable types in Jinja. Learn more about them [here](data-types.md).&#x20;
+
+* **Creation and modification:** Use context (CTX) variables in data aliases on your task's transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
 * **Scope and accessibility:** These types of variables can be created and modified by workflow tasks but are not global; their scope is confined to the workflow.
+
+{% hint style="info" %}
+Variables do not automatically inherit down into subworkflows or up from subworkflows. In order to pass these values through, they need to be defined as [input or output variables](../automations/workflows/data-input-and-output-input-variables-and-context-variables.md)
+{% endhint %}

@@ -34,7 +34,7 @@ At the top of the workflow builder, you'll find several settings buttons.
 
 **Workflow Completion Handlers** <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.43.57 PM.png" alt="" data-size="line">: Click to open a submenu where you can set [completion handlers](https://docs.rewst.help/documentation/workflows/completion-handlers). Click the button a second time to collapse the menu.
 
-**Workflow Options** <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.44.23 PM.png" alt="" data-size="line">: Click to open a submenu where you can export, clone, or delete your workflow, as well as edit the workflow's attributes.&#x20;
+**Workflow Options** <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.44.23 PM.png" alt="" data-size="line">: Click to open a submenu where you can export a workflow, clone a workflow, or delete your workflow, as well as edit the workflow's attributes.&#x20;
 
 **Display Validation Errors** <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.44.56 PM.png" alt="" data-size="line">: By default, this is set to off. When toggled on, Rewst will provide an error on required fields that aren't filled out, and add a message about the field being required beneath the field in red text. The text will be invisible until the user clicks on the field and then click out of it without entering a value.
 

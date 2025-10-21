@@ -2,7 +2,7 @@
 
 ### Overview
 
-Rewst uses the [Jinja2](https://jinja.palletsprojects.com/) templating language, also known as Jinja, in text fields to enable more powerful processing of the data that exists in a workflow. Jinja is based on Python and shares much of its syntax and styling. The key difference is that expressions are encapsulated to separate themselves from plain text in these fields.
+Rewst uses the [Jinja2](https://jinja.palletsprojects.com/) templating language, also known as Jinja, in text fields to enable more powerful processing of the data that exists in a workflow. Jinja is a Python-based templating engine that allows you to generate dynamic HTML, XML, or other markup formats. It provides a syntax for embedding Python code within markup, allowing you to create templates that can be customized based on input data.
 
 Jinja language is meant to be extensible. Within Rewst there are many [filters](https://jinja.palletsprojects.com/en/3.1.x/templates/#filters) that extend functionality, including an ever-growing list that Rewst adds to the platform. This means that if you search the web for help with Jinja, the answers you find may or may not be 100% applicable to the Rewst environment. When in doubt, you can always [ask the Rewst support for assistance](../../support-and-community/roc-support/).
 

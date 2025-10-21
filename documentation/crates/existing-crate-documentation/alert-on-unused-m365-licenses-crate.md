@@ -8,6 +8,24 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate checks daily for unused M365 licenses that can be returned to Pax8, then creates a ticket in your PSA with the information. The ticket will include hyperlinks to update the purchased quantity to match the used quantity and remediate unused licenses.
 
+Note that the existence of an SKU in Microsoft doesn’t mean that it was purchased through Pax8. Customers can still buy directly from Microsoft. If a SKU doesn’t have a matching Pax8 subscription, it won’t be alerted on because the automation wouldn’t be able to modify or validate quantities for something that doesn’t exist in Pax8.
+
+## How the Crate works
+
+The workflow unpacked with this Crate runs on a cron trigger, and will generate the ticket at the same time each day.&#x20;
+
+Tickets or alerts are generated only when all of the following is true:
+
+* The subscription is oversubscribed
+* The commit term is monthly
+* The subscription is not included in the ignored subscriptions list
+
+No action is taken when any of the following is true:
+
+* The subscription has a yearly commit, even if it's oversubscribed
+* The subscription is in the ignored subscriptions list
+* There's no corresponding Pax8 subcription for that SKU
+
 ## Crate prerequisites
 
 Before unpacking this Crate:

@@ -80,3 +80,8 @@ Write Rewst scripts in any of the following languages: PowerShell, Python, YALM,
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 2.40.44 PM.png" alt=""><figcaption></figcaption></figure>
 
+## Export and import templates and scripts
+
+You can export a template or script to share with other Rewst customers, or create your own hard copies of template and script backups. To export a template or script as a JSON bundle, ![](<../../.gitbook/assets/Screenshot 2025-10-21 at 4.50.38 PM.png>)next to your relevant template or script in its total list.
+
+To import a template or script bundled as a JSON file, click ![](<../../.gitbook/assets/Screenshot 2025-10-21 at 4.48.45 PM.png>) in the top right navigation bar of the list page. Then, drag and drop your file into the upload dialog that appears.

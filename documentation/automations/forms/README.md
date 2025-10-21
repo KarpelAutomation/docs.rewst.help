@@ -18,6 +18,12 @@ Access all forms, be they manually created by you or obtained as part of unpacki
 
 <figure><img src="../../../.gitbook/assets/Forms home.png" alt=""><figcaption><p>An example of what your forms page might look like</p></figcaption></figure>
 
+### Export and import forms
+
+You can export a form to share with other Rewst customers, or create your own hard copies of form backups. To export a form as a JSON bundle, **click ⋮ > Export** next to your relevant form in the total form list.
+
+To import a form bundled as a JSON file, click ![](<../../../.gitbook/assets/Screenshot 2025-10-21 at 4.48.45 PM.png>) in the top right navigation bar of the forms page. Then, drag and drop your file into the upload dialog that appears.
+
 ## Request a forms feature update
 
 We’re constantly adding new features to Rewst. If you have a suggestion for what we could add to our forms functionality, add a request or upvote other existing suggestion posts [in our Canny.](https://rewst.canny.io/integrations)
