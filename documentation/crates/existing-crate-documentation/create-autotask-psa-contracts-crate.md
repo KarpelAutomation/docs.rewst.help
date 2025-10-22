@@ -32,7 +32,7 @@ The [Datto  Autotask PSA integration](../../configuration/integrations/integrati
 
 
 
-    ​![](<../../../.gitbook/assets/image (1).png>)
+    ​![](<../../../.gitbook/assets/image (1) (3).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Follow the guidance in the configuration screen to make your selections for the format of the form to be unpacked with the Crate. The contract shall be named \<Company name> \<Contract type> \<Start date>, with the start date using any of the following formats:
@@ -54,7 +54,7 @@ The [Datto  Autotask PSA integration](../../configuration/integrations/integrati
 
 
 
-    ![](<../../../.gitbook/assets/image (2).png>)
+    ![](<../../../.gitbook/assets/image (2) (4).png>)
 5. Choose the client you'd like to run the form on from the **Client** drop-down selector.&#x20;
 6. Select the start date of the contracts from the **Date to Start the Contracts** date picker.
 7. Select the applicable contract types from the **Contract Types** drop-down selector.

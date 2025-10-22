@@ -252,6 +252,7 @@
     * [Nodeware: Alert To PSA Crate](documentation/crates/existing-crate-documentation/nodeware-alert-to-psa-crate.md)
     * [Notify on Conditional Access Policy Changes Crate](documentation/crates/existing-crate-documentation/notify-on-conditional-access-policy-changes-crate.md)
     * [Onboard or Offboard a Device Crate](documentation/crates/existing-crate-documentation/onboard-or-offboard-a-device-crate.md)
+    * [On-Premises Active Directory Password Expiration Alerts Crate](documentation/crates/existing-crate-documentation/on-premises-active-directory-password-expiration-alerts-crate.md)
     * [OpenAI Ticket Categorization Crate](documentation/crates/existing-crate-documentation/openai-ticket-categorisation-setup.md)
     * [OpenAI Ticket Sentiment Analysis Crate](documentation/crates/existing-crate-documentation/openai-ticket-sentiment-setup.md)
     * [OpenText Core Endpoint Protection: Create Ticket from File Detection Crate](documentation/crates/existing-crate-documentation/opentext-core-endpoint-protection-create-ticket-from-file-detection-crate.md)
