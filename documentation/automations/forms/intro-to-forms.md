@@ -219,6 +219,27 @@ Fields to be filled out in the form:
 * **Label Field**: `label`
 * **Default Selected Field**: `current_default`
 
+### Dynamic form links
+
+A _dynamic form link_ is a special type of URL that automatically directs users to the form specific to the organization they belong to in Rewst. Rather than using a static form link that always goes to the same location, a dynamic form link adapts depending on who is accessing it.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-10-23 at 4.40.04 PM.png" alt=""><figcaption></figcaption></figure>
+
+When sharing a form, instead of clicking **View Direct URLs**, you can click **Copy URL**.\
+This generates a dynamic link that looks like this:&#x20;
+
+```
+https://app.rewst.io/form/<form_trigger_guid>
+```
+
+When a user opens this link:
+
+1. The system checks who is logging in.
+2. It validates which organization the user belongs to.
+3. The user is then automatically redirected to the correct form URL for their organization.
+
+This ensures that users always land on the right form instance without needing to know or select their organization manually. Use a dynamic form link whenever you have a form that multiple organizations or users need to access, or when you want to provide a single, easy-to-share URL rather than multiple specific links.
+
 ### Dates in forms
 
 {% hint style="info" %}

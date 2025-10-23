@@ -1,7 +1,7 @@
 # Custom integrations: V2
 
 {% hint style="info" %}
-For more on custom integrations in Rewst, see our introductory documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations).
+For more on custom integrations in Rewst, see our introductory documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations). Custom integrations can only be enabled by users with the Rewst Admin role.&#x20;
 
 Note that this is V2 of our custom integrations feature. Customers who previously installed V1 of custom integrations may find that setup documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations/integration-setup).  V1 of custom integrations is deprecated and should no longer be used. Documentation for V1 remains to assist existing customers with the migration to the V2 method. If you have questions about migrating from V1 to V2, please reach out to [ROC support](../../../../support-and-community/roc-support/).&#x20;
 {% endhint %}

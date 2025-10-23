@@ -14,7 +14,7 @@ Join us live every Friday at 3 pm EST!
 
 * 🗣️ Aharon opens the session emphasizing curiosity, community participation, and issues with a recent system loop bug affecting Redis utilization.
 * 📢 Ashe previews the agenda and transitions to internal updates, beginning with George.
-* 🤝 George announces the new Ninja One channel in Discord, upcoming PAX 8 Beyond conference, and keynote speaker Duncan Wardle for Flow.
+* 🤝 George announces the new Ninja One channel in community chat, upcoming PAX 8 Beyond conference, and keynote speaker Duncan Wardle for Flow.
 * 🔍 Danial highlights multiple product updates, including improved search/filtering for workflows, Open Tech Secure Cloud integration, and dynamic dropdowns in App Builder.
 * 🛠️ JP introduces new and updated crates, including a refactor of the ConnectWise Pod and a new crate for Cork, plus bug fixes and testing efforts.
 * 🎓 Clea celebrates recent certifications, previews updated training and onboarding materials, and introduces a new course on completion handlers.
@@ -23,7 +23,7 @@ Join us live every Friday at 3 pm EST!
 * ♻️ Jon shares a reusable retry logic workflow to simplify failure handling using pre-set Jinja snippets and streamlined connections.
 * 📊 Rod shows a PowerApps-based UI update that visually reflects workflow execution status via iframe and update text elements in App Builder.
 * 📥 Reed details a workflow addressing Microsoft Defender's email quarantining conflicts with Perception Point, automating false positive management.
-* 🎤 Aharon closes the session with reminders about Flow, platform updates, and supporting peers in Discord.
+* 🎤 Aharon closes the session with reminders about Flow, platform updates, and supporting peers in The Kewp.
 
 <details>
 

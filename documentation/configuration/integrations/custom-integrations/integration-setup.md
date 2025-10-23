@@ -2,6 +2,8 @@
 
 {% hint style="info" %}
 Note that this is V1 of our custom integrations feature. Customers who have installed V2 of custom integrations or newer customers who only need documentation for our newer V2 of custom integrations may find that setup documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations/custom-integrations-v2).  V1 of custom integrations is deprecated and should no longer be used. Documentation for V1 remains to assist existing customers with the migration to the V2 method. If you have questions about migrating from V1 to V2, please reach out to [ROC support](../../../../support-and-community/roc-support/).&#x20;
+
+Custom integrations can only be enabled by users with the Rewst Admin role.&#x20;
 {% endhint %}
 
 This guide provides an overview of how to configure custom integrations within our platform. Custom integrations allow you to connect with a wide range of REST APIs that are not currently supported by our official integration offerings.

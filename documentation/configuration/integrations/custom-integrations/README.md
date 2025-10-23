@@ -18,7 +18,20 @@ Currently, there is documentation for both V1 and V2 of Rewst's custom integrati
 
 ## How to use custom integrations&#x20;
 
-To understand how to create a custom integration in Rewst, check out the walkthrough on the page for more information.
+### Enable custom integrations in your Rewst instance
+
+{% hint style="info" %}
+Custom integrations can only be enabled by users with the Rewst Admin role.&#x20;
+{% endhint %}
+
+1. Navigate to **Settings > Feature Preview** in the right side menu of your Rewst platform.
+2. Click **Custom Integrations V2.**
+3. Click **Enable**. A green confirmation message will appear at the top of your screen.
+4. Whenever you wish, you may click **Disable** to turn off the custom integrations functionality for your instance, from this same menu.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-10-23 at 4.57.06 PM.png" alt=""><figcaption><p>The custom integrations screen</p></figcaption></figure>
+
+### Supported schemas
 
 {% tabs %}
 {% tab title="Supported authorization schemas" %}
