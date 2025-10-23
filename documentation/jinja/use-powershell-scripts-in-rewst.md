@@ -28,13 +28,33 @@ $results = @{
   user     = $env:USERNAME
 }
 $json = $results | ConvertTo-Json
-Invoke-WebRequest -Uri "{{ CTX.webhook_url }}" -Method POST -Body $json -ContentType "application/json"
+Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $json -ContentType "application/json"
 
 ```
 
 The data returned won’t affect execution, but it enables further automation based on the results.
 
 <figure><img src="../../.gitbook/assets/image (54) (3).png" alt=""><figcaption></figcaption></figure>
+
+You can also return multiple objects by creating a PSObject to store multiple results.
+
+```powershell
+$Results = New-Object PSObject
+
+# Add multiple values as NoteProperties
+$Results | Add-Member NoteProperty "UserCreated" $True
+$Results | Add-Member NoteProperty "UserName" "rjablonskis"
+$Results | Add-Member NoteProperty "OrganizationalUnit" "OU=Users,DC=rewst,DC=io"
+$Results | Add-Member NoteProperty "PasswordSettings" "Applied successfully"
+$Results | Add-Member NoteProperty "ManagerSet" "OK"
+$Results | Add-Member NoteProperty "ResultMessage" "User created successfully"
+
+# Convert to JSON and send via POST
+$postData = $Results | ConvertTo-Json
+$postData = [System.Text.Encoding]::UTF8.GetBytes($postData)
+
+Invoke-RestMethod -Uri $post_url -Method POST -Body $postData -ContentType 'application/json; charset=utf-8'
+```
 
 ### Pass dynamic parameters with Jinja
 
@@ -54,6 +74,6 @@ This allows workflows to dynamically pass values into your scripts without hardc
 
 For endpoint scripts, Rewst provides prebuilt automations such as the **Run PowerShell Script on Selected Devices** Crate.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-28 at 11.21.04 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-10-23 at 9.53.35 AM.png" alt=""><figcaption></figcaption></figure>
 
 These use subworkflows to loop through device lists and run your stored script against each one.

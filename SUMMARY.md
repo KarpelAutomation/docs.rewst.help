@@ -985,7 +985,7 @@
 * [Rewst support](support-and-community/roc-support/README.md)
   * [Support priorities](support-and-community/roc-support/support-priorities.md)
   * [Scope of support](support-and-community/roc-support/scope-of-support.md)
-  * [Discord join and verification](support-and-community/roc-support/discord-join-and-verification.md)
+  * [Discord: Join and verify yourself in our Discord community](support-and-community/roc-support/discord-join-and-verification.md)
   * [Create a ticket via Discord](support-and-community/roc-support/create-a-ticket-via-discord.md)
   * [Collecting diagnostics with browser developer tools](support-and-community/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
   * [Find your Rewst instance region](support-and-community/roc-support/find-your-rewst-instance-region.md)

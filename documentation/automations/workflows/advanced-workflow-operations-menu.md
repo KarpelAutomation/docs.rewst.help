@@ -119,3 +119,10 @@ If you're running a workflow task using With Items, this allows you to set how m
 
 This allows you to adjust the number of seconds to wait for a task to complete. The default value is 10 minutes.
 
+## Shallow clone a workflow
+
+_Shallow cloning_ is a feature of the Rewst platform that allows you to create a copy of an existing workflow or form. This is useful if you have a workflow that is very similar to another workflow, but which requires a few small changes.
+
+Standard cloning copies the entire resource _pack—_ workflow, forms, templates, triggers, etc— and when cloning into your own org, you end up with multiple duplicates of the same resource. Shallow cloning copies that single selected resource, but re-uses all of the dependencies that it has. If you have a sub-workflow that's part of a main workflow, and you shallow clone that sub-workflow, you will end up with a copy of the sub-workflow. This lets you make changes to the sub-workflow without affecting the original workflow.
+
+There is no difference between the steps to clone or shallow clone a resource. Rewst will automatically detect if you are cloning something into your own org. If so, the platform will shallow clone it instead. Note that this removes the **Synchronize** button on the dialog, and instead shows a text to explain.

@@ -1,4 +1,4 @@
-# Discord join and verification
+# Discord: Join and verify yourself in our Discord community
 
 ## Discord verification process
 
@@ -10,14 +10,14 @@ During the Discord verification process, we temporarily ask for access to **Join
 We do not store this token.
 {% endhint %}
 
-## New access to our community server and support server
+## New access to our Discord community server and Discord support server
 
 {% hint style="info" %}
 You must have an existing Rewst account to use the form
 {% endhint %}
 
 1. **Open the verification form**\
-   Click on the link below to open the form. Note you must choose the form link for the Rewst instance you log into:
+   Click on the link below to open the Discord verification form. Note you must choose the form link for the Rewst instance you log into:
    * [Rewst-US (app.rewst.io)](https://app.rewst.io/form/018f86cc-6a94-7965-b90f-a0daae9178cc).
    * [Rewst-EU (app.rewst.eu)](https://app.rewst.eu/form/0192ff0b-00f3-7c56-b898-50090dfb05b9)
    * [Rewst-UK (app.eu.rewst.io)](https://app.eu.rewst.io/form/01930353-19a2-7898-8ec3-11ba33dd2b8f)
@@ -38,11 +38,15 @@ You must have an existing Rewst account to use the form
 7. **Verification complete**\
    Once authorized, you'll be redirected to a validation page confirming that you've been joined to the appropriate servers.
 
-## If you're already in the community server, but need to access your support server
+{% hint style="info" %}
+If you're an MSP who wants to add a coworker or direct report to Discord, have them follow these steps, and we will add them to your dedicated Discord support channel.
+{% endhint %}
 
-If you're already part of our community server, you can follow the same steps above to start the verification process.
+## If you're already in the Discord community server, but need to access your Discord support server
 
-## Remove a user from discord
+If you're already part of our Rewst community server, you can follow the same steps above to start the verification process.
+
+## Remove a user from Discord
 
 To remove a user from Discord, such as a former employee who no longer works for your MSP, post a request in your private Discord support channel identifying the user you'd like to remove. Rewst Support will handle the request from there.
 
