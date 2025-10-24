@@ -20,7 +20,7 @@ Rewst's IT Glue integration brings powerful documentation capabilities to your a
 
 Rewst requires the **Password Access** checkbox to be enabled on the API Keys screen in ITGlue Account Settings.
 
-<figure><img src="../../../../../.gitbook/assets/it-glue-least-privledged-access.png" alt=""><figcaption><p>Ensure that this setting is checked before attempting integration setup</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/it-glue-least-privledged-access.png" alt=""><figcaption><p>Ensure that this setting is checked before attempting integration setup</p></figcaption></figure>
 
 ### Set up steps in IT Glue
 
@@ -30,13 +30,13 @@ IT Glue's most up-to-date information for how to generate an API key can be foun
 2.  Click the **API keys** tab.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-28 at 6.30.03 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-28 at 6.30.03 PM.png" alt=""><figcaption></figcaption></figure>
 3. Scroll to bottom and click **+** on the right side.
 4. Enter a **name** for the API key.
 5.  Click **Generate API key**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-28 at 6.30.43 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-28 at 6.30.43 PM.png" alt=""><figcaption></figcaption></figure>
 6. Check the **Password Access** box.
 7. Copy and Save the API key. Note that you won't be able to view the API key again once it has been generated.
 
@@ -45,7 +45,7 @@ IT Glue's most up-to-date information for how to generate an API key can be foun
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for ITGlue in the integrations page.\
    \
-   ![Screenshot of the IT Glue integration card as seen on the Rewst integrations search results page, highlighting automation of documentation-driven IT management.](<../../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.23.54 PM.png>)
+   ![Screenshot of the IT Glue integration card as seen on the Rewst integrations search results page, highlighting automation of documentation-driven IT management.](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.23.54 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the API key copied from IT Glue into the **API Key** field.
 5. Choose your Base URL for your IT Glue environment, related to region, from the **Base URL** drop-down selector.
@@ -57,14 +57,14 @@ IT Glue's most up-to-date information for how to generate an API key can be foun
 
 ### Forbidden errors
 
-If you've selected `Allow specific IP addresses` in IT Glue rather than `Allow access from all IP addresses`, you will need to add the [#rewst-outgoing-ip-address](../../../../../security/security-policy.md#rewst-outgoing-ip-address "mention") into the `IP Access Control` within IT Glue.
+If you've selected `Allow specific IP addresses` in IT Glue rather than `Allow access from all IP addresses`, you will need to add the [#rewst-outgoing-ip-address](../../../../security/security-policy.md#rewst-outgoing-ip-address "mention") into the `IP Access Control` within IT Glue.
 
 Here's how you can do it:
 
 1. Navigate to the IP Access Control settings within IT Glue.
-2. Add [Rewst's IP address](../../../../../security/security-policy.md#rewst-outgoing-ip-address) to the list of allowed IP addresses.
+2. Add [Rewst's IP address](../../../../security/security-policy.md#rewst-outgoing-ip-address) to the list of allowed IP addresses.
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After adding Rewst's IP address, the forbidden error should be resolved and you should be able to successfully set up the IT Glue integration.
 
@@ -84,11 +84,11 @@ If you have created flexible assets in Rewst, and want to add them to your sideb
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-28 at 2.40.24 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-28 at 2.40.24 PM.png" alt=""><figcaption></figcaption></figure>
 4. Choose your assets to add to the sidebar under **Flexible Assets**.
 5. When finished, click the green **Save** button. Your sidebar should be updated. This section is also where you may reset the sidebar to default, if you wish to remove Rewst's flexible assets. \
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-01-28 at 2.42.02 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-01-28 at 2.42.02 PM.png>)
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

@@ -589,7 +589,9 @@ If the issue is during CPV consent of a customer then you will need to check the
 
 <summary>Issue: Client error 401 Unauthorized for...</summary>
 
+This is an Azure specific error. The Azure APIs are using delegated permissions. If it was working before and then stopped working post migration, it's likely that the Azure integration was authorized with a different account than what was used post migration, and the user used to authorize probably doesn’t have the required roles assigned to it in Azure. Assign roles to the user to solve this issue.
 
+Alternatively, it is possible that the tenant does not have licensed users in the Azure/O365. This means that you are missing service principals.
 
 </details>
 
@@ -597,6 +599,7 @@ If the issue is during CPV consent of a customer then you will need to check the
 
 <summary>Issue: invalid_client - Failed to authorize one or more integrations: Permissions configuration not found for Azure integration</summary>
 
+This is an Azure specific error and it happens when re-authorizing the Microsoft Cloud Integration Bundle. You must [set up an Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal). It can be empty but it needs to be setup and available.\
 
 
 </details>
@@ -605,7 +608,9 @@ If the issue is during CPV consent of a customer then you will need to check the
 
 <summary>Issue: There was an error configuring delegated admin… Client error ‘400 Bad Request’…</summary>
 
+This happens when trying to re-consent a client or multiple clients. Make sure to check partner center relationships since you are likely missing one or more [GDAP roles](microsoft-cloud-integration-bundle-actions-and-endpoints.md).
 
+Note that if the client has other relationships with interfering roles it will also cause the consent to fail. You'll need to terminate any other interfering relationships.
 
 </details>
 
@@ -633,7 +638,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Failed to get tenant resource id for… Please try again later.</summary>
 
-
+This is a matter of allowing Microsoft time to do its work. It could take up to 48 hours for this to self resolve - just give it time and try to re-consent.
 
 </details>
 
@@ -641,7 +646,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Error assigning application permission…</summary>
 
-
+Note that this error will display all the multiple permissions that are missing, more than the example referenced. This happens when trying to re-consent a client or multiple clients. Check partner center relationships since there are likely missing one or more [recommended GDAP roles.](microsoft-cloud-integration-bundle-actions-and-endpoints.md)
 
 </details>
 
@@ -649,7 +654,11 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Error during callback. error='invalid_client' error_description="AADSTS650051: Value length '8060' is out of the valid range of '1' to '8000' for property 'DelegationScope'.</summary>
 
+This comes from the Microsoft side when the permissions exist and we try to add them back.
 
+Initially attempt to remove some delegated permissions from the enterprise app in your Microsoft Entra portal. If that doesn’t work, you'll want to remove the integration and re-add it.
+
+During the setup, do not click the select all permissions option. Just click next.
 
 </details>
 
@@ -659,13 +668,30 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 
 
+The error can be caused by multiple reasons and presents itself when consenting a child organization:
+
+1. User has not authorized the app
+2. User is a guest user in the tenant
+3. Conditional Access policy is blocking access
+4. User is not added to the correct group
+
+This error likely happens if you skipped the step to use the Unpack our Configure New GDAP Relationship Crate. Unpack the Crate. Then, using the form: \[ROC] M365: Configure GDAP Relationships unpacked in the Crate, set up a new specific GDAP relationship for Rewst between you and your client. It will send you an email per CSP customer, with and approval link and then another link back to rewst to set everything up. It ensure consistency across your orgs.
+
+Then check that it has been configured correctly. The[ 12 GDAP roles](microsoft-cloud-integration-bundle-actions-and-endpoints.md) would need to be in the admin relationships that are failing.
+
+Make sure that the account you are using is a member of ADMINAGENTS and GLOBALADMIN while you sort the permissions. Once done, GA can be removed if desired.
+
+Lastly, check your clients' [conditional access policies](microsoft-cloud-integration-bundle-actions-and-endpoints.md).
+
+
+
 </details>
 
 <details>
 
 <summary>Issue: Failed to refresh options</summary>
 
-
+This issue presents itself when you click the **Refresh Options** button in the integration page. To resolve this, add the Rewst Service account to AdminAgents at the top MSP parent level organization. After this action has been taken, the client must re-authorize the integration to fix.
 
 </details>
 
@@ -673,7 +699,12 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Delegated admin consent creation failed… Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access…</summary>
 
+The error can be caused by multiple reasons and presents itself when consenting a child organization:
 
+1. User has not authorized the app
+2. User is a guest user in the tenant
+3. Conditional Access policy is blocking access
+4. User is not added to the correct group
 
 </details>
 
@@ -681,7 +712,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Delegated admin consent creation failed… Access has been blocked by Conditional Access Policies</summary>
 
-
+You must ensure that you have setup your clients’ policies as per our [guidance on conditional access](microsoft-cloud-integration-bundle-actions-and-endpoints.md).&#x20;
 
 </details>
 
@@ -689,7 +720,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Unsupported token. Unable to initialize the authorization context</summary>
 
-
+This error is an indication that you have either either not approved the created relationship or not added the required [GDAP roles](microsoft-cloud-integration-bundle-actions-and-endpoints.md) to it. Partner GDAP setup was not completed. You'll need to terminate the setup, and create a new one.
 
 </details>
 
@@ -697,7 +728,17 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: User is trying to authenticate Azure integration (may apply to other in the bundle) and gets example error:</summary>
 
+Ensure that he secret being sent in the request is the client secret value, not the client secret ID.
 
+The other error that may be related to this when consenting is **There was an error configuring delegated admin**. Here, the integration is trying to use old CSP App Registration. Uninstall and reinstall the entire Microsoft Cloud Integration Bundle. Note that only uninstalling and reinstalling Azure/CSP alone will not work. \
+\
+If you keep getting errors during reinstallation, remove the Rewst MS Cloud Connector Enterprise Application and then authorize.\
+\
+\
+During the process, you may see the below error. You should be fine to proceed despite the error message. \
+
+
+<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -705,13 +746,33 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Invalid Tokens - Invalid_grant - device object was not found</summary>
 
+Device Object was not found in tenant means that during authentication you used an approved device, and that device is no longer available.
 
+The best way to fix is to rerun the authentication setup. When a dialog appears to log in, don't click on the account that's already logged in, even if it's the service account. Instead, click **sign in with a different account.** The&#x6E;**,** log on with the service account
+
+If this doesn't fix your issue, manually delete the enterprise application, then  re-authorize. You may need to manually consent the app in Intune, then re-authorize again.
 
 </details>
 
 <details>
 
 <summary>Issue: Invalid Tokens - Invalid_grant - The provided grant has expired</summary>
+
+The first step in troubleshooting is to attempt reauthentication.&#x20;
+
+1. Navigate to the Microsoft Cloud Integration Bundle settings in Rewst.
+2. Click **Reauthenticate** and follow the prompts to complete the process.
+3. If authentication is successful, your integration should resume normal operation.
+
+If reauthentication fails, proceed to the next step. Tthe issue may be related to the service account credentials.
+
+1. Reset the service account password in Microsoft.
+2. Update the credentials in Rewst.
+3. Update the credentials in Rewst.
+4. Attempt to reauthenticate again.
+5. If this works ensure you click the re-concent button.
+
+If the issue persists, completely uninstall and reinstall the Microsoft Cloud Bundle Integration.
 
 
 
@@ -721,7 +782,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: User account [tenant name] does not exist in tenant. The account needs to be added as an external user in the tenant first.</summary>
 
-
+Ensure that the [CA Policies exclusions](microsoft-cloud-integration-bundle-actions-and-endpoints.md) have been set. If the Service Account is not added you will see this error
 
 </details>
 
@@ -729,7 +790,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: "Unknown auth_app_registration: None" Error</summary>
 
-
+Remove Microsoft Cloud integration from the child organization only.
 
 </details>
 
@@ -737,7 +798,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Delegated admin consent re-creation failed for ID {‘error’: {‘response’: {‘code’: 400, ‘message’: 'Application ID doesn’t exist</summary>
 
-
+Confirm that the company uses and has Azure Storage enabled.
 
 </details>
 
@@ -745,7 +806,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: Company Using Owned APP Registration and getting errors in crates.</summary>
 
-
+See our documentation on [Owned App Registration](owned-app-registration.md).
 
 </details>
 
@@ -753,7 +814,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: 403 - Authorization_RequestDenied (Duo External Authentication)</summary>
 
-
+Here, a client has Duo as an External Authentication method that may be re-directing MFA. Configure a service provider exclusion for the problem tenant.
 
 </details>
 
@@ -761,8 +822,14 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 
 <summary>Issue: <strong>Error -3 while decompressing data: incorrect header check -</strong> Microsoft EXO </summary>
 
-If you get this error while running EXO commands, check if the dedicated account linked to the Microsoft Cloud Integration Bundle for authorization has the Exchange Administrator Role.
+For MSP or parent organization
 
+* Verify that the dedicated account used for Microsoft Cloud Bundle authorization has Exchange Administrator or Global Administrator role assigned.
 
+For child organization
+
+* If the tenant is a child org:
+  * Ask the customer to confirm in their GDAP Relationship that they have Exchange Administrator role assigned.
+  * If authentication is handled through the Microsoft Cloud Bundle, confirm that the linked service account has the Exchange Administrator role assigned.
 
 </details>

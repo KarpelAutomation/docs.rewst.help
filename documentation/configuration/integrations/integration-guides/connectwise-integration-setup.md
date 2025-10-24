@@ -852,11 +852,11 @@ Different conditions serve different purposes. Mastering these conditions enable
 2. Navigate to **System > Members**.
 3. Click **API Members**. Here, you'll find settings specific to API interactions and configurations.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Under the **API Members** tab, locate and select the user associated with Rewst's integration.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. After selecting the Rewst user:
    1. Navigate to the **API Logs** tab.&#x20;
