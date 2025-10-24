@@ -20,7 +20,7 @@ Our Xero integration enables the automation of finance processes by seamlessly c
    *   For the Redirect URI, you'll need to enter the following URL as a callback URL:
 
        ```
-       ttps://engine.rewst.io/integrations/xero/callback/01943e7a-fe5b-7732-93be-ad884ebf2dec
+       https://engine.rewst.io/integrations/xero/callback/01968d10-6192-77cd-9eec-f148697eb6f3
        ```
 5. Navigate to the configuration of the app you just created and copy the **Client ID** and **Client Secret** . Store both of these for later use in Rewst. Note that once you leave the page, you won't be able to see the Client Secret again.
    1. If there is no client secret, you can generate one by clicking **Generate a Secret**.
@@ -34,11 +34,11 @@ Our Xero integration enables the automation of finance processes by seamlessly c
 
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
-   1. Set your **Zero API Scopes** - default scopes are already set, but reference Xero's [documentation about scopes here](https://developer.xero.com/documentation/guides/oauth2/scopes/), if you wish to modify as needed
-   2. Enter the **Xero App Secret** and **Xero App Client ID** you copied previously
-   3. Specify the default tenant name you want to use for the connection
-      1. Return to your my.xero.com dashboard and copy the name of the organization you want to use
-      2. This is case sensitive - make sure to enter the name exactly as it appears in Xero
+   1. Set your **Zero API Scopes** - default scopes are already set, but reference Xero's [documentation about scopes here](https://developer.xero.com/documentation/guides/oauth2/scopes/), if you wish to modify as needed.
+   2. Enter the **Xero App Secret** and **Xero App Client ID** you copied previously.
+   3. Specify the default tenant name you want to use for the connection.
+      1. Return to your my.xero.com dashboard and copy the name of the organization you want to use.
+      2. This is case sensitive - make sure to enter the name exactly as it appears in Xero.
 5. Click **Save Configuration**.
 6. Click **Authorize** to connect your Xero account
 7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;

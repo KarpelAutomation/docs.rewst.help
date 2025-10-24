@@ -6,6 +6,8 @@ We’re embedding AI into RoboRewsty, our existing in-platform assistant, to giv
 
 If you're a Rewst user who has loved working with our existing RoboRewsty documentation capabilities in-app, you can still use it to help [document your workflows](../automations/workflows/document-with-roborewsty.md).&#x20;
 
+{% embed url="https://www.youtube.com/watch?v=usZFKk7pVs8" %}
+
 ## What can RoboRewsty help with?
 
 Currently, you can ask it questions about the platform and get instant guidance from our documentation. It also understands your Rewst environment— your workflows, variables, and executions— so you can ask things like ‘Why did this workflow fail yesterday?’ and get tailored support while building and troubleshooting.

@@ -33,7 +33,7 @@ Our QuickBooks Online integration automates financial and operational, workflows
 14. Enter the following URL into the field, and click **Save**.
 
 ```
-https://engine.rewst.io/integrations/quickbooks_online/callback/01954351-002e-7dfd-99d2-db9966733596
+https://engine.rewst.io/integrations/quickbooks_online/callback/0199111d-57e9-71a1-bec6-7847fac2867c
 ```
 
 ### Set up steps in Rewst
