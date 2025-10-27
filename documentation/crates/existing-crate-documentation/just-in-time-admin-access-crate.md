@@ -152,12 +152,12 @@ If you need to retrieve the username and password for the temporary admin accoun
 6.  If multiple workflows exist, verify the approximate submission time of the \[Rewst] Just In Time Admin Access form with the requester. Locate the workflow result under the **Created At** column, and open it by clicking **>**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 7.  To identify the user who submitted the request in the results:
 
     1. Click **Load Context**.
 
-    <figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     1. Expand the first dictionary object in the list.
     2. Expand **user** to find the **username** of the requester. \

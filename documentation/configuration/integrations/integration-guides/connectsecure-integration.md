@@ -127,7 +127,7 @@ ConnectSecure’s own documentation site can be found [here](https://cybercns.at
 4. Your hostname will be unique for your instance. The image below, for example, shows the hostname for Rewst’s own account, [pod103.myconnectsecure.com](http://pod103.myconnectsecure.com/).\
    ![](<../../../../.gitbook/assets/Screenshot 2024-12-02 at 2.59.44 PM.png>)
 5. Install the new ConnectSecure V4 integration in Rewst, and enter the required credentials.\
-   ![](<../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
+   ![](<../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)
 6. Save the configuration. It should automatically attempt to authenticate for you.
 
 ### Migrate Rewst actions and workflows

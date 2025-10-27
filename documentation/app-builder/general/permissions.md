@@ -3,10 +3,10 @@
 {% hint style="info" %}
 By default, users with Rewst Admin and Member roles have access to to the App Builder feature in Rewst.
 
-Roles and permissions for App Builder follow the general role and permission guidance for Rewst for more information on what those roles and permissions are, see our documentation [here](../../settings/roles.md).
+Roles and permissions for App Builder follow the general role and permission guidance for Rewst. For more information on what those roles and permissions are, see our documentation [here](../../settings/roles.md).
 {% endhint %}
 
-Setting permissions ensures that only the right people have access to your apps and pages. It's like putting up a virtual fence, allowing you to control who can view or edit your work.
+Setting permissions ensures that only the right people have access to your apps and pages. It's as if you're putting up a virtual fence, allowing you to control who can view or edit your work.
 
 ## Update App Builder app permissions
 
@@ -20,6 +20,10 @@ Setting permissions ensures that only the right people have access to your apps 
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-08-21 at 5.36.01 PM.png>)
 5. Click **Update**.
+
+{% hint style="warning" %}
+To see forms and data for a child organization, the Rewst user must be created at the child level organization, not the parent organization. Otherwise, the parent level forms will show up.
+{% endhint %}
 
 ## App Builder page permissions
 

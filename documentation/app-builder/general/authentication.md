@@ -23,6 +23,12 @@ Upon creating your app, you'll notice that a login page is automatically include
 
 You have the flexibility to customize the login page according to your app's branding and design, creating a cohesive and personalized experience for the users who log into your app. For more on editing pages, see our pages documentation [here](../app-builder-pages.md).
 
+
+
+## Configure a webhook trigger for CORS requests
+
+When referencing a Rewst web hook in JavaScript in an app builder page(or outside of Rewst), you may see the error `TypeError: Failed to fetch`. This is due to blocking by your browser. See our documentation for how to set up this particular type of trigger [here](../../automations/intro-to-triggers/use-cases-and-examples/configure-a-webhook-trigger-for-cors-requests.md).&#x20;
+
 {% hint style="info" %}
 If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
 {% endhint %}

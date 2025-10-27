@@ -420,6 +420,10 @@ If you have a user in your tenant that needs permissions within a client tenant 
 
 ### Additional errors
 
+{% hint style="info" %}
+Use **command + F or CTRL + F** to search your your issue in the page and jump to the relevant error in our troubleshooting guide.
+{% endhint %}
+
 <details>
 
 <summary>Issue: Updating the password profile of a user fails with a forbidden error</summary>
@@ -487,6 +491,14 @@ If the user lacks sufficient access rights or is missing the necessary Exchange 
 <summary>Issue: AppLifecycle_2210</summary>
 
 This is likely a failure to call Intune APIs. Check if the tenant has the necessary license available.
+
+</details>
+
+<details>
+
+<summary>Issue: "Invalid Client" error message when authorizing</summary>
+
+A [key vault ](./#what-integrations-are-in-the-microsoft-cloud-integration-bundle)is required in your Azure subscription. If you receive an "Invalid Client" error message when authorizing it is likely due to a missing key vault. [Creating an empty key vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal) should resolve the issue.
 
 </details>
 
@@ -738,7 +750,7 @@ If you keep getting errors during reinstallation, remove the Rewst MS Cloud Conn
 During the process, you may see the below error. You should be fine to proceed despite the error message. \
 
 
-<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

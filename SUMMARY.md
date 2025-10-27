@@ -77,6 +77,7 @@
   * [Triggers](documentation/automations/intro-to-triggers/README.md)
     * [Trigger criteria](documentation/automations/intro-to-triggers/trigger-criteria.md)
     * [Trigger use cases and examples](documentation/automations/intro-to-triggers/use-cases-and-examples/README.md)
+      * [Configure a webhook trigger for CORS requests](documentation/automations/intro-to-triggers/use-cases-and-examples/configure-a-webhook-trigger-for-cors-requests.md)
       * [Customize PSA ticket triggers](documentation/automations/intro-to-triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md)
       * [Use webhook triggers](documentation/automations/intro-to-triggers/use-cases-and-examples/using-webhook-triggers.md)
   * [Subworkflows](documentation/automations/subworkflows/README.md)

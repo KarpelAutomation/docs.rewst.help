@@ -642,7 +642,7 @@ During pod configuration, you'll need to update your Rewst base URL to match you
 1. Login to ConnectWise PSA as a user that has access to the setup tables. This is likely an admin account.
 2. Click the **System** icon on the bottom left of the ConnectWise PSA UI.
 3. Click on the **Setup Tables** menu that appears.
-4. Enter `\*api\` in the table filter. Your returned result should be **Manage Hosted API**.
+4. Enter `*api` in the table filter. Your returned result should be **Manage Hosted API**.
 5. Click **Add** and use the below settings:
    1. **Description** - Enter **Rewst**
    2. **Screen** - For our example, we use **Service Tickets**
@@ -852,17 +852,17 @@ Different conditions serve different purposes. Mastering these conditions enable
 2. Navigate to **System > Members**.
 3. Click **API Members**. Here, you'll find settings specific to API interactions and configurations.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Under the **API Members** tab, locate and select the user associated with Rewst's integration.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. After selecting the Rewst user:
    1. Navigate to the **API Logs** tab.&#x20;
    2. Click **Start Debug Mode**.
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 6. In the **Debug Mode** dialog:
    1. Enter length of time (e.g. `5`) in the **Minutes** field. This will capture logs for the specified duration.
