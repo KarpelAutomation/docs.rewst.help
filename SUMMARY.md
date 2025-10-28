@@ -423,6 +423,7 @@
 ## Security
 
 * [Incoming and outgoing domains and IPs](security/security-policy.md)
+* [Rewst trust and security center](security/rewst-trust-and-security-center.md)
 
 ## Terms and Definitions
 

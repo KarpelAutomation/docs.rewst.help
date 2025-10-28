@@ -28,7 +28,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2.  Search for `Add Devices to Autopilot via Form`.
 
     \
-    ![](<../../../.gitbook/assets/image (1) (1) (1) (1).png>)
+    ![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.&#x20;

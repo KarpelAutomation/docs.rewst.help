@@ -20,7 +20,7 @@ Note that **wait for webhook** cannot be set to `true` for this to work
 2.  Open the response headers.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 3. Add the following headers:
 
 ```django
@@ -32,7 +32,7 @@ Note that **wait for webhook** cannot be set to `true` for this to work
 }
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

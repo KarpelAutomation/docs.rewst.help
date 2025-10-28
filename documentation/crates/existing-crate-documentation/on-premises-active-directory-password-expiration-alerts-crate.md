@@ -46,7 +46,7 @@ The following must be set up before unpacking this Crate:
 
 
 
-    ![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+    ![](<../../../.gitbook/assets/image (1) (1) (1) (1).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

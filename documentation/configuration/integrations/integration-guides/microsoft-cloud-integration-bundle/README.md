@@ -102,12 +102,17 @@ We've broken down instructions into four larger steps, each with its own section
 5.  Click **Select**. Verify that the role is now listed in the main pane.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
-6. Click **Review and Create**, then **Create**.
+    <figure><img src="../../../../../.gitbook/assets/image (73) (2).png" alt=""><figcaption></figcaption></figure>
+6.  Make sure the service account is part of the **admin agents** group in Microsoft Entra.\
+    \
 
-{% hint style="warning" %}
-Make sure the service account is part of the **admin agents** group in Microsoft Entra.
-{% endhint %}
+
+    <figure><img src="../../../../../.gitbook/assets/image (73).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
+
+
+
+    <figure><img src="../../../../../.gitbook/assets/image (74).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
+7. Click **Review + Create**, then **Create**.
 
 #### Turn on MFA requirement for the user
 
@@ -227,7 +232,7 @@ We strongly recommend that you use the Crate to complete this step.
 
 1. Navigate to [partner.microsoft.com](http://partner.microsoft.com) and sign in.
 2. Click **Partner Center > Customers > Customer List**.\
-   ![](<../../../../../.gitbook/assets/image (74).png>)
+   ![](<../../../../../.gitbook/assets/image (74) (2).png>)
 3. Click on the name of the customer you would like to create the admin relationship for once the customer list loads.\
    ![](<../../../../../.gitbook/assets/image (75).png>)
 4. Click **Admin Relationships > Request a New Relationship**.
@@ -750,7 +755,7 @@ If you keep getting errors during reinstallation, remove the Rewst MS Cloud Conn
 During the process, you may see the below error. You should be fine to proceed despite the error message. \
 
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
