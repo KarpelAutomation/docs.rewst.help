@@ -2,10 +2,10 @@
 
 ## Shortcuts and general help
 
-* Access the Jinja Editor on any fields where you see the code editor icon <img src="../../.gitbook/assets/jinja-burger.png" alt="" data-size="line">(fondly called the Jinja Burger amongst other Kewp Members)
-* Press `F1` within the editor to see menu and shortcut options
-* Press `Ctrl + Space` to get the initial root options
-* Add `|` to the end of your variables to access [Jinja filters](list-of-jinja-filters.md). e.g.: `{{ ORG.ATTRIBUTES.id|default('test default string') }}`
+* Access the Jinja Editor on any fields where you see the code editor icon <img src="../../.gitbook/assets/jinja-burger.png" alt="" data-size="line">, fondly called the Jinja Burger amongst other Rewst users.
+* Press `F1` within the editor to see menu and shortcut options.
+* Press `Ctrl + Space` to get the initial root options.
+* Add `|` to the end of your variables to access [Jinja filters](list-of-jinja-filters.md). e.g.: `{{ ORG.ATTRIBUTES.id|default('test default string') }}`&#x20;
 
 ***
 
@@ -109,6 +109,70 @@ Reference attributes and properties of the user that ran, executed, triggered, t
 {% endhint %}
 
 ***
+
+## Rewst level Jinja variables
+
+Rewst uses a set of Jinja variables that are available at the "Rewst" level. The following list contains all possible Rewst level Jinja variables:
+
+<details>
+
+<summary>Click to expand and view the variable list.</summary>
+
+* **COMPLETED\_WORKFLOW**
+* **completed**
+
+- **CTX**
+
+* **FAILED**
+* **item**
+* **now**
+* **ORG**
+
+- **REQUEST**
+
+* **RESULT**
+* **RESULT\_DATA**
+* **SUCCEEDED**
+* **TASK**
+* **TASK\_DATA**
+* **TASK\_RESULT\_DATA**
+
+- **TASK\_SPEC**
+- **task\_status**
+- **TASKS**
+
+* **TEMPLATE**
+* **UTILS**
+* **USER**
+* **WORKFLOW**
+* **APP**
+
+</details>
+
+### System ORG variables
+
+{% hint style="info" %}
+Note that these are different from [organization variables](../configuration/organization-variables.md#what-is-an-organization-variable), which are created in the **Configuration > Organization Variables** menu of Rewst, and set by you.
+{% endhint %}
+
+System ORG variables are attributes associated with the Rewst organization you are currently using in your organization drop-down selector. These are variables with that Rewst organization that can be referenced in The Context— think things like the name of the organization, the ID, the parent organization, etc.&#x20;
+
+To view a list of all available attributes in your editor, enter `ORG.` between a set of braces. This will reveal the clickable list below your current line:
+
+* **ATTRIBUTES**
+* **HAS\_TAG**
+* **INTEGRATIONS**
+* **MAPPING**
+* **VARIABLES**
+
+<figure><img src="../../.gitbook/assets/image (72) (3).png" alt=""><figcaption></figcaption></figure>
+
+#### Examples of system organization variables
+
+| Variable                   | What it does                                        |
+| -------------------------- | --------------------------------------------------- |
+| ORG.ATTRIBUTES.id          | will return the current organization's Rewst org ID |
+| ORG.MAPPING.ms\_tenant\_id | will return the Microsoft tenant ID                 |
 
 ## Date-time operations
 
