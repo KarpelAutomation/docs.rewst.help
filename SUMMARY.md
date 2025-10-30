@@ -301,6 +301,7 @@
       * [Bitdefender GravityZone integration](documentation/configuration/integrations/integration-guides/bitdefender-gravityzone-integration.md)
       * [BYOD for options generators](documentation/configuration/integrations/integration-guides/byod-for-dattormm.md)
       * [Cisco Meraki integration](documentation/configuration/integrations/integration-guides/cisco-meraki-integration.md)
+      * [Cloudmore integration](documentation/configuration/integrations/integration-guides/cloudmore-integration.md)
       * [ConnectSecure integration](documentation/configuration/integrations/integration-guides/connectsecure-integration.md)
       * [ConnectWise Automate integration](documentation/configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
       * [ConnectWise PSA integration](documentation/configuration/integrations/integration-guides/connectwise-integration-setup.md)
