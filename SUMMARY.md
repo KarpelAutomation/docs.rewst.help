@@ -188,6 +188,7 @@
   * [Migrate between Crate versions](documentation/crates/migrating-between-crate-versions.md)
   * [Crate deprecation FAQ](prebuilt-automations/crates/crate-deprecation-faq.md)
   * [Crate guides](prebuilt-automations/existing-crate-documentation/README.md)
+    * [1Stream Technician Toolbox Crate](documentation/crates/existing-crate-documentation/1stream-technician-toolbox-crate.md)
     * [Ad-Hoc Install/Uninstall Software via Chocolatey Crate](documentation/crates/existing-crate-documentation/ad-hoc-install-uninstall-software-via-chocolatey-crate.md)
     * [Add Client to Rewst Crate](documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
     * [Add Devices to Autopilot via Form Crate](documentation/crates/existing-crate-documentation/add-devices-to-autopilot-via-form-crate.md)
