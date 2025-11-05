@@ -1,14 +1,16 @@
 ---
 description: >-
   Explore our guides and recordings to start automating in Rewst today. Whether
-  you're a new or experienced builder of integrations, this is your resource hub
+  you're a new or experienced builder of automations, this is your resource hub
   for learning how to save time with Rewst.
 icon: hand-wave
 ---
 
-# Welcome to Rewst
+# Welcome to Rewst documentation
 
-<table data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><strong>Rewst Support</strong></td><td align="center">Contact and resources for help with using Rewst</td><td><a href="support-and-community/roc-support/">roc-support</a></td><td><a href=".gitbook/assets/1 (1).png">1 (1).png</a></td></tr><tr><td align="center"><strong>Rewst Open Mic</strong></td><td align="center">Recordings and invites to our live community hang-outs</td><td><a href="updates/roc-open-mics/">roc-open-mics</a></td><td><a href=".gitbook/assets/2 (1).png">2 (1).png</a></td></tr><tr><td align="center"><strong>Cluck University</strong></td><td align="center">Sign up for training in CluckU to learn how to use Rewst</td><td><a href="https://learn.rewst.io/">https://learn.rewst.io/</a></td><td><a href=".gitbook/assets/cluck u.avif">cluck u.avif</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><strong>Rewst Support</strong></td><td align="center">Contact and resources for help with using Rewst</td><td><a href="support-and-community/roc-support/">roc-support</a></td><td><a href=".gitbook/assets/1 (1).png">1 (1).png</a></td></tr><tr><td align="center"><strong>Rewst Open Mic</strong></td><td align="center">Recordings and invites to our live community hangouts</td><td><a href="updates/roc-open-mics/">roc-open-mics</a></td><td><a href=".gitbook/assets/2 (1).png">2 (1).png</a></td></tr><tr><td align="center"><strong>Cluck University</strong></td><td align="center">Sign up for training in CluckU to learn how to use Rewst</td><td><a href="https://learn.rewst.io/">https://learn.rewst.io/</a></td><td><a href=".gitbook/assets/cluck u.avif">cluck u.avif</a></td></tr></tbody></table>
+
+<table data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td align="center"><strong>Integrations</strong></td><td align="center">Setup and user instructions to integrate all your favorite tools with Rewst</td><td><a href="documentation/configuration/integrations/integration-guides/">integration-guides</a></td><td><a href=".gitbook/assets/integrations-graphic-02 (1).png">integrations-graphic-02 (1).png</a></td></tr><tr><td align="center"><strong>Crates</strong></td><td align="center">Browse available Crates in our collection of user guides</td><td><a href="prebuilt-automations/existing-crate-documentation/">existing-crate-documentation</a></td><td><a href=".gitbook/assets/crates-graphic.png">crates-graphic.png</a></td></tr><tr><td align="center"><strong>Agent Smith</strong></td><td align="center">Our open-source command executor that fits into your Rewst workflows</td><td><a href="documentation/agent-smith/">agent-smith</a></td><td><a href=".gitbook/assets/agent-smith-graphic (1).png">agent-smith-graphic (1).png</a></td></tr></tbody></table>
 
 ## Get started with Rewst
 

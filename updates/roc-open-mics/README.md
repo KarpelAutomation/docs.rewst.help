@@ -11,7 +11,7 @@ Is 3pm EST on Fridays not a great time for you? Check out our EU and ANZ monthly
 
 #### Click [here](https://go.rew.st/open-mic?hs_preview=BFeQDWBI-187816500244) to access calendar invites for all regional Open Mics.
 
-## Archive of previous Open Mic recordings - YouTube
+## Archive of previous Open Mic recordings&#x20;
 
 {% hint style="success" %}
 ### Click any of the region links below to browse through their recording archives. Note that for recordings for Open Mics that took place after September 2025, you'll need to go to our [YouTube channel](https://www.youtube.com/playlist?list=PLDWjfoX6CSp9BQnZKRRjnt4wJtQjdLJch) to view.
@@ -25,13 +25,13 @@ Is 3pm EST on Fridays not a great time for you? Check out our EU and ANZ monthly
 
 ## Latest NA Open Mic video recording
 
-{% embed url="https://www.youtube.com/watch?v=B9KStLiDQQg" %}
+{% embed url="https://www.youtube.com/watch?v=a76O0UbIRxA&list=PLDWjfoX6CSp9vz2V3ZIYXLYjgCFPsyDH9" %}
 
 ## Latest EU Open Mic video recording
 
-{% embed url="https://www.youtube.com/watch?v=a76O0UbIRxA" %}
+{% embed url="https://www.youtube.com/watch?v=a76O0UbIRxA&list=PLDWjfoX6CSp9vz2V3ZIYXLYjgCFPsyDH9" %}
 
 ## Latest ANZ Open Mic video recording
 
-{% embed url="https://www.youtube.com/watch?v=rtFXpR6YIW0" %}
+{% embed url="https://www.youtube.com/watch?v=rtFXpR6YIW0&list=PLDWjfoX6CSp8Ips-Wncg4oZcWVAT9xCxs" %}
 
