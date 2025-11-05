@@ -6,10 +6,11 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the **Just in Time Admin Access** Crate do?
 
-Our Just in Time Admin Access Crate provides Just-in-Time (JIT) administrative access, temporarily granting Global Admin rights in Microsoft 365, or domain admin rights in on-premises Active Directory though the use of a form.\
-
+Our Just in Time Admin Access Crate provides Just-in-Time (JIT) administrative access, temporarily granting Global Admin rights in Microsoft 365, or domain admin rights in on-premises Active Directory though the use of a form.
 
 ## Why use the Just in Time Admin Access Crate?
+
+{% embed url="https://www.youtube.com/watch?v=9415npOj9Ms" %}
 
 This Crate is ideal for MSPs managing client environments securely and efficiently. It ensures that admin access is time-limited, reducing security risks while streamlining support operations. Common use cases include:
 
@@ -21,6 +22,8 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 * Security audits & compliance – Ensure admin access is documented, temporary, and automatically revoked.
 
 ### How the Crate works
+
+{% embed url="https://www.youtube.com/watch?v=187wT-rzHfM" %}
 
 * For Microsoft 365, it assigns Global Admin privileges for a specified duration.
 * For on-premises, it assigns Domain Admin rights within Active Directory.
