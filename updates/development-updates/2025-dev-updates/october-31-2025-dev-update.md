@@ -9,7 +9,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>New features and items</strong></summary>
 
 * **Integrations**
-  * Cloudmore integration
+  * [Cloudmore integration](../../../documentation/configuration/integrations/integration-guides/cloudmore-integration.md)
 * **Workflows**
   * Improved workflow execution performance by targeting specific database partitions during processing, reducing unnecessary locks and query overhead.
 
@@ -20,7 +20,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>Bug fixes and chores</strong></summary>
 
 * **Integrations**
-  * Made User Type a required field for Ninja RMM List Users by Type action&#x20;
+  * Made User Type a required field for NinjaOne List Users by Type action&#x20;
   * Fixed an issue with link-based pagination that prevented workflows from properly retrieving and processing deeply nested results keys values across integrations.
 * **Crate Marketplace**
   * Fixed bug where link to workflows would break if the workflow is used in multiple crates
