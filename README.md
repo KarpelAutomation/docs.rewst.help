@@ -1,8 +1,8 @@
 ---
 description: >-
-  Explore our guides and recordings to start automating in Rewst today. Whether
-  you're a new or experienced builder of automations, this is your resource hub
-  for learning how to save time with Rewst.
+  Explore our guides and recordings to start automating in Rewst today. Click
+  through our recommended shortcuts below, or use the nav menu to the left,
+  organized to match the left side menu in Rewst.
 icon: hand-wave
 ---
 
