@@ -25,7 +25,7 @@ Is 3pm EST on Fridays not a great time for you? Check out our EU and ANZ monthly
 
 ## Latest NA Open Mic video recording
 
-{% embed url="https://www.youtube.com/watch?v=a76O0UbIRxA&list=PLDWjfoX6CSp9vz2V3ZIYXLYjgCFPsyDH9" %}
+{% embed url="https://www.youtube.com/watch?v=zZjI0ohQja8" %}
 
 ## Latest EU Open Mic video recording
 

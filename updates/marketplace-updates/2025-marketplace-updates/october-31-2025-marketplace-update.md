@@ -34,6 +34,5 @@
 * Enhanced logging for the user onboarding workflow
 * DropSuite Backup Monitoring
 * Various DropSuite Additions
-* 1Stream Technician Toolbox
 
 </details>

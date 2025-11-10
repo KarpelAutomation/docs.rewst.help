@@ -4,7 +4,7 @@
 
 <summary><strong>New Crates and enhancements</strong></summary>
 
-Billing Count Report
+[Billing Count Report](../../../documentation/crates/existing-crate-documentation/billing-count-report-crate.md)
 
 * The report now includes license and consumption data from the Synnex Australia&#x20;
 * The report now includes license and consumption data from the Synnex StreamOne&#x20;
@@ -16,7 +16,7 @@ Billing Count Report
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-* Workstation Offboarding
+* [Workstation Offboarding](../../../documentation/crates/existing-crate-documentation/workstation-offboarding-crate.md)
   * Added decommission action after the uninstall action for SentinelOne
 
 </details>

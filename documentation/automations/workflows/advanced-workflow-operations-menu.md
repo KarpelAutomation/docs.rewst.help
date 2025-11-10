@@ -55,6 +55,10 @@ _With Items_ is the equivalent to a `foreach`statement in other languages.
 
 With this, you can pass a number of objects into a certain action and collect the results from each and then do something.
 
+{% hint style="warning" %}
+When using with items in Rewst, it's important that you make the name of the task unique, and different from any other task name in that workflow.&#x20;
+{% endhint %}
+
 In the example below, you're going to list every user that is enabled in the child organization, and create or update a contact for each one.
 
 List all enabled users, then output this to a data alias called
