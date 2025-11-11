@@ -206,6 +206,7 @@
     * [Assign Autotask Configuration Contact Based on Last Logged In User Crate](documentation/crates/existing-crate-documentation/assign-autotask-configuration-contact-based-on-last-logged-in-user-crate.md)
     * [Billing Count Report Crate](documentation/crates/existing-crate-documentation/billing-count-report-crate.md)
     * [Bulk Create Client from PSA Crate](documentation/crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md)
+    * [Bulk Move Users to Specified OU Crate](documentation/crates/existing-crate-documentation/bulk-move-users-to-specified-ou-crate.md)
     * [Change a User’s Password Crate](documentation/crates/existing-crate-documentation/change-a-users-password-crate.md)
     * [Clean up Global Address List from Disabled Users Crate](documentation/crates/existing-crate-documentation/clean-up-global-address-list-from-disabled-users-crate.md)
     * [Client Form Launcher Crate](documentation/crates/existing-crate-documentation/client-form-launcher-crate.md)
