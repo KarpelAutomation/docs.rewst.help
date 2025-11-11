@@ -6,28 +6,29 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Report on Disabled M365 Users with Licenses Crate do?
 
-Our Report on Disabled M365 Users with Licenses Crate is designed to go through each customer's Microsoft Entra tenant and find users that are disabled and have a license assigned, which will create a ticket when actionable items are found.&#x20;
+Our Report on Disabled M365 Users with Licenses Crate is designed to go through each customer's Microsoft Entra tenant to find users that are disabled and have a license assigned. It will then create a ticket when actionable items are found.&#x20;
 
-For each user that is discovered to fit this criteria, that is, the user is disabled and and a license is assigned, a ticket will be created. If the ticket already exists, then the existing ticket will be updated. Each ticket note will contain details about the user that can be pulled from Microsoft Entra or Exchange Online, as well as a link to add the user to a list of users to ignore from future runs.
+For each user that is discovered to fit this criteria, the user is disabled, a license is assigned, and a ticket will be created. If the ticket already exists, the existing ticket will be updated. Each ticket note will contain details about the user that can be pulled from Microsoft Entra or Exchange Online, as well as a link to add the user to a list of users to ignore in future runs of the workflow.
 
 ### How the Crate works
 
-* Based on the configured cron schedule, the default frequency is weekly on Monday at 3:00 AM UTC. Disabled users in the customer tenant will be checked to ensure they do not have licenses assigned. Alerts are only sent out when actionable items are found.
+* Based on the configured cron schedule, the default frequency for the workflow is weekly on Monday at 3:00 AM UTC. Disabled users in the customer tenant will be checked to ensure that they don't have licenses assigned. Alerts are only sent out when actionable items are found.
 * This Crate will integrate with Microsoft Entra and Rewst supported PSAs.
-* This Crate will help with reviewing tenants for licenses that are assigned to users that may not need them due to them being disabled.
 
 The Crate is kicked off with the following main workflow:
 
-1. On first run for the managed organization, an organization variable is created for the webhook trigger on the workflow. This trigger is used to update the organization variable for the ignore list. If a customer org attempts to execute prior to this being created, the workflow will exit the main workflow after hitting the `missing_org_var_and_not_top_level_org noop`.
-2. After the first step runs, an organization variable `disabled_user_license_ignore` is created with a default value of an empty list. If this is a subsequent run and the organization variable exists, then it will load the value of the existing organization variable.
-3. Microsoft Graph is queried for a list of users who match the following criteria: Account is disabled, and assigned license count is not equal to 0.
-4. The list of matching users is returned and then compared against the list to ignore. If the user is in the ignore list, the user is removed from the list of users to process.
+1. On first run for the managed organization, an organization variable is created for the webhook trigger on the workflow. This trigger is used to update the organization variable for the ignore list. If a customer organization attempts to execute prior to this being created, the workflow will exit the main workflow after the `missing_org_var_and_not_top_level_org noop`.
+2. After the first step runs, an organization variable `disabled_user_license_ignore` is created with a default value of an empty list. If this is a subsequent run of the workflow and the organization variable already exists, it will load the value of the existing organization variable.
+3. Microsoft Graph is queried for a list of users who match the following criteria:&#x20;
+   1. Account is disabled
+   2. Assigned license count is not equal to 0
+4. The list of matching users is returned and compared against the list to ignore. If the user is in the ignore list, the user is removed from the list of users to process.
 5. The user is directed to a subworkflow that does the info gathering and ticket submission or update.
 6. The following user details are obtained:
    * Assigned SKUs to be translated to friendly names
    * Graph user details
    * Exchange user details
-7. These are then compiled and then a ticket note is formatted.
+7. These are then compiled. A ticket note is formatted.
 8. An existing ticket is checked on all PSAs based on the summary and whether the PSA-related ticket is open or not. If any is found, the existing one is updated. If no ticket exists, a new one is created.
 
 ## Crate prerequisites
@@ -60,7 +61,8 @@ Setting the following variables will allow the Crate to work without further cli
 Refer to the following workflow-specific organization variables:
 
 * **`disabled_user_license_ignore_trigger_id`**: This organization variable only gets set at the top level (MSP) organization. Set automatically on first run for the MSP. The organization variable is set to be used as a default, so inheritance can be used by customer organizations.
-* **`disabled_user_license_ignore`**: This organization variable is in the format of a JSON list. This is used to pull ignored users from the Microsoft Graph return so that they are not processed later in the workflow.
+* **`disabled_user_license_ignore`**: This organization variable is in the format of a JSON list. This is used to pull ignored users from the Microsoft Graph return so that they are not processed later in the workflow. Use this to add individual users to an ignore list for each customer organization, either by clicking the link provided in the PSA ticket or by manually adding each user to the organization variable.
+  * Note that users must be added to the JSON list by the corresponding GUID, not the email or UPN. Example: \["dff2e679-f51d-4259-a32b-bde6fa918671","eaa2e675-f51d-4259-a32b-bde6fa438671"]
 {% endhint %}
 
 ## Use the Crate
