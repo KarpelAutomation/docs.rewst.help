@@ -35,9 +35,9 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 
 ## Crate prerequisites
 
-* For Microsoft 365 setup, our [Microsoft Cloud integration bundle](https://docs.rewst.help/documentation/integrations/cloud/-cloud-integration-bundle) must first be successfully integrated with your Rewst platform.
+* For Microsoft 365 setup, our [Microsoft Cloud integration bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be successfully integrated with your Rewst platform.
 * For Active Directory setup, you’ll need to first set up your [RMM integration](https://docs.rewst.help/documentation/integrations/rmm), or [Agent Smith](https://docs.rewst.help/documentation/agent-smith).
-* Your PSA must be [integrated with Rewst](https://docs.rewst.help/documentation/integrations/psa).
+* Your PSA must be [integrated with Rewst](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations).
 * An open ticket must exist in your PSA.
 
 ## Unpack the **Just in Time Admin Access** Crate

@@ -8,8 +8,7 @@ Currently, Rewst does not support domain-wide delegation. The integration will o
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
-As of May 2025, this integration now supports the following APIs using the generic request action:\
-
+As of May 2025, this integration now supports the following APIs using the generic request action:
 
 * Google Drive
 * Gmail
@@ -25,7 +24,7 @@ Rewst customers who set up this integration prior to the additional API support 
 To complete these steps in Google Cloud Console, project Editor or Owner permissions are required.
 {% endhint %}
 
-1. Log in to your Google Cloud Console at [https://console.cloud.google.com/](https://console.cloud.google.com/) .&#x20;
+1. Log in to your Google Cloud Console at [https://console.cloud.google.com/](https://console.cloud.google.com/).&#x20;
 2. Navigate to **Navigation Menu > IAM & Admin > Manage Resources**.
 3. Click the **CREATE PROJECT**.
 4. Enter a descriptive name for your project that will help you identify it later.
@@ -48,12 +47,12 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 7. Select the appropriate user type for your application. Choose **Internal** for this.
 8. Enter the necessary information about your application into the relevant fields, including the **App name**, and **User support email.**
 9. Click **SAVE AND CONTINUE**.
-10. Click on the **Scopes** tab.
+10. Click **Data Access > Scopes**.
 11. Click **ADD OR REMOVE SCOPES**. Select the specific scopes that your application requires access to.
 12. Search for `Admin SDK` in the search box, and select all related scopes.
 13. Click **UPDATE**.
 14. Navigate to the **Credentials** tab within APIs & Services. Click **CREATE CREDENTIALS** and choose **OAuth client ID** from the drop-down selector.
-15. Select the type of application you are building, such as Web application, Android, iOS, etc.
+15. Select **Web Application** as the type of application you're building. This is the most broad and generic option and will always work with Rewst. Other options may not allow the integration to successfully set up.
 16. Enter a name for your ID in the **Client ID** field.
 17. Enter the following URL under **Authorized Redirect URIs**:
 
@@ -81,10 +80,11 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 
 #### Add integration as trusted app
 
-1. Navigate to **Security > API controls > App access control > Rewst** in your Google console at [admin.google.com](https://admin.google.com).&#x20;
-2. Click to expand the **Access to Google data** accordion menu.
-3. Select **Trusted** under **Status**.
-4.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**\
+1. Navigate to **Security > Access and Data Control > API controls** in your Google console at [admin.google.com](https://admin.google.com).&#x20;
+2. Click **Accessed Apps > View List**.
+3. Search for `Rewst`.
+4. Select **Trusted** under **Status**.
+5.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**\
 
 
     <figure><img src="../../../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>

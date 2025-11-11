@@ -8,6 +8,33 @@ icon: circle-exclamation
 
 <details>
 
+<summary>⚠️ Upcoming: Planned maintenance window - US region November 16th, 2025</summary>
+
+On Sunday, November 16th at 9:00 AM EDT, Rewst will be performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be migrating US users to our new permissions system. Due to the size of our US region, we expect up to 30 minutes where permissions may not properly set in Rewst for users in this region. During this time, no access would be received for newly created entities, including:
+
+* Organizations
+* Users
+* Custom roles
+* App Builder apps
+
+Normal operation will resume immediately after the work is complete, at which point we'll also provide a detailed report of all entities crated during the affected period. We recommend that you plan to not update any of the affected entities during the window.
+
+#### Updates
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
+<details>
+
 <summary>⚠️ Resolved: Service performance issue - US region October 8th, 2025</summary>
 
 On October 8, 2025, following a routine platform deployment, our US region experienced degraded performance affecting workflow execution speeds. From 10:30 AM EDT to 12:31 PM EDT, customers may have noticed slower task completion times and some webhook timeouts.
@@ -34,9 +61,9 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 <details>
 
-<summary>⚠️ Upcoming: Planned maintenance window - US region August 9th, 2025</summary>
+<summary>⚠️ Concluded: Planned maintenance window - US region August 9th, 2025</summary>
 
-On Saturday, August 9th, at 11:45 PM EDT, Rewst will be performing performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be conducting work involving database connection management to ensure continued platform stability and performance. During this brief window, the Rewst platform, including the user interface, API access, and workflow execution, will be temporarily unavailable. The duration of this work outage will be approximately five minutes. Normal operation will resume immediately after the work is complete. We believe that disruption will be minimal, but recommend that you monitor for failed workflows after the maintenance is conducted, and rerun workflows as needed.&#x20;
+On Saturday, August 9th, at 11:45 PM EDT, Rewst will be performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be conducting work involving database connection management to ensure continued platform stability and performance. During this brief window, the Rewst platform, including the user interface, API access, and workflow execution, will be temporarily unavailable. The duration of this work outage will be approximately five minutes. Normal operation will resume immediately after the work is complete. We believe that disruption will be minimal, but recommend that you monitor for failed workflows after the maintenance is conducted, and rerun workflows as needed.&#x20;
 
 #### Updates
 
@@ -54,7 +81,7 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 <details>
 
-<summary>⚠️ Upcoming: Planned maintenance window - All Regions June 19th, 2025</summary>
+<summary>⚠️ Concluded: Planned maintenance window - All Regions June 19th, 2025</summary>
 
 On Saturday, July 19th, the Rewst engineering team will be performing regional critical PostgreSQL upgrades and infrastructure enhancements. The Rewst platform—including the user interface, API access, and all workflow execution—may be intermittently unavailable during the maintenance window. While the duration may be as little as 15 minutes, there is potential for it to last as much as two hours. Our team will work to minimize service disruption in each region. We recommend rescheduling any critical automations during those periods. Please check your region's maintenance time window in the list below. While we'll try to minimize disruptions, we do recommend rescheduling any critical automations during that period.
 

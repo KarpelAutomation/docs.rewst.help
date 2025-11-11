@@ -38,7 +38,7 @@ You'll need an active ConnectWise Developer account to access the above URL.
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 12.53.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
    3. Name the security Role `Rewst API`. &#x20;
    4. Click **save**.
-   5. Set your permissions as per the [#least-privilege-access-requirements-for-connectwise-psa-integration](connectwise-integration-setup.md#least-privilege-access-requirements-for-connectwise-psa-integration "mention") section of this document.
+   5. Set your permissions as per the [#permission-requirements-for-connectwise-psa-integration](connectwise-integration-setup.md#permission-requirements-for-connectwise-psa-integration "mention") section of this document.
 2. Create an API account.
    1. This can be done by following [ConnectWise's own instructions](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FManage%2FDeveloper_Guide%2FAuthentication#tab=login).&#x20;
    2. Note that you'll need to be signed in to ConnectWise PSA to view the documentation.&#x20;
@@ -695,9 +695,26 @@ After you have used this button, a web page will open and close. This will send 
 
 <figure><img src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/a1e209d6-c432-44aa-9785-14d24f47410f" alt=""><figcaption></figcaption></figure>
 
-## Least privilege access requirements for ConnectWise PSA integration
+## Permission requirements for ConnectWise PSA integration
 
+{% hint style="info" %}
+Our listed ConnectWise PSA permission requirements are what is needed for Rewst's Crates to run. Other API actions that you may wish to use in custom-built workflows may require additional permissions. For questions about what permissions would be required to achieve a specific goal, reach out to Rewst support.
+{% endhint %}
 
+Update any of the below permissions scopes in ConnectWise PSA by doing the following in ConnectWise PSA:
+
+1. Click **>** in the left side menu.&#x20;
+2. Navigate to **System > Security Roles**.
+3. Click **+**.
+4. Enter the name of your security role.
+5. Click Save.
+6. A new set of accordion menus will appear. Click to expand each as it corresponds to your needed permission for Rewst.
+7. Click ⌄ under the column for the required level of permission. Change the permission level from **None** to whichever option is indicated in our documentation.
+8. When all desired permissions are updated, click **Save**.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-11 at 4.14.57 PM.png" alt="A white screen with grey and blue elements, and black text. Center screen is a table with down arrows, which reveal menus of options when clicked. The table is for setting permission levels in ConnectWise PSA."><figcaption><p>Match the line item under each accordion menu with the scope header at the top of the page to find where to make your adjustment.</p></figcaption></figure>
+
+Click to expand and view your relevant permission scopes.
 
 <details>
 
@@ -705,8 +722,13 @@ After you have used this button, a web page will open and close. This will send 
 
 To initiate the successful authentication of the ConnectWise PSA integration with Rewst, and pull back the list of companies you want to associate, the following permission scopes are needed:
 
-* System → Member Maintenance: Inquire
-* Companies → Company Maintenance: Inquire
+System&#x20;
+
+* &#x20;Member Maintenance: Set **Inquire** to **All**
+
+Companies&#x20;
+
+* Company Maintenance: Set **Inquire** to **All**&#x20;
 
 {% hint style="danger" %}
 If you are seeing a 403 Forbidden error when running workflows, this is due to incorrect permissions. Ensure that the above authentication requirements are complete to resolve this error.&#x20;
@@ -718,26 +740,47 @@ If you are seeing a 403 Forbidden error when running workflows, this is due to i
 
 <summary>Additional action requirements</summary>
 
-In addition to the above that’s required for authentication, there are several more actions the ConnectWise integration is capable of taking within Rewst. To use them all, you’ll need the following additional security roles configured for this account:
+In addition to the above that’s required for authentication, there are several more actions the ConnectWise PSA integration is capable of taking within Rewst. To use them all, you’ll need the following additional security roles configured for this account:
 
-* Companies → Configurations: Add, Edit, Inquire
-* Companies → Contacts: Add, Edit, Inquire
-* Companies → Manage Attachments: Add (My), Edit (My), Delete(My), Inquire
-* Companies → Team Members: Inquire
-* Service Desk → Service Tickets: Add, Edit, Inquire
-* Service Desk → Service Ticket – Dependencies: Add, Edit, Inquire
-* Service Desk → Close Service Tickets: Edit, Inquire
-* Service Desk → Merge Tickets: Add, Edit, Inquire
-* Project → Project Ticket: Add, Edit, Inquire&#x20;
-* Project → Project Ticket - Dependancies: Add, Edit, Inquire&#x20;
-* Project → Close Project Tickets: Edit, Inquire
-* System → My Account: Add (My), Edit (My), Delete (My), Inquire (My)
-* System → Table Setup: Add, Inquire (Additional customization can be done to allow or disallow tables)
-* Time & Expense → Time Entry: Add, Edit, Delete (My), Inquire
-* Time & Expense → Time Entry Billable Option: Add, Edit, Delete(My), Inquire
-* Finance → Agreements: Inquire
-* Finance → Billing View Time: Inquire: ALL _\*Required for adding billable time to tickets_
-* Finance → Billing View Time: Edit: ALL _\*Required for adding billable time to tickets_
+**Companies**
+
+* **Configurations**: Set **Add**, **Edit**, **Inquire** to **All**
+* **Contacts**: Set **Add**, **Edit**, **Inquire** to **All**
+* **Manage Attachments**: Set **Add**, **Edit**, and **Delete** to **My**, **Inquire** to **All**
+* **Team Members**: Set **Inquire** to **All**
+
+**Finance**&#x20;
+
+* **Agreements**: Set **Inquire** to **All**
+* **Billing View Time**: Set **Inquire** to **All**&#x20;
+  * Required for adding billable time to tickets
+* **Billing View Time**: Set **Edit** to **All**&#x20;
+  * Required for adding billable time to tickets
+
+**Project**
+
+* **Project Ticket**: Set **Add**, **Edit**, **Inquire** to **All**
+* **Project Ticket - Dependancies**: Set **Add**, **Edit**, **Inquire** to **All**
+* **Close Project Tickets**: Set **Edit**, **Inquire** to **All**
+
+**Service Desk**&#x20;
+
+* **Service Tickets**: Set **Add**, **Edit**, **Inquire** to **All**
+* **Service Ticket – Dependencies**: Set **Add**, **Edit**, **Inquire** to **All**
+* **Close Service Tickets**: Set **Edit**, **Inquire** to **All**
+* **Merge Tickets**: Set **Add**, **Edit**, **Inquire** to **All**
+
+**System**&#x20;
+
+* **My Account**: Set **Add**, **Edit**, **Delete**, **Inquire** to **My**
+* **Table Setup**: Set **Add**, **Inquire** to **All** (Additional customization can be done to allow or disallow tables)
+
+**Time & Expense**&#x20;
+
+* **Time Entry**: Set **Add**, **Edit** and **Inquire** to **All**, **Delete** to **My**
+* **Time Entry Billable Option**: Set **Add**, **Edit** and **Inquire** to **All**, **Delete** to **My**
+
+
 
 </details>
 
@@ -876,7 +919,7 @@ Different conditions serve different purposes. Mastering these conditions enable
 
 ## Crates related to the ConnectWise PSA integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.39.46 PM.png">Screenshot 2025-06-17 at 3.39.46 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md">bulk-create-client-from-psa-crate.md</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.47.08 PM.png">Screenshot 2025-06-17 at 3.47.08 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-categorisation-setup.md">openai-ticket-categorisation-setup.md</a></td></tr><tr><td><strong>Add Rewst Form Link to New User Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.47.42 PM.png">Screenshot 2025-06-17 at 3.47.42 PM.png</a></td><td></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.48.28 PM.png">Screenshot 2025-06-17 at 3.48.28 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-sentiment-setup.md">openai-ticket-sentiment-setup.md</a></td></tr><tr><td><strong>CW PSA: Pod Technician Toolbox Crate V2</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.49.13 PM.png">Screenshot 2025-06-17 at 3.49.13 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/cwm-technician-toolbox-via-pod-1.md">cwm-technician-toolbox-via-pod-1.md</a></td></tr><tr><td><strong>Add Rewst Form Link to Offboarding Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.49.44 PM.png">Screenshot 2025-06-17 at 3.49.44 PM.png</a></td><td></td></tr><tr><td><strong>Assign Asset/Config to Ticket Based on Contact</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.50.15 PM.png">Screenshot 2025-06-17 at 3.50.15 PM.png</a></td><td></td></tr><tr><td><strong>Use OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.29 PM.png">Screenshot 2025-06-17 at 3.51.29 PM.png</a></td><td></td></tr><tr><td><strong>Prompt to Combine Similar Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.04 PM.png">Screenshot 2025-06-17 at 3.51.04 PM.png</a></td><td></td></tr><tr><td><strong>Browse Rewst Form Triggers Within a Form and Attach to a Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.02 PM.png">Screenshot 2025-06-17 at 3.52.02 PM.png</a></td><td></td></tr><tr><td><strong>ConnectWise PSA Agreement Mapping</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.20 PM.png">Screenshot 2025-06-17 at 3.52.20 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/connectwise-psa-agreement-mapping.md">connectwise-psa-agreement-mapping.md</a></td></tr><tr><td><strong>Consolidate and Manage Duplicate Configurations</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.39 PM.png">Screenshot 2025-06-17 at 3.52.39 PM.png</a></td><td></td></tr><tr><td><strong>Sync AzureAD Account Information with ConnectWise PSA Contacts (V3)</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.00 PM.png">Screenshot 2025-06-17 at 3.53.00 PM.png</a></td><td></td></tr><tr><td><strong>Upload File to PSA Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.16 PM.png">Screenshot 2025-06-17 at 3.53.16 PM.png</a></td><td></td></tr><tr><td><strong>Configure CWM Agreement for Duo Sync</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.36 PM.png">Screenshot 2025-06-17 at 3.53.36 PM.png</a></td><td></td></tr><tr><td><strong>Set ConnectWise PSA Board OnCall Member</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.10 PM.png">Screenshot 2025-06-17 at 3.54.10 PM.png</a></td><td></td></tr><tr><td><strong>Deactivate ConnectWise PSA Contacts When Their Company is Deactivated</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.32 PM.png">Screenshot 2025-06-17 at 3.54.32 PM.png</a></td><td></td></tr><tr><td><strong>Sync On-Prem Users to CWM Contacts</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.55 PM.png">Screenshot 2025-06-17 at 3.54.55 PM.png</a></td><td></td></tr><tr><td><strong>Mark CWM Overdue Tasks Complete</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.21 PM.png">Screenshot 2025-06-17 at 3.55.21 PM.png</a></td><td></td></tr><tr><td><strong>Sync VIP Contact Status to ITG Status</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.39 PM.png">Screenshot 2025-06-17 at 3.55.39 PM.png</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.39.46 PM.png">Screenshot 2025-06-17 at 3.39.46 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md">bulk-create-client-from-psa-crate.md</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.47.08 PM.png">Screenshot 2025-06-17 at 3.47.08 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-categorisation-setup.md">openai-ticket-categorisation-setup.md</a></td></tr><tr><td><strong>PSA: Update ticket with User Onboard Links</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-11 at 3.56.56 PM.png">Screenshot 2025-11-11 at 3.56.56 PM.png</a></td><td></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.48.28 PM.png">Screenshot 2025-06-17 at 3.48.28 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-sentiment-setup.md">openai-ticket-sentiment-setup.md</a></td></tr><tr><td><strong>CW PSA: Pod Technician Toolbox Crate V2</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.49.13 PM.png">Screenshot 2025-06-17 at 3.49.13 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/cwm-technician-toolbox-via-pod-1.md">cwm-technician-toolbox-via-pod-1.md</a></td></tr><tr><td><strong>PSA: Update ticket with User Offboard Links</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-11 at 3.56.13 PM.png">Screenshot 2025-11-11 at 3.56.13 PM.png</a></td><td></td></tr><tr><td><strong>Assign Asset/Config to Ticket Based on Contact</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.50.15 PM.png">Screenshot 2025-06-17 at 3.50.15 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/assign-asset-config-to-ticket-based-on-contact-crate.md">assign-asset-config-to-ticket-based-on-contact-crate.md</a></td></tr><tr><td><strong>Use OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.29 PM.png">Screenshot 2025-06-17 at 3.51.29 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/use-openai-to-suggest-responses-to-new-tickets-crate.md">use-openai-to-suggest-responses-to-new-tickets-crate.md</a></td></tr><tr><td><strong>Prompt to Combine Similar Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.04 PM.png">Screenshot 2025-06-17 at 3.51.04 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/prompt-to-combine-similar-tickets-crate.md">prompt-to-combine-similar-tickets-crate.md</a></td></tr><tr><td><strong>Browse Rewst Form Triggers Within a Form and Attach to a Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.02 PM.png">Screenshot 2025-06-17 at 3.52.02 PM.png</a></td><td></td></tr><tr><td><strong>ConnectWise PSA Agreement Mapping</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.20 PM.png">Screenshot 2025-06-17 at 3.52.20 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/connectwise-psa-agreement-mapping.md">connectwise-psa-agreement-mapping.md</a></td></tr><tr><td><strong>Consolidate and Manage Duplicate Configurations</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.39 PM.png">Screenshot 2025-06-17 at 3.52.39 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/consolidate-and-manage-duplicate-configurations-crate.md">consolidate-and-manage-duplicate-configurations-crate.md</a></td></tr><tr><td><strong>Sync AzureAD Account Information with ConnectWise PSA Contacts (V3)</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.00 PM.png">Screenshot 2025-06-17 at 3.53.00 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md">sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md</a></td></tr><tr><td><strong>Upload File to PSA Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.16 PM.png">Screenshot 2025-06-17 at 3.53.16 PM.png</a></td><td></td></tr><tr><td><strong>Configure CWM Agreement for Duo Sync</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.36 PM.png">Screenshot 2025-06-17 at 3.53.36 PM.png</a></td><td></td></tr><tr><td><strong>Set ConnectWise PSA Board OnCall Member</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.10 PM.png">Screenshot 2025-06-17 at 3.54.10 PM.png</a></td><td></td></tr><tr><td><strong>Deactivate ConnectWise PSA Contacts When Their Company is Deactivated</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.32 PM.png">Screenshot 2025-06-17 at 3.54.32 PM.png</a></td><td></td></tr><tr><td><strong>Sync On-Prem Users to CWM Contacts</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.55 PM.png">Screenshot 2025-06-17 at 3.54.55 PM.png</a></td><td></td></tr><tr><td><strong>Mark CWM Overdue Tasks Complete</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.21 PM.png">Screenshot 2025-06-17 at 3.55.21 PM.png</a></td><td></td></tr><tr><td><strong>Sync VIP Contact Status to ITG Status</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.39 PM.png">Screenshot 2025-06-17 at 3.55.39 PM.png</a></td><td></td></tr></tbody></table>
 
 
 
