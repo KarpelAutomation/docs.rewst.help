@@ -10,14 +10,14 @@ icon: circle-exclamation
 
 <summary>⚠️ Upcoming: Planned maintenance window - US region November 16th, 2025</summary>
 
-On Sunday, November 16th at 9:00 AM EDT, Rewst will be performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be migrating US users to our new permissions system. Due to the size of our US region, we expect up to 30 minutes where permissions may not properly set in Rewst for users in this region. During this time, no access would be received for newly created entities, including:
+On Sunday, November 16th at 9:00 AM EDT, Rewst will be performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be migrating US users to our new permissions system. Due to the size of our US region, we expect up to 30 minutes where creating new entities, such as organizations or users, will result in under-provisioning or lack of access. Affected entities include:
 
 * Organizations
 * Users
 * Custom roles
 * App Builder apps
 
-Normal operation will resume immediately after the work is complete, at which point we'll also provide a detailed report of all entities crated during the affected period. We recommend that you plan to not update any of the affected entities during the window.
+Normal operation will resume immediately after the work is complete, at which point we'll also provide a detailed report of all entities created during the affected period. We recommend that you plan to not update any of the affected entities during the window.
 
 #### Updates
 

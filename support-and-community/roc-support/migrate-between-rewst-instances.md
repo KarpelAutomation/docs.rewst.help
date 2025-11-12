@@ -4,7 +4,7 @@ This guide provides a step-by-step process for migrating from one Rewst instance
 manual migration of organizations, workflows, integrations, templates, forms, and other elements.&#x20;
 
 {% hint style="warning" %}
-Migration of instances is an advanced process completed by Rewst customers and should not be attempted by new Rewst users.  [Reach out to Rewst Support ](./)to set up migration assistance. Expect the entire migration process to take several weeks, or perhaps months if your first Rewst instance is especially large. Proper planning for migration should include ample time for dedicated testing.
+Migration of instances is an advanced process completed by Rewst customers and should not be attempted by new Rewst users.  [Reach out to Rewst Support ](./)to set up your new organization in a different region. Expect the entire migration process to take several weeks, or perhaps months if your first Rewst instance is especially large. Proper planning for migration should include ample time for dedicated testing.
 
 Currently, there is no way to move custom integrations from one instance to another. When you set up your custom integration in your new instance, any imports containing custom integration actions will fail in the new instance. You'll need to redo all actions in the custom integration.
 {% endhint %}
