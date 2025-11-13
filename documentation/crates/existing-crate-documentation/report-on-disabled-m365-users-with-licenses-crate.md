@@ -10,6 +10,8 @@ Our Report on Disabled M365 Users with Licenses Crate is designed to go through 
 
 For each user that is discovered to fit this criteria, the user is disabled, a license is assigned, and a ticket will be created. If the ticket already exists, the existing ticket will be updated. Each ticket note will contain details about the user that can be pulled from Microsoft Entra or Exchange Online, as well as a link to add the user to a list of users to ignore in future runs of the workflow.
 
+This Crate does not automatically remediate user accounts.
+
 ### How the Crate works
 
 * Based on the configured cron schedule, the default frequency for the workflow is weekly on Monday at 3:00 AM UTC. Disabled users in the customer tenant will be checked to ensure that they don't have licenses assigned. Alerts are only sent out when actionable items are found.
@@ -30,6 +32,10 @@ The Crate is kicked off with the following main workflow:
    * Exchange user details
 7. These are then compiled. A ticket note is formatted.
 8. An existing ticket is checked on all PSAs based on the summary and whether the PSA-related ticket is open or not. If any is found, the existing one is updated. If no ticket exists, a new one is created.
+
+{% hint style="info" %}
+When the technician clicks on the link in the ticket notes, this will open a browser window and JSON stating that the workflow has been executed will be returned. This can be closed safely once it appears. This click will modify the organization variable for the organization to include the user in the ignore list.
+{% endhint %}
 
 ## Crate prerequisites
 
@@ -84,6 +90,19 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 8. Click **Submit**.
 9. Click **Save**.
 10. You'll see a green message at the top of your screen indicating the trigger is saved.
+
+## Organization variables associated with this Crate <a href="#organization-variables-associated-with-this-crate" id="organization-variables-associated-with-this-crate"></a>
+
+{% hint style="info" %}
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables).
+
+Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
+
+If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.
+{% endhint %}
+
+* `disabled_user_license_ignore_trigger_id` - This organization variable only gets set at the top, MSP level organization, and is set automatically on first run for the MSP. It's set to use as the default so inheritance can be used by customer organizations.
+* `disabled_user_license_ignore` - This organization variable is in the format of a JSON list. This is used to pull ignored users from the Microsoft Graph return so they are not processed later in the workflow.&#x20;
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

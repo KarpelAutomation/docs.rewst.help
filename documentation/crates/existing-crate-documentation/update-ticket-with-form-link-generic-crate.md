@@ -57,7 +57,7 @@ If you do not have a trigger variable configured before running the workflow in 
 7. Click **Submit**.
 
 {% hint style="info" %}
-If you would like to use this Crate for several forms, you'll need to create a separate trigger instance for each form.
+If you would like to use this Crate for several forms, you'll need to create a separate trigger instance for each form. See our documentation for how to create and update triggers [here](https://docs.rewst.help/documentation/automations/intro-to-triggers#create-a-trigger).  Repeat the above steps 1-6 for each of the forms you wish to use with the Crate.
 {% endhint %}
 
 ### Example ticket update

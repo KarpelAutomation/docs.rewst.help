@@ -70,7 +70,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 If you're writing custom PowerShell scripts to use and be run with your RMM integration, you'll need to manually add webhook calls. Any custom script will time out if used without first adding the webhook calls. The use of standard built-in Rewst scripts with your RMM does not require you to add the calls.
 
-* The webhook calls everyone doing this custom scripting should use will always be as follows.
+The webhook calls everyone doing this custom scripting should use will always be as follows.
 
 ```
 `

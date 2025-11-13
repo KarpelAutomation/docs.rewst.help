@@ -29,7 +29,8 @@ For instructions on importing a CPT file into Datto RMM refer to Datto's documen
 {% endhint %}
 
 {% hint style="info" %}
-During the import, you will need to update your Component's Rewst Base URL. This will vary depending on which Rewst instance you are on. You must update the $rewst\_base\_url property in the script below to match your Rewst Instance. You can identify which instance you are on by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst Base URL
+During the import, you will need to update your Component's Rewst Base URL. This will vary depending on which Rewst instance you are on. You must update the $rewst\_base\_url property in the script below to match your Rewst Instance. You can identify which instance you are on by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst Base URL.\
+Example of correct base URL: `https://engine.rewst.io/webhooks/custom/action`
 {% endhint %}
 
 | Rewst URL        | Base URL            |

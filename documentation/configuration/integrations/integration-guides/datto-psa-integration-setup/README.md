@@ -139,7 +139,13 @@ If there are too many customers in the query, you may experience long loading ti
 
 ## Crates related to the Datto Autotask integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../../.gitbook/assets/Open AI TIcket Categorization copy.png">Open AI TIcket Categorization copy.png</a></td></tr><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../../.gitbook/assets/Bulk create client from psa (1).png">Bulk create client from psa (1).png</a></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../../.gitbook/assets/Open ai ticket sentiment analysis (1).png">Open ai ticket sentiment analysis (1).png</a></td></tr><tr><td><strong>Add Rewst Form Link to New User Request Tickets</strong></td><td><a href="../../../../../.gitbook/assets/Add Rewst form link.png">Add Rewst form link.png</a></td></tr><tr><td><strong>Add Rewst Form Link to Offboarding Request Tickets</strong></td><td><a href="../../../../../.gitbook/assets/Add REwst form link to offboarding.png">Add REwst form link to offboarding.png</a></td></tr><tr><td><strong>Assign Asset/ Config to Ticket Based on Contact</strong></td><td><a href="../../../../../.gitbook/assets/Assign asset config to ticket based on contact.png">Assign asset config to ticket based on contact.png</a></td></tr><tr><td><strong>Use OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../../.gitbook/assets/Use open ai to suggest ticket responses to new tickets.png">Use open ai to suggest ticket responses to new tickets.png</a></td></tr><tr><td><strong>Browse Rewst Form Triggers within a Form and Attach to a Ticket</strong></td><td><a href="../../../../../.gitbook/assets/browse Rewst form triggers within a form and attach to a ticket.avif">browse Rewst form triggers within a form and attach to a ticket.avif</a></td></tr></tbody></table>
+To see an up-to-date list of Crates that can be unpacked after completing Datto Autotask integration, navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
+
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.33.25 PM.png" alt=""><figcaption></figcaption></figure>
+
+Click **Filter** to expand the filter menu. Enter **Datto Autotask PSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
+
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
 
 ## Webhook setup for triggers
 

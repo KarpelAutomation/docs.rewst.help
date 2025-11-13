@@ -67,7 +67,7 @@ With the above filled out and configured, you can add or invite users to the new
 <figure><img src="../../../.gitbook/assets/filling-out-the-form.gif" alt=""><figcaption><p>Filling out the Form</p></figcaption></figure>
 
 {% hint style="info" %}
-**Organization Variables Needed**
+**Organization variables needed**
 
 Setting the following variables will allow a number of Crates, including the New User Onboarding Crate, to work without further client-specific setup:
 

@@ -28,7 +28,8 @@ Our NinjaOne integration provides users with a powerful combination of documenta
    5. Paste the code below into the script box
 
 {% hint style="info" %}
-Your Rewst Base URL will vary depending on which Rewst instance you are on. You must update the $rewst\_base\_url property in the script below to match your Rewst Instance. You can identify which instance you are on by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst Base URL
+Your Rewst Base URL will vary depending on which Rewst instance you are on. You must update the $rewst\_base\_url property in the script below to match your Rewst Instance. You can identify which instance you are on by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst Base URL.\
+Example of correct base URL: `https://engine.rewst.io/webhooks/custom/action`
 {% endhint %}
 
 | Rewst URL       | Base URL           |
@@ -127,11 +128,11 @@ $postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $
 
 ## Crates related to the NinjaOne integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Sync NinjaRMM Device Counts to Gradient Synthesize</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.32.49 AM.png">Screenshot 2025-03-14 at 11.32.49 AM.png</a></td></tr><tr><td><strong>Just in Time Admin Access</strong></td><td><a href="../../../../.gitbook/assets/Just in time admin access (2).png">Just in time admin access (2).png</a></td></tr><tr><td><strong>Agent Smith: Device Provisioning, and Agent Smith Service Provisioning</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.06 AM.png">Screenshot 2025-03-14 at 11.34.06 AM.png</a></td></tr><tr><td><strong>Ad-Hoc Install/Uninstall Software via Chocolatey</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-02-27 at 3.37.42 PM (1).png">Screenshot 2025-02-27 at 3.37.42 PM (1).png</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.17 AM.png">Screenshot 2025-03-14 at 11.34.17 AM.png</a></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-14 at 11.34.29 AM.png">Screenshot 2025-03-14 at 11.34.29 AM.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sync NinjaRMM Device Counts to Gradient Synthesize</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.04.11 PM.png">Screenshot 2025-11-13 at 3.04.11 PM.png</a></td><td></td></tr><tr><td><strong>Just in Time Admin Access</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.01.35 PM.png">Screenshot 2025-11-13 at 3.01.35 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/just-in-time-admin-access-crate.md">just-in-time-admin-access-crate.md</a></td></tr><tr><td><strong>Agent Smith: Device Provisioning, and Agent Smith Service Provisioning</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.00.37 PM.png">Screenshot 2025-11-13 at 3.00.37 PM.png</a></td><td><a href="../../../agent-smith/agent-smith-configuration-overview.md">agent-smith-configuration-overview.md</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.02.29 PM.png">Screenshot 2025-11-13 at 3.02.29 PM.png</a></td><td></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.02.05 PM.png">Screenshot 2025-11-13 at 3.02.05 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/bulk-move-users-to-specified-ou-crate.md">bulk-move-users-to-specified-ou-crate.md</a></td></tr></tbody></table>
 
 ## Troubleshoot the NinjaOne integration
 
-### All List component actions fail.
+### All List component actions fail
 
 If any list action is failing, ensure that you have added the script in previous instructions, into NinjaOne.
 

@@ -115,7 +115,13 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Crates related to the Kaseya BMS integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client From PSA</strong></td><td><a href="../../../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md">bulk-create-client-from-psa-crate.md</a></td><td><a href="../../../../.gitbook/assets/Bulk create client from psa (1).png">Bulk create client from psa (1).png</a></td></tr><tr><td><strong>Microsoft: User Onboarding</strong></td><td><a href="../../../crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/">microsoft-user-onboarding-crate-v2</a></td><td><a href="../../../../.gitbook/assets/Microsoft user onboarding.png">Microsoft user onboarding.png</a></td></tr><tr><td><strong>Open AI Ticket Sentiment Analysis</strong></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-sentiment-setup.md">openai-ticket-sentiment-setup.md</a></td><td><a href="../../../../.gitbook/assets/Open ai ticket sentiment analysis (2).png">Open ai ticket sentiment analysis (2).png</a></td></tr><tr><td><strong>Microsoft: User Offboarding</strong></td><td></td><td><a href="../../../../.gitbook/assets/Microsoft user offboarding (1).png">Microsoft user offboarding (1).png</a></td></tr></tbody></table>
+To see an up-to-date list of Crates that can be unpacked after completing Kaseya BMS integration, navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.42.06 PM.png" alt=""><figcaption></figcaption></figure>
+
+Click **Filter** to expand the filter menu. Enter **Kaseya BMS** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

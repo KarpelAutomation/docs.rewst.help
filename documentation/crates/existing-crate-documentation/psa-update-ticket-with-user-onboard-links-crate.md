@@ -84,9 +84,10 @@ If you haven't done so already, we recommended that you run the [Configure Organ
 * `superops_client_id`
 * `superops_site_id`
 * `time_entry_ticket_status`
-* `user_onboard_form_default_trigger_id` - set this variable to the value of a trigger ID of the form you want added to the ticket note
-* `user_onboard_form_name`
-* `psa_new_user_ticket_type`
+* `user_onboard_form_default_trigger_id` - optionally, set this variable to the value of a trigger ID of the form you want added to the ticket note, if you want to use the specific trigger by ID
+* `user_onboard_form_name` - optionally, set this variable value to the name of the form you want added to the ticket note, and ensure that is is checked as **Default**
+  * Note that if you set both `user_onboard_form_default_trigger_id` and `user_onboard_form_name` , `user_onboard_form_default_trigger_id` will take priority.   &#x20;
+* &#x20;  `psa_new_user_ticket_type`
 * `psa_new_user_ticket_subtype`
 
 {% hint style="info" %}

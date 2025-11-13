@@ -130,6 +130,10 @@ Only Microsoft authentication is permissible. Providers like Duo are incompatibl
 
 #### Modify conditional access policy in Microsoft Azure: Set up your MSP's policies
 
+{% hint style="info" %}
+This step is unnecessary if the tenant is under Microsoft default security settings. If you have no conditional access policies and are operating under security defaults, which already require MFA, skip to the next section.
+{% endhint %}
+
 1. Navigate to the [Conditional Access Policies](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies) blade in Azure.
 2. Remove the Rewst service account from any existing policies which may have been inherited at the time of its creation. If there are no existing policies, move on to the next step.
 3. Create a New Policy.
@@ -337,9 +341,7 @@ Important: Review your internal processes before proceeding, as Rewst will be ab
 <summary>Issue: Auth app registration error</summary>
 
 * **Symptom**: Failure to proceed past the authentication step, not even reaching the Microsoft Auth login screen.
-
-- **Common Cause**: This may occur due to a delay on Microsoft's end  where the system is still processing the app registration.
-
+* **Common Cause**: This may occur due to a delay on Microsoft's end  where the system is still processing the app registration.
 * **Solution**: Wait a minute or two before attempting to re-authenticate. This allows time for the backend processes to complete.
 
 </details>
@@ -349,9 +351,7 @@ Important: Review your internal processes before proceeding, as Rewst will be ab
 <summary>Issue: Legacy app registration conflicts</summary>
 
 * **Symptom**: Successful authentication only after switching between the new Rewst Cloud Connector and the legacy Rewst Prod App Registration.
-
-- **Potential Cause**: Existing Rewst Prod installations in the Microsoft tenant might interfere with the new setup.
-
+* **Potential Cause**: Existing Rewst Prod installations in the Microsoft tenant might interfere with the new setup.
 * **Solution**:
   * Restart the integration wizard from the beginning.
   * Make sure all configuration steps are correctly completed. Pay extra attention to step 2 and confirm that a notification appears, indicating that the configurations have been updated.

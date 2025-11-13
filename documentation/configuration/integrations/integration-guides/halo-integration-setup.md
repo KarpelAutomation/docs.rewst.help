@@ -140,9 +140,13 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Crates related to the HaloPSA integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-01-21 at 11.05.26 AM.png">Screenshot 2025-01-21 at 11.05.26 AM.png</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../.gitbook/assets/Openai ticket categorization.png">Openai ticket categorization.png</a></td></tr><tr><td><strong>Add Rewst Form Link to New User Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Add rewst form link to new user request tickets.png">Add rewst form link to new user request tickets.png</a></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../.gitbook/assets/Open ai ticket sentiment analysis.png">Open ai ticket sentiment analysis.png</a></td></tr><tr><td><strong>Add Rewst Form Link to Offboarding Request Tickets</strong></td><td><a href="../../../../.gitbook/assets/Add REwst form link to offboarding.png">Add REwst form link to offboarding.png</a></td></tr><tr><td><strong>Assign Asset/Config to Ticket based on Contact</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.28.57 AM.png">Screenshot 2025-03-11 at 10.28.57 AM.png</a></td></tr><tr><td><strong>Use</strong> <strong>OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.33 AM.png">Screenshot 2025-03-11 at 10.29.33 AM.png</a></td></tr><tr><td><strong>Browse Rewst Form Triggers within a Form and Attach to a Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.29.57 AM.png">Screenshot 2025-03-11 at 10.29.57 AM.png</a></td></tr></tbody></table>
+To see an up-to-date list of Crates that can be unpacked after completing HaloPSA integration, navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.38.40 PM.png" alt=""><figcaption></figcaption></figure>
 
+Click **Filter** to expand the filter menu. Enter **HaloPSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
 
 ## Troubleshooting HaloPSA integration setup
 
