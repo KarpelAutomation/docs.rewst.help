@@ -41,9 +41,7 @@ The Crate is typically triggered by a scheduled cron trigger, which allows for r
    ![](<../../../.gitbook/assets/image (196).png>)
 6. Click **Submit** to run the workflow. The workflow will run and automatically add notes to your PSA with the results of the software operation.
 
-### Adjust the cron trigger
-
-#### Test the Crate
+### Test the Crate
 
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
 
@@ -59,7 +57,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
     <figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your RMM's portal to ensure that the workflow is able to find the inactive computers as expected.
 
-#### Update the cron trigger schedule
+### Update the cron trigger schedule
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. To edit a cron trigger in the workflow to change the timing it will routinely run:
 

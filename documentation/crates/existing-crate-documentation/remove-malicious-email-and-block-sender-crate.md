@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Remove Malicious Email and Block Sender Crate will allow you to search for a specific sender, remove any emails from that sender and block them on an organization wide basis. It will then document the action in an existing ticket.
 
-### Why use the Remove Malicious Email and Block Sender Crate?
-
 * Achieve a quick resolution of spam issues affecting multiple users.
 * Ensure proactive blocking of known spam senders.
 * Set up automatic documentation of spam-related actions in a ticket for auditing.
@@ -47,7 +45,7 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 6. Enter your time savings into the **Time Saved (seconds)** field.
 7. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 1. Navigate to **Automations > Forms** in the Rewst platform.
 2.  Search for `Remove Emails and Block Sender`.\

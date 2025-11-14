@@ -16,10 +16,6 @@ The Document Group Details V2 Crate is designed to streamline the documentation 
 Note: This Crate does not remove or archive assets when they are no longer present in the parent tenant.
 {% endhint %}
 
-## Why use the Document Group Details V2 Crate?
-
-Automate the process of group management, auditing, reporting, and overall IT administration. Improve reporting accuracy, time-savings through automated documentation, and easy troubleshooting with readily available group information.&#x20;
-
 ## Crate prerequisites
 
 The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.

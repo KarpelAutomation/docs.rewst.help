@@ -38,7 +38,7 @@ Before unpacking this Crate:
 The Crate will unpack with its triggers enabled. The trigger is set to work on any new tickets automatically. You will need to manually load the toolbox, as shown further in this document.
 {% endhint %}
 
-## Use the tool box
+### Use the tool box
 
 On tickets with the pod running, you'll see five main categories. Clicking the categories will open menu options for further tasks, as outlined below.&#x20;
 

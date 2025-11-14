@@ -10,65 +10,7 @@ This Crate gives you a simple way to help validate that your GDAP roles and perm
 
 For more information on the recommended GDAP roles, see the [Best Practices for Microsoft Integration](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices) page in our documentation.
 
-## Crate prerequisites
-
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
-
-## Unpack the M365 CSP/GDAP Permission Checker Crate
-
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
-2. Search for `M365 CSP/GDAP Permission Checker`**.**\
-   \
-   ![](<../../../.gitbook/assets/image (151).png>)
-3. Click on the Crate tile to begin unpacking.
-4. Click **Unpack Crate**.
-5.  Click **Continue**.\
-
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-22 at 3.52.52 PM.png" alt=""><figcaption><p>The Crate's configuration page</p></figcaption></figure>
-6. Enter your time estimate into the **Time Saved (seconds)** field.
-7. Expand the **Always Pass** accordion menu. Ensure that **Activate for all current and future managed organizations** is toggled on to allow you to run the Crate ad-hoc for any of your client accounts.
-8. Click **Unpack**.
-
-## How to use the Crate
-
-1. Navigate to **Automations > Workflows**.
-2. Search for `[ROC] M365: CSP/CPV Permission Checker`. Click on the workflow to open it in the Workflow Builder.&#x20;
-3. Within the **\[ROC] M365: CSP/CPV Permission Checker** main workflow, click `Test`.
-4. Select the tenant you want to check permissions for from the **Trigger Context Organization** dropdown menu. This list is derived from the organizations enabled in your trigger configuration.
-5.  Enter the domain associated with the managing organization's tenant in the **Primary Domain of the MSP** field. \
-
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-24 at 9.08.54 AM.png" alt=""><figcaption></figcaption></figure>
-6. Click **Test**.
-7. Click **View Results**.
-8. Click **Load Context**. \
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2025-04-24 at 9.09.31 AM.png>)
-9. Click to expand all ![](<../../../.gitbook/assets/Screenshot 2025-04-24 at 9.10.17 AM.png>) s in the context code. The errors messages contained within this record will indicate if roles are present or missing. For example:
-
-```
-"missing_roles": [
-  {
-    "ID": "No ID associated with no user",
-    "Name": "Security Administrator",
-    "Note": "No users assigned to this role.",
-    "Found": false,
-    "Principal Organization IDs": []
-  },
-  {
-    "ID": "No ID associated with no user",
-    "Name": "Authentication Policy Administrator",
-    "Note": "No users assigned to this role.",
-    "Found": false,
-    "Principal Organization IDs": []
-  }
-]
-```
-
-## Technical execution of the Crate
-
-### **Workflow steps** <a href="#workflow-steps" id="workflow-steps"></a>
+### **Workflow breakdown** <a href="#workflow-steps" id="workflow-steps"></a>
 
 <details>
 
@@ -132,6 +74,64 @@ Example output:
 ```
 
 </details>
+
+
+
+## Crate prerequisites
+
+The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+
+## Unpack the M365 CSP/GDAP Permission Checker Crate
+
+1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+2. Search for `M365 CSP/GDAP Permission Checker`**.**\
+   \
+   ![](<../../../.gitbook/assets/image (151).png>)
+3. Click on the Crate tile to begin unpacking.
+4. Click **Unpack Crate**.
+5.  Click **Continue**.\
+
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-22 at 3.52.52 PM.png" alt=""><figcaption><p>The Crate's configuration page</p></figcaption></figure>
+6. Enter your time estimate into the **Time Saved (seconds)** field.
+7. Expand the **Always Pass** accordion menu. Ensure that **Activate for all current and future managed organizations** is toggled on to allow you to run the Crate ad-hoc for any of your client accounts.
+8. Click **Unpack**.
+
+### Use the Crate
+
+1. Navigate to **Automations > Workflows**.
+2. Search for `[ROC] M365: CSP/CPV Permission Checker`. Click on the workflow to open it in the Workflow Builder.&#x20;
+3. Within the **\[ROC] M365: CSP/CPV Permission Checker** main workflow, click `Test`.
+4. Select the tenant you want to check permissions for from the **Trigger Context Organization** dropdown menu. This list is derived from the organizations enabled in your trigger configuration.
+5.  Enter the domain associated with the managing organization's tenant in the **Primary Domain of the MSP** field. \
+
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-24 at 9.08.54 AM.png" alt=""><figcaption></figcaption></figure>
+6. Click **Test**.
+7. Click **View Results**.
+8. Click **Load Context**. \
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2025-04-24 at 9.09.31 AM.png>)
+9. Click to expand all ![](<../../../.gitbook/assets/Screenshot 2025-04-24 at 9.10.17 AM.png>) s in the context code. The errors messages contained within this record will indicate if roles are present or missing. For example:
+
+```
+"missing_roles": [
+  {
+    "ID": "No ID associated with no user",
+    "Name": "Security Administrator",
+    "Note": "No users assigned to this role.",
+    "Found": false,
+    "Principal Organization IDs": []
+  },
+  {
+    "ID": "No ID associated with no user",
+    "Name": "Authentication Policy Administrator",
+    "Note": "No users assigned to this role.",
+    "Found": false,
+    "Principal Organization IDs": []
+  }
+]
+```
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate allows your team to select a ticket, identify the software in question, and choose the device for uninstallation, all in one smooth workflow. Post completion, the ticket status is automatically updated in ImmyBot.
 
-### Why use the Uninstall Ad-Hoc Software Crate?
-
 * Simplify the software uninstallation process for both end-users and technicians.
 * Ensure seamless integration with ImmyBot for ticket management.
 * Automate mundane tasks, allowing your team to focus on more complex issues.
@@ -31,7 +29,7 @@ This Crate allows your team to select a ticket, identify the software in questio
   * [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
   * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)&#x20;
 
-### Unpack the Uninstall Ad-Hoc Software Crate
+## Unpack the Uninstall Ad-Hoc Software Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Uninstall Ad-Hoc Software`.\

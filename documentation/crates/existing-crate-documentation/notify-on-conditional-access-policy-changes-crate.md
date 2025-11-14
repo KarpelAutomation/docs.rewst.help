@@ -8,13 +8,11 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate monitors Microsoft 365 Conditional Access Policy changes and generates notifications via ticket creation and email alerts. It leverages OpenAI to provide a clearer, human-readable summary of policy modifications.
 
-### Why use the Notify on Conditional Access Policy Changes Crate?
-
 * Get notified about unauthorized Conditional Access policy changes.
 * Ensure security policies are consistently reviewed and modified only by authorized personnel.
 * Streamline incident response by automatically creating tickets or sending email notifications for policy changes.
 
-### Crate prerequisites
+## Crate prerequisites
 
 Before unpacking this Crate:
 
@@ -23,7 +21,7 @@ Before unpacking this Crate:
 * Set up email configuration for notifications, if using email alerts
 * Your [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be configured, if using ticket notifications
 
-### Unpack the Notify on Conditional Access Policy Changes Crate
+## Unpack the Notify on Conditional Access Policy Changes Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Notify on Conditional Access Policy Changes`.\

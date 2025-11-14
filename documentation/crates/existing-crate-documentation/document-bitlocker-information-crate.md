@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Document BitLockers crate automates the collection and documentation of BitLocker encryption details for computers managed through your RMM. Maintain visibility and compliance by syncing key encryption attributes into your preferred documentation platform.  BitLocker details are collected by running a PowerShell script via the RMM, so only computers that are online during execution will have their BitLocker information documented. This Crate not delete BitLocker asset records that are no longer associated with active computers.
 
-### Why use the Document BitLocker Information Crate?
-
 * Keep documentation in sync with actual system configurations through scheduled execution.
 * Work with supported RMM and documentation platforms to automate asset management.
 * Save time by automating data collection and reducing manual documentation tasks.
@@ -38,7 +36,7 @@ Before unpacking this Crate, you'll first need to have:
    4. **Cron Schedule**: A trigger parameter that defines when the workflow will be executed. This determines the frequency at which computer configurations and BitLocker data updated.
 7. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 To test this Crate, you'll need to adjust the [cron trigger](https://docs.rewst.help/documentation/automations/intro-to-triggers#core-cron-job)'s schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. The cron trigger for this Crate is set to trigger daily at 7:00 AM (UTC).
 

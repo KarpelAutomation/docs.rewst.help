@@ -53,7 +53,7 @@ This is only applicable to non-administrator accounts.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-09-03 at 3.14.47 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Test the Crate
+### Test the Crate
 
 Huntress' documentation on how to simulate an EDR event can be found [here](https://support.huntress.io/hc/en-us/articles/30950483531539-EDR-ITDR-Incident-Simulation).&#x20;
 

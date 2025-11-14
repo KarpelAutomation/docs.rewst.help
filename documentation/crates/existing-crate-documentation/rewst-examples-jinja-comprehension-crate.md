@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate offers a collection of common Jinja examples, all consolidated into a single workflow. Each example is fully functional and ready to be incorporated into your own workflows.
 
-### Why use the Rewst Examples: Jinja Comprehension Crate ?
-
 * Demystify how Rewst support uses Jinja in its workflows
 * Provide a handy resource for both novice and experienced users in your MSP
 * Accelerate workflow development by offering ready-to-use Jinja examples
@@ -24,7 +22,7 @@ This Crate offers a collection of common Jinja examples, all consolidated into a
 4. Click **Continue**.
 5. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Rewst Example: Common Jinja`.

@@ -6,8 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Export MS365 Licenses to CSV Crate do?
 
-This Crate is designed to automate the audit of Microsoft 365 licenses within a tenant. It generates a CSV report and uploads it to a ticket for regular monitoring and compliance checks.\
-
+This Crate is designed to automate the audit of Microsoft 365 licenses within a tenant. It generates a CSV report and uploads it to a ticket for regular monitoring and compliance checks.
 
 ### How the Crate works
 
@@ -16,7 +15,7 @@ This Crate is designed to automate the audit of Microsoft 365 licenses within a 
 3. The CSV is then attached to a designated ticket within the PSA.
 4. The entire process is set to recur at regular intervals for continuous monitoring and auditing.
 
-### Crate prerequisites
+## Crate prerequisites
 
 * Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
 * The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
@@ -42,7 +41,7 @@ This Crate is designed to automate the audit of Microsoft 365 licenses within a 
 8. Ensure that the cron job trigger has **Enabled** toggled on.
 9. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. If you wish to test the workflow, adjust the time to 5 minutes in future, check workflow execution logs to make sure that the workflow ran properly, the readjust the cron trigger's timing to run as desired for normal scheduling.
 

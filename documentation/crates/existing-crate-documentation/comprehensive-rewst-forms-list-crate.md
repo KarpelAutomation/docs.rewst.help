@@ -21,7 +21,7 @@ Use the Crate to have a centralized page that includes all rewst forms unpacked 
 6. Ensure that both the cron and webhook triggers have **Enabled** toggled on.
 7. Click **Unpack**.
 
-## Use the Comprehensive Rewst Forms List Crate
+### Use the Comprehensive Rewst Forms List Crate
 
 1. Navigate to **Automations > Workflows.**
 2. Search for the `List all Form Triggers` workflow.

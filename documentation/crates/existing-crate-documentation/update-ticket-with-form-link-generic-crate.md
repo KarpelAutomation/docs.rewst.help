@@ -8,7 +8,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate will allow you to provide a variable configuration— via trigger variable—  or input configuration— via workflow input— at runtime, with the name of a form you would like to use to update single or multiple tickets.
 
-## How the Crate works
+### How the Crate works
 
 * This Crate uses PSA ticket triggers to receive ticket updates and update the ticket with a note containing a link to the specific form.
 * This Crate uses trigger criteria to determine what ticket updates to take actions on.
@@ -67,6 +67,14 @@ Updates to the ticket will have a body similar to the below, with a valid link t
 To initiate the \[REWST - EXAMPLE] Rewst: Example form for this request, please use this form.
 
 ## Organization variables associated with this Crate
+
+{% hint style="info" %}
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables).
+
+Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
+
+If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.
+{% endhint %}
 
 * `cw_manage_company_id`
 * `datto_bill_ticket_time`

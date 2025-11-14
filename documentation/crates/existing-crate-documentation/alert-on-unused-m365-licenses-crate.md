@@ -10,7 +10,7 @@ This Crate checks daily for unused M365 licenses that can be returned to Pax8, t
 
 Note that the existence of an SKU in Microsoft doesn’t mean that it was purchased through Pax8. Customers can still buy directly from Microsoft. If a SKU doesn’t have a matching Pax8 subscription, it won’t be alerted on because the automation wouldn’t be able to modify or validate quantities for something that doesn’t exist in Pax8.
 
-## How the Crate works
+### How the Crate works
 
 The workflow unpacked with this Crate runs on a cron trigger, and will generate the ticket at the same time each day.&#x20;
 
@@ -24,7 +24,37 @@ No action is taken when any of the following is true:
 
 * The subscription has a yearly commit, even if it's oversubscribed
 * The subscription is in the ignored subscriptions list
-* There's no corresponding Pax8 subcription for that SKU
+* There's no corresponding Pax8 subscription for that SKU
+
+### Workflow breakdown
+
+1. The workflow begins with the **start** task which initializes the process by setting the retry count to zero and preparing the workflow for execution.
+2. The **check\_for\_exclusions** task examines whether an organization variable exists that contains a list of organizations excluded from the Pax8 license removal process.
+3. If exclusions are found, the **exclusions\_var\_found** task checks if the current organization ID is in the exclusion list, and if so, routes to the **org\_excluded** task to terminate processing.
+4. If the organization is not excluded, the **continue\_workflow** task allows the process to proceed to the main workflow logic.
+5. The **set\_ignored\_subs** task creates a list of Microsoft 365 SKUs that should be ignored during the license removal process, including free trials, consumption-based apps, and products with extremely high license counts.
+6. If the Pax8 company ID is not configured for the organization, the **pax8\_not\_configured\_for\_org** task determines whether to create an alert ticket for unmapped organizations.
+7. The **check\_operation** task evaluates input parameters to determine if this is a single subscription update operation or a bulk listing operation.
+8. For listing operations, the **delay\_based\_on\_org\_name** task introduces a delay based on the alphabetical order of the organization name to prevent API overload.
+9. The **list\_graph\_subscriptions** task retrieves all Microsoft 365 subscriptions from Microsoft Graph API and identifies undersubscribed SKUs where consumed units are less than enabled units.
+10. The **check\_undersubscribed\_skus** task determines if any undersubscribed SKUs were found and routes accordingly.
+11. If undersubscribed SKUs exist, the **look\_up\_products** task loads lookup tables to map Microsoft 365 SKU part numbers to Pax8 product names.
+12. The **look\_up\_skus** task processes the lookup information to prepare for Pax8 subscription matching.
+13. The **pax\_8\_list\_subscriptions** task retrieves all active Pax8 subscriptions for the organization.
+14. The **workflows\_aw\_get\_pax\_8\_order** task iterates through each Pax8 subscription to get detailed product information with a concurrency of 2.
+15. The **find\_eligible\_subs** task matches Microsoft 365 undersubscribed SKUs with eligible Pax8 subscriptions, excluding annual commitments and identifying over-purchased subscriptions.
+16. The **make\_ticket\_if\_needed** task determines if any over-purchased subscriptions were found and creates a PSA ticket if necessary.
+17. If a ticket is created, the **create\_psa\_service\_ticket** task generates a service ticket with details about the underprovisioned licenses.
+18. The **apply\_template** task formats the ticket note content based on the PSA system type, using different templates for Halo PSA/Freshdesk versus other systems.
+19. The **update\_ticket** task adds the formatted note to the created ticket with details about the license discrepancies.
+20. For single subscription updates, the **get\_subscription** task retrieves the specific subscription details and calculates the quantity delta.
+21. If ConnectWise Manage is installed, the **connect\_wise\_manage\_get\_service\_ticket** task retrieves the existing ticket information.
+22. The **adjust\_pax8\_license\_counts** task performs the actual license quantity adjustment in Pax8, reducing the subscription by the calculated delta.
+23. If the adjustment succeeds, the workflow updates the ticket with a success message; if it fails, it updates the ticket with error details.
+24. The **rewst\_list\_triggers** task retrieves webhook trigger information if the organization variable for the trigger ID is not set.
+25. The **rewst\_bulk\_upsert\_organization\_variables** task creates or updates the webhook trigger ID organization variable for future use.
+26. The **core\_delay\_workflow\_for\_period** task introduces a one-minute delay and manages retry logic if the maximum retry count has not been reached.
+27. If no undersubscribed SKUs are found, the **no\_unaligned\_subs\_found** task terminates the workflow without taking any action.
 
 ## Crate prerequisites
 
@@ -48,7 +78,7 @@ Your[ PSA must be integrated](../../configuration/integrations/top-5-integration
 6. Expand the **Cron Job** accordion menu and ensure that **Enabled** is toggled on.
 7. Click **Unpack**.
 
-## Use the Alert on Unused M365 Licenses Crate
+### Use the Alert on Unused M365 Licenses Crate
 
 {% hint style="info" %}
 The workflow must first be run as the top level parent organization. Then, the workflow can be used by  child organizations.

@@ -14,7 +14,7 @@ This Crate allows for straightforward enablement or disablement of mailbox forwa
 2. The action is executed according to the user's input.
 3. A log of the action taken is appended to the associated ticket in your PSA, providing a full audit trail.
 
-### Crate prerequisites
+## Crate prerequisites
 
 * Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
 * The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
@@ -30,7 +30,7 @@ This Crate allows for straightforward enablement or disablement of mailbox forwa
 4. Click **Continue**.
 5. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 The Crate runs off of form submission.&#x20;
 

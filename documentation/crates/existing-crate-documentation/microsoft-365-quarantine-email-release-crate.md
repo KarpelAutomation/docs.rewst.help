@@ -6,11 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Microsoft 365 Quarantine Email Release Crate do?
 
-Our Microsoft 365 Quarantine Email Release Crate has a technician fill out a form, they select an organization, a ticket to update, and a individual or all users to list quarantine emails. Then the technician selects a quarantine message and can allow the sender or not and release the email to all or the individual.
-
-### Why use the Microsoft 365 Quarantine Email Release Crate?
-
-This Crate enables form submission, allowing for automated email quarantine release with the ability to add senders to the allow list.
+Our Microsoft 365 Quarantine Email Release Crate has a technician fill out a form where they select an organization, a ticket to update, and a individual or all users to list quarantine emails. They then select a quarantine message and can allow the sender or not and release the email to all or the individual.
 
 ## Crate prerequisites
 
@@ -28,7 +24,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 6. Enter your estimated time saved into the **Time Saved (seconds)** field.&#x20;
 7. Click **Unpack**.&#x20;
 
-## Test the Crate
+### Test the Crate
 
 1. Navigate to **Automations > Workflows**.
 2.  Search for M365 Quarantine Release. Click on the workflow to open it in the workflow builder. Note that this workflow is triggered by a form submission.\
@@ -57,4 +53,3 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

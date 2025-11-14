@@ -10,7 +10,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 The Configure Organizational Variables Crate is used to help you set the essential variables that will allow Rewst's prebuilt Crates to work.&#x20;
 
-## Set up the Configure Organizational Variables Crate
+## Unpack the Configure Organizational Variables Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Configure Organizational Variables` .\
@@ -34,7 +34,7 @@ Unpacking this Crate adds two forms to your Rewst platform.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-02-29 at 2.26.18 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Use the forms
+### Use the forms
 
 1. Navigate to **Automations > Forms > \[ROC] Rewst: Configure Organizational Variables**.
 2. Click **⋮**.
@@ -64,7 +64,7 @@ To customize variables for client organizations:
 
 #### PSA configuration
 
-| Field Label                            | Description                                                                                                                                     |
+| Field label                            | Description                                                                                                                                     |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Default PSA                            | Select your PSA                                                                                                                                 |
 | Default Ticket Location                | The board you want Rewst generated tickets to go onto                                                                                           |
@@ -80,7 +80,7 @@ To customize variables for client organizations:
 
 #### **Identity and access management**
 
-| Field Label                  | Description                                                                                                                                                                                                                                                        |
+| Field label                  | Description                                                                                                                                                                                                                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Default RMM                  | Select your RMM                                                                                                                                                                                                                                                    |
 | Primary Identity Provider    | <p>Select what your organization uses for IDP.<br>Note if you use a hybrid setup with or with out ADsync you will want to select On-Prem</p>                                                                                                                       |
@@ -90,13 +90,13 @@ To customize variables for client organizations:
 
 #### Licensing and purchases
 
-| Field Label                      | Description                  |
+| Field label                      | Description                  |
 | -------------------------------- | ---------------------------- |
 | Microsoft Licensing Distributor  | Select your license provider |
 
 #### Password management
 
-| Field Label                          | Description                                                                                                                               |
+| Field label                          | Description                                                                                                                               |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Store Password in Ticket             | Define whether to add the onboarding user one time password into the ticket internal notes. This is specific to the User Onboarding Crate |
 | Onboarding - Password Save Location  | Select another location to create the user onboard password. Such as PSA, ItGlue, Hudu                                                    |
@@ -108,7 +108,7 @@ To customize variables for client organizations:
 #### These settings are specific to the User Onboarding and Offboarding Crates
 {% endhint %}
 
-| Field Label                               | Description                                                                                                                                                                                                                                                                                |
+| Field label                               | Description                                                                                                                                                                                                                                                                                |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | User Onboarding & Offboarding Defaultsand | These settings are specific to the user onboarding workflow                                                                                                                                                                                                                                |
 | User Start-Date Behavior                  | <p>Start Automation Immediately: WIll create the user immediately regardless of the account creation date specified in the user onboarding form<br>Pause Workflow until Start Date Specified: Pause the workflow until the account creation date specified in the user onboarding form</p> |

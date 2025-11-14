@@ -4,7 +4,7 @@
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-### **What does the 1Stream Technician Toolbox Crate do?**
+## **What does the 1Stream Technician Toolbox Crate do?**
 
 The 1Stream Technician Toolbox Crate allows you to launch Rewst forms directly from within the 1Stream interface. Improve response times, reduce manual data entry, and increase service desk efficiency. When configured, technicians can open relevant Rewst forms— such as password reset, onboarding, offboarding, MFA reset, or group membership forms— from within 1Stream with ticket, company, and contact data automatically populated from the PSA. This enables technicians to quickly execute automations without switching between multiple tools or windows. The Crate is flexible, allowing for additional forms to be added in the future by customizing the included workflow logic.
 
@@ -18,6 +18,28 @@ The 1Stream Technician Toolbox Crate allows you to launch Rewst forms directly f
 {% hint style="info" %}
 If additional Crates are added later, this workflow can be extended to include those new forms with minimal changes to the core setup.
 {% endhint %}
+
+### **Workflow breakdown**
+
+1. The workflow begins with the **START** task which initializes the process by setting up valid identity provider configurations, extracting input parameters including company ID, contact ID, selected form name, and ticket ID, and defining the list of supported forms for the toolbox.
+2. The **valid\_idp\_check** task validates that the identity provider configuration is supported and that required parameters are present, ensuring the workflow can proceed with proper authentication and user identification.
+3. The **check\_required\_params** task verifies that both company ID and contact ID parameters are provided, as these are essential for retrieving user information from the PSA system.
+4. The **list\_org\_vars** task retrieves organization variables from the Rewst platform to access configuration settings needed for mapping PSA companies to Rewst organizations.
+5. The **filter\_company\_mappings** task processes the organization variables to find mappings between the provided company ID and corresponding Rewst organization configurations, creating a filtered list of relevant company mappings.
+6. The **get\_psa\_mapping** task extracts the specific PSA mapping information from the filtered results, establishing the connection between the PSA company and the target Rewst organization.
+7. The **get\_psa\_contact\_data** task retrieves detailed contact information from the PSA system using the company and contact IDs, gathering user details such as name, email, phone, and address information.
+8. The **determine\_idp** task analyzes the identity provider configuration to determine whether the user should be processed through Azure AD, on-premises Active Directory, or Secure Cloud authentication systems.
+9. For Azure AD configurations, the **check\_form\_entra** task evaluates the selected form type to determine if it requires Azure AD user lookup for forms like mailbox permissions, user offboarding, MFA reset, or group membership.
+10. For on-premises configurations, the **check\_form\_on\_prem** task checks the selected form type and handles different authentication paths for password reset and user offboarding scenarios.
+11. The **m365\_get\_user** task performs a Microsoft Graph API lookup to retrieve the user's Azure AD information when processing forms that require cloud-based user identification.
+12. The **rewst\_list\_forms** task queries the Rewst platform to retrieve available forms that match the selected form types, building a list of accessible automation forms for the organization.
+13. The **create\_link** task constructs the initial form URL by matching the selected form name with available forms in the organization and generating the appropriate form link structure.
+14. The **check\_pre\_form\_link** task validates that a form link was successfully created and handles cases where the required form may not be installed or available in the organization.
+15. The **select\_link** task customizes the form URL with specific parameters based on the form type, adding user identifiers, ticket information, and organization details as query parameters.
+16. The **check\_link** task performs a final validation to ensure the complete form link was generated successfully with all required parameters.
+17. The workflow concludes with the **END** task, which compiles a comprehensive automation log containing status codes, success indicators, error details, and warnings from all executed tasks.
+18. If any critical errors occur during execution, the **failure\_catch** task provides centralized error handling and generates a link to the workflow execution results for troubleshooting.
+19. For missing parameters, the **missing\_param** task creates detailed error messages indicating which required parameters were not provided, helping users understand what information is needed for successful execution.
 
 ### **Supported Crates and prerequisites**
 
@@ -56,7 +78,7 @@ Note that since you can choose which of the supported forms is used for 1Stream,
 6. Scroll to the **Forms** section. Here you'll see a clickable link to the form for that Crate.
 {% endhint %}
 
-### **Unpack the 1Stream Technician Toolbox Crate**
+## **Unpack the 1Stream Technician Toolbox Crate**
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
 2. Search for `1Stream Technician Toolbox`.\
@@ -138,11 +160,11 @@ After the first use, verify that forms populate correctly and trigger their work
 
 If failures occur, review the **workflow execution logs** in Rewst for details.
 
-### **Crate customization**
+## **Crate customization**
 
 You can extend the functionality of the 1Stream Technician Toolbox Crate by adding new Rewst supported forms to the workflow.
 
-#### To add a new form:
+### To add a new form:
 
 1. In Rewst, open the `[REWST - TASK] 1Stream Technician Toolbox` workflow.
 2. Copy one of the existing form handling branches— for example, `password_reset`.

@@ -29,8 +29,6 @@ Using the form in this Crate will provision a Microsoft Azure Table storage acco
 6. Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](https://docs.rewst.help/documentation/automations/intro-to-triggers/trigger-criteria), or for integration overrides.
 7. Click **Unpack**.&#x20;
 
-## Use the Crate
-
 ### Use the form
 
 1. Navigate to **Automations > Forms**.

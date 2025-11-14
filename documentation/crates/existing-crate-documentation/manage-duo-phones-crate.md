@@ -6,7 +6,9 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the **Manage Duo Phones** Crate do?
 
-Duo: Manage Phones is a quick start to automating the drudgery of phone management. Admins can add, remove, and audit phone assignments. Workflows have been included for the following PSAs:
+Duo: Manage Phones is a quick start to automating the drudgery of phone management. This Crate ensures controlled access and accurate tracking of phone assignments through audit logs and ticket creation. Admins can add, remove, and audit phone assignments. Automate phone number management by streamlining the process of adding, removing, and auditing phone assignments. Reduce your manual efforts, minimize errors, and ensure consistency.&#x20;
+
+Workflows have been included for the following PSAs:
 
 * ConnectWise PSA
 * Datto PSA
@@ -17,12 +19,6 @@ These PSA brands are still in development, but will be added to this Crate's fun
 * ServiceNow
 * Kaseya BMS
 * Freshdesk PSA
-
-## Why use the Manage Duo Phones Crate?
-
-Automate phone number management by streamlining the process of adding, removing, and auditing phone assignments. Reduce your manual efforts, minimize errors, and ensure consistency.
-
-This Crate ensures controlled access and accurate tracking of phone assignments through audit logs and ticket creation.
 
 ## Crate prerequisites
 
@@ -44,7 +40,7 @@ Before unpacking this Crate, you must have your [PSA integrated](../../configura
 8. Under **Configure Triggers**, make sure that the trigger is enabled for your desired organizations.
 9. Click **Unpack**.
 
-## Test the **Manage Duo Phones** Crate
+### Test the **Manage Duo Phones** Crate
 
 1. Navigate to **Automations > Forms.**
 2. Search for the form named **\[Rewst] Duo: Manage Phones.**
@@ -65,4 +61,3 @@ Before unpacking this Crate, you must have your [PSA integrated](../../configura
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

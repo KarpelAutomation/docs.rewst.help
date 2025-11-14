@@ -34,13 +34,11 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 6. Note that you have the option under the **Webhook** and **Form Submission** accordion menus to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](../../settings/tags-in-rewst.md).&#x20;
 7. Click **Unpack Crate**.
 
-## Use the M365: Generate Org Chart Crate
+### Use the form
 
 {% hint style="info" %}
 The Crate workflow is triggered by a form submission. Initiate the org chart generation by submitting a request through the form with the necessary inputs.
 {% endhint %}
-
-### Use the form
 
 1. Navigate to **Automations > Forms**.
 2.  Locate the form titled **Microsoft: Build Org Chart**.\

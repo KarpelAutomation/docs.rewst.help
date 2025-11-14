@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate allows you to pick a device and a piece of software and install it on said device. This will create or update a ticket in ImmyBot.
 
-### Why use the Install Ad-Hoc Software Crate?
-
 * Simplify the software installation process for both end-users and technicians.
 * Ensure seamless integration with ImmyBot for ticket management.
 * Automate mundane tasks, allowing your team to focus on more complex issues.
@@ -31,7 +29,7 @@ This Crate allows you to pick a device and a piece of software and install it on
   * [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
   * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)&#x20;
 
-### Unpack the Install Ad-Hoc Software Crate
+## Unpack the Install Ad-Hoc Software Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Install Ad-Hoc Software`.\

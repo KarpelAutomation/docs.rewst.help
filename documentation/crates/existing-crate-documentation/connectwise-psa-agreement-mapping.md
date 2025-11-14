@@ -8,13 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our ConnectWise PSA Agreement Mapping Crate synchronizes users into Connectwise PSA agreement additions by license, department, or group membership. This Crate allows a user to map user groupings to those agreements to facilitate automated billing reconciliation, based on a selection of criteria. Based on the user categorization, these can be mapped to existing additions in the agreements, to populate the **Quantity** field for those additions.
 
-## Why use the ConnectWise PSA Agreement Mapping Crate?
-
-* Add ConnectWise PSA Agreements
-* Modify ConnectWise PSA Agreements
-* Remove ConnectWise PSA Agreements
-* Ensure ConnectWise PSA Agreements are accurate and up-to-date
-
 ## Crate prerequisites
 
 Rewst’s [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be set up.
@@ -33,7 +26,7 @@ Rewst’s [ConnectWise PSA integration](../../configuration/integrations/integra
 5. Enter **Time Saved**.&#x20;
 6. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 {% hint style="info" %}
 A form unpacked from this Crate is used to maintain mappings between environments and PSA agreements. These are stored in organizational variables in Rewst, based on the form inputs.&#x20;

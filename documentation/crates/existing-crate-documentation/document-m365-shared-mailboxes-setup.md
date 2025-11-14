@@ -12,8 +12,6 @@ The Document Shared Mailbox Details V2 Crate is designed to streamline the docum
 Note: This Crate does not remove or archive assets when they are no longer present in the parent tenant.
 {% endhint %}
 
-## Why use the Document Shared Mailbox Details V2 Crate?
-
 The benefits include:
 
 * Automated documentation saving you considerable time.

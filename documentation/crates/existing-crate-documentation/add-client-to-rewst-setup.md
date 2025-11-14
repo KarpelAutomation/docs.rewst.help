@@ -15,7 +15,19 @@ This page will cover how to do this with the Add Client to Rewst Crate. [You can
 
 ## What does the Add Client to Rewst Crate do?
 
-The Add Client to Rewst Crate lets you easily use a form to add a new client to Rewst, and map your installed integrations to the organization.
+The Add Client to Rewst Crate lets you easily use a form to add a new client to Rewst, and map your installed integrations to the organization. Note that this Crate does not handle Microsoft Mappings.
+
+### Workflow breakdown
+
+1. The workflow begins with the **core\_noop** task which serves as the initialization point and processes the input data to prepare organization variables for creation by filtering out system-reserved keys and categorizing variables into integration and general configuration types.
+2. The **rewst\_list\_organizations** task retrieves a list of all existing organizations within the current managing organization to check if the new client organization already exists in the Rewst platform.
+3. If the organization name does not already exist in the system, the **rewst\_create\_organization** task creates a new organization in Rewst using the provided organization name and domain, establishing it as a managed organization under the current parent organization.
+4. If the organization already exists, the workflow skips the creation step and retrieves the existing organization ID to proceed with configuration updates.
+5. The **create\_integration\_org\_var** task iterates through the filtered integration-specific organization variables and creates them as system-category variables within the target organization, configuring essential integration settings and connection parameters.
+6. The **invite\_forms\_users** task processes the list of users designated for forms-only access and sends invitations to each user with the appropriate role permissions, granting them access to execute forms within the organization.
+7. The **invite\_member\_users** task processes the list of users designated for full member access and sends invitations to each user with both forms and member role permissions, providing them with broader access to the organization's resources.
+8. The **create\_general\_org\_var** task iterates through the filtered general organization variables and creates them as general-category variables within the target organization, establishing configuration settings for identity providers, user management, and other operational parameters.
+9. The workflow completes successfully after all organization variables have been created and all user invitations have been processed, resulting in a fully configured client organization ready for use within the Rewst platform.
 
 ## Unpack the Add Client to Rewst Crate
 
@@ -33,7 +45,7 @@ The Add Client to Rewst Crate lets you easily use a form to add a new client to 
 
 <figure><img src="../../../.gitbook/assets/unpack-client-add-crate.gif" alt=""><figcaption><p>Adding the Crate</p></figcaption></figure>
 
-## Use the Crate
+### Use the Crate
 
 After unpacking, use the Crate's form to add a client.
 
@@ -43,7 +55,7 @@ After unpacking, use the Crate's form to add a client.
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
 5. Fill out the form as follows:
 
-### What you need to fill out the form
+#### What you need to fill out the form
 
 Once you're in the form, you'll see the following fields:
 

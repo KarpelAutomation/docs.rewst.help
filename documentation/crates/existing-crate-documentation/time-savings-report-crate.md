@@ -25,7 +25,7 @@ Boost your team's efficiency with our Time Savings Report Crate, designed to tur
 7. Configure your triggers if settings beyond the default are desired.
 8. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 This Crate will send the email at a set date and time based off of the preferences you set during the unpacking process. To force the Crate to trigger sooner, update your configuration page for the Crate to send the report every 5 minutes. Once you've confirmed that it works, update the configuration again to your desired timeline.&#x20;
 

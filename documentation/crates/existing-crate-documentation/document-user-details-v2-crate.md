@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Document User Details V2 Crate streamlines the documentation of user information in Microsoft 365. This crate automatically records critical user details such as licenses, aliases, and permission levels into your documentation tool.
 
-## Why use the Document User Details V2 Crate?
-
 * Keep up-to-date records of a clients users base in their M365 environment.
 * Provide ad-hoc and QBR reporting to your clients.
 
@@ -48,7 +46,7 @@ The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides
 The workflow is designed to run at the MSP level organization. The workflow will automatically iterate through your Rewst child organizations and populate their specific form URLs in the documentation platform.
 {% endhint %}
 
-## Test the Crate
+### Test the Crate
 
 1. Click **test** in the top right corner of the page.
 2. Select your MSP organization and click **Test**.

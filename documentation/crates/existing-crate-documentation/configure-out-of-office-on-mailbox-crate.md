@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate lets you select a user to enable, disable, or schedule both internal and external out-of-office messages. All actions are duly logged in a ticket within your PSA for full audit capabilities.
 
-### Why use the Configure Out of Office on Mailbox Crate?
-
 * Provide an effortless way to manage out-of-office messages for users
 * Ensure that all out-of-office management actions are tracked and auditable
 * Enhance operational efficiency by automating the out-of-office message handling process
@@ -21,7 +19,7 @@ This Crate lets you select a user to enable, disable, or schedule both internal 
 * The completed form submission kicks off the workflow.
 * The corresponding action is automatically logged in a PSA ticket, providing a reliable record for future audits.
 
-### Crate prerequisites
+## Crate prerequisites
 
 * The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * For ticketing functionality, set up one of the following PSA integrations:
@@ -44,7 +42,7 @@ This Crate lets you select a user to enable, disable, or schedule both internal 
 7. Note that you have the option under the Form Submission accordion menu to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
 8. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `M365: Set Out of Office Message for Users`.

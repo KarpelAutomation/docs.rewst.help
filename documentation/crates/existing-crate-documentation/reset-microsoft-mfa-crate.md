@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate simplifies the process of authentication by allowing you to reset the authentication method for a specified user and update the relevant ticket, all in one smooth operation.
 
-### Why use the Reset Microsoft MFA Crate ?
-
 * Streamline the process of resetting user authentication methods
 * Maintain accurate documentation by automatically updating the ticket
 * Reduce manual errors and save time
@@ -24,7 +22,7 @@ This Crate simplifies the process of authentication by allowing you to reset the
 For this Crate to work, you must have the policy in place that MFA is required. Using the Crate without this policy will result in the app being deleted without enforcing re-enrollment at the next login.&#x20;
 {% endhint %}
 
-### Crate prerequisites
+## Crate prerequisites
 
 * The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * For ticketing functionality, set up one of the following PSA integrations:
@@ -47,7 +45,7 @@ For this Crate to work, you must have the policy in place that MFA is required. 
 7. Ensure that **Enabled** is toggled on.
 8. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `M365: Reset MS MFA`.

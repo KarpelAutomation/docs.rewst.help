@@ -6,15 +6,13 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Workstation Offboarding Crate do?
 
-This Crate is designed to streamline the offboarding process for workstations across multiple platforms based on device name.
-
-This Crate only removes agents from their management dashboards. It doesn't uninstall the agent from the actual device unless included below in the supported platform list.
+This Crate is designed to streamline the offboarding process for workstations across multiple platforms based on device name. This Crate only removes agents from their management dashboards. It doesn't uninstall the agent from the actual device unless included below in the supported platform list.
 
 ### How the Crate works <a href="#marked-how-it-works" id="marked-how-it-works"></a>
 
 The Crate is triggered via a form submission. Once submitted, the workflow identifies the corresponding workstation IDs across the selected platforms and proceeds to either remove the assets or mark them as inactive, depending on your configuration. A report will be sent to the email listed in the form with a detailed report of each successful or failed task, and it will include the workflows's result page.
 
-## Supported platforms and Crate prerequisites <a href="#marked-supported-platforms" id="marked-supported-platforms"></a>
+## Crate prerequisites <a href="#marked-supported-platforms" id="marked-supported-platforms"></a>
 
 ### RMMs <a href="#marked-rmms" id="marked-rmms"></a>
 
@@ -40,9 +38,7 @@ The Crate is triggered via a form submission. Once submitted, the workflow ident
 * [Liongard](../../configuration/integrations/integration-guides/liongard-integration-setup.md)
 * [Nodeware](../../configuration/integrations/integration-guides/nodeware-integration.md)
 
-\
-Unpack the Workstation Offboarding Crate
-----------------------------------------
+## Unpack the Workstation Offboarding Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Workstation Offboarding`**.**\
@@ -54,7 +50,7 @@ Unpack the Workstation Offboarding Crate
 6. Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](https://docs.rewst.help/documentation/automations/intro-to-triggers/trigger-criteria), or for integration overrides.
 7. Click **Unpack**.
 
-## Use the Workstation Offboarding Crate
+### Use the Workstation Offboarding Crate
 
 {% hint style="info" %}
 For field options related to an integration to appear on the form, you'll need to have that integration successfully set up with Rewst.&#x20;

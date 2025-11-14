@@ -4,17 +4,17 @@
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-### What does the Alert On Users Without MFA Enforced Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
+## What does the Alert On Users Without MFA Enforced Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
 
 Our Alert On Users Without MFA Enforced Crate gathers a list of users and checks whether the users have the MFA enforced through security defaults, per user MFA, or conditional access. If the workflow identifies users without the MFA enforced, a ticket will be created in the PSA for your team to address.
 
-#### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
+### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
 
 * The Crate is executed via a cron trigger, or it can be run manually for an organization via the Test button in the workflow builder.
 * PSA tickets will be automatically created for users without MFA enforced
 * Easily ignore users from future runs via a hyperlink in the PSA ticket or edited via organization variable.
 
-#### Workflow breakdown
+### Workflow breakdown
 
 1\. The workflow begins execution with the **START** task, which initiates the process flow.
 
@@ -52,7 +52,7 @@ Your PSA must be successfully integrated with Rewst. PSAs that work with this Cr
 * [ServiceNow](../../configuration/integrations/integration-guides/servicenow-integration-setup.md)
 * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
 
-### Unpack the Alert On Users Without MFA Enforced Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
+## Unpack the Alert On Users Without MFA Enforced Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Alert On Users Without MFA Enforced`.​\
@@ -79,7 +79,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
     <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your PSA's portal to ensure that the workflow is creating tickets, and able to move new devices to their correct location as expected.
 
-#### Update the cron trigger schedule
+### Update the cron trigger schedule
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 

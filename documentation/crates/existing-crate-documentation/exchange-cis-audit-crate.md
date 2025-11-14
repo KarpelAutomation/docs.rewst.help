@@ -8,7 +8,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Compliance with CIS controls is critical for your organization's security posture. This Crate automates the process of validating certain CIS controls such as audit logs and mailbox configurations, and logs a ticket for record-keeping and potential remediation actions.
 
-## How the Crate works
+### How the Crate works
 
 * **The workflow v**alidates if audit logs are configured correctly per CIS controls.
 * It confirms if mailbox settings align with specific CIS controls.
@@ -34,7 +34,7 @@ Your [PSA must succesfully be integrated](../../configuration/integrations/top-5
 6. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](https://docs.rewst.help/documentation/automations/intro-to-triggers/trigger-criteria), or for integration overrides.
 7. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. After unpacking, the default schedule for this Crate is once monthly, on the first day of each month.
 

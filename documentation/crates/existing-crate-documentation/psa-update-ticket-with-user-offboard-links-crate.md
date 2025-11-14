@@ -35,7 +35,7 @@ Before unpacking this Crate, you'll need to successfully complete your PSA integ
 9. Enter your **Time Saved**.
 10. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 Create a dummy ticket in your PSA to make sure the Crate behaves as expected.
 

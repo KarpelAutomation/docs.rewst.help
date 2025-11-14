@@ -8,7 +8,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate automatically captures all Rewst Org Variables for an organization and stores them in an ITGlue flexible asset, ensuring an immutable audit log for all changes.
 
-## How the Crate works
+### How the Crate works
 
 The workflow in this Crate runs on a cron job. You have the option to adjust the schedule for when that workflow runs. The default unpacked with the Crate is daily.
 
@@ -36,7 +36,7 @@ The [ITGlue integration ](../../configuration/integrations/integration-guides/it
 7. Click **Unpack**.\
 
 
-## Use the Crate
+### Use the Crate
 
 1. The Crate runs on a cron trigger, and will execute the workflow to check and generate the flexible asset content at the same time each day. You can adjust the chosen time for execution in the workflow itself.
    1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.

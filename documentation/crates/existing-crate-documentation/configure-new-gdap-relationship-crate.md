@@ -36,7 +36,7 @@ The workflow:
 
 ## Crate prerequisites
 
-You must first click through the setup wizard for the bundle and set up the Microsoft Graph integration.&#x20;
+You must first click through the setup wizard for the Microsoft Cloud Integration Bundle and set up the Microsoft Graph integration.&#x20;
 
 ## Unpack the Configure New GDAP Relationship Crate
 

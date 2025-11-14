@@ -18,7 +18,7 @@ This Crate does not send email notifications to users or administrators.
 4. If an existing ticket is provided, it is updated. Otherwise, a new ticket is created.
 5. Via activity log, it maintains a record of all actions for security auditing.
 
-### Crate prerequisites
+## Crate prerequisites
 
 * The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * This Crate requires one of the following PSA integrations:
@@ -40,7 +40,7 @@ This Crate does not send email notifications to users or administrators.
 6. Ensure that **Enabled** is toggled on.
 7. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `[REWST - CRATE] Reset Locked-Out Accounts`.

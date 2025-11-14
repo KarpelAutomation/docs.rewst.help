@@ -8,11 +8,9 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 The View Rewst Integration Org Variables Crate offers a powerful solution for seamlessly mapping and managing [organization variables](../../configuration/organization-variables.md) across various integrations within Rewst. Through its comprehensive workflows, gain the ability to aggregate and contextualize integration data specific to each organization. This Crate not only simplifies the process of dealing with diverse integrations, but also enhances the efficiency and accuracy of data handling within the Rewst platform.
 
-## Why use the View Rewst Integration Org Variables Crate?
-
 If you're struggling with inconsistent naming across various platforms, the advanced mapping feature of this crate allows you to easily map integration variables across different integrations, based on their unique IDs. Say goodbye to tedious string manipulations and hardcoding matches.
 
-## Crate overview
+### How the Crate works
 
 This Crate includes two key workflows:
 
@@ -25,21 +23,21 @@ It then triggers the `get_org_ids` subworkflow for each organization ID, as spec
 
 This execution is done using the `Run As Org` setting, ensuring that the subworkflow processes data in the context of each specific organization.
 
-### Subworkflow processing
+#### Subworkflow processing
 
 * Inside the `get_org_ids` subworkflow:
   * **Task 1**: Sets up the base for integration mapping with `org_variables`, establishing a foundational dictionary that maps integration names to their Rewst variable names.
   * **Task 2**: Fetches the Microsoft Tenant ID (`ms_tenant_id`) for the specific organization in focus. This is a key piece of data that will be included in the final integration mapping.
   * **Task 3**: Constructs a comprehensive mapping of integration IDs (`integration_ids`), using the previously fetched `ms_tenant_id` and other relevant organization data.
 
-### Data aggregation and output
+#### Data aggregation and output
 
 * Upon completion of the subworkflow for each organization, the parent workflow receives the raw results (`unformated_ids`).
 * These results are then aggregated into a single, comprehensive list of integration IDs across all organizations (`all_integration_ids`).
 
-## Breakdown of workflows in this Crate
+### Workflow breakdown
 
-### **Workflow: `[ROC] Rewst: Get All Integration Ids`**
+#### **Workflow: `[ROC] Rewst: Get All Integration Ids`**
 
 #### **Action**: [List Organization](https://docs.rewst.help/documentation/automations/actions-in-rewst/rewst-actions#list-organizations)
 
@@ -63,7 +61,7 @@ This execution is done using the `Run As Org` setting, ensuring that the subwork
   * Data alias `unformated_ids`: Collects raw subworkflow results.
   * Data alias `all_integration_ids`: Aggregates comprehensive integration IDs mappings.
 
-### Subworkflow breakdown: `get_org_ids`
+#### Subworkflow breakdown: `get_org_ids`
 
 #### **Action**: `noop`
 
@@ -82,7 +80,7 @@ This execution is done using the `Run As Org` setting, ensuring that the subwork
 * **Purpose:** Custom Logic in Data Alias designed to create a comprehensive mapping of integration IDs for each organization, considering various variables and conditions.
 * **Data alias:** `integration_ids` maps integration IDs to the organization.
 
-### **Jinja template**:
+#### **Jinja template**:
 
 ```django
 {{-
@@ -121,7 +119,7 @@ This execution is done using the `Run As Org` setting, ensuring that the subwork
 -}}
 ```
 
-### **Jinja logic explanation**
+#### **Jinja logic explanation**
 
 * **Organization attributes**:
   * `rewst_name`: Retrieves the name of the organization from its attributes.

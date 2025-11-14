@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This crate allows you to pick a primary user and assign them to a device, while also choosing whether to onboard, offboard or reset onboarding for the device.
 
-### Why use the Onboard or Offboard a Device Crate?
-
 * Simplify the computer onboarding process for both end-users and technicians.
 * Ensure seamless integration with ImmyBot for computer and user management.
 
@@ -23,7 +21,7 @@ This crate allows you to pick a primary user and assign them to a device, while 
 
 Your [ImmyBot integration](../../configuration/integrations/integration-guides/immybot-integration-setup.md) with Rewst must successfully be set up before unpacking this Crate.
 
-### Unpack the Onboard or Offboard a Device Crate
+## Unpack the Onboard or Offboard a Device Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Onboard or Offboard a Device`.\

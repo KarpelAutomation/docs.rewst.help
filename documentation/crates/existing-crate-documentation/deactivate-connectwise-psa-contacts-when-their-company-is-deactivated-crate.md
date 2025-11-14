@@ -35,9 +35,9 @@ Your [ConnectWise PSA](../../configuration/integrations/integration-guides/conne
 10. Ensure that **Enabled** is toggled on in the **Company Record Saved** accordion menu.
 11. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
-### Adjust the cron trigger and schedule
+#### Adjust the cron trigger and schedule
 
 You can adjust the timing of when the run of the Crate's workflow will be scheduled. The cron trigger for this Crate is set to trigger once monthly, on the first day of the month.
 

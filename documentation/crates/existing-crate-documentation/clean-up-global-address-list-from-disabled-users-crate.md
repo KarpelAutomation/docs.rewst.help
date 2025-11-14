@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate identifies all disabled users in Microsoft 365 and removes them from the Global Address List, helping to maintain a clean and accurate directory.&#x20;
 
-## Why use the Clean up Global Address List from Disabled Users Crate?
-
 * Improve directory hygiene by maintaining an accurate Global Address List
 * Reduce administrative overhead related to manual directory cleanups
 * Enhance organizational security by ensuring that only active users are part of the Global Address List
@@ -29,7 +27,7 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 5. Ensure that **Enabled** is toggled on under the **Cron Job** accordion men&#x75;**.**
 6. Click **Unpack Crate**.
 
-## Use the Clean up Global Address List from Disabled Users Crate
+### Use the Clean up Global Address List from Disabled Users Crate
 
 The Crate runs on a cron trigger, and will execute the workflow at the same time each day. You can adjust the chosen time for execution in the workflow itself.
 

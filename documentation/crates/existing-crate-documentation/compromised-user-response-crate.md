@@ -25,7 +25,7 @@ This Crate is kicked off by a form submission. Administrators can choose which a
 * Blocking sign-ins
 * Generating various reports (sign-in activity, mailflow, MFA methods, etc.)
 
-### Crate prerequisites
+## Crate prerequisites
 
 * Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
 * The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
@@ -42,7 +42,7 @@ This Crate is kicked off by a form submission. Administrators can choose which a
 5. Note that you have the option under the **Form Submission** accordion mens to activate the Crate for all future organizations in addition to the current one.  You may also set activation to certain [tags](../../settings/tags-in-rewst.md). Ensure that **Enabled** is toggled on.
 6. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 The Crate runs off of form submission.&#x20;
 

@@ -20,7 +20,7 @@ This Crate allows you to bulk add or update organization variables using a CSV f
 6. Add your **Time Saved**.&#x20;
 7. Click **Unpack**.
 
-## Use the Mass Update Org Variables via CSV Crate
+### Use the Mass Update Org Variables via CSV Crate
 
 1.  You'll need to prepare a CSV file with the following column headers:
 
@@ -61,4 +61,3 @@ This Crate allows you to bulk add or update organization variables using a CSV f
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

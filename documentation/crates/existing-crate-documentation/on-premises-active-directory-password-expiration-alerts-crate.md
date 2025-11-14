@@ -10,7 +10,7 @@ Our On-Premises Active Directory Password Expiration Alerts Crate automates the 
 
 This workflow is designed for on-premises Active Directory only. It does not monitor or interact with cloud-based directories like Entra ID. This Crate doesn't perform password resets; it only sends notifications. Users must update their passwords manually through the appropriate channels. The workflow does not provide real-time alerts. There may be a slight delay between when a password expiration is detected and when the notification is sent.
 
-#### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
+### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
 
 * Automatically checks for user passwords expiring in 14, 7, 3, and 1 day, ensuring users are well-informed ahead of time
 * Sends email alerts to users, reminding them to change their passwords before the expiration date, reducing the risk of account lockout
@@ -39,7 +39,7 @@ The following must be set up before unpacking this Crate:
 * [PowerShell](../../jinja/use-powershell-scripts-in-rewst.md) scripts
 * `password_expiry_crate_admin_email`  [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable)
 
-### Unpack the On-Premises Active Directory Password Expiration Alerts Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
+## Unpack the On-Premises Active Directory Password Expiration Alerts Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2.  Search for `On-Premises Active Directory Password Expiration Alerts`.​
@@ -55,7 +55,7 @@ The following must be set up before unpacking this Crate:
    Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 8. Click **Unpack**.
 
-#### Test the Crate <a href="#test-the-crate" id="test-the-crate"></a>
+### Test the Crate <a href="#test-the-crate" id="test-the-crate"></a>
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `[REWST - TASK] Run Powershell via RMM`.

@@ -34,7 +34,7 @@ You must first add the [organization variables](../../configuration/organization
 5. Enter your estimated time saved.
 6. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 {% hint style="warning" %}
 The form unpacked with this Crate offers a section for advanced settings. They should only be used if you fully understand their impact. For questions about the ramifications of using advanced settings, [contact Rewst Support](../../../support-and-community/roc-support/).&#x20;

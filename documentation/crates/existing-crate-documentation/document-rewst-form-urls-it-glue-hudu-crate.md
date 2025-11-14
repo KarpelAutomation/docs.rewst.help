@@ -8,11 +8,9 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Document Rewst Form URLs (IT Glue/Hudu) Crate takes your Rewst form URLs and puts them into IT Glue or Hudu under each company, as a Flexible Asset for IT Glue users or Asset Layout for Hudu users.
 
-### Why use the Document Rewst Form URLs (IT Glue/Hudu) Crate?
-
-* Gives quick access to Rewst forms in your documentation platform
-* Makes retrieving forms easier for technicians by keeping them in a central space
-* Allows forms only users to have easy access to forms
+* Give quick access to Rewst forms in your documentation platform
+* Make retrieving forms easier for technicians by keeping them in a central space
+* Allow forms only users to have easy access to forms
 
 ## Crate prerequisites
 
@@ -49,7 +47,7 @@ Our Document Rewst Form URLs (IT Glue/Hudu) Crate takes your Rewst form URLs and
 The workflow is designed to run at the MSP level organization. The workflow will automatically iterate through your Rewst child orgs and populate their specific form URLs in the documentation platform
 {% endhint %}
 
-## Test the Crate
+### Test the Crate
 
 1. Click **test** in the top right corner of the page.
 2. Select your MSP organization and click **Test**.

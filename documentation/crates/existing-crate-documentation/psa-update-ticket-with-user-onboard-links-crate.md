@@ -8,11 +8,7 @@ This Crate is our newest version of an older Crate which was called Add Rewst Fo
 
 ## What does the PSA: Update Ticket With User Onboard Links Crate do?
 
-This Crate automatically filters and detects tickets, created or updated in your PSA, that match the set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md). It then inserts a ticket note for the User Onboard Form directly into the ticket, for one clean place to enter everything IT needs.
-
-### Why use the PSA: Update Ticket With User Onboard Links Crate?
-
-Ensure that everyone fills out the same form, the same way, every time. Techs get all the info they need in the same format, speeding up user provisioning.
+This Crate automatically filters and detects tickets, created or updated in your PSA, that match the set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md). It then inserts a ticket note for the User Onboard Form directly into the ticket, for one clean place to enter everything IT needs. Ensure that everyone fills out the same form, the same way, every time. Techs get all the info they need in the same format, speeding up user provisioning.
 
 ### How the Crate works
 
@@ -24,7 +20,7 @@ This workflow is initiated when a ticket that matches the set trigger criteria i
 * Identifies if the ticket already has the generated ticket note
 * If a note does not exist in the ticket, the note is added to the ticket
 
-### Crate prerequisites <a href="#crate-prerequisites" id="crate-prerequisites"></a>
+## Crate prerequisites <a href="#crate-prerequisites" id="crate-prerequisites"></a>
 
 You'll first need to have your PSA successfully integrated before unpacking. This Crate works with:
 
@@ -47,7 +43,7 @@ You'll first need to have your PSA successfully integrated before unpacking. Thi
 7. You may also set activation to adhere to trigger criteria, or for integration overrides.
 8. Click **Unpack.**
 
-## **Test the Crate**
+### **Test the Crate**
 
 Create a dummy ticket in your PSA to make sure the Crate behaves as expected.
 

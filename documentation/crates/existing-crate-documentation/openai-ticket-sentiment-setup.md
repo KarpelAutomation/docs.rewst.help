@@ -8,11 +8,11 @@ In order to use the Azure instance, you will need to follow the [Azure OpenAI In
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-### What does the OpenAI Ticket Sentiment Analysis Crate do?
+## What does the OpenAI Ticket Sentiment Analysis Crate do?
 
 The OpenAI Ticket Sentiment Analysis Crate streamlines support operations by using AI to assess and act on ticket sentiment, impact, urgency, and priority. As new tickets are created, it retrieves ticket details, analyzes severity, and updates relevant PSA fields automatically. High-sentiment tickets are escalated and assigned to designated team members, while a detailed internal note logs the results. Fully integrated with your PSA, this Crate ensures faster, smarter ticket handling.
 
-### Crate prerequisites
+## Crate prerequisites
 
 * Before unpacking the Crate, you'll need to have the integration for one of the following PSAs set up:
   * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
@@ -24,7 +24,7 @@ The OpenAI Ticket Sentiment Analysis Crate streamlines support operations by usi
 
 * You'll also need to have the OpenAI integration set up in Rewst.
 
-### Set up the OpenAI Ticket Sentiment Crate
+## Unpack the OpenAI Ticket Sentiment Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `OpenAI Ticket Sentiment`.\
@@ -54,20 +54,26 @@ The OpenAI Ticket Sentiment Analysis Crate streamlines support operations by usi
 
 
 
-## Use the OpenAI Ticket Sentiment Crate
+### Use the OpenAI Ticket Sentiment Crate
 
 Create a ticket in your PSA with a typical description and summary.
 
 <figure><img src="../../../.gitbook/assets/HaloPSANote (1).png" alt=""><figcaption></figcaption></figure>
 
-### Useful organization variables: Optional
+### Organization variables associated with this Crate
+
+{% hint style="info" %}
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables).
+
+Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
+
+If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.
+{% endhint %}
 
 These Organization Variables give you more control over the functionality of this workflow.
 
-* ORG.VARIABLES.ticket\_sent\_max\_tokens
-  * Allows you to manually set the max tokens
-* ORG.VARIABLES.ai\_model\_ticket\_sent
-  * Allows you to manually set the model
+* `ORG.VARIABLES.ticket_sent_max_tokens` - Allows you to manually set the max tokens
+* `ORG.VARIABLES.ai_model_ticket_sent` - Allows you to manually set the model
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

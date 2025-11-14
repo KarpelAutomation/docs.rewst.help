@@ -43,23 +43,23 @@ Before unpacking this Crate, you must first:
 
 <figure><img src="../../../.gitbook/assets/image (70).png" alt="Screenshot of the REWST Cork Compliance Setup Form interface, displaying dropdown configuration fields including reporting type (set to “One Ticket With All Combined Events/Assets”), board ID (set to “IT:Level I”), ticket creation status (set to “New”), ticket closure status (set to “Complete”), and an optional ticket type section enabled with the ticket type set to “IT:Hardware.” Each field includes a refresh icon for dynamic updates, and required fields are marked with red asterisks."><figcaption></figcaption></figure>
 
-## Use the Cork Compliance Event to PSA Ticket Crate
+### Use the Cork Compliance Event to PSA Ticket Crate
 
 After submitting the form during the unpacking process, the Crate will function as long as triggers are enabled. If triggers are disabled, open the workflow and enable them.
 
-### Schedule
+#### Schedule
 
 * By default, he workflow runs daily at 5:00 AM, but this is adjustable via the Crate's cron trigger.
 * The Crate is designed to run once per day.
 
-### Reporting
+#### Reporting
 
 * The setup form creates the org variable: `cork_compliance_reporting_type` when a reporting type is selected.
 * To change this, rerun the form or manually edit via organization variables in Rewst.
 
 #### Reporting types
 
-* **Company (default):** One ticket for all device events per company.
+* **Company:** One ticket for all device events per company. This is the default.
 * **Device:** Separate ticket for each device with compliance events.
 
 

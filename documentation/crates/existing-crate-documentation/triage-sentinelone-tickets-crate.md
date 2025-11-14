@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Triage SentinelOne Tickets Crate streamlines the process of matching SentinelOne alert tickets with their corresponding companies in ConnectWise PSA. It automatically scans ticket subjects for SentinelOne alert patterns, identifies the company via SentinelOne API, and links it to the correct company in ConnectWise PSA.
 
-## Why use the Triage SentinelOne Tickets Crate?
-
 * Quickly identify which client company is affected by a SentinelOne security alert
 * Reduce response time for security incidents by eliminating manual lookup processes
 * Ensure security alerts are properly routed to the correct company in ConnectWise PSA
@@ -21,7 +19,7 @@ Our Triage SentinelOne Tickets Crate streamlines the process of matching Sentine
 * An active [SentinelOne integration](../../configuration/integrations/integration-guides/sentinelone-integration-setup.md) with Rewst
 * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) integration with Rewst
 
-### Unpack the Triage SentinelOne Tickets Crate
+## Unpack the Triage SentinelOne Tickets Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for **Triage SentinelOne Tickets Crate**.\
@@ -46,7 +44,7 @@ Our Triage SentinelOne Tickets Crate streamlines the process of matching Sentine
 6. This will open the result details page.
 7. Navigate back to ConnectWise PSA and verify that the ticket has been associated with the correct company and contains any additional information added by the workflow.
 
-### Troubleshoot the Triage SentinelOne Tickets Crate
+## Troubleshoot the Triage SentinelOne Tickets Crate
 
 * Confirm that the trigger criteria is correct for your environment.
 * For tickets that aren't being processed, confirm that the ticket subject follows the expected SentinelOne alert pattern.

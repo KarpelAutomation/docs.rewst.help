@@ -71,7 +71,7 @@ Refer to the following workflow-specific organization variables:
   * Note that users must be added to the JSON list by the corresponding GUID, not the email or UPN. Example: \["dff2e679-f51d-4259-a32b-bde6fa918671","eaa2e675-f51d-4259-a32b-bde6fa438671"]
 {% endhint %}
 
-## Use the Crate
+### Use the Crate
 
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. To edit a cron trigger in the workflow to either test it once or change the timing it will routinely run:
 

@@ -27,7 +27,7 @@ The workflow only acts on tickets with a single note to avoid interfering with t
 6. OpenAI generates a helpful response with markdown formatting, focusing on security-conscious advice.
 7. The AI-generated response is added as an internal note to the original ticket.
 
-### Crate prerequisites
+## Crate prerequisites
 
 Before unpacking this Crate, you'll need to successfully integrate one of the following [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)s  with Rewst:
 
@@ -58,7 +58,7 @@ The [organization variable](../../configuration/organization-variables.md#what-i
 7. Ensure that **Enabled** is toggled on for your desired PSA, and off for all others. You may also add [trigger criteria ](../../automations/intro-to-triggers/trigger-criteria.md)and integration overrides if you wish.
 8. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 1. Create a dummy ticket in your PSA with an issue that you clearly know how to solve. The ticket should only have one note.
 2. Wait for the webhook trigger in the workflow to trigger automatically.&#x20;

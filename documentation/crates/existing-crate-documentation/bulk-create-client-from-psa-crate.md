@@ -6,16 +6,11 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the **Bulk Create Client from PSA** Crate do?
 
-Our Bulk Create Client from PSA Crate allows you to create organizations in Rewst from a filtered PSA client list, in bulk.
+Our Bulk Create Client from PSA Crate allows you to create organizations in Rewst from a filtered PSA client list, in bulk. Reduce time needed when onboarding into Rewst for the first time and quickly create multiple unique Rewst organizations from your PSA.
 
 {% hint style="warning" %}
 Once an organization is created via the Crate's execution, you can't change the parent organization of that child organization.&#x20;
 {% endhint %}
-
-### Why use the Bulk Create Client from PSA Crate?
-
-* Reduce time needed when onboarding into Rewst for the first time.
-* Quickly create multiple unique Rewst organizations from your PSA.
 
 ## Crate prerequisites
 
@@ -56,7 +51,7 @@ Prior to unpacking and running this Crate, you should have one of the following 
 12. Click **Unpack**.
 13. Once unpacking has completed, click **Done**.
 
-## Test the Crate
+### Test the Crate
 
 1. Navigate to **Automations > Forms**.
 2. Search for `[ROC] Rewst: Create Orgs from PSA Form`.

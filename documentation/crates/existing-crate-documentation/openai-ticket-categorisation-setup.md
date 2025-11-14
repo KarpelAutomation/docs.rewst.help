@@ -8,7 +8,7 @@ In order to use the Azure instance, you will need to follow the [Azure OpenAI In
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-### What does the OpenAI Ticket Categorization Crate do?
+## What does the OpenAI Ticket Categorization Crate do?
 
 This Crate uses the OpenAI API to categorize tickets, using your built-in types, sub-types, etc. as the categories. Rather than your tech having to triage a ticket after the fact, the ticket will already be triaged almost immediately when it comes into the PSA.
 
@@ -26,7 +26,7 @@ This Crate uses the OpenAI API to categorize tickets, using your built-in types,
 * **Automation Building** - One of the most common questions we get asked is "What do we automate?" - this crate will help you answer that question. By categorizing your tickets, you can then see which types of tickets are taking up the most time, and which types of tickets are taking up the most time for your techs. This then allows you to make better decisions about what to automate.
 * **General Time Savings** - Whilst triaging tickets is a necessary evil, it's also a time-consuming one when you think about the number of tickets that come in. This crate will help you save time by using your own data to categorize tickets, rather than having to do it manually.
 
-### Crate prerequisites
+## Crate prerequisites
 
 *   Before unpacking the Crate, you'll need to have the integration for one of the following PSAs set up:
 
@@ -39,7 +39,7 @@ This Crate uses the OpenAI API to categorize tickets, using your built-in types,
 * You'll also need to have the OpenAI integration set up in Rewst.
 * Remember, you can also set up an Azure instance of OpenAI, and use that with this crate. If you want to use an Azure instance of OpenAI with this Crate, you'll need to follow the Azure OpenAI Integration Setup steps to have this completed before unpacking.
 
-### Unpack the OpenAI Ticket Categorization Crate
+## Unpack the OpenAI Ticket Categorization Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `OpenAI Ticket Categorization`.\
@@ -57,23 +57,26 @@ This Crate uses the OpenAI API to categorize tickets, using your built-in types,
 
 <figure><img src="../../../.gitbook/assets/Enabledtriggers.png" alt=""><figcaption><p>Enabled Trigger</p></figcaption></figure>
 
-## Test the Crate
+### Test the Crate
 
 Create a ticket in your PSA with a typical description and summary.
 
 <figure><img src="../../../.gitbook/assets/HaloPSANote.png" alt=""><figcaption></figcaption></figure>
 
-## Useful organization variables: Optional
+## Organization variables associated with this Crate
+
+{% hint style="info" %}
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables).
+
+Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
+
+If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.
+{% endhint %}
 
 These organization variables give you more control over the functionality of this workflow.
 
-* `ORG.VARIABLES.ticket_cat_max_tokens`
-  * Allows you to manually set the max tokens
-*   `ORG.VARIABLES.ai_model_ticket_cat`
-
-    * Allows you to manually set the model
-
-
+* `ORG.VARIABLES.ticket_cat_max_tokens` - Allows you to manually set the max tokens
+* `ORG.VARIABLES.ai_model_ticket_cat` - Allows you to manually set the model
 
 ## Increase the success rate of categorization
 

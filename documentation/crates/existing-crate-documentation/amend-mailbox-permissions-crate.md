@@ -6,50 +6,35 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Amend Mailbox Permissions Crate do?
 
-Our Amend Mailbox Permissions Crate provides a streamlined, secure method for managing mailbox access in Microsoft 365 environments. This Crate automates the process of adding, removing, or viewing permissions for mail-enabled mailboxes, ensuring precise access control and comprehensive audit tracking.
+Easily manage permissions for mail-enabled mailboxes in your environment. This Crate allows you to add, remove, or view both FullAccess and SendAs permissions, ensuring that all changes are audited and logged in your PSA.
 
-The Amend Mailbox Permissions Crate automates the following processes.
+### How the Crate works
 
-1. Permission management
-   1. Adding or removing Full Access permissions
-   2. Adding or removing Send As permissions
-   3. Viewing current mailbox access levels
-2. Automatic documentation
-   1. Creates a new ticket or allows selection of an existing one.
-   2. Captures the reason for permission changes
-   3. Ensures accountability and compliance for mailbox access modifications
-3. Automated logging and tracking
-   1. Generates detailed logs of all permission changes
-   2. Creates or updates tickets in your PSA
-   3. Provides a clear audit trail of access modifications
+* Choose the mail-enabled mailbox you wish to manage.
+* Add, remove, or view FullAccess and SendAs permissions as required.
+* All changes are automatically logged in a ticket in your PSA for auditing purposes.
 
-## Why use the Amend Mailbox Permissions Crate?
+### Workflow breakdown
 
-This Crate is designed to support MSPs and IT teams in efficiently and securely managing email access from the parent organization. By enabling the child organizations in the form trigger, MSPs can seamlessly grant and control access to the form for their customers. Common use cases include:
-
-### Emergency access management
-
-* Quickly grant temporary access for critical troubleshooting
-* Provide short-term mailbox permissions for urgent situations
-* Ensure immediate response capabilities while maintaining security
-
-### Routine operational changes
-
-* Grant access to a mailbox after an onboarding or offboarding
-* Temporarily grant access for specific projects or collaborations
-* Handle delegation of mailbox access during employee absences
-* Allow managers to access team mailboxes
-* Grant temporary access for external consultants
-* Manage shared mailbox permissions for departments
-
-### Compliance and security
-
-* Maintain detailed logs of all permission changes
-* Ensure minimal and purposeful mailbox access
+1. The workflow begins at the **START** task, which calculates a count of permission operations to be performed based on the input parameters for adding or removing full access and send as permissions.
+2. The workflow checks if PSA integration is properly configured by verifying that a default PSA system is set in the organization variables and determines the appropriate company ID based on the PSA type.
+3. The system validates that the workflow is being executed from the associated form by checking for the presence of a user\_id parameter in the context.
+4. The workflow retrieves user information for the specified mailbox by executing a Get-Mailbox command through **Microsoft Exchange Online InvokeCommand** to obtain the display name and other mailbox details.
+5. The system determines whether a ticket ID was provided as input and branches accordingly - if no ticket is provided, it proceeds to create a new PSA ticket, otherwise it updates the existing ticket with initial information.
+6. If creating a new ticket, the workflow verifies that the company\_id organization variable is properly configured before proceeding with PSA ticket creation using **\[REWST - PROCESS] PSA: Create Ticket** and the mailbox user's display name in the summary.
+7. After ticket handling, the workflow evaluates the add\_remove\_view parameter to determine the requested operation type and branches to the appropriate permission management path.
+8. For adding permissions, the workflow first checks if there are users to be granted full access permissions and processes them using **\[REWST - TASK] Modify Mailbox Access** with iterative execution for each user.
+9. The system then checks for users requiring send as access permissions and processes those additions using the same **\[REWST - TASK] Modify Mailbox Access** with appropriate permission settings.
+10. For removing permissions, the workflow retrieves existing mailbox permissions using **\[REWST - OPT GEN] Get Mailbox Folder Permissions** to identify current permission holders.
+11. The system processes the existing permissions data to create lists of users whose full access and send as permissions need to be removed based on the input parameters.
+12. The workflow removes full access permissions for identified users by iterating through the removal list and executing **\[REWST - TASK] Modify Mailbox Access** for each user.
+13. Similarly, the system removes send as permissions for the specified users through iterative execution of **\[REWST - TASK] Modify Mailbox Access**.
+14. After completing permission modifications, the workflow updates the PSA ticket with detailed information about which users had permissions added or removed using **\[REWST - PROCESS] PSA: Update Ticket**, including their names and the specific permission types.
+15. For view permissions operations, the workflow bypasses all modification steps and proceeds directly to the completion phase.
+16. The workflow concludes at the **END** task using **noop**, which publishes the complete automation log containing all operation results and status information for tracking and auditing purposes.
+17. Throughout the entire process, any task failures are routed to a failed task that logs the error using **noop** and proceeds to the End task to ensure proper workflow completion and logging.
 
 ## Crate prerequisites
-
-### Integration requirements
 
 * The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * Your PSA must be [integrated with Rewst](https://docs.rewst.help/documentation/integrations/psa).
@@ -184,7 +169,7 @@ This Crate is designed to support MSPs and IT teams in efficiently and securely 
   * Logs all permission modification details
   * Provides clear, traceable record of access changes
 
-Removing permissions
+#### Removing permissions
 
 * **Permission revocation process**
   * Methodically removes specified access rights

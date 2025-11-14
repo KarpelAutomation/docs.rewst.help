@@ -16,7 +16,7 @@ The Crate contains a form that is used to choose your device and trigger the run
 * Specify the target devices and organizations where the script should run.
 * The selected script is run on the chosen devices, within the targeted organizations, then updates or creates a ticket.
 
-### Crate prerequisites
+## Crate prerequisites
 
 Before unpacking this Crate, you'll need to successfully integrate both your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) and [RMM](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst.&#x20;
 
@@ -33,7 +33,7 @@ Before unpacking this Crate, you'll need to successfully integrate both your [PS
 6. Ensure that **Enabled** is toggled on.
 7. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `Run Ad-Hoc PowerShell on Computer`.

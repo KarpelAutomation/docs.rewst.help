@@ -27,7 +27,7 @@ Before using this automation:
 6. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.&#x20;
 7. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 To test this Crate, you'll need to adjust the [cron trigger](../../automations/intro-to-triggers/#core-cron-job)'s schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. The cron trigger for this Crate is set to trigger daily at 8:20 PM (UTC).\
 

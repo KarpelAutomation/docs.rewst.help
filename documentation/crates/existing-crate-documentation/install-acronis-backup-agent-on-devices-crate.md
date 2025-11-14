@@ -8,8 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 The Crate starts by listing all devices in the RMM. Each device then undergoes a software audit to identify installed software and potential issues. If any problems are found, they are reported back to the PSA. In the case of significant issues, an option to request manual intervention is activated in the PSA ticket.
 
-### Why use the Install Acronis Backup Agent on Devices Crate?
-
 * Achieve a unified and up-to-date view of software installations across all managed devices.
 * Automate the process of identifying and flagging potential software-related issues.
 * Facilitate seamless communication between RMM and PSA for quick issue resolution.

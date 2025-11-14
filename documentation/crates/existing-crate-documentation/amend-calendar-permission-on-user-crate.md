@@ -37,7 +37,7 @@ The Microsoft Exchange integration must first be successfully installed. This is
 6. Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
 7. Click **Unpack**.
 
-## Use the Crate
+### Use the Crate
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Rewst] Calendar Permissions`.

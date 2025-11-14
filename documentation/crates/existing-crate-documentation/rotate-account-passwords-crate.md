@@ -19,7 +19,7 @@ The Crate runs on a scheduled rotation, based on configured frequency preference
 * Updates the account password in the target system
 * Stores the new password in Hudu or IT Glue
 
-### Crate prerequisites
+## Crate prerequisites
 
 Before unpacking this Crate, you'll need to successfully integrate either [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) with Rewst.
 
@@ -46,7 +46,7 @@ In the organization variable, give a list of users for all accounts you want to 
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-19 at 3.52.50 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Use the Crate
+### Use the Crate
 
 {% hint style="warning" %}
 Note that if you test or run the workflow in this Crate before setting up the rotate\_admins organization variable, your workflow will still show as successful, but will consider the list of users to be empty.&#x20;

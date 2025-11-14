@@ -14,11 +14,11 @@ Ticket information includes:
 * Site details: ID, name, public IP, type
 * File details: Name, path, size, MD5, SHA256, malware group, determination
 
-### Crate prerequisites
+## Crate prerequisites
 
 The [OpenText Core Endpoint Protection](../../configuration/integrations/integration-guides/webroot-integration-setup.md) integration must be successfully set up in Rewst before unpacking this Crate.
 
-### Unpack the OpenText Core Endpoint Protection: Create Ticket from File Detection Crate
+## Unpack the OpenText Core Endpoint Protection: Create Ticket from File Detection Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `OpenText Core Endpoint Protection: Create Ticket from File Detection`.

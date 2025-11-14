@@ -46,11 +46,9 @@ You'll need to first successfully integrate [ConnectWise PSA](../../configuratio
 7. Enter your time savings into the **Time Saved (seconds)** field.
 8. Click **Unpack**.
 
-## Test the Crate
+### Test the Crate
 
 Create a new ticket in ConnectWise PSA that you know is a duplicate of another existing ticket. If the Crate is working properly, you should see the new buttons for handling duplicates appear on the ticket.&#x20;
-
-
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

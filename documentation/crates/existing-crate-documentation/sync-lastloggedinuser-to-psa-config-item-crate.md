@@ -4,17 +4,17 @@
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-### What does the Sync LastLoggedInUser to PSA Config Item Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
+## What does the Sync LastLoggedInUser to PSA Config Item Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
 
 Our Sync LastLoggedInUser to PSA Config Item Crate helps you keep track of the last login activities on your devices by enabling you to select a client and automatically sync the **LastLoggedIn** field for all RMM devices to update assets in your Datto Autotask PSA.
 
-#### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
+### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
 
 * Uses the form input to choose the client you wish to sync
 * Automatically updates the **LastLoggedIn** field for all RMM devices associated with the selected client
 * Corresponding assets in the PSA are updated with this newly synced data
 
-#### Workflow breakdown
+### Workflow breakdown
 
 1. The workflow starts by executing a noop action that serves as the initial trigger point for the automation process.
 2. Rewst retrieves all active configuration items from Datto Autotask PSA for the specified target organization, then filters the results to include only configuration item type 1 which represents computers and devices. Essential data is extracted including hostname, last logged-in user, current contact ID, and item ID for each device.
@@ -39,7 +39,7 @@ The [Datto Autotask PSA](../../configuration/integrations/integration-guides/dat
 6. Ensure that **Enabled** is toggled on under **Configure Triggers**. Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](../../settings/tags-in-rewst.md), and set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 7. Click **Unpack**.
 
-#### Use the Crate <a href="#use-the-crate" id="use-the-crate"></a>
+### Use the Crate <a href="#use-the-crate" id="use-the-crate"></a>
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `AT Asset Owner Sync`.
@@ -48,7 +48,7 @@ The [Datto Autotask PSA](../../configuration/integrations/integration-guides/dat
 5. Choose the organization you'd like to run the form on from the **Client to Synchronize** drop-down selector.
 6. Click **Submit** to run the workflow. The workflow will run and automatically add notes to your PSA with the results of the software operation.
 
-#### Test the Crate <a href="#test-the-crate" id="test-the-crate"></a>
+### Test the Crate <a href="#test-the-crate" id="test-the-crate"></a>
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `[Rewst Master v2] Assign Last Logged in User to AT Asset`.\

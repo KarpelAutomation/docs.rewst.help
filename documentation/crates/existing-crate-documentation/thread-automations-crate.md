@@ -17,13 +17,6 @@ Our Thread Automations Crate establishes a flexible integration framework betwee
 
 This Crate doesn’t perform validation on the data beyond what Thread provides natively. Any complex validation logic or business rules would need to be implemented in the Rewst workflow that receives the webhook data.
 
-### Why use the Thread Automation Crate?
-
-* **Continuous monitoring**: Automatically detect and processes new requests as they come in through Thread, via webhook
-* **Seamless integration**: Connect Thread's user-friendly interface with Rewst's powerful automation capabilities
-* **Efficiency**: Eliminate manual data entry and reduce process time by automating information flow
-* **Security**: Implement webhook secrets to ensure secure transmission of sensitive data
-
 ## Unpack the Thread Automations Crate
 
 ### Set up steps in Thread
@@ -107,11 +100,11 @@ Note that the individual setting up the integration must be an admin in Thread.
 
 ## Use the Crate
 
-#### **Intent fields**
+### **Intent fields**
 
 You can modify the fields collected in the Thread Intent to match your specific requirements. The default onboarding setup includes First Name, Last Name, Username, and Email Address. Note that adding additional fields will require you to configure the Thread wrapper to pass into the Rewst workflow.
 
-#### **Thread reply message**
+### **Thread reply message**
 
 You can customize the External Reply field in the Intent to provide personalized confirmation messages to users after they submit their information.
 

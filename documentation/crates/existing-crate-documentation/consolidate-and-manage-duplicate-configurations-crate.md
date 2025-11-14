@@ -31,7 +31,7 @@ This Crate works with our [ConnectWise PSA integration](../../configuration/inte
 5. Note that you have the option under the Form Submission accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), trigger criteria, or for integration overrides. Ensure that **Enabled** is toggled o&#x6E;**.**
 6. Click **Unpack Crate**.
 
-## Use the Clean up Global Address List from Disabled Users Crate
+### Use the Clean up Global Address List from Disabled Users Crate
 
 1. Navigate to **Automations > Forms**.
 2. Search for `[Form Name - This will be indicated on the Crate's details page]`.

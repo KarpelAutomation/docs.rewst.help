@@ -6,12 +6,11 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Detailed MFA Enforcement Reporting Crate do?
 
-This Crate allows you to easily check if MFA is enforced in a Microsoft Entra tenant. Triggered via form submission for individual organizations or a cron trigger for all activated organizations, the workflow will gather a list of users and check whether the user has MFA enforced through Security Defaults, Per User MFA, or Conditional Access. If a user is covered by conditional access, it will report on whether they are protected on all apps or only select apps.\
-
+This Crate allows you to easily check if MFA is enforced in a Microsoft Entra tenant. Triggered via form submission for individual organizations or a cron trigger for all activated organizations, the workflow will gather a list of users and check whether the user has MFA enforced through Security Defaults, Per User MFA, or Conditional Access. If a user is covered by conditional access, it will report on whether they are protected on all apps or only select apps.
 
 This Crate does not auto-remediate users who do not have MFA enforced.
 
-## How the Crate works
+### How the Crate works
 
 The way we determine whether or not MFA is enforced is by checking:
 
@@ -45,7 +44,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 8. You have the option to run this Crate on a schedule via cron job. Expand the **Cron Job** accordion menu and toggle **Enabled** on if you wish to have this Crate run regularly. Leave this as-is if you wish to use the Crate with manual form trigger submission.&#x20;
 9. Click **Unpack**.
 
-## Use the Crate
+
 
 ### Fill out the form
 

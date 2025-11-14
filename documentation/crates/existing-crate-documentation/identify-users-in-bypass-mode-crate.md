@@ -8,11 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Identify Users in Bypass Mode Crate identifies all users that are in bypass mode and creates a ticket to ensure that the granting of bypass mode is intentional and tracked. The Crate’s workflow has a weekly cron trigger. Guarantee that any user in bypass mode is regularly identified, and not missed or forgotten.
 
-### Why use the Identify Users in Bypass Mode Crate?
-
-* Identify users in bypass mode
-* Provide an auditable trail for documentation and remediation
-
 ## Crate prerequisites
 
 Our [Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md) integration must be set up before unpacking this Crate.
@@ -30,7 +25,7 @@ Our [Duo](../../configuration/integrations/integration-guides/duo-integration-se
 
 <figure><img src="../../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Test the Crate
+### Test the Crate
 
 1. Navigate to **Automations > Workflows**.
 2. Search **Duo:** **Identify Users In Bypass Mode**.

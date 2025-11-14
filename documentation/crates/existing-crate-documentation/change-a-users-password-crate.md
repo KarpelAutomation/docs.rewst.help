@@ -8,11 +8,6 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Change a User’s Password Crate uses a form-driven submission to change a user’s password in any environment: on-prem, hybrid, or Entra. Select an existing ticket, or a new one will be created to document the change. Select a generated password, or enter one manually.
 
-### Why use the Change a User’s Password Crate?
-
-* Efficiently change a user’s password
-* Consistently document the change
-
 ## Crate prerequisites
 
 * Your[ PSA must be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
@@ -38,7 +33,7 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 Integration overrides will automatically be added during the Crate's unpacking process.&#x20;
 {% endhint %}
 
-## Test the Crate
+### Test the Crate
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `User: Change Password` .
