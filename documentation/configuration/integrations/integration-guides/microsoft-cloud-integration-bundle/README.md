@@ -107,7 +107,7 @@ We've broken down instructions into four larger steps, each with its own section
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (73).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (73) (3).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
 
 
 
@@ -755,7 +755,7 @@ If you keep getting errors during reinstallation, remove the Rewst MS Cloud Conn
 During the process, you may see the below error. You should be fine to proceed despite the error message. \
 
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

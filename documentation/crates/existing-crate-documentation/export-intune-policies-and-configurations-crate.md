@@ -42,7 +42,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 6.  Click the policies and configurations you would like to export, then click **Submit**.
 
     \
-    ![](<../../../.gitbook/assets/image (8) (1).png>)
+    ![](<../../../.gitbook/assets/image (8) (1) (1).png>)
 7. Access the workflow results by navigating to **Automations > Results**.
 8.  Search for `Export Intune Configurations and Policies` and open the workflow result.\
 
