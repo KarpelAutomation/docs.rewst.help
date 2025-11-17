@@ -57,7 +57,7 @@ Your PSA must be successfully integrated with Rewst. PSAs that work with this Cr
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Alert On Users Without MFA Enforced`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (1).png>)
+   &#x20;![](<../../../.gitbook/assets/image (1) (5).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -72,7 +72,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `[REWST - PROC] Alert on Users Without MFA Enforced`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.\
 
 

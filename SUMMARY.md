@@ -256,6 +256,7 @@
       * [Onboarding Identity provider configuration and setup](documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/onboarding-identity-provider-configuration-and-setup.md)
       * [Onboarding form inputs and workflow process](documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/onboarding-form-inputs-and-workflow-process.md)
       * [Expanded features and customizing the Onboarding Crate](documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/expanded-features-and-customizing-the-onboarding-crate.md)
+    * [Network Devices Reporting Crate](documentation/crates/existing-crate-documentation/network-devices-reporting-crate.md)
     * [Nodeware: Alert To PSA Crate](documentation/crates/existing-crate-documentation/nodeware-alert-to-psa-crate.md)
     * [Notify on Conditional Access Policy Changes Crate](documentation/crates/existing-crate-documentation/notify-on-conditional-access-policy-changes-crate.md)
     * [Onboard or Offboard a Device Crate](documentation/crates/existing-crate-documentation/onboard-or-offboard-a-device-crate.md)

@@ -111,7 +111,7 @@ We've broken down instructions into four larger steps, each with its own section
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (74).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (74) (3).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
 7. Click **Review + Create**, then **Create**.
 
 #### Turn on MFA requirement for the user
