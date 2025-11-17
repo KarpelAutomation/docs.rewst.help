@@ -70,7 +70,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `[ROC] Auvik: Network Device Report`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (3) (5).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
 
@@ -89,7 +89,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (9).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

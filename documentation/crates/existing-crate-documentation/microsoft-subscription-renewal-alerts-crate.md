@@ -62,7 +62,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
 
