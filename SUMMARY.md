@@ -247,6 +247,7 @@
     * [Liongard MFA Remediation Crate](documentation/crates/existing-crate-documentation/liongard-mfa-remediation-crate.md)
     * [M365 CSP/GDAP Permission Checker Crate](documentation/crates/existing-crate-documentation/m365-csp-gdap-permission-checker-crate.md)
     * [M365: Generate Org Chart Crate](documentation/crates/existing-crate-documentation/m365-generate-org-chart-crate.md)
+    * [Manage Chocolatey Packages Crate](documentation/crates/existing-crate-documentation/manage-chocolatey-packages-crate.md)
     * [Manage Duo Phones Crate](documentation/crates/existing-crate-documentation/manage-duo-phones-crate.md)
     * [Mass Update Org Variables via CSV Crate](documentation/crates/existing-crate-documentation/mass-update-org-variables-via-csv-crate.md)
     * [Microsoft 365 Quarantine Email Release Crate](documentation/crates/existing-crate-documentation/microsoft-365-quarantine-email-release-crate.md)
