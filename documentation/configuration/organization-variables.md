@@ -4,13 +4,15 @@
 
 A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short. For information on how to add a new organization or access the organizations menu in Rewst, see our documentation [here](../settings/organizations.md).
 
-Rewst uses a two-tier system to manage organizations, with your MSP as the _parent org_ and your customers as _child orgs_. To make automations work for your managed clients/customers, set them up as child orgs.
+Rewst uses a two-tier system to manage organizations, with your MSP as the _parent org_ and your customers as _child orgs_. To make automations work for your managed clients/customers, set them up as child orgs. Each time you bring on a new customer account, you'll need to add a corresponding child org in Rewst to enable automations for them.
 
 <figure><img src="../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-We recommend using the [Bulk Create Client from PSA Crate](../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly, and using the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the [mapping process ](integrations/#map-your-organizations-to-finish-integrating)for each new customer you add in the future. You can also add organizations manually, or through the [Microsoft Cloud Bundle](integrations/integration-guides/microsoft-cloud-integration-bundle/).
+We recommend using the [Bulk Create Client from PSA Crate](../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly during your Rewst onboarding, and using the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the [mapping process ](integrations/#map-your-organizations-to-finish-integrating)for each new customer you add in the future. You can also [add organizations manually](../settings/organizations.md), or through the [Microsoft Cloud Bundle](integrations/integration-guides/microsoft-cloud-integration-bundle/).
 {% endhint %}
+
+{% embed url="https://youtu.be/rYLnWl54Sz8?si=m8o7WGyaMIIRmGmy" %}
 
 ## What is an organization variable?
 

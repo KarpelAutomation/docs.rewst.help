@@ -1,21 +1,13 @@
 # Add Client to Rewst Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Add Client to Rewst Crate in our Crate Marketplace.
-{% endhint %}
-
-{% hint style="info" %}
-### There are two ways to add clients to Rewst:
-
-1. With the Add Client to Rewst Crate.
-2. Through your CSP integration.
-
-This page will cover how to do this with the Add Client to Rewst Crate. [You can find alternative instructions for the second method here](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/adding-a-new-client-to-rewst.md).
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Add Client to Rewst Crate in our Crate Marketplace.\
+This page will cover how to add a new child organization with the Add Client to Rewst Crate. You can find  instructions for all ways of adding new organizations [here](../../configuration/organization-variables.md#what-is-an-organization).
 {% endhint %}
 
 ## What does the Add Client to Rewst Crate do?
 
-The Add Client to Rewst Crate lets you easily use a form to add a new client to Rewst, and map your installed integrations to the organization. Note that this Crate does not handle Microsoft Mappings.
+The Add Client to Rewst Crate lets you easily use a form to add a new child organization to Rewst, and map your installed integrations to the organization. Use this form every time you sign on a new customer and need to add them as a new child org in Rewst. The form will prompt you to create users and set specific org variables. Note that this Crate does not handle Microsoft Mappings.
 
 ### Workflow breakdown
 
@@ -40,14 +32,13 @@ The Add Client to Rewst Crate lets you easily use a form to add a new client to 
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
-6. Add your **Time Saved**.
-7. Click **Unpack**.
+6. Click **Unpack**.
 
 <figure><img src="../../../.gitbook/assets/unpack-client-add-crate.gif" alt=""><figcaption><p>Adding the Crate</p></figcaption></figure>
 
 ### Use the Crate
 
-After unpacking, use the Crate's form to add a client.
+After unpacking, use the Crate's form to add a new child organization.
 
 1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `Add New Client to Rewst`.
@@ -59,7 +50,7 @@ After unpacking, use the Crate's form to add a client.
 
 Once you're in the form, you'll see the following fields:
 
-* **Company Name**: The name of the company you want to add to Rewst
+* **Company Name**: The name of the customer you want to add to Rewst
 * **Customer Primary Domain**: The domain of the company - for example, `Rewstyhouse.com .`
 
 This form will also give you the option to map the following installed integration categories:
@@ -95,7 +86,7 @@ When all fields and desired settings have been updated, remember to click **Subm
 {% hint style="warning" %}
 **Make sure you map the Microsoft Cloud Solution Provider (CSP) tenant for your customer**
 
-You will then want to find the CSP tenant for your new customer and map it to the Rewst organization that you have created. You can do this by navigating to **Configuration > Integrations > Microsoft Cloud** to find the relevant CSP tenant.
+You will then want to find the CSP tenant for your new customer and map it to the Rewst organization that you have created. You can do this by navigating to **Configuration > Integrations > Microsoft Cloud Integration Bundle** to find the relevant CSP tenant.
 {% endhint %}
 
 {% hint style="info" %}

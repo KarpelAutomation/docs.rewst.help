@@ -120,27 +120,21 @@ Rewst uses a set of Jinja variables that are available at the "Rewst" level. The
 
 * **COMPLETED\_WORKFLOW**
 * **completed**
-
-- **CTX**
-
+* **CTX**
 * **FAILED**
 * **item**
 * **now**
 * **ORG**
-
-- **REQUEST**
-
+* **REQUEST**
 * **RESULT**
 * **RESULT\_DATA**
 * **SUCCEEDED**
 * **TASK**
 * **TASK\_DATA**
 * **TASK\_RESULT\_DATA**
-
-- **TASK\_SPEC**
-- **task\_status**
-- **TASKS**
-
+* **TASK\_SPEC**
+* **task\_status**
+* **TASKS**
 * **TEMPLATE**
 * **UTILS**
 * **USER**
@@ -381,7 +375,7 @@ Result: This will return the userPrincipalName of the user(s) that has a display
 
 {% code overflow="wrap" %}
 ```django
-{{ [{"group_name": groups.displayName, "group_id": groups.id} for groups in TASKS.task_name.result.result if (not groups.dynamicMembership)"]}}
+{{ [{"group_name": groups.displayName, "group_id": groups.id} for groups in TASKS.task_name.result.result if (not groups.dynamicMembership)]}}
 ```
 {% endcode %}
 

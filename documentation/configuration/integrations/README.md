@@ -69,6 +69,8 @@ Additionally, we recommend that you unpack the [Add Client to Rewst Crate](../..
 Note that the mapping menu won't be visible during initial integration set up. It appears at the bottom of that integration's configuration page after you click **Save Configuration**. Once you've saved the configuration, you can go back into that installed integration later on via the Integrations menu to update your org mapping as needed.
 {% endhint %}
 
+{% embed url="https://youtu.be/8Cv-j_NADqw?si=eGAWqtSbts2AM0Dc" %}
+
 The general steps to map each organization are as follows.
 
 1. Navigate to **Configuration > Integrations** in the Rewst platform.
