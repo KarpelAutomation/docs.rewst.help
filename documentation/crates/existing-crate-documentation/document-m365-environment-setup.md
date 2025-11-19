@@ -20,7 +20,7 @@ Before using this automation:
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Document M365 Environment`.\
    \
-   ![](<../../../.gitbook/assets/image (137).png>)
+   ![](<../../../.gitbook/assets/image (153).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -35,7 +35,7 @@ To test this Crate, you'll need to adjust the [cron trigger](../../automations/i
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document M365 Environment` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (183).png>) to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (199).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then. A fresh documentation record will appear in your documentation tool if the workflow is successful.
 6. Re-adjust the time of the cron trigger to when you would like it to routinely ru&#x6E;**.**
 

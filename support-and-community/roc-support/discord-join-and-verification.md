@@ -29,7 +29,7 @@ You must have an existing Rewst account to use the form
 4. **Authorize Discord access**\
    A dropdown will appear with the option to **Add New User to Rewst Discord**. Click on the link that says **Click here to authorize access to Discord**.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="354"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="354"><figcaption></figcaption></figure>
 
 5. **Sign in to Discord**\
    You will be redirected to the Discord sign-in page. Log in with your Discord account, or if you’re already logged in, review the permissions screen.

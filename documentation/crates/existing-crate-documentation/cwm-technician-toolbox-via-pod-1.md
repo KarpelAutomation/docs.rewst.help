@@ -1,7 +1,7 @@
 # CW PSA: Pod Technician Toolbox Crate V2
 
 {% hint style="warning" %}
-This is our newest version of this Crate. An older version still exists in our Crate Marketplace titled CWM: Technician Toolbox via Pod. That Crate is [deprecated ](../../../prebuilt-automations/crates/crate-deprecation-faq.md)and should no longer be unpacked. For customers who were using the old version of the Crate, see the section of this document titled[#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate](cwm-technician-toolbox-via-pod-1.md#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate "mention") for instructions.&#x20;
+This is our newest version of this Crate. An older version still exists in our Crate Marketplace titled CWM: Technician Toolbox via Pod. That Crate is [deprecated ](../crate-deprecation-faq.md)and should no longer be unpacked. For customers who were using the old version of the Crate, see the section of this document titled[#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate](cwm-technician-toolbox-via-pod-1.md#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate "mention") for instructions.&#x20;
 {% endhint %}
 
 ## What does the CW PSA: Pod Technician Toolbox Crate V2 do?
@@ -25,7 +25,7 @@ Before unpacking this Crate:
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform
 2. Search for `CW PSA: Pod Technician Toolbox V2`_._\
    \
-   ![](<../../../.gitbook/assets/image (134).png>)
+   ![](<../../../.gitbook/assets/image (150).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

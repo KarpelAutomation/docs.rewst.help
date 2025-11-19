@@ -18,7 +18,7 @@ In the Rewst platform:
 4. Add a single [no-op](../../actions-in-rewst/core-actions.md#no-operation-noop) action to the canvas. Name it `BEGIN`. Click **Publish** to save your workflow. No other actions are needed, as you'll just be working with triggers.
 5. Click **Add Trigger** at the top of your workflow builder.
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 ### **Create the trigger**
 
@@ -31,11 +31,11 @@ In the Rewst platform:
    3. Halo PS&#x41;**:** **New Ticket Record**.
 4. Click on the graph button under the **Trigger Criteria** section.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (18).png" alt="" width="404"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (32).png" alt="" width="404"><figcaption></figcaption></figure></div>
 
 The trigger is now active and will capture data when a new ticket is submitted. This screen is listening for your ticket records to be saved, and will show you live results as they come in.
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -49,7 +49,7 @@ To see the trigger in action follow the below steps&#x20;
 * Submit the ticket.
 * You should see the ticket record appear in Rewst.
 
-<figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Once the ticket is visible in Rewst, click the pause button to stop more tickets from coming in while you're building your trigger criteria.
@@ -59,7 +59,7 @@ Once the ticket is visible in Rewst, click the pause button to stop more tickets
 
 Find and click the values in the ticket you want as trigger criteria. They will have their corresponding path entered into the Trigger Criteria on the right.
 
-<figure><img src="../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -75,7 +75,7 @@ Find and click the values in the ticket you want as trigger criteria. They will 
 * Copy these criteria values.
 * Paste them into other workflows you are configuring.
 
-<figure><img src="../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

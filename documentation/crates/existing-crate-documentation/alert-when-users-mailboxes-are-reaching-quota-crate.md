@@ -39,7 +39,7 @@ If you wish for a ticket to be generated in your PSA, your [PSA must be successf
 2.  Search for the `Unpack the Alert when Users' Mailboxes are Reaching Quota` Crate.
 
     \
-    ![](<../../../.gitbook/assets/image (104).png>)
+    ![](<../../../.gitbook/assets/image (120).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack**.
 5. Enter your desired percentage capacity threshold for the mailbox quota.
@@ -74,7 +74,7 @@ To test if the Crate is working properly, you'll want to use the test function d
 5.  Choose the organization you'd like to use to test the workflow.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 6. Click **Test**.
 7. Allow the workflow to run.
 8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.

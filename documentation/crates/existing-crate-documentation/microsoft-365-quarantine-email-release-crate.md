@@ -17,7 +17,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Microsoft 365 Quarantine`.\
    \
-   ![](<../../../.gitbook/assets/image (159).png>)
+   ![](<../../../.gitbook/assets/image (175).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.&#x20;
@@ -30,8 +30,8 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2.  Search for M365 Quarantine Release. Click on the workflow to open it in the workflow builder. Note that this workflow is triggered by a form submission.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
-3. Click ![](<../../../.gitbook/assets/image (183).png>) to access the **Edit Trigger** page.
+    <figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+3. Click ![](<../../../.gitbook/assets/image (199).png>) to access the **Edit Trigger** page.
 4.  Click ![](<../../../.gitbook/assets/Screenshot 2025-03-31 at 5.16.58 PM.png>) under **Trigger Configuration** to copy the form's URL. \
 
 
@@ -48,7 +48,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 8.  Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> to view the results of the workflow. If there are errors in the result record, the Crate is not working properly. \
 
 
-    <figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (64) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

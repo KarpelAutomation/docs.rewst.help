@@ -13,7 +13,7 @@ Our Leader Cloud integration enables the automation of billing and subscription 
 ### Set up steps in **Leader Cloud**
 
 1. Log in to [https://hub.leadercloud.com.au/](https://hub.leadercloud.com.au/).
-2. Click ![](<../../../../.gitbook/assets/image (191).png>) at the top right to access the **Self-service Marketplace**.
+2. Click ![](<../../../../.gitbook/assets/image (207).png>) at the top right to access the **Self-service Marketplace**.
 3. Select **API Credentials** under the **Settings** submenu.
 4. Click **Add** under the **Application Users** section, then fill out the following fields:
    * **User name**
@@ -31,7 +31,7 @@ Our Leader Cloud integration enables the automation of billing and subscription 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Leader Cloud` in the integrations page.\
    \
-   ![](<../../../../.gitbook/assets/image (192).png>)
+   ![](<../../../../.gitbook/assets/image (208).png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the following details under the **Parameters** section:
    * **Client ID**

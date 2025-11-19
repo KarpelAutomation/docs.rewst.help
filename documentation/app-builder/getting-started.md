@@ -128,7 +128,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
     <figure><img src="../../.gitbook/assets/test 17-min.png" alt=""><figcaption></figcaption></figure>
 21. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1).png" alt="" data-size="line"> in the top right of the workflow builder.
-22. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (1).png>) next to **Output Configuration**.
+22. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Output Configuration**.
 23. Name the output configuration`form_output`.&#x20;
 24. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .&#x20;
 25. Add notes to your workflow, or use RoboRewsty to do documentation for you.

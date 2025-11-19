@@ -448,7 +448,7 @@ If not set, your organization's default settings will be applied.
 
 
 
-    <div align="left"><figure><img src="../../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure></div>
 3. Click on the Crate to open the details page.
 4. Click **Unpack Crate**, then **Continue**.
 5. Click **Unpack**. Note that this is a large Crate, and the process may take a few minutes.

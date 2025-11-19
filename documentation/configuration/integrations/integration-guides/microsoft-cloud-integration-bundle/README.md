@@ -87,7 +87,7 @@ We've broken down instructions into four larger steps, each with its own section
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
 
     1. Name the user `Rewst`.
     2. Check the box **derive from user principal name**.
@@ -95,23 +95,23 @@ We've broken down instructions into four larger steps, each with its own section
     4. Auto generate a password.&#x20;
     5. Document all the user's information within your documentation platform. Be sure to note the user principal name.\
        \
-       ![](<../../../../../.gitbook/assets/image (72).png>)
+       ![](<../../../../../.gitbook/assets/image (210).png>)
 2. Click the **Properties** tab. Leave all the options on this screen as default.
 3. Click **Assignments > Add Role**.
 4. Search for **`Global Administrator`** in the role selection. Select the role.
 5.  Click **Select**. Verify that the role is now listed in the main pane.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (73) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
 6.  Make sure the service account is part of the **admin agents** group in Microsoft Entra.\
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (73) (3).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (73) (1).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (74) (3).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (74) (1).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
 7. Click **Review + Create**, then **Create**.
 
 #### Turn on MFA requirement for the user
@@ -236,14 +236,14 @@ We strongly recommend that you use the Crate to complete this step.
 
 1. Navigate to [partner.microsoft.com](http://partner.microsoft.com) and sign in.
 2. Click **Partner Center > Customers > Customer List**.\
-   ![](<../../../../../.gitbook/assets/image (74) (2).png>)
+   ![](<../../../../../.gitbook/assets/image (212).png>)
 3. Click on the name of the customer you would like to create the admin relationship for once the customer list loads.\
-   ![](<../../../../../.gitbook/assets/image (75).png>)
+   ![](<../../../../../.gitbook/assets/image (213).png>)
 4. Click **Admin Relationships > Request a New Relationship**.
 5. Name the relationship, keeping in mind that this name must be unique for each customer or relationship. We suggest the `customer's initials`, followed by `GDAP`. For example, `ABC-GDAP.`
 6. Enter the maximum duration of `730` days in the **Duration in Days** field.
 7. Click **Select Microsoft Entra roles**.\
-   ![](<../../../../../.gitbook/assets/image (76).png>)
+   ![](<../../../../../.gitbook/assets/image (214).png>)
 8. Add the 12 roles explained in this list by checking off the boxes. Note that the total list of roles is not alphabetized. Use control + F or command + F to search for your relevant roles.
    1. [**Application Administrator**](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#application-administrator) **-** Can create and manage all applications, service principals, app registration, enterprise apps, consent requests. Cannot manage directory roles, security groups.
    2. [**Authentication Policy Administrator**](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#authentication-policy-administrator) **-** Configures authentication methods policy, MFA settings, manages Password Protection settings, creates/manages verifiable credentials, Azure support tickets. Restrictions on updating sensitive properties, deleting/restoring users, legacy MFA settings.
@@ -259,7 +259,7 @@ We strongly recommend that you use the Crate to complete this step.
    12. [**Teams Administrator**](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#teams-administrator) **-** Manages all aspects of Microsoft Teams, including telephony, messaging, meetings, teams, Microsoft 365 groups, support tickets, and service health.
 9. Click **Save**.
 10. Review your selection and click **Finalize Request**. \
-    ![](<../../../../../.gitbook/assets/image (78).png>)
+    ![](<../../../../../.gitbook/assets/image (216).png>)
 11. You'll be redirected to a page that shows the request. Copy the link in that page.&#x20;
 12. Email the link to your customer. They will need to accept the request to continue your bundle set up steps. Once approved, the relationship will show as **Active** in the **Admin Relationships** list. \
     You may also approve on the customer's behalf since you have Global Administrative privileges. To do this, choose to send the email to yourself. Note that if you choose this option, it will still send an email to your customer. You may want to notify them that they can disregard the email.
@@ -755,7 +755,7 @@ If you keep getting errors during reinstallation, remove the Rewst MS Cloud Conn
 During the process, you may see the below error. You should be fine to proceed despite the error message. \
 
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

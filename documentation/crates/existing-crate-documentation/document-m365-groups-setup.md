@@ -28,7 +28,7 @@ Your [ITGlue](../../configuration/integrations/integration-guides/it-glue-integr
 2. Search for the `Document Group Details V2` Crate.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/image (138).png>)
+   ![](<../../../.gitbook/assets/image (154).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your **Time Saved (seconds)**.

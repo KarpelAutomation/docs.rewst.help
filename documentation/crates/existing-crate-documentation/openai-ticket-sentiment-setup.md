@@ -29,7 +29,7 @@ The OpenAI Ticket Sentiment Analysis Crate streamlines support operations by usi
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `OpenAI Ticket Sentiment`.\
    \
-   ![](<../../../.gitbook/assets/image (166).png>)
+   ![](<../../../.gitbook/assets/image (182).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 

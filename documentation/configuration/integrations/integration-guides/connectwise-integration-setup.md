@@ -895,23 +895,23 @@ Different conditions serve different purposes. Mastering these conditions enable
 2. Navigate to **System > Members**.
 3. Click **API Members**. Here, you'll find settings specific to API interactions and configurations.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 4. Under the **API Members** tab, locate and select the user associated with Rewst's integration.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 5. After selecting the Rewst user:
    1. Navigate to the **API Logs** tab.&#x20;
    2. Click **Start Debug Mode**.
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 6. In the **Debug Mode** dialog:
    1. Enter length of time (e.g. `5`) in the **Minutes** field. This will capture logs for the specified duration.
    2. Click **Ok**.
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 7. Replicate the issue or process you are troubleshooting
 8. Return to the **API Logs** tab.

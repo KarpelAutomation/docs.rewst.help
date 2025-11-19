@@ -53,12 +53,12 @@ If choosing to deliver the report via PSA ticket, you'll also need to set up you
 2.  Search for the `Billing Count Report` Crate.
 
     \
-    ![](<../../../.gitbook/assets/image (110).png>)
+    ![](<../../../.gitbook/assets/image (126).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Scroll to the bottom of the page. Choose how you want the billing report delivered by selecting your option from the **Billing Report Delivery Mechanism** drop-down. Fill out the other required information fields, depending on your delivery method.
 
-<figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 6. Click **Continue**.
 7. Click **Unpack**.
@@ -73,13 +73,13 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 3. Click on the workflow to open it in the workflow builder.
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then. A ticket or email will be generated if the workflow is successful.
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Troubleshoot the Billing Count Report Crate
 
 This workflow is meant to run from your parent organization only. If you’re seeing workflow failures for child organizations, disable the trigger for child organizations.
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

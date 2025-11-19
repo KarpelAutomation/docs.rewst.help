@@ -18,7 +18,7 @@ Before you complete integration setup, you'll need to obtain a developer instanc
 2.  Click on the **Developer Program** tile under the **My Apps** menu.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 3. Click **Start Building** if prompted. This will appear if this is your first time logging in to the Developer Portal.
 4. Find the hostname for your ServiceNow instance. This would be the part of the URL that appears before the first / . For example, in a URL that reads as `dev12345.service-now.com/abc123/4567` , the host name would be `dev12345.service-now.com` .
 5. Copy the hostname someplace secure. You'll need this for further steps in Rewst.
@@ -26,7 +26,7 @@ Before you complete integration setup, you'll need to obtain a developer instanc
 7.  Click **New** to add a new user.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>The new user set up page</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (75).png" alt=""><figcaption><p>The new user set up page</p></figcaption></figure>
 8. Enter `RewstAPI` into the **User ID** field. Save this information with your hostname. You'll need it for further steps in Rewst.&#x20;
 9. Check the **Active** box.&#x20;
 10. Click **Submit**.

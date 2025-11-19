@@ -6,7 +6,7 @@ MSP reporting portals, like all Prebuilt Apps, are available by request only. To
 
 The _operational analytics reporting portal_ offers powerful reporting capabilities with insights into devices and service trends. Tailored to integrate seamlessly with your Rewst workflows and PSA data, this portal simplifies operational analytics to keep your business efficient and informed.
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 ### Features
 

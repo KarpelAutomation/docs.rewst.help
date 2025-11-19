@@ -38,7 +38,7 @@ At the top of the workflow builder, you'll find several settings buttons.
 
 **Display Validation Errors** <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.44.56 PM.png" alt="" data-size="line">: By default, this is set to off. When toggled on, Rewst will provide an error on required fields that aren't filled out, and add a message about the field being required beneath the field in red text. The text will be invisible until the user clicks on the field and then click out of it without entering a value.
 
-<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>An example of the message, when the setting is toggled on</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption><p>An example of the message, when the setting is toggled on</p></figcaption></figure>
 
 **Test** <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.45.18 PM.png" alt="" data-size="line">: Click to run a test of your workflow as it appears on your workflow builder canvas, and view the results of that test. Note that this also publishes and saves the workflow.
 
@@ -167,7 +167,7 @@ Commonly used actions can be favorited to easily find and add actions to workflo
 1. Find the action you want to favorite.
 2. Click the star icon next to the action.\
    \
-   ![](<../../../.gitbook/assets/image (22).png>)
+   ![](<../../../.gitbook/assets/image (62).png>)
 3. To add a favorited action to your workflow:
    1. Right-click on the workflow canvas.
    2. Add an action from the favorites section.
@@ -184,4 +184,3 @@ Similarly, if you're searching for the name as it relates to completion handlers
 {% hint style="info" %}
 Information for the **Advanced** tab of tasks and actions in a workflow can be found in our documentation for the [advanced workflow operations menu](advanced-workflow-operations-menu.md).
 {% endhint %}
-

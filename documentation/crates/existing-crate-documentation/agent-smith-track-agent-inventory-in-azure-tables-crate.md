@@ -34,7 +34,7 @@ Install and deploy the following before unpacking the Crate:
 2.  Search for `Agent Smith: Track Agent Inventory in Azure Tables Crate`.
 
     \
-    ![](<../../../.gitbook/assets/image (214).png>)
+    ![](<../../../.gitbook/assets/image (240).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -48,7 +48,7 @@ Install and deploy the following before unpacking the Crate:
 2.  Search for `Agent Smith: Receive Check-In from Endpoint`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.&#x20;
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5.  On the `body_stringified` field, you can enter the following:

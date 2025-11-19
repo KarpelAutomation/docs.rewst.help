@@ -95,11 +95,11 @@ Note that since you can choose which of the supported forms is used for 1Stream,
 1. Log in to 1Stream.
 2. Click the **IQ / Integrations Portal** link under **Partners**.
 
-<figure><img src="../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (288).png" alt=""><figcaption></figcaption></figure>
 
 3. Click **Administration >** **Manage Organization**.
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (289).png" alt=""><figcaption></figcaption></figure>
 
 4. Scroll down to **Connected Account and CRM settings**.
 5. Click <img src="../../../.gitbook/assets/Screenshot 2025-11-04 at 10.28.05 AM.png" alt="" data-size="line">.
@@ -118,7 +118,7 @@ Note that since you can choose which of the supported forms is used for 1Stream,
     ![](<../../../.gitbook/assets/Screenshot 2025-11-04 at 10.35.29 AM.png>)
 13. Enter each of the URLs referenced in the table below into the **Link Template** field, replacing `{rewst_webhook_url}` with your actual Rewst webhook URL. This can be found by navigating to the `[REWST - TASK] 1Stream Technician Toolbox` workflow unpacked with the Crate, opening the workflow's settings, and scrolling to the **Trigger Configuration** menu. Then, click **View Webhook URLs**.
 
-<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption><p>Example webhook URL</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption><p>Example webhook URL</p></figcaption></figure>
 
 | Form Name        | URL Format                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------- |

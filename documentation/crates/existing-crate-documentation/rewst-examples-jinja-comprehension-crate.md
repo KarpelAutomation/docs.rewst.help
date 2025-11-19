@@ -17,7 +17,7 @@ This Crate offers a collection of common Jinja examples, all consolidated into a
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Rewst Examples: Jinja Comprehension`**.**\
    \
-   ![](<../../../.gitbook/assets/image (174).png>)
+   ![](<../../../.gitbook/assets/image (190).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Click **Unpack**.

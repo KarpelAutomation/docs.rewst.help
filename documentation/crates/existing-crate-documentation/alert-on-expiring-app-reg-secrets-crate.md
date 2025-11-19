@@ -20,7 +20,7 @@ Our Alert on Expiring App Reg Secrets Crate identifies any expiring client secre
 2.  Search for `Alert on Expiring App Reg Secrets`.
 
     \
-    ![](<../../../.gitbook/assets/image (116).png>)
+    ![](<../../../.gitbook/assets/image (132).png>)
 3. Click **Unpack Crate**.
 4. Click **Continue.**
 5.  Enter your **Time Saved**.
@@ -39,7 +39,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to open it in the workflow builder.
 
 

@@ -25,7 +25,7 @@ Before unpacking this Crate:
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform
 2. Search for `CWM: Technician Toolbox Via Pod`_._\
    \
-   ![](<../../../.gitbook/assets/image (133).png>)
+   ![](<../../../.gitbook/assets/image (149).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

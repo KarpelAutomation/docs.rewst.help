@@ -28,7 +28,7 @@ Before unpacking this Crate, you'll need to successfully integrate either [IT Gl
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Rotate Account Passwords`**.**\
    \
-   ![](<../../../.gitbook/assets/image (175).png>)
+   ![](<../../../.gitbook/assets/image (191).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Decide if you want the workflow in the Crate to run on a schedule or by manual triggering.
@@ -76,7 +76,7 @@ To run the workflow on a schedule, you'll need to add the list of users in the o
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[Rewst - PROCESS] PSA: Update Ticket with New User Onboard Links.`
 3. Click the workflow to view it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (181).png>) to edit the trigger.&#x20;
+4. Click ![](<../../../.gitbook/assets/image (197).png>) to edit the trigger.&#x20;
 5.  Update your workflow run frequency as desired in the **Cron Schedule** field. \
 
 

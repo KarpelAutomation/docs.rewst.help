@@ -25,7 +25,7 @@ Before unpacking this Crate, you'll first need to have:
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Document BitLocker Information`.\
    \
-   ​![](<../../../.gitbook/assets/image (136).png>)
+   ​![](<../../../.gitbook/assets/image (152).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Click **Continue**.
@@ -43,7 +43,7 @@ To test this Crate, you'll need to adjust the [cron trigger](https://docs.rewst.
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document Bitlockers` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (183).png>) to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (199).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then.
 6. Verify documented results. Depending on your configured documentation platform:
    1. Check for computer assets/configurations and verify they match with your RMM.

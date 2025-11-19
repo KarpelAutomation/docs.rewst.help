@@ -32,7 +32,7 @@ Our Alert on Expiring App Reg Certificates Crate identifies any expiring certifi
 2.  Search for `Alert on Expiring App Reg Certificates`.
 
     \
-    ![](<../../../.gitbook/assets/image (80).png>)
+    ![](<../../../.gitbook/assets/image (96).png>)
 3. Click on the Crate tile to begin the unpacking process.
 4. Click **Unpack Crate**.
 
@@ -49,11 +49,11 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `Alert on Expiring App Certs [Part 1]`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>The workflow, in a search result</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption><p>The workflow, in a search result</p></figcaption></figure>
 3.  Click on the workflow to open it in the workflow builder.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own, and tickets will be created if expiring certs are found.
 
 {% hint style="info" %}

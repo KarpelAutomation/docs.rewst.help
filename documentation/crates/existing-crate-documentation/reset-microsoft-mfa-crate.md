@@ -37,7 +37,7 @@ For this Crate to work, you must have the policy in place that MFA is required. 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Reset Microsoft MFA`**.**\
    \
-   ![](<../../../.gitbook/assets/image (173).png>)
+   ![](<../../../.gitbook/assets/image (189).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Choose your relevant PSA from the drop-down selector.
 5. Click **Continue**.

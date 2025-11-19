@@ -24,7 +24,7 @@ The [OpenText Core Endpoint Protection](../../configuration/integrations/integra
 2. Search for `OpenText Core Endpoint Protection: Create Ticket from File Detection`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/image (167).png>)
+   ![](<../../../.gitbook/assets/image (183).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. &#x20;Enable both  triggers by toggling the File Detection  and Form Setup trigger **Enabled** toggles on.
@@ -44,7 +44,7 @@ The [OpenText Core Endpoint Protection](../../configuration/integrations/integra
 15. Click **Submit**.
 16. Navigate to **Configuration > Organization Variables** to see the list of organization variables generated from your form submission.
 
-<figure><img src="../../../.gitbook/assets/image (67).png" alt=""><figcaption><p>An example of set organization variables</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption><p>An example of set organization variables</p></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

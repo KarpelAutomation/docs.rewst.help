@@ -64,7 +64,7 @@ Here's how you can do it:
 1. Navigate to the IP Access Control settings within IT Glue.
 2. Add [Rewst's IP address](../../../../security/security-policy.md#rewst-outgoing-ip-address) to the list of allowed IP addresses.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 After adding Rewst's IP address, the forbidden error should be resolved and you should be able to successfully set up the IT Glue integration.
 

@@ -36,42 +36,50 @@ A new client signs a contract for IT services. Rewst can automatically create th
 Before configuring the Rewst integration you must generate an API user. Here is the instruction for the generation of the integration user:
 
 1. Log in to HaloPSA as an Administrator.
-2.  Navigate to **Configuration > Teams & Agents > Agents > New**.\
+2. Navigate to **Configuration > Teams & Agents > Agents .**
+3.  Click **+New**.\
     \
 
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.40.25 AM.png" alt=""><figcaption></figcaption></figure>
-3. Create an agent for Rewst to use. We suggest naming this user `Rewst API` or similar.
-4. Grant the user permissions according to what you would like Rewst to do for you. However, for optimal functionality and reliability of the Halo integration, assign administrator permissions to the service account. We’ve consistently observed higher success rates and fewer connectivity issues when using admin-level access for this integration. While lower permission levels may work in limited scenarios, they often lead to unexpected failures during automated workflows.
-5. Click **Save**.
-6. Navigate to **Configuration > Integrations > HaloPSA API** \
+4. Create an agent for Rewst to use. We suggest naming this user `Rewst API` or similar.
+5. Grant the user permissions according to what you would like Rewst to do for you. However, for optimal functionality and reliability of the Halo integration, assign administrator permissions to the service account. We’ve consistently observed higher success rates and fewer connectivity issues when using admin-level access for this integration. While lower permission levels may work in limited scenarios, they often lead to unexpected failures during automated workflows.
+6. Click **Save**.
+7. Navigate to **Configuration > Advanced > Integrations > HaloPSA API** \
    See [Halo Authorization Docs](https://halo.haloservicedesk.com/apidoc/authorisation) here.
-7. Select **View Applications**.
-8.  Click **New**.\
+8. Select **View Applications**.
+9.  Click **+New**.\
     \
 
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.43.40 AM.png" alt=""><figcaption></figcaption></figure>
-9. Name the application `Rewst` .
-10. Choose the authentication method for **Client ID and Secret (Services)**.
-11. Click the **Permissions** tab.
-12. Check the **all** checkbox on.\
+10. Name the application `Rewst` .
+11. Choose the authentication method for **Client ID and Secret (Services)**. Note that when you do this, new drop-down selectors will appear beneath the menu.
+12. Ensure that **Agent to log in as** is set to **Rewst API**.\
+
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-18 at 4.28.27 PM.png" alt=""><figcaption></figcaption></figure>
+13. Click the **Permissions** tab.
+14. Check the **all** checkbox on.\
     \
 
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.45.18 AM.png" alt=""><figcaption></figcaption></figure>
-13. Click **Save**.
-14. Navigate to **Configuration > Teams & Agents > Agents**
-15. Click on the user you set up for your Rewst integration.
-16. Click the **Departments & Teams** tab.
-17. Click **Edit** on the top left. Within **Teams**, select **Add**.\
+15. Click **Save**.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-18 at 4.26.42 PM.png" alt=""><figcaption></figcaption></figure>
+
+1. Navigate to **Configuration > Teams & Agents > Agents**
+2. Click on the user you set up for your Rewst integration.
+3. Click the **Departments & Teams** tab.
+4.  Click **Edit** on the top left. Within **Teams**, select **Add**.\
 
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.57.22 PM.png" alt=""><figcaption></figcaption></figure>
-18. Add all teams from the **Team** drop-down selector.\
-    \
-    ![](<../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.58.11 PM.png>)
-19. Click **Save**.
+5. Add all teams from the **Team** drop-down selector.\
+   \
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.58.11 PM.png>)
+6. Click **Save**.
 
 {% hint style="warning" %}
 **Required for mapping customers in the Integration**
@@ -107,31 +115,31 @@ Auth Server Hostname: `https://sanboxrewst.halopsa.com/auth` should be `sanboxre
 5. Click **Save Configuration**.
 6. &#x20;Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
-## Test the Integration
+## Test the integration
 
 1. Navigate to **Automation > Workflows** in Rewst.
 2. Create a new workflow and name it with something short and descriptive, such as `Test Halo Integration`.
 3. Add the action **List Agents** to the workflow builder canvas, by dragging it from the left pane.\
    \
-   ![](<../../../../.gitbook/assets/image (21) (2).png>)
+   ![](<../../../../.gitbook/assets/image (21) (1).png>)
 4. Add a trigger to your test workflow by clicking on the /lightning bolt image. Name your trigger whatever you’d like.
 5. Click into the trigger’s settings.
 6. Toggle **Enabled** to on.\
    \
-   ![](<../../../../.gitbook/assets/image (22) (2).png>)
+   ![](<../../../../.gitbook/assets/image (22) (1).png>)
 7. Set the **Trigger Type** to **Core - Always Pass**.
 8. Click **+** next to **Integration Overrides**. Add **Halo PSA** as your integration override.\
    \
-   ![](<../../../../.gitbook/assets/image (24) (2).png>)
+   ![](<../../../../.gitbook/assets/image (24) (1).png>)
 9. In the **Activate Trigger To Run For** section, keep **Selected Organization** toggled on. **Toggle All current and future managed organizations** on, or choose just one or individually selected organizations from the **Organizations** drop-down selector.\
    \
-   ![](<../../../../.gitbook/assets/image (25).png>)
+   ![](<../../../../.gitbook/assets/image (25) (1).png>)
 10. Click **Submit** to save your trigger.
 11. Click **Publish** to save your changes.
 12. Click Test to run your workflow. Note that this will bring up a drop-down selector to choosing organizations.
 13. Select your MSP level.
 14. Click **Test** and confirm that the execution finishes without errors.\
-    ![](<../../../../.gitbook/assets/image (26).png>)
+    ![](<../../../../.gitbook/assets/image (26) (1).png>)
 15. If the test for your MSP is successful, do the same test again. At this point in your steps, select a client organization instead, and ensure that it finishes with no errors.
 
 {% hint style="success" %}
@@ -148,7 +156,7 @@ Click **Filter** to expand the filter menu. Enter **HaloPSA** into the **Integra
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
 
-## Troubleshooting HaloPSA integration setup
+## Troubleshoot HaloPSA integration setup
 
 {% hint style="info" %}
 Click on any of the issues below to expand and view its solution. If your issue isn't included here, contact Rewst support in your dedicated support Discord channel.

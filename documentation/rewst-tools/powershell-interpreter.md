@@ -247,7 +247,7 @@ Returning non-JSON serializable objects (e.g., from `New-Item`) causes errors ev
 \
 If you see this error, you're trying to pass an object back from PowerShell, and will need to convert it to JSON first. Add `ConvertTo-Json` to resolve this.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -277,7 +277,7 @@ You can't `Write-Output` with Rewst's PowerShell interpreter. With Rewst's imple
 
 To work around this, record everything into a variable, and provide that variable at the end instead. Or, `Write-Output` that string at the end.
 
-<figure><img src="../../.gitbook/assets/image (72) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -308,11 +308,11 @@ Confirm that you have deployed the PowerShell Interpreter before attempting the 
 3.  Click to **Overview** > **RewstWebHook**.\
 
 
-    <figure><img src="../../.gitbook/assets/image (62) (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (62) (5).png" alt=""><figcaption></figcaption></figure>
 4.  Copy all the code and save it to notepad. Note the url where the run.ps1 file is. It should be in `function_app/RewstWebhook/run.ps1`.\
 
 
-    <figure><img src="../../.gitbook/assets/image (63) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (63) (3).png" alt=""><figcaption></figcaption></figure>
 5. Note the URL for the script: `rewst-powershell-{GUID}/RewstWebhook/run.ps1`
 6. Click **X** to close the RewstWebHook function and return to the Function App.
 
@@ -343,9 +343,9 @@ Disable-AzContextAutosave -Scope Process | Out-Null
 Connect-AzAccount -Identity
 ```
 
-<figure><img src="../../.gitbook/assets/image (64) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (65) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Recreate the RewstWebHook function
 
@@ -424,7 +424,7 @@ In Azure:
    4. Microsoft.Quota
    5. Microsoft.OperationalInsights
 
-<figure><img src="../../.gitbook/assets/image (59) (4).png" alt="Screenshot of the Microsoft Azure portal showing the &#x22;Resource providers&#x22; section for an MCP Subscription. The user has searched for &#x22;web,&#x22; and the results display the &#x22;Microsoft.Web&#x22; provider. Its status is &#x22;Registering,&#x22; and the &#x22;Registration Policy&#x22; is marked as &#x22;RegistrationRequired.&#x22; On the left, a navigation menu is visible with sections like Overview, Activity log, Access control (IAM), Tags, Security, and Resource providers highlighted."><figcaption><p>The screen in Azure where you will register Resource Providers</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (5).png" alt="Screenshot of the Microsoft Azure portal showing the &#x22;Resource providers&#x22; section for an MCP Subscription. The user has searched for &#x22;web,&#x22; and the results display the &#x22;Microsoft.Web&#x22; provider. Its status is &#x22;Registering,&#x22; and the &#x22;Registration Policy&#x22; is marked as &#x22;RegistrationRequired.&#x22; On the left, a navigation menu is visible with sections like Overview, Activity log, Access control (IAM), Tags, Security, and Resource providers highlighted."><figcaption><p>The screen in Azure where you will register Resource Providers</p></figcaption></figure>
 
 ### Azure region quotas
 

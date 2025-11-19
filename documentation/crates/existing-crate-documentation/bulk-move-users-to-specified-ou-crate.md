@@ -31,7 +31,7 @@ The workflow requires three input parameters: a ticket ID for tracking, the sele
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Bulk Move Users to Specified OU`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (234).png>)
+   &#x20;![](<../../../.gitbook/assets/image (273).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -56,7 +56,7 @@ The workflow requires three input parameters: a ticket ID for tracking, the sele
 2.  Search for `[ROC] RMM: Move AD Users to Specified OU`.\
     &#x20;&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (274).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test** in the top right corner of the builder canvas.
 5. Click **Test**.

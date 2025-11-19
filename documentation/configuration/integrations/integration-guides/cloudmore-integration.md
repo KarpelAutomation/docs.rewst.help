@@ -33,7 +33,7 @@ Our Cloudmore integration enables the automation of Cloudmore tasks such as mana
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Cloudmore` in the integrations page.\
    \
-   ![](<../../../../.gitbook/assets/image (229).png>)
+   ![](<../../../../.gitbook/assets/image (294).png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the following details under the **Parameters** section:
    * **Client ID**

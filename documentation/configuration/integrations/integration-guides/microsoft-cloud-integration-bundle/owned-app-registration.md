@@ -98,4 +98,4 @@ This error is given when you don't have the id token enabled for the application
 2. Navigate to **Authentication**.
 3. Check the **ID tokens** box.
 
-<figure><img src="../../../../../.gitbook/assets/image (72) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>

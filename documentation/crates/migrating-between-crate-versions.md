@@ -1,7 +1,7 @@
 # Migrate between Crate versions
 
 {% hint style="info" %}
-See our FAQ on Crate version deprecation [here](../../prebuilt-automations/crates/crate-deprecation-faq.md).&#x20;
+See our FAQ on Crate version deprecation [here](crate-deprecation-faq.md).&#x20;
 {% endhint %}
 
 ## Considerations when migrating

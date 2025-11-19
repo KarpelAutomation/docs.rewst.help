@@ -27,7 +27,7 @@ The [IT Glue integration](../../configuration/integrations/integration-guides/it
 2.  Search for `Relate ITG Contact with ITG Configuration`.\
 
 
-    ![](<../../../.gitbook/assets/image (206).png>)
+    ![](<../../../.gitbook/assets/image (233).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -44,11 +44,11 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `[ROC] ITG: Associate Configuration with Contacts`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to open it in the workflow builder.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own, and tickets will be created if expiring certs are found.
 
 {% hint style="info" %}

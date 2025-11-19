@@ -4,9 +4,9 @@
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-## What does the Alert On Users Without MFA Enforced Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
+## What does the Alert on Users Without MFA Enforced Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
 
-Our Alert On Users Without MFA Enforced Crate gathers a list of users and checks whether the users have the MFA enforced through security defaults, per user MFA, or conditional access. If the workflow identifies users without the MFA enforced, a ticket will be created in the PSA for your team to address.
+Our Alert on Users Without MFA Enforced Crate gathers a list of users and checks whether the users have the MFA enforced through security defaults, per user MFA, or conditional access. If the workflow identifies users without the MFA enforced, a ticket will be created in the PSA for your team to address.
 
 ### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
 
@@ -52,12 +52,12 @@ Your PSA must be successfully integrated with Rewst. PSAs that work with this Cr
 * [ServiceNow](../../configuration/integrations/integration-guides/servicenow-integration-setup.md)
 * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
 
-## Unpack the Alert On Users Without MFA Enforced Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
+## Unpack the Alert on Users Without MFA Enforced Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
-2. Search for `Alert On Users Without MFA Enforced`.​\
+2. Search for `Alert on Users Without MFA Enforced`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (1) (5) (1).png>)
+   &#x20;![](<../../../.gitbook/assets/image (265).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -72,11 +72,11 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `[REWST - PROC] Alert on Users Without MFA Enforced`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your PSA's portal to ensure that the workflow is creating tickets, and able to move new devices to their correct location as expected.
 
 ### Update the cron trigger schedule
@@ -86,10 +86,10 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows**.
 2. Search for  `[REWST - PROC] Alert on Users Without MFA Enforced`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (189).png" alt="" data-size="line"> to open the edit trigger menu.\
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

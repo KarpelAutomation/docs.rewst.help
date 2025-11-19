@@ -20,7 +20,7 @@ Before unpacking this Crate, you must first:
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Cork: Compliance Event To PSA Ticket`.\
    \
-   ![](<../../../.gitbook/assets/image (132).png>)
+   ![](<../../../.gitbook/assets/image (148).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Enter your estimate into the **Time Saved (seconds)** field.
@@ -41,7 +41,7 @@ Before unpacking this Crate, you must first:
 17. Select a **Ticket Closure Status**.
 18. Click **Submit**.
 
-<figure><img src="../../../.gitbook/assets/image (70).png" alt="Screenshot of the REWST Cork Compliance Setup Form interface, displaying dropdown configuration fields including reporting type (set to “One Ticket With All Combined Events/Assets”), board ID (set to “IT:Level I”), ticket creation status (set to “New”), ticket closure status (set to “Complete”), and an optional ticket type section enabled with the ticket type set to “IT:Hardware.” Each field includes a refresh icon for dynamic updates, and required fields are marked with red asterisks."><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82).png" alt="Screenshot of the REWST Cork Compliance Setup Form interface, displaying dropdown configuration fields including reporting type (set to “One Ticket With All Combined Events/Assets”), board ID (set to “IT:Level I”), ticket creation status (set to “New”), ticket closure status (set to “Complete”), and an optional ticket type section enabled with the ticket type set to “IT:Hardware.” Each field includes a refresh icon for dynamic updates, and required fields are marked with red asterisks."><figcaption></figcaption></figure>
 
 ### Use the Cork Compliance Event to PSA Ticket Crate
 

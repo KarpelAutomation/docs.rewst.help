@@ -58,7 +58,7 @@ Note that the individual setting up the integration must be an admin in Thread.
 2. Search for `Thread Automation`.
 3. Click on the Crate tile to open its details page. \
    \
-   ![](<../../../.gitbook/assets/image (176).png>)
+   ![](<../../../.gitbook/assets/image (192).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your time saved.
@@ -76,7 +76,7 @@ Note that the individual setting up the integration must be an admin in Thread.
 12. Navigate to **Automations > Workflows**.&#x20;
 13. Search for `[Rewst - Crate] Thread Automations`.
 14. Click on the workflow to enter the workflow builder view.
-15. Click ![](<../../../.gitbook/assets/image (180).png>) to open the trigger.
+15. Click ![](<../../../.gitbook/assets/image (196).png>) to open the trigger.
 16. Click **View Webhook URLs** under **Trigger Configuration**.\
 
 

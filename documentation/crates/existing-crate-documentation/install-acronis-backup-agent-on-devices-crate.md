@@ -28,14 +28,14 @@ The Crate starts by listing all devices in the RMM. Each device then undergoes a
 2. Search for `Install Acronis Backup Agent on Devices`**.**
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/image (145).png>)
+   ![](<../../../.gitbook/assets/image (161).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your **Time Saved (seconds)**.
 7.  Expand the **New Computer** accordion menu under **Configure Triggers** if you are using this Crate in conjunction with your integrated RMM. Toggle **Enabled** to on.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 8. Click **Unpack**.
 
 

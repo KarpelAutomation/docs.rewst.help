@@ -35,7 +35,7 @@ You'll need to first successfully integrate [ConnectWise PSA](../../configuratio
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Prompt to Combine Similar Tickets`.\
    \
-   ![](<../../../.gitbook/assets/image (169).png>)
+   ![](<../../../.gitbook/assets/image (185).png>)
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate**.
 5.  This dialog allows you to choose the trigger variables-- merge, child, or merge and child, which is added by clicking both merge and child— via drop-down selector. Use the guidance given for each type at the top of this document to make your selection.\

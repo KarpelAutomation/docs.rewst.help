@@ -47,7 +47,7 @@ If you do not have a trigger variable configured before running the workflow in 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[REWST - PROCESS] PSA: Update Ticket With Form Link - Generic`.&#x20;
 3. Click on the workflow to open it in the Workflow Builder Canvas.
-4. Click ![](<../../../.gitbook/assets/image (2) (8) (1).png>) to edit your trigger.
+4. Click ![](<../../../.gitbook/assets/image (226).png>) to edit your trigger.
 5.  Update your trigger variable under the **Trigger Variables** submenu. Enter the name of the form you would like to provide a link to in the **Form Name** field\
     \
 

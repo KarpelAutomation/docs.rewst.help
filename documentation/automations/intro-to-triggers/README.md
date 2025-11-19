@@ -29,7 +29,7 @@ When you're comfortable with the basics of triggers, learn more about [trigger c
 ## Modify an existing trigger
 
 To modify an existing trigger, click **Edit Trigger**. If there are multiple triggers for the workflow, select the appropriate trigger from the dropdown menu.\
-![](<../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM (1) (1).png>)
+![](<../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png>)
 
 ### How to use a trigger on a form
 
@@ -79,7 +79,7 @@ For help building a form, refer to [form-best-practices.md](../forms/form-best-p
 
 A _webhook_ _trigger_ starts a workflow when external data is received in real time. Webhooks eliminate the need for manual checks, making them efficient for event-driven automation.
 
-The webhook URL serves as a _listening endpoint_. When an external system (e.g., a CRM, ticketing system, or another Rewst workflow) sends data to the webhook URL, the workflow is triggered immediately. This enables seamless integration between Rewst and external applications without requiring a direct API connection.
+The webhook URL serves as a _listening endpoint_. When an external system like a CRM, ticketing system, or another Rewst workflow sends data to the webhook URL, the workflow is triggered immediately. This enables seamless integration between Rewst and external applications without requiring a direct API connection.
 
 For example, a webhook could trigger a workflow whenever a new customer signs up in a CRM, automatically assigning them an account manager and setting up follow-up tasks.
 

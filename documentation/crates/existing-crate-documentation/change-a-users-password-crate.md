@@ -21,11 +21,11 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 2. Search for `Change a User’s Password`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/image (123).png>)
+   ![](<../../../.gitbook/assets/image (139).png>)
 4.  Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the **Required Org Variables** section, as seen in the screenshot below. An org variable without a check mark [will still need to be set up](../../configuration/organization-variables.md) before proceeding with unpacking the Crate. When confirmed, click **Unpack Crate**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 5. Click **Continue**.
 6. Click **Unpack**.
 
@@ -40,8 +40,8 @@ Integration overrides will automatically be added during the Crate's unpacking p
 3.  Click into the workflow.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-4. Click ![](<../../../.gitbook/assets/image (188).png>) next to the trigger name to edit the trigger.
+    <figure><img src="../../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
+4. Click ![](<../../../.gitbook/assets/image (204).png>) next to the trigger name to edit the trigger.
 5. Select **View Direct URLs** under the **Trigger Configuration** submenu.
 6. Copy the associated URL of the company you will be using to test the Crate.&#x20;
 7. Open that URL in a new browser window.

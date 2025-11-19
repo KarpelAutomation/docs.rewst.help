@@ -21,7 +21,7 @@ In the Rewst platform:
 5. Click **Publish** to save your workflow. No other actions are needed, as you'll just be working with triggers.
 6. Click **Add Trigger** at the top of your workflow builder.
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 ## **Create the trigger**
 
@@ -76,3 +76,4 @@ Data can then be pulled from this as context variables. For example, to access t
 The value can be accessed at `{{ CTX.body.test }}`.
 
 Similarly, if a URL parameter is sent as `?test=Hello`, this can be accessed at `{{ CTX.params.test }}`
+

@@ -19,7 +19,7 @@ To have access to the OpenText Secure Cloud menus needed to set up this integrat
 1. Log in to the OpenText Secure Cloud developer portal.
 2. Navigate to **Partner Services > Partner Integrations > API Credentials Management**.\
    \
-   ![Screenshot of a vertical navigation menu on a dark blue background with white icons and text. The top section has a house icon labeled “Home,” followed by a collapsible “My Solutions” section. Below is an expanded “Partner Services” section with submenu options: Partner Dashboard, Customer Management, Partner Management, Partner Integrations, Branding, and Tools. Further down are collapsed sections labeled “Service Administration” with a gear and document icon, and “Billing” with a bar chart icon.](<../../../../.gitbook/assets/image (71).png>)
+   ![Screenshot of a vertical navigation menu on a dark blue background with white icons and text. The top section has a house icon labeled “Home,” followed by a collapsible “My Solutions” section. Below is an expanded “Partner Services” section with submenu options: Partner Dashboard, Customer Management, Partner Management, Partner Integrations, Branding, and Tools. Further down are collapsed sections labeled “Service Administration” with a gear and document icon, and “Billing” with a bar chart icon.](<../../../../.gitbook/assets/image (87).png>)
 3. Generate new credentials on this page.
 4. Copy the client ID and client secret to your clipboard. You will need these values for further set up steps in Rewst.
 

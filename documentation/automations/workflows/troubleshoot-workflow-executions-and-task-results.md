@@ -26,12 +26,12 @@ The inputs and context sections tell the story of what data your workflow receiv
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (72) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 *   The **Context** section shows variables created or passed between tasks. [Context variables](broken-reference) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 * Common issues which lead to failed workflow tasks include typos, casing mismatches, missing values, or broken Jinja.
 
 ## Task results

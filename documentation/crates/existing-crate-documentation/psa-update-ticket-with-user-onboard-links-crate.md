@@ -3,7 +3,7 @@
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates).&#x20;
 
-This Crate is our newest version of an older Crate which was called Add Rewst Form Link to New User Request Tickets. That Crate is now [deprecated](../../../prebuilt-automations/crates/crate-deprecation-faq.md). New Rewst users should only unpack this version of the Crate. Previous Rewst users are recommended to remove the older version of the Crate and unpack this Crate.
+This Crate is our newest version of an older Crate which was called Add Rewst Form Link to New User Request Tickets. That Crate is now [deprecated](../crate-deprecation-faq.md). New Rewst users should only unpack this version of the Crate. Previous Rewst users are recommended to remove the older version of the Crate and unpack this Crate.
 {% endhint %}
 
 ## What does the PSA: Update Ticket With User Onboard Links Crate do?
@@ -36,7 +36,7 @@ You'll first need to have your PSA successfully integrated before unpacking. Thi
 2. Search for `PSA: Update Ticket With User Onboard Links`.
 3. Click on the Crate tile to begin unpacking.\
    \
-   ![](<../../../.gitbook/assets/image (171).png>)
+   ![](<../../../.gitbook/assets/image (187).png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Expand each of the sections under **Configure Triggers** to toggle **Enabled** to on for your desired PSA triggers. By default, all available PSA triggers are disabled.&#x20;

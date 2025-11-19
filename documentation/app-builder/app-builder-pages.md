@@ -5,7 +5,7 @@
 Apps consist of _pages._ Pages are made up of _components_ like images, text, forms, tables, and charts. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Each app you create will automatically have both a **home** and **login** page.  Both are customizable. Note that you can only have one home and one login page per app.
 
 {% hint style="info" %}
-For more on authentication for App Builder using the login page, see our App Builder authentication documentation [here](general/authentication.md).
+For more on authentication for App Builder using the login page, see our App Builder authentication documentation [here](authentication.md).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 4.02.12 PM.png" alt=""><figcaption><p>An example of the pages list inside an app in App Builder</p></figcaption></figure>

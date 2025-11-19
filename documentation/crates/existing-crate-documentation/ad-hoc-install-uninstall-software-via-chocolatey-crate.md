@@ -36,10 +36,10 @@ This Crate focuses on simplifying common software management tasks, but doesn't 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Ad-Hoc Install/Uninstall Software via Chocolatey`.\
    \
-   ![](<../../../.gitbook/assets/image (190).png>)
+   ![](<../../../.gitbook/assets/image (206).png>)
 3. Click on the Crate tile to begin unpacking and ensure that the required [org variables](../../configuration/organization-variables.md#what-is-an-organization-variable) of `default_PSA` and `default_RMM`  are added.\
    \
-   ![](<../../../.gitbook/assets/image (85).png>)
+   ![](<../../../.gitbook/assets/image (101).png>)
 4. On the configuration form, select your PSA Integration from the drop-down menu.\
    \
    ![](<../../../.gitbook/assets/CleanShot 2025-03-05 at 23.00.24@2x.png>)

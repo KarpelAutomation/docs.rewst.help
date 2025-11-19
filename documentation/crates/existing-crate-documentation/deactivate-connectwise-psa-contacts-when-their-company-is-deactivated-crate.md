@@ -44,7 +44,7 @@ You can adjust the timing of when the run of the Crate's workflow will be schedu
 1. Navigate to **Automations > Workflows**.
 2. Search for `Deactivate Contacts from Deactivated PSA Companies`.
 3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (183).png>) to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (199).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to your desired time. By default, the Crate runs daily at 3:32 AM.
 6. Click **Submit**.
 

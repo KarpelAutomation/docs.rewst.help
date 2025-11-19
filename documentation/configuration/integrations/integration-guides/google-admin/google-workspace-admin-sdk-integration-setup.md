@@ -87,7 +87,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 5.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 **Set reauthentication policy for exemption**
 
@@ -98,7 +98,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 5. Choose your method under the **Re-authentication method** menu.
 6. Click **Save**.
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 ### Enable Google APIs
 
@@ -111,7 +111,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 #### Enable Gmail API
 
@@ -122,7 +122,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 #### Enable Group Settings API
 
@@ -132,7 +132,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 4.  Click **Enable**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2) (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

@@ -23,7 +23,7 @@ The [ConnectWise Automate](../../configuration/integrations/integration-guides/c
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Move New Devices to Correct Location`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (74).png>)
+   &#x20;![](<../../../.gitbook/assets/image (276).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5.  Ensure that you have the device ID ready as you'll need to enter this in the configuration screen field. The device ID, also referred to as a computer ID within ConnectWise Automate, is a unique identifier that is automatically generated when a device or computer is enrolled or registered with the ConnectWise Automate system. To retrieve the ID for your device:
@@ -32,12 +32,12 @@ The [ConnectWise Automate](../../configuration/integrations/integration-guides/c
     2. Click **Browse** > **Computers**.&#x20;
     3. Retrieve the company ID that you can find in the URL. Refer to an example of a company ID below, which appears at the end of the URL.\
        &#x20; \
-       &#x20; ![](<../../../.gitbook/assets/image (2).png>)
+       &#x20; ![](<../../../.gitbook/assets/image (297).png>)
 
     With this information obtained, the workflow will match the device to a client based on the latter's domain name. This field is mandatory since the device ID serves as the primary identifier for the device in ConnectWise Automate. Without it, the workflow will likely fail, as the system can't identify which device to match or move.\
     &#x20;&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
 6. Click **Continue**.
 7. Ensure that **Enabled** is toggled on for the **Cron Job** accordion menu under **Configure Triggers**. Note that you have the option to activate the Crate for all future organizations in addition to the current one. You may also set the [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 8. Click **Unpack**.
@@ -50,11 +50,11 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `[ROC] RMM-Automate: Move Computers From New Location to Matching Clients`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (9) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (3) (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to several minutes from your current time. The workflow will run on its own.&#x20;
 5. Now, add a new test device in ConnectWise Automate. Once you confirm that the workflow behaves as expected, you can remove this device.
 
@@ -65,11 +65,11 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows**.
 2. Search for  `[ROC] RMM-Automate: Move Computers From New Location to Matching Clients`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (189).png" alt="" data-size="line"> to open the edit trigger menu.
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

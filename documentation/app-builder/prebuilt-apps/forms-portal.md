@@ -6,7 +6,7 @@ Forms portals, like all Prebuilt Apps, are available by request only. To request
 
 The _forms portal_ provides a centralized hub for users to access and manage forms. It includes powerful search and filtering options on the table component itself, allowing you to quickly navigate to the forms you need, all in one convenient location.
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 * **Features**:
   * View and manage forms in a single portal

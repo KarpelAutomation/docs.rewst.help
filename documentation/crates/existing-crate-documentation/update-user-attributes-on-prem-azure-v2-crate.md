@@ -50,7 +50,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Update User Attributes (On-Prem/Azure) V2`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (243).png>)
+   &#x20;![](<../../../.gitbook/assets/image (283).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -88,7 +88,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2.  Search for `[REWST - PROC] Update User Attributes in IDP`.\
     &#x20;&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test** in the top right corner of the builder canvas.
 5. Click **Test**.

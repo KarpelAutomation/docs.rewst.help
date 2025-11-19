@@ -42,7 +42,7 @@ The [ITGlue integration ](../../configuration/integrations/integration-guides/it
    1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
    2. Search for `[ROC] ITG: Store Org Vars ITG`.
    3. Click on the workflow to view it in the workflow builder.
-   4. Click <img src="../../../.gitbook/assets/image (185).png" alt="" data-size="line"> to open the edit trigger menu.
+   4. Click <img src="../../../.gitbook/assets/image (201).png" alt="" data-size="line"> to open the edit trigger menu.
    5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.\
       ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 12.24.40 PM.png>)
    6. Click **Submit**.

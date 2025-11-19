@@ -34,7 +34,7 @@ This Crate lets you select a user to enable, disable, or schedule both internal 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Configure Out of Office on Mailbox`.\
    \
-   ![](<../../../.gitbook/assets/image (129).png>)
+   ![](<../../../.gitbook/assets/image (145).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Choose your relevant PSA from the drop-down selector.

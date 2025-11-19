@@ -100,7 +100,7 @@ Depending on their level of security and permissions, ThreatLocker users may als
 4. Use the drop-down selector to add **UseDNSCacheTooGetHostnames**.
 5. Click **Save**.
 
-<figure><img src="../.gitbook/assets/image (73) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 ## **Email filter considerations**
 

@@ -79,12 +79,12 @@ To obtain the FQDN, sign in to your organization's ConnectWise Automate account.
 
 
 
-    ![](<../../../.gitbook/assets/image (248).png>)
+    ![](<../../../.gitbook/assets/image (305).png>)
 3. Click on the Crate tile to begin unpacking.
 4.  Click **Unpack Crate**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>
 5. Enter your copied Microsoft Teams webhook URL in the first field of the configuration screen. The webhook URL allows the workflow to send notifications directly to your Microsoft Teams channel. The workflow will use this URL to send formatted messages to your Teams channel when servers are detected as offline.
 6. The webhook URL from Teams typically has this format:\
    `https://outlook.office.com/webhook/[unique-identifier]/IncomingWebhook/[channel-identifier]`
@@ -102,7 +102,7 @@ You can test this Crate to ensure that the workflow executes correctly. However,
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test** in the top right corner of the builder canvas.
 5. Choose the applicable organization from the **Trigger Context Organization** drop-down selector.
@@ -117,13 +117,13 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows**.
 2. Search for  `[ROC] RMM: Report Offline Servers to Teams`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (189).png" alt="" data-size="line"> to open the edit trigger menu.
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

@@ -7,7 +7,7 @@ Before editing anything in this section of Rewst, be sure to read up on our intr
 ### Manually create a new organization in Rewst
 
 {% hint style="warning" %}
-Remember, organizations are divided up into parent and child orgs.
+Remember, organizations are divided up into parent and child organizations. Every new customer you onboard into Rewst will need its own separate child org.
 {% endhint %}
 
 1. Navigate to **Settings >** **Organizations** in the left side menu of the Rewst platform.
@@ -34,7 +34,7 @@ Once an organization is created, it will appear in the organizations list of thi
 ## Delete an organization
 
 {% hint style="danger" %}
-Once an organization is deleted, it can’t be brought back. Make sure that you intend to delete an organization permanently before proceeding with the following steps.
+Once an organization is deleted, it can’t be brought back, even by Rewst support. Make sure that you intend to delete an organization permanently before proceeding with the following steps.
 {% endhint %}
 
 1. Check off the box next to the organization you wish to delete.

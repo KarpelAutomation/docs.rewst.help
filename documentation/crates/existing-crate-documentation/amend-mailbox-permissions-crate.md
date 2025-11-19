@@ -46,7 +46,7 @@ Easily manage permissions for mail-enabled mailboxes in your environment. This C
 3.  Click on the Crate tile to begin unpacking.
 
     \
-    ![](<../../../.gitbook/assets/image (106).png>)
+    ![](<../../../.gitbook/assets/image (122).png>)
 4. This will open that PSA integration’s configuration form in a new tab. Note that this list will have check marks if you have already met the prerequisite integration and org variable setup needs.
 5. Click **Unpack Crate**.
 6.  Choose your PSA from the drop down list.\

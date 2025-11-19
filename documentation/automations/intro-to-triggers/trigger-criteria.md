@@ -10,7 +10,7 @@ The trigger criteria section of the trigger menu will only appear after you've c
 
 <figure><img src="../../../.gitbook/assets/from-trigger-criteria-form.png" alt=""><figcaption></figcaption></figure>
 
-1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (2).png" alt="" data-size="line"> to add new trigger criteria. This will add a new row of fields under the **Trigger Criteria** submenu.
+1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (3).png" alt="" data-size="line"> to add new trigger criteria. This will add a new row of fields under the **Trigger Criteria** submenu.
 2. Click <img src="../../../.gitbook/assets/Screenshot 2025-07-01 at 2.31.37 PM.png" alt="" data-size="line"> to open the trigger criteria test dialog. This dialog allows you to use past events in your relevant tool to test out conditions for future events.  From this dialog, you can also add new trigger criteria. Note that the trigger must be set to **enabled** for this dialog to work. Learn more about this dialog in the [Trigger criteria test dialog](trigger-criteria.md#trigger-criteria-test-dialog) section of this document.
 3. The **Key** field is used to access the trigger context. A trigger context is a dictionary of key-value pairs that contain the data of the event that triggered the workflow.&#x20;
 4. Click <img src="../../../.gitbook/assets/Screenshot 2025-07-07 at 12.53.22 PM.png" alt="" data-size="line"> to open a Monaco editor dialog.

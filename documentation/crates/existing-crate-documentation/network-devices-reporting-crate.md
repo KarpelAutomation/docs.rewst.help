@@ -26,7 +26,7 @@ Your [PSA must be successfullly integrated](../../configuration/integrations/top
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Network Devices Reporting`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (236) (1).png>)
+   &#x20;![](<../../../.gitbook/assets/image (275).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -60,7 +60,7 @@ For each device type, the workflow collects:
 
 Note that the contents of the exported CSV will depend on the information present for the workflow to use. Here's an example of what the CSV Report may look like:
 
-<figure><img src="../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure>
 
 ### Test the Crate
 
@@ -70,7 +70,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `[ROC] Auvik: Network Device Report`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (3) (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
 
@@ -85,11 +85,11 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows**.
 2. Search for  `[ROC] Auvik: Network Device Report`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (189).png" alt="" data-size="line"> to open the edit trigger menu.
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

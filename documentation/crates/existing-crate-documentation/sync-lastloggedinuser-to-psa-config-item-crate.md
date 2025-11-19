@@ -32,7 +32,7 @@ The [Datto Autotask PSA](../../configuration/integrations/integration-guides/dat
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Sync LastLoggedInUser to PSA Config Item`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (236).png>)
+   &#x20;![](<../../../.gitbook/assets/image (262).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -54,7 +54,7 @@ The [Datto Autotask PSA](../../configuration/integrations/integration-guides/dat
 2.  Search for `[Rewst Master v2] Assign Last Logged in User to AT Asset`.\
     &#x20;&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test** in the top right corner of the builder canvas.
 5. Choose the applicable options from the following drop-down selectors:

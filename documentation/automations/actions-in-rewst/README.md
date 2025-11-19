@@ -64,7 +64,7 @@ Generic actions rely heavily on your reading the integration's API documentation
 
 Generic actions are typically named after the integration in the format of `[integration] API Request`. For example, for HaloPSA the action is called `HaloPSA API Request` .
 
-<figure><img src="../../../.gitbook/assets/image (68).png" alt="" width="246"><figcaption><p>The HaloPSA generic action</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (79).png" alt="" width="246"><figcaption><p>The HaloPSA generic action</p></figcaption></figure>
 
 {% hint style="warning" %}
 Note that the paginate request option in any generic action modifies how the request is formed. This can cause issues on the API's side, causing them to behave unexpectedly and return error messages.
@@ -114,7 +114,7 @@ This error is related to having multiple transitions going to a single action.
 2. Under the field **Task Transition Criteria**_,_ you'll likely have a 0. This means that all actions previously have to be complete before that action will run.
 3. Change this to the relevant number. For example, change to a 1 so that only one of the previous actions must complete before that action runs.\
    \
-   ![](<../../../.gitbook/assets/image (24).png>)
+   ![](<../../../.gitbook/assets/image (65).png>)
 
 {% hint style="info" %}
 In the image above, the workflow chooses the RMM of the client. Then, depending on the result, it runs a script on that system. The client likely isn't going to have multiple RMMs, so only one of the script tasks is going to run.

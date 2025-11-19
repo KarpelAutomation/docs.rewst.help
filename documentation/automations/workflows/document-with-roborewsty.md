@@ -43,6 +43,6 @@ RoboRewsty does not replace the existing note feature in the workflow builder. Y
 
 ### Via publish workflow
 
-<figure><img src="../../../.gitbook/assets/image (59) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 RoboRewsty is also available to help when you publish a workflow. Click on the RoboRewst icon to generate a detailed change log, then **Submit**.

@@ -38,7 +38,7 @@ Take note of the following guidelines:
 2.  Search for `Liongard MFA Remediation`.
 
     \
-    ![](<../../../.gitbook/assets/image (220).png>)
+    ![](<../../../.gitbook/assets/image (248).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -61,7 +61,7 @@ Take note of the following guidelines:
 2.  Search for `Liongard - MFA Remediation`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Select the preferred trigger from the trigger selector:
    * **ConnectWise PSA Ticket**

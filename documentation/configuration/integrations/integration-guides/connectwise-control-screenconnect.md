@@ -31,7 +31,7 @@ If you are using this property for another purpose, you will need to update the 
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 6. Ensure that you check on the following minimum permissions:\
-   ![](<../../../../.gitbook/assets/image (211).png>)
+   ![](<../../../../.gitbook/assets/image (243).png>)
    1. Global permissions: **ManageSessionGroups**
    2. Scoped permissions:
       * **ViewSessionGroup**

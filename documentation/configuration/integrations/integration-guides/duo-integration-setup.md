@@ -48,7 +48,7 @@ After setting up the required API accounts (Admin, Accounts, and Auth APIs) and 
 * This key must be manually retrieved from the Duo Admin Panel, as it cannot be fetched programmatically via the API.
 * The `duo_admin_api_directory_key` is necessary only for configurations that employ directory sync. Its usage is specific to ensuring precise user-directory mapping for each organization.
 
-<img src="../../../../../.gitbook/assets/image (27).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/image (41).png" alt="" data-size="original">
 {% endhint %}
 
 #### Set up the API accounts
@@ -69,7 +69,7 @@ For all of the following, make sure to copy the designated information into a se
 1. Navigate to Configuration > Integrations in the left side menu of your Rewst platform.
 2. Search for `Duo` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.42.04 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.42.04 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**, enter the information you copied from Duo into its relevant field:
    1. **Auth Host:** The Duo API server hostname
@@ -83,7 +83,7 @@ For all of the following, make sure to copy the designated information into a se
    9.  **Admin Secret Key**: The Duo admin secret key\
 
 
-       <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.47.51 AM.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.47.51 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 7. Apply the Admin API Directory Key under `Setting up the API accounts` for each organization in the `duo_admin_api_directory_key` field.

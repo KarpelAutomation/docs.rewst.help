@@ -53,7 +53,7 @@ You also must have integrated [Duo](../../configuration/integrations/integration
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Manage Duo Phones`**.**\
    \
-   ![](<../../../.gitbook/assets/image (155).png>)
+   ![](<../../../.gitbook/assets/image (171).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.&#x20;
 5. Click **Continue**.

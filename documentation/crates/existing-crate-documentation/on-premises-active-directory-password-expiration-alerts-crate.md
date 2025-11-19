@@ -46,7 +46,7 @@ The following must be set up before unpacking this Crate:
 
 
 
-    ![](<../../../.gitbook/assets/image (1) (1) (1) (1) (2).png>)
+    ![](<../../../.gitbook/assets/image (259).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -62,7 +62,7 @@ The following must be set up before unpacking this Crate:
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Select either **Form Trigger** or **Password Change Form** from the trigger drop-down list.
 5. Click **Test** in the top right corner of the Workflow Builder Canvas.

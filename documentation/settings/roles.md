@@ -15,7 +15,7 @@ Roles settings can be accessed in the Rewst platform by navigating to **Settings
 
 Scroll down for definitions of each.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>The Permissions menu screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p>The Permissions menu screen</p></figcaption></figure>
 
 ### Admin role
 

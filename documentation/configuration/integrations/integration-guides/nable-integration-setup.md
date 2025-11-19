@@ -88,7 +88,7 @@ To complete all the needed script setup steps in N-able N-central, you'll need t
 8.  Navigate to **Configuration > Scheduled Tasks > Script/Software Repository.**\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 9. Enable **API Access** for the script.
 10. Note the **Repository ID**.
 11. In Rewst, [create an organization variable](../../organization-variables.md#manually-add-a-new-organization-variable) named `nable_rewst_powershell_script_id` with the Repository ID as its value. Set this organization variable as default.&#x20;
@@ -139,7 +139,7 @@ Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'ap
    \
    ![](<../../../../.gitbook/assets/CleanShot 2025-03-31 at 19.29.17.jpg>)
 7. Set the Trigger Type to **Core - Always Pass**.
-8. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (1) (1).png>) next to **Integration Overrides**. Add **N-able N-central** as your integration override.\
+8. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (1).png>) next to **Integration Overrides**. Add **N-able N-central** as your integration override.\
    \
    ![](<../../../../.gitbook/assets/CleanShot 2025-03-31 at 19.29.51.jpg>)
 9. In the **Activate Trigger To Run For** section, keep **Selected Organization** toggled on. Toggle **All current and future managed organizations** on, or choose just one or individually selected organizations from the **Organizations** drop-down selector.\

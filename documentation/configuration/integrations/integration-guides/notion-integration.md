@@ -40,14 +40,14 @@ Our Notion integration enables teams to automate document creation, database man
     \
 
 
-    <figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (59) (3).png" alt=""><figcaption></figcaption></figure>
 9. Copy the **Internal Integration Secret.**
 10. Set settings for the **Capabilities** menu as follows:
     1. Check off all check boxes
     2.  Set **User Capabilities** to **Read user information including email addresses**.\
 
 
-        <figure><img src="../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../../.gitbook/assets/image (60) (4).png" alt=""><figcaption></figcaption></figure>
 11. Click **Save**.
 
 ### Set up steps in Rewst
@@ -81,7 +81,7 @@ Notion grants access for the integration on a page-by-page basis. Add each desir
 5. Confirm that the integration can access the page and all of its child pages.\
 
 
-<figure><img src="../../../../.gitbook/assets/image (62) (2).png" alt=""><figcaption><p>The view of the actions menu and all related submenus, once the page has been set up to use the integration</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (62) (3).png" alt=""><figcaption><p>The view of the actions menu and all related submenus, once the page has been set up to use the integration</p></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

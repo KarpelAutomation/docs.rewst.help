@@ -6,7 +6,7 @@ description: Learn how to build and customize your Rewst Forms
 
 ## Create a new form
 
-The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Forms**, and click  ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1) (1).png>).&#x20;
+The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Forms**, and click  ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (2).png>).&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-17 at 5.21.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 

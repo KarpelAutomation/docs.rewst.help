@@ -21,7 +21,7 @@ Ultimately, an option generator workflow needs three things:
 Before you begin, decide which options need to be displayed based on the user’s selection. For this example, the list of groups will change depending on whether the action is to add or remove a user.
 
 1. [Create a new workflow](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
-2. Click  <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1) (1).png" alt="" data-size="line">in the top menu bar of your workflow's workflow builder canvas.&#x20;
+2. Click  <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (2).png" alt="" data-size="line">in the top menu bar of your workflow's workflow builder canvas.&#x20;
 3. Click the **Workflow Type** drop-down selector.&#x20;
 4.  Select **Option Generator**.\
     \

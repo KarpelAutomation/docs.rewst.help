@@ -33,10 +33,10 @@ You can also use a data alias to extract specific information and manipulate dat
 3.  Set your context variable name under **Publish Result As.** The workflow action results will be stored as the value.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 4.  Add your data alias name. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>)to open the Jinja editor and set up your data alias.
 
-    <figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 5.  Use the following Jinja to create a new dictionary object and set the `displayName` and `userPrincipalName` keys.\
 
 
@@ -52,7 +52,7 @@ You can also use a data alias to extract specific information and manipulate dat
 7. Click **Load Context.**
 8.  Expand the context to see our data alias `filtered_user_details` now only showing the `displayName` and `userPrincipalName` .
 
-    <figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 
 

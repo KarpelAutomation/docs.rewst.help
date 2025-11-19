@@ -46,7 +46,7 @@ To confirm this is in fact the issue you are experiencing you can perform the fo
 2. Navigate to the admin relationship section.
 3. Check for an admin relationship prefixed with **MLT\_** followed by a GUID.
 
-<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><strong>Indication</strong>: The "MLT_" prefix indicates a read-only state due to forced migration.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (24).png" alt=""><figcaption><p><strong>Indication</strong>: The "MLT_" prefix indicates a read-only state due to forced migration.</p></figcaption></figure>
 
 ### How to Fix It
 

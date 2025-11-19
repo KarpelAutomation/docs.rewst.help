@@ -31,7 +31,7 @@ The Crate uses a cron trigger that runs automatically on a daily schedule at a p
 2.  Search for `Sync AzureAD Account Information with ConnectWise PSA Contacts (V3)`.
 
     \
-    ![](<../../../.gitbook/assets/image (202).png>)
+    ![](<../../../.gitbook/assets/image (229).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Contacts may be optionally excluded from being disabled, for instance, if a contact is a non-Microsoft user or a contractor. Enter the names of the PSA contact types into the **Excluded Contact Types** field to configure the PSA contact types to exclude. Use commas to separate the names.
@@ -52,7 +52,7 @@ The Crate uses a cron trigger that runs automatically on a daily schedule at a p
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder Canvas.&#x20;
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5. Click **Test**.

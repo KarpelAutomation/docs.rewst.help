@@ -38,7 +38,7 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Remove Malicious Email and Block Sender`.\
    \
-   ![](<../../../.gitbook/assets/image (172).png>)
+   ![](<../../../.gitbook/assets/image (188).png>)
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

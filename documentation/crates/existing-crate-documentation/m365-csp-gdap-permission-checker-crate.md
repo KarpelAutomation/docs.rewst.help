@@ -86,7 +86,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `M365 CSP/GDAP Permission Checker`**.**\
    \
-   ![](<../../../.gitbook/assets/image (151).png>)
+   ![](<../../../.gitbook/assets/image (167).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5.  Click **Continue**.\

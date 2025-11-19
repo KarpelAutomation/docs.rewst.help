@@ -65,7 +65,7 @@ If you chose to run the workflow in this Crate on a schedule rather than manuall
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - PROC] Detailed MFA Reporting` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (183).png>) to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (199).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to your desired time.
 6. Click **Submit**.
 

@@ -21,7 +21,7 @@ With our HubSpot integration, Rewst can synchronize data between any other integ
    \
    ![A visual card for "HubSpot" integration with Rewst, featuring the HubSpot logo. The description reads: “Enables automation of CRM tasks. Utilize the HubSpot API within Rewst workflows to perform actions such as retrieving CRM data or syncing contacts, opportunities and products with a PSA.” The card indicates it was last updated on April 3rd, 2024, and includes a category tag labeled "CRM" at the bottom. This is the view of the integration in the integrations collection.](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.58.43 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
-4. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Filters** to add filter criteria, if desired.
+4. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (2).png>) next to **Filters** to add filter criteria, if desired.
 5. Click **Authorize**.
 6. Sign in to HubSpot in the dialog that appears. Follow the prompts to complete the authorization.
 7. Click **Save Configuration**.

@@ -38,7 +38,7 @@ Once you create a workflow, you'll be taken to the [_workflow builder_](workflow
 
 ## Synced versus unsynced workflows
 
-Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
+Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../crates/#synced-versus-unsynced-crates).&#x20;
 
 ## View specific workflow results
 
@@ -78,7 +78,7 @@ In the example below, you have a main workflow called **Create Ticket**. In it, 
 
 Click <img src="../../../.gitbook/assets/Subworkflow icon.png" alt="" data-size="line"> on a subworkflow to navigate directly to it. You can also view subworkflows on the main workflow page, indicated by the green **Subworkflow** button under the **Attributes** column. Clicking will reveal which workflow the subworkflow is a part of.
 
-<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt="An image of a small subworkflow, flowing out of a larger executing workflow. The subworkflow is composed of actions, via rectangles outlined in  pink. The flow of subworkflow out of larger workflow is communicated via blue directional arrows. Under each subworkflow action, there&#x27;s the option to click a blue plus button to add additional actions on success or failure of that action."><figcaption><p>An example of subworkflows, flowing out of a larger executing workflow</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (58).png" alt="An image of a small subworkflow, flowing out of a larger executing workflow. The subworkflow is composed of actions, via rectangles outlined in  pink. The flow of subworkflow out of larger workflow is communicated via blue directional arrows. Under each subworkflow action, there&#x27;s the option to click a blue plus button to add additional actions on success or failure of that action."><figcaption><p>An example of subworkflows, flowing out of a larger executing workflow</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 3.14.32 PM (1).png" alt="" width="563"><figcaption><p>The Subworkflow button, under the <strong>Attributes</strong> column of the workflows list page</p></figcaption></figure>
 
@@ -97,7 +97,7 @@ There are a few reasons to set up subworkflows.
 
 Click <img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 12.27.18 PM.png" alt="" data-size="line">to Navigate to **Configure** **Workflow Settings**. Then, configure which data comes into the subworkflow, and which data you want returned to the parent workflow upon completion— your [inputs and outputs](data-input-and-output-input-variables-and-context-variables.md). There are a variety of input types. Below are a few of the most common ones.
 
-<figure><img src="../../../.gitbook/assets/image (66) (2).png" alt="A screenshot of a sub-workflow configuration screen. At the top, there are sections labeled &#x22;Variable Configuration&#x22; and &#x22;Input Configuration&#x22; with a plus icon. Three input fields are defined:  list (type: List) with default value {{ [ ] }}, description &#x22;used for passing JSON object,&#x22; optional required checkbox.  boolean (type: Boolean) with default value {{ true }}, description &#x22;true or false,&#x22; optional required checkbox.  input_configuration (type: Text) with description &#x22;configure Inputs in the sub-wf,&#x22; optional required and multiline checkboxes.  Below, an &#x22;Output Configuration&#x22; section contains a field:  output_data with value {{ &#x22;The sub-wf test data&#x22; }}.  Each entry includes text fields for name, label, type, default value, and description, along with a red &#x22;Remove&#x22; button. At the bottom, there are &#x22;Cancel&#x22; and &#x22;Submit&#x22; buttons.  Highlighted in red boxes are the &#x22;Input Configuration&#x22; and &#x22;Output Configuration&#x22; headers, as well as a pencil icon in the top-right toolbar."><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (66) (3).png" alt="A screenshot of a sub-workflow configuration screen. At the top, there are sections labeled &#x22;Variable Configuration&#x22; and &#x22;Input Configuration&#x22; with a plus icon. Three input fields are defined:  list (type: List) with default value {{ [ ] }}, description &#x22;used for passing JSON object,&#x22; optional required checkbox.  boolean (type: Boolean) with default value {{ true }}, description &#x22;true or false,&#x22; optional required checkbox.  input_configuration (type: Text) with description &#x22;configure Inputs in the sub-wf,&#x22; optional required and multiline checkboxes.  Below, an &#x22;Output Configuration&#x22; section contains a field:  output_data with value {{ &#x22;The sub-wf test data&#x22; }}.  Each entry includes text fields for name, label, type, default value, and description, along with a red &#x22;Remove&#x22; button. At the bottom, there are &#x22;Cancel&#x22; and &#x22;Submit&#x22; buttons.  Highlighted in red boxes are the &#x22;Input Configuration&#x22; and &#x22;Output Configuration&#x22; headers, as well as a pencil icon in the top-right toolbar."><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (67) (1).png" alt="Alt text: A screenshot of a sub-workflow execution result. The header shows &#x22;Sub_Workflow&#x22; with a green checkmark and &#x22;1 successful tasks&#x22; on the right, along with a timestamp &#x22;07-21-25 05:10 PM.&#x22;  On the left, under Input, the JSON-style data is displayed:  boolean: true  input_configuration: &#x22;string&#x22;  list: containing one object with a field user_list that includes three values: &#x22;user1&#x22;, &#x22;user2&#x22;, and &#x22;user3&#x22;.  On the right, under Result, the output is shown:  output_data: &#x22;The sub-wf test data&#x22; Published as {{ CTX.sub_wf_results }}."><figcaption></figcaption></figure>
 
@@ -115,7 +115,7 @@ This setting publishes the configured output, allowing your parent workflow to u
 4. Enter `sub_wf_results` in the **Publish Results As** field.
 5. Click **Publish**.
 
-<figure><img src="../../../.gitbook/assets/image (68) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (68) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Access subworkflow data
 
@@ -125,7 +125,7 @@ Results for subworkflows are nested inside published results for workflows. For 
 {{ CTX.sub_wf_results.output_data }}
 ```
 
-<figure><img src="../../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
 
 ## Additional workflow documentation
 

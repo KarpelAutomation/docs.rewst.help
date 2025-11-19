@@ -17,7 +17,7 @@ Rewst’s [ConnectWise PSA integration](../../configuration/integrations/integra
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `ConnectWise PSA Agreement Mapping`.\
    \
-   ![](<../../../.gitbook/assets/image (130).png>)
+   ![](<../../../.gitbook/assets/image (146).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 
@@ -39,8 +39,8 @@ A form unpacked from this Crate is used to maintain mappings between environment
     <figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 3. Click the trigger drop-down and select **Form Trigger.**\
    \
-   ![](<../../../.gitbook/assets/image (131).png>)
-4. &#x20;Click ![](<../../../.gitbook/assets/image (185).png>).&#x20;
+   ![](<../../../.gitbook/assets/image (147).png>)
+4. &#x20;Click ![](<../../../.gitbook/assets/image (201).png>).&#x20;
 5. Click **View Direct URLs**.
 6. Copy the form URL and paste it in a different browser window.\
    \

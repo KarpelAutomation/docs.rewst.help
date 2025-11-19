@@ -21,7 +21,7 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
 2. Search for `Clean up Global Address List from Disabled Users`.\
    \
-   ![](<../../../.gitbook/assets/image (124).png>)
+   ![](<../../../.gitbook/assets/image (140).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Ensure that **Enabled** is toggled on under the **Cron Job** accordion men&#x75;**.**
@@ -34,7 +34,7 @@ The Crate runs on a cron trigger, and will execute the workflow at the same time
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Remove Disabled Users from GAL`.
 3. Click on the workflow to view it in the workflow builder.
-4.  Click ![](<../../../.gitbook/assets/image (187).png>) to open the edit trigger menu.\
+4.  Click ![](<../../../.gitbook/assets/image (203).png>) to open the edit trigger menu.\
 
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-25 at 5.53.42 PM.png" alt=""><figcaption></figcaption></figure>

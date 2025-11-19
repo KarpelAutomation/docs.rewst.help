@@ -28,7 +28,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2.  Search for `Add Devices to Autopilot via Form`.
 
     \
-    ![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+    ![](<../../../.gitbook/assets/image (8).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.&#x20;
@@ -46,7 +46,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 5.  Select the preferred option between **Import via CSV** and **Manual Entry**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
     If **Manual Entry** is selected, enter the following details:
 
@@ -66,7 +66,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2.  Search for `[Rewst Master v2] BYOD: Retrieve Data from Database`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.&#x20;
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5. The following fields will show:

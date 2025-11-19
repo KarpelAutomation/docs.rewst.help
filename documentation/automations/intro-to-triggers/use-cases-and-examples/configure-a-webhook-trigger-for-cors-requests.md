@@ -20,7 +20,7 @@ Note that **wait for webhook** cannot be set to `true` for this to work
 2.  Open the response headers.\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
 3. Add the following headers:
 
 ```django
@@ -32,7 +32,7 @@ Note that **wait for webhook** cannot be set to `true` for this to work
 }
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -61,7 +61,7 @@ Browsers send an _OPTIONS_ request before certain POST or PUT requests to confir
 
 Add OPTIONS under the **Allowed Methods** field of your **Trigger Parameters** menu in workflow setting&#x73;**.**
 
-<figure><img src="../../../../.gitbook/assets/image (2) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
 
 ## Troubleshoot the CORS webhook trigger
 

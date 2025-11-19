@@ -46,7 +46,7 @@ To use ticket creation when no matching ticket is found in the workflow's result
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Microsoft Subscription Renewal Alerts`.​\
    &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (238).png>)
+   &#x20;![](<../../../.gitbook/assets/image (278).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -62,12 +62,12 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (280).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your PSA's portal to ensure that the workflow is able to move new devices to their correct location as expected.
 5. If using ticket creation for your PSA with this workflow, check in your PSA to confirm that tickets are being created when conditions are met.&#x20;
 
@@ -78,10 +78,10 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows**.
 2. Search for  `[REWST - CRATE] M365 Subscription Renewal Alerts`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (189).png" alt="" data-size="line"> to open the edit trigger menu.\
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

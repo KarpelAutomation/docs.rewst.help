@@ -17,7 +17,7 @@ Our [Duo](../../configuration/integrations/integration-guides/duo-integration-se
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Identify Users in Bypass Mode`\
    \
-   ![](<../../../.gitbook/assets/image (144).png>)
+   ![](<../../../.gitbook/assets/image (160).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Enter your estimated time saved.
@@ -32,11 +32,11 @@ Our [Duo](../../configuration/integrations/integration-guides/duo-integration-se
 3.  Click into the workflow.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
-4.  The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking ![](<../../../.gitbook/assets/image (184).png>). You also have the option to set an email send to notify you if the workflow fails.\
+    <figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
+4.  The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking ![](<../../../.gitbook/assets/image (200).png>). You also have the option to set an email send to notify you if the workflow fails.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

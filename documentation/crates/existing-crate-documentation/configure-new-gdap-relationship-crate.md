@@ -47,7 +47,7 @@ During the workflow automation, each role must have an associated group. These g
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Configure New GDAP Relationship`.\
    \
-   ![](<../../../.gitbook/assets/image (126).png>)
+   ![](<../../../.gitbook/assets/image (142).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Enter your desired prefix into the field.&#x20;

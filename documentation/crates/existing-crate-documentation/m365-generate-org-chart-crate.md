@@ -27,7 +27,7 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `M365: Generate Org Chart`**.**\
    \
-   ![](<../../../.gitbook/assets/image (153).png>)
+   ![](<../../../.gitbook/assets/image (169).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

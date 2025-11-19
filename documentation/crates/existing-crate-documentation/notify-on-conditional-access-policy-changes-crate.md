@@ -26,7 +26,7 @@ Before unpacking this Crate:
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Notify on Conditional Access Policy Changes`.\
    \
-   ![](<../../../.gitbook/assets/image (164).png>)
+   ![](<../../../.gitbook/assets/image (180).png>)
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate.**
 5. Click **Continue**.

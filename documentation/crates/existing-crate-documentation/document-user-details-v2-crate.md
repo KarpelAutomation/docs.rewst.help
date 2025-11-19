@@ -22,7 +22,7 @@ The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for the `Document User Details V2` Crate.\
    \
-   ![](<../../../.gitbook/assets/image (141).png>)
+   ![](<../../../.gitbook/assets/image (157).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -34,12 +34,12 @@ The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides
 8. Navigate to **Automation > Workflows**.
 9. Search for `[Rewst Master v3] ITG: Document Users - [Part 1]`.
 10. Click into the workflow.
-11. Click ![](<../../../.gitbook/assets/image (189).png>) to view trigger details.
+11. Click ![](<../../../.gitbook/assets/image (205).png>) to view trigger details.
 12. Set the trigger to **Enabled**.
 13. Set the **Cron Schedule** as desired.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
 14. Click **Submit**.
 
 {% hint style="info" %}

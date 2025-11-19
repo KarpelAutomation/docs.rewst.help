@@ -47,7 +47,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2.  Search for `Report on Disabled M365 Users with Licenses`.
 
     \
-    ![](<../../../.gitbook/assets/image (200) (1).png>)
+    ![](<../../../.gitbook/assets/image (227).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -81,10 +81,10 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
     \
 
 
-    <figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Use the trigger drop-down selector to choose the **Weekly Check** trigger.&#x20;
-5. Click ![](<../../../.gitbook/assets/image (2) (8) (1).png>) to open the **Edit Trigger** menu.
+5. Click ![](<../../../.gitbook/assets/image (226).png>) to open the **Edit Trigger** menu.
 6. The default **Cron Schedule** under **Trigger Parameters** is currently set to Monday at 3:00 AM UTC. This may be kept as is or if desired, be modified. To modify, update the timing of the cron trigger in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 7. It is recommended that you manually execute the workflow with the **Weekly Check** trigger selected using the **Test** button for your main org. This will complete the first step, where the organization variable for the webhook trigger ID is created. If this is not performed, on the first run, the customer organizations will gracefully exit the workflow, and the main organization will create the variable and run normally. The subsequent runs will function normally for the customer organization.
 8. Click **Submit**.

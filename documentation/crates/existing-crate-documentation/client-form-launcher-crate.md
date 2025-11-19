@@ -47,7 +47,7 @@ The automation kicks off via form submission:
     3. **Add Link to PSA Ticket** - select **Yes** or **No** to denote if you wish to add a link to this form to the selected open ticket
 
     \
-    ![](<../../../.gitbook/assets/image (196).png>)
+    ![](<../../../.gitbook/assets/image (220).png>)
 6. Click **Submit** to run the workflow. The workflow will run and automatically add notes to your PSA with the results of the software operation.
 
 ### Test the Crate
@@ -56,7 +56,7 @@ The automation kicks off via form submission:
 2.  Search for `[[Rewst Master v3] PSA: Update Ticket – Actual`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.&#x20;
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5. Click **Test**.

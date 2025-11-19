@@ -23,7 +23,7 @@ The Crate is typically triggered by a scheduled cron trigger, which allows for r
 2.  Search for `Find Inactive Computers in RMM`.
 
     \
-    ![](<../../../.gitbook/assets/image (223).png>)
+    ![](<../../../.gitbook/assets/image (251).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -38,7 +38,7 @@ The Crate is typically triggered by a scheduled cron trigger, which allows for r
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
 5. Choose the organization you'd like to run the form on from the **Organization** drop-down selector.\
    \
-   ![](<../../../.gitbook/assets/image (196).png>)
+   ![](<../../../.gitbook/assets/image (220).png>)
 6. Click **Submit** to run the workflow. The workflow will run and automatically add notes to your PSA with the results of the software operation.
 
 ### Test the Crate
@@ -49,12 +49,12 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 2.  Search for `[REWST - CRATE] RMM: Find Inactive Computers`.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your RMM's portal to ensure that the workflow is able to find the inactive computers as expected.
 
 ### Update the cron trigger schedule
@@ -64,11 +64,11 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows**.
 2. Search for  `[REWST - CRATE] RMM: Find Inactive Computers`.
 3. Click on the workflow to open it in the workflow builder.
-4.  Click <img src="../../../.gitbook/assets/image (189).png" alt="" data-size="line"> to open the edit trigger menu.
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

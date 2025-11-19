@@ -39,7 +39,7 @@ iwr ((irm {{ INSTALLER }}).assets|?{$_.name -eq \\\\"rewst_agent_config.win.exe\
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (59) (2) (1).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (2).png" alt="" width="331"><figcaption></figcaption></figure>
 
 ### Package using IntuneWin package
 
@@ -90,9 +90,9 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 4.  Upon completion, your .intunewin package will be generated in the specified output folder.\
 
 
-    <figure><img src="../../.gitbook/assets/image (60) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (60) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (61) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Use Microsoft Endpoint Manager to deploy**
 
@@ -176,7 +176,7 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 
 Ensure that you have your PowerShell script from the **Provision agents** section of your [Agent Smith Configuration Guide](agent-smith-configuration-overview.md). Use a text editor such as VS Code to take this copied PowerShell script and save it as a .ps1 file.
 
-<figure><img src="../../.gitbook/assets/image (62) (1) (1).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62) (2).png" alt="" width="331"><figcaption></figcaption></figure>
 
 ### Configure Intune PowerShell Script
 
