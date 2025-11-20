@@ -29,13 +29,11 @@ To have access to the OpenText Secure Cloud menus needed to set up this integrat
 2. In the Integrations page, search for the `OpenText Secure Cloud` integration.
 3. Click on the integration tile to launch the configuration setup page.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-06-02 at 2.54.00 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-06-02 at 2.54.00 PM.png>)<br>
 4. Under **Parameters**:
    1. Enter the copied key value into the **Client ID** field.
    2.  Enter the copied secret value into the **Client Secret** field.\
-       \
-
+       <br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-02 at 2.54.45 PM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.

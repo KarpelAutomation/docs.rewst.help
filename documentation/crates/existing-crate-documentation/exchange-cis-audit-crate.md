@@ -26,8 +26,7 @@ Your [PSA must succesfully be integrated](../../configuration/integrations/top-5
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Exchange CIS Audit`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-25 at 11.50.38 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-25 at 11.50.38 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Click **Continue**.
@@ -49,3 +48,4 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
+

@@ -24,8 +24,7 @@ This Crate works with our [ConnectWise PSA integration](../../configuration/inte
 1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
 2. Search for `Consolidate and Manage Duplicate Configurations`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 4.57.49 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 4.57.49 PM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Note that you have the option under the Form Submission accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), trigger criteria, or for integration overrides. Ensure that **Enabled** is toggled o&#x6E;**.**

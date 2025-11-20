@@ -78,8 +78,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `[ROC] Check for Disabled Users With Licenses`.
 
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.

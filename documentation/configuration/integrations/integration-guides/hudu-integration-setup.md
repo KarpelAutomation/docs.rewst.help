@@ -23,8 +23,7 @@ Rewst's Hudu integration enables the automation of documentation management. Use
 1. Log in to your Hudu instance.
 2. Click on the **Admin** tab in the top menu.
 3.  Scroll down and click **API Keys** under the **Account Administration** menu.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-14 at 2.30.36 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click **+ New API Key** at the upper right of the page.
@@ -53,8 +52,7 @@ Rewst's Hudu integration enables the automation of documentation management. Use
 6. Enter your copied API key from your Hudu Instance.
 7. Add your Hudu Instance hostname in the **Hudu URL** field: for example, `yourinstance.huducloud.com` .
 8. Click **Save Configuration**.
-9.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
-
+9.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-04 at 2.19.52 PM.png" alt=""><figcaption></figcaption></figure>
 

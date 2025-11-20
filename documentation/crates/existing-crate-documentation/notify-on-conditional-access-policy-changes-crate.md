@@ -34,8 +34,7 @@ Before unpacking this Crate:
 
     1. Sending an email, including who to send the reports to
     2. Creating a PSA Ticket
-    3. Choosing to use OpenAI\
-
+    3. Choosing to use OpenAI<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-14 at 10.30.39 AM.png" alt=""><figcaption></figcaption></figure>
 7. By default, the cron job trigger will be enabled. If desired, open the **Cron Job** accordion menu under **Configure Triggers** and disable or change these settings.

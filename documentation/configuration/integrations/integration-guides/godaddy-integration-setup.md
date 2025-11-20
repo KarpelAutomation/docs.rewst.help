@@ -20,8 +20,7 @@ Our GoDaddy integration enables automation of domain, DNS, and certificate manag
 2. Navigate to the [Developer Console](https://developer.godaddy.com/).
 3. Click **API Keys**.
 4.  Click **Create New App** or **Create New API Key**, depending on your particular interface.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-01 at 4.17.40 PM.png" alt=""><figcaption></figcaption></figure>
 5. Provide a name for your API client or app.

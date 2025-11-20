@@ -28,8 +28,7 @@ Our Notion integration enables teams to automate document creation, database man
 
 1. Log in to your Notion account.
 2. Navigate to the [Notion integration settings page](https://www.notion.so/profile/integrations)
-3.  Click **New Integration**.\
-
+3.  Click **New Integration**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.38.58 PM.png" alt=""><figcaption></figcaption></figure>
 4. Select a workspace to install the integration to from the **Associated Workspace** drop-down selector.
@@ -37,15 +36,13 @@ Our Notion integration enables teams to automate document creation, database man
 6. Click **Save.**
 7. Click into your new integration in the integrations list.
 8.  Click into the **Configuration** tab. \
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (59) (3).png" alt=""><figcaption></figcaption></figure>
 9. Copy the **Internal Integration Secret.**
 10. Set settings for the **Capabilities** menu as follows:
     1. Check off all check boxes
-    2.  Set **User Capabilities** to **Read user information including email addresses**.\
-
+    2.  Set **User Capabilities** to **Read user information including email addresses**.<br>
 
         <figure><img src="../../../../.gitbook/assets/image (60) (4).png" alt=""><figcaption></figcaption></figure>
 11. Click **Save**.
@@ -78,8 +75,7 @@ Notion grants access for the integration on a page-by-page basis. Add each desir
 2. Click **...** to open the actions menu.
 3. Click + **Add Connections**.
 4. Search for the Rewst integration and select it.&#x20;
-5. Confirm that the integration can access the page and all of its child pages.\
-
+5. Confirm that the integration can access the page and all of its child pages.<br>
 
 <figure><img src="../../../../.gitbook/assets/image (62) (3).png" alt=""><figcaption><p>The view of the actions menu and all related submenus, once the page has been set up to use the integration</p></figcaption></figure>
 

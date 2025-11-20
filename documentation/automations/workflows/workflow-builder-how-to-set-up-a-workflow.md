@@ -140,8 +140,7 @@ Adding notes is disabled for synced clone workflows.&#x20;
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-03-06 at 3.01.41 PM.png>)
 2. Click and drag it to the desired location on the canvas.
-3.  Hover over the upper-right <img src="../../../.gitbook/assets/Screenshot 2025-03-06 at 3.02.37 PM.png" alt="" data-size="line"> icon and click **Edit Note** to edit a note's content in the right side menu.\
-
+3.  Hover over the upper-right <img src="../../../.gitbook/assets/Screenshot 2025-03-06 at 3.02.37 PM.png" alt="" data-size="line"> icon and click **Edit Note** to edit a note's content in the right side menu.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-06 at 3.03.18 PM.png" alt=""><figcaption></figcaption></figure>
 4. To delete notes, right-click the note and click **Delete Note**_._

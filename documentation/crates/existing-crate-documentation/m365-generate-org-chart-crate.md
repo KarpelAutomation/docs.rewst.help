@@ -41,8 +41,7 @@ The Crate workflow is triggered by a form submission. Initiate the org chart gen
 {% endhint %}
 
 1. Navigate to **Automations > Forms**.
-2.  Locate the form titled **Microsoft: Build Org Chart**.\
-
+2.  Locate the form titled **Microsoft: Build Org Chart**.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-08 at 5.51.59 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **⋮ > Usages**.

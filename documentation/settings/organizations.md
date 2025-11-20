@@ -39,8 +39,7 @@ Once an organization is deleted, it can’t be brought back, even by Rewst suppo
 
 1. Check off the box next to the organization you wish to delete.
 2.  Click **Delete Organization(s)** in the top right corner.\
-    \
-
+    <br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-04-22 at 12.18.46 PM.png" alt=""><figcaption><p>Delete organizations will only appear once an org has been selected</p></figcaption></figure>
 3. Confirm that you wish to delete the organization. Type `delete orgs` into the field.\
@@ -58,8 +57,7 @@ For more on how to view workflow execution logs, see our workflow documentation 
 
 Rewst retains workflow execution for a configurable number of days, up to 30 days maximum. Logs are expunged nightly according to the retention period. The default each account is set to at the time of creation is 21 days.
 
-Access data retention settings in the Rewst platform by navigating to **Settings > Organizations**. Note that only users with the admin role will be able to update this setting.\
-
+Access data retention settings in the Rewst platform by navigating to **Settings > Organizations**. Note that only users with the admin role will be able to update this setting.<br>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.49.53 AM.png" alt=""><figcaption><p>The organizations list page</p></figcaption></figure>
 

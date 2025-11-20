@@ -80,8 +80,7 @@ For all of the following, make sure to copy the designated information into a se
    6. **Accounts API Secret Key:** The Duo accounts secret key
    7. **Admin Host:** The Duo API server hostname
    8. **Admin Integration Key:** The Duo admin API integration key
-   9.  **Admin Secret Key**: The Duo admin secret key\
-
+   9.  **Admin Secret Key**: The Duo admin secret key<br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.47.51 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.

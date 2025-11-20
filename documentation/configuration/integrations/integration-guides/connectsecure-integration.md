@@ -101,8 +101,7 @@ ConnectSecure’s own documentation site can be found [here](https://cybercns.at
 
 [https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2128314664/V4+API+Information](https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2128314664/V4+API+Information)
 
-[https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2111111353/User+Management+and+Security](https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2111111353/User+Management+and+Security)\
-
+[https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2111111353/User+Management+and+Security](https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2111111353/User+Management+and+Security)<br>
 
 [https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2200961052/V3+Offboarding](https://cybercns.atlassian.net/wiki/spaces/CVB/pages/2200961052/V3+Offboarding)
 
@@ -111,8 +110,7 @@ ConnectSecure’s own documentation site can be found [here](https://cybercns.at
 
 ### Migration Steps For Customers on V3 of Rewst’s ConnectSecure Integration
 
-1.  Navigate to your relevant mycyberCNS portal or ConnectSecure portal. Note that customers who are still using mycyberCNS portals may see the below message about the upcoming change when trying to log in.\
-
+1.  Navigate to your relevant mycyberCNS portal or ConnectSecure portal. Note that customers who are still using mycyberCNS portals may see the below message about the upcoming change when trying to log in.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-02 at 3.05.38 PM.png" alt=""><figcaption></figcaption></figure>
 2. Log in to your ConnectSecure portal.

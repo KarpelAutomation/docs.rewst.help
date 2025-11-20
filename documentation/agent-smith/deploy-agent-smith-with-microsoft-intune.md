@@ -74,8 +74,7 @@ Use Microsoft Win32 Content Prep Tool (IntuneWinAppUtil.exe) to complete the fol
 
     * **c**: Source folder, which contains your installer files.
     * **s**: Powershell install script
-    * **o**: Output directory for the .intunewin package.\
-
+    * **o**: Output directory for the .intunewin package.<br>
 
     ```
     IntuneWinAppUtil.exe -c "FOLDERLOCATION" -s "INSERTPOWERSHELLFILENAMEHERE" -o "OUTPUTFOLDER"
@@ -87,8 +86,7 @@ Use Microsoft Win32 Content Prep Tool (IntuneWinAppUtil.exe) to complete the fol
 IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentSmith\\output"
 ```
 
-4.  Upon completion, your .intunewin package will be generated in the specified output folder.\
-
+4.  Upon completion, your .intunewin package will be generated in the specified output folder.<br>
 
     <figure><img src="../../.gitbook/assets/image (60) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -102,14 +100,12 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 4. Fill out the Name, Description, and Publisher fields under the App information tab of the Add App menu.(The other fields are optional, you are welcome to fill them out if you’d like.)
 5.  Under the **Program** tab, paste the following into the relevant fields:
 
-    1.  **Install command -** replace install.ps1 with the name of the ps1 installer script you created earlier in the process:\
-
+    1.  **Install command -** replace install.ps1 with the name of the ps1 installer script you created earlier in the process:<br>
 
         ```
         powershell.exe -ExecutionPolicy Bypass -File install.ps1 
         ```
-    2.  **Uninstall command:** \
-
+    2.  **Uninstall command:** <br>
 
         ```
         powershell.exe -ExecutionPolicy Bypass -Command "Get-Service -Name 'AgentSmithService' -ErrorAction SilentlyContinue | Stop-Service -Force -ErrorAction SilentlyContinue; sc.exe delete 'AgentSmithService'"
@@ -119,12 +115,10 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 
     1. **Install behavior:** select **System**
 6. Under the **Requirements** tab:
-   1.  Specify the **Minimum operating system** - Windows 10, Windows 11, etc.\
-
+   1.  Specify the **Minimum operating system** - Windows 10, Windows 11, etc.<br>
 
        <figure><img src="../../.gitbook/assets/CleanShot 2025-04-10 at 01.07.50@2x.png" alt=""><figcaption></figcaption></figure>
-   2. Specify the **Operating system architecture** - 32-bit or 64-bit.\
-
+   2. Specify the **Operating system architecture** - 32-bit or 64-bit.<br>
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-04-10 at 01.07.24@2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -143,8 +137,7 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 8. No alterations to the **Dependencies** or **Supersedence** tabs are needed. Under the **Assignments** tab:
    1. Assign the application to required groups, be they users or devices.\
       ![](<../../.gitbook/assets/CleanShot 2025-04-10 at 01.17.35@2x.png>)
-   2.  Once your group is selected, the defaults here will work, but feel free to modify the settings to your comfort level.\
-
+   2.  Once your group is selected, the defaults here will work, but feel free to modify the settings to your comfort level.<br>
 
        <figure><img src="../../.gitbook/assets/CleanShot 2025-04-10 at 01.18.20@2x.png" alt=""><figcaption></figcaption></figure>
 9.  Under the **Review and Create** tab:

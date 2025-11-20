@@ -34,8 +34,7 @@ This Crate allows you to pick a device and a piece of software and install it on
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Install Ad-Hoc Software`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-17 at 11.06.57 AM (1).png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-17 at 11.06.57 AM (1).png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Choose your relevant PSA from the drop-down selector.

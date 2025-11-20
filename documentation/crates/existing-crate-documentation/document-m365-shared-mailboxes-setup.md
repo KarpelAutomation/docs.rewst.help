@@ -33,8 +33,7 @@ Your [ITGlue](../../configuration/integrations/integration-guides/it-glue-integr
    ![](<../../../.gitbook/assets/Screenshot 2025-10-17 at 2.45.36 PM.png>)
 4. Click **Unpack Crate**.
 5. Click **Continue**.
-6.  Note that under the **Cron Job** accordion menu, you have the option to activate the trigger for all current and future managed organizations, or for specific organizations chosen from the **Activate for organizations** drop-down selector. You may also activate the trigger for organizations with specific [tags](../../settings/tags-in-rewst.md). \
-
+6.  Note that under the **Cron Job** accordion menu, you have the option to activate the trigger for all current and future managed organizations, or for specific organizations chosen from the **Activate for organizations** drop-down selector. You may also activate the trigger for organizations with specific [tags](../../settings/tags-in-rewst.md). <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-28 at 3.43.12 PM.png" alt=""><figcaption></figcaption></figure>
 7. Click **Unpack**.

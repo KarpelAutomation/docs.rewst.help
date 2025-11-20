@@ -29,8 +29,7 @@ Leverage conversational AI and content intelligence as a service to automate tex
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.10.46 PM.png>)
 3.  Click on the integration tile to launch the **Configuration** setup page.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.13.01 PM.png" alt=""><figcaption></figcaption></figure>
 4. Under **Configuration**:

@@ -27,21 +27,18 @@ Our Sherweb integration enables seamless management of customer information, pro
 
 1. Log in to your Sherweb partner account.
 2.  Navigate to the **Security > APIs** to generate your API credentials.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Click **Create** to set up a new API client.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 4. Copy the **Client ID** and **Client Secret**.
 5.  Copy and save your Subscription Key, available in the same section. You’ll need this information to continue set up in Rewst.\
     ![](<../../../../.gitbook/assets/image (19) (1).png>)
 
-    \
-
+    <br>
 
 ### Set up steps in Rewst
 
@@ -93,8 +90,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 For more on how actions work in Rewst, check out our introductory actions documentation[ here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Refer to Sherweb's[ API documentation](https://developers.sherweb.com/) for detailed information on available endpoints and their usage. Ensure that you have the necessary permissions and correct endpoint URLs as specified in Sherweb's API documentation when configuring these actions. To access some API endpoints, you may have to set your rebilling settings within the partner portal, or contact your account manager at Sherweb to have them enabled manually.\
-
+Refer to Sherweb's[ API documentation](https://developers.sherweb.com/) for detailed information on available endpoints and their usage. Ensure that you have the necessary permissions and correct endpoint URLs as specified in Sherweb's API documentation when configuring these actions. To access some API endpoints, you may have to set your rebilling settings within the partner portal, or contact your account manager at Sherweb to have them enabled manually.<br>
 
 | Action name                        | Description                                                                                                                                                        | Endpoint                                                                                                                                                                                                                                 |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

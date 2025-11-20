@@ -96,8 +96,7 @@ Use the following like a checklist, and make sure that you have each item accoun
 * Record custom integration usage, noting each workflow that uses custom integrations. Capture screenshots or export JSON for the integration if needed. Document each trigger using an integration override.
 
 {% hint style="info" %}
-Need help identifying custom integration workflows? Contact Rewst Support! They can provide you with a list containing:\
-
+Need help identifying custom integration workflows? Contact Rewst Support! They can provide you with a list containing:<br>
 
 * All workflows that use custom integrations
 * Whether the custom integration is linked in an action or a trigger

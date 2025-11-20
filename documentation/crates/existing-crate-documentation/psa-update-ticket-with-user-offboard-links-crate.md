@@ -3,7 +3,7 @@
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 
-This Crate is our newest version of an older Crate which was called Add Rewst Form Link to Offboarding Request Tickets. That Crate is now [deprecated](../crate-deprecation-faq.md). New Rewst users should only unpack this version of the Crate. Previous Rewst users are recommended to remove the older version of the Crate and unpack this Crate.
+This Crate is our newest version of an older Crate which was called Add Rewst Form Link to Offboarding Request Tickets. That Crate is now [deprecated](../../../prebuilt-automations/crates/crate-deprecation-faq.md). New Rewst users should only unpack this version of the Crate. Previous Rewst users are recommended to remove the older version of the Crate and unpack this Crate.
 {% endhint %}
 
 ## What does the PSA: Update Ticket with User Offboard Links Crate do?

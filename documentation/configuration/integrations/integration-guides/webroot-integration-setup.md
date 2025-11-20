@@ -45,8 +45,7 @@ Our OpenText Core Endpoint Protection integration enables automation of endpoint
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `OpenText Core Endpoint Protection` integration.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-08-25 at 10.11.15 AM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-08-25 at 10.11.15 AM.png>)<br>
 3. Click on the integration tile to launch the Configuration setup page.
 4. Under **Configuration**:
    1. Edit the **Name**.
@@ -57,8 +56,7 @@ Our OpenText Core Endpoint Protection integration enables automation of endpoint
    2. Enter your client secret in the **Client Secret** field.
    3. Enter the parent key code in the **Parent Key Code** field.
    4. Enter the password of the user from your OpenText account into the **Password** field.
-   5.  Enter the username of the user from your OpenText account into the **Username** field.\
-
+   5.  Enter the username of the user from your OpenText account into the **Username** field.<br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-08-25 at 10.13.51 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Save Configuration**.

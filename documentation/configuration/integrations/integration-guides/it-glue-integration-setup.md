@@ -27,14 +27,12 @@ Rewst requires the **Password Access** checkbox to be enabled on the API Keys sc
 IT Glue's most up-to-date information for how to generate an API key can be found [here](https://help.itglue.kaseya.com/help/Content/1-admin/it-glue-api/getting-started-with-the-it-glue-api.html?cshid=1038).&#x20;
 
 1. Navigate to **Admin > Settings** in your IT Glue application.
-2.  Click the **API keys** tab.\
-
+2.  Click the **API keys** tab.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-28 at 6.30.03 PM.png" alt=""><figcaption></figcaption></figure>
 3. Scroll to bottom and click **+** on the right side.
 4. Enter a **name** for the API key.
-5.  Click **Generate API key**.\
-
+5.  Click **Generate API key**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-28 at 6.30.43 PM.png" alt=""><figcaption></figcaption></figure>
 6. Check the **Password Access** box.
@@ -81,8 +79,7 @@ If you have created flexible assets in Rewst, and want to add them to your sideb
 1. Log in to your IT Glue admin account.
 2. Click the **Admin** tab in the top menu.
 3.  Scroll down and click **Customize Sidebar.**\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-28 at 2.40.24 PM.png" alt=""><figcaption></figcaption></figure>
 4. Choose your assets to add to the sidebar under **Flexible Assets**.

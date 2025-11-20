@@ -35,8 +35,7 @@ This Crate automates the monitoring of new enterprise applications in Microsoft 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Enterprise Application Creation Alert`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-11-18 at 10.43.10 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-11-18 at 10.43.10 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [trigger criteria](https://docs.rewst.help/documentation/automations/intro-to-triggers/trigger-criteria) or for integration overrides.
@@ -58,8 +57,7 @@ The cron trigger will execute the workflow to generate the ticket at the same ti
 1. Navigate to **Automations > Workflows**.
 2. Search for  `Alert - New Enterprise App Detected`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.\
-
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.<br>
 
     <figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.

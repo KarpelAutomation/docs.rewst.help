@@ -36,8 +36,7 @@ The Bitdefender GravityZone integration enables automated interactions with its 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the `Bitdefender` integration. \
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-02-20 at 9.41.26 AM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-20 at 9.41.26 AM.png>)<br>
 3. Click on the integration tile to launch the **Configuration** setup page.
 4. Under **Configuration**:
    1. Edit the **Name**

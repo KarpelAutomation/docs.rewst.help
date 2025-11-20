@@ -36,8 +36,7 @@ This Crate also supports configuration at both the MSP and customer levels, allo
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for the `Amend Mailbox Permissions` Crate.
-3.  Click on the Crate tile to begin unpacking.\
-
+3.  Click on the Crate tile to begin unpacking.<br>
 
     <img src="../../../.gitbook/assets/Screenshot 2025-09-24 at 3.17.05 PM.png" alt="" data-size="original">
 4. Click **Continue**.

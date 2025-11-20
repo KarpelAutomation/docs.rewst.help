@@ -99,13 +99,11 @@ We've broken down instructions into four larger steps, each with its own section
 2. Click the **Properties** tab. Leave all the options on this screen as default.
 3. Click **Assignments > Add Role**.
 4. Search for **`Global Administrator`** in the role selection. Select the role.
-5.  Click **Select**. Verify that the role is now listed in the main pane.\
-
+5.  Click **Select**. Verify that the role is now listed in the main pane.<br>
 
     <figure><img src="../../../../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
 6.  Make sure the service account is part of the **admin agents** group in Microsoft Entra.\
-    \
-
+    <br>
 
     <figure><img src="../../../../../.gitbook/assets/image (73) (1).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
 
@@ -164,16 +162,14 @@ Granular access is influenced by your clients' [conditional access policies](htt
 
 ### Step 2: Register the enterprise app and authorize the Rewst integration
 
-1.  Choose how to register the app.\
-
+1.  Choose how to register the app.<br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-06-18 at 3.16.36 PM.png" alt=""><figcaption></figcaption></figure>
 
     1. Most users should select the Rewst-created enterprise app. It simplifies setup, includes the required permissions, and is secure. Unless you’re absolutely sure you need your own, choose the default option.
     2. If you are absolutely certain that you must bring your own app rather than using the Rewst-created one, choose this registration option. Owned app registration instructions can be found here: [https://docs.rewst.help/documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/owned-app-registration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/owned-app-registration)
     3. Click **Next**.
-2.  Set permissions for Microsoft Graph.\
-
+2.  Set permissions for Microsoft Graph.<br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-08-12 at 4.08.52 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -185,8 +181,7 @@ Granular access is influenced by your clients' [conditional access policies](htt
    1. Exchange, CSP, and Azure, if needed, are simpler and allow you to toggle access as desired.
    2. Microsoft Graph includes \~177 APIs, and gives you broad access to users, groups, and licensing from one endpoint.
 4. Click **Next**.
-5.  Review your configuration decisions in the **Authorize Integrations** screen. Click **Back** f you wish to make updates. Click **Authorize** when satisfied with your choices.\
-
+5.  Review your configuration decisions in the **Authorize Integrations** screen. Click **Back** f you wish to make updates. Click **Authorize** when satisfied with your choices.<br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-08-12 at 4.12.50 PM.png" alt=""><figcaption></figcaption></figure>
 6. After authorizing, you’ll see:
@@ -206,8 +201,7 @@ For this step, you have two options:
 
 1. Unpack the [Configure New GDAP Relationship Crate](../../../../crates/existing-crate-documentation/configure-new-gdap-relationship-crate.md). This will create the relationship and generate a link for your customer to accept the relationship. Once the customer manually accepts, you'll be given a second link to kick off another workflow that adds all groups to the relationship, and maps them to the relevant roles.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-09-04 at 3.57.31 PM.png>)\
-
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-09-04 at 3.57.31 PM.png>)<br>
 2. The rest of the instructions below walk you through how to do this process manually without unpacking the Crate. It is much more time-consuming, but is still an option. Click the accordion menu to expand and read those directions.
 
 We strongly recommend that you use the Crate to complete this step.
@@ -616,8 +610,7 @@ Alternatively, it is possible that the tenant does not have licensed users in th
 
 <summary>Issue: invalid_client - Failed to authorize one or more integrations: Permissions configuration not found for Azure integration</summary>
 
-This is an Azure specific error and it happens when re-authorizing the Microsoft Cloud Integration Bundle. You must [set up an Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal). It can be empty but it needs to be setup and available.\
-
+This is an Azure specific error and it happens when re-authorizing the Microsoft Cloud Integration Bundle. You must [set up an Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal). It can be empty but it needs to be setup and available.<br>
 
 </details>
 
@@ -752,8 +745,7 @@ The other error that may be related to this when consenting is **There was an er
 If you keep getting errors during reinstallation, remove the Rewst MS Cloud Connector Enterprise Application and then authorize.\
 \
 \
-During the process, you may see the below error. You should be fine to proceed despite the error message. \
-
+During the process, you may see the below error. You should be fine to proceed despite the error message. <br>
 
 <figure><img src="../../../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
 

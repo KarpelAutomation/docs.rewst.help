@@ -35,8 +35,7 @@ This Crate is kicked off by a form submission. Administrators can choose which a
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Compromised User Response`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-23 at 4.15.21 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-23 at 4.15.21 PM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Note that you have the option under the **Form Submission** accordion mens to activate the Crate for all future organizations in addition to the current one.  You may also set activation to certain [tags](../../settings/tags-in-rewst.md). Ensure that **Enabled** is toggled on.

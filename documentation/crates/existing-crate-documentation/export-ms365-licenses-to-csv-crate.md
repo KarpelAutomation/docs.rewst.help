@@ -25,15 +25,13 @@ This Crate is designed to automate the audit of Microsoft 365 licenses within a 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Export MS365 Licenses to CSV`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 10.01.26 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 10.01.26 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack**.
 5. Enter the following information into the configuration page:
    1. The ID of the board or queue you wish to use for the workflow
    2. The priority of the tickets that will be logged in the board
-   3.  Choose your relevant PSA from the drop-down selector\
-
+   3.  Choose your relevant PSA from the drop-down selector<br>
 
        <figure><img src="../../../.gitbook/assets/Screenshot 2025-09-22 at 10.04.36 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Continue**.

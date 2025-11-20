@@ -34,8 +34,7 @@ Our GitHub integration enables automation of GitHub’s version control system. 
 6. Click **Authorize**.
 7. Click **Continue** next to your desired installation location, from the list in the dialog that appears. The dialog will contain a list of organizations. It’s important that you choose the organization to match the one you entered for the organization name of the Rewst configuration form.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.13.19 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.13.19 PM.png>)<br>
 8. Click **Install & Authorize**.\
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.13.32 PM.png>)
@@ -44,8 +43,7 @@ Our GitHub integration enables automation of GitHub’s version control system. 
 
 ## Test the Integration
 
-Whenever you save configuration and reauthorize, Rewst will run a test action to make sure the integration is working.\
-
+Whenever you save configuration and reauthorize, Rewst will run a test action to make sure the integration is working.<br>
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-10 at 5.22.03 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -59,8 +57,7 @@ The below error may also happen if you attempt to install the GitHub integration
 If you encounter any errors, contact us in your Discord support channel for assistance.
 {% endhint %}
 
-If you uninstall the GitHub integration in Rewst but don’t uninstall our GitHub App in your organization, any attempt to re-install and authorize the integration will fail, and you’ll be stuck at this screen:\
-
+If you uninstall the GitHub integration in Rewst but don’t uninstall our GitHub App in your organization, any attempt to re-install and authorize the integration will fail, and you’ll be stuck at this screen:<br>
 
 <figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 

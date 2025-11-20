@@ -26,11 +26,9 @@ Before unpacking this Crate, you'll need to have your PSA successfully integrate
 ## Unpack the Update Ticket With Form Link - Generic Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
-2.  Search for `Update Ticket With Form Link - Generic`.\
+2.  Search for `Update Ticket With Form Link - Generic`.<br>
 
-
-    ![](<../../../.gitbook/assets/Screenshot 2025-10-16 at 3.22.16 PM.png>)\
-
+    ![](<../../../.gitbook/assets/Screenshot 2025-10-16 at 3.22.16 PM.png>)<br>
 3. Click on the Crate tile to begin the unpacking process.
 4. Click **Unpack Crate**.
 5. Click **Continue.**
@@ -49,8 +47,7 @@ If you do not have a trigger variable configured before running the workflow in 
 3. Click on the workflow to open it in the Workflow Builder Canvas.
 4. Click ![](<../../../.gitbook/assets/image (226).png>) to edit your trigger.
 5.  Update your trigger variable under the **Trigger Variables** submenu. Enter the name of the form you would like to provide a link to in the **Form Name** field\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-16 at 4.00.22 PM.png" alt="Form interface labeled “Trigger Parameters” and “Trigger Variables.” Under “Trigger Parameters,” there are two required fields: “Level,” set to “Owner,” and “Object ID,” set to “1.” Both fields include descriptions explaining their purpose and turquoise refresh icons on the right. Under “Trigger Variables,” there is a required “Form Name” field set to “[REWST – EXAMPLE] Rewst: Example Form,” with a note stating it is an overrideable field. The interface has a dark background with white text and gray input boxes."><figcaption></figcaption></figure>
 6. Recommended: Add trigger criteria that limits what tickets the workflow will run for when the trigger kicks off based on criteria you define. This could be criteria such as board, queue, type, subtype, item, etc.

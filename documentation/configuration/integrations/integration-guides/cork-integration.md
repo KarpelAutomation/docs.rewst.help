@@ -21,8 +21,7 @@ Cork's requirements for their API keys set them to expire every 180 days. We rec
 3. Click **Add API Key**.
 4. Enter Rewst or a similar name that will describe what the API key is for into the **Display Name** field.&#x20;
 5.  Leave the value in the **Expiry Days** drop-down selector at 180 days.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-10 at 9.13.59 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Generate API Key**.

@@ -337,8 +337,7 @@ Imagine a real estate website where property listings need to be displayed in an
 1. **Select the component**: Click on the added 'Grid Container' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
    * **In-line styles**: Define custom CSS properties for the component.
-3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.[\
-   ](https://docs.rewst.help/documentation/app-builder/components/grid-item)
+3. **Live Preview**: The canvas provides a live preview of your configured components once you've made changes.[<br>](https://docs.rewst.help/documentation/app-builder/components/grid-item)
 
 </details>
 
@@ -505,8 +504,7 @@ You could use the Sidebar component in a client management system to consistentl
      * **Position**: Toggle to set the position of sidebar on the canvas; 'Left' or 'Right'.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-[\
-](https://docs.rewst.help/documentation/app-builder/components/row)
+[<br>](https://docs.rewst.help/documentation/app-builder/components/row)
 
 </details>
 
@@ -556,8 +554,7 @@ An MSP might use the Chart component to visualize client network usage, system p
          * **X Scale type**: Select the desired X-scale type; 'linear', 'logarithmic', 'category', 'time' or 'timeseries'.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-[\
-](https://docs.rewst.help/documentation/app-builder/components/container)
+[<br>](https://docs.rewst.help/documentation/app-builder/components/container)
 
 </details>
 
@@ -687,8 +684,7 @@ Change the Type to **action.**
 {% hint style="info" %}
 All components in this section of the component library require you to drag a button component to your canvas before adding. Think of the button as the trigger that will kick off the workflow once clicked. Adding any of the automation components with a button is the App Builder way of creating an ad-hoc form.
 
-Whenever you add a button to a page, you'll need to choose the workflow that will execute when you click that button by selecting it from the drop-down in the right side button configuration menu. Then, go to any of the input fields for your automation component. At the bottom you'll find workflow input settings with a drop-down list of inputs you can select. That particular component will be passing the selected info into the workflow. \
-
+Whenever you add a button to a page, you'll need to choose the workflow that will execute when you click that button by selecting it from the drop-down in the right side button configuration menu. Then, go to any of the input fields for your automation component. At the bottom you'll find workflow input settings with a drop-down list of inputs you can select. That particular component will be passing the selected info into the workflow. <br>
 {% endhint %}
 
 <details>
@@ -761,8 +757,7 @@ In an MSP’s client management system, the text field component might be used o
      * **Input Variabl**e: Define the input variable.
 3. **Live Preview**: The canvas provides a live preview of your configured component once you've made changes.
 
-[\
-](https://docs.rewst.help/documentation/app-builder/components/text)
+[<br>](https://docs.rewst.help/documentation/app-builder/components/text)
 
 </details>
 
@@ -830,8 +825,7 @@ Once a custom component has been added, it will show up for you and all Rewst us
 2. Click <img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.48.10 AM.png" alt="" data-size="line"> to the right of **Container** to open the **Custom Component** dialog.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-09-03 at 11.47.13 AM.png>)
-3.  Enter text into the **Component Name** and **Description** fields. Note that you can rename custom component as needed, but should give them clear names that explain their intended usage. \
-
+3.  Enter text into the **Component Name** and **Description** fields. Note that you can rename custom component as needed, but should give them clear names that explain their intended usage. <br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.47.20 AM.png" alt=""><figcaption></figcaption></figure>
 4. Click **Submit**.
@@ -845,8 +839,7 @@ Once a custom component has been added, it will show up for you and all Rewst us
 1. Locate your custom component in the **Custom Components** tab of your component library.
 2. Click **⋮**. This will open the **Edit Custom Component** dialog.
 3. &#x20;Note that you can change settings to your component, but not add or remove components from your original container grouping. For significant changes, you'll want to make a brand new custom component and save it to your library.
-4. Click **Submit** when changes are complete.\
-
+4. Click **Submit** when changes are complete.<br>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.09.04 PM.png" alt=""><figcaption></figcaption></figure>
 

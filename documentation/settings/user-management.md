@@ -37,8 +37,7 @@ From there, you can follow these steps:
 
 1. Navigate to **Settings > Users**.
 2.  Click the **+** icon to add the user.\
-    \
-
+    <br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 5.04.07 PM (1).png" alt=""><figcaption><p>The view of the expanded <strong>Users</strong> menu, before clicking <strong>+</strong> to add a new user</p></figcaption></figure>
 3. Enter the **Email** of the user.
@@ -65,8 +64,7 @@ Admin or member Rewst permissions are required to remove a user. If needed, re-a
 1. Navigate to **Settings > Users**.
 2. Click the **trashcan** to the far right of the user's record to remove the user.
 3.  Confirm that you want to **Delete** in the confirmation dialog that appears.\
-    \
-
+    <br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 5.21.06 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -74,4 +72,4 @@ Admin or member Rewst permissions are required to remove a user. If needed, re-a
 
 If you have many users to add from your organization or one of your customers, set up the Add Users To Rewst Via Group Crate for your environment. Search for it in Crate Marketplace.
 
-![](<../../.gitbook/assets/Screenshot 2025-09-19 at 3.02.11 PM.png>)\
+![](<../../.gitbook/assets/Screenshot 2025-09-19 at 3.02.11 PM.png>)<br>

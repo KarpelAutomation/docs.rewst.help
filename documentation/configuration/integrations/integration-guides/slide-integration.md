@@ -25,8 +25,7 @@ Common uses include:
 1. Log in to your [Slide Console](https://console.slide.tech/).
 2. Navigate to **My Settings** **> API**.
 3.  Click **+ CREATE API TOKEN**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.26.52 PM.png" alt=""><figcaption></figcaption></figure>
 4. Enter a name that lets you know the token is being used for Rewst into the **Name** field of the dialog that appears.
@@ -38,8 +37,7 @@ Common uses include:
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `Slide` integration.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.30.55 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-04-23 at 3.30.55 PM.png>)<br>
 3. Click on the integration tile to launch the configuration setup page.
 4. Paste the API token copied from Slide into the **API Token** field.
 5. Click **Save Configuration**.

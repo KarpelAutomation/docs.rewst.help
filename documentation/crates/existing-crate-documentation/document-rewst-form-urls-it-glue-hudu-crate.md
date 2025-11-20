@@ -24,8 +24,7 @@ Our Document Rewst Form URLs (IT Glue/Hudu) Crate takes your Rewst form URLs and
    \
    ![](<../../../.gitbook/assets/image (156).png>)
 4. Click **Unpack Crate**.
-5.  Select your documentation platform from the drop-down selector.\
-
+5.  Select your documentation platform from the drop-down selector.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 9.59.24 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Continue**.

@@ -33,8 +33,7 @@ One important thing to know if you've never used Immy, is that `Invoke-ImmyComma
 
 ### Software
 
-1.  To set up a software in Immy for Agent Smith, start in the left menu, then `Library > Software > New`.\
-
+1.  To set up a software in Immy for Agent Smith, start in the left menu, then `Library > Software > New`.<br>
 
     <figure><img src="https://github.com/BezaluLLC/Project-Foghorn-agent/assets/2997336/ea8f749a-47cf-4a05-af40-c461a9a17839" alt=""><figcaption></figcaption></figure>
 2.  This will bring you to a setup page that asks for an installer. Go ahead and indicate `none` here.&#x20;

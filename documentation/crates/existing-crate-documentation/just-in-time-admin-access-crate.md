@@ -152,8 +152,7 @@ If you need to retrieve the username and password for the temporary admin accoun
 3. Click **⋮ > Usages**.
 4. Click on the link **\[Rewst] Just-In-Time Admin Access v2**, in the **Workflow** column.
 5. Click ![](<../../../.gitbook/assets/Screenshot 2025-08-18 at 4.37.03 PM.png>) in the top toolbar to **View results for this workflow**.
-6.  If multiple workflows exist, verify the approximate submission time of the \[Rewst] Just In Time Admin Access form with the requester. Locate the workflow result under the **Created At** column, and open it by clicking **>**.\
-
+6.  If multiple workflows exist, verify the approximate submission time of the \[Rewst] Just In Time Admin Access form with the requester. Locate the workflow result under the **Created At** column, and open it by clicking **>**.<br>
 
     <figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 7.  To identify the user who submitted the request in the results:

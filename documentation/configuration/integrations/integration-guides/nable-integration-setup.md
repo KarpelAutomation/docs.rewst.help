@@ -85,8 +85,7 @@ To complete all the needed script setup steps in N-able N-central, you'll need t
    Example of correct base URL: `https://engine.rewst.io/webhooks/custom/action`
 6. Click **Browse** to upload the edited file into N-able N-central.
 7. Click **Ok**.
-8.  Navigate to **Configuration > Scheduled Tasks > Script/Software Repository.**\
-
+8.  Navigate to **Configuration > Scheduled Tasks > Script/Software Repository.**<br>
 
     <figure><img src="../../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 9. Enable **API Access** for the script.
@@ -150,8 +149,7 @@ Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'ap
 12. Click Test to run your workflow. Note that this will bring up a drop-down selector to choosing organizations.
 13. Select your MSP level.
 14. Click **Test** and confirm that the execution finishes without errors.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/CleanShot 2025-03-31 at 19.31.20.jpg" alt=""><figcaption></figcaption></figure>
 15. If the test for your MSP is successful, do the same test again. At this point in your steps, select a client organization instead, and ensure that it finishes with no errors.

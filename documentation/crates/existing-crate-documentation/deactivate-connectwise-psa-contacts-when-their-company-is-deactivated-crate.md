@@ -17,14 +17,12 @@ Your [ConnectWise PSA](../../configuration/integrations/integration-guides/conne
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Deactivate ConnectWise PSA Contacts when their Company is Deactivated`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 10.51.02 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 10.51.02 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Enter the names you use in ConnectWise PSA for statuses to denote inactive customers in the **Status Names** field.&#x20;
 6.  Choose if you want to **Remove Contacts from Default before Deactivating** from the drop-down selector.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-09-26 at 10.55.48 AM.png" alt=""><figcaption></figcaption></figure>
 7. Use the **Send as CSV** drop-down selector to choose your preference:

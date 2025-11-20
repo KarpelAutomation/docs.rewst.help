@@ -11,8 +11,7 @@ Our FlexPoint integration enables automation of payments and billing. Utilize th
 ## Set up the FlexPoint integration
 
 {% hint style="info" %}
-Before beginning setup for this integration, you'll need to download a security certificate from Rewst. Click on the relevant link for your geographic region in the list below. The link is also available in the Rewst platform, on the setup page for this integration, and will be the correct version for your region.\
-
+Before beginning setup for this integration, you'll need to download a security certificate from Rewst. Click on the relevant link for your geographic region in the list below. The link is also available in the Rewst platform, on the setup page for this integration, and will be the correct version for your region.<br>
 
 [US](https://engine.rewst.io/configuration/flexpoint/get_certificate)
 
@@ -27,8 +26,7 @@ Before beginning setup for this integration, you'll need to download a security 
 
 1. Log in to the [FlexPoint UI](https://apps.getflexpoint.com).
 2.  Navigate to **Settings > WebAPI**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-17 at 12.06.07 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **+ New API Credentials**.
@@ -43,12 +41,10 @@ Before beginning setup for this integration, you'll need to download a security 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `FlexPoint` in the integrations page.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-06-16 at 4.44.14 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-06-16 at 4.44.14 PM.png>)<br>
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the API key copied from FlexPoint into the **API Key** field.
-5.  Click **Save Configuration**.\
-
+5.  Click **Save Configuration**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 4.51.44 PM.png" alt=""><figcaption></figcaption></figure>
 

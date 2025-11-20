@@ -27,8 +27,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter the time saved.
-7. Click **Unpack**.\
-
+7. Click **Unpack**.<br>
 
 ### Test the Crate
 
@@ -42,16 +41,13 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
     \
     ![](<../../../.gitbook/assets/image (8) (1).png>)
 7. Access the workflow results by navigating to **Automations > Results**.
-8.  Search for `Export Intune Configurations and Policies` and open the workflow result.\
-
+8.  Search for `Export Intune Configurations and Policies` and open the workflow result.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 4.26.46 PM.png" alt=""><figcaption></figcaption></figure>
-9.  Scroll down and expand the **core\_create\_webhook** action. Copy the URL listed underneath **Result:**\
-
+9.  Scroll down and expand the **core\_create\_webhook** action. Copy the URL listed underneath **Result:**<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-12 at 4.28.07 PM.png" alt=""><figcaption></figcaption></figure>
-10. Paste the URL into any web browser and click enter. A JSON document will then be downloaded. Review and check that the JSON document is accurate.\
-
+10. Paste the URL into any web browser and click enter. A JSON document will then be downloaded. Review and check that the JSON document is accurate.<br>
 
     <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 

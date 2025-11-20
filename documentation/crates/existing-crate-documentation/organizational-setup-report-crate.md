@@ -31,8 +31,7 @@ The first run of the report usually takes some time, with subsequent runs comple
 {% endhint %}
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platfor,.
-2.  Search for `View Org Setup Report`.\
-
+2.  Search for `View Org Setup Report`.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-23 at 3.59.12 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click the workflow to launch it in the Workflow Builder.

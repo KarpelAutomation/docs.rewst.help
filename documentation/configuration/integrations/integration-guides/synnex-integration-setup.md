@@ -13,29 +13,27 @@ Our TD Synnex Stellr integration enables automation of supply chain and business
 ### Set up steps in TD Synnex
 
 1. Log in to ECexpress with your reseller account information.&#x20;
-2.  Click the tile on the screen to access **StreamOne** Stellr.\
+2.  Click the tile on the screen to access **StreamOne** Stellr.<br>
 
-
-    ![](<../../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.00.24 PM.png>)
+    ![](<../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.00.24 PM.png>)
 3. Navigate to **Integration > Developer Resource**.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.01.43 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.01.43 PM.png>)
 4. Click **Go to Developer Portal.**
 5. Click your profile in the top-right corner.
 6. Navigate to **My Account > Client Credentials**.
 7. Choose whether you want to use the Sandbox or Production environment.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.11.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.11.05 PM.png" alt=""><figcaption></figcaption></figure>
 
-8. Copy the Client ID and Client Secret and store them somewhere secure. You'll need these for further set up steps in Rewst. \
-
+8. Copy the Client ID and Client Secret and store them somewhere secure. You'll need these for further set up steps in Rewst. <br>
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `TD Synnex Stellr` in the integrations page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.14.52 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-05 at 5.14.52 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**, enter the information copied from Synnex into the relevant fields:
    1. **Client ID**

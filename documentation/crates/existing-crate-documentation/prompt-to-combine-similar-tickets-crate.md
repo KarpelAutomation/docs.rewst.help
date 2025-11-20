@@ -38,8 +38,7 @@ You'll need to first successfully integrate [ConnectWise PSA](../../configuratio
    ![](<../../../.gitbook/assets/image (185).png>)
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate**.
-5.  This dialog allows you to choose the trigger variables-- merge, child, or merge and child, which is added by clicking both merge and child— via drop-down selector. Use the guidance given for each type at the top of this document to make your selection.\
-
+5.  This dialog allows you to choose the trigger variables-- merge, child, or merge and child, which is added by clicking both merge and child— via drop-down selector. Use the guidance given for each type at the top of this document to make your selection.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-08 at 9.21.48 AM.png" alt="Instructional interface displaying a message that when a new ticket is received, the system checks for similar ticket summaries and provides options to either ignore the duplicate or combine them. A dropdown menu labeled “merge and child” is expanded, showing selectable options “merge” and “child.” Below the instruction is a purple button labeled “Continue.” The background is dark, and the text is white with key terms highlighted in teal."><figcaption></figcaption></figure>
 6. Click **Continue**.

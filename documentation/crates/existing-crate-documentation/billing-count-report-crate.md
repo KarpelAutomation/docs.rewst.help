@@ -65,8 +65,7 @@ If choosing to deliver the report via PSA ticket, you'll also need to set up you
 
 ### Test the Crate
 
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.\
-
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.<br>
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `billing count` .

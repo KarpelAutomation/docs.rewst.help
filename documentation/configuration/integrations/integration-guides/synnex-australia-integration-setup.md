@@ -31,8 +31,7 @@ Our Synnex Australia integration enables the automation of supply chain and busi
 4. Under **Parameters**:
    1. Click on the arrow to expand your options and select your host name in the **Host Name** drop-down selector. The option you choose should match with your login type, for either production or staging.
    2.  Paste your copied key into the **Primary Key** field.\
-       \
-
+       <br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-22 at 9.55.21 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.

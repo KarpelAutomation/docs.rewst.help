@@ -49,8 +49,7 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-08-13 at 10.47.20 AM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Once further Rewst set up steps are completed, you'll be able to see Rewst as an integrated app in Pax8 by navigating to **Settings > Integrations > Apps** and searching for `Rewst` from the total app list.\
-
+Once further Rewst set up steps are completed, you'll be able to see Rewst as an integrated app in Pax8 by navigating to **Settings > Integrations > Apps** and searching for `Rewst` from the total app list.<br>
 
 <p align="center"><img src="../../../../.gitbook/assets/image (91).png" alt=""></p>
 {% endhint %}
@@ -69,16 +68,14 @@ Once further Rewst set up steps are completed, you'll be able to see Rewst as an
 8. Accept the authorization request. You'll know that the integration was successfully installed if you now see an option to **ReAuthorize**.
 9. Click **Save Configuration**.
 10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Test the Integration
 
 1.  After completing the setup, create a test workflow in Rewst that utilizes a Pax8 action, such as retrieving a list of licenses.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>An example of what your test workflow might look like</p></figcaption></figure>
 2. Run the workflow and verify that it successfully interacts with your Pax8 account, confirming that the integration is functioning correctly.

@@ -29,8 +29,7 @@ Before using this automation:
 
 ### Test the Crate
 
-To test this Crate, you'll need to adjust the [cron trigger](../../automations/intro-to-triggers/#core-cron-job)'s schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. The cron trigger for this Crate is set to trigger daily at 8:20 PM (UTC).\
-
+To test this Crate, you'll need to adjust the [cron trigger](../../automations/intro-to-triggers/#core-cron-job)'s schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. The cron trigger for this Crate is set to trigger daily at 8:20 PM (UTC).<br>
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document M365 Environment` .

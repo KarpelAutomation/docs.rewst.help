@@ -43,7 +43,6 @@ Explore what new changes the Cluck University team made in the last week.
 * [Microsoft Azure Tables Connection Crate](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/documentation/crates/existing-crate-documentation/microsoft-azure-tables-connection-crate)
 * [Deactivate ConnectWise PSA Contacts when their Company is Deactivated Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/deactivate-connectwise-psa-contacts-when-their-company-is-deactivated-crate)
 * [Updated guidance on field results in the Microsoft: User Onboarding Crate’s new user onboarding form](https://docs.rewst.help/documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/onboarding-form-inputs-and-workflow-process)
-* [Updated guidance on how and when to use subworkflows in Rewst](https://docs.rewst.help/documentation/automations/workflows#subworkflows)\
-
+* [Updated guidance on how and when to use subworkflows in Rewst](https://docs.rewst.help/documentation/automations/workflows#subworkflows)<br>
 
 </details>

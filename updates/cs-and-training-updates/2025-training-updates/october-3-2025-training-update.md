@@ -33,7 +33,6 @@ Explore what new changes the Cluck University team made in the last week.
 
 * [RoboRewsty user guide](https://docs.rewst.help/documentation/rewst-tools/roborewsty)
 * [Updated guidance for our Document Rewst Form URLs (IT Glue/Hudu) Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/document-rewst-form-urls-it-glue-hudu-crate)
-* [Updated guidance for setting up our Ingram Micro integration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/ingram-micro-integration-setup)\
-
+* [Updated guidance for setting up our Ingram Micro integration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/ingram-micro-integration-setup)<br>
 
 </details>

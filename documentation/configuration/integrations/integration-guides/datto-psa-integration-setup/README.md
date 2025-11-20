@@ -37,8 +37,7 @@ A new firewall is deployed, Rewst **creates a configuration item (CI) in Autotas
 5. Hover over <img src="../../../../../.gitbook/assets/Screenshot 2025-03-31 at 4.34.56 PM.png" alt="" data-size="line"> to the right of the API user. Click **Copy** in the dialog that appears. This will open a new tab in your browser.
 6. Enter a descriptive name which includes Rewst in the text in the **Name** field.
 7.  Scroll down and expand the **Other** accordion menu. Ensure that the **can create webhooks** box is checked on, and the **maximum number of webhooks** is set to `50`.\
-    \
-
+    <br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-31 at 4.40.22 PM.png" alt=""><figcaption></figcaption></figure>
 8. Click **Save**.

@@ -25,8 +25,7 @@ While the pre-built workflows in Crates are the quickest way to get started, a w
 ## Find and use workflows in Rewst
 
 Access workflows in the Rewst platform by navigating to **Automations > Workflows** in the left side menu. Create a new workflow from scratch by clicking **Create Workflow**.\
-\
-
+<br>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.37.00 PM (2).png" alt="A screenshot of a dashboard interface labeled &#x27;Workflows&#x27; showing a list of workflows with details including &#x27;Updated At&#x27;, &#x27;Updated By&#x27;, &#x27;Time Saved&#x27;, and options to configure each workflow. The left sidebar contains navigation options."><figcaption><p>The workflows list page, without any filters applied</p></figcaption></figure>
 
@@ -38,7 +37,7 @@ Once you create a workflow, you'll be taken to the [_workflow builder_](workflow
 
 ## Synced versus unsynced workflows
 
-Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../crates/#synced-versus-unsynced-crates).&#x20;
+Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
 
 ## View specific workflow results
 

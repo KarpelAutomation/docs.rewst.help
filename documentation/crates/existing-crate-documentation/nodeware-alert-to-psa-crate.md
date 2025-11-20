@@ -31,8 +31,7 @@ Contents of the ticket include:
 6. Ensure that both triggers have **Enabled** toggled on.
 7. Click **Unpack**.
 8. You'll now need to run the Crate form once at your top parent level organization to establish organization variables for your PSA and finish Crate set up. Navigate to **Automations > Forms**.
-9.  Search for **`[REWST] Nodeware: Set PSA Org Variables`** .\
-
+9.  Search for **`[REWST] Nodeware: Set PSA Org Variables`** .<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-13 at 1.41.20 PM.png" alt=""><figcaption></figcaption></figure>
 10. Click **⋮** **> Usages > View Direct URLs.**&#x20;

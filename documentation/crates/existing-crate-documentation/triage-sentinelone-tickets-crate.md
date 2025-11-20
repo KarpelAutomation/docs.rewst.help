@@ -28,8 +28,7 @@ Our Triage SentinelOne Tickets Crate streamlines the process of matching Sentine
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Click **Continue**.
-6.  Configure Trigger Criteria. Trigger criteria should trigger the workflow when `Entity.summary` starts with `SentinelOne` .\
-
+6.  Configure Trigger Criteria. Trigger criteria should trigger the workflow when `Entity.summary` starts with `SentinelOne` .<br>
 
     <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-05 at 22.37.01@2x.png" alt=""><figcaption></figcaption></figure>
 7. Click **Unpack**.

@@ -32,8 +32,7 @@ You'll need an active ConnectWise Developer account to access the above URL.
 
 1. Create a security role in ConnectWise PSA
    1. Navigate to **System > Security Roles**.
-   2.  Click **+** in the top left of your screen.\
-
+   2.  Click **+** in the top left of your screen.<br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 12.53.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
    3. Name the security Role `Rewst API`. &#x20;
@@ -44,8 +43,7 @@ You'll need an active ConnectWise Developer account to access the above URL.
    2. Note that you'll need to be signed in to ConnectWise PSA to view the documentation.&#x20;
 3. Create an API member.
    1. Navigate to **System > Members > API Members**.
-   2.  Click **+** to create a new API member.\
-
+   2.  Click **+** to create a new API member.<br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 1.32.24 PM.png" alt="" width="375"><figcaption></figcaption></figure>
    3. Enter a **Member ID** and **Member Name**. We suggest naming each of these `Rewst`.
@@ -97,18 +95,15 @@ Note that this form asks for information about your RMM / M365 settings as well.
 2. Click **Create Workflow**.
 3. Enter `CW Test Workflow` as the name for your workflow.
 4.  Click **Submit**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 2.20.05 PM.png" alt="" width="310"><figcaption></figcaption></figure>
 5.  Click to expand the ConnectWise PSA accordion menu and open the list of available actions.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 3.18.52 PM.png" alt="" width="175"><figcaption></figcaption></figure>
 6. **Scroll within the section to find the List Companies** action and drag it to your canvas.
-7.  Click **Test** in the top right corner of the screen.\
-
+7.  Click **Test** in the top right corner of the screen.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 3.21.27 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 8. You'll be prompted to select a trigger context organization.

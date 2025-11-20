@@ -19,8 +19,7 @@ The Configure Organizational Variables Crate is used to help you set the essenti
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
-6.  Enter your **Time Saved**.\
-
+6.  Enter your **Time Saved**.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-10 at 5.02.35 PM.png" alt=""><figcaption></figcaption></figure>
 7. Click **Unpack**.

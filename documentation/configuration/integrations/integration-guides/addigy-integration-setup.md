@@ -21,8 +21,7 @@ Our Addigy integration enables the automation of Apple device management and mon
 7. Click **Add**.
 8. Copy the v2 token value from the new token section of the V2 tab. Store it somewhere secure, as you'll need it for further steps in Rewst. Note that once you leave this page, you won't be able to see the token again.
 9.  Copy the **Parent Organization ID**. This will be displayed under the **Addigy API** submenu title.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-05 at 2.49.31 PM.png" alt=""><figcaption></figcaption></figure>
 10. Click the V1 tab of the **Addigy API** submenu.

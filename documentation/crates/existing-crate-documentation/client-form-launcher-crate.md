@@ -53,8 +53,7 @@ The automation kicks off via form submission:
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[[Rewst Master v3] PSA: Update Ticket – Actual`.\
-
+2.  Search for `[[Rewst Master v3] PSA: Update Ticket – Actual`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.&#x20;

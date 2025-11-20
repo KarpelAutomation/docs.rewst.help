@@ -28,8 +28,7 @@ To create a new ConnectWise Automate integration, you'll need to create a system
 2. Click **Settings** in the bottom left corner.
 3. Navigate to **User Management**.
 4. Click **Add** in the top left.
-5.  Set the **First Name**, **Last Name**, **Email**, **User Name**, and **Password**. \
-
+5.  Set the **First Name**, **Last Name**, **Email**, **User Name**, and **Password**. <br>
 
     <figure><img src="../../../../.gitbook/assets/2023-09-13_14-04-24.png" alt=""><figcaption><p>Our recommended setup information for the user</p></figcaption></figure>
 6. **Click** the **User Classes** tab.

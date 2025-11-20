@@ -11,15 +11,13 @@ Multi-instance integration enables you to designate one instance as the default,
 1. Navigate to the integration settings page for the integration that requires multiple configurations.
 2. Click the ![](<../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.11.03 AM.png>) drop-down in the top left of your screen.&#x20;
 3.  Click **Add Configuration**. A new configuration form will appear.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.09.48 AM.png" alt=""><figcaption></figcaption></figure>
 4. Enter descriptive title into the **Name** field of the **Add Configuration** dialog.&#x20;
 5. Click **Submit.** This will create a new Configuration form to fill out on the center of your screen, as well as a new option for this configuration under the ![](<../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.11.03 AM.png>) drop-down selector. In future, you'll click in this list to determine which configuration you'd like to view at any given time.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.13.08 AM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.13.08 AM.png>)<br>
 6. Fill out the configuration form with a second set of valid credentials.
 7. Click **Save Configuration**. An org variable options list will appear below the form, showing what configuration your organizations have been assigned to.
 

@@ -24,8 +24,7 @@ The [IT Glue integration](../../configuration/integrations/integration-guides/it
 ## Unpack the Relate ITG Contact with ITG Configuration Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
-2.  Search for `Relate ITG Contact with ITG Configuration`.\
-
+2.  Search for `Relate ITG Contact with ITG Configuration`.<br>
 
     ![](<../../../.gitbook/assets/image (233).png>)
 3. Click on the Crate tile to begin unpacking.
@@ -41,12 +40,10 @@ The [IT Glue integration](../../configuration/integrations/integration-guides/it
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for `[ROC] ITG: Associate Configuration with Contacts`.\
-
+2.  Search for `[ROC] ITG: Associate Configuration with Contacts`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
-3.  Click on the workflow to open it in the workflow builder.\
-
+3.  Click on the workflow to open it in the workflow builder.<br>
 
     <figure><img src="../../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own, and tickets will be created if expiring certs are found.

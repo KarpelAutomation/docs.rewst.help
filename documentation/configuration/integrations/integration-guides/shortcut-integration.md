@@ -25,18 +25,15 @@ Our Shortcut integration leverages Rewst’s workflow automation capabilities to
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the Shortcut integration.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.43.16 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.43.16 PM.png>)<br>
 3. Click on the integration tile to launch the configuration setup page.
 4. Paste the API token copied from Shortcut into the **API Token** field.
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
-
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. <br>
 
 ## Test the integration
 
-Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.\
-
+Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.<br>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

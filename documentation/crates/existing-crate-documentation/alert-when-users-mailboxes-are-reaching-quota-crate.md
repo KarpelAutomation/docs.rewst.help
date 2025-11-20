@@ -48,8 +48,7 @@ If you wish for a ticket to be generated in your PSA, your [PSA must be successf
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-16 at 1.02.35 PM.png" alt=""><figcaption></figcaption></figure>
 
-8.  Ensure that the cron job trigger is enabled. If desired, set integration overrides.\
-
+8.  Ensure that the cron job trigger is enabled. If desired, set integration overrides.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-16 at 1.04.57 PM.png" alt=""><figcaption></figcaption></figure>
 9. Click **Unpack**.
@@ -65,14 +64,12 @@ Set the [org variable](../../configuration/organization-variables.md) **`mail_qu
 To test if the Crate is working properly, you'll want to use the test function directly in the workflow for the Crate.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `Alert when Users' Mailboxes are Reaching Quota`.\
-
+2.  Search for `Alert when Users' Mailboxes are Reaching Quota`.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-16 at 3.34.41 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the workflow builder.&#x20;
 4. Click **Test** in the top right corner of the builder canvas.
-5.  Choose the organization you'd like to use to test the workflow.\
-
+5.  Choose the organization you'd like to use to test the workflow.<br>
 
     <figure><img src="../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 6. Click **Test**.

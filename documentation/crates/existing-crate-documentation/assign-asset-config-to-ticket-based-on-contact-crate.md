@@ -62,8 +62,7 @@ You'll also need to have successfully integrated one of the following RMMs with 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Assign Asset/Config to Ticket Based on Contact`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 2.47.12 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 2.47.12 PM.png>)<br>
 3. Click on the Crate tile to open its details page.
 4. Click **Unpack Crate**.
 5. Choose your relevant PSA from the drop-down selector list.

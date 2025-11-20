@@ -75,8 +75,7 @@ iex $commands
    ![](<../../../../.gitbook/assets/image (35) (1).png>)
 3. Click on the integration tile to launch setup.
 4.  Choose your Region from the **Region Instance** drop-down selector.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 5. Authorize OAuth into NinjaOne, via Microsoft. You should see your customer show up at the bottom. You may need to click **Refresh Options** for customers to populate.
@@ -108,8 +107,7 @@ Once you’ve [mapped your customers](https://docs.rewst.help/documentation/inte
    3. **Integration Overrides**: **NinjaRMM**
    4. **Enable** the trigger for all or some of your managed organizations, depending on your setup and preference
 6.  Click **Submit**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 7. Click **Test**, and select a company to run the action for. Test a handful of companies to ensure the integration is working.

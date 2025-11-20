@@ -45,8 +45,7 @@ Install and deploy the following before unpacking the Crate:
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `Agent Smith: Receive Check-In from Endpoint`.\
-
+2.  Search for `Agent Smith: Receive Check-In from Endpoint`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.&#x20;

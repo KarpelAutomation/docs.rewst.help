@@ -17,8 +17,7 @@ Note that **wait for webhook** cannot be set to `true` for this to work
 ## Add CORS headers to your web hook response
 
 1. Open your webhook trigger inside the workflow.
-2.  Open the response headers.\
-
+2.  Open the response headers.<br>
 
     <figure><img src="../../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
 3. Add the following headers:

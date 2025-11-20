@@ -85,8 +85,7 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 On Saturday, July 19th, the Rewst engineering team will be performing regional critical PostgreSQL upgrades and infrastructure enhancements. The Rewst platform—including the user interface, API access, and all workflow execution—may be intermittently unavailable during the maintenance window. While the duration may be as little as 15 minutes, there is potential for it to last as much as two hours. Our team will work to minimize service disruption in each region. We recommend rescheduling any critical automations during those periods. Please check your region's maintenance time window in the list below. While we'll try to minimize disruptions, we do recommend rescheduling any critical automations during that period.
 
-The maintenance is scheduled across multiple regions during off-hours as follows:\
-
+The maintenance is scheduled across multiple regions during off-hours as follows:<br>
 
 * US Instance:
   * Date: Saturday, July 19, 2025 10:00 PM – Sunday, July 20, 2025 12:00 AM EDT
@@ -220,7 +219,7 @@ These new crates come with the latest features and enhancements to make your use
 * User Offboarding Crate
 
 While these crates will still function, they will not receive any additional feature enhancements. We recommend migrating to the new crates listed above to take advantage of the latest updates.\
-For crate migration assistance, please reference the [migrating-between-crate-versions.md](../documentation/crates/migrating-between-crate-versions.md "mention") and [crate-deprecation-faq.md](../documentation/crates/crate-deprecation-faq.md "mention").
+For crate migration assistance, please reference the [migrating-between-crate-versions.md](../documentation/crates/migrating-between-crate-versions.md "mention") and [crate-deprecation-faq.md](../prebuilt-automations/crates/crate-deprecation-faq.md "mention").
 
 If you have any urgent concerns, please contact your support team.
 

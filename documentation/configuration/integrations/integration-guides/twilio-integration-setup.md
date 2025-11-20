@@ -16,8 +16,7 @@ When you first sign up with Twilio, you have one main account. However, you can 
 
 1. Log in to your [Twilio Console](https://console.twilio.com/).
 2.  Navigate to **Admin > Account management > Keys & Credentials > API keys & tokens**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-13 at 4.06.55 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **Create API Key**.

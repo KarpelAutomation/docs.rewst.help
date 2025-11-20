@@ -26,8 +26,7 @@ Explore what new changes the Cluck University team made in the last week.
 * [Sync AzureAD Account Information with ConnectWise PSA Contacts (V3) Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate)
 * [Add Devices to Autopilot via Form Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/add-devices-to-autopilot-via-form-crate)
 * [Updated guidance for our Microsoft: User Onboarding Crate to include new functionality for OpenText SecureCloud](https://docs.rewst.help/~/revisions/eJSUvwAK7UGBchP7Uu3Q/documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2)
-* [Updated guidance on presenting at our Open Mic](https://docs.rewst.help/updates/roc-open-mics/sign-up-to-present-at-any-open-mic)\
-
+* [Updated guidance on presenting at our Open Mic](https://docs.rewst.help/updates/roc-open-mics/sign-up-to-present-at-any-open-mic)<br>
 
 </details>
 

@@ -27,8 +27,7 @@ Before unpacking this Crate, you must first:
 6. By default, both triggers should be toggled on. Note that under the **Configure Triggers** and **Cron Job** accordion menus, you have the option to activate for all current and future managed organizations, or for specific organizations chosen from the **Activate for organizations** drop-down selector. You may also activate for organizations with specific tags.&#x20;
 7. Click **Unpack**.
 8. Navigate to **Automations > Forms**.
-9.  Search for `[REWST] Cork Compliance Setup Form`.\
-
+9.  Search for `[REWST] Cork Compliance Setup Form`.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-09 at 11.46.48 AM.png" alt=""><figcaption></figcaption></figure>
 10. Click **⋮**, then **Usages**.

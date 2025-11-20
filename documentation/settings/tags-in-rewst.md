@@ -12,8 +12,7 @@ The below directions will walk you through how to use tags for workflows, as an 
 
 1. Navigate to **Automations** > **Workflows** in Rewst.
 2. Click the three dots to the right of your relevant workflow.
-3.  Select **Edit Tags**.\
-
+3.  Select **Edit Tags**.<br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-01-06 at 5.12.34 PM.png" alt=""><figcaption></figcaption></figure>
 4. Open the **Tags** drop down in the **Edit Workflow Attributes** dialog to choose an existing tag from the list. Alternatively, begin typing in the drop down field and select the box to **Create tag**. This action will also add that new tag to your drop-down list for all future tag selections.

@@ -45,8 +45,7 @@ Our Traceless integration empowers MSPs and businesses with enhanced data securi
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `Traceless` integration.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.40.21 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-03-26 at 5.40.21 PM.png>)<br>
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters**:
    1. Paste your UUID into the **Organization UUID** field.

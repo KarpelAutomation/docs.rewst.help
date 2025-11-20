@@ -58,8 +58,7 @@ Take note of the following guidelines:
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `Liongard - MFA Remediation`.\
-
+2.  Search for `Liongard - MFA Remediation`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.

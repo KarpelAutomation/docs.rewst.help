@@ -46,12 +46,10 @@ Our Alert on Expiring App Reg Certificates Crate identifies any expiring certifi
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for `Alert on Expiring App Certs [Part 1]`.\
-
+2.  Search for `Alert on Expiring App Certs [Part 1]`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption><p>The workflow, in a search result</p></figcaption></figure>
-3.  Click on the workflow to open it in the workflow builder.\
-
+3.  Click on the workflow to open it in the workflow builder.<br>
 
     <figure><img src="../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own, and tickets will be created if expiring certs are found.

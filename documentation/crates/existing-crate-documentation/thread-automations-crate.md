@@ -30,8 +30,7 @@ Note that the individual setting up the integration must be an admin in Thread.
    * **Intent Name**: `Rewst - Onboarding` \
      ![](<../../../.gitbook/assets/Screenshot 2025-06-09 at 1.33.24 PM.png>)
    *   **Describe the intent**: `An intent to assist in building new intents within the Magic Agent service catalog by gathering necessary information, including crafting effective prompts for arguments. Think logically about the user’s intent and craft questions to fill in more about the issue or request, like features IT might need. The goal is to ask the right questions to gather accurate information so a Tier 2 IT Service Tech will have all they need to resolve the issue. Keep questions succinct, minimal, logically ordered, and ensure logical consistency.` \
-       \
-
+       <br>
 
        <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.08.53 AM.png" alt=""><figcaption></figcaption></figure>
    * **Visibility filters**: Choose the **Specific clients** option to select your internal or test companies, or modify to specific client types as needed. If you would rather, choose **All clients**.&#x20;
@@ -62,36 +61,31 @@ Note that the individual setting up the integration must be an admin in Thread.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your time saved.
-7.  Click to expand the **Webhook** accordion menu. Ensure that **Enabled** is toggled on.\
-
+7.  Click to expand the **Webhook** accordion menu. Ensure that **Enabled** is toggled on.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-29 at 11.42.58 AM.png" alt=""><figcaption></figcaption></figure>
 8. Choose which organizations this Crate should be applied to in the Activate for Organizations drop-down selector, if desired.
 9. Click **Unpack**.
 10. Navigate to **Configuration > Organization Variables**.
-11. Create an [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) with the name `rewst_thread_webhook_secret` . Change the category of the organization variable to **Secret**.  Enter a secure password into the **Value** field. Copy this password value somewhere secure. You'll need it for later set up steps in both Rewst and Thread.\
-
+11. Create an [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) with the name `rewst_thread_webhook_secret` . Change the category of the organization variable to **Secret**.  Enter a secure password into the **Value** field. Copy this password value somewhere secure. You'll need it for later set up steps in both Rewst and Thread.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 11.05.39 AM.png" alt=""><figcaption></figcaption></figure>
 12. Navigate to **Automations > Workflows**.&#x20;
 13. Search for `[Rewst - Crate] Thread Automations`.
 14. Click on the workflow to enter the workflow builder view.
 15. Click ![](<../../../.gitbook/assets/image (196).png>) to open the trigger.
-16. Click **View Webhook URLs** under **Trigger Configuration**.\
-
+16. Click **View Webhook URLs** under **Trigger Configuration**.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.42.00 AM.png" alt=""><figcaption></figcaption></figure>
 17. Copy the URL. You'll need this URL for further set up steps in Thread.
-18. Find the **Secret Key** drop-down selector under that **Trigger Parameters** submenu. Set the organization variable you created earlier. \
-
+18. Find the **Secret Key** drop-down selector under that **Trigger Parameters** submenu. Set the organization variable you created earlier. <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 11.22.13 AM.png" alt=""><figcaption></figcaption></figure>
 19. Click **Submit**.
 
 ### Additional setup steps in Thread
 
-1.  Enter the webhook URL copied from Rewst into the **API URL field** of the **Automation (Optional)** submenu.\
-
+1.  Enter the webhook URL copied from Rewst into the **API URL field** of the **Automation (Optional)** submenu.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.44.07 AM.png" alt=""><figcaption></figcaption></figure>
 2. Enter the secret password copied from Rewst into the **Headers (Optional) Value of the header** field. Enter `x-rewst-secret` into the **Key of the header** field.

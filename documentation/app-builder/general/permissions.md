@@ -12,8 +12,7 @@ Setting permissions ensures that only the right people have access to your apps 
 
 1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
 2. Locate the app you want to edit permissions for in your app list.
-3.  Click **⋮ > Permissions** next to the app. \
-
+3.  Click **⋮ > Permissions** next to the app. <br>
 
     <div align="left"><figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 5.20.42 PM.png" alt="" width="137"><figcaption></figcaption></figure></div>
 4. Use the drop-down selectors to choose the roles and organizations that should have access to your live app.\

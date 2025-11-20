@@ -44,8 +44,7 @@ The Microsoft Exchange integration must first be successfully installed. This is
 3. Click **⋮ > View Direct URLs**.
 4. Click on the URL to launch the form in a new tab. If you've chosen to unpack this Crate for multiple organizations, be sure to choose the URL for the correct organization.
 
-![](<../../../.gitbook/assets/Screenshot 2025-08-14 at 4.10.23 PM.png>)\
-
+![](<../../../.gitbook/assets/Screenshot 2025-08-14 at 4.10.23 PM.png>)<br>
 
 
 

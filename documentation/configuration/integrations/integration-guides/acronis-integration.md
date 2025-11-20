@@ -48,8 +48,7 @@ Our Acronis integration enables automation of data protection services. Use the 
 ### Setup steps in Acronis
 
 1. Log in to the Acronis Cyber Protect Cloud portal.
-2.  Navigate to **Settings > API clients > Create API client**.\
-
+2.  Navigate to **Settings > API clients > Create API client**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-03 at 9.56.11 AM.png" alt=""><figcaption></figcaption></figure>
 3. Enter a name for the API client. Choose something that will let you know this relates to Rewst.
@@ -68,8 +67,7 @@ Our Acronis integration enables automation of data protection services. Use the 
    2. Enter the client secret copied from Acronis into the **Client Secret** field.
    3. Choose your region from the **Region** drop-down selector.
    4.  Optionally choose to filter your tenants in the **Tenants - Filter by Kind** field.\
-       \
-
+       <br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-03 at 10.04.30 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration.**

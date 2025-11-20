@@ -50,8 +50,7 @@ Contact Ingram Micro Integration Support at usxvantageintegrations@ingrammicro.c
 1. Navigate to **Automation > Workflows** in Rewst.
 2. Create a new workflow and name it with something short and descriptive, such as `Test Ingram Integration`.
 3.  Add the action **List Customers** to the workflow builder canvas, by dragging it from the left pane.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
 4. If the workflow succeeds and you see customers listed in the results, then you’re all set. If it fails, review the setup instructions and make sure customers are mapped in the integration in Rewst.

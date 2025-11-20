@@ -27,8 +27,7 @@ The Add Client to Rewst Crate lets you easily use a form to add a new child orga
 2.  Search for `Add Client to Rewst`.
 
     \
-    ![](<../../../.gitbook/assets/image (95).png>)\
-
+    ![](<../../../.gitbook/assets/image (95).png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

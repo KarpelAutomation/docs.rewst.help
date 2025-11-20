@@ -89,8 +89,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
    ![](<../../../.gitbook/assets/image (167).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
-5.  Click **Continue**.\
-
+5.  Click **Continue**.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-22 at 3.52.52 PM.png" alt=""><figcaption><p>The Crate's configuration page</p></figcaption></figure>
 6. Enter your time estimate into the **Time Saved (seconds)** field.
@@ -103,8 +102,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2. Search for `[ROC] M365: CSP/CPV Permission Checker`. Click on the workflow to open it in the Workflow Builder.&#x20;
 3. Within the **\[ROC] M365: CSP/CPV Permission Checker** main workflow, click `Test`.
 4. Select the tenant you want to check permissions for from the **Trigger Context Organization** dropdown menu. This list is derived from the organizations enabled in your trigger configuration.
-5.  Enter the domain associated with the managing organization's tenant in the **Primary Domain of the MSP** field. \
-
+5.  Enter the domain associated with the managing organization's tenant in the **Primary Domain of the MSP** field. <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-24 at 9.08.54 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Test**.

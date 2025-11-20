@@ -32,8 +32,7 @@ The Crate starts by listing all devices in the RMM. Each device then undergoes a
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Enter your **Time Saved (seconds)**.
-7.  Expand the **New Computer** accordion menu under **Configure Triggers** if you are using this Crate in conjunction with your integrated RMM. Toggle **Enabled** to on.\
-
+7.  Expand the **New Computer** accordion menu under **Configure Triggers** if you are using this Crate in conjunction with your integrated RMM. Toggle **Enabled** to on.<br>
 
     <figure><img src="../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 8. Click **Unpack**.

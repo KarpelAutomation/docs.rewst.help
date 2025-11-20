@@ -138,8 +138,7 @@ To deploy the PowerShell Interpreter, you'll need these roles for your service a
 
 
 
-1.  Navigate to **Tools > Interpreters** in the left side menu of your Rewst platform.\
-
+1.  Navigate to **Tools > Interpreters** in the left side menu of your Rewst platform.<br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-04-08 at 3.16.26 PM.png" alt=""><figcaption></figcaption></figure>
 2. Click **PowerShell** to expand the accordion menu. The two drop-down fields within the menu will populate with options pulled from your Azure instance, to line up with your subscriptions.
@@ -301,16 +300,13 @@ Confirm that you have deployed the PowerShell Interpreter before attempting the 
 
 1. Navigate to your Azure Resource Group.
 2.  Locate and open the **Function App**.\
-    \
-
+    <br>
 
     <figure><img src="../../.gitbook/assets/image (58) (3).png" alt=""><figcaption></figcaption></figure>
-3.  Click to **Overview** > **RewstWebHook**.\
-
+3.  Click to **Overview** > **RewstWebHook**.<br>
 
     <figure><img src="../../.gitbook/assets/image (62) (5).png" alt=""><figcaption></figcaption></figure>
-4.  Copy all the code and save it to notepad. Note the url where the run.ps1 file is. It should be in `function_app/RewstWebhook/run.ps1`.\
-
+4.  Copy all the code and save it to notepad. Note the url where the run.ps1 file is. It should be in `function_app/RewstWebhook/run.ps1`.<br>
 
     <figure><img src="../../.gitbook/assets/image (63) (3).png" alt=""><figcaption></figcaption></figure>
 5. Note the URL for the script: `rewst-powershell-{GUID}/RewstWebhook/run.ps1`
@@ -320,8 +316,7 @@ Confirm that you have deployed the PowerShell Interpreter before attempting the 
 
 1. Navigate to **Settings > Environment Variables**.
 2. Click **Advanced Edit**.
-3. Change the value of `WEBSITE_RUN_FROM_PACKAGE` from `1` to `0`:\
-
+3. Change the value of `WEBSITE_RUN_FROM_PACKAGE` from `1` to `0`:<br>
 
 ```javascript
 

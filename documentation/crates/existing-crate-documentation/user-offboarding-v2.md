@@ -6,7 +6,7 @@ noIndex: true
 # User Offboarding V2 Crate
 
 {% hint style="warning" %}
-This Crate is [deprecated](../crate-deprecation-faq.md). Documentation remains for legacy users. For new users, search for and set up the Microsoft: User Offboarding Crate in our Crate Marketplace instead.
+This Crate is [deprecated](../../../prebuilt-automations/crates/crate-deprecation-faq.md). Documentation remains for legacy users. For new users, search for and set up the Microsoft: User Offboarding Crate in our Crate Marketplace instead.
 {% endhint %}
 
 {% hint style="info" %}
@@ -98,8 +98,7 @@ For more on organizational variables, see our introductory documentation [here](
 
 1. Navigate to **Automations > Forms**.
 2. Search for `user offboarding` to find the form unpacked from the Crate.
-3.  Click the **⋮** next to the form.\
-
+3.  Click the **⋮** next to the form.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-12 at 3.35.42 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click **Usages**, then **View direct URLs**.

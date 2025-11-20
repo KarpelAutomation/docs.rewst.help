@@ -34,8 +34,7 @@ The Crate runs on a cron trigger, and will execute the workflow at the same time
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Remove Disabled Users from GAL`.
 3. Click on the workflow to view it in the workflow builder.
-4.  Click ![](<../../../.gitbook/assets/image (203).png>) to open the edit trigger menu.\
-
+4.  Click ![](<../../../.gitbook/assets/image (203).png>) to open the edit trigger menu.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-25 at 5.53.42 PM.png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.

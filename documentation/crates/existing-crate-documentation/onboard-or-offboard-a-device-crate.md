@@ -26,8 +26,7 @@ Your [ImmyBot integration](../../configuration/integrations/integration-guides/i
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Onboard or Offboard a Device`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-17 at 11.41.37 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-17 at 11.41.37 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

@@ -21,8 +21,7 @@ Using the form in this Crate will provision a Microsoft Azure Table storage acco
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Microsoft Azure Tables Connection`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.14.31 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.14.31 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.&#x20;

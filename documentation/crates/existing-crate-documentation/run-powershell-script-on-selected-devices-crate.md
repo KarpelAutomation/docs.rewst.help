@@ -25,8 +25,7 @@ Before unpacking this Crate, you'll need to successfully integrate both your [PS
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Run PowerShell Script on Selected Devices`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 9.32.25 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 9.32.25 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.

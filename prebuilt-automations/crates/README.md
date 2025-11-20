@@ -44,8 +44,7 @@ Each Crate has its own Crate tile in Crate Marketplace. The number on the bottom
   * Crate category
   * Rewst Recommendation
   * Integration
-* Click <img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.03.34 AM.png" alt="" data-size="line"> to access a shortcut to Rewst's documentation site section for Crates.\
-
+* Click <img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.03.34 AM.png" alt="" data-size="line"> to access a shortcut to Rewst's documentation site section for Crates.<br>
 
 Click on the Crate tile for your desired Crate to open up its **Crate Details** page, which breaks down the purpose, features, and setup requirements of the Crate.  Note that there are two tabs to this page: **Overview**, and **What's Being Unpacked**.
 

@@ -26,11 +26,9 @@ RoboRewsty does not replace the existing note feature in the workflow builder. Y
 
 1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.06 PM (1).png" alt="" data-size="line"> in the top toolbar of the workflow builder to start a note for the entire workflow. To add notes on specific elements, drag around an area on the canvas while holding down **ctrl + left click** , or **right click** and select **Add Note** within the workflow builder.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 12.17.52 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 12.17.52 PM.png>)<br>
 2. Click **Generate Auto-Documentation** to generate documentation for the entire workflow.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.58.00 AM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.58.00 AM.png>)<br>
 3. A waiting message will display while it runs on your workflow. This may take a moment, if your request holds a large number of tasks.\
    ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.58.15 AM.png>)
 4. View the notes generated in your **Notes** menu. Sections will include:

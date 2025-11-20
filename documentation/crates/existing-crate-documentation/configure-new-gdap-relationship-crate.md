@@ -51,8 +51,7 @@ During the workflow automation, each role must have an associated group. These g
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Enter your desired prefix into the field.&#x20;
-6.  Click **Continue**.\
-
+6.  Click **Continue**.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-10 at 4.11.46 PM.png" alt=""><figcaption></figcaption></figure>
 7. Ensure that both the **Form Submission** and **Webhook** trigger configuration accordion menus have their triggers toggled on to **Enabled**.

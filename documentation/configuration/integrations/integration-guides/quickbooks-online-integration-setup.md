@@ -18,8 +18,7 @@ Our QuickBooks Online integration automates financial and operational, workflows
 4. Click **+** to add a new app.
 5. Enter `Rewst` in the **Tell us about your app** field.
 6. Click **Next**.
-7.  Check the box for **com.intuit.quickbooks.accounting** under **Authorization scope**.\
-
+7.  Check the box for **com.intuit.quickbooks.accounting** under **Authorization scope**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.19.43 PM.png" alt=""><figcaption></figcaption></figure>
 8. Click **Done**.
@@ -27,14 +26,12 @@ Our QuickBooks Online integration automates financial and operational, workflows
    1. If you wish to add the app to Intuit's Production environment rather than Development, you'll need to complete this additional step.
    2. Click ⋮to open the app.
    3. Click the slider to toggle **Production**.
-   4.  &#x20;Fill out all required information in the accordion menus. The required questions may differ from the image below depending on your previous use of Production with Intuit.\
-
+   4.  &#x20;Fill out all required information in the accordion menus. The required questions may differ from the image below depending on your previous use of Production with Intuit.<br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-05 at 1.54.01 PM.png" alt=""><figcaption></figcaption></figure>
    5. If prompted to fill out a questionnaire under **App Information**, check the last option under question 1. This will shorten the required information needed. Other selections under this question will lead to longer, more involved additional questions.\
       ![](<../../../../.gitbook/assets/image (76) (1).png>)
-   6. Click **Show credentials**.\
-
+   6. Click **Show credentials**.<br>
 10. Copy your Client ID and Client Secret. Store them somewhere secure. You’ll need these for further set up steps in Rewst.\
     \
     ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.20.37 PM.png>)
@@ -52,8 +49,7 @@ https://engine.rewst.io/integrations/quickbooks_online/callback/0199111d-57e9-71
 1. Navigate to Configuration > Integrations in the left side menu of your Rewst platform.
 2. Search for `QuickBooks` in the integrations page.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-11-05 at 1.59.51 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-11-05 at 1.59.51 PM.png>)<br>
 3. Click on the integration tile to launch the configuration setup page.
 4. Under **Parameters:**
    1. Choose your hostname from the drop-down selector - set as `quickbooks.api.intuit.com` for production or `sandbox-quickbooks.api.intuit.com` for development

@@ -27,8 +27,7 @@ You must first add the [organization variables](../../configuration/organization
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Google: User Onboarding`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-27 at 1.14.48 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-08-27 at 1.14.48 PM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Enter your estimated time saved.

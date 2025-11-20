@@ -33,8 +33,7 @@ Use the Crate to have a centralized page that includes all rewst forms unpacked 
 5. Click ![](<../../../.gitbook/assets/image (202).png>) to open the workflow's trigger settings.
 6. Click **View Webhook URLs**.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-06-25 at 3.26.06 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-06-25 at 3.26.06 PM.png>)<br>
 7. Copy the URL and paste it into a new browser tab or window.
 8. View the report. Rewst will run the workflow every time you open or refresh the link.
 

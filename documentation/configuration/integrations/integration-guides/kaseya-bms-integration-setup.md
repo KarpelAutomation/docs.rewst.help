@@ -34,20 +34,17 @@ Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to creat
 1. Log in to Kaseya BMS with an administrative account.
 2. Navigate to **Admin > HR > Employees**.
 3.  Click +**New**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
-4. Create your new user with an easily identifiable name. Set the user type to **Employee**. Use the **Administrator** security role to ensure that the API has the necessary permissions for Rewst to integrate seamlessly. Note that you must use a valid email address to set up this account. That email will be used for further setup steps later in the process.\
-
+4. Create your new user with an easily identifiable name. Set the user type to **Employee**. Use the **Administrator** security role to ensure that the API has the necessary permissions for Rewst to integrate seamlessly. Note that you must use a valid email address to set up this account. That email will be used for further setup steps later in the process.<br>
 
 <figure><img src="../../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Log out of your current Kaseya sessions. Log in as the newly created user.
 6. Navigate to **My Profile**. As this is your first time logging in, Kaseya should display this page at login.
 7.  Click **Enable MFA**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 8. Click **Show secret key for manual configuration** in the dialog that appears. Copy and save this code, which you’ll need to finish setup in Rewst.\
@@ -77,8 +74,7 @@ Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to creat
     \
     ![](<../../../../.gitbook/assets/image (61) (1).png>)
 5.  Click **Save Configuration**. You should see the following confirmation message display if your setup has completed properly.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (62) (1).png" alt=""><figcaption></figcaption></figure>
 6. This step will vary depending on if you have set up your customers in Rewst.
@@ -95,14 +91,12 @@ Successful organization importing via the Bulk Create Client from PSA Crate is a
 1. Navigate to **Automations > Workflows**.
 2. Click **Create**.
 3.  Name your workflow `Kaseya BMS Test`, and click **Submit**. Note that this workflow is just to test the integration, and can be deleted after the test is complete.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (57) (1).png" alt=""><figcaption></figcaption></figure>
 4. Search for `Kaseya BMS` in the actions menu of your workflow builder.
 5.  Drag and drop the **List accounts** action on to the workflow builder canvas.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/image (58) (1).png" alt=""><figcaption></figcaption></figure>
 6. Click **Test** in the top right corner of the workflow builder. If all is working after the test, the task's highlight will turn green.

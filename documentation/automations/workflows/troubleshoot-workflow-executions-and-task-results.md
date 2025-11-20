@@ -23,13 +23,11 @@ To learn the fundamentals of troubleshooting in Rewst, sign up for our course in
 The inputs and context sections tell the story of what data your workflow received and what the workflow did with that data. Learning to scan these two areas quickly is one of the most important skills in Rewst troubleshooting.
 
 *   The **Inputs** section shows the raw data that entered into the workflow, usually via form, webhook, or parent workflow.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 *   The **Context** section shows variables created or passed between tasks. [Context variables](broken-reference) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 * Common issues which lead to failed workflow tasks include typos, casing mismatches, missing values, or broken Jinja.

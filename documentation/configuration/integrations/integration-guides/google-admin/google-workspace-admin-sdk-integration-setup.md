@@ -84,8 +84,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 2. Click **Accessed Apps > View List**.
 3. Search for `Rewst`.
 4. Select **Trusted** under **Status**.
-5.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**\
-
+5.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**<br>
 
     <figure><img src="../../../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
@@ -108,8 +107,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 2. Select **APIs and Services** from the left side menu.
 3. Search for `Google Drive API.`
 4.  Click **Enable**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
@@ -119,8 +117,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 2. Select **APIs and Services** from the left side menu.
 3. Search for `Gmail API.`
 4.  Click **Enable**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
@@ -129,8 +126,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 1. Select your Project from the drop-down selector.
 2. Select **APIs and Services** from the left side menu.
 3. Search for `Google Drive API.`
-4.  Click **Enable**.\
-
+4.  Click **Enable**.<br>
 
     <figure><img src="../../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 

@@ -43,24 +43,24 @@ Click **⋮** to the right of the app in the **Actions** column to expand the **
 [app-builder-pages.md](app-builder-pages.md)
 {% endcontent-ref %}
 
-{% content-ref url="domains.md" %}
-[domains.md](domains.md)
+{% content-ref url="general/domains.md" %}
+[domains.md](general/domains.md)
 {% endcontent-ref %}
 
-{% content-ref url="permissions.md" %}
-[permissions.md](permissions.md)
+{% content-ref url="general/permissions.md" %}
+[permissions.md](general/permissions.md)
 {% endcontent-ref %}
 
-{% content-ref url="authentication.md" %}
-[authentication.md](authentication.md)
+{% content-ref url="general/authentication.md" %}
+[authentication.md](general/authentication.md)
 {% endcontent-ref %}
 
 {% content-ref url="components.md" %}
 [components.md](components.md)
 {% endcontent-ref %}
 
-{% content-ref url="themes.md" %}
-[themes.md](themes.md)
+{% content-ref url="general/themes.md" %}
+[themes.md](general/themes.md)
 {% endcontent-ref %}
 
 {% content-ref url="prebuilt-apps/" %}

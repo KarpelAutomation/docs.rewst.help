@@ -26,8 +26,7 @@ The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
-6.  Change the **Workflow name**, if desired.\
-
+6.  Change the **Workflow name**, if desired.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-24 at 2.54.27 PM.png" alt=""><figcaption></figcaption></figure>
 7. Click **Unpack**.
@@ -36,8 +35,7 @@ The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides
 10. Click into the workflow.
 11. Click ![](<../../../.gitbook/assets/image (205).png>) to view trigger details.
 12. Set the trigger to **Enabled**.
-13. Set the **Cron Schedule** as desired.\
-
+13. Set the **Cron Schedule** as desired.<br>
 
     <figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
 14. Click **Submit**.

@@ -23,8 +23,7 @@ Enables automation of cloud backups and disaster recovery. Use the Dropsuite API
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Dropsuite` in the integrations page.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-07-21 at 3.20.03 PM.png>)\
-
+   ![](<../../../../.gitbook/assets/Screenshot 2025-07-21 at 3.20.03 PM.png>)<br>
 3. Click on the integration tile to launch the configuration setup page.
 4. Under Parameters, enter the information copied from Dropsuite into its relevant fields:
    1. **Authentication Token**

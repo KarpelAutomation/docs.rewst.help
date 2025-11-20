@@ -69,12 +69,10 @@ Your PSA must be successfully integrated with Rewst. PSAs that work with this Cr
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[REWST - PROC] Alert on Users Without MFA Enforced`.\
-
+2.  Search for `[REWST - PROC] Alert on Users Without MFA Enforced`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
-3.  Click on the workflow to view it in the Workflow Builder.\
-
+3.  Click on the workflow to view it in the Workflow Builder.<br>
 
     <figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your PSA's portal to ensure that the workflow is creating tickets, and able to move new devices to their correct location as expected.
@@ -86,8 +84,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows**.
 2. Search for  `[REWST - PROC] Alert on Users Without MFA Enforced`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.\
-
+4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.<br>
 
     <figure><img src="../../../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.

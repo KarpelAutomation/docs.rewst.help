@@ -49,8 +49,7 @@ The [organization variable](../../configuration/organization-variables.md#what-i
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Use OpenAI to Suggest Responses to New Tickets`**.**\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 3.33.46 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 3.33.46 PM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Enter `OpenAI:` into the configuration field.
 5. Click **Continue**.

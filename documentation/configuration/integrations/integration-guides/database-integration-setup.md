@@ -10,8 +10,7 @@ Our integration works with [versions of MSSQL that are actively supported by Mic
 When enabling SQL Database integration and not using[ BYOD](byod-for-dattormm.md), the following [completion handlers](../../../automations/workflows/completion-handlers-and-workflow-wrappers.md) will still be automatically enabled, and will need to be disabled manually:
 
 * BOYD: Insert Data Into Database
-* BYOD: Upsert Cache DB Data Listener\
-
+* BYOD: Upsert Cache DB Data Listener<br>
 {% endhint %}
 
 ## Set up the integration
@@ -25,8 +24,7 @@ Once you've set up the database and have the necessary credentials, follow the b
 3. Click on the integration tile to launch the configuration page.
 4. Under **Parameters**, click <img src="../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.35.44 AM.png" alt="" data-size="line"> to add a new database.
 5.  Complete the fields with your database information.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.36.24 AM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Save Configuration**.

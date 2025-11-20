@@ -44,21 +44,17 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2. Search for `Microsoft: User Offboarding`.
 3. Click into the workflow.
 4.  Click ![](<../../../.gitbook/assets/image (196).png>) to navigate to the trigger.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (61) (3).png" alt=""><figcaption></figcaption></figure>
 5. Click **View Direct URLs.**
-6.  Select the company you'd like to use to test the workflow. Copy the URL and paste it into a new window.\
-
+6.  Select the company you'd like to use to test the workflow. Copy the URL and paste it into a new window.<br>
 
     <figure><img src="../../../.gitbook/assets/image (62) (4).png" alt=""><figcaption></figcaption></figure>
-7.  Fill out the form as appropriate for the company and user you are offboarding. Make sure to click **Submit** at the end of the form.\
-
+7.  Fill out the form as appropriate for the company and user you are offboarding. Make sure to click **Submit** at the end of the form.<br>
 
     <figure><img src="../../../.gitbook/assets/image (63) (2).png" alt=""><figcaption></figcaption></figure>
-8.  Once the form is submitted, the workflow will begin to run. To view the results, click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> in the workflow editor page.\
-
+8.  Once the form is submitted, the workflow will begin to run. To view the results, click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> in the workflow editor page.<br>
 
     <figure><img src="../../../.gitbook/assets/image (65) (2).png" alt=""><figcaption></figcaption></figure>
 9. Click into the results to see the execution results with successes and failures, if there are any.

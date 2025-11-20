@@ -38,8 +38,7 @@ Before configuring the Rewst integration you must generate an API user. Here is 
 1. Log in to HaloPSA as an Administrator.
 2. Navigate to **Configuration > Teams & Agents > Agents .**
 3.  Click **+New**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.40.25 AM.png" alt=""><figcaption></figcaption></figure>
 4. Create an agent for Rewst to use. We suggest naming this user `Rewst API` or similar.
@@ -49,20 +48,17 @@ Before configuring the Rewst integration you must generate an API user. Here is 
    See [Halo Authorization Docs](https://halo.haloservicedesk.com/apidoc/authorisation) here.
 8. Select **View Applications**.
 9.  Click **+New**.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.43.40 AM.png" alt=""><figcaption></figcaption></figure>
 10. Name the application `Rewst` .
 11. Choose the authentication method for **Client ID and Secret (Services)**. Note that when you do this, new drop-down selectors will appear beneath the menu.
-12. Ensure that **Agent to log in as** is set to **Rewst API**.\
-
+12. Ensure that **Agent to log in as** is set to **Rewst API**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-18 at 4.28.27 PM.png" alt=""><figcaption></figcaption></figure>
 13. Click the **Permissions** tab.
 14. Check the **all** checkbox on.\
-    \
-
+    <br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 10.45.18 AM.png" alt=""><figcaption></figcaption></figure>
 15. Click **Save**.
@@ -72,8 +68,7 @@ Before configuring the Rewst integration you must generate an API user. Here is 
 1. Navigate to **Configuration > Teams & Agents > Agents**
 2. Click on the user you set up for your Rewst integration.
 3. Click the **Departments & Teams** tab.
-4.  Click **Edit** on the top left. Within **Teams**, select **Add**.\
-
+4.  Click **Edit** on the top left. Within **Teams**, select **Add**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-11 at 12.57.22 PM.png" alt=""><figcaption></figcaption></figure>
 5. Add all teams from the **Team** drop-down selector.\

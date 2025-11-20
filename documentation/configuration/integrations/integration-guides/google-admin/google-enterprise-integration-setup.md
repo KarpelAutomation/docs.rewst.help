@@ -22,21 +22,18 @@ In your Google Cloud console:
 
 1. Choose the GCP project you want to update from the project drop-down menu at the top of the page.
 2. Locate and click on **APIs and services** in the **Quick access** menu, then select **Library**.
-3.  Find the **Enterprise License Manager** via the search bar within the API Librar&#x79;**.** Select it from the results.\
-
+3.  Find the **Enterprise License Manager** via the search bar within the API Librar&#x79;**.** Select it from the results.<br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-14 at 3.50.27 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click **Manage**.
-5.  Verify that the API is enabled for your project on the **API/Service details** page. You should see a blue button to **Disable API** if it is enabled. If not, click the **Enable** button.\
-
+5.  Verify that the API is enabled for your project on the **API/Service details** page. You should see a blue button to **Disable API** if it is enabled. If not, click the **Enable** button.<br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-14 at 3.54.25 PM.png" alt=""><figcaption></figcaption></figure>
 6. Return to the **APIs and Services** menu. Select **OAuth consent screen.**
 7. Ensure that the correct user type for your application is selected: **Internal** or **External**.
 8. Click **EDIT APP**. Review and update the necessary information about your application, including the **App name**, **User support email**, and optionally an **App logo**. Click **SAVE AND CONTINUE**.
 9. You should automatically be navigated to step **2,** in the **Scopes** tab of that same screen. Click **ADD OR REMOVE SCOPES** to open the **Update selected scopes** dialog. Ensure that the specific scopes that your application requires access to are selected.
-10. Search for **Enterprise License Manager** in the search box, and select all related scopes.\
-
+10. Search for **Enterprise License Manager** in the search box, and select all related scopes.<br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-14 at 4.00.36 PM (1).png" alt=""><figcaption></figcaption></figure>
 11. Click **UPDATE** once you've reviewed the necessary scopes.

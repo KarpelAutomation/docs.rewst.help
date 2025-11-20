@@ -20,8 +20,7 @@ The SuperOps integration automates core MSP tasks, from customer-facing to inter
 
 1. Log in to your SuperOps application.
 2. Navigate to **Settings > Your Profile > API token**.&#x20;
-3.  Click **Generate Token.**\
-
+3.  Click **Generate Token.**<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-26 at 3.02.29 PM.png" alt=""><figcaption></figcaption></figure>
 4. Copy the token. Save this for later use.
@@ -68,8 +67,7 @@ iex $commands
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for `SuperOps`. \
    \
-   ![](../../../../.gitbook/assets/superops.png)\
-
+   ![](../../../../.gitbook/assets/superops.png)<br>
 3. Click on the integration tile to launch the **Configuration** setup page.
 4. Under **Parameters**:
    1. Paste the API key copied from SuperOps into the **API Key** field of the configuration form.

@@ -36,8 +36,7 @@ Your [RMM must be integrated](../../configuration/integrations/top-5-integration
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
 2. Search for `Alert on Low Disk Space`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-11-17 at 4.35.43 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-11-17 at 4.35.43 PM.png>)<br>
 3. Click **Unpack Crate**.
 4. Click **Continue.**
 5. Expand the **Cron Job** accordion menu under **Configure Triggers.**

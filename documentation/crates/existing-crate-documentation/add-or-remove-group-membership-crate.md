@@ -53,8 +53,7 @@ This form has a variety of fields and drop-down selectors that will appear depen
 
 1. Navigate to **Automations > Forms**.
 2. Search for `[Rewst Master v2] Groups - Add or Remove Membership`.
-3.  Click **⋮ > Usages > View Direct URLs**.\
-
+3.  Click **⋮ > Usages > View Direct URLs**.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-25 at 4.53.47 PM.png" alt=""><figcaption></figcaption></figure>
 4. Copy the URL and paste it into a new tab or browser window.

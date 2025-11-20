@@ -353,8 +353,7 @@ Follow the steps below for your relevant browser to use only the region you need
 * Go to `Settings > Time & language > Language & region > Regional format`
 * Choose the same region: Australia, United States, or United Kingdom.
 
-\
-
+<br>
 
 </details>
 
@@ -375,8 +374,7 @@ Then, confirm your browser's locale:
 | United States  | `"en-US"`          | `10/9/2025, 1:30:00 PM` | MM/DD/YYYY                |
 | United Kingdom | `"en-GB"`          | `09/10/2025, 13:30:00`  | DD/MM/YYYY, 24-hour clock |
 
-\
-
+<br>
 
 ### Workflow inputs
 

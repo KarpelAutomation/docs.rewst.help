@@ -37,14 +37,12 @@ Note that only the Rewst [Admin role](../../documentation/settings/roles.md#admi
 3. Toggle the setting on to **enable write access to the Rewst Support team.**
    1. If your access is disabled, the toggle will be off and grayed out.
    2.  This will reveal the new subtoggle **Set an expiration on write access**. Under the subtoggle, you have the option to grant temporary write access to Rewst support.\
-       \
-
+       <br>
 
        <figure><img src="../../.gitbook/assets/Screenshot 2025-01-30 at 4.10.41 PM.png" alt=""><figcaption><p>Note the different options under the subtoggle</p></figcaption></figure>
 4. Choose from the preset durations, or set a **Custom** duration via the **Date** **and Time** fields.
    1. Once your duration has been set or changed, a green confirmation dialog will appear at the top of your screen.\
-      ![](<../../.gitbook/assets/Screenshot 2025-01-30 at 4.12.01 PM.png>)\
-
+      ![](<../../.gitbook/assets/Screenshot 2025-01-30 at 4.12.01 PM.png>)<br>
    2. Remaining time in the access duration is displayed in the bottom left corner of the left side menu. Rewst support can also see this countdown from their side of the Rewst platform. If the duration times out before your support issue is handled, you’ll need to grant write access to your Rewst support member again.\
       ![](<../../.gitbook/assets/Screenshot 2025-01-30 at 4.15.37 PM.png>)
 

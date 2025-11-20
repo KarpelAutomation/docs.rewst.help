@@ -48,8 +48,7 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 ### Test the Crate
 
 1. Navigate to **Automations > Forms** in the Rewst platform.
-2.  Search for `Remove Emails and Block Sender`.\
-
+2.  Search for `Remove Emails and Block Sender`.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 4.39.48 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **⋮** to the right of your searched form. Select **Usages**.

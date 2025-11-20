@@ -26,8 +26,7 @@ If you are using this property for another purpose, you will need to update the 
 2. Click **Security** in the left side menu.
 3. Click **Show User Table** under the **Internal** submen&#x75;**.**
 4. Click **Create User**.
-5.  **Fill out** the required data.\
-
+5.  **Fill out** the required data.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-03 at 4.30.25 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 6. Ensure that you check on the following minimum permissions:\

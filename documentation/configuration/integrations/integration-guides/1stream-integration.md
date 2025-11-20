@@ -17,8 +17,7 @@ This integration enables the automation of VoIP phone systems and communications
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-08-27 at 1.45.39 PM.png>)
 3. Scroll down and locate the Client API Keys submenu.
-4.  Click **+** to add a new key.\
-
+4.  Click **+** to add a new key.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-08-27 at 1.46.21 PM.png" alt=""><figcaption></figcaption></figure>
 5. Enter R`ewst Integration` into the **Reference Name** field in the **Add New Client Access API Key** dialog that appears.&#x20;

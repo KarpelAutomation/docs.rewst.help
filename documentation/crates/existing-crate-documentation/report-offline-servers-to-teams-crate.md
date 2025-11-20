@@ -81,8 +81,7 @@ To obtain the FQDN, sign in to your organization's ConnectWise Automate account.
 
     ![](<../../../.gitbook/assets/image (305).png>)
 3. Click on the Crate tile to begin unpacking.
-4.  Click **Unpack Crate**.\
-
+4.  Click **Unpack Crate**.<br>
 
     <figure><img src="../../../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>
 5. Enter your copied Microsoft Teams webhook URL in the first field of the configuration screen. The webhook URL allows the workflow to send notifications directly to your Microsoft Teams channel. The workflow will use this URL to send formatted messages to your Teams channel when servers are detected as offline.
@@ -121,7 +120,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.

@@ -24,8 +24,7 @@ Before you begin, decide which options need to be displayed based on the user’
 2. Click  <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (2).png" alt="" data-size="line">in the top menu bar of your workflow's workflow builder canvas.&#x20;
 3. Click the **Workflow Type** drop-down selector.&#x20;
 4.  Select **Option Generator**.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-24 at 5.07.54 PM.png" alt=""><figcaption></figcaption></figure>
 5. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 11.22.42 AM.png>) next to **Output Configuration** to create an output variable. Name the variable `options`. Every option generator workflow must have an [output variable](data-input-and-output-input-variables-and-context-variables.md#workflow-output) called `options`, which will contain the context variable that holds the data that you want to display.
@@ -40,8 +39,7 @@ See the documentation for how to use our form builder to achieve this step [here
 
 ### How the form and workflow come together to generate options
 
-1.  When the workflow runs, it should result in a context variable `{{ CTX.options }}` that contains a list of items with key-value pairs that will be referenced in the form editor.\
-
+1.  When the workflow runs, it should result in a context variable `{{ CTX.options }}` that contains a list of items with key-value pairs that will be referenced in the form editor.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 2.39.11 PM.png" alt=""><figcaption><p>An example of an options generator workflow for one of our unpacked Crates</p></figcaption></figure>
 2. The values here will be used in the **Label Field** an **Value Field** for a form fiel&#x64;_._

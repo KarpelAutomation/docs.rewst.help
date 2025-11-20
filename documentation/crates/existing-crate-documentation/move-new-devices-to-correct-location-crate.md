@@ -47,12 +47,10 @@ The [ConnectWise Automate](../../configuration/integrations/integration-guides/c
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[ROC] RMM-Automate: Move Computers From New Location to Matching Clients`.\
-
+2.  Search for `[ROC] RMM-Automate: Move Computers From New Location to Matching Clients`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
-3.  Click on the workflow to view it in the Workflow Builder.\
-
+3.  Click on the workflow to view it in the Workflow Builder.<br>
 
     <figure><img src="../../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to several minutes from your current time. The workflow will run on its own.&#x20;

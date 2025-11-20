@@ -27,8 +27,7 @@ You must first add the [organization variables](../../configuration/organization
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Google: User Offboarding`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-08-27 at 1.14.41 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-08-27 at 1.14.41 PM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Enter your estimated time saved.
@@ -56,8 +55,7 @@ The form unpacked with this Crate offers a section for advanced settings. They s
    2. Select a Nodeware asset to decommission from the drop-down selector.
 9. Optional - check on **Enable Advanced Options** if desired, to expose the following additional advanced fields for the user:\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-18 at 5.07.45 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-18 at 5.07.45 PM.png>)<br>
    1. **Delay User Offboarding -** Check this box to expose additional fields to allow a specific **Account Creation Date** and **Timezone**
    2. **Mailbox Access -** Check this box to expose an additional field to add users who will have access to the offboarded employee's mailbox&#x20;
    3. **Forward Mail -** Check this box to expose an additional field to add a user who will be forwarded all of the offboarded user's emails, with the prerequisite that this user must click the link sent to them in a Google email within 1 hour of its arrival

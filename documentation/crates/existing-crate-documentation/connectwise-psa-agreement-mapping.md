@@ -33,8 +33,7 @@ A form unpacked from this Crate is used to maintain mappings between environment
 {% endhint %}
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for **Map Organization Users to Manage Agreement**. Click on the workflow.\
-
+2.  Search for **Map Organization Users to Manage Agreement**. Click on the workflow.<br>
 
     <figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 3. Click the trigger drop-down and select **Form Trigger.**\

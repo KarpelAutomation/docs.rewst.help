@@ -30,8 +30,7 @@ The [OpenText Core Endpoint Protection](../../configuration/integrations/integra
 6. &#x20;Enable both  triggers by toggling the File Detection  and Form Setup trigger **Enabled** toggles on.
 7. Click **Unpack**.
 8. You'll now need to run the Crate form once at your top parent level organization to establish organization variables for your PSA and finish Crate set up. Navigate to **Automations > Forms**.
-9.  Search for `[OpenText] Set File Detection Org Vars` .\
-
+9.  Search for `[OpenText] Set File Detection Org Vars` .<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-13 at 12.18.27 PM.png" alt=""><figcaption></figcaption></figure>
 10. Click **⋮** **> Usages > View Direct URLs.**&#x20;

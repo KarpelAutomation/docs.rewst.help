@@ -24,17 +24,14 @@ The [ITGlue integration ](../../configuration/integrations/integration-guides/it
 ## Unpack the Document Rewst Org Variables Crate Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
-2.  Search for `Document Rewst Org Variables`.\
+2.  Search for `Document Rewst Org Variables`.<br>
 
-
-    ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 12.04.54 PM.png>)\
-
+    ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 12.04.54 PM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Note the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. This is defaulted to on for the Crate. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
-7. Click **Unpack**.\
-
+7. Click **Unpack**.<br>
 
 ### Use the Crate
 

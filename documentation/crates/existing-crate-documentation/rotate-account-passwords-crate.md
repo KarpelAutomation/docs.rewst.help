@@ -77,8 +77,7 @@ To run the workflow on a schedule, you'll need to add the list of users in the o
 2. Search for `[Rewst - PROCESS] PSA: Update Ticket with New User Onboard Links.`
 3. Click the workflow to view it in the workflow builder.
 4. Click ![](<../../../.gitbook/assets/image (197).png>) to edit the trigger.&#x20;
-5.  Update your workflow run frequency as desired in the **Cron Schedule** field. \
-
+5.  Update your workflow run frequency as desired in the **Cron Schedule** field. <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-18 at 2.17.49 PM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Submit**.

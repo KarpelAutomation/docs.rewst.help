@@ -43,8 +43,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 2. Search for `[ROC] Endpoint: Add Devices to Autopilot`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization, which contains the user you wish to manage. This will launch the form in a new tab.
-5.  Select the preferred option between **Import via CSV** and **Manual Entry**.\
-
+5.  Select the preferred option between **Import via CSV** and **Manual Entry**.<br>
 
     <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,8 +62,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[Rewst Master v2] BYOD: Retrieve Data from Database`.\
-
+2.  Search for `[Rewst Master v2] BYOD: Retrieve Data from Database`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.&#x20;

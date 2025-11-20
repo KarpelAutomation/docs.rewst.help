@@ -25,20 +25,17 @@ When adding a new data alias, you'll need the following:
 
 If you set an alias such as `my_task_result -> {{ RESULT }}`, later tasks can refer to this data using `{{ CTX.my_task_result }}`.
 
-You can also use a data alias to extract specific information and manipulate data. Expanding on our example from above, take the input from the Microsoft Graph get user action and extract the user's name and user principal name for ease of use.\
-
+You can also use a data alias to extract specific information and manipulate data. Expanding on our example from above, take the input from the Microsoft Graph get user action and extract the user's name and user principal name for ease of use.<br>
 
 1. Drag the **Get User** action onto the workflow builder canvas.
 2. Add your user into the **User ID** field.
-3.  Set your context variable name under **Publish Result As.** The workflow action results will be stored as the value.\
-
+3.  Set your context variable name under **Publish Result As.** The workflow action results will be stored as the value.<br>
 
     <figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 4.  Add your data alias name. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>)to open the Jinja editor and set up your data alias.
 
     <figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
-5.  Use the following Jinja to create a new dictionary object and set the `displayName` and `userPrincipalName` keys.\
-
+5.  Use the following Jinja to create a new dictionary object and set the `displayName` and `userPrincipalName` keys.<br>
 
     ```
     {{
@@ -72,8 +69,7 @@ Data aliases are added via transitions. See more about how to use [transitions i
 1. Navigate to **Automations > Workflows**.
 2. Search for your desired workflow.&#x20;
 3.  Click **>** to the far right of that workflow to open its workflow builder canvas. \
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-06 at 4.39.51 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.42.21 PM (1).png" alt="" data-size="line"> to open the **Data Aliases** menu. This will display a complete list of all data aliases for that workflow.

@@ -27,8 +27,7 @@ This Crate allows you to bulk add or update organization variables using a CSV f
     * `name`: The name of the organization
     * `org_id`: The unique identifier for the organization
     * `org_variable_1`: The name of the variable
-    * `org_variable_2`: The data or value for the variable\
-
+    * `org_variable_2`: The data or value for the variable<br>
 
     #### Example Column Headers
 
@@ -45,8 +44,7 @@ This Crate allows you to bulk add or update organization variables using a CSV f
     "testorg2","bbbbbg-hijk-aaa12-855d-3dccca1917aa","testvar2","55"
     ```
 2. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
-3.  Search for the form named CSV Mass Org Variable Upload.\
-
+3.  Search for the form named CSV Mass Org Variable Upload.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-28 at 1.18.53 PM.png" alt=""><figcaption></figcaption></figure>
 4. Click **⋮**, then **Usages**. &#x20;

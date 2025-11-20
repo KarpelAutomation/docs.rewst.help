@@ -5,8 +5,7 @@ icon: book-open
 # Glossary of terms
 
 {% hint style="info" %}
-This page is a work in progress! Check back for more terms as they're added. \
-
+This page is a work in progress! Check back for more terms as they're added. <br>
 
 Our glossary is organized alphabetically, with each tab containing 2-3 letters. Click through the tabs to find your term that starts with the corresponding letter. We include terms specific to Rewst, as well as some industry and programming terms for general reference when reading through our other documentation and training.
 {% endhint %}

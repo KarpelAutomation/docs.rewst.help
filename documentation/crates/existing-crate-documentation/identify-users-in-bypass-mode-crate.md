@@ -29,12 +29,10 @@ Our [Duo](../../configuration/integrations/integration-guides/duo-integration-se
 
 1. Navigate to **Automations > Workflows**.
 2. Search **Duo:** **Identify Users In Bypass Mode**.
-3.  Click into the workflow.\
-
+3.  Click into the workflow.<br>
 
     <figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
-4.  The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking ![](<../../../.gitbook/assets/image (200).png>). You also have the option to set an email send to notify you if the workflow fails.\
-
+4.  The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking ![](<../../../.gitbook/assets/image (200).png>). You also have the option to set an email send to notify you if the workflow fails.<br>
 
     <figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 

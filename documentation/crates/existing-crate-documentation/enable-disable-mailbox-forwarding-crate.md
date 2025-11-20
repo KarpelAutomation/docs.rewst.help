@@ -24,8 +24,7 @@ This Crate allows for straightforward enablement or disablement of mailbox forwa
 1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Enable / Disable Mailbox Forwarding`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-09-23 at 3.42.35 PM.png>)\
-
+   ![](<../../../.gitbook/assets/Screenshot 2025-09-23 at 3.42.35 PM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Continue**.
 5. Click **Unpack**.

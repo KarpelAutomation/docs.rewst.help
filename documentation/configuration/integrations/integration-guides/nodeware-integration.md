@@ -23,17 +23,14 @@ Our Nodeware integration enhances automation capabilities in network vulnerabili
 2. In the Integrations page, search for the Nodeware integration.\
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-18 at 2.43.57 PM.png>)
 3. Paste the API key copied from Nodeware into the **API Key** field of the form.
-4.  Click **Save Configuration**.\
-
+4.  Click **Save Configuration**.<br>
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-18 at 3.12.49 PM.png" alt=""><figcaption></figcaption></figure>
-5. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
-
+5. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. <br>
 
 ## Test the Integration
 
-Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.\
-
+Saving your configuration during integration setup automatically triggers a test API call to verify that your setup is correct. If something is wrong with your credentials and the integration fails, you'll receive an error message in the Rewst platform.<br>
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-20 at 8.34.57 AM.png" alt=""><figcaption><p>The error message, shown when the Nodeware integration configuration fails</p></figcaption></figure>
 
