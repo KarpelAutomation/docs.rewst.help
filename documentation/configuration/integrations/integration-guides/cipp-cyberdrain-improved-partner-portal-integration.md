@@ -8,11 +8,11 @@ Our CIPP (CyberDrain Improved Partner Portal) integration enables automation of 
 
 ### Set up steps in CIPP
 
-1. Log in to [https://victorious-wave-018c6d30f.5.azurestaticapps.net/](https://victorious-wave-018c6d30f.5.azurestaticapps.net/).
+1. Log in to your CIPP Portal.
 2. Navigate through the sidebar and click **CIPP**.
 3. Click **Integrations** under CIPP.
 4. You should be able to see the **API URL** and **Tenant ID**.
-5. Click **Actions**, and then create a new client.  Ensure that the new client is enabled.
+5. Click **Actions**, and then create a new client. Select the **Admin** Role.  Ensure that the new client is enabled.
 6. After creating the client, the client secret will be generated. The **Client ID** should be visible next to the app name of the new API client you have just added.
 7. Copy the following information and store it someplace secure.  You'll need it for further setup steps in Rewst.
    * **CIPP API URL** - The URL of your CIPP instance
