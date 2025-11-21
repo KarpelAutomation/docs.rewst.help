@@ -674,7 +674,7 @@ During the setup, do not click the select all permissions option. Just click nex
 
 <details>
 
-<summary>Issue - Delegated admin consent creation failed - Forbidden</summary>
+<summary>Issue - Delegated admin consent creation failed - Forbidden - GDAP relationship configuration needed</summary>
 
 
 

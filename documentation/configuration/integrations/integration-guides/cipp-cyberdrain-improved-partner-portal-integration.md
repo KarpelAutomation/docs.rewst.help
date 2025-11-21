@@ -47,9 +47,6 @@ For more on how actions work in Rewst, check out our [introductory actions docum
 
 | Category        | Action                     | Description                                                                                                              |
 | --------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| GDAP            | Create GDAP Invite         | Creates a new GDAP invite.                                                                                               |
-| GDAP            | List GDAP Roles            | Retrieves a list of existing GDAP role templates.                                                                        |
-| GDAP            | List GDAP Role Templates   | Retrieves a list of existing GDAP role templates.                                                                        |
 | Generic Request | CIPP API Request           | Generic action for making authenticated requests against the CIPP API                                                    |
 | Security        | Send MFA Push              | Sends an MFA push notification to a user                                                                                 |
 | Security        | List Application Queue     | Retrieves a list of applications in the consent queue to keep tabs on application consent requests from users            |
