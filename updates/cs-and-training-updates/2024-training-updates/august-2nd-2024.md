@@ -8,7 +8,7 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Alex (With a PERFECT score), Lexi, Mike, and Shane
-  * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.  As well as access to a super secret Discord channel.
+  * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.  As well as access to a super secret Discord channel.
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 * Join us during [Office Hours](https://calendly.com/cluck-u/office-hours), and if there is something you want us to cover, Let us know!
   * List Comprehension?
@@ -36,10 +36,10 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [july-29th-2022-how-do-you-know-that-the-person-on-the-phone-is-who-they-say.md](../../roc-open-mics/roc-open-mics-north-america/2022-roc-open-mics/july-29th-2022-how-do-you-know-that-the-person-on-the-phone-is-who-they-say.md "mention") page has been added
-* [Broken link](broken-reference "mention") section added
-* [Broken link](broken-reference "mention") page added
-* [Broken link](broken-reference "mention") section added
-* [Broken link](broken-reference "mention") section added
+* [Broken link](/broken/pages/mFomiFbJZiEcOu9uAom8 "mention") section added
+* [Broken link](/broken/pages/IQeiUh7LKkvZX1vSLQ2j "mention") page added
+* [Broken link](/broken/pages/FKLPd2AoG1reyUn2Fqou "mention") section added
+* [Broken link](/broken/pages/2WSBbEYhG4eOX29gshtD "mention") section added
 
 </details>
 

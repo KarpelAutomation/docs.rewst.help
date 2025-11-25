@@ -31,6 +31,6 @@ Either option will require you to collect information from the form by completin
 
     1. If troubleshooting the issue yourself, find the errors in the workflow execution and correct them.&#x20;
     2. If creating a ticket for Rewst support, copy the URL of your browser while viewing this information, and paste it into your support ticket.&#x20;
+    3. You can also ask [RoboRewsty](../../rewst-tools/roborewsty.md) to help you troubleshoot your execution results.
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-18 at 1.08.36 PM.png" alt=""><figcaption><p>Click on ... under errors to expand error information</p></figcaption></figure>
-

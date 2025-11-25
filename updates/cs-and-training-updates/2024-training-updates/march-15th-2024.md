@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Hayden, Jordan, Eugene, Chris, Brett, Dan, and Tahla for successfully taking our [Broken link](broken-reference "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Hayden, Jordan, Eugene, Chris, Brett, Dan, and Tahla for successfully taking our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * We have unified the docs format for our 100 series, making it more searchable, and beefed up our resources section for each page.
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
@@ -30,12 +30,12 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [march-8th-2024-live-from-right-of-boom-its-the-roc-open-mic.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/march-8th-2024-live-from-right-of-boom-its-the-roc-open-mic.md "mention") page added
-* [Broken link](broken-reference "mention") page added
-* [Broken link](broken-reference "mention") steps updated for accuracy
+* [Broken link](/broken/pages/IjDdHyQpvv5eUAQFuqIC "mention") page added
+* [Broken link](/broken/pages/nvCHsrCq289RTSGgaoPH "mention") steps updated for accuracy
 * [data-input-and-output-input-variables-and-context-variables.md](../../../documentation/automations/workflows/data-input-and-output-input-variables-and-context-variables.md "mention") page updated for clarity and searchability&#x20;
 * [twilio-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/twilio-integration-setup.md "mention") page updated to include full steps
 * [jinja-essentials.md](../../../documentation/jinja/jinja-essentials.md "mention") page added with expanded examples from 103
-* [Broken link](broken-reference "mention") page added with more detail from 104 and 105
+* [Broken link](/broken/pages/rXA8aLNfgfCT5Zme2oVN "mention") page added with more detail from 104 and 105
 
 </details>
 

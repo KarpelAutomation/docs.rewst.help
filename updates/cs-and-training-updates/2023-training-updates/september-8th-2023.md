@@ -21,9 +21,9 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* Added new [Electives](broken-reference) section under Cluck University - New content to come!
-* Added an [Extending the Power Of Rewst Workflows Page](broken-reference) with content talking about Completion Handlers
-* Chow Time: Added Updated [Rewst 104 video](broken-reference) made by our very own Legend - Eddie Chow
+* Added new [Electives](/broken/pages/WrobueMLZMbqrVjnX46i) section under Cluck University - New content to come!
+* Added an [Extending the Power Of Rewst Workflows Page](/broken/pages/pXgazLBd5AqEQkGu1EqX) with content talking about Completion Handlers
+* Chow Time: Added Updated [Rewst 104 video](/broken/pages/4uYpOkrY08VfrUFNvsNc) made by our very own Legend - Eddie Chow
 
 **Documentation**
 

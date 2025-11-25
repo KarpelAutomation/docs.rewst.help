@@ -21,7 +21,7 @@ The _end user portal_ is built around self-service automation, letting you manag
 
 ### **Crate prerequisites for end user portal setup:**
 
-* [User Onboarding](broken-reference) Crate
+* [User Onboarding](/broken/pages/KavoTPXKO8uBrA9YYMTW) Crate
 * [User Offboarding](../../crates/existing-crate-documentation/user-offboarding-v2.md) V2 Crate
 * [Reset Locked Accounts](https://app.rewst.io/marketplace/crates/7cd396a6-89e5-4d7a-b57d-70a97c71fa22) Crate
 * [Change A User's Password](../../crates/existing-crate-documentation/change-a-users-password-crate.md) Crate

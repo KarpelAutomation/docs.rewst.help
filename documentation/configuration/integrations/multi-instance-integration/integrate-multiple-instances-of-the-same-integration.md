@@ -2,11 +2,11 @@
 
 MSPs may encounter a situation where they need to set up multiple instances of the same integration, when that integration doesn’t support [multi-instance integration setup](https://docs.rewst.help/documentation/integrations/multi-instance-integration/multi-instance-integration-setup). These integrations include the following - note that all Microsoft integrations are now part of our [Microsoft Cloud bundle](../integration-guides/microsoft-cloud-integration-bundle/):
 
-* [Microsoft Azure ](broken-reference)
-* [Microsoft CSP ](broken-reference)
+* [Microsoft Azure ](/broken/pages/UDOdWSuuBsuMiN2wC5fZ)
+* [Microsoft CSP ](/broken/pages/Mu3fh9hJ6CAhFGdbJuSR)
 * [ImmyBot ](../integration-guides/immybot-integration-setup.md)
-* [Microsoft Exchange Online](broken-reference)&#x20;
-* [Microsoft Graph ](broken-reference)
+* [Microsoft Exchange Online](/broken/pages/bzvZDVk84hT5P6q3eC2G)&#x20;
+* [Microsoft Graph ](/broken/pages/iSwzpoaheqqHpL8sY40U)
 * N-Able - the deprecated version of the integration is only still used by a few longer-term Rewst customers.
 
 This is most often experienced with the Microsoft CSP integration, via one of the following scenarios. For the purposes of documentation, the example in this page will use the Microsoft CSP integration.

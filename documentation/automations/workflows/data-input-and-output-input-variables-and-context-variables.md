@@ -43,7 +43,7 @@ Input variables get their values in a Rewst workflow through the workflow's init
 
 ### Workflow action inputs
 
-When variables are created within the workflow, they become [Context Variables](broken-reference), and can be used directly in action inputs.
+When variables are created within the workflow, they become [Context Variables](/broken/pages/aMUGuyVYvi7p26HwKud2#context-variables), and can be used directly in action inputs.
 
 {% hint style="info" %}
 Recall from your Cluck University training that _the context_ is where all data generated, captured, or used in a workflow is stored.
@@ -85,7 +85,7 @@ Despite the data being static at this point, the process is the same regardless 
 
 Similarly to the above, you can configure an output of a workflow. These are generally used in two situations:
 
-1. In an [Options Generator](broken-reference) workflow, the output is what is passed through to the form. For example, if you have a workflow that lists users in a variable called `{{ CTX.users }}` - you would configure an output variable of options mapped to this variable, as per the below image. This then, in the form, would list the users in a dropdown field. This is how dynamic data works in form - more about that in [types of workflows](option-generator-workflows.md).
+1. In an [Options Generator](/broken/pages/vUoY3Vit66pld2Wzwx1j) workflow, the output is what is passed through to the form. For example, if you have a workflow that lists users in a variable called `{{ CTX.users }}` - you would configure an output variable of options mapped to this variable, as per the below image. This then, in the form, would list the users in a dropdown field. This is how dynamic data works in form - more about that in [types of workflows](option-generator-workflows.md).
 
 <figure><img src="../../../.gitbook/assets/output-configuration-example.png" alt=""><figcaption></figcaption></figure>
 
@@ -103,7 +103,7 @@ First, take the action of **List Users** from the Microsoft Graph integration in
 
 If you ran this action as-is, you would get the list of users, but wouldn't be able to use that data anywhere.
 
-This is where [Transitions](broken-reference) come into play.
+This is where [Transitions](/broken/pages/aMUGuyVYvi7p26HwKud2#transitions) come into play.
 
 Click the **On Success** transition on the action. This gives you the option to create a [data alias](data-aliases.md).
 

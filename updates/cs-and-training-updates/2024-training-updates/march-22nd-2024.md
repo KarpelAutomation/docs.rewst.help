@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Ian, Denis, Kyle, Joel, Ethan, and Beth for successfully taking our [Broken link](broken-reference "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Ian, Denis, Kyle, Joel, Ethan, and Beth for successfully taking our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * We will be canceling the Open Mic next week due to Good Friday
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
@@ -28,8 +28,8 @@ Explore what new changes the Training team has made in the last week.
 
 * [march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md "mention") page added
 * [jinja-essentials.md](../../../documentation/jinja/jinja-essentials.md "mention") page updated with Crate callout
-* [Broken link](broken-reference "mention") added link to Microsoft documentation
-* [Broken link](broken-reference "mention") page updated with Scripts and Template sections
+* [Broken link](/broken/pages/rXA8aLNfgfCT5Zme2oVN "mention") added link to Microsoft documentation
+* [Broken link](/broken/pages/aMUGuyVYvi7p26HwKud2 "mention") page updated with Scripts and Template sections
 * [..](../../../ "mention") page design update
 
 </details>

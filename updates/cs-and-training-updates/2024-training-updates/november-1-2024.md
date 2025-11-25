@@ -8,10 +8,10 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Robert, Koen, James, and Daniel for passing the Foundations Certification.
-    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
     * You also get access to a super secret Discord channel.
   * Garrick, Justin, Chris, and Hayley for passing the Clean Automation Certification.
-    * Take the new [Broken link](broken-reference "mention")exam!
+    * Take the new [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention")exam!
 * Rewst Foundations Bootcamp:
   * Sign up: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
     * [https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1)
@@ -30,7 +30,7 @@ Explore what new changes the Training team has made in the last week.
 **What's New at Cluck University?**
 
 * Courses have been updated on docs.rewst.help! New structure and sets of pages to create a better learning experience.
-  * Check it out at [Broken link](broken-reference "mention")
+  * Check it out at [Broken link](/broken/pages/8PjyXOTLAzdmsN7SPslq "mention")
   * New naming convention adopted for our courses
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.
 
@@ -44,6 +44,6 @@ Explore what new changes the Training team has made in the last week.
 * Updated Pages
   * [owned-app-registration.md](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/owned-app-registration.md "mention") page updated to refine CSP instructions
   * [roles.md](../../../documentation/settings/roles.md "mention") now includes more information about the Admin and Member roles
-  * [Broken link](broken-reference "mention") page updated
+  * [Broken link](/broken/pages/HQyNvJSbwEPsoqAafxBw "mention") page updated
 
 </details>

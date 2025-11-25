@@ -22,16 +22,16 @@ Explore what new changes the Training team has made in the last week.
 **Cluck University**
 
 * Minor fixes to steps in Cluck U exercise steps based on feedback.
-* Updated the [Hello World](broken-reference) exercise steps for clarity.
+* Updated the [Hello World](/broken/pages/1Rs8mDHbXcYLMufdoVS8) exercise steps for clarity.
 
 **Documentation**
 
 * [Open Mic - September 22nd Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/september-22-2023-efficient-onboarding-custom-integrations-and-sql-magic.md)
-* Shoutouts to Kevin Grube and Kelvin for contributing to the docs this week! For those who missed it, we're building out the ability to contribute to our docs, [starting with updates and fixes](broken-reference).&#x20;
+* Shoutouts to Kevin Grube and Kelvin for contributing to the docs this week! For those who missed it, we're building out the ability to contribute to our docs, [starting with updates and fixes](/broken/pages/rt4L2QoFl4iTej3751Fv).&#x20;
 * Updates and Fixes
-  * Updated the URL note on the [Connectwise Pod Configuration](broken-reference) page.
-  * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](broken-reference)
-  * Added Read-only information on the [How to Add or Remove Users](broken-reference) and [Roles](../../../documentation/settings/roles.md) pages.
+  * Updated the URL note on the [Connectwise Pod Configuration](/broken/pages/eXviaeOE4WEnqJkVCBvd) page.
+  * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](/broken/pages/OvVEg9r7yXR4xXrTyWXd)
+  * Added Read-only information on the [How to Add or Remove Users](/broken/pages/IrioTtYQEfOSokjQBtjL) and [Roles](../../../documentation/settings/roles.md) pages.
   * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/configuration/integrations/integration-guides/database-integration-setup.md) page.
 
 </details>

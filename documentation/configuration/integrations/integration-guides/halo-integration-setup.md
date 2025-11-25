@@ -261,7 +261,7 @@ To execute workflows at the MSP level across client accounts, you must configure
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Halo's own API documentation can be found [here](broken-reference).&#x20;
+Halo's own API documentation can be found [here](/broken/pages/Ih2PHYcnJ3BTz0qR3qwt).&#x20;
 
 | Action Name                           | Description                                                                                                                                                  | Endpoint Related to Action     |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |

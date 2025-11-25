@@ -8,9 +8,9 @@ Explore what new changes the Training team has made in the last week.\\
 
 * **SHOUT OUTS** **TO:**
   * George, Michael, Denis, Daniel, and Brandon for passing the Foundations Certification.
-    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
   * Robert and Niels for passing the Clean Automation Certification.
-    * Take the [Broken link](broken-reference "mention") exam and get that fancy certificate!
+    * Take the [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention") exam and get that fancy certificate!
 * The next [**Rewst Foundations Bootcamp**](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp) is coming up **Mar 3 - Mar 4.** Remember to register for **both parts 1 and 2!**
   * [Part 1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1?month=2025-01) (Lessons 1 - 3)
   * [Part 2](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-2) (Lessons 4 - 7)
@@ -54,7 +54,7 @@ _**Monthly Clean Automation Starting March 24:**_
 
 **New & Updated Pages:**
 
-* [Broken link](broken-reference "mention")
+* [Broken link](/broken/pages/DoFNGl52IxNtf6KHl38d "mention")
 * [Webroot integration documentation](https://docs.rewst.help/documentation/integrations/security/webroot/webroot-integration-setup)
 * [Cove integration documentation](https://docs.rewst.help/documentation/integrations/security/cove-integration)
 * [Support access documentation](https://docs.rewst.help/support/rewst-support-allow-write-access)

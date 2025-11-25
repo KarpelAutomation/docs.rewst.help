@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 **Cluck University**
 
 * The team is back from an onsite with a TON of awesome ideas for the coming weeks and months! So here are a few teasers of what you can anticipate:
-  * **Contributing to Documentation**: We're thrilled to open up our documentation for user contributions. Stay tuned for eligibility criteria and the ability to enhance our community knowledge base. Quick-Fix Contributions can be made today by clicking the "Edit on GitHub" within the three dots at the top right of any page! Check out our [Community Corner page for more information](broken-reference).
+  * **Contributing to Documentation**: We're thrilled to open up our documentation for user contributions. Stay tuned for eligibility criteria and the ability to enhance our community knowledge base. Quick-Fix Contributions can be made today by clicking the "Edit on GitHub" within the three dots at the top right of any page! Check out our [Community Corner page for more information](/broken/pages/nBHyqnJG299rvBWucN7B).
   * **200 Series Courses**: These courses will focus on a deep dive into programming concepts, data types, and anti-patterns. Perfect for those looking to optimize their workflows and ensure responsible product use. Look forward to the 201, coming in October!
   * **More Electives**: These specialized modules will address specific skills and use cases, providing a more tailored learning experience.
 

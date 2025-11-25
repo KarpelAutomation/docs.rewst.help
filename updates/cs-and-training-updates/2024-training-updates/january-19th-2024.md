@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Grant for successfully taking our [Broken link](broken-reference "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Grant for successfully taking our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 
 - **Reminder about the Rewst Onsite:**
   * Training will be paused again the week of **January 22nd** due to the Rewst Onsite!&#x20;
@@ -27,6 +27,6 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * The [jan-12th-2024-alpha-app-platform-demos.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md "mention")page is available
-* Added a [Broken link](broken-reference "mention")page to the App Platform Section
+* Added a [Broken link](/broken/pages/qzFko4hyFAPtQBraWiFf "mention")page to the App Platform Section
 
 </details>

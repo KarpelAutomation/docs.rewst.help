@@ -23,22 +23,22 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* Added the [Rewst 106 video](broken-reference).
-* Added Resource and Documentation links to [Rewst 102 \~ 106 pages](broken-reference).
-* Updated steps on [Rewst 104 page](broken-reference) based on feedback.
+* Added the [Rewst 106 video](/broken/pages/g6Ve4PRZEFunz0v1x08V).
+* Added Resource and Documentation links to [Rewst 102 \~ 106 pages](/broken/pages/8PjyXOTLAzdmsN7SPslq).
+* Updated steps on [Rewst 104 page](/broken/pages/4uYpOkrY08VfrUFNvsNc) based on feedback.
 
 **Documentation**
 
 * [Open Mic - August 11th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/august-11th-2023-if-you-smell-what-the-roc-is-cooking.md)
-* Created a [Microsoft Azure Actions Page](broken-reference) and [Enhanced Setup instructions](broken-reference).
-* Added a new consolidated [Microsoft CSP Integration Setup page](broken-reference).
-* Consolidated the [Microsoft Graph integration setup page](broken-reference), added an [Actions page](broken-reference), and enhanced the [Graph Subscriptions page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph-subscriptions.md).
-* Completely reworked the [Best Practices for Microsoft Integrations](broken-reference) and [Common Issues with Microsoft Integrations pages](broken-reference).
-* Updated the [Auvik Integration setup page](../../../documentation/configuration/integrations/integration-guides/auvik-integration-setup.md) and added a [Actions & Endpoints](broken-reference) page.
+* Created a [Microsoft Azure Actions Page](/broken/pages/POS886y0j6INSITIypOj) and [Enhanced Setup instructions](/broken/pages/yzARfEXNhojF5hFCoM5F).
+* Added a new consolidated [Microsoft CSP Integration Setup page](/broken/pages/gVbUUsVTMUXdsmmXmkgX).
+* Consolidated the [Microsoft Graph integration setup page](/broken/pages/XSBKJlcg5bFhZBdBb6MI), added an [Actions page](/broken/pages/9Vuj1vTiRQ1ZR3OVztEh), and enhanced the [Graph Subscriptions page](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-graph-subscriptions.md).
+* Completely reworked the [Best Practices for Microsoft Integrations](/broken/pages/OvVEg9r7yXR4xXrTyWXd) and [Common Issues with Microsoft Integrations pages](/broken/pages/GIcWasKaiefy84k3QB3z).
+* Updated the [Auvik Integration setup page](../../../documentation/configuration/integrations/integration-guides/auvik-integration-setup.md) and added a [Actions & Endpoints](/broken/pages/dsrGLTJKGDygd5n7GzdZ) page.
 * Updates and Fixes
   * Updated the top and left navigation for clarity + updated some text on the front page.
-  * Updated the Rewst Powershell xml download link on the [Kaseya VSA Integration setup page](broken-reference).
-  * Updated [ConnectWise Manage Integration Setup](../../../documentation/configuration/integrations/integration-guides/connectwise-integration-setup.md) and [Pod Configuration](broken-reference) pages.
+  * Updated the Rewst Powershell xml download link on the [Kaseya VSA Integration setup page](/broken/pages/Lsr3vrwR3IPm9g1NkRcQ).
+  * Updated [ConnectWise Manage Integration Setup](../../../documentation/configuration/integrations/integration-guides/connectwise-integration-setup.md) and [Pod Configuration](/broken/pages/eXviaeOE4WEnqJkVCBvd) pages.
   * Update the[ Rewst Script Run file on the Datto RMM Integration Setup page](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md).
   * Added Auth Server Hostname information in the [Halo PSA Integration setup page](../../../documentation/configuration/integrations/integration-guides/halo-integration-setup.md).
   * Updated the [Organization Variables](../../../documentation/configuration/organization-variables.md) list.

@@ -6,9 +6,9 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to all those who've successfully taken our [Broken link](broken-reference "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to all those who've successfully taken our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
   * Stay tuned for more information on how to get your official certification issued for sharing on LinkedIn, and hanging on your wall with pride.
-* Reminder to express your interest in the App Platform Alpha Program by filling out the form on the[Broken link](broken-reference "mention") page.&#x20;
+* Reminder to express your interest in the App Platform Alpha Program by filling out the form on the[Broken link](/broken/pages/dxgpCZqg6WIDfYNi3qW4 "mention") page.&#x20;
   * More info to come on the early January launch details next week.
 * **Reminder about Cluck U Holiday Hours:**
   * Live Training will be unavailable from December 18th \~ January 8th for the Holidays and New Year
@@ -23,12 +23,12 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* &#x20;**Added** [Broken link](broken-reference "mention") Elective Page
+* &#x20;**Added** [Broken link](/broken/pages/40aNbXGAHp1aISp0dnwL "mention") Elective Page
 * More to come in the New Year!
 
 **New & Updated Pages:**
 
 * Last week's Open Mic page and recording is available here: [dec-8th-2023-never-send-a-human-to-do-a-machines-job.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-8th-2023-never-send-a-human-to-do-a-machines-job.md "mention")
-* Note added to [Broken link](broken-reference "mention")
+* Note added to [Broken link](/broken/pages/yzARfEXNhojF5hFCoM5F "mention")
 
 </details>

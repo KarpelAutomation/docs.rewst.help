@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Nick, Hubert, Morgan, Cory, Danny, and Chantal for successfully taking our [Broken link](broken-reference "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Nick, Hubert, Morgan, Cory, Danny, and Chantal for successfully taking our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Shout out to the Bird Brain channel for your awesome feedback this week!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
@@ -20,7 +20,7 @@ Explore what new changes the Training team has made in the last week.
 
 * We'd love to get your feedback on our Training and Documentation! [Please fill out this form to let us know how we can improve](https://app.sli.do/event/m8C3AjPUnuDgpkVDmPsQL3)!
 * As a reminder, you can make training and documentation requests at [https://rewst.canny.io/](https://rewst.canny.io/)
-* [Broken link](broken-reference "mention") page added with more information about signing up!
+* [Broken link](/broken/pages/gP6CchdkDkV1PLOvrwjm "mention") page added with more information about signing up!
 * Clea has joined the battle to educate! AGAIN! She will be delivering the Rewst 105  Training next week!
 
 ![](<../../../.gitbook/assets/Clea (3).png>)
@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 
 * [april-5th-2024-the-microsoft-bundle-you-cant-miss-out-on.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/april-5th-2024-the-microsoft-bundle-you-cant-miss-out-on.md "mention") Open Mic page added
 * [cwm-technician-toolbox-via-pod.md](../../../documentation/crates/existing-crate-documentation/cwm-technician-toolbox-via-pod.md "mention") page added
-* [Broken link](broken-reference "mention") updated with Entra UI known issue
+* [Broken link](/broken/pages/GIcWasKaiefy84k3QB3z "mention") updated with Entra UI known issue
 * [ingram-micro-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ingram-micro-integration-setup.md "mention") updated with Ingram credential workaround
 
 </details>

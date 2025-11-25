@@ -8,10 +8,10 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Aston, Jonathan, Jimmy, and Jacques for passing the Foundations Certification.
-    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
     * You also get access to a super secret Discord channel.
   * Andrew, Eaven, Chad, Arbyn, Cody, Robert, and Jimmy for passing the Clean Automation Certification.
-    * Take the new [Broken link](broken-reference "mention") exam!
+    * Take the new [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention") exam!
 * **Rewst Foundations Bootcamp: Dec 2 - Dec 3:**
   * Sign up: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
     * [https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1)
@@ -30,7 +30,7 @@ Explore what new changes the Training team has made in the last week.
 **What's New at Cluck University?**
 
 * Courses have been updated on docs.rewst.help! New structure and sets of pages to create a better learning experience.
-  * Check it out at [Broken link](broken-reference "mention")
+  * Check it out at [Broken link](/broken/pages/8PjyXOTLAzdmsN7SPslq "mention")
   * New naming convention adopted for our courses
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.
 
@@ -42,14 +42,14 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * New Doc Pages
-  * [Broken link](broken-reference "mention") Integegration Page
-  * [Broken link](broken-reference "mention") Integration Page
-  * [Broken link](broken-reference "mention") Integration Page
+  * [Broken link](/broken/pages/5ECjbC7wT5N9wZzZHLYw "mention") Integegration Page
+  * [Broken link](/broken/pages/nbYjp2gjgvhXFKtNTuMG "mention") Integration Page
+  * [Broken link](/broken/pages/E7PpQtgRLa7mpQ8Flpqf "mention") Integration Page
 
 - Updated Pages
   * [security-policy.md](../../../security/security-policy.md "mention") updated with latest IPs and Domains
   * Added note to [connectwise-automate-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/connectwise-automate-integration-setup.md "mention") about customers not populating.
   * Added note to [datto-psa-integration-setup](../../../documentation/configuration/integrations/integration-guides/datto-psa-integration-setup/ "mention") about long loading times.
-  * Added note to [Broken link](broken-reference "mention") about 403 Forbidden error.
+  * Added note to [Broken link](/broken/pages/0MHLA19gmfPUOcfFF3cv "mention") about 403 Forbidden error.
 
 </details>

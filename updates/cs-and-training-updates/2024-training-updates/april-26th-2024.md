@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to Steve, Maddox, Aleksandar, Brenden, Keegan, Andrey, Tonia, and Matthew (with a PERFECT Score!) for successfully taking our [Broken link](broken-reference "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Steve, Maddox, Aleksandar, Brenden, Keegan, Andrey, Tonia, and Matthew (with a PERFECT Score!) for successfully taking our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Eddie will be back next week with the 100 and current 200 series!
 
 ![](<../../../.gitbook/assets/Copy of Clea.png>)
@@ -23,19 +23,19 @@ Explore what new changes the Training team has made in the last week.
 
 * We'd love to get your feedback on our Training and Documentation! [Please fill out this form to let us know how we can improve](https://app.sli.do/event/m8C3AjPUnuDgpkVDmPsQL3)!
 * As a reminder, you can make training and documentation requests at [https://rewst.canny.io/](https://rewst.canny.io/)
-* [Broken link](broken-reference "mention") page added with more information about&#x20;
-* New [Broken link](broken-reference "mention") elective page live!
-* New [Broken link](broken-reference "mention") elective page live!
+* [Broken link](/broken/pages/gP6CchdkDkV1PLOvrwjm "mention") page added with more information about&#x20;
+* New [Broken link](/broken/pages/ygTzFuUZcZ0nFJxr8Xot "mention") elective page live!
+* New [Broken link](/broken/pages/t0MS36NnCbufcLBtTT3f "mention") elective page live!
 
 **New & Updated Pages:**
 
 * [april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md "mention")page added
-* [Broken link](broken-reference "mention") page added
+* [Broken link](/broken/pages/sACFvgaSdnsS17BZOsVr "mention") page added
 * [agent-smith](../../../documentation/agent-smith/ "mention") page updated with link to setup
 * [agent-smith-configuration-overview.md](../../../documentation/agent-smith/agent-smith-configuration-overview.md "mention") page updated with new Track Agent Inventory In Azure Tables Crate section
 * [ninjaone-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ninjaone-integration-setup.md "mention") page script updated
-* [Broken link](broken-reference "mention") page steps updated
-* [Broken link](broken-reference "mention") page updated with I use **Threatlocker and it's causing issues with executions in Rewst. How do I fix it?** section
+* [Broken link](/broken/pages/nvCHsrCq289RTSGgaoPH "mention") page steps updated
+* [Broken link](/broken/pages/lKXkCbtKGDhF6qC2wv1H "mention") page updated with I use **Threatlocker and it's causing issues with executions in Rewst. How do I fix it?** section
 
 </details>
 

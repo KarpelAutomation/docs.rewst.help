@@ -23,20 +23,20 @@ Explore what new changes the Training team has made in the last week.
 
 * We have completed the first pilot of Rewst 201 and will be rolling it out in the coming weeks!
 * Additional contextual text has been added to the following course pages:
-  * [Broken link](broken-reference "mention")
-  * [Broken link](broken-reference "mention")
-  * [Broken link](broken-reference "mention")
-  * [Broken link](broken-reference "mention")
-  * [Broken link](broken-reference "mention")
-* [Broken link](broken-reference "mention")A step-by-step guide video added!
+  * [Broken link](/broken/pages/XrQBDfA6prUn7lvqGPxx "mention")
+  * [Broken link](/broken/pages/vdrKA4yUq5ntJmizUKaq "mention")
+  * [Broken link](/broken/pages/4uYpOkrY08VfrUFNvsNc "mention")
+  * [Broken link](/broken/pages/fRJgNxcw0guZg8GyX0aa "mention")
+  * [Broken link](/broken/pages/g6Ve4PRZEFunz0v1x08V "mention")
+* [Broken link](/broken/pages/nvCHsrCq289RTSGgaoPH "mention")A step-by-step guide video added!
 
 **Documentation**
 
 * [october-6th-2023-mfa-buffet.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/october-6th-2023-mfa-buffet.md "mention")added
-* [Broken link](broken-reference "mention")page with video added&#x20;
+* [Broken link](/broken/pages/nvCHsrCq289RTSGgaoPH "mention")page with video added&#x20;
 * **Updates and Fixes:**&#x20;
-  * [Broken link](broken-reference "mention"): Added a section on **r**e-running a pod from a ticket
-  * [Broken link](broken-reference "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
+  * [Broken link](/broken/pages/eXviaeOE4WEnqJkVCBvd "mention"): Added a section on **r**e-running a pod from a ticket
+  * [Broken link](/broken/pages/GIcWasKaiefy84k3QB3z "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
   * [datto-rmm-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md "mention"): Replaced the Rewst Script Run Powershell.cpt file with an updated version
 
 </details>

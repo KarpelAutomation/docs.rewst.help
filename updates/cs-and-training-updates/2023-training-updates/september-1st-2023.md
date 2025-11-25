@@ -21,14 +21,14 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* Added a [feedback and credit form](broken-reference) to the Rewst Foundation Pages
+* Added a [feedback and credit form](/broken/pages/8PjyXOTLAzdmsN7SPslq) to the Rewst Foundation Pages
 * Added text summaries for all the [Getting Started pages](../../../support-and-community/getting-started.md) for our partners who prefer reading over video
-* Chow Time: Added Updated [Rewst 102](broken-reference) and [Rewst 103](broken-reference) videos made by our very own Legend - Eddie Chow
-* Added [How to Scope an Automation](broken-reference) video in the Getting Started Section
-* Added a Workflow [Tips & Tricks video to Getting Started](broken-reference), focusing on documenting your workflows, using multi-select, and favoriting actions
-* Added [page to highlight Resources](broken-reference) to Getting Started
+* Chow Time: Added Updated [Rewst 102](/broken/pages/XrQBDfA6prUn7lvqGPxx) and [Rewst 103](/broken/pages/vdrKA4yUq5ntJmizUKaq) videos made by our very own Legend - Eddie Chow
+* Added [How to Scope an Automation](/broken/pages/lmOZhYax2hZKZzxf2b9j) video in the Getting Started Section
+* Added a Workflow [Tips & Tricks video to Getting Started](/broken/pages/xPHCXPrygPwDn3m0ytaC), focusing on documenting your workflows, using multi-select, and favoriting actions
+* Added [page to highlight Resources](/broken/pages/D6vDNRkVMwtJf13N87tp) to Getting Started
 * Updates and Fixes
-  * Updated wording and formatting on the [Rewst Terminology page](broken-reference) in Getting Started
+  * Updated wording and formatting on the [Rewst Terminology page](/broken/pages/aMUGuyVYvi7p26HwKud2) in Getting Started
 
 **Documentation**
 
@@ -42,7 +42,7 @@ Explore what new changes the Training team has made in the last week.
   * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/it-glue-integration-setup.md)
   * Updated the wording on the [Database Setup Page](../../../documentation/configuration/integrations/integration-guides/database-integration-setup.md)
   * Updated Support note in [Custom Integrations Page](../../../documentation/configuration/integrations/custom-integrations/)
-  * Fixed incorrect information on [Least Privilege Access Requirements for the ConnectWise Manage Integration Page](broken-reference)
+  * Fixed incorrect information on [Least Privilege Access Requirements for the ConnectWise Manage Integration Page](/broken/pages/0MHLA19gmfPUOcfFF3cv)
   * Added missing images to [Form Best Practices](../../../documentation/automations/forms/form-best-practices.md) Page
   * Fixed Rewst Script Run Powershell file name for download on [Datto RMM Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
 

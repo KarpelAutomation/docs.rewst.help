@@ -33,7 +33,7 @@ Explore what new changes the Training team has made in the last week.
 * **Updates and Fixes:**&#x20;
   * Added Powershell Script to [ninjaone-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ninjaone-integration-setup.md "mention")
   * Updated [organization-variables.md](../../../documentation/configuration/organization-variables.md "mention")
-  * Updated [Broken link](broken-reference "mention")
+  * Updated [Broken link](/broken/pages/gVbUUsVTMUXdsmmXmkgX "mention")
   * Added Steps to the [halo-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/halo-integration-setup.md "mention")
 
 </details>

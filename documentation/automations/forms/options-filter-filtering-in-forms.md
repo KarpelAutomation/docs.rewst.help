@@ -1,20 +1,27 @@
 # Options filter: Filtering in forms
 
-{% hint style="info" %}
-The options filter makes customizing dropdown fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source.
+## What is options filter?
 
-Option generators are still a fantastic option for those who need a more powerful, in-depth, solution. We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io/creating-an-option-generator) . If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
-{% endhint %}
+The options filter makes customizing fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source.
+
+Options filter works for the following form field types:
+
+* [Dropdown](https://docs.rewst.help/documentation/automations/forms/intro-to-forms#drop-down)
+* [Radio Button](https://docs.rewst.help/documentation/automations/forms/intro-to-forms#radio-buttons)
+* [Multi-Select ](https://docs.rewst.help/documentation/automations/forms/intro-to-forms#multi-select)
+
+Option generators are still a fantastic option for those who need a more powerful, in-depth, solution. We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io/creating-an-option-generator) . If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options).
 
 ## Options filter guidance
 
 * Modifying a form using the options filter will work for both parent and child organizations, as long as data formatting is set up the same way for both organizations.
 * Add as many conditions as desired.
-* Access the options filter feature in our standard form builder. Currently, it only applies to our dropdown element. If you’d like to see this feature expand to include other elements, send us feedback in our [Canny](https://rewst.canny.io/features).
+* Access the options filter feature in our standard form builder.&#x20;
 
 ## Practical uses for options filter
 
 * Say you offer 10 different types of licenses, but your users only ever use a single Business Premium type. Filtering down to just that license would simplify the list, and leave no room for error.
+* Using a multi-select form field, present multiple licenses to a user to be filtered down to a specific set of licenses.
 * Filter out admins from a total list of users, to create a cleaner list for copying into user onboarding.
 * When offboarding a user, you may want to exclude a list of specific people to prevent accidental offboarding of key individuals, like the CEO.
 * Hide on.microsoft email domains that are purely administrative, to provide a cleaner list.
@@ -35,9 +42,13 @@ You work at an MSP and are building a license request form for technicians. Your
 
 ## Options filter dialog
 
-In the dialog, you’ll see two submenus: **Dropdown Options** and **Options Filter**.
+Click **Filter Options** under the **Dynamic Options** submenu of the right side forms menu. This will open the **Create Option Filters** dialog. In the dialog, you’ll see two submenus: **Dropdown Options** and **Options Filter**.
 
-### Drop-down options menu
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-11-20 at 11.47.53 AM.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### All Options
 
 The **All Options** drop-down selector holds all of the options which you’ve set in the standard form builder right side menu. Adding more options in that menu will populate those options into your drop-down selector.&#x20;
 
@@ -49,7 +60,7 @@ The **Filtered Options** drop-down selector holds a list of your selected option
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-03 at 1.07.15 PM.png" alt=""><figcaption></figcaption></figure>
 
-If a drop-down uses a custom options filter, there will be a badge indicator in the top right of the drop-down field.
+If your form field uses a custom options filter, there will be a badge indicator in the top right of the field.
 
 <figure><img src="../../../.gitbook/assets/indicator.png" alt=""><figcaption></figcaption></figure>
 
@@ -105,8 +116,8 @@ By grouping terms, you can control the order in which Boolean operators like AND
 
 1. Create a new form by navigating to **Automations > Forms > + Add**.
 2. Name your form, and click **Submit**.
-3. Drag a **Dropdown** element onto the form builder canvas. Remember, options filter is currently only available for this element of the form builder.
-4. Click on the element to open the right side menu.
+3. Drag one of the three applicable form fields onto the form builder canvas. Remember, options filter is only available for Radio Buttons, Dropdown, and Multi-Select.
+4. Click on the dragged form field to open the right side menu.
 5. Click on **Filter Options**. This will open the **Create Option Filters** dialog.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 11.02.23 AM.png" alt=""><figcaption></figcaption></figure>
@@ -127,7 +138,7 @@ The greatest advantage of the options filter is that it allows for the overridin
 
 ### Org-based preview and org-specific instances
 
-Use the org context drop-down selector to choose the suborganization that you'd like to preview, and see how the form will function for that specific organization. Previews don't require cloning, and won't affect the saved form configurations except for the options filter. The options generator will display data as if the form were triggered in just that specific organization.  The default-set options filter will be used if no custom filters were provided for the selected organization.
+Use the org context drop-down selector to choose the child organization that you'd like to preview, and see how the form will function for that specific organization. Previews don't require cloning, and won't affect the saved form configurations except for the options filter. The options generator will display data as if the form were triggered in just that specific organization.  The default-set options filter will be used if no custom filters were provided for the selected organization.
 
 Click the drop-down selector to view and chose from your list of all total organizations.
 
@@ -136,9 +147,5 @@ Click the drop-down selector to view and chose from your list of all total organ
 Selecting the preview organization sets the context of the form builder. and opening the preview dialog will use that organization's context to generate the correct preview, tailoring filtering logic for each instance without duplicating forms or unsyncing fields.
 
 {% hint style="info" %}
-By default, a field will inherit the parent organization's filter unless if it explicitly overridden.&#x20;
+By default, a field will inherit the parent organization's filter unless if it explicitly overridden. <br>
 {% endhint %}
-
-
-
-<br>

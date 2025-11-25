@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to all those who've successfully taken our [Broken link](broken-reference "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to all those who've successfully taken our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
   * Stay tuned for more information on how to get your official certification issued for sharing on LinkedIn, and hanging on your wall with pride.
 
 - **Reminder about the Rewst Onsite:**
@@ -23,7 +23,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* Added [Broken link](broken-reference "mention")video
+* Added [Broken link](/broken/pages/wpPPQLZG0sKVDyK1Zq3I "mention")video
 
 **New & Updated Pages:**
 
@@ -31,9 +31,9 @@ Explore what new changes the Training team has made in the last week.
   * [dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md "mention")
   * [dec-22nd-2023-simply-having-a-wonderful-rewsty-time.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-22nd-2023-simply-having-a-wonderful-rewsty-time.md "mention")
   * [dec-29th-2023-last-open-mic-of-2023.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/dec-29th-2023-last-open-mic-of-2023.md "mention")
-* Added [Broken link](broken-reference "mention")
+* Added [Broken link](/broken/pages/nBHyqnJG299rvBWucN7B "mention")
 * Added [app-builder](../../../documentation/app-builder/ "mention")pages
-* Added [Broken link](broken-reference "mention")pages
+* Added [Broken link](/broken/pages/RZ7yIRxfs5Ac9maOMo84 "mention")pages
 * Added [agent-smith](../../../documentation/agent-smith/ "mention")pages
 
 </details>

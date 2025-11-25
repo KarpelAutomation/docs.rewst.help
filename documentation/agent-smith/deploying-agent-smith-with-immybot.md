@@ -6,7 +6,7 @@ This was shared during a recent open mic: [Feb 2nd, 2024 - Inside the Eye of the
 **Thanks to Kewp member Logan for submitting this guide. ✨**
 {% endhint %}
 
-[Immybot](broken-reference) is an extremely powerful DSC platform that utilizes integrated agents to spawn an 'ephemeral' agent. This agent is then capable of running scripts such as the ones provided in this directory while being fueled by Immy's amazing PS Functions.
+[Immybot](/broken/pages/XrX5iT8eBZGFCq5uqE9b) is an extremely powerful DSC platform that utilizes integrated agents to spawn an 'ephemeral' agent. This agent is then capable of running scripts such as the ones provided in this directory while being fueled by Immy's amazing PS Functions.
 
 One important thing to know if you've never used Immy, is that `Invoke-ImmyCommand` is essentially the same as `PSRemote`'s `Invoke-Command`.
 

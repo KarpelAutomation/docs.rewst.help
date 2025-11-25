@@ -8,10 +8,10 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Charles, Kylen, Jonathan, Keenan, Aston, Justin, Colby, Alex, and Stuart for passing the Foundations Certification.
-    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
     * You also get access to a super secret Discord channel.
   * Eli, Arbyn, Gareth, Jaco, Andrew, Sam, Cody, and Garrett for passing the Clean Automation Certification.
-    * Take the new [Broken link](broken-reference "mention") exam!
+    * Take the new [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention") exam!
 * **Rewst Foundations Bootcamp: Dec 2 - Dec 3:**
   * For More Details, Visit:[https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp)
     * [https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1)
@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* New section added for Rewst Foundations Bootcamp: [Broken link](broken-reference "mention")
+* New section added for Rewst Foundations Bootcamp: [Broken link](/broken/pages/8PjyXOTLAzdmsN7SPslq#live-instructor-led-bootcamp "mention")
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.
 
 **The List of Reminders:**
@@ -41,11 +41,11 @@ Explore what new changes the Training team has made in the last week.
 
 * Updated Pages
   * [servicenow-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/servicenow-integration-setup.md "mention") - Formatting Update
-  * Added Section [Broken link](broken-reference "mention") in Rewst Foundation Lesson
+  * Added Section [Broken link](/broken/pages/8PjyXOTLAzdmsN7SPslq#live-instructor-led-bootcamp "mention") in Rewst Foundation Lesson
   * Added App Builder Alert in [issue-alerts.md](../../issue-alerts.md "mention")
   * Reorganized RMM section under [integrations](../../../documentation/configuration/integrations/ "mention")
-  * Updated [Broken link](broken-reference "mention")
-    * Added "Special Instructions" to [Broken link](broken-reference "mention")
+  * Updated [Broken link](/broken/pages/Ly4fTghZv6kpgU5EeUzQ "mention")
+    * Added "Special Instructions" to [Broken link](/broken/pages/bUAgiBD9xvBfu52wBptl#optional-instructions-for-all-managed-organizations "mention")
   * Added note in [ninjaone-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/ninjaone-integration-setup.md "mention")
   * Added note in [datto-rmm-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md "mention")
 

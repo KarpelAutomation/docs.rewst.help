@@ -8,10 +8,10 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Narvada, Alex, Aaron, Mitchell, Eugene, Andrew, Jonathan, and Colby for passing the Foundations Certification.
-    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.&#x20;
     * You also get access to a super secret Discord channel.
   * Alexander, Aaron, Shannyn, RJ, Brian, and Charles for passing the Clean Automation Certification.
-    * Take the new [Broken link](broken-reference "mention") exam!
+    * Take the new [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention") exam!
 * **Rewst Foundations Bootcamp: Dec 2 - Dec 3:**
   * For More Details, Visit:[https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp)
     * [https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1)
@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* New section added for Rewst Foundations Bootcamp: [Broken link](broken-reference "mention")
+* New section added for Rewst Foundations Bootcamp: [Broken link](/broken/pages/8PjyXOTLAzdmsN7SPslq#live-instructor-led-bootcamp "mention")
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.
 
 **The List of Reminders:**

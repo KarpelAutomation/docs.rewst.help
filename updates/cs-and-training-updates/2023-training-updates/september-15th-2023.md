@@ -23,21 +23,21 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* We've added more self-service features to provide more value to those taking training on the [Cluck University](broken-reference) pages, including:
-  * A [signup for the welcome package](broken-reference), including an email and schedule for live training.
+* We've added more self-service features to provide more value to those taking training on the [Cluck University](/broken/pages/USoRgr2FnRP2mYaXjEiC) pages, including:
+  * A [signup for the welcome package](/broken/pages/8PjyXOTLAzdmsN7SPslq), including an email and schedule for live training.
   * Get Credit forms for each course where you can give feedback and validate your understanding!
-  * Added a [Foundations Certification](broken-reference) sign-up page!
+  * Added a [Foundations Certification](/broken/pages/CnFnuPXakXtXmcgtSAYh) sign-up page!
 
 **Documentation**
 
 * [Open Mic - September 8th Video and Page Added](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/september-8-2023-special-guest-automation-from-down-under.md)
 * [Added Huntress Integration Setup Page](../../../documentation/configuration/integrations/integration-guides/huntress-integration-setup.md)
-* [Added an Actions & Endpoints page for IT Glue](broken-reference)
+* [Added an Actions & Endpoints page for IT Glue](/broken/pages/10jtWryx9d7YGtRTzIIk)
 * Added alternative download instructions for [Datto RMM](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md) PowerShell cpt file
 * Added [Date-Time Comparisons Jinja Page](../../../documentation/jinja/common-jinja-examples/date-time-comparisons.md)
 * Added [Block Scope Jinja page](../../../documentation/jinja/common-jinja-examples/block-scope.md)
 * Added [Jinja Macros Jinja page](../../../documentation/jinja/common-jinja-examples/jinja-macros.md)
-* Added note about signing up for the Australian Open Mic on the [Resources page](broken-reference)
+* Added note about signing up for the Australian Open Mic on the [Resources page](/broken/pages/D6vDNRkVMwtJf13N87tp)
 * Updates and Fixes
   * Updated steps and added images to the [Auvik Integration Setup](../../../documentation/configuration/integrations/integration-guides/auvik-integration-setup.md) page.
   * Updated steps and added images to the [ConnectWise Automate Integration](../../../documentation/configuration/integrations/integration-guides/connectwise-automate-integration-setup.md) Setup page.
@@ -46,7 +46,7 @@ Explore what new changes the Training team has made in the last week.
   * Fixed Typo on [Kaseya VSA](../../../documentation/configuration/integrations/integration-guides/kaseya-vsa-integration-setup.md) page
   * Updated List Comprehension title to "[Working with Lists](../../../documentation/jinja/use-cases-and-best-practices/jinja-lists.md)"
   * Updated [Internal Rewst Jinja](../../../documentation/jinja/internal-rewst-jinja-examples.md) Examples!
-  * Added "What is meant by the term "Workflow Wrapper" when discussed by the ROC team?" section to the [FAQ page](broken-reference).
+  * Added "What is meant by the term "Workflow Wrapper" when discussed by the ROC team?" section to the [FAQ page](/broken/pages/itMLgRTyp14VKDzNupfq).
 
 </details>
 

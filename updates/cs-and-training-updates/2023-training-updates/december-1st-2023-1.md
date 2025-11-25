@@ -6,8 +6,8 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **SHOUT OUT** to all those who've successfully taken our [Broken link](broken-reference "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
-* Express your interest in the App Platform Alpha Program by filling out the form on the [Broken link](broken-reference "mention") page.
+* **SHOUT OUT** to all those who've successfully taken our [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
+* Express your interest in the App Platform Alpha Program by filling out the form on the [Broken link](/broken/pages/dxgpCZqg6WIDfYNi3qW4 "mention") page.
 * **Reminder about Cluck U Holiday Hours:**
   * Live Training will be unavailable from December 18th \~ January 8th for the Holidays and New Year
   * Feel free to sit by the fire, with a glass of bourbon, or tasty eggnog, and watch our videos while you wait with anticipation for our return
@@ -22,6 +22,6 @@ Explore what new changes the Training team has made in the last week.
 **New Pages**
 
 * Added an Open Mic Page for [nov-24th-2023-thanksgiving-edition-canadian-takeover.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/nov-24th-2023-thanksgiving-edition-canadian-takeover.md "mention")&#x20;
-* Added a page for [Broken link](broken-reference "mention")&#x20;
+* Added a page for [Broken link](/broken/pages/70cSxvCLLY074NXQmXpc "mention")&#x20;
 
 </details>

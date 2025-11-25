@@ -145,7 +145,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 {% hint style="info" %}
 App Builder's component library contains many pre-built components that you can drag and drop onto the App Builder canvas. Detailed information for what each component does and how to use it in your apps can be found in individual pages, in the [components.md](components.md "mention") section of App Builder's documentation.
 
-A detailed example of one such component can best be found for our [Broken link](broken-reference "mention").
+A detailed example of one such component can best be found for our [Broken link](/broken/pages/qyEfir4Oc79a0Ar53Gxr "mention").
 {% endhint %}
 
 1. Navigate to **App Builder > Apps**. Click on your **relevant** app.&#x20;

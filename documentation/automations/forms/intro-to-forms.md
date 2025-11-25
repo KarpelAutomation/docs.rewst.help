@@ -30,7 +30,7 @@ Click on any of the below form field options to expand and see its information.
 
 <summary>Text/Markdown</summary>
 
-The _Text/Markdown_ field lets you present text, optionally formatted with Markdown. You can also render Jinja in these fields, which can be useful for presenting organization variables, or rendering a Markdown table with data from elsewhere in the form.\
+The **Text/Markdown** field lets you present text, optionally formatted with Markdown. You can also render Jinja in these fields, which can be useful for presenting organization variables, or rendering a Markdown table with data from elsewhere in the form.\
 \
 <img src="../../../.gitbook/assets/Screenshot 2025-03-18 at 11.07.00 AM.png" alt="" data-size="original">
 
@@ -40,12 +40,12 @@ The _Text/Markdown_ field lets you present text, optionally formatted with Markd
 
 <summary>Drop-down</summary>
 
-_Drop-down_ fields let you select from multiple options, which can either be hard coded into the form or dynamically generated. Each option on the form has a _label_ and a _value_, and default options can be preselected if specified. There are also options for: &#x20;
+**Drop-down** fields let you select from multiple options, which can either be hard coded into the form or dynamically generated. Each option on the form has a _label_ and a _value_, and default options can be preselected if specified. There are also options for: &#x20;
 
-* _Auto-Populate_: if enabled, will always pre-populate the field if only a single option has been returned.
-* _Allow Custom Input_: lets the enduser write in the field and have that be the value passed into the workflow.
-* _Always Skip Cache_: causes the option generator to always run instead of pulling from a cache. Note that the cache for a form field invalidates every 8 hours. Typically the first run of the day will be slower than the rest.
-* _Always Override Option_: used when the auto-populate setting is enabled, this will cause the field to repopulate itself. This is needed in cases where the field is populated via an option generator and another field is being used as input for the option generator. In that case, you would need the option generator to run again, as the output would likely be different.
+* **Auto-Populate**: if enabled, will always pre-populate the field if only a single option has been returned.
+* **Allow Custom Input**: lets the enduser write in the field and have that be the value passed into the workflow.
+* **Always Skip Cache**: causes the option generator to always run instead of pulling from a cache. Note that the cache for a form field invalidates every 8 hours. Typically the first run of the day will be slower than the rest.
+* **Always Override Option**: used when the auto-populate setting is enabled, this will cause the field to repopulate itself. This is needed in cases where the field is populated via an option generator and another field is being used as input for the option generator. In that case, you would need the option generator to run again, as the output would likely be different.
 
 These are used most commonly when the list of options is being generated via an options generator _._\
 Drop-down selection is limited to a single option. For multiple options for selection, see the multi-select form field option.\
@@ -60,7 +60,7 @@ Drop-down selection is limited to a single option. For multiple options for sele
 
 <summary>Multi-Select</summary>
 
-_Multi-select_ is similar to the dropdown field, but lets you select as many options as you like, up to a maximum number of options which can be specified on the field.\
+**Multi-select** is similar to the dropdown field, but lets you select as many options as you like, up to a maximum number of options which can be specified on the field.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.12.29 AM.png>)
 
@@ -82,7 +82,7 @@ Here are two examples, one for returning a specific item within the list, and on
 
 <summary>Checkbox</summary>
 
-The _Checkbox_ field provides a toggle with a true/false value for the form. You can also change the label positioning.\
+The **Checkbox** field provides a toggle with a true/false value for the form. You can also change the label positioning.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.14.09 AM.png>)
 
@@ -94,7 +94,7 @@ The _Checkbox_ field provides a toggle with a true/false value for the form. You
 
 <summary>Radio Buttons</summary>
 
-The _Radio Buttons_ field offers a selectable single option. It can also be dynamically populated in the same way as a dropdown or multi-select field, but doesn't allow for the additional options of auto-populate, allow custom input, always skip cache and always override option. For this reason, radio buttons are rarely used with dynamic options.\
+The **Radio Buttons** field offers a selectable single option. It can also be dynamically populated in the same way as a dropdown or multi-select field, but doesn't allow for the additional options of auto-populate, allow custom input, always skip cache and always override option. For this reason, radio buttons are rarely used with dynamic options.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.18.32 AM.png>)
 
@@ -104,7 +104,7 @@ The _Radio Buttons_ field offers a selectable single option. It can also be dyna
 
 <summary>Text Input</summary>
 
-The _Text Input_ field accepts a single line text string. You can also perform regex validation and error reporting, or populate the field with a default value.\
+The **Text Input** field accepts a single line text string. You can also perform regex validation and error reporting, or populate the field with a default value.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.19.31 AM.png>)
 
@@ -114,7 +114,7 @@ The _Text Input_ field accepts a single line text string. You can also perform r
 
 <summary>Number Input</summary>
 
-The _Number Input_ field accepts numbers, as long as they meet the Python definition of numbers: whole numbers or floats. Set a default value, as well as minimum and maximum values.\
+The **Number Input** field accepts numbers, as long as they meet the Python definition of numbers: whole numbers or floats. Set a default value, as well as minimum and maximum values.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.19.31 AM (1).png>)
 
@@ -124,7 +124,7 @@ The _Number Input_ field accepts numbers, as long as they meet the Python defini
 
 <summary>Multi-Line Input</summary>
 
-The _Multi-Line Input_ field accepts large amounts of text. No validation is available for this field.\
+The **Multi-Line Input** field accepts large amounts of text. No validation is available for this field.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.21.01 AM.png>)
 
@@ -134,7 +134,7 @@ The _Multi-Line Input_ field accepts large amounts of text. No validation is ava
 
 <summary>Date</summary>
 
-The _Date_ field can be set up to accept dates, or times and date times together.
+The **Date** field can be set up to accept dates, or times and date times together.
 
 Note that the time zone or this field is based on your browser locale. Rewst converts the time into UTC when passed into the workflow without the time zone data. As an example, if you're in EST and you select 6pm, the workflow will receive this as 1pm UTC, due to the 5 hour offset. Adjust your submission for this time difference when you are submitting a form for a customer in a different time zone from yourself, and need to specify a time.\
 \
@@ -147,7 +147,7 @@ Note that the time zone or this field is based on your browser locale. Rewst con
 
 <summary>File Upload</summary>
 
-The _File Upload_ field allows for the uploading of specific file types:
+The **File Upload** field allows for the uploading of specific file types:
 
 .CSV\
 .JSON\
@@ -175,7 +175,7 @@ Selecting the Microsoft Graph integration to list all users.
 <div align="left"><figure><img src="../../../.gitbook/assets/reference-options.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Pulling data straight from the integration like this only works at the top level organization where the integrations are installed. This option won't work for dynamically pulling suborganization data. To achieve this, you would require an [options generator](../workflows/option-generator-workflows.md).
+Pulling data straight from the integration like this only works at the top, parent level organization where the integrations are installed. This option won't work for dynamically pulling child organization data. To achieve this, you would require an options generator.
 {% endhint %}
 
 ### Option two: Workflow generated options
@@ -435,7 +435,7 @@ While this may work in many cases, there are scenarios where it makes sense to l
 The example below is specifically for the User Onboarding Form and workflow, as it is currently the most likely use case.
 {% endhint %}
 
-### Add an organization variable to a form
+## Add an organization variable to a form
 
 You can add default values for any of the form organization variables below:
 
@@ -443,9 +443,9 @@ You can add default values for any of the form organization variables below:
 To view the form org variables table, [click here](form-organizational-variables.md).
 {% endhint %}
 
-### Limit the email domains in the onboarding form
+## Limit the email domains in the user onboarding form
 
-#### Add the org variable to an organization
+#### Add the organization variable to an organization
 
 1. Navigate to **Configuration > Organization Variables**.
 2. Click **Add** at the top right.
@@ -463,7 +463,7 @@ Any value you add to a variable must exist in the list that the form value is pu
 
 Next, the variable can be added to the form field.
 
-#### Add the org variable to the form field
+#### Add the organization variable to the form field
 
 1. Navigate to **Automations > Forms**.
 2. Open the User Onboarding Form.

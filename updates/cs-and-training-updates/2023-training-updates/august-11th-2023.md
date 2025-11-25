@@ -30,15 +30,15 @@ Explore what new changes the Training team has made in the last week.
   * Broken Links
   * Missing Integration Actions
   * Missing Pages
-* Add[ Tips and Tricks](broken-reference) Page for Building Workflows
-  * [Workflow Notes](broken-reference)
-  * [Multiselect](broken-reference)
-  * [Favorite Actions](broken-reference)
+* Add[ Tips and Tricks](/broken/pages/lqV56nQTVrPvmeNS3IYw) Page for Building Workflows
+  * [Workflow Notes](/broken/pages/uvIfObmuX6T8M6YMoJGv)
+  * [Multiselect](/broken/pages/xRu2AOgGcPJG3RPff4vc)
+  * [Favorite Actions](/broken/pages/3Yc96CEHyL56gTexwXFZ)
 
 **Cluck University**
 
-* Added sign-up link and a new page for [Rewst 101](broken-reference)
-* Added the [Rewst 105 video](broken-reference)
+* Added sign-up link and a new page for [Rewst 101](/broken/pages/wpPPQLZG0sKVDyK1Zq3I)
+* Added the [Rewst 105 video](/broken/pages/fRJgNxcw0guZg8GyX0aa)
 
 </details>
 

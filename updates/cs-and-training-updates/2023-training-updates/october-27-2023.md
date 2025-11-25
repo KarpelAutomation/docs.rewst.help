@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **ANNOUNCING:** [Broken link](broken-reference "mention")
+* **ANNOUNCING:** [Broken link](/broken/pages/2AThbrbqigdIiu6AbVEE "mention")
   * Join in on this weekly webinar series happening [Mondays](https://calendly.com/cluck-u/fast-track-onboarding-session-1), [Wednesdays](https://calendly.com/cluck-u/fast-track-onboarding-session-2) & [Fridays](https://calendly.com/cluck-u/fast-track-onboarding-session-3) to expedite your Rewst onboarding experience.
 * **Join us for our regularly scheduled Training:**
   * Mondays: Rewst 101 @ 12pm EST + Rewst 104 @ 1:15pm EST
@@ -33,7 +33,7 @@ Explore what new changes the Training team has made in the last week.
   * Launch your Cluck U Experience!&#x20;
   * Take the Role Alignment Exam to help us identify how we can best support you!
 * **Updates and Fixes:**
-  * [Broken link](broken-reference "mention")Updates to page and steps
+  * [Broken link](/broken/pages/vdrKA4yUq5ntJmizUKaq "mention")Updates to page and steps
 
 **Documentation**
 

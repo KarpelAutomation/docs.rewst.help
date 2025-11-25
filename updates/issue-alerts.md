@@ -295,7 +295,7 @@ If you have any urgent concerns, please contact your support team.
 
 As of **January 31st, 2025**, Pax8 will retire API Key requests as a method of authentication. To ensure uninterrupted access to the Pax8 integration, Rewst customers are required to transition to OAuth 2.0 for API authentication.
 
-To continue using the Pax8 integration with Rewst, you will need to transition to OAuth 2.0 authentication before January 31st, 2025. For information on how to update the configuration in Rewst, check this page: [Broken link](broken-reference "mention")
+To continue using the Pax8 integration with Rewst, you will need to transition to OAuth 2.0 authentication before January 31st, 2025. For information on how to update the configuration in Rewst, check this page: [Broken link](/broken/pages/JTewUNxCZGcGg3FdP57W "mention")
 
 This transition to OAuth 2.0 provides enhanced security, streamlined user experience, and improved API access management.&#x20;
 

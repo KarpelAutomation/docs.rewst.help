@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **ANNOUNCING:** [Broken link](broken-reference "mention")
+* **ANNOUNCING:** [Broken link](/broken/pages/2AThbrbqigdIiu6AbVEE "mention")
   * Join in on this weekly webinar series happening [Mondays](https://calendly.com/cluck-u/fast-track-onboarding-session-1), [Wednesdays](https://calendly.com/cluck-u/fast-track-onboarding-session-2) & [Fridays](https://calendly.com/cluck-u/fast-track-onboarding-session-3) to expedite your Rewst onboarding experience.
 * **Join us for our regularly scheduled Training:**
   * Mondays: Rewst 101 @ 12pm EST + Rewst 104 @ 1:15pm EST
@@ -23,15 +23,15 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* [Broken link](broken-reference "mention")The elective is now live! Look forward to many more to come!
+* [Broken link](/broken/pages/gbjDWDOVGrCUUE5saNdf "mention")The elective is now live! Look forward to many more to come!
 
 **Documentation**
 
 * [october-27th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflo.md](../../roc-open-mics/roc-open-mics-north-america/2023-roc-open-mics/october-27th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflo.md "mention")
-* [Broken link](broken-reference "mention") Page added
+* [Broken link](/broken/pages/CQSeohwrysEtjYx35LBg "mention") Page added
 * [collecting-ctx-variables-dynamically-using-jinja.md](../../../documentation/jinja/use-cases-and-best-practices/collecting-ctx-variables-dynamically-using-jinja.md "mention") Page added
 * **Updates and Fixes:**&#x20;
-  * [Broken link](broken-reference "mention") has an added integration section
+  * [Broken link](/broken/pages/itMLgRTyp14VKDzNupfq "mention") has an added integration section
   * [task-transitions.md](../../../documentation/automations/workflows/task-transitions.md "mention")has been updated with new security information
 
 </details>

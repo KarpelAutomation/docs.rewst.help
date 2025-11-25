@@ -8,9 +8,9 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Jim, Nick, Bart, Will, Kevin, Brandon, Robert, Ariel, Bart, Michael, Rob, Johnny, Chris, Michael, Pepijn, Mark, Stephen for passing the Foundations Certification.
-    * Take the [Broken link](broken-reference "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
   * Matt, Brylee, Alexiss, Baylin, Omari, Joel, Corey, Jeremy, Ethan, and Dusty for passing the Clean Automation Certification.
-    * Take the [Broken link](broken-reference "mention") exam and get that fancy certificate!
+    * Take the [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention") exam and get that fancy certificate!
 * The next [**Rewst Foundations Bootcamp**](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp) is coming up **Feb 3 - Feb 4.** Remember to register for **both parts** 1 and 2!
   * [Part 1](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-1?month=2025-01) (Lessons 1 - 3)
   * [Part 2](https://calendly.com/cluck-u/rewst-foundations-bootcamp-pt-2) (Lessons 4 - 7)
@@ -35,11 +35,11 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [Broken link](broken-reference "mention")pages combined.
+* [Broken link](/broken/pages/x0ABBbHNWk8pwmZRqnAt "mention")pages combined.
 * [halo-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/halo-integration-setup.md "mention") pages combined.
 * [components.md](../../../documentation/app-builder/components.md "mention")subpages updated.
-* [Broken link](broken-reference "mention")page updated.
-* [Broken link](broken-reference "mention") page added.
+* [Broken link](/broken/pages/eXviaeOE4WEnqJkVCBvd "mention")page updated.
+* [Broken link](/broken/pages/T92EV2vURFbtw0KxSsiT "mention") page added.
 * [tags-in-rewst.md](../../../documentation/settings/tags-in-rewst.md "mention") page added.
 * [roc-open-mics](../../roc-open-mics/ "mention") video added.
 

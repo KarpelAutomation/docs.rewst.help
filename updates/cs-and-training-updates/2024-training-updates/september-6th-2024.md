@@ -37,7 +37,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Last week's Open Mic video [august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md "mention")has been added.
-* [Broken link](broken-reference "mention") has been updated.
+* [Broken link](/broken/pages/0MHLA19gmfPUOcfFF3cv "mention") has been updated.
 
 </details>
 

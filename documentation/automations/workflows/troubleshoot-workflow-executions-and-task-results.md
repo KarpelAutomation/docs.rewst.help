@@ -26,7 +26,7 @@ The inputs and context sections tell the story of what data your workflow receiv
     <br>
 
     <figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
-*   The **Context** section shows variables created or passed between tasks. [Context variables](broken-reference) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
+*   The **Context** section shows variables created or passed between tasks. [Context variables](/broken/pages/uRy9dPnkagDnMPXmjTNg#overview-of-ctx-and-org.variables) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
     <br>
 
     <figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>

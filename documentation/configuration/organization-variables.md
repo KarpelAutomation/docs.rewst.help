@@ -90,7 +90,7 @@ The _use as default_ feature allows managing organizations to set a universal de
 * **Triggers and context**:
   * Implementing triggers in the workflow ensures that the execution context is recognized. This facilitates the use of MSP-level defaults in sub-organization workflows.
 
-## Finding numerical values in org variables
+## Find numerical values in org variables
 
 {% hint style="info" %}
 When setting organization variables, you might need to enter in API status IDs in numeric value rather than by their display names. For example, "In Progress" would have the ID of "3" in the API.
@@ -119,6 +119,10 @@ An easy way to find these is through the workflow builder, using create ticket a
 {% hint style="warning" %}
 Note that this method will only work for the three indicated PSA brands: ConnectWise, Datto, and Halo.
 {% endhint %}
+
+## Form organization variables
+
+See more on organization variables for forms unpacked from Crates [here](organization-variables.md#form-organization-variables).&#x20;
 
 ## Onboarding requirements
 
