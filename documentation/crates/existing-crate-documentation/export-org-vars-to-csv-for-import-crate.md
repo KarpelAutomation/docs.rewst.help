@@ -57,6 +57,10 @@ Our Export Org Vars to CSV Crate helps in effortlessly managing your organizatio
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-11-19 at 3.49.20 PM.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+For more on how CSVs can be generated with Jinja, see our documentation [here](https://docs.rewst.help/~/revisions/IAv4UYPrwRFrpB0SUQW8/documentation/jinja/common-jinja-examples/creating-csvs).&#x20;
+{% endhint %}
+
 ### Troubleshoot the Export Org Vars to CSV for Import Crate <a href="#troubleshoot-the-billing-count-report-crate" id="troubleshoot-the-billing-count-report-crate"></a>
 
 This workflow is meant to run from your parent organization only. If you’re seeing workflow failures for child organizations, disable the trigger for child organizations.

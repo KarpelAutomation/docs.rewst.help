@@ -1,8 +1,6 @@
 # Dictionary unpacking
 
-## **Introduction**
-
-Dictionary unpacking is a powerful technique in Jinja templating that enables the merging of dictionaries seamlessly. This article explores the concept of dictionary unpacking, providing clear explanations and practical examples to help users harness this feature effectively.
+_Dictionary unpacking_ is a powerful technique in Jinja templating that enables the merging of dictionaries seamlessly. This article explores the concept of dictionary unpacking, providing clear explanations and practical examples to help users harness this feature effectively.
 
 ### **Understanding dictionary unpacking**
 

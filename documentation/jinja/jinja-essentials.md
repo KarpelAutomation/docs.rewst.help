@@ -1,18 +1,4 @@
----
-description: Take a deep dive into the world of Jinja.
----
-
 # Jinja essentials
-
-## **What is Jinja?**
-
-_Jinja_ is a versatile templating language for creating dynamic content. It supports loops, conditional statements, and variable manipulation, making it ideal for complex data processing in workflows.
-
-### Key features:
-
-* **Variable manipulation:** Create and modify context variables.
-* **Dynamic content creation:** Use loops and conditionals to tailor content.
-* **Filter utilization:** Apply built-in filters for efficient data processing.
 
 ## Understand Jinja syntax in Rewst
 
@@ -26,7 +12,11 @@ Jinja uses brace delimiters to distinguish between expressions and statements. S
 
 ### Use the Monaco Editor in Rewst
 
-The Monaco Editor is a powerful code editor that allows you to edit and preview Jinja templates in real-time. Here are some features and keystrokes you can use with the Monaco Editor in Rewst:
+The _Monaco Editor_ is a powerful code editor that allows you to edit and preview Jinja templates in real-time. Access the Monaco Editor in many places in the product, whenever you see the clickable ![](<../../.gitbook/assets/Screenshot 2025-11-26 at 1.57.10 PM.png>)next to a field or menu section.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-26 at 3.46.34 PM.png" alt=""><figcaption></figcaption></figure>
+
+Here are some features and keystrokes you can use with the Monaco Editor in Rewst:
 
 * **Syntax highlighting:** The Monaco Editor provides syntax highlighting for Jinja templates, making it easier to read and understand your code.
 * **Code completion:** The Monaco Editor provides code completion for Jinja templates, suggesting possible completion options as you type.
@@ -49,11 +39,28 @@ The Monaco Editor is a powerful code editor that allows you to edit and preview 
 }
 ```
 
-## Core concepts in Jinja
+## **Create variables in Jinja**
 
-### Conditional statements
+Generally, _variables_ are labeled containers for data that you want to use in your workflow. Variables store task results, facilitate dynamic content generation, and enhance the readability and maintainability of Jinja templates. For example, instead of updating every user's individual name in multiple places, use a variable of `CustomerName` to hold whatever name is needed instead, seamlessly updating as needed in every place the variable is used.
 
-Jinja supports conditional statements like `if,` `else` and `elif`. These statements allow you to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios.
+### What is The Context?
+
+_The Context_ is a central storage space that keeps track of all data generated, captured, or used throughout a workflow.  Think of it as a shared memory for a specific workflow, containing all that workflow's information.
+
+### **Variable management with Jinja**
+
+Variables in Rewst are specifically referred to as [data aliases](../automations/workflows/data-aliases.md). Data aliases defined within a workflow are prefixed with `CTX` for context variable, and stored in The Context. There are several variable types in Jinja. Learn more about them [here](data-types.md).&#x20;
+
+* Use _context (CTX) variables_ in data aliases on your task's transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
+* These types of variables can be created and modified by workflow tasks but are not global. Their scope is confined to the workflow.
+
+{% hint style="info" %}
+Variables do not automatically inherit down into subworkflows or up from subworkflows. In order to pass these values through, they need to be defined as [input or output variables](../automations/workflows/data-input-and-output-input-variables-and-context-variables.md)
+{% endhint %}
+
+## Conditional statements
+
+Jinja supports _conditional statements_ like `if,` `else` and `elif`. These statements allow you to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios.
 
 **Examples:**
 
@@ -87,7 +94,7 @@ The if statement allows you to control the flow of your template based on certai
 {% endif %}
 ```
 
-### For loops
+## For loops
 
 _For loops_ in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.
 
@@ -108,17 +115,51 @@ In this example, the for loop iterates over a list called items and prints each 
 {% endfor %}
 ```
 
-### Jinja filters
+## Jinja filters
 
 For more detailed information on Jinja filters, see our list [here](jinja-essentials.md#jinja-filters).&#x20;
 
-Jinja filters are functions that can be applied to variables and expressions within Jinja templates to modify their output. They are used to perform a wide range of data manipulations, such as formatting strings, converting data types, and filtering lists. Some commonly used filters include `upper`, `lower`, `title`, `default,` `join`, and `random`. Jinja also allows for the creation of custom filters to meet specific needs. Overall, filters are a powerful tool that can help you to manipulate data more easily and efficiently within your Jinja templates
+_Jinja filters_ are functions that can be applied to variables and expressions within Jinja templates to modify their output. They are used to perform a wide range of data manipulations, such as formatting strings, converting data types, and filtering lists. Some commonly used filters include `upper`, `lower`, `title`, `default,` `join`, and `random`. Jinja also allows for the creation of custom filters to meet specific needs. Overall, filters are a powerful tool that can help you to manipulate data more easily and efficiently within your Jinja templates
 
 **Examples:**
 
 * Truncate text: `{{ text|truncate(20) }}`
 * Capitalize names: `{{ user_name|capitalize }}`
 * Lowercase and replace text: `{{ user_email|lower|replace("@", "at") }}`
+
+## Types of Jinja
+
+### Variable expressions
+
+_Variable expressions_ are encapsulated by double curly braces (`{{` and `}}`) and will output the value of the variable or expression as they are evaluated.
+
+`{{ CTX.my_var }}`
+
+### Control flow statements
+
+These are used for decision-making functions such as `set`s, `if` statements and `for each`es. They are encapsulated by curly+percent signs (`{%` `%}`)
+
+```django
+{% set x = 100 %}
+```
+
+These statements typically do not output anything.
+
+### Comments
+
+Functionally, _comments_ do nothing. In the Rewst Monaco editor, you can use the hotkey `CTRL-/` to comment blocks of code.
+
+`{# COMMENT #}`
+
+### Whitespace
+
+By default, when Jinja begins a statement block, it preserves any _whitespace_ characters such as spaces, carriage returns, etc., before or after the block. In many cases, you'll want to remove any spaces you did not explicitly intend to have, so the addition of the `-` character in the open and closing braces will remove the whitespace before or after the statement, respectively.
+
+```django
+{%- for part in parts_list -%}
+  {{- part.name -}}
+{%- endfor -%}
+```
 
 ## Advanced Jinja in Rewst
 
@@ -174,22 +215,4 @@ This concise approach efficiently applies the squaring function to each item in 
 
 {% hint style="info" %}
 Interested in seeing Jinja examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.
-{% endhint %}
-
-## **Create variables in Jinja**
-
-### **In-workflow variable creation**
-
-* **Purpose:** Vital for organizing and managing data within workflows.
-* **Usage:** Variables store task results, facilitate dynamic content generation, and enhance the readability and maintainability of Jinja templates.
-
-### **Variable management with Jinja**
-
-Variables in Rewst are referred to as [data aliases](../automations/workflows/data-aliases.md). Data aliases defined within a workflow are prefixed with `CTX` for context variable. There are several variable types in Jinja. Learn more about them [here](data-types.md).&#x20;
-
-* **Creation and modification:** Use context (CTX) variables in data aliases on your task's transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
-* **Scope and accessibility:** These types of variables can be created and modified by workflow tasks but are not global; their scope is confined to the workflow.
-
-{% hint style="info" %}
-Variables do not automatically inherit down into subworkflows or up from subworkflows. In order to pass these values through, they need to be defined as [input or output variables](../automations/workflows/data-input-and-output-input-variables-and-context-variables.md)
 {% endhint %}

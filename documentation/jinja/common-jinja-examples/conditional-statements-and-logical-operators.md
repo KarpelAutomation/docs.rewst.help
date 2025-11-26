@@ -4,7 +4,7 @@
 
 In the context of Jinja templating, conditional statements and logical operators are vital tools for creating dynamic and responsive templates. This article provides an in-depth exploration of `if`, `elif`, and `else` statements, as well as the logical operators `and`, `or`, and `not` within the framework of Jinja.
 
-### **Understanding `if`, `elif`, and `else` Statements in Jinja**
+### **Understanding `if`, `elif`, and `else` statements in Jinja**
 
 In Jinja templating, `if`, `elif`, and `else` statements function similarly to their counterparts in traditional programming languages. They enable you to control the flow of your templates based on specific conditions.
 
@@ -12,7 +12,7 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 * `elif` stands for "else if" and is utilized to check additional conditions after the initial `if` statement. `elif` is evaluated only if the preceding `if` statement is false.
 * `else` is a fallback option. It executes a template code block when none of the preceding conditions (`if` and `elif`, if present) are true.
 
-### **Example 1: Using `if` and `else` Statements in Jinja**
+### **Example 1: Using `if` and `else` statements in Jinja**
 
 ```django
 {%- set dogs = 1 -%}
@@ -31,7 +31,7 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 
 ```
 
-### **Example 2: Using `if`, `elif`, and `else` Ladders in Jinja**
+### **Example 2: Using `if`, `elif`, and `else` ladders in Jinja**
 
 ```django
 {%- set value = 1 -%}
@@ -54,7 +54,7 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 While using multiple `elif` statements can be an option, it's generally not the best practice for handling numerous conditions in Jinja templates. Instead, consider using a dictionary switch for improved readability and efficiency when dealing with extensive branching logic.
 {% endhint %}
 
-### **Logical Operators: `and`, `or`, and `not` in Jinja**
+### **Logical operators: `and`, `or`, and `not` in Jinja**
 
 Logical operators in Jinja allow you to combine multiple conditions or negate a condition.
 
@@ -62,7 +62,7 @@ Logical operators in Jinja allow you to combine multiple conditions or negate a 
 * `or` requires at least one of the specified conditions to be true for the entire expression to be true.
 * `not` negates a condition, making it true if the original condition is false and vice versa.
 
-### **Example: Using Logical Operators in Jinja**
+### **Example: Use logical operators in Jinja**
 
 ```django
 {%- set dogs = 1 -%}
@@ -103,6 +103,3 @@ Logical operators in Jinja allow you to combine multiple conditions or negate a 
 {%- endif -%}
 ```
 
-### **Conclusion**
-
-In Jinja templating, mastering conditional statements and logical operators is fundamental for creating dynamic and adaptive templates. By understanding how `if`, `elif`, `else`, `and`, `or`, and `not` operate within the Jinja context, developers can craft templates that respond intelligently to various conditions, enhancing the flexibility and functionality of their templates. Always use these constructs thoughtfully to create efficient and effective Jinja templates.

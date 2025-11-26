@@ -67,7 +67,7 @@ Click on this action to reveal a number of input fields on the right-hand side.
 
 <figure><img src="../../../.gitbook/assets/m365-create-user-example-inputs.png" alt=""><figcaption></figcaption></figure>
 
-Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the right of the field to open up a Monaco editor, the same type that VSCode uses. Learn more about the [code that Rewst uses, called Jinja, here](../../jinja/intro-to-jinja.md).
+Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the right of the field to open up a Monaco editor, the same type that VSCode uses. Learn more about the [code that Rewst uses, called Jinja, here](/broken/pages/Xie1v7V1Vqm4kxsoGpiM).
 
 In the image below,  see how to use the variables by using CTX, which stands for context, and then the name of the variable. This will autocomplete to make it easier to reference.
 

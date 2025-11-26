@@ -1,10 +1,8 @@
 # Try/catch blocks
 
-## **Introduction**
-
 In the realm of Jinja templating, _Try/Catch blocks_ serve as indispensable tools for handling errors gracefully. This article delves into the concept of Try/Catch blocks in Jinja, explaining their significance and providing practical examples of their usage.
 
-### **Understanding try/catch blocks**
+### **Understand try/catch blocks**
 
 Try/Catch blocks in Jinja function similarly to error-handling mechanisms in other programming languages. They allow developers to anticipate potential errors and handle them in a controlled manner. By encapsulating code within a Try block, developers can monitor for errors and respond appropriately when issues arise.
 

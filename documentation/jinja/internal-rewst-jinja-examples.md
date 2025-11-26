@@ -7,8 +7,6 @@
 * Press `Ctrl + Space` to get the initial root options.
 * Add `|` to the end of your variables to access [Jinja filters](list-of-jinja-filters.md). e.g.: `{{ ORG.ATTRIBUTES.id|default('test default string') }}`&#x20;
 
-***
-
 ## Variable roots
 
 {% tabs %}
@@ -108,8 +106,6 @@ Reference attributes and properties of the user that ran, executed, triggered, t
 * Autocompletion is generally available after typing the dot (`.`) following a variable root like `CTX`, `ORG`, etc.
 {% endhint %}
 
-***
-
 ## Rewst level Jinja variables
 
 Rewst uses a set of Jinja variables that are available at the "Rewst" level. The following list contains all possible Rewst level Jinja variables:
@@ -161,7 +157,7 @@ To view a list of all available attributes in your editor, enter `ORG.` between 
 
 <figure><img src="../../.gitbook/assets/image (72) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Examples of system organization variables
+#### Examples of system ORG variables
 
 | Variable                   | What it does                                        |
 | -------------------------- | --------------------------------------------------- |
@@ -295,8 +291,6 @@ The `format_datetime` filter leverages format codes to specify the output string
 
 For more context and assistance with date-time formats, consult [this Python strftime cheatsheet](https://strftime.org/).
 
-***
-
 ## Rewst's custom Jinja2 extensions
 
 In your Rewst environment, you have access to several custom Jinja2 extensions that enhance the functionality of Jinja templates in Rewst. These extensions provide additional features and capabilities for your templating needs.
@@ -392,8 +386,6 @@ Result: This done the same as the above, except it has two conditions - adding t
 {% hint style="info" %}
 To read more in depth about this topic, please review the [Jinja List ](use-cases-and-best-practices/jinja-lists.md)[Comprehension](use-cases-and-best-practices/jinja-lists.md) page.
 {% endhint %}
-
-***
 
 ### **List comprehension examples**
 

@@ -37,6 +37,9 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 
 * For Microsoft 365 setup, our [Microsoft Cloud integration bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be successfully integrated with your Rewst platform.
 * For Active Directory setup, you’ll need to first set up your [RMM integration](https://docs.rewst.help/documentation/integrations/rmm), or [Agent Smith](https://docs.rewst.help/documentation/agent-smith).
+* The organization variables listed here must be set before unpacking this Crate:
+  * **default\_PSA** - This should be set in the parent msp tenant. It ells the Crate which ticking system your MSP is using.&#x20;
+  * **jit\_prefix** - This is optional. Setting it creates a prefix that will be prepended to the user's name in order to create the admin account. By default, this will be set to `rewst- username`, but can be changed to anything you'd like, such as the name of your MSP.  This can be set at the MSP parent level, or set individually at the level of each organization.&#x20;
 * Your PSA must be [integrated with Rewst](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations).
 * An open ticket must exist in your PSA.
 

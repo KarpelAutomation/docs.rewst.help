@@ -413,7 +413,6 @@
   * [Permissions and roles](documentation/settings/roles.md)
   * [Tags](documentation/settings/tags-in-rewst.md)
 * [Jinja](documentation/jinja/README.md)
-  * [Intro to Jinja](documentation/jinja/intro-to-jinja.md)
   * [Jinja essentials](documentation/jinja/jinja-essentials.md)
   * [Data types](documentation/jinja/data-types.md)
   * [Jinja filters](documentation/jinja/list-of-jinja-filters.md)
