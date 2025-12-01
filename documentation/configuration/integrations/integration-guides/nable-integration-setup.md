@@ -113,7 +113,6 @@ If you're writing custom PowerShell scripts to use and be run with your RMM inte
 * The webhook calls everyone doing this custom scripting should use will always be as follows.
 
 ```
-`
 
 ### Send all the data back to RewstyRewst ###
 
@@ -122,7 +121,6 @@ If you're writing custom PowerShell scripts to use and be run with your RMM inte
 $postData = $PS_Results | ConvertTo-Json
 
 Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
-`
 ```
 
 ## Test the integration

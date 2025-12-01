@@ -8,11 +8,13 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 This Crate checks daily for unused M365 licenses that can be returned to Pax8, then creates a ticket in your PSA with the information. The ticket will include hyperlinks to update the purchased quantity to match the used quantity and remediate unused licenses.
 
+{% hint style="info" %}
 Note that the existence of an SKU in Microsoft doesn’t mean that it was purchased through Pax8. Customers can still buy directly from Microsoft. If a SKU doesn’t have a matching Pax8 subscription, it won’t be alerted on because the automation wouldn’t be able to modify or validate quantities for something that doesn’t exist in Pax8.
+{% endhint %}
 
 ### How the Crate works
 
-The workflow unpacked with this Crate runs on a cron trigger, and will generate the ticket at the same time each day.&#x20;
+The workflow unpacked with this Crate runs on a cron trigger, and will generate the ticket at the same time each day. If preferred, it also contains a webhook trigger; the cron trigger could be disabled, and the webhook trigger enabled to allow manual triggering.
 
 Tickets or alerts are generated only when all of the following is true:
 
@@ -56,6 +58,27 @@ No action is taken when any of the following is true:
 26. The **core\_delay\_workflow\_for\_period** task introduces a one-minute delay and manages retry logic if the maximum retry count has not been reached.
 27. If no undersubscribed SKUs are found, the **no\_unaligned\_subs\_found** task terminates the workflow without taking any action.
 
+The workflow will do the main license adjustment in Pax8 without any required user action, and has three possible outcomes after attempting license removal.
+
+1. **Success** - updates the PSA ticket with success message
+2. **Failure** where the condition is succeeded but part of the execution did not work - updates ticket with failure details and error messages
+3. **Complete failure** - updates ticket with failure details and error messages
+
+#### What the Crate excludes
+
+The workflow unpacked with this Crate won't process any licenses that have 10,000 or more purchased units. This is an intentional safety mechanism to prevent:
+
+* Processing massive enterprise licenses that might be intentionally over-provisioned
+* Accidental reduction of licenses for organizations with very large license pools
+
+Licenses under 10,000 units will be processed normally and included in the PSA ticket for potential reduction. Licenses with more than 10,000 units will be automatically excluded from processing, but no notification will be sent when these licenses are excluded.&#x20;
+
+The workflow will also exclude free, trial, and consumption-based licenses, as well as licenses with **Year** in the commitment term.
+
+{% hint style="info" %}
+Optionally, you can set the organization variable `pax8_license_removal_exclusions` to exclude specific organizations.
+{% endhint %}
+
 ## Crate prerequisites
 
 Before unpacking this Crate:
@@ -75,16 +98,16 @@ Your[ PSA must be integrated](../../configuration/integrations/top-5-integration
 3. Click **Unpack Crate**.
 4. Click **Continue.**
 5. Enter your **Time Saved**.
-6. Expand the **Cron Job** accordion menu and ensure that **Enabled** is toggled on.
+6. Expand the **Cron Job** accordion menu and ensure that **Enabled** is toggled on.&#x20;
 7. Click **Unpack**.
 
-### Use the Alert on Unused M365 Licenses Crate
+## Test the Crate
 
 {% hint style="info" %}
 The workflow must first be run as the top level parent organization. Then, the workflow can be used by  child organizations.
 {% endhint %}
 
-The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself.
+The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. To test the Crate, adjust the trigger to five minutes in the future. Then, check your PSA to see if tickets were created. If your execution is successful, go back into the workflow and reset the cron trigger's timing to your normal desired schedule.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `Pax8 Extra License Removal.`
@@ -95,6 +118,8 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
     <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FwnXIbYjmeXtTETWFBKkI%252FScreenshot%25202025-06-25%2520at%25205.53.42%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D53680b5e-a0a9-4260-8d31-4802c66355e8&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e56327e1&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.
 6. Click **Submit**.
+
+&#x20;If tickets are not created, check the workflow's execution results.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

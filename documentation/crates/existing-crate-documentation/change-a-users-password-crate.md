@@ -19,7 +19,7 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 
 1. The workflow begins with the **START** task using the **noop** action, which establishes valid identity provider types and initializes the workflow context.
 2. The **validate\_vars** task using the **noop** action verifies that required variables including the default PSA and password are present before proceeding.
-3. The **process\_inputs** task using the **noop** action determines the identity provider configuration based on organization variables and input parameters, setting the IDP type to azure\_ad, on\_prem, hybrid\_no\_sync, on\_prem\_only, or invalid\_idp.
+3. The **process\_inputs** task using the **noop** action determines the identity provider configuration based on organization variables and input parameters, setting the IDP type to **azure\_ad**, **on\_prem**, **hybrid\_no\_sync**, **on\_prem\_only**, or **invalid\_idp**.
 4. The **valid\_idp\_check** task using the **noop** action validates that the determined identity provider configuration is supported by the workflow.
 5. The **check\_on\_prem** task using the **noop** action evaluates whether on-premises password reset is needed based on the IDP configuration and checks if an RMM tool is available.
 6. If on-premises reset is required, the **change\_on\_prem\_password** task executes the **\[REWST - TASK] Run Powershell via RMM** action to change the user's password on the domain controller via PowerShell script.
@@ -53,9 +53,7 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 3. Click on the Crate tile to begin unpacking.\
    \
    ![](<../../../.gitbook/assets/image (139).png>)
-4.  Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the **Required Org Variables** section, as seen in the screenshot below. An org variable without a check mark [will still need to be set up](../../configuration/organization-variables.md) before proceeding with unpacking the Crate. When confirmed, click **Unpack Crate**.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
+4. Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the **Required Org Variables** section, as seen in the screenshot below. An [organization variable without a check mark will still need to be set up](../../configuration/organization-variables.md#what-is-an-organization-variable) before proceeding with unpacking the Crate. When confirmed, click **Unpack Crate**.
 5. Click **Continue**.
 6. Click **Unpack**.
 
