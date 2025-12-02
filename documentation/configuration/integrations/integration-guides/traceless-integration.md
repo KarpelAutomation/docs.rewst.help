@@ -34,11 +34,21 @@ Our Traceless integration empowers MSPs and businesses with enhanced data securi
 
 ### Set up steps in Traceless
 
+{% hint style="info" %}
+Note that the Traceless home screen has a large **Let's Go** button suggesting that you **Start a New Integration**. This is not how you integrate Traceless with Rewst. Follow the below directions to set up Rewst integration instead. Likewise, the home screen's **View** button suggesting that you **Manage Your Integrations** takes you to an integrations menu that will not contain Rewst once you have set up the integration. Setup and ongoing management of the integration takes place inside Rewst, not in Traceless' integration menus.&#x20;
+{% endhint %}
+
 1. Log in to your Traceless account.
-2. Navigate to **Traceless > Your Settings > Edit Settings**.
+2. Navigate to your **profile icon** in the top right corner **> Settings**.\
+   ![](<../../../../.gitbook/assets/Screenshot 2025-12-02 at 3.41.56 PM.png>)
 3. Scroll down to the **API Credentials** section.&#x20;
-4. Copy the API endpoint UUID— For example, arejg-3j4g-1223-3j4g
-5. Copy the **API Signing Secret**.&#x20;
+4. Copy the **API Endpoint** UUID, which is the last part of the endpoint URL that comes after the / — For example, `arejg-3j4g-1223-3j4g`.
+5. Copy the value in the **API Signing Secret** field.
+6. Store both pieces of information someplace secure. You'll need them for further setup steps in Rewst.
+
+{% hint style="warning" %}
+If you don't see the **API Credentials** section of the settings page, please contact Traceless' support for assistance. This may be a permission issue.
+{% endhint %}
 
 ### Set up steps in Rewst
 
@@ -59,12 +69,12 @@ The Traceless integration does not require you to complete the organization mapp
 ## Test the integration
 
 {% hint style="warning" %}
-There is no org mapping available for this integration. To test its functionality, manually verify that the workflow successfully interacts with your Traceless account.
+There is no organization mapping available for this integration. To test its functionality, manually verify that the workflow successfully interacts with your Traceless account.
 {% endhint %}
 
 1. Create a test workflow in Rewst that utilizes a Traceless action. Note that after testing, this workflow won't be needed, and could be deleted.
 2. Run the workflow.
-3. Click <img src="../../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.52 PM (1).png" alt="" data-size="line"> in your workflow builder's top toolbar to view the execution log. If set up correctly, the log should not contain failures.&#x20;
+3. Click <img src="../../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.52 PM (1).png" alt="" data-size="line"> in your Workflow Builder's top toolbar to view the execution log. If set up correctly, the log shouldn't contain failures.&#x20;
 
 {% hint style="success" %}
 Got an idea for a new integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

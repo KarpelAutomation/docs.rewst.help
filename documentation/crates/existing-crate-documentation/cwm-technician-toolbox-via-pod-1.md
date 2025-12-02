@@ -19,13 +19,14 @@ Before unpacking this Crate:
 
 * Your [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be successfully set up.
 * You must configure the pod to work with Rewst. Follow our guide for pod configuration [here](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup#connectwise-psa-pod-configuration).
+* The organization variable `pod_toolbox_itglue_url` must be set before unpacking this Crate in order for the IT Glue Portal URL in the Crate to work.
 
 ## Unpack the Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform
 2. Search for `CW PSA: Pod Technician Toolbox V2`_._\
    \
-   ![](<../../../.gitbook/assets/image (150).png>)
+   ![](<../../../.gitbook/assets/Screenshot 2025-12-02 at 4.43.32 PM.png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

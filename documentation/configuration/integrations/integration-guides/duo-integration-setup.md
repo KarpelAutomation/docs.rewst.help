@@ -55,7 +55,7 @@ Now, retrieve the Admin API directory key for directory synchronization. This ke
 2. Navigate to **Users > External Directories**.
 3. Click on your configured directory from the **Directory Syncs** list.&#x20;
 4. Scroll down to the **Admin API directory key** field.
-5. Copy the key value.
+5. Copy the key value and store it someplace secure. You'll need it for further set up steps in Rewst.
 
 {% hint style="info" %}
 **Important notes about the directory key:**
@@ -87,7 +87,9 @@ Now, retrieve the Admin API directory key for directory synchronization. This ke
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.47.51 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
-7. Apply the Admin API Directory Key for each organization in the `duo_admin_api_directory_key` field, if present in your configuration screen.
+7. Apply the Admin API Directory Key for each organization in the `duo_admin_api_directory_key` field under the organization mapping menu.
+
+<figure><img src="../../../../.gitbook/assets/image (79) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
