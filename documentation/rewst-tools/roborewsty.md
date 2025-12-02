@@ -21,7 +21,7 @@ Currently, you can ask it questions about the platform and get instant guidance 
   * "List and search organization variables across categories."
 * Ask RoboRewsty for help with troubleshooting workflows and understanding why something failed. Paste an error into the chat or ask why a run failed, and RoboRewsty will break it down, point to the issue, and suggest what to do next.
   * Navigate to **Automations > Workflows > Your Desired Workflow > View Results**. In the execution results, ask RoboRewsty for help with understanding results, both successes and failures.
-* Use RoboRewsty as your personal Rewst navigator. Ask him about about your workflows, variables and integrations, and get answers specific to your individual Rewst environment.
+* Use RoboRewsty as your personal Rewst navigator. Ask him about your workflows, variables and integrations, and get answers specific to your individual Rewst environment.
   * “What integrations are available in my org?”&#x20;
   * "List recent executions of workflow \[name]."
 * Get tailored support and guidance while building in Rewst. Whether you’re working with Jinja, action parameters, or workflow design, ask RoboRewsty for best practices and guidance while you build.

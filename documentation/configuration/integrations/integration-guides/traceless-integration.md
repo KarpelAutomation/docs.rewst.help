@@ -12,7 +12,7 @@ Our Traceless integration empowers MSPs and businesses with enhanced data securi
 
 **Secure data transmission and prevention of exfiltration**
 
-* Encrypt and securely transmit sensitive information (passwords, credentials, or confidential files) using Traceless’ Trace feature.
+* Encrypt and securely transmit sensitive information such as passwords, credentials, or confidential files using Traceless’ Trace feature.
 * Automate temporary access provisioning by wrapping secrets in Traces and setting expiration policies for automatic deletion.
 * Prevent data leaks and insider threats by ensuring MSPs never send sensitive data in plaintext over email or chat.
 

@@ -12,7 +12,7 @@ Our Duo integration enables the automation of multi-factor authentication tasks.
 
 ### Set up steps in Duo
 
-There are three different APIs provided by Duo, as well as a key to initiate an individual user directory sync.
+There are three different APIs provided by Duo, as well as a key to initiate an individual user directory sync. You'll be setting up each of these APIs and pulling information from each to put into Rewst to achieve the integration.
 
 {% stepper %}
 {% step %}
@@ -24,7 +24,7 @@ This API allows administrators to manage their Duo accounts programmatically. Wi
 {% step %}
 **Duo Accounts API**
 
-The Accounts API lets customers programmatically create, delete, and manage individual Duo customer accounts. New Duo accounts created using the Accounts API are subaccounts of the account where the Accounts API application exists, creating a "parent" and "child" account relationship. A Duo account can have multiple child accounts, but a child account may only have one parent and no child accounts of its own.
+The Accounts API lets customers programmatically create, delete, and manage individual Duo customer accounts. New Duo accounts created using the Accounts API are subaccounts of the account where the Accounts API application exists, creating a parent and child account relationship. A Duo account can have multiple child accounts, but a child account may only have one parent and no child accounts of its own.
 {% endstep %}
 
 {% step %}
@@ -34,13 +34,28 @@ This API allows developers to add two-factor authentication to their application
 {% endstep %}
 {% endstepper %}
 
+#### Set up the Duo API accounts
+
+{% hint style="warning" %}
+For all of the following, make sure to copy the designated information into a secure location. Once you migrate away from the page where it is displayed, you won't be able to view that information again.
+{% endhint %}
+
+1. Create the Duo Admin API by following the instructions [here](https://duo.com/docs/adminapi#first-steps).
+   * You'll need the integration key, secret key, and API hostname.
+2. Create the Duo Accounts API by following the instructions [here](https://duo.com/docs/accountsapi#first-steps).
+   * You'll  need the integration key, secret key, and API hostname.
+3. Create the Duo Auth API by following the instructions [here](https://duo.com/docs/authapi).
+   * You'll need the integration key, secret key, and API hostname.
+
 #### Obtain the Admin API directory key
 
-After setting up the required API accounts (Admin, Accounts, and Auth APIs) and gathering their integration keys, secret keys, and hostnames, the next critical step is to retrieve the Admin API Directory Key for directory synchronization. This key is vital for mapping users accurately within Duo's directory sync configurations.
+Now, retrieve the Admin API directory key for directory synchronization. This key is vital for mapping users accurately within Duo's directory sync configurations.
 
 1. Log in to the Duo Admin Panel.
-2. Navigate to **Users > Directory Sync**.
-3. Select your configured directory to locate the **Admin API Directory Key**.
+2. Navigate to **Users > External Directories**.
+3. Click on your configured directory from the **Directory Syncs** list.&#x20;
+4. Scroll down to the **Admin API directory key** field.
+5. Copy the key value.
 
 {% hint style="info" %}
 **Important notes about the directory key:**
@@ -51,19 +66,6 @@ After setting up the required API accounts (Admin, Accounts, and Auth APIs) and 
 <img src="../../../../.gitbook/assets/image (41).png" alt="" data-size="original">
 {% endhint %}
 
-#### Set up the API accounts
-
-{% hint style="warning" %}
-For all of the following, make sure to copy the designated information into a secure location. Once you migrate away from the page where it is displayed, you won't be able to view that information again.
-{% endhint %}
-
-1. Create an Admin API by following the instructions [here](https://duo.com/docs/adminapi#first-steps).
-   * We will need the integration key, secret key, and API hostname.
-2. Create an Accounts API by following the instructions [here](https://duo.com/docs/accountsapi#first-steps).
-   * We will need the integration key, secret key, and API hostname.
-3. Create an Auth API by following the instructions [here](https://duo.com/docs/authapi).
-   * We will need the integration key, secret key, and API hostname.
-
 ### Set up steps in Rewst
 
 1. Navigate to Configuration > Integrations in the left side menu of your Rewst platform.
@@ -71,7 +73,7 @@ For all of the following, make sure to copy the designated information into a se
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.42.04 AM.png>)
 3. Click on the integration tile to launch the configuration setup page.
-4. Under **Parameters**, enter the information you copied from Duo into its relevant field:
+4. Under **Parameters**, enter the information you copied from Duo into its relevant field. Note that all fields are required:
    1. **Auth Host:** The Duo API server hostname
    2. **Auth Integration Key**: The Duo API integration key
    3. **Auth Secret Key**: The Duo secret key
@@ -85,7 +87,7 @@ For all of the following, make sure to copy the designated information into a se
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-05 at 10.47.51 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
-7. Apply the Admin API Directory Key under `Setting up the API accounts` for each organization in the `duo_admin_api_directory_key` field.
+7. Apply the Admin API Directory Key for each organization in the `duo_admin_api_directory_key` field, if present in your configuration screen.
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
