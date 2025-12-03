@@ -15,7 +15,7 @@ Our Find Inactive Computers in RMM Crate identifies endpoints in the RMM platfor
 * Notifies the appropriate team or technician by creating a detailed service ticket
 * Keeps RMM inventory accurate and useful by surfacing forgotten or decommissioned endpoints
 
-The Crate is typically triggered by a scheduled cron trigger, which allows for regular check-ins.
+The Crate is triggered by a scheduled cron trigger, which allows for regular check-ins.
 
 ## Unpack the Find Inactive Computers in RMM Crate
 
@@ -29,17 +29,6 @@ The Crate is typically triggered by a scheduled cron trigger, which allows for r
 5. Click **Continue**.
 6. Ensure that **Enabled** is toggled on for the **Cron Job** accordion menu under **Configure Triggers**. Note that you have the option to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](../../settings/tags-in-rewst.md), and set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 7. Click **Unpack**.
-
-### Use the Crate
-
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
-2. Search for `Get Form Links and Add to Ticket`.
-3. Click **⋮ > Usages > View Direct URLs.**
-4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
-5. Choose the organization you'd like to run the form on from the **Organization** drop-down selector.\
-   \
-   ![](<../../../.gitbook/assets/image (220).png>)
-6. Click **Submit** to run the workflow. The workflow will run and automatically add notes to your PSA with the results of the software operation.
 
 ### Test the Crate
 
