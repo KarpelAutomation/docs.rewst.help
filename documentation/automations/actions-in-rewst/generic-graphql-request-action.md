@@ -17,7 +17,6 @@ Before using the Generic GraphQL Request action, ensure that you have:
 
 * An understanding of GraphQL query structure and syntax
 * Familiarity with Rewst's data model and available schema
-* The necessary feature flag enabled for your organization
 {% endhint %}
 
 **Parameters:**

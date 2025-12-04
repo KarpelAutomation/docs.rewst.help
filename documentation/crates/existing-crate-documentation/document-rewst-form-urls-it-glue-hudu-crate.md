@@ -77,7 +77,7 @@ An organization variable will automatically be created while unpacking the Crate
 * For Hudu users, `hudu_form_excluded_forms`&#x20;
 * For ITGlue users, `itg_form_excluded_forms`
 
-These org variables are created as an empty list between two `[]` and will contain a list of trigger IDs. To use this feature, edit the org variable and insert the trigger IDs of any forms you wish to exclude within the brackets, separated by commas. For example: `[form_trigger_id_1, form_trigger_id_2]`. The related portion of the Crate's workflow will retrieve a list of all forms and find the ones that don't match the input. Forms in that list will be removed.\
+These org variables are created as an empty list between two `[]` and will contain a list of trigger IDs. To use this feature, edit the org variable and insert the trigger IDs of any forms you wish to exclude within the brackets, separated by commas. For example: `["form_trigger_id_1", "form_trigger_id_2"]`. The related portion of the Crate's workflow will retrieve a list of all forms and find the ones that don't match the input. Forms in that list will be removed.\
 &#x20;&#x20;
 
 {% hint style="info" %}

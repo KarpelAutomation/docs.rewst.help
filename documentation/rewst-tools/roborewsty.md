@@ -116,6 +116,16 @@ This layered design ensures RoboRewsty can provide tailored, context-aware help 
 
 </details>
 
+### RoboRewsty guardrails limitations
+
+RoboRewsty's setup structure will sometimes cause him to give you the answer of **Sorry, the model cannot answer this question**. This is due to guardrails filters built into the AI model we use. Occasionally, even safe and valid prompts may be misinterpreted and blocked by this filter. If this happens, try:
+
+* Rephrasing your prompt or asking the question again
+* Tying your question to your Rewst environment/Adding more context
+* Confirming that your prompt doesn’t contain or request any personally identifiable information (PII)
+
+Be sure to let us know when you encounter this error by using RoboRewsty's feedback features, to help us improve his responses.
+
 ## Access RoboRewsty
 
 Find RoboRewsty in the top right of your Rewst navigation bar in Rewst. Click <img src="../../.gitbook/assets/Screenshot 2025-09-16 at 11.52.01 AM.png" alt="" data-size="line">to open **Chat with RoboRewsty**.&#x20;

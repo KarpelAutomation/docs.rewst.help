@@ -25,6 +25,10 @@ Here are some features and keystrokes you can use with the Monaco Editor in Rews
   * **Ctrl + Space:** Trigger code completion
   * **Ctrl + /:** Toggle line commenting
 
+{% hint style="info" %}
+Note that Rewst's Jinja2 implementation displays mutable object— lists, dicts, namespaces—  in their final state immediately when first rendered, rather than their current state at render time. This differs from standard Jinja2 behavior where objects should display their state at the time of rendering.
+{% endhint %}
+
 ### Work with JSON
 
 **Format:** JSON (JavaScript Object Notation) structures data in key-value pairs.
