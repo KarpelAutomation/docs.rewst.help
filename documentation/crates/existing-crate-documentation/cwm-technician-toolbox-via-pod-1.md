@@ -19,7 +19,7 @@ Before unpacking this Crate:
 
 * Your [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be successfully set up.
 * You must configure the pod to work with Rewst. Follow our guide for pod configuration [here](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup#connectwise-psa-pod-configuration).
-* The organization variable `pod_toolbox_itglue_url` must be set before unpacking this Crate in order for the IT Glue Portal URL in the Crate to work.
+* The organization variable `pod_toolbox_itglue_url` must be set before unpacking this Crate in order for the IT Glue Portal URL in the Crate to work. Note the example URL, where you would edit the text between the asterisks with your own information: `https://*itgluebaseurl*.itglue.com/`.
 
 ## Unpack the Crate
 
