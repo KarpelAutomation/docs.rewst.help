@@ -63,7 +63,7 @@ If you have completed these steps and customers are not showing up when refreshi
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="info" %}
-Note that if you have IP address restrictions in place, you'll need to add the Rewst IP to your allowed list. The IP for Rewst is 3.139.170.31.
+Note that if you have IP address restrictions in place, you'll need to add the Rewst IP to your allowed list. The US IP for Rewst is 3.139.170.31. For other regional IP information, see our [security policy here](https://docs.rewst.help/security/security-policy).
 {% endhint %}
 
 ## Use custom PowerShell scripts with your RMM integration
