@@ -40,5 +40,7 @@ There are no new Crates this week.
 * Travelling Employee CA Policy Form
 * GDAP Crate Improvements
 * Duo Identity Verification
+* Dropsuite: Create New Account
+* Dropsuite: Monitor Backups
 
 </details>

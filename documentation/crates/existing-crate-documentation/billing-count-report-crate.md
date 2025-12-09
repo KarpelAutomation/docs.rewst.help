@@ -8,6 +8,14 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 Our Billing Count Report Crate is designed to streamline and enhance the process of compiling billing counts from various integrations. This tool iterates through multiple integrations, collects relevant billing data, and generates a comprehensive report, ensuring accuracy, efficiency, and consistency.&#x20;
 
+### How the Crate works
+
+* This Crate supports a wide range of integrations, including Datto RMM, ConnectWise Automate, NinjaOne, Microsoft 365 licensing, Huntress, SentinelOne, Pax8, ITG, Auvik, Proofpoint, Cork, Immybot, Duo, and Dropsuite.
+* It retrieves billing data from each integration, eliminating the need for manual data collection, and aggregates data from different sources to provide a holistic view of the billing counts.
+* Users can schedule the report generation at regular intervals: daily, weekly, or monthly.
+* Choose one of three delivery mechanisms: attachment to a PSA ticket, attachment on an email, retrieve data running it as a subworkflow
+* Data is compiled into CSV format with all possible products, leaving blanks where applicable items are not configured or available
+
 ### Workflow breakdown
 
 1. The workflow begins with the **BEGIN** task which initializes the output structure with empty data, success status, and automation log arrays.
@@ -47,6 +55,23 @@ Your [RMM integration](../../configuration/integrations/top-5-integration-types-
 
 If choosing to deliver the report via PSA ticket, you'll also need to set up your [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) before unpacking this Crate.
 
+If choosing to use any of the following tools with this Crate, they must first be successfully integrated with Rewst before unpacking.
+
+* [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
+* [Connectwise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
+* [NinjaOne](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
+* [Microsoft 365 licensing](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/)
+* [Huntress](../../configuration/integrations/integration-guides/huntress-integration-setup.md)
+* [SentinelOne](../../configuration/integrations/integration-guides/sentinelone-integration-setup.md)
+* [Pax8](../../configuration/integrations/integration-guides/pax8-integration-setup.md)
+* [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md)
+* [Auvik](../../configuration/integrations/integration-guides/auvik-integration-setup.md)
+* [Proofpoint](../../configuration/integrations/integration-guides/proofpoint-integration-setup.md)
+* [Cork](../../configuration/integrations/integration-guides/cork-integration.md)
+* [Immybot](../../configuration/integrations/integration-guides/immybot-integration-setup.md)
+* [Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md)
+* [Dropsuite](../../configuration/integrations/integration-guides/dropsuite-integration.md)
+
 ## Unpack the Billing Count Report Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
@@ -70,13 +95,13 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 1. Navigate to **Automations > Workflows**.
 2. Search for `billing count` .
 3. Click on the workflow to open it in the workflow builder.
-4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then. A ticket or email will be generated if the workflow is successful.
+4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will trigger then on its own. A ticket or email will be generated if the workflow is successful.
 
 <figure><img src="../../../.gitbook/assets/image (49) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Troubleshoot the Billing Count Report Crate
 
-This workflow is meant to run from your parent organization only. If you’re seeing workflow failures for child organizations, disable the trigger for child organizations.
+This workflow is meant to run from your parent organization only. If you’re seeing workflow failures for child organizations, disable the trigger for child organizations in the configuration page for the Crate.
 
 <figure><img src="../../../.gitbook/assets/image (48) (2).png" alt=""><figcaption></figcaption></figure>
 

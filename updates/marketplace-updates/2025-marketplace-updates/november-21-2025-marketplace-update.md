@@ -4,10 +4,7 @@
 
 <summary><strong>New Crates and enhancements</strong></summary>
 
-These Crates will be live on Monday November 24:
-
-* Dropsuite: Create New Account
-* Dropsuite: Monitor Backups
+No new Crates were released this week.
 
 </details>
 
@@ -40,5 +37,7 @@ These Crates will be live on Monday November 24:
 * Per Machine Password Rotation
 * Enhanced logging for the user onboarding workflow
 * Various DropSuite Additions
+* Dropsuite: Create New Account
+* Dropsuite: Monitor Backups
 
 </details>
