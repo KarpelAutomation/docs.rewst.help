@@ -26,7 +26,7 @@ This Crate leverages powerful native integrations within Rewst to ensure seamles
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2. Search for `Automation Toolkit`.​\
    &#x20; \
-   &#x20;![](../../../.gitbook/assets/image.png)
+   &#x20;![](<../../../.gitbook/assets/image (317).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
