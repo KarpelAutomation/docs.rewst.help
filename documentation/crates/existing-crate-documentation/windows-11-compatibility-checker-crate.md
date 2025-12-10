@@ -31,7 +31,7 @@ Your [PSA must be successfully integrated](../../configuration/integrations/top-
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Windows 11 Compatibility Checker`.​\
    &#x20; \
-   &#x20;![](../../../.gitbook/assets/image.png)
+   &#x20;![](<../../../.gitbook/assets/image (316).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -52,7 +52,7 @@ Your [PSA must be successfully integrated](../../configuration/integrations/top-
     * **Send CSV -** Choose this option if you want to include a CSV file with the report. The CSV is a one-time link.
     * **Create Ticket -** Choose this option if you want to create a support ticket.
 
-    <figure><img src="../../../.gitbook/assets/image (316).png" alt="A navy blue screen with white test and several fields, presented as a form to be filled out. The title across the page says &#x22;Windows 11 Compatibility Report Submission.&#x22;"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (316) (1).png" alt="A navy blue screen with white test and several fields, presented as a form to be filled out. The title across the page says &#x22;Windows 11 Compatibility Report Submission.&#x22;"><figcaption></figcaption></figure>
 6. Click **Submit**.  You'll see message at the top of your screen indicating the form is submitted successfully.
 
 ## Organization variables associated with this Crate

@@ -69,7 +69,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `[ROC] Auvik: Network Device Report`.<br>
 
-    <figure><img src="../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
 

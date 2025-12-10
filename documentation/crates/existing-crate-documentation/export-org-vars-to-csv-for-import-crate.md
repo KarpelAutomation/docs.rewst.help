@@ -43,7 +43,7 @@ Our Export Org Vars to CSV Crate helps in effortlessly managing your organizatio
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `[ROC] Organization Variables to CSV`.<br>
 
-    <figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5. Select the applicable **Trigger Context Organization** from the drop-down list.
@@ -65,7 +65,7 @@ For more on how CSVs can be generated with Jinja, see our documentation [here](h
 
 This workflow is meant to run from your parent organization only. If you’re seeing workflow failures for child organizations, disable the trigger for child organizations.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

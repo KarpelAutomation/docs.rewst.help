@@ -201,6 +201,7 @@
     * [Alert on Expiring App Reg Secrets Crate](documentation/crates/existing-crate-documentation/alert-on-expiring-app-reg-secrets-crate.md)
     * [Alert on Login From Non Native Country Crate](documentation/crates/existing-crate-documentation/alert-on-login-from-non-native-country-crate.md)
     * [Alert on Low Disk Space Crate](documentation/crates/existing-crate-documentation/alert-on-low-disk-space-crate.md)
+    * [Alert on Onboard/Offboard Execution Crate](documentation/crates/existing-crate-documentation/alert-on-onboard-offboard-execution-crate.md)
     * [Alert on Unused M365 Licenses Crate](documentation/crates/existing-crate-documentation/alert-on-unused-m365-licenses-crate.md)
     * [Alert On Users Without MFA Enforced Crate](documentation/crates/existing-crate-documentation/alert-on-users-without-mfa-enforced-crate.md)
     * [Alert when Users' Mailboxes are Reaching Quota Crate](documentation/crates/existing-crate-documentation/alert-when-users-mailboxes-are-reaching-quota-crate.md)

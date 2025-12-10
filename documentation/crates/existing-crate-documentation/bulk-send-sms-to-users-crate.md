@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Bulk Send SMS to Users Crate
 
 {% hint style="info" %}
