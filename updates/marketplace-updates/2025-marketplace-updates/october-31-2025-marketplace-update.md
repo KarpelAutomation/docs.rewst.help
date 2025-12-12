@@ -17,7 +17,7 @@
   * Add Copilot SKU to template and sync to client
   * Update Jinja to retrieve default orgunit with added condition
   * Set Task Transition Criteria Sensitivity to 1 on failure\_catch noop in M365/On-Prem: Resolve Groups
-* [Use OpenAI to Suggest Responses to New Tickets](../../../documentation/crates/existing-crate-documentation/use-openai-to-suggest-responses-to-new-tickets-crate.md)
+* [Use OpenAI to Suggest Responses to New Tickets](../../../documentation/crates/existing-crate-documentation/use-ai-to-suggest-responses-to-new-tickets-crate.md)
   * Align transitions across PSAs; Datto uses Description when no notes; rename Halo transition
 * [Document BitLocker Information](../../../documentation/crates/existing-crate-documentation/document-bitlocker-information-crate.md)
   * Use org var itg\_bitlocker\_computer\_config\_type for default config\_type\_name with 'Computer' fallback

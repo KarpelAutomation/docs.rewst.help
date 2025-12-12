@@ -85,34 +85,51 @@ This layered design ensures RoboRewsty can provide tailored, context-aware help 
 
 ### Complete list of what RoboRewsty has access to
 
-<details>
-
-<summary>Tools</summary>
-
-* **searchWorkflowsByName:** Search for workflows by name with optional exact matching
-* **getActionParameters:** Retrieves the parameters schema for a specific action
-* **listCommonlyUsedIntegrationActions:** List most commonly used integration actions for an integration ID
-* **searchPacksByNameOrRef:** Search for packs by name or reference with optional exact matching
-* **getOrgHierarchy:** Get the organization hierarchy for the active organization
-* **searchActionsByNameOrDescription:** Search for actions by name or description with optional exact matching
-* **getJinjaFilterReference:** Jinja2 filters reference with docs and usage details
-* **getWorkflowExecutionContext:** Retrieve context for a specific workflow execution
-* **getUserInfo:** Information about the current authenticated user
-
-</details>
+RoboRewsty uses a set of internal tools and resources to understand your environment and give grounded, accurate responses. Understanding RoboRewsty’s capabilities can help you provide the right information in your prompting.&#x20;
 
 <details>
 
 <summary>Resources: List/Get items</summary>
 
-* **Workflow:** listWorkflow, readWorkflow
-* **Integration:** listIntegration, readIntegration
-* **Organization:** listOrganization, readOrganization
-* **OrgVariable:** listOrgVariable, readOrgVariable
-* **Action:** listAction, readAction
-* **WorkflowExecution:** listWorkflowExecution, readWorkflowExecution
-* **TaskLog:** listTaskLog, readTaskLog
-* **Trigger:** listTrigger, readTrigger
+These are the objects RoboRewsty can “look at” to give grounded, context-aware responses
+
+**Workflows**&#x20;
+
+* **listWorkflow:** Lets RoboRewsty know which workflows exist in your workspace.
+* **readWorkflow:** Gives RoboRewsty access to the structure of a workflow (steps, logic, actions).
+
+**Integrations**
+
+* **listIntegration:** Allows RoboRewsty to see the full catalog of integrations supported by Rewst (those you have and haven’t configured) so it can recommend the right systems, actions, and possibilities when helping you plan, build, or troubleshoot workflows.
+* **readIntegration:** Helps RoboRewsty understand what each integration is used for, it's available actions, and configuration setup information.&#x20;
+
+**Organizations**&#x20;
+
+* **listOrganization:** Allows RoboRewsty to understand and list organizations you have access to in your environment for you.
+* **readOrganization:** Gives access to org-level variables RoboRewsty can use in explanations or to support you with Jinja.
+
+**Organization variables**
+
+* &#x20;**listOrgVariable/readOrgVariable:** Lets RoboRewsty understand available variables for Jinja or workflow configuration.
+
+**Actions**&#x20;
+
+* **listAction/readAction:** Helps RoboRewsty understand what actions do and how to configure them
+
+**Workflow executions**
+
+* **listWorkflowExecution/readWorkflowExecution:** Gives RoboRewsty the ability to understand workflow history and run outcomes.
+* **getWorkflowExecutionContext:** Gives access to the data and variables that existed at runtime.
+
+**Task logs**
+
+* **listTaskLog:** Allows RoboRewsty to view all task-level logs for a workflow execution, so it can analyze each step’s outcome.
+* **readTaskLog:** Allows RoboRewsty to analyze detailed information about a specific task’s execution.&#x20;
+
+**Triggers**
+
+* **listTrigger:** Allows RoboRewsty to see all triggers across your environment, including their status, type, and workflow associations.&#x20;
+* **readTrigger:** Allows RoboRewsty to read the configuration of a specific trigger and how it affects workflow behavior.
 
 </details>
 
