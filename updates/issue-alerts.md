@@ -8,7 +8,27 @@ icon: circle-exclamation
 
 <details>
 
-<summary>⚠️ Upcoming: Planned maintenance window - US region November 16th, 2025</summary>
+<summary>⚠️ Resolved: Service performance issue - US region December 10th, 2025</summary>
+
+On December 10th, from 6:25 pm ET to 8:27 pm ET, the Rewst platform experienced intermittent delays in workflow processing. We recommend checking any workflows that were expected to run during this time to ensure that they executed as expected.
+
+#### Updates
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
+<details>
+
+<summary>⚠️ Concluded: Planned maintenance window - US region November 16th, 2025</summary>
 
 On Sunday, November 16th at 9:00 AM EDT, Rewst will be performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be migrating US users to our new permissions system. Due to the size of our US region, we expect up to 30 minutes where creating new entities, such as organizations or users, will result in under-provisioning or lack of access. Affected entities include:
 

@@ -47,15 +47,21 @@ For more on how actions work in Rewst, check out our [introductory actions docum
 
 | Category        | Action                     | Description                                                                                                              |
 | --------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Gdap            | List GDAP Roles            | Retrieves a list of existing GDAP roles                                                                                  |
+| Gdap            | Create GDAP Invite         | Creates a new GDAP invite                                                                                                |
+| Gdap            | List GDAP Role Templates   | Retrieves a list of existing GDAP role templates                                                                         |
 | Generic Request | CIPP API Request           | Generic action for making authenticated requests against the CIPP API                                                    |
-| Security        | Send MFA Push              | Sends an MFA push notification to a user                                                                                 |
+| Licenses        | List Licenses              | Retrieves a list of licenses                                                                                             |
 | Security        | List Application Queue     | Retrieves a list of applications in the consent queue to keep tabs on application consent requests from users            |
-| Security        | List MFA Users             | Retrieves a list of users with MFA information to generate compliance reports and flag who's enabled and who isn't       |
-| Sharepoint      | Set SharePoint Member      | Add or remove a user as a member of a SharePoint site                                                                    |
-| Sharepoint      | Set SharePoint Permissions | Add or remove a user as a site admin for SharePoint or add/remove permissions for OneDrive                               |
+| Security        | List MFA Users             | Retrieves a list of users with MFA information to generate compliance reports and flags who's enabled and who isn't      |
+| Security        | Send MFA Push              | Sends an MFA push notification to a user                                                                                 |
+| Sharepoint      | Set SharePoint Member      | Adds or removes a user as a member of a SharePoint site                                                                  |
 | Sharepoint      | List Sites                 | Lists SharePoint sites                                                                                                   |
-| Tenants         | List Tenants               | Retrieves a list of tenants                                                                                              |
+| Sharepoint      | Set SharePoint Permissions | Adds or removes a user as a site admin for SharePoint or adds and removes permissions for OneDrive                       |
+| Standards       | List Standards             | Retrieves a list of standards                                                                                            |
+| Standards       | List Standard Templates    | Retrieves a list of standard templates                                                                                   |
 | Tenants         | List Graph Request         | Generic endpoint for making Graph API requests with different parameters                                                 |
+| Tenants         | List Tenants               | Retrieves a list of tenants                                                                                              |
+| Tools           | List Domain Health         | This action is used to check the health of a domain. This can check for the SPF, NS, DMARC, DKIM, and other DNS records. |
 | Tools           | List Domain Analyser       | This action is used to check general health diagnostics and comprehensive domain security assessments.                   |
-| Tools           | List Domain Health         | This action is used to check the health of a domain, this can check for the SPF, NS, DMARC, DKIM, and other DNS records. |
-| Users           | List Users                 | List users for selection in forms                                                                                        |
+| Users           | List Users                 | Lists users for selection in forms                                                                                       |
