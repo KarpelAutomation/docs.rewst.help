@@ -35,13 +35,18 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 
 ## Crate prerequisites
 
+* Your PSA must be [integrated with Rewst](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations).
+* An open ticket must exist in your PSA.
 * For Microsoft 365 setup, our [Microsoft Cloud integration bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be successfully integrated with your Rewst platform.
 * For Active Directory setup, you’ll need to first set up your [RMM integration](https://docs.rewst.help/documentation/integrations/rmm), or [Agent Smith](https://docs.rewst.help/documentation/agent-smith).
 * The organization variables listed here must be set before unpacking this Crate:
   * **default\_PSA** - This should be set in the parent MSP tenant. It tells the Crate which ticketing system your MSP is using.&#x20;
   * **jit\_prefix** - This is optional. Setting it creates a prefix that will be prepended to the user's name in order to create the admin account. By default, this will be set to `rewst- username`, but can be changed to anything you'd like, such as the name of your MSP.  This can be set at the MSP parent level, or set individually at the level of each organization.&#x20;
-* Your PSA must be [integrated with Rewst](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations).
-* An open ticket must exist in your PSA.
+  * If you use on-premises Microsoft environments, `default_rmm` must be set before unpacking this Crate. This Crate leverages your RMM to run a PowerShell script on the domain controllers to execute core Crate functions.&#x20;
+    *   Optionally, you may set the variable `preferred_domain_controller`, which will act as a fallback in the event that `default_rmm` is not configured. If the fallback is not set, and `default_rmm` is not configured, your workflow will fail. \
+        <br>
+
+        <figure><img src="../../../.gitbook/assets/image (319).png" alt=""><figcaption></figcaption></figure>
 
 ## Unpack the **Just in Time Admin Access** Crate
 
