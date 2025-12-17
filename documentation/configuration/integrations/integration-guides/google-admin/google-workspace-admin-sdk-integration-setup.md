@@ -1,7 +1,7 @@
 # Google Workspace Admin integration setup
 
 {% hint style="info" %}
-Note: Rewst supports multi-instance for Google Workspace Admin, but generally one instance of Google Workspace Admin is not multi-tenant. You may need a 1:1 relationship between an instance of this integration and a sub-tenant or a Rewst sub-org.
+Note: Rewst supports [multi-instance integration](https://docs.rewst.help/documentation/configuration/integrations/multi-instance-integration/multi-instance-integration-setup) for Google Workspace Admin, but generally one instance of Google Workspace Admin is not multi-tenant. You may need a 1:1 relationship between an instance of this integration and a sub-tenant or a Rewst sub-org.
 
 Currently, Rewst does not support domain-wide delegation. The integration will only have access to resources that the user who authorized the integration has access to. In particular, there will be no Mailbox Delegation or personal Drive access for other user accounts.
 
@@ -105,7 +105,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 
 1. Select your Project from the drop-down selector.
 2. Select **APIs and Services** from the left side menu.
-3. Search for `Google Drive API.`
+3. Search for `Groups Settings API.`
 4.  Click **Enable**.\
     <br>
 

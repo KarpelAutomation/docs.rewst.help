@@ -436,10 +436,10 @@ To pre-populate the fields for OpenText SecureCloud in the [**User Onboarding** 
 
 If not set, your organization's default settings will be applied.
 
-| Variable                          | Description                                                                                 |
-| --------------------------------- | ------------------------------------------------------------------------------------------- |
-| `primary_identity_provider`       | Specifies whether users are created in On-Prem AD, Azure AD, or Hybrid mode.                |
-| `microsoft_licensing_distributor` | Determines the license distributor for M365 purchases or whether to use the manual process. |
+| Variable                    | Description                                                                                 |
+| --------------------------- | ------------------------------------------------------------------------------------------- |
+| `primary_identity_provider` | Specifies whether users are created in On-Prem AD, Azure AD, or Hybrid mode.                |
+| `ms_licensing_distributor`  | Determines the license distributor for M365 purchases or whether to use the manual process. |
 
 ## Unpack the Crate
 

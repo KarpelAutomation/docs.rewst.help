@@ -551,3 +551,69 @@ These Rewst actions are for use with [App Builder](../../app-builder/) only.&#x2
 This action has its own separate documentation page [here](generic-graphql-request-action.md).&#x20;
 
 </details>
+
+<details>
+
+<summary>Workflow actions</summary>
+
+### **List Workflow Executions With Time Savings**
+
+**Description:** The `rewst_list_workflow_executions_with_time_savings` task is an action from the Rewst integration that lists workflow executions with calculated time savings data. This action retrieves execution data and calculates how much time has been saved through automation. It provides comprehensive analytics about workflow performance and efficiency.
+
+* Retrieves execution data including total executions, seconds saved, workflow names, and organization information
+* Calculates time savings for automated workflows
+* Filters executions by date, status, and organization
+* Groups results either by individual workflow or by sub-organization
+
+**Parameters:**
+
+* **`updated_at`** (required): Include any executions updated after this date (datetime format)
+* **`workflow_status`** (optional): Filter by execution status (`succeeded`, `failed`, or `running`)
+* **`group_by_sub_org`** (optional): Choose whether to group results by sub-organization (default: false, groups by workflow)
+* **`run_as_user`** (optional): The user that the action will run as
+
+**Output:**
+
+The action returns data including:
+
+* `ran_for_org`: Organization identifier
+* `workflow_id`: Unique workflow identifier
+* `seconds_saved`: Calculated time savings in seconds
+* `workflow_name`: Name of the workflow
+* `total_executions`: Total number of executions
+
+***
+
+### **List Workflows**&#x20;
+
+**Description:** This action retrieves a comprehensive list of all workflows in your Rewst organization, giving you visibility into your automation library. This action is particularly useful for workflow management tasks, reporting, and as a starting point for more complex workflow operations that require workflow IDs.
+
+**Parameters:**
+
+* `run_as_user` (optional): Specifies which user the action should run as. If not provided, it uses your organization's default user.
+
+**Output:**
+
+The action returns detailed information for each workflow:
+
+* `id`: Unique workflow identifier
+* `name`: The workflow's display name
+* `tags`: Array of tags assigned to the workflow
+* `org_id`: Organization ID where the workflow belongs
+* `triggers`: Array of associated triggers for the workflow
+* `created_at`: Timestamp when the workflow was created
+* `updated_at`: Timestamp of the last modification
+* `organization`: Detailed organization information
+* `unpacked_from`: Template source information (if the workflow was created from a template)
+* `cloned_from_id`: Source workflow ID (if the workflow was cloned from another)
+
+**Common use cases:**
+
+* Workflow Inventory: Get a complete overview of all workflows in your organization
+* Trigger Analysis: Identify which workflows have active triggers
+* Workflow Management: Use the returned workflow IDs for subsequent operations on specific workflows
+* Organizational Reporting: Generate reports on workflow usage and organization
+
+
+
+</details>

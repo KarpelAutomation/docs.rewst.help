@@ -677,6 +677,287 @@ Change the Type to **action.**
 
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2Fc2fb15ed-2320-42d1-a08a-2c2eb4421de4%2F2.5%2F53.71904729945%2F1.1118548791515%3F0\&width=768\&dpr=4\&quality=100\&sign=feefbf6c\&sv=2)
 
+
+
+### Data table component settings
+
+#### Data source settings
+
+Configure how your data table loads and displays data from workflows:
+
+| Setting            | Description                                                         | Options                                                                                                                                                                                  |
+| ------------------ | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Workflow           | The workflow that provides data to the table                        | Select from available workflows                                                                                                                                                          |
+| Output Key         | Which key from the workflow result contains your table data         | String (e.g., "data", "results")                                                                                                                                                         |
+| Data Load Method   | How the table fetches data                                          | • Run Workflow on Load - Execute workflow when table mounts• Use Latest Workflow - Display most recent workflow execution• Use Workflow Stream - Subscribe to real-time workflow updates |
+| Workflow Input     | Input parameters to pass to the workflow                            | Key-value pairs                                                                                                                                                                          |
+| Use Page Variables | Automatically pass all page variables as workflow input             | Boolean (default: false)                                                                                                                                                                 |
+| Watch Node IDs     | Form components that trigger automatic table refresh when submitted | Array of component IDs                                                                                                                                                                   |
+|                    |                                                                     |                                                                                                                                                                                          |
+
+### Column configuration
+
+Each column supports extensive customization through both basic properties and advanced features inherited from Material React Table.
+
+#### Basic column properties
+
+| Setting      | Description                                                                        | Type                                           |
+| ------------ | ---------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Header       | Display name shown in the column header                                            | Text                                           |
+| Accessor Key | The data field path this column displays (supports nested paths like "user.email") | Text                                           |
+| Column Type  | Data type for the column                                                           | String, Number, Boolean, Object, Array, Action |
+| Show Column  | Whether the column is visible by default                                           | Boolean (default: true)                        |
+| Size         | Default column width in pixels                                                     | Number (default: 180px)                        |
+| Min Size     | Minimum width when resizing                                                        | Number (default: 40px)                         |
+| Max Size     | Maximum width when resizing                                                        | Number (default: 1000px)                       |
+
+#### Column behavior settings
+
+| Setting                | Description                                                           | Default |
+| ---------------------- | --------------------------------------------------------------------- | ------- |
+| Enable Editing         | Allow inline editing of cell values in this column                    | True    |
+| Enable Click to Copy   | Click cell to copy value to clipboard (useful for IDs, emails, URLs)  | False   |
+| Enable Column Dragging | Allow users to reorder columns by dragging the header                 | True    |
+| Enable Column Ordering | Allow column to participate in reordering                             | True    |
+| Enable Sorting         | Allow users to sort table by this column (shift+click for multi-sort) | True    |
+| Enable Column Actions  | Show column menu with options to hide, pin, group, or filter          | True    |
+
+#### Column format and display
+
+| Setting             | Description                         | Options                           |
+| ------------------- | ----------------------------------- | --------------------------------- |
+| Format              | Display format for values           | date-time or custom format string |
+| Enum                | Restrict values to specific options | Array of strings                  |
+| Edit Variant        | Input type when editing             | text (default), select            |
+| Edit Select Options | Options for select dropdown editors | Array of { label, value } objects |
+
+#### Aggregation and grouping
+
+When rows are grouped, columns can display aggregated values:
+
+| Setting                     | Description                                   | Available Functions                                    |
+| --------------------------- | --------------------------------------------- | ------------------------------------------------------ |
+| Aggregation Function        | How to aggregate values when rows are grouped | sum, avg, count, min, max, median, unique, uniqueCount |
+| Aggregation Footer Function | How to display aggregate in table footer      | Same as above                                          |
+
+Custom Aggregation Cells: You can write custom React components to render aggregated values using the Custom Aggregated Cell code editor.
+
+#### Action columns
+
+Action columns display buttons that trigger workflows, open links, run scripts, or show dialogs:
+
+| Setting                  | Description                                      | Options                                                                                                                       |
+| ------------------------ | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Button                   | Icon displayed on the action button              | Material icon name (e.g., "Edit", "Delete", "Visibility")                                                                     |
+| Button Function          | What the button does when clicked                | • Workflow - Execute a workflow• Link - Open a URL• Script - Run custom TypeScript code• Dialog - Open a page as modal dialog |
+| Button Function Workflow | Workflow to execute                              | Select from available workflows                                                                                               |
+| Button Function Link     | URL to open (supports template variables)        | URL string                                                                                                                    |
+| Button Function Script   | Custom TypeScript code to execute                | Code editor                                                                                                                   |
+| Button Function Dialog   | Page to open as dialog                           | Select page                                                                                                                   |
+| Button Confirmation      | Confirmation style before executing action       | • Default - No confirmation• Icon - Show confirmation icon/tooltip• Dialog - Open confirmation dialog                         |
+| Confirmation Tooltip     | Tooltip text shown before action executes        | Text                                                                                                                          |
+| Workflow Tooltip         | Tooltip text for the action button               | Text                                                                                                                          |
+| Run on Edit              | Automatically execute action when row is edited  | Boolean (default: false)                                                                                                      |
+| Reload Table             | Refresh table data after action completes        | Boolean (default: false)                                                                                                      |
+| Use Hidden Column Data   | Include hidden column data when executing action | Boolean (default: false)                                                                                                      |
+
+#### Conditional formatting
+
+Apply dynamic styling or behavior based on cell/row values:
+
+| Setting      | Description                                                           |
+| ------------ | --------------------------------------------------------------------- |
+| Conditions   | Array of condition rules to evaluate                                  |
+| Action Type  | What to apply when condition is met: Set Background Color, Set Values |
+| Action Value | The value to apply (e.g., hex color #ff5252 for background)           |
+
+Example Use Cases:
+
+* Highlight overdue items in red
+* Show "Active" status in green, "Inactive" in gray
+* Apply warning colors based on numeric thresholds
+
+#### Custom cell rendering
+
+For maximum flexibility, write custom React/TypeScript components using the built-in code editor:
+
+| Component Type         | Description                                                   |
+| ---------------------- | ------------------------------------------------------------- |
+| Custom Cell            | Custom React component for normal cell display                |
+| Custom Aggregated Cell | Custom component for cells displaying grouped/aggregated data |
+| Custom Footer          | Custom component for footer cells                             |
+
+Features:
+
+* Full TypeScript support with IntelliSense
+* Access to row data, cell value, and table instance
+* RoboRewsty AI assistant for code generation
+* Live preview of rendered component
+
+### Table configuration settings
+
+These settings control the overall behavior and appearance of your data table, organized by feature area.
+
+#### Layout and display
+
+| Setting                   | Description                                   | Options                                                                                                          | Default |
+| ------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------- |
+| Layout Mode               | How the table calculates column widths        | • semantic - Browser auto-sizing• grid - CSS grid with proportional growth• grid-no-grow - Fixed absolute widths | grid    |
+| Enable Sticky Header      | Keep header visible when scrolling vertically | Boolean                                                                                                          | True    |
+| Enable Full Screen Toggle | Show button to expand table to full screen    | Boolean                                                                                                          | True    |
+
+#### Pagination
+
+Control how data is paginated and displayed across multiple pages:
+
+| Setting                | Description                                                     | Default |
+| ---------------------- | --------------------------------------------------------------- | ------- |
+| Enable Pagination      | Show pagination controls and limit rows per page                | True    |
+| Page Size              | Number of rows to display per page                              | 10      |
+| Auto Reset Page Index  | Return to first page when sorting/filtering changes             | True    |
+| Paginate Expanded Rows | Include expanded detail panels and sub-rows in pagination count | False   |
+
+Note: Pagination is client-side by default. All data is loaded at once and paginated in the browser for optimal performance with datasets up to a few thousand rows.
+
+#### Row expansion and detail panels
+
+Configure how rows expand to show additional information:
+
+| Setting           | Description                                                         | Default |
+| ----------------- | ------------------------------------------------------------------- | ------- |
+| Enable Expanding  | Allow rows to expand showing hierarchical sub-rows or detail panels | True    |
+| Enable Expand All | Show "expand all/collapse all" toggle button                        | True    |
+| Hide Detail Panel | Hide the detail panel even if expanding is enabled                  | False   |
+
+Two types of expansion:
+
+1. Sub-Rows -hierarchical data: For nested data structures where each row can contain child rows of the same type. Example: Organization → Departments → Teams
+2. Detail panels - supplementary info: For showing additional information about a single row. Example: User row expands to show activity history, preferences, etc.
+
+### Editing
+
+Enable inline or modal editing of table data:
+
+| Setting           | Description                       | Options                                                                                                                                                                       | Default |
+| ----------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| Enable Editing    | Allow users to edit cell values   | Boolean                                                                                                                                                                       | True    |
+| Edit Display Mode | How the editing interface appears | • cell - Double-click to edit individual cells• row - Edit entire row inline with save/cancel• modal - Open dialog to edit one row• table - All cells editable simultaneously | cell    |
+
+{% hint style="warning" %}
+Important: Enabling editing only updates the table UI. You must configure action columns or workflows to persist changes to your data source.
+{% endhint %}
+
+### Column features
+
+Control user interactions with columns:
+
+| Setting                | Description                                                                          | Default |
+| ---------------------- | ------------------------------------------------------------------------------------ | ------- |
+| Enable Column Pinning  | Allow pinning columns to left or right (keeps them visible during horizontal scroll) | True    |
+| Enable Column Resizing | Allow users to drag column borders to resize widths                                  | True    |
+| Enable Column Dragging | Allow reordering columns by dragging headers                                         | True    |
+| Enable Column Ordering | Allow columns to participate in reordering                                           | True    |
+
+Column Pinning Best Practice: Use layoutMode: 'grid-no-grow' for fixed column widths when pinning to prevent columns from collapsing during horizontal scrolling.
+
+#### Grouping and aggregation
+
+Group rows by column values and display aggregated summaries:
+
+| Setting             | Description                                                    | Options                                                                                                                       | Default |
+| ------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------- |
+| Enable Grouping     | Allow users to group rows by dragging columns to the drop zone | Boolean                                                                                                                       | True    |
+| Grouped Column Mode | How grouped columns are displayed                              | • false - Keep in original position• reorder - Move to first columns• remove - Hide grouped columns, show only in expand area | False   |
+
+How grouping works:
+
+1. Users drag column headers to the grouping drop zone (or use column menu)
+2. Table reorganizes rows into groups based on unique values
+3. Grouped rows can be collapsed/expanded
+4. Aggregation functions calculate summaries for each group
+5. Multi-level grouping supported (group by Status, then by Priority)
+
+### Toolbar customization
+
+Configure the top and bottom toolbars:
+
+| Setting                         | Description                                                             | Default |
+| ------------------------------- | ----------------------------------------------------------------------- | ------- |
+| Enable Bottom Toolbar           | Show toolbar at bottom of table (typically contains pagination)         | True    |
+| Enable Toolbar Internal Actions | Show built-in toolbar buttons (refresh, density, export, columns, etc.) | True    |
+| Hide Workflow Input Button      | Hide the button that opens workflow input configuration                 | True    |
+
+Built-in toolbar actions include:
+
+* Refresh table data
+* Toggle density (compact/comfortable/spacious)
+* Show/hide columns
+* Toggle fullscreen
+* Export data
+
+### State management
+
+The data table maintains state for various user interactions. These are typically managed automatically but can be controlled programmatically:
+
+| State Property          | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Grouping                | Array of column IDs currently being grouped by               |
+| Sorting                 | Array of sort configurations { id: columnId, desc: boolean } |
+| Column Visibility       | Object mapping column IDs to visibility boolean              |
+| Column Order            | Array of column IDs defining display order                   |
+| Column Pinning          | Object with { left: string\[], right: string\[] } arrays     |
+| Column Sizing           | Object mapping column IDs to width numbers                   |
+| Pagination              | Object with { pageIndex: number, pageSize: number }          |
+| Expanded                | Object mapping row IDs to expansion state                    |
+| Workflow Output Columns | Auto-generated column definitions from workflow schema       |
+
+### Advanced features
+
+### Automatic table refresh
+
+Configure the table to automatically refresh when specific events occur.
+
+Example: After a user submits a "Create User" form, automatically refresh the users table to show the new entry.
+
+### AI-powered custom components
+
+The RoboRewsty AI assistant helps you write custom cell rendering code:
+
+1. Open column configuration
+2. Select "Custom Cell" option
+3. Describe what you want in natural language
+4. RoboRewsty generates React/TypeScript code
+5. Preview and refine the component
+
+Use cases:
+
+* Format currency with custom symbols and decimals
+* Display progress bars or badges
+* Render images or avatars from URLs
+* Create complex layouts combining multiple fields
+
+### Schema-based column generation
+
+#### Multi-column sorting
+
+Hold Shift while clicking column headers to sort by multiple columns simultaneously. The sort order indicator shows the sequence.
+
+Example: Sort by Status (ascending), then by Priority (descending), then by Due Date (ascending).
+
+#### Click to copy
+
+Enable on columns containing data users frequently need to copy (IDs, emails, URLs). A copy button appears on hover, providing one-click clipboard access.
+
+#### Column actions menu
+
+Each column header can display a menu (three dots icon) with options to:
+
+* Hide column
+* Pin left/right
+* Group by this column
+* Adjust column size
+* Clear sorting
+
 </details>
 
 ### Automation
@@ -788,8 +1069,7 @@ The number input component allows you to integrate interactive forms or fields t
 
 * Gathering parameters before executing a workflow, such as specific user requirements.
 * Allowing users to initiate workflows that require real-time data, such as support ticket submissions or service requests.
-
-- Facilitating user interactions that trigger complex sequences of tasks, enhancing dynamic response capabilities.
+* Facilitating user interactions that trigger complex sequences of tasks, enhancing dynamic response capabilities.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.26.38 PM.png" alt=""><figcaption></figcaption></figure>
 
