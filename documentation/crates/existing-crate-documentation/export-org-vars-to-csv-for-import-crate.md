@@ -6,13 +6,13 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Export Org Vars to CSV for Import Crate do?
 
-Our Export Org Vars to CSV Crate helps in effortlessly managing your organization variables by exporting them into a CSV file, reachable via The Context. The exported CSV is automatically formatted to be compatible with our related import Crate, [Mass Update Organization Variables via CSV](mass-update-org-variables-via-csv-crate.md).
+Our Export Org Vars to CSV Crate helps in effortlessly managing your organization variables by exporting them into a CSV file, which is sent to the location of your choice and added to a PSA ticket. The exported CSV is automatically formatted to be compatible with our related import Crate, [Mass Update Organization Variables via CSV](mass-update-org-variables-via-csv-crate.md).
 
 ### How the Crate works
 
 * Choose the organization whose variables you wish to export.
 * The system will extract all relevant organization variables.
-* A CSV file is generated in the required format, ready for import via the accompanying Mass Update Organization Variables via CSV Crate.
+* A CSV file is generated in the required format, selected via form submission, ready for import via the accompanying Mass Update Organization Variables via CSV Crate.
 
 ### Workflow breakdown
 
@@ -22,6 +22,10 @@ Our Export Org Vars to CSV Crate helps in effortlessly managing your organizatio
 4. The **results\_of\_org\_var** task uses the **noop** action to process and transform the organization variables data into a structured list format, creating a new list called `my_list` that contains dictionaries with variable name, value, organization ID, and organization name for each variable.
 5. The workflow then proceeds to the **create\_csv** task, which uses the **noop** action to convert the processed list data into CSV format using a Jinja2 template that applies the CSV filter with field names derived from the dictionary keys.
 6. Finally, the workflow concludes with the **END** task, which uses the **noop** action to mark the completion of the workflow execution, with the CSV data available in the workflow context for output or further processing.
+
+## Crate prerequisites
+
+If you intend to have the CSV attached to a PSA ticket, you must first successfully [integrate your PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.
 
 ## Unpack the Export Org Vars to CSV for Import Crate
 
@@ -40,22 +44,17 @@ Our Export Org Vars to CSV Crate helps in effortlessly managing your organizatio
 
 ### Use the Crate
 
-1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[ROC] Organization Variables to CSV`.<br>
+#### Fill out the form to select CSV delivery
 
-    <figure><img src="../../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
-3. Click on the workflow to view it in the Workflow Builder.
-4. Click **Test** in the top right corner of the Workflow Builder Canvas.
-5. Select the applicable **Trigger Context Organization** from the drop-down list.
-6. Click **Test**.
-7. Allow the workflow to run.
-8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails.&#x20;
-9. Click **View Results.**&#x20;
-10. Click **Load Context**.
-11. Click all instances of **{...}** to expand all context code.
-12. Copy the text indicated for **CSV**.&#x20;
+1. Navigate to Automations > Forms in the left side menu of your Rewst platform.
+2. Search for `[ROC] Organization Variables to CSV Form` .
+3. Click on the form name.&#x20;
+4. Click **View Usages > View Direct URLs.**
+5. Choose the **Location** where the CSV should be sent: **Both, PSA,** or **Email**.
+6. Choose an existing PSA ticket from the drop-down selector to attach the CSV to.
+7. Click **Submit**. This will begin the generation and sending of the CSV.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-11-19 at 3.49.20 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-12-18 at 2.16.35 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For more on how CSVs can be generated with Jinja, see our documentation [here](https://docs.rewst.help/~/revisions/IAv4UYPrwRFrpB0SUQW8/documentation/jinja/common-jinja-examples/creating-csvs).&#x20;
