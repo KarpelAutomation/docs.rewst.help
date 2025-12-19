@@ -6,7 +6,7 @@ Rewst's previous setup for Microsoft was separate integrations for each Microsof
 
 ## What is the Microsoft Cloud Integration Bundle?
 
-The Microsoft Cloud Bundle is Rewst’s solution for integrating your most common Microsoft tools. It’s a little different from our other integrations in that we group multiple integrations together, by brand, to allow for easier and more custom integration options during setup.
+The Microsoft Cloud Integration Bundle is Rewst’s solution for integrating your most common Microsoft tools. It’s a little different from our other integrations in that we group multiple integrations together, by brand, to allow for easier and more custom integration options during setup.
 
 {% hint style="info" %}
 Though you’ll be working from one integration menu tile to set up all integrations, each integration will appear as its own section with its own actions in the actions list of the workflow builder.
@@ -34,85 +34,64 @@ You'll be prompted to check off any or all of the following integrations to be i
 3. **Microsoft Cloud Solution Provider (CSP)**: This allows for the resale of Microsoft cloud services like Azure, Microsoft 365, and Dynamics 365 to businesses, often with added value services. It's a subscription-based model where MSPs can bill customers.\
    :point\_right: You should check this box if you use the Microsoft Partner Center and want to run Rewst actions against your customer tenants.
 4. **Microsoft Azure**: A cloud computing platform, Azure offers a range of cloud infrastructure services, including computing, analytics, storage, networking, and AI. Note that Microsoft formerly called a different tool Azure, and renamed that tool Microsoft Entra.\
-   :point\_right: You should check this box to install the integration if you are already an Azure user and have an existing [Azure key vault ](https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts)set up with Microsoft.&#x20;
-
-## What is GDAP and why is it important to the setup process?
-
-In 2024, Microsoft moved away from regular user-based access, where users logged into Microsoft Entra with an individually permissioned account. Instead, they now operate via delegated admin permissions, where permissions are assigned from the top level down, for more secure access management. This is known as _Granulated Delegated Admin Permissions_, or _GDAP_.
-
-As part of the bundle setup process, you’ll be asked to create a dedicated user to act as your Microsoft service account. The way this is done and the roles you adopt are important, as GDAP dictates that this will now have a direct effect on how Rewst interacts with Microsoft.
-
-For example, let’s say that 12 roles map to 177 permissions.
-
-* Rewst will try to make an API call.
-* The enterprise app will look for permissions.
-* The enterprise app will ask if it is making the call at customer level, and if there are roles at the customer level.
-
-To ensure that your GDAP is properly set to allow Rewst automation, you’ll need to unpack our [Configure New GDAP Relationship Crate](../../../../crates/existing-crate-documentation/configure-new-gdap-relationship-crate.md) during a step later on in this document as part of the Microsoft Cloud Bundle setup process. Read more about Crates [here](https://docs.rewst.help/documentation/crates) if you’re new to them as a concept in Rewst.
-
-## Migrate legacy Microsoft integrations to the new Microsoft Cloud Integration Bundle
-
-1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. Search for the `Microsoft Cloud Bundle`.
-3. Click on the integration tile.
-4. Select the Microsoft services you wish to integrate.
-5. Enter the necessary details to establish a connection.
-6. Modify permissions as needed for enhanced control.
-7. Complete the setup by authorizing the selected integrations.
-
-{% hint style="info" %}
-For users of the legacy setup, it's important to note that the static permissions associated with the legacy App Registration cannot be modified during this transition. Transitioning to the new bundle is highly recommended for continued functionality and security.
-{% endhint %}
-
-### Post-transition configuration
-
-After migrating, you'll configure each integration according to your needs, including setting up OAuth configurations and mapping CSP customers to Rewst organizations.
-
-* **Use CSP Delegated Admin permissions**: Manage permissions for Cloud Solution Provider integrations, ensuring they align with delegated admin roles.
-* **Microsoft Graph OAuth configuration**: Set up OAuth configurations for Microsoft Graph to ensure seamless integration and data access.
-* **CSP Customer to Rewst organization mapping**: Map CSP customers to Rewst organizations for streamlined management and reporting.
-* **Microsoft Exchange Online OAuth configuration**: Configure OAuth for Exchange Online, enabling advanced email and calendar integration functionalities.
+   :point\_right: You should check this box to install the integration if you are already an Azure user and have an existing [Azure key vault ](https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts)set up with Microsoft. If you don't have a key vault, you'll need to create an empty one to complete bundle setup, then check this box. Instructions for how to do this can be found [here](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal).
 
 ## Set up the Microsoft Cloud Integration Bundle
 
 {% hint style="info" %}
-We've broken down instructions into four larger steps, each with its own section. Read through the entire process before starting step 1 to familiarize yourself with what will be needed.
+We've broken down instructions into three  larger steps, each with its own section. Read through the entire process before starting step 1 to familiarize yourself with what will be needed.
+
+Click each expander to open and view that substep's instructions and information.
 {% endhint %}
 
 ### Step 1: Create a Microsoft service account in Microsoft Entra
 
-#### Create a user in Microsoft Entra to use as your Rewst service account.
+{% hint style="info" %}
+To set up Rewst integration, you'll need a new service account that has Global Admin settings. Once the integration has been completed, this can be removed. If you need to uninstall and re-integrate the integration, however, and you've removed the Global Admin settings, you'll need to recreate this before reintegrating.
+{% endhint %}
 
-1.  Navigate to **Overview > +Add > User > Create new user** in Microsoft Entra.
+<details>
+
+<summary>Create a user in Microsoft Entra to use as your Rewst service account.</summary>
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
+1. Navigate to **Overview > +Add > User > Create new user** in Microsoft Entra.
 
-    1. Name the user `Rewst`.
-    2. Check the box **derive from user principal name**.
-    3. Enter a display name of `Rewst Service Account`.
-    4. Auto generate a password.&#x20;
-    5. Document all the user's information within your documentation platform. Be sure to note the user principal name.\
-       \
-       ![](<../../../../../.gitbook/assets/image (210).png>)
-2. Click the **Properties** tab. Leave all the options on this screen as default.
-3. Click **Assignments > Add Role**.
-4. Search for **`Global Administrator`** in the role selection. Select the role.
-5.  Click **Select**. Verify that the role is now listed in the main pane.<br>
+<figure><img src="../../../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
-6.  Make sure the service account is part of the **admin agents** group in Microsoft Entra.\
+2. Name the user `Rewst`.
+3. Check the box **derive from user principal name**.
+4. Enter a display name of `Rewst Service Account`.
+5. Auto generate a password.&#x20;
+6. Document all the user's information within your documentation platform. Be sure to note the user principal name.\
+   \
+   ![](<../../../../../.gitbook/assets/image (210).png>)
+7. Click the **Properties** tab. Leave all the options on this screen as default.
+8. Click **Assignments > Add Role**.
+9. Search for **`Global Administrator`** in the role selection. Select the role.
+10. Click **Select**. Verify that the role is now listed in the main pane.<br>
+
+<figure><img src="../../../../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
+
+11. Make sure the service account is part of the **admin agents** group in Microsoft Entra.\
     <br>
 
-    <figure><img src="../../../../../.gitbook/assets/image (73) (1).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (73) (1).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (74) (1).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
-7. Click **Review + Create**, then **Create**.
+<figure><img src="../../../../../.gitbook/assets/image (74) (1).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
 
-#### Turn on MFA requirement for the user
+12. Click **Review + Create**, then **Create**.
+
+</details>
+
+<details>
+
+<summary>Turn on MFA requirement for the user</summary>
+
+
 
 1. Log in to the Microsoft 365 Admin Center.
 2. Navigate to **Users > Active Users > Multifactor Authentication**.
@@ -126,7 +105,13 @@ We've broken down instructions into four larger steps, each with its own section
 Only Microsoft authentication is permissible. Providers like Duo are incompatible. For more information, see Microsoft's page on [Supported MFA options](https://learn.microsoft.com/en-us/partner-center/partner-security-requirements-mandating-mfa#supported-mfa-options).
 {% endhint %}
 
-#### Modify conditional access policy in Microsoft Azure: Set up your MSP's policies
+</details>
+
+<details>
+
+<summary>Modify conditional access policy in Microsoft Azure</summary>
+
+#### Set up your MSP's policies
 
 {% hint style="info" %}
 This step is unnecessary if the tenant is under Microsoft default security settings. If you have no conditional access policies and are operating under security defaults, which already require MFA, skip to the next section.
@@ -139,7 +124,7 @@ This step is unnecessary if the tenant is under Microsoft default security setti
    * **Enforce MFA**: Mandate Azure Multi-factor Authentication for each login and application if you have not done so already
    * **Policy Name**: Save this policy under the name `Rewst Conditional Access Policy`
 
-#### Modify conditional access policy in Microsoft Azure: Set up your Client's policies
+#### Set up your Client's policies
 
 Granular access is influenced by your clients' [conditional access policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview). To ensure seamless access to your clients using your Rewst integration user, follow these steps
 
@@ -160,16 +145,26 @@ Granular access is influenced by your clients' [conditional access policies](htt
 
 
 
+</details>
+
 ### Step 2: Register the enterprise app and authorize the Rewst integration
 
-1.  Choose how to register the app.<br>
+<details>
+
+<summary>Register the enterprise app</summary>
+
+1.  Choose how to register the app.
+
+
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-06-18 at 3.16.36 PM.png" alt=""><figcaption></figcaption></figure>
 
     1. Most users should select the Rewst-created enterprise app. It simplifies setup, includes the required permissions, and is secure. Unless you’re absolutely sure you need your own, choose the default option.
     2. If you are absolutely certain that you must bring your own app rather than using the Rewst-created one, choose this registration option. Owned app registration instructions can be found here: [https://docs.rewst.help/documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/owned-app-registration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/owned-app-registration)
     3. Click **Next**.
-2.  Set permissions for Microsoft Graph.<br>
+2.  Set permissions for Microsoft Graph.
+
+
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-08-12 at 4.08.52 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -177,41 +172,83 @@ Granular access is influenced by your clients' [conditional access policies](htt
     2. These permissions are carefully chosen to support Crates without authentication issues.
     3. If you modify permissions from the stock ones suggested by Rewst, it’s your responsibility to verify that your custom permissions don’t interfere with Rewst’s functionality.
     4. For more detail, consult Microsoft Graph’s [official permissions documentation](https://learn.microsoft.com/en-us/graph/permissions-reference).
+
+
 3. Grant additional access for other Microsoft integrations
    1. Exchange, CSP, and Azure, if needed, are simpler and allow you to toggle access as desired.
    2. Microsoft Graph includes \~177 APIs, and gives you broad access to users, groups, and licensing from one endpoint.
 4. Click **Next**.
-5.  Review your configuration decisions in the **Authorize Integrations** screen. Click **Back** f you wish to make updates. Click **Authorize** when satisfied with your choices.<br>
 
-    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-08-12 at 4.12.50 PM.png" alt=""><figcaption></figcaption></figure>
-6. After authorizing, you’ll see:
+</details>
+
+<details>
+
+<summary>Authorize Rewst</summary>
+
+1. Review your configuration decisions in the **Authorize Integrations** screen. Click **Back** f you wish to make updates. Click **Authorize** when satisfied with your choices.
+
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-08-12 at 4.12.50 PM.png" alt=""><figcaption></figcaption></figure>
+
+2. After authorizing, you’ll see:
    1. What authorized successfully
    2. Which user was used
    3. The tenant ID
    4. A corresponding Enterprise App created in Entra
 
-### Step 3: Set up GDAP relationships
+</details>
+
+### Step 3: Link your customers to Rewst child organizations
 
 {% hint style="info" %}
-If you haven’t yet done so, read our section on GDAP and its importance [here](./#what-is-gdap-and-why-is-it-important-to-the-setup-process).
+This section covers the different ways you can set up your child organizations. Please read through the entire section before beginning, to determine which of the situational steps are right for you.  How you complete this step will depend on the way you choose to use Rewst: If you're unsure of which of these situations apply to you, contact Rewst Support for assistance.\
+\
+If you are part of the Microsoft Cloud Solution Provider (CSP) program and have access to GDAP, follow the instructions below to configure GDAP before linking customers.
 {% endhint %}
 
+#### What is GDAP and why is it important to the setup process?
+
+In 2024, Microsoft moved away from regular user-based access, where users logged into Microsoft Entra with an individually permissioned account. Instead, they now operate via delegated admin permissions, where permissions are assigned from the top level down, for more secure access management. This is known as _Granulated Delegated Admin Permissions_, or _GDAP_.
+
+As part of the bundle setup process, you were asked to create a dedicated user to act as your Microsoft service account. The way this is done and the roles you adopt are important, as GDAP dictates that this will now have a direct effect on how Rewst interacts with Microsoft.
+
+For example, let’s say that 12 roles map to 177 permissions.
+
+* Rewst will try to make an API call.
+* The enterprise app will look for permissions.
+* The enterprise app will ask if it is making the call at customer level, and if there are roles at the customer level.
+
+#### Click to expand instructions and choose your situation from these three methods&#x20;
+
+<details>
+
+<summary>Link customers using GDAP - CSP Partners: Rewst-recommended option for setting up GDAP</summary>
+
 {% hint style="info" %}
-For this step, you have two options:
+If you are part of the Microsoft Cloud Solution Provider (CSP) program and have access to GDAP, follow the instructions below to configure GDAP before linking customers.
+{% endhint %}
 
 1. Unpack the [Configure New GDAP Relationship Crate](../../../../crates/existing-crate-documentation/configure-new-gdap-relationship-crate.md). This will create the relationship and generate a link for your customer to accept the relationship. Once the customer manually accepts, you'll be given a second link to kick off another workflow that adds all groups to the relationship, and maps them to the relevant roles.\
    \
    ![](<../../../../../.gitbook/assets/Screenshot 2025-09-04 at 3.57.31 PM.png>)<br>
-2. The rest of the instructions below walk you through how to do this process manually without unpacking the Crate. It is much more time-consuming, but is still an option. Click the accordion menu to expand and read those directions.
+2. Return to your Rewst platform. Navigate to Configuration > Integrations > Microsoft Cloud Bundle.
+3. Use the **organization mapping** menu that appears at the bottom of the screen to choose the customer organizations you wish to map the bundle to.&#x20;
 
-We strongly recommend that you use the Crate to complete this step.
-{% endhint %}
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.21.58 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Set up GDAP relationships without the Configure New GDAP Relationship Crate
+3. Click **consent** next to your organization to consent for just that customer. Alternatively, click <img src="../../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.23.48 PM.png" alt="" data-size="line"> to consent to delegated admin permissions for all linked customers. If you haven't completed GDAP set up for all customers, this button will fail on the uncompleted customers.
+4. Check for each of your organizations to ensure that the consent process was successful.&#x20;
+   1. A green shield to the right of the integration name means the GDAP relationship is working and API access is valid.
+   2. A blue shield or error means setup failed, and permissions are missing or incorrectly configured.
+
+
+
+</details>
 
 <details>
 
-<summary>Click to read more</summary>
+<summary>Link customers using GDAP without using the Configure New GDAP Relationship Crate</summary>
+
+Follow these instructions to set up GDAP relationships without the Configure New GDAP Relationship Crate. Note that Rewst recommends using the Crate if possible, for a better setup experience.
 
 #### Assign the security group to the service account user you created previously&#x20;
 
@@ -257,29 +294,49 @@ We strongly recommend that you use the Crate to complete this step.
 11. You'll be redirected to a page that shows the request. Copy the link in that page.&#x20;
 12. Email the link to your customer. They will need to accept the request to continue your bundle set up steps. Once approved, the relationship will show as **Active** in the **Admin Relationships** list. \
     You may also approve on the customer's behalf since you have Global Administrative privileges. To do this, choose to send the email to yourself. Note that if you choose this option, it will still send an email to your customer. You may want to notify them that they can disregard the email.
+13. Return to your Rewst platform. Navigate to Configuration > Integrations > Microsoft Cloud Bundle.
+14. Use the **organization mapping** menu that appears at the bottom of the screen to choose the customer organizations you wish to map the bundle to.&#x20;
+15. Click **consent** next to your organization to consent for just that customer. Alternatively, click <img src="../../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.23.48 PM.png" alt="" data-size="line"> to consent to delegated admin permissions for all linked customers. If you haven't completed GDAP set up for all customers, this button will fail on the uncompleted customers.
+16. Check for each of your organizations to ensure that the consent process was successful.&#x20;
+
+    1. A green shield to the right of the integration name means the GDAP relationship is working and API access is valid.
+    2. A blue shield or error means setup failed, and permissions are missing or incorrectly configured.
+
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.21.58 PM.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 </details>
 
-### Step 4: Link customers and validate GDAP access
+<details>
+
+<summary>Link customers using an enterprise application - you do not have a CSP or do not wish to use GDAP</summary>
+
+{% hint style="warning" %}
+Follow these instructions to link customers if you don't have a CSP or want to use a Global Admin account instead of GDAP. Please note that this should be a Global Admin account in your customer's Microsoft 365 tenant. This not the service account created in step 1 of this integration setup process, used for linking up to Rewst. If you would like to create a new service account for your customer, you can follow the process in step 1 in your customer's Microsoft 365 account.
+{% endhint %}
 
 1. Return to your Rewst platform.
-2. Use the drop-down organization selector to choose your relevant child organization for your customer.
+2. Use the drop-down organization selector at the top left of your screen to choose your relevant child organization for your customer.
 3. Complete the authorization process as prompted on the screen.
-   1. Check off all boxes in the **Select Integrations** screen.
+   1. Check off all boxes in the **Select Integrations** screen. If you don't use a CSP, you can uncheck this box, and check all other boxes as desired.
    2. Choose **Rewst Microsoft Cloud Connector**.\
       \
       ![](<../../../../../.gitbook/assets/Screenshot 2025-09-05 at 12.19.46 PM.png>)
    3. &#x20;Click **Next**.
    4. Choose your tenant permissions. Click the **Microsoft Graph Permissions** accordion menu to expand and view the total permission list. Unless you have specific, verified reasons for unchecking any of these boxes, we recommend leaving our stock settings checked.
    5. Click **Next**.
-   6. Double check your choices and click **Authorize**.\
-      \
-      ![](<../../../../../.gitbook/assets/Screenshot 2025-09-05 at 12.20.33 PM.png>)
+   6.  Double check your choices and click **Authorize**.\
+       <br>
+
+       <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-05 at 12.20.33 PM.png" alt=""><figcaption></figcaption></figure>
    7.  Once Rewst has received the successful authorization callback from Microsoft, a background process will be initiated to authorize each of the integrations you installed for the bundle. Once that is complete, the permissions that you previously selected will be assigned to the Enterprise App installed in your tenant for the Rewst MS Cloud Connector.
 
        This process may take a few moments to complete. Don't navigate away from this page until the process is finished.
 4. Repeat these delegated admin permission consent steps for each customer organization you where wish to set up the Microsoft Cloud integration bundle.
-5.  Check on the integration's page for each of your organizations to ensure that the consent process was successful.&#x20;
+5.  Check for each of your organizations to ensure that the consent process was successful.&#x20;
 
     1. A green shield to the right of the integration name means the GDAP relationship is working and API access is valid.
     2. A blue shield or error means setup failed, and permissions are missing or incorrectly configured.
@@ -288,9 +345,30 @@ We strongly recommend that you use the Crate to complete this step.
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-05 at 12.22.37 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Manage your MSP parent organization with Rewst
 
-If you’d like to manage your internal organization with Rewst and enable it to run automations, you’ll need to assign specific roles to your Rewst service account.&#x20;
+
+{% hint style="success" %}
+#### Once you have completed the integration under your child organization, you can remove the Global Admin permission and add these 12 roles the Rewst Service account you have created for your customer.&#x20;
+{% endhint %}
+
+1. [Application Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#application-administrator) - Can create and manage all applications, service principals, app registration, enterprise apps, consent requests. Cannot manage directory roles, security groups.
+2. [Authentication Policy Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#authentication-policy-administrator) - Configures authentication methods policy, MFA settings, manages Password Protection settings, creates/manages verifiable credentials, Azure support tickets. Restrictions on updating sensitive properties, deleting/restoring users, legacy MFA settings.
+3. [Cloud App Security Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#cloud-app-security-administrator) - Manages all aspects of the Defender for Cloud App Security in Azure AD, including policies, alerts, and related configurations.
+4. [Cloud Device Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#cloud-device-administrator) - Enables, disables, deletes devices in Azure AD, reads Windows 10 BitLocker keys. Does not grant permissions to manage other properties on the device.
+5. [Exchange Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#exchange-administrator) - Manages all aspects of Exchange Online, including mailboxes, permissions, connectivity, and related settings. Limited access to related Exchange settings in Azure AD.
+6. [Intune Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#intune-administrator) - Manages all aspects of Intune, including all related resources, policies, configurations, and tasks.
+7. [User Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#user-administrator) - Manages all aspects of users, groups, registration, and resets passwords for limited admins. Cannot manage security-related policies or other configuration objects.
+8. [Privileged Authentication Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-authentication-administrator) - Sets and resets authentication methods for all users (admin or non-admin), deletes/restores any users. Manages support tickets in Azure and Microsoft 365. Restrictions on managing per-user MFA in legacy MFA portal.
+9. [Privileged Role Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator) - Manages role assignments in Azure AD, Azure AD Privileged Identity Management, creates/manages groups, manages all aspects of Privileged Identity Management, administrative units. Allows managing assignments for all Azure AD roles including Global Administrator.
+10. [Security Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#security-administrator) - Can read security information and reports, and manages security-related features, including identity protection, security policies, device management, and threat management in Azure AD and Office 365.
+11. [SharePoint Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#sharepoint-administrator) - Manages all aspects of SharePoint Online, Microsoft 365 groups, support tickets, service health. Scoped permissions for Microsoft Intune, SharePoint, and OneDrive resources.
+12. [Teams Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#teams-administrator) - Manages all aspects of Microsoft Teams, including telephony, messaging, meetings, teams, Microsoft 365 groups, support tickets, and service health.
+
+</details>
+
+## Manage your organizations that have been registered with enterprise apps in Rewst
+
+If you’d like to manage your internal organization with Rewst and enable it to run automations, you’ll need to assign specific roles to your Rewst service account. If you don't want to manage your internal MSP, you can remove the Global Administrator Role now.  If you wish to continue managing your MSP organization, add the 12 roles indicated below to the Rewst service account. Then, remove the Global Administrator Role.  Removing the role will not remove the 12 added roles.
 
 * If you used the Configure New GDAP Relationship Crate to set up your GDAP roles, you'll still need to manually add these roles to your Rewst service account. The Crate does not add them at the MSP parent organization level for you.
 * If you chose to set up the GDAP roles manually without using the Crate, you'll also need to manually add these roles to your Rewst service account. Note that they're the same 12 roles that you used previously.
@@ -322,523 +400,39 @@ Important: Review your internal processes before proceeding, as Rewst will be ab
 
 </details>
 
-## **Troubleshoot the Microsoft Cloud Integration Bundle**
-
-### Common installation errors
+## Migrate legacy Microsoft integrations to the new Microsoft Cloud Integration Bundle
 
 {% hint style="info" %}
-**If you set up your Microsoft integrations Prior to April 2024,** you are most likely leveraging the legacy Rewst Prod App Registration for authenticating with your Microsoft Tenant. This setup uses a fixed set of permissions and is scheduled for future deprecation. We recommend [transitioning to the newer Microsoft Cloud Integration Bundle](./#migrate-legacy-microsoft-integrations-to-the-new-microsoft-cloud-integration-bundle).
+For users of the legacy setup, it's important to note that the static permissions associated with the legacy App Registration cannot be modified during this transition. Transitioning to the new bundle is highly recommended for continued functionality and security.
 {% endhint %}
 
 <details>
 
-<summary>Issue: Auth app registration error</summary>
+<summary>Migrate to new integration setup</summary>
 
-* **Symptom**: Failure to proceed past the authentication step, not even reaching the Microsoft Auth login screen.
-* **Common Cause**: This may occur due to a delay on Microsoft's end  where the system is still processing the app registration.
-* **Solution**: Wait a minute or two before attempting to re-authenticate. This allows time for the backend processes to complete.
-
-</details>
-
-<details>
-
-<summary>Issue: Legacy app registration conflicts</summary>
-
-* **Symptom**: Successful authentication only after switching between the new Rewst Cloud Connector and the legacy Rewst Prod App Registration.
-* **Potential Cause**: Existing Rewst Prod installations in the Microsoft tenant might interfere with the new setup.
-* **Solution**:
-  * Restart the integration wizard from the beginning.
-  * Make sure all configuration steps are correctly completed. Pay extra attention to step 2 and confirm that a notification appears, indicating that the configurations have been updated.
-
-{% hint style="warning" %}
-The Rewst Prod App is necessary for authentication and might already be installed in your Microsoft Tenant. Existing installations could influence the new authorization processes.
-
-**Note**: The Rewst Prod App is mainly used for authentication purposes. It should be maintained but with limited permissions, only necessary for Rewst login.
-
-**Future Updates**: The Rewst Prod App remains essential for Rewst login authentication. Upcoming updates will restrict its permissions to those strictly needed for logging in, improving security.
-{% endhint %}
-
-</details>
-
-### **Authorization issues**
-
-If you encounter problems during the authorization step, ensure that you are using the correct account, and that all permissions are properly set.
-
-### **Permission configuration errors**
-
-Double-check the permissions if there are issues with accessing certain functionalities. Ensure that the appropriate permissions are enabled and correctly configured.
-
-<details>
-
-<summary>Issue: Consent to Client Permissions</summary>
-
-* **Error Context:** Pertains to errors when consenting on a client (e.g., green shield button on CSP/Graph/EXO integration table).
-* **Common Issue:** Transition to Microsoft's [Granular Delegated Admin Privileges (GDAP)](https://learn.microsoft.com/en-us/partner-center/gdap-introduction) introduces complexities in tenant access control.
-* **About GDAP:**
-  * **Purpose:** GDAP enables fine-grained control over tenant access, allowing the creation of groups in your MSP tenant, assignment of permissions, and user allocation.
-  * **Example:** Create specific groups like "Standard M365 Clients - Exchange Administrator" or "Strict M365 Clients - Exchange Administrator" to manage access levels across different clients.
-* **Rewst's Role:** Since Rewst can interact with various endpoints, the correct permissions in both your tenant and client tenant are essential.
-*   **Potential Resolution: Understand and Implement GDAP**\
-    Utilize GDAP to create groups and assign permissions, ensuring compliance with your security policies.
-
-
+1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
+2. Search for the `Microsoft Cloud Bundle`.
+3. Click on the integration tile.
+4. Select the Microsoft services you wish to integrate.
+5. Enter the necessary details to establish a connection.
+6. Modify permissions as needed for enhanced control.
+7. Complete the setup by authorizing the selected integrations.
 
 </details>
 
 <details>
 
-<summary>Issue: Access Denied - HTTP Status code 403</summary>
+<summary>Post-transition configuration</summary>
 
-* **Root Cause:** Most commonly related to a misunderstanding of Application vs. Delegated permissions within Microsoft Graph Integration.
-  * **Application Permissions:** Granted to applications, not tied to users. Allows access to data without user consent.
-  * **Delegated Permissions:** Tied to specific users, requiring their consent for data access.
-* **Microsoft's Direction:** Microsoft is shifting from Application permissions to Delegated permissions for security reasons. Application permissions lack an audit trail, hiding who accessed data and when. They also allow Microsoft Partners to have a tenant in their organization without the client's awareness.
-* **Relevance to Tasks:**
-  * **User Permissions:** For user-related endpoints, such as reading calendar items, or sending mail as a user, the authenticating account must have the necessary permissions.
-  * **Example:** To send as `SendfromMe@rewstdemo.com` via Rewst, ensure `Rewst-Service Account` has **Send As** permission on the `SendfromMe` account.
+After migrating, you'll configure each integration according to your needs, including setting up OAuth configurations and mapping CSP customers to Rewst organizations.
 
-{% hint style="info" %}
-If you have a user in your tenant that needs permissions within a client tenant (e.g., to a mailbox, SharePoint site, etc.), granting those permissions directly to your user wont be possible due to the users belonging to different tenants. In this case, instead of using an integration override for that workflow, consider configuring the integration under that client's organization directly.
-{% endhint %}
+* **Use CSP Delegated Admin permissions**: Manage permissions for Cloud Solution Provider integrations, ensuring they align with delegated admin roles.
+* **Microsoft Graph OAuth configuration**: Set up OAuth configurations for Microsoft Graph to ensure seamless integration and data access.
+* **CSP Customer to Rewst organization mapping**: Map CSP customers to Rewst organizations for streamlined management and reporting.
+* **Microsoft Exchange Online OAuth configuration**: Configure OAuth for Exchange Online, enabling advanced email and calendar integration functionalities.
 
 </details>
 
-<details>
+## Troubleshoot the Microsoft Cloud integration bundle setup
 
-<summary>Issue: Request_BadRequest, Unsupported token. Unable to initialize the authorization context</summary>
-
-* **Error Message & Context:** `Request_BadRequest`, `Unsupported token. Unable to initialize the authorization context`. This manifests as a **"Bad Request"** error when making calls to Graph, despite seemingly correct integration and tenant delegation credentials.
-* **Suspected Cause:** The error may stem from a cached token or from the integration being authorized prior to setting the checkbox for CSP delegation in CSP, Graph, or Exchange Online.
-* **Potential Resolution:**
-  1. **Uninstall and Reinstall CSP Integration:** Go to CSP integration, click "Uninstall," wait, then click "Install."
-  2. **Reauthorize CSP with Admin Access:** Use the recommended service account with admin access for reauthorization.
-  3. **Repeat for Other Integrations:** Follow steps 1-2 for Exchange Online and Graph, checking `Use CSP Delegated Consent` before authorizing.
-  4. **Re-Consent on Behalf of Managed Tenants:** Return to CSP integration and click the green shield to re-consent.
-
-</details>
-
-### Additional errors
-
-{% hint style="info" %}
-Use **command + F or CTRL + F** to search your your issue in the page and jump to the relevant error in our troubleshooting guide.
-{% endhint %}
-
-<details>
-
-<summary>Issue: Updating the password profile of a user fails with a forbidden error</summary>
-
-As per Microsoft documentation the following needs to be true for resetting a user's password/modifying their password profile.
-
-See [Microsoft Documentation](https://learn.microsoft.com/en-us/graph/api/user-update?view=graph-rest-1.0\&tabs=http#permissions)
-
-In a delegated scenario the Rewst enterprise applications need to have the 'Directory.AccessAsUser.All' permission (and corresponding GDAP roles)
-
-In a application call scenario(MSP Level/Integration installed at the customer level standalone from CSP) the application must be assigned a priviledged role such as Authentication Administrator or Priviledged Authentication Administrator.
-
-</details>
-
-<details>
-
-<summary>Issue: The token has expired</summary>
-
-If the refresh token couldn't be retrieved or stored, reauthorization must occur.
-
-</details>
-
-<details>
-
-<summary>Issue: Presented multi-factor authentication has expired to the policies configured by your administrator, you must refresh your multi-factor authentication to access</summary>
-
-A Conditional Access Policy may have set the maximum session time, causing this error. Consider changing the policy or following guidance under Conditional Access.
-
-</details>
-
-<details>
-
-<summary>Issue: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access.</summary>
-
-The absence of MFA setup or Conditional Access policies blocking Rewst's access may lead to this error. Check MFA settings and Conditional Access policies.
-
-</details>
-
-<details>
-
-<summary>Issue: The provided grant has expired due to it being revoked. A fresh auth token is needed. The user might have changed their password.</summary>
-
-Password changes, session revocations, or account disabling may lead to this error. Reauthorization will be needed.
-
-</details>
-
-<details>
-
-<summary>Issue: Device object was not found in the tenant xxxxxxxxxx</summary>
-
-This might occur when a trusted device used for the first authorization has been deleted from the Intune portal. Reauthorization is required.
-
-</details>
-
-<details>
-
-<summary>Issue: Insufficient access rights to perform the operation</summary>
-
-If the user lacks sufficient access rights or is missing the necessary Exchange role, check the user's rights and Exchange role information. When using GDAP, the user must be in the "Exchange Administrators" group.
-
-</details>
-
-<details>
-
-<summary>Issue: AppLifecycle_2210</summary>
-
-This is likely a failure to call Intune APIs. Check if the tenant has the necessary license available.
-
-</details>
-
-<details>
-
-<summary>Issue: "Invalid Client" error message when authorizing</summary>
-
-A [key vault ](./#what-integrations-are-in-the-microsoft-cloud-integration-bundle)is required in your Azure subscription. If you receive an "Invalid Client" error message when authorizing it is likely due to a missing key vault. [Creating an empty key vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal) should resolve the issue.
-
-</details>
-
-<details>
-
-<summary>Issue: Invalid or malformed</summary>
-
-The request might be malformed if the body doesn't contain JSON or if variables haven't expanded. Look for syntax errors or incorrect bracket usage.
-
-</details>
-
-<details>
-
-<summary>Issue: The user or administrator has not consented to use the application - AADSTS50020</summary>
-
-Multiple causes could lead to this error, such as the user not authorizing the Rewst CSP integration or not being in the `AdminAgents` group. If you're using GDAP, ensure that the user is added to the correct group(s) for Rewst to function.
-
-</details>
-
-<details>
-
-<summary>Issue: User was not found</summary>
-
-This could indicate that the relationship between the tenant and the partner has been dissolved from the client side, or that a GDAP relationship has expired. Check the partner relationship information and ensure it is still active.
-
-</details>
-
-<details>
-
-<summary>Issue: Subscription within the tenant has lapsed</summary>
-
-This means that Exchange connections are no longer possible. Please verify Exchange subscription availability.
-
-</details>
-
-<details>
-
-<summary>Issue: Provide valid credential</summary>
-
-If GDAP has been deployed and you're seeing this error, it may be because the user is not in any GDAP groups. Verify the user's GDAP group membership.
-
-</details>
-
-<details>
-
-<summary>Issue: Microsoft.Skype.Sync.Pstn.Tnm.Common.Http.HttpResponseException</summary>
-
-If you're unable to connect to Teams Admin cente, this might mean the tenant is missing a Teams license. Check to ensure the necessary licenses are available.
-
-</details>
-
-<details>
-
-<summary>Issue: Request not applicable to target tenant</summary>
-
-This error is mainly seen around security tasks and is likely due to a missing license such as M365 BP or Azure AD P1. Check the tenant's license information to ensure that the necessary licenses are available for the requested operation.
-
-</details>
-
-<details>
-
-<summary>Issue: Forbidden (403), MFA Required (401)</summary>
-
-* **Cause:** Often related to Multi-Factor Authentication (MFA). Absence of MFA, incorrect MFA configuration, or unsupported third-party MFA provider.
-* **Requirements:** Microsoft mandates the use of the `StrongAuthClaim` method in MFA requests, confirming additional security checks beyond username and password.
-* **Potential Resolutions:**
-  1. **Enable MFA with StrongAuthClaim:** Make sure the user account for Microsoft CSP integration has MFA enabled using the StrongAuthClaim method (usually with Microsoft MFA).
-  2. **Confirm MFA at Sign-In:** If using Microsoft MFA and encountering errors, ensure MFA confirmation at sign-in. Try incognito browsing or sign out and back in if needed.
-  3. **Create a Dedicated User Account:** Recommended for Microsoft CSP integration with specific requirements (e.g., Global Administrator permissions, MFA with StrongAuthClaim, `AdminAgents` role added in Partner Center to enable API access).
-
-**Duo / Third Party MFA Notice:** Duo MFA was removed from Microsoft's supported list in 2022. Users must switch to Microsoft MFA to comply with requirements. See [Microsoft Partner Account - MFA Requirements](https://docs.microsoft.com/en-us/powershell/partnercenter/test-partner-security-requirements?view=partnercenterps-3.0)
-
-</details>
-
-<details>
-
-<summary>Issue: Neither tenant is B2C or tenant doesn't have a premium license</summary>
-
-This feature requires a P1 license or higher. Check the client's tenant license information to ensure that the necessary licenses are in place.
-
-</details>
-
-<details>
-
-<summary>Issue: Client error 400 (Bad Request)</summary>
-
-Client error `400 Bad Request` means there's an issue with the request. It's most likely that an incorrect value is being sent. Please verify the correctness of the values in the request.
-
-When in the context of authorizing the Microsoft Cloud Bundle this error can sometimes be related to Conditional Access policies, either on the MSP tenant (if failing to authorize) or on the customer tenant (when performing CPV consent aka clicking the blue shield).
-
-If the issue is during the initial authorization, then it is important to check your conditional access policies and modify them to either exclude the user used to authorize the integration (typically the Rewst@ user) or to address the conflict (as an example, limiting access by location).
-
-If the issue is during CPV consent of a customer then you will need to check the customer's conditional access policies and modify them to exclude the service provider tenant or address the conflict (example from above could apply).
-
-
-
-</details>
-
-<details>
-
-<summary>Issue: Client error 401 Unauthorized for...</summary>
-
-This is an Azure specific error. The Azure APIs are using delegated permissions. If it was working before and then stopped working post migration, it's likely that the Azure integration was authorized with a different account than what was used post migration, and the user used to authorize probably doesn’t have the required roles assigned to it in Azure. Assign roles to the user to solve this issue.
-
-Alternatively, it is possible that the tenant does not have licensed users in the Azure/O365. This means that you are missing service principals.
-
-</details>
-
-<details>
-
-<summary>Issue: invalid_client - Failed to authorize one or more integrations: Permissions configuration not found for Azure integration</summary>
-
-This is an Azure specific error and it happens when re-authorizing the Microsoft Cloud Integration Bundle. You must [set up an Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal). It can be empty but it needs to be setup and available.<br>
-
-</details>
-
-<details>
-
-<summary>Issue: There was an error configuring delegated admin… Client error ‘400 Bad Request’…</summary>
-
-This happens when trying to re-consent a client or multiple clients. Make sure to check partner center relationships since you are likely missing one or more [GDAP roles](microsoft-cloud-integration-bundle-actions-and-endpoints.md).
-
-Note that if the client has other relationships with interfering roles it will also cause the consent to fail. You'll need to terminate any other interfering relationships.
-
-</details>
-
-<details>
-
-<summary>Issue: Entra UI pagination and permissions display </summary>
-
-We've identified a recurring issue within the Entra UI concerning the inconsistent permissions display on the Enterprise App Permissions page. Users may encounter situations where the permissions are either fully paginated and visible or not all permissions are displayed as expected.
-
-#### **Incomplete display of permissions** <a href="#incomplete-display-of-permissions" id="incomplete-display-of-permissions"></a>
-
-If what you see resembles the screenshot below, it indicates that not all permissions are being displayed. In such cases, the seemingly absent permissions are assigned but not visible due to a limitation within the UI. This known issue stems from a bug on Microsoft's end, which unfortunately is beyond our ability to directly resolve. For visibility into the complete set of permissions under these circumstances, using the API is the recommended approach.
-
-![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FNHYWwCfHOfPPzEzUXens%252Fentra-ui-not-all-permissions-shown.png%3Falt%3Dmedia%26token%3D54e204ec-8bdb-4f97-9703-5557ece7a5ad\&width=768\&dpr=4\&quality=100\&sign=2d30e14d\&sv=2)
-
-#### **Complete display of permissions** <a href="#complete-display-of-permissions" id="complete-display-of-permissions"></a>
-
-If your Entra UI matches the below screenshot, this suggests that all permissions are being properly shown. So if any are missing, they are actually missing. Should there be any unexpected permissions missing in this scenario, it likely points to an bug or failure in the permissions assignment process on the Rewst side.
-
-![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FWTDzmTA6FgPmNIY4IBm4%252Fentra-ui-all-permissions-shown.png%3Falt%3Dmedia%26token%3Dedd0db06-85eb-43d7-9be8-9f760e4d7575\&width=768\&dpr=4\&quality=100\&sign=95906007\&sv=2)
-
-</details>
-
-<details>
-
-<summary>Issue: Failed to get tenant resource id for… Please try again later.</summary>
-
-This is a matter of allowing Microsoft time to do its work. It could take up to 48 hours for this to self resolve - just give it time and try to re-consent.
-
-</details>
-
-<details>
-
-<summary>Issue: Error assigning application permission…</summary>
-
-Note that this error will display all the multiple permissions that are missing, more than the example referenced. This happens when trying to re-consent a client or multiple clients. Check partner center relationships since there are likely missing one or more [recommended GDAP roles.](microsoft-cloud-integration-bundle-actions-and-endpoints.md)
-
-</details>
-
-<details>
-
-<summary>Issue: Error during callback. error='invalid_client' error_description="AADSTS650051: Value length '8060' is out of the valid range of '1' to '8000' for property 'DelegationScope'.</summary>
-
-This comes from the Microsoft side when the permissions exist and we try to add them back.
-
-Initially attempt to remove some delegated permissions from the enterprise app in your Microsoft Entra portal. If that doesn’t work, you'll want to remove the integration and re-add it.
-
-During the setup, do not click the select all permissions option. Just click next.
-
-</details>
-
-<details>
-
-<summary>Issue - Delegated admin consent creation failed - Forbidden - GDAP relationship configuration needed</summary>
-
-
-
-The error can be caused by multiple reasons and presents itself when consenting a child organization:
-
-1. User has not authorized the app
-2. User is a guest user in the tenant
-3. Conditional Access policy is blocking access
-4. User is not added to the correct group
-
-This error likely happens if you skipped the step to use the Unpack our Configure New GDAP Relationship Crate. Unpack the Crate. Then, using the form: \[ROC] M365: Configure GDAP Relationships unpacked in the Crate, set up a new specific GDAP relationship for Rewst between you and your client. It will send you an email per CSP customer, with and approval link and then another link back to rewst to set everything up. It ensure consistency across your orgs.
-
-Then check that it has been configured correctly. The[ 12 GDAP roles](microsoft-cloud-integration-bundle-actions-and-endpoints.md) would need to be in the admin relationships that are failing.
-
-Make sure that the account you are using is a member of ADMINAGENTS and GLOBALADMIN while you sort the permissions. Once done, GA can be removed if desired.
-
-Lastly, check your clients' [conditional access policies](microsoft-cloud-integration-bundle-actions-and-endpoints.md).
-
-
-
-</details>
-
-<details>
-
-<summary>Issue: Failed to refresh options</summary>
-
-This issue presents itself when you click the **Refresh Options** button in the integration page. To resolve this, add the Rewst Service account to AdminAgents at the top MSP parent level organization. After this action has been taken, the client must re-authorize the integration to fix.
-
-</details>
-
-<details>
-
-<summary>Issue: Delegated admin consent creation failed… Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access…</summary>
-
-The error can be caused by multiple reasons and presents itself when consenting a child organization:
-
-1. User has not authorized the app
-2. User is a guest user in the tenant
-3. Conditional Access policy is blocking access
-4. User is not added to the correct group
-
-</details>
-
-<details>
-
-<summary>Issue: Delegated admin consent creation failed… Access has been blocked by Conditional Access Policies</summary>
-
-You must ensure that you have setup your clients’ policies as per our [guidance on conditional access](microsoft-cloud-integration-bundle-actions-and-endpoints.md).&#x20;
-
-</details>
-
-<details>
-
-<summary>Issue: Unsupported token. Unable to initialize the authorization context</summary>
-
-This error is an indication that you have either either not approved the created relationship or not added the required [GDAP roles](microsoft-cloud-integration-bundle-actions-and-endpoints.md) to it. Partner GDAP setup was not completed. You'll need to terminate the setup, and create a new one.
-
-</details>
-
-<details>
-
-<summary>Issue: User is trying to authenticate Azure integration (may apply to other in the bundle) and gets example error:</summary>
-
-Ensure that he secret being sent in the request is the client secret value, not the client secret ID.
-
-The other error that may be related to this when consenting is **There was an error configuring delegated admin**. Here, the integration is trying to use old CSP App Registration. Uninstall and reinstall the entire Microsoft Cloud Integration Bundle. Note that only uninstalling and reinstalling Azure/CSP alone will not work. \
-\
-If you keep getting errors during reinstallation, remove the Rewst MS Cloud Connector Enterprise Application and then authorize.\
-\
-\
-During the process, you may see the below error. You should be fine to proceed despite the error message. <br>
-
-<figure><img src="../../../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
-
-</details>
-
-<details>
-
-<summary>Issue: Invalid Tokens - Invalid_grant - device object was not found</summary>
-
-Device Object was not found in tenant means that during authentication you used an approved device, and that device is no longer available.
-
-The best way to fix is to rerun the authentication setup. When a dialog appears to log in, don't click on the account that's already logged in, even if it's the service account. Instead, click **sign in with a different account.** The&#x6E;**,** log on with the service account
-
-If this doesn't fix your issue, manually delete the enterprise application, then  re-authorize. You may need to manually consent the app in Intune, then re-authorize again.
-
-</details>
-
-<details>
-
-<summary>Issue: Invalid Tokens - Invalid_grant - The provided grant has expired</summary>
-
-The first step in troubleshooting is to attempt reauthentication.&#x20;
-
-1. Navigate to the Microsoft Cloud Integration Bundle settings in Rewst.
-2. Click **Reauthenticate** and follow the prompts to complete the process.
-3. If authentication is successful, your integration should resume normal operation.
-
-If reauthentication fails, proceed to the next step. Tthe issue may be related to the service account credentials.
-
-1. Reset the service account password in Microsoft.
-2. Update the credentials in Rewst.
-3. Update the credentials in Rewst.
-4. Attempt to reauthenticate again.
-5. If this works ensure you click the re-concent button.
-
-If the issue persists, completely uninstall and reinstall the Microsoft Cloud Bundle Integration.
-
-
-
-</details>
-
-<details>
-
-<summary>Issue: User account [tenant name] does not exist in tenant. The account needs to be added as an external user in the tenant first.</summary>
-
-Ensure that the [CA Policies exclusions](microsoft-cloud-integration-bundle-actions-and-endpoints.md) have been set. If the Service Account is not added you will see this error
-
-</details>
-
-<details>
-
-<summary>Issue: "Unknown auth_app_registration: None" Error</summary>
-
-Remove Microsoft Cloud integration from the child organization only.
-
-</details>
-
-<details>
-
-<summary>Issue: Delegated admin consent re-creation failed for ID {‘error’: {‘response’: {‘code’: 400, ‘message’: 'Application ID doesn’t exist</summary>
-
-Confirm that the company uses and has Azure Storage enabled.
-
-</details>
-
-<details>
-
-<summary>Issue: Company Using Owned APP Registration and getting errors in crates.</summary>
-
-See our documentation on [Owned App Registration](owned-app-registration.md).
-
-</details>
-
-<details>
-
-<summary>Issue: 403 - Authorization_RequestDenied (Duo External Authentication)</summary>
-
-Here, a client has Duo as an External Authentication method that may be re-directing MFA. Configure a service provider exclusion for the problem tenant.
-
-</details>
-
-<details>
-
-<summary>Issue: <strong>Error -3 while decompressing data: incorrect header check -</strong> Microsoft EXO </summary>
-
-For MSP or parent organization
-
-* Verify that the dedicated account used for Microsoft Cloud Bundle authorization has Exchange Administrator or Global Administrator role assigned.
-
-For child organization
-
-* If the tenant is a child org:
-  * Ask the customer to confirm in their GDAP Relationship that they have Exchange Administrator role assigned.
-  * If authentication is handled through the Microsoft Cloud Bundle, confirm that the linked service account has the Exchange Administrator role assigned.
-
-</details>
+We have a separate guide with all bundle troubleshooting information. View that page [here](microsoft-cloud-integration-bundle-troubleshooting-guide.md).&#x20;

@@ -46,13 +46,14 @@ If you intend to have the CSV attached to a PSA ticket, you must first successfu
 
 #### Fill out the form to select CSV delivery
 
-1. Navigate to Automations > Forms in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Organization Variables to CSV Form` .
 3. Click on the form name.&#x20;
 4. Click **View Usages > View Direct URLs.**
-5. Choose the **Location** where the CSV should be sent: **Both, PSA,** or **Email**.
-6. Choose an existing PSA ticket from the drop-down selector to attach the CSV to.
-7. Click **Submit**. This will begin the generation and sending of the CSV.
+5. Click on the organization where you'd like to use the form.
+6. Choose the **Location** where the CSV should be sent: **Both, PSA,** or **Email**.
+7. Choose an existing PSA ticket from the drop-down selector to attach the CSV to.
+8. Click **Submit**. This will begin the generation and sending of the CSV.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-12-18 at 2.16.35 PM.png" alt=""><figcaption></figcaption></figure>
 
