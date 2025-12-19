@@ -1,14 +1,14 @@
-# Just in Time Admin Access Crate
+# Just-in-Time Admin Access Crate
 
 {% hint style="info" %}
-If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Just in Time Admin Access Crate in our Crate Marketplace.
+If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Just-in-Time Admin Access Crate in our Crate Marketplace.
 {% endhint %}
 
-## What does the **Just in Time Admin Access** Crate do?
+## What does the **Just-in-Time Admin Access** Crate do?
 
-Our Just in Time Admin Access Crate provides Just-in-Time (JIT) administrative access, temporarily granting Global Admin rights in Microsoft 365, or domain admin rights in on-premises Active Directory though the use of a form.
+Our Just-in-Time Admin Access Crate provides Just-in-Time (JIT) administrative access, temporarily granting Global Admin rights in Microsoft 365, or domain admin rights in on-premises Active Directory though the use of a form.
 
-## Why use the Just in Time Admin Access Crate?
+## Why use the Just-in-Time Admin Access Crate?
 
 {% embed url="https://www.youtube.com/watch?v=9415npOj9Ms" %}
 
@@ -48,7 +48,7 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 
         <figure><img src="../../../.gitbook/assets/image (319).png" alt=""><figcaption></figcaption></figure>
 
-## Unpack the **Just in Time Admin Access** Crate
+## Unpack the **Just-in-Time Admin Access** Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `Just in Time Admin Access Crate`**.**\
@@ -59,11 +59,11 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 5. Leave all the form options as the default.
 6. Click **Unpack**. The Crate will now unpack the workflow, trigger and form ready to be used.
 
-### Example: Unpack the Just in Time Admin Access Crate
+### Example: Unpack the Just-in-Time Admin Access Crate
 
 <figure><img src="../../../.gitbook/assets/Just in Time Admin Access.gif" alt=""><figcaption></figcaption></figure>
 
-## **Use the Just in Time Admin Access Crate**
+## **Use the Just-in-Time Admin Access Crate**
 
 ### **Form submission**
 
@@ -93,7 +93,7 @@ To get to the form to create a temporary administrative account:
 **Note:** A Rewst Admin account can retrieve the password, as explained in the troubleshooting section at the end of this guide.
 {% endhint %}
 
-### Example: Use the \[Rewst] Just In Time Admin Access form
+### Example: Use the \[Rewst] Just-In-Time Admin Access form
 
 <figure><img src="../../../.gitbook/assets/Kapture 2025-02-12 at 22.34.21.gif" alt=""><figcaption></figcaption></figure>
 
@@ -151,7 +151,7 @@ Since Microsoft 365 operates in a cloud environment, deleting the account ensure
 
 Both processes are fully automated, reducing manual workload while enforcing security best practices and compliance.
 
-## Troubleshoot the **Just in Time Admin Access** Crate
+## Troubleshoot the **Just-in-Time Admin Access** Crate
 
 If you need to retrieve the username and password for the temporary admin account from Rewst directly for any reason, follow these steps. The process differs slightly depending on whether the request was for On-Premises Active Directory or Microsoft 365.
 
@@ -190,4 +190,3 @@ Below is a video example of retrieving both the username and password for a Micr
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-
