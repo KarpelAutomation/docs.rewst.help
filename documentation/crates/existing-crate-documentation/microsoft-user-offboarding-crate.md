@@ -37,6 +37,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Click **Unpack.**
+7. The [organization variable](../../configuration/organization-variables.md#manually-add-a-new-organization-variable) `user_offboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
 
 ## Use the Microsoft: User Offboarding Crate
 

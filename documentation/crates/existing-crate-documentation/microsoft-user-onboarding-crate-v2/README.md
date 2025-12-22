@@ -452,6 +452,7 @@ If not set, your organization's default settings will be applied.
 3. Click on the Crate to open the details page.
 4. Click **Unpack Crate**, then **Continue**.
 5. Click **Unpack**. Note that this is a large Crate, and the process may take a few minutes.
+6. The [organization variable](../../../configuration/organization-variables.md#manually-add-a-new-organization-variable) `user_onboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
 
 ## Use the Crate
 
