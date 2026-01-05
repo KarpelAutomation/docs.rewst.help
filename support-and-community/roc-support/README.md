@@ -26,19 +26,6 @@ Our support team provides **24-hour coverage from Monday to Friday**, ensuring u
 
 Learn more about our support priority levels [here](support-priorities.md).&#x20;
 
-{% hint style="warning" %}
-**Christmas Operating Hours**
-
-Please note the following adjustments to our support operating hours during the Christmas and New Year period:
-
-* **24 December:** Operating until 3:00 pm ET
-* **25 December:** Closed
-* **26 December:** Operating from 10:00 am ET
-* **31 December:** Operating until 6:00 pm ET
-* **1 January:** Closed
-* **2 January:** Operating from 4:00 am ET
-{% endhint %}
-
 ## How to log a support ticket
 
 To create a support request, you have several options.

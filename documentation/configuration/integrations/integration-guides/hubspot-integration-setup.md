@@ -37,6 +37,18 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
 {% endhint %}
 
+{% hint style="warning" %}
+HubSpot has optional scopes which aren't included in Rewst's standard integration. If you're using the generic HubSpot API Request action, certain endpoints may return an error where missing scopes and permissions are listed.
+
+![](<../../../../.gitbook/assets/image (325).png>)
+
+To remedy this if using the action, create a custom app in HubSpot. Then, take the API credentials from that custom app and input them into the Rewst integration.
+
+HubSpot's Create APP documentation can be found [here](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/create-an-app).
+
+HubSpot's documentation on their scopes can be found [here](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes). <br>
+{% endhint %}
+
 HubSpot's own API documentation can be found [here](https://developers.hubspot.com/docs/reference/api/overview).
 
 | Category            | Action                    | Description                                                              |

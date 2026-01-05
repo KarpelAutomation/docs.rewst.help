@@ -40,6 +40,21 @@ The Rewst Prod App is necessary for authentication and might already be installe
 
 </details>
 
+<details>
+
+<summary>Issue: Missing scopes in Microsoft Graph list</summary>
+
+
+
+* **Symptom**: The only scopes displaying are the base scopes. When viewing the Graph list of scopes, there should be over 140, if the client has left permissions intact.\
+  Note that whenever you encounter this problem, actions such as List Users and running the GDAP relationship Crate will yield forbidden errors.
+* **Potential Cause**: Microsoft's syncing is notoriously slow - it can take them up to a day to get this applied into Rewst's integration.
+* **Solution**:
+  * If you uninstall/reinstall the integration, and verify that the service account has the correct roles/groups, this may still be an issue on Microsoft's side of the integration.
+  * Do another re-authorization and let it sit between 2 and 48 hours. Check the scopes to make sure they are displaying correctly at the end of that time period. If scopes are still missing after 48 hours, contact Rewst support.
+
+</details>
+
 ## **Authorization issues**
 
 If you encounter problems during the authorization step, ensure that you are using the correct account, and that all permissions are properly set.

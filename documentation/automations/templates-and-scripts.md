@@ -27,36 +27,6 @@ Write templates in either Markdown or HTML language.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 10.53.50 AM.png" alt=""><figcaption><p>An example of an in-progress template, written in Markdown</p></figcaption></figure>
 
-### Templates and Jinja
-
-While templates are written in HTML or Markdown, they can accept small elements of Jinja to set up the use of templates elsewhere in Rewst. Templates allow for context variables to be set within them, which can then be referenced in workflows to allow the eventual sent message to populate with dynamic information.
-
-In the example below, you're sending an e-mail to a new user that has been created.
-
-```django
-Hi {{ CTX.first_name }},
-
-Welcome to Rewst!
-
-Your email account has been provisioned and you should be able to access it at:
-https://outlook.office.com/mail/
-
-username: {{ CTX.email }}
-password: {{ CTX.password }}
-
-We're excited to have you on the team!
-```
-
-In the input for the `Send Mail` action, you would enter `{{ template("<template-id>")}}` into the action's **Message** field instead of typing out the intended message manually. This would pull your pre-written template into the body of the email when it is sent.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 2.34.55 PM.png" alt=""><figcaption></figcaption></figure>
-
-The template ID can be taken from the URL, when editing the template. As an example, let's look at the URL below.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-03 at 9.21.15 AM.png" alt=""><figcaption></figcaption></figure>
-
-The part of the URL underlined in yellow is the template ID. For this particular ID, your Jinja would read as `{{ template("768f5d45-5fe7-4c1f-b2c1-932dcbdcb1d7") }}`.
-
 ## What is a script?
 
 _Scripts_ in Rewst enable you to write scripts in a straightforward and accessible manner compared to traditional programming languages. Scripting tasks can range from batch processes on a local computer to generating dynamic web pages on a web server. Scripts can be written, edited, and executed more quickly and easily than software programs.
@@ -79,6 +49,36 @@ Write Rewst scripts in any of the following languages: PowerShell, Python, YALM,
 5. Scroll down and click **Submit** when finished.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 2.40.44 PM.png" alt=""><figcaption></figcaption></figure>
+
+## Jinja: Use templates and scripts within workflows
+
+While templates and scripts are written in HTML or Markdown, they can accept small elements of Jinja to set up their elsewhere in Rewst. They allow for context variables to be set within them, which can then be referenced in workflows to allow the eventual sent message to populate with dynamic information.
+
+In the example below, you're sending an e-mail to a new user that has been created.
+
+```django
+Hi {{ CTX.first_name }},
+
+Welcome to Rewst!
+
+Your email account has been provisioned and you should be able to access it at:
+https://outlook.office.com/mail/
+
+username: {{ CTX.email }}
+password: {{ CTX.password }}
+
+We're excited to have you on the team!
+```
+
+In the input for the `Send Mail` action, you would enter `{{ template("<template-id>")}}` into the action's **Message** field instead of typing out the intended message manually. This would pull your pre-written template into the body of the email when it is sent.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 2.34.55 PM.png" alt=""><figcaption></figcaption></figure>
+
+The template ID or script ID can be taken from the URL, when editing. As an example, let's look at the URL below.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-04-03 at 9.21.15 AM.png" alt=""><figcaption></figcaption></figure>
+
+The part of the URL underlined in yellow is the template ID. For this particular ID, your Jinja would read as `{{ template("768f5d45-5fe7-4c1f-b2c1-932dcbdcb1d7") }}`.
 
 ## Export and import templates and scripts
 

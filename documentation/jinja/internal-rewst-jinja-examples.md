@@ -299,9 +299,9 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
 
 * **Purpose:** This extension allows you to work with date and time values directly within your Jinja2 templates.
 * **Usage:**
-  * `{{ now }}`: Inserts the current date and time.
-  * `{{ now, "%Y-%m-%d" }}`: Inserts the current date and time formatted according to the specified format (e.g., `2023-11-22`).
-  * `{{ now, False }}`: Inserts the current timestamp.
+  * `{{ now() }}`: Inserts the current date and time.
+  * `{{ now() |convert_from_epoch }}`: Inserts the current date and time formatted according to the specified format (e.g., `2023-11-22`).
+  * `{{ now("utc","%Y-%m-%d") }}` or `{{ now() |convert_from_epoch |format_datetime("%Y-%m-%d") }}`: Inserts the current timestamp.
 *   **Example:**
 
     ```jinja2
@@ -330,11 +330,11 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
 
 * **Purpose:** The UUID extension simplifies the generation of Universally Unique Identifiers (`UUIDs`) within your Jinja2 templates.
 * **Usage:**
-  * `{{ uuid4 }}`: Inserts a randomly generated UUID version 4.
+  * \{{ UTILS.uuid4() \}}: Inserts a randomly generated UUID version 4.
 *   **Example:**
 
     ```jinja2
-    Generated UUID: {{ uuid4 }}
+    Generated UUID: {{ UTILS.uuid4() }}
     ```
 
 ### List comprehension

@@ -172,8 +172,7 @@ Granular access is influenced by your clients' [conditional access policies](htt
     2. These permissions are carefully chosen to support Crates without authentication issues.
     3. If you modify permissions from the stock ones suggested by Rewst, it’s your responsibility to verify that your custom permissions don’t interfere with Rewst’s functionality.
     4. For more detail, consult Microsoft Graph’s [official permissions documentation](https://learn.microsoft.com/en-us/graph/permissions-reference).
-
-
+    5. Microsoft can take up to 48 hours for all scopes to appear in the Rewst integration. If scopes are not appearing for you, pause integration setup, and return later to allow time for Microsoft to update.
 3. Grant additional access for other Microsoft integrations
    1. Exchange, CSP, and Azure, if needed, are simpler and allow you to toggle access as desired.
    2. Microsoft Graph includes \~177 APIs, and gives you broad access to users, groups, and licensing from one endpoint.
