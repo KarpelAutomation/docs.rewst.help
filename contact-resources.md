@@ -14,7 +14,7 @@ You can also reach out in Discord in the [#cluck-u](https://discord.com/channels
 
 Rewst's community team are here to help you with any questions you may have around our community.&#x20;
 
-* George Smith - @maple\_how\_now\_brown\_cow - Community Engagement Manager
+* George Smith - `@maple_how_now_brown_cow` - Community Engagement Manager
 
 ### Support channels
 

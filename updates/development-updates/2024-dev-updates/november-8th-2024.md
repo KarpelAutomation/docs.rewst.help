@@ -9,9 +9,9 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>New features and items</strong></summary>
 
 * Multiplayer workflows have been fully released
-* Added a root level USER namespace to jinja
+* Added a root level USER namespace to Jinja
 * Added an action column to Datatable components in App Builder that allows for opening a dialog and passing the
-* Added a confirrmation dialog when deleting Apps in App Builder
+* Added a confirmation dialog when deleting Apps in App Builder
 
 </details>
 

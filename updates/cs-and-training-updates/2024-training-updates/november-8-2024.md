@@ -42,7 +42,7 @@ Explore what new changes the Training team has made in the last week.
 * Updated Pages
   * [servicenow-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/servicenow-integration-setup.md "mention") - Formatting Update
   * Added Section [Broken link](/broken/pages/8PjyXOTLAzdmsN7SPslq#live-instructor-led-bootcamp "mention") in Rewst Foundation Lesson
-  * Added App Builder Alert in [issue-alerts.md](../../issue-alerts.md "mention")
+  * Added App Builder Alert in [issue-alerts](../../issue-alerts/ "mention")
   * Reorganized RMM section under [integrations](../../../documentation/configuration/integrations/ "mention")
   * Updated [Broken link](/broken/pages/Ly4fTghZv6kpgU5EeUzQ "mention")
     * Added "Special Instructions" to [Broken link](/broken/pages/bUAgiBD9xvBfu52wBptl#optional-instructions-for-all-managed-organizations "mention")

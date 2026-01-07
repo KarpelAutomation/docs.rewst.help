@@ -43,7 +43,7 @@ Explore what new changes the Training team has made in the last week.
 * Added Pages
   * [Addigy Integration Page](https://docs.rewst.help/documentation/integrations/rmm/addigy)
   * [Broken link](/broken/pages/nvCHsrCq289RTSGgaoPH "mention")
-  * [#routine-system-maintenance-october-26-2024](../../issue-alerts.md#routine-system-maintenance-october-26-2024 "mention")
+  * [#routine-system-maintenance-october-26-2024](../../issue-alerts/#routine-system-maintenance-october-26-2024 "mention")
   * [app-builder](../../../documentation/app-builder/ "mention") pages
 
 </details>
