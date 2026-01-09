@@ -23,7 +23,8 @@ Our Alert on Expiring App Reg Certificates Crate identifies any expiring certifi
 
 ## Crate prerequisites
 
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate, to enable the Microsoft Graph integration with Rewst
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate, to enable the Microsoft Graph integration with Rewst.
+* Your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be integrated with Rewst.
 * `default_psa` [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) must be added
 
 ## Unpack the Alert on Expiring App Reg Certificates Crate

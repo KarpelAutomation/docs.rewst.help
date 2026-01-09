@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Export PSA Ticket Overview to CSV Crate do?
 
-When a form is filled out, generate a CSV Report of PSA tickets created between two dates. When the report is ready, a link to download it will be sent to the user who filled in the form.
+When a form is filled out, this Crate generates a CSV Report of PSA tickets created between two dates. When the report is ready, a link to download it will be sent to the user who filled in the form.
 
 ### How the Crate works
 

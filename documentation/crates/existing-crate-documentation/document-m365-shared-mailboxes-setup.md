@@ -20,9 +20,10 @@ The benefits include:
 
 ## Crate prerequisites
 
-Before using this automation, ensure that you have an existing Microsoft 365 account. Use that account to set up the [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+Before unpacking this Crate, you’ll need to:
 
-Your [ITGlue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must also be set up.
+* Successfully set up the [Microsoft Cloud Integration Bundle](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle).
+* Integrate your [ITGlue](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/it-glue-integration-setup), [SyncMonkey](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/syncmonkey-integration), or [Hudu](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/hudu-integration-setup) documentation tool.
 
 ## Unpack the Document Shared Mailbox Details V2 Crate
 

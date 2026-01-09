@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Alert on Login From Non Native Country Crate do?
 
-Th**is** Crate enhances security by detecting logins from countries that do not match a user's configured location. It helps administrators quickly identify potential unauthorized access and take necessary action.
+This Crate enhances security by detecting logins from countries that do not match a user's configured location. It helps administrators quickly identify potential unauthorized access and take necessary action.
 
 This Crate detects and reports logins from non-native countries, but does not take action to block them. It does not change any user configurations within M365., and can't determine if logins from different countries are legitimate due to VPN use.
 
@@ -46,6 +46,8 @@ You have the option to configure the audit window via a trigger variable named `
 The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be installed before unpacking this Crate.
 
 Entra ID Premium P1 or P2 license is required to use this Crate.
+
+Your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be integrated with Rewst.
 
 ## Unpack the Alert on Login From Non Native Country Crate
 

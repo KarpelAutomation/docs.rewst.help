@@ -32,7 +32,7 @@ Follow the below steps to configure a new integration:
 2. Search for `Huntress` in the integrations page.
 3. Click on the integration tile to launch the configuration setup page.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-05 at 4.31.49 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-05-05 at 4.31.49 PM.png>)
 4. Under Parameters, enter the information copied from Huntress into its relevant fields:
    1. **Private API Key**
    2. **Public API Key**
@@ -49,16 +49,17 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
 {% endhint %}
 
-| Category     | Action                | Description                                  |
-| ------------ | --------------------- | -------------------------------------------- |
-| **Huntress** | List Organizations    | Get a list of organizations.                 |
-| **Huntress** | List Agents           | Get a list of agents                         |
-| **Huntress** | List Billing Reports  | Get a list of billing Reports                |
-| **Huntress** | List Reports          | Get a list of reports                        |
-| **Huntress** | List Incident Reports | Get a list of Incident Reports               |
-| **Huntress** | Get Organization      | Returns data for a specific organization.    |
-| **Huntress** | Get Agent             | Returns data for a specific agent.           |
-| **Huntress** | Get Incident Report   | Returns data for a specific incident report. |
-| **Huntress** | Get Report            | Returns data for a specific report.          |
-| **Huntress** | Get Billing Report    | Returns data for a specific billing report.  |
-| **Huntress** | Get Current Account   | Description coming soon...                   |
+| Category            | Action                | Description                                                              |
+| ------------------- | --------------------- | ------------------------------------------------------------------------ |
+| **Huntress**        | List Organizations    | Get a list of organizations.                                             |
+| **Huntress**        | List Agents           | Get a list of agents                                                     |
+| **Huntress**        | List Billing Reports  | Get a list of billing Reports                                            |
+| **Huntress**        | List Reports          | Get a list of reports                                                    |
+| **Huntress**        | List Incident Reports | Get a list of Incident Reports                                           |
+| **Huntress**        | Get Organization      | Returns data for a specific organization.                                |
+| **Huntress**        | Get Agent             | Returns data for a specific agent.                                       |
+| **Huntress**        | Get Incident Report   | Returns data for a specific incident report.                             |
+| **Huntress**        | Get Report            | Returns data for a specific report.                                      |
+| **Huntress**        | Get Billing Report    | Returns data for a specific billing report.                              |
+| **Huntress**        | Get Current Account   | Description coming soon...                                               |
+| **Generic Request** | Huntress API Request  | Generic action for making authenticated requests agains the Huntress API |

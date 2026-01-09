@@ -1,12 +1,12 @@
-# Cork Compliance Event to PSA Ticket Crate
+# Cork: Compliance Event to PSA Ticket Crate
 
 {% hint style="info" %}
 &#x20;If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-## What does the Cork Compliance Event to PSA Ticket Crate do?
+## What does the Cork: Compliance Event to PSA Ticket Crate do?
 
-The Cork Compliance Event to PSA Ticket Crate scans Cork compliance events daily and automatically creates PSA tickets for any detected issues. It checks for existing open tickets to prevent duplicates, ensuring efficient tracking. If a previous ticket has been closed and a new event is found, it generates a new ticket. If all events in the ticket have been resolved, the ticket will be automatically closed.
+The Cork: Compliance Event to PSA Ticket Crate scans Cork compliance events daily and automatically creates PSA tickets for any detected issues. It checks for existing open tickets to prevent duplicates, ensuring efficient tracking. If a previous ticket has been closed and a new event is found, it generates a new ticket. If all events in the ticket have been resolved, the ticket will be automatically closed.
 
 ## Crate prerequisites
 
@@ -15,7 +15,7 @@ Before unpacking this Crate, you must first:
 * Set up the [Cork integration](../../configuration/integrations/integration-guides/cork-integration.md)
 * Set up your[ PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)
 
-## Unpack the Cork Compliance Event to PSA Ticket Crate
+## Unpack the Cork: Compliance Event to PSA Ticket Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Cork: Compliance Event To PSA Ticket`.\
@@ -42,7 +42,7 @@ Before unpacking this Crate, you must first:
 
 <figure><img src="../../../.gitbook/assets/image (82).png" alt="Screenshot of the REWST Cork Compliance Setup Form interface, displaying dropdown configuration fields including reporting type (set to “One Ticket With All Combined Events/Assets”), board ID (set to “IT:Level I”), ticket creation status (set to “New”), ticket closure status (set to “Complete”), and an optional ticket type section enabled with the ticket type set to “IT:Hardware.” Each field includes a refresh icon for dynamic updates, and required fields are marked with red asterisks."><figcaption></figcaption></figure>
 
-### Use the Cork Compliance Event to PSA Ticket Crate
+### Use the Cork: Compliance Event to PSA Ticket Crate
 
 After submitting the form during the unpacking process, the Crate will function as long as triggers are enabled. If triggers are disabled, open the workflow and enable them.
 

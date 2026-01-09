@@ -26,6 +26,16 @@ The workflow requires three input parameters: a ticket ID for tracking, the sele
 5. The workflow then proceeds to the **Update\_Ticket** task, which runs the **\[\[Rewst Master v3] PSA: Update Ticket - Actual** action to update the specified PSA ticket with an internal note documenting the user move attempt, including the user details, destination OU information, and the results from the PowerShell operation.
 6. After successfully updating the ticket, the workflow transitions to the **FINISH** task, which executes a final **noop** action to mark the completion of the workflow process.
 
+## Crate prerequisites <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
+
+Before unpacking this Crate, you'll need to have successfully integrated your [RMM](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) and [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+
+{% hint style="warning" %}
+Note that this Crate does not work with SuperOps PSA. \
+For RMM integration, you'll also need to import the appropriate PowerShell script component into your RMM platform to enable remote PowerShell execution on domain controllers.\
+Your RMM must have agents installed on or access to your Active Directory domain controllers
+{% endhint %}
+
 ## Unpack the Bulk Move Users to Specified OU Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.

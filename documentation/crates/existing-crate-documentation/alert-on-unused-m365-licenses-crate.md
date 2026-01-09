@@ -85,7 +85,7 @@ Before unpacking this Crate:
 
 The[ Pax 8 integration](../../configuration/integrations/integration-guides/pax8-integration-setup.md) must first successfully be set up in Rewst .
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate, to enable the Microsoft Graph integration with Rewst.
+The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up to enable the Microsoft Graph integration with Rewst.
 
 Your[ PSA must be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
 

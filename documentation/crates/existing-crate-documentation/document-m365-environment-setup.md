@@ -10,9 +10,9 @@ The Document M365 Environment Crate fetches user details from the Microsoft 365 
 
 ## Crate prerequisites
 
-Before using this automation:
+Before unpacking this Crate:
 
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up.
 * Your [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must be set up.
 
 ## Unpack the Document M365 Environment Crate

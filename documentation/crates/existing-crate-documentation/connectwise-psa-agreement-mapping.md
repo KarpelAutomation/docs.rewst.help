@@ -10,7 +10,10 @@ Our ConnectWise PSA Agreement Mapping Crate synchronizes users into Connectwise 
 
 ## Crate prerequisites
 
-Rewst’s [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be set up.
+Before unpacking this Crate:
+
+* Rewst’s [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be set up.
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/), which contains our Microsoft Graph integration, must be successfully set up.
 
 ## Unpack the ConnectWise PSA Agreement Mapping Crate
 

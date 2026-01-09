@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Export MS365 Licenses to CSV Crate do?
 
-This Crate is designed to automate the audit of Microsoft 365 licenses within a tenant. It generates a CSV report and uploads it to a ticket for regular monitoring and compliance checks.
+This Crate is designed to automate the audit of Microsoft 365 licenses within a tenant. It generates a CSV report and uploads it to a PSA ticket for regular monitoring and compliance checks.
 
 ### How the Crate works
 

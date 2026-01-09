@@ -6,11 +6,11 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Exchange CIS Audit Crate do?
 
-Compliance with CIS controls is critical for your organization's security posture. This Crate automates the process of validating certain CIS controls such as audit logs and mailbox configurations, and logs a ticket for record-keeping and potential remediation actions.
+This Crate automates the process of validating certain Center for Internet Security (CIS) controls such as audit logs and mailbox configurations, and logs a ticket in your PSA for record-keeping and potential remediation actions.
 
 ### How the Crate works
 
-* **The workflow v**alidates if audit logs are configured correctly per CIS controls.
+* The workflow validates if audit logs are configured correctly per CIS controls.
 * It confirms if mailbox settings align with specific CIS controls.
 * A ticket is created in your integrated PSA, detailing the compliance status of each control validated.
 * The ticket contains a detailed summary of all the controls checked, making it easier for remediation if necessary.
@@ -19,7 +19,7 @@ Compliance with CIS controls is critical for your organization's security postur
 
 The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
-Your [PSA must succesfully be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Your [PSA must successfully be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 ## Unpack the Exchange CIS Audit Crate
 

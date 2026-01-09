@@ -8,7 +8,7 @@ This Crate is specifically used for the setup of the [Microsoft Cloud Integratio
 
 ## What does the Configure New GDAP Relationship Crate do?
 
-This Crate is designed to create and assign the 12 roles specified in the document. If you require additional roles, you may need to customize the Crate yourself. The in-workflow documentation will guide you through this process.
+This Crate is designed to create and assign the 12 roles specified in our documentation for the Microsoft Cloud Integration Bundle. If you require additional roles, you may need to customize the Crate yourself. The in-workflow documentation will guide you through this process.
 
 To ensure that your GDAP is properly set to allow Rewst automation, you’ll need to unpack this Configure New GDAP Relationship Crate as part of the Microsoft Cloud Integration Bundle setup process. It's designed to create and assign the roles needed for the integration to properly function.
 

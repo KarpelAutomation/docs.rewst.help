@@ -10,7 +10,8 @@ Our Alert on Expiring App Reg Secrets Crate identifies any expiring client secre
 
 ## Crate prerequisites
 
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate, to enable the Microsoft Graph integration with Rewst
+* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate, to enable the Microsoft Graph integration with Rewst.
+* Your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be integrated with Rewst.
 * The `psa_default_board_id` [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) must be added
 * The `default_psa` organization variable must be added
 

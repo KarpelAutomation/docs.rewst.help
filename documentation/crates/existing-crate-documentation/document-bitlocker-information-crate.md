@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Document BitLocker Information Crate do?
 
-Our Document BitLockers crate automates the collection and documentation of BitLocker encryption details for computers managed through your RMM. Maintain visibility and compliance by syncing key encryption attributes into your preferred documentation platform.  BitLocker details are collected by running a PowerShell script via the RMM, so only computers that are online during execution will have their BitLocker information documented. This Crate not delete BitLocker asset records that are no longer associated with active computers.
+Our Document BitLockers Crate automates the collection and documentation of BitLocker encryption details for computers managed through your RMM. Maintain visibility and compliance by syncing key encryption attributes into your preferred documentation platform.  BitLocker details are collected by running a PowerShell script via the RMM, so only computers that are online during execution will have their BitLocker information documented. This Crate not delete BitLocker asset records that are no longer associated with active computers.
 
 * Keep documentation in sync with actual system configurations through scheduled execution.
 * Work with supported RMM and documentation platforms to automate asset management.

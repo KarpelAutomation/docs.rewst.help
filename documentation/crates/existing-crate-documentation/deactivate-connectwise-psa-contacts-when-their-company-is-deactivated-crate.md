@@ -4,15 +4,15 @@
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-## What does the Detailed MFA Enforcement Reporting Crate do?
+## What does the Deactivate ConnectWise PSA Contacts when their Company is Deactivated Crate do?
 
-This Crate ensure that when a ConnectWise PSA company is set to an inactive status, it also sets the Contacts for that company to inactive.
+This Crate ensures that when a ConnectWise PSA company is set to an inactive status, it also sets the Contacts for that company to inactive.
 
 ## Crate prerequisites
 
 Your [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must first be successfully integrated with Rewst before unpacking this Crate.
 
-## Unpack the Detailed MFA Enforcement Reporting Crate
+## Unpack the Deactivate ConnectWise PSA Contacts when their Company is Deactivated Crate
 
 1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
 2. Search for `Deactivate ConnectWise PSA Contacts when their Company is Deactivated`.\

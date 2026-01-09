@@ -14,8 +14,16 @@ Our Find Inactive Computers in RMM Crate identifies endpoints in the RMM platfor
 * Removes the need for manual stale device audits
 * Notifies the appropriate team or technician by creating a detailed service ticket
 * Keeps RMM inventory accurate and useful by surfacing forgotten or decommissioned endpoints
+* The Crate is triggered by a scheduled cron trigger, which allows for regular check-ins.
 
-The Crate is triggered by a scheduled cron trigger, which allows for regular check-ins.
+## Crate prerequisites
+
+Before unpacking this Crate:
+
+* Your PSA must successfully be integrated with Rewst.
+* Your RMM must successfully be integrated with Rewst.
+* The organization variable `default_rmm` must be set to your configured RMM integration.
+* The organization variable `default_PSA` must be set to your configured PSA integration.
 
 ## Unpack the Find Inactive Computers in RMM Crate
 

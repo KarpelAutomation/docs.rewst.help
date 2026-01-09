@@ -60,3 +60,8 @@ For more on how actions work in Rewst, check out our [introductory actions docum
 | **Customers**       | List Customer Users              | List Users for a specified customer                                                   |
 | **Customers**       | List User Services               | List User Services for a specified customer                                           |
 | **Generic Request** | OpenText SecureCloud API Request | Generic action for making authenticated requests against the OpenText SecureCloud API |
+| **Customers**       | Get Customer Services            | Provides a list of all services associated with a customer.                           |
+| **Customers**       | Get Customer Subscriptions       | Provides a list of all subscriptions associated with an end customer.                 |
+| **Customers**       | Get Subscription                 | Returns details for a specific subscription.                                          |
+| **Customers**       | Patch Subscription               | Updates subscription data for a given subscription key.                               |
+|                     |                                  |                                                                                       |
