@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Set ConnectWise PSA Board OnCall Member Crate
 
 {% hint style="info" %}

@@ -53,7 +53,7 @@ This Crate requires one or more of the following PSAs to be successfully integra
 
 
 
-    <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.&#x20;
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5. Fill in the following fields:

@@ -888,6 +888,6 @@ The following templates define approval processes, ticket summaries, and structu
 [migrating-between-crate-versions.md](../../migrating-between-crate-versions.md)
 {% endcontent-ref %}
 
-{% hint style="success" %}
-🚀 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}

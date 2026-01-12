@@ -14,7 +14,7 @@ Contents of the ticket include:
 
 ## Crate prerequisites&#x20;
 
-**Before unpacking this Crate, you'll need to first successfully set up:**
+Before unpacking this Crate, you'll need to first successfully set up:
 
 * The [Nodeware](../../configuration/integrations/integration-guides/nodeware-integration.md) integration&#x20;
 * Your[ PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)

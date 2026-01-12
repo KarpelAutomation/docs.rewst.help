@@ -6,11 +6,14 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Identify Users in Bypass Mode Crate do?
 
-Our Identify Users in Bypass Mode Crate identifies all users that are in bypass mode and creates a ticket to ensure that the granting of bypass mode is intentional and tracked. The Crate’s workflow has a weekly cron trigger. Guarantee that any user in bypass mode is regularly identified, and not missed or forgotten.
+Our Identify Users in Bypass Mode Crate identifies all users that are in bypass mode and creates a PSA ticket to ensure that the granting of bypass mode is intentional and tracked. The Crate’s workflow has a weekly cron trigger. Guarantee that any user in bypass mode is regularly identified, and not missed or forgotten.
 
 ## Crate prerequisites
 
-Our [Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md) integration must be set up before unpacking this Crate.
+Before unpacking this Crate:
+
+* Our [Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md) integration must be set up.
+* Your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be successfully integrated with Rewst.
 
 ## Unpack the Identify Users in Bypass Mode Crate
 

@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Relate ITG Contact with ITG Configuration Crate
 
 {% hint style="info" %}

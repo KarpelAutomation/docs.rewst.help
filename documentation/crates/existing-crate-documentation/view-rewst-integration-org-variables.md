@@ -8,7 +8,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 The View Rewst Integration Org Variables Crate offers a powerful solution for seamlessly mapping and managing [organization variables](../../configuration/organization-variables.md) across various integrations within Rewst. Through its comprehensive workflows, gain the ability to aggregate and contextualize integration data specific to each organization. This Crate not only simplifies the process of dealing with diverse integrations, but also enhances the efficiency and accuracy of data handling within the Rewst platform.
 
-If you're struggling with inconsistent naming across various platforms, the advanced mapping feature of this crate allows you to easily map integration variables across different integrations, based on their unique IDs. Say goodbye to tedious string manipulations and hardcoding matches.
+For example, consider the scenario where you have one client named three slightly different things in your PSA, Pax8, and RMM. Instead of complicated string matching, this feature lets you map these disparate names into a single coherent identification system.
 
 ### How the Crate works
 
@@ -34,6 +34,13 @@ This execution is done using the `Run As Org` setting, ensuring that the subwork
 
 * Upon completion of the subworkflow for each organization, the parent workflow receives the raw results (`unformated_ids`).
 * These results are then aggregated into a single, comprehensive list of integration IDs across all organizations (`all_integration_ids`).
+
+### Crate prerequisites
+
+Before unpacking this Crate:
+
+* You must have successfully set up the [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+* Depending on how you would like to use the Crate, you’ll also need other integrations from which to pull the data.
 
 ### Workflow breakdown
 
@@ -80,7 +87,7 @@ This execution is done using the `Run As Org` setting, ensuring that the subwork
 * **Purpose:** Custom Logic in Data Alias designed to create a comprehensive mapping of integration IDs for each organization, considering various variables and conditions.
 * **Data alias:** `integration_ids` maps integration IDs to the organization.
 
-#### **Jinja template**:
+## **Jinja template**
 
 ```django
 {{-

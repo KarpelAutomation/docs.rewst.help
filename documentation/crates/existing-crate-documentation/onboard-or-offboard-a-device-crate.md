@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Onboard or Offboard a Device Crate do?
 
-This crate allows you to pick a primary user and assign them to a device, while also choosing whether to onboard, offboard or reset onboarding for the device.
+This Crate allows you to pick a primary user and assign them to a device, while also choosing whether to onboard, offboard or reset onboarding for the device.
 
 * Simplify the computer onboarding process for both end-users and technicians.
 * Ensure seamless integration with ImmyBot for computer and user management.

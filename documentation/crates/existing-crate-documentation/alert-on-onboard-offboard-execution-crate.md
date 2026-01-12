@@ -33,7 +33,7 @@ To choose the email where the notification will be sent, you must set the [organ
 2.  Search for `Alert on Onboard/Offboard Execution`.
 
     \
-    ![](<../../../.gitbook/assets/image (1).png>)
+    ![](<../../../.gitbook/assets/image (1) (2).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.&#x20;
@@ -41,7 +41,7 @@ To choose the email where the notification will be sent, you must set the [organ
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 7. Click **Unpack**.
 
 ### Additional setup steps: Make the completion handler

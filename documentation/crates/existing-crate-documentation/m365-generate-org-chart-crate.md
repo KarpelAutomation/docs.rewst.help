@@ -1,12 +1,12 @@
-# M365: Generate Org Chart Crate
+# M365: Build Org Chart Crate
 
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
-## What does the **M365: Generate Org Chart** Crate do?
+## What does the M365: Build Org Chart Crate do?
 
-Automatically generate an organizational chart from Microsoft 365 user data with the M365 Generate Org Chart Crate. Referencing the manager and job title fields, it produces an HTML diagram that helps visualize reporting relationships across the organization. This is particularly useful for HR, IT, and leadership teams managing structure or onboarding processes. The Crate uses a bundled HTML template to render the org chart. Basic customization, such as layout or styling, can be applied by editing this template.
+Automatically generate an organizational chart from Microsoft 365 user data with the M365: Build Org Chart Crate. Referencing the manager and job title fields, it produces an HTML diagram that helps visualize reporting relationships across the organization. This is particularly useful for HR, IT, and leadership teams managing structure or onboarding processes. The Crate uses a bundled HTML template to render the org chart. Basic customization, such as layout or styling, can be applied by editing this template.
 
 * **Retrieve user directory data**: Fetch users from Microsoft Graph, including each user's job title and assigned manager.
 * **Filter disconnected users**: If `include_isolated_users` is set to false, it excludes users without a manager or who are not a manager themselves, focusing the chart on connected hierarchies.
@@ -22,7 +22,7 @@ The generated chart reflects a snapshot in time and does not auto-update as org 
 
 Before unpacking this Crate, you'll first need to set up the Microsoft Graph integration, via our [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
 
-## Unpack the M365: Generate Org Chart Crate
+## Unpack the M365: Build Org Chart Crate
 
 1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
 2. Search for `M365: Generate Org Chart`**.**\

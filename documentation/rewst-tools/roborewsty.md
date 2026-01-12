@@ -167,6 +167,22 @@ For workflows, click <img src="../../.gitbook/assets/Screenshot 2025-09-16 at 12
 
 After you receive your workflow insights, you can ask RoboRewsty to add that information to your workflow in a note.&#x20;
 
+### Additional RoboRewsty approval
+
+RoboRewsty may need your additional approval to take certain actions on your behalf while he's answering your requests. This approval prompt will appear in your active chat window, and can be granted or denied by clicking the relevant response buttons.
+
+**Approve** will grant permission to allow that action to happen once. You'll be asked to grant permission again in that same RoboRewsty chat window if RoboRewsty needs to complete the action subsequent times.
+
+**Always Allow** will grant permission to allow that action all times that it is required in future, applicable to both your current RoboRewsty chat window and all future chat windows.
+
+**Reject** will deny permission to use that action once. RoboRewsty will display next steps to be taken, given that he can't proceed as planned.
+
+<figure><img src="../../.gitbook/assets/image (327).png" alt="" width="293"><figcaption></figcaption></figure>
+
+You can manage your previously determined approvals any time in the preferences page. Click ![](<../../.gitbook/assets/Screenshot 2026-01-09 at 2.54.19 PM.png>) **> Preferences** in the top right corner of your Rewst platform to view the **RoboRewsty Trusted Actions** list.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (326).png" alt=""><figcaption></figcaption></figure>
+
 ## Submit your feedback
 
 RoboRewsty pulls from this documentation site to provide answers. The more content we add to our documentation, the more refined RoboRewsty's answers will be. If you're not satisfied with his response to a specific question, let us know so we can improve it! After each response, you'll have the option to give RoboRewsty’s answer a quick thumbs up 👍 or down👎. If you choose thumbs down 👎, a **Tell us why** text box appears to collect more detailed feedback.

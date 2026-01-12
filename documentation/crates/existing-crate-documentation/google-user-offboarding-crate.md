@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Google: User Offboarding Crate do?
 
-The Google Workspace User Offboarding Crate automates and simplifies the process of offboarding users from a Google Workspace environment. Enhance efficiency, ensure accuracy, and maintain consistency, ensuring all key tasks for user deprovisioning are completed securely and effectively.
+The Google: User Offboarding Crate automates and simplifies the process of offboarding users from a Google Workspace environment. Enhance efficiency, ensure accuracy, and maintain consistency, ensuring all key tasks for user deprovisioning are completed securely and effectively.
 
 This Crate does not delete user data, but transfers it to the appropriate recipient. Permanent deletion policies must be managed externally. It doesn't support synchronization with on-premises Active Directory for offboarding tasks. Customized data retention or deletion workflows beyond basic data transfer must be handled separately. License removal, email forwarding, and setting out-of-office are not available for this Crate.
 

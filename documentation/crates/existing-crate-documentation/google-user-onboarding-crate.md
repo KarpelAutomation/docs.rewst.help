@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Google: User Onboarding Crate do?
 
-The Google Workspace User Onboarding Crate automates and streamlines the process of onboarding new users into a Google Workspace environment. Enhance efficiency, accuracy, and consistency, ensuring all key tasks for new user creation are completed seamlessly.
+The Google: User Onboarding Crate automates and streamlines the process of onboarding new users into a Google Workspace environment. Enhance efficiency, accuracy, and consistency, ensuring all key tasks for new user creation are completed seamlessly.
 
 This Crate does not support synchronization from on-premises Active Directory to Google Workspace. Licenses are applied based on the organizational unit selected from the form, without advanced custom rules. Any manual corrections or input errors must be handled outside of the workflow.
 

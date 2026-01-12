@@ -6,9 +6,13 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Windows 11 Compatibility Checker Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
 
-Our Windows 11 Compatibility Checker Crate checks all devices for Windows 11 compatibility and sends a detailed report for incompatible devices through tickets and email reports. The Windows 11 Compatibility Checker Crate does not automatically upgrade your devices to Windows 11.
+Our Windows 11 Compatibility Checker Crate checks all devices for Windows 11 compatibility and sends a detailed report for incompatible devices through tickets and email reports. The Crate does not automatically upgrade your devices to Windows 11.
 
 The Crate workflow is triggered after completing a form that takes in details on where and how to send the report. The workflow then detects the default RMM and PSA of the organization the workflow is running on, and uses them in generating the list of devices and sending reports respectively.
+
+{% hint style="warning" %}
+This workflow must be run once at your top level organization to create the required organization variables needed to run this workflow.
+{% endhint %}
 
 ### Workflow breakdown
 

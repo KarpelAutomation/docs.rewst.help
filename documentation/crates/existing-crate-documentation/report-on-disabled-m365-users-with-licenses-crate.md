@@ -16,6 +16,9 @@ This Crate does not automatically remediate user accounts.
 
 * Based on the configured cron schedule, the default frequency for the workflow is weekly on Monday at 3:00 AM UTC. Disabled users in the customer tenant will be checked to ensure that they don't have licenses assigned. Alerts are only sent out when actionable items are found.
 * This Crate will integrate with Microsoft Entra and Rewst supported PSAs.
+* Using an organization variable on a per customer level formatted as a JSON list that can be modified manually or via a hyperlink in the ticket note, you can add users to ignore from this check based on the user ID/GUID.
+
+### Workflow breakdown
 
 The Crate is kicked off with the following main workflow:
 
@@ -41,6 +44,14 @@ When the technician clicks on the link in the ticket notes, this will open a bro
 
 The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
+One of the following PSAs must be integrated with Rewst:
+
+* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
+* [Halo PSA](../../automations/kits/halo-psa-integration-kit.md)
+* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+
 ## Unpack the Report on Disabled M365 Users with Licenses Crate
 
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
@@ -54,6 +65,8 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 6. Enter **Time Saved** under **Crate Configuration**.
 7. Expand both **Cron Job** and **Webhook** accordion menus under **Configure Triggers**, and then ensure that **Enabled** is toggled on for both. Note that for both triggers, you also have the option to activate the Crate for all future organizations in addition to the current one.
 8. Click **Unpack**.
+
+## Organization variables in use with this Crate
 
 {% hint style="info" %}
 **Organization variables needed**

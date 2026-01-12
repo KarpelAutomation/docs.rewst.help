@@ -16,6 +16,29 @@ Our Microsoft: User Offboarding Crate streamlines the offboarding process for us
 This Crate does not handle On-Prem Exchange and will only handle Exchange functionality via Office 365.
 {% endhint %}
 
+This Crate does the following tasks:
+
+* Detailed Ticketing
+* Offboarding Approval Process
+* Offboarding Delay
+* Supervisor Notifications
+* Session Invalidation
+* Password Reset
+* Exchange Actions
+* Convert to shared mailbox
+* Assignment of shared mailbox permissions
+* Hide from GAL
+* Forward mail
+* Set out of office
+* Remove mobile devices
+* Disable Accounts
+* Move OU
+* Group Membership Removal
+* Employee ID Removal
+* Disable PSA Contact
+* Removal of Supervisor Assignment
+* License Removal
+
 ## Crate prerequisites
 
 The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
@@ -63,6 +86,102 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 <figure><img src="../../../.gitbook/assets/image (66) (2).png" alt=""><figcaption></figcaption></figure>
 
 
+
+### Example of end of ticket output
+
+<details>
+
+<summary>Example of end of ticket output for the Microsoft: User Offboarding Crate</summary>
+
+Offboading for John Smith completed.
+
+User was removed from the following groups: test distro list test security group Actual No Really LLC
+
+Could Not Remove User from Dynamic Groups: All Users
+
+Automation Logs:
+
+Automation Complete
+
+Succeeded: True
+
+Status Code: 1001
+
+Warnings: Entry: Group removal completed with warning, this is usually due to the user being a member of a dynamic group. - Status: 1001
+
+Errors: No errors reported.
+
+Full Automation Log:
+
+Entry: Successfully sanitised all expected strings - Status: 1000
+
+Entry: Determined IDP to be: on\_prem - Status: 1000
+
+Entry: Valid IDP was determined. - Status: 1000
+
+Entry: Gathered user details successfully. - Status: 1000
+
+Entry: No ticket provided via form, creating ticket. - Status: 1000
+
+Entry: Successfully created the PSA Ticket - Status: 1000
+
+Entry: Successfully updated the PSA Ticket - Status: 1000
+
+Entry: No approval needed, continuing. - Status: 1000
+
+Entry: Delay requested. - Status: 1000
+
+Entry: Successfully delayed automation until expected time. - Status: 1000
+
+Entry: Successfully returned a defined password. - Status: 1000
+
+Entry: Notification to supervisor requested. - Status: 1000
+
+Entry: Successfully completed call to lookup supervisor. - Status: 1000
+
+Entry: Successfully verified email of supervisor. - Status: 1000
+
+Entry: Notified supervisor. - Status: 1000
+
+Entry: Invalidate sessions chosen in form, initiating invalidation of sessions. - Status: 1000
+
+Entry: Successfully invalidated sessions. - Status: 1000
+
+Entry: Successfully changed password. - Status: 1000
+
+Entry: Exchange actions chosen in form, initiating Exchange actions. - Status: 1000
+
+Entry: Performed Exchange actions. - Status: 1000
+
+Entry: Disable account chosen in form, disabling user. - Status: 1000
+
+Entry: Successfully disabled account. - Status: 1000
+
+Entry: Environment variables indicate AD Sync is needed, attempting AD Sync. - Status: 1000
+
+Entry: Attempted to run AD Sync. Workflow completed successfully but this doesn't indicate a successful AD Sync. - Status: 1000
+
+Entry: Group removal completed with warning, this is usually due to the user being a member of a dynamic group. - Status: 1001
+
+Entry: Employee ID removal not requested, skipping. - Status: 1000
+
+Entry: PSA contact removal requested, attempting removal. - Status: 1000
+
+Entry: Successfully ran disable\_psa\_contact task. - Status: 1000
+
+Entry: Supervisor/Manager attribute removal requested, attempting removal. - Status: 1000
+
+Entry: Successfully removed supervisor. - Status: 1000
+
+Entry: Attempted to run AD Sync. Workflow completed successfully but this doesn't indicate a successful AD Sync. - Status: 1000
+
+Entry: Attempting to move user to another OU. - Status: 1000
+
+Entry: Moved user to the requested OU. - Status: 1000
+
+Entry: Workflow complete, attempting ticket update. - Status: 1000
+
+</details>
 
 ## Org variables in use for the Microsoft: User Offboarding Crate
 
@@ -142,3 +261,22 @@ If you haven't done so already, it's recommended that you run the [org variable 
 * `rmm_preferred_adconnect_server`
 * `servicenow_account_id`
 * `time_entry_ticket_status`
+
+## Recommended migration path
+
+{% hint style="warning" %}
+☝️If you’re using a previous version of the onboarding workflow, follow these migration steps below. If this is your first time using this Crate, this information isn't relevant to you.
+{% endhint %}
+
+1. Unpack this Crate in your environment.
+2. Perform testing to make sure that you have all the required organization variables set correctly. The same variables are used in this updated Crate as were used in the previous version. If you need to update any organization variables, then please follow [this guide](https://docs.rewst.help/prebuilt-automations/existing-crate-documentation/configure-organization-variables).
+3. After testing and confirming that it is functioning as expected, please move forward with the steps below:
+   1. If you plan to utilize the updated form in this crate, rather than the legacy form:
+      1. Go to the [previous crate's](https://app.rewst.io/marketplace/crates/018fdeb1-347e-7de5-93d9-61f6ce9fba31) top level workflow and disable any form triggers. This will prevent users from submitting requests to the wrong workflow.
+      2. Update your internal documentation with the new form links.
+      3. If Applicable, provide your customers with their new form link.
+   2. You are able to link the previous Crates form to this version, though given the minimal differences there may not be a clear advantage other than not needing to change the link destinations. The previous form will not receive any further updates or enhancements.
+
+{% hint style="info" %}
+Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
+{% endhint %}

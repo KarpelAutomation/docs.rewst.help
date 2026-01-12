@@ -8,7 +8,14 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Configure Organizational Variables Crate do?
 
-The Configure Organizational Variables Crate is used to help you set the essential variables that will allow Rewst's prebuilt Crates to work.&#x20;
+The Configure Organizational Variables Crate is used to help you set the essential variables that will allow Rewst's prebuilt Crates to work. Based on the inputs, the workflow dynamically configures organizational variables. It evaluates the provided information to determine the correct path through conditional tasks, ensuring each organization is set up with the appropriate configurations. The workflow supports integrations with various systems (PSAs, RMMs, M365) and configures settings like ticket types, SLAs, email domains, and user management preferences accordingly.
+
+* Specify the type of system (PSA, RMM, M365) to determine the relevant configurations.
+* Customize ticket types, statuses, and other ticket-related settings.
+* Configure settings related to new user approval, password storage, and identity provider selection.
+* Adjust settings for specific integrations, such as board IDs, SLA configurations, and technician roles.
+
+The workflow does not handle manual data entry or corrections. If any configurations need to be adjusted that are outside the scope of the predefined inputs, manual intervention is required. Additionally, the workflow is not designed to perform system-wide audits or reconfigurations; it focuses on initial setup and specific adjustments.
 
 ## Unpack the Configure Organizational Variables Crate
 
