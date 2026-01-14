@@ -4,6 +4,58 @@ icon: circle-exclamation
 
 # Alerts
 
+## 2026
+
+<details>
+
+<summary>⚠️Resolved: SQL Database Integration – Refactor Issues - AU, EU, UK, and US Region January 13, 2026</summary>
+
+Release 4.83 SQL Database integration refactor triggered multiple related issues over 4 days,\
+including configuration loss for some organizations, custom SSL certificates breaking, and\
+MSSQL datetime handling failure. Full mitigation was achieved through multiple hotfixes and\
+manual configuration restoration through January 9th.
+
+Customers should review any SQL Database configurations and workflows using the integration to ensure they are set as expected and have run correctly. Workflows that failed during the issues may need to be re-run; for any customers with large numbers of workflows that have not already been re-run, please reach out to your Customer Success representative so we can support you.
+
+#### Updates
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
+<details>
+
+<summary>⚠️ Resolved: Microsoft Azure Secret Expiration - AU, EU, UK, and US Region January 12, 2026. </summary>
+
+On Sunday, January 11th at 2:17 AM ET, an issue was identified that affected workflows using\
+Microsoft integrations. This was caused by an authentication credential that required renewal, which also impacted Slack and PagerDuty integrations. The Rewst team responded immediately and the production environment was fully restored by 2:44 am ET.
+
+Any workflows that failed during the outage should be re-run if they have not already. For customers with large numbers of impacted workflows that still need to be re-run, please reach out to your Customer Success representative for support.
+
+#### Updates
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+#### Need help?
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+#### Create a ticket
+
+[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+
+</details>
+
+
+
 ## 2025
 
 <details>

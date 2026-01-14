@@ -65,13 +65,19 @@ For the following services, Rewst employs application load balancers, resulting 
 * `featureassets.org`: A Statsig API for feature flagging
 * `prodregistryv2.org`: A Statsig API for feature flagging
 
-## **Wildcard domains**
+## **Guidance for App Builder users**
 
-Rewst customers can create subdomains (\*.rew.st) to host their apps. These domains are fully managed by Rewst, making them easier to set up and maintain. Depending on your integration needs, you should also include these domains in your allow lists to ensure proper connectivity.
+### **Wildcard domains**
 
-## **Custom domains**
+Rewst customers can create subdomains (\*.rew.st) to host their App Builder apps. These domains are fully managed by Rewst, making them easier to set up and maintain. Depending on your integration needs, you should also include these domains in your allow lists to ensure proper connectivity.
 
-In addition to wildcard subdomains, Rewst customers can configure and use their own custom domains to host their apps. These custom domains should also be added to your allow lists as needed for integrations. Hosting apps on a domain you own helps maintain a professional and consistent brand presence for your customers and internal users.
+### **Custom domains**
+
+{% hint style="info" %}
+For more on the use of custom domains with App Builder, see our documentation [here](https://docs.rewst.help/documentation/app-builder/domains#custom-subdomains).&#x20;
+{% endhint %}
+
+In addition to wildcard subdomains, Rewst customers can configure and use their own custom domains to host their App Builder apps. These custom domains should also be added to your allow lists as needed for integrations. Hosting apps on a domain you own helps maintain a professional and consistent brand presence for your customers and internal users.
 
 ## **Important information for RMM integrations and Agent Smith**
 
@@ -125,7 +131,7 @@ Examples of email security solutions that could interfere include:
 
 Taking these precautions helps ensure that webhook URLs embedded in emails are not consumed before they are properly triggered by the intended device or user action.
 
-## **Additional troubleshooting**
+## **Additional domain troubleshooting**
 
 If issues persist, it may be necessary to extend allowlisting beyond just the one-time webhook URLs. Some security systems could also interfere with broader Rewst operations by inspecting or blocking traffic to core Rewst services. In these cases, ensure that the following endpoints are allowed and not inspected or altered:
 
