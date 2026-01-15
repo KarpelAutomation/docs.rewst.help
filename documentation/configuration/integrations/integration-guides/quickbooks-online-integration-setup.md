@@ -38,11 +38,7 @@ Our QuickBooks Online integration automates financial and operational, workflows
 11. Navigate to **Settings** in the left side menu.
 12. Click the **Redirect URIs** tab.
 13. Click **+ Add URI**.
-14. Enter the following URL into the field, and click **Save**.
-
-```
-https://engine.rewst.io/integrations/quickbooks_online/callback/0199111d-57e9-71a1-bec6-7847fac2867c
-```
+14. Leave this page open in one tab in your browser; do not close this page. Start a new tab, navigate to Rewst, and proceed to the set up steps below.&#x20;
 
 ### Set up steps in Rewst
 
@@ -51,25 +47,35 @@ https://engine.rewst.io/integrations/quickbooks_online/callback/0199111d-57e9-71
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-11-05 at 1.59.51 PM.png>)<br>
 3. Click on the integration tile to launch the configuration setup page.
-4. Under **Parameters:**
-   1. Choose your hostname from the drop-down selector - set as `quickbooks.api.intuit.com` for production or `sandbox-quickbooks.api.intuit.com` for development
-   2. enter your copied information into the following relevant fields:
-      1. Quickbooks Online App Client Secret
-      2. Quickbooks Online Client ID
+4. At the top of the new page that appears, you'll find a URL unique to you and your Rewst instance. Copy this URL.
+5. Return to the browser tab where you completed your QuickBooks setup steps. Paste the copied URL into the field and **save**.
+6. Return to your browser tab where you're using Rewst.
+
+{% hint style="warning" %}
+Note that if you ever choose to uninstall and reinstall the QuickBooks integration, a new link will be generated and appear at the top of your configuration screen in Rewst. You'll need to update this link in QuickBooks for the integration to successfully reinstall
+{% endhint %}
+
+7. Under **Parameters:**
+8. Choose your hostname from the drop-down selector - set as `quickbooks.api.intuit.com` for production or `sandbox-quickbooks.api.intuit.com` for development
+9. Enter your copied information into the following relevant fields:
+   1. Quickbooks Online App Client Secret
+   2. Quickbooks Online Client ID
 
 {% hint style="warning" %}
 &#x20;If you are using the sandbox environment, use the appropriate sandbox hostname. This will direct API calls to the QuickBooks Online sandbox environment. Note: Sandbox credentials are different from Production credentials. They are under Development Settings and Production Settings respectively.
 {% endhint %}
 
-5. Click **Save Configuration**.
-6. Click **Authorize**. A dialog will appear from QuickBooks Online to authorize the connection. You may be prompted to log in.&#x20;
-7. Choose a company from the drop-down selector. This is the company that Rewst will interact with.\
-   \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.40 PM.png>)
-8. Click **Next**.
-9. Click **Connect**.\
-   \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.50 PM.png>)
+10. Click **Save Configuration**.
+11. Click **Authorize**. A dialog will appear from QuickBooks Online to authorize the connection. You may be prompted to log in.&#x20;
+12. Choose a company from the drop-down selector. This is the company that Rewst will interact with.\
+    \
+    ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.40 PM.png>)
+13. Click **Next**.
+14. Click **Connect**.\
+    \
+    ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 12.50.50 PM.png>)
+
+
 
 {% hint style="info" %}
 The QuickBooks integration does not require you to complete the organization mapping process.

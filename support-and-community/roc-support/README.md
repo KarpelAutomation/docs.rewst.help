@@ -6,7 +6,7 @@ icon: message-question
 
 ## What is the ROC?
 
-Short for _Robotic Operations Center_, the ROC is Rewst’s dedicated support team, here to assist with all platform-related questions, technical guidance, and automation best practices. They're not a fit to talk about account issues or commercial needs such as contract, billing, or general relationship questions. For those, please contact your Rewst CSM.
+Short for _Robotic Operations Center_, the ROC is Rewst’s dedicated support team, here to assist with all platform-related questions, technical guidance, and automation best practices. They're not a fit to talk about account issues or commercial needs such as contract, billing, or general relationship questions. For those, please contact your Rewst CSA.
 
 {% hint style="info" %}
 **Other Rewst employees who help**
@@ -30,9 +30,9 @@ Learn more about our support priority levels [here](support-priorities.md).&#x20
 
 To create a support request, you have several options.
 
-* **Email:** Send your request to [roc@rewst.io](mailto:roc@rewst.io)
+* **Email:** Send your request to [support@rewst.io](mailto:roc@rewst.io)
 * **Self-Service Portal:** If you have access, log in and submit a ticket at [https://service.rewst.io/portal](https://service.rewst.io/portal)
-  * **Requesting Portal Access:** If you don’t have access to the portal but would like it, please contact your Customer Success Advisor or email our support team at [roc@rewst.io](mailto:roc@rewst.io)
+  * **Requesting Portal Access:** If you don’t have access to the portal but would like it, please contact your Customer Success Advisor or email our support team at [support@rewst.io](mailto:support@rewst.io)
 * **Discord:** You can send a message to our team via your private customer channel in Discord. We aim to respond to these messages within 60 minutes.
   * [Create a ticket via Discord](create-a-ticket-via-discord.md). This will alert our support team and they'll respond as quickly as possible.
 

@@ -8,13 +8,17 @@ Please note that these objectives are goals aimed at guiding our response times 
 
 ## Here's what each level means:
 
+While the below information outlines our response times for our 4 ticket priorities, our initial response target for a message in your private channel in Discord is within 60 minutes. At this stage we may then decide your query needs to be turned into a ticket which will then follow the priorities and response targets outlined below.&#x20;
+
+Queries submitted via Email or the Self-Service Portal will always follow the priorities and response targets outlined below.
+
 ### Critical
 
 **Definition:** Issues that severely impact your operations and require immediate attention. This includes situations where an automation in production is not working as expected and is essential for a system-critical part of the MSP.
 
 **Example:** An in-production workflow crucial for client data backup fails, posing a risk of significant data loss.
 
-**Response Objective:** Our goal is to respond to Critical issues as swiftly as possible, typically within 30 minutes of notification.
+**Response Objective:** Our goal is to provide an initial response to Critical issues as swiftly as possible, typically within 30 minutes of notification.
 
 ### High
 
@@ -22,7 +26,7 @@ Please note that these objectives are goals aimed at guiding our response times 
 
 **Example:** A ticket routing automation in production is not categorizing tickets correctly, causing delays but not stopping the workflow.
 
-**Response Objective:** We aim to respond to High-priority issues within 2 working hours.
+**Response Objective:** We aim to perform an initial response to High-priority issues within 2 working hours.
 
 ### Medium
 
@@ -30,7 +34,7 @@ Please note that these objectives are goals aimed at guiding our response times 
 
 **Example:** An in-production workflow for generating monthly client reports is producing inconsistent formatting, but the data remains accurate and the reports are still usable.
 
-**Response Objective:** Medium-priority issues are typically addressed within 6 working hours.
+**Response Objective:** We aim to perform an initial response to Medium-priority issues within 6 working hours.
 
 ### Low
 
@@ -38,11 +42,11 @@ Please note that these objectives are goals aimed at guiding our response times 
 
 **Example:** Requests for changes or additions to workflows currently in the testing or building phase, or a request for a new feature in a non-critical automation.
 
-**Response Objective:** Our team strives to address Low-priority issues within 8 working hours.
+**Response Objective:** We aim to perform an initial response to Low-priority issues within 8 working hours.
 
-### Need Escalation?
+### Need escalation?
 
-If you believe your support query requires some level of escalation, we understand. Flexibility is important to us, and we're here to accommodate your needs. Please contact support leadership or your Customer Success Advisor (CSA) via the [Contact page](../../contact-resources.md). You can also ping us in Discord, knock on our doors or throw something through our windows - our focus is on making you guys happy.
+If you believe your support query requires some level of escalation, we understand. Flexibility is important to us, and we're here to accommodate your needs. Please contact support leadership or your Customer Success Advisor (CSA) via the [Contact page](../../contact-resources.md). You can also ping us in Discord.
 
 ## Operating hours and holiday availability
 
@@ -50,7 +54,7 @@ At Rewst, we are committed to providing exceptional support while also respectin
 
 ### Standard operating hours
 
-Support operating hours can be [found here ](./#rewst-support-operating-hours)
+Support operating hours can be [found here](./#rewst-support-operating-hours).
 
 ### Holiday availability
 
