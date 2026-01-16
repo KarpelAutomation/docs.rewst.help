@@ -2,7 +2,7 @@
 
 <details>
 
-<summary><strong>New Crates and enhancements</strong></summary>
+<summary><strong>New Crates</strong> </summary>
 
 There are no new Crates this week.
 
@@ -12,8 +12,7 @@ There are no new Crates this week.
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-\
-This list covers everything we've worked on since our last formal Open Mic Marketplace Update in December of 2025.
+### Crates
 
 * [Microsoft: User Onboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
   * Use email as UPN to prevent incorrect user assignment
@@ -31,8 +30,6 @@ This list covers everything we've worked on since our last formal Open Mic Marke
 * [Add or Remove Group Membership](../../../documentation/crates/existing-crate-documentation/add-or-remove-group-membership-crate.md)
   * Fix empty user list by updating the form
   * Add 'groups-aad' option to manage\_users\_or\_groups
-* \[REWST - TASK] SuperOps: Create Ticket
-  * Default technician and requester to None in create\_ticket action for this subworkflow in our ticket creation subworkflow, used whenever we create a ticket in any Crate
 * [PSA: Update Ticket with User Offboard Links](../../../documentation/crates/existing-crate-documentation/psa-update-ticket-with-user-offboard-links-crate.md)
   * Update trigger to support orgs using items or not
 * [Configure Organizational Variables](../../../documentation/crates/existing-crate-documentation/configure-organization-variables.md)
@@ -47,8 +44,6 @@ This list covers everything we've worked on since our last formal Open Mic Marke
   * Add Getting Started tag to this crate; remove it from Rewst: User Onboarding
 * [Report on Disabled M365 Users with Licenses](../../../documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
   * Use trigger type name "Webhook" instead of ID in condition
-* \[REWST - TASK] Agent Smith: Run Powershell
-  * Move output data alias from query\_device 404 to retry max-retries transition
 * [Microsoft: User Offboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
   * Use user\_filter input instead of hardcoded asterisk (\*)&#x20;
 * [Billing Count Report](../../../documentation/crates/existing-crate-documentation/billing-count-report-crate.md)
@@ -64,6 +59,13 @@ This list covers everything we've worked on since our last formal Open Mic Marke
 * [Change a User's Password](../../../documentation/crates/existing-crate-documentation/change-a-users-password-crate.md)
   * Added PSAs and RMMs as associated integrations on the crate details page
 
+### Workflows
+
+* \[REWST - TASK] Agent Smith: Run Powershell
+  * Move output data alias from query\_device 404 to retry max-retries transition
+* \[REWST - TASK] SuperOps: Create Ticket
+  * Default technician and requester to None in create\_ticket action for this subworkflow in our ticket creation subworkflow, used whenever we create a ticket in any Crate
+
 </details>
 
 <details>
@@ -72,7 +74,7 @@ This list covers everything we've worked on since our last formal Open Mic Marke
 
 * Enhanced logging for the user onboarding workflow
 * Various DropSuite Additions
-* Travelling Employee CA Policy Form
+* Traveling Employee CA Policy Form
 * GDAP Crate Improvements
 
 </details>

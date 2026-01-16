@@ -42,6 +42,10 @@ Rewst integrates with a variety of PSAs. Each brand of PSA has its own setup doc
 [superops-integration.md](integration-guides/superops-integration.md)
 {% endcontent-ref %}
 
+{% content-ref url="integration-guides/ninjaone-integration-setup.md" %}
+[ninjaone-integration-setup.md](integration-guides/ninjaone-integration-setup.md)
+{% endcontent-ref %}
+
 ### Unpack Crates after integrating your PSA: Optional
 
 Click each of the tiles below to launch that Crate's information page. Find more relevant Crates in our Crate Marketplace. You'll find it in the left side menu of the platform by navigating to **Crates** **>** **Crate Marketplace**.

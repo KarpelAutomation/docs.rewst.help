@@ -6,7 +6,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the NinjaOne integration do?
 
-Our NinjaOne integration provides users with a powerful combination of documentation, remote monitoring, and management capabilities. Seamlessly access and manage NinjaRMM within Rewst, monitor and troubleshoot devices, deploy software, and perform remote tasks more effectively. Use this integration to centralize your IT documentation and RMM workflows, ensuring a comprehensive and streamlined approach to IT management within the Rewst platform.
+Our NinjaOne integration provides users with a powerful combination of documentation, remote monitoring, and management capabilities. Seamlessly access and manage NinjaOne within Rewst, monitor and troubleshoot devices, deploy software, and perform remote tasks more effectively. Use this integration to centralize your IT documentation and RMM workflows, ensuring a comprehensive and streamlined approach to IT management within the Rewst platform.
 
 ### Why use the NinjaOne integration?
 
@@ -72,7 +72,7 @@ iex $commands
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the Integrations page, search for the NinjaOne integration.\
    \
-   ![](<../../../../.gitbook/assets/image (35) (1).png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2026-01-16 at 2.14.22 PM.png>)
 3. Click on the integration tile to launch setup.
 4.  Choose your Region from the **Region Instance** drop-down selector.\
     <br>
@@ -100,11 +100,11 @@ Once you’ve [mapped your customers](https://docs.rewst.help/documentation/inte
 3. Name your workflow, and click **Submit**.
 4. Drag a Ninja action onto your workflow builder canvas. In this example, we use **List Contacts**.\
    \
-   ![](<../../../../.gitbook/assets/image (38) (1).png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2026-01-16 at 2.18.21 PM.png>)<br>
 5. Click <img src="../../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (1).png" alt="" data-size="line"> to add a trigger. In the relevant fields, choose or enter the following settings:
    1. **Name** your trigger
    2. **Trigger Type**: **Core - Always Pass**
-   3. **Integration Overrides**: **NinjaRMM**
+   3. **Integration Overrides**: **NinjaOne**
    4. **Enable** the trigger for all or some of your managed organizations, depending on your setup and preference
 6.  Click **Submit**.\
     <br>
@@ -126,7 +126,7 @@ $postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $
 
 ## Crates related to the NinjaOne integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sync NinjaRMM Device Counts to Gradient Synthesize</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.04.11 PM.png">Screenshot 2025-11-13 at 3.04.11 PM.png</a></td><td></td></tr><tr><td><strong>Just in Time Admin Access</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.01.35 PM.png">Screenshot 2025-11-13 at 3.01.35 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/just-in-time-admin-access-crate.md">just-in-time-admin-access-crate.md</a></td></tr><tr><td><strong>Agent Smith: Device Provisioning, and Agent Smith Service Provisioning</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.00.37 PM.png">Screenshot 2025-11-13 at 3.00.37 PM.png</a></td><td><a href="../../../agent-smith/agent-smith-configuration-overview.md">agent-smith-configuration-overview.md</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.02.29 PM.png">Screenshot 2025-11-13 at 3.02.29 PM.png</a></td><td></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.02.05 PM.png">Screenshot 2025-11-13 at 3.02.05 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/bulk-move-users-to-specified-ou-crate.md">bulk-move-users-to-specified-ou-crate.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Just-in-Time Admin Access</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.01.35 PM.png">Screenshot 2025-11-13 at 3.01.35 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/just-in-time-admin-access-crate.md">just-in-time-admin-access-crate.md</a></td></tr><tr><td><strong>Agent Smith: Device Provisioning, and Agent Smith Service Provisioning</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.00.37 PM.png">Screenshot 2025-11-13 at 3.00.37 PM.png</a></td><td><a href="../../../agent-smith/agent-smith-configuration-overview.md">agent-smith-configuration-overview.md</a></td></tr><tr><td><strong>Windows 11 Compatibility Checker</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.02.29 PM.png">Screenshot 2025-11-13 at 3.02.29 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/windows-11-compatibility-checker-crate.md">windows-11-compatibility-checker-crate.md</a></td></tr><tr><td><strong>Bulk Move Users to Specified OU</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-13 at 3.02.05 PM.png">Screenshot 2025-11-13 at 3.02.05 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/bulk-move-users-to-specified-ou-crate.md">bulk-move-users-to-specified-ou-crate.md</a></td></tr></tbody></table>
 
 ## Troubleshoot the NinjaOne integration
 
@@ -183,7 +183,7 @@ NinjaOne's own API documentation can be found [here](https://app.ninjarmm.com/ap
 | **Document Templates**      | Update Document Template                                     | Updates a document template by id                                                                                                                |
 | **Document Templates**      | Delete A Document Template                                   | Deletes a document template by id                                                                                                                |
 | **Document Templates**      | Restore A Document Template                                  | Restores a document template by id                                                                                                               |
-| **Generic Action**          | Generic API Request                                          | Generic action for making authenticated requests against the NinjaRMM API                                                                        |
+| **Generic Action**          | Generic API Request                                          | Generic action for making authenticated requests against the NinjaOne API                                                                        |
 | **Groups**                  | List Group Members' Devices                                  | Returns list of device identifiers that match group criteria                                                                                     |
 | **Knowledge Base Articles** | Upload Temporary Attachments                                 | Upload temporary attachment                                                                                                                      |
 | **Knowledge Base Articles** | Archive Knowledge Base Articles                              | Archive knowledge base articles                                                                                                                  |
