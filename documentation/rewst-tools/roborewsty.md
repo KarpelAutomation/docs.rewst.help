@@ -177,7 +177,9 @@ RoboRewsty may need your additional approval to take certain actions on your beh
 
 **Reject** will deny permission to use that action once. RoboRewsty will display next steps to be taken, given that he can't proceed as planned.
 
-<figure><img src="../../.gitbook/assets/image (327).png" alt="" width="293"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (81).png" alt="Screenshot of an Approval Required prompt in the Rewst platform. The message indicates that RoboRewsty needs user approval before taking the action of listing your workflows. A warning icon and message labeled &#x22;Needs your approval&#x22; appear, with a link to view the associated Parameters.  Three action buttons are available at the bottom:  A large green Approve button (highlighted),  A teal Always Allow button,  A red Reject button.  A note below explains that approval is required for security and that users can manage trusted actions in their user preferences. The Rewst mascot logo appears in the lower left corner." width="563"><figcaption></figcaption></figure>
+
+
 
 You can manage your previously determined approvals any time in the preferences page. Click ![](<../../.gitbook/assets/Screenshot 2026-01-09 at 2.54.19 PM.png>) **> Preferences** in the top right corner of your Rewst platform to view the **RoboRewsty Trusted Actions** list.&#x20;
 

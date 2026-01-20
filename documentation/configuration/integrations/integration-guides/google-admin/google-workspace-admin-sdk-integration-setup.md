@@ -49,6 +49,58 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 9. Click **SAVE AND CONTINUE**.
 10. Click **Data Access > Scopes**.
 11. Click **ADD OR REMOVE SCOPES**. Select the specific scopes that your application requires access to.
+    1. Primary Google Admin scopes for Google Cloud services:
+       1. https://www.googleapis.com/auth/admin.reports.audit.readonly
+       2. https://www.googleapis.com/auth/admin.reports.usage.readonly
+       3. &#x20;https://www.googleapis.com/auth/admin.datatransfer
+       4. https://www.googleapis.com/auth/admin.datatransfer.readonly
+       5. https://www.googleapis.com/auth/admin.chrome.printers
+       6. https://www.googleapis.com/auth/admin.chrome.printers.readonly
+       7. https://www.googleapis.com/auth/admin.directory.customer
+       8. https://www.googleapis.com/auth/admin.directory.customer.readonly
+       9. https://www.googleapis.com/auth/admin.directory.device.chromeos
+       10. https://www.googleapis.com/auth/admin.directory.device.chromeos.readonly
+       11. https://www.googleapis.com/auth/admin.directory.device.mobile
+       12. https://www.googleapis.com/auth/admin.directory.device.mobile.action
+       13. https://www.googleapis.com/auth/admin.directory.device.mobile.readonly
+       14. https://www.googleapis.com/auth/admin.directory.domain
+       15. https://www.googleapis.com/auth/admin.directory.domain.readonly
+       16. https://www.googleapis.com/auth/admin.directory.group
+       17. https://www.googleapis.com/auth/admin.directory.group.member
+       18. https://www.googleapis.com/auth/admin.directory.group.member.readonly
+       19. https://www.googleapis.com/auth/admin.directory.group.readonly
+       20. https://www.googleapis.com/auth/admin.directory.orgunit
+       21. https://www.googleapis.com/auth/admin.directory.orgunit.readonly
+       22. https://www.googleapis.com/auth/admin.directory.resource.calendar
+       23. https://www.googleapis.com/auth/admin.directory.resource.calendar.readonly
+       24. https://www.googleapis.com/auth/admin.directory.rolemanagement
+       25. https://www.googleapis.com/auth/admin.directory.rolemanagement.readonly
+       26. https://www.googleapis.com/auth/admin.directory.user
+       27. https://www.googleapis.com/auth/admin.directory.user.alias
+       28. https://www.googleapis.com/auth/admin.directory.user.alias.readonly
+       29. https://www.googleapis.com/auth/admin.directory.user.readonly
+       30. https://www.googleapis.com/auth/admin.directory.user.security
+       31. https://www.googleapis.com/auth/admin.directory.userschema
+       32. https://www.googleapis.com/auth/admin.directory.userschema.readonly
+       33. https://www.googleapis.com/auth/cloud-platform
+    2. Mailbox Delegation (Gmail API) Scopes:
+       1. https://www.googleapis.com/auth/gmail.settings.basic
+       2. https://www.googleapis.com/auth/gmail.modify
+       3. https://www.googleapis.com/auth/gmail.readonly
+       4. https://www.googleapis.com/auth/gmail.compose
+       5. https://www.googleapis.com/auth/gmail.send
+       6. https://www.googleapis.com/auth/gmail.insert
+       7. https://www.googleapis.com/auth/gmail.labels
+       8. https://www.googleapis.com/auth/gmail.metadata
+    3. Google Drive shared drive permissions (Drive API) Scopes:
+       1. https://www.googleapis.com/auth/drive.file
+       2. https://www.googleapis.com/auth/drive.appdata
+       3. https://www.googleapis.com/auth/drive.metadata
+       4. https://www.googleapis.com/auth/drive.activity
+       5. https://www.googleapis.com/auth/drive.scripts
+       6. https://www.googleapis.com/auth/drive.readonly
+    4. Group Settings (Groups API) Scopes:
+       1. https://www.googleapis.com/auth/apps.groups.settings
 12. Search for `Admin SDK` in the search box, and select all related scopes.
 13. Click **UPDATE**.
 14. Navigate to the **Credentials** tab within APIs & Services. Click **CREATE CREDENTIALS** and choose **OAuth client ID** from the drop-down selector.
