@@ -68,6 +68,8 @@ Generic actions are typically named after the integration in the format of `[int
 
 {% hint style="warning" %}
 Note that the paginate request option in any generic action modifies how the request is formed. This can cause issues on the API's side, causing them to behave unexpectedly and return error messages.
+
+If your integration is missing a generic action and you'd like to see us develop one, add that feedback to our [Canny feedback collector.](https://rewst.canny.io/integrations)&#x20;
 {% endhint %}
 
 ## Known actions issues and errors

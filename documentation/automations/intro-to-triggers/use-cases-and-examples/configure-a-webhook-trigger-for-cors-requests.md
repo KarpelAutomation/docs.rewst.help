@@ -11,7 +11,7 @@ When referencing a Rewst web hook in JavaScript in an App Builder page— or out
 To make your webhook accessible from a web page, you must configure _CORS (Cross-Origin Resource Sharing)_ headers and enable OPTIONS requests on your webhook.
 
 {% hint style="info" %}
-Note that **wait for webhook** cannot be set to `true` for this to work.&#x20;
+Note that **wait for webhook** cannot be set to `true` for this to work. Additionally, this webhook shouldn't use a secret key.
 {% endhint %}
 
 ## Add CORS headers to your web hook response

@@ -5,7 +5,7 @@ This action is available in the Rewst actions section of the workflow builder's 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-09-05 at 10.08.02 AM.png" alt=""><figcaption></figcaption></figure>
 
 \
-**Description:** A generic action for making authenticated requests against Rewst''s GraphQL API. The Generic GraphQL Request action is part of the Rewst action pack and enables:
+A generic action for making authenticated requests against Rewst''s GraphQL API. The Generic GraphQL Request action is part of the Rewst action pack and enables:
 
 * **Direct API access**: Execute custom GraphQL queries and mutations against Rewst's backend
 * **Advanced data retrieval**: Access data structures not available through standard actions

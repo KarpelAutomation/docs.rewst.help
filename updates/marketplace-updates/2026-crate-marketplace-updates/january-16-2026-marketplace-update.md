@@ -20,7 +20,7 @@ There are no new Crates this week.
   * Renamed "Azure AD" to "Entra ID"; add/align input labels; require last name, username, and email domain
   * Added complete automation log as final PSA ticket note for audit trail
 * [Automation Toolkit](../../../documentation/crates/existing-crate-documentation/automation-toolkit-crate.md)
-  * Changed crate visibility from private to public (76683)
+  * Changed crate visibility from private to public&#x20;
 * [Export Org Vars to CSV for Import](../../../documentation/crates/existing-crate-documentation/export-org-vars-to-csv-for-import-crate.md)
   * Switched transition condition to email in check\_documentation\_type; set END criteria to 1&#x20;
 * [Remove Malicious Email and Block Sender](../../../documentation/crates/existing-crate-documentation/remove-malicious-email-and-block-sender-crate.md)

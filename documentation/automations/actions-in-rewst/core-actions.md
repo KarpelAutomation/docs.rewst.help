@@ -5,71 +5,12 @@ _Core actions_ in Rewst are your gateway to the platform's vast array of intrins
 Core actions are used in the same way as regular actions within workflows. They are selected from the list of available actions, configured based on their parameters, and then added to the workflow at the appropriate place.
 
 {% hint style="info" %}
-Expand each of the action types below to see their individual information.
+Expand each of the action types below to see their individual information. Actions are listed alphabetically in both this doc and the Rewst platform.
 {% endhint %}
 
 <details>
 
-<summary><strong>No-Operation (Noop)</strong></summary>
-
-* **Action Name:** `noop`
-* **Description:** Does nothing. Often used for logic or as a placeholder in the workflow.
-* **Parameters:** None.
-* **Output:** None
-
-</details>
-
-<details>
-
-<summary>Ad-hoc HTTP Requests</summary>
-
-**Action Name:** `HTTP Request`
-
-Performs an HTTP request to a specified URL, supporting a variety of methods, body content types, and configurations. This is useful for interacting with APIs or other web services within a workflow, or for performing any other tasks that involve HTTP requests.
-
-**Parameters**
-
-* **URL**: The URL to which the HTTP request is sent.
-* **Request Method**: The HTTP method to use for the request. You can select from the dropdown options (`HEAD`, `GET`, `POST`, `PUT`, `DELETE`, `OPTIONS`, `TRACE`, `PATCH`, `PURGE`).
-* **Auth Username**: The username for basic HTTP Authentication, if needed.
-* **Auth Password**: The password for basic HTTP Authentication, if needed. _(This parameter is secret to ensure security.)_
-* **Allow Redirects**: Specifies whether the HTTP request will follow redirects. By default, it's set to `true`.
-* **Body**: The body to send with the request. This parameter is not required if `JSON` or `Files` is provided.
-* **JSON**: The JSON body to send with the request. This field is not required if `Body` or `Files` is provided.
-* **Files**: Here, you can add files to be uploaded with the HTTP request using `multipart/form-data`. Each file requires the following information:
-  * **Field Name**: The name of the form field (not the filename).
-  * **File Name**: The name of the file.
-  * **File Contents**: Contents of the file to upload.
-  * **File URL**: A publicly-accessible URL to the file contents to upload.
-  * **Content Type**: The MIME type of the file to include in the multipart field.
-* **Cookies**: Input the cookies to send with the request. You can add more than one cookie by clicking on the `+` icon.
-* **Headers**: Specify the custom HTTP headers to be sent with the request. You can add more than one header by clicking on the `+` icon.
-* **Params**: Enter the query parameters to be used with the HTTP request. You can add more than one parameter by clicking on the `+` icon.
-* **Timeout**: Enter the timeout for the HTTP request in seconds. The default value is `5`.
-* **Require Success Status**: If you check this box, the task will fail if a non-2xx HTTP status code is returned. This is useful for identifying and handling HTTP errors during the task's execution.
-
-**Output**: The action returns the content returned by the server in response to the HTTP request. This could be a success message, a failure message, a data object, or any other content that the server sends as a response.
-
-_<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _If you need more advanced security around calling particular endpoints, you can also use a_ [_Custom Integration_](../../configuration/integrations/custom-integrations/) _in addition to this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs._
-
-</details>
-
-<details>
-
-<summary>Create and Await Webhook Actions</summary>
-
-***
-
-**Action Name:** `Create Webhook`
-
-Allows for the creation of a one-off webhook for which can then be used by the `Await Webhook` action.
-
-* **Parameters**: This action requires the methods allowed to access the webhook, the response status, response headers, response body, and an expiration timeout.
-* **Output**: The output of this action is the webhook ID and the full URL of the webhook.
-
-***
-
-**Action Name:** `Await Webhook Request`
+<summary>Await Webhook Request action</summary>
 
 Waits for a request to a created one-off webhook. Once a request is received, the workflow continues.
 
@@ -80,30 +21,31 @@ Waits for a request to a created one-off webhook. Once a request is received, th
 
 <details>
 
-<summary>Email, SMS &#x26; Confirmation Actions</summary>
+<summary>Compare Strings Set Ratio action</summary>
 
-**Action Name:** `sendmail`
+This action calculates the ratio of how many words from the smaller string are found in the larger string. It's designed for measuring string similarity based on word overlap rather than character-by-character comparison. This action is particularly useful when you need to determine how similar two text strings are based on shared words, making it ideal for scenarios where exact string matching is too strict but you still need to measure content similarity.
 
-Allows for the sending of an email.
+**Use Cases**:
 
-* **Parameters:** This action requires a sender prefix (`sender`), with multiple options available, the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also has the option to render markdown as HTML (`render_markdown`). You can also fully control the HTML of the email with `(Custom HTML)`. This can also reference a template using the `{{ template(“guid”) }}` function.&#x20;
-  * Note that if using the `Custom HTML` field, the message and title fields will be ignored
-  * You cannot upload images to Rewst, so any image will need to be externally referenced
-  * Emails will still be sent from the rewst.io domain
-* **Output:** The task doesn't yield an output upon success. It will fail if there are any errors during the process of sending the email.
+* Fuzzy matching between text strings
+* Duplicate detection in datasets
+* Content similarity analysis
+* Partial string matching scenarios
 
-***
+**Parameters**:
 
-**Action Name:** `Send SMS`
+* **original\_string** (required): The original string to compare
+* **comparison\_string** (required): The comparison string that is being compared to
 
-Allows you to send a text message to a specified phone number.
+**Output**: Returns an integer representing the ratio of word overlap between the two strings. Higher values indicate greater similarity.
 
-* **Parameters**: This action requires the recipient's phone number (`phone_number`) and the text message (`message`) to be sent.
-* **Output**: The output of this action will depend on the implementation details. Usually, it will return a confirmation message or an error message.
 
-***
 
-**Action Name:** `Confirmation Email`
+</details>
+
+<details>
+
+<summary>Confirmation Email action</summary>
 
 Send a confirmation email with reply options to a specified recipient. \
 This action pauses the workflow and places it in an `Awaiting-User-Input` state. The workflow will not proceed until the confirmation email is interacted with via buttons, or the task times out. You can configure task timeout on the **Advanced** tab of the action. Task time out means that the action fails. Note that this setup means that buttons are required for the workflow to proceed. \
@@ -130,8 +72,7 @@ This action pauses the workflow and places it in an `Awaiting-User-Input` state.
     * Logo URI:
       * This will take the link to the image itself.
       * **TIP**: This is essentially providing a value for the src param of a img tag. You could also provide a base64 encoded value.
-
-- #### Example custom button CSS
+* #### Example custom button CSS
 
 ```css
 a,
@@ -146,15 +87,11 @@ color: inherit !important;
 
 }
 
-  
-
 table, td, div, h1, p {
 
 font-family: "Times New Roman", Times, serif;
 
 }
-
-  
 
 .primary {
 
@@ -162,15 +99,11 @@ background: #4d7c0f;
 
 }
 
-  
-
 .default {
 
 background: #365314;
 
 }
-
-  
 
 .danger {
 
@@ -268,18 +201,162 @@ https://www.svgrepo.com/download/533811/donuts-cake.svg
 
 <details>
 
-<summary>Delay Workflow Actions</summary>
+<summary>Create Pending Task action</summary>
 
-**Action Name:** `Delay Workflow For Period`
+This action creates a pending task that pauses workflow execution and requires manual intervention through the Rewst UI. It's designed for scenarios where human approval, confirmation, or decision-making is needed within an automated workflow.
+
+**Use Cases**:
+
+* Manual approval workflows
+* User confirmation before critical actions
+* Decision points requiring human judgment
+* Interactive workflow processes
+* Quality control checkpoints
+
+**Parameters**:
+
+* **message** (required): The message to display in the pending task that explains what action is needed from the user
+* **buttons** (required): An array of button objects that users can click to respond. Each button has:
+  * **label**: The text displayed on the button
+  * **style**: Visual style (`default`, `primary`, `danger`)
+  * **value**: The value returned when the button is clicked
+
+**Output**: The workflow pauses at this task until a user interacts with it via the Rewst UI. When a button is clicked, the action returns the corresponding button value, allowing the workflow to continue based on the user's choice.
+
+This action is essential for creating interactive workflows that require human oversight or decision-making at specific points in the automation process.
+
+</details>
+
+<details>
+
+<summary>Create Webhook action</summary>
+
+Allows for the creation of a one-off webhook for which can then be used by the `Await Webhook` action.
+
+**Parameters**: This action requires the methods allowed to access the webhook, the response status, response headers, response body, and an expiration timeout.
+
+**Output**: The output of this action is the webhook ID and the full URL of the webhook.
+
+</details>
+
+<details>
+
+<summary>Debug action</summary>
+
+The `Debug` action is a utility feature in our workflow system, specifically designed to assist with debugging and logging purposes. This action can help in understanding the flow of data within your workflows, troubleshoot problems, and generally help you understand what's happening at a certain point in the workflow execution. It logs the input parameters it receives and returns the same as its output.
+
+**Use cases**
+
+You might want to use the `Debug` action in the following scenarios:
+
+* When developing workflows, to see how data is flowing between tasks and actions.
+* If you're troubleshooting an issue, to inspect the data that's being passed around.
+* When you want to log specific information for auditing or reporting purposes.
+
+**Input Parameters**
+
+The `Debug` action accepts the following parameters:
+
+* **text:** This is a general-purpose text field that will be logged and returned by the `Debug` action.
+* **template:** This field takes a reference to a template in your environment that will be rendered and used as part of the action's input. The system will replace any variables in the template with its actual value at the time of template rendering.
+
+**Example Usage**
+
+Let's say we have a template named "Greeting Message" with content `# Hey there {{ CTX.name }}`.
+
+We can use this template in the `Debug` action with the following parameters:
+
+```yaml
+text: Testing Debug Action
+template: Greeting Message
+```
+
+Assuming `CTX.name` is set to `Rewsty`, the rendered template would be `# Hey there Rewsty`.
+
+The `Debug` action will log these parameters and also return them as its output. The results of the action on the workflow results page would look like this:
+
+**Output:**
+
+```json
+{
+  "template": "# Hey there Rewsty",
+  "text": "Testing Debug Action"
+}
+```
+
+This tells us that `CTX.name` was set to`Rewsty`, and the text provided with this action was `Testing Debug Action`. Using this, you can better understand the state of your workflow at the point this `Debug` action was executed.
+
+</details>
+
+<details>
+
+<summary>DNS Query action</summary>
+
+Queries a nameserver for DNS records associated with a given URL.
+
+* **Parameters:** The URL to query the Nameserver for, the field to query from the nameserver, timeout for the DNS Query (optional, default 60), and the nameserver to use for the query (several options available including Google, Cloudflare, OpenDNS).
+* **Output:** The specified DNS records associated with the given URL from the queried nameserver.
+
+</details>
+
+<details>
+
+<summary>Generate Password V2 action</summary>
+
+An upgrade from the deprecated password generation action. It crafts a cryptographically secure password with user-specified values. (_This is recommended for use over the deprecated Password Action due to its upgraded structure.)_
+
+* **Parameters:** length, minimum counts of numeric and capital letter characters, and optional punctuation characters.
+* **Output:** the generated password is presented under the "password" key in the output.
+
+</details>
+
+<details>
+
+<summary>HTTP Request action</summary>
+
+Performs an HTTP request to a specified URL, supporting a variety of methods, body content types, and configurations. This is useful for interacting with APIs or other web services within a workflow, or for performing any other tasks that involve HTTP requests.
+
+**Parameters**
+
+* **URL**: The URL to which the HTTP request is sent.
+* **Request Method**: The HTTP method to use for the request. You can select from the dropdown options (`HEAD`, `GET`, `POST`, `PUT`, `DELETE`, `OPTIONS`, `TRACE`, `PATCH`, `PURGE`).
+* **Auth Username**: The username for basic HTTP Authentication, if needed.
+* **Auth Password**: The password for basic HTTP Authentication, if needed. _(This parameter is secret to ensure security.)_
+* **Allow Redirects**: Specifies whether the HTTP request will follow redirects. By default, it's set to `true`.
+* **Body**: The body to send with the request. This parameter is not required if `JSON` or `Files` is provided.
+* **JSON**: The JSON body to send with the request. This field is not required if `Body` or `Files` is provided.
+* **Files**: Here, you can add files to be uploaded with the HTTP request using `multipart/form-data`. Each file requires the following information:
+  * **Field Name**: The name of the form field (not the filename).
+  * **File Name**: The name of the file.
+  * **File Contents**: Contents of the file to upload.
+  * **File URL**: A publicly-accessible URL to the file contents to upload.
+  * **Content Type**: The MIME type of the file to include in the multipart field.
+* **Cookies**: Input the cookies to send with the request. You can add more than one cookie by clicking on the `+` icon.
+* **Headers**: Specify the custom HTTP headers to be sent with the request. You can add more than one header by clicking on the `+` icon.
+* **Params**: Enter the query parameters to be used with the HTTP request. You can add more than one parameter by clicking on the `+` icon.
+* **Timeout**: Enter the timeout for the HTTP request in seconds. The default value is `5`.
+* **Require Success Status**: If you check this box, the task will fail if a non-2xx HTTP status code is returned. This is useful for identifying and handling HTTP errors during the task's execution.
+
+**Output**: The action returns the content returned by the server in response to the HTTP request. This could be a success message, a failure message, a data object, or any other content that the server sends as a response.
+
+_<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _If you need more advanced security around calling particular endpoints, you can also use a_ [_Custom Integration_](../../configuration/integrations/custom-integrations/) _in addition to this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs._
+
+</details>
+
+<details>
+
+<summary>Delay Workflow For Period action</summary>
 
 Pauses the workflow for a specified duration.
 
 * **Parameters:** The number of days, hours, minutes or seconds to delay the workflow.
 * **Output:** No specific output, the workflow resumes after the specified delay.
 
-***
+</details>
 
-**Action Name:** `Delay Workflow Until Date/Time`
+<details>
+
+<summary>Delay Workflow Until Date/Time action</summary>
 
 Pauses the workflow until a specified date and time.
 
@@ -290,15 +367,11 @@ Pauses the workflow until a specified date and time.
 
 <details>
 
-<summary>Mock Task</summary>
-
-**Action Name:** `mock`
-
-**Overview**
+<summary>Mock action</summary>
 
 The `Mock` action is designed to provide you with the capability to simulate the result of a not yet implemented action. This is particularly useful during workflow development and testing phases as it allows you to simulate responses from services that are not yet available or are impractical to call during the development process.
 
-**When to Use**
+**Use cases**
 
 The `Mock` action comes in handy in scenarios such as:
 
@@ -337,7 +410,7 @@ mock_result:
 
 While using the `Mock` action, the values can be literal Jinja expressions like `{{ CTX.name }}`above. The action will return this exact input structure wrapped inside a `data` object, and the Jinja expressions will not be evaluated but returned as is. The result of the action on the workflow results page would look like:
 
-**Result:**
+**Output:**
 
 ```json
 {
@@ -355,68 +428,22 @@ This can be useful for catching issues early in the development phase such as in
 
 <details>
 
-<summary>Debugging with Templates</summary>
+<summary>No-Operation (Noop) action</summary>
 
-**Action Name:** `Debug`
+A noop action does nothing. It's often used for logic or as a placeholder in the workflow.
 
-**Overview**
-
-The `Debug` action is a utility feature in our workflow system, specifically designed to assist with debugging and logging purposes. This action can help in understanding the flow of data within your workflows, troubleshoot problems, and generally help you understand what's happening at a certain point in the workflow execution. It logs the input parameters it receives and returns the same as its output.
-
-**When to Use**
-
-You might want to use the `Debug` action in the following scenarios:
-
-* When developing workflows, to see how data is flowing between tasks and actions.
-* If you're troubleshooting an issue, to inspect the data that's being passed around.
-* When you want to log specific information for auditing or reporting purposes.
-
-**Input Parameters**
-
-The `Debug` action accepts the following parameters:
-
-* **text:** This is a general-purpose text field that will be logged and returned by the `Debug` action.
-* **template:** This field takes a reference to a template in your environment that will be rendered and used as part of the action's input. The system will replace any variables in the template with its actual value at the time of template rendering.
-
-**Example Usage**
-
-Let's say we have a template named "Greeting Message" with content `# Hey there {{ CTX.name }}`.
-
-We can use this template in the `Debug` action with the following parameters:
-
-```yaml
-text: Testing Debug Action
-template: Greeting Message
-```
-
-Assuming `CTX.name` is set to `Rewsty`, the rendered template would be `# Hey there Rewsty`.
-
-The `Debug` action will log these parameters and also return them as its output. The results of the action on the workflow results page would look like this:
-
-**Result:**
-
-```json
-{
-  "template": "# Hey there Rewsty",
-  "text": "Testing Debug Action"
-}
-```
-
-This tells us that `CTX.name` was set to`Rewsty`, and the text provided with this action was `Testing Debug Action`. Using this, you can better understand the state of your workflow at the point this `Debug` action was executed.
+* **Parameters:** None.
+* **Output:** None
 
 </details>
 
 <details>
 
-<summary>Parse HTML Action</summary>
-
-#### Action Name: `Parse HTML`
-
-#### Overview
+<summary>Parse HTML action</summary>
 
 The Parse HTML action is a versatile tool within Rewst, geared to pinpoint and extract specific elements or data from HTML documents. It leverages the power of BeautifulSoup, a Python library recognized for extracting data from HTML and XML files effectively.
 
-#### When to Use
+**Use cases**
 
 This action is particularly beneficial in these situations:
 
@@ -424,7 +451,7 @@ This action is particularly beneficial in these situations:
 * **Content Clean-Up**: sieving out only the necessary data from complex HTML content.
 * **Web Scraping**: automating the extraction of specific information from various web pages using defined tags, classes, or identifiers.
 
-#### Action Parameters
+**Action Parameters**
 
 The `Parse HTML` action accepts the following parameters:
 
@@ -438,7 +465,7 @@ The `Parse HTML` action accepts the following parameters:
 * **String**: Optionally searches for specific text within the HTML content.
 * **Value**: Identifies the tag or selector to search for in the HTML content. For example, `a` would find all anchor (`<a>`) tags in the HTML content.
 
-#### Practical Use Case: Extracting Links from 'Hacker News'
+**Practical Use Case: Extracting Links from 'Hacker News'**
 
 This example involves making a `GET` request to the `Hacker News` website and parsing the returned HTML to extract all `<a>` links.
 
@@ -458,7 +485,7 @@ style: find_all
 value: a
 ```
 
-#### Example Workflow Results
+**Example Workflow Results**
 
 Here's an example of how the `Parse HTML` action's input and output might look like on the workflow results page:
 
@@ -527,22 +554,18 @@ _**Tip**: Parse HTML's functionalities include finding elements by tags (`<h1>`)
 
 <details>
 
-<summary>Parse XML Action</summary>
+<summary>Parse XML action</summary>
 
-#### Action Name: `Parse XML`
+The Core Parse XML action in Rewst is designed to locate and extract specific elements or data from XML documents. This powerful tool, backed by an efficient Python library, facilitates precise data extraction from XML files, simplifying the process of parsing complex data structures. For additional understanding on XPath expressions, refer to this [w3schools article](https://www.w3schools.com/xml/xpath_intro.asp).
 
-#### Overview
-
-The Core Parse XML action in Rewst is designed to locate and extract specific elements or data from XML documents. This powerful tool, backed by an efficient Python library, facilitates precise data extraction from XML files, simplifying the process of parsing complex data structures.
-
-#### When to Use
+**Use cases**
 
 Consider using the Parse XML action in these scenarios:
 
 * **Data Extraction and Content Clean-Up:** Capture specific information or filter out necessary data from XML-formatted content. This is particularly useful in processing responses from HTTP requests or handling complex XML documents.
 * **Web Scraping:** Automate the extraction of specific information from various XML sources using defined tags, attributes, or identifiers. It enables you to precisely target the data you need from web resources.
 
-#### Action Parameters
+**Action parameters**
 
 The Core Parse XML action requires the following parameters:
 
@@ -556,11 +579,11 @@ The Core Parse XML action requires the following parameters:
 * **String**: (Optional) Allows you to search for specific text within the XML content.
 * **Value**: Specifies the tag or selector to search for in the XML content.
 
-#### Practical Use Case: Extracting Books from a Bookstore's XML Data
+**Practical Use Case: Extracting Books from a Bookstore's XML Data**
 
 Before diving into parsing XML data, you'll need to fetch the XML file. In this use case, the XML file is fetched from a public URL which contains bookstore data in XML format. The first task in the workflow, called `get_books`, uses the Core `HTTP Request` action to fetch this XML content:
 
-**Input Parameters:**
+**Input parameters:**
 
 ```yaml
 url: http://books.toscrape.com/catalogue/category/books_1/index.html
@@ -581,11 +604,11 @@ The result from this task will look something like this:
 
 The `data` field contains the XML content, which is the input for the `Parse XML` action. The XML content is passed using the Context (`CTX`) object as `CTX.books.data`.
 
-**Finding the First Book**
+**Finding the first book**
 
 In this scenario, we are using the `find` operation to return the first `book` element in the XML:
 
-**Input Parameters:**
+**Input parameters:**
 
 ```yaml
 input:
@@ -604,11 +627,11 @@ The result from this task will look something like this:
 
 The output includes the first `book` element in the XML content.
 
-**Selecting All 'Children' Category Books**
+**Selecting all 'Children' category books**
 
 For a more complex operation, we can use the `select` operation with an XPath expression to extract all `book` tags where the `category` attribute is `children`.
 
-**Input Parameters:**
+**Input parameters:**
 
 ```yaml
 xml: {{CTX.books.data}}
@@ -626,47 +649,116 @@ value: book[category='children']
 
 The result includes all `book` tags where the `category` attribute is `children`.
 
-#### Conclusion
+</details>
 
-The `Parse XML` action provides a powerful way to parse XML data, enabling the extraction of specific data points based on `tags`, `attribute keys`, `text`, or `id`. It provides both simple and advanced operations, catering to various complexity levels of XML parsing requirements.
+<details>
 
-For additional understanding on XPath expressions, refer to this [w3schools article](https://www.w3schools.com/xml/xpath_intro.asp).
+<summary>Send Mail action</summary>
+
+Allows for the sending of an email.
+
+* **Parameters:** This action requires a sender prefix (`sender`), with multiple options available, the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also has the option to render markdown as HTML (`render_markdown`). You can also fully control the HTML of the email with `(Custom HTML)`. This can also reference a template using the `{{ template(“guid”) }}` function.&#x20;
+  * Note that if using the `Custom HTML` field, the message and title fields will be ignored
+  * You cannot upload images to Rewst, so any image will need to be externally referenced
+  * Emails will still be sent from the rewst.io domain
+* **Output:** The task doesn't yield an output upon success. It will fail if there are any errors during the process of sending the email.
 
 </details>
 
 <details>
 
-<summary>Other Core Actions</summary>
+<summary>Send SMS action</summary>
 
-***
+Allows you to send a text message to a specified phone number.
 
-**DNS Query**
+* **Parameters**: This action requires the recipient's phone number (`phone_number`) and the text message (`message`) to be sent.
+* **Output**: The output of this action will depend on the implementation details. Usually, it will return a confirmation message or an error message.
 
-**Action Name:** `DNS Query`
+</details>
 
-* **Description:** Queries a nameserver for DNS records associated with a given URL.
-* **Parameters:** The URL to query the Nameserver for, the field to query from the nameserver, timeout for the DNS Query (optional, default 60), and the nameserver to use for the query (several options available including Google, Cloudflare, OpenDNS).
-* **Output:** The specified DNS records associated with the given URL from the queried nameserver.
+<details>
 
-***
+<summary>Test All Parameter Types action</summary>
 
-**Generate Password**
+This action serves as a comprehensive example and testing tool that showcases all the different input field types that can be used in Rewst actions. It's primarily used for:
 
-**Action Name:** `Generate Password V2`
+* UI testing and validation
+* Demonstrating parameter field capabilities
+* Training and educational purposes
+* Testing form rendering and validation
 
-* **Description:** An upgrade from the deprecated password generation action. It crafts a cryptographically secure password with user-specified values. (_This is recommended for use over the deprecated Password Action due to its upgraded structure.)_
-* **Parameters:** length, minimum counts of numeric and capital letter characters, and optional punctuation characters.
-* **Output:** the generated password is presented under the "password" key in the output.
+**Inputs**
 
-***
+The task accepts a wide variety of input parameters representing every field type available in Rewst:
 
-**UUID**
+**Basic fields:**
 
-**Action Name:** `uuid`
+* `simple_string` (required) - Basic text input
+* `optional_string` - Optional text field
+* `string_with_default` - Text with default value "default\_value"
+* `simple_integer` (required) - Whole number (default: 42)
+* `simple_number` - Decimal number (default: 3.14)
+* `simple_boolean` - Toggle switch (default: false)
+* `required_boolean` (required) - Required toggle
 
-* **Description:** Generates a new UUID (Universally Unique Identifier).
+**Advanced string fields:**
+
+* `string_enum` (required) - Dropdown with options (option\_1, option\_2, option\_3)
+* `string_enum_objects` - Dropdown with custom labels and descriptions
+* `radio_selection` (required) - Radio button group
+* `secret_string` - Password/masked field
+* `multiline_text` - Large text area
+* `textarea_content` - Code editor area
+
+**Date/Time fields:**
+
+* `date_field` - Date picker
+* `time_field` - Time picker
+* `datetime_field` - Date and time picker
+
+**Array fields:**
+
+* `simple_array` - Array of strings
+* `array_with_enum` - Multi-select dropdown
+* `array_of_objects` - List of complex objects with name, enabled, and quantity fields
+
+**Object fields:**
+
+* `simple_object` - JSON object field
+* `nested_object` - Complex nested object with host, port, SSL settings, and credentials
+
+**Special fields:**
+
+* `number_with_range` - Integer between 1-100 (default: 50)
+* `local_reference_template` - Reference to local templates
+* `remote_reference_example` - Reference to remote API options
+* `remote_reference_with_dependency` - Dependent reference field
+
+**UI state fields:**
+
+* `tooltip_field` - Field with helpful tooltip
+* `hidden_field` - Hidden from UI
+* `disabled_field` - Cannot be edited
+* `readonly_field` - Read-only display
+* `deprecated_field` - Marked as deprecated
+* `staff_only_field` - Only visible to staff users
+
+**Outputs**
+
+The action returns a simple object with two properties:
+
+* `message` (string) - A test result message describing the outcome
+* `success` (boolean) - Whether the test execution was successful
+
+</details>
+
+<details>
+
+<summary>UUID action</summary>
+
+Generates a new UUID (Universally Unique Identifier).
+
 * **Parameters:** UUID type (options include `uuid1` and `uuid4`, defaults to `uuid4`).
 * **Output:** The generated UUID.
 
 </details>
-
