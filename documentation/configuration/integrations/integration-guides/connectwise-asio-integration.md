@@ -54,8 +54,8 @@ The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to strea
    ![](<../../../../.gitbook/assets/image (3).png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the following details copied from ConnectWise ASIO into the relevant fields under the **Parameters** section:
+   * **API Key -** This is the OAuth2 API Key for ConnectWise API access
    * **Client ID** - Also known as the client key, this is the OAuth2 Client ID for ConnectWise API access
-   * **Client Secret -** This is the OAuth2 API Key for ConnectWise API access
 5. Click **Save Configuration**.
 6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
