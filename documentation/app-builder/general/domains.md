@@ -17,16 +17,23 @@ When you first create your app, Rewst provides an option for a custom subdomain.
 
 <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-#### Updating organization slug
+#### Update the organization slug
 
-If you wish to update your organization's slug:
+URLs on your App Builder pages are generated based on your organization slug within Rewst. If you wish to update your organization's slug:
 
-1. Navigate to the Rewst Settings page for your organization.
-2. Locate the organization slug field.
-3. Update the slug as needed.
-4. Changes will take effect immediately.
+1. Navigate to **Settings > Organization** in the left side menu of your Rewst platform. Do this for the organization you're using for your app.
+2. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-22 at 10.01.13 AM.png>) to open the display options list.
+3. Check the **Org Slug** column. \
+   ![](<../../../.gitbook/assets/Screenshot 2026-01-22 at 10.01.08 AM.png>)
+4. Locate the organization slug field for your organization.
+5. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-22 at 10.02.59 AM.png>) to the far right of your organization to enable editing.
+6. Update the org slug as needed.
+7. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-22 at 10.03.32 AM.png>) to save.
+8. Changes will take effect immediately.
 
-#### Updating custom subdomain
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-01-22 at 10.04.33 AM.png" alt=""><figcaption></figcaption></figure>
+
+#### Update the custom subdomain
 
 To modify the custom subdomain of your app:
 
