@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Configure New GDAP Relationship Crate
 
 {% hint style="info" %}

@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # M365 CSP/GDAP Permission Checker Crate
 
 {% hint style="info" %}

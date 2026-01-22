@@ -292,6 +292,7 @@
     * [Reset Locked Accounts Crate](documentation/crates/existing-crate-documentation/reset-locked-accounts-crate.md)
     * [Reset Microsoft MFA Crate](documentation/crates/existing-crate-documentation/reset-microsoft-mfa-crate.md)
     * [Rewst Examples: Jinja Comprehension Crate](documentation/crates/existing-crate-documentation/rewst-examples-jinja-comprehension-crate.md)
+    * [Rewst Microsoft GDAP Assistant Crate](documentation/crates/existing-crate-documentation/rewst-microsoft-gdap-assistant-crate.md)
     * [Rotate Account Passwords Crate](documentation/crates/existing-crate-documentation/rotate-account-passwords-crate.md)
     * [Rotate Local Workstation Passwords Crate](documentation/crates/existing-crate-documentation/rotate-local-workstation-passwords-crate.md)
     * [Run PowerShell Script on Selected Devices Crate](documentation/crates/existing-crate-documentation/run-powershell-script-on-selected-devices-crate.md)
