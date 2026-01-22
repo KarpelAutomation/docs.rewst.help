@@ -51,7 +51,7 @@ The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to strea
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `ConnectWise ASIO` in the integrations page.\
    \
-   ![](<../../../../.gitbook/assets/image (3).png>)
+   ![](<../../../../.gitbook/assets/image (3) (5).png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the following details copied from ConnectWise ASIO into the relevant fields under the **Parameters** section:
    * **API Key -** This is the OAuth2 API Key for ConnectWise API access

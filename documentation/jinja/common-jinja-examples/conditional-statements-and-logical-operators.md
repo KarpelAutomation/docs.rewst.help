@@ -4,7 +4,7 @@
 
 In the context of Jinja templating, conditional statements and logical operators are vital tools for creating dynamic and responsive templates. This article provides an in-depth exploration of `if`, `elif`, and `else` statements, as well as the logical operators `and`, `or`, and `not` within the framework of Jinja.
 
-### **Understanding `if`, `elif`, and `else` statements in Jinja**
+### **Understand `if`, `elif`, and `else` statements in Jinja**
 
 In Jinja templating, `if`, `elif`, and `else` statements function similarly to their counterparts in traditional programming languages. They enable you to control the flow of your templates based on specific conditions.
 
@@ -12,7 +12,7 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 * `elif` stands for "else if" and is utilized to check additional conditions after the initial `if` statement. `elif` is evaluated only if the preceding `if` statement is false.
 * `else` is a fallback option. It executes a template code block when none of the preceding conditions (`if` and `elif`, if present) are true.
 
-### **Example 1: Using `if` and `else` statements in Jinja**
+### **Example 1: Use `if` and `else` statements in Jinja**
 
 ```django
 {%- set dogs = 1 -%}
@@ -31,7 +31,7 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 
 ```
 
-### **Example 2: Using `if`, `elif`, and `else` ladders in Jinja**
+### **Example 2: Use `if`, `elif`, and `else` ladders in Jinja**
 
 ```django
 {%- set value = 1 -%}

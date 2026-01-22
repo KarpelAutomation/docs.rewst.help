@@ -168,8 +168,6 @@ To view a list of all available attributes in your editor, enter `ORG.` between 
 
 Date-Time manipulations in Jinja can be easily achieved using context variables and built-in filters. This section provides examples to perform various date-time operations with JSON objects. Here are various examples demonstrating how to manipulate date-time values using Jinja filters in Rewst.
 
-***
-
 ### Examples
 
 {% tabs %}

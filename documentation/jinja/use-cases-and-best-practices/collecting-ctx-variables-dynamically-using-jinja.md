@@ -2,13 +2,13 @@
 
 Capturing all the input variables dynamically from a workflow can be challenging, particularly when these variables are created dynamically, like through a form submission, a parent workflow or other triggering event. The method illustrated below can be used to capture all inputs in a structured manner, which could then be sent to other systems, logged, or used for debugging.
 
-## Use Case
+## Use case
 
-To capture all input variables dynamically in a workflow using a No-Op task's transition and store them in a dictionary, then output
+Here, you want to capture all input variables dynamically in a workflow using a noop task's transition and store them in a dictionary, then output.
 
-**Code Snippet**
+**Code snippet**
 
-Add the following code as a data alias in the initial No-Op task's transition in the workflow.
+Add the following code as a data alias in the initial noop task's transition in the workflow.
 
 ```django
 {%- set keys = CTX()|list -%}
@@ -24,39 +24,37 @@ Add the following code as a data alias in the initial No-Op task's transition in
 
 **Explanation**
 
-1.  **List All Context Keys**: The `CTX()` function is called, and its keys are converted to a list.
+1.  **List all context keys**: The `CTX()` function is called, and its keys are converted to a list.
 
     ```django
     {%- set keys = CTX()|list -%}
     ```
-2.  **Exclude Unwanted Keys**: You can exclude the keys that are specific to the executing workflow, and don't need to be included in the final dictionary as defined.
+2.  **Exclude unwanted keys**: You can exclude the keys that are specific to the executing workflow, and don't need to be included in the final dictionary as defined.
 
     ```django
     {%- set excluded_keys = ["execution_id","organization",...] -%}
     ```
-3.  **Initialize Dictionary**: A dictionary named `workflow_inputs` is initialized to hold the filtered context variables. For clarity, this should be whatever you named your Data Alias where you're adding this Jinja.
+3.  **Initialize dictionary**: A dictionary named `workflow_inputs` is initialized to hold the filtered context variables. For clarity, this should be whatever you named your Data Alias where you're adding this Jinja.
 
     ```django
     {%- set workflow_inputs = {} -%}
     ```
-4.  **Iterate and Populate Dictionary**: Loop through each context key, check if it's not in `excluded keys`, and update `workflow_inputs` with the key-value pair.
+4.  **Iterate and populate dictionary**: Loop through each context key, check if it's not in `excluded keys`, and update `workflow_inputs` with the key-value pair.
 
     ```django
     {%- do workflow_inputs.update({key: CTX[key]}) -%}
     ```
-5.  **Output Dictionary**: The dictionary is outputted and stored as however you defined the Data Alias for use in any subsequent tasks.
+5.  **Output dictionary**: The dictionary is outputted and stored as however you defined the Data Alias for use in any subsequent tasks.
 
     ```django
     {{ workflow_inputs }}
     ```
 
-### Add Pretty Formatting for Email Sending
-
-**Overview**
+### Add formatting for email sending
 
 If you want to format the dynamic workflow inputs in a human-readable manner before sending them via email or another output method, you can use HTML tags along with Jinja2 templating. This can be useful to add readability to the key-value pairs.
 
-**Code Snippet**
+**Code snippet**
 
 Extend the existing code that captures workflow input variables dynamically to include pretty formatting for email sending. In this example, we will add the following Jinja in the message of the `core_sendmail` task:
 
@@ -78,19 +76,19 @@ Here, the key-value pairs in `CTX.form_data` are sorted and formatted using HTML
     ```django
     CTX.form_data|dictsort
     ```
-*   **Iterating Through Sorted Dictionary**: Iterate over the sorted dictionary, pulling out the key and value.
+*   **Iterate through sorted dictionary**: Iterate over the sorted dictionary, pulling out the key and value.
 
     ```django
     {% for key, value in CTX.form_data|dictsort %}
     ```
-*   **Pretty Formatting**: HTML tags for bold and line break are used for each key-value pair.
+*   **Formatting**: HTML tags for bold and line break are used for each key-value pair.
 
     ```django
     <b>{{ key }}</b>: {{ value }}<br>
     ```
-* **Final Output**: The entire message is formed by appending these formatted key-value pairs together, which can then be sent as the email body.
+* **Final output**: The entire message is formed by appending these formatted key-value pairs together, which can then be sent as the email body.
 
-**JSON Update**
+**JSON update**
 
 The `core_sendmail` task's JSON would look like this:
 

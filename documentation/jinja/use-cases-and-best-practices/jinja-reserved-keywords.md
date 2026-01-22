@@ -1,10 +1,11 @@
 # Jinja reserved keywords
 
-## Overview
+Jinja, like many programming and templating languages, has a set of _reserved keywords_ that can't be used as identifiers for variables, functions, or other custom elements within your templates. These keywords are integral to Jinja's syntax and functionality.
 
-​ This document is intended to provide an overview of Jinja's reserved keywords Rewst users will encounter while building their own automations, and addresses a common TypeError issue that users face when conflicts occur.​
-
-***
+{% hint style="warning" %}
+* Always prefix your own variables and function names to avoid collision with these reserved words.
+* Use these words in the appropriate context to ensure readability and maintainability. ​
+{% endhint %}
 
 ## List of reserved keywords
 
@@ -53,11 +54,7 @@
 * `import`: Importing modules
 * `from`: Specifies what attributes to import from a module ​
 
-***
-
 ## Common error: JSON serialization issue
-
-​
 
 ### Error:
 
@@ -77,15 +74,5 @@
 
 ​ This ensures that you're referencing the actual data rather than the built-in `items` method, thus avoiding the serialization issue.
 
-***
 
-## Best practices
 
-​
-
-* Always prefix your own variables and function names to avoid collision with these reserved words.
-* Use these words in the appropriate context to ensure readability and maintainability. ​
-
-## Conclusion
-
-​ Understanding these protected words in Jinja is critical for effective template development. Familiarize yourself with these terms to write better, error-free code.

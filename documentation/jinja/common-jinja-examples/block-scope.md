@@ -2,7 +2,7 @@
 
 ## What is block scope?
 
-In Jinja, _block scope_ refers to the scope in which a variable exists and is accessible. Block scope is best understood by looking at an example. Consider the following code snippet:
+In Jinja, _block scope_ refers to the scope in which a variable exists and is accessible. Block scope in Jinja is best understood by looking at an example. Consider the following code snippet:
 
 ```django
 {% set var = 0 %}
@@ -14,7 +14,7 @@ In Jinja, _block scope_ refers to the scope in which a variable exists and is ac
 
 In many programming languages, you might expect the result to be 9, but in Jinja, the output will be 0. This is because, in Jinja, anything defined within a `for` loop stays within that loop. When you use the `{% set %}` feature within a loop, you're actually creating a new variable with the same name, and this variable is destroyed when the loop ends.
 
-### Exception: Append to a list
+### Exception: Append to a List
 
 There is an exception to this block scope rule, which is when you are appending to a list that already exists. This works because you are modifying the actual variable that was created before the loop is called, rather than creating a new variable with the same name within the loop. Here's an example:
 

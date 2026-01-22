@@ -4,11 +4,7 @@ description: Streamlining Data Retrieval with Jinja Filters vs. List Comprehensi
 
 # Efficiently extract nested data
 
-## Introduction
-
-Explore how to use `jsonpath_query`, list comprehension, and the `map` filter in Rewst for extracting data from JSON structures. This guide highlights when and why to use each method, with a focus on scenarios best suited for `jsonpath_query` and `map`.
-
-***
+Explore how to use `jsonpath_query`, list comprehension, and the `map` filter in Rewst for extracting data from JSON structures. Select the method that best suits your task's complexity and your familiarity with programming concepts.&#x20;
 
 ## Example scenario
 
@@ -24,8 +20,6 @@ Extract event names from a JSON list containing detailed event information.
   ]
 }
 ```
-
-***
 
 ### Method one: Use list comprehension
 
@@ -45,8 +39,6 @@ This method loops through each event in `CTX.events`, extracting the `name` from
 2. **Iterating Over the `CTX.events`**: The `for item in CTX.events` part loops through each event in the `CTX.events` array.
 3. **Extracting the `name`**: The `item.details.name` extracts the `name` property from the `details` object of each event.
 
-***
-
 ### Method two: Use `jsonpath_query`
 
 `jsonpath_query` provides a more direct approach to targeting and extracting nested data.
@@ -64,8 +56,6 @@ This expression directly navigates to and extracts the `name` field from each ev
 1. **Using the `jsonpath_query` Filter**: `jsonpath_query` is a filter applied to the `CTX.events` variable.
 2. **Navigating the JSON Path**: `'$[*].details.name'` is the path expression. `$` denotes the root of the JSON structure, `[*]` accesses all elements in the `events` array, and `.details.name` navigates to the `name` within each `details` object.
 
-***
-
 ### Method three: Use `map` with an attribute
 
 **Example:**
@@ -78,17 +68,13 @@ This expression directly navigates to and extracts the `name` field from each ev
 
 This example demonstrates using the `map` filter in Jinja to extract a specific attribute from each element in a sequence.
 
-* **Applying the `map` Filter**: The `map` filter is applied to the `CTX.events` variable. This Jinja2 filter iterates over each element in the given sequence.
-* **Specifying the Attribute to Extract**: The part `attribute='details.name'` tells the `map` filter to extract the `name` attribute from the `details` object within each element of `CTX.events`.
-
-***
+* **Apply the `map` filter**: The `map` filter is applied to the `CTX.events` variable. This Jinja2 filter iterates over each element in the given sequence.
+* **Specify the attribute to extract**: The part `attribute='details.name'` tells the `map` filter to extract the `name` attribute from the `details` object within each element of `CTX.events`.
 
 ### Comparison and effectiveness
 
-* **List Comprehension**: Offers control and flexibility, best for simpler structures or specific manipulations.
+* **List comprehension**: Offers control and flexibility, best for simpler structures or specific manipulations.
 * **Filters (`jsonpath_query`, `map`)**: Streamline the process with specialized functionality. Choose `jsonpath_query` for deep JSON navigation and `map` for straightforward, uniform transformations.
-
-***
 
 ### Expected output
 
@@ -98,8 +84,3 @@ All methods output a list of event names:
 ["Event One", "Event Two"]
 ```
 
-***
-
-### Conclusion
-
-Select the method that best suits your task's complexity and your familiarity with programming concepts. Filters like `jsonpath_query` and `map` simplify the extraction process, making them efficient choices for various scenarios in Rewst. For more insights and community discussions, visit the [Rewst Discord](https://discord.gg/rewst) `#jinja` channel.

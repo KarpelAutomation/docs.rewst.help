@@ -1,3 +1,7 @@
+---
+description: Take a deep dive into the world of Jinja.
+---
+
 # Jinja essentials
 
 ## Understand Jinja syntax in Rewst
@@ -31,7 +35,14 @@ Note that Rewst's Jinja2 implementation displays mutable object— lists, dicts,
 
 ### Work with JSON
 
-**Format:** JSON (JavaScript Object Notation) structures data in key-value pairs.
+{% hint style="info" %}
+_JSON_, or _JavaScript Object Notation_, is a lightweight format for storing and transporting data, often used when data is sent from a server to a web page. When using JSON:
+
+* Data is in name-value pairs
+* Data is separated by commas
+* Curly braces hold objects
+* Square brackets hold arrays
+{% endhint %}
 
 **Example:**
 

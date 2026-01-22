@@ -1,4 +1,6 @@
-# Data types
+# Jinja data types
+
+Understanding data types is fundamental for effective programming in Jinja templating. This article provides a comprehensive overview of the main data types in Jinja, exploring integers, floats, strings, lists, tuples, dictionaries, sets, booleans, and NoneType.&#x20;
 
 A _data type_ is a classification that specifies the type of value a variable can hold, which determines the operations that can be performed on it and how the data is stored. Understanding data types is fundamental for effective programming in Jinja templating.&#x20;
 

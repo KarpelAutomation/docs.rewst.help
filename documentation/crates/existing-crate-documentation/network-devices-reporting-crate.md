@@ -79,7 +79,7 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 
 
 
-    <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your Auvik network management software portal to ensure that the workflow is able to attach a CSV file containing network device data as expected.
 
 #### Update the cron trigger schedule

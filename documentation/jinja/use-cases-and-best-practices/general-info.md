@@ -1,10 +1,6 @@
 # Combine Jinja lists
 
-Quite often, you will be in a situation where you have two lists and want to combine them, ensuring that the data matches between the two lists.
-
-For example, if you pull a list of users and then want to add a list of groups that the user belongs to, which is not a part of the initial list.
-
-There are a couple of ways to achieve this, both are outlined below
+Quite often, you will be in a situation where you have two lists and want to combine them, ensuring that the data matches between the two lists. For example, if you pull a list of users and then want to add a list of groups that the user belongs to, which is not a part of the initial list.&#x20;
 
 ## Step one - List M365 users on a tenant
 

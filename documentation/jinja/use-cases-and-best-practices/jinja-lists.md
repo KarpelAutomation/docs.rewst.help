@@ -6,13 +6,13 @@ Lists or Arrays are very common when working with sets of data in Rewst.
 
 Any time you see information encapsulated in `[` `]` brackets, you are looking at a list, and working with the items in that list requires certain considerations. Working with these lists is referred to as "List Comprehension."
 
-### Standard List
+### Standard list
 
 ```json
 [ "apples", "oranges", "potatoes" ]
 ```
 
-### More Complicated Example
+### More complicated example
 
 ```json
 "users": [
@@ -31,7 +31,7 @@ Any time you see information encapsulated in `[` `]` brackets, you are looking a
 ]
 ```
 
-### Working with Lists
+### Work with lists
 
 #### Count of users
 
@@ -92,7 +92,7 @@ Joining list results for output:
 
 `far, far away`
 
-### **Getting the First Name of each user**
+### **Get the first name of each user**
 
 Using the above example data, there are multiple ways to work with the members of this list. The method you choose will likely depend on more complex situations where one style more sense to use over another.
 
@@ -114,7 +114,7 @@ Method 3:
  {{- user.first_name -}}
 ```
 
-### **Selecting items of a list based on their attributes**
+### **Select items of a list based on their attributes**
 
 Method 1:
 
@@ -128,7 +128,7 @@ Method 2:
 {{ [ user for user in CTX.users if user.first_name == "Luke" ] }}
 ```
 
-### **Creating new objects with list notation**
+### **Create new objects with list notation**
 
 Jinja expressions can span multiple lines to improve readability
 
@@ -146,7 +146,7 @@ Jinja expressions can span multiple lines to improve readability
 }}
 ```
 
-### **Appending to a list**
+### **Append to a list**
 
 ```django
 {%- do my_list.append(
@@ -161,7 +161,7 @@ Jinja expressions can span multiple lines to improve readability
 
 ### Other useful tactics
 
-#### Comparing Lists
+#### Compare lists
 
 Sometimes you may wish to do something if a single item exists in two different lists:
 
@@ -169,7 +169,7 @@ Sometimes you may wish to do something if a single item exists in two different 
 {{ true if [x for x in [1,2,3] if x in [3,4,5] ] }}
 ```
 
-#### Stacked Lists
+#### Stacked lists
 
 If you need a single list, you can do the following:
 

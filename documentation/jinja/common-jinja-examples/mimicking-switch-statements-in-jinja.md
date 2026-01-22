@@ -1,10 +1,8 @@
 # Mimick switch statements in Jinja
 
-Jinja doesn't offer traditional switch statements like some other programming languages. However, fear not! You can achieve similar functionality using dictionary switches. This article will guide you through the concept of dictionary switches in Jinja and how they can be used effectively.
-
 ### What are dictionary switches?
 
-A _dictionary switch_ in Jinja is a clever way to mimic the functionality of a switch statement using dictionaries. Essentially, you create a dictionary where the keys represent different cases, and the values are the actions or values associated with those cases. Let's explore how to create and use dictionary switches in Jinja.
+Jinja doesn't offer traditional switch statements like some other programming languages. Instead, you can achieve similar functionality using _dictionary switches_.  A dictionary switch in Jinja is a clever way to mimic the functionality of a switch statement using dictionaries. Essentially, you create a dictionary where the keys represent different cases, and the values are the actions or values associated with those cases.&#x20;
 
 ### Basic dictionary switch
 

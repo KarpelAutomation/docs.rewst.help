@@ -1,12 +1,12 @@
 # Generate CSVs dynamically with Jinja
 
-Creating Comma-Separated Values (CSV) files is a common requirement in various applications. Jinja templating offers a simple and efficient way to generate CSV files dynamically. This article demonstrates how to create a CSV file from data using Jinja templates and how to set headers dynamically, providing a versatile solution for your data processing needs.
+Creating Comma-Separated Values (CSV) files is a common requirement in various applications. Jinja templating offers a simple and efficient way to generate CSV files dynamically.&#x20;
 
-### **Create a CSV File with Jinja**
+### **Create a CSV file with Jinja**
 
-To create a CSV file using Jinja, follow these steps:
+To create a CSV file using Jinja:
 
-1.  **Prepare Your Data:** First, organize your data into a list of dictionaries. Each dictionary represents a row in the CSV, with keys representing column headers and corresponding values.
+1.  **Prepare your data:** First, organize your data into a list of dictionaries. Each dictionary represents a row in the CSV, with keys representing column headers and corresponding values.
 
     ```django
     {%- set csv_data = [
@@ -17,7 +17,7 @@ To create a CSV file using Jinja, follow these steps:
         }
     ] -%}
     ```
-2.  **Generate CSV Headers Dynamically:** Use Jinja filters to dynamically set the CSV headers. In the provided example, the `fieldnames` parameter is populated with the keys from the first dictionary in the `csv_data` list.
+2.  **Generate CSV headers dynamically:** Use Jinja filters to dynamically set the CSV headers. In the provided example, the `fieldnames` parameter is populated with the keys from the first dictionary in the `csv_data` list.
 
     ```django
     {{- csv_data | csv(fieldnames = csv_data[0].keys() | list) -}}
