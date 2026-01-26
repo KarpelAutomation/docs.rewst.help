@@ -13,6 +13,10 @@ Our Document BitLockers Crate automates the collection and documentation of BitL
 * Save time by automating data collection and reducing manual documentation tasks.
 * Ensure critical disk encryption data like recovery keys and protection status are properly recorded.
 
+{% hint style="warning" %}
+Note that multiple workstation types for ITGlue are not supported by this Crate. The Crate only facilitates collecting BitLocker records for a single workstation configuration type.&#x20;
+{% endhint %}
+
 ## Crate prerequisites
 
 Before unpacking this Crate, you'll first need to have:
@@ -74,8 +78,9 @@ If you haven't done so already, we recommended that you run the [Configure Organ
 * `documentation_platform`&#x20;
 * `hudu_company_id`&#x20;
 * `immybot_tenant_id`&#x20;
-* `itglue_org_id`&#x20;
-* `kaseya_vsa_10_scriptid`&#x20;
+* `itglue_org_id`
+* `itg_bitlocker_computer_config_type` - default is `computer` and doesn't use your RMM-mapped types, custom configuration type names require setting this org variable. Note that multiple workstation types for ITGlue are not supported by this Crate.       &#x20;
+* &#x20;`kaseya_vsa_10_scriptid`&#x20;
 * `kaseya_vsa_org_id`&#x20;
 * `kaseya_vsa_x_org_id`&#x20;
 * `nable_customer_id`&#x20;
