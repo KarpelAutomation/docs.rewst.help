@@ -226,10 +226,10 @@ For example, let’s say that 12 roles map to 177 permissions.
 If you are part of the Microsoft Cloud Solution Provider (CSP) program and have access to GDAP, follow the instructions below to configure GDAP before linking customers.
 {% endhint %}
 
-1. Unpack the [Configure New GDAP Relationship Crate](../../../../crates/existing-crate-documentation/configure-new-gdap-relationship-crate.md). This will create the relationship and generate a link for your customer to accept the relationship. Once the customer manually accepts, you'll be given a second link to kick off another workflow that adds all groups to the relationship, and maps them to the relevant roles.\
+1. Unpack the [Rewst Microsoft GDAP Assistant Crate](../../../../crates/existing-crate-documentation/rewst-microsoft-gdap-assistant-crate.md). This will create the relationship and generate a link for your customer to accept the relationship. Once the customer manually accepts, you'll be given a second link to kick off another workflow that adds all groups to the relationship, and maps them to the relevant roles.\
    \
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-09-04 at 3.57.31 PM.png>)<br>
-2. Return to your Rewst platform. Navigate to Configuration > Integrations > Microsoft Cloud Bundle.
+   ![](<../../../../../.gitbook/assets/image (331).png>)<br>
+2. Return to your Rewst platform. Navigate to **Configuration > Integrations > Microsoft Cloud Bundle**.
 3. Use the **organization mapping** menu that appears at the bottom of the screen to choose the customer organizations you wish to map the bundle to.&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.21.58 PM.png" alt=""><figcaption></figcaption></figure>
@@ -245,9 +245,9 @@ If you are part of the Microsoft Cloud Solution Provider (CSP) program and have 
 
 <details>
 
-<summary>Link customers using GDAP without using the Configure New GDAP Relationship Crate</summary>
+<summary>Link customers using GDAP without using the Rewst Microsoft GDAP Assistant Crate</summary>
 
-Follow these instructions to set up GDAP relationships without the Configure New GDAP Relationship Crate. Note that Rewst recommends using the Crate if possible, for a better setup experience.
+Follow these instructions to set up GDAP relationships without the Rewst Microsoft GDAP Assistant Crate. Note that Rewst recommends using the Crate if possible, for a better setup experience.
 
 #### Assign the security group to the service account user you created previously&#x20;
 
@@ -369,7 +369,7 @@ Follow these instructions to link customers if you don't have a CSP or want to u
 
 If you’d like to manage your internal organization with Rewst and enable it to run automations, you’ll need to assign specific roles to your Rewst service account. If you don't want to manage your internal MSP, you can remove the Global Administrator Role now.  If you wish to continue managing your MSP organization, add the 12 roles indicated below to the Rewst service account. Then, remove the Global Administrator Role.  Removing the role will not remove the 12 added roles.
 
-* If you used the Configure New GDAP Relationship Crate to set up your GDAP roles, you'll still need to manually add these roles to your Rewst service account. The Crate does not add them at the MSP parent organization level for you.
+* If you used the Rewst Microsoft GDAP Assistant Crate to set up your GDAP roles, you'll still need to manually add these roles to your Rewst service account. The Crate does not add them at the MSP parent organization level for you.
 * If you chose to set up the GDAP roles manually without using the Crate, you'll also need to manually add these roles to your Rewst service account. Note that they're the same 12 roles that you used previously.
 
 Once this has been completed, you can remove the Global Administrator Role from your Service account
