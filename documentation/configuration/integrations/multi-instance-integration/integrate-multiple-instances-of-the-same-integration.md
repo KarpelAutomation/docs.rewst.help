@@ -2,11 +2,11 @@
 
 MSPs may encounter a situation where they need to set up multiple instances of the same integration, when that integration doesn’t support [multi-instance integration setup](https://docs.rewst.help/documentation/integrations/multi-instance-integration/multi-instance-integration-setup). These integrations include the following - note that all Microsoft integrations are now part of our [Microsoft Cloud bundle](../integration-guides/microsoft-cloud-integration-bundle/):
 
-* [Microsoft Azure ](/broken/pages/UDOdWSuuBsuMiN2wC5fZ)
-* [Microsoft CSP ](/broken/pages/Mu3fh9hJ6CAhFGdbJuSR)
-* [ImmyBot ](../integration-guides/immybot-integration-setup.md)
-* [Microsoft Exchange Online](/broken/pages/bzvZDVk84hT5P6q3eC2G)&#x20;
-* [Microsoft Graph ](/broken/pages/iSwzpoaheqqHpL8sY40U)
+* [ImmyBot](../integration-guides/immybot-integration-setup.md)
+* Microsoft Azure&#x20;
+* Microsoft CSP&#x20;
+* Microsoft Exchange Online&#x20;
+* Microsoft Graph&#x20;
 * N-Able - the deprecated version of the integration is only still used by a few longer-term Rewst customers.
 
 This is most often experienced with the Microsoft CSP integration, via one of the following scenarios. For the purposes of documentation, the example in this page will use the Microsoft CSP integration.
@@ -18,7 +18,7 @@ This is most often experienced with the Microsoft CSP integration, via one of th
 Note that if you are in the second scenario, Microsoft offers a Multi-Geo Capabilities add-on which allows you to manage tenants in both Canada and the United States under one account. For more information on this license solution, see [Microsoft’s documentation here](https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide).
 {% endhint %}
 
-Before proceeding with these steps, we strongly recommend checking in with your CSM. They can point you to the correct Rewst team to discuss if it’s the right fit for your situation and goals.
+Before proceeding with these steps, we strongly recommend checking in with your Automation Strategist. They can point you to the correct Rewst team to discuss if it’s the right fit for your situation and goals.
 
 ## Example: Integrate multiple instances of Microsoft CSP into Rewst
 

@@ -34,3 +34,13 @@ Once you've set up the database and have the necessary credentials, follow the b
 {% hint style="warning" %}
 If you are using the database integration to cache information from options generators, follow the [BYOD For Options Generators](byod-for-dattormm.md) document
 {% endhint %}
+
+## Actions and endpoints
+
+| Category | Action                       | Description                                                     |
+| -------- | ---------------------------- | --------------------------------------------------------------- |
+| Query    | Custom Query                 | Run custom SQL Query on cloud database                          |
+| Query    | Query Tables List            | Get list of tables from database configuration                  |
+| Query    | Query Users List             | Get list of users from database configuration                   |
+| Query    | Test All Configurations      | Test all databases by getting list of tables from each database |
+| Query    | List Database Configurations | Get list of all set up databases                                |
