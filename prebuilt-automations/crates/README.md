@@ -149,6 +149,14 @@ Unsyncing a top level workflow doesn't affect the subworkflows inside it. They r
 [Completion handlers](../../documentation/automations/workflows/completion-handlers-and-workflow-wrappers.md) are a great, useful way to keep Crates synced while expanding functionality.
 {% endhint %}
 
+#### Scenario examples for syncing subworkflows in Crates
+
+If you have a workflow that has the parent workflow unsynced but has subworkflows that are synced, the subworkflows will still get updates.
+
+You have a parent workflow that is synced and have the subworkflows unsynced.  When Rewst pushes a update to the parent workflow, new subworkflows will get pushed to their organization and associate to that parent workflow.
+
+If you make a clone with Synchronize changes unchecked, this will clone the workflow, and the parent workflow will not be associated with anything in the Crate and will not get updates. The subworkflows, however, will still be synced and will get updates.
+
 ## Request a Crate and vote for Crate ideas
 
 We’re constantly adding new Crates to Crate Marketplace. Vote for which upcoming Crates should take priority by creating a post with your thoughts or upvoting other existing suggestion posts [in our Canny.](https://rewst.canny.io/crates)

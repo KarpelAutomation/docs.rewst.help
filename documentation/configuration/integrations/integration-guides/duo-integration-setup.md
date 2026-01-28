@@ -94,3 +94,46 @@ Now, retrieve the Admin API directory key for directory synchronization. This ke
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
+
+
+
+## Actions and endpoints
+
+| Category                | Action                         | Description                                                    |
+| ----------------------- | ------------------------------ | -------------------------------------------------------------- |
+| Accounts API            | List Accounts                  | Lists all accounts                                             |
+| Accounts API            | Create Account                 | Creates a new account                                          |
+| Accounts API            | Delete Account                 | Deletes an account                                             |
+| Accounts API            | Accounts API Action            | Generic action for making requests against the Accounts API    |
+| Admin API - Bypass Code | List Bypass Codes              | Lists all bypass codes                                         |
+| Admin API - Bypass Code | Get Bypass Code                | Gets a specific bypass code by ID                              |
+| Admin API - Bypass Code | Delete Bypass Code             | Deletes a bypass code                                          |
+| Admin API - Bypass Code | List Bypass Code(s) By User    | Lists bypass codes for a specific user                         |
+| Admin API - Bypass Code | Create Bypass Code for User    | Creates bypass codes for a user                                |
+| Admin API - Bypass Code | Retrieve Bypass Codes for User | Retrieves bypass codes for a user                              |
+| Admin API - General     | Auth API Action                | Generic action for making requests against the Auth API        |
+| Admin API - General     | Admin API Action               | Generic action for making requests against the Admin API       |
+| Admin API - Phones      | List Phones                    | Lists all phones                                               |
+| Admin API - Phones      | Get Phone                      | Gets a specific phone by ID                                    |
+| Admin API - Phones      | Delete Phone by ID             | Deletes a phone by ID                                          |
+| Admin API - Phones      | Send Activation URL            | Sends activation URL to a phone                                |
+| Admin API - Phones      | Send Activation By SMS         | Sends activation link via SMS                                  |
+| Admin API - Phones      | Send Installation By SMS       | Sends installation link via SMS                                |
+| Admin API - Phones      | Send Passcode By SMS           | Sends passcode via SMS                                         |
+| Admin API - Phones      | Get User's Phones              | Gets all phones associated with a user                         |
+| Admin API - Phones      | Assign Phone to User           | Assigns a phone to a user                                      |
+| Admin API - Phones      | Un-assign Phone from User      | Removes phone assignment from a user                           |
+| Admin API - Phones      | Create Phone                   | Creates a new phone                                            |
+| Admin API - Settings    | Retrieve Settings              | Retrieves Duo settings                                         |
+| Admin API - Settings    | Update Settings                | Updates Duo settings                                           |
+| Admin API - Users       | List Users                     | Lists all users                                                |
+| Admin API - Users       | Get User by Username           | Gets a user by username                                        |
+| Admin API - Users       | Create User                    | Creates a new user                                             |
+| Admin API - Users       | Get User                       | Gets a user by ID                                              |
+| Admin API - Users       | Update User                    | Updates user information                                       |
+| Admin API - Users       | Delete User                    | Deletes a user                                                 |
+| Admin API - Users       | Enroll User                    | Enrolls a user for Duo authentication                          |
+| Admin API - Users       | Synchronize Users              | Synchronize Users from Azure AD                                |
+| Auth API                | Check Auth API Credentials     | Carryout check against Duo API host with provided credentials. |
+| Auth API                | Ping Auth API                  | Carryout liveness check against Duo API host.                  |
+| Auth API                | Send Duo Authentication        | Carry out an duo auth - i.e. Push notification.                |

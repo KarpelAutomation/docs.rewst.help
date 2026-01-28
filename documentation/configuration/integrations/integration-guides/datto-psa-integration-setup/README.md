@@ -1,34 +1,34 @@
-# Datto Autotask PSA integration
+# Autotask PSA integration
 
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
-## What does the Datto Autotask integration do?
+## What does the Autotask PSA integration do?
 
-Our Datto Autotask integration enables seamless synchronization of ticketing, client data, and service management workflows between Autotask and Rewst. It allows MSPs to automate repetitive tasks like ticket creation, status updates, and client information syncing, reducing manual effort and improving operational efficiency.
+Our Autotask PSA integration enables seamless synchronization of ticketing, client data, and service management workflows between Autotask PSA and Rewst. It allows MSPs to automate repetitive tasks like ticket creation, status updates, and client information syncing, reducing manual effort and improving operational efficiency.
 
-### Why use the Datto Autotask integration?
+### Why use the Autotask PSA integration?
 
 #### Automate ticket creation
 
-A critical server outage alert is triggered in your RMM tool. Rewst detects the alert, and **creates a high-priority ticket in** Autotask with details like impacted client, server ID, and error logs. It assigns the ticket to the infrastructure Team based on the ticket category, and triggers a Slack or Teams alert to the assigned team with a direct link to the Autotask ticket
+A critical server outage alert is triggered in your RMM tool. Rewst detects the alert, and **creates a high-priority ticket in** Autotask PSA with details like impacted client, server ID, and error logs. It assigns the ticket to the infrastructure Team based on the ticket category, and triggers a Slack or Teams alert to the assigned team with a direct link to the Autotask PSA ticket.
 
 #### Contract renewal automation
 
-A client’s managed services contract is nearing expiration in Autotask. Rewst identifies expiring contracts and triggers a renewal workflow. It generates a quote in Autotask, emails it to the client, schedules a follow-up task for the account manager, and updates the contract status to **Renewal Pending** in Autotask.
+A client’s managed services contract is nearing expiration in Autotask PSA. Rewst identifies expiring contracts and triggers a renewal workflow. It generates a quote in Autotask PSA, emails it to the client, schedules a follow-up task for the account manager, and updates the contract status to **Renewal Pending** in Autotask PSA.
 
 #### Client onboarding and offboarding
 
-A new client signs up for managed services. Rewst creates the client’s Autotask account, assigns contracts, and configures service templates. It provisions user accounts in Microsoft 365 or Google Workspace via integrated workflows, then triggers an onboarding checklist for the service team in Autotask.
+A new client signs up for managed services. Rewst creates the client’s Autotask PSA account, assigns contracts, and configures service templates. It provisions user accounts in Microsoft 365 or Google Workspace via integrated workflows, then triggers an onboarding checklist for the service team in Autotask PSA.
 
 #### Asset and configuration management
 
-A new firewall is deployed, Rewst **creates a configuration item (CI) in Autotask** with details like serial number, warranty date, and network role, then links the CI to the client’s Autotask profile and updates your documentation platform (eg. IT Glue documentation), and schedules warranty renewal reminders in Autotask.
+A new firewall is deployed, Rewst **creates a configuration item (CI) in** Autotask PSA with details like serial number, warranty date, and network role, then links the CI to the client’s Autotask PSA profile and updates your documentation platform (eg. IT Glue documentation), and schedules warranty renewal reminders in Autotask PSA.
 
-## Set up the Datto Autotask integration
+## Set up the Autotask PSA integration
 
-### Set up steps in Datto Autotask
+### Set up steps in Autotask PSA
 
 1. Log into Autotask PSA as an Administrator
 2. Navigate to **Admin > Account Settings & Users.**
@@ -69,15 +69,15 @@ Before saving and closing the API user page, copy the Secret Key and Username . 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. Search for **Datto Autotask** in the integrations page.
+2. Search for Autotask PSA in the integrations page.
 3. Click on the integration tile to launch the configuration setup page.\
    \
    ![](<../../../../../.gitbook/assets/CleanShot 2025-03-18 at 13.42.07.jpg>)
-4. Name the configuration with a definitive name such as `Rewst Autotask integration`.
+4. Name the configuration with a definitive name such as `Rewst Autotask PSA integration`.
 5. Enter the API credentials copied from Datto into the relevant fields:
    1. **Platform**: `https://ww2.autotask.net`
       1. Choose your zone of residence from the drop-down selector.
-      2. This can also be referenced in your Autotask URL.
+      2. This can also be referenced in your Autotask PSA URL.
    2. **Username (Key)**: `APIUser@example.com`
    3. **API User Password**: `[Paste Secret Key]`&#x20;
 6. Click **Save**.&#x20;
@@ -112,7 +112,7 @@ If there are too many customers in the query, you may experience long loading ti
 ## Test the integration
 
 1. Navigate to **Automation > Workflows** in Rewst.
-2. Create a new workflow and name it with something short and descriptive, such as `Test Autotask Integration`.
+2. Create a new workflow and name it with something short and descriptive, such as `Test Autotask PSA Integration`.
 3. Drag and drop the action **List Companies** from the left actions menu to the workflow builder canvas.
 4. Click <img src="../../../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (1).png" alt="" data-size="line"> to add a trigger to your workflow.
 5. Name your trigger whatever you’d like.
@@ -121,7 +121,7 @@ If there are too many customers in the query, you may experience long loading ti
    \
    ![](<../../../../../.gitbook/assets/CleanShot 2025-03-18 at 17.44.00.jpg>)
 8. Set the **Trigger Type** to **Core - Always Pass**.
-9. Click **+** next to **Integration Overrides**. Add **Datto Autotask PSA** as your integration override.\
+9. Click **+** next to **Integration Overrides**. Add **Autotask PSA** as your integration override.\
    \
    ![](<../../../../../.gitbook/assets/CleanShot 2025-03-18 at 17.45.35.jpg>)
 10. In the **Activate Trigger To Run For** section, keep **Selected Organization** toggled on. Toggle **All current and future managed organizations** on, choose just one, or individually select organizations from the **Organizations** drop-down selector.\
@@ -136,21 +136,21 @@ If there are too many customers in the query, you may experience long loading ti
     ![](<../../../../../.gitbook/assets/CleanShot 2025-03-18 at 17.53.50.jpg>)
 16. If the test for your MSP is successful, do the same test again. At this point in your steps, select a client organization instead, and ensure that it finishes with no errors.
 
-## Crates related to the Datto Autotask integration
+## Crates related to the Autotask PSA integration
 
-To see an up-to-date list of Crates that can be unpacked after completing Datto Autotask integration, navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
+To see an up-to-date list of Crates that can be unpacked after completing Autotask PSA integration, navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.33.25 PM.png" alt=""><figcaption></figcaption></figure>
 
-Click **Filter** to expand the filter menu. Enter **Datto Autotask PSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
+Click **Filter** to expand the filter menu. Enter **Autotask PSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
 
 ## Webhook setup for triggers
 
-By default, the Datto Autotask API User system security level does not have permission to create company webhooks. When you configure a trigger in the Rewst platform, you'll receive an error message stating that the webhook could not be created. To resolve this, you'll need to create a new security level by doing the following:
+By default, the Autotask PSA API User system security level does not have permission to create company webhooks. When you configure a trigger in the Rewst platform, you'll receive an error message stating that the webhook could not be created. To resolve this, you'll need to create a new security level by doing the following:
 
-1. Log in to Datto Autotask.
+1. Log in to Autotask PSA.
 2. Navigate to **Admin > Account Settings & Users**.
 3. Click **Security Levels** on the **Resources / Users (HR)** tab.
 4. Find the **API User (system) (API-only)** security level on the context menu.
@@ -165,7 +165,7 @@ By default, the Datto Autotask API User system security level does not have perm
 With this, you should now be able to create webhooks in Rewst. This will happen automatically when you create a trigger such as `Datto - Ticket Record Saved`.
 {% endhint %}
 
-## Troubleshoot the Datto Autotask integration
+## Troubleshoot the Autotask PSA integration
 
 {% hint style="info" %}
 Click on any of the issues below to expand and view the solution. If you issue isn’t included below, please contact Rewst support in your dedicated support Discord channel.
@@ -176,7 +176,7 @@ Click on any of the issues below to expand and view the solution. If you issue i
 <summary>Authentication errors</summary>
 
 * Confirm that your API credentials are entered correctly.
-* Ensure that the Autotask user has the **API User** role.
+* Ensure that the Autotask PSA user has the **API User** role.
 
 </details>
 
@@ -184,7 +184,7 @@ Click on any of the issues below to expand and view the solution. If you issue i
 
 <summary>Missing ticket data</summary>
 
-* Verify the ticket exists in Autotask and matches query filters.
+* Verify the ticket exists in Autotask PSA and matches query filters.
 * Check API permissions for the resource account.
 
 </details>
@@ -193,7 +193,7 @@ Click on any of the issues below to expand and view the solution. If you issue i
 
 <summary>API rate limits</summary>
 
-Autotask enforces API call limits. Use Rewst’s error handling to retry failed requests.
+Autotask PSA enforces API call limits. Use Rewst’s error handling to retry failed requests.
 
 </details>
 
@@ -201,7 +201,7 @@ Autotask enforces API call limits. Use Rewst’s error handling to retry failed 
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
-## Datto Autotask actions and endpoints
+## Autotask PSA actions and endpoints
 
 {% hint style="info" %}
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
