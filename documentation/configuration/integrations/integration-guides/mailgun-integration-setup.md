@@ -1,7 +1,3 @@
----
-description: This document outlines the requirements and setup for the Mailgun integration.
----
-
 # Mailgun integration
 
 {% hint style="info" %}

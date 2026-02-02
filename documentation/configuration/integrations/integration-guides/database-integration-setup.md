@@ -11,6 +11,8 @@ When enabling SQL Database integration and not using[ BYOD](byod-for-dattormm.md
 
 * BOYD: Insert Data Into Database
 * BYOD: Upsert Cache DB Data Listener<br>
+
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ## Set up the integration

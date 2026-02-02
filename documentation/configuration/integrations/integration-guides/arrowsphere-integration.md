@@ -1,5 +1,9 @@
 # ArrowSphere integration
 
+{% hint style="info" %}
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+{% endhint %}
+
 ## **What does the Arrowsphere integration do?**
 
 The ArrowSphere integration enables the automation of ArrowSphere, which is a digital platform that streamlines the procurement, deployment, and management of IT solutions—including cloud services, hardware, software, and professional services—through a unified interface.

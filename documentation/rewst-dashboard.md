@@ -21,7 +21,9 @@ The **Tasks Performed** chart shows all tasks performed in the prior month or we
 The **Time Saved** chart shows the total time saved by using your Rewst automations in the prior month or week for your selected organization.
 
 {% hint style="info" %}
-This estimate is generated from the time saved number entered in your workflow's settings, as well as Rewst's baseline assumption of the manual effort required without automation for prebuilt automations like Crates. An estimate of zero means your estimate was never filled out. To resolve a zero estimate, navigate to the workflow and enter the time saved estimate there.
+This estimate is generated from the time saved number entered in your workflow's settings, as well as Rewst's baseline assumption of the manual effort required without automation for prebuilt automations like Crates. An estimate of zero means your estimate was never filled out. To resolve a zero estimate, navigate to the workflow and enter the time saved estimate there.\
+\
+If you have a workflow that has been running without a time saving value, and you add that value later, your dashboard won't retroactively update to reflect that time savings. Calculation and tracking begins when you add a time savings value.
 {% endhint %}
 
 The **Workflows** menu shows stats for how many workflows in your selected time period were running, as well as how many executions were successful and how many errors were given. The time period selected at the top of your dashboard will determine the time period displayed in the widget.

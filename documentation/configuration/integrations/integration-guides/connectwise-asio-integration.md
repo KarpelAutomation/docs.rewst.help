@@ -1,5 +1,9 @@
 # ConnectWise ASIO integration
 
+{% hint style="info" %}
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+{% endhint %}
+
 ## **What does the ConnectWise ASIO integration do?**
 
 The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to streamline their operations by consolidating the management of diverse tools and products within a single, unified interface.

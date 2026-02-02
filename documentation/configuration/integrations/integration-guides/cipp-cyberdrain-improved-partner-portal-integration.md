@@ -1,5 +1,9 @@
 # CIPP: CyberDrain Improved Partner Portal integration
 
+{% hint style="info" %}
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+{% endhint %}
+
 ## **What does the** CIPP integration **do?**
 
 Our CIPP (CyberDrain Improved Partner Portal) integration enables automation of Microsoft 365 multi-tenant management. Use the CIPP API within Rewst workflows to automate tasks such as add, edit, and delete users, offboard users, change calendar permissions, and manage shared mailboxes.

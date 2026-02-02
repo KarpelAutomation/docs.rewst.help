@@ -36,7 +36,10 @@ This integration enables the automation of VoIP phone systems and communications
    1. **Production -** if you're unsure which environment you have, choose Production
    2. **Sandbox -** this is a rare environment that will only apply to a few users who will know that they use Sandbox
 6. Click **Save Configuration.**
-7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+
+{% hint style="info" %}
+The 1Stream integration does not require you to complete the organization mapping process.
+{% endhint %}
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
