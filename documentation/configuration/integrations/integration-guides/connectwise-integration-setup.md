@@ -112,6 +112,33 @@ Note that this form asks for information about your RMM / M365 settings as well.
 11. Click **connect\_wise\_psa\_list\_companies**.
 12. Expand any list under **Results** to see part of your list of companies.
 
+## Triggers for ConnectWise PSA integration&#x20;
+
+<details>
+
+<summary>Table of triggers</summary>
+
+| Trigger type name            | Type    | Description                                                                     |
+| ---------------------------- | ------- | ------------------------------------------------------------------------------- |
+| Activity Record Saved        | Webhook | Receive notifications when an Activity record is saved in ConnectWise PSA       |
+| Agreement Record Saved       | Webhook | Receive notifications when an Agreement record is saved in ConnectWise PSA      |
+| Company Record Saved         | Webhook | Receive notifications when a Company record is saved in ConnectWise PSA         |
+| Configuration Record Saved   | Webhook | Receive notifications when a Configuration record is saved in ConnectWise PSA   |
+| Contact Record Saved         | Webhook | Receive notifications when a Contact record is saved in ConnectWise PSA         |
+| Expense Record Saved         | Webhook | Receive notifications when an Expense record is saved in ConnectWise PSA        |
+| Invoice Record Saved         | Webhook | Receive notifications when an Invoice record is saved in ConnectWise PSA        |
+| Opportunity Record Saved     | Webhook | Receive notifications when an Opportunity record is saved in ConnectWise PSA    |
+| Product Catalog Record Saved | Webhook | Receive notifications when a Product Catalog record is saved in ConnectWise PSA |
+| Project Record Saved         | Webhook | Receive notifications when a Project record is saved in ConnectWise PSA         |
+| Purchase Order Record Saved  | Webhook | Receive notifications when a Purchase Order record is saved in ConnectWise PSA  |
+| Schedule Entry Record Saved  | Webhook | Receive notifications when a Schedule Entry record is saved in ConnectWise PSA  |
+| Ticket Record Saved          | Webhook | Receive notifications when a Ticket record is saved in ConnectWise PSA          |
+| Time Entry Record Saved      | Webhook | Receive notifications when a Time Entry record is saved in ConnectWise PSA      |
+
+
+
+</details>
+
 ## Actions and endpoints
 
 Click to expand the below table and view all related ConnectWise PSA actions and endpoints.

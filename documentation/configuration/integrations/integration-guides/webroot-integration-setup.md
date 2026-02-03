@@ -70,6 +70,13 @@ Saving your configuration during integration setup automatically triggers a test
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
+## Triggers for OpenText Core Endpoint Protection integration
+
+| Trigger type name            | Type    | Description                                                                         |
+| ---------------------------- | ------- | ----------------------------------------------------------------------------------- |
+| File Detection               | Webhook | Event that is triggered when the WSA client detects a (potentially) malicious file. |
+| Web Threat Shield URL Action |         | Event that is triggered when Web Threat Shield (WTS) acts on a URL.                 |
+
 ## Actions and endpoints
 
 {% hint style="info" %}

@@ -1,10 +1,10 @@
-# Feb 7, 2025: Rewst App Builder updates + live demo of new options filter
+# Feb 5, 2025: Rewst App Builder updates + live demo of new options filter
 
 ### **Join live!**
 
 Join us live biweekly on Wednesdays at 1:30 pm EST! Download the calendar invite below.
 
-{% file src="../../.gitbook/assets/App Builder AMA (1).ics" %}
+{% file src="../../../.gitbook/assets/App Builder AMA (1).ics" %}
 
 ## App Builder AMA video recording
 

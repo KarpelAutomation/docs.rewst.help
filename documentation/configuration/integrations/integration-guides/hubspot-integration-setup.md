@@ -31,6 +31,12 @@ With our HubSpot integration, Rewst can synchronize data between any other integ
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
+## Triggers for HubSpot integration
+
+| Trigger type name | Type    | Description                                                              |
+| ----------------- | ------- | ------------------------------------------------------------------------ |
+| object\_changed   | Webhook | Triggers the workflow on creation, update, or deletion of a HubSpot item |
+
 ## Actions and endpoints
 
 {% hint style="info" %}

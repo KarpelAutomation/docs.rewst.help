@@ -165,6 +165,10 @@ By default, the Autotask PSA API User system security level does not have permis
 With this, you should now be able to create webhooks in Rewst. This will happen automatically when you create a trigger such as `Datto - Ticket Record Saved`.
 {% endhint %}
 
+## Triggers for the Autotask PSA integration
+
+<table><thead><tr><th width="373">Trigger</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>stale_ticket_sensor</td><td>Polling</td><td>Triggers a workflow when a new ticket is created</td></tr><tr><td>Company Webhook</td><td>Webhook</td><td>Creates a webhook enables you to subscribe to notifications for events that take place in Autotask.</td></tr><tr><td>Configuration Item Webhook</td><td>Webhook</td><td>Creates a webhook enables you to subscribe to notifications for events that take place in Autotask.</td></tr><tr><td>Contact Webhook</td><td>Webhook</td><td>Creates a webhook enables you to subscribe to notifications for events that take place in Autotask.</td></tr><tr><td>Ticket Note Webhook</td><td>Webhook</td><td>Creates a webhook enables you to subscribe to notifications for events that take place in Autotask.</td></tr><tr><td>Ticket Webhook</td><td>Webhook</td><td>Creates a webhook enables you to subscribe to notifications for events that take place in Autotask.</td></tr></tbody></table>
+
 ## Troubleshoot the Autotask PSA integration
 
 {% hint style="info" %}

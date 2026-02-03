@@ -38,20 +38,14 @@ Before you begin, ensure you have:
 The Discord integration does not require you to complete the organization mapping process.
 {% endhint %}
 
-## Webhook triggers for the Discord integration
+## Triggers for the Discord integration
 
-Webhook triggers in Rewst's Discord integration are all about making your workflows smarter and more responsive. Here's a straightforward look at what they offer:
-
-* **Automated Command Management**: They handle the heavy lifting of creating and updating application commands based on your configurations.
-* **Custom Interaction Flexibility**: While they automate most processes, there's room for manual customization in interactions, ensuring you get exactly what you need.
-* **Adaptive Workflows**: These triggers stay alert to changes, keeping your workflows in sync with the latest Discord interactions.
-
-### Types of discord integration triggers
-
-* **Slash Command Trigger**: Initiates workflows for specific slash commands in guild channels.
-* **User Command Trigger**: Responds to user commands in guilds.
-* **Message Command Trigger**: Activates workflows for particular message commands in guilds.
-* **Custom Interaction Trigger**: Handles unique interaction events, needing a bit of setup as per Discord's guidelines.
+| Trigger type name  | Type    | Description                                                                                                                                                                                                                            |
+| ------------------ | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Slash Command      | Webhook | Triggers a workflow when a specified slash command is sent to a guild (server) channel                                                                                                                                                 |
+| User Command       | Webhook | Triggers a workflow when a specified user command is activated in a guild (server)                                                                                                                                                     |
+| Message Command    | Webhook | Triggers a workflow when a specified message command is activated in a guild (server)                                                                                                                                                  |
+| Custom Interaction | Webhook | Triggers a workflow for a custom interaction event. The command, modal or message component must be created first. See [Discord API docs](https://discord.com/developers/docs/interactions/application-commands) for more information. |
 
 ### Set up discord integration triggers
 

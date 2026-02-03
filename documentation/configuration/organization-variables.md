@@ -56,9 +56,17 @@ The **Category** drop-down selector holds several options to choose from when cr
 
 ## **Inheritance and overrides**
 
-_Inheritance_: Values set at the parent organization level cascade down, providing a default setup for all client organizations.
+_Inheritance_: Values set at the parent organization level cascade down, providing a default setup for all child organizations.
 
-_Overrides_: Suborganizations can establish their own variables, prioritizing local settings over inherited defaults.
+_Overrides_: Child organizations can establish their own variables, prioritizing local settings over defaults inherited from their parent organization. Overrides don't cascade down to suborganizations of child organizations. They exist just for that one child org where they are set.
+
+For example, consider a scenario where you have three layers of organizations:
+
+**Parent > Child 1 > Child of Child 1**.
+
+If you create a workflow at the parent level and run the workflow via trigger as Child of Child 1, the organization variable value will come from the parent, not the Child 1 organization.&#x20;
+
+<figure><img src="../../.gitbook/assets/Org variable child of child graphic.png" alt=""><figcaption></figcaption></figure>
 
 ## **Org variable usage in workflows**
 

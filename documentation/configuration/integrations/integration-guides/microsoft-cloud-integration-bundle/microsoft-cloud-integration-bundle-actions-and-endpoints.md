@@ -85,6 +85,19 @@
 | **Users**                        | Send Mail as Impersonated User    | Send an e-mail impersonating a user within your M365 tenant                                                                                                  |
 | **Users**                        | Invalidate Sign In Sessions       | Invalidate all sign in sessions of the selected user                                                                                                         |
 
+## Microsoft Graph triggers
+
+| Trigger type name                                 | Type    | Description                                                                                 |
+| ------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------- |
+| Chat Message Subscription                         | Webhook | Subscribe to chat messages in all chats                                                     |
+| Chat Message Subscription by Chat ID              | Webhook | Subscribe to changes to chat messages in a specific chat                                    |
+| Email Message Change Subscription                 | Webhook | Subscribe to changes for a user's email messages. Does not allow specifying mailbox folder. |
+| Group Change Subscription                         | Webhook | Subscribe to changes to all groups                                                          |
+| Security Alert Subscription                       | Webhook | Subscribe to changes to all groups                                                          |
+| Teams Message Subscription                        | Webhook | Subscribe to chat messages in all channels in all teams                                     |
+| Teams Message Subscription by Team and Channel ID | Webhook | Subscribe to changes to chat messages in a specific channel                                 |
+| User Change Subscription                          | Webhook | Subscribe to changes to all users                                                           |
+
 ## Microsoft Cloud Solution Provider (CSP) actions
 
 | Category                | Action                                | Description                                                                    |

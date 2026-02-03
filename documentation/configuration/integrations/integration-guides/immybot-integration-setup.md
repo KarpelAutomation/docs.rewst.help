@@ -45,6 +45,12 @@ Please refer to [ImmyBot's Documentation](https://docs.immy.bot/azure-graph-perm
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
+## Triggers for ImmyBot integration
+
+| Trigger type name     | Type    | Description                                                         |
+| --------------------- | ------- | ------------------------------------------------------------------- |
+| New Computer Detected | Polling | Triggers when new computer is found that has not yet been onboarded |
+
 ## Actions and endpoints
 
 {% hint style="info" %}

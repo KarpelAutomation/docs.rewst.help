@@ -453,7 +453,7 @@ When this trigger kicks off, it provides the following data in `triggering_user_
 
 ## Other triggers
 
-While these six triggers cover the most common use cases, Rewst offers additional triggers tailored to different automation needs. Explore the available triggers in the trigger type list to find the best fit for your specific processes. Try asking [RoboRewsty](../../rewst-tools/roborewsty.md) what each integration-specific trigger does to learn more about how it can be used, or read more about included triggers on each integration's info page in this site.
+Rewst offers additional triggers for some of our integrations tailored to different automation needs. Explore the available triggers in the trigger type list to find the best fit for your specific processes. Try asking [RoboRewsty](../../rewst-tools/roborewsty.md) what each integration-specific trigger does to learn more about how it can be used, or read more about included triggers on each integration's info page in this site.
 
 <figure><img src="../../../.gitbook/assets/trigger drop-down gif.gif" alt="A moving GIF image depicting scrolling through the trigger type list in an example organization in Rewst. Various integrations&#x27; actions are shown."><figcaption><p>The contents of the complete trigger type list will depend on your particular integrations</p></figcaption></figure>
 

@@ -138,6 +138,15 @@ To be able to utilize Rewst with least privilege you will need to configure a ne
 | Alerts             | Clear      |
 | Scheduled Scripts  | Delete     |
 
+## Triggers for ConnectWise Automate integration&#x20;
+
+| Trigger type name       | Type    | Description                               |
+| ----------------------- | ------- | ----------------------------------------- |
+| Detect Script Execution | Polling | Triggers when a script is running         |
+| New Computer            | Polling | Triggers when a new computer is added     |
+| New Event Log           | Polling | Triggers when a new event log is detected |
+| New Running Script      | Polling | Triggers when a script is running         |
+
 ## Actions and endpoints
 
 {% hint style="info" %}

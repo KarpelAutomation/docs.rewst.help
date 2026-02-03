@@ -10,28 +10,17 @@ Our HaloPSA integration provides automation and workflow capabilities by connect
 
 ### Why use the HaloPSA integration?
 
-#### **Automated ticket handling**&#x20;
-
-A new support ticket is submitted in HaloPSA. A Rewst workflow can automatically classify the ticket, assign it to the correct team based on predefined criteria, and send an acknowledgment email to the customer.
-
-#### **Asset management and tracking**
-
-When a new asset is assigned to a client, update inventory records. Rewst can capture the asset details and update HaloPSA records, ensuring real-time inventory tracking.
-
-#### **Client onboarding automation**
-
-A new client signs a contract for IT services. Rewst can automatically create the client profile, set up relevant permissions, and initiate onboarding tasks.
-
-
-
-## Integration prerequisites
-
-* Access to the Rewst platform with administrative rights
-* You must have a Halo administrator account.
+* A new support ticket is submitted in HaloPSA. A Rewst workflow can automatically classify the ticket, assign it to the correct team based on predefined criteria, and send an acknowledgment email to the customer.
+* When a new asset is assigned to a client, update inventory records. Rewst can capture the asset details and update HaloPSA records, ensuring real-time inventory tracking.
+* A new client signs a contract for IT services. Rewst can automatically create the client profile, set up relevant permissions, and initiate onboarding tasks.
 
 ## Set up the HaloPSA Integration
 
 ### Set up steps in HaloPSA
+
+{% hint style="warning" %}
+To set up the integration, you must have a Halo administrator account.
+{% endhint %}
 
 Before configuring the Rewst integration you must generate an API user. Here is the instruction for the generation of the integration user:
 
@@ -150,6 +139,12 @@ To see an up-to-date list of Crates that can be unpacked after completing HaloPS
 Click **Filter** to expand the filter menu. Enter **HaloPSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
+
+## Triggers for HaloPSA integration
+
+| Trigger type name | Type    | Description                                                                                    |
+| ----------------- | ------- | ---------------------------------------------------------------------------------------------- |
+| New Ticket Record | Polling | Trigger which returns an object containing the count of tickets, and an array of ticket object |
 
 ## Troubleshoot HaloPSA integration setup
 

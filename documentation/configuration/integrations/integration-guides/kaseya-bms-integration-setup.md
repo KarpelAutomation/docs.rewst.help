@@ -23,11 +23,11 @@ Our Kaseya BMS integration enables the automation of ticket creation, updates, a
 * Create Ticket Time Entries, eliminating manual data entry, ensuring accurate time tracking, improving billing efficiency, and enhancing SLA compliance—boosting productivity while reducing human error.
 * Import all PSA customers into Rewst, streamlining initial setup and saving valuable time.
 
-## Integration prerequisites
-
-Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to create a regular user account, as Kaseya doesn't allow OTP Tokens to be generated on API users.
-
 ## Set up the Kaseya BMS integration
+
+{% hint style="warning" %}
+Rewst requires an OTP token to access the Kaseya BMS API. You’ll need to create a regular user account, as Kaseya doesn't allow OTP Tokens to be generated on API users.
+{% endhint %}
 
 ### Set up steps in Kaseya BMS
 
@@ -120,6 +120,12 @@ Click **Filter** to expand the filter menu. Enter **Kaseya BMS** into the **Inte
 {% hint style="info" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
+
+## Triggers for Kaseya BMS integration
+
+| Trigger type name | Type    | Description                                                                                     |
+| ----------------- | ------- | ----------------------------------------------------------------------------------------------- |
+| New Ticket Record | Polling | Trigger which returns an object containing the count of tickets, and an array of ticket objects |
 
 ## Kaseya BMS actions and endpoints
 

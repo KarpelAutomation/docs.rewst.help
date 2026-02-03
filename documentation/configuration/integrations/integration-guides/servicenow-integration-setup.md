@@ -51,6 +51,12 @@ Before you complete integration setup, you'll need to obtain a developer instanc
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
+## Triggers for ServiceNow integration
+
+| Trigger type name | Type    | Description                                                     |
+| ----------------- | ------- | --------------------------------------------------------------- |
+| New Table Record  | Polling | Trigger which returns an object containing the database records |
+
 ## Actions and endpoints
 
 {% hint style="info" %}

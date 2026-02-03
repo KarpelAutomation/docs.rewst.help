@@ -28,6 +28,12 @@ The Slack integration does not require you to complete the organization mapping 
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
+## Triggers for Slack integration
+
+| Trigger type name | Type    | Description                                              |
+| ----------------- | ------- | -------------------------------------------------------- |
+| object\_changed   | Webhook | Fires on creation, update, or deletion of a hubspot item |
+
 ## Actions and endpoints
 
 {% hint style="info" %}

@@ -4,7 +4,7 @@
 
 Join us live biweekly on Wednesdays at 1:30 pm EST! Download the calendar invite below.
 
-{% file src="../../.gitbook/assets/App Builder AMA (1).ics" %}
+{% file src="../../../.gitbook/assets/App Builder AMA (1).ics" %}
 
 
 

@@ -90,6 +90,12 @@ Saving your configuration during integration setup automatically triggers a test
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
+## Triggers for SuperOps integration
+
+| Trigger type name | Type    | Description                                                                                     |
+| ----------------- | ------- | ----------------------------------------------------------------------------------------------- |
+| New Ticket Record | Polling | Trigger which returns an object containing the count of tickets, and an array of ticket objects |
+
 ## SuperOps actions and endpoints
 
 {% hint style="info" %}

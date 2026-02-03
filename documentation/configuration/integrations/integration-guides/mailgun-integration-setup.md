@@ -40,6 +40,12 @@ The Mailgun integration does not require you to complete the organization mappin
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
+## Triggers for Mailgun integration
+
+| Trigger type name         | Type    | Description                                 |
+| ------------------------- | ------- | ------------------------------------------- |
+| mailgun\_event\_generated | Polling | Trigger which indicates a new mailgun event |
+
 ## Actions and endpoints
 
 {% hint style="info" %}
