@@ -67,7 +67,7 @@ For more information on option generators, refer to [Rewst Foundations](https://
 
 <summary>Core - App Platform</summary>
 
-This trigger functions the same as Core - Always Pass, but can be used to clearly label that the trigger should be used for Rewst's [App Builder](../../app-builder/).&#x20;
+This trigger functions the same as Core - Always Pass. By using this trigger type, you create a clear indication that the intended use case is for Rewst's [App Builder](../../app-builder/). Note that it is only useful in locations where you can select a trigger— Data Tables and Charts.&#x20;
 
 </details>
 
