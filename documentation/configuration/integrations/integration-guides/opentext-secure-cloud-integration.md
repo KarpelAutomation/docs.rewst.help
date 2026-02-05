@@ -50,18 +50,18 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
 {% endhint %}
 
-| Category            | Action                           | Description                                                                           |
-| ------------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
-| **Customers**       | List Customers                   | Lists all customers                                                                   |
-| **Customers**       | Get Customer                     | Returns details for a specified customer                                              |
-| **Customers**       | Create Customer User             | Creates a user for a specified customer                                               |
-| **Customers**       | Get Customer User                | Returns details for a specified customer user                                         |
-| **Customers**       | Update Customer User             | Updates a user for a specified customer                                               |
-| **Customers**       | List Customer Users              | List Users for a specified customer                                                   |
-| **Customers**       | List User Services               | List User Services for a specified customer                                           |
-| **Generic Request** | OpenText SecureCloud API Request | Generic action for making authenticated requests against the OpenText SecureCloud API |
-| **Customers**       | Get Customer Services            | Provides a list of all services associated with a customer.                           |
-| **Customers**       | Get Customer Subscriptions       | Provides a list of all subscriptions associated with an end customer.                 |
-| **Customers**       | Get Subscription                 | Returns details for a specific subscription.                                          |
-| **Customers**       | Patch Subscription               | Updates subscription data for a given subscription key.                               |
-|                     |                                  |                                                                                       |
+| Category            | Action                           | Description                                                                                                    |
+| ------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Customers**       | List Customers                   | Lists all customers                                                                                            |
+| **Customers**       | Get Customer                     | Returns details for a specified customer                                                                       |
+| **Customers**       | Create Customer User             | Creates a user for a specified customer                                                                        |
+| **Customers**       | Get Customer User                | Returns details for a specified customer user                                                                  |
+| **Customers**       | Update Customer User             | Updates a user for a specified customer - update allows for purchasing additional licenses for an existing sub |
+| **Customers**       | List Customer Users              | List Users for a specified customer                                                                            |
+| **Customers**       | List User Services               | List User Services for a specified customer                                                                    |
+| **Generic Request** | OpenText SecureCloud API Request | Generic action for making authenticated requests against the OpenText SecureCloud API                          |
+| **Customers**       | Get Customer Services            | Provides a list of all services associated with a customer.                                                    |
+| **Customers**       | Get Customer Subscriptions       | Provides a list of all subscriptions associated with an end customer.                                          |
+| **Customers**       | Get Subscription                 | Returns details for a specific subscription.                                                                   |
+| **Customers**       | Patch Subscription               | Updates subscription data for a given subscription key.                                                        |
+|                     |                                  |                                                                                                                |

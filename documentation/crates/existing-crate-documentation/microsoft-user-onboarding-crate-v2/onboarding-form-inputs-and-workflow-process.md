@@ -134,6 +134,13 @@ Choose the **Secure Cloud User Location** from the drop-down selector, and at le
 
 <figure><img src="../../../../.gitbook/assets/four new fields.png" alt="Form interface displaying four dropdown fields for configuring secure cloud settings. The fields are labeled “Secure Cloud User Location,” “Secure Cloud Microsoft Services,” “Secure Cloud Security Services,” and “Secure Cloud Exchange Services.” Each field includes a note prompting the user to select the required Microsoft or Secured Cloud services and features a circular turquoise refresh icon to the right. The background is dark with white text." width="341"><figcaption></figcaption></figure>
 
+### **Assign licenses from multiple subscriptions to a single user**
+
+In the form, you have the ability to select more than one license, but may only select one subscription. This is intentional for the workflow to properly run. Allowing multiple subscriptions to be selected at once would complicate the logic to properly adjust subsciption counts. To assign licenses from multiple subscriptions to a single user, instead:
+
+1. Complete the onboarding with one single subscriptions selected.
+2. Manually add additional licenses from other subscriptions after the user is created.
+
 ## **Decoded advanced Jinja conditions**
 
 In some cases, form fields are dynamically determined using complex Jinja logic.

@@ -55,7 +55,7 @@ The following integrations must be set up before unpacking this Crate:
 2. Search for `[ROC] ConnectWise Manage - Duo Agreement Mapping - Set Org Variables.`&#x20;
 3.  Click on the workflow to view it in the Workflow Builder.<br>
 
-    <figure><img src="../../../.gitbook/assets/image (328).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (328) (1).png" alt=""><figcaption></figcaption></figure>
 4. &#x20;Click ![](<../../../.gitbook/assets/image (201).png>).&#x20;
 5. Click **View Direct URLs**.
 6.  Copy the form URL and paste it in a different browser window.<br>

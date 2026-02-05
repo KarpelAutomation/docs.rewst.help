@@ -1,9 +1,9 @@
 # Custom integrations: V1
 
 {% hint style="info" %}
-Note that this is V1 of our custom integrations feature. Customers who have installed V2 of custom integrations or newer customers who only need documentation for our newer V2 of custom integrations may find that setup documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations/custom-integrations-v2).  V1 of custom integrations is deprecated and should no longer be used. Documentation for V1 remains to assist existing customers with the migration to the V2 method. If you have questions about migrating from V1 to V2, please reach out to [ROC support](../../../../support-and-community/roc-support/).&#x20;
+Note that this is V1 of our custom integrations feature. Customers who have installed V2 of custom integrations or newer customers who only need documentation for our newer V2 of custom integrations may find that setup documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations/custom-integrations-v2).  V1 of custom integrations is deprecated and should no longer be used. Documentation for V1 remains to assist existing customers with the migration to the V2 method. If you have questions about migrating from V1 to V2, please reach out to [Rewst support](../../../../support-and-community/roc-support/).&#x20;
 
-Custom integrations can only be enabled by users with the Rewst Admin role.&#x20;
+Custom integrations can only be enabled by users with the Rewst Admin role. Organization mapping is not available for V1 of custom integrations.
 {% endhint %}
 
 This guide provides an overview of how to configure custom integrations within our platform. Custom integrations allow you to connect with a wide range of REST APIs that are not currently supported by our official integration offerings.
@@ -85,7 +85,7 @@ If the connection attempt was successful you will see the following:
 
 ### Usage in Workflow Builder
 
-Once your custom integration is set up, you can use it in your workflows and tasks using the `Custom API Request` action. You select which custom integration configuration to use for a workflow using `Integration Overrides`, which is covered in more detail in the Integration Multitenancy page at the top.
+Once your custom integration is set up, you can use it in your workflows and tasks using the `Custom API Request` action. You select which custom integration configuration to use for a workflow using `Integration Overrides`, which is covered in more detail in our documentation on [multi-instance](../multi-instance-integration/) integration.
 
 <figure><img src="../../../../.gitbook/assets/custom-integrations-action.png" alt=""><figcaption></figcaption></figure>
 

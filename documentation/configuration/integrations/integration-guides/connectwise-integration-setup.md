@@ -911,6 +911,10 @@ Different conditions serve different purposes. Mastering these conditions enable
 
 ## Troubleshoot API issues from ConnectWise logs
 
+{% hint style="info" %}
+It may be necessary to collect API logs from your ConnectWise PSA to send to ConnectWise for troubleshooting, if you encounter issues. The below steps will generate a log for the specific time window you choose.
+{% endhint %}
+
 1. Log in to ConnectWise PSA.
 2. Navigate to **System > Members**.
 3. Click **API Members**. Here, you'll find settings specific to API interactions and configurations.
@@ -933,9 +937,7 @@ Different conditions serve different purposes. Mastering these conditions enable
 
 <figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-7. Replicate the issue or process you are troubleshooting
-8. Return to the **API Logs** tab.
-9. Click **Download Logs**. Once downloaded, you can review these logs, and send them to Rewst support for troubleshooting assistance.
+
 
 ## Crates related to the ConnectWise PSA integration
 
