@@ -18,6 +18,7 @@ The Crate starts by listing all devices in the RMM. Each device then undergoes a
 * Optionally, you could integrate your RMM with Rewst, which would allow for problem reporting capabilities. RMM types compatible with this Crate are:
   * [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
   * [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
+  * [ConnectWise ASIO](../../configuration/integrations/integration-guides/connectwise-asio-integration.md)
   * [Ninja One RMM](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
   * [Immybot](../../configuration/integrations/integration-guides/immybot-integration-setup.md)
   * [Kaseya VSA](../../configuration/integrations/integration-guides/kaseya-vsa-integration-setup.md)

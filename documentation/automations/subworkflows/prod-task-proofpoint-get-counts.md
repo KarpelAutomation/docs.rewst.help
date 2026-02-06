@@ -1,12 +1,14 @@
 # \[PROD - TASK] Proofpoint: Get Counts
 
-This workflow serves as a foundational building block that queries and retrieves organization count data from Proofpoint's email security platform, enabling MSPs to programmatically access client protection metrics for use in larger automation processes like reporting or security audits. It's particularly valuable for MSPs managing multiple clients' email security postures, supporting scenarios such as automated security reporting, license management verification, and identifying gaps in protection across client environments. Technically, the workflow operates by connecting to the Proofpoint API, retrieving organization data using the "proofpoint.get\_organization" action which lists all sub-organizations for a specified domain, then processes this data to extract relevant count information while incorporating error handling for reliability. This automation component eliminates manual data collection steps for technical staff and can feed directly into client-facing security reports, RMM dashboards, or PSA ticketing systems to maintain consistent email security monitoring across the MSP's client base.
+This workflow is a core building block that pulls organization count data from Proofpoint’s email security platform. It allows MSPs to programmatically access client protection metrics and use them in larger automations like reporting and security audits. It’s especially useful for MSPs managing multiple clients, supporting use cases such as automated security reporting, license verification, and spotting gaps in protection across environments.
+
+Technically, the workflow connects to the Proofpoint API, uses the `proofpoint.get_organization` action to list sub-organizations for a domain, then processes the results to extract the needed count data with built-in error handling for reliability. This removes the need for manual data collection and can feed directly into client reports, RMM dashboards, or PSA ticketing systems to support consistent email security monitoring across all managed clients.
 
 This workflow contains 7 tasks.
 
 ### Inputs
 
-This sub workflow has no inputs.
+This subworkflow has no inputs.
 
 ### Outputs
 

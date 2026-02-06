@@ -26,8 +26,3 @@ Rewst's support team is always here to help in any way we can. Reach us via the 
 * **Create a Ticket** - [E-mail the team](mailto:support@rewst.io) and someone will be in touch ASAP
 * **Self service portal -** [https://service.rewst.io/portal](https://service.rewst.io/portal)
 
-**Support leadership:**
-
-* [James Rood](mailto:James.Rood@rewst.io) - @JamsRud - Support Director
-* [Lu Richmond](mailto:lucretia.richmond@rewst.io) - @lucretiarichmond - Support Pod Manager
-* [Grant Werner](mailto:grant.werner@rewst.io) - @grantwerner\_61609 - Support Pod Manager

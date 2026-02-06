@@ -213,7 +213,8 @@ Before unpacking the Microsoft: User Onboarding Crate, make sure that the follow
 * [PSA Integration](https://docs.rewst.help/documentation/integrations/psa) must be setup. This is required for automated ticket creation and ticket updates. This is optional.
 * [Documentation Integrations](https://docs.rewst.help/documentation/integrations/documentation) must be set up if you wish to create documentation in your knowledge base. This is optional.
 * [Licensing integrations](https://docs.rewst.help/documentation/integrations/licensing) should be completed if you wish to set up automated license purchases. Configure Pax8, Ingram Micro, Sherweb, or Synnex. This is optional.
-* [OpenText SecureCloud](../../../configuration/integrations/integration-guides/opentext-secure-cloud-integration.md) must be integrated with Rewst if you wish to use OpenText SecureCloud with this Crate.&#x20;
+* [OpenText SecureCloud](../../../configuration/integrations/integration-guides/opentext-secure-cloud-integration.md) must be integrated with Rewst if you wish to use OpenText SecureCloud with this Crate. This is optional.
+* [ArrowSphere](../../../configuration/integrations/integration-guides/arrowsphere-integration.md) must be integrated with Rewst if you wish to use this Crate for user license purchasing. This is optional.
 
 ### Overview of required context variables and organizational variables
 
@@ -321,6 +322,7 @@ Expand each of the categories below to see that type of CTX variable's reference
 | `CTX.ad_security_groups`       | Lists on-premises AD security group assignments.            |
 | `CTX.m365_distribution_groups` | Defines Microsoft 365 distribution groups assigned.         |
 | `CTX.shared_mailboxes`         | Tracks shared mailbox permissions.                          |
+|                                |                                                             |
 
 </details>
 
@@ -370,10 +372,11 @@ Expand each of the categories below to see that type of org variable's reference
 
 
 
-| **ORG.VARIABLES**                         | **Purpose**                                                                  |
-| ----------------------------------------- | ---------------------------------------------------------------------------- |
-| `ms_licensing_distributor`                | Selects the default Microsoft 365 license distributor (Pax8, Sherweb, etc.). |
-| `auto_purchase_license_if_none_available` | Enables auto-purchase of Microsoft 365 licenses when unavailable.            |
+| **ORG.VARIABLES**                         | **Purpose**                                                                                                                       |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `ms_licensing_distributor`                | <p>Selects the default Microsoft 365 license distributor (Pax8, Sherweb, etc.).<br>For ArrowSphere, set to <code>Arrow</code></p> |
+| `auto_purchase_license_if_none_available` | Enables auto-purchase of Microsoft 365 licenses when unavailable.                                                                 |
+|                                           |                                                                                                                                   |
 
 </details>
 

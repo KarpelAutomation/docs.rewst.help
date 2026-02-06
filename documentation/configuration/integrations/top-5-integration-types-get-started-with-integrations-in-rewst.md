@@ -82,6 +82,10 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 [connectwise-control-screenconnect.md](integration-guides/connectwise-control-screenconnect.md)
 {% endcontent-ref %}
 
+{% content-ref url="integration-guides/connectwise-asio-integration.md" %}
+[connectwise-asio-integration.md](integration-guides/connectwise-asio-integration.md)
+{% endcontent-ref %}
+
 {% content-ref url="integration-guides/datto-rmm-integration-setup.md" %}
 [datto-rmm-integration-setup.md](integration-guides/datto-rmm-integration-setup.md)
 {% endcontent-ref %}
@@ -109,6 +113,8 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 {% content-ref url="integration-guides/ninjaone-integration-setup.md" %}
 [ninjaone-integration-setup.md](integration-guides/ninjaone-integration-setup.md)
 {% endcontent-ref %}
+
+
 
 ### Crates to optionally unpack after integrating your RMM
 

@@ -6,7 +6,7 @@ This workflow contains 7 tasks.
 
 ### Inputs
 
-This sub workflow has no inputs.
+This subworkflow has no inputs.
 
 ### Outputs
 

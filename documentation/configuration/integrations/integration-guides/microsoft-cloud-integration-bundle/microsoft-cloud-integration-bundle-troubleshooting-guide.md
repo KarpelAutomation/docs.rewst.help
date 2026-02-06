@@ -538,3 +538,10 @@ For child organization
 
 </details>
 
+<details>
+
+<summary>Issue: User used to authorize integrations does not have Exchange Admin role</summary>
+
+If there are limited mailboxes returned by `Get_Mailbox` when using the Exchange Online integration, this likely means that the user that authorized the integration bundle has not been granted proper permissions. The user must have the Exchange Administrator role. For more on the specifics of this role, please see Microsoft’s own documentation [here](https://learn.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2?view=exchange-ps#assign-microsoft-entra-roles-to-the-application).
+
+</details>

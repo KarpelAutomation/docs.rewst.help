@@ -58,7 +58,8 @@ If choosing to deliver the report via PSA ticket, you'll also need to set up you
 If choosing to use any of the following tools with this Crate, they must first be successfully integrated with Rewst before unpacking.
 
 * [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
-* [Connectwise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
+* [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
+* [ConnectWise ASIO](../../configuration/integrations/integration-guides/connectwise-asio-integration.md)
 * [NinjaOne](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
 * [Microsoft 365 licensing](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/)
 * [Huntress](../../configuration/integrations/integration-guides/huntress-integration-setup.md)
