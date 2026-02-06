@@ -647,12 +647,30 @@ _Pods_ are a way to customize each of your screens in ConnectWise with relevant 
 
 During pod configuration, you'll need to update your Rewst base URL to match your geographic Rewst instance. This will vary depending on which Rewst instance you are on. Identify your instance by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst base URL
 
-### Configure ConnectWise pods
+| <p><br>Rewst URL</p> | Base URL           |
+| -------------------- | ------------------ |
+| app.rewst.io         | engine.rewst.io    |
+| app.eu.rewst.io      | engine.eu.rewst.io |
+| app.rewst.eu         | engine.rewst.eu    |
+| app.rewst.asia       | engine.rewst.asia  |
+
+### Configure ConnectWise pods <a href="#configure-connectwise-pods" id="configure-connectwise-pods"></a>
+
+1. Login to ConnectWise PSA as a user that has access to the setup tables. This is likely an admin account.
+2. Click **System** on the bottom left of the ConnectWise PSA UI.
+3. Click the **Setup Tables** menu that appears.
+4. Enter `*api` in the table filter. Your returned result should be **Manage Hosted API**.
+5. Click **Add** and use the below settings:
+   1. **Description** - Enter **Rewst**
+   2. **Screen** - For our example, we use **Service Tickets**
+   3. **Origin** - `<rewst_url>` Note that you'll need to update this origin URL to match your Rewst instance. Determine your instance by referencing the instance table above.
+   4. **URL** - `https://<result_url>/organizations/<org_id>/integrations/embed/ticket/[cw_id]` Note that you'll need to update this URL to match your Rewst instance. Determine your instance by referencing the included instance table. You'll also need to add your own `org_id`to the URL. This can be obtained by going to your Rewst platform, looking at the URL, locating the org id between the / marks, and pasting it into the URL. `[cw_id]`should be left as-is.
+6. Select **Pod**.
 
 {% hint style="warning" %}
 Update the URL
 
-You will need to add your own `org_id`to the URL above. This can be obtained by going to Rewst and looking at the URL. `[cw_id]`should be left as-is.
+You will need to add your own `rewst_url` and `org_id` to the URL above. Your Org ID can be obtained by going to Rewst and looking at the URL. `[cw_id]`should be left as-is.
 {% endhint %}
 
 ### Add pods to tickets

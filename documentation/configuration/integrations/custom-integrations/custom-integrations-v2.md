@@ -76,7 +76,7 @@ Custom integrations can only be enabled by users with the Rewst Admin role.&#x20
 <figure><img src="../../../../.gitbook/assets/custom-integrations-step4.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Note that Rewst will automatically convert Swagger, which meets OpenAPI 2.0 standards, to OpenAPI 3.0, if necessary. Then, Rewst will validate the API specification using the vacuum linting tool. Currently, only JSON files are accepted, not YAML. This conversion does not negate your need to clean Swagger files before import.
+Note that Rewst will automatically convert Swagger, which meets OpenAPI 2.0 standards, to OpenAPI 3.0, if necessary. Then, Rewst will validate the API specification using the vacuum linting tool. If your file is compliant YAML, Rewst will convert it to JSON. This conversion does not negate your need to clean Swagger files before import.
 {% endhint %}
 
 ## Set up your custom integration
@@ -103,7 +103,7 @@ Examples of OpenAPI files for common custom integrations
 
 [Syncro](https://api-docs.syncromsp.com/swagger.json)
 
-[Altera](https://docs.altera.co/openapi/quickstart?utm_source=chatgpt.com)
+[Altera](https://docs.altera.co/openapi/quickstart)
 {% endhint %}
 
 ### To build a new custom integration from the beginning
