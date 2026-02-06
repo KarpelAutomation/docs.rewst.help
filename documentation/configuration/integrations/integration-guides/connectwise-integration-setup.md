@@ -35,12 +35,12 @@ You'll need an active ConnectWise Developer account to access the above URL.
    2.  Click **+** in the top left of your screen.<br>
 
        <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-16 at 12.53.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
-   3. Name the security Role `Rewst API`. &#x20;
+   3. Name the security Role `Rewst API`.
    4. Click **save**.
    5. Set your permissions as per the [#permission-requirements-for-connectwise-psa-integration](connectwise-integration-setup.md#permission-requirements-for-connectwise-psa-integration "mention") section of this document.
 2. Create an API account.
-   1. This can be done by following [ConnectWise's own instructions](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FManage%2FDeveloper_Guide%2FAuthentication#tab=login).&#x20;
-   2. Note that you'll need to be signed in to ConnectWise PSA to view the documentation.&#x20;
+   1. This can be done by following [ConnectWise's own instructions](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FManage%2FDeveloper_Guide%2FAuthentication#tab=login).
+   2. Note that you'll need to be signed in to ConnectWise PSA to view the documentation.
 3. Create an API member.
    1. Navigate to **System > Members > API Members**.
    2.  Click **+** to create a new API member.<br>
@@ -65,19 +65,19 @@ You'll need an active ConnectWise Developer account to access the above URL.
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. In the integrations page, search for `ConnectWise PSA`. \
+2. In the integrations page, search for `ConnectWise PSA`.\
    \
    ![](<../../../../.gitbook/assets/Screenshot 2025-02-11 at 6.01.15 PM.png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. In the **Configuration** form, enter the following into the relevant fields:
-   1. The copied **API Member ID**&#x20;
+   1. The copied **API Member ID**
    2. The **company ID** used when logging into ConnectWise PSA
    3. The **Hostname** for ConnectWise PSA
    4. The private and public API key.
       1. Optionally, change the company query conditions to filter what companies are returned by the API.
-   5. Add your own **client ID** - this is optional, but recommended. Instructions for how to find the client ID can be found [here](https://www.youtube.com/watch?v=4ZZMM-ERFf0).&#x20;
+   5. Add your own **client ID** - this is optional, but recommended. Instructions for how to find the client ID can be found [here](https://www.youtube.com/watch?v=4ZZMM-ERFf0).
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-11 at 11.28.24 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -112,7 +112,7 @@ Note that this form asks for information about your RMM / M365 settings as well.
 11. Click **connect\_wise\_psa\_list\_companies**.
 12. Expand any list under **Results** to see part of your list of companies.
 
-## Triggers for ConnectWise PSA integration&#x20;
+## Triggers for ConnectWise PSA integration
 
 <details>
 
@@ -134,8 +134,6 @@ Note that this form asks for information about your RMM / M365 settings as well.
 | Schedule Entry Record Saved  | Webhook | Receive notifications when a Schedule Entry record is saved in ConnectWise PSA  |
 | Ticket Record Saved          | Webhook | Receive notifications when a Ticket record is saved in ConnectWise PSA          |
 | Time Entry Record Saved      | Webhook | Receive notifications when a Time Entry record is saved in ConnectWise PSA      |
-
-
 
 </details>
 
@@ -649,28 +647,7 @@ _Pods_ are a way to customize each of your screens in ConnectWise with relevant 
 
 During pod configuration, you'll need to update your Rewst base URL to match your geographic Rewst instance. This will vary depending on which Rewst instance you are on. Identify your instance by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst base URL
 
-| Rewst URL        | Base URL            |
-| ---------------- | ------------------- |
-| app.rewst.io     | engine.rewst.io     |
-| app.pdx.rewst.io | engine.pdx.rewst.io |
-| app.eu.rewst.io  | engine.eu.rewst.io  |
-| app.rewst.eu     | engine.rewst.eu     |
-| app.rewst.asia   | engine.rewst.asia   |
-
 ### Configure ConnectWise pods
-
-1. Login to ConnectWise PSA as a user that has access to the setup tables. This is likely an admin account.
-2. Click the **System** icon on the bottom left of the ConnectWise PSA UI.
-3. Click on the **Setup Tables** menu that appears.
-4. Enter `*api` in the table filter. Your returned result should be **Manage Hosted API**.
-5. Click **Add** and use the below settings:
-   1. **Description** - Enter **Rewst**
-   2. **Screen** - For our example, we use **Service Tickets**
-   3. **Origin** - [https://app.rewst.io](https://app.rewst.io)\
-      Note that you'll need to update this origin URL to match your Rewst instance. Determine your instance by referencing the included instance table.
-   4. **URL** - `https://app.rewst.io/organizations/<org_id>/integrations/embed/ticket/[cw_id]`\
-      Note that you'll need to update this URL to match your Rewst instance. Determine your instance by referencing the included instance table. You'll also need to add your own `org_id`to the URL. This can be obtained by going to your Rewst platform, looking at the URL, locating the org id between the / marks, and pasting it into the URL below. `[cw_id]`should be left as-is.
-6. Select **Pod**.
 
 {% hint style="warning" %}
 Update the URL
@@ -703,7 +680,7 @@ You'll have a workflow called `[Rewst Master v3] Pods: Technician Toolbox` withi
 
 ### Re-run a pod from a ticket
 
-Let's imagine you have a ticket that has had its associated pod workflow execution expire (or fail for one reason or another). If you attempt to view the pod in the ticket you'll see something along the lines of:&#x20;
+Let's imagine you have a ticket that has had its associated pod workflow execution expire (or fail for one reason or another). If you attempt to view the pod in the ticket you'll see something along the lines of:
 
 <figure><img src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/7ce5ce24-e338-41a2-99d2-9db4effd218a" alt=""><figcaption></figcaption></figure>
 
@@ -723,7 +700,7 @@ Our listed ConnectWise PSA permission requirements are what is needed for Rewst'
 
 Update any of the below permissions scopes in ConnectWise PSA by doing the following in ConnectWise PSA:
 
-1. Click **>** in the left side menu.&#x20;
+1. Click **>** in the left side menu.
 2. Navigate to **System > Security Roles**.
 3. Click **+**.
 4. Enter the name of your security role.
@@ -742,16 +719,16 @@ Click to expand and view your relevant permission scopes.
 
 To initiate the successful authentication of the ConnectWise PSA integration with Rewst, and pull back the list of companies you want to associate, the following permission scopes are needed:
 
-System&#x20;
+System
 
-* &#x20;Member Maintenance: Set **Inquire** to **All**
+* Member Maintenance: Set **Inquire** to **All**
 
-Companies&#x20;
+Companies
 
-* Company Maintenance: Set **Inquire** to **All**&#x20;
+* Company Maintenance: Set **Inquire** to **All**
 
 {% hint style="danger" %}
-If you are seeing a 403 Forbidden error when running workflows, this is due to incorrect permissions. Ensure that the above authentication requirements are complete to resolve this error.&#x20;
+If you are seeing a 403 Forbidden error when running workflows, this is due to incorrect permissions. Ensure that the above authentication requirements are complete to resolve this error.
 {% endhint %}
 
 </details>
@@ -769,12 +746,12 @@ In addition to the above that’s required for authentication, there are several
 * **Manage Attachments**: Set **Add**, **Edit**, and **Delete** to **My**, **Inquire** to **All**
 * **Team Members**: Set **Inquire** to **All**
 
-**Finance**&#x20;
+**Finance**
 
 * **Agreements**: Set **Inquire** to **All**
-* **Billing View Time**: Set **Inquire** to **All**&#x20;
+* **Billing View Time**: Set **Inquire** to **All**
   * Required for adding billable time to tickets
-* **Billing View Time**: Set **Edit** to **All**&#x20;
+* **Billing View Time**: Set **Edit** to **All**
   * Required for adding billable time to tickets
 
 **Project**
@@ -783,24 +760,22 @@ In addition to the above that’s required for authentication, there are several
 * **Project Ticket - Dependancies**: Set **Add**, **Edit**, **Inquire** to **All**
 * **Close Project Tickets**: Set **Edit**, **Inquire** to **All**
 
-**Service Desk**&#x20;
+**Service Desk**
 
 * **Service Tickets**: Set **Add**, **Edit**, **Inquire** to **All**
 * **Service Ticket – Dependencies**: Set **Add**, **Edit**, **Inquire** to **All**
 * **Close Service Tickets**: Set **Edit**, **Inquire** to **All**
 * **Merge Tickets**: Set **Add**, **Edit**, **Inquire** to **All**
 
-**System**&#x20;
+**System**
 
 * **My Account**: Set **Add**, **Edit**, **Delete**, **Inquire** to **My**
 * **Table Setup**: Set **Add**, **Inquire** to **All** (Additional customization can be done to allow or disallow tables)
 
-**Time & Expense**&#x20;
+**Time & Expense**
 
 * **Time Entry**: Set **Add**, **Edit** and **Inquire** to **All**, **Delete** to **My**
 * **Time Entry Billable Option**: Set **Add**, **Edit** and **Inquire** to **All**, **Delete** to **My**
-
-
 
 </details>
 
@@ -810,19 +785,19 @@ In addition to the above that’s required for authentication, there are several
 
 The following tables outline the various actions the ConnectWise PSA integration can take within Rewst, grouped by their security roles in ConnectWise, and each of their required permission levels to be able to execute them in workflows. We also have a generic request action, that will require any relevant scopes for what it’s being used for. For more information on the ConnectWise API and its required permissions, please refer to the [Official ConnectWise API documentation](https://developer.connectwise.com/).
 
-#### Companies
+**Companies**
 
 <table><thead><tr><th width="253">Actions</th><th width="286.3333333333333">API endpoint</th><th>Required permission</th></tr></thead><tbody><tr><td>List Companies</td><td>/company/companies</td><td>Inquire</td></tr><tr><td>Get Company</td><td>/company/companies/{id}</td><td>Inquire</td></tr><tr><td>List Communication Types</td><td>/company/communicationTypes</td><td>Inquire</td></tr><tr><td>List Contacts</td><td>/company/contacts</td><td>Inquire</td></tr><tr><td>Get Contact</td><td>/company/contacts/{id}</td><td>Inquire</td></tr><tr><td>Create Contact</td><td>/company/contacts</td><td>Add</td></tr></tbody></table>
 
-#### Service Desk
+**Service Desk**
 
 <table><thead><tr><th width="260">Actions</th><th width="286.3333333333333">API endpoint</th><th>Required permission</th></tr></thead><tbody><tr><td>List Service Tickets</td><td>/service/tickets</td><td>Inquire</td></tr><tr><td>Get Service Ticket</td><td>/service/tickets/{id}</td><td>Inquire</td></tr><tr><td>Get Tasks</td><td>/service/tickets/{id}/tasks</td><td>Inquire</td></tr><tr><td>Create Task</td><td>/service/tickets/tasks/{id}</td><td>Add</td></tr><tr><td>Create Bulk Tasks</td><td>/service/tickets/tasks/bulk</td><td>Add</td></tr><tr><td>Update Task</td><td>/service/tickets/tasks/{id}</td><td>Edit</td></tr><tr><td>Update Service Ticket</td><td>/service/tickets/{id}</td><td>Edit</td></tr><tr><td>Create Service Ticket</td><td>/service/tickets</td><td>Add</td></tr></tbody></table>
 
-#### Time and expense
+**Time and expense**
 
 <table><thead><tr><th width="265">Actions</th><th width="278.3333333333333">API endpoint</th><th>Required permission</th></tr></thead><tbody><tr><td>Add Time Entry</td><td>/time/entries</td><td>Add</td></tr></tbody></table>
 
-#### Finance
+**Finance**
 
 <table><thead><tr><th width="267">Actions</th><th width="276.3333333333333">API endpoint</th><th>Required permission</th></tr></thead><tbody><tr><td>List Agreements</td><td>/finance/agreements</td><td>Inquire</td></tr></tbody></table>
 
@@ -926,7 +901,7 @@ It may be necessary to collect API logs from your ConnectWise PSA to send to Con
 <figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 5. After selecting the Rewst user:
-   1. Navigate to the **API Logs** tab.&#x20;
+   1. Navigate to the **API Logs** tab.
    2. Click **Start Debug Mode**.
 
 <figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
@@ -937,13 +912,9 @@ It may be necessary to collect API logs from your ConnectWise PSA to send to Con
 
 <figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Crates related to the ConnectWise PSA integration
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.39.46 PM.png">Screenshot 2025-06-17 at 3.39.46 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md">bulk-create-client-from-psa-crate.md</a></td></tr><tr><td><strong>OpenAI Ticket Categorization</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.47.08 PM.png">Screenshot 2025-06-17 at 3.47.08 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-categorisation-setup.md">openai-ticket-categorisation-setup.md</a></td></tr><tr><td><strong>PSA: Update ticket with User Onboard Links</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-11 at 3.56.56 PM.png">Screenshot 2025-11-11 at 3.56.56 PM.png</a></td><td></td></tr><tr><td><strong>OpenAI Ticket Sentiment Analysis</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.48.28 PM.png">Screenshot 2025-06-17 at 3.48.28 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/openai-ticket-sentiment-setup.md">openai-ticket-sentiment-setup.md</a></td></tr><tr><td><strong>CW PSA: Pod Technician Toolbox Crate V2</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.49.13 PM.png">Screenshot 2025-06-17 at 3.49.13 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/cwm-technician-toolbox-via-pod-1.md">cwm-technician-toolbox-via-pod-1.md</a></td></tr><tr><td><strong>PSA: Update ticket with User Offboard Links</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-11-11 at 3.56.13 PM.png">Screenshot 2025-11-11 at 3.56.13 PM.png</a></td><td></td></tr><tr><td><strong>Assign Asset/Config to Ticket Based on Contact</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.50.15 PM.png">Screenshot 2025-06-17 at 3.50.15 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/assign-asset-config-to-ticket-based-on-contact-crate.md">assign-asset-config-to-ticket-based-on-contact-crate.md</a></td></tr><tr><td><strong>Use OpenAI to Suggest Responses to New Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.29 PM.png">Screenshot 2025-06-17 at 3.51.29 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/use-ai-to-suggest-responses-to-new-tickets-crate.md">use-ai-to-suggest-responses-to-new-tickets-crate.md</a></td></tr><tr><td><strong>Prompt to Combine Similar Tickets</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.51.04 PM.png">Screenshot 2025-06-17 at 3.51.04 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/prompt-to-combine-similar-tickets-crate.md">prompt-to-combine-similar-tickets-crate.md</a></td></tr><tr><td><strong>Browse Rewst Form Triggers Within a Form and Attach to a Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.02 PM.png">Screenshot 2025-06-17 at 3.52.02 PM.png</a></td><td></td></tr><tr><td><strong>ConnectWise PSA Agreement Mapping</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.20 PM.png">Screenshot 2025-06-17 at 3.52.20 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/connectwise-psa-agreement-mapping.md">connectwise-psa-agreement-mapping.md</a></td></tr><tr><td><strong>Consolidate and Manage Duplicate Configurations</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.52.39 PM.png">Screenshot 2025-06-17 at 3.52.39 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/consolidate-and-manage-duplicate-configurations-crate.md">consolidate-and-manage-duplicate-configurations-crate.md</a></td></tr><tr><td><strong>Sync AzureAD Account Information with ConnectWise PSA Contacts (V3)</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.00 PM.png">Screenshot 2025-06-17 at 3.53.00 PM.png</a></td><td><a href="../../../crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md">sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md</a></td></tr><tr><td><strong>Upload File to PSA Ticket</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.16 PM.png">Screenshot 2025-06-17 at 3.53.16 PM.png</a></td><td></td></tr><tr><td><strong>Configure CWM Agreement for Duo Sync</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.53.36 PM.png">Screenshot 2025-06-17 at 3.53.36 PM.png</a></td><td></td></tr><tr><td><strong>Set ConnectWise PSA Board OnCall Member</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.10 PM.png">Screenshot 2025-06-17 at 3.54.10 PM.png</a></td><td></td></tr><tr><td><strong>Deactivate ConnectWise PSA Contacts When Their Company is Deactivated</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.32 PM.png">Screenshot 2025-06-17 at 3.54.32 PM.png</a></td><td></td></tr><tr><td><strong>Sync On-Prem Users to CWM Contacts</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.54.55 PM.png">Screenshot 2025-06-17 at 3.54.55 PM.png</a></td><td></td></tr><tr><td><strong>Mark CWM Overdue Tasks Complete</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.21 PM.png">Screenshot 2025-06-17 at 3.55.21 PM.png</a></td><td></td></tr><tr><td><strong>Sync VIP Contact Status to ITG Status</strong></td><td><a href="../../../../.gitbook/assets/Screenshot 2025-06-17 at 3.55.39 PM.png">Screenshot 2025-06-17 at 3.55.39 PM.png</a></td><td></td></tr></tbody></table>
-
-
 
 {% hint style="success" %}
 Got an idea for a new integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
