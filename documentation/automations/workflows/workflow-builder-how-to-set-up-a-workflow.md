@@ -171,7 +171,25 @@ Commonly used actions can be favorited to easily find and add actions to workflo
    1. Right-click on the workflow canvas.
    2. Add an action from the favorites section.
 
+### Clone and synchronize a workflow
 
+Custom-designed workflows can be cloned to create an exact copy without changing your original.&#x20;
+
+1. Click **...** at the top right of the Workflow Builder Canvas.
+2. Click **Clone**.\
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2026-02-06 at 5.18.24 PM.png>)
+3. The window that appears is the failsafe to confirm that you want to clone the workflow. \
+   In it, you can do the following:
+   1. Give your clone a different name from the original
+   2. Choose the organization where the workflow will be cloned to with the drop-down **Organization** selector
+   3.  Choose to **Synchronize Changes** with the original workflow - any changes you make to the original workflow will be reflected in the clone if this is toggled on<br>
+
+       <figure><img src="../../../.gitbook/assets/Screenshot 2026-02-06 at 5.17.03 PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Creating a clone of your workflow is a great way to make a siloed test environment for your custom workflow. Make upgrades, fixes, or updates to your original workflow with synchronized changes toggled off.
+{% endhint %}
 
 ## Retrieve the name of a workflow
 
