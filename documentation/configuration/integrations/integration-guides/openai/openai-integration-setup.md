@@ -19,9 +19,10 @@ Our OpenAI integration enables the automation of AI-powered tasks. By leveraging
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. Search for `OpenAI` in the integrations page.\
-   \
-   ![A dark-themed information card titled "OpenAI" featuring the OpenAI logo at the top. The card describes how the OpenAI integration enables automation of AI-powered tasks within Rewst. It highlights the use of the OpenAI API in workflows for text completion, code completion, image generation, and more. The last update date is listed as August 13th, 2024. At the bottom, there are three labeled tags: "Artificial Intelligence," "Images," and "Messaging."](<../../../../../../.gitbook/assets/Screenshot 2025-05-01 at 2.02.18 PM.png>)
+2.  Search for `OpenAI` in the integrations page.\
+    <br>
+
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/Screenshot 2026-02-09 at 10.22.06 AM.png" alt="" width="166"><figcaption></figcaption></figure></div>
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the API key copied from OpenAI into the relevant field.
 5. If you are using the integration in conjunction with Azure, see our separate documentation for those steps to find the **Azure API Version** field value [here](azure-openai-integration-setup.md). If you aren't using Azure with OpenAI, leave the **Use Azure OpenAI** set to **False**.

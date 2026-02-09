@@ -42,25 +42,25 @@ Example of correct base URL: `https://engine.rewst.io/webhooks/custom/action`
 | app.rewst.asia   | engine.rewst.asia   |
 
 {% hint style="danger" %}
-**Instructions if the CPT file is blocked or doesn't download**
+**Instructions for if the CPT file is blocked or doesn't download**
 
-If the above file doesn't download, you can download the zip file below. Use the following instructions to convert the file to a CPT:
+If the above file doesn't download, you can download the ZIP file below. Use the following instructions to convert the file to a CPT format:
 
 \
-**Mac Instructions**
+Mac Instructions
 
-1. **Right-click** the zip file.
-2. **Click** _Get Info._
-3. **Go to** Name & Extension.
-4. **Change** the name to `Rewst Script Run Powershell.cpt.`
-5. **Click** Use .cpt when prompted.
+1. Right-click the ZIP file.
+2. Click **Get Info**_._
+3. Go to **Name & Extension**.
+4. Change the name to `Rewst Script Run Powershell.cpt.`
+5. Click **Use .cpt** when prompted.
 
-**Windows Instructions**
+Windows Instructions
 
-1. **Right-click** the zip file.
-2. **Click** Rename.
-3. **Change** the name to `Rewst Script Run Powershell.cpt.`
-4. **Click** Use .cpt if prompted.
+1. Right-click the ZIP file.
+2. Click **Rename**.
+3. Change the name to `Rewst Script Run Powershell.cpt.`
+4. Click **Use .cpt** if prompted.
 {% endhint %}
 
 {% file src="../../../../.gitbook/assets/Rewst Script Run Powershell.zip" %}
@@ -69,7 +69,7 @@ If the above file doesn't download, you can download the zip file below. Use the
 
 ### Set up steps in Datto RMM
 
-Please refer to Datto's documentation for enabling the API for your org if you have not enabled it already. You will need an API-enabled user for your integration setup in the next steps. We recommend creating a new user named Rewst for this.
+Please refer to Datto's documentation for enabling the API for your organization if you haven't enabled it already. You will need an API-enabled user for your integration setup in the next steps. We recommend creating a new user named Rewst for this.
 
 {% hint style="info" %}
 Here is the [Datto RMM Documentation](https://rmm.datto.com/help/en/Content/2SETUP/APIv2.htm?Highlight=API%20account). For the most up-to-date steps for creating an API user, follow their directions.
@@ -116,3 +116,52 @@ Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'ap
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
+
+## Actions and endpoints
+
+| Category           | Action                       | Description                                                                                                                                     |
+| ------------------ | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Account Controller | List Account's Open Alerts   | Fetches the open alerts of the authenticated user's account                                                                                     |
+| Account Controller | List Account's Closed Alerts | Fetches the closed alerts of the authenticated user's account                                                                                   |
+| Account Controller | List Components              | Fetches the components records of the authenticated user's account                                                                              |
+| Account Controller | List Devices                 | Fetches the devices of the authenticated user's account                                                                                         |
+| Account Controller | List Sites                   | Fetches all sites                                                                                                                               |
+| Account Controller | List Users                   | Fetches the users of the authenticated user's account                                                                                           |
+| Account Controller | Create Account Variable      | Creates an account variable                                                                                                                     |
+| Account Controller | Update Account Variable      | Updates the account variable identified by the given variable ID                                                                                |
+| Account Controller | Delete Account Variable      | Deletes the account variable identified by the given variable ID                                                                                |
+| Account Controller | List Account Variables       | Fetches the account variables                                                                                                                   |
+| Account            | Get Account Information v2   | Gets information about the account associated with the API key                                                                                  |
+| Alerts Controller  | Get Alert                    | Fetches data of the alert identified by the given alert UID                                                                                     |
+| Alerts Controller  | Resolve Alert                | Resolves the alert identified by the given alert UID                                                                                            |
+| Audit Controller   | Get Device Audit             | Fetches audit data for a device                                                                                                                 |
+| Audit Controller   | List Device Audit Software   | Lists software audit data for a device                                                                                                          |
+| Audit Controller   | Get ESXi Host Audit          | The device class must be of type esxihost                                                                                                       |
+| Audit Controller   | Get Printer Audit            | The device class must be of type printer                                                                                                        |
+| Device Controller  | Get Device                   | Fetches data of the device identified by the given device UID                                                                                   |
+| Device Controller  | List Device's Open Alerts    | Lists open alerts for a specific device                                                                                                         |
+| Device Controller  | List Device Resolved Alerts  | Lists resolved alerts for a specific device                                                                                                     |
+| Device Controller  | Create Quick Job             | Creates a quick job on the device identified by the given device UID                                                                            |
+| Device Controller  | Move Device                  | Moves a device from one site to another site                                                                                                    |
+| Device Controller  | Set User Defined Fields      | Any user defined field supplied with an empty value will be set to null. All user defined fields not supplied will retain their current values. |
+| Device Controller  | Set Warranty Data            | Sets warranty data for a device                                                                                                                 |
+| Filter Controller  | List Custom Filters          | Fetches the custom device filters for the user using administrator role                                                                         |
+| Filter Controller  | List Defaults Filters        | Fetches the default device filters                                                                                                              |
+| Generic Request    | Datto RMM API Request        | Generic action for making authenticated requests against the Datto RMM API                                                                      |
+| Job Controller     | Get Job                      | Fetches data of the job identified by the given job UID                                                                                         |
+| Job Controller     | List Job Components          | Fetches components of the job identified by the given job UID                                                                                   |
+| Sites Controller   | Create Site                  | Creates a new site in the authenticated user's account                                                                                          |
+| Sites Controller   | Get Site                     | Fetches data of the site, including total number of devices, identified by the given site UID                                                   |
+| Sites Controller   | Update Site                  | Updates the site identified by the given site UID                                                                                               |
+| Sites Controller   | List Site's Open Alerts      | Lists open alerts for a specific site                                                                                                           |
+| Sites Controller   | List Site Resolved Alerts    | Lists resolved alerts for a specific site                                                                                                       |
+| Sites Controller   | List Site Devices            | Fetches the devices records of the site identified by the given site UID                                                                        |
+| Sites Controller   | List Site's Device Filters   | Fetches the site device filters that the user can see with administrator role of the site identified by the given site UID                      |
+| Sites Controller   | Get Site's Settings          | Fetches settings of the site identified by the given site UID                                                                                   |
+| Sites Controller   | Update Site's Proxy          | Creates/updates the proxy settings for the site identified by the given site UID                                                                |
+| Sites Controller   | Delete Site's Proxy          | Deletes site proxy settings for the site identified by the given site UID                                                                       |
+| Sites Controller   | Create Site Variable         | Creates a site variable in the site identified by the given site UID                                                                            |
+| Sites Controller   | Update Site Variable         | Updates the site variable identified by the given site UID and variable ID                                                                      |
+| Sites Controller   | Delete Site Variable         | Deletes the site variable identified by the given site UID and variable ID                                                                      |
+| Sites Controller   | List Site Variables          | Fetches the variables of the site identified by the given site UID                                                                              |
+| System Controller  | Get System Status            | An API access token is not necessary                                                                                                            |

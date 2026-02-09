@@ -456,6 +456,7 @@
   * [Internal Rewst Jinja examples](documentation/jinja/internal-rewst-jinja-examples.md)
   * [Use PowerShell scripts in Rewst](documentation/jinja/use-powershell-scripts-in-rewst.md)
   * [JSONPath for data redaction in Rewst](documentation/jinja/jsonpath-for-data-redaction-in-rewst.md)
+  * [Context Viewer](documentation/jinja/context-viewer.md)
 * [Agent Smith](documentation/agent-smith/README.md)
   * [Agent Smith configuration overview](documentation/agent-smith/agent-smith-configuration-overview.md)
   * [Deploy Agent Smith with ImmyBot](documentation/agent-smith/deploying-agent-smith-with-immybot.md)

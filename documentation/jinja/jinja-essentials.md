@@ -1,7 +1,3 @@
----
-description: Take a deep dive into the world of Jinja.
----
-
 # Jinja essentials
 
 ## Understand Jinja syntax in Rewst
