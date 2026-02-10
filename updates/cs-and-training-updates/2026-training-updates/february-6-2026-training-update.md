@@ -7,7 +7,7 @@ Explore what new changes the Cluck University team made in the last week.
 <summary><strong>Cluck University updates and shoutouts</strong> </summary>
 
 * The Rewst Foundations and Clean Automation certification exams now require completion of their respective courses before you can take the exam.
-  * Get certified! Visit the [Rewst Certifications page](https://learn.rewst.io/page/certificates) to explore trainings (self-paced and live), take the certification exams, and earn prestigious badges.
+  * Get certified! Visit the [Rewst Certifications page](https://learn.rewst.io/page/advanced-builder-certificates) to explore trainings (self-paced and live), take the certification exams, and earn prestigious badges.
 * 2 additional learning paths with certificates of completions are on the way.
 
 </details>
