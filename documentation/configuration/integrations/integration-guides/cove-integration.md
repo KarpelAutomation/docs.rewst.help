@@ -25,15 +25,17 @@ The user that will be used to authenticate with Cove API must have API Authentic
 
 1. Log in to Cove Data Protection.
 2. Navigate to **Management > Customers**
-3. Choose the customer that you want to log in under, and copy their **Customer ID**.
+3. Choose the customer that you want to log in under, and copy their **Customer ID**. Note that customer profiles display both a Customer ID and a Customer UID. When you enter the customer's profile screen, the collapsible side menu to the left may hide the ID column. Click <img src="../../../../.gitbook/assets/Screenshot 2026-02-12 at 2.28.21 PM.png" alt="" data-size="line"> to dismiss the menu and expose all information. Copy and use the ID value, not the UID value. The correct ID value should be numbers only.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-02-06 at 11.54.22 AM.png" alt="" width="129"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-02-06 at 11.54.22 AM.png" alt="" width="129"><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. In the integrations page, search for the `Cove` integration.\
-   ![](<../../../../../.gitbook/assets/Screenshot 2025-02-06 at 11.06.19 AM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2025-02-06 at 11.06.19 AM.png>)
 3. Click on the integration tile to launch the Configuration setup page.
 4. Under **Configuration**:
    1. Edit the **Name**

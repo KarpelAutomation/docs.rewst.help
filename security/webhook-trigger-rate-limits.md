@@ -1,6 +1,4 @@
 ---
-hidden: true
-noIndex: true
 icon: traffic-light
 ---
 
