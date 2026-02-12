@@ -22,7 +22,7 @@ This is a completely manual, built-from-scratch integration where you'll add and
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="184"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (5).png" alt="" width="184"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

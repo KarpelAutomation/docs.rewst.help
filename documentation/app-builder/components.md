@@ -1123,7 +1123,207 @@ Once a custom component has been added, it will show up for you and all Rewst us
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.09.04 PM.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+## App Builder Available MUI icons
+
+App Builder provides a curated selection of [Material-UI (MUI) icons](https://mui.com/material-ui/material-icons/) that can be used throughout your applications. These icons are available for use in buttons, data table columns, and other UI components.
+
+See our total list of available icons by clicking the expanders below, arranged alphabetically.
+
+<details>
+
+<summary>A</summary>
+
+`Abc` · `AccessTime` · `AccessTimeFilled` · `AccountBalance` · `AccountBalanceSharp` · `AccountBalanceWallet` · `AccountCircle` · `AccountTree` · `AccountTreeRounded` · `AccountTreeSharp` · `AcUnit` · `AcUnitRounded` · `Add` · `AddCircle` · `AddCircleOutline` · `AddCircleSharp` · `AddLink` · `AddModerator` · `AddReaction` · `AddTask` · `AdminPanelSettings` · `Alarm` · `AlignHorizontalLeft` · `AllInbox` · `AltRoute` · `Api` · `AppBlocking` · `AppRegistration` · `AppRegistrationSharp` · `Apps` · `Architecture` · `ArrowBack` · `ArrowCircleRightOutlined` · `ArrowCircleUp` · `Article` · `Assessment` · `Assignment` · `AssignmentInd` · `AttachMoney` · `AttachMoneySharp` · `AutoAwesome` · `AutoFixHigh` · `AutoMode` · `AutoStories`
+
+</details>
+
+<details>
+
+<summary>B</summary>
+
+`BackHand` · `Backup` · `Badge` · `Ballot` · `BarChart` · `Bedtime` · `BeenhereSharp` · `Blind` · `Block` · `BlurOn` · `Bolt` · `Book` · `Bookmark` · `BookmarkBorder` · `BugReport` · `BugReportTwoTone` · `Build` · `Business`
+
+</details>
+
+<details>
+
+<summary>C</summary>
+
+`Calculate` · `CalendarMonth` · `Call` · `CallSplit` · `CameraEnhanceTwoTone` · `CancelScheduleSend` · `CardTravel` · `Cast` · `ChangeHistory` · `Chat` · `ChatBubbleRounded` · `Check` · `CheckBox` · `CheckBoxSharp` · `Checklist` · `Cloud` · `CloudDownload` · `CloudQueue` · `CloudUpload` · `ColorLens` · `CompareArrows` · `Computer` · `ComputerTwoTone` · `ConfirmationNumber` · `ConfirmationNumberOutlined` · `ConfirmationNumberTwoTone` · `Construction` · `ContactEmergency` · `ContactMail` · `ContactMailOutlined` · `ContactPage` · `ContactSupport` · `ContactSupportRounded` · `ContentCopy` · `CorporateFare` · `Cottage` · `CreditScore` · `CrisisAlert` · `CurrencyBitcoin` · `CurrencyExchange` · `CurrencyPound`
+
+</details>
+
+<details>
+
+<summary>D</summary>
+
+`Dangerous` · `Dashboard` · `Delete` · `DeleteForever` · `DensityLarge` · `DensityMedium` · `DensitySmall` · `Description` · `DesktopAccessDisabled` · `DesktopMac` · `DesktopMacRounded` · `DesktopWindows` · `DeveloperBoard` · `DeveloperMode` · `Devices` · `Dialpad` · `DirectionsRun` · `Dns` · `DocumentScannerOutlined` · `DoneAll` · `DoNotDisturbOnSharp` · `DownhillSkiing` · `Dvr` · `DynamicFeed` · `DynamicForm`
+
+</details>
+
+<details>
+
+<summary>E</summary>
+
+`Edit` · `EditCalendar` · `EditNote` · `ElectricBolt` · `ElectricCar` · `Elevator` · `Email` · `EmojiEmotions` · `EmojiEvents` · `EmojiPeople` · `Engineering` · `EnhancedEncryption` · `Equalizer` · `Error` · `EventAvailable` · `EventBusy` · `ExitToApp` · `ExitToAppSharp`
+
+</details>
+
+<details>
+
+<summary>F</summary>
+
+`Face` · `Facebook` · `FaceRetouchingOff` · `Fax` · `Feed` · `Feedback` · `FeedRounded` · `FileOpen` · `Filter1TwoTone` · `Filter2TwoTone` · `Filter9Plus` · `Fingerprint` · `FirstPage` · `Flag` · `FlashOn` · `Folder` · `FolderShared` · `FormatAlignJustify` · `FormatListNumbered` · `FormatListNumberedTwoTone` · `ForwardToInbox`
+
+</details>
+
+<details>
+
+<summary>G</summary>
+
+`Gif` · `GiteTwoTone` · `GppGoodOutlined` · `Group` · `GroupAdd` · `GroupRemove` · `Groups` · `Groups2` · `Groups3` · `Groups3TwoTone` · `GroupsRounded`
+
+</details>
+
+<details>
+
+<summary>H</summary>
+
+`Handshake` · `Handyman` · `HeadsetMic` · `Healing` · `Help` · `HelpOutline` · `HighlightOff` · `Home` · `HomeRepairService` · `HomeTwoTone` · `House`
+
+</details>
+
+<details>
+
+<summary>I</summary>
+
+`Image` · `ImportantDevices` · `Inbox` · `Info` · `InfoSharp` · `InsertDriveFile` · `InsertLink` · `InsertPageBreakSharp` · `InstallDesktop` · `Inventory` · `Inventory2Outlined`
+
+</details>
+
+<details>
+
+<summary>K</summary>
+
+`Key` · `KeyboardDoubleArrowLeft`
+
+</details>
+
+<details>
+
+<summary>L</summary>
+
+`Lan` · `Language` · `Laptop` · `LaptopTwoTone` · `Launch` · `LayersClear` · `Leaderboard` · `LibraryBooks` · `Lightbulb` · `LineAxis` · `Link` · `LinkedIn` · `Liquor` · `List` · `ListAltTwoTone` · `LocalFireDepartment` · `LocalOffer` · `LocalPhone` · `LocalShipping` · `LocationOn` · `Lock` · `LockClock` · `LockClockRounded` · `LockPerson` · `LockReset` · `LockResetSharp` · `Logout`
+
+</details>
+
+<details>
+
+<summary>M</summary>
+
+`ManageAccounts` · `Map` · `MarkEmailRead` · `Mediation` · `MemoryRounded` · `Menu` · `MenuBook` · `Message` · `Microsoft` · `MilitaryTech` · `MiscellaneousServices` · `MonitorHeart` · `MoodBad` · `Museum`
+
+</details>
+
+<details>
+
+<summary>N</summary>
+
+`NetworkPing` · `NoAccounts` · `Note` · `NoteAdd` · `Notifications`
+
+</details>
+
+<details>
+
+<summary>O</summary>
+
+`OpenInBrowser` · `OpenInNew`
+
+</details>
+
+<details>
+
+<summary>P</summary>
+
+`Pages` · `Pageview` · `Paid` · `Password` · `Payment` · `PendingActions` · `People` · `PeopleAlt` · `PeopleAltTwoTone` · `PermContactCalendar` · `PermIdentity` · `PermMedia` · `Person` · `PersonAdd` · `PersonAddAlt` · `PersonAddAlt1` · `PersonAddAltRounded` · `PersonAddSharp` · `PersonOff` · `PersonOffSharp` · `PersonRemove` · `PersonRemoveAlt1` · `Phone` · `PhoneAndroid` · `PhoneForwardedOutlined` · `PhoneInTalk` · `Phonelink` · `PhonelinkLock` · `Phishing` · `PlayCircle` · `PlusOne` · `PointOfSale` · `Policy` · `PostAdd` · `PrecisionManufacturing` · `PrecisionManufacturingSharp` · `Preview` · `PriceChange` · `Print` · `PrivacyTip` · `Public` · `PublishedWithChanges` · `PunchClock`
+
+</details>
+
+<details>
+
+<summary>Q</summary>
+
+`QrCode` · `QueryStats` · `QuestionMark` · `Quiz`
+
+</details>
+
+<details>
+
+<summary>R</summary>
+
+`RamenDining` · `Receipt` · `ReceiptLong` · `RecentActors` · `Refresh` · `RemoveCircle` · `RemoveFromQueue` · `RemoveRedEye` · `RemoveRedEyeOutlined` · `Replay` · `Report` · `ReportProblem` · `ReportProblemRounded` · `RequestQuote` · `RestorePage` · `Rocket` · `RocketLaunch` · `RoomService` · `Router` · `Rowing` · `RuleFolder`
+
+</details>
+
+<details>
+
+<summary>S</summary>
+
+`Save` · `SaveAs` · `SaveOutlined` · `SaveRounded` · `ScheduleSend` · `Schema` · `School` · `Science` · `Score` · `ScreenshotMonitor` · `Search` · `Security` · `SecurityRounded` · `SelfImprovement` · `Sell` · `Send` · `SendTimeExtension` · `SentimentSatisfiedAlt` · `Settings` · `SettingsEthernet` · `SettingsRemote` · `SettingsSharp` · `SettingsSuggest` · `ShareLocation` · `Shield` · `ShoppingCart` · `SmartphoneTwoTone` · `SmartToy` · `SmartToyTwoTone` · `SmsFailedRounded` · `Source` · `SpaceDashboard` · `SpeakerNotesOutlined` · `Speed` · `StackedBarChart` · `Star` · `StarRate` · `Storage` · `Store` · `Storefront` · `Subscriptions` · `Summarize` · `SummarizeSharp` · `SupervisedUserCircleSharp` · `SupportAgent` · `Sync` · `SyncAlt`
+
+</details>
+
+<details>
+
+<summary>T</summary>
+
+`TableChart` · `TableChartTwoTone` · `TableRows` · `Task` · `TempleBuddhist` · `Terminal` · `TerminalTwoTone` · `Timeline` · `Timer` · `TipsAndUpdates` · `Toll` · `Tonality` · `TravelExplore` · `Troubleshoot` · `Tune` · `Twitter`
+
+</details>
+
+<details>
+
+<summary>V</summary>
+
+`VerifiedOutlined` · `VerifiedUser` · `VideogameAsset` · `ViewList` · `ViewListTwoTone` · `Visibility` · `VpnKey` · `VpnLock`
+
+</details>
+
+<details>
+
+<summary>W</summary>
+
+`Warehouse` · `WarningRounded` · `Watch` · `WavingHand` · `WavingHandOutlined` · `Wifi` · `WifiOff` · `WorkOutlined` · `WysiwygRounded`
+
+</details>
+
+### MUI icon categories
+
+Here are some common use cases for icons.
+
+| Category                     | Icons                                                                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Actions and navigation**   | `Add`, `AddCircle`, `ArrowBack`, `Check`, `Delete`, `Edit`, `Launch`, `Menu`, `Refresh`, `Save`, `Search`, `Settings`           |
+| **People and users**         | `AccountCircle`, `Badge`, `Face`, `Group`, `Groups`, `People`, `Person`, `PersonAdd`, `PersonRemove`, `SupportAgent`            |
+| **Communication**            | `Call`, `Chat`, `Email`, `Message`, `Phone`, `Send`, `Feedback`                                                                 |
+| **Business and commerce**    | `AttachMoney`, `Business`, `Payment`, `PointOfSale`, `Receipt`, `ShoppingCart`, `Store`, `Storefront`                           |
+| **Technology and devices**   | `Computer`, `DesktopMac`, `Devices`, `Laptop`, `PhoneAndroid`, `Router`, `Smartphone`, `Terminal`, `Wifi`                       |
+| **Security and access**      | `AdminPanelSettings`, `EnhancedEncryption`, `Fingerprint`, `Key`, `Lock`, `Password`, `Security`, `Shield`, `VpnKey`, `VpnLock` |
+| **Files and documents**      | `Article`, `Description`, `FileOpen`, `Folder`, `InsertDriveFile`, `Note`, `Pages`                                              |
+| **Status and alerts**        | `CheckBox`, `Dangerous`, `Error`, `Info`, `Notifications`, `Report`, `Warning`                                                  |
+| **Charts and analytics**     | `Assessment`, `BarChart`, `Dashboard`, `Equalizer`, `Leaderboard`, `QueryStats`, `StackedBarChart`, `TableChart`, `Timeline`    |
+| **Time and calendar**        | `AccessTime`, `Alarm`, `CalendarMonth`, `EventAvailable`, `Schedule`, `Timer`                                                   |
+| **Cloud and storage**        | `Backup`, `Cloud`, `CloudDownload`, `CloudUpload`, `Storage`, `Warehouse`                                                       |
+| **Workflows and automation** | `AccountTree`, `Api`, `AutoMode`, `DynamicForm`, `Mediation`, `PublishedWithChanges`, `Sync`, `SyncAlt`                         |
+
+### MUI technical details
+
+| Detail             | Value                                                                              |
+| ------------------ | ---------------------------------------------------------------------------------- |
+| **Source**         | Material-UI (MUI) Icons Library                                                    |
+| **Implementation** | `packages/app/src/utils/iconMap.ts`                                                |
+| **Icon variants**  | Some icons have multiple variants: e.g., `Sharp`, `Rounded`, `TwoTone`, `Outlined` |
+| **Fallback**       | If an icon cannot be found, the system displays a `HelpOutline` icon as a fallback |
 
 {% hint style="info" %}
 If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;

@@ -4,6 +4,10 @@
 
 _Webhook triggers_ are an effective way to kick off a workflow with context from external systems. By sending an API request to a webhook trigger, Rewst will fire the workflow and include any data and or queries included in the request.
 
+{% hint style="warning" %}
+When using webhook triggers, design your workflow with our [rate limiting policy](../../../../security/webhook-trigger-rate-limits.md) in mind.&#x20;
+{% endhint %}
+
 ### **Anatomy of a webhook URL**
 
 Webhook URLs are formatted consistently using the trigger ID and organization ID. The format is as follows: `https://engine.rewst.io/webhooks/custom/trigger/{{ Trigger ID }}/{{ Organization ID }}`
