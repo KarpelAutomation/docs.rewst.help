@@ -19,6 +19,8 @@ Current limits per trigger
 * 1000 requests per minute
 
 These limits apply individually to each webhook trigger, not to your organization as a whole. Our integrations operate well within these thresholds under normal conditions.
+
+The rate limit occurs at ingest rather than after trigger criteria are considered.
 {% endhint %}
 
 ## Common causes of rate limit errors
@@ -31,7 +33,7 @@ These limits apply individually to each webhook trigger, not to your organizatio
 
 If your webhook traffic exceeds our limits, Rewst will respond with an HTTP `429 Too Many Requests` status code. This is a [standard response](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) that signals the sending service to [slow down and retry](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Retry-After), and is displayed in the header of the webhook response.&#x20;
 
-As webhook requests originate from external platforms, Rewst can't retry the request on your behalf. The event is lost once it's rejected, unless the external platform is configured to retry on 429 responses. However, most well-designed webhook senders will automatically back-off and retry when they receive a 429 response. Note that Rewst has built integrations with MSP-requested tools, and not all tools have 429 responses built in yet.&#x20;
+As webhook requests originate from external platforms, Rewst can't retry the request on your behalf. The event is lost once it's rejected, unless the external platform is configured to retry on 429 responses. Most well-designed webhook senders will automatically back-off and retry when they receive a 429 response. WHRL However, note that Rewst has built integrations with MSP-requested tools, and not all tools have 429 responses built in yet.&#x20;
 
 ## How to resolve and prevent rate limit issues
 
@@ -50,6 +52,16 @@ Naive immediate retries will cause loops and continued rate limiting.
 ## Existing customer rate limit transition
 
 Rewst recommends evaluating your applications that send automated HTTP requests to Rewst before the transition date to ensure your webhook triggers are not exceeding the fair use limits put in place.
+
+### Supplemental partner documentation
+
+Below are links to related documentation from some of the apps Rewst integrates with, which may help you in ensuring that your webhook triggers are within limit. Partner documentation may require logging in to that partner app to view content.
+
+[Receive change notifications through webhooks – Microsoft Graph](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks): This is Microsoft’s direct documentation of webhook delivery semantics for Graph.
+
+[Webhooks error handling - Autotask Official Documentation](https://www.autotask.net/help/developerhelp/Content/APIs/Webhooks/Webhooks_Error_Handling.htm): This contains an authoritative description of Autotask webhook retry behavior.
+
+[ConnectWise developer guide](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FConnectWise_PSA%2FDeveloper_Guide#tab=login): This contains ConnectWise's documentation on how their product handles retries.&#x20;
 
 ## Webhook integration triggers reference table
 
