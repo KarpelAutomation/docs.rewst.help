@@ -291,6 +291,7 @@
     * [Report on Disabled M365 Users with Licenses Crate](documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
     * [Reset Locked Accounts Crate](documentation/crates/existing-crate-documentation/reset-locked-accounts-crate.md)
     * [Reset Microsoft MFA Crate](documentation/crates/existing-crate-documentation/reset-microsoft-mfa-crate.md)
+    * [REWST CA Policy Assistant Crate](documentation/crates/existing-crate-documentation/rewst-ca-policy-assistant-crate.md)
     * [Rewst Examples: Jinja Comprehension Crate](documentation/crates/existing-crate-documentation/rewst-examples-jinja-comprehension-crate.md)
     * [Rewst Microsoft GDAP Assistant Crate](documentation/crates/existing-crate-documentation/rewst-microsoft-gdap-assistant-crate.md)
     * [Rotate Account Passwords Crate](documentation/crates/existing-crate-documentation/rotate-account-passwords-crate.md)
