@@ -8,13 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our NinjaOne integration provides users with a powerful combination of documentation, remote monitoring, and management capabilities. Seamlessly access and manage NinjaOne within Rewst, monitor and troubleshoot devices, deploy software, and perform remote tasks more effectively. Use this integration to centralize your IT documentation and RMM workflows, ensuring a comprehensive and streamlined approach to IT management within the Rewst platform.
 
-### Why use the NinjaOne integration?
-
-* Device monitoring and management
-* Execute scripts on endpoints
-* Deploy software to devices
-
-## Set up the NinjaOne Integration
+## Set up the NinjaOne integration
 
 ### Set up steps in NinjaOne
 
@@ -78,9 +72,10 @@ iex $commands
     <br>
 
     <figure><img src="../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
-5. Authorize OAuth into NinjaOne, via Microsoft. You should see your customer show up at the bottom. You may need to click **Refresh Options** for customers to populate.
-6. Click **Save Configuration**.
-7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+5. Click **Save Configuration**. This saving is necessary to ensure that there is no error in the next step.
+6. Authorize OAuth into NinjaOne, via Microsoft. You should see your customer show up at the bottom. You may need to click **Refresh Options** for customers to populate.
+7. Click **Save Configuration** again.
+8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
 
 {% hint style="info" %}
 For APAC customers:

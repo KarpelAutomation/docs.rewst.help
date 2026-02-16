@@ -110,9 +110,11 @@ If you haven't done so already, we recommended that you run the [Configure Organ
 
 These variables are system-managed and must not be modified manually. All configuration should be done via the setup form unpacked with this Crate.
 
-* `traveling_employee_users_group`: Reference to the traveling users group used for CA policy exclusions.
-* `traveling_employee_block_policies`: References to baseline blocking CA policies from which traveling users are excluded during travel.
-* `traveling_employee_policy_tickets`: Links travel-specific CA policies to tickets for automated updates throughout the travel lifecycl&#x20;
+* `traveling_employee_users_group`: Reference to the traveling users group used for CA policy exclusions
+* `traveling_employee_block_policies`: References to baseline blocking CA policies from which traveling users are excluded during travel
+* `traveling_employee_policy_tickets`: Links travel-specific CA policies to tickets for automated updates throughout the travel lifecycle
+* `traveling_employee_policy_prefix`: Allows for the customization of the prefixes for CA locations&#x20;
+* `traveling_employee_location_prefix`: Allows for the customization of the policy name
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
