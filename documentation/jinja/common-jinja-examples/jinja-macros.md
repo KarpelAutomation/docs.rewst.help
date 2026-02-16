@@ -1,10 +1,10 @@
 # Jinja macros
 
-## What are Macros?
+## What are macros?
 
 In Jinja, _macros_ are a way to encapsulate reusable pieces of code, similar to functions in other programming languages. However, there are some important distinctions to note when working with macros in Jinja.
 
-### Scope of Macros
+### Scope of macros
 
 Unlike global functions in many programming languages, macros in Jinja are not global by default. They exist within the specific Jinja context in which they are instantiated. This means that you can't define a macro at the top of your workflow and use it throughout the entire workflow. Instead, you must re-instantiate the macro in each location where you intend to use it. Alternatively, you can use a template to achieve global access to macros.
 

@@ -79,7 +79,7 @@ Once your custom integration is set up, you can use it in your workflows and tas
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 {% endcolumn %}

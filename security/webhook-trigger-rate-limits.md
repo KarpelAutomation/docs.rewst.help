@@ -35,6 +35,35 @@ If your webhook traffic exceeds our limits, Rewst will respond with an HTTP `429
 
 As webhook requests originate from external platforms, Rewst can't retry the request on your behalf. The event is lost once it's rejected, unless the external platform is configured to retry on 429 responses. Most well-designed webhook senders will automatically back-off and retry when they receive a 429 response. WHRL However, note that Rewst has built integrations with MSP-requested tools, and not all tools have 429 responses built in yet.&#x20;
 
+### Example response
+
+Below is an example of the 429 response Rewst sends back to the involved partner app when your trigger is rate limited. Use this table to reference its meaning.
+
+```
+{
+  "data": "",
+  "status_code": 429,
+  "headers": {
+    "Date": "Fri, 23 Jan 2026 06:01:50 GMT",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "x-envoy-ratelimited": "true",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "10",
+    "Retry-After": "10",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "Server": "istio-envoy"
+  },
+  "cookies": {}
+}
+```
+
+| Item Key                                          | Example Value | Meaning                                            |
+| ------------------------------------------------- | ------------- | -------------------------------------------------- |
+| HTTP status code - `status`                       | `429`         | Too Many Requests — rate limit exceeded.           |
+| Envoy rate limited - `x-envoy-ratelimited`        | `true`        | Request was blocked by Envoy due to rate limiting. |
+| Retry after - `retry-after` / `x-ratelimit-reset` | `10`          | Wait 10 seconds before retrying the request.       |
+
 ## How to resolve and prevent rate limit issues
 
 {% hint style="warning" %}

@@ -22,7 +22,7 @@ This is a completely manual, built-from-scratch integration where you'll add and
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (1) (5).png" alt="" width="184"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (5) (1).png" alt="" width="184"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -34,7 +34,7 @@ This is the preferred method, if possible, and allows you to import all endpoint
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="182"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (9).png" alt="" width="182"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -249,7 +249,9 @@ Examples of OpenAPI files for common custom integrations
 
 ![](https://images.tango.us/workflows/7bbe9055-9c43-4e0d-9aa1-bee39c08cbb8/steps/fad46f6f-526e-4508-8ef7-a16319b615e7/74ef4c73-39b7-4105-a042-240ea5e150bc.png?mark-x=1161\&mark-y=348\&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTMlMkNGRjc0NDImdz0yMDgmaD00NCZmaXQ9Y3JvcCZjb3JuZXItcmFkaXVzPTEw)
 
+23. Click on the integration tile that appears in the setup wizard to finalize setup of your custom integration. You'll need to authenticate based on the authentication method you selected during previous setup steps. Follow the prompts on screen to complete setup.
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2026-02-16 at 12.14.25 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Troubleshoot custom integration setup
 

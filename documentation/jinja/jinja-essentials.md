@@ -6,7 +6,7 @@
 
 Jinja uses brace delimiters to distinguish between expressions and statements. Specifically, it uses double curly braces `{{ }}` to surround expressions that should be replaced with output and curly braces with percent signs `{% %}` to surround statements that control the logic of the template. Jinja uses the `{# #}` syntax for comments. Anything between the opening and closing comment delimiters will be ignored by Jinja and not included in the output.
 
-* **Output Values (`{{ }}`):** Display variables or expressions. For instance, `{{ CTX.user_id }}` in Rewst 102 shows user-specific data.
+* **Output Values (`{{ }}`):** Display variables or expressions. For example, `{{ CTX.user_id }}` shows user-specific data.
 * **Code Blocks (`{% %}`):** Used for control structures like `if`, `else`, `for` loops.
 * **Comments (`{# #}`):** Enable non-executable notes for clarity.
 
@@ -34,10 +34,10 @@ Note that Rewst's Jinja2 implementation displays mutable object— lists, dicts,
 {% hint style="info" %}
 _JSON_, or _JavaScript Object Notation_, is a lightweight format for storing and transporting data, often used when data is sent from a server to a web page. When using JSON:
 
-* Data is in name-value pairs
-* Data is separated by commas
-* Curly braces hold objects
-* Square brackets hold arrays
+* Data is organized in key-value pairs, also called context variables in Rewst workflows. For example, "action" is a key and "add" could be the value.
+* Data is separated by commas.
+* Curly braces hold objects. Correct formatting includes both opening and closing curly braces.
+* Square brackets hold arrays.
 {% endhint %}
 
 **Example:**
@@ -56,7 +56,13 @@ Generally, _variables_ are labeled containers for data that you want to use in y
 
 ### What is The Context?
 
-_The Context_ is a central storage space that keeps track of all data generated, captured, or used throughout a workflow.  Think of it as a shared memory for a specific workflow, containing all that workflow's information.
+_The Context_ is a central storage space that keeps track of all data generated, captured, or used throughout a workflow.  Think of it as a shared memory for a specific workflow, containing all that workflow's information. Every time a Rewst workflow runs, the data processed is shown in JSON format in the context of the workflow.
+
+Key objects like action, user\_id, and group\_id are visible as part of the context data. These were configured in the workflow input and are now accessible for use in Jinja code.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-16 at 3.48.02 PM.png" alt="" width="375"><figcaption><p>Click on the blue icon to the right of fields to access The Context <br>as it pertains to that field.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-16 at 4.20.38 PM.png" alt="" width="375"><figcaption><p>Type CTX. in between the curly braces to expose all <br>available options.</p></figcaption></figure>
 
 ### **Variable management with Jinja**
 
@@ -126,6 +132,16 @@ In this example, the for loop iterates over a list called items and prints each 
 {% endfor %}
 ```
 
+In this snippet, the loop iterates through numbers from 0 to 8, appending each value to the `mylist` variable, which is then displayed.
+
+```django
+{% set mylist = [] %}
+{%- for item in range(0,9) -%}
+    {% do mylist.append(item) %}
+{% endfor %}
+{{ mylist }}
+```
+
 ## Jinja filters
 
 For more detailed information on Jinja filters, see our list [here](jinja-essentials.md#jinja-filters).&#x20;
@@ -176,20 +192,28 @@ By default, when Jinja begins a statement block, it preserves any _whitespace_ c
 
 ### List comprehension in action
 
-*   **Functionality:** Efficiently creates new lists from existing ones, based on specific criteria. You can combine filters and conditions to produce concise, targeted lists, all in one Jinja expression.
+_List comprehension_ efficiently creates new lists from existing ones, based on specific criteria. It tailors data selection in workflows, enhancing efficiency and precision. Create a new list from an existing one in a simplified way, without needing to end the code with `{% endfor %}`.&#x20;
 
-    > “Give me a list of all X from Y, but only if Z.”
-* **Application:** Tailors data selection in workflows, enhancing efficiency and precision.
+You can combine filters and conditions to produce concise, targeted lists, all in one Jinja expression.
 
-**Three-step structure**
+> “Give me a list of all X from Y, but only if Z.”
 
-List comprehension combines filters and conditions to create concise and targeted lists. This structure (`[item for item in list if condition]`) allows you to filter data efficiently.
+It consists of three parts:
 
-1. **Output:** Define what you want to extract or manipulate (e.g., `user.id`).
-2. **Construction:** Specify the list to iterate over (e.g., `CTX.my_user_list`).
-3. **Conditions:** Apply conditions to filter data (e.g., `if user.enabled == true`).
+1. **Output:** Define what you want to extract or manipulate - e.g., `user.id`.
+2. **For Loop:** Specify the list to iterate over - e.g., `CTX.my_user_list`.
+3. **Conditions - optional:** Apply conditions to filter data - e.g., `if user.enabled == true`.
 
-**Example:**
+Here is the basic structure of list comprehension.
+
+```
+{{ 
+[ output for output
+in CTX.list
+if condition ]}}
+```
+
+Example: Filter active users from `CTX.my_user_list`.
 
 ```django
 {{ 
@@ -201,18 +225,13 @@ List comprehension combines filters and conditions to create concise and targete
 }}
 ```
 
-This example demonstrates filtering active users from `CTX.my_user_list`.
-
 #### List comprehension with conditions
 
-* **Purpose:** Allows you to filter data based on specific criteria.
-  * For example, using filters like `lower` to standardize data before comparison.
-* **Benefit:** Ensures more accurate and relevant data processing, critical for complex workflows.
+This flavor of list comprehension allows you to filter data based on specific criteria, ensuring more accurate and relevant data processing, critical for complex workflows. For example, using filters like `lower` to standardize data before comparison.
 
 #### List comprehension with math
 
-* **Purpose:** This method allows you to apply specific mathematical functions to each element in a list, thereby modifying the output based on your needs.
-* **Benefit:** Offers a succinct method to apply mathematical transformations across a list, yielding a new list with modified values.
+This method allows you to apply specific mathematical functions to each element in a list, thereby modifying the output based on your needs. It offers a succinct method to apply mathematical transformations across a list, yielding a new list with modified values.
 
 **Example:**
 
@@ -223,6 +242,12 @@ squared_numbers = [num * num for num in list_of_numbers]
 If `list_of_numbers = [1, 2, 3, 4]`, then the `squared_numbers` list after applying the above list comprehension will be `[1, 4, 9, 16]`.
 
 This concise approach efficiently applies the squaring function to each item in the original list and collects the results in a new list.
+
+### With Items
+
+_With Items_ is the equivalent to a `foreach`statement in other languages.
+
+With this, you can pass a number of objects into a certain action and collect the results from each and then do something. Learn more about how to achieve this in our [workflows documentation](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu?q=%22append+with+items%22#with-items).&#x20;
 
 {% hint style="info" %}
 Interested in seeing Jinja examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.

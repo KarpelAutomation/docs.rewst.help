@@ -14,17 +14,17 @@ For our general OpenAI integration, see [this documentation](openai-integration-
 <figure><img src="../../../../../.gitbook/assets/azure-ai-01 (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Search for `Azure OpenAI`.
-4. Click the tile for **Azure OpenAI**.
+4.  Click the tile for **Azure OpenAI**.\
+    <br>
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-02.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src="../../../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 5. Request access to the Azure OpenAI service.
 
 {% hint style="info" %}
 You must fill out a form to request access to the Azure OpenAI service
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/azure-ai-03.png" alt="" width="366"><figcaption></figcaption></figure>
 
 6. Wait for the welcome email.
 
@@ -32,32 +32,35 @@ You must fill out a form to request access to the Azure OpenAI service
 Note that activation of the service can take up to 48 hours, based on Microsoft's timelines.
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/azure-ai-04.png" alt="" width="336"><figcaption></figcaption></figure>
 
 7. Return to the Azure Portal upon receiving the approval email.
 8. Create the OpenAI Service in your Azure subscription.
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/azure-ai-05.png" alt="" width="370"><figcaption></figcaption></figure>
 
-9. Navigate to **Resource Management > Model deployments**.
+9. Complete the steps **Network > Tags > Review + Submit**
+10. Click **Go to resource** after submitting and confirming that deployment has finished.<br>
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-06.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+11. Click **Go to Foundry Portal**.<br>
 
-10. Click **+Create a new Deployment**.
+    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+12. Navigate to the **Deployments** tab on Azure AI Foundry.<br>
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-07.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+13. You can now deploy a desired OpenAI model. The below example deploys a `gpt-5-mini` model. Click **Deploy Model** **>** **Deploy base model**.<br>
 
-11. Choose **gpt-35-turbo model**.
-12. Name the deployment **`gpt-35-turbo model.`**
+    <figure><img src="../../../../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+14. Search for `gpt-5-mini` and select `gpt-5-mini`. Click **Confirm**.<br>
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-08.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+15. Click **Deploy**.<br>
 
-13. Return to the OpenAI Resource in the Azure Portal.
-14. Navigate to **Keys and Endpoint**.
-15. Copy a Key to your clipboard
-16. Copy the region and endpoint and store them in a safe location. You'll need it to craft for your Base URL in Rewst.
+    <figure><img src="../../../../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
+16. You'll be redirected to the deployed model page that contains the **Key** and the **Target URI**. Copy both values and store them somewhere secure. These will be needed for further setup steps in Rewst.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/azure-ai-09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### **Set up steps in Rewst**
 
