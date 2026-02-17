@@ -34,7 +34,7 @@ The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to strea
 4. Click **Generate API Access +** .
 5. Enter Rewst into the **API Key Name** field.
 6. Enter your desired explanation into the **Description** field.
-7. Use the **Scopes** drop-down to select the following needed scopes that will be attached to the API Key.&#x20;
+7. Use the **Scopes** drop-down to select the following scopes that will be attached to the API Key. This list is what Rewst recommends for the integration. If desired, you may add additional scopes or remove scopes. The integration will require at least one scope to work. Note that any scoping that deviates from our recommended list may create unknown errors or dependencies. Rewst support is not responsible for assisting you with custom scoping.
    1. platform.companies.read&#x20;
    2. platform.sites.read&#x20;
    3. platform.asset.read&#x20;
@@ -46,11 +46,15 @@ The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to strea
    9. platform.automation.create
 8. Check off the **Consent** box.
 9. Click **Generate API Access**.
-10. Note that the information that appears on your screen can only be viewed this one time and will disappear after you leave the screen. Copy both the **Client ID** and **API Key** and store it some place secure. You'll need it for additional steps in Rewst.
+10. The information that appears on your screen can only be viewed this one time and will disappear after you leave the screen. Copy both the **Client ID** and **API Key** and store it some place secure. You'll need it for additional steps in Rewst.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2026-01-14 at 4.13.23 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Set up steps in Rewst
+
+{% hint style="warning" %}
+If editing an existing setup of the integration, note that previously created access tokens are cached with a lifetime of one hour. Wait an hour before reauthorizing.&#x20;
+{% endhint %}
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `ConnectWise ASIO` in the integrations page.\
@@ -60,8 +64,16 @@ The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to strea
 4. Enter the following details copied from ConnectWise ASIO into the relevant fields under the **Parameters** section:
    * **API Key -** This is the OAuth2 API Key for ConnectWise API access
    * **Client ID** - Also known as the client key, this is the OAuth2 Client ID for ConnectWise API access
-5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
+5. The **Scopes** field will automatically populate with all the recommended scopes for Rewst integration. If you chose custom scoping in ASIO, you'll need to delete or add those scopes accordingly. Click <img src="../../../../.gitbook/assets/Screenshot 2026-02-16 at 10.10.29 AM.png" alt="" data-size="line"> to expand the drop-down selector of total available scopes.
+
+<figure><img src="../../../../.gitbook/assets/image (84) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+3. Click **Save Configuration**.
+4. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
+
+### Future additional functionality
+
+In future, when Rewst adds functionality to our ConnectWise ASIO integration, additional scopes may need to be added manually to your integration's configuration to take advantage of that functionality. The order of operations for any scope update is to first add or remove a scope in ConnectWise ASIO, then add or remove a scope to the scopes list in the configuration setup page in Rewst. If you do not add new scopes, your integration will still work as it had previously, but won't contain the new added functionality.
 
 {% hint style="success" %}
 Got an idea for a new integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
