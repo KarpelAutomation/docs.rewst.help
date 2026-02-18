@@ -15,7 +15,7 @@ To ensure platform reliability and consistent performance for the entire platfor
 {% hint style="info" %}
 Current limits per trigger
 
-* 25 requests per second
+* 50 requests per second
 * 1000 requests per minute
 
 These limits apply individually to each webhook trigger, not to your organization as a whole. Our integrations operate well within these thresholds under normal conditions.
