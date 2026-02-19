@@ -386,11 +386,7 @@ Expand each of the categories below to see that type of org variable's reference
 
 
 
-| **ORG.VARIABLES**                   | **Purpose**                                             |
-| ----------------------------------- | ------------------------------------------------------- |
-| `store_password_in_ticket`          | Saves the password in the PSA ticket internal notes.    |
-| `onboarding_password_save_location` | Defines alternative storage (PSA, ITGlue, Hudu).        |
-| `pwpush_url`                        | The URL for PWPush if used for secure password sharing. |
+<table data-header-hidden><thead><tr><th width="379.567626953125">ORG.VARIABLES</th><th>Purpose</th></tr></thead><tbody><tr><td><code>store_password_in_ticket</code></td><td>Saves the password in the PSA ticket internal notes.</td></tr><tr><td><code>onboarding_password_save_location</code></td><td>Defines alternative storage - PSA, ITGlue, Hudu.</td></tr><tr><td><code>new_user_password_save_location_custom_url</code></td><td>The URL for PWPush if used for secure password sharing. Use <a href="https://us.pwpush.com">https://us.pwpush.com</a> or <a href="https://eu.pwpush.com">https://eu.pwpush.com</a> - no authorization is needed. </td></tr></tbody></table>
 
 </details>
 
