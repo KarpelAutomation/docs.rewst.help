@@ -72,6 +72,8 @@ Note that the paginate request option in any generic action modifies how the req
 If your integration is missing a generic action and you'd like to see us develop one, add that feedback to our [Canny feedback collector.](https://rewst.canny.io/integrations)&#x20;
 {% endhint %}
 
+
+
 ## Known actions issues and errors
 
 This collection of issues related to actions have been reported to Rewst by our customers. If you experience an issue with actions that is not in this list, contact us in your dedicated Discord support channel.&#x20;

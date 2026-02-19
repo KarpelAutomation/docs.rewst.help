@@ -16,7 +16,6 @@ The _operational analytics reporting portal_ offers powerful reporting capabilit
   * E.g. reporting on device end-of-life status
 * Filter tickets by type
 * Export reports
-* _Coming soon:_ Reporting on SaaS licenses
 
 ### Integration prerequisites for operational analytics reporting portal setup
 

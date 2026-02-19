@@ -5,12 +5,12 @@ This action is available in the Rewst actions section of the workflow builder's 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-09-05 at 10.08.02 AM.png" alt=""><figcaption></figcaption></figure>
 
 \
-A generic action for making authenticated requests against Rewst''s GraphQL API. The Generic GraphQL Request action is part of the Rewst action pack and enables:
+A generic action for making authenticated requests against Rewst's GraphQL API, the Generic GraphQL Request action is part of the Rewst action pack and enables:
 
-* **Direct API access**: Execute custom GraphQL queries and mutations against Rewst's backend
-* **Advanced data retrieval**: Access data structures not available through standard actions
-* **Custom automation**: Build sophisticated workflows with precise data control
-* **Administrative operations**: Perform bulk operations and administrative tasks programmatically
+* Direct API access: Execute custom GraphQL queries and mutations against Rewst's backend
+* Advanced data retrieval: Access data structures not available through standard actions
+* Custom automation: Build sophisticated workflows with precise data control
+* Administrative operations: Perform bulk operations and administrative tasks programmatically
 
 {% hint style="warning" %}
 Before using the Generic GraphQL Request action, ensure that you have:
@@ -21,11 +21,19 @@ Before using the Generic GraphQL Request action, ensure that you have:
 
 **Parameters:**
 
-* **Operation Type:** The type of GraphQL operation: `query` or `mutation`
-* **Graph Operation:** The name of the specific GraphQL operation to execute
-* **Variable Values:** Variables to pass to the GraphQL operation
-* **Response Fields:** Specify the fields to include in the GraphQL response. Only provide the inner content, as it will be wrapped in curly braces. For example, `id orgName email { name }` .
-* **Raw Query:** The complete raw GraphQL query string to execute - an alternative to operation-based approach
+* Operation type: The type of GraphQL operation: `query` or `mutation`
+* Graph operation: The name of the specific GraphQL operation to execute
+  * Uses the Graph Operations reference
+  * Options dynamically populated based on operation\_type
+* Variable values: Variables to pass to the GraphQL operation
+  * JSON object type
+  * Contains the input parameters for the selected operation
+* Response fields: Specify the fields to include in the GraphQL response
+  * Only provide the inner content, as it will be wrapped in curly braces
+  * Example, `id orgName email { name }`&#x20;
+* Raw query: The complete raw GraphQL query string to execute
+  * An alternative to using operation\_type, operation, and fields
+  * Allows for full control over query structure
 
 ## Generic GraphQL request action usage examples
 
@@ -3495,11 +3503,11 @@ input TemplateCreateInput {
 
 The Generic GraphQL Request action provides access to Rewst's complete GraphQL schema. Key entity types include:
 
-* **Organization**: Core organizational data and settings
-* **Workflow**: Automation workflow definitions and execution data
-* **Action**: Available actions and their configurations
-* **Trigger**: Event triggers and their configurations
-* **Form**: Dynamic forms and field definitions
-* **Template**: Reusable templates and scripts
-* **User**: User accounts and permissions
-* **Pack**: Integration packs and their components
+* Organization: Core organizational data and settings
+* Workflow: Automation workflow definitions and execution data
+* Action: Available actions and their configurations
+* Trigger: Event triggers and their configurations
+* Form: Dynamic forms and field definitions
+* Template: Reusable templates and scripts
+* User: User accounts and permissions
+* Pack: Integration packs and their components

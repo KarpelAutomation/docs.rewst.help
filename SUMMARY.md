@@ -405,6 +405,7 @@
       * [Proofpoint integration](documentation/configuration/integrations/integration-guides/proofpoint-integration-setup.md)
       * [QuickBooks Online integration](documentation/configuration/integrations/integration-guides/quickbooks-online-integration-setup.md)
       * [SaaS Alerts integration](documentation/configuration/integrations/integration-guides/saas-alerts-integration-setup.md)
+      * [Senteon integration](documentation/configuration/integrations/integration-guides/senteon-integration.md)
       * [SentinelOne integration](documentation/configuration/integrations/integration-guides/sentinelone-integration-setup.md)
       * [ServiceNow integration](documentation/configuration/integrations/integration-guides/servicenow-integration-setup.md)
       * [Sherweb integration](documentation/configuration/integrations/integration-guides/sherweb-integration-setup.md)
