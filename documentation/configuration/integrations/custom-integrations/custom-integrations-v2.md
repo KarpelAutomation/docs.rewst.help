@@ -1,14 +1,14 @@
 # Custom integrations: V2
 
 {% hint style="info" %}
-For more on custom integrations in Rewst, see our introductory documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations). Custom integrations can only be enabled by users with the Rewst Admin role.&#x20;
+For more on custom integrations in Rewst, see our introductory documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations). Custom integrations can only be enabled by users with the Rewst Admin role. We recommend taking our [Cluck University course on custom integration](https://learn.rewst.io/getting-started-with-custom-integrations) before attempting setup.
 
 Note that this is V2 of our custom integrations feature. Customers who previously installed V1 of custom integrations may find that setup documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations/integration-setup).  V1 of custom integrations is deprecated and should no longer be used. Documentation for V1 remains to assist existing customers with the migration to the V2 method. If you have questions about migrating from V1 to V2, please reach out to Rewst [support](../../../../support-and-community/roc-support/).&#x20;
 {% endhint %}
 
 ## Two options for adding a custom integration
 
-### Build a new integration
+### Build a new integration without an OpenAPI JSON file
 
 
 
@@ -30,7 +30,7 @@ This is a completely manual, built-from-scratch integration where you'll add and
 
 {% columns %}
 {% column %}
-This is the preferred method, if possible, and allows you to import all endpoints from your desired API at once. Not every app you wish to integrate will have an OpenAPI file available. If they do, you can generally retrieve this file from that vendor's public API documentation, or by reaching out to the vendor and asking for the file. If the file is only available as non-compliant YAML, you'll need to convert it to JSON before uploading. Compliant YAML may be imported as-is and will automatically be converted to JSON by Rewst.
+This is the preferred method, if possible, and allows you to import all endpoints from your desired API at once. The file will pre-populate many of the fields in the Rewst setup wizard. Not every app you wish to integrate will have an OpenAPI file available. If they do, you can generally retrieve this file from that vendor's public API documentation, or by reaching out to the vendor and asking for the file. If the file is only available as non-compliant YAML, you'll need to convert it to JSON before uploading. Compliant YAML may be imported as-is and will automatically be converted to JSON by Rewst.
 {% endcolumn %}
 
 {% column %}
@@ -85,12 +85,23 @@ Note that Rewst will automatically convert Swagger, which meets OpenAPI 2.0 stan
 For either method of custom integration, you'll need an SVG file of the logo of the tool you wish to integrate with Rewst. Have this file on hand before starting the setup process.
 {% endhint %}
 
-### To add OpenAPI integration
+### Steps to add a custom integration with an OpenAPI file
 
 1. Drag and drop your OpenAPI file into the upload box.&#x20;
 2. Click **Submit**.&#x20;
-3. Once you upload your file and there are no validation errors, you can start configuring your integration.
-4. If your actions are available, you'll see a new [organization mapping](https://docs.rewst.help/documentation/configuration/integrations#what-is-organization-mapping) menu appear at the bottom of the screen. Note that organization mapping will only appear if a paginated endpoint is in the integration. OpenAPI spec might not have the desired endpoint marked as paginated. In this case, you'll need to manually tag it as such when configuring the actions.
+3. Once you upload your file and there are no validation errors, you can start configuring your integration.&#x20;
+   1. Add a **Name** for your integration. Note that this name is what will show up as the accordion menu header for your integration's list of actions in the Workflow Builder. It shouldn't contain special characters.
+   2.  Upload an **Icon** via an SVG file. Other image file formats will not upload into Rewst. This icon will represent your custom integration across Rewst in the integration tile, actions menu, etc.&#x20;
+
+       <br>
+
+       <figure><img src="../../../../.gitbook/assets/Screenshot 2026-02-05 at 4.55.36 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+
+       4. Add a **Description**.
+       5. Click **Next**.
+       6. Enter the **hostname** of the API without https:// at the beginning of your URL. For example, API.example.com.
+4. You'll still be taken through the custom integration configuration process, which is outlined in the [#to-build-a-new-custom-integration-from-the-beginning](custom-integrations-v2.md#to-build-a-new-custom-integration-from-the-beginning "mention") section below, but will have most of the fields and selections in the process pre-populated for you, based on the information imported from the OpenAPI file.
+5. If your actions are available, you'll see a new [organization mapping](https://docs.rewst.help/documentation/configuration/integrations#what-is-organization-mapping) menu appear at the bottom of the screen. Note that organization mapping will only appear if a paginated endpoint is in the integration. OpenAPI spec might not have the desired endpoint marked as paginated. In this case, you'll need to manually tag it as such when configuring the actions.
 
 <figure><img src="../../../../.gitbook/assets/custom-integrations-step5.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -106,7 +117,7 @@ Examples of OpenAPI files for common custom integrations
 [Altera](https://docs.altera.co/openapi/quickstart)
 {% endhint %}
 
-### To build a new custom integration from the beginning
+### Steps to build a new custom integration without an OpenAPI JSON file
 
 1. Add a **Name** for your integration. Note that this name is what will show up as the accordion menu header for your integration's list of actions in the Workflow Builder. It shouldn't contain special characters.
 2. Upload an **Icon** via an SVG file. Other image file formats will not upload into Rewst. This icon will represent your custom integration across Rewst in the integration tile, actions menu, etc.&#x20;
