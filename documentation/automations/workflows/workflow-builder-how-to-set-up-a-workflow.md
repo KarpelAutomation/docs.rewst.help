@@ -97,7 +97,7 @@ Remember, once an action is placed on the canvas, we then call it a task.
       5. **Description**: A user-fillable text box for additional task information.&#x20;
       6. **Publish Result As**: A friendly name you assign for the task's results that you can use as an a context variable for calling it's content in future tasks.
    2. Four distinct tabs beneath the basic details:&#x20;
-      1. **Parameters**: Unique to each task, this tab houses options for defining the task's behavior during execution, including settings for endpoints, filters, conditions, and query parameters.
+      1. **Parameters**: Unique to each task, this tab houses options for defining the task's behavior during execution, including settings for endpoints, filters, conditions, and query parameters. Think of them like fill-in-the-blank options that make workflows adaptable.&#x20;
          1. Note the **Redact on Hover** setting for inputs that are set to **Password**. This can be toggled on or off via the ![](<../../../.gitbook/assets/Screenshot 2025-03-25 at 4.55.28 PM.png>).
       2. **Advanced**: In this tab, you'll set the rules for your task's path and behavior within the workflow. Options include Integration Overrides, Transition Mode, Task Transition Criteria Sensitivity, Run as Org, With Items, Items Concurrency, and Task Timeout. See more about this on the [Advanced Workflow Operations](advanced-workflow-operations-menu.md) page.
       3. **Mocking**: This tab provides the option to simulate the task's function with a user-defined result, useful for testing and debugging.
