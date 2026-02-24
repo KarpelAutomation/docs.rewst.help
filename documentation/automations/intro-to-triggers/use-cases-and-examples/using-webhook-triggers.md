@@ -12,8 +12,8 @@ When using webhook triggers, design your workflow with our [rate limiting policy
 
 Webhooks follow a simple process:
 
-1. An event happens, such as a new ticket is submitted.
-2. The webhook sends a message, called a payload, to a URL.
+1. An event happens, such as when a new ticket is submitted.
+2. The webhook sends a message with data to a URL.
 3. A workflow is triggered based on that message.
 
 ### **Webhook URLs**
