@@ -37,7 +37,7 @@ Once you create a workflow, you'll be taken to the [_workflow builder_](workflow
 
 ## Synced versus unsynced workflows
 
-Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
+Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. You have the option to unsync a workflow, which can be useful for using a Crate workflow as a building block for creating your own customized workflow. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
 
 ## View specific workflow results
 
@@ -71,7 +71,7 @@ To import a workflow bundled as a JSON file, click **Import Bundle** in the top 
 
 ## Subworkflows
 
-A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. Sub-workflows help you simplify complex processes, reuse logic, and manage error handling and data gathering cleanly in your Rewst automations. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).&#x20;
+A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. Subworkflows help you simplify complex processes, reuse logic, and manage error handling and data gathering cleanly in your Rewst automations. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).&#x20;
 
 In the example below, you have a main workflow called **Create Ticket**. In it, you choose which PSA the organization has. Once that has been decided, you then go to a subworkflow, which encompasses the actual creation of the ticket. Note the pink border and icon on the action, denoting that it is a subworkflow.
 
@@ -81,7 +81,9 @@ Click <img src="../../../.gitbook/assets/Subworkflow icon.png" alt="" data-size=
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 3.14.32 PM (1).png" alt="" width="563"><figcaption><p>The Subworkflow button, under the <strong>Attributes</strong> column of the workflows list page</p></figcaption></figure>
 
+To create your own subworkflow from scratch, simply create a new workflow in the Workflow Builder and publish it. That new workflow will appear in the **Workflows** section of the Workflow Builder's actions menu, and you can drag it onto any other Workflow Builder canvas to be used as a subworkflow.&#x20;
 
+<figure><img src="../../../.gitbook/assets/subworkflows gif.gif" alt="A moving image of a user scrolling down a left side rectangular menu to find their selection. The user then clicks and drags the desired item from a menu titled &#x27;Workflows&#x27; onto the right side of the screen, where it rests and appears as a new rectangle. It contains a pink circular icon to identify itself as a subworkflow." width="563"><figcaption><p>Remember, subworkflows will appear on your Workflow Builder canvas with a pink icon to help<br>you keep track of your tasks types.</p></figcaption></figure>
 
 There are a few reasons to set up subworkflows.
 
