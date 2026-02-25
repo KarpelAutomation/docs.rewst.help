@@ -59,9 +59,9 @@ In the right side menu, find the following information:
 * The workflow that will be unpacked with the Crate, and a clickable link to that workflow in Rewst
 * Confirmation or alert messaging to let you know if your existing installed integrations meet the requirements for this Crate
 * A list of the integrations required for the Crate to successfully work, with symbols next to each to let you know the status of those integrations
-  * grey - not installed
-  * orange - you've clicked on the integration tile to begin setup, but haven't entered in any configuration items
-  * green - the integration is installed and configured, which means that configurations are saved, and your integration prerequisite for unpacking the Crate is complete
+  * Grey - not installed
+  * Orange - you've clicked on the integration tile to begin setup, but haven't entered in any configuration items
+  * Green - the integration is installed and configured, which means that configurations are saved, and your integration prerequisite for unpacking the Crate is complete
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.11.55 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -125,11 +125,11 @@ We recommend starting out with synced Crates only until you’ve completed all o
 
 Modifying a Crate allows you to:
 
-* **Add functionality**: Insert steps before or after the main workflow to meet unique requirements.
-* **Simplify**: Remove unnecessary actions from a crate.
-* **Build upon the original design**: Use crates as a base for more complex automations.
-* **Orchestrate**: Integrate crates as sub-workflows into broader workflows.
-* **Adapt triggers/forms**: Customize user input experiences without affecting the core automation.
+* Add functionality: Insert steps before or after the main workflow to meet unique requirements. Add custom integration functionality to Crates that don't include your integration.
+* Simplify: Remove unnecessary actions from a Crate to speed up its run load.
+* Build upon the original design: Use crates as a template base for creating more complex automations.
+* Orchestrate: Integrate Crates as subworkflows into broader workflows.
+* Adapt triggers or forms: Customize user input experiences without affecting the core automation.
 
 ### How to tell if a workflow is synced and from a Crate
 
@@ -141,9 +141,9 @@ Modifying a Crate allows you to:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-21 at 5.45.04 PM.png" alt=""><figcaption><p>The <strong>Is Synchronized</strong> box, in a synced workflow</p></figcaption></figure>
 
-### Sync or unsync sub-workflows in a Crate
+### Sync or unsync subworkflows in a Crate
 
-Unsyncing a top level workflow doesn't affect the subworkflows inside it. They remain synced unless you unsync them individually. However, if you unsync a subworkflow and leave the top level synced, future updates to the crate will overwrite your changes. To avoid this, also unsync the parent workflow.
+Unsyncing a top level workflow doesn't affect the subworkflows inside it. They remain synced unless you unsync them individually. However, if you unsync a subworkflow and leave the top level synced, future updates to the Crate will overwrite your changes. To avoid this, you'll also need to unsync the parent workflow.
 
 {% hint style="info" %}
 [Completion handlers](../../documentation/automations/workflows/completion-handlers-and-workflow-wrappers.md) are a great, useful way to keep Crates synced while expanding functionality.
