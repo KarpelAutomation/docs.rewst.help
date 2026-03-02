@@ -187,6 +187,7 @@
   * [Production Crate list](documentation/crates/production-crate-list.md)
   * [Migrate between Crate versions](documentation/crates/migrating-between-crate-versions.md)
   * [Crate deprecation FAQ](prebuilt-automations/crates/crate-deprecation-faq.md)
+  * [Use a Crate with a custom integration](documentation/crates/use-a-crate-with-a-custom-integration.md)
   * [Crate guides](prebuilt-automations/existing-crate-documentation/README.md)
     * [1Stream Technician Toolbox Crate](documentation/crates/existing-crate-documentation/1stream-technician-toolbox-crate.md)
     * [Ad-Hoc Install/Uninstall Software via Chocolatey Crate](documentation/crates/existing-crate-documentation/ad-hoc-install-uninstall-software-via-chocolatey-crate.md)

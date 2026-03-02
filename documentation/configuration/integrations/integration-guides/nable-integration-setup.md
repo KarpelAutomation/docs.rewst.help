@@ -119,11 +119,9 @@ If you're writing custom PowerShell scripts to use and be run with your RMM inte
 
 
 $postData = $PS_Results | ConvertTo-Json
-
-Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
+Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; 
+charset=utf-8'
 ```
-
-## Test the integration
 
 1. Navigate to **Automation > Workflows** in Rewst.
 2. Create a new workflow and name it with something short and descriptive, such as `Test N-able Integration`.

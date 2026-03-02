@@ -108,8 +108,8 @@ If you're writing custom PowerShell scripts to use and be run with your RMM inte
 
 
 $postData = $PS_Results | ConvertTo-Json
-
-Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
+Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; 
+charset=utf-8'
 
 ```
 

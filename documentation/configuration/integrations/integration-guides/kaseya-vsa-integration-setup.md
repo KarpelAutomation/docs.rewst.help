@@ -77,10 +77,9 @@ The webhook calls everyone doing this custom scripting should use will always be
 ### Send all the data back to RewstyRewst ###
 
 
-
 $postData = $PS_Results | ConvertTo-Json
-
-Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; charset=utf-8'
+Invoke-RestMethod -Method 'Post' -Uri $post_url -Body $postData -ContentType 'application/json; 
+charset=utf-8'
 ```
 
 ## Actions and endpoints

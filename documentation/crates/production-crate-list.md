@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Production Crate list
 
 {% hint style="info" %}
