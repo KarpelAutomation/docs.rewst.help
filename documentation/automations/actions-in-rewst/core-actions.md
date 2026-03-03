@@ -658,9 +658,10 @@ The result includes all `book` tags where the `category` attribute is `children`
 Allows for the sending of an email.
 
 * **Parameters:** This action requires a sender prefix (`sender`), with multiple options available, the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also has the option to render markdown as HTML (`render_markdown`). You can also fully control the HTML of the email with `(Custom HTML)`. This can also reference a template using the `{{ template(“guid”) }}` function.&#x20;
-  * Note that if using the `Custom HTML` field, the message and title fields will be ignored
-  * You cannot upload images to Rewst, so any image will need to be externally referenced
-  * Emails will still be sent from the rewst.io domain
+  * Note that if you're using the `Custom HTML` field, the message and title fields will be ignored. \
+    ![](<../../../.gitbook/assets/Screenshot 2026-03-03 at 9.44.26 AM.png>)
+  * You cannot upload images to Rewst, so any image will need to be externally referenced via URL. The file format will need to follow the guidance for your particular email client, which is independent of Rewst. For example, Outlook does not accept PNG formatted files. For broader guidance for all email clients, we recommend using this resource called [caniemail](https://www.caniemail.com/features/).&#x20;
+  * Emails will still be sent from the rewst.io domain.
 * **Output:** The task doesn't yield an output upon success. It will fail if there are any errors during the process of sending the email.
 
 </details>
