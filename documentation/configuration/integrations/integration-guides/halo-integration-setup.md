@@ -6,15 +6,13 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the HaloPSA integration do?
 
-Our HaloPSA integration provides automation and workflow capabilities by connecting HaloPSA’s IT service management functions with Rewst’s automation platform. This integration allows users to manage and interact with various components of their PSA system directly from Rewst.
-
-### Why use the HaloPSA integration?
+Our HaloPSA integration provides automation and workflow capabilities by connecting HaloPSA’s IT service management functions with Rewst’s automation platform. This integration allows users to manage and interact with various components of their PSA system directly from Rewst. For example:&#x20;
 
 * A new support ticket is submitted in HaloPSA. A Rewst workflow can automatically classify the ticket, assign it to the correct team based on predefined criteria, and send an acknowledgment email to the customer.
 * When a new asset is assigned to a client, update inventory records. Rewst can capture the asset details and update HaloPSA records, ensuring real-time inventory tracking.
 * A new client signs a contract for IT services. Rewst can automatically create the client profile, set up relevant permissions, and initiate onboarding tasks.
 
-## Set up the HaloPSA Integration
+## Set up the HaloPSA integration
 
 ### Set up steps in HaloPSA
 

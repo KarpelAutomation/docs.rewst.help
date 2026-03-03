@@ -6,30 +6,114 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the HubSpot integration do?
 
-With our HubSpot integration, Rewst can synchronize data between any other integration and HubSpot, ensuring a unified view of customer interactions, leads, and sales processes.&#x20;
+With our HubSpot integration, synchronize data between any other integration and HubSpot, ensuring a unified view of customer interactions, leads, and sales processes.&#x20;
 
-## Why use the HubSpot integration?
+There are two ways to use HubSpot integration in Rewst.
 
-* Seamlessly import and export contacts, track customer interactions, and automate marketing campaigns.&#x20;
-* Enhance your customer engagement, nurture leads, and drive conversions, all within a single integrated platform.&#x20;
-* Efficiently manage their sales and marketing efforts, ultimately improving productivity and maximizing the potential of their customer relationships.
+1. Use the HubSpot app via a public version provided by Rewst. This still integrates into your own personal HubSpot accounts.
+2. Use the HubSpot app via a private version of your own HubSpot account. This setup method is more intensive, but offers several benefits:
+   1. Less likelihood of encountering rate limits
+   2. Full control of HubSpot scopes
+   3. Use of the generic HubSpot API Request action, which often requires additional scopes for success
 
-## Set up the HubSpot integration
+Decide which of these options is best for your desired use of HubSpot, then proceed to the relevant directions below.
+
+{% hint style="success" %}
+If you're a Rewst customer who set up their HubSpot integration prior to Rewst's feature update to include two options, you can uninstall and reinstall the HubSpot integration in Rewst to update your integration to the second private option.
+{% endhint %}
+
+## Set up the HubSpot integration: Rewst-provided HubSpot app
+
+### Set up steps in Rewst
 
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. Search for `HubSpot` in the integrations page.\
-   \
-   ![A visual card for "HubSpot" integration with Rewst, featuring the HubSpot logo. The description reads: “Enables automation of CRM tasks. Utilize the HubSpot API within Rewst workflows to perform actions such as retrieving CRM data or syncing contacts, opportunities and products with a PSA.” The card indicates it was last updated on April 3rd, 2024, and includes a category tag labeled "CRM" at the bottom. This is the view of the integration in the integrations collection.](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.58.43 PM.png>)
+2.  Search for `HubSpot` in the integrations page.\
+    <br>
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-03 at 11.54.13 AM.png" alt="" width="254"><figcaption></figcaption></figure>
 3. Click on the integration tile to launch the configuration setup page.
-4. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (2).png>) next to **Filters** to add filter criteria, if desired.
-5. Click **Authorize**.
-6. Sign in to HubSpot in the dialog that appears. Follow the prompts to complete the authorization.
-7. Click **Save Configuration**.
-8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+4. Leave the **Client ID** and **Client Secret** fields blank.&#x20;
+5. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (2).png>) next to **Filters** to add filter criteria, if desired.
+6. Click **Authorize**.
+7. Sign in to HubSpot in the dialog that appears. Follow the prompts to complete the authorization.
+8. Click **Save Configuration**.
+9. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+
+## Set up the HubSpot integration: Private HubSpot app
+
+### Set up steps in HubSpot
+
+1. Log in to your HubSpot Developer account.&#x20;
+2. Navigate to **Apps** in the left side menu.
+3.  Click **Create App**.<br>
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-03 at 12.00.46 PM.png" alt=""><figcaption></figcaption></figure>
+4. Enter a descriptive name into the **Public App Name** field. Optionally, add a **description.**
+5. Click the **Auth** tab.
+6. Scroll down the page to the **Redirect URLs** menu. Enter the following, which is the Rewst callback URL: [`http://engine.rewst.io/integrations/hubspot/callback`](http://engine.rewst.io/integrations/hubspot/callback) .
+7. Click **Create App**. You should see a confirmation dialog appear at the top of your screen if the app is created successfully.
+8.  Copy the following information that appears and store it somewhere secure. You'll need it for additional steps in Rewst.
+
+    1. **Client ID**&#x20;
+    2. **Client Secret**&#x20;
+
+
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-03 at 1.18.56 PM.png" alt=""><figcaption></figcaption></figure>
+9. Scroll down to the **Scopes** section of the **Auth** tab.
+10. Click **+ Add Scopes**.
+11. Search for and add the scopes required for your use case. For example, `crm.objects.contacts.read`, `tickets`, `automation`, etc.
+12. Ensure scopes match exactly what you intend to use in Rewst workflows. Requesting unnecessary scopes is not recommended.
+13. Make a list of the scopes you chose in a text file. Copy and paste them directly as they appear in HubSpot. You'll need this information for further steps in Rewst.
+14. Click **Update** to finalize your selections.
+
+### Set up steps in Rewst
+
+1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
+2.  Search for `HubSpot` in the integrations page.\
+    <br>
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-03 at 11.54.13 AM.png" alt="" width="254"><figcaption></figcaption></figure>
+3. Click on the integration tile to launch the configuration setup page.
+4. Enter the information copied from HubSpot into the relevant fields:
+   1. **Client ID**
+   2. **Client Secret**
+5. Enter the scopes you chose in HubSpot into the **Scopes** field. Enter one scope per line. The scopes must be a direct match for what was selected in HubSpot.
+6. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (2).png>) next to **Filters** to add filter criteria, if desired.
+7. Click **Authorize**.
+8. Sign in to HubSpot in the dialog that appears. Follow the prompts to complete the authorization.
+9. Click **Save Configuration**.
+10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+
+
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-03 at 11.55.36 AM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
+
+## Troubleshoot the HubSpot integration
+
+#### Verify the Connection
+
+Test the integration by running a simple workflow that calls a HubSpot action
+
+#### Scope mismatch errors&#x20;
+
+Ensure that the scopes in Rewst match exactly what's listed in your HubSpot app
+
+#### Invalid client error
+
+Double-check your Client ID and Secret for typos or missing characters, compared against what is stored in HubSpot.
+
+#### Redirect URI mismatch
+
+Make sure [`http://engine.rewst.io/integrations/hubspot/callback`](http://engine.rewst.io/integrations/hubspot/callback) is saved in HubSpot before authorizing.
+
+#### Token expiry
+
+Rewst handles token refresh automatically. If issues arise, try re-authorizing the integration.
 
 ## Triggers for HubSpot integration
 
@@ -48,9 +132,7 @@ HubSpot has optional scopes which aren't included in Rewst's standard integratio
 
 ![](<../../../../.gitbook/assets/image (325).png>)
 
-To remedy this if using the action, create a custom app in HubSpot. Then, take the API credentials from that custom app and input them into the Rewst integration.
-
-HubSpot's Create APP documentation can be found [here](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/create-an-app).
+If you wish to use the generic HubSpot API Request action, we recommend choosing the private app setup method for HubSpot integration.
 
 HubSpot's documentation on their scopes can be found [here](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes). <br>
 {% endhint %}
@@ -77,5 +159,3 @@ HubSpot's own API documentation can be found [here](https://developers.hubspot.c
 | **Deals**           | Create Deal               | create a hubspot deal                                                    |
 | **Deals**           | Update Deal               | update a hubspot deal                                                    |
 | **Generic Request** | HubSpot API Request       | Generic action for making authenticated requests against the HubSpot API |
-
-#### &#x20;<a href="#update-deal" id="update-deal"></a>

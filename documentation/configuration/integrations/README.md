@@ -32,6 +32,8 @@ Uninstall any installed integration by clicking the ⋮ on its integration tile.
 Clicking on any of the available integrations under the **Installed Integrations** section will automatically begin that installation.
 {% endhint %}
 
+The information needed to set up an integration will differ slightly for each integration. Some may ask for an API Key, while some may require you to list scopes or domains. The same basic principal applies for setting up all integrations: you'll pull information from the app you want to integrate with Rewst, input it into Rewst's configuration page for that integration, and link the two tools.
+
 Each of our integrations has a separate integration setup and configuration guide, organized by type of integrated tool in this documentation site under the **Documentation > Integrations > Individual integration documentation** section of the left side documentation menu.
 
 In the Rewst platform, search for any of Rewst’s integrations in the **Find Integrations** search bar at the top right of the Integrations page.

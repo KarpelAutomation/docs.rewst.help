@@ -8,9 +8,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Rewst's Hudu integration enables the automation of documentation management. Use the Hudu API within Rewst workflows to perform actions such as managing and documenting assets, websites, passwords, and procedures.
 
-### Why use the Hudu integration?
-
-* Document Microsoft enviornment
+* Document Microsoft environment
 * Document Rewst form URLs
 * Document Microsoft shared mailboxes
 * Document Microsoft user details

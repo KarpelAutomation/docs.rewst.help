@@ -8,11 +8,6 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Our Ingram Micro integration offers users a seamless and efficient way to access and manage cloud services and subscriptions. Users can streamline the procurement and provisioning processes, track usage and billing, and efficiently manage their cloud subscriptions, all from a single integrated platform.
 
-### Why use the Ingram Micro integration?
-
-* Add and remove licenses for users
-* License monitoring and management
-
 ## Set up the Ingram Micro integration
 
 ### Set up steps in Ingram Micro
