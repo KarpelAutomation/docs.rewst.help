@@ -3,8 +3,6 @@
 {% hint style="info" %}
 Note: Rewst supports [multi-instance integration](https://docs.rewst.help/documentation/configuration/integrations/multi-instance-integration/multi-instance-integration-setup) for Google Workspace Admin, but generally one instance of Google Workspace Admin is not multi-tenant. You may need a 1:1 relationship between an instance of this integration and a sub-tenant or a Rewst sub-org.
 
-Currently, Rewst does not support domain-wide delegation. The integration will only have access to resources that the user who authorized the integration has access to. In particular, there will be no Mailbox Delegation or personal Drive access for other user accounts.
-
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
