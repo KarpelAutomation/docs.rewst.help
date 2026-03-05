@@ -32,6 +32,6 @@ Explore what new changes the Training team has made in the last week.
   * Updated the URL note on the [Connectwise Pod Configuration](/broken/pages/eXviaeOE4WEnqJkVCBvd) page.
   * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](/broken/pages/OvVEg9r7yXR4xXrTyWXd)
   * Added Read-only information on the [How to Add or Remove Users](/broken/pages/IrioTtYQEfOSokjQBtjL) and [Roles](../../../documentation/settings/roles.md) pages.
-  * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/configuration/integrations/integration-guides/database-integration-setup.md) page.
+  * Updated the Bring Your Own Database script on the [Database Integration Setup](../../../documentation/configuration/integrations/integration-guides/database-integration-setup/) page.
 
 </details>

@@ -31,8 +31,6 @@ All per‑minute limits scale linearly with both units and SKU size.
 | **S1 / S2** | 100                       | \~20                                 |
 | **S3**      | 5 000                     | \~1 000                              |
 
-***
-
 ### Scenarios
 
 | Choose one                          | How to do it                                                                                                                                                     | Throughput                          | Cost example\*                                         |
