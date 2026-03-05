@@ -53,6 +53,14 @@ This action pauses the workflow and places it in an `Awaiting-User-Input` state.
 ![](<../../../.gitbook/assets/image (83).png>)
 
 * **Parameters:** This action requires the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also offers user interaction buttons (`buttons`) and has the option to render markdown as HTML (`render_markdown`).
+  * The parameters have several optional settings:
+    * Custom Button CSS - Custom CSS to be applied to the buttons
+    * Custom Footer - Custom footer to be displayed in the email. If not provided, this will default to the Rewst footer unless the footer is set to be removed.
+    * Custom Title CSS - Custom CSS to be applied to the title
+    * Logo Link - URL to go to if the logo is clicked. If not provided, this will default to [https://rewst.io](https://rewst.io/)
+    * Logo URI - String value URI of the logo to be displayed in the email. If not provided, this will default to the Rewst logo image. This is essentially providing a value for the src param of a img tag. You could also provide a base64 encoded value. The file format for your hosted file will need to follow the guidance for your particular email client, which is independent of Rewst. For example, Outlook does not accept PNG formatted files. For broader guidance for all email clients, we recommend using this resource called [caniemail](https://www.caniemail.com/features/).&#x20;
+    * Remove Footer - Removes the Rewst footer from the email
+    * Render Markdown - Renders markdown as HTML when set to **True**
 * **Output:** If the action is correctly executed, a confirmation email will be sent. Output variable `inquiry_result` is an output of the task and can be used to route the workflow in a specific path. `Inquiry_result` 's value is that of the button clicked, and is configured as a string value on the action itself in the workflow builder.
 
 <figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
@@ -64,14 +72,6 @@ This action pauses the workflow and places it in an `Awaiting-User-Input` state.
     * Danger; danger
   * Title class:
     * Title; title
-  * Customization options
-    * Custom Button CSS - control the CSS styling for the buttons.
-    * Custom footer - overwrite the default Rewst footer or remove the footer entirely.
-    * Custom Title CSS - customize the title CSS.
-    * Logo Link - customize the hyperlink for the logo image.
-    * Logo URI:
-      * This will take the link to the image itself.
-      * **TIP**: This is essentially providing a value for the src param of a img tag. You could also provide a base64 encoded value.
 * #### Example custom button CSS
 
 ```css
