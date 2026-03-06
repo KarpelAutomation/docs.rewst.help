@@ -66,11 +66,14 @@ The following parameters are available for editing in workflow trigger configura
 * **Response status**
   * HTTP status to return in response. `{{ REQUEST }}` may be used to access request data.
 * **Secret key**
-  * Required to Wait For Results. This value must be included in the header as x-rewst-secret when making calls to this webhook. You will receive a 401 if this field is filled out and the secret key is not provided when making the request. Secrets can be defined in the Organization Variables section of the UI.
-* **Wait for results**
-  * If true, this calls to the trigger endpoint will redirect to a results endpoint that will return the output of the workflow.
+  * Recommended to be used with Wait For Results. This value must be included in the header as x-rewst-secret when making calls to this webhook. You will receive a 401 if this field is filled out and the secret key is not provided when making the request. Secrets can be defined in the Organization Variables section of the UI.
+*   **Wait for results**
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2026-02-24 at 10.17.00 AM.png" alt=""><figcaption></figcaption></figure>
+    * If true, this calls to the trigger endpoint will redirect to a results endpoint that will return the output of the workflow.<br>
+
+
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-06 at 12.01.04 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## **Access data in a webhook trigger request**
 
@@ -118,8 +121,3 @@ Below is a real webhook payload that was received in a Rewst workflow. You can v
 ## Trigger criteria and webhook triggers
 
 Once you connect an external tool to Rewst with a webhook, you may run into a problem: too many workflows firing at once. Every webhook that hits your Rewst URL will start the workflow, even if the event isn’t important. That can quickly eat up task cost and make it harder to focus on what matters. [Trigger criteria](../trigger-criteria.md) solve this by acting as filters. They check the webhook data against conditions you set, and only start the workflow if those conditions are met. You can add as many conditions as you need, across any attributes available in the webhook data.&#x20;
-
-<br>
-
-\
-<br>
