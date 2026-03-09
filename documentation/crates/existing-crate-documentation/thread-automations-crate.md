@@ -34,12 +34,12 @@ Note that the individual setting up the integration must be an admin in Thread.
 
        <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.08.53 AM.png" alt=""><figcaption></figcaption></figure>
    * **Visibility filters**: Choose the **Specific clients** option to select your internal or test companies, or modify to specific client types as needed. If you would rather, choose **All clients**.&#x20;
-5.  Click **+Add form field** three times to create a total of four form fields, including the one that was available when you first created the intent. Name them each as follows:
+5.  Click **+Add form field** three times to create a total of four form fields, including the one that was available when you first created the intent. Name them each exactly as follows - the match must be exact for the Crate to work:
 
     1. `First Name`
     2. `Last Name`
     3. `Username`
-    4. `Email Address`&#x20;
+    4. `Email`
 
     Note that adding additional fields beyond what is indicated here will require you to configure the Thread wrapper to pass into the Rewst workflow.
 
