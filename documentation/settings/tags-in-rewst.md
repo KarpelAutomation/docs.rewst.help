@@ -48,8 +48,8 @@ For quick visual reference of categories, tags can be color coded.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 1.53.19 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Use cases for tags
+## Example use cases for tags
 
-Say you want better visual indicators for your long list of automations, not just text. For example, you could choose to make all Powershell workflows red.
-
-Tags can also be used to mark associations between pieces of a larger workflow. Consider a parent workflow which contains several child workflows and a form. Each piece of that parent workflow could be tagged with one tag. Then, you’d select that tag to isolate everything for just that one workflow, regardless of the pieces you used to create it.
+* Give better visual indicators for your long list of automations, not just text. For example, you could choose to make all Powershell workflows red.
+* Tags can also be used to mark associations between pieces of a larger workflow. Consider a parent workflow which contains several child workflows and a form. Each piece of that parent workflow could be tagged with one tag. Then, you’d select that tag to isolate everything for just that one workflow, regardless of the pieces you used to create it.
+* Try creating tags for the development status of a workflow: In Development, In Testing, In Production, etc. If your MSP has multiple builders on staff, different individuals will know not to edit or experiment on an In Production workflow, which could cause problems for their team.
