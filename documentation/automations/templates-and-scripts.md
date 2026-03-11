@@ -12,7 +12,35 @@ To access templates, navigate to **Automations > Templates** in the left side me
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 10.27.14 AM.png" alt=""><figcaption></figcaption></figure>
 
-Write templates in either Markdown or HTML language.
+Write templates in either Markdown or HTML language. Common examples of templates include:
+
+Jinja templates
+
+* Data transformations - Manipulating and formatting data between workflow tasks
+* Dynamic field values - Creating dynamic inputs for action parameters
+* Conditional logic - Building expressions for transitions and decision-making
+* Text/message generation - Formatting emails, tickets, notifications, etc.
+* List/dictionary comprehensions - Processing collections of data
+
+Workflow templates
+
+* Task configurations and parameters
+* Transition logic between tasks
+* Error handling patterns
+* Sub-workflow integration
+* With-items (loop) configurations
+
+Trigger configuration templates
+
+* Webhook triggers
+* Scheduled/cron triggers
+* Integration-specific triggers - e.g., ticket creation, form submission
+
+App Builder templates
+
+* Component configurations
+* Data binding expressions
+* Workflow integrations for apps
 
 ### Create a template
 
@@ -35,7 +63,7 @@ To access scripts, navigate to **Automations > Scripts** in the left side menu o
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 10.28.18 AM.png" alt=""><figcaption></figcaption></figure>
 
-Write Rewst scripts in any of the following languages: PowerShell, Python, YALM, Jinja.
+Write Rewst scripts in any of the following languages: PowerShell, Python, YALM, Jinja. All scripts are assigned a unique URL (GUID).
 
 ### Create a script
 

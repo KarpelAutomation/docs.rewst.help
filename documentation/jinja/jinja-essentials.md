@@ -245,9 +245,56 @@ This concise approach efficiently applies the squaring function to each item in 
 
 ### With Items
 
-_With Items_ is the equivalent to a `foreach`statement in other languages.
+_With Items_ is the equivalent to a `foreach` statement in other lanGet a list of inactive users for each client that we manage.guages. With this, you can pass a list of parameters into a certain action, based on the parameters of a specific task or subworkflow, collect the results from each, and then do something with that information. Learn more about how to achieve this in our [workflows documentation](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu?q=%22append+with+items%22#with-items).&#x20;
 
-With this, you can pass a number of objects into a certain action and collect the results from each and then do something. Learn more about how to achieve this in our [workflows documentation](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu?q=%22append+with+items%22#with-items).&#x20;
+With Items is sometimes but not always used in conjunction with [collected results](jinja-essentials.md#collected-results). Collected results only applies if the task or subworkflow is outputting something that you want in the result. Otherwise, you don't have to use it. Consider these two examples:
+
+`Delete every single user that's inactive.`&#x20;
+
+Since that action wouldn't give us anything back, you don't need to use collected results.
+
+`Get a list of inactive users for each client that we manage.`
+
+This would return a long list, and does require you to use collected results.
+
+### Collected results
+
+Each time a task or subworkflow runs using With Items, a new result section is created. Each new result section is stored in the task or subworkflow's collected results. Collected results is the list of all the results of a single With Items execution. To use multiple collected results in a single parent workflow, you would need to repeat the process for each subworkflow separately.&#x20;
+
+Choose which of the following two methods you would like to use for collected results. Both will net the same goal, and which you use is generally a matter of preference:
+
+#### Use syntax collected results
+
+1. Add a noop action to your Workflow Builder canvas; it's best practice to start with a noop to make it clear where your collected results will start. Name it something descriptive, following the format `<taskname>_collected_results`.&#x20;
+2. Add a transition between the noop task and your task or subworkflow so that it runs after the execution.&#x20;
+3. Create a data alias in the transition. Name it something descriptive that relates to the name you gave the noop, following the format `get_<taskname>_collected`_`_`_`results`.
+4. Click <img src="../../.gitbook/assets/Screenshot 2026-03-04 at 4.24.45 PM.png" alt="" data-size="line"> to open the Jinja editor.&#x20;
+5. Enter the following syntax to work with list comprehension and add a list of the group result inside of the modification\_results variable:
+
+```jinja
+{{
+[
+collected_result.result.<variable_name>
+for collected_result in TASKS.<nameoftaskorsubworkflow>.collected_results
+]
+}}
+```
+
+6. Use the following syntax to call the collected results, which will appear in the context if you have properly set up your data alias.
+
+```jinja
+{{ TASKS.<task_name>.collected_results }} 
+```
+
+#### Use publish result as
+
+1. Add a noop action to your Workflow Builder canvas; it's best practice to start with a noop to make it clear where your collected results will start. Name it something descriptive, following the format `get_<taskname>_collected_results`.&#x20;
+2. Add a transition between the noop task and your subworkflow so that it runs after the subworkflow.&#x20;
+3. Enter `pra_collected_results` in the publish result as field of the parameters for that noop. This will put the entire collected results into a single variable.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-09 at 3.09.42 PM.png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% hint style="info" %}
 Interested in seeing Jinja examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.
