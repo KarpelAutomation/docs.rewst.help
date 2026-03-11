@@ -22,7 +22,7 @@ View all previous Open Mic recordings on our website [here](https://rewst.io/res
 
 ## Latest NA Open Mic video recording
 
-{% embed url="https://youtu.be/PQhLC8GR11M?si=R55jw4yQiouh2eoH" %}
+{% embed url="https://youtu.be/hf8SrF04Wok?si=vUID9PkgjlUrZ_ia" %}
 
 ## Latest EU Open Mic video recording
 
