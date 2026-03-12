@@ -17,7 +17,7 @@ If you need to access multiple organizations with this integration, you'll also 
 * Define a default organization ID in the configuration form in Rewst
 * Map Rewst organizations to their JumpCloud counterparts
 
-For more details, see [JumpCloud’s documentation on multi-tenancy](https://jumpcloud.com/support/multi-tenancy).
+For more details, see [JumpCloud’s documentation on multi-tenancy](https://jumpcloud.com/support/multi-tenant-portal-for-msps).
 {% endhint %}
 
 ### Set up steps in JumpCloud

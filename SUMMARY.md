@@ -370,6 +370,7 @@
     * [Kaseya VSA integration](documentation/integrations/integration-guides/kaseya-vsa-integration-setup.md)
     * [Kaseya VSA X integration](documentation/integrations/integration-guides/kaseya-vsa-x-integration-setup.md)
     * [Leader Cloud integration](documentation/integrations/integration-guides/leader-cloud-integration.md)
+    * [Lexful integration](documentation/integrations/integration-guides/lexful-integration.md)
     * [Liongard integration](documentation/integrations/integration-guides/liongard-integration-setup.md)
     * [Mailgun integration](documentation/integrations/integration-guides/mailgun-integration-setup.md)
     * [Microsoft Cloud Integration Bundle](documentation/integrations/integration-guides/microsoft-cloud-integration-bundle/README.md)

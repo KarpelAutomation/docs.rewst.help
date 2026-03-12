@@ -6,8 +6,7 @@ To request Prebuilt Apps, send us a message in your dedicated Discord support ch
 
 ## What are Prebuilt Apps?
 
-Prebuilt Apps are your gateway to powerful, ready-made solutions that enhance your workflows and user experience. Think of them like App Builder's version of regular Rewst Crates: prepackaged applications meant to help you get started with App Builder, without having to build from scratch.\
-Each app is designed to help you streamline operations, improve user satisfaction, and unlock valuable insights.&#x20;
+Prebuilt Apps are your gateway to powerful, ready-made solutions that enhance your workflows and user experience. These are example apps meant to serve as starting points, giving you a foundation to customize and build from rather than starting from scratch. Each app is designed to help you streamline operations, improve user satisfaction, and unlock valuable insights.&#x20;
 
 As a bonus, you can customize your Prebuilt Apps by unpacking our [App Builder - Create Branding Variables Crate](../../crates/existing-crate-documentation/app-builder-create-branding-variables-crate.md), which lets you update your apps without manual CSS edits for a professional, client-ready appearance.
 

@@ -245,11 +245,11 @@ This concise approach efficiently applies the squaring function to each item in 
 
 ### With Items
 
-_With Items_ is the equivalent to a `foreach` statement in other lanGet a list of inactive users for each client that we manage.guages. With this, you can pass a list of parameters into a certain action, based on the parameters of a specific task or subworkflow, collect the results from each, and then do something with that information. Learn more about how to achieve this in our [workflows documentation](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu?q=%22append+with+items%22#with-items).&#x20;
+_With Items_ is the equivalent to a `foreach` statement in other languages. With this, you can pass a list of parameters into a certain action, based on the parameters of a specific task or subworkflow, collect the results from each, and then do something with that information. Learn more about how to achieve this in our [workflows documentation](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu?q=%22append+with+items%22#with-items).&#x20;
 
 With Items is sometimes but not always used in conjunction with [collected results](jinja-essentials.md#collected-results). Collected results only applies if the task or subworkflow is outputting something that you want in the result. Otherwise, you don't have to use it. Consider these two examples:
 
-`Delete every single user that's inactive.`&#x20;
+`Delete every single user that's inactive.`
 
 Since that action wouldn't give us anything back, you don't need to use collected results.
 
@@ -267,18 +267,17 @@ Choose which of the following two methods you would like to use for collected re
 
 1. Add a noop action to your Workflow Builder canvas; it's best practice to start with a noop to make it clear where your collected results will start. Name it something descriptive, following the format `<taskname>_collected_results`.&#x20;
 2. Add a transition between the noop task and your task or subworkflow so that it runs after the execution.&#x20;
-3. Create a data alias in the transition. Name it something descriptive that relates to the name you gave the noop, following the format `get_<taskname>_collected`_`_`_`results`.
+3. Create a data alias in the transition. Name it something descriptive that relates to the name you gave the noop, following the format `get_<taskname>_collected_results`.
 4. Click <img src="../../.gitbook/assets/Screenshot 2026-03-04 at 4.24.45 PM.png" alt="" data-size="line"> to open the Jinja editor.&#x20;
 5. Enter the following syntax to work with list comprehension and add a list of the group result inside of the modification\_results variable:
 
-```jinja
-{{
-[
-collected_result.result.<variable_name>
-for collected_result in TASKS.<nameoftaskorsubworkflow>.collected_results
-]
+<pre class="language-jinja"><code class="lang-jinja">{{
+<strong>    [
+</strong>        collected_result.result.&#x3C;variable_name>
+        for collected_result in TASKS.&#x3C;nameoftaskorsubworkflow>.collected_results
+    ]
 }}
-```
+</code></pre>
 
 6. Use the following syntax to call the collected results, which will appear in the context if you have properly set up your data alias.
 
