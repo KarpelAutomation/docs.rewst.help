@@ -23,11 +23,11 @@ This Crate requires valid users and permissions to be loaded before applying cha
 
 ## Crate prerequisites
 
-The Microsoft Exchange integration must first be successfully installed. This is a part of the Rewst [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+The Microsoft Exchange integration must first be successfully installed. This is a part of the Rewst [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).
 
 ## Unpack the Amend Calendar Permission on User Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2. Search for `Amend Calendar Permission on User`.\
    \
    ![](<../../../.gitbook/assets/image (135).png>)
@@ -39,7 +39,7 @@ The Microsoft Exchange integration must first be successfully installed. This is
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Rewst] Calendar Permissions`.
 3. Click **⋮ > View Direct URLs**.
 4. Click on the URL to launch the form in a new tab. If you've chosen to unpack this Crate for multiple organizations, be sure to choose the URL for the correct organization.

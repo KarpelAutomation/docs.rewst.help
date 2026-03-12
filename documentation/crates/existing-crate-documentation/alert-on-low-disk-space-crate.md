@@ -27,13 +27,13 @@ The workflow associated with this Crate runs per organization, via cron trigger.
 
 ## Crate prerequisites
 
-Your[ PSA must be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
-Your [RMM must be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst.
+Your [RMM must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst.
 
 ## Unpack the Alert on Low Disk Space Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu of the Rewst Platform.
 2. Search for `Alert on Low Disk Space`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-11-17 at 4.35.43 PM.png>)<br>

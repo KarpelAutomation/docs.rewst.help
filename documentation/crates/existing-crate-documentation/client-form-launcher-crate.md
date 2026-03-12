@@ -22,7 +22,7 @@ The automation kicks off via form submission:
 
 ## Unpack the Client Form Launcher Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Client Form Launcher`.
 
     \
@@ -36,7 +36,7 @@ The automation kicks off via form submission:
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets> Forms** in the left side menu of your Rewst platform.
 2. Search for `Get Form Links and Add to Ticket`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.

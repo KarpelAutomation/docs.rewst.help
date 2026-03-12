@@ -16,12 +16,12 @@ Contents of the ticket include:
 
 Before unpacking this Crate, you'll need to first successfully set up:
 
-* The [Nodeware](../../configuration/integrations/integration-guides/nodeware-integration.md) integration&#x20;
-* Your[ PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)
+* The [Nodeware](../../integrations/integration-guides/nodeware-integration.md) integration&#x20;
+* Your[ PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)
 
 ## Unpack the Nodeware: Alert To PSA Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Nodeware: Alert to PSA`.\
    \
    ![](<../../../.gitbook/assets/image (179).png>)

@@ -36,12 +36,12 @@ Easily manage permissions for mail-enabled mailboxes in your environment. This C
 
 ## Crate prerequisites
 
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * Your PSA must be [integrated with Rewst](https://docs.rewst.help/documentation/integrations/psa).
 
 ## Unpack the Amend Mailbox Permissions Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2. Search for the `Amend Mailbox Permissions` Crate.
 3.  Click on the Crate tile to begin unpacking.
 
@@ -65,7 +65,7 @@ Easily manage permissions for mail-enabled mailboxes in your environment. This C
 
 ### Access the form
 
-1. Navigate to **Automations** > **Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations** **> Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Rewst] M365: Amend Mailbox Permissions`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4.

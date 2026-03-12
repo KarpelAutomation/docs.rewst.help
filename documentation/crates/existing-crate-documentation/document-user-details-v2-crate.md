@@ -13,13 +13,13 @@ Our Document User Details V2 Crate streamlines the documentation of user informa
 
 ## Crate prerequisites
 
-[IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) must be integrated with Rewst prior to unpacking this Crate.
+[IT Glue](../../integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../integrations/integration-guides/hudu-integration-setup.md) must be integrated with Rewst prior to unpacking this Crate.
 
-The [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be integrated, and configured, with GDAP Relationships established for your customers.
+The [Microsoft Cloud Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be integrated, and configured, with GDAP Relationships established for your customers.
 
 ## Unpack the Document User Details V2 Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for the `Document User Details V2` Crate.\
    \
    ![](<../../../.gitbook/assets/image (157).png>)
@@ -48,7 +48,7 @@ The workflow is designed to run at the MSP level organization. The workflow will
 
 1. Click **test** in the top right corner of the page.
 2. Select your MSP organization and click **Test**.
-3. Navigate to **Automation > Results** to view the workflow execution. Failed tasks in the record would indicate that the Crate is not working.
+3. Navigate to **Automations > Results** to view the workflow execution. Failed tasks in the record would indicate that the Crate is not working.
 
 ## Troubleshoot the Document User Details V2 Crate
 

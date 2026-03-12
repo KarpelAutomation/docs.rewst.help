@@ -4,7 +4,7 @@
 For users of Azure OpenAI instance
 
 Note that this Crate works for both OpenAI and OpenAI with an Azure instance.\
-In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../configuration/integrations/integration-guides/openai/azure-openai-integration-setup.md) steps and follow the below steps. \
+In order to use the Azure instance, you will need to follow the [Azure OpenAI Integration Setup](../../integrations/integration-guides/openai/azure-openai-integration-setup.md) steps and follow the below steps. \
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
 
@@ -55,21 +55,21 @@ The Crate workflow is triggered by a **webhook** whenever a new ticket is create
 ## Crate prerequisites
 
 * Before unpacking the Crate, you'll need to have the integration for one of the following PSAs set up:
-  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-  * [Datto PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-  * [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+  * [Datto PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+  * [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
+  * [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
 
 &#x20;If you're using a PSA that isn't on this list, please let us know and we'll look at whether it has the ability to trigger an automation based on a ticket being created.
 
 * You'll also need to have the one of the following AI integrations set up in Rewst before unpacking this Crate:
-  * [OpenAI](../../configuration/integrations/integration-guides/openai/openai-integration-setup.md)&#x20;
-  * [Anthropic](../../configuration/integrations/integration-guides/anthropic-integration.md)
+  * [OpenAI](../../integrations/integration-guides/openai/openai-integration-setup.md)&#x20;
+  * [Anthropic](../../integrations/integration-guides/anthropic-integration.md)
 * Remember, you can also set up an Azure instance of OpenAI, and use that with this Crate. If you want to use an Azure instance of OpenAI with this Crate, you'll need to follow the Azure OpenAI Integration Setup steps to have this completed before unpacking.
 
 ## Unpack the AI Ticket Sentiment Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu of the Rewst platform.
 2. Search for `AI Ticket Sentiment Analysis`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-12-02 at 12.08.20 PM.png>)<br>

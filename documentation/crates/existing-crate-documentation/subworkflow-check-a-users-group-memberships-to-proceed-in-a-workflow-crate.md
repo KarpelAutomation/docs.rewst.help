@@ -34,7 +34,7 @@ The Crate uses the Microsoft Graph API Request action to get all groups a user b
 
 ## Crate prerequisite
 
-The [Microsoft Cloud integration bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/), which contains our Microsoft Graph integration, must successfully be installed before unpacking this Crate.
+The [Microsoft Cloud integration bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/), which contains our Microsoft Graph integration, must successfully be installed before unpacking this Crate.
 
 ## Example Jinja template for checking membership
 
@@ -55,7 +55,7 @@ jinja
 
 ## Unpack the Subworkflow: Check a User's Group Memberships to Proceed in a Workflow Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Sub-workflow: Check a User's Group Memberships to Proceed in a Workflow`.
 
     \

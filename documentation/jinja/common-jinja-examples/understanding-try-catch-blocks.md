@@ -23,7 +23,7 @@ In this example, the try block attempts to display the variable `data`. If `data
 
 ### **Best practices for try-catch blocks**
 
-1. **Specific error handling:** Consider specifying the types of errors to catch within the catch block. This allows for tailored responses to different types of errors.
-2. **Informative error messages:** Craft clear and informative error messages within the catch block. This aids in debugging and provides valuable insights into the nature of the error.
-3. **Graceful Degradation:** Use try-catch blocks to enable your workflow to fail gracefully. By capturing errors, you can prevent complete failures and provide users with useful information about the problem.
+1. Specific error handling: Consider specifying the types of errors to catch within the catch block. This allows for tailored responses to different types of errors.
+2. Informative error messages: Craft clear and informative error messages within the catch block. This aids in debugging and provides valuable insights into the nature of the error.
+3. Graceful Degradation: Use try-catch blocks to enable your workflow to fail gracefully. By capturing errors, you can prevent complete failures and provide users with useful information about the problem.
 

@@ -17,7 +17,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>Bug fixes and chores</strong></summary>
 
 * **Integrations**
-  * Fixed datetime formatting issues in [ConnectWise PSA integration](../../../documentation/configuration/integrations/integration-guides/connectwise-integration-setup.md)
+  * Fixed datetime formatting issues in [ConnectWise PSA integration](../../../documentation/integrations/integration-guides/connectwise-integration-setup.md)
   * Resolved a ConnectWise PSA API issue with Opportunity ID handling
 * Crates
   * Template overrides now only apply to fields that have been modified, allowing unmodified fields to receive updates from the parent template

@@ -10,11 +10,11 @@ Our Microsoft 365 Quarantine Email Release Crate has a technician fill out a for
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Microsoft 365 Quarantine Email Release Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Microsoft 365 Quarantine`.\
    \
    ![](<../../../.gitbook/assets/image (175).png>)

@@ -83,15 +83,15 @@ Optionally, you can set the organization variable `pax8_license_removal_exclusio
 
 Before unpacking this Crate:
 
-The[ Pax 8 integration](../../configuration/integrations/integration-guides/pax8-integration-setup.md) must first successfully be set up in Rewst .
+The[ Pax 8 integration](../../integrations/integration-guides/pax8-integration-setup.md) must first successfully be set up in Rewst .
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up to enable the Microsoft Graph integration with Rewst.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up to enable the Microsoft Graph integration with Rewst.
 
-Your[ PSA must be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
+Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
 
 ## Unpack the Alert on Unused M365 Licenses Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu of the Rewst Platform.
 2. Search for `Alert on Unused M365 Licenses`.\
    \
    ![](<../../../.gitbook/assets/image (133).png>)

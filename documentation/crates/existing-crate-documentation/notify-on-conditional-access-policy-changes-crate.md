@@ -16,14 +16,14 @@ This Crate monitors Microsoft 365 Conditional Access Policy changes and generate
 
 Before unpacking this Crate:
 
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * You must have access to Conditional Access Policies via Microsoft Graph API
 * Set up email configuration for notifications, if using email alerts
-* Your [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be configured, if using ticket notifications
+* Your [PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be configured, if using ticket notifications
 
 ## Unpack the Notify on Conditional Access Policy Changes Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Notify on Conditional Access Policy Changes`.\
    \
    ![](<../../../.gitbook/assets/image (180).png>)

@@ -23,12 +23,12 @@ The Crate workflow is triggered by the Duo Agreement Mapping Form.
 
 The following integrations must be set up before unpacking this Crate:
 
-* [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Duo integration](../../configuration/integrations/integration-guides/duo-integration-setup.md)
+* [ConnectWise PSA integration](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Duo integration](../../integrations/integration-guides/duo-integration-setup.md)
 
 ## Unpack the Configure ConnectWise PSA Agreement for Duo Sync Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Configure ConnectWise PSA Agreement for Duo Sync Crate`.<br>
 
     <img src="../../../.gitbook/assets/Screenshot 2026-01-21 at 5.08.45 PM.png" alt="" data-size="original"><br>
@@ -40,7 +40,7 @@ The following integrations must be set up before unpacking this Crate:
 
 ### Use the Crate <a href="#use-the-crate" id="use-the-crate"></a>
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[ROC] ConnectWise Manage - Map & Sync Duo Users w/ Agreement`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization that contains the user you wish to manage. This will launch the form in a new tab.

@@ -23,9 +23,9 @@ We try to provide an estimate of the setup time for each Crate, whenever possibl
 
 ## Find and use Crates in Rewst’s Crate Marketplace
 
-Rewst's Crate Marketplace is the submenu where you'll find our ever-growing collection of Crates. Access it in the left side menu of the platform by navigating to **Crates > Crate Marketplace**.
+You'll find our ever-growing collection of Crates in our Crate Marketplace. Access it in the left side menu of the platform by navigating to **Marketplace > Crates**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-22 at 10.59.16 AM.png" alt=""><figcaption><p>The Crate Marketplace screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-06 at 10.05.12 AM.png" alt="Screenshot of the Rewst Marketplace Crates page with a dark-themed interface, showing a left navigation menu, a top search bar and filter options, and a grid of crate cards displaying automation solutions with titles, descriptions, tags, icons, and download counts."><figcaption><p>The Crate Marketplace screen</p></figcaption></figure>
 
 In the Crate Marketplace screen, you can:
 
@@ -65,7 +65,7 @@ In the right side menu, find the following information:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.11.55 PM.png" alt=""><figcaption></figcaption></figure>
 
-* If the Crate requires [organization variables](../../documentation/configuration/organization-variables.md#what-is-an-organization-variable), these required variables will be shown in a section at the bottom of the right side menu. Crates that don't require organization variables won't have this section.&#x20;
+* If the Crate requires [organization variables](../../documentation/integrations/organization-variables.md#what-is-an-organization-variable), these required variables will be shown in a section at the bottom of the right side menu. Crates that don't require organization variables won't have this section.&#x20;
 
 {% hint style="warning" %}
 You have the option to unpack a Crate even if your required integrations or organization variables aren't set up. Rewst will ask you to check a box to acknowledge that the minimum requirements haven't been met, then let you click **Unpack Crate** without those requirements.&#x20;
@@ -135,9 +135,9 @@ Modifying a Crate allows you to:
 
 * The left-side panel shows no editable actions when you are viewing the workflow. Instead, it contains a message letting you know it's cloned and synchronized.
 * A warning appears when testing the workflow: **This workflow is synchronized. No changes will be saved.**
-* The **Is synchronized** box will be checked in the workflow settings menu. Additionally, view the status in the **Attributes** column of the main workflow list page. Synced workflows will be listed as **Clone (sync)**.
+* The **Is synchronized** box will be checked in the workflow settings menu. Additionally, view the status in the **Attributes** column of the main workflow list page. Synced workflows will be listed as **Clone (sync)**.<br>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-21 at 5.47.05 PM.png" alt=""><figcaption></figcaption></figure>
+![Screenshot of the Workflow details panel in the Rewst Workflows interface, showing crate and clone information for a workflow, including notices about synchronization limits, the source crate and workflow links, and a dark-themed layout with a left navigation sidebar.](<../../.gitbook/assets/Screenshot 2026-03-06 at 10.07.12 AM.png>)
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-21 at 5.45.04 PM.png" alt=""><figcaption><p>The <strong>Is Synchronized</strong> box, in a synced workflow</p></figcaption></figure>
 

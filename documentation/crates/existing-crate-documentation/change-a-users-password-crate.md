@@ -41,19 +41,19 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 
 ## Crate prerequisites
 
-* Your[ PSA must be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
-* Your [RMM integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be integrated with Rewst.
-* The `psa_default_board_id` [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) must be added
+* Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
+* Your [RMM integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be integrated with Rewst.
+* The `psa_default_board_id` [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable) must be added
 * The `default_psa` organization variable must be added
 
 ## Unpack the Change a User’s Password Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Change a User’s Password`.
 3. Click on the Crate tile to begin unpacking.\
    \
    ![](<../../../.gitbook/assets/image (139).png>)
-4. Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the **Required Org Variables** section, as seen in the screenshot below. An [organization variable without a check mark will still need to be set up](../../configuration/organization-variables.md#what-is-an-organization-variable) before proceeding with unpacking the Crate. When confirmed, click **Unpack Crate**.
+4. Ensure that you have the required org variables setup for the Crate. Ready org variables will have a checkmark next to them under the **Required Org Variables** section, as seen in the screenshot below. An [organization variable without a check mark will still need to be set up](../../integrations/organization-variables.md#what-is-an-organization-variable) before proceeding with unpacking the Crate. When confirmed, click **Unpack Crate**.
 5. Click **Continue**.
 6. Click **Unpack**.
 
@@ -71,7 +71,7 @@ Integration overrides will automatically be added during the Crate's unpacking p
 
 ### Use the form
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[REWST - PROC] User: Change Password`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.

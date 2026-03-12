@@ -16,12 +16,12 @@ This Crate allows for straightforward enablement or disablement of mailbox forwa
 
 ## Crate prerequisites
 
-* Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Enable / Disable Mailbox Forwarding Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Enable / Disable Mailbox Forwarding`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-23 at 3.42.35 PM.png>)<br>
@@ -33,7 +33,7 @@ This Crate allows for straightforward enablement or disablement of mailbox forwa
 
 The Crate runs off of form submission.&#x20;
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets> Forms** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Set Email Forwarding`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains your relevant user and computer. This will launch the form in a new tab.

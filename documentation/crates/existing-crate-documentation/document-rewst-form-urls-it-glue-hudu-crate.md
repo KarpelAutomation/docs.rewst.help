@@ -14,11 +14,11 @@ Our Document Rewst Form URLs (IT Glue/Hudu) Crate takes your Rewst form URLs and
 
 ## Crate prerequisites
 
-[IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) must be integrated with Rewst prior to unpacking this Crate.
+[IT Glue](../../integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../integrations/integration-guides/hudu-integration-setup.md) must be integrated with Rewst prior to unpacking this Crate.
 
 ## Unpack the Document Rewst Form URLs (IT Glue/Hudu) Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for the `Document Rewst Form URLs` Crate.
 3. Click on the Crate tile to begin unpacking.\
    \
@@ -50,7 +50,7 @@ The workflow is designed to run at the MSP level organization. The workflow will
 
 1. Click **test** in the top right corner of the page.
 2. Select your MSP organization and click **Test**.
-3. Navigate to **Automation > Results** to view the workflow execution.
+3. Navigate to **Automations > Results** to view the workflow execution.
 4.  Navigate to your relevant documentation tool's portal and ensure that the documentation is present.
 
     1. The new asset type created in Hudu will be called **Rewst Forms**.\
@@ -63,7 +63,7 @@ The workflow is designed to run at the MSP level organization. The workflow will
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables). To review how to add and edit organization variables, see our documentation [here](../../configuration/organization-variables.md#edit-or-delete-existing-organization-variables).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables). To review how to add and edit organization variables, see our documentation [here](../../integrations/organization-variables.md#edit-or-delete-existing-organization-variables).&#x20;
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below, are typically system variables that are handled by integration mappings.
 

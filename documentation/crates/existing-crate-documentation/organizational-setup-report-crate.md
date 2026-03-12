@@ -12,7 +12,7 @@ Find the [webhook](https://docs.rewst.help/documentation/automations/intro-to-tr
 
 ## Unpack the Organizational Setup Report Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Organizational Setup Report`.\
    \
    ![](<../../../.gitbook/assets/image (184).png>)

@@ -1,7 +1,7 @@
 # Use a Crate with a custom integration
 
 {% hint style="info" %}
-For more on custom integrations, read our introductory documentation [here](../configuration/integrations/custom-integrations/), and our guide to setting up custom integrations [here](../configuration/integrations/custom-integrations/custom-integrations-v2.md).&#x20;
+For more on custom integrations, read our introductory documentation [here](../integrations/custom-integrations/), and our guide to setting up custom integrations [here](../integrations/custom-integrations/custom-integrations-v2.md).&#x20;
 {% endhint %}
 
 If your PSA or RMM doesn't natively integrate with Rewst, or you want to use another tool from your stack with the platform, and you've set it up as a custom integration, you can still use Rewst Crates. Doing so will require you to [unsync the Crate](../../prebuilt-automations/crates/#synced-versus-unsynced-crates) or part of the Crate's workflow, which we consider to be an advanced skill in Rewst. We strongly recommend that you read through and acquaint yourself with all steps and considerations associated with this scenario before attempting it in Rewst.&#x20;
@@ -44,11 +44,11 @@ For some Crates, this may involve unsyncing one or two subworkflows, while for o
 
 ### Example steps
 
-1. Set up the [Microsoft Cloud Integration Bundle](../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
+1. Set up the [Microsoft Cloud Integration Bundle](../integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
 2. Follow instructions [here](existing-crate-documentation/microsoft-user-onboarding-crate-v2/) to unpack the Microsoft: User Onboarding Crate.&#x20;
 3. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 4. Search for and open the `[REWST - PROC] Microsoft: User Onboarding` workflow.&#x20;
-5. Use [RoboRewsty](../rewst-tools/roborewsty.md) to identify which tasks in the Crate are related to either the needed PSA or RMM— whichever tool you're using with custom integration in Rewst. Be sure to monitor the chat as RoboRewsty works to give approval as needed.
+5. Use [RoboRewsty](../roborewsty/) to identify which tasks in the Crate are related to either the needed PSA or RMM— whichever tool you're using with custom integration in Rewst. Be sure to monitor the chat as RoboRewsty works to give approval as needed.
    1. Ask "Look through this workflow and all subworkflows in this workflow and give me a list of every task that involves an RMM integrated with Rewst." or,
    2. Ask "Look through this workflow and all subworkflows in this workflow and give me a list of every task that involves a PSA integrated with Rewst."
    3. Copy the returned list to a text file or other permanent location for easy access.&#x20;

@@ -15,9 +15,7 @@ App Builder works best for users who have some existing skills in HTML and CSS. 
 
 App Builder is an extension of Rewst’s automation platform that allows MSPs to quickly build front-end web applications for interacting with Rewst-generated data from workflows, forms, and data. Apps consist of _pages_, and pages are made up of _components_ like images, text, forms, tables, and charts. Use App Builder to drive additional efficiency, consistency, and visibility gains, and differentiate your personal brand through engaging front-end experiences.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 2.56.45 PM (1).png" alt=""><figcaption><p>The App Builder menu of the Rewst Platform</p></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.12.34 PM.png" alt="Screenshot of the Apps page in the Rewst App Builder section, showing a dark-themed interface with a left navigation menu, a top search bar and Create New App button, and a table listing apps with domain names, update details, attributes, status indicators, and action controls."><figcaption></figcaption></figure>
 
 ## Why use App Builder?
 
@@ -27,7 +25,7 @@ Design app screens or pages by dragging and dropping UI components such as text 
 
 Access App Builder by navigating to **App Builder** **> Apps** in the left side menu of your Rewst Platform.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-13 at 5.04.57 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.14.43 PM.png" alt=""><figcaption></figcaption></figure>
 
 The center of the App Builder screen contains a list of all your apps. Click either the name of the app or **>** to the right of your app to open its profile and info screen.&#x20;
 

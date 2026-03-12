@@ -4,6 +4,8 @@ The **Permissions** menu contains several different submenus for managing permis
 
 {% hint style="info" %}
 See our [separate documentation here](../../support-and-community/roc-support/rewst-support-allow-write-access.md) for the purpose and use of the **Rewst Support Access** submenu.&#x20;
+
+Permissions menus are only available for admin users of Rewst.
 {% endhint %}
 
 Roles settings can be accessed in the Rewst platform by navigating to **Settings** **>** **Permissions** **>** **Roles**. Rewst has several different role choices available when [adding a user](user-management.md#add-and-remove-users-from-rewst):
@@ -15,7 +17,7 @@ Roles settings can be accessed in the Rewst platform by navigating to **Settings
 
 Scroll down for definitions of each.
 
-<figure><img src="../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p>The Permissions menu screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Permissions UI.png" alt=""><figcaption><p>The Permissions menu screen, visible to the Admin role only</p></figcaption></figure>
 
 ### Admin role
 

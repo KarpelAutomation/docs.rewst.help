@@ -127,7 +127,7 @@ When determining how much time to set for any given process, it's a good practic
 ### Add, edit, or delete workflow notes
 
 {% hint style="info" %}
-Rewst now also offers our [RoboRewsty](document-with-roborewsty.md) note taking feature, to automate your documentation. Choose to document manually, or with RoboRewsty. &#x20;
+Rewst now also offers our [RoboRewsty](../../roborewsty/document-with-roborewsty.md) note taking feature, to automate your documentation. Choose to document manually, or with RoboRewsty. &#x20;
 {% endhint %}
 
 Notes are a great way to jot down your thinking behind workflow aspects, and an essential step to building workflows for any team that has multiple employees editing workflows. They save in the workflow itself, and can be viewed via the <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.06 PM (1).png" alt="" data-size="line"> notes button by anyone who has permissions to edit that workflow. These boxes provide a title and a markdown editor.

@@ -28,11 +28,11 @@ This workflow must be run once at your top level organization to create the requ
 
 ## Crate prerequisites
 
-Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 ## Unpack the Windows 11 Compatibility Checker Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Windows 11 Compatibility Checker`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (316).png>)
@@ -44,7 +44,7 @@ Your [PSA must be successfully integrated](../../configuration/integrations/top-
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[REWST] Windows 11 Compatibility Report`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization, which contains the user you wish to manage. This will launch the form in a new tab.

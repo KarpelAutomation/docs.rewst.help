@@ -12,12 +12,12 @@ Our ConnectWise PSA Agreement Mapping Crate synchronizes users into Connectwise 
 
 Before unpacking this Crate:
 
-* Rewst’s [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be set up.
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/), which contains our Microsoft Graph integration, must be successfully set up.
+* Rewst’s [ConnectWise PSA integration](../../integrations/integration-guides/connectwise-integration-setup.md) must be set up.
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/), which contains our Microsoft Graph integration, must be successfully set up.
 
 ## Unpack the ConnectWise PSA Agreement Mapping Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `ConnectWise PSA Agreement Mapping`.\
    \
    ![](<../../../.gitbook/assets/image (146).png>)

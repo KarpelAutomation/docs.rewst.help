@@ -17,7 +17,7 @@ The Technical Toolbox Crate gives your technicians access to a wide range of too
 
 Before unpacking this Crate:
 
-* Your [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be successfully set up.
+* Your [ConnectWise PSA integration](../../integrations/integration-guides/connectwise-integration-setup.md) must be successfully set up.
 * You must configure the pod to work with Rewst. Follow our guide for pod configuration [here](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup#connectwise-psa-pod-configuration).
 
 ## Unpack the Crate

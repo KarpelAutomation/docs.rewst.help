@@ -28,7 +28,7 @@ The workflow requires three input parameters: a ticket ID for tracking, the sele
 
 ## Crate prerequisites <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-Before unpacking this Crate, you'll need to have successfully integrated your [RMM](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) and [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Before unpacking this Crate, you'll need to have successfully integrated your [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) and [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 {% hint style="warning" %}
 Note that this Crate does not work with SuperOps PSA. \
@@ -38,7 +38,7 @@ Your RMM must have agents installed on or access to your Active Directory domain
 
 ## Unpack the Bulk Move Users to Specified OU Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Bulk Move Users to Specified OU`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (273).png>)
@@ -50,7 +50,7 @@ Your RMM must have agents installed on or access to your Active Directory domain
 
 ### Use the Crate <a href="#use-the-crate" id="use-the-crate"></a>
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `Move User OU`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.

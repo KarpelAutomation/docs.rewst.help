@@ -23,7 +23,7 @@ This Crate leverages powerful native integrations within Rewst to ensure seamles
 
 ## Unpack the Automation Toolkit Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Automation Toolkit`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (317).png>)

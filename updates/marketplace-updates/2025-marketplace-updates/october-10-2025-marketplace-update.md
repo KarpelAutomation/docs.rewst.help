@@ -6,7 +6,7 @@
 
 <summary><strong>New Crates and enhancements</strong></summary>
 
-* [SecureCloud](../../../documentation/configuration/integrations/integration-guides/opentext-secure-cloud-integration.md) has been added to the user onboarding workflow of our [Microsoft User Onboarding Crate](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/). Check out this Crate's documentation to learn about the new functionality.
+* [SecureCloud](../../../documentation/integrations/integration-guides/opentext-secure-cloud-integration.md) has been added to the user onboarding workflow of our [Microsoft User Onboarding Crate](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/). Check out this Crate's documentation to learn about the new functionality.
 
 </details>
 
@@ -45,8 +45,7 @@
 * DropSuite Backup Monitoring
 * Various DropSuite Additions
 * 1Stream Technician Toolbox
-
-- Workstation Offboarding
+* Workstation Offboarding
 
 </details>
 

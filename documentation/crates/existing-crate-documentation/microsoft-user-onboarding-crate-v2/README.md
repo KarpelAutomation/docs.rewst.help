@@ -213,8 +213,8 @@ Before unpacking the Microsoft: User Onboarding Crate, make sure that the follow
 * [PSA Integration](https://docs.rewst.help/documentation/integrations/psa) must be setup. This is required for automated ticket creation and ticket updates. This is optional.
 * [Documentation Integrations](https://docs.rewst.help/documentation/integrations/documentation) must be set up if you wish to create documentation in your knowledge base. This is optional.
 * [Licensing integrations](https://docs.rewst.help/documentation/integrations/licensing) should be completed if you wish to set up automated license purchases. Configure Pax8, Ingram Micro, Sherweb, or Synnex. This is optional.
-* [OpenText SecureCloud](../../../configuration/integrations/integration-guides/opentext-secure-cloud-integration.md) must be integrated with Rewst if you wish to use OpenText SecureCloud with this Crate. This is optional.
-* [ArrowSphere](../../../configuration/integrations/integration-guides/arrowsphere-integration.md) must be integrated with Rewst if you wish to use this Crate for user license purchasing. This is optional.
+* [OpenText SecureCloud](../../../integrations/integration-guides/opentext-secure-cloud-integration.md) must be integrated with Rewst if you wish to use OpenText SecureCloud with this Crate. This is optional.
+* [ArrowSphere](../../../integrations/integration-guides/arrowsphere-integration.md) must be integrated with Rewst if you wish to use this Crate for user license purchasing. This is optional.
 
 ### Overview of required context variables and organizational variables
 
@@ -442,7 +442,7 @@ If not set, your organization's default settings will be applied.
 
 ## Unpack the Crate
 
-1. Navigate to **Crates > Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2.  Search for `Microsoft: User Onboarding`.
 
 
@@ -451,7 +451,7 @@ If not set, your organization's default settings will be applied.
 3. Click on the Crate to open the details page.
 4. Click **Unpack Crate**, then **Continue**.
 5. Click **Unpack**. Note that this is a large Crate, and the process may take a few minutes.
-6. The [organization variable](../../../configuration/organization-variables.md#manually-add-a-new-organization-variable) `user_onboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
+6. The [organization variable](../../../integrations/organization-variables.md#manually-add-a-new-organization-variable) `user_onboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
 
 ## Use the Crate
 
@@ -459,7 +459,7 @@ If not set, your organization's default settings will be applied.
 
 Once the Crate is unpacked, use the onboarding form to create new users.
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Search for `[Crate] Microsoft: User Onboarding`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the form link for the organization where you want to create a new user.
@@ -475,7 +475,7 @@ Once the Crate is unpacked, use the onboarding form to create new users.
 
 ### **Verify user creation and assignments**
 
-| **Verification step**                           | **Expected outcome**                                             |
+| Verification step                               | Expected outcome                                                 |
 | ----------------------------------------------- | ---------------------------------------------------------------- |
 | **Active Directory (On-Prem AD Only / Hybrid)** | User appears in **Active Directory Users & Computers (ADUC)**.   |
 | **Azure AD (Cloud / Hybrid)**                   | User is created in **Microsoft Entra ID (Azure AD)**.            |
@@ -487,11 +487,10 @@ If a user does not appear in AD or Azure AD, check the **workflow execution logs
 
 ### **Confirm ticket and documentation updates**
 
-| **Verification step**                 | **Expected outcome**                                                              |
-| ------------------------------------- | --------------------------------------------------------------------------------- |
-| **PSA Ticket Creation**               | A new ticket is created in **ConnectWise, Autotask, Halo PSA, ServiceNow, etc.**. |
-| **Ticket Updates**                    | The ticket logs **user details, group assignments, and licensing information**.   |
-| **External Documentation (Optional)** | User credentials are stored in **ITGlue, Hudu, or Passportal**, if enabled.       |
+| **PSA Ticket Creation**               | A new ticket is created in ConnectWise, Autotask, Halo PSA, ServiceNow, etc.. |
+| ------------------------------------- | ----------------------------------------------------------------------------- |
+| **Ticket Updates**                    | The ticket logs user details, group assignments, and licensing information.   |
+| **External Documentation (Optional)** | User credentials are stored in ITGlue, Hudu, or Passportal, if enabled.       |
 
 {% hint style="success" %}
 If the ticket was not created or updated, verify that [PSA integration is configured correctly](https://docs.rewst.help/documentation/integrations/psa).
@@ -880,7 +879,7 @@ The following templates define approval processes, ticket summaries, and structu
 ## Migration guide: Moving from a previous onboarding Crate
 
 {% hint style="warning" %}
-☝️If you’re using a previous version of the onboarding workflow, follow these migration steps below. If this is your first time using this Crate, this information isn't relevant to you.
+If you’re using a previous version of the onboarding workflow, follow these migration steps below. If this is your first time using this Crate, this information isn't relevant to you.
 {% endhint %}
 
 {% content-ref url="../../migrating-between-crate-versions.md" %}

@@ -12,12 +12,12 @@ Our Identify Users in Bypass Mode Crate identifies all users that are in bypass 
 
 Before unpacking this Crate:
 
-* Our [Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md) integration must be set up.
-* Your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be successfully integrated with Rewst.
+* Our [Duo](../../integrations/integration-guides/duo-integration-setup.md) integration must be set up.
+* Your [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be successfully integrated with Rewst.
 
 ## Unpack the Identify Users in Bypass Mode Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Identify Users in Bypass Mode`\
    \
    ![](<../../../.gitbook/assets/image (160).png>)

@@ -14,7 +14,7 @@ Expand the reach of your forms by embedding them into various web pages, providi
 
 ## View forms in Rewst
 
-Access all forms, be they manually created by you or obtained as part of unpacking Crates, by navigating to **Automations > Forms** in the left side menu.
+Access all forms, be they manually created by you or obtained as part of unpacking Crates, by navigating to **Automations > Assets > Forms** in the left side menu.
 
 <figure><img src="../../../.gitbook/assets/Forms home.png" alt=""><figcaption><p>An example of what your forms page might look like</p></figcaption></figure>
 

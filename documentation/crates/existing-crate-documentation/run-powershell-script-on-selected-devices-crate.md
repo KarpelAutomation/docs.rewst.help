@@ -18,11 +18,11 @@ The Crate contains a form that is used to choose your device and trigger the run
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll need to successfully integrate both your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) and [RMM](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst.&#x20;
+Before unpacking this Crate, you'll need to successfully integrate both your [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) and [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst.&#x20;
 
 ## Unpack the Run PowerShell Script on Selected Devices Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Run PowerShell Script on Selected Devices`**.**\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 9.32.25 AM.png>)<br>
@@ -34,7 +34,7 @@ Before unpacking this Crate, you'll need to successfully integrate both your [PS
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `Run Ad-Hoc PowerShell on Computer`.
 3. Click **⋮ > Usages > View Direct URLs**.&#x20;
 4. Click on the link for the organization which contains your relevant user. This will launch the form in a new tab.

@@ -4,7 +4,7 @@
 See our FAQ on Crate version deprecation [here](../../prebuilt-automations/crates/crate-deprecation-faq.md).&#x20;
 {% endhint %}
 
-## Considerations when migrating
+## Considerations when migrating Crates
 
 When officially migrating to a newer version of a Crate, various items should be taken into consideration as part of this process. Below is a common list of actionable items to consider when migrating.
 

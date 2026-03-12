@@ -2,21 +2,27 @@
 
 ## What is a Rewst user?
 
-A _user_ in Rewst is an individual. That individual will be allowed to interact with Rewst in some way, as dictated by their [role](roles.md). Users should not be confused with [organizations](../configuration/organization-variables.md).
+A _user_ in Rewst is an individual. That individual will be allowed to interact with Rewst in some way, as dictated by their [role](roles.md). Users should not be confused with [organizations](../integrations/organization-variables.md).
 
 ## View users in Rewst
 
 To access users in Rewst, navigate to **Settings > Users** in the left side menu of your Rewst platform.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 3.42.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.19.56 PM.png" alt="Screenshot of the Users page in Rewst Settings, showing a dark-themed interface with a left navigation menu, a top search bar, and a table listing users with email addresses, status, roles, creation details, test user indicators, and action icons."><figcaption><p>The organizations list page, viewed by a Member role</p></figcaption></figure>
 
 Filter your list of users by any of the column header criteria. Click ![](<../../.gitbook/assets/Screenshot 2025-03-25 at 3.43.51 PM.png>) at the top right of the user management screen to open a submenu with options to **Add or remove columns** via checkbox selection.
 
-Clicking the ![](<../../.gitbook/assets/Screenshot 2025-03-25 at 3.45.17 PM.png>)in the **Actions** column for any user opens up editing capabilities for that user. If you have permissions which allow you to make roll changes, adjust their role using the **Roles** drop-down selector.
+Click the ![](<../../.gitbook/assets/Screenshot 2025-03-25 at 3.45.17 PM.png>)in the **Actions** column for any user to open up editing capabilities for that user. If you have permissions which allow you to make roll changes, adjust their role using the **Roles** drop-down selector.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 3.47.26 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Add and remove users from Rewst
+
+{% hint style="warning" %}
+Admin Rewst permissions are required to add or delete a user. If you don't have the correct permissions, certain buttons and editing functionality won't appear as an option for you in Rewst.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/user invite image.png" alt=""><figcaption></figcaption></figure>
 
 Adding users into Rewst allows them access to build workflows, view forms, or update configuration items, like integrations or organization variables. When adding a user, there are 4 different roles, each with their own clearly defined permission options:
 
@@ -36,10 +42,7 @@ To give a user at your organization access, first double check that the selected
 From there, you can follow these steps:
 
 1. Navigate to **Settings > Users**.
-2.  Click the **+** icon to add the user.\
-    <br>
-
-    <figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 5.04.07 PM (1).png" alt=""><figcaption><p>The view of the expanded <strong>Users</strong> menu, before clicking <strong>+</strong> to add a new user</p></figcaption></figure>
+2. Click **Invite User** to add the user.
 3. Enter the **Email** of the user.
 4. Select their role from the list in the **Roles** drop down the menu.
 5. Check the **Send Email** checkbox on or off, to suit your needs.
@@ -58,7 +61,7 @@ Change the organization by clicking the selector arrow in the drop down organiza
 ## Remove a user or customer
 
 {% hint style="warning" %}
-Admin or member Rewst permissions are required to remove a user. If needed, re-add a removed user by inviting them again. Removing a user won’t remove any workflows they’ve built or delete any activity in the platform, such as results of workflows or edits they made to forms.
+If needed, re-add a removed user by inviting them again. Removing a user won’t remove any workflows they’ve built or delete any activity in the platform, such as results of workflows or edits they made to forms.
 {% endhint %}
 
 1. Navigate to **Settings > Users**.
@@ -66,7 +69,7 @@ Admin or member Rewst permissions are required to remove a user. If needed, re-a
 3.  Confirm that you want to **Delete** in the confirmation dialog that appears.\
     <br>
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 5.21.06 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-03-06 at 9.58.17 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Add a large batch of users
 

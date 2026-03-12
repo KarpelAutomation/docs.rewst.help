@@ -212,8 +212,8 @@ Extended mode adds support for **filters and comparisons** — allowing you to q
 
 #### Usage tips
 
-* **Simple mode** (`extended=False`) is faster and safe for all Rewst workflow operations, including redaction.
-* **Extended mode** (`extended=True`) adds filters, conditions, and regex — great for debugging or complex data exploration.
+* Simple mode (`extended=False`) is faster and safe for all Rewst workflow operations, including redaction.
+* Extended mode (`extended=True`) adds filters, conditions, and regex — great for debugging or complex data exploration.
 * Always start with `$` (the root).
 * Use wildcards `[*]` and slices `[start:end]` to extract lists.
 * Wrap uncertain paths in `{% try %}...{% catch %}` to avoid render errors.

@@ -12,12 +12,12 @@ The Cork: Compliance Event to PSA Ticket Crate scans Cork compliance events dail
 
 Before unpacking this Crate, you must first:
 
-* Set up the [Cork integration](../../configuration/integrations/integration-guides/cork-integration.md)
-* Set up your[ PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)
+* Set up the [Cork integration](../../integrations/integration-guides/cork-integration.md)
+* Set up your[ PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)
 
 ## Unpack the Cork: Compliance Event to PSA Ticket Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Cork: Compliance Event To PSA Ticket`.\
    \
    ![](<../../../.gitbook/assets/image (148).png>)

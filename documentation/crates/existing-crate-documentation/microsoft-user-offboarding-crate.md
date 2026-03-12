@@ -41,7 +41,7 @@ This Crate does the following tasks:
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ### Identity provider configuration
 
@@ -52,7 +52,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 
 ## Set up the Microsoft: User Offboarding Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Microsoft: User Offboarding`.
 3. Click on the Crate tile to begin unpacking.\
    \
@@ -60,7 +60,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Click **Unpack.**
-7. The [organization variable](../../configuration/organization-variables.md#manually-add-a-new-organization-variable) `user_offboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
+7. The [organization variable](../../integrations/organization-variables.md#manually-add-a-new-organization-variable) `user_offboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
 
 ## Use the Microsoft: User Offboarding Crate
 
@@ -186,7 +186,7 @@ Entry: Workflow complete, attempting ticket update. - Status: 1000
 ## Org variables in use for the Microsoft: User Offboarding Crate
 
 {% hint style="info" %}
-For information specific to these org variables please review our guidance organization variables [here](../../configuration/organization-variables.md).&#x20;
+For information specific to these org variables please review our guidance organization variables [here](../../integrations/organization-variables.md).&#x20;
 
 Note that org variables not found in the organization variables documentation are typically system variables that are handled by the integration mappings.
 

@@ -16,12 +16,12 @@ Our Triage SentinelOne Tickets Crate streamlines the process of matching Sentine
 
 ## Crate prerequisites
 
-* An active [SentinelOne integration](../../configuration/integrations/integration-guides/sentinelone-integration-setup.md) with Rewst
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) integration with Rewst
+* An active [SentinelOne integration](../../integrations/integration-guides/sentinelone-integration-setup.md) with Rewst
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md) integration with Rewst
 
 ## Unpack the Triage SentinelOne Tickets Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Triage SentinelOne Tickets`.\
    \
    ![](<../../../.gitbook/assets/image (193).png>)

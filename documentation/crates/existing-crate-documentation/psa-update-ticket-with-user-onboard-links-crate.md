@@ -24,15 +24,15 @@ This workflow is initiated when a ticket that matches the set trigger criteria i
 
 You'll first need to have your PSA successfully integrated before unpacking. This Crate works with:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [Dato Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
-* [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [Dato Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
+* [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
 
 ## Unpack the Crate <a href="#unpack-the-amend-mailbox-permissions-crate" id="unpack-the-amend-mailbox-permissions-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `PSA: Update Ticket With User Onboard Links`.
 3. Click on the Crate tile to begin unpacking.\
    \

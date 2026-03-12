@@ -27,7 +27,7 @@ While the pre-built workflows in Crates are the quickest way to get started, a w
 Access workflows in the Rewst platform by navigating to **Automations > Workflows** in the left side menu. Create a new workflow from scratch by clicking **Create Workflow**.\
 <br>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.37.00 PM (2).png" alt="A screenshot of a dashboard interface labeled &#x27;Workflows&#x27; showing a list of workflows with details including &#x27;Updated At&#x27;, &#x27;Updated By&#x27;, &#x27;Time Saved&#x27;, and options to configure each workflow. The left sidebar contains navigation options."><figcaption><p>The workflows list page, without any filters applied</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-05 at 3.58.51 PM.png" alt="Screenshot of the Workflows list view in the Rewst Automations section, showing a dark-themed interface with a left navigation menu, a top search bar and Create Workflow button, and a table of workflows with colored tags, attributes, update details, and configuration actions."><figcaption><p>The workflows list page, without any filters applied</p></figcaption></figure>
 
 The list of workflows that appears in the center of your screen will include both the workflows you create and the workflows unpacked from Crates. As you continue to set up automation in Rewst, this list can grow quite a bit. The **Updated At**, **Updated By**, **Attributes**, and [**Tags**](https://docs.rewst.help/documentation/workflows/tags-in-rewst) columns each offer the option to filter your results by relevant criteria, with attributes and tags filters operating for both inclusion and exclusion of desired parameters. You can also use **Search** in the top center of your screen to find a particular workflow, and the <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 6.09.13 PM.png" alt="" data-size="line"> icon to the right to choose which columns you'd like to see in your workflow list.
 
@@ -170,8 +170,8 @@ Results for subworkflows are nested inside published results for workflows. For 
 [boolean-logic-in-rewst-workflows.md](boolean-logic-in-rewst-workflows.md)
 {% endcontent-ref %}
 
-{% content-ref url="document-with-roborewsty.md" %}
-[document-with-roborewsty.md](document-with-roborewsty.md)
+{% content-ref url="../../roborewsty/document-with-roborewsty.md" %}
+[document-with-roborewsty.md](../../roborewsty/document-with-roborewsty.md)
 {% endcontent-ref %}
 
 {% content-ref url="../kits/" %}

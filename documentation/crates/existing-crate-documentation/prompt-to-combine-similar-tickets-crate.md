@@ -28,11 +28,11 @@ There are two relationship types associated with this Crate.
 
 ## Crate prerequisites
 
-You'll need to first successfully integrate [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) with Rewst before unpacking this Crate.
+You'll need to first successfully integrate [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md) with Rewst before unpacking this Crate.
 
 ## Unpack the Prompt to Combine Similar Tickets Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Prompt to Combine Similar Tickets`.\
    \
    ![](<../../../.gitbook/assets/image (185).png>)

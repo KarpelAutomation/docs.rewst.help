@@ -12,9 +12,8 @@ Explore what new changes the Cluck University team made in the last week.
   * Sarthak, Karl, Sven, Monte, and Abraham for passing the Clean Automation Certification.
     * And our very own Michael and JD from Rewst
   * Take the [Clean Automation](https://learn.rewst.io/clean-automation-certification) exam and get that fancy certificate!
-
-- Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
-- Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours)  to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
+* Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
+* Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours)  to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
 
 </details>
 
@@ -31,7 +30,7 @@ Explore what new changes the Cluck University team made in the last week.
 **New and updated documentation pages:**
 
 * Expanded guidance for App Builder components, including custom components: [App Builder: Components](../../../documentation/app-builder/components.md)
-* Updated setup guidance for our Pax8 integration: [Pax8 integration](../../../documentation/configuration/integrations/integration-guides/pax8-integration-setup.md)
+* Updated setup guidance for our Pax8 integration: [Pax8 integration](../../../documentation/integrations/integration-guides/pax8-integration-setup.md)
 * [Assign Autotask Configuration Contact Based on Last Logged In User Crate](../../../documentation/crates/existing-crate-documentation/assign-autotask-configuration-contact-based-on-last-logged-in-user-crate.md)
 * Documentation on our [Generic GraphQL request action](../../../documentation/automations/actions-in-rewst/generic-graphql-request-action.md)
 

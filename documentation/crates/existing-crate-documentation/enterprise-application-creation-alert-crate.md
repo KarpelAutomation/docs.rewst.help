@@ -27,12 +27,12 @@ This Crate automates the monitoring of new enterprise applications in Microsoft 
 
 ## Crate prerequisites
 
-* Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Enterprise Application Creation Alert Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Enterprise Application Creation Alert`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-11-18 at 10.43.10 AM.png>)<br>

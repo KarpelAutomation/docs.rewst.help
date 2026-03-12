@@ -26,10 +26,10 @@ These are the essential platform components like webhooks, email dispatching, an
 
 ### Integrations actions
 
-When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. See our [individual integration setup pages](../../configuration/integrations/) for more information on available actions.
+When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. See our [individual integration setup pages](../../integrations/) for more information on available actions.
 
-{% content-ref url="../../configuration/integrations/" %}
-[integrations](../../configuration/integrations/)
+{% content-ref url="../../integrations/" %}
+[integrations](../../integrations/)
 {% endcontent-ref %}
 
 ### Rewst actions

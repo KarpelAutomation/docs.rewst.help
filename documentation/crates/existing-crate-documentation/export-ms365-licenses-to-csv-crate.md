@@ -17,12 +17,12 @@ This Crate is designed to automate the audit of Microsoft 365 licenses within a 
 
 ## Crate prerequisites
 
-* Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Export MS365 Licenses to CSV Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Export MS365 Licenses to CSV`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 10.01.26 AM.png>)<br>

@@ -43,15 +43,15 @@ You have the option to configure the audit window via a trigger variable named `
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be installed before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be installed before unpacking this Crate.
 
 Entra ID Premium P1 or P2 license is required to use this Crate.
 
-Your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be integrated with Rewst.
+Your [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) must be integrated with Rewst.
 
 ## Unpack the Alert on Login From Non Native Country Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2. Search for `Alert on Login From Non Native Country`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-19 at 11.52.23 AM.png>)

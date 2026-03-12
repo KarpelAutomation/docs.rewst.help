@@ -1,7 +1,5 @@
 # Conditional statements and logical operators
 
-## **Introduction**
-
 In the context of Jinja templating, conditional statements and logical operators are vital tools for creating dynamic and responsive templates. This article provides an in-depth exploration of `if`, `elif`, and `else` statements, as well as the logical operators `and`, `or`, and `not` within the framework of Jinja.
 
 ### **Understand `if`, `elif`, and `else` statements in Jinja**

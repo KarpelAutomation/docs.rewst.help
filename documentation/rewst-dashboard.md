@@ -8,7 +8,9 @@ The Rewst Dashboard is the home screen you'll see when you first log into the pl
 
 Use the dashboard to easily digest key metrics for every workflow executed within a selected timeframe and better understand how Rewst is bringing you value. Identify usage patterns, success rates, and estimated time savings.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-06-23 at 11.53.49 AM.png" alt="A data dashboard displaying two bar graphs. The top graph represents performance metrics with light blue bars, while the bottom graph shows time spent with purple bars. Both graphs have numeric values and axes, indicating various data points."><figcaption><p>The top of the Rewst Dashboard screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-05 at 3.56.39 PM.png" alt="Screenshot of the Rewst dashboard analytics view showing February 2026 metrics, including charts for tasks performed, time saved, and workflow status. The dashboard is depicted in three shades of dark blue, with bar graph in the center of the screen to display the month&#x27;s information."><figcaption><p>The top of the Rewst Dashboard screen</p></figcaption></figure>
+
+
 
 Choose to view the data in your desired timespan by clicking the relevant button at the top right of the dashboard for either **Weekly** or **Monthly** views. Note that the default for the dashboard timeline is monthly. Click **<** or **>** next to the indicated date to skip between date ranges. Click **Download CSV** to export the report to a file.
 

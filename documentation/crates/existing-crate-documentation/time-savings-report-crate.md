@@ -10,7 +10,7 @@ Boost your team's efficiency with our Time Savings Report Crate, designed to tur
 
 ## Unpack the Time Savings Report Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Time Savings Report`**.**\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-08-26 at 2.11.01 PM.png>)

@@ -23,8 +23,8 @@ Kits are a newer Rewst feature, and still in Beta. Check back as we expand our k
 [halo-psa-integration-kit.md](halo-psa-integration-kit.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md" %}
-[kaseya-bms-integration-setup.md](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+{% content-ref url="../../integrations/integration-guides/kaseya-bms-integration-setup.md" %}
+[kaseya-bms-integration-setup.md](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
 {% endcontent-ref %}
 
 {% content-ref url="microsoft-offboarding-solution-kit.md" %}

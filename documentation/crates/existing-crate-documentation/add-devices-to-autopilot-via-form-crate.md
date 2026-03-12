@@ -20,11 +20,11 @@ Our Add Devices to Autopilot via Form Crate simplifies the process of adding dev
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Add Devices to Autopilot via Form Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2.  Search for `Add Devices to Autopilot via Form`.
 
     \
@@ -39,7 +39,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Endpoint: Add Devices to Autopilot`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization, which contains the user you wish to manage. This will launch the form in a new tab.
@@ -69,7 +69,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5. The following fields will show:
    * `force_default` **-** This field is used in form configurations to control whether a form field should use a predefined default value from organization variables. When set to `true`, it tells the form to use the corresponding `form_default_*` organization variable as the default value for that field.
-   * `byod_object_type` **-** This field is related to the [Bring Your Own Database](../../configuration/integrations/integration-guides/database-integration-setup/byod-for-dattormm.md) or BYOD integration feature. BYOD is used to improve performance when RMM APIs are slow by caching data in a local database.
+   * `byod_object_type` **-** This field is related to the [Bring Your Own Database](../../integrations/integration-guides/database-integration-setup/byod-for-dattormm.md) or BYOD integration feature. BYOD is used to improve performance when RMM APIs are slow by caching data in a local database.
 6. Click **Test**.
 7. Allow the workflow to run.
 8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.

@@ -28,8 +28,8 @@ This Crate focuses on simplifying common software management tasks, but doesn't 
 
 ## Crate prerequisites
 
-* Your [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst must be set up
-* [RMM integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst that supports PowerShell script execution
+* Your [PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst must be set up
+* [RMM integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst that supports PowerShell script execution
 
 ## Unpack the Ad-Hoc Install/Uninstall Software via Chocolatey Crate
 
@@ -37,7 +37,7 @@ This Crate focuses on simplifying common software management tasks, but doesn't 
 2. Search for `Ad-Hoc Install/Uninstall Software via Chocolatey`.\
    \
    ![](<../../../.gitbook/assets/image (206).png>)
-3. Click on the Crate tile to begin unpacking and ensure that the required [org variables](../../configuration/organization-variables.md#what-is-an-organization-variable) of `default_PSA` and `default_RMM`  are added.\
+3. Click on the Crate tile to begin unpacking and ensure that the required [org variables](../../integrations/organization-variables.md#what-is-an-organization-variable) of `default_PSA` and `default_RMM`  are added.\
    \
    ![](<../../../.gitbook/assets/image (101).png>)
 4. On the configuration form, select your PSA Integration from the drop-down menu.\

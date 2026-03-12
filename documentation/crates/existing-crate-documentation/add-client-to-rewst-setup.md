@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Add Client to Rewst Crate in our Crate Marketplace.\
-This page will cover how to add a new child organization with the Add Client to Rewst Crate. You can find  instructions for all ways of adding new organizations [here](../../configuration/organization-variables.md#what-is-an-organization).
+This page will cover how to add a new child organization with the Add Client to Rewst Crate. You can find  instructions for all ways of adding new organizations [here](../../integrations/organization-variables.md#what-is-an-organization).
 {% endhint %}
 
 ## What does the Add Client to Rewst Crate do?
@@ -23,7 +23,7 @@ The Add Client to Rewst Crate lets you easily use a form to add a new child orga
 
 ## Unpack the Add Client to Rewst Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu of the Rewst platform.
 2.  Search for `Add Client to Rewst`.
 
     \
@@ -39,7 +39,7 @@ The Add Client to Rewst Crate lets you easily use a form to add a new child orga
 
 After unpacking, use the Crate's form to add a new child organization.
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `Add New Client to Rewst`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.

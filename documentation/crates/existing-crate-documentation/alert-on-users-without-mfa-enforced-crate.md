@@ -40,21 +40,21 @@ Our Alert on Users Without MFA Enforced Crate gathers a list of users and checks
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 Your PSA must be successfully integrated with Rewst. PSAs that work with this Crate include:
 
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [SuperOps](../../configuration/integrations/integration-guides/superops-integration.md)
-* [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [ServiceNow](../../configuration/integrations/integration-guides/servicenow-integration-setup.md)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [SuperOps](../../integrations/integration-guides/superops-integration.md)
+* [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [ServiceNow](../../integrations/integration-guides/servicenow-integration-setup.md)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
 
 ## Unpack the Alert on Users Without MFA Enforced Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2. Search for `Alert on Users Without MFA Enforced`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (265).png>)
@@ -93,7 +93,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](../../configuration/organization-variables.md).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).&#x20;
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 

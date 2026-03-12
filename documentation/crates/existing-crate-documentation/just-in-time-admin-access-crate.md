@@ -35,9 +35,9 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 
 ## Crate prerequisites
 
-* Your PSA must be [integrated with Rewst](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations).
+* Your PSA must be [integrated with Rewst](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations).
 * An open ticket must exist in your PSA.
-* For Microsoft 365 setup, our [Microsoft Cloud integration bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be successfully integrated with your Rewst platform.
+* For Microsoft 365 setup, our [Microsoft Cloud integration bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must first be successfully integrated with your Rewst platform.
 * For Active Directory setup, you’ll need to first set up your [RMM integration](https://docs.rewst.help/documentation/integrations/rmm), or [Agent Smith](https://docs.rewst.help/documentation/agent-smith).
 * The organization variables listed here must be set before unpacking this Crate:
   * **default\_PSA** - This should be set in the parent MSP tenant. It tells the Crate which ticketing system your MSP is using.&#x20;
@@ -50,7 +50,7 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 
 ## Unpack the **Just-in-Time Admin Access** Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Just-in-Time Admin Access`**.**
 
 ![](<../../../.gitbook/assets/Screenshot 2025-12-22 at 12.12.43 PM.png>)<br>
@@ -70,7 +70,7 @@ This Crate is ideal for MSPs managing client environments securely and efficient
 
 To get to the form to create a temporary administrative account:
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for **`[Rewst] Just-In-Time Admin Access`**.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
@@ -156,7 +156,7 @@ Both processes are fully automated, reducing manual workload while enforcing sec
 
 If you need to retrieve the username and password for the temporary admin account from Rewst directly for any reason, follow these steps. The process differs slightly depending on whether the request was for On-Premises Active Directory or Microsoft 365.
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for **`[Rewst] Just-In-Time Admin Access`**.
 3. Click **⋮ > Usages**.
 4. Click on the link **\[Rewst] Just-In-Time Admin Access v2**, in the **Workflow** column.

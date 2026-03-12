@@ -21,17 +21,17 @@ This Crate allows your team to select a ticket, identify the software in questio
 
 ## Crate prerequisites
 
-* Your [ImmyBot integration](../../configuration/integrations/integration-guides/immybot-integration-setup.md) with Rewst must successfully be set up before unpacking this Crate.
+* Your [ImmyBot integration](../../integrations/integration-guides/immybot-integration-setup.md) with Rewst must successfully be set up before unpacking this Crate.
 * You'll need a successfully installed PSA integration for one of the following PSAs:
-  * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
-  * [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-  * [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)&#x20;
+  * [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
+  * [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+  * [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
+  * [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)&#x20;
 
 ## Unpack the Uninstall Ad-Hoc Software Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Uninstall Ad-Hoc Software`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-17 at 10.42.46 AM.png>)
@@ -44,7 +44,7 @@ This Crate allows your team to select a ticket, identify the software in questio
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[ROC] ImmyBot - Uninstall Ad-Hoc Software`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains your relevant device. This will launch the form in a new tab.

@@ -14,18 +14,18 @@ The Crate starts by listing all devices in the RMM. Each device then undergoes a
 
 ## Crate prerequisites
 
-* You must have the [Acronis](../../configuration/integrations/integration-guides/acronis-integration.md) integration set up before unpacking this Crate.
+* You must have the [Acronis](../../integrations/integration-guides/acronis-integration.md) integration set up before unpacking this Crate.
 * Optionally, you could integrate your RMM with Rewst, which would allow for problem reporting capabilities. RMM types compatible with this Crate are:
-  * [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
-  * [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
-  * [ConnectWise ASIO](../../configuration/integrations/integration-guides/connectwise-asio-integration.md)
-  * [Ninja One RMM](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
-  * [Immybot](../../configuration/integrations/integration-guides/immybot-integration-setup.md)
-  * [Kaseya VSA](../../configuration/integrations/integration-guides/kaseya-vsa-integration-setup.md)
+  * [Datto RMM](../../integrations/integration-guides/datto-rmm-integration-setup.md)
+  * [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md)
+  * [ConnectWise ASIO](../../integrations/integration-guides/connectwise-asio-integration.md)
+  * [Ninja One RMM](../../integrations/integration-guides/ninjaone-integration-setup.md)
+  * [Immybot](../../integrations/integration-guides/immybot-integration-setup.md)
+  * [Kaseya VSA](../../integrations/integration-guides/kaseya-vsa-integration-setup.md)
 
 ## Unpack the Install Acronis Backup Agent on Devices Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Install Acronis Backup Agent on Devices`**.**
 3. Click on the Crate tile to begin unpacking.\
    \

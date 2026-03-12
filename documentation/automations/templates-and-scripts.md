@@ -8,9 +8,7 @@ Templates and scripts are similar features in Rewst, though each is intended for
 
 _Templates_ are used to create a standardized set of text used in several places in Rewst. For example, if you want to create a ticket and always use the same HTML for the ticket description, you would create a template. In the input, you would reference the template instead of having to type that same text each time.
 
-To access templates, navigate to **Automations > Templates** in the left side menu of your Rewst platform.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 10.27.14 AM.png" alt=""><figcaption></figcaption></figure>
+To access templates, navigate to **Automations > Assets > Templates** in the left side menu of your Rewst platform.
 
 Write templates in either Markdown or HTML language. Common examples of templates include:
 
@@ -42,6 +40,10 @@ App Builder templates
 * Data binding expressions
 * Workflow integrations for apps
 
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.08.04 PM.png" alt="Screenshot of the Templates list view in the Rewst Automations section, showing a dark-themed interface with a left navigation menu, a top search bar and Create Template button, and a table of templates with names, descriptions, dates, attributes, and action icons."><figcaption></figcaption></figure>
+
+Write templates in either Markdown or HTML language.
+
 ### Create a template
 
 1. Click **+ Create**.
@@ -61,9 +63,11 @@ _Scripts_ in Rewst enable you to write scripts in a straightforward and accessib
 
 To access scripts, navigate to **Automations > Scripts** in the left side menu of your Rewst platform.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-21 at 10.28.18 AM.png" alt=""><figcaption></figcaption></figure>
-
 Write Rewst scripts in any of the following languages: PowerShell, Python, YALM, Jinja. All scripts are assigned a unique URL (GUID).
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.09.19 PM.png" alt="Screenshot of the Scripts list view in the Rewst Automations section, showing a dark-themed interface with a left navigation menu, a top search bar and Create Template button, and a table of scripts with names, descriptions, dates, attributes, and action icons."><figcaption></figcaption></figure>
+
+Write Rewst scripts in any of the following languages: PowerShell, Python, YALM, Jinja.
 
 ### Create a script
 

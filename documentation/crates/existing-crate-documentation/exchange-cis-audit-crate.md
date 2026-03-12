@@ -17,13 +17,13 @@ This Crate automates the process of validating certain Center for Internet Secur
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
-Your [PSA must successfully be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Your [PSA must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 ## Unpack the Exchange CIS Audit Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Exchange CIS Audit`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-25 at 11.50.38 AM.png>)<br>

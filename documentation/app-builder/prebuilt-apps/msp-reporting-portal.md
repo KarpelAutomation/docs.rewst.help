@@ -19,9 +19,9 @@ The _operational analytics reporting portal_ offers powerful reporting capabilit
 
 ### Integration prerequisites for operational analytics reporting portal setup
 
-* For Device EOL: [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md), [Datto RMM,](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md) or [NinjaOne RMM](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
-* For Get Device Inventory: [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* For Ticket Data: [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md), [Datto Autotask](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
+* For Device EOL: [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md), [Datto RMM,](../../integrations/integration-guides/datto-rmm-integration-setup.md) or [NinjaOne RMM](../../integrations/integration-guides/ninjaone-integration-setup.md)
+* For Get Device Inventory: [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* For Ticket Data: [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md), [Datto Autotask](../../integrations/integration-guides/datto-psa-integration-setup/)
 
 ### Custom branding with Rewst's Style Customization Crate
 

@@ -10,7 +10,7 @@ Along with a form to assist in the creation of the Azure tables instances, this 
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 {% hint style="warning" %}
 Using the form in this Crate will provision a Microsoft Azure Table storage account. Learn about the costs [here](https://azure.microsoft.com/en-us/pricing/details/storage/tables/) before proceeding.
@@ -18,7 +18,7 @@ Using the form in this Crate will provision a Microsoft Azure Table storage acco
 
 ## Unpack the Microsoft Azure Tables Connection Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Microsoft Azure Tables Connection`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.14.31 AM.png>)<br>
@@ -30,7 +30,7 @@ Using the form in this Crate will provision a Microsoft Azure Table storage acco
 
 ### Use the form
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets> Forms**.
 2. Search for `Azure Tables: Create Table`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Copy the URL and paste it into a new tab or browser window.

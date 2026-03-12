@@ -6,7 +6,7 @@ description: Learn how to build and customize your Rewst Forms
 
 ## Create a new form
 
-The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Forms**, and click  ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (2).png>).&#x20;
+The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Assets > Forms**, and click  ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (2).png>).&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-17 at 5.21.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -384,7 +384,7 @@ Below are some key aspects of workflow inputs:
 
 #### **Use org variables for client-specific workflows**
 
-If you have a form used across multiple clients, each with distinct environments like Microsoft 365 or On-Prem, you can use an o[rg variable](../../configuration/organization-variables.md) to dictate the source of the data.
+If you have a form used across multiple clients, each with distinct environments like Microsoft 365 or On-Prem, you can use an [org variable](../../integrations/organization-variables.md) to dictate the source of the data.
 
 For example, by employing `{{ ORG.VARIABLES.primary_identity_provider }}`, which is set per client as either `on_prem` or `azure_ad`, you can use the same form for both client cases. The form will be pulled from the relevant system.
 
@@ -447,7 +447,7 @@ To view the form org variables table, [click here](form-organizational-variables
 
 #### Add the organization variable to an organization
 
-1. Navigate to **Configuration > Organization Variables**.
+1. Navigate to **Settings > Organization Variables**.
 2. Click **Add** at the top right.
 3. Enter in the following for the new organization variable:
    * **Name**: `form_default_email_domain`
@@ -465,7 +465,7 @@ Next, the variable can be added to the form field.
 
 #### Add the organization variable to the form field
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Open the User Onboarding Form.
 3. Click to open the settings for the **Email Domain Name** field.
 4. Enter `true` in the **schema.enumSourceWorkflow.input.force\_default** setting.

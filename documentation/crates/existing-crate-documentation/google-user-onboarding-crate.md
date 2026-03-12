@@ -16,15 +16,15 @@ The workflow is triggered when the onboarding form unpacked from the Crate is su
 
 ## Crate prerequisites
 
-Our [Google Workspace Admin integration](../../configuration/integrations/integration-guides/google-admin/google-workspace-admin-sdk-integration-setup.md) must first be successfully set up before unpacking this Crate.
+Our [Google Workspace Admin integration](../../integrations/integration-guides/google-admin/google-workspace-admin-sdk-integration-setup.md) must first be successfully set up before unpacking this Crate.
 
-Your [PSA ](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)must be successfully integrated with Rewst.
+Your [PSA ](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)must be successfully integrated with Rewst.
 
-You must first add the [organization variables](../../configuration/organization-variables.md#what-is-an-organization-variable) `primary_identity_provider` and `default_PSA` in Rewst.&#x20;
+You must first add the [organization variables](../../integrations/organization-variables.md#what-is-an-organization-variable) `primary_identity_provider` and `default_PSA` in Rewst.&#x20;
 
 ## Unpack the Google: User Onboarding Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Google: User Onboarding`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-08-27 at 1.14.48 PM.png>)<br>
@@ -39,7 +39,7 @@ You must first add the [organization variables](../../configuration/organization
 The form unpacked with this Crate offers a section for advanced settings. They should only be used if you fully understand their impact. For questions about the ramifications of using advanced settings, [contact Rewst Support](../../../support-and-community/roc-support/).&#x20;
 {% endhint %}
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Crate] GWS: User Onboarding`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains your relevant user. This will launch the form in a new tab.\

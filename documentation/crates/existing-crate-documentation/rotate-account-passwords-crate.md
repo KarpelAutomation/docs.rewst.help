@@ -21,11 +21,11 @@ The Crate runs on a scheduled rotation, based on configured frequency preference
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll need to successfully integrate either [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) with Rewst.
+Before unpacking this Crate, you'll need to successfully integrate either [IT Glue](../../integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../integrations/integration-guides/hudu-integration-setup.md) with Rewst.
 
 ## Unpack the Rotate Account Passwords Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Rotate Account Passwords`**.**\
    \
    ![](<../../../.gitbook/assets/image (191).png>)
@@ -40,7 +40,7 @@ Before unpacking this Crate, you'll need to successfully integrate either [IT Gl
 
 ### Set up the organization variable for the Crate
 
-Make an organization variable called `rotate_admins`  for each organization that you want to rotate passwords for. Follow setup instructions here for [how to create new organization variables](../../configuration/organization-variables.md).
+Make an organization variable called `rotate_admins`  for each organization that you want to rotate passwords for. Follow setup instructions here for [how to create new organization variables](../../integrations/organization-variables.md).
 
 In the organization variable, give a list of users for all accounts you want to rotate. Format that list comma delimited. For example, `job_admin,paul_admin,steve_admin`.
 
@@ -54,7 +54,7 @@ Note that if you test or run the workflow in this Crate before setting up the ro
 
 To manually run the workflow, create an always trigger with the desired organization enabled, then click the **test** button.&#x20;
 
-1. Navigate to Automations > Workflows in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[Rewst - PROCESS] PSA: Update Ticket with New User Onboard Links.`
 3. Click the workflow to view it in the workflow builder.
 4. Click <img src="../../../.gitbook/assets/Screenshot 2025-08-18 at 1.48.13 PM.png" alt="" data-size="line"> to add a trigger.
@@ -85,3 +85,4 @@ To run the workflow on a schedule, you'll need to add the list of users in the o
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
+

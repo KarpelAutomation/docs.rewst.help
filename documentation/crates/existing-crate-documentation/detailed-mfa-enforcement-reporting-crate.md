@@ -26,11 +26,11 @@ Some endpoints used by this workflow require P1 licensing or greater, namely reg
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Detailed MFA Enforcement Reporting Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Detailed MFA Enforcement Reporting`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-25 at 11.15.43 AM.png>)
@@ -44,11 +44,9 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 8. You have the option to run this Crate on a schedule via cron job. Expand the **Cron Job** accordion menu and toggle **Enabled** on if you wish to have this Crate run regularly. Leave this as-is if you wish to use the Crate with manual form trigger submission.&#x20;
 9. Click **Unpack**.
 
-
-
 ### Fill out the form
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Rewst - PROC] Detailed MFA Reporting`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains your relevant user. This will launch the form in a new tab.

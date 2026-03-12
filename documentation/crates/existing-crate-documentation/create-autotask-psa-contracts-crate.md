@@ -23,11 +23,11 @@ The workflow process involves the following activities:
 
 ## Crate prerequisites
 
-The [Datto  Autotask PSA integration](../../configuration/integrations/integration-guides/datto-psa-integration-setup/) must be set up before unpacking this Crate.
+The [Datto  Autotask PSA integration](../../integrations/integration-guides/datto-psa-integration-setup/) must be set up before unpacking this Crate.
 
 ## Unpack the Create Autotask PSA Contracts Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Create Autotask PSA Contracts`.
 
 
@@ -47,7 +47,7 @@ The [Datto  Autotask PSA integration](../../configuration/integrations/integrati
 
 ### Use the Crate <a href="#use-the-crate" id="use-the-crate"></a>
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `Create Autotask PSA Contracts`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4.  Click on the link for the organization, which contains the user you wish to manage. This will launch the form in a new tab.

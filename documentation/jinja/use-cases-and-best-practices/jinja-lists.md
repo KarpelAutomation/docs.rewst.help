@@ -1,10 +1,8 @@
 # Work with Jinja lists
 
-## Introduction
-
 Lists or Arrays are very common when working with sets of data in Rewst.
 
-Any time you see information encapsulated in `[` `]` brackets, you are looking at a list, and working with the items in that list requires certain considerations. Working with these lists is referred to as "List Comprehension."
+Any time you see information encapsulated in `[` `]` brackets, you are looking at a list, and working with the items in that list requires certain considerations. Working with these lists is referred to as &#x4C;_&#x69;st Comprehension_.
 
 ### Standard list
 

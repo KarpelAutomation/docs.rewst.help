@@ -33,7 +33,7 @@ Explore what new changes the Training team has made in the last week.
 * [Broken link](/broken/pages/IjDdHyQpvv5eUAQFuqIC "mention") page added
 * [Broken link](/broken/pages/nvCHsrCq289RTSGgaoPH "mention") steps updated for accuracy
 * [data-input-and-output-input-variables-and-context-variables.md](../../../documentation/automations/workflows/data-input-and-output-input-variables-and-context-variables.md "mention") page updated for clarity and searchability&#x20;
-* [twilio-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/twilio-integration-setup.md "mention") page updated to include full steps
+* [twilio-integration-setup.md](../../../documentation/integrations/integration-guides/twilio-integration-setup.md "mention") page updated to include full steps
 * [jinja-essentials.md](../../../documentation/jinja/jinja-essentials.md "mention") page added with expanded examples from 103
 * [Broken link](/broken/pages/rXA8aLNfgfCT5Zme2oVN "mention") page added with more detail from 104 and 105
 

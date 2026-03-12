@@ -9,7 +9,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>New features and items</strong></summary>
 
 * **Integrations**
-  * Senteon - [Documentation](../../../documentation/configuration/integrations/integration-guides/senteon-integration.md)
+  * Senteon - [Documentation](../../../documentation/integrations/integration-guides/senteon-integration.md)
   * Moved the Ingram Micro Cloud Marketplace integration from the AI category to CSP Licensing to improve discoverability and correct categorization on the integrations page.
   * Enhanced CW ASIO scope management by adding support for custom scopes while preserving default behavior to prevent authentication failures when new scopes are introduced.
 * **Onboarding**

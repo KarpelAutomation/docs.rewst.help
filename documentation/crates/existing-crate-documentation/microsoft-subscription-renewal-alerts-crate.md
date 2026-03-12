@@ -30,20 +30,20 @@ Our Microsoft Subscription Renewal Alerts Crate monitors Microsoft 365 subscript
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 To use ticket creation when no matching ticket is found in the workflow's result, your PSA must be successfully integrated with Rewst. PSAs that work with this Crate are:
 
-* [ServiceNow](../../configuration/integrations/integration-guides/servicenow-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [SuperOps](../../configuration/integrations/integration-guides/superops-integration.md)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+* [ServiceNow](../../integrations/integration-guides/servicenow-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [SuperOps](../../integrations/integration-guides/superops-integration.md)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
 
 ## Unpack the Microsoft Subscription Renewal Alerts Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Microsoft Subscription Renewal Alerts`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (278).png>)
@@ -87,7 +87,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](../../configuration/organization-variables.md).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).&#x20;
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 

@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Rewst Microsoft GDAP Assistant Crate do?
 
-This Crate enables you to configure or review your existing Rewst GDAP setup for all Microsoft CSP customers. It is specifically meant to be used during the set up of our Microsoft Cloud integration bundle. See our complete documentation for Microsoft Cloud integration bundle setup [here](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
+This Crate enables you to configure or review your existing Rewst GDAP setup for all Microsoft CSP customers. It is specifically meant to be used during the set up of our Microsoft Cloud integration bundle. See our complete documentation for Microsoft Cloud integration bundle setup [here](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
 
 ### How the Crate works
 
@@ -33,7 +33,7 @@ The **\[REWST] GDAP Assistant** form unpacked with this Crate is used to kick of
 
 ## Unpack the Rewst Microsoft GDAP Assistant Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Rewst Microsoft GDAP Assistant`**.**
 
 ![](<../../../.gitbook/assets/Screenshot 2025-12-15 at 4.53.25 PM.png>)<br>

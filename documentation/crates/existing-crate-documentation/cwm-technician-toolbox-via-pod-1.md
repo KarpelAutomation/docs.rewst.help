@@ -17,15 +17,15 @@ This Crate gives your technicians access to a wide range of tools, without the n
 
 Before unpacking this Crate:
 
-* Your [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be successfully set up.
-* Your [RMM](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be integrated with Rewst.
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be integrated with Rewst.
+* Your [ConnectWise PSA integration](../../integrations/integration-guides/connectwise-integration-setup.md) must be successfully set up.
+* Your [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be integrated with Rewst.
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be integrated with Rewst.
 * You must configure the pod to work with Rewst. Follow our guide for pod configuration [here](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup#connectwise-psa-pod-configuration).
-* If choosing to use [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) with this Crate, the integration must first be successfully integrated with Rewst. The organization variable `pod_toolbox_itglue_url` must be set before unpacking this Crate in order for the IT Glue Portal URL in the Crate to work. Note the example URL, where you would edit the text between the asterisks with your own information: `https://*itgluebaseurl*.itglue.com/`.
+* If choosing to use [IT Glue](../../integrations/integration-guides/it-glue-integration-setup.md) with this Crate, the integration must first be successfully integrated with Rewst. The organization variable `pod_toolbox_itglue_url` must be set before unpacking this Crate in order for the IT Glue Portal URL in the Crate to work. Note the example URL, where you would edit the text between the asterisks with your own information: `https://*itgluebaseurl*.itglue.com/`.
 
 ## Unpack the Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform
 2. Search for `CW PSA: Pod Technician Toolbox V2`_._\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-12-02 at 4.43.32 PM.png>)

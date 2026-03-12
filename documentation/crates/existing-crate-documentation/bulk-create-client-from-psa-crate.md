@@ -47,15 +47,15 @@ Once an organization is created via the Crate's execution, you can't change the 
 
 Prior to unpacking and running this Crate, you should have one of the following PSA integrations configured in Rewst:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [DattoPSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
-* [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [DattoPSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
+* [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
 
 ## Unpack the **Bulk Create Client from PSA** Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Bulk Create Client from PSA`.\
    \
    ![](<../../../.gitbook/assets/image (137).png>)
@@ -81,7 +81,7 @@ Prior to unpacking and running this Crate, you should have one of the following 
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Search for `[ROC] Rewst: Create Orgs from PSA Form`.
 3.  Click **⋮ > Usages**.<br>
 

@@ -31,15 +31,15 @@ The Crate workflow is triggered by a cron job based on the configured schedule.
 
 ## Crate prerequisites
 
-Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 {% hint style="info" %}
-This Crate only works with [SentinelOne](../../configuration/integrations/integration-guides/sentinelone-integration-setup.md) and [OpenText Core Endpoint Protection](../../configuration/integrations/integration-guides/webroot-integration-setup.md) if integrated with the organization.
+This Crate only works with [SentinelOne](../../integrations/integration-guides/sentinelone-integration-setup.md), [CrowdStrike](../../integrations/integration-guides/crowdstrike-integration-setup.md), and [OpenText Core Endpoint Protection](../../integrations/integration-guides/webroot-integration-setup.md) if integrated with the organization that uses the Crate.
 {% endhint %}
 
 ## Unpack the Alert on AV/EDR Coverage Gaps Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2. Search for `Alert on AV/EDR Coverage Gaps`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (312).png>)
@@ -74,6 +74,20 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
     <figure><img src="../../../.gitbook/assets/image (315).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
+
+## Organization variables associated with this Crate <a href="#organization-variables-associated-with-this-crate" id="organization-variables-associated-with-this-crate"></a>
+
+{% hint style="info" %}
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables).
+
+Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
+
+If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.
+{% endhint %}
+
+* `sentinelone_site_id`
+* `webroot_site_id`
+* `crowdstrike_account_id`
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

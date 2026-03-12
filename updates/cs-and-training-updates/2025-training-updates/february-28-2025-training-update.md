@@ -52,21 +52,21 @@ _**Monthly Clean Automation Starting March 24:**_
 
 **New & Updated Pages:**
 
-* [cisco-meraki-integration.md](../../../documentation/configuration/integrations/integration-guides/cisco-meraki-integration.md "mention") page added.
-* [syncmonkey-integration.md](../../../documentation/configuration/integrations/integration-guides/syncmonkey-integration.md "mention") page added.
-* [anthropic-integration.md](../../../documentation/configuration/integrations/integration-guides/anthropic-integration.md "mention") page added.
-* [superops-integration.md](../../../documentation/configuration/integrations/integration-guides/superops-integration.md "mention") page added.&#x20;
+* [cisco-meraki-integration.md](../../../documentation/integrations/integration-guides/cisco-meraki-integration.md "mention") page added.
+* [syncmonkey-integration.md](../../../documentation/integrations/integration-guides/syncmonkey-integration.md "mention") page added.
+* [anthropic-integration.md](../../../documentation/integrations/integration-guides/anthropic-integration.md "mention") page added.
+* [superops-integration.md](../../../documentation/integrations/integration-guides/superops-integration.md "mention") page added.&#x20;
 * [microsoft-user-onboarding-crate-v2](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/ "mention") pages added (MASSIVE shout out to Ray).
 * Reorganization of [Broken link](/broken/pages/USoRgr2FnRP2mYaXjEiC "mention") to provide more clarity with new [getting-started.md](../../../support-and-community/getting-started.md "mention") page.&#x20;
 * [Broken link](/broken/pages/DZRfMonLdJAkgeuADrxY "mention") broken down into micro-lessons to match our Foundations update.&#x20;
-* [halo-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/halo-integration-setup.md "mention") page updated to include not about required field expectations
+* [halo-integration-setup.md](../../../documentation/integrations/integration-guides/halo-integration-setup.md "mention") page updated to include not about required field expectations
 * [Broken link](/broken/pages/qIIKKVa04mw5O3TLxsU6 "mention") Quick Start steps updated.
-* [connectwise-control-screenconnect.md](../../../documentation/configuration/integrations/integration-guides/connectwise-control-screenconnect.md "mention") branding and setup steps updated.
+* [connectwise-control-screenconnect.md](../../../documentation/integrations/integration-guides/connectwise-control-screenconnect.md "mention") branding and setup steps updated.
 * [Broken link](/broken/pages/H5yGmjNf5Dp4wMnpou61 "mention") landing page updated to include information and crates available.
 * [Broken link](/broken/pages/CQT2VilgAsn91b9eEkh7 "mention") landing page updated to include information and crates available.
 * [Broken link](/broken/pages/KF0phCeqhdNtIzfd5hNk "mention") landing page updated to include information and crates available.
 * [Broken link](/broken/pages/M4fqoQ65Te4ontcDhET6 "mention") landing page updated to include information and crates available.
-* [microsoft-cloud-integration-bundle](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/ "mention") page updated prerequisites and best practices.
+* [microsoft-cloud-integration-bundle](../../../documentation/integrations/integration-guides/microsoft-cloud-integration-bundle/ "mention") page updated prerequisites and best practices.
 * [configure-organization-variables.md](../../../documentation/crates/existing-crate-documentation/configure-organization-variables.md "mention") updated to include Preferred Domain Controller field.
 * [february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md](../../roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md "mention") page added
 

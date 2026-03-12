@@ -28,7 +28,7 @@ This Crate sets an on-call member for specified ConnectWise PSA service boards b
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll need to successfully integrate [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) with Rewst.
+Before unpacking this Crate, you'll need to successfully integrate [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md) with Rewst.
 
 ## Unpack the Set ConnectWise PSA Board OnCall Member Crate
 

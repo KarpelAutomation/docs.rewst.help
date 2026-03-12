@@ -27,7 +27,7 @@ Before unpacking this Crate:
 
 ## Unpack the Find Inactive Computers in RMM Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Find Inactive Computers in RMM`.
 
     \

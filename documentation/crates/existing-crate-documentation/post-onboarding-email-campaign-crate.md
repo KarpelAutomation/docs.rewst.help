@@ -26,7 +26,7 @@ Our Post Onboarding Email Campaign Crate enhances the onboarding process by send
 
 ## Unpack the Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of your Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of your Rewst platform.
 2.  Search for `Post Onboarding Email Campaign`.​\
     &#x20; ​
 

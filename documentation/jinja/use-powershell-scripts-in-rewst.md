@@ -13,7 +13,7 @@ Rewst supports running PowerShell on devices, typically through your RMM, by sto
 
 ### How it works
 
-1. Store a PowerShell script in **Automations > Scripts**.
+1. Store a PowerShell [script](../automations/templates-and-scripts.md#what-is-a-script) in **Automations > Assets > Scripts**.
 2. The script is assigned a unique URL ending in a GUID.
 3. Call this script from a workflow or prebuilt automation, like **Run PowerShell Script on Selected Devices**.
 4. Include a block in the script to send results back to Rewst.
@@ -72,7 +72,7 @@ This allows workflows to dynamically pass values into your scripts without hardc
 
 ### Use in Crates
 
-For endpoint scripts, Rewst provides prebuilt automations such as the **Run PowerShell Script on Selected Devices** Crate.
+For endpoint scripts, Rewst provides prebuilt automations such as the [Run PowerShell Script on Selected Devices](../crates/existing-crate-documentation/run-powershell-script-on-selected-devices-crate.md) Crate.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-10-23 at 9.53.35 AM.png" alt=""><figcaption></figcaption></figure>
 

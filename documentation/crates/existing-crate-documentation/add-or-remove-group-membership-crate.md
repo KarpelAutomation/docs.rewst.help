@@ -29,13 +29,13 @@ This Crate only handles membership changes, not group creation. It focuses on si
 
 ## Crate prerequisites
 
-Rewst's [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+Rewst's [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
-If you'll be using the Crate for any on-premises environments, you'll need to have your [RMM integrated ](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations)with Rewst before unpacking the Crate.
+If you'll be using the Crate for any on-premises environments, you'll need to have your [RMM integrated ](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations)with Rewst before unpacking the Crate.
 
 ## Unpack the Add or Remove Group Membership Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu of the Rewst Platform.
 2. Search for `Add or Remove Group Membership`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-06-26 at 11.56.09 AM.png>)
@@ -51,7 +51,7 @@ If you'll be using the Crate for any on-premises environments, you'll need to ha
 This form has a variety of fields and drop-down selectors that will appear depending on what you select earlier in the form. If you change your mind or make a mistake while filling out the form and decide to change a previously selected option, hard refresh your page to reset the conditions of the form. Then, proceed and make your desired selections.
 {% endhint %}
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Search for `[Rewst Master v2] Groups - Add or Remove Membership`.
 3.  Click **⋮ > Usages > View Direct URLs**.<br>
 
@@ -82,8 +82,6 @@ This form has a variety of fields and drop-down selectors that will appear depen
        \
        ![](<../../../.gitbook/assets/Screenshot 2025-06-26 at 4.14.35 PM.png>)
    5. Click **Submit**.
-
-
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

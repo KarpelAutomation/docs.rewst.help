@@ -22,12 +22,12 @@ The Crate workflow is triggered by a cron job based on the configured schedule.
 
 The following integrations must be set up before unpacking this Crate:
 
-* [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Duo integration](../../configuration/integrations/integration-guides/duo-integration-setup.md)
+* [ConnectWise PSA integration](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Duo integration](../../integrations/integration-guides/duo-integration-setup.md)
 
 ## Unpack the Sync Duo User Counts with CWM Agreement Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Sync Duo User Counts with ConnectWise PSA Agreement Crate`.
 
     \

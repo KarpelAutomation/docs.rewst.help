@@ -9,7 +9,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>New features and items</strong></summary>
 
 * **Integrations**
-  * [Cloudmore integration](../../../documentation/configuration/integrations/integration-guides/cloudmore-integration.md)
+  * [Cloudmore integration](../../../documentation/integrations/integration-guides/cloudmore-integration.md)
 * **Workflows**
   * Improved workflow execution performance by targeting specific database partitions during processing, reducing unnecessary locks and query overhead.
 

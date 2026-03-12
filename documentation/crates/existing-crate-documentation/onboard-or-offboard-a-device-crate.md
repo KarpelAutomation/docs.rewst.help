@@ -19,7 +19,7 @@ This Crate allows you to pick a primary user and assign them to a device, while 
 
 ## Crate prerequisites
 
-Your [ImmyBot integration](../../configuration/integrations/integration-guides/immybot-integration-setup.md) with Rewst must successfully be set up before unpacking this Crate.
+Your [ImmyBot integration](../../integrations/integration-guides/immybot-integration-setup.md) with Rewst must successfully be set up before unpacking this Crate.
 
 ## Unpack the Onboard or Offboard a Device Crate
 

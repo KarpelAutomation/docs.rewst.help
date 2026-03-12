@@ -16,15 +16,15 @@ Our Liongard MFA Remediation Crate is designed to complement Liongard's Cyber Ri
 
 ## Crate prerequisites
 
-The [Liongard integration](../../configuration/integrations/integration-guides/liongard-integration-setup.md) must be set up before unpacking this Crate.
+The [Liongard integration](../../integrations/integration-guides/liongard-integration-setup.md) must be set up before unpacking this Crate.
 
 The following are optional integrations but will enhance the Crate's functionality if configured:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/)
 
 Take note of the following guidelines:
 
@@ -34,7 +34,7 @@ Take note of the following guidelines:
 
 ## Unpack the Liongard MFA Remediation Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Liongard MFA Remediation`.
 
     \

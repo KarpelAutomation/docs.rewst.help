@@ -87,7 +87,7 @@ Alternatively, re-run from the workflow result page of the workflow that kicks o
 
 ## Workflow wrappers
 
-_Workflow wrapper_ is an informal term used colloquially by the ROC to describe a situation where a primary workflow is used in a separate workflow as a [subworkflow](./#subworkflows). Whereas a completion handler only runs when a workflow completes, a workflow wrapper can run before or after completion.&#x20;
+_Workflow wrapper_ is an informal term used colloquially by Rewst support to describe a situation where a primary workflow is used in a separate workflow as a [subworkflow](./#subworkflows). Whereas a completion handler only runs when a workflow completes, a workflow wrapper can run before or after completion.&#x20;
 
 ### Example workflow use cases for workflow wrappers
 
@@ -95,6 +95,3 @@ Let's look at a few use cases for using workflow wrappers:
 
 * Handle pre and post-onboarding tasks
 * Run a Crated workflow against a group of items, in a way it was not originally designed to do
-
-
-

@@ -19,11 +19,11 @@ The workflow in this Crate runs on a cron job. You have the option to adjust the
 
 ## Crate prerequisites
 
-The [ITGlue integration ](../../configuration/integrations/integration-guides/it-glue-integration-setup.md)must be set up before unpacking this Crate.
+The [ITGlue integration ](../../integrations/integration-guides/it-glue-integration-setup.md)must be set up before unpacking this Crate.
 
 ## Unpack the Document Rewst Org Variables Crate Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2.  Search for `Document Rewst Org Variables`.<br>
 
     ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 12.04.54 PM.png>)<br>

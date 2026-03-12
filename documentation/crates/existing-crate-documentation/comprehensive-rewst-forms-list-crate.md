@@ -11,7 +11,7 @@ Use the Crate to have a centralized page that includes all rewst forms unpacked 
 
 ## Unpack the Comprehensive Rewst Forms List Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Comprehensive Rewst Forms List` .
 3. Click on the Crate tile to begin unpacking.\
    \

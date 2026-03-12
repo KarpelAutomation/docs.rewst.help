@@ -46,20 +46,20 @@ Throughout the workflow, error handling routes failed operations to failure dete
 
 Prior to unpacking this Crate, you'll need to have successfully integrated one of the following PSAs with Rewst:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
 
 You'll also need to have successfully integrated one of the following RMMs with Rewst:
 
-* [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
-* [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
-* [NinjaOne](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
-* [Kaseya VSA](../../configuration/integrations/integration-guides/kaseya-vsa-integration-setup.md)
+* [Datto RMM](../../integrations/integration-guides/datto-rmm-integration-setup.md)
+* [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md)
+* [NinjaOne](../../integrations/integration-guides/ninjaone-integration-setup.md)
+* [Kaseya VSA](../../integrations/integration-guides/kaseya-vsa-integration-setup.md)
 
 ## Unpack the Assign Asset/Config to Ticket Based on Contact Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Assign Asset/Config to Ticket Based on Contact`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 2.47.12 PM.png>)<br>

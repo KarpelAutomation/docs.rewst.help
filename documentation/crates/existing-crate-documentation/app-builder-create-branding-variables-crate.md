@@ -34,7 +34,7 @@ This Crate also supports configuration at both the MSP and customer levels, allo
 
 ## Unpack the App Builder - Create Branding Variables Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for the `Amend Mailbox Permissions` Crate.
 3.  Click on the Crate tile to begin unpacking.<br>
 
@@ -48,7 +48,7 @@ This Crate also supports configuration at both the MSP and customer levels, allo
 Ensure that your hex codes and logos are consistent across your brand to provide a polished, professional look for your users and clients.
 {% endhint %}
 
-1. Navigate to **Automations** > **Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations** **> Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[App Builder] Set Branding Styles`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the form link for your desired organization. This will launch the form in a new browser tab.

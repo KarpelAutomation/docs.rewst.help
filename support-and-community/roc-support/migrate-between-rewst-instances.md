@@ -139,4 +139,4 @@ If you don't immediately have time for this uninstall and reinstall, you can com
 3. Click **next** to navigate to **permissions.**
 4. Click **Clear All.**
 5. **Click Next**. Ensure that you go through the full permissions screen.&#x20;
-6. Now, [install the Microsoft Cloud Integration Bundle](../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) in your new Rewst instance.
+6. Now, [install the Microsoft Cloud Integration Bundle](../../documentation/integrations/integration-guides/microsoft-cloud-integration-bundle/) in your new Rewst instance.

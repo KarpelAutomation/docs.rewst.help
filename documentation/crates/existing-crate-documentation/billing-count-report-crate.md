@@ -51,31 +51,31 @@ Our Billing Count Report Crate is designed to streamline and enhance the process
 
 ## Crate prerequisites
 
-Your [RMM integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst must be set up before unpacking this Crate.
+Your [RMM integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst must be set up before unpacking this Crate.
 
-If choosing to deliver the report via PSA ticket, you'll also need to set up your [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) before unpacking this Crate.
+If choosing to deliver the report via PSA ticket, you'll also need to set up your [PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) before unpacking this Crate.
 
 If choosing to use any of the following tools with this Crate, they must first be successfully integrated with Rewst before unpacking.
 
-* [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
-* [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
-* [ConnectWise ASIO](../../configuration/integrations/integration-guides/connectwise-asio-integration.md)
-* [NinjaOne](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
-* [Microsoft 365 licensing](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/)
-* [Huntress](../../configuration/integrations/integration-guides/huntress-integration-setup.md)
-* [SentinelOne](../../configuration/integrations/integration-guides/sentinelone-integration-setup.md)
-* [Pax8](../../configuration/integrations/integration-guides/pax8-integration-setup.md)
-* [IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md)
-* [Auvik](../../configuration/integrations/integration-guides/auvik-integration-setup.md)
-* [Proofpoint](../../configuration/integrations/integration-guides/proofpoint-integration-setup.md)
-* [Cork](../../configuration/integrations/integration-guides/cork-integration.md)
-* [Immybot](../../configuration/integrations/integration-guides/immybot-integration-setup.md)
-* [Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md)
-* [Dropsuite](../../configuration/integrations/integration-guides/dropsuite-integration.md)
+* [Datto RMM](../../integrations/integration-guides/datto-rmm-integration-setup.md)
+* [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md)
+* [ConnectWise ASIO](../../integrations/integration-guides/connectwise-asio-integration.md)
+* [NinjaOne](../../integrations/integration-guides/ninjaone-integration-setup.md)
+* [Microsoft 365 licensing](../../integrations/integration-guides/microsoft-cloud-integration-bundle/)
+* [Huntress](../../integrations/integration-guides/huntress-integration-setup.md)
+* [SentinelOne](../../integrations/integration-guides/sentinelone-integration-setup.md)
+* [Pax8](../../integrations/integration-guides/pax8-integration-setup.md)
+* [IT Glue](../../integrations/integration-guides/it-glue-integration-setup.md)
+* [Auvik](../../integrations/integration-guides/auvik-integration-setup.md)
+* [Proofpoint](../../integrations/integration-guides/proofpoint-integration-setup.md)
+* [Cork](../../integrations/integration-guides/cork-integration.md)
+* [Immybot](../../integrations/integration-guides/immybot-integration-setup.md)
+* [Duo](../../integrations/integration-guides/duo-integration-setup.md)
+* [Dropsuite](../../integrations/integration-guides/dropsuite-integration.md)
 
 ## Unpack the Billing Count Report Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2.  Search for the `Billing Count Report` Crate.
 
     \

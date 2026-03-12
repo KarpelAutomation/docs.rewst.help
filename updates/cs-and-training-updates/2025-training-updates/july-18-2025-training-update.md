@@ -11,9 +11,8 @@ Explore what new changes the Cluck University team made in the last week.
     * Take the [Rewst Foundations](https://learn.rewst.io/rewst-foundations-certification) Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
   * Talia, Anto, Sven, and Brian for passing the Clean Automation Certification.
     * Take the [Clean Automation](https://learn.rewst.io/clean-automation-certification) exam and get that fancy certificate!
-
-- Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
-- Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours)  to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
+* Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
+* Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours)  to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
 
 </details>
 
@@ -28,7 +27,7 @@ Explore what new changes the Cluck University team made in the last week.
 
 **New & Updated Documentation Pages:**
 
-* [Acronis integration](../../../documentation/configuration/integrations/integration-guides/acronis-integration.md)
+* [Acronis integration](../../../documentation/integrations/integration-guides/acronis-integration.md)
 * [Intro to triggers ](../../../documentation/automations/intro-to-triggers/trigger-criteria.md)
 
 </details>

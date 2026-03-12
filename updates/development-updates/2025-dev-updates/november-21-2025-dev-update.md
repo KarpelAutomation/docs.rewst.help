@@ -11,8 +11,8 @@ This can be anything from new features, bug fixes, or QoL changes!
 * **Engine**
   * Improved engine-side support-access checks to ensure authorization is validated before using direct SQL queries.
 * **Integrations**
-  * CIPP integration - docs [here](../../../documentation/configuration/integrations/integration-guides/cipp-cyberdrain-improved-partner-portal-integration.md)
-  * Arrowsphere integration - docs [here](../../../documentation/configuration/integrations/integration-guides/arrowsphere-integration.md)
+  * CIPP integration - docs [here](../../../documentation/integrations/integration-guides/cipp-cyberdrain-improved-partner-portal-integration.md)
+  * Arrowsphere integration - docs [here](../../../documentation/integrations/integration-guides/arrowsphere-integration.md)
   * Enabled automatic hiding of secrets like passwords and API keys in integration configurations.
   * Recategorized integrations for better searchability
   * Updated the Core noop action description to clearly reflect its role in flow control, logic handling, and data orchestration.

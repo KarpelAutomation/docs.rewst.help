@@ -53,7 +53,7 @@ Note that the individual setting up the integration must be an admin in Thread.
 
 ### Set up steps in Rewst
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Thread Automation`.
 3. Click on the Crate tile to open its details page. \
    \
@@ -67,7 +67,7 @@ Note that the individual setting up the integration must be an admin in Thread.
 8. Choose which organizations this Crate should be applied to in the Activate for Organizations drop-down selector, if desired.
 9. Click **Unpack**.
 10. Navigate to **Configuration > Organization Variables**.
-11. Create an [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) with the name `rewst_thread_webhook_secret` . Change the category of the organization variable to **Secret**.  Enter a secure password into the **Value** field. Copy this password value somewhere secure. You'll need it for later set up steps in both Rewst and Thread.<br>
+11. Create an [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable) with the name `rewst_thread_webhook_secret` . Change the category of the organization variable to **Secret**.  Enter a secure password into the **Value** field. Copy this password value somewhere secure. You'll need it for later set up steps in both Rewst and Thread.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 11.05.39 AM.png" alt=""><figcaption></figcaption></figure>
 12. Navigate to **Automations > Workflows**.&#x20;

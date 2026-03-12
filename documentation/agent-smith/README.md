@@ -1,13 +1,8 @@
 ---
-description: >-
-  Rewst's lean, open-source command executor that fits right into your Rewst
-  workflows.
 icon: user-secret
 ---
 
 # Agent Smith
-
-## ![:agentrewsty:](https://cdn.discordapp.com/emojis/1184572742255779850.webp?size=40\&quality=lossless) Introducing Agent Smith
 
 Built with [GoLang](https://go.dev/) and leveraging Microsoft Azure IoT Hub, Agent Smith is all about keeping things fast, simple, and within your control. Agent Smith steps in to fill any gaps in your ability to execute scripts and syncs smoothly within your workflows.
 
@@ -43,7 +38,7 @@ Agent Smith is best suited for MSPs with experience working in open source tools
 
 ### Requirements
 
-* You'll need to obtain your own Microsoft Azure subscription, and integrate it to Rewst at your top-level organization via the [Microsoft Cloud Integration Bundle](../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
+* You'll need to obtain your own Microsoft Azure subscription, and integrate it to Rewst at your top-level organization via the [Microsoft Cloud Integration Bundle](../integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
 * Follow the setup instructions for Agent Smith [here](https://docs.rewst.help/community-corner/agent-smith/agent-smith-configuration-overview)
 
 {% hint style="info" %}

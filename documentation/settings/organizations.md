@@ -27,9 +27,9 @@ Remember, organizations are divided up into parent and child organizations. Ever
 
 Once an organization is created, it will appear in the organizations list of this organizations menu, as well as the drop-down organizations selector in the top right of the Rewst platform.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-23 at 2.59.26 PM.png" alt=""><figcaption><p>Click ⌄ to expand your organization selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.17.55 PM.png" alt=""><figcaption><p>Click ⌄ to expand your organization selector</p></figcaption></figure>
 
-&#x20;Click <img src="../../.gitbook/assets/Screenshot 2025-04-23 at 2.38.16 PM.png" alt="" data-size="line"> next to your desired organization in the organization list to open the fields of that organization’s record for editing. From this list view, you can also choose to add tags to your organization via the **Tags** drop-down selector. For more on tags, see our documentation [here](https://docs.rewst.help/documentation/settings/tags-in-rewst).
+Click <img src="../../.gitbook/assets/Screenshot 2025-04-23 at 2.38.16 PM.png" alt="" data-size="line"> next to your desired organization in the organization list to open the fields of that organization’s record for editing. From this list view, you can also choose to add tags to your organization via the **Tags** drop-down selector. For more on tags, see our documentation [here](https://docs.rewst.help/documentation/settings/tags-in-rewst).
 
 ## Delete an organization
 
@@ -59,7 +59,7 @@ Rewst retains workflow execution for a configurable number of days, up to 30 day
 
 Access data retention settings in the Rewst platform by navigating to **Settings > Organizations**. Note that only users with the admin role will be able to update this setting.<br>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.49.53 AM.png" alt=""><figcaption><p>The organizations list page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.19.00 PM.png" alt=""><figcaption><p>The organizations list page</p></figcaption></figure>
 
 Click <img src="../../.gitbook/assets/Screenshot 2025-04-23 at 2.38.16 PM.png" alt="" data-size="line"> next to each individual organization to edit the settings for that organization.
 

@@ -25,11 +25,11 @@ Our Export Org Vars to CSV Crate helps in effortlessly managing your organizatio
 
 ## Crate prerequisites
 
-If you intend to have the CSV attached to a PSA ticket, you must first successfully [integrate your PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.
+If you intend to have the CSV attached to a PSA ticket, you must first successfully [integrate your PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.
 
 ## Unpack the Export Org Vars to CSV for Import Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Export Org Vars to CSV for Import`.
 
     \
@@ -46,7 +46,7 @@ If you intend to have the CSV attached to a PSA ticket, you must first successfu
 
 #### Fill out the form to select CSV delivery
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Organization Variables to CSV Form` .
 3. Click on the form name.&#x20;
 4. Click **View Usages > View Direct URLs.**

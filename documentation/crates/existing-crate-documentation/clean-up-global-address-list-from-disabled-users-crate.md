@@ -14,11 +14,11 @@ This Crate identifies all disabled users in Microsoft 365 and removes them from 
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll first need to set up the Microsoft Graph integration, via our [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+Before unpacking this Crate, you'll first need to set up the Microsoft Graph integration, via our [Microsoft Cloud Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).
 
 ## Unpack the Clean up Global Address List from Disabled Users Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Clean up Global Address List from Disabled Users`.\
    \
    ![](<../../../.gitbook/assets/image (140).png>)

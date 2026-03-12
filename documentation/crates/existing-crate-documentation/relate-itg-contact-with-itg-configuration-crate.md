@@ -24,7 +24,7 @@ This Crate operates by iteratively going through all the ITG Configurations, fin
 
 ## Crate prerequisites
 
-The [IT Glue integration](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) must be set up before unpacking this Crate.
+The [IT Glue integration](../../integrations/integration-guides/it-glue-integration-setup.md) must be set up before unpacking this Crate.
 
 ## Unpack the Relate ITG Contact with ITG Configuration Crate
 

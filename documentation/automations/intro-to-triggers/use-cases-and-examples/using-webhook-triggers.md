@@ -31,7 +31,7 @@ Webhook URLs are formatted consistently using the trigger ID and organization ID
 
 In the Rewst platform:
 
-1. Navigate to **Workflows > Create**.
+1. Navigate to **Automations > Workflows > Create Workflow**.
 2. Enter a workflow name, like `My First Webhook Trigger`.
 3. Click **Submit** to proceed to a blank workflow creation screen.
 4. Add a single [no-op](../../actions-in-rewst/core-actions.md#no-operation-noop) action to the canvas. Name it `BEGIN`

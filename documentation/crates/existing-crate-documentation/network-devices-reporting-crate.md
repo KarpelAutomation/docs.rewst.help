@@ -22,9 +22,9 @@ Our Network Devices Reporting Crate automates the collection of critical informa
 
 ## Crate prerequisites
 
-The [Auvik integration](../../configuration/integrations/integration-guides/auvik-integration-setup.md) must be successfully set up before unpacking this Crate.
+The [Auvik integration](../../integrations/integration-guides/auvik-integration-setup.md) must be successfully set up before unpacking this Crate.
 
-Your [PSA must be successfullly integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Your [PSA must be successfullly integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 ### Unpack the Network Devices Reporting Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 

@@ -45,11 +45,10 @@ Explore what new changes the Training team has made in the last week.
   * [Broken link](/broken/pages/5ECjbC7wT5N9wZzZHLYw "mention") Integegration Page
   * [Broken link](/broken/pages/nbYjp2gjgvhXFKtNTuMG "mention") Integration Page
   * [Broken link](/broken/pages/E7PpQtgRLa7mpQ8Flpqf "mention") Integration Page
-
-- Updated Pages
+* Updated Pages
   * [security-policy.md](../../../security/security-policy.md "mention") updated with latest IPs and Domains
-  * Added note to [connectwise-automate-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/connectwise-automate-integration-setup.md "mention") about customers not populating.
-  * Added note to [datto-psa-integration-setup](../../../documentation/configuration/integrations/integration-guides/datto-psa-integration-setup/ "mention") about long loading times.
+  * Added note to [connectwise-automate-integration-setup.md](../../../documentation/integrations/integration-guides/connectwise-automate-integration-setup.md "mention") about customers not populating.
+  * Added note to [datto-psa-integration-setup](../../../documentation/integrations/integration-guides/datto-psa-integration-setup/ "mention") about long loading times.
   * Added note to [Broken link](/broken/pages/0MHLA19gmfPUOcfFF3cv "mention") about 403 Forbidden error.
 
 </details>

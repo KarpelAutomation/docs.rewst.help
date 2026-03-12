@@ -21,17 +21,17 @@ This Crate allows you to pick a device and a piece of software and install it on
 
 ## Crate prerequisites
 
-* Your [ImmyBot integration](../../configuration/integrations/integration-guides/immybot-integration-setup.md) with Rewst must successfully be set up before unpacking this Crate.
+* Your [ImmyBot integration](../../integrations/integration-guides/immybot-integration-setup.md) with Rewst must successfully be set up before unpacking this Crate.
 * You'll need a successfully installed PSA integration for one of the following PSAs:
-  * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
-  * [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-  * [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)&#x20;
+  * [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
+  * [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+  * [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
+  * [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)&#x20;
 
 ## Unpack the Install Ad-Hoc Software Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Install Ad-Hoc Software`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-17 at 11.06.57 AM (1).png>)<br>
@@ -44,7 +44,7 @@ This Crate allows you to pick a device and a piece of software and install it on
 
 ### Use the Crate
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Rewst Master v2] ImmyBot - Install Ad-Hoc Software`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains your relevant device. This will launch the form in a new tab.

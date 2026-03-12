@@ -19,29 +19,29 @@ This workflow is designed for on-premises Active Directory only. It does not mon
 
 The workflow is initiated by a scheduled task that runs a PowerShell script at predefined intervals.&#x20;
 
-If Rewst's [PowerShell interpreter](../../rewst-tools/powershell-interpreter.md) tool is installed, Crate workflows which have multiple-system dependencies will have increased efficiency with faster and more consistent cloud-native executions that are completed in seconds.
+If Rewst's [PowerShell interpreter](../../settings/powershell-interpreter.md) tool is installed, Crate workflows which have multiple-system dependencies will have increased efficiency with faster and more consistent cloud-native executions that are completed in seconds.
 
 ## Crate prerequisites
 
 One of the following RMM integrations must be set up before unpacking this Crate:
 
-* [ConnectWise Control](../../configuration/integrations/integration-guides/connectwise-control-screenconnect.md)
-* [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
+* [ConnectWise Control](../../integrations/integration-guides/connectwise-control-screenconnect.md)
+* [Datto RMM](../../integrations/integration-guides/datto-rmm-integration-setup.md)
 * [ImmyBot](https://app.gitbook.com/u/kmMNMlugUvf2cfCtyBQgNnIYH1H2)
-* [Kaseya VSA](../../configuration/integrations/integration-guides/kaseya-vsa-integration-setup.md)
-* [Kaseya VSA X](../../configuration/integrations/integration-guides/kaseya-vsa-x-integration-setup.md)
-* [N-able (NAble)](../../configuration/integrations/integration-guides/n-able-n-sight-integration.md)
+* [Kaseya VSA](../../integrations/integration-guides/kaseya-vsa-integration-setup.md)
+* [Kaseya VSA X](../../integrations/integration-guides/kaseya-vsa-x-integration-setup.md)
+* [N-able (NAble)](../../integrations/integration-guides/n-able-n-sight-integration.md)
 * [NinjaOne](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/documentation/configuration/integrations/integration-guides/ninjaone-integration-setup)
-* [SuperOps](../../configuration/integrations/integration-guides/superops-integration.md)
+* [SuperOps](../../integrations/integration-guides/superops-integration.md)
 
 The following must be set up before unpacking this Crate:
 
 * [PowerShell](../../jinja/use-powershell-scripts-in-rewst.md) scripts
-* `password_expiry_crate_admin_email`  [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable)
+* `password_expiry_crate_admin_email`  [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable)
 
 ## Unpack the On-Premises Active Directory Password Expiration Alerts Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `On-Premises Active Directory Password Expiration Alerts`.​
 
 

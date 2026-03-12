@@ -31,7 +31,7 @@ Output: `free_provider` - boolean of whether the email provided is from a free p
 
 ## Unpack the Subworkflow: Check Email Address Against Free Providers List Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Sub-workflow: Check Email Address Against Free Providers List.`
 
     \

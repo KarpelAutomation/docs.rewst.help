@@ -17,7 +17,7 @@ This Crate does not list disabled Conditional Access policies, show parent-tenan
 
 ## Crate prerequisites
 
-There are two ways to use this Crate: with the [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/), and without the Bundle.&#x20;
+There are two ways to use this Crate: with the [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/), and without the Bundle.&#x20;
 
 With the Bundle, you'll select the proper option on the form, and Rewst will take care of the rest.
 
@@ -25,7 +25,7 @@ Without the Bundle, you'll need to follow additional steps given in the form to 
 
 ## Unpack the REWST CA Policy Assistant Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `REWST CA Policy Assistant`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2026-02-06 at 4.27.32 PM.png>)<br>
@@ -38,7 +38,7 @@ Without the Bundle, you'll need to follow additional steps given in the form to 
 
 The Crate runs off of form submission.&#x20;
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[REWST] Rewst CA Policy Assistant`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains your relevant user and computer. This will launch the form in a new tab.

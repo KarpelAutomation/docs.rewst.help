@@ -29,12 +29,12 @@ The workflow only acts on tickets with a single note to avoid interfering with t
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll need to successfully integrate one of the following [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)s  with Rewst:
+Before unpacking this Crate, you'll need to successfully integrate one of the following [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)s  with Rewst:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
 
 {% hint style="info" %}
 If you would like this Crate to work with a type of PSA not listed here, let us know in our [Canny feedback collector](https://rewst.canny.io/crates).
@@ -42,14 +42,14 @@ If you would like this Crate to work with a type of PSA not listed here, let us 
 
 You'll also need to have one of the following successfully set up:
 
-* [OpenAI integration ](../../configuration/integrations/integration-guides/openai/openai-integration-setup.md)
-* [Anthropic integration](../../configuration/integrations/integration-guides/anthropic-integration.md)
+* [OpenAI integration ](../../integrations/integration-guides/openai/openai-integration-setup.md)
+* [Anthropic integration](../../integrations/integration-guides/anthropic-integration.md)
 
-The [organization variable](../../configuration/organization-variables.md#what-is-an-organization-variable) `default_psa` must be set to match your PSA system.
+The [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable) `default_psa` must be set to match your PSA system.
 
 ## Unpack the Use AI to Suggest Responses to New Tickets Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Use AI to Suggest Responses to New Tickets`**.**
 
 ![](<../../../.gitbook/assets/Screenshot 2025-12-12 at 1.37.50 PM.png>)<br>

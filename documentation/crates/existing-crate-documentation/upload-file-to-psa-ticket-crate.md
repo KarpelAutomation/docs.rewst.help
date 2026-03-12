@@ -29,13 +29,13 @@ Our Upload File to PSA Ticket Crate automatically identifies the relevant files 
 
 This Crate requires one or more of the following PSAs to be successfully integrated with Rewst before unpacking:
 
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
 
 ## Unpack the Upload File to PSA Ticket Crate <a href="#unpack-the-find-inactive-computers-in-rmm-crate" id="unpack-the-find-inactive-computers-in-rmm-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Upload File to PSA Ticket`.​
 
 

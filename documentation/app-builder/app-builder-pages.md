@@ -8,7 +8,7 @@ Apps consist of _pages._ Pages are made up of _components_ like images, text, fo
 For more on authentication for App Builder using the login page, see our App Builder authentication documentation [here](general/authentication.md).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 4.02.12 PM.png" alt=""><figcaption><p>An example of the pages list inside an app in App Builder</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-06 at 10.00.24 AM.png" alt="Screenshot of the App Builder page for the app “mymeowtest2” in Rewst, showing a dark-themed interface with a left navigation menu, the app domain link, tabs for Pages, App Settings, and Custom Components, and a Pages table listing page names, paths, update details, and action controls."><figcaption><p>An example of the pages list inside an app in App Builder</p></figcaption></figure>
 
 ## Create a new App Builder app page
 

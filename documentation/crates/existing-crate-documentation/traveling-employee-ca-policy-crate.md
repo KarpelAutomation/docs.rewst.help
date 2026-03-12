@@ -32,12 +32,12 @@ In the event of travel delays, such as rescheduled flights or weather-related in
 
 Before unpacking this Crate, you must first have:
 
-* Your [PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) successfully integrated with Rewst
-* Our [Microsoft Cloud integration bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) successfully integrated with Rewst
+* Your [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) successfully integrated with Rewst
+* Our [Microsoft Cloud integration bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) successfully integrated with Rewst
 
 ## Unpack the Traveling Employee CA Policy Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Traveling Employee CA Policy`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2026-01-23 at 11.16.50 AM.png>)
@@ -51,7 +51,7 @@ Before unpacking this Crate, you must first have:
 
 #### Set your conditional access policy guidelines with the **\[REWST] M365: Traveling Employee CA Policy - Setup form**
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Search for `[REWST] M365: Traveling Employee CA Policy - Setup`.
 3. Click **⋮ > Usages > View Direct URLs**.&#x20;
 4. Click on the relevant link to launch it for your desired organization.
@@ -67,7 +67,7 @@ Before unpacking this Crate, you must first have:
 We recommend filling out one test of the form after you first set your policy guidelines to ensure that the ticket is properly created in your PSA.
 {% endhint %}
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Search for `[REWST] M365: Traveling Employee CA Policy (MSP)`.
 3. Click **⋮ > Usages > View Direct URLs**.&#x20;
 4. Click on the relevant link to launch it for your desired organization.
@@ -84,7 +84,7 @@ We recommend filling out one test of the form after you first set your policy gu
 
 #### As needed, prepare for employee travel with the **\[REWST] M365: Traveling Employee CA Policy (Self-Serve) form**
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Search for `[REWST] M365: Traveling Employee CA Policy (Self-Serve)`.
 3. Click **⋮ > Usages > View Direct URLs**.&#x20;
 4. Click on the relevant link to launch it for your desired organization.

@@ -6,7 +6,7 @@ This was shared during a recent open mic: [Feb 2nd, 2024 - Inside the Eye of the
 **Thanks to Kewp member Logan for submitting this guide. ✨**
 {% endhint %}
 
-[Immybot](../configuration/integrations/integration-guides/immybot-integration-setup.md) is a powerful DSC platform that utilizes integrated agents to spawn an ephemeral agent. This agent is then capable of running scripts such as the ones provided in this directory while being fueled by Immy's amazing PS Functions.
+[Immybot](../integrations/integration-guides/immybot-integration-setup.md) is a powerful DSC platform that utilizes integrated agents to spawn an ephemeral agent. This agent is then capable of running scripts such as the ones provided in this directory while being fueled by Immy's amazing PS Functions.
 
 If you've never used Immybot, note that  `Invoke-ImmyCommand` is essentially the same as `PSRemote`'s `Invoke-Command`.
 

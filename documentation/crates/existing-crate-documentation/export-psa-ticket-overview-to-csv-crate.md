@@ -39,16 +39,16 @@ When a form is filled out, this Crate generates a CSV Report of PSA tickets crea
 
 You must first successfully integrate your PSA with Rewst before unpacking this Crate. The Crate works with the following PSAs:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
-* [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [ServiceNow](../../configuration/integrations/integration-guides/servicenow-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
+* [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [ServiceNow](../../integrations/integration-guides/servicenow-integration-setup.md)
 
 ## Unpack the Export PSA Ticket Overview to CSV Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Export PSA Ticket Overview to CSV`.<br>
 
     ![](<../../../.gitbook/assets/Screenshot 2025-12-19 at 10.48.49 AM.png>)<br>
@@ -62,7 +62,7 @@ You must first successfully integrate your PSA with Rewst before unpacking this 
 
 #### Fill out the form&#x20;
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Organization Variables to CSV Form` .
 3. Click on the form name.&#x20;
 4. Click **View Usages > View Direct URLs.**

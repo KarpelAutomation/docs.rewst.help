@@ -14,15 +14,15 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 
 ## Crate prerequisites
 
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 * For ticketing functionality, set up one of the following PSA integrations:
-  * [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-  * [Datto PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-  * [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
-  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-  * [ServiceNow](../../configuration/integrations/integration-guides/servicenow-integration-setup.md)
-* For ticketing functionality, the [organizational variable](../../configuration/organization-variables.md#what-is-an-organization-variable) `default_psa` should be defined per the table below.
+  * [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
+  * [Datto PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+  * [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+  * [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
+  * [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [ServiceNow](../../integrations/integration-guides/servicenow-integration-setup.md)
+* For ticketing functionality, the [organizational variable](../../integrations/organization-variables.md#what-is-an-organization-variable) `default_psa` should be defined per the table below.
 
 | PSA             | Value        |
 | --------------- | ------------ |
@@ -35,7 +35,7 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 
 ## Unpack the Remove Malicious Email and Block Sender Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Remove Malicious Email and Block Sender`.\
    \
    ![](<../../../.gitbook/assets/image (188).png>)
@@ -47,13 +47,13 @@ Our Remove Malicious Email and Block Sender Crate will allow you to search for a
 
 ### Test the Crate
 
-1. Navigate to **Automations > Forms** in the Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the Rewst platform.
 2.  Search for `Remove Emails and Block Sender`.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 4.39.48 PM.png" alt=""><figcaption></figcaption></figure>
 3. Click **⋮** to the right of your searched form. Select **Usages**.
 4. Click **View Direct URLs** for the Workflow named **\[ROC] M365: Remove Malicious Emails and Block Sender**.
-5. Click the link that corresponds to your target organization. Note that the target organization will need to have been mapped and authorized within the [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).\
+5. Click the link that corresponds to your target organization. Note that the target organization will need to have been mapped and authorized within the [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-04-01 at 4.40.56 PM.png>)
 6. Select the ticket number to document the workflow actions for the request from the **Ticket Number** drop-down selector.

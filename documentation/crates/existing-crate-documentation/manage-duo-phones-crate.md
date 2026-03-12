@@ -40,17 +40,17 @@ The Crate creates an audit report in CSV format and logs a corresponding PSA tic
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you must have one of the following [PSAs integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst:
+Before unpacking this Crate, you must have one of the following [PSAs integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
 * [Datto PSA](../../automations/kits/datto-psa-integration-kit.md)
-* [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
+* [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
 
-You also must have integrated [Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md) with Rewst.
+You also must have integrated [Duo](../../integrations/integration-guides/duo-integration-setup.md) with Rewst.
 
 ## Unpack the **Manage Duo Phones** Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Manage Duo Phones`**.**\
    \
    ![](<../../../.gitbook/assets/image (171).png>)
@@ -62,7 +62,7 @@ You also must have integrated [Duo](../../configuration/integrations/integration
 
 ### Test the **Manage Duo Phones** Crate
 
-1. Navigate to **Automations > Forms.**
+1. Navigate to **Automations > Assets> Forms.**
 2. Search for the form named **\[Rewst] Duo: Manage Phones.**
 3. Click **⋮** and select **Usages**.
 4. Locate the workflow named  **\[Rewst - CRATE] Duo: Manage Phones.**

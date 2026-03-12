@@ -9,7 +9,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>New features and items</strong></summary>
 
 * **Integrations**
-  * [1Stream (BVoiP) integration](../../../documentation/configuration/integrations/integration-guides/1stream-integration.md)
+  * [1Stream (BVoiP) integration](../../../documentation/integrations/integration-guides/1stream-integration.md)
 * **Workflows**
   * Enhanced RoboRewsty workflow notes with absolute positioning and styling options
 * **App Builder**

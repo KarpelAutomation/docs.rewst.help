@@ -18,13 +18,13 @@ Note: This Crate does not remove or archive assets when they are no longer prese
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
-Your [ITGlue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../configuration/integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must also be set up.
+Your [ITGlue](../../integrations/integration-guides/it-glue-integration-setup.md), [SyncMonkey](../../integrations/integration-guides/syncmonkey-integration.md), or [Hudu](../../integrations/integration-guides/hudu-integration-setup.md) integration must also be set up.
 
 ## Unpack the Document Group Details V2 Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for the `Document Group Details V2` Crate.
 3. Click on the Crate tile to begin unpacking.\
    \

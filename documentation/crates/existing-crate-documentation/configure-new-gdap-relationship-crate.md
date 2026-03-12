@@ -8,7 +8,7 @@ noIndex: true
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find this Crate in our Crate Marketplace.
 
-This Crate is specifically used for the setup of the [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
+This Crate is specifically used for the setup of the [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
 {% endhint %}
 
 ## What does the Configure New GDAP Relationship Crate do?
@@ -61,7 +61,7 @@ During the workflow automation, each role must have an associated group. These g
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-10 at 4.11.46 PM.png" alt=""><figcaption></figcaption></figure>
 7. Ensure that both the **Form Submission** and **Webhook** trigger configuration accordion menus have their triggers toggled on to **Enabled**.
 8. Click **Unpack Crate**.
-9. Continue following the steps here to finish setting up the [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+9. Continue following the steps here to finish setting up the [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

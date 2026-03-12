@@ -10,7 +10,7 @@ This Crate allows you to bulk add or update organization variables using a CSV f
 
 ## Unpack the Mass Update Org Variables via CSV Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Mass Update Org Variables via CSV`**.**\
    \
    ![](<../../../.gitbook/assets/image (173).png>)
@@ -43,7 +43,7 @@ This Crate allows you to bulk add or update organization variables using a CSV f
     "testorg","abcdefg-hijk-aaa12-855d-3d1ddd1917aa","testvar1","true"
     "testorg2","bbbbbg-hijk-aaa12-855d-3dccca1917aa","testvar2","55"
     ```
-2. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+2. Navigate to **Automations > Assets> Forms** in the left side menu of your Rewst platform.
 3.  Search for the form named CSV Mass Org Variable Upload.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-28 at 1.18.53 PM.png" alt=""><figcaption></figcaption></figure>

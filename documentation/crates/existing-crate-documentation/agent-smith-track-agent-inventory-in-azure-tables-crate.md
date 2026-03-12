@@ -25,12 +25,12 @@ This workflow is kicked off through the following process:
 
 Install and deploy the following before unpacking the Crate:
 
-* [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/)
+* [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/)
 * [Agent Smith](../../agent-smith/) command executor
 
 ## Unpack the Agent Smith: Track Agent Inventory in Azure Tables Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2.  Search for `Agent Smith: Track Agent Inventory in Azure Tables Crate`.
 
     \

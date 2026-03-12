@@ -37,6 +37,6 @@ Explore what new changes the Training team has made in the last week.
 * **Updates and Fixes:**&#x20;
   * [Broken link](/broken/pages/eXviaeOE4WEnqJkVCBvd "mention"): Added a section on **r**e-running a pod from a ticket
   * [Broken link](/broken/pages/GIcWasKaiefy84k3QB3z "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
-  * [datto-rmm-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup.md "mention"): Replaced the Rewst Script Run Powershell.cpt file with an updated version
+  * [datto-rmm-integration-setup.md](../../../documentation/integrations/integration-guides/datto-rmm-integration-setup.md "mention"): Replaced the Rewst Script Run Powershell.cpt file with an updated version
 
 </details>

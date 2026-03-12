@@ -17,11 +17,11 @@ This Crate identifies duplicate configurations in ConnectWise PSA and ensures th
 
 ## Crate prerequisites
 
-This Crate works with our [ConnectWise PSA integration](../../configuration/integrations/integration-guides/connectwise-integration-setup.md). Before unpacking, you'll need to have successfully integrated your ConnectWise PSA with Rewst.
+This Crate works with our [ConnectWise PSA integration](../../integrations/integration-guides/connectwise-integration-setup.md). Before unpacking, you'll need to have successfully integrated your ConnectWise PSA with Rewst.
 
 ## Unpack the Consolidate and Manage Duplicate Configurations Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Consolidate and Manage Duplicate Configurations`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 4.57.49 PM.png>)<br>
@@ -32,7 +32,7 @@ This Crate works with our [ConnectWise PSA integration](../../configuration/inte
 
 ### Use the Clean up Global Address List from Disabled Users Crate
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets> Forms**.
 2. Search for `[Form Name - This will be indicated on the Crate's details page]`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click the form link for your desired organization. This will open it in a new browser tab.

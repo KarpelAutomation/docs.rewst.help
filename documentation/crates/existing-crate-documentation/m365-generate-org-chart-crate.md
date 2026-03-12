@@ -20,11 +20,11 @@ The generated chart reflects a snapshot in time and does not auto-update as org 
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll first need to set up the Microsoft Graph integration, via our [Microsoft Cloud Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+Before unpacking this Crate, you'll first need to set up the Microsoft Graph integration, via our [Microsoft Cloud Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).
 
 ## Unpack the M365: Build Org Chart Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `M365: Generate Org Chart`**.**\
    \
    ![](<../../../.gitbook/assets/image (169).png>)
@@ -40,7 +40,7 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 The Crate workflow is triggered by a form submission. Initiate the org chart generation by submitting a request through the form with the necessary inputs.
 {% endhint %}
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2.  Locate the form titled **Microsoft: Build Org Chart**.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-08 at 5.51.59 PM.png" alt=""><figcaption></figcaption></figure>
@@ -55,7 +55,7 @@ The Crate workflow is triggered by a form submission. Initiate the org chart gen
 
 ### Edit the email template
 
-1. Navigate to **Automations > Templates**.
+1. Navigate to **Automations > Assets > Templates**.
 2. Search for `Org Chart HTML Template`**.**\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-05-08 at 5.57.56 PM.png>)

@@ -10,7 +10,7 @@ This Crate allows you to install or uninstall specific software via Chocolatey o
 
 ### Crate prerequisites
 
-Before unpacking this Crate, you must have your [PSA integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+Before unpacking this Crate, you must have your [PSA integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 ### Workflow breakdown
 
@@ -27,7 +27,7 @@ Before unpacking this Crate, you must have your [PSA integrated](../../configura
 
 ## Unpack the Manage Chocolatey Packages Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Manage Chocolatey Packages`**.**\
    \
    <img src="../../../.gitbook/assets/Screenshot 2025-11-17 at 5.01.40 PM.png" alt="" data-size="original">
@@ -39,7 +39,7 @@ Before unpacking this Crate, you must have your [PSA integrated](../../configura
 
 ### Use the form
 
-1. Navigate to **Automations > Forms.**
+1. Navigate to **Automations > Assets> Forms.**
 2. Search for the form named `Chocolatey: Manage Packages`**.**
 3. Click **⋮** and select **Usages**.
 4. Click **View Direct URLs**.

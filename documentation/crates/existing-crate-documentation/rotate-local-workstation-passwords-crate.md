@@ -31,13 +31,13 @@ This Crate provisions a dedicated local administrator account on each workstatio
 
 ## Crate prerequisites
 
-Your [RMM](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be successfully integrated with Rewst.&#x20;
+Your [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be successfully integrated with Rewst.&#x20;
 
-[IT Glue](../../configuration/integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../configuration/integrations/integration-guides/hudu-integration-setup.md) integration must successfully be set up with Rewst.
+[IT Glue](../../integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../integrations/integration-guides/hudu-integration-setup.md) integration must successfully be set up with Rewst.
 
 ## Unpack the Rotate Local Workstation Passwords Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Rotate Local Workstation Passwords`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/Screenshot 2025-12-02 at 4.18.38 PM.png>)

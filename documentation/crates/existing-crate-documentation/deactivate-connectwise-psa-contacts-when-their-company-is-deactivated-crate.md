@@ -10,11 +10,11 @@ This Crate ensures that when a ConnectWise PSA company is set to an inactive sta
 
 ## Crate prerequisites
 
-Your [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must first be successfully integrated with Rewst before unpacking this Crate.
+Your [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md) must first be successfully integrated with Rewst before unpacking this Crate.
 
 ## Unpack the Deactivate ConnectWise PSA Contacts when their Company is Deactivated Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Deactivate ConnectWise PSA Contacts when their Company is Deactivated`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 10.51.02 AM.png>)<br>

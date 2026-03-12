@@ -21,12 +21,12 @@ Note that multiple workstation types for ITGlue are not supported by this Crate.
 
 Before unpacking this Crate, you'll first need to have:
 
-* An active [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst
-* An active [RMM integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst
+* An active [PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst
+* An active [RMM integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst
 
 ## Unpack the Document BitLocker Information Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Document BitLocker Information`.\
    \
    ​![](<../../../.gitbook/assets/image (152).png>)
@@ -59,7 +59,7 @@ To test this Crate, you'll need to adjust the [cron trigger](https://docs.rewst.
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](../../configuration/organization-variables.md).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).&#x20;
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 

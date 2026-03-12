@@ -8,21 +8,21 @@ These recommendations align with the standards and guidelines that our internal 
 
 When designing workflows, keep these three guiding principles in mind.
 
-1. **Simplicity**: Create workflows that are user-friendly and easy to understand.
-2. **Modularity**: Break down workflows into smaller, reusable components.
-3. **Maintainability**: Build workflows that are straightforward to update and maintain.
+1. Simplicity: Create workflows that are user-friendly and easy to understand.
+2. Modularity: Break down workflows into smaller, reusable components.
+3. Maintainability: Build workflows that are straightforward to update and maintain.
 
 ## Automation build standards
 
 A good workflow should meet all of these requirements.
 
-* **Consistency**: Standardized practices lead to a consistent experience across different workflows.
-* **Quality assurance**: Adhering to standards makes quality checks more efficient.
-* **Reusability**: Modular design enables the reuse of components, speeding up development.
-* **Scalability**: Design your workflows to handle increased complexity as your needs grow.
-* **Efficiency**: Avoid redundancy by following a standardized approach.
-* **Knowledge Transfer**: Standards foster collaboration and knowledge sharing within your team.
-* **Flexibility**: Rewst's standards allow easy integration of new features without major rework.
+* Consistency: Standardized practices lead to a consistent experience across different workflows.
+* Quality assurance: Adhering to standards makes quality checks more efficient.
+* Reusability: Modular design enables the reuse of components, speeding up development.
+* Scalability: Design your workflows to handle increased complexity as your needs grow.
+* Efficiency: Avoid redundancy by following a standardized approach.
+* Knowledge Transfer: Standards foster collaboration and knowledge sharing within your team.
+* Flexibility: Rewst's standards allow easy integration of new features without major rework.
 
 ## Design, test, and document workflows
 

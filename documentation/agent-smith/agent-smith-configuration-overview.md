@@ -12,20 +12,22 @@ Agent Smith operates as an Azure IoT Hub instance, integrated with Rewst workflo
 We recommend that anyone who attempts to set up and use Agent Smith be an admin in Microsoft Azure, and well versed in its functionality.
 {% endhint %}
 
+Budget between 50 to 200 messages per day per agent, depending on your workflows. Visit [Microsoft's own documentation](https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-scaling) for specifics.
+
 ## Set up Agent Smith
 
 {% hint style="success" %}
-Unpack the Agent Smith setup Crates at the MSP level. Then, set the [organization variable](../configuration/organization-variables.md#what-is-an-organization-variable) `default_rmm` at the customer level for the child organizations that you want to use with Agent Smith, or use the form unpacked during setup to apply Agent Smith as your RMM for all organizations.&#x20;
+Unpack the Agent Smith setup Crates at the MSP level. Then, set the [organization variable](../integrations/organization-variables.md#what-is-an-organization-variable) `default_rmm` at the customer level for the child organizations that you want to use with Agent Smith, or use the form unpacked during setup to apply Agent Smith as your RMM for all organizations.&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
 For the Azure integration to work, you’ll need to have an Azure Subscription that includes a Keyvault.
 
-The Rewst integration user setup for the [Microsoft Cloud Integration Bundle](../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) may require you to adjust permissions for your Azure subscription. Most commonly, it is recommended to grant the Rewst Service Account with Contributor access to your Azure subscription.
+The Rewst integration user setup for the [Microsoft Cloud Integration Bundle](../integrations/integration-guides/microsoft-cloud-integration-bundle/) may require you to adjust permissions for your Azure subscription. Most commonly, it is recommended to grant the Rewst Service Account with Contributor access to your Azure subscription.
 {% endhint %}
 
-1. Install and authorize our Microsoft Cloud Integration Bundle by navigating to **Configuration > Integrations** in the Rewst platform. This bundle contains an integration for Microsoft Azure, which is necessary to set up and use Agent Smith.
-2. Navigate to **Crates > Crate Marketplace** in the Rewst platform.\
+1. Install and authorize our Microsoft Cloud Integration Bundle by navigating to **Marketplace > Integrations** in the Rewst platform. This bundle contains an integration for Microsoft Azure, which is necessary to set up and use Agent Smith.
+2. Navigate to **Marketplace > Crates** in the Rewst platform.\
    You'll need to install the below Crates in order for Agent Smith setup to complete. Only unpack the Crates in the indicated order, or setup will fail.
    1. Search for and install the `Agent Smith: Device Provisioning` Crate. This will unpack the workflows necessary for registering agents in the Azure IoT Hub. Ensure that the trigger in the **Webhook** accordion menu of the Crate's configuration page is toggled to **Enabled**.\
       \
@@ -33,7 +35,7 @@ The Rewst integration user setup for the [Microsoft Cloud Integration Bundle](..
    2. Search for and install the `Agent Smith: Service Provisioning` Crate. Unpacking this Crate will configure the Azure IoT Hub as a gateway for sending commands to endpoints. It will also unpack a form named **Agent Smith: Service Configuration.** You'll use this form to set up and execute all of Agent Smith's capabilities.\
       \
       ![](<../../.gitbook/assets/Screenshot 2025-09-24 at 12.00.55 PM.png>)
-3. Navigate to **Automations > Forms** and search for the `Agent Smith: Service Configuration` form. Click **⋮> View Direct URLs**, then click on the URL of the form.&#x20;
+3. Navigate to **Automations > Assets > Forms** and search for the `Agent Smith: Service Configuration` form. Click **⋮> View Direct URLs**, then click on the URL of the form.&#x20;
 4. Choose **Action: Create IoT Hub Instance** from the **Action** drop-down menu.
 5. Use the relevant drop-down selectors to choose the proper:
    1. **Azure Subscription**

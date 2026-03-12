@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the View Rewst Integration Org Variables Crate do?
 
-The View Rewst Integration Org Variables Crate offers a powerful solution for seamlessly mapping and managing [organization variables](../../configuration/organization-variables.md) across various integrations within Rewst. Through its comprehensive workflows, gain the ability to aggregate and contextualize integration data specific to each organization. This Crate not only simplifies the process of dealing with diverse integrations, but also enhances the efficiency and accuracy of data handling within the Rewst platform.
+The View Rewst Integration Org Variables Crate offers a powerful solution for seamlessly mapping and managing [organization variables](../../integrations/organization-variables.md) across various integrations within Rewst. Through its comprehensive workflows, gain the ability to aggregate and contextualize integration data specific to each organization. This Crate not only simplifies the process of dealing with diverse integrations, but also enhances the efficiency and accuracy of data handling within the Rewst platform.
 
 For example, consider the scenario where you have one client named three slightly different things in your PSA, Pax8, and RMM. Instead of complicated string matching, this feature lets you map these disparate names into a single coherent identification system.
 
@@ -39,7 +39,7 @@ This execution is done using the `Run As Org` setting, ensuring that the subwork
 
 Before unpacking this Crate:
 
-* You must have successfully set up the [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+* You must have successfully set up the [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).
 * Depending on how you would like to use the Crate, you’ll also need other integrations from which to pull the data.
 
 ### Workflow breakdown

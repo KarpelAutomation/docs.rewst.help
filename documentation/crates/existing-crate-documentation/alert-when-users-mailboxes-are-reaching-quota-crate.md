@@ -29,13 +29,13 @@ The Crate workflow is triggered by a cron job based on the configured schedule.
 
 ## Crate prerequisites
 
-The Microsoft Exchange integration must first be successfully installed. This is a part of the Rewst [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/).
+The Microsoft Exchange integration must first be successfully installed. This is a part of the Rewst [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/).
 
-If you wish for a ticket to be generated in your PSA, your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.
+If you wish for a ticket to be generated in your PSA, your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.
 
 ## Unpack the Alert when Users' Mailboxes are Reaching Quota Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2.  Search for the `Unpack the Alert when Users' Mailboxes are Reaching Quota` Crate.
 
     \
@@ -56,7 +56,7 @@ If you wish for a ticket to be generated in your PSA, your [PSA must be successf
 {% hint style="info" %}
 **Optional - update tickets**
 
-Set the [org variable](../../configuration/organization-variables.md) **`mail_quota_ticket_matching_enabled`** to enable ticket consolidation. This will update existing tickets if found, instead of always creating new ones.
+Set the [org variable](../../integrations/organization-variables.md) **`mail_quota_ticket_matching_enabled`** to enable ticket consolidation. This will update existing tickets if found, instead of always creating new ones.
 {% endhint %}
 
 ### Test the Alert when Users' Mailboxes are Reaching Quota Crate

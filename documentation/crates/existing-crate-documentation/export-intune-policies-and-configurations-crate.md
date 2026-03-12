@@ -14,11 +14,11 @@ Our Export Intune Policies and Configurations Crate allows you to select and exp
 
 ## Crate prerequisites
 
-The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
+The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Export Intune Policies and Configurations Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2.  Search for `Export Intune Policies and Configurations`.
 
     \
@@ -31,7 +31,7 @@ The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integr
 
 ### Test the Crate
 
-1. Access the form by navigating to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Access the form by navigating to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `Intune`.&#x20;
 3. Click the form named **\[ROC] Endpoint: Export Intune Policies.**
 4. Click **⋮ >** **Usages >View Direct URLs**.

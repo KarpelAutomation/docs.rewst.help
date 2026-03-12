@@ -40,8 +40,8 @@ The workflow requires two input parameters, both set by using the form unpacked 
 
 ## Crate prerequisites
 
-* The [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be successfully set up in Rewst.
-* The [Twilio integration](../../configuration/integrations/integration-guides/twilio-integration-setup.md) must be successfully set up in Rewst.
+* The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be successfully set up in Rewst.
+* The [Twilio integration](../../integrations/integration-guides/twilio-integration-setup.md) must be successfully set up in Rewst.
 
 ## Unpack the Bulk Send SMS to Users Crate
 

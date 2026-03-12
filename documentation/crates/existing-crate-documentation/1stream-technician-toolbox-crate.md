@@ -55,7 +55,7 @@ If additional Crates are added later, this workflow can be extended to include t
 
 Ensure that the following integrations are already configured and [mapped](https://docs.rewst.help/documentation/configuration/integrations#how-to-map-organizations-org-mapping) in Rewst before using this Crate:
 
-* Your [PSA integration](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)&#x20;
+* Your [PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)&#x20;
 * Each of the supported forms is unpacked from its relevant Crate and added to your Rewst instance. The specified Crates must be unpacked before unpacking this 1Stream Crate. Otherwise, clicking the link will take you directly to the relevant Crate so you can unpack it.
 * The specified Crates containing the supported forms must be configured as per their individual specifications in order to function when submitted.
 
@@ -80,7 +80,7 @@ Note that since you can choose which of the supported forms is used for 1Stream,
 
 ## **Unpack the 1Stream Technician Toolbox Crate**
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu of your Rewst platform.
 2. Search for `1Stream Technician Toolbox`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-11-04 at 10.01.45 AM.png>)
@@ -130,8 +130,8 @@ Note that since you can choose which of the supported forms is used for 1Stream,
 
 
 
-14. Optionally, add an [organizaton variable](../../configuration/organization-variables.md#manually-add-a-new-organization-variable) in Rewst.&#x20;
-    1. If you set an API Key in 1Stream, you’ll need to mirror it as a [secret org variable](../../configuration/organization-variables.md#create-secret-values-for-organization-variables) in Rewst.
+14. Optionally, add an [organization variable](../../integrations/organization-variables.md#manually-add-a-new-organization-variable) in Rewst.&#x20;
+    1. If you set an API Key in 1Stream, you’ll need to mirror it as a [secret org variable](../../integrations/organization-variables.md#create-secret-values-for-organization-variables) in Rewst.
     2. Open the webhook trigger in the `[REWST - TASK] 1Stream Technician Toolbox` workflow.
     3. Select this secret key.&#x20;
     4. Click **Save**.

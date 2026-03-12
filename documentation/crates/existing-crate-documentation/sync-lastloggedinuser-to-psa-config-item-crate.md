@@ -25,11 +25,11 @@ Our Sync LastLoggedInUser to PSA Config Item Crate helps you keep track of the l
 
 ## Crate prerequisites
 
-The [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/) integration must be successfully set up before unpacking this Crate.
+The [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/) integration must be successfully set up before unpacking this Crate.
 
 ### Unpack the Sync LastLoggedInUser to PSA Config Item Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Sync LastLoggedInUser to PSA Config Item`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (262).png>)
@@ -41,7 +41,7 @@ The [Datto Autotask PSA](../../configuration/integrations/integration-guides/dat
 
 ### Use the Crate <a href="#use-the-crate" id="use-the-crate"></a>
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `AT Asset Owner Sync`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.

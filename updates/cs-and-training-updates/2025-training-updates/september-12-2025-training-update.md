@@ -13,9 +13,8 @@ Explore what new changes the Cluck University team made in the last week.
   * Tom, Ibrahim, James, Master, Niels, Cibrian, and Ramon for passing the Clean Automation Certification.
     * And our very own Kylah, Nick and Craig from Rewst
   * Take the [Clean Automation](https://learn.rewst.io/clean-automation-certification) exam and get that fancy certificate!
-
-- Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
-- Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours)  to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
+* Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
+* Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours)  to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
 
 </details>
 
@@ -31,12 +30,12 @@ Explore what new changes the Cluck University team made in the last week.
 **New and updated documentation pages:**
 
 * Jinja for conditional fields in forms guidance update: [Jinja for field conditions in forms](../../../documentation/automations/forms/form-best-practices.md)
-* Update to our action guidance for BitDefender GravityZone integration: [Bitdefender GravityZone integration](../../../documentation/configuration/integrations/integration-guides/bitdefender-gravityzone-integration.md)
+* Update to our action guidance for BitDefender GravityZone integration: [Bitdefender GravityZone integration](../../../documentation/integrations/integration-guides/bitdefender-gravityzone-integration.md)
 * Extract part of a date transform action: [Extract part of a date transform action](../../../documentation/automations/actions-in-rewst/transform-actions/extract-part-of-a-date-transform-action.md)
-* Updated guidance on the Rewst PowerShell interpreter: [PowerShell interpreter](../../../documentation/rewst-tools/powershell-interpreter.md)
+* Updated guidance on the Rewst PowerShell interpreter: [PowerShell interpreter](../../../documentation/settings/powershell-interpreter.md)
 * Workflow execution and task result troubleshooting guidance: [Troubleshoot workflow executions and task results](../../../documentation/automations/workflows/troubleshoot-workflow-executions-and-task-results.md)
 * Configure New GDAP Relationship Crate: [Configure New GDAP Relationship Crate](../../../documentation/crates/existing-crate-documentation/configure-new-gdap-relationship-crate.md)
 * Updated guidance on our variable roots to include WORKFLOW and USER: [Internal Rewst Jinja examples](../../../documentation/jinja/internal-rewst-jinja-examples.md)
-* Massive update to our Microsoft Cloud Integration Bundle: [Microsoft Cloud Integration Bundle](../../../documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/)
+* Massive update to our Microsoft Cloud Integration Bundle: [Microsoft Cloud Integration Bundle](../../../documentation/integrations/integration-guides/microsoft-cloud-integration-bundle/)
 
 </details>

@@ -20,12 +20,12 @@ Monitoring is done through the statuses' multiple endpoints. A ticket is created
 
 ## Crate prerequisites
 
-* Your [Dropsuite integration](../../configuration/integrations/integration-guides/dropsuite-integration.md) with Rewst must successfully be set up before unpacking this Crate.
-* Your [PSA must successfully be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations-offered-by-rewst) with Rewst.
+* Your [Dropsuite integration](../../integrations/integration-guides/dropsuite-integration.md) with Rewst must successfully be set up before unpacking this Crate.
+* Your [PSA must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations-offered-by-rewst) with Rewst.
 
 ## Unpack the Dropsuite: Backup Monitoring Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Dropsuite: Backup Monitoring`.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-12-08 at 12.35.49 PM.png>)

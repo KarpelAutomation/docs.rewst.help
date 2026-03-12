@@ -11,7 +11,7 @@ If a form field of a form unpacked from a Crate isn't populating with informatio
 
 Either option will require you to collect information from the form by completing the following steps. As an example, we're using the **\[Rewst Master v3] User Onboarding Minimalistic** form.
 
-1. Navigate to **Automations > Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Open the form in question.
 3. Scroll down in the right side menu. Click on any field that's further down in the field list.&#x20;
 4. Click on the field. This will open its information in the right side menu.
@@ -31,6 +31,6 @@ Either option will require you to collect information from the form by completin
 
     1. If troubleshooting the issue yourself, find the errors in the workflow execution and correct them.&#x20;
     2. If creating a ticket for Rewst support, copy the URL of your browser while viewing this information, and paste it into your support ticket.&#x20;
-    3. You can also ask [RoboRewsty](../../rewst-tools/roborewsty.md) to help you troubleshoot your execution results.
+    3. You can also ask [RoboRewsty](../../roborewsty/) to help you troubleshoot your execution results.
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-18 at 1.08.36 PM.png" alt=""><figcaption><p>Click on ... under errors to expand error information</p></figcaption></figure>

@@ -30,15 +30,17 @@ Option generators are still a fantastic option for those who need a more powerfu
 
 You work at an MSP and are building a license request form for technicians. Your customer, XYZ Corp, only purchases Microsoft 365 Business Premium licenses, not E3, E1, or other license types. To prevent techs from accidentally selecting the wrong license type, which would lead to support tickets and billing issues, you want the drop-down in your form to only show Business Premium.
 
-<figure><img src="../../../.gitbook/assets/screen shot 1.png" alt=""><figcaption><p>Building the form with the different license types</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-05 at 4.03.54 PM.png" alt=""><figcaption><p>Building the form with the different license types</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/screen shot 2.png" alt=""><figcaption><p>What is seen after clicking <strong>filter options</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-05 at 4.04.18 PM.png" alt=""><figcaption><p>What is seen after clicking <strong>filter options</strong></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screen shot 3.png" alt=""><figcaption><p>Filtering using the <strong>simple</strong>  logic option. The $.label equals Microsoft 365 Business Premium. Note that you haven't clicked <strong>apply filter</strong> on the bottom right, so there are still 4 filtered options shown under <strong>Dropdown Options</strong>.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-05 at 4.04.49 PM.png" alt=""><figcaption><p>Filtering using the <strong>simple</strong>  logic option. The $.label equals Microsoft 365 Business Premium. Note that you haven't clicked <strong>apply filter</strong> on the bottom right, so there are still 4 filtered options shown under <strong>Dropdown Options</strong>.</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screen shot 4 (1).png" alt=""><figcaption><p>What you see after you click <strong>apply filter</strong>. Now, there's only 1 filtered option: Microsoft 365 Business Premium</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 5.png" alt=""><figcaption><p>A preview of the form, or a preview of what the end user would see. Only one option would display.</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-05 at 4.06.14 PM.png" alt=""><figcaption><p>What you see after you click <strong>apply filter</strong>. Now, there's only 1 filtered option: Microsoft 365 Business Premium</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-05 at 4.05.51 PM.png" alt=""><figcaption><p>A preview of the form, or a preview of what the end user would see. Only one option would display.</p></figcaption></figure>
 
 ## Options filter dialog
 
@@ -97,7 +99,7 @@ The options filter works off of two boolean operators, which are used to build q
 
 Click **X** to the right of any added rule or group to delete it from your options filter list.
 
-Clicking **+Rule** adds a filter field, which is customizable by a list of parameters. Choose from either **$.value** or **$.label**, then choose from the long drop-down list of conditions. E.g., **$.value equals `15`** would filter all results with a value of exactly 15.
+Click **+Rule** to add a filter field, which is customizable by a list of parameters. Choose from either **$.value** or **$.label**, then choose from the long drop-down list of conditions. E.g., **$.value equals `15`** would filter all results with a value of exactly 15.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-25 at 4.28.47 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -114,7 +116,7 @@ By grouping terms, you can control the order in which Boolean operators like AND
 
 ### Use the options filter in a form
 
-1. Create a new form by navigating to **Automations > Forms > + Add**.
+1. Navigate to **Automations > Assets > Forms > + Add**.
 2. Name your form, and click **Submit**.
 3. Drag one of the three applicable form fields onto the form builder canvas. Remember, options filter is only available for Radio Buttons, Dropdown, and Multi-Select.
 4. Click on the dragged form field to open the right side menu.

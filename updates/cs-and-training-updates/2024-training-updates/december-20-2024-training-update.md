@@ -41,8 +41,8 @@ Explore what new changes the Training team has made in the last week.
 
 * Updated Pages
   * [Broken link](/broken/pages/JTewUNxCZGcGg3FdP57W "mention")
-  * [datto-psa-integration-setup](../../../documentation/configuration/integrations/integration-guides/datto-psa-integration-setup/ "mention")&#x20;
-  * [it-portal-integration-setup.md](../../../documentation/configuration/integrations/integration-guides/it-portal-integration-setup.md "mention")
+  * [datto-psa-integration-setup](../../../documentation/integrations/integration-guides/datto-psa-integration-setup/ "mention")&#x20;
+  * [it-portal-integration-setup.md](../../../documentation/integrations/integration-guides/it-portal-integration-setup.md "mention")
   * [Broken link](/broken/pages/IvWNdtIDzuPf9ZkpCGrM "mention")
   * [Broken link](/broken/pages/eXviaeOE4WEnqJkVCBvd "mention")
 * Formatting and Standardization

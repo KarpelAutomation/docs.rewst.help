@@ -16,11 +16,11 @@ Our Move New Devices to Correct Location Crate attempts to match a device based 
 
 ## Crate prerequisites
 
-The [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md) integration must be set up before unpacking this Crate.
+The [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md) integration must be set up before unpacking this Crate.
 
 ## Unpack the Move New Devices to Correct Location Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Move New Devices to Correct Location`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/image (276).png>)

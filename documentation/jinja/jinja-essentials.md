@@ -4,10 +4,10 @@
 
 ### Braces and their functions
 
-Jinja uses brace delimiters to distinguish between expressions and statements. Specifically, it uses double curly braces `{{ }}` to surround expressions that should be replaced with output and curly braces with percent signs `{% %}` to surround statements that control the logic of the template. Jinja uses the `{# #}` syntax for comments. Anything between the opening and closing comment delimiters will be ignored by Jinja and not included in the output.
+Jinja uses brace delimiters to distinguish between expressions and statements. Specifically, it uses double curly braces `{{ }}` to surround expressions that should be replaced with output, and curly braces with percent signs `{% %}` to surround statements that control the logic of the template. Jinja uses the `{# #}` syntax for comments. Anything between the opening and closing comment delimiters will be ignored by Jinja and not included in the output.
 
-* **Output Values (`{{ }}`):** Display variables or expressions. For example, `{{ CTX.user_id }}` shows user-specific data.
-* **Code Blocks (`{% %}`):** Used for control structures like `if`, `else`, `for` loops.
+* **Output values (`{{ }}`):** Display variables or expressions. For example, `{{ CTX.user_id }}` shows user-specific data.
+* **Code blocks (`{% %}`):** Used for control structures like `if`, `else`, `for` loops.
 * **Comments (`{# #}`):** Enable non-executable notes for clarity.
 
 ### Use the Monaco Editor in Rewst
@@ -18,12 +18,12 @@ The _Monaco Editor_ is a powerful code editor that allows you to edit and previe
 
 Here are some features and keystrokes you can use with the Monaco Editor in Rewst:
 
-* **Syntax highlighting:** The Monaco Editor provides syntax highlighting for Jinja templates, making it easier to read and understand your code.
-* **Code completion:** The Monaco Editor provides code completion for Jinja templates, suggesting possible completion options as you type.
-* **Find and Replace:** The Monaco Editor provides a powerful Find and Replace feature that allows you to quickly search for and replace text within your code.
-* **Keyboard shortcuts:** The Monaco Editor provides a variety of keyboard shortcuts that can help you to work more efficiently. For example:
-  * **Ctrl + Space:** Trigger code completion
-  * **Ctrl + /:** Toggle line commenting
+* Syntax highlighting: The Monaco Editor provides syntax highlighting for Jinja templates, making it easier to read and understand your code.
+* Code completion: The Monaco Editor provides code completion for Jinja templates, suggesting possible completion options as you type.
+* Find and Replace: The Monaco Editor provides a powerful Find and Replace feature that allows you to quickly search for and replace text within your code.
+* Keyboard shortcuts: The Monaco Editor provides a variety of keyboard shortcuts that can help you to work more efficiently. For example:
+  * Ctrl + Space: Trigger code completion
+  * Ctrl + /: Toggle line commenting
 
 {% hint style="info" %}
 Note that Rewst's Jinja2 implementation displays mutable object— lists, dicts, namespaces—  in their final state immediately when first rendered, rather than their current state at render time. This differs from standard Jinja2 behavior where objects should display their state at the time of rendering.

@@ -1,7 +1,7 @@
 # Troubleshoot workflow executions and task results
 
 {% hint style="success" %}
-If the issue involves another platform like your [RMM](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations),[ PSA](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations), or email system, check that platform's documentation or status page for recent changes or requirements.
+If the issue involves another platform like your [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations),[ PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations), or email system, check that platform's documentation or status page for recent changes or requirements.
 {% endhint %}
 
 ## Workflow executions for troubleshooting
@@ -26,7 +26,7 @@ The inputs and context sections tell the story of what data your workflow receiv
     <br>
 
     <figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
-*   The **Context** section shows variables created or passed between tasks. [Context variables](/broken/pages/uRy9dPnkagDnMPXmjTNg#overview-of-ctx-and-org.variables) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
+*   The **Context** section shows variables created or passed between tasks. [Context variables](data-input-and-output-input-variables-and-context-variables.md) can change over the execution of the workflow, and each new iteration of variables will be in this list in chronological order.\
     <br>
 
     <figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
@@ -38,8 +38,8 @@ Task results give you a detailed view of what happened in a workflow, and why so
 
 Task results display two key pieces of information:
 
-* The _request_ Rewst sent—such as a JSON payload or API call to an integration
-* The _response_ that came back—typically with a status code and message body
+* The request Rewst sent—such as a JSON payload or API call to an integration
+* The response that came back—typically with a status code and message body
 
 Reading both helps you determine if the failure came from your setup, your data, or the external system.
 
@@ -61,9 +61,9 @@ Reading both helps you determine if the failure came from your setup, your data,
 
 ## Use contextual tools to troubleshoot your workflow
 
-Rewst gives you three powerful tools: the [live editor](../../rewst-tools/the-live-editor.md), which lets you test Jinja expressions using real context data without re-running the full workflow, the _re-run_ button, which lets you re-run the full workflow using the same inputs, and the test button, which offers a quick way to demo the workflow.
+Rewst gives you three powerful tools: the [live editor](../the-live-editor.md), which lets you test Jinja expressions using real context data without re-running the full workflow, the **re-run** button, which lets you re-run the full workflow using the same inputs, and the test button, which offers a quick way to demo the workflow.
 
-### Use the [live editor](../../rewst-tools/the-live-editor.md) when:
+### Use the [live editor](../the-live-editor.md) when:
 
 * You’re troubleshooting a Jinja error
 * You’re checking if a context variable exists or is formatted correctly
@@ -132,9 +132,7 @@ Click into the failed task. Read the error message and check:
 
 If you've dealt with each of these points and still can't resolve the issue, [escalate to Rewst's support team](../../../support-and-community/roc-support/). Include the following in your ticket:
 
-* The org and workflow name
-* A link to the Workflow Execution Summary
+* The organization and workflow name
+* A link to the workflow execution summary
 * Task result screenshots
 * What you've tried so far
-
-Support will be able to help you faster, and with fewer back-and-forth steps.

@@ -17,15 +17,15 @@ This Crate will allow you to provide a variable configuration— via trigger var
 
 Before unpacking this Crate, you'll need to have your PSA successfully integrated with Rewst. This Crate works with the following PSAs:
 
-* [Connectwise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-* [Halo PSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+* [Connectwise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+* [Halo PSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
 
 ## Unpack the Update Ticket With Form Link - Generic Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst Platform.
 2.  Search for `Update Ticket With Form Link - Generic`.<br>
 
     ![](<../../../.gitbook/assets/Screenshot 2025-10-16 at 3.22.16 PM.png>)<br>

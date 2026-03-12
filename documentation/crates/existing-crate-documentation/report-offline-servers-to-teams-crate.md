@@ -24,8 +24,8 @@ The workflow unpacked from this Crate will identify the offline ConnectWise Auto
 
 The following integrations must be set up before unpacking this Crate:
 
-* [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
-* [ConnectWise ScreenConnect](../../configuration/integrations/integration-guides/connectwise-control-screenconnect.md)
+* [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md)
+* [ConnectWise ScreenConnect](../../integrations/integration-guides/connectwise-control-screenconnect.md)
 
 ### Unpack the Report Offline Servers to Teams Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
@@ -74,7 +74,7 @@ To obtain the FQDN, sign in to your organization's ConnectWise Automate account.
 
 #### In Rewst
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Report Offline Servers to Teams`.​
 
 

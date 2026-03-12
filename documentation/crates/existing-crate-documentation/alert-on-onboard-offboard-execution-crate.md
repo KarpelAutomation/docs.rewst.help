@@ -23,13 +23,13 @@ Note that this Crate has no triggers. Its workflow is meant to be set up using a
 
 ## Crate prerequisite
 
-To choose the email where the notification will be sent, you must set the [organization variable ](../../configuration/organization-variables.md#manually-add-a-new-organization-variable)`onboard_offboard_notification_email` before unpacking this Crate.    &#x20;
+To choose the email where the notification will be sent, you must set the [organization variable ](../../integrations/organization-variables.md#manually-add-a-new-organization-variable)`onboard_offboard_notification_email` before unpacking this Crate.    &#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-12-10 at 4.13.55 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Unpack the Alert on Onboard/Offboard Execution Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2.  Search for `Alert on Onboard/Offboard Execution`.
 
     \

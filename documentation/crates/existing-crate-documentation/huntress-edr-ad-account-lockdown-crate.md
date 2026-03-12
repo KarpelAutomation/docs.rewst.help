@@ -25,22 +25,22 @@ This is only applicable to non-administrator accounts.
 
 * Your PSA must be successfully integrated with Rewst before unpacking this Crate. \
   PSAs that are compatible with this Crate are:&#x20;
-  * [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
-  * [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-  * [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-  * [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
+  * [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
+  * [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+  * [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
+  * [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
 * Your RMM must be successfully integrated with Rewst before unpacking this Crate. RMMs that are compatible with this Crate are:&#x20;
-  * [ConnectWise Automate](../../configuration/integrations/integration-guides/connectwise-automate-integration-setup.md)
-  * [Datto RMM](../../configuration/integrations/integration-guides/datto-rmm-integration-setup.md)
-  * [NinjaOne](../../configuration/integrations/integration-guides/ninjaone-integration-setup.md)
-  * [Immybot](../../configuration/integrations/integration-guides/immybot-integration-setup.md)
-  * [Kaseya VSA](../../configuration/integrations/integration-guides/kaseya-vsa-integration-setup.md)
-  * [N-able N-Central](../../configuration/integrations/integration-guides/nable-integration-setup.md)
-* Your Rewst [Huntress integration](../../configuration/integrations/integration-guides/huntress-integration-setup.md) must be set up and operational before unpacking this Crate.
+  * [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md)
+  * [Datto RMM](../../integrations/integration-guides/datto-rmm-integration-setup.md)
+  * [NinjaOne](../../integrations/integration-guides/ninjaone-integration-setup.md)
+  * [Immybot](../../integrations/integration-guides/immybot-integration-setup.md)
+  * [Kaseya VSA](../../integrations/integration-guides/kaseya-vsa-integration-setup.md)
+  * [N-able N-Central](../../integrations/integration-guides/nable-integration-setup.md)
+* Your Rewst [Huntress integration](../../integrations/integration-guides/huntress-integration-setup.md) must be set up and operational before unpacking this Crate.
 
 ## Unpack the Huntress EDR: AD Account Lockdown Crate
 
-1. Navigate to **Crates** **>** **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Huntress EDR: AD Account Lockdown` .\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-08-29 at 12.44.03 PM.png>)

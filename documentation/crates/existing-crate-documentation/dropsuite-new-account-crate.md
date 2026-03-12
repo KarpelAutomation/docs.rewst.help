@@ -16,12 +16,12 @@ This Crate allows you to create a Dropsuite organization by filling out a Rewst 
 
 ## Crate prerequisites
 
-* Your [Dropsuite integration](../../configuration/integrations/integration-guides/dropsuite-integration.md) with Rewst must successfully be set up before unpacking this Crate.
-* Your [PSA must successfully be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations-offered-by-rewst) with Rewst.
+* Your [Dropsuite integration](../../integrations/integration-guides/dropsuite-integration.md) with Rewst must successfully be set up before unpacking this Crate.
+* Your [PSA must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations-offered-by-rewst) with Rewst.
 
 ## Unpack the Dropsuite: New Account Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Dropsuite: New Account`.
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
@@ -33,7 +33,7 @@ This Crate allows you to create a Dropsuite organization by filling out a Rewst 
 
 #### Fill out the form
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[REWST - PROCESS] Dropsuite: New Account`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the Rewst organization for which you want to create a new Dropsuite organization. This will launch the form in a new tab.

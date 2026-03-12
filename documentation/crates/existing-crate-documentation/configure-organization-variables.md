@@ -1,7 +1,7 @@
 # Configure Organizational Variables Crate
 
 {% hint style="info" %}
-If you're new to organization variables, read through [our documentation on them here](../../configuration/organization-variables.md) before unpacking this Crate.&#x20;
+If you're new to organization variables, read through [our documentation on them here](../../integrations/organization-variables.md) before unpacking this Crate.&#x20;
 
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find this Crate in our Crate Marketplace.
 {% endhint %}
@@ -19,7 +19,7 @@ The workflow does not handle manual data entry or corrections. If any configurat
 
 ## Unpack the Configure Organizational Variables Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Configure Organizational Variables` .\
    \
    ![](<../../../.gitbook/assets/image (143).png>)
@@ -42,7 +42,7 @@ Unpacking this Crate adds two forms to your Rewst platform.
 
 ### Use the forms
 
-1. Navigate to **Automations > Forms > \[ROC] Rewst: Configure Organizational Variables**.
+1. Navigate to **Automations > Assets> Forms > \[ROC] Rewst: Configure Organizational Variables**.
 2. Click **⋮**.
 3. Click **Usages > View Direct URLs**.
 4. Choose your MSP URL.
@@ -59,7 +59,7 @@ Unpacking this Crate adds two forms to your Rewst platform.
 
 To customize variables for client organizations:
 
-1. Navigate to **Automations > Forms > \[ROC] Rewst: Simple Organizational Variable Form for Child Accounts**.
+1. Navigate to **Automations > Assets> Forms > \[ROC] Rewst: Simple Organizational Variable Form for Child Accounts**.
 2. Click **⋮**.&#x20;
 3. Click **Usages > View Direct URLs**.
 4. Select the URL of the client you would like to configure.

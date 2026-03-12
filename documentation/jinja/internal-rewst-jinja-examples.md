@@ -142,7 +142,7 @@ Rewst uses a set of Jinja variables that are available at the "Rewst" level. The
 ### System ORG variables
 
 {% hint style="info" %}
-Note that these are different from [organization variables](../configuration/organization-variables.md#what-is-an-organization-variable), which are created in the **Configuration > Organization Variables** menu of Rewst, and set by you.
+Note that these are different from [organization variables](../integrations/organization-variables.md#what-is-an-organization-variable), which are created in the **Configuration > Organization Variables** menu of Rewst, and set by you.
 {% endhint %}
 
 System ORG variables are attributes associated with the Rewst organization you are currently using in your organization drop-down selector. These are variables with that Rewst organization that can be referenced in The Context— think things like the name of the organization, the ID, the parent organization, etc.&#x20;

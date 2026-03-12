@@ -14,15 +14,15 @@ Our PSA: Update Ticket with User Offboard Links Crate filters and detects ticket
 
 Before unpacking this Crate, you'll need to successfully complete your PSA integration with Rewst. This Crate works with any of the following PSAs:
 
-* [HaloPSA](../../configuration/integrations/integration-guides/halo-integration-setup.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md)
-* [Datto Autotask PSA](../../configuration/integrations/integration-guides/datto-psa-integration-setup/)
+* [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
+* [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
 
 ## Unpack the PSA: Update Ticket with User Offboard Links Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst Platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst Platform.
 2. Search for `Add Rewst Form Link to Offboarding Request Tickets`.\
    \
    ![](<../../../.gitbook/assets/image (186).png>)
@@ -42,7 +42,7 @@ Create a dummy ticket in your PSA to make sure the Crate behaves as expected.
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](../../configuration/organization-variables.md).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).&#x20;
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 

@@ -42,12 +42,12 @@ This Crate streamlines the process of deploying Windows updates across selected 
 
 Before unpacking this Crate,
 
-* Your [PSA must successfully be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
-* Your [RMM must successfully be integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst. Note that this Crate does not work with Kaseya VSA X.&#x20;
+* Your [PSA must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
+* Your [RMM must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst. Note that this Crate does not work with Kaseya VSA X.&#x20;
 
 ## Unpack the Windows Patch Deployer Crate
 
-1. Navigate to **Crates > Crate Marketplace** in the left side menu of the Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2. Search for `Windows Patch Deployer`**.**\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-11-20 at 2.25.19 PM.png>)
@@ -67,7 +67,7 @@ A variable configuration of `max_diff_hours` defines the maximum number of hours
 
 
 
-1. Navigate to **Automations > Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Rewst] Deploy Windows Patches`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the relevant organization. This will launch the form in a new tab.

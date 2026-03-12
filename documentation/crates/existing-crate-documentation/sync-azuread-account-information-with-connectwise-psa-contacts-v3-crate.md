@@ -23,13 +23,13 @@ The Crate uses a cron trigger that runs automatically on a daily schedule at a p
 
 Before unpacking this Crate:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) must be properly configured and integrated with Rewst.
-* [Microsoft Cloud Integration Bundle](../../configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/) must be successfully set up for Azure AD access and user information retrieval.
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md) must be properly configured and integrated with Rewst.
+* [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be successfully set up for Azure AD access and user information retrieval.
 * Appropriate permissions in both Azure AD and ConnectWise PSA must be set to read user and contact data.
 
 ## Unpack the Sync AzureAD Account Information with ConnectWise PSA Contacts (V3) Crate
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Sync AzureAD Account Information with ConnectWise PSA Contacts (V3)`.
 
     \

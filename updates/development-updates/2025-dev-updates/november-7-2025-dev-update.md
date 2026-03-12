@@ -17,7 +17,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>Bug fixes and chores</strong></summary>
 
 * **Integrations**
-  * We fixed an issue with "List Customers" duplicate action error for our [Ingram Micro integration](../../../documentation/configuration/integrations/integration-guides/ingram-micro-integration-setup.md).
+  * We fixed an issue with "List Customers" duplicate action error for our [Ingram Micro integration](../../../documentation/integrations/integration-guides/ingram-micro-integration-setup.md).
 
 </details>
 

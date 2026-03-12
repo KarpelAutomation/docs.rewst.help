@@ -41,19 +41,19 @@ Our Duo Identity Verification Crate enables Duo identity verification when a use
 
 ## Crate prerequisites
 
-Your [PSA must be successfully integrated](../../configuration/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst. This Crate works with the following PSAs only:
+Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst. This Crate works with the following PSAs only:
 
-* [ConnectWise PSA](../../configuration/integrations/integration-guides/connectwise-integration-setup.md) - Pods are supported.
+* [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md) - Pods are supported.
 * [Datto PSA](../../automations/kits/datto-psa-integration-kit.md)
 * [Halo PSA](../../automations/kits/halo-psa-integration-kit.md)
-* [Kaseya BMS](../../configuration/integrations/integration-guides/kaseya-bms-integration-setup.md)
-* [Freshdesk](../../configuration/integrations/integration-guides/freshdesk-integration-setup.md)
+* [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
+* [Freshdesk](../../integrations/integration-guides/freshdesk-integration-setup.md)
 
-[Duo](../../configuration/integrations/integration-guides/duo-integration-setup.md) integration must successfully be set up with Rewst.
+[Duo](../../integrations/integration-guides/duo-integration-setup.md) integration must successfully be set up with Rewst.
 
 ## Unpack the Duo Identity Verification Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
-1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
+1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Duo Identity Verification`.​\
    &#x20; \
    &#x20;![](<../../../.gitbook/assets/Screenshot 2025-12-02 at 4.15.25 PM.png>)
