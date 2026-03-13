@@ -93,7 +93,7 @@ Lists distributors that support automatic license provisioning for Microsoft CSP
 * Ingram Micro – Global IT distributor with cloud services.
 * Sherweb – Cloud solutions provider with Microsoft licensing.
 * Synnex – IT distributor offering cloud and software licensing.
-* Manual Process – For cases where automatic provisioning isn’t available, see [Manual License Purchase Process](https://www.notion.so/Manual-license-purchase-process-1a0b56f99071806cad97c285e3a06a70?pvs=21).
+* Manual Process – For cases where automated provisioning isn't available, Rewst pauses the workflow, inserts a ticket note indicating a license needs to be purchased manually with a link to continue the workflow after the steps have been manually performed, and resumes automatically once the link to continue is clicked. The link should only be clicked after the license has been purchased. You don't need to assign the license to the user
 
 </details>
 

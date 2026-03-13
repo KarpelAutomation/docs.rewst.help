@@ -7,7 +7,7 @@ The SQL Database integration in Rewst allows users to connect to their existing 
 Our integration works with [versions of MSSQL that are actively supported by Microsoft](https://docs.sqlalchemy.org/en/20/dialects/mssql.html#dialect-mssql).
 
 {% hint style="info" %}
-When enabling SQL Database integration and not using[ BYOD](byod-for-dattormm.md), the following [completion handlers](../../../automations/workflows/completion-handlers-and-workflow-wrappers.md) will still be automatically enabled, and will need to be disabled manually:
+When enabling SQL Database integration and not using[ BYOD](../../../../integrations/integration-guides/database-integration-setup/byod-for-dattormm.md), the following [completion handlers](../../../../automations/workflows/completion-handlers-and-workflow-wrappers.md) will still be automatically enabled, and will need to be disabled manually:
 
 * BOYD: Insert Data Into Database
 * BYOD: Upsert Cache DB Data Listener<br>
@@ -22,11 +22,11 @@ Once you've set up the database and have the necessary credentials, follow the b
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Click or search for SQL Database.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.33.16 AM.png>)
+   ![](<../../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.33.16 AM.png>)
 3. Click on the integration tile to launch the configuration page.
 4.  Note the drop-down menu in the top left of the configuration page. You'll need to add each database into Rewst separately. Click **Add Configuration** to add each new database, and follow the rest of these steps each time, for each new database.<br>
 
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-05 at 10.40.36 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/Screenshot 2026-03-05 at 10.40.36 AM.png" alt=""><figcaption></figcaption></figure>
 
 
 5. Complete the fields with your database information.
@@ -44,10 +44,10 @@ Once you've set up the database and have the necessary credentials, follow the b
 6. Click **Save Configuration**.
 7. In your workflows, be sure to use [integration overrides](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu#integration-overrides) to select which database configuration should be run.
 
-<figure><img src="../../../../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If you are using the database integration to cache information from options generators and speed up the flow of information between Rewst and your RMM, follow the [BYOD For Options Generators](byod-for-dattormm.md) document steps after initial integration setup.
+If you are using the database integration to cache information from options generators and speed up the flow of information between Rewst and your RMM, follow the [BYOD For Options Generators](../../../../integrations/integration-guides/database-integration-setup/byod-for-dattormm.md) document steps after initial integration setup.
 {% endhint %}
 
 ## Actions and endpoints

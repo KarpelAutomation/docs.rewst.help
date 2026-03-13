@@ -16,6 +16,8 @@ Each action serves a unique purpose and comes with a brief description to aid in
 Click through to any of the related action type pages to learn more.
 {% endhint %}
 
+Each task has a set of configuration options within it, editable in its right side menu of the Workflow Builder once dragged onto the canvas. Learn more about settings for tasks [here](../workflows/workflow-builder-how-to-set-up-a-workflow.md#configure-tasks) in our workflow documentation.
+
 ### Core actions
 
 These are the essential platform components like webhooks, email dispatching, and [noops](https://docs.rewst.help/documentation/workflows/actions-in-rewst/core-actions#no-operation-noop).&#x20;

@@ -48,7 +48,7 @@ For some Crates, this may involve unsyncing one or two subworkflows, while for o
 2. Follow instructions [here](existing-crate-documentation/microsoft-user-onboarding-crate-v2/) to unpack the Microsoft: User Onboarding Crate.&#x20;
 3. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 4. Search for and open the `[REWST - PROC] Microsoft: User Onboarding` workflow.&#x20;
-5. Use [RoboRewsty](../roborewsty/) to identify which tasks in the Crate are related to either the needed PSA or RMM— whichever tool you're using with custom integration in Rewst. Be sure to monitor the chat as RoboRewsty works to give approval as needed.
+5. Use [RoboRewsty](../rewst-tools/roborewsty.md) to identify which tasks in the Crate are related to either the needed PSA or RMM— whichever tool you're using with custom integration in Rewst. Be sure to monitor the chat as RoboRewsty works to give approval as needed.
    1. Ask "Look through this workflow and all subworkflows in this workflow and give me a list of every task that involves an RMM integrated with Rewst." or,
    2. Ask "Look through this workflow and all subworkflows in this workflow and give me a list of every task that involves a PSA integrated with Rewst."
    3. Copy the returned list to a text file or other permanent location for easy access.&#x20;

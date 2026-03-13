@@ -103,8 +103,9 @@ Remember, once an action is placed on the canvas, we then call it a task.
       3. **Mocking**: This tab provides the option to simulate the task's function with a user-defined result, useful for testing and debugging.
       4. **Time Savings**: In this tab, specify your estimate of the time a human would need to complete the task. This is used for creating Time Entries in PSA platforms.
       5. **Security**: This tab allows for meticulous redaction of sensitive information within workflow tasks. This is especially vital when using generic HTTP actions for services without official integrations, where API tokens or other sensitive data in headers could be exposed in results.&#x20;
-         1. In the **Redacted Input Parameters** and **Redacted Output Parameters** fields, customize redaction with [JSONPath queries](https://jsonpath.com/).
+         1. In the **Redacted Input Parameters** and **Redacted Output Parameters** fields, mask sensitive data in the task's inputs or outputs. You also have the option to customize redaction with [JSONPath queries](https://jsonpath.com/).
          2. These queries can be entered manually in the editor, or chosen from the field's drop-down selector.
+         3. When redaction is applied, sensitive fields will appear as `********` in task logs and results.
 2. Remember to add [transitions](https://docs.rewst.help/documentation/workflows/configuring-your-workflow-tasks/navigating-between-tasks-with-transitions) between your tasks.
 3. Click **Test** to see if your workflow executes as desired.&#x20;
 4. Click **Publish** to save your changes and push them to the desired effect.

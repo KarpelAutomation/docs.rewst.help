@@ -40,7 +40,7 @@ Explore what new changes the Training team has made in the last week.
   * Updated [Intro to Triggers page](../../../documentation/automations/intro-to-triggers/)
   * Add instructions for unpacking a Crate on the [What is a Crate page](../../../prebuilt-automations/crates/)
   * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../../documentation/integrations/integration-guides/it-glue-integration-setup.md)
-  * Updated the wording on the [Database Setup Page](../../../documentation/integrations/integration-guides/database-integration-setup/)
+  * Updated the wording on the [Database Setup Page](../../../documentation/configuration/integrations/integration-guides/database-integration-setup/)
   * Updated Support note in [Custom Integrations Page](../../../documentation/integrations/custom-integrations/)
   * Fixed incorrect information on [Least Privilege Access Requirements for the ConnectWise Manage Integration Page](/broken/pages/0MHLA19gmfPUOcfFF3cv)
   * Added missing images to [Form Best Practices](../../../documentation/automations/forms/form-best-practices.md) Page

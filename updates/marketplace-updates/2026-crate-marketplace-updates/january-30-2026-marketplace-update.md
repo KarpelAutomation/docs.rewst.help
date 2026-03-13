@@ -30,7 +30,9 @@ No new Crates were released this week.&#x20;
 * [Amend Calendar Permission on User](../../../documentation/crates/existing-crate-documentation/amend-calendar-permission-on-user-crate.md)
   * Add default board ID to M365 Set Calendar Permissions create ticket action&#x20;
 
+### Subworkflows
 
+There were no updates to subworkflows this week.
 
 </details>
 

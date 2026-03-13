@@ -11,7 +11,7 @@ This process requires you to have at least a basic understanding of PowerShell a
 RMM customers occasionally face challenges with the speed at which data is returned from RMM's APIs. One efficient workaround is to leverage the Bring Your Own Database (BYOD) functionality of Rewst's SQL Database integration. Integrating BYOD with RMM streamlines data retrieval and bypasses potential lags or slow responses. With BYOD in place, RMM's options generation workflows are optimized, leading to improved performance and reduced wait times.&#x20;
 
 {% hint style="info" %}
-Before attempting BYOD setup, first set up the [SQL Database integration](./).
+Before attempting BYOD setup, first set up the [SQL Database integration](../../../configuration/integrations/integration-guides/database-integration-setup/).
 {% endhint %}
 
 ## Set up BYOD for options generators&#x20;

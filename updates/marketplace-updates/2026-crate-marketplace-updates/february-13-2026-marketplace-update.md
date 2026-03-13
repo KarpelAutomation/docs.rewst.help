@@ -53,7 +53,7 @@ There were no updates to kits this week.
 
 ### Subworkflows
 
-There were no updates to kits this week.
+There were no updates to subworkflows this week.
 
 </details>
 
