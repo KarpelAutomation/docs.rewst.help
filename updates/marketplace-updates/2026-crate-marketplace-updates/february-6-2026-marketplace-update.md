@@ -57,6 +57,10 @@ No new Crates were released this week.&#x20;
 * [\[Kit\]: HaloPSA Integration](../../../documentation/automations/kits/halo-psa-integration-kit.md)
   * Modify ticket type ID assignment to require psa\_alert\_ticket\_type; subworkflow used in multiple Crates
 
+### Subworkflows
+
+There were no updates to kits this week.
+
 </details>
 
 <details>

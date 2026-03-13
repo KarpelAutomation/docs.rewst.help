@@ -1,4 +1,4 @@
-# February 20, 2026 - Marketplace Update
+# February 20, 2026 - Marketplace update
 
 <details>
 
@@ -38,6 +38,10 @@ No new Crates were released this week.&#x20;
   * Add option to set org var gdap\_list\_all\_tenants=true to include tenants with expired admin relationships&#x20;
 
 ### Kits
+
+There were no updates to kits this week.
+
+### Subworkflows
 
 There were no updates to kits this week.
 

@@ -24,6 +24,10 @@
 * Rewst: User Onboarding - deprecated Crate updated to support customers using legacy versions
   * Updated Get Subscribed Products sub-workflow to use a SKU template instead of pulling from Microsoft; affects older onboarding forms&#x20;
 
+### Kits
+
+There were no updates to kits this week.
+
 ### Subworkflows
 
 * \[REWST - TASK] CW Control: Run Powershell - used by every Crate that works with RMM integrations

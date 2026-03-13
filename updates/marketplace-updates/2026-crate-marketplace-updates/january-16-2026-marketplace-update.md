@@ -1,4 +1,4 @@
-# January 16, 2026 - Marketplace Update
+# January 16, 2026 - Marketplace update
 
 <details>
 
@@ -38,6 +38,12 @@ There are no new Crates this week.
   * Linked add\_public\_note success to complete workflow noop
 * [Halo PSA: Create Ticket](../../../documentation/automations/subworkflows/rewst-task-halo-psa-create-ticket.md)
   * Added tech\_id input; default Agent ID from ORG.VARIABLES.psa\_default\_tech\_id when null&#x20;
+
+### Kits
+
+There were no updates to kits this week.
+
+
 
 </details>
 

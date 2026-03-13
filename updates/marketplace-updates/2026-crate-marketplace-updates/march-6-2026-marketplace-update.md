@@ -29,6 +29,10 @@ No new Crates were released this week.&#x20;
 
 There were no updates to kits this week.
 
+### Subworkflows
+
+There were no updates to kits this week.
+
 </details>
 
 <details>
