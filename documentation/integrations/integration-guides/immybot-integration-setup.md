@@ -37,7 +37,7 @@ Please refer to [ImmyBot's Documentation](https://docs.immy.bot/azure-graph-perm
    * **Application ID -** The Application ID of the Azure Enterprise App that Rewst will use to authenticate with ImmyBot
    * **Client Secret -** The Client Secret of the Azure app registration Rewst will use to authenticate with ImmyBot
 6. Click **Next**.
-7. Click the link that appears on the integration configuration screen to navigate to ImmyBot's Persons Settings. Create a new Person for Rewst to use. Use your primary Tenant, and set the AD External ID field value.
+7. Click the link that appears on the integration configuration screen to navigate to ImmyBot's Persons Settings. Create a new Person for Rewst to use. Use your primary Tenant, and set the Azure Object ID field value.
 8. Click **Continue** to create your user and assign the admin Role.
 9. Click **Test configuration**. If the integration is working properly, a green confirmation message will appear at the top of your screen.&#x20;
 
