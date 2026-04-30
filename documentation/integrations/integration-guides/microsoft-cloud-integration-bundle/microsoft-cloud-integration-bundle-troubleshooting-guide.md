@@ -111,7 +111,7 @@ Double-check the permissions if there are issues with accessing certain function
   * **Example:** To send as `SendfromMe@rewstdemo.com` via Rewst, ensure `Rewst-Service Account` has **Send As** permission on the `SendfromMe` account.
 
 {% hint style="info" %}
-If you have a user in your tenant that needs permissions within a client tenant (e.g., to a mailbox, SharePoint site, etc.), granting those permissions directly to your user wont be possible due to the users belonging to different tenants. In this case, instead of using an integration override for that workflow, consider configuring the integration under that client's organization directly.
+If you have a user in your tenant that needs permissions within a client tenant (e.g., to a mailbox, SharePoint site, etc.), granting those permissions directly to your user won't be possible due to the users belonging to different tenants. In this case, instead of using an integration override for that workflow, consider configuring the integration under that client's organization directly.
 {% endhint %}
 
 </details>

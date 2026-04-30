@@ -221,6 +221,7 @@
     * [Bulk Send SMS to Users Crate](documentation/crates/existing-crate-documentation/bulk-send-sms-to-users-crate.md)
     * [Change a User’s Password Crate](documentation/crates/existing-crate-documentation/change-a-users-password-crate.md)
     * [CIPP Alert Triage Crate](documentation/crates/existing-crate-documentation/cipp-alert-triage-crate.md)
+    * [CIPP: Microsoft Desired State / Standards Compliance Crate](documentation/crates/existing-crate-documentation/cipp-microsoft-desired-state-standards-compliance-crate.md)
     * [Clean up Global Address List from Disabled Users Crate](documentation/crates/existing-crate-documentation/clean-up-global-address-list-from-disabled-users-crate.md)
     * [Client Form Launcher Crate](documentation/crates/existing-crate-documentation/client-form-launcher-crate.md)
     * [Comprehensive Rewst Forms List Crate](documentation/crates/existing-crate-documentation/comprehensive-rewst-forms-list-crate.md)

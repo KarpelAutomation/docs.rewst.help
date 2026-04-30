@@ -65,19 +65,7 @@ This form should be used to create or update organization variables for the Crat
 2. Search for `[REWST] CIPP: Alert Triage - Create or Update ORG Variables`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
-5. Fill out the form as follows:
-   1. If running for parent organization:
-      1. Select the tenant names to exclude from alerts from the **Do Not Alert Tenants** drop-down selector.
-      2. Enter JSON array of message strings to exclude from alerts into the **Do Not Alert Messages** field - for example: `["Message1", "Message2"]`
-   2. If running for child organization:
-      1. Choose the CIPP Tenant associated with the child organization to configure from the **Select CIPP Tenant** drop-down selector.
-   3. All fields under **PSA Board IDs** are optional. If any one of them is not provided, the default board for that alert type will be the value set for the organization's `psa_default_board_id`.&#x20;
-      1. **CIPP Updates Board ID** - PSA board ID for alerts from the CIPP "Updates" API
-      2. **CIPP Standards Board ID** - PSA board ID for alerts from the CIPP "Standards" API
-      3. **CIPP Alerts Board ID** - PSA board ID for alerts from the CIPP "Alerts" API
-      4. **CIPP Changes Board ID** - PSA board ID for alerts from the CIPP "AddGroup" or "EditUser" API
-      5. **CIPP Scheduled Task Board ID** - PSA board ID for alerts from the CIPP "ScheduledTask" API
-      6. **CIPP General Board ID** - PSA board ID for any alerts not handled in previous fields
+5.
 6. Click **Submit**.
 
 {% columns %}
