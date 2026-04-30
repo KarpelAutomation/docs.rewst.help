@@ -6,7 +6,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the Ubiquiti integration do?
 
-Our Ubiquit integration enables the automation of finance processes by seamlessly connecting Xero and Rewst. Automate workflows for managing client financial data, invoices, and more.
+Integrate Ubiquiti's UniFi platform with Rewst for centralized network management, device monitoring, and multi-site orchestration for MSPs.
 
 ## Set up the Ubiquiti integration
 
