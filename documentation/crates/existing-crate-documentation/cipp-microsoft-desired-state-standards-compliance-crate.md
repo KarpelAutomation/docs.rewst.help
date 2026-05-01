@@ -4,15 +4,9 @@ What does the CIPP: Microsoft Desired State /\
 Standards Compliance Crate do?
 ------------------------------
 
-Our CIPP: Microsoft Desired State/Standards Compliance Crate monitors Microsoft 365 tenant\
-configurations against a desired state baseline using the CIPP (CyberDrain Improved Partner\
-Portal) integration. It runs on a scheduled basis across all managed tenants, evaluating each\
-tenant for standards alignment drift and reporting compliance status. When configured\
-thresholds are breached, it delivers targeted alerts, and also produces comprehensive standards\
-compliance reports on demand or on schedule. All activity is fully logged with structured\
-automation logs for auditing and upstream consumption.
+Our CIPP: Microsoft Desired State/Standards Compliance Crate monitors Microsoft 365 tenant configurations against a desired state baseline using the CIPP (CyberDrain Improved Partner Portal) integration. It runs on a scheduled basis across all managed tenants, evaluating each tenant for standards alignment drift and reporting compliance status. When configured thresholds are breached, it delivers targeted alerts, and also produces comprehensive standards compliance reports on demand or on schedule. All activity is fully logged with structured automation logs for auditing and upstream consumption.
 
-This Crate does not remediate or enforce standards, apply changes to tenant configurations, or manage CIPP API authentication, webhook configuration, or integration setup. It won't automatically resolve or close tickets when previously breached standards return to compliance, or support parallel multi-channel delivery. Tenants excluded via cipp\_desired\_state\_exclude\_tenants during cron-triggered runs won't process.
+This Crate does not remediate or enforce standards, apply changes to tenant configurations, or manage CIPP API authentication, webhook configuration, or integration setup. It won't automatically resolve or close tickets when previously breached standards return to compliance, or support parallel multi-channel delivery. Tenants excluded via cipp\_desired\_state\_exclude\_tenants during cron triggered runs won't process.
 
 ### How the Crate works
 
