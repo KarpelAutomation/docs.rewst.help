@@ -28,7 +28,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 * **Onboarding**
   * Child level Crate executions now count towards Crate execution tracking, giving a more accurate picture of overall Crate usage.
 * **Engine**
-  * We fxed an issue where integration overrides were not accepting Jinja expressions when using Name Search mode.
+  * We fixed an issue where integration overrides were not accepting Jinja expressions when using Name Search mode.
   * An issue where `sites.id` was not being typed as a Universally Unique Identifier during site existence checks, which could cause unexpected errors, was resolved.
   * We improved the efficiency of workflow dehydration by reusing a singleton S3 client rather than creating a new one each time.
   * We added a `tenantFilter` query parameter to the CIPP List MFA Users action, allowing results to be filtered by tenant.
