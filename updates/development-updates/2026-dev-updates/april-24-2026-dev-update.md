@@ -1,4 +1,4 @@
-# April 24, 2026 - Dev update
+# May 1, 2026 - Dev update
 
 Explore what new changes the Dev team has deployed in the last week.
 
@@ -8,12 +8,10 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>New features and items</strong></summary>
 
-* **Integrations**
-  * Standardized error messages across all integrations so failed actions return consistent, structured error details including status code, error type, and response body for easier troubleshooting.
-* **Onboarding**
-  * Added vendor pre-requisite setup as a dedicated informational step in the onboarding checklist, making it clearer what needs to be configured in third-party systems before installing an integration in Rewst.
-* **RoboRewsty**
-  * Added transparency when users share external URLs — RoboRewsty now informs users it cannot read external links and suggests pasting the relevant content directly into the chat.
+* **Workflow Builder**
+  * The new [Workflow Builder](../../../documentation/automations/workflows/new-workflow-builder.md) is now enabled for all customers. A redesigned experience bringing a more intuitive way to build and manage your workflows.
+  * We added a Compact Auto Layout toggle that reduces node spacing, making it easier to view and manage larger workflows.
+  * We added the ability to navigate workflows using the Data Aliases tab, making it quicker to find and reference your data aliases while building.
 
 </details>
 
@@ -21,18 +19,25 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-* **General**
-  * Fixed org variable queries that threw errors when filtering by ID or pack config without specifying an org ID, which prevented workflows and UI views from loading org variables correctly.
 * **Integrations**
-  * Corrected the Lexful integration dashboard link to point to the correct URL.
-  * Fixed the SentinelOne integration so actions that accept multiple IDs (like List Threats) correctly process all values in the array instead of only the first, and resolved a pagination error on generic API requests.
-  * Fixed the SQL Database "List Database Configurations" action so it correctly returns results when run from a sub-organization that inherits the integration from its parent.
-  * Updated the ServiceNow integration test action to use an endpoint that does not require a paid plugin, so connectivity tests now succeed on standard ServiceNow instances.
+  * An issue has been fixed in the Liongard integration where the Create User action was missing the Environment and Environment Group fields required when assigning Manager or Reader roles.
+  * We fixed an issue in the Lexful integration where refresh option dropdowns only returned the first \~40 values due to a pagination bug.
+  * The `platform.agent.read` scope has been added to the default permission set for the ASIO integration.
+* **Crates**
+  * The Crate details page now correctly surfaces whether a primary workflow is synced or unsynced, giving better visibility into the state of your installed Crates.
+* **Onboarding**
+  * Child level Crate executions now count towards Crate execution tracking, giving a more accurate picture of overall Crate usage.
+* **Engine**
+  * We fxed an issue where integration overrides were not accepting Jinja expressions when using Name Search mode.
+  * An issue where `sites.id` was not being typed as a Universally Unique Identifier during site existence checks, which could cause unexpected errors, was resolved.
+  * We improved the efficiency of workflow dehydration by reusing a singleton S3 client rather than creating a new one each time.
+  * We added a `tenantFilter` query parameter to the CIPP List MFA Users action, allowing results to be filtered by tenant.
+  * A policy mapping error in the Addigy integration that was causing actions to fail has been resolved.
+* **Workflow Builder**
+  * We removed an unused patch field from workflow history queries, reducing unnecessary data being fetched in the background.
 * **RoboRewsty**
-  * Fixed an issue where RoboRewsty-generated input variables could have non-boolean values for the "Required" checkbox, preventing users from toggling it on or off.
-  * Fixed code block copy so the clipboard no longer includes the language identifier (e.g., "jinja") as the first line when copying code examples from RoboRewsty.
-* **Workflows**
-  * Fixed workflow execution results and context layers failing to load with a server error, which blocked users from viewing task logs and context data on completed workflow runs.
+  * We removed distracting hover animations in the RoboRewsty chat window that were causing a jarring jump effect when moving the mouse over conversation elements.
+  * An issue where RoboRewsty was setting workflow timeouts too low, which could cause workflows to terminate before completing, has been fixed.
 
 </details>
 
@@ -40,6 +45,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>Coming soon</strong></summary>
 
-* New Workflow Builder - currently in select customer beta.
+* RoboRewsty - editing of scripts and templates
+* Action Version History
 
 </details>
