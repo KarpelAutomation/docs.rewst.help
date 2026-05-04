@@ -4,7 +4,7 @@
 
 _Workflows_, made up of [actions](https://docs.rewst.help/documentation/workflows/actions-in-rewst) and [triggers](https://docs.rewst.help/documentation/intro-to-triggers), are the main component of Rewst's automated business processes. They gather relevant data from integrated tools such as a PSA or RMM, process it using conditional logic, and execute automated actions relating to that data. Workflows are the key to unlocking automation in Rewst.
 
-[Crates](https://docs.rewst.help/prebuilt-automations/crates) contain pre-built workflows. Workflows can also be built from scratch, or edited to match your custom needs.&#x20;
+[Crates](https://docs.rewst.help/prebuilt-automations/crates) contain pre-built workflows. Workflows can also be built from scratch, or edited to match your custom needs.
 
 {% hint style="warning" %}
 We recommend you only edit the pre-built workflows that come in Crates after taking our courses in [Cluck University](https://learn.rewst.io). This is a more advanced way to use Rewst.
@@ -15,7 +15,7 @@ Before building any workflow, remember to sketch out what you'd like the workflo
 {% hint style="info" %}
 As of mid 2025, Rewst also offers _kits._ A kit is a collection of pre-built, pre-defined tasks that provide a quick start to setting up solutions to specific business needs, or to demonstrate all available actions within a given integration. For example, if you have a Halo PSA kit, there will be actions or automations Rewst has identified that are smaller use cases compared to our larger Crates.
 
-Kits are a newer feature of our Crate Marketplace. Check back as the collection grows. See our up-to-date list of available kits [here](../kits/).&#x20;
+Kits are a newer feature of our Crate Marketplace. Check back as the collection grows. See our up-to-date list of available kits [here](../kits/).
 {% endhint %}
 
 ## Why build workflows?
@@ -33,11 +33,11 @@ The list of workflows that appears in the center of your screen will include bot
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.38.10 PM.png" alt="" width="159"><figcaption></figcaption></figure>
 
-Once you create a workflow, you'll be taken to the [_workflow builder_](workflow-builder-how-to-set-up-a-workflow.md), a canvas for assembling your workflows. See our documentation for how to use the workflow builder [here](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
+Once you create a workflow, you'll be taken to the [_workflow builder_](workflow-builder-how-to-set-up-a-workflow.md), a canvas for assembling your workflows. See our documentation for how to use the workflow builder [here](workflow-builder-how-to-set-up-a-workflow.md).
 
 ## Synced versus unsynced workflows
 
-Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. You have the option to unsync a workflow, which can be useful for using a Crate workflow as a building block for creating your own customized workflow. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).&#x20;
+Synced workflows unpacked from Crates can't be edited, and automatically update when Rewst makes changes. You have the option to unsync a workflow, which can be useful for using a Crate workflow as a building block for creating your own customized workflow. For more on synced workflows, including how to identify them, see our documentation on Crates and syntonization [here](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates).
 
 ## View specific workflow results
 
@@ -57,7 +57,7 @@ When you delete the result of a workflow, consider it to be fully deleted. Only 
 
 ## View triggers for a specific workflow
 
-From the workflows page, you can view triggers associated with each workflow, without leaving that page. Hover over the workflow's **triggers** count in the **Attributes** column to see a list of every trigger linked to your workflow, and toggle each on or off to suit your needs.&#x20;
+From the workflows page, you can view triggers associated with each workflow, without leaving that page. Hover over the workflow's **triggers** count in the **Attributes** column to see a list of every trigger linked to your workflow, and toggle each on or off to suit your needs.
 
 <figure><img src="../../../.gitbook/assets/trigger hover gif.gif" alt=""><figcaption><p>The dialog that appears when hovering over trigger counts</p></figcaption></figure>
 
@@ -71,7 +71,7 @@ To import a workflow bundled as a JSON file, click **Import Bundle** in the top 
 
 ## Subworkflows
 
-A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. Subworkflows help you simplify complex processes, reuse logic, and manage error handling and data gathering cleanly in your Rewst automations. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).&#x20;
+A _subworkflow_ is a workflow that is also a part of another workflow. In Rewst, every automation can function as either a larger executing workflow or a smaller subworkflow. Subworkflows help you simplify complex processes, reuse logic, and manage error handling and data gathering cleanly in your Rewst automations. You can create your own subworkflows, or use one of our pre-built subworkflows, cataloged in [this section of our documentation site](../subworkflows/).
 
 In the example below, you have a main workflow called **Create Ticket**. In it, you choose which PSA the organization has. Once that has been decided, you then go to a subworkflow, which encompasses the actual creation of the ticket. Note the pink border and icon on the action, denoting that it is a subworkflow.
 
@@ -79,9 +79,9 @@ Click <img src="../../../.gitbook/assets/Subworkflow icon.png" alt="" data-size=
 
 <figure><img src="../../../.gitbook/assets/image (58).png" alt="An image of a small subworkflow, flowing out of a larger executing workflow. The subworkflow is composed of actions, via rectangles outlined in  pink. The flow of subworkflow out of larger workflow is communicated via blue directional arrows. Under each subworkflow action, there&#x27;s the option to click a blue plus button to add additional actions on success or failure of that action."><figcaption><p>An example of subworkflows, flowing out of a larger executing workflow</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 3.14.32 PM (1).png" alt="" width="563"><figcaption><p>The Subworkflow button, under the <strong>Attributes</strong> column of the workflows list page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 3.14.32 PM.png" alt="" width="563"><figcaption><p>The Subworkflow button, under the <strong>Attributes</strong> column of the workflows list page</p></figcaption></figure>
 
-To create your own subworkflow from scratch, simply create a new workflow in the Workflow Builder and publish it. That new workflow will appear in the **Workflows** section of the Workflow Builder's actions menu, and you can drag it onto any other Workflow Builder canvas to be used as a subworkflow.&#x20;
+To create your own subworkflow from scratch, simply create a new workflow in the Workflow Builder and publish it. That new workflow will appear in the **Workflows** section of the Workflow Builder's actions menu, and you can drag it onto any other Workflow Builder canvas to be used as a subworkflow.
 
 <figure><img src="../../../.gitbook/assets/subworkflows gif.gif" alt="A moving image of a user scrolling down a left side rectangular menu to find their selection. The user then clicks and drags the desired item from a menu titled &#x27;Workflows&#x27; onto the right side of the screen, where it rests and appears as a new rectangle. It contains a pink circular icon to identify itself as a subworkflow." width="563"><figcaption><p>Remember, subworkflows will appear on your Workflow Builder canvas with a pink icon to help<br>you keep track of your tasks types.</p></figcaption></figure>
 
@@ -103,7 +103,7 @@ Click <img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 12.27.18 PM.
 <figure><img src="../../../.gitbook/assets/image (67) (1).png" alt="Alt text: A screenshot of a sub-workflow execution result. The header shows &#x22;Sub_Workflow&#x22; with a green checkmark and &#x22;1 successful tasks&#x22; on the right, along with a timestamp &#x22;07-21-25 05:10 PM.&#x22;  On the left, under Input, the JSON-style data is displayed:  boolean: true  input_configuration: &#x22;string&#x22;  list: containing one object with a field user_list that includes three values: &#x22;user1&#x22;, &#x22;user2&#x22;, and &#x22;user3&#x22;.  On the right, under Result, the output is shown:  output_data: &#x22;The sub-wf test data&#x22; Published as {{ CTX.sub_wf_results }}."><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-_Workflow wrapper_ is an informal term sometimes used colloquially by the ROC to describe a situation where a primary workflow is used in a separate workflow as a subworkflow. More information on workflow wrappers can be found [here](completion-handlers-and-workflow-wrappers.md).&#x20;
+_Workflow wrapper_ is an informal term sometimes used colloquially by the ROC to describe a situation where a primary workflow is used in a separate workflow as a subworkflow. More information on workflow wrappers can be found [here](completion-handlers-and-workflow-wrappers.md).
 {% endhint %}
 
 ### Enable publish results in the parent workflow

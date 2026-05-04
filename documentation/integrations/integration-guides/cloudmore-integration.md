@@ -6,7 +6,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## **What does the Cloudmore integration do?**
 
-Our Cloudmore integration enables the automation of Cloudmore tasks such as managing services,  subscriptions, and retrieving billing information.
+Our Cloudmore integration enables the automation of Cloudmore tasks such as managing services, subscriptions, and retrieving billing information.
 
 ## Set up the **Cloudmore** integration
 
@@ -33,7 +33,7 @@ Our Cloudmore integration enables the automation of Cloudmore tasks such as mana
 1. Navigate to **Marketplace > Integrations** in the left side menu of your Rewst platform.
 2. Search for `Cloudmore` in the integrations page.\
    \
-   ![](<../../../.gitbook/assets/image (294).png>)
+   ![](<../../../.gitbook/assets/image (291).png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the following details under the **Parameters** section:
    * **Client ID**
@@ -70,4 +70,3 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 | **Organizations**                    | `PUT`      | `/organizations/{organizationId}`                                    | Update organization details                                                         |
 | **Organizations**                    | `GET`      | `/organizations/{organizationId}/Estore`                             | List available organization custom services                                         |
 | **Resellerservices**                 | `GET`      | `/services`                                                          | Returns all reseller services                                                       |
-

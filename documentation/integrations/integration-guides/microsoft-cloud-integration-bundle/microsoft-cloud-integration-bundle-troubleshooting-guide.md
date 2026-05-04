@@ -1,7 +1,7 @@
 # Microsoft Cloud integration bundle troubleshooting guide
 
 {% hint style="success" %}
-The error codes in this guide have been truncated. Your error code will contain some personal identifying information, based on your individual accounts. To find your relevant error, we recommend copying a small piece of your error code that is general text, without any of your PII or specific URL information, and searching in this page using **Command + F** for Mac or **Control + F**  for Windows to identify your relevant solutions.
+The error codes in this guide have been truncated. Your error code will contain some personal identifying information, based on your individual accounts. To find your relevant error, we recommend copying a small piece of your error code that is general text, without any of your PII or specific URL information, and searching in this page using **Command + F** for Mac or **Control + F** for Windows to identify your relevant solutions.
 {% endhint %}
 
 ## Common installation errors
@@ -15,7 +15,7 @@ The error codes in this guide have been truncated. Your error code will contain 
 <summary>Issue: Auth app registration error</summary>
 
 * **Symptom**: Failure to proceed past the authentication step, not even reaching the Microsoft Auth login screen.
-* **Common Cause**: This may occur due to a delay on Microsoft's end  where the system is still processing the app registration.
+* **Common Cause**: This may occur due to a delay on Microsoft's end where the system is still processing the app registration.
 * **Solution**: Wait a minute or two before attempting to re-authenticate. This allows time for the backend processes to complete.
 
 </details>
@@ -44,8 +44,6 @@ The Rewst Prod App is necessary for authentication and might already be installe
 
 <summary>Issue: Missing scopes in Microsoft Graph list</summary>
 
-
-
 * **Symptom**: The only scopes displaying are the base scopes. When viewing the Graph list of scopes, there should be over 140, if the client has left permissions intact.\
   Note that whenever you encounter this problem, actions such as List Users and running the GDAP relationship Crate will yield forbidden errors.
 * **Potential Cause**: Microsoft's syncing is notoriously slow - it can take them up to a day to get this applied into Rewst's integration.
@@ -59,9 +57,7 @@ The Rewst Prod App is necessary for authentication and might already be installe
 
 <summary>Issue: Wizard hangs during uninstallation attempts</summary>
 
-
-
-* **Symptom**: When trying to delete the MS Bundle form your instance, Rewst displays this screen and never progresses. \
+* **Symptom**: When trying to delete the MS Bundle form your instance, Rewst displays this screen and never progresses.\
   \
   ![](../../../../.gitbook/assets/image.png)<br>
 * **Potential Cause**: This usually happens if Rewst can't find the enterprise app.
@@ -91,10 +87,8 @@ Double-check the permissions if there are issues with accessing certain function
   * **Purpose:** GDAP enables fine-grained control over tenant access, allowing the creation of groups in your MSP tenant, assignment of permissions, and user allocation.
   * **Example:** Create specific groups like "Standard M365 Clients - Exchange Administrator" or "Strict M365 Clients - Exchange Administrator" to manage access levels across different clients.
 * **Rewst's Role:** Since Rewst can interact with various endpoints, the correct permissions in both your tenant and client tenant are essential.
-*   **Potential Resolution: Understand and Implement GDAP**\
-    Utilize GDAP to create groups and assign permissions, ensuring compliance with your security policies.
-
-
+* **Potential Resolution: Understand and Implement GDAP**\
+  Utilize GDAP to create groups and assign permissions, ensuring compliance with your security policies.
 
 </details>
 
@@ -305,8 +299,6 @@ If the issue is during the initial authorization, then it is important to check 
 
 If the issue is during CPV consent of a customer then you will need to check the customer's conditional access policies and modify them to exclude the service provider tenant or address the conflict (example from above could apply).
 
-
-
 </details>
 
 <details>
@@ -339,17 +331,17 @@ Note that if the client has other relationships with interfering roles it will a
 
 <details>
 
-<summary>Issue: Entra UI pagination and permissions display </summary>
+<summary>Issue: Entra UI pagination and permissions display</summary>
 
 We've identified a recurring issue within the Entra UI concerning the inconsistent permissions display on the Enterprise App Permissions page. Users may encounter situations where the permissions are either fully paginated and visible or not all permissions are displayed as expected.
 
-#### **Incomplete display of permissions** <a href="#incomplete-display-of-permissions" id="incomplete-display-of-permissions"></a>
+**Incomplete display of permissions**
 
 If what you see resembles the screenshot below, it indicates that not all permissions are being displayed. In such cases, the seemingly absent permissions are assigned but not visible due to a limitation within the UI. This known issue stems from a bug on Microsoft's end, which unfortunately is beyond our ability to directly resolve. For visibility into the complete set of permissions under these circumstances, using the API is the recommended approach.
 
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FNHYWwCfHOfPPzEzUXens%252Fentra-ui-not-all-permissions-shown.png%3Falt%3Dmedia%26token%3D54e204ec-8bdb-4f97-9703-5557ece7a5ad\&width=768\&dpr=4\&quality=100\&sign=2d30e14d\&sv=2)
 
-#### **Complete display of permissions** <a href="#complete-display-of-permissions" id="complete-display-of-permissions"></a>
+**Complete display of permissions**
 
 If your Entra UI matches the below screenshot, this suggests that all permissions are being properly shown. So if any are missing, they are actually missing. Should there be any unexpected permissions missing in this scenario, it likely points to an bug or failure in the permissions assignment process on the Rewst side.
 
@@ -389,8 +381,6 @@ During the setup, do not click the select all permissions option. Just click nex
 
 <summary>Issue - Delegated admin consent creation failed - Forbidden - GDAP relationship configuration needed</summary>
 
-
-
 The error can be caused by multiple reasons and presents itself when consenting a child organization:
 
 1. User has not authorized the app
@@ -405,8 +395,6 @@ Then check that it has been configured correctly. The[ 12 GDAP roles](microsoft-
 Make sure that the account you are using is a member of ADMINAGENTS and GLOBALADMIN while you sort the permissions. Once done, GA can be removed if desired.
 
 Lastly, check your clients' [conditional access policies](microsoft-cloud-integration-bundle-actions-and-endpoints.md).
-
-
 
 </details>
 
@@ -435,7 +423,7 @@ The error can be caused by multiple reasons and presents itself when consenting 
 
 <summary>Issue: Delegated admin consent creation failed… Access has been blocked by Conditional Access Policies</summary>
 
-You must ensure that you have setup your clients’ policies as per our [guidance on conditional access](microsoft-cloud-integration-bundle-actions-and-endpoints.md).&#x20;
+You must ensure that you have setup your clients’ policies as per our [guidance on conditional access](microsoft-cloud-integration-bundle-actions-and-endpoints.md).
 
 </details>
 
@@ -453,14 +441,14 @@ This error is an indication that you have either either not approved the created
 
 Ensure that he secret being sent in the request is the client secret value, not the client secret ID.
 
-The other error that may be related to this when consenting is **There was an error configuring delegated admin**. Here, the integration is trying to use old CSP App Registration. Uninstall and reinstall the entire Microsoft Cloud Integration Bundle. Note that only uninstalling and reinstalling Azure/CSP alone will not work. \
+The other error that may be related to this when consenting is **There was an error configuring delegated admin**. Here, the integration is trying to use old CSP App Registration. Uninstall and reinstall the entire Microsoft Cloud Integration Bundle. Note that only uninstalling and reinstalling Azure/CSP alone will not work.\
 \
 If you keep getting errors during reinstallation, remove the Rewst MS Cloud Connector Enterprise Application and then authorize.\
 \
 \
-During the process, you may see the below error. You should be fine to proceed despite the error message. <br>
+During the process, you may see the below error. You should be fine to proceed despite the error message.<br>
 
-<figure><img src="../../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -472,7 +460,7 @@ Device Object was not found in tenant means that during authentication you used 
 
 The best way to fix is to rerun the authentication setup. When a dialog appears to log in, don't click on the account that's already logged in, even if it's the service account. Instead, click **sign in with a different account.** The&#x6E;**,** log on with the service account
 
-If this doesn't fix your issue, manually delete the enterprise application, then  re-authorize. You may need to manually consent the app in Intune, then re-authorize again.
+If this doesn't fix your issue, manually delete the enterprise application, then re-authorize. You may need to manually consent the app in Intune, then re-authorize again.
 
 </details>
 
@@ -480,7 +468,7 @@ If this doesn't fix your issue, manually delete the enterprise application, then
 
 <summary>Issue: Invalid Tokens - Invalid_grant - The provided grant has expired</summary>
 
-The first step in troubleshooting is to attempt reauthentication.&#x20;
+The first step in troubleshooting is to attempt reauthentication.
 
 1. Navigate to the Microsoft Cloud Integration Bundle settings in Rewst.
 2. Click **Reauthenticate** and follow the prompts to complete the process.
@@ -495,8 +483,6 @@ If reauthentication fails, proceed to the next step. Tthe issue may be related t
 5. If this works ensure you click the re-concent button.
 
 If the issue persists, completely uninstall and reinstall the Microsoft Cloud Bundle Integration.
-
-
 
 </details>
 
@@ -542,7 +528,7 @@ Here, a client has Duo as an External Authentication method that may be re-direc
 
 <details>
 
-<summary>Issue: <strong>Error -3 while decompressing data: incorrect header check -</strong> Microsoft EXO </summary>
+<summary>Issue: <strong>Error -3 while decompressing data: incorrect header check -</strong> Microsoft EXO</summary>
 
 For MSP or parent organization
 

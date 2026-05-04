@@ -46,7 +46,7 @@ Our Sherweb integration enables seamless management of customer information, pro
 2. Navigate to **Marketplace > Integrations** in the left side menu.
 3. In the Integrations page, search for the **Sherweb** integration.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-03-04 at 9.29.59 AM (1).png>)
+   ![](<../../../.gitbook/assets/Screenshot 2025-03-04 at 9.29.59 AM.png>)
 4. Click on the integration tile to launch the Configuration setup page.
 5. Under **Configuration**:
    1. Optionally provide a short description of the intended use of the configuration.
@@ -57,13 +57,9 @@ Our Sherweb integration enables seamless management of customer information, pro
     2. Paste your client secret copied from Sherweb into the **Client Secret** field.
     3. Paste your subdomain copied from Sherweb into the **Subdomain** field.
 
-
-
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-04 at 9.32.45 AM.png" alt=""><figcaption></figcaption></figure>
 7. Click **Save Configuration.**
-8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
-
-
+8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 ## Test the integration
 
@@ -100,4 +96,3 @@ Refer to Sherweb's[ API documentation](https://developers.sherweb.com/) for deta
 | Get Receivable Charges             | Get a customer's amount owed for a specific billing period.                                                                                                        | GET [https://api.sherweb.com/service-provider/v1/billing/receivable-charges?customerId={customerId}\[\&date\]](https://api.sherweb.com/service-provider/v1/billing/receivable-charges?customerId=%7BcustomerId%7D%5B\&date%5D)           |
 | Get Subscriptions                  | Get the list of subscriptions for one of your customers.                                                                                                           | GET [https://api.sherweb.com/service-provider/v1/billing/subscriptions?customerId={customerId}](https://api.sherweb.com/service-provider/v1/billing/subscriptions?customerId=%7BcustomerId%7D)                                           |
 | Get Subscriptions Amendment Status | Get the status of a subscriptions amendment.                                                                                                                       | GET [https://api.sherweb.com/service-provider/v1/billing/subscriptions/amendments/{subscriptionsAmendmentId}/status](https://api.sherweb.com/service-provider/v1/billing/subscriptions/amendments/%7BsubscriptionsAmendmentId%7D/status) |
-

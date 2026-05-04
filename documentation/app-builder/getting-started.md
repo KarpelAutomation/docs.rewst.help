@@ -11,7 +11,7 @@ App Builder lets you build a wide variety of front-end web content to work on to
     <br>
 
     <figure><img src="../../.gitbook/assets/test 1-min.png" alt=""><figcaption></figcaption></figure>
-3.  Enter the name of your app into the **Name** field. We'll use `hello-world` in our example. Note how it automatically creates a URL based on your org name and the rew.st domain. \
+3.  Enter the name of your app into the **Name** field. We'll use `hello-world` in our example. Note how it automatically creates a URL based on your org name and the rew.st domain.\
     <br>
 
     <figure><img src="../../.gitbook/assets/test 2-min.png" alt=""><figcaption></figcaption></figure>
@@ -19,7 +19,7 @@ App Builder lets you build a wide variety of front-end web content to work on to
 
 ## Create a page in an App Builder app
 
-1.  Navigate to the newly created app by clicking on it in your **Apps** list. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Each app you create will have both a **home** and **login** page.  Both are customizable. Note that you can only have one home and one login page per app. For more on App Builder pages, see our pages documentation [here](app-builder-pages.md).<br>
+1.  Navigate to the newly created app by clicking on it in your **Apps** list. Every app's info page will contain a **Pages** section where all the default pages made by Rewst for that app will be listed. Each app you create will have both a **home** and **login** page. Both are customizable. Note that you can only have one home and one login page per app. For more on App Builder pages, see our pages documentation [here](app-builder-pages.md).<br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.15.34 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -43,7 +43,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
 <figure><img src="../../.gitbook/assets/test 7-min.png" alt=""><figcaption></figcaption></figure>
 
-6\. Click **>** to the right of your page's record, under the **Actions** column. This will take you to the builder screen for that page.&#x20;
+6\. Click **>** to the right of your page's record, under the **Actions** column. This will take you to the builder screen for that page.
 
 ## Create a workflow to use in your App Builder app
 
@@ -57,7 +57,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
 4. Add a noop action to the workflow builder canvas by clicking on the action in the left action menu and dragging and dropping it on the canvas.
 5. Click on the action.
-6. Click the <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1).png" alt="" data-size="line">in the action's menu.
+6. Click the <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line">in the action's menu.
 7.  Change the name of the action to `BEGIN`, which allows other users reviewing the workflow to clearly identify the top of a workflow.\
     <br>
 
@@ -92,7 +92,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
     <figure><img src="../../.gitbook/assets/test 15-min.png" alt=""><figcaption></figcaption></figure>
 16. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) next to your new data alias.
-17. Copy the Jinja code below. Here, we're looking at all returned forms, and creating a new key with name, tags, view, and triggerId key. Eventually we'll display the name and tags to the user and use the view key to allow an action for the user - in the case of this example, go directly to the form.&#x20;
+17. Copy the Jinja code below. Here, we're looking at all returned forms, and creating a new key with name, tags, view, and triggerId key. Eventually we'll display the name and tags to the user and use the view key to allow an action for the user - in the case of this example, go directly to the form.
 
 ```
 {#- Assumes single trigger per form -#}
@@ -113,10 +113,10 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
     <br>
 
     <figure><img src="../../.gitbook/assets/test 17-min.png" alt=""><figcaption></figcaption></figure>
-21. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (1).png" alt="" data-size="line"> in the top right of the workflow builder.
+21. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line"> in the top right of the workflow builder.
 22. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Output Configuration**.
-23. Name the output configuration`form_output`.&#x20;
-24. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .&#x20;
+23. Name the output configuration`form_output`.
+24. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .
 25. Add notes to your workflow, or use RoboRewsty to do documentation for you.
 26. Click **Submit.**
 27. Click **Publish**.\
@@ -134,7 +134,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
 ![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/543b30ed-75ad-422c-9a29-0e3336a7e775/2.5/72.376844992203/74.921114920738?0)
 
-30. Click **form\_output**. You'll should see a record similar to the below, with a list of the forms that have been output.&#x20;
+30. Click **form\_output**. You'll should see a record similar to the below, with a list of the forms that have been output.
 
 ![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/c111fba0-f0ec-4344-a1fa-642459980d37/2.5/74.887025631892/77.01249226551?0)
 
@@ -148,9 +148,9 @@ App Builder's component library contains many pre-built components that you can 
 A detailed example of one such component can best be found for our [Broken link](/broken/pages/qyEfir4Oc79a0Ar53Gxr "mention").
 {% endhint %}
 
-1. Navigate to **App Builder > Apps**. Click on your **relevant** app.&#x20;
+1. Navigate to **App Builder > Apps**. Click on your **relevant** app.
 2. Click ![](<../../.gitbook/assets/Screenshot 2025-03-14 at 10.07.35 AM.png>) in the left side menu of the App Builder canvas. This will open the full component library.
-3. Click on any component to drag and drop it into your App Builder canvas.&#x20;
+3. Click on any component to drag and drop it into your App Builder canvas.
 
 ## Delete an App Builder app
 
@@ -160,12 +160,12 @@ A detailed example of one such component can best be found for our [Broken link]
    ![](<../../.gitbook/assets/Screenshot 2025-08-21 at 3.16.26 PM.png>)
 4. Click **I want to delete this app**.
 5. Read through the warning message on the dialog that appears.
-6. Click **I have read and understand these effects.**&#x20;
+6. Click **I have read and understand these effects.**
 7. Enter the text shown on the dialog into the confirmation field.
 8. Click **Delete**. If successful, a green confirmation dialog will appear at the top center of your screen.
 
 {% hint style="danger" %}
-&#x20;Once an app is deleted, it cannot be recovered. Exercise caution before deleting an app.
+Once an app is deleted, it cannot be recovered. Exercise caution before deleting an app.
 {% endhint %}
 
 ## Sync and clone App Builder apps
@@ -183,11 +183,11 @@ Portals or our Prebuilt Apps must still be initially cloned into customer enviro
 ### Clone an app
 
 1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
-2. Click **⋮** to the right of the app you wish to clone.&#x20;
+2. Click **⋮** to the right of the app you wish to clone.
 3.  Click **Clone**.<br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.47.42 AM.png" alt=""><figcaption></figcaption></figure>
-4. &#x20;Enter whatever you would like to call your cloned app in he **New Name** field. This will need to be different from the name of the original app.
+4. Enter whatever you would like to call your cloned app in he **New Name** field. This will need to be different from the name of the original app.
 5. Choose the organization that you would like the app to be cloned to from the **Organization** drop-down selector.
 6.  If you would like the cloned form to stay synced and inerit updates from the parent app, toggle **Synchronize Changes** on.\
     <br>
@@ -199,7 +199,7 @@ Portals or our Prebuilt Apps must still be initially cloned into customer enviro
 ### Export an app to a bundled file
 
 1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
-2.  Click **⋮** to the right of the app you wish to export. \
+2.  Click **⋮** to the right of the app you wish to export.\
     <br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.56.55 AM.png" alt=""><figcaption></figcaption></figure>
@@ -215,5 +215,5 @@ Portals or our Prebuilt Apps must still be initially cloned into customer enviro
 4. Click **Submit**.
 
 {% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
+If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).
 {% endhint %}

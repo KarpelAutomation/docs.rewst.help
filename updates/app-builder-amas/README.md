@@ -5,9 +5,9 @@ icon: seal-question
 # App Builder AMAs
 
 {% hint style="info" %}
-### New App Builder AMAs are currently on hold. Click through our existing App Builder AMA recordings to learn more about use and functionality.&#x20;
+#### New App Builder AMAs are currently on hold. Click through our existing App Builder AMA recordings to learn more about use and functionality.
 
-For specific App Builder questions, [reach out to the ROC](../../support-and-community/roc-support/).&#x20;
+For specific App Builder questions, [reach out to the ROC](../../support-and-community/roc-support/).
 {% endhint %}
 
 ## Latest App Builder AMA video recording
@@ -35,6 +35,3 @@ For specific App Builder questions, [reach out to the ROC](../../support-and-com
 🧱 Components: [https://docs.rewst.help/documentation/app-builder/components](https://docs.rewst.help/documentation/app-builder/components)
 
 🏁 Getting started: [https://docs.rewst.help/documentation/app-builder/getting-started](https://docs.rewst.help/documentation/app-builder/getting-started)
-
-
-

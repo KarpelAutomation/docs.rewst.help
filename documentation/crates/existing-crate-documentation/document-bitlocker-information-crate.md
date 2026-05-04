@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Document BitLocker Information Crate do?
 
-Our Document BitLockers Crate automates the collection and documentation of BitLocker encryption details for computers managed through your RMM. Maintain visibility and compliance by syncing key encryption attributes into your preferred documentation platform.  BitLocker details are collected by running a PowerShell script via the RMM, so only computers that are online during execution will have their BitLocker information documented. This Crate not delete BitLocker asset records that are no longer associated with active computers.
+Our Document BitLockers Crate automates the collection and documentation of BitLocker encryption details for computers managed through your RMM. Maintain visibility and compliance by syncing key encryption attributes into your preferred documentation platform. BitLocker details are collected by running a PowerShell script via the RMM, so only computers that are online during execution will have their BitLocker information documented. This Crate not delete BitLocker asset records that are no longer associated with active computers.
 
 * Keep documentation in sync with actual system configurations through scheduled execution.
 * Work with supported RMM and documentation platforms to automate asset management.
@@ -14,7 +14,7 @@ Our Document BitLockers Crate automates the collection and documentation of BitL
 * Ensure critical disk encryption data like recovery keys and protection status are properly recorded.
 
 {% hint style="warning" %}
-Note that multiple workstation types for ITGlue are not supported by this Crate. The Crate only facilitates collecting BitLocker records for a single workstation configuration type.&#x20;
+Note that multiple workstation types for ITGlue are not supported by this Crate. The Crate only facilitates collecting BitLocker records for a single workstation configuration type.
 {% endhint %}
 
 ## Crate prerequisites
@@ -29,7 +29,7 @@ Before unpacking this Crate, you'll first need to have:
 1. Navigate to **Marketplace > Crates** in the Rewst platform.
 2. Search for `Document BitLocker Information`.\
    \
-   ​![](<../../../.gitbook/assets/image (152).png>)
+   ​![](<../../../.gitbook/assets/image (151).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
 5. Click **Continue**.
@@ -47,7 +47,7 @@ To test this Crate, you'll need to adjust the [cron trigger](https://docs.rewst.
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document Bitlockers` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (199).png>) to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (196).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then.
 6. Verify documented results. Depending on your configured documentation platform:
    1. Check for computer assets/configurations and verify they match with your RMM.
@@ -59,37 +59,37 @@ To test this Crate, you'll need to adjust the [cron trigger](https://docs.rewst.
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 
 If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](configure-organization-variables.md), which will help you set org variables that are relevant to you and your customer's environments.
 {% endhint %}
 
-* `agent_smith_is_installed`&#x20;
-* `azure_iothub_name`&#x20;
-* `azure_iothub_resource_group`&#x20;
-* `azure_iothub_subscription_id`&#x20;
-* `cwControl_CompanyName`&#x20;
+* `agent_smith_is_installed`
+* `azure_iothub_name`
+* `azure_iothub_resource_group`
+* `azure_iothub_subscription_id`
+* `cwControl_CompanyName`
 * `cw_automate_client_id`
-* `cw_control_session_group_override`&#x20;
-* `datto_rmm_site_id`&#x20;
-* `default_rmm`&#x20;
-* `documentation_platform`&#x20;
-* `hudu_company_id`&#x20;
-* `immybot_tenant_id`&#x20;
+* `cw_control_session_group_override`
+* `datto_rmm_site_id`
+* `default_rmm`
+* `documentation_platform`
+* `hudu_company_id`
+* `immybot_tenant_id`
 * `itglue_org_id`
-* `itg_bitlocker_computer_config_type` - default is `computer` and doesn't use your RMM-mapped types, custom configuration type names require setting this org variable. Note that multiple workstation types for ITGlue are not supported by this Crate.       &#x20;
-* &#x20;`kaseya_vsa_10_scriptid`&#x20;
-* `kaseya_vsa_org_id`&#x20;
-* `kaseya_vsa_x_org_id`&#x20;
-* `nable_customer_id`&#x20;
-* `nable_device_filter_id`&#x20;
-* `nable_rewst_powershell_script_id`&#x20;
-* `ninja_org_id`&#x20;
-* `ninja_run_as_user`&#x20;
-* `preferred_domain_controller`&#x20;
-* `superops_client_id`&#x20;
+* `itg_bitlocker_computer_config_type` - default is `computer` and doesn't use your RMM-mapped types, custom configuration type names require setting this org variable. Note that multiple workstation types for ITGlue are not supported by this Crate.
+* `kaseya_vsa_10_scriptid`
+* `kaseya_vsa_org_id`
+* `kaseya_vsa_x_org_id`
+* `nable_customer_id`
+* `nable_device_filter_id`
+* `nable_rewst_powershell_script_id`
+* `ninja_org_id`
+* `ninja_run_as_user`
+* `preferred_domain_controller`
+* `superops_client_id`
 * `syncmonkey_company_id`
 
 {% hint style="info" %}

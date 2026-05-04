@@ -9,7 +9,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 Our Bulk Create Client from PSA Crate allows you to create organizations in Rewst from a filtered PSA client list, in bulk. Reduce time needed when onboarding into Rewst for the first time and quickly create multiple unique Rewst organizations from your PSA.
 
 {% hint style="warning" %}
-Once an organization is created via the Crate's execution, you can't change the parent organization of that child organization.&#x20;
+Once an organization is created via the Crate's execution, you can't change the parent organization of that child organization.
 {% endhint %}
 
 ### How the Crate works
@@ -60,7 +60,7 @@ Prior to unpacking and running this Crate, you should have one of the following 
    \
    ![](<../../../.gitbook/assets/image (137).png>)
 3. Click on the Crate tile to open its details page.
-4. Locate the **Required Org Variables** menu on the right of the Crate details page. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (2).png" alt="" data-size="line"> to launch the **Add Organization Variable** dialog.\
+4. Locate the **Required Org Variables** menu on the right of the Crate details page. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line"> to launch the **Add Organization Variable** dialog.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-03-17 at 1.28.30 PM.png>)
 5. Set the **Name** field to `default_PSA`, if Rewst does not automatically populate this into the field for you.

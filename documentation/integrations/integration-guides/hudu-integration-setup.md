@@ -28,13 +28,13 @@ Rewst's Hudu integration enables the automation of documentation management. Use
 5.  Enter or select the following:
 
     1. **Name:** Rewst
-    2. **Limit scope to:**&#x20;
+    2. **Limit scope to:**
     3. **Allowed IP Addresses:** View Rewst IPs [here](https://docs.rewst.help/security/security-policy)
     4. Check the box for **View passwords**
     5. Check the box for **Delete data**
     6. Check the box for **Export data**
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-14 at 2.36.13 PM (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-14 at 2.36.13 PM.png" alt=""><figcaption></figcaption></figure>
 6. Click **Create**.
 7. Copy and save the API key that is generated and listed at the top of the page under **New API Key**.
 
@@ -50,7 +50,7 @@ Rewst's Hudu integration enables the automation of documentation management. Use
 6. Enter your copied API key from your Hudu Instance.
 7. Add your Hudu Instance hostname in the **Hudu URL** field: for example, `yourinstance.huducloud.com` .
 8. Click **Save Configuration**.
-9.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. <br>
+9.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-04 at 2.19.52 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +70,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Crates related to the Hudu integration
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Document M365 Environment</strong></td><td><a href="../../../.gitbook/assets/Document m365 environment (4).png">Document m365 environment (4).png</a></td></tr><tr><td><strong>Document Rewst Form URLs</strong></td><td><a href="../../../.gitbook/assets/Document Rewst form urls it glue hudu.png">Document Rewst form urls it glue hudu.png</a></td></tr><tr><td><strong>Document Shared Mailbox Details</strong></td><td><a href="../../../.gitbook/assets/Document shared mailbox details (2).png">Document shared mailbox details (2).png</a></td></tr><tr><td><strong>Document Group Details</strong></td><td><a href="../../../.gitbook/assets/Document Group Details V2 (1).png">Document Group Details V2 (1).png</a></td></tr><tr><td><strong>Document User Details</strong></td><td><a href="../../../.gitbook/assets/Document user details v2 (2).png">Document user details v2 (2).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Document M365 Environment</strong></td><td><a href="../../../.gitbook/assets/Document m365 environment.png">Document m365 environment.png</a></td></tr><tr><td><strong>Document Rewst Form URLs</strong></td><td><a href="../../../.gitbook/assets/Screenshot 2025-03-03 at 2.05.49 PM.png">Screenshot 2025-03-03 at 2.05.49 PM.png</a></td></tr><tr><td><strong>Document Shared Mailbox Details</strong></td><td><a href="../../../.gitbook/assets/Document shared mailbox details (1).png">Document shared mailbox details (1).png</a></td></tr><tr><td><strong>Document Group Details</strong></td><td><a href="../../../.gitbook/assets/Document Group Details V2.png">Document Group Details V2.png</a></td></tr><tr><td><strong>Document User Details</strong></td><td><a href="../../../.gitbook/assets/Document user details v2.png">Document user details v2.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).

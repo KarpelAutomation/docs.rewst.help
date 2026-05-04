@@ -12,7 +12,7 @@ No new Crates were released this week.
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-### Crates
+#### Crates
 
 * [Microsoft: User Onboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
   * Return only a single valid session ID
@@ -36,11 +36,11 @@ No new Crates were released this week.
 * [Run Powershell Script on Selected Devices](../../../documentation/crates/existing-crate-documentation/run-powershell-script-on-selected-devices-crate.md)
   * Prefer matching "PowerShell script" from List Shell Scripts before script\_id input
 
-### Kits
+#### Kits
 
 There were no updates to kits this week.
 
-### Subworkflows
+#### Subworkflows
 
 There were no updates to subworkflows this week.
 
@@ -53,4 +53,3 @@ There were no updates to subworkflows this week.
 CIPP Microsoft Desired State Standards Compliance Crate
 
 </details>
-

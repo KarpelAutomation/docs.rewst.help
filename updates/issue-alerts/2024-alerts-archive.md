@@ -25,21 +25,21 @@ We’re here to support you every step of the way. If you have any questions or 
 
 <summary>⚠️ Resolved: App Builder domains not provisioned in UK - November 13th, 2024</summary>
 
-### Issue Resolved
+#### Issue Resolved
 
 **Date**: Friday, November 13th, 2024\
 **Time**: 7:38 PM EDT
 
 We were performing upgrades across all Rewst instances to how we provision domains for live sites. The upgrades were successful in all of our instances, but failed in prod US at 6:33 PM EST. We were troubleshooting for 50 minutes and managed to roll back at 7:23PM bringing rew.st domains back up. There was additional work needed to get custom domains back, which was completed at 7:38PM.
 
-### Issue Identified
+#### Issue Identified
 
 **Date**: Friday, November 13th, 2024\
 **Time**: 6:33 PM EDT
 
-App Builder domains were not being provisioned in UK leading to live sites not being available.&#x20;
+App Builder domains were not being provisioned in UK leading to live sites not being available.
 
-### **Updates**&#x20;
+#### **Updates**
 
 For the latest information, please refer to [https://status.rewst.io/](https://status.rewst.io/)
 
@@ -58,11 +58,11 @@ Please contact our support team if you have any questions or need further assist
 
 **Time:** 10:53 AM - 11:40AM EST
 
-On November 6, 2024, from 10:53 AM EST to 11:40 AM EST, an unintended disruption occurred in our production environment, impacting workflow processing for our US customers. While working towards a resolution, there were failures of workflows running at the time. This temporarily affected real-time processing across parts of our application. The issue was resolved and workflows are running as normal.&#x20;
+On November 6, 2024, from 10:53 AM EST to 11:40 AM EST, an unintended disruption occurred in our production environment, impacting workflow processing for our US customers. While working towards a resolution, there were failures of workflows running at the time. This temporarily affected real-time processing across parts of our application. The issue was resolved and workflows are running as normal.
 
 Thank you for your understanding as we work to strengthen our safeguards. We are committed to maintaining the reliability and resilience of our platform and will continue to enhance our processes to prevent such incidents in the future.
 
-**Updates**&#x20;
+**Updates**
 
 For the latest information, please refer to [https://status.rewst.io/](https://status.rewst.io/)
 
@@ -77,14 +77,14 @@ Please contact our support team if you have any questions or need further assist
 
 <summary>⚠️ Resolved: Rewst experiencing performance degradation for US Region - November 1st, 2024</summary>
 
-### Issue Resolved
+#### Issue Resolved
 
 **Date**: Friday, November 1st, 2024\
 **Time**: 4:30 PM EDT
 
 After further investigation, it was discovered that a previous settings change intended to improve performance was causing timeouts because of the large number of connections in the environment. Upon reverting the setting, performance returned back to normal around 4:30PM EDT.
 
-### Issue Identified
+#### Issue Identified
 
 **Date:** Friday, November 1st, 2024
 
@@ -92,7 +92,7 @@ After further investigation, it was discovered that a previous settings change i
 
 ReOn Friday, November 1, 2024 beginning at 10:23AM EDT, the workflow engine began exhibiting slow performance while executing tasks. Our platform team was alerted when the pending task queue grew out of normal boundaries and began investigating the problem.
 
-### Updates
+#### Updates
 
 **Time:** 2:00 PM EST\
 \
@@ -117,7 +117,7 @@ Please contact our support team if you have any questions or need further assist
 
 October 31st, 2024 at 8:20 UTC Rewst discovered an issue with workflow executions initializing in the European instance. UK Customers were not affected. This was escalated internally for review per the standard process. Rewst traced the issue to a partition issue. This issue was fixed and Rewst is currently operating as normal while we work to publish a long-term fix to ensure this doesn't happen again.
 
-**Updates**&#x20;
+**Updates**
 
 For the latest information, please refer to [https://status.rewst.io/](https://status.rewst.io/)
 
@@ -130,7 +130,7 @@ Please contact our support team if you have any questions or need further assist
 
 <details>
 
-<summary>⚠️  Routine system maintenance -October 26, 2024</summary>
+<summary>⚠️ Routine system maintenance -October 26, 2024</summary>
 
 **Date:** Saturday, October 26, 2024
 

@@ -24,7 +24,7 @@ For nested field names, separate them by dots (e.g., `details.age`).
 
 <summary>Example 1: Filter List For Unique Objects Based On Username</summary>
 
-### Inputs
+#### Inputs
 
 \
 **Attribute:** username\
@@ -63,17 +63,18 @@ For nested field names, separate them by dots (e.g., `details.age`).
 
 <summary>Example 2: Filter List of Integers For Unique Integers</summary>
 
-### Inputs
+#### Inputs
 
 \
 **Attribute:** username\
 **Case Sensitive:** False\
 **List:**
 
-<pre><code><strong>
-</strong>```json
+````
+
+```json
 [ 1, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5 ]```
-</code></pre>
+````
 
 </details>
 

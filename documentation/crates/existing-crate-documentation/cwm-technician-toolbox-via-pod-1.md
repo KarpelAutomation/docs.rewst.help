@@ -1,7 +1,7 @@
 # CW PSA: Pod Technician Toolbox Crate V2
 
 {% hint style="warning" %}
-This is our newest version of this Crate. An older version still exists in our Crate Marketplace titled CWM: Technician Toolbox via Pod. That Crate is [deprecated ](../../../prebuilt-automations/crates/crate-deprecation-faq.md)and should no longer be unpacked. For customers who were using the old version of the Crate, see the section of this document titled[#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate](cwm-technician-toolbox-via-pod-1.md#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate "mention") for instructions.&#x20;
+This is our newest version of this Crate. An older version still exists in our Crate Marketplace titled CWM: Technician Toolbox via Pod. That Crate is [deprecated ](../../../prebuilt-automations/crates/crate-deprecation-faq.md)and should no longer be unpacked. For customers who were using the old version of the Crate, see the section of this document titled[#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate](cwm-technician-toolbox-via-pod-1.md#migrate-from-cwm-technician-toolbox-via-pod-to-this-crate "mention") for instructions.
 {% endhint %}
 
 ## What does the CW PSA: Pod Technician Toolbox Crate V2 do?
@@ -13,7 +13,7 @@ This Crate gives your technicians access to a wide range of tools, without the n
 * **Display toolbox UI**: Load the Rewst pod interface into the ticket view, prompting users to select a category of actions.
 * **Execute automations**: Perform the selected tool action based on user input from within the pod.
 
-## Crate prerequisites&#x20;
+## Crate prerequisites
 
 Before unpacking this Crate:
 
@@ -43,7 +43,7 @@ The Crate will unpack with its triggers enabled. The trigger is set to work on a
 
 ### Use the tool box
 
-On tickets with the pod running, you'll see five main categories. Clicking the categories will open menu options for further tasks, as outlined below.&#x20;
+On tickets with the pod running, you'll see five main categories. Clicking the categories will open menu options for further tasks, as outlined below.
 
 <figure><img src="../../../.gitbook/assets/Default View.png" alt=""><figcaption></figcaption></figure>
 
@@ -103,17 +103,15 @@ On tickets with the pod running, you'll see five main categories. Clicking the c
 
 ## Re-run a pod from a ticket <a href="#re-running-a-pod-from-a-ticket" id="re-running-a-pod-from-a-ticket"></a>
 
-Imagine that you have a ticket that has had its associated pod workflow execution expire or fail. If you attempt to view the pod in the ticket, you'll see a message that reads `No pending tasks. Note if you just requested the action, the workflow will be running in the background, and the pod will then update automatically with the response.`&#x20;
+Imagine that you have a ticket that has had its associated pod workflow execution expire or fail. If you attempt to view the pod in the ticket, you'll see a message that reads `No pending tasks. Note if you just requested the action, the workflow will be running in the background, and the pod will then update automatically with the response.`
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-04-10 at 3.47.03 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-04-10 at 3.47.03 PM.png" alt=""><figcaption></figcaption></figure>
 
 To execute a new instance of the pod, click the **Links** drop-down menu in the ticket. Choose **Rewst - Start Pod on this Ticket**.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-10 at 3.47.15 PM.png" alt="" width="326"><figcaption></figcaption></figure>
 
 After using this button, a web page will open and close. This will send a request to the live link trigger and start a new execution for that ticket. Allow some time to pass before the ticket updates. You should see the pod populate once the execution has gone through.
-
-
 
 ## Migrate from CWM: Technician Toolbox via Pod to this Crate
 

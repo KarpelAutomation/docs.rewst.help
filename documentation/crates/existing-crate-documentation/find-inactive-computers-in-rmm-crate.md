@@ -48,8 +48,6 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
     <figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
-
-
     <figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your RMM's portal to ensure that the workflow is able to find the inactive computers as expected.
 
@@ -58,13 +56,11 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. To edit a cron trigger in the workflow to change the timing it will routinely run:
 
 1. Navigate to **Automations > Workflows**.
-2. Search for  `[REWST - CRATE] RMM: Find Inactive Computers`.
+2. Search for `[REWST - CRATE] RMM: Find Inactive Computers`.
 3. Click on the workflow to open it in the workflow builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
+4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
 
-
-
-    <figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

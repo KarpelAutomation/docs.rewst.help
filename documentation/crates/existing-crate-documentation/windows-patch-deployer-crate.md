@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Windows Patch Deployer Crate do?
 
-This Crate streamlines the process of deploying Windows updates across selected computers using your RMM platform. It operates in two parts: caching available patches, and executing scheduled deployments. Patch activity is logged in PSA tickets for auditing. Deployments can be scheduled up to 30 days in advance. Installation status is tracked for up to 10 minutes.&#x20;
+This Crate streamlines the process of deploying Windows updates across selected computers using your RMM platform. It operates in two parts: caching available patches, and executing scheduled deployments. Patch activity is logged in PSA tickets for auditing. Deployments can be scheduled up to 30 days in advance. Installation status is tracked for up to 10 minutes.
 
 ### How the Crate works
 
@@ -43,7 +43,7 @@ This Crate streamlines the process of deploying Windows updates across selected 
 Before unpacking this Crate,
 
 * Your [PSA must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
-* Your [RMM must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst. Note that this Crate does not work with Kaseya VSA X.&#x20;
+* Your [RMM must successfully be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) with Rewst. Note that this Crate does not work with Kaseya VSA X.
 
 ## Unpack the Windows Patch Deployer Crate
 
@@ -65,8 +65,6 @@ The deployment requires cached patch data, which is generated for the first time
 A variable configuration of `max_diff_hours` defines the maximum number of hours the workflow can deviate from the scheduled time to still be considered valid. At unpacking, this defaults to 2 hours.
 {% endhint %}
 
-
-
 1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Rewst] Deploy Windows Patches`.
 3. Click **⋮ > Usages > View Direct URLs**.
@@ -85,11 +83,9 @@ A variable configuration of `max_diff_hours` defines the maximum number of hours
 The Crate runs on a cron trigger, and will execute the workflow on a schedule. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for  `[Rewst - CRATE] Windows: Deploy Patches`.
+2. Search for `[Rewst - CRATE] Windows: Deploy Patches`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
-
-
+4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
 
     <figure><img src="../../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.

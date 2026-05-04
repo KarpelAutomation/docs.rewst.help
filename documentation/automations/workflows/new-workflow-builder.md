@@ -1,9 +1,9 @@
 # New Workflow Builder
 
 {% hint style="info" %}
-Our new version of Rewst's Workflow Builder is officially here! For the near future, you'll have the option to use the old Workflow Builder or switch to our new experience via the <img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 12.37.47 PM.png" alt="" data-size="line"> in the top tool bar.&#x20;
+Our new version of Rewst's Workflow Builder is officially here! For the near future, you'll have the option to use the old Workflow Builder or switch to our new experience via the <img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 12.37.47 PM.png" alt="" data-size="line"> in the top tool bar.
 
-Submit feedback on our updated Builder here in our dedicated Discord feedback channel.&#x20;
+Submit feedback on our updated Builder here in our dedicated Discord feedback channel.
 {% endhint %}
 
 Rewst's new Workflow Builder combines everything you loved about our original Builder with clearer menus, enhanced capabilities, and better visualization. The location of buttons and fields may have been moved around, but everything that was present in the old Workflow Builder is still present in the new version. Like before, access workflows in the Rewst platform by navigating to **Automations > Workflows** in the left side menu. Create a new workflow from scratch by clicking **Create Workflow**.
@@ -16,14 +16,10 @@ The new start screen of the Workflow Builder Canvas has three quickstart tiles, 
 
 {% columns fullWidth="false" %}
 {% column %}
-### ![](<../../../.gitbook/assets/Screenshot 2026-03-17 at 2.00.37 PM.png>)  <a href="#the-workflow-settings-toolbar" id="the-workflow-settings-toolbar"></a>
-
-
+#### ![](<../../../.gitbook/assets/Screenshot 2026-03-17 at 2.00.37 PM.png>) <a href="#the-workflow-settings-toolbar" id="the-workflow-settings-toolbar"></a>
 {% endcolumn %}
 
 {% column %}
-
-
 Use the top left toolbar to open, view, and use the features of the workflow builder.
 {% endcolumn %}
 {% endcolumns %}
@@ -44,9 +40,9 @@ Center screen, the toolbar contains a drop-down selector for additional options 
 
 * Click **Edit Workflow JSON** to open the JSON editor in the right of your screen.
 * Click **Version History** to open a menu on the right side of your screen displaying the record of when the workflow was created and edited. You also have the option to revert back to a previous version of your workflow, or view previous versions to compare changes.
-* Click **Execution History** to view the list of execution results for the workflow, including their success or failure status.&#x20;
+* Click **Execution History** to view the list of execution results for the workflow, including their success or failure status.
 * Click **Export** to [export a workflow](https://docs.rewst.help/documentation/automations/workflows#export-and-import-workflows).
-*   Click **Clone** to create an exact copy of your workflow without changing the original.&#x20;
+*   Click **Clone** to create an exact copy of your workflow without changing the original.
 
     The window that appears is the failsafe to confirm that you want to clone the workflow. In it, you can do the following:
 
@@ -73,20 +69,16 @@ The **Library** menu contains three distinct tabs:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 2.15.03 PM.png" alt=""><figcaption></figcaption></figure>
 
-
-
 3. **My Library** stores your bookmarked, favorite actions. Click the bookmark icon on any action to add it to the My Library list.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 2.15.10 PM.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endcolumn %}
 {% endcolumns %}
 
 At the very bottom of the menu you have the option to add a new custom integration.
 
 1. Click **Add Integrations +**.
-2. The dialog that appears contains many fields for information needed to set up the integration. Pull that relevant information from the partner app you wish to integrate.&#x20;
+2. The dialog that appears contains many fields for information needed to set up the integration. Pull that relevant information from the partner app you wish to integrate.
 3. When finished, and after building your workflow, you'll still need to complete organization mapping from the traditional integrations menu in Rewst.
 
 ## Canvas view settings
@@ -98,14 +90,12 @@ The canvas view menu is now on the left side of the Workflow Builder canvas. **+
 
 {% column %}
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-20 at 1.19.12 PM.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endcolumn %}
 {% endcolumns %}
 
 ## Add transitions between actions
 
-To add a transition, hover over your desired starting action. Note the circles on the right and bottom on the action. These represent the action’s outputs, and are where you can create transitions to following. The triangle on the top and left of the action are inputs into the action, and where you can connect a transition. Click on the circle under or to the right of the action, drag, and release on the top of the ending action where you would like the transition to conclude.&#x20;
+To add a transition, hover over your desired starting action. Note the circles on the right and bottom on the action. These represent the action’s outputs, and are where you can create transitions to following. The triangle on the top and left of the action are inputs into the action, and where you can connect a transition. Click on the circle under or to the right of the action, drag, and release on the top of the ending action where you would like the transition to conclude.
 
 <figure><img src="../../../.gitbook/assets/add transition.gif" alt=""><figcaption></figcaption></figure>
 
@@ -114,8 +104,6 @@ The diamond that appears between the two actions is the _transition indicator_. 
 {% columns fullWidth="false" %}
 {% column %}
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-18 at 3.18.17 PM.png" alt="" width="300"><figcaption></figcaption></figure>
-
-
 {% endcolumn %}
 
 {% column %}
@@ -155,7 +143,7 @@ The **Settings** menu has distinct tabs, each with its own configuration options
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 3.25.42 PM.png" alt=""><figcaption></figcaption></figure>
 
-* **General** provides a field to view and edit the **Workflow Name**, as well as the **Workflow Timeout** in seconds, the **Time Saved** in seconds, and a drop-down selector for the **Workflow Type** - either  Standard, Option Generator, or Stream Output. Here you can also choose to **Delete Workflow** or **Download Workflow as JSON** file.
+* **General** provides a field to view and edit the **Workflow Name**, as well as the **Workflow Timeout** in seconds, the **Time Saved** in seconds, and a drop-down selector for the **Workflow Type** - either Standard, Option Generator, or Stream Output. Here you can also choose to **Delete Workflow** or **Download Workflow as JSON** file.
 * **Data Aliases** displays a list of all defined [data aliases](data-aliases.md).
 * **Input** displays existing input configuration, as well as options to **Add Schema** or **+ Add Input**.
 * **Output** displays existing output configuration, as well as options to **Add Schema** or **+ Add Output**.
@@ -163,16 +151,14 @@ The **Settings** menu has distinct tabs, each with its own configuration options
 * **Triggers** displays existing [triggers](../intro-to-triggers/), as well as an option to **+ Add Trigger**.
   * Click **+ Add Trigger** to reveal the **Trigger Settings** menu. Each of the tabs contains the following options. Remember to click **Save Trigger** at the bottom of the menu when finished making your selections.
     * In the **General** tab:
-      * Here you can update the fields for **Trigger Name**, **Trigger Mode**, and **Trigger Type**.&#x20;
+      * Here you can update the fields for **Trigger Name**, **Trigger Mode**, and **Trigger Type**.
       * Under the **Mock Results** and **Workflow Input Parameters** menus, the **Query Conditions** fields allow for the entering of string values only.
       * Any previously set trigger variables will appear here in the **Trigger Variable** section.
     * In the **Overrides** tab:
-      * **+ Integration Override** reveals a list of all integrations and allows you to specify which integration configurations should be used. Otherwise, the default integration configuration for the triggering organization will be used.&#x20;
+      * **+ Integration Override** reveals a list of all integrations and allows you to specify which integration configurations should be used. Otherwise, the default integration configuration for the triggering organization will be used.
       * **+ Add All** will add integration overrides for all installed integrations in the organization.
     * In the **Criteria** tab, set up your [trigger criteria](../intro-to-triggers/trigger-criteria.md).
-    *   In the **Run For** tab, choose your [Activate Triggers to Run For](../intro-to-triggers/#activate-trigger-to-run-for) settings.
-
-
+    * In the **Run For** tab, choose your [Activate Triggers to Run For](../intro-to-triggers/#activate-trigger-to-run-for) settings.
 * **Edit JSON** provides three separate code editors, including one each for **Trigger Outputs** and **Action Parameters**.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 3.42.26 PM.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -230,4 +216,3 @@ Click **Run** to initiate your test, then click to confirm that you want to **Ru
 After your test is complete, view the workflow execution results in the right side menu. Click on any of the events in the execution log to expand and view information. Click **View Results** to launch a new browser tab with the complete results, in the Rewst platform outside of the Workflow Builder. When satisfied with your workflow, then click **Deploy** and **Submit** to save your changes and implement them on all future runs.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-18 at 4.36.37 PM.png" alt=""><figcaption></figcaption></figure>
-

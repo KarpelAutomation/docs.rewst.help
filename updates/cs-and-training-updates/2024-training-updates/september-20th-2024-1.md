@@ -32,7 +32,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* ​[September 20th, 2024](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/~/diff/~/changes/942/~/revisions/8PDOguEglvOE7fhJGNYF/updates/marketplace-updates/september-20th-2024) updated to reflect new crate enhancements and bug fixes
-* Open Mic: [Sept 20, 2024: How to Help The ROC Help You](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/~/diff/~/changes/942/~/revisions/8PDOguEglvOE7fhJGNYF/updates/roc-open-mics/sept-20-2024-how-to-help-the-roc-help-you)
+* ​[September 20th, 2024](../../marketplace-updates/2024-marketplace-updates/september-20th-2024.md) updated to reflect new crate enhancements and bug fixes
+* Open Mic: [Sept 20, 2024: How to Help The ROC Help You](../../roc-open-mics/roc-open-mics-north-america/2024-roc-open-mics/sept-20-2024-how-to-help-the-roc-help-you.md)
 
 </details>

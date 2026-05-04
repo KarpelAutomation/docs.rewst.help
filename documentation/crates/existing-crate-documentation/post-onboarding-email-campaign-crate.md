@@ -28,7 +28,7 @@ Our Post Onboarding Email Campaign Crate enhances the onboarding process by send
 
 1. Navigate to **Marketplace > Crates** in the left side menu of your Rewst platform.
 2.  Search for `Post Onboarding Email Campaign`.​\
-    &#x20; ​
+    ​
 
     <div align="left"><figure><img src="../../../.gitbook/assets/image (295).png" alt=""><figcaption></figcaption></figure></div>
 3. Click on the Crate tile to begin unpacking.
@@ -55,11 +55,9 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for  `[ROC] User: Post Onboarding Email Campaign - Stage 2: Run Email Campaign`.
+2. Search for `[ROC] User: Post Onboarding Email Campaign - Stage 2: Run Email Campaign`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
-
-
+4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
 
     <figure><img src="../../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.

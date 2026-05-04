@@ -20,7 +20,7 @@
   * Added missing messages and log aliases; removed data keys in sub-workflow evals
 * Find Inactive Computers in RMM
   * Updated Jinja for initial description to handle null/empty inactive\_computer list
-* [Alert on Login from Non-Native Country](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/documentation/crates/existing-crate-documentation/alert-on-login-from-non-native-country-crate)
+* [Alert on Login from Non-Native Country](../../../documentation/crates/existing-crate-documentation/alert-on-login-from-non-native-country-crate.md)
   * Fetch ISO country data from templates and filter by ISO code
 * [Microsoft: User Offboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
   * Removed get\_mailbox\_no\_anchor; revised anchor UPN retrieval
@@ -34,7 +34,6 @@
 * Add Form Link to PSA Ticket Based on Type
 * Per Machine Password Rotation
 * BitLocker Activation - Bitlocker Management Crate series
-
-- Enhanced logging for the user onboarding workflow
+* Enhanced logging for the user onboarding workflow
 
 </details>

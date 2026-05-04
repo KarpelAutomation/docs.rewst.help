@@ -25,22 +25,19 @@ We provide guidance to address specific concerns or clarify best practices on a 
 1. What we do - Offer recommendations and advice to help you achieve your goals.
 2. What we don’t do
    1. Create custom automations on your behalf, such as workflows, forms, templates, scripts, apps, or integration configuration
-   2. Provide bespoke training: we have a robust[ library of documentation along with multiple training courses and live training sessions](../getting-started.md).&#x20;
+   2. Provide bespoke training: we have a robust[ library of documentation along with multiple training courses and live training sessions](../getting-started.md).
 3. Boundary for customization - If your needs go beyond troubleshooting or troubleshooting calls, such as extended workflow building, our customer success managers (CSMs) or services teams will assist you in taking next steps.
 
 {% hint style="warning" %}
-### Limitations
+#### Limitations
 
 **Third party software**\
 \
 Rewst will assist with problem analysis to help determine whether the root cause lies within Rewst or an external third-party service.\
 If we determine that the issue is not caused by Rewst and can be clearly isolated to a third-party system, ongoing support must be handled by the respective vendor.
 
-
-
 **Experimental features**\
 \
-As outlined in our [Terms of Service](https://rewst.io/terms-of-service), Rewst may occasionally release experimental or beta features to give users early access and collect feedback. These features are still in development and may change or be removed without notice. These features come with no warranty or support, and documentation may be limited or unavailable. \
+As outlined in our [Terms of Service](https://rewst.io/terms-of-service), Rewst may occasionally release experimental or beta features to give users early access and collect feedback. These features are still in development and may change or be removed without notice. These features come with no warranty or support, and documentation may be limited or unavailable.\
 We welcome your feedback through the appropriate channels in the Rewst Community. Please avoid using experimental or beta features in production-critical workflows, and be sure to back up any data that could be affected.
 {% endhint %}
-

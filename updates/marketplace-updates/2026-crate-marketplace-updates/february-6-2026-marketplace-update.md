@@ -4,7 +4,7 @@
 
 <summary><strong>New Crates</strong></summary>
 
-No new Crates were released this week.&#x20;
+No new Crates were released this week.
 
 </details>
 
@@ -12,7 +12,7 @@ No new Crates were released this week.&#x20;
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-### Crates
+#### Crates
 
 * [Microsoft: User Offboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
   * Only AD sync when IDP is `on_prem` with ADSync; otherwise skip
@@ -21,12 +21,12 @@ No new Crates were released this week.&#x20;
 * [Clean up Global Address List from Disabled Users](../../../documentation/crates/existing-crate-documentation/clean-up-global-address-list-from-disabled-users-crate.md)
   * Exclude shared mailboxes from GAL removal
 * [Microsoft: User Onboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
-  * Check for existing license before purchasing; sequence M365 licensing steps&#x20;
+  * Check for existing license before purchasing; sequence M365 licensing steps
   * Add CW ASIO to Run PowerShell via RMM; create ConnectWise ASIO: Run PowerShell workflow
   * Add ArrowSphere licensing logic and subworkflows
-  * Fix check\_time logic in PSA Update Ticket subworkflows: Halo, ConnectWise PSA, Autotask, Kaseya, ServiceNow based on `no_ticket_time` flags&#x20;
-  * Remove divide-by-60 in `calculate_ticket_time`&#x20;
-  * Update `determine_provider` to honor PSA `mail_only` flag; used across crates&#x20;
+  * Fix check\_time logic in PSA Update Ticket subworkflows: Halo, ConnectWise PSA, Autotask, Kaseya, ServiceNow based on `no_ticket_time` flags
+  * Remove divide-by-60 in `calculate_ticket_time`
+  * Update `determine_provider` to honor PSA `mail_only` flag; used across crates
 * [Amend Calendar Permission on User](../../../documentation/crates/existing-crate-documentation/amend-calendar-permission-on-user-crate.md)
   * Align structure with updated workflow; correct permission checks
 * [Run Powershell Script on Selected Devices](../../../documentation/crates/existing-crate-documentation/run-powershell-script-on-selected-devices-crate.md)
@@ -50,14 +50,14 @@ No new Crates were released this week.&#x20;
 * Add Rewst Form Link to Offboarding Request Tickets - deprecated Crate
   * Update custom Jinja transition to include Autotask PSA; rename transition
 
-### Kits
+#### Kits
 
 * [\[Kit\] Billing Count Reporting](../../../documentation/automations/kits/billing-count-kit.md)
   * Add ConnectWise ASIO integration
 * [\[Kit\]: HaloPSA Integration](../../../documentation/automations/kits/halo-psa-integration-kit.md)
   * Modify ticket type ID assignment to require psa\_alert\_ticket\_type; subworkflow used in multiple Crates
 
-### Subworkflows
+#### Subworkflows
 
 There were no updates to subworkflows this week.
 
@@ -70,4 +70,3 @@ There were no updates to subworkflows this week.
 REWST Conditional Access Policy Assistant Crate
 
 </details>
-

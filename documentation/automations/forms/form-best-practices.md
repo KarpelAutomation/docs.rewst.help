@@ -6,7 +6,7 @@ You'll often have forms that you want to use across a multitude of clients, but 
 
 In our example, we will look at the **Supervisor** field when creating a new user. In the image below, no Supervisor is set, and therefore the following field is another drop-down for further information.
 
-<figure><img src="../../../.gitbook/assets/no-supervisor-example (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/no-supervisor-example.png" alt=""><figcaption></figcaption></figure>
 
 You can then see that if we add content to that supervisor drop-down, which is a list of users pulled dynamically from Microsoft365, a new field appears.
 

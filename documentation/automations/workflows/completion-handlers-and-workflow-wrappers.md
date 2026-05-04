@@ -5,7 +5,7 @@
 _Completion handlers_ are workflows that execute after another workflow has been completed. They provide a mechanism to extend or modify existing workflows without altering their core structure. These workflows have a [context variable ](data-input-and-output-input-variables-and-context-variables.md)that can be used to reference previous contexts from the workflow that was completed. Configure completion handlers to either trigger another workflow after the existing one finishes, or execute the current workflow when another workflow is completed.
 
 {% hint style="info" %}
-You might hear some of our support staff or customers who present on our Open Mics refer to completion handlers as _workflow listeners_. Listener is a more coding-focused term that they're already familiar with. A completion handler and workflow listener are the same thing.&#x20;
+You might hear some of our support staff or customers who present on our Open Mics refer to completion handlers as _workflow listeners_. Listener is a more coding-focused term that they're already familiar with. A completion handler and workflow listener are the same thing.
 {% endhint %}
 
 ### Example workflow use cases for completion handlers
@@ -18,24 +18,24 @@ Let's look at a few use cases for using completion handlers:
 
 ### Configure a completion handler in a workflow
 
-1. Navigate to **Automations > Workflows**.&#x20;
-2. Locate the existing workflow that you want to address. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.43.57 PM (1).png" alt="" data-size="line"> **Workflow Completion Handlers**.
+1. Navigate to **Automations > Workflows**.
+2. Locate the existing workflow that you want to address. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.43.57 PM.png" alt="" data-size="line"> **Workflow Completion Handlers**.
 3. Note the two options in the **Completion Handlers** section. You'll need to choose which one you want to use:
    1. Run this workflow when...
       1. This will run the workflow when another workflow completes
-   2. When this workflow completes...&#x20;
+   2. When this workflow completes...
       1. This will result in something being done when the workflow completes
 4. Define your trigger conditions. This step will differ depending on which of the two options you chose in step 3.
    1. For When this workflow completes...
-      1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1).png" alt="" data-size="line"> to choose the workflow to trigger.
+      1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM.png" alt="" data-size="line"> to choose the workflow to trigger.
       2. Under **Trigger On Statuses**, specify the conditions for the trigger, such as **succeeded,** **failed**, **timed out**, or **canceled**. You can select multiple statuses from the drop-down list.
    2. For Run this workflow when...
-      1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (1).png" alt="" data-size="line"> to choose the workflow to trigger.
+      1. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM.png" alt="" data-size="line"> to choose the workflow to trigger.
       2. Under **Trigger On Statuses**, specify the conditions for the trigger, such as **succeeded,** **failed**, **timed out**, or **canceled**. You can select multiple statuses from the drop-down list.
-      3. Select your relevant integration or integrations from the drop-down selector.&#x20;
+      3. Select your relevant integration or integrations from the drop-down selector.
       4. Open each selected integration's accordion menu to choose your **Configuration Selection Mode** for that integration.
 5. Make sure **Enabled** is toggled to on.
-6. Click **Submit** to save your settings.&#x20;
+6. Click **Submit** to save your settings.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 2.02.10 PM.png" alt=""><figcaption><p>An example <strong>Add Completion Handler</strong> dialog for the <strong>When this workflow completes...</strong> option</p></figcaption></figure>
 
@@ -87,7 +87,7 @@ Alternatively, re-run from the workflow result page of the workflow that kicks o
 
 ## Workflow wrappers
 
-_Workflow wrapper_ is an informal term used colloquially by Rewst support to describe a situation where a primary workflow is used in a separate workflow as a [subworkflow](./#subworkflows). Whereas a completion handler only runs when a workflow completes, a workflow wrapper can run before or after completion.&#x20;
+_Workflow wrapper_ is an informal term used colloquially by Rewst support to describe a situation where a primary workflow is used in a separate workflow as a [subworkflow](./#subworkflows). Whereas a completion handler only runs when a workflow completes, a workflow wrapper can run before or after completion.
 
 _Workflow wrapper_ is an informal term to describe a parent workflow that "wraps around" a subworkflow. You apply this strategy when you want certain tasks to run before or after the tasks within a subworkflow, and want to visualize the process on one workflow canvas. For example, you might create a workflow wrapper to handle custom input from a Rewst form, prior to a Crate running. The visual below shows this strategy, running a few tasks before the Microsoft User Onboarding subworkflow.
 

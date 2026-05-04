@@ -14,7 +14,7 @@ RoboRewsty is your go-to tool for simplifying the creation of comprehensive docu
 
 ## How does RoboRewsty work?
 
-RoboRewsty integrates with the workflow builder canvas. It takes your workflows' JSON objects, and sends them to a private OpenAI Azure instance. The result is a quickly presented, well structured documentation breakdown of all selected tasks in your workflow.&#x20;
+RoboRewsty integrates with the workflow builder canvas. It takes your workflows' JSON objects, and sends them to a private OpenAI Azure instance. The result is a quickly presented, well structured documentation breakdown of all selected tasks in your workflow.
 
 {% hint style="warning" %}
 RoboRewsty does not replace the existing note feature in the workflow builder. You can either add notes manually, or use RoboRewsty to help you do some of the heavy lifting.
@@ -24,7 +24,7 @@ RoboRewsty does not replace the existing note feature in the workflow builder. Y
 
 ### Via workflow builder
 
-1. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.06 PM (1).png" alt="" data-size="line"> in the top toolbar of the workflow builder to start a note for the entire workflow. To add notes on specific elements, drag around an area on the canvas while holding down **ctrl + left click** , or **right click** and select **Add Note** within the workflow builder.\
+1. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.41.06 PM.png" alt="" data-size="line"> in the top toolbar of the workflow builder to start a note for the entire workflow. To add notes on specific elements, drag around an area on the canvas while holding down **ctrl + left click** , or **right click** and select **Add Note** within the workflow builder.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-09-26 at 12.17.52 PM.png>)<br>
 2. Click **Generate Auto-Documentation** to generate documentation for the entire workflow.\

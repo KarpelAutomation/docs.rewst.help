@@ -1,8 +1,8 @@
 # App Builder: Components
 
-## What are components?&#x20;
+## What are components?
 
-In App Builder, _components_ are the building blocks that enable users to rapidly create and customize their apps. Each component is designed to fulfill a specific function; from basic navigation to data visualization, allowing the construction of robust and user-friendly pages.&#x20;
+In App Builder, _components_ are the building blocks that enable users to rapidly create and customize their apps. Each component is designed to fulfill a specific function; from basic navigation to data visualization, allowing the construction of robust and user-friendly pages.
 
 Components are grouped into logical categories based on their primary functions, making it easier to identify and choose the right ones for a given task. By combining different components, users can craft fully customized pages that align with their brand and business needs.
 
@@ -10,7 +10,7 @@ Each component can be fine-tuned with various settings to meet unique requiremen
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-21 at 6.36.34 PM.png" alt="" width="348"><figcaption><p>The Component Library of the Page Builder Canvas, expanded</p></figcaption></figure>
 
-Click <img src="../../.gitbook/assets/Screenshot 2025-08-21 at 6.37.51 PM.png" alt="" data-size="line"> in the left side menu of your Page Builder Canvas to expose the total **Component Library** submenu.&#x20;
+Click <img src="../../.gitbook/assets/Screenshot 2025-08-21 at 6.37.51 PM.png" alt="" data-size="line"> in the left side menu of your Page Builder Canvas to expose the total **Component Library** submenu.
 
 Add any component to the canvas by clicking on it in the Component Library, dragging it, and dropping it onto the canvas. Then, click on that component on the canvas to open its configuration settings and expand the hidden right side menu.
 
@@ -30,7 +30,7 @@ Click on any of the component types below to expand and see information about it
 
 Manage and organize information efficiently, particularly when users need to navigate through large sets of data or content. By showing one section at a time, it reduces visual clutter and enables a focused user experience.
 
-### What the accordion component could be used for&#x20;
+#### What the accordion component could be used for
 
 * Presenting FAQs, where each question expands into a detailed answer
 * Organizing grouped content, like features or categories, for better readability
@@ -64,7 +64,7 @@ Manage and organize information efficiently, particularly when users need to nav
 
 The button component allows you to integrate clickable buttons that trigger actions within your web applications. These buttons can initiate any number of functions, from submitting forms to redirecting users to other pages or executing custom scripts.
 
-### What the button component could be used for
+#### What the button component could be used for
 
 * Submitting forms and collecting user inputs.
 * Redirecting users to other sections of the application or external resources.
@@ -73,11 +73,11 @@ The button component allows you to integrate clickable buttons that trigger acti
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.18.40 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the button component** <a href="#example-use-case-for-the-button-component" id="example-use-case-for-the-button-component"></a>
+#### **Example use case for the button component** <a href="#example-use-case-for-the-button-component" id="example-use-case-for-the-button-component"></a>
 
 For an MSP’s internal tool that manages client device setups, a Button component labeled "Deploy Software" could be implemented. This button could initiate a rewst workflow install or update software across client systems. By simplifying complex actions into a single button click, MSPs can ensure consistent software deployments, reduce human error, and increase operational efficiency.
 
-### Configure the button component <a href="#configure-the-button-component" id="configure-the-button-component"></a>
+#### Configure the button component <a href="#configure-the-button-component" id="configure-the-button-component"></a>
 
 1. **Select the component**: Click on the added 'Button' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -109,7 +109,7 @@ For an MSP’s internal tool that manages client device setups, a Button compone
 
 The image component allows you to integrate visual content into your web applications. This component is essential for conveying information visually and supporting the textual content within your applications.
 
-### What the image component could be used for <a href="#what-the-image-component-could-be-used-for" id="what-the-image-component-could-be-used-for"></a>
+#### What the image component could be used for <a href="#what-the-image-component-could-be-used-for" id="what-the-image-component-could-be-used-for"></a>
 
 * Showcasing product features or service details.
 * Enhancing blog posts or articles with relevant visuals.
@@ -118,11 +118,11 @@ The image component allows you to integrate visual content into your web applica
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.19.50 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the image component** <a href="#example-use-case-for-the-image-component" id="example-use-case-for-the-image-component"></a>
+#### **Example use case for the image component** <a href="#example-use-case-for-the-image-component" id="example-use-case-for-the-image-component"></a>
 
 An MSP might use the Image component to enhance a tutorial page on their client portal. By incorporating screenshots and diagrams, they can visually guide clients through the steps to set up a VPN or configure email settings on various devices. This not only makes the instructions clearer and more accessible but also reduces the cognitive load on users, potentially decreasing the number of support calls and increasing client satisfaction with the self-service options provided.
 
-### Configure the image component <a href="#configure-the-image-component" id="configure-the-image-component"></a>
+#### Configure the image component <a href="#configure-the-image-component" id="configure-the-image-component"></a>
 
 1. **Select the component**: Click on the added 'Image' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -140,7 +140,7 @@ An MSP might use the Image component to enhance a tutorial page on their client 
 
 The text component allows you to incorporate customizable text blocks into your web applications. This component is essential for adding readable content that informs, guides, or communicates with users, making it a fundamental element for building any web-based interface.
 
-### What the text component could be used for <a href="#what-the-text-component-could-be-used-for" id="what-the-text-component-could-be-used-for"></a>
+#### What the text component could be used for <a href="#what-the-text-component-could-be-used-for" id="what-the-text-component-could-be-used-for"></a>
 
 * Displaying informative content like service descriptions, company information, or user guides.
 * Showing dynamic text content, such as user names, statuses, or other personalized information.
@@ -148,11 +148,11 @@ The text component allows you to incorporate customizable text blocks into your 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.21.23 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the text component** <a href="#example-use-case-for-the-text-component" id="example-use-case-for-the-text-component"></a>
+#### **Example use case for the text component** <a href="#example-use-case-for-the-text-component" id="example-use-case-for-the-text-component"></a>
 
 In a service management application, the Text component could be employed to provide detailed descriptions of each service offered, such as network security monitoring, data backup solutions, or technical support services. Each service page could feature headings, subheadings, and paragraphs that explain what the service includes, its benefits, and how clients can subscribe or inquire for more details.
 
-### Configure the text component <a href="#configure-the-text-component" id="configure-the-text-component"></a>
+#### Configure the text component <a href="#configure-the-text-component" id="configure-the-text-component"></a>
 
 1. **Select the component**: Click on the added 'Text' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -176,7 +176,7 @@ In a service management application, the Text component could be employed to pro
 
 The link component allows you to embed hyperlinks within your apps, enabling users to navigate to different sections with the app or external sites, or even to download resources with just a click.
 
-### What the link component could be used for <a href="#what-the-link-component-could-be-used-for" id="what-the-link-component-could-be-used-for"></a>
+#### What the link component could be used for <a href="#what-the-link-component-could-be-used-for" id="what-the-link-component-could-be-used-for"></a>
 
 * Navigating to different pages within the application.
 * Linking to external websites that provide additional information or resources.
@@ -185,11 +185,11 @@ The link component allows you to embed hyperlinks within your apps, enabling use
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.22.48 AM (1).png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the link component** <a href="#example-use-case-for-the-link-component" id="example-use-case-for-the-link-component"></a>
+#### **Example use case for the link component** <a href="#example-use-case-for-the-link-component" id="example-use-case-for-the-link-component"></a>
 
 Consider an internal company portal where employees need to access various departments. The Link component could be used to create a central dashboard with links to each department. For instance, clicking on a "Human Resources" link might take an employee to an internal HR page where they can find forms and contact information, streamlining navigation and improving the user experience within the portal.
 
-### Configure the link component <a href="#configure-the-link-component" id="configure-the-link-component"></a>
+#### Configure the link component <a href="#configure-the-link-component" id="configure-the-link-component"></a>
 
 1. **Select the component**: Click on the added 'Link' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -227,7 +227,7 @@ Consider an internal company portal where employees need to access various depar
 
 The menu component enables you to create dynamic navigation menus within your web applications. This component is crucial for structuring the navigation of your site, allowing users to easily access various sections and functionalities offered by your application.
 
-### What the menu component could be used for <a href="#what-the-menu-component-could-be-used-for" id="what-the-menu-component-could-be-used-for"></a>
+#### What the menu component could be used for <a href="#what-the-menu-component-could-be-used-for" id="what-the-menu-component-could-be-used-for"></a>
 
 * Organizing site content into accessible categories and sub-categories.
 * Providing quick access to important information like contact details, support sections, and user account areas.
@@ -235,11 +235,11 @@ The menu component enables you to create dynamic navigation menus within your we
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.25.26 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the menu component** <a href="#example-use-case-for-the-menu-component" id="example-use-case-for-the-menu-component"></a>
+#### **Example use case for the menu component** <a href="#example-use-case-for-the-menu-component" id="example-use-case-for-the-menu-component"></a>
 
 Consider an MSP that manages a complex array of IT services, including cloud storage solutions, network security, and technical support. The Menu component can be used to structure these services into a well-organized menu in the sidebar of the application. For instance, each major service category could be a menu item, with drop-downs for subcategories like FAQs, pricing, setup guides, and case studies. This organization allows clients to quickly navigate through the services, find the information they need without hassle, and understand the full range of what the MSP offers, thereby improving the user experience and engagement with the platform.
 
-### Configure the menu component <a href="#configure-the-menu-component" id="configure-the-menu-component"></a>
+#### Configure the menu component <a href="#configure-the-menu-component" id="configure-the-menu-component"></a>
 
 1. **Select the component**: Click on the added 'Menu' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -260,7 +260,7 @@ Consider an MSP that manages a complex array of IT services, including cloud sto
 
 The container component allows you to group and organize various UI elements within a structured and styled section. This component is essential for creating visually coherent and logically organized layouts in your web applications.
 
-### What the container component could be used for
+#### What the container component could be used for
 
 * Structuring a page into logical sections to improve visual hierarchy.
 * Creating a consistent layout that adapts to different screen sizes, enhancing responsiveness.
@@ -269,16 +269,16 @@ The container component allows you to group and organize various UI elements wit
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.26.41 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the container component** <a href="#example-use-case-for-the-container-component" id="example-use-case-for-the-container-component"></a>
+#### **Example use case for the container component** <a href="#example-use-case-for-the-container-component" id="example-use-case-for-the-container-component"></a>
 
 Imagine setting up a user profile page within an application on the App Builder. The Container component can be strategically utilized to separate information into distinct blocks, such as personal details, contact information, and account settings. Each container ensures that the elements within it, like text fields, images, and buttons, are well-organized and visually distinct from other sections. This not only improves the aesthetics but also enhances the usability of the profile page, making it easier for users to navigate and update their information efficiently.
 
-### Container versus grid container <a href="#container-versus-grid-container" id="container-versus-grid-container"></a>
+#### Container versus grid container <a href="#container-versus-grid-container" id="container-versus-grid-container"></a>
 
 * **Container Component**: The Container component is a versatile element for structuring content and styling containers. It allows for flexible arrangements but does not enforce a grid structure.
-* **Grid Container Component**: The Grid Container component, on the other hand, is specifically designed to create layouts with a grid structure. It simplifies the process of aligning and organizing content in a grid format.&#x20;
+* **Grid Container Component**: The Grid Container component, on the other hand, is specifically designed to create layouts with a grid structure. It simplifies the process of aligning and organizing content in a grid format.
 
-### Configure the container component <a href="#configure-the-container-component" id="configure-the-container-component"></a>
+#### Configure the container component <a href="#configure-the-container-component" id="configure-the-container-component"></a>
 
 1. **Select the component**: Click on the added 'Container' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -309,7 +309,7 @@ Imagine setting up a user profile page within an application on the App Builder.
 
 The grid container component allows you to create organized layouts with a grid structure. This documentation provides instructions on adding a grid container to your canvas and customizing its properties.
 
-### What the grid container component could be used for
+#### What the grid container component could be used for
 
 * Creating complex page layouts with multiple sections and alignment.
 * Ensuring content is responsive and adapts to various screen sizes and orientations.
@@ -318,21 +318,21 @@ The grid container component allows you to create organized layouts with a grid 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.27.46 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the grid container component** <a href="#example-use-case-for-the-grid-container-component" id="example-use-case-for-the-grid-container-component"></a>
+#### **Example use case for the grid container component** <a href="#example-use-case-for-the-grid-container-component" id="example-use-case-for-the-grid-container-component"></a>
 
 Imagine a real estate website where property listings need to be displayed in an organized manner. The Grid Container can be used to create a uniform grid layout where each property's image, description, and key details are presented in individual grid cells. This setup allows users to easily compare listings and navigate through options without overwhelming visual clutter, enhancing user experience and engagement.
 
-### Grid container versus container <a href="#grid-container-versus-container" id="grid-container-versus-container"></a>
+#### Grid container versus container <a href="#grid-container-versus-container" id="grid-container-versus-container"></a>
 
 * **Grid Container Component**: The Grid Container component is specifically designed to create layouts with a grid structure. It simplifies the process of aligning and organizing content in a grid format.
-* **Container Component**: The Container component, on the other hand, is a versatile element for structuring content and styling containers. It allows for flexible arrangements but does not enforce a grid structure.&#x20;
+* **Container Component**: The Container component, on the other hand, is a versatile element for structuring content and styling containers. It allows for flexible arrangements but does not enforce a grid structure.
 
-### Grid container versus grid item <a href="#grid-container-versus-grid-item" id="grid-container-versus-grid-item"></a>
+#### Grid container versus grid item <a href="#grid-container-versus-grid-item" id="grid-container-versus-grid-item"></a>
 
 * **Grid Container Component**: The Grid Container acts as the foundational element of a grid layout. It defines the overall grid structure within which Grid Items are placed. It sets the framework for how the grid behaves and how items within it are aligned and distributed.
 * **Grid Item Component**: The Grid Item component is used within a Grid Container to place individual elements like text, images, buttons, etc. It represents the content blocks that fill the grid defined by the Grid Container.
 
-### Configure the grid container component <a href="#configure-the-grid-container-component" id="configure-the-grid-container-component"></a>
+#### Configure the grid container component <a href="#configure-the-grid-container-component" id="configure-the-grid-container-component"></a>
 
 1. **Select the component**: Click on the added 'Grid Container' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -347,7 +347,7 @@ Imagine a real estate website where property listings need to be displayed in an
 
 The grid item component is used in conjunction with the grid container to structure and align content within a grid layout. This component allows for precise placement and organization of elements like text, images, buttons, and more within individual grid cells, enabling a clean and responsive design for your web applications.
 
-### What the grid item component could be used for
+#### What the grid item component could be used for
 
 * Organizing content into columns and rows for better visual hierarchy and readability.
 * Creating responsive designs that automatically adjust layout elements based on screen size.
@@ -356,16 +356,16 @@ The grid item component is used in conjunction with the grid container to struct
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.28.39 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the grid item component** <a href="#example-use-case-for-the-grid-item-component" id="example-use-case-for-the-grid-item-component"></a>
+#### **Example use case for the grid item component** <a href="#example-use-case-for-the-grid-item-component" id="example-use-case-for-the-grid-item-component"></a>
 
 In a client reporting dashboard managed by an MSP, the Grid Item component could be used to organize various performance metrics into a structured layout. Each metric, such as network uptime, system load, and incident response times, could be displayed in individual grid items that are part of a larger grid container. This arrangement not only makes the dashboard more navigable and easier to read but also allows each metric to be resized and reordered effortlessly as per the client’s preference or device being used. This structured approach ensures that critical data is presented in a clear, coherent manner, enhancing the usability of the dashboard.
 
-### Grid item versus grid container <a href="#grid-item-versus-grid-container" id="grid-item-versus-grid-container"></a>
+#### Grid item versus grid container <a href="#grid-item-versus-grid-container" id="grid-item-versus-grid-container"></a>
 
 * **Grid Item Component**: The Grid Item component is used within a Grid Container to place individual elements like text, images, buttons, etc. It represents the content blocks that fill the grid defined by the Grid Container.
 * **Grid Container Component**: The Grid Container acts as the foundational element of a grid layout. It defines the overall grid structure within which Grid Items are placed. It sets the framework for how the grid behaves and how items within it are aligned and distributed.
 
-### Configure the grid item component <a href="#configure-the-grid-item-component" id="configure-the-grid-item-component"></a>
+#### Configure the grid item component <a href="#configure-the-grid-item-component" id="configure-the-grid-item-component"></a>
 
 1. **Select the component**: Click on the added 'Grid Item' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -380,7 +380,7 @@ In a client reporting dashboard managed by an MSP, the Grid Item component could
 
 The HTML container component allows you to embed custom HTML code directly into your web applications. This component is essential for incorporating bespoke elements, custom scripts, or third-party integrations that enhance the functionality and uniqueness of your applications.
 
-### What the HTML container component could be used for <a href="#what-the-html-container-component-could-be-used-for" id="what-the-html-container-component-could-be-used-for"></a>
+#### What the HTML container component could be used for <a href="#what-the-html-container-component-could-be-used-for" id="what-the-html-container-component-could-be-used-for"></a>
 
 * Embedding custom HTML or interactive elements that are not natively supported by the platform.
 * Integrating third-party widgets, such as live chat support, ticket information, or weather updates.
@@ -389,11 +389,11 @@ The HTML container component allows you to embed custom HTML code directly into 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.30.00 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the HTML container component** <a href="#example-use-case-for-the-html-container-component" id="example-use-case-for-the-html-container-component"></a>
+#### **Example use case for the HTML container component** <a href="#example-use-case-for-the-html-container-component" id="example-use-case-for-the-html-container-component"></a>
 
 An MSP could use the HTML Container component to enhance the support section of their client portal by embedding a real-time support ticket status widget. This widget, crafted with custom HTML and JavaScript, could connect directly to your ticketing system to display the current status of a client's support tickets, including open issues, pending actions, and resolved cases.
 
-### Configure the HTML container component <a href="#configure-the-html-container-component" id="configure-the-html-container-component"></a>
+#### Configure the HTML container component <a href="#configure-the-html-container-component" id="configure-the-html-container-component"></a>
 
 1. **Select the component**: Click on the added 'HTML Container' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -409,7 +409,7 @@ An MSP could use the HTML Container component to enhance the support section of 
 
 The row component allows you to organize and align content horizontally within a container. This structural component is essential for creating clean, orderly layouts that enhance both the aesthetics and the functionality of your web applications.
 
-### What the row component could be used for <a href="#what-the-row-component-could-be-used-for" id="what-the-row-component-could-be-used-for"></a>
+#### What the row component could be used for <a href="#what-the-row-component-could-be-used-for" id="what-the-row-component-could-be-used-for"></a>
 
 * Structuring content into horizontal blocks within a webpage.
 * Aligning multiple elements, such as buttons, images, or text, within a single horizontal line.
@@ -418,11 +418,11 @@ The row component allows you to organize and align content horizontally within a
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.30.51 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the row component** <a href="#example-use-case-for-the-row-component" id="example-use-case-for-the-row-component"></a>
+#### **Example use case for the row component** <a href="#example-use-case-for-the-row-component" id="example-use-case-for-the-row-component"></a>
 
 You could use the Row component on a service overview page to align icons or buttons that link to different IT services you offer, such as cybersecurity, cloud infrastructure, and network management. Each service could be represented by an icon and a short description in a separate row element, ensuring that the page is easy to scan and that users can quickly find the service they need. This usage not only makes the page visually attractive but also enhances user navigation and improves overall site organization.
 
-### Configure the row component <a href="#configure-the-row-component" id="configure-the-row-component"></a>
+#### Configure the row component <a href="#configure-the-row-component" id="configure-the-row-component"></a>
 
 1. **Select the component**: Click on the added 'Row' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -442,7 +442,7 @@ You could use the Row component on a service overview page to align icons or but
 
 The header component allows you to design and implement top-level navigation and branding elements for your web applications. This component is crucial for creating a consistent and professional look across your platform, providing users with accessible navigation and clear identification of your brand.
 
-## What the header component could be used for
+### What the header component could be used for
 
 * Displaying a company logo and tagline.
 * Housing primary navigation links to different sections of the application.
@@ -451,11 +451,11 @@ The header component allows you to design and implement top-level navigation and
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.31.47 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the header component** <a href="#example-use-case-for-the-header-component" id="example-use-case-for-the-header-component"></a>
+#### **Example use case for the header component** <a href="#example-use-case-for-the-header-component" id="example-use-case-for-the-header-component"></a>
 
 Consider an MSP that provides a variety of IT services and uses the App Platform to manage client interactions. The Header component can be utilized to prominently display your logo for brand recognition and include navigation links to services, support, account management, and contact pages. This setup ensures that clients can easily navigate the platform, find the information they need quickly, and have constant access to assistance, enhancing overall user satisfaction and engagement with the platform.
 
-### Configure the header component <a href="#configure-the-header-component" id="configure-the-header-component"></a>
+#### Configure the header component <a href="#configure-the-header-component" id="configure-the-header-component"></a>
 
 1. **Select the component**: Click on the added 'Header' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -483,7 +483,7 @@ Consider an MSP that provides a variety of IT services and uses the App Platform
 
 The sidebar component allows you to create a vertical navigation menu or information panel that sits alongside the main content of your web applications. This component provides users with easy access to additional functionalities, navigation links, or supplementary information, without cluttering the main view.
 
-### What the sidebar component could be used for <a href="#what-the-sidebar-component-could-be-used-for" id="what-the-sidebar-component-could-be-used-for"></a>
+#### What the sidebar component could be used for <a href="#what-the-sidebar-component-could-be-used-for" id="what-the-sidebar-component-could-be-used-for"></a>
 
 * Housing primary navigation links that remain accessible regardless of the main content being viewed.
 * Displaying user profile information, quick settings, or status indicators.
@@ -492,11 +492,11 @@ The sidebar component allows you to create a vertical navigation menu or informa
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.33.19 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case** <a href="#example-use-case" id="example-use-case"></a>
+#### **Example use case** <a href="#example-use-case" id="example-use-case"></a>
 
 You could use the Sidebar component in a client management system to consistently provide users with access to various sections such as Dashboard, Reports, Settings, Support, and Account Information. For instance, when a user navigates to view detailed reports, the sidebar remains visible, offering the ability to quickly jump to other sections or perform actions like updating account settings or returning to the dashboard. This consistent access improves user experience by making navigation straightforward and reducing the number of steps needed to switch between different parts of the application.
 
-### Configure the sidebar component <a href="#configure-the-sidebar-component" id="configure-the-sidebar-component"></a>
+#### Configure the sidebar component <a href="#configure-the-sidebar-component" id="configure-the-sidebar-component"></a>
 
 1. **Select the component**: Click on the added 'Sidebar' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -516,7 +516,7 @@ You could use the Sidebar component in a client management system to consistentl
 
 The chart component allows you to group and organize various UI elements within a structured and styled section. This component is essential for creating visually coherent and logically organized layouts in your web applications.
 
-### What the chart component could be used for
+#### What the chart component could be used for
 
 * Displaying sales trends and revenue growth over time.
 * Comparing the performance metrics of different products or services.
@@ -525,11 +525,11 @@ The chart component allows you to group and organize various UI elements within 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.34.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the chart component** <a href="#example-use-case-for-the-chart-component" id="example-use-case-for-the-chart-component"></a>
+#### **Example use case for the chart component** <a href="#example-use-case-for-the-chart-component" id="example-use-case-for-the-chart-component"></a>
 
 An MSP might use the Chart component to visualize client network usage, system performance or support\ticket metrics over time. For instance, line charts could display changes in bandwidth usage or storage capacity across multiple client sites, helping you identify trends, anticipate needs, and allocate resources more effectively. This visualization aids in proactive management and enhances the strategic advising role of the MSP with their clients.
 
-### Configure the chart component <a href="#configure-the-chart-component" id="configure-the-chart-component"></a>
+#### Configure the chart component <a href="#configure-the-chart-component" id="configure-the-chart-component"></a>
 
 1. **Select the component**: Click on the added 'Chart' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -564,7 +564,7 @@ An MSP might use the Chart component to visualize client network usage, system p
 
 The data table component allows you to display and manage rows of data in a structured, tabular format. This component is essential for MSPs to handle large datasets efficiently, such as client information, service logs, or performance metrics, providing a clear and interactive view of data.
 
-### What the data table component could be used for
+#### What the data table component could be used for
 
 * Displaying detailed lists of customer tickets and their statuses.
 * Managing inventory levels across multiple client sites.
@@ -573,11 +573,11 @@ The data table component allows you to display and manage rows of data in a stru
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.35.18 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the data table component** <a href="#example-use-case-for-the-data-table-component" id="example-use-case-for-the-data-table-component"></a>
+#### **Example use case for the data table component** <a href="#example-use-case-for-the-data-table-component" id="example-use-case-for-the-data-table-component"></a>
 
 Consider a scenario where an MSP needs to monitor and manage network equipment across various client sites. The Data Table component can be used to list all equipment, displaying columns for device type, status, last service date, and location. Technicians can quickly sort by any column to prioritize devices that require immediate attention or filter to view only certain types of equipment. This use of the Data Table simplifies the management of numerous devices, ensuring that maintenance is timely and no critical issues are overlooked.
 
-### Configure the data table component <a href="#configure-the-data-table-component" id="configure-the-data-table-component"></a>
+#### Configure the data table component <a href="#configure-the-data-table-component" id="configure-the-data-table-component"></a>
 
 1. **Select the component**: Click on the added 'Data Table' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -616,7 +616,7 @@ Consider a scenario where an MSP needs to monitor and manage network equipment a
        * **Edit Table Configuration**: An array of component specific toggle's to modify the overall look and feel of the data table component.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-### Detailed example: Add data table component to page <a href="#detailed-example-add-data-table-component-to-page" id="detailed-example-add-data-table-component-to-page"></a>
+#### Detailed example: Add data table component to page <a href="#detailed-example-add-data-table-component-to-page" id="detailed-example-add-data-table-component-to-page"></a>
 
 1. Navigate to **App Builder > Apps**. Click on your **Hello World** app.
 2. Click ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FCZo6ldGnH6mI54IKvYHU%252FScreenshot%25202025-03-14%2520at%252010.07.35%25E2%2580%25AFAM.png%3Falt%3Dmedia%26token%3D604f834d-4e7b-4ae9-8e89-7f68afc1c8f9\&width=300\&dpr=4\&quality=100\&sign=4f42465e\&sv=2)in the left side menu of the App Builder canvas. This will open the full component library.
@@ -624,10 +624,10 @@ Consider a scenario where an MSP needs to monitor and manage network equipment a
 4. Click **No Records Found. Add a Data Source**.
 5. Choose **Run Workflow on Load**.
    1. Whenever the page is loaded, the latest data will pull into it.
-   2.  Alternatively, **Use Latest Workflow** could be used if you were returning data on a cron and didn't want to load it each time.&#x20;
+   2.  Alternatively, **Use Latest Workflow** could be used if you were returning data on a cron and didn't want to load it each time.
 
        <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FmVmXQ4VZuUJ9HXLvrbXU%252Fdata%2520test%25201-min.png%3Falt%3Dmedia%26token%3Dcd1d8f2c-2ed0-4912-a408-6ed28ae1c05f&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e7226764&#x26;sv=2" alt=""><figcaption></figcaption></figure>
-6.  Choose **form\_output** in the **Workflow Output** drop-down selector. Once the workflow has finished, you'll see that option in the available list.&#x20;
+6.  Choose **form\_output** in the **Workflow Output** drop-down selector. Once the workflow has finished, you'll see that option in the available list.
 
     <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FeUVPJGuGdqK4ED04AGk9%252Fdata%2520test%25202-min.png%3Falt%3Dmedia%26token%3D534e804a-3afd-4889-9f6f-fd7a7b4b2d35&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=ec4d3dac&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 7. Click **Submit**.
@@ -645,8 +645,6 @@ Now let's make sure the user can actually get to the form, rather than just view
 
 11\. In the Accessor dropdown, select the **view** key. By leaving the URL blank later on, the action button will automatically use the value from this key. In the Jinja from the last step, we made sure the value was the link to that form.
 
-
-
 12\. Change the Type
 
 Change the Type to **action.**
@@ -654,8 +652,6 @@ Change the Type to **action.**
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2F0090aae6-a97f-4852-ad90-894040ec6c25%2F2.2922731242124%2F50.012881778879%2F77.418572277013%3F0\&width=768\&dpr=4\&quality=100\&sign=e31ebe81\&sv=2)
 
 13\. Change the column name. Add a header, which is the column name for this action button.
-
-
 
 <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2F60004a87-993c-4eb8-8c8b-8ef38c0ee908%2F2.2921757115931%2F50.000996727961%2F57.1015980728%3F0&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1b7e348c&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -677,11 +673,9 @@ Change the Type to **action.**
 
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2Fc2fb15ed-2320-42d1-a08a-2c2eb4421de4%2F2.5%2F53.71904729945%2F1.1118548791515%3F0\&width=768\&dpr=4\&quality=100\&sign=feefbf6c\&sv=2)
 
+#### Data table component settings
 
-
-### Data table component settings
-
-#### Data source settings
+**Data source settings**
 
 Configure how your data table loads and displays data from workflows:
 
@@ -695,11 +689,11 @@ Configure how your data table loads and displays data from workflows:
 | Watch Node IDs     | Form components that trigger automatic table refresh when submitted | Array of component IDs                                                                                                                                                                   |
 |                    |                                                                     |                                                                                                                                                                                          |
 
-### Column configuration
+#### Column configuration
 
 Each column supports extensive customization through both basic properties and advanced features inherited from Material React Table.
 
-#### Basic column properties
+**Basic column properties**
 
 | Setting      | Description                                                                        | Type                                           |
 | ------------ | ---------------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -711,7 +705,7 @@ Each column supports extensive customization through both basic properties and a
 | Min Size     | Minimum width when resizing                                                        | Number (default: 40px)                         |
 | Max Size     | Maximum width when resizing                                                        | Number (default: 1000px)                       |
 
-#### Column behavior settings
+**Column behavior settings**
 
 | Setting                | Description                                                           | Default |
 | ---------------------- | --------------------------------------------------------------------- | ------- |
@@ -722,7 +716,7 @@ Each column supports extensive customization through both basic properties and a
 | Enable Sorting         | Allow users to sort table by this column (shift+click for multi-sort) | True    |
 | Enable Column Actions  | Show column menu with options to hide, pin, group, or filter          | True    |
 
-#### Column format and display
+**Column format and display**
 
 | Setting             | Description                         | Options                           |
 | ------------------- | ----------------------------------- | --------------------------------- |
@@ -731,7 +725,7 @@ Each column supports extensive customization through both basic properties and a
 | Edit Variant        | Input type when editing             | text (default), select            |
 | Edit Select Options | Options for select dropdown editors | Array of { label, value } objects |
 
-#### Aggregation and grouping
+**Aggregation and grouping**
 
 When rows are grouped, columns can display aggregated values:
 
@@ -742,7 +736,7 @@ When rows are grouped, columns can display aggregated values:
 
 Custom Aggregation Cells: You can write custom React components to render aggregated values using the Custom Aggregated Cell code editor.
 
-#### Action columns
+**Action columns**
 
 Action columns display buttons that trigger workflows, open links, run scripts, or show dialogs:
 
@@ -761,7 +755,7 @@ Action columns display buttons that trigger workflows, open links, run scripts, 
 | Reload Table             | Refresh table data after action completes        | Boolean (default: false)                                                                                                      |
 | Use Hidden Column Data   | Include hidden column data when executing action | Boolean (default: false)                                                                                                      |
 
-#### Conditional formatting
+**Conditional formatting**
 
 Apply dynamic styling or behavior based on cell/row values:
 
@@ -777,7 +771,7 @@ Example Use Cases:
 * Show "Active" status in green, "Inactive" in gray
 * Apply warning colors based on numeric thresholds
 
-#### Custom cell rendering
+**Custom cell rendering**
 
 For maximum flexibility, write custom React/TypeScript components using the built-in code editor:
 
@@ -794,11 +788,11 @@ Features:
 * RoboRewsty AI assistant for code generation
 * Live preview of rendered component
 
-### Table configuration settings
+#### Table configuration settings
 
 These settings control the overall behavior and appearance of your data table, organized by feature area.
 
-#### Layout and display
+**Layout and display**
 
 | Setting                   | Description                                   | Options                                                                                                          | Default |
 | ------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------- |
@@ -806,7 +800,7 @@ These settings control the overall behavior and appearance of your data table, o
 | Enable Sticky Header      | Keep header visible when scrolling vertically | Boolean                                                                                                          | True    |
 | Enable Full Screen Toggle | Show button to expand table to full screen    | Boolean                                                                                                          | True    |
 
-#### Pagination
+**Pagination**
 
 Control how data is paginated and displayed across multiple pages:
 
@@ -819,7 +813,7 @@ Control how data is paginated and displayed across multiple pages:
 
 Note: Pagination is client-side by default. All data is loaded at once and paginated in the browser for optimal performance with datasets up to a few thousand rows.
 
-#### Row expansion and detail panels
+**Row expansion and detail panels**
 
 Configure how rows expand to show additional information:
 
@@ -834,7 +828,7 @@ Two types of expansion:
 1. Sub-Rows -hierarchical data: For nested data structures where each row can contain child rows of the same type. Example: Organization → Departments → Teams
 2. Detail panels - supplementary info: For showing additional information about a single row. Example: User row expands to show activity history, preferences, etc.
 
-### Editing
+#### Editing
 
 Enable inline or modal editing of table data:
 
@@ -847,7 +841,7 @@ Enable inline or modal editing of table data:
 Important: Enabling editing only updates the table UI. You must configure action columns or workflows to persist changes to your data source.
 {% endhint %}
 
-### Column features
+#### Column features
 
 Control user interactions with columns:
 
@@ -860,7 +854,7 @@ Control user interactions with columns:
 
 Column Pinning Best Practice: Use layoutMode: 'grid-no-grow' for fixed column widths when pinning to prevent columns from collapsing during horizontal scrolling.
 
-#### Grouping and aggregation
+**Grouping and aggregation**
 
 Group rows by column values and display aggregated summaries:
 
@@ -877,7 +871,7 @@ How grouping works:
 4. Aggregation functions calculate summaries for each group
 5. Multi-level grouping supported (group by Status, then by Priority)
 
-### Toolbar customization
+#### Toolbar customization
 
 Configure the top and bottom toolbars:
 
@@ -895,7 +889,7 @@ Built-in toolbar actions include:
 * Toggle fullscreen
 * Export data
 
-### State management
+#### State management
 
 The data table maintains state for various user interactions. These are typically managed automatically but can be controlled programmatically:
 
@@ -911,15 +905,15 @@ The data table maintains state for various user interactions. These are typicall
 | Expanded                | Object mapping row IDs to expansion state                    |
 | Workflow Output Columns | Auto-generated column definitions from workflow schema       |
 
-### Advanced features
+#### Advanced features
 
-### Automatic table refresh
+#### Automatic table refresh
 
 Configure the table to automatically refresh when specific events occur.
 
 Example: After a user submits a "Create User" form, automatically refresh the users table to show the new entry.
 
-### AI-powered custom components
+#### AI-powered custom components
 
 The RoboRewsty AI assistant helps you write custom cell rendering code:
 
@@ -936,19 +930,19 @@ Use cases:
 * Render images or avatars from URLs
 * Create complex layouts combining multiple fields
 
-### Schema-based column generation
+#### Schema-based column generation
 
-#### Multi-column sorting
+**Multi-column sorting**
 
 Hold Shift while clicking column headers to sort by multiple columns simultaneously. The sort order indicator shows the sequence.
 
 Example: Sort by Status (ascending), then by Priority (descending), then by Due Date (ascending).
 
-#### Click to copy
+**Click to copy**
 
 Enable on columns containing data users frequently need to copy (IDs, emails, URLs). A copy button appears on hover, providing one-click clipboard access.
 
-#### Column actions menu
+**Column actions menu**
 
 Each column header can display a menu (three dots icon) with options to:
 
@@ -965,7 +959,7 @@ Each column header can display a menu (three dots icon) with options to:
 {% hint style="info" %}
 All components in this section of the component library require you to drag a button component to your canvas before adding. Think of the button as the trigger that will kick off the workflow once clicked. Adding any of the automation components with a button is the App Builder way of creating an ad-hoc form.
 
-Whenever you add a button to a page, you'll need to choose the workflow that will execute when you click that button by selecting it from the drop-down in the right side button configuration menu. Then, go to any of the input fields for your automation component. At the bottom you'll find workflow input settings with a drop-down list of inputs you can select. That particular component will be passing the selected info into the workflow. <br>
+Whenever you add a button to a page, you'll need to choose the workflow that will execute when you click that button by selecting it from the drop-down in the right side button configuration menu. Then, go to any of the input fields for your automation component. At the bottom you'll find workflow input settings with a drop-down list of inputs you can select. That particular component will be passing the selected info into the workflow.<br>
 {% endhint %}
 
 <details>
@@ -974,7 +968,7 @@ Whenever you add a button to a page, you'll need to choose the workflow that wil
 
 The form component allows you to present rewst forms for data entry, ensuring that data is collected efficiently from users, clients, or internal staff.
 
-### What the form component could be used for
+#### What the form component could be used for
 
 * Collecting service requests from clients.
 * Onboarding new customers or employees.
@@ -983,11 +977,11 @@ The form component allows you to present rewst forms for data entry, ensuring th
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.36.05 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for the form component** <a href="#example-use-case-for-the-form-component" id="example-use-case-for-the-form-component"></a>
+#### **Example use case for the form component** <a href="#example-use-case-for-the-form-component" id="example-use-case-for-the-form-component"></a>
 
 Imagine an MSP that needs to onboard new clients and gather detailed information about their IT infrastructure. The Form component can be used to present an existing rewst form that clients fill out online. This form might include fields for company details, types of services required, existing hardware and software inventory, and preferred contact methods. Once submitted, the form data is automatically integrated into a rewst workflow that consumes that data, facilitating a smooth and organized onboarding process that enhances client experience and administrative efficiency.
 
-### Configure the form component <a href="#configure-the-form-component" id="configure-the-form-component"></a>
+#### Configure the form component <a href="#configure-the-form-component" id="configure-the-form-component"></a>
 
 1. **Select the component**: Click on the added **Form** component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -1009,7 +1003,7 @@ Imagine an MSP that needs to onboard new clients and gather detailed information
 
 The text field component allows you to integrate interactive forms or fields that capture user inputs essential for triggering and controlling workflows within your web applications.
 
-### What text field could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
+#### What text field could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
 
 * Gathering parameters before executing a workflow, such as user preferences or specific requirements.
 * Allowing users to initiate workflows that require real-time data, such as support ticket submissions or service requests.
@@ -1018,16 +1012,16 @@ The text field component allows you to integrate interactive forms or fields tha
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 11.30.09 AM.png" alt=""><figcaption></figcaption></figure>
 
-### **Example use case for text field** <a href="#example-use-case-for-workflow-input" id="example-use-case-for-workflow-input"></a>
+#### **Example use case for text field** <a href="#example-use-case-for-workflow-input" id="example-use-case-for-workflow-input"></a>
 
 In an MSP’s client management system, the text field component might be used on a service configuration page where clients can enter their preferences for data backup services—choices like backup frequency, data cap, and specific folders to include. These inputs could then directly trigger a personalized backup workflow, ensuring that the service aligns perfectly with the client's specified needs. This approach not only automates the process based on real-time inputs but also enhances user satisfaction by providing customized service delivery.
 
-### Add text field to your page <a href="#add-workflow-input-to-your-page" id="add-workflow-input-to-your-page"></a>
+#### Add text field to your page <a href="#add-workflow-input-to-your-page" id="add-workflow-input-to-your-page"></a>
 
 1. **Access the Canvas**: Open the page you're working on in edit mode, in App Builder.
 2. **Drag-and-Drop**: Locate the 'Text Field' component in the component library, then drag and drop it onto the canvas.
 
-### Configure the workflow input component <a href="#configure-the-workflow-input-component" id="configure-the-workflow-input-component"></a>
+#### Configure the workflow input component <a href="#configure-the-workflow-input-component" id="configure-the-workflow-input-component"></a>
 
 1. **Select the component**: Click on the added component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -1048,14 +1042,12 @@ In an MSP’s client management system, the text field component might be used o
 
 The dropdown component allows you to integrate a drop-down selector, triggered by a button, that's similar to what exists in Rewst's regular form builder.
 
-### What dropdown could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
+#### What dropdown could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
 
 * Add options
 * Link it to a workflow to get an options generator's information
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.25.41 PM.png" alt=""><figcaption></figcaption></figure>
-
-
 
 </details>
 
@@ -1065,17 +1057,13 @@ The dropdown component allows you to integrate a drop-down selector, triggered b
 
 The number input component allows you to integrate interactive forms or fields that capture number inputs essential for triggering and controlling workflows within your web applications.
 
-### What text field could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
+#### What text field could be used for <a href="#what-workflow-input-could-be-used-for" id="what-workflow-input-could-be-used-for"></a>
 
 * Gathering parameters before executing a workflow, such as specific user requirements.
 * Allowing users to initiate workflows that require real-time data, such as support ticket submissions or service requests.
 * Facilitating user interactions that trigger complex sequences of tasks, enhancing dynamic response capabilities.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.26.38 PM.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
 
 </details>
 
@@ -1091,7 +1079,7 @@ The switch component offers an easy on-off toggle for your page. The toggle oper
 
 ## Custom components
 
-App Builder's custom components function as a way for you to save your own component grouping, configured in a container, to your component library for future use.&#x20;
+App Builder's custom components function as a way for you to save your own component grouping, configured in a container, to your component library for future use.
 
 {% hint style="info" %}
 Custom components can't be deleted from your component library once created. They can be renamed.
@@ -1105,20 +1093,18 @@ Once a custom component has been added, it will show up for you and all Rewst us
 2. Click <img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.48.10 AM.png" alt="" data-size="line"> to the right of **Container** to open the **Custom Component** dialog.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-09-03 at 11.47.13 AM.png>)
-3.  Enter text into the **Component Name** and **Description** fields. Note that you can rename custom component as needed, but should give them clear names that explain their intended usage. <br>
+3.  Enter text into the **Component Name** and **Description** fields. Note that you can rename custom component as needed, but should give them clear names that explain their intended usage.<br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.47.20 AM.png" alt=""><figcaption></figcaption></figure>
 4. Click **Submit**.
 5. Your custom component will now be viewable in the separate <img src="../../.gitbook/assets/Screenshot 2025-09-03 at 11.55.44 AM.png" alt="" data-size="line"> tab of the component library.\
    ![](<../../.gitbook/assets/Screenshot 2025-09-03 at 11.55.26 AM.png>)
 
-
-
 ### Edit custom components
 
 1. Locate your custom component in the **Custom Components** tab of your component library.
 2. Click **⋮**. This will open the **Edit Custom Component** dialog.
-3. &#x20;Note that you can change settings to your component, but not add or remove components from your original container grouping. For significant changes, you'll want to make a brand new custom component and save it to your library.
+3. Note that you can change settings to your component, but not add or remove components from your original container grouping. For significant changes, you'll want to make a brand new custom component and save it to your library.
 4. Click **Submit** when changes are complete.<br>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-03 at 12.09.04 PM.png" alt=""><figcaption></figcaption></figure>
@@ -1326,5 +1312,5 @@ Here are some common use cases for icons.
 | **Fallback**       | If an icon cannot be found, the system displays a `HelpOutline` icon as a fallback |
 
 {% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
+If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).
 {% endhint %}

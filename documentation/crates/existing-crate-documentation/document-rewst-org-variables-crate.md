@@ -39,12 +39,12 @@ The [ITGlue integration ](../../integrations/integration-guides/it-glue-integrat
    1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
    2. Search for `[ROC] ITG: Store Org Vars ITG`.
    3. Click on the workflow to view it in the workflow builder.
-   4. Click <img src="../../../.gitbook/assets/image (201).png" alt="" data-size="line"> to open the edit trigger menu.
+   4. Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
    5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.\
       ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 12.24.40 PM.png>)
    6. Click **Submit**.
 2. To test the Crate after unpacking:
-   1. Adjust the timing of the cron job to five minutes in the future.&#x20;
+   1. Adjust the timing of the cron job to five minutes in the future.
    2. Click **Submit**.
    3. Check in ITGlue to see if the flexible asset is created.
    4. Return to Rewst and re-adjust the cron job timing as desired.

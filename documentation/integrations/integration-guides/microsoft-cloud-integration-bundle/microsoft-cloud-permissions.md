@@ -24,17 +24,17 @@ This permission is necessary to pull the list of customers from your CSP tenant 
 
 <summary>Microsoft Exchange Online permissions</summary>
 
-### Exchange.Manage
+#### Exchange.Manage
 
 * **Actions**:
   * microsoft\_exo.invoke\_command
 
-### Exchange.ManageAsApp
+#### Exchange.ManageAsApp
 
 * **Actions**:
   * microsoft\_exo.invoke\_command
 
-### full\_access\_as\_app
+#### full\_access\_as\_app
 
 * **Actions**:
   * microsoft\_exo.invoke\_command
@@ -45,14 +45,14 @@ This permission is necessary to pull the list of customers from your CSP tenant 
 
 <summary>Microsoft Azure permissions</summary>
 
-## Key Vault user impersonation
+### Key Vault user impersonation
 
 * **Actions**:
   * microsoft\_azure.list\_keys\_in\_vault
   * microsoft\_azure.create\_key\_in\_vault
   * microsoft\_azure.delete\_key\_in\_vault
 
-### Service Management user impersonation
+#### Service Management user impersonation
 
 * **Actions**:
   * microsoft\_azure.generic\_request
@@ -86,7 +86,7 @@ This permission is necessary to pull the list of customers from your CSP tenant 
   * microsoft\_azure.list\_subscriptions
   * microsoft\_azure.list\_resource\_groups
 
-### Storage user impersonation
+#### Storage user impersonation
 
 * **Actions**:
   * microsoft\_azure.generic\_request
@@ -124,7 +124,7 @@ Microsoft Graph has the largest amount of required permissions out of all Micros
   * /identityGovernance/accessReviews/definitions/{definitionId}/instances/{instanceId}/contacts
   * /identityGovernance/accessReviews/settings
 
-### AccessReview.ReadWrite.All
+#### AccessReview.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -143,21 +143,21 @@ Microsoft Graph has the largest amount of required permissions out of all Micros
   * /identityGovernance/accessReviews/definitions/{definitionId}/instances/{instanceId}/contacts
   * /identityGovernance/accessReviews/settings
 
-### ActivityFeed.Read
+#### ActivityFeed.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 * **Trigger Types**:
   * microsoft\_graph.Management Activity
 
-### ActivityFeed.ReadDlp
+#### ActivityFeed.ReadDlp
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 * **Trigger Types**:
   * microsoft\_graph.Management Activity
 
-### AppCatalog.Read.All
+#### AppCatalog.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -166,7 +166,7 @@ Microsoft Graph has the largest amount of required permissions out of all Micros
 * **URLs**:
   * /appCatalogs/teamsApps
 
-### AppCatalog.ReadWrite.All
+#### AppCatalog.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -179,7 +179,7 @@ Microsoft Graph has the largest amount of required permissions out of all Micros
   * /appCatalogs/teamsApps/{id}
   * /appCatalogs/teamsApps/{id}/appDefinitions
 
-### AppCatalog.Submit
+#### AppCatalog.Submit
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -192,15 +192,15 @@ Microsoft Graph has the largest amount of required permissions out of all Micros
   * /appCatalogs/teamsApps/{id}
   * /appCatalogs/teamsApps/{id}/appDefinitions
 
-### AppRoleAssignment.ReadWrite.All
+#### AppRoleAssignment.ReadWrite.All
 
 This is a core permission utilized with the Rewst Microsoft Cloud Connector and is necessary for dynamic permissions. It is not necessary when using an Owned App Registration.
 
-### Application.ReadWrite.All
+#### Application.ReadWrite.All
 
 This is a core permission utilized with the Rewst Microsoft Cloud Connector and is necessary for dynamic permissions. It is not necessary when using an Owned App Registration.
 
-### AuditLog.Read.All
+#### AuditLog.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -221,7 +221,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.New Signin
   * microsoft\_graph.Suspicious Login Distance
 
-### AuditLogsQuery.Read.All
+#### AuditLogsQuery.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -235,7 +235,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /auditLogs/signIns
   * /auditLogs/userAccountActivity
 
-### BitlockerKey.Read.All
+#### BitlockerKey.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -245,7 +245,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceManagement/managedDevices/{id}/bitlockerKeys
   * /deviceManagement/managedDevices/{id}/bitlockerKeys/{id}
 
-### Bookings.Manage.All
+#### Bookings.Manage.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -264,7 +264,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /bookings/services
   * /bookings/services/{id}
 
-### Bookings.Read.All
+#### Bookings.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -280,26 +280,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /bookings/services
   * /bookings/services/{id}
 
-### Bookings.ReadWrite.All
-
-* **Actions**:
-  * microsoft\_graph.graph\_api\_request
-* **Methods**:
-  * GET
-  * POST
-  * PATCH
-  * DELETE
-* **URLs**:
-  * /bookings/appointments
-  * /bookings/appointments/{id}
-  * /bookings/businesses
-  * /bookings/businesses/{id}
-  * /bookings/customers
-  * /bookings/customers/{id}
-  * /bookings/services
-  * /bookings/services/{id}
-
-### BookingsAppointment.ReadWrite.All
+#### Bookings.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -318,7 +299,26 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /bookings/services
   * /bookings/services/{id}
 
-### Calendars.Read
+#### BookingsAppointment.ReadWrite.All
+
+* **Actions**:
+  * microsoft\_graph.graph\_api\_request
+* **Methods**:
+  * GET
+  * POST
+  * PATCH
+  * DELETE
+* **URLs**:
+  * /bookings/appointments
+  * /bookings/appointments/{id}
+  * /bookings/businesses
+  * /bookings/businesses/{id}
+  * /bookings/customers
+  * /bookings/customers/{id}
+  * /bookings/services
+  * /bookings/services/{id}
+
+#### Calendars.Read
 
 * **Actions**:
   * microsoft\_graph.get\_user\_calendars
@@ -338,7 +338,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /me/events/{id}
   * /users/{id|userPrincipalName}/calendars
 
-### Calendars.Read.Shared
+#### Calendars.Read.Shared
 
 * **Actions**:
   * microsoft\_graph.get\_user\_calendars
@@ -365,7 +365,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /users/{id|userPrincipalName}/events
   * /users/{id|userPrincipalName}/events/{id}
 
-### Calendars.ReadBasic
+#### Calendars.ReadBasic
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -383,7 +383,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /me/events/{id}
   * /users/{id|userPrincipalName}/calendars
 
-### Calendars.ReadBasic.All
+#### Calendars.ReadBasic.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -401,7 +401,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /me/events/{id}
   * /users/{id|userPrincipalName}/calendars
 
-### Calendars.ReadWrite
+#### Calendars.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.create\_event
@@ -435,7 +435,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /users/{id|userPrincipalName}/events
   * /users/{id|userPrincipalName}/events/{id}
 
-### Calendars.ReadWrite.Shared
+#### Calendars.ReadWrite.Shared
 
 * **Actions**:
   * microsoft\_graph.create\_event
@@ -465,7 +465,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /users/{id|userPrincipalName}/events
   * /users/{id|userPrincipalName}/events/{id}
 
-### Channel.Create
+#### Channel.Create
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -474,7 +474,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **URLs**:
   * /teams/{teamId}/channels
 
-### Channel.Delete.All
+#### Channel.Delete.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -483,7 +483,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **URLs**:
   * /teams/{teamId}/channels/{channelId}
 
-### ChannelMember.Read.All
+#### ChannelMember.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -495,7 +495,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamId}/channels/{channelId}/members
   * /teams/{teamId}/channels/{channelId}/members/{id}
 
-### ChannelMember.ReadWrite.All
+#### ChannelMember.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -510,7 +510,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamId}/channels/{channelId}/members
   * /teams/{teamId}/channels/{channelId}/members/{id}
 
-### ChannelMessage.Edit
+#### ChannelMessage.Edit
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -519,7 +519,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **URLs**:
   * /teams/{teamId}/channels/{channelId}/messages/{messageId}
 
-### ChannelMessage.Read.All
+#### ChannelMessage.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -539,7 +539,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.Teams Message Subscription
   * microsoft\_graph.Teams Message Subscription by Team and Channel ID
 
-### ChannelMessage.ReadWrite
+#### ChannelMessage.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -561,7 +561,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.Teams Message Subscription
   * microsoft\_graph.Teams Message Subscription by Team and Channel ID
 
-### ChannelMessage.Send
+#### ChannelMessage.Send
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -575,7 +575,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamId}/channels/{channelId}/messages/{messageId}/replies/{replyId}/unsetReaction
   * /teams/{team-id}/channels/{channel-id}/messages/{message-id}/replies
 
-### ChannelMessage.UpdatePolicyViolation.All
+#### ChannelMessage.UpdatePolicyViolation.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -585,7 +585,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/(team-id)/channels/{channel-id}/messages/{message-id}
   * /teams/(team-id)/channels/{channel-id}/messages/{message-id}/replies/{reply-id}
 
-### ChannelSettings.Read.All
+#### ChannelSettings.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -597,7 +597,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamId}/channels/{channelId}/settings
   * /teams/{teamId}/primaryChannel
 
-### ChannelSettings.ReadWrite.All
+#### ChannelSettings.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -610,7 +610,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamId}/channels/{channelId}/settings
   * /teams/{teamId}/primaryChannel
 
-### Chat.Create
+#### Chat.Create
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -619,7 +619,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **URLs**:
   * /chats
 
-### Chat.ManageDeletion.All
+#### Chat.ManageDeletion.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -629,7 +629,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}
   * /chats/{chatId}/restore
 
-### Chat.Read
+#### Chat.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -646,7 +646,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}/messages/{messageId}/replies/{replyId}/hostedContents
   * /chats/{chatId}/messages/{messageId}/replies/{replyId}/hostedContents/{hostedContentId}
 
-### Chat.Read.All
+#### Chat.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -667,7 +667,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.Chat Message Subscription
   * microsoft\_graph.Chat Message Subscription by Chat ID
 
-### Chat.ReadBasic
+#### Chat.ReadBasic
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -684,7 +684,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{id}/channels/{id}/members/{id}
   * /users/{userId}
 
-### Chat.ReadBasic.All
+#### Chat.ReadBasic.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -701,7 +701,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{id}/channels/{id}/members/{id}
   * /users/{userId}
 
-### Chat.ReadWrite
+#### Chat.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -726,7 +726,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamId}/channels/{channelId}/messages/{messageId}/replies/{replyId}/hostedContents
   * /teams/{teamId}/channels/{channelId}/messages/{messageId}/hostedContents/{hostedContentId}
 
-### Chat.ReadWrite.All
+#### Chat.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -756,7 +756,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.Chat Message Subscription
   * microsoft\_graph.Chat Message Subscription by Chat ID
 
-### Chat.UpdatePolicyViolation.All
+#### Chat.UpdatePolicyViolation.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -766,7 +766,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamId}/channels/{channelId}/messages/{messageId}
   * /teams/{teamId}/channels/{channelId}/messages/{messageId}/replies/{replyId}
 
-### ChatMember.Read
+#### ChatMember.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -776,7 +776,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}/members
   * /chats/{chatId}/members/{id}
 
-### ChatMember.Read.All
+#### ChatMember.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -786,7 +786,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}/members
   * /chats/{chatId}/members/{id}
 
-### ChatMember.ReadWrite
+#### ChatMember.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -799,7 +799,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}/members
   * /chats/{chatId}/members/{id}
 
-### ChatMember.ReadWrite.All
+#### ChatMember.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -812,7 +812,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}/members
   * /chats/{chatId}/members/{id}
 
-### ChatMessage.Read
+#### ChatMessage.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -822,7 +822,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}/messages
   * /chats/{chatId}/messages/{id}
 
-### ChatMessage.Read.All
+#### ChatMessage.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -832,7 +832,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /chats/{chatId}/messages
   * /chats/{chatId}/messages/{id}
 
-### ChatMessage.Send
+#### ChatMessage.Send
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -845,32 +845,32 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{teamsId}/channels/{channelId}/messages/{chatMessageId}/setReaction
   * /teams/{teamsId}/channels/{channelId}/messages/{chatMessageId}/unsetReaction
 
-### CloudApp-Discovery.Read.All
+#### CloudApp-Discovery.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### CloudPC.Read.All
+#### CloudPC.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### CloudPC.ReadWrite.All
+#### CloudPC.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Community.Read.All
+#### Community.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Community.ReadWrite.All
+#### Community.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Contacts.Read
+#### Contacts.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -883,7 +883,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /users/{id|userPrincipalName}/contacts
   * /users/{id|userPrincipalName}/contacts/{id}
 
-### Contacts.ReadWrite
+#### Contacts.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -901,21 +901,21 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /users/{id|userPrincipalName}/contacts
   * /users/{id|userPrincipalName}/contacts/{id}
 
-### DelegatedAdminRelationship.Read.All
+#### DelegatedAdminRelationship.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### DelegatedAdminRelationship.ReadWrite.All
+#### DelegatedAdminRelationship.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### DelegatedPermissionGrant.ReadWrite.All
+#### DelegatedPermissionGrant.ReadWrite.All
 
 This is a core permission utilized with the Rewst Microsoft Cloud Connector and is necessary for dynamic permissions. It is not necessary when using an Owned App Registration.
 
-### Device.Command
+#### Device.Command
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -925,7 +925,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /devices/{id}/command
   * /me/devices/{id}/command
 
-### Device.Read.All
+#### Device.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -940,7 +940,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **Trigger Types**:
   * microsoft\_graph.ms\_graph\_device\_sensor
 
-### Device.ReadWrite.All
+#### Device.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -956,7 +956,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /devices/{id}/registeredUsers
   * /deviceAppManagement/mobileApps/{id}/deviceStatuses
 
-### DeviceLocalCredential.Read.All
+#### DeviceLocalCredential.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -966,7 +966,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceManagement/deviceLocalCredentialSettings
   * /deviceManagement/deviceLocalCredentialSettings/{id}
 
-### DeviceManagementApps.Read.All
+#### DeviceManagementApps.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -977,7 +977,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/mobileApps/{id}
   * /deviceAppManagement/mobileApps/{id}/deviceStatuses
 
-### DeviceManagementApps.ReadWrite.All
+#### DeviceManagementApps.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -991,7 +991,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/mobileApps/{id}
   * /deviceAppManagement/mobileApps/{id}/deviceStatuses
 
-### DeviceManagementConfiguration.Read.All
+#### DeviceManagementConfiguration.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1002,7 +1002,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/deviceConfigurations/{id}
   * /deviceAppManagement/deviceConfigurations/{id}/deviceStatuses
 
-### DeviceManagementConfiguration.ReadWrite.All
+#### DeviceManagementConfiguration.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1016,7 +1016,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/deviceConfigurations/{id}
   * /deviceAppManagement/deviceConfigurations/{id}/deviceStatuses
 
-### DeviceManagementManagedDevices.PrivilegedOperations.All
+#### DeviceManagementManagedDevices.PrivilegedOperations.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1029,7 +1029,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceManagement/managedDevices
   * /deviceManagement/managedDevices/{id}/privilegedOperations
 
-### DeviceManagementManagedDevices.Read.All
+#### DeviceManagementManagedDevices.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1039,7 +1039,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceManagement/managedDevices
   * /deviceManagement/managedDevices/{id}
 
-### DeviceManagementManagedDevices.ReadWrite.All
+#### DeviceManagementManagedDevices.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1052,7 +1052,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceManagement/managedDevices
   * /deviceManagement/managedDevices/{id}
 
-### DeviceManagementRBAC.Read.All
+#### DeviceManagementRBAC.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1062,7 +1062,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/rbacDefinitions
   * /deviceAppManagement/rbacDefinitions/{id}
 
-### DeviceManagementRBAC.ReadWrite.All
+#### DeviceManagementRBAC.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1075,7 +1075,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/rbacDefinitions
   * /deviceAppManagement/rbacDefinitions/{id}
 
-### DeviceManagementServiceConfig.Read.All
+#### DeviceManagementServiceConfig.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1085,7 +1085,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/serviceConfigurations
   * /deviceAppManagement/serviceConfigurations/{id}
 
-### DeviceManagementServiceConfig.ReadWrite.All
+#### DeviceManagementServiceConfig.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1098,11 +1098,11 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /deviceAppManagement/serviceConfigurations
   * /deviceAppManagement/serviceConfigurations/{id}
 
-### Directory.ReadWrite.All
+#### Directory.ReadWrite.All
 
 This is a core permission utilized with the Rewst Microsoft Cloud Connector and is necessary for dynamic permissions. It is not necessary when using an Owned App Registration.
 
-### Domain.Read.All
+#### Domain.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1112,7 +1112,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /domains
   * /domains/{id}
 
-### Domain.ReadWrite.All
+#### Domain.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1125,24 +1125,24 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /domains
   * /domains/{id}
 
-### EAS.AccessAsUser.All
+#### EAS.AccessAsUser.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### EWS.AccessAsUser.All
+#### EWS.AccessAsUser.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Files.Read
+#### Files.Read
 
 * **Actions**:
   * microsoft\_graph.get\_onedrive\_item\_metadata
   * microsoft\_graph.get\_users\_drive
   * microsoft\_graph.get\_users\_root\_drive\_items
 
-### Files.Read.All
+#### Files.Read.All
 
 * **Actions**:
   * microsoft\_graph.get\_onedrive\_item\_metadata
@@ -1152,7 +1152,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.ms\_onedrive\_permissions\_sensor
   * microsoft\_graph.ms\_onedrive\_file\_updated
 
-### Files.ReadWrite
+#### Files.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.copy\_onedrive\_item
@@ -1163,17 +1163,17 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.get\_users\_root\_drive\_items
   * microsoft\_graph.move\_onedrive\_item
 
-### Files.ReadWrite.All
+#### Files.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Group.Create
+#### Group.Create
 
 * **Actions**:
   * microsoft\_graph.create\_group
 
-### Group.Read.All
+#### Group.Read.All
 
 * **Actions**:
   * microsoft\_graph.get\_group
@@ -1184,7 +1184,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **Trigger Types**:
   * microsoft\_graph.Group Change Subscription
 
-### Group.ReadWrite.All
+#### Group.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.create\_group
@@ -1196,14 +1196,14 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **Trigger Types**:
   * microsoft\_graph.Group Change Subscription
 
-### GroupMember.Read.All
+#### GroupMember.Read.All
 
 * **Actions**:
   * microsoft\_graph.get\_mail\_groups
   * microsoft\_graph.get\_security\_groups
   * microsoft\_graph.list\_group\_members
 
-### GroupMember.ReadWrite.All
+#### GroupMember.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.add\_group\_member
@@ -1212,17 +1212,17 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.list\_group\_members
   * microsoft\_graph.remove\_group\_member
 
-### IdentityProvider.Read.All
+#### IdentityProvider.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### IdentityProvider.ReadWrite.All
+#### IdentityProvider.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### IdentityRiskEvent.Read.All
+#### IdentityRiskEvent.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1233,22 +1233,22 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **Trigger Types**:
   * microsoft\_graph.New Risk Detection
 
-### IdentityRiskEvent.ReadWrite.All
+#### IdentityRiskEvent.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### IdentityRiskyServicePrincipal.Read.All
+#### IdentityRiskyServicePrincipal.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### IdentityRiskyServicePrincipal.ReadWrite.All
+#### IdentityRiskyServicePrincipal.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### IdentityRiskyUser.Read.All
+#### IdentityRiskyUser.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1260,7 +1260,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **Trigger Types**:
   * microsoft\_graph.New Risky User
 
-### IdentityRiskyUser.ReadWrite.All
+#### IdentityRiskyUser.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1275,52 +1275,52 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **Trigger Types**:
   * microsoft\_graph.New Risky User
 
-### IdentityUserFlow.Read.All
+#### IdentityUserFlow.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### IdentityUserFlow.ReadWrite.All
+#### IdentityUserFlow.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Insights-UserMetric.Read.All
+#### Insights-UserMetric.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### LicenseAssignment.ReadWrite.All
+#### LicenseAssignment.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Mail.Read
+#### Mail.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Mail.Read.Shared
+#### Mail.Read.Shared
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Mail.ReadWrite
+#### Mail.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.delete\_subscription
 
-### Mail.ReadWrite.Shared
+#### Mail.ReadWrite.Shared
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Mail.Send
+#### Mail.Send
 
 * **Actions**:
   * microsoft\_graph.send\_mail\_as\_user
 
-### MailboxSettings.Read
+#### MailboxSettings.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1330,7 +1330,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /me/mailboxSettings
   * /users/{id|userPrincipalName}/mailboxSettings
 
-### MailboxSettings.ReadWrite
+#### MailboxSettings.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1342,52 +1342,52 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /me/mailboxSettings
   * /users/{id|userPrincipalName}/mailboxSettings
 
-### Notes.Create
+#### Notes.Create
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Notes.Read
+#### Notes.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Notes.Read.All
+#### Notes.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Notes.ReadWrite
+#### Notes.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Notes.ReadWrite.All
+#### Notes.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### OnlineMeetingArtifact.Read.All
+#### OnlineMeetingArtifact.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### OnlineMeetings.Read
+#### OnlineMeetings.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### OnlineMeetings.ReadWrite
+#### OnlineMeetings.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### OnlineMeetings.ReadWrite.All
+#### OnlineMeetings.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Place.Read.All
+#### Place.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1396,7 +1396,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **URLs**:
   * /places
 
-### Place.ReadWrite.All
+#### Place.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1409,7 +1409,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /places
   * /places/{id}
 
-### Policy.Read.All
+#### Policy.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1440,7 +1440,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **Trigger Types**:
   * microsoft\_graph.Policy Change
 
-### Policy.ReadWrite.AuthenticationMethod
+#### Policy.ReadWrite.AuthenticationMethod
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1454,7 +1454,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /policies/authenticationMethodsPolicy/authenticationMethodConfigurations
   * /policies/authenticationMethodsPolicy/authenticationMethodConfigurations/{id}
 
-### Policy.ReadWrite.ConditionalAccess
+#### Policy.ReadWrite.ConditionalAccess
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1467,7 +1467,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /policies/conditionalAccessPolicies
   * /policies/conditionalAccessPolicies/{id}
 
-### Policy.ReadWrite.CrossTenantAccess
+#### Policy.ReadWrite.CrossTenantAccess
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1479,22 +1479,22 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
 * **URLs**:
   * /policies/crossTenantAccessPolicy
 
-### Policy.ReadWrite.DeviceConfiguration
+#### Policy.ReadWrite.DeviceConfiguration
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### RecordsManagement.Read.All
+#### RecordsManagement.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### RecordsManagement.ReadWrite.All
+#### RecordsManagement.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Reports.Read.All
+#### Reports.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1525,57 +1525,57 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /reports/security/microsoft.graph.getAttackSimulationSimulationUserCoverage()
   * /reports/security/microsoft.graph.getAttackSimulationTrainingUserCoverage()
 
-### RoleManagement.Read.All
+#### RoleManagement.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### RoleManagement.ReadWrite.CloudPC
+#### RoleManagement.ReadWrite.CloudPC
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### RoleManagement.ReadWrite.Directory
+#### RoleManagement.ReadWrite.Directory
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### RoleManagement.ReadWrite.Exchange
+#### RoleManagement.ReadWrite.Exchange
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Schedule.Read.All
+#### Schedule.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Schedule.ReadWrite.All
+#### Schedule.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### SecurityActions.Read.All
+#### SecurityActions.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### SecurityActions.ReadWrite.All
+#### SecurityActions.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### SecurityAlert.Read.All
+#### SecurityAlert.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### SecurityAlert.ReadWrite.All
+#### SecurityAlert.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### SecurityEvents.Read.All
+#### SecurityEvents.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1589,7 +1589,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.New Security Alert
   * microsoft\_graph.Security Alert Subscription
 
-### SecurityEvents.ReadWrite.All
+#### SecurityEvents.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1603,7 +1603,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * microsoft\_graph.New Security Alert
   * microsoft\_graph.Security Alert Subscription
 
-### SecurityIncident.Read.All
+#### SecurityIncident.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1613,33 +1613,33 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /security/incidents
   * /security/incidents/{id}
 
-### SecurityIncident.ReadWrite.All
+#### SecurityIncident.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ServiceHealth.Read
+#### ServiceHealth.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 * **Trigger Types**:
   * microsoft\_graph.Management Activity
 
-### ServiceHealth.Read.All
+#### ServiceHealth.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ServiceMessage.Read.All
+#### ServiceMessage.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ServicePrincipalEndpoint.ReadWrite.All
+#### ServicePrincipalEndpoint.ReadWrite.All
 
 This is a core permission utilized with the Rewst Microsoft Cloud Connector and is necessary for dynamic permissions. It is not necessary when using an Owned App Registration.
 
-### Sites.FullControl.All
+#### Sites.FullControl.All
 
 * **Actions**:
   * microsoft\_graph.sharepoint\_delete\_anon\_links
@@ -1657,12 +1657,12 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /sites/{id}/lists
   * /sites/{id}/operations
 
-### Sites.Manage.All
+#### Sites.Manage.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Sites.Read.All
+#### Sites.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1676,7 +1676,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /sites/{id}/lists/{id}
   * /sites/{id}/operations
 
-### Sites.ReadWrite.All
+#### Sites.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1694,17 +1694,17 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /sites/{id}/lists/{id}
   * /sites/{id}/operations
 
-### Subscription.Read.All
+#### Subscription.Read.All
 
 * **Actions**:
   * microsoft\_graph.list\_subscriptions
 
-### Team.Create
+#### Team.Create
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### TeamMember.Read.All
+#### TeamMember.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1714,7 +1714,7 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{id}/members
   * /teams/{id}/members/{id}
 
-### TeamMember.ReadWrite.All
+#### TeamMember.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1727,22 +1727,22 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teams/{id}/members/{id}
   * /teams/{id}/members/microsoft.graph.add
 
-### TeamSettings.Read.All
+#### TeamSettings.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### TeamSettings.ReadWrite.All
+#### TeamSettings.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Teamwork.Migrate.All
+#### Teamwork.Migrate.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### Teamwork.Read.All
+#### Teamwork.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1755,71 +1755,71 @@ This is a core permission utilized with the Rewst Microsoft Cloud Connector and 
   * /teamwork/teamsAppSettings
   * /teamwork/workforceIntegrations
 
-### TeamworkTag.Read
+#### TeamworkTag.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### TeamworkTag.Read.All
+#### TeamworkTag.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### TeamworkTag.ReadWrite
+#### TeamworkTag.ReadWrite
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### TeamworkTag.ReadWrite.All
+#### TeamworkTag.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ThreatAssessment.Read.All
+#### ThreatAssessment.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ThreatAssessment.ReadWrite.All
+#### ThreatAssessment.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ThreatHunting.Read.All
+#### ThreatHunting.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ThreatIndicators.Read.All
+#### ThreatIndicators.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ThreatIntelligence.Read.All
+#### ThreatIntelligence.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ThreatSubmission.Read.All
+#### ThreatSubmission.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### ThreatSubmission.ReadWrite.All
+#### ThreatSubmission.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### User.ManageIdentities.All
+#### User.ManageIdentities.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### User.Read
+#### User.Read
 
 This permission is necessary for Rewst to be able to authenticate with your Microsoft tenant. It will always be required, even for Owned App Registrations.
 
-### User.Read.All
+#### User.Read.All
 
 * **Actions**:
   * microsoft\_graph.get\_user
@@ -1827,7 +1827,7 @@ This permission is necessary for Rewst to be able to authenticate with your Micr
 * **Trigger Types**:
   * microsoft\_graph.User Change Subscription
 
-### User.ReadWrite.All
+#### User.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.assign\_license
@@ -1844,7 +1844,7 @@ This permission is necessary for Rewst to be able to authenticate with your Micr
 * **Trigger Types**:
   * microsoft\_graph.User Change Subscription
 
-### UserAuthenticationMethod.Read.All
+#### UserAuthenticationMethod.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1872,7 +1872,7 @@ This permission is necessary for Rewst to be able to authenticate with your Micr
   * /users/{id}/authentication/temporaryAccessPassMethods
   * /users/{id}/authentication/windowsHelloForBusinessMethods
 
-### UserAuthenticationMethod.ReadWrite.All
+#### UserAuthenticationMethod.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
@@ -1904,20 +1904,19 @@ This permission is necessary for Rewst to be able to authenticate with your Micr
   * /users/{id}/authentication/temporaryAccessPassMethods
   * /users/{id}/authentication/windowsHelloForBusinessMethods
 
-### VirtualEvent.Read
+#### VirtualEvent.Read
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### VirtualEvent.Read.All
+#### VirtualEvent.Read.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
-### eDiscovery.ReadWrite.All
+#### eDiscovery.ReadWrite.All
 
 * **Actions**:
   * microsoft\_graph.graph\_api\_request
 
 </details>
-

@@ -41,7 +41,7 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 
 ## Crate prerequisites
 
-* Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
+* Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 * Your [RMM integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be integrated with Rewst.
 * The `psa_default_board_id` [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable) must be added
 * The `default_psa` organization variable must be added
@@ -58,16 +58,16 @@ Our Change a User’s Password Crate uses a form-driven submission to change a u
 6. Click **Unpack**.
 
 {% hint style="success" %}
-Integration overrides will automatically be added during the Crate's unpacking process.&#x20;
+Integration overrides will automatically be added during the Crate's unpacking process.
 {% endhint %}
 
 ### Test the Crate
 
 1. Fill out the form as indicated in instructions below. This will kick off the workflow unpacked with the Crate.
 2. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-3. Search for `[REWST - PROC] User: Change Password`.&#x20;
+3. Search for `[REWST - PROC] User: Change Password`.
 4. Click on the workflow to open it in the Workflow Builder.
-5. View the workflow results by clicking <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> from the workflow. If the Crate is functioning correctly, your results log won't contain errors.
+5. View the workflow results by clicking <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM.png" alt="" data-size="line"> from the workflow. If the Crate is functioning correctly, your results log won't contain errors.
 
 ### Use the form
 
@@ -78,21 +78,17 @@ Integration overrides will automatically be added during the Crate's unpacking p
 5. Fill out the form as follows:
    1. **Ticket Number** - Select an existing ticket to write ticket updates to. If no ticket is provided, a new one will be created.
    2. **User** - Select the user you would like to initiate the password change for.
-   3. **User Entra Override** - This field is only applicable to hybrid environments that aren't synced, where the user's username is different in Microsoft Entra than in on-premises.&#x20;
+   3. **User Entra Override** - This field is only applicable to hybrid environments that aren't synced, where the user's username is different in Microsoft Entra than in on-premises.
    4. **Require Password Change** - Check this box on to require a change of password.
    5. **Password** - Select a generated password or enter one manually.
 6. Click **Submit**.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-11-20 at 3.03.15 PM.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Troubleshoot the Change a User’s Password Crate
 
-If you experience a PSA or RMM error, make sure you have set the org variables **default\_psa** and **default\_rmm**. For any other error, please [reach out to Rewst Support](#user-content-fn-1)[^1].
+If you experience a PSA or RMM error, make sure you have set the org variables **default\_psa** and **default\_rmm**. For any other error, please reach out to Rewst Support.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-
-[^1]: 

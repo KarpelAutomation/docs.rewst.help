@@ -6,7 +6,7 @@ description: Learn how to build and customize your Rewst Forms
 
 ## Create a new form
 
-The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Assets > Forms**, and click  ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM (2).png>).&#x20;
+The part of Rewst you use to create and edit forms is called the _Form Builder_. To access it, navigate to **Automations > Assets > Forms**, and click ![](<../../../.gitbook/assets/Screenshot 2025-03-07 at 2.00.23 PM.png>).
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-17 at 5.21.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -14,7 +14,7 @@ In the **Create New Form** dialog, give your form a descriptive name. Remember, 
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-17 at 5.39.32 PM.png" alt=""><figcaption></figcaption></figure>
 
-The Form Builder is similar to Rewst's Workflow Builder in that it has a list of options on the left, called _form fields_, which can be dragged and dropped onto the canvas in the center of your screen.&#x20;
+The Form Builder is similar to Rewst's Workflow Builder in that it has a list of options on the left, called _form fields_, which can be dragged and dropped onto the canvas in the center of your screen.
 
 Each of these options will relate to your _inputs_**,** or the information that goes into the form. With the exception of the **Text/Markdown** field which is only used for presenting data to the end user, all other fields are used as data input and contain a field name, field label and field description. The field name is the variable name used within the workflow once the form has been submitted. The field label and field description are used to format the appearance of the form.
 
@@ -40,7 +40,7 @@ The **Text/Markdown** field lets you present text, optionally formatted with Mar
 
 <summary>Drop-down</summary>
 
-**Drop-down** fields let you select from multiple options, which can either be hard coded into the form or dynamically generated. Each option on the form has a _label_ and a _value_, and default options can be preselected if specified. There are also options for: &#x20;
+**Drop-down** fields let you select from multiple options, which can either be hard coded into the form or dynamically generated. Each option on the form has a _label_ and a _value_, and default options can be preselected if specified. There are also options for:
 
 * **Auto-Populate**: if enabled, will always pre-populate the field if only a single option has been returned.
 * **Allow Custom Input**: lets the enduser write in the field and have that be the value passed into the workflow.
@@ -52,8 +52,6 @@ Drop-down selection is limited to a single option. For multiple options for sele
 \
 <img src="../../../.gitbook/assets/Screenshot 2025-03-18 at 11.09.12 AM.png" alt="" data-size="original">
 
-
-
 </details>
 
 <details>
@@ -63,8 +61,6 @@ Drop-down selection is limited to a single option. For multiple options for sele
 **Multi-select** is similar to the dropdown field, but lets you select as many options as you like, up to a maximum number of options which can be specified on the field.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.12.29 AM.png>)
-
-
 
 Here are two examples, one for returning a specific item within the list, and one for checking if values are provided:
 
@@ -85,8 +81,6 @@ Here are two examples, one for returning a specific item within the list, and on
 The **Checkbox** field provides a toggle with a true/false value for the form. You can also change the label positioning.\
 \
 ![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.14.09 AM.png>)
-
-
 
 </details>
 
@@ -116,7 +110,7 @@ The **Text Input** field accepts a single line text string. You can also perform
 
 The **Number Input** field accepts numbers, as long as they meet the Python definition of numbers: whole numbers or floats. Set a default value, as well as minimum and maximum values.\
 \
-![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.19.31 AM (1).png>)
+![](<../../../.gitbook/assets/Screenshot 2025-03-18 at 11.19.31 AM.png>)
 
 </details>
 
@@ -182,7 +176,7 @@ Pulling data straight from the integration like this only works at the top, pare
 
 If you want more flexibility around the output of the data your user is seeing, you may need to opt for a workflow generated option instead, which allows for in-depth data manipulation using [Jinja](../../jinja/). We cover what these are and how to use them in Cluck U’s [Rewst Foundations](https://learn.rewst.io) and [micro course](https://learn.rewst.io). If you’ve already taken our courses and want a refresher, see our documentation on option generators [here](https://docs.rewst.help/documentation/workflows/workflow-generated-options) and [here](https://docs.rewst.help/documentation/workflows/different-types-of-workflows#option-generator).
 
-Alternatively, dynamic forms use cases can be handled with our options filter feature. The options filter makes customizing drop-down fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source. See our separate [options filter documentation here](options-filter-filtering-in-forms.md).&#x20;
+Alternatively, dynamic forms use cases can be handled with our options filter feature. The options filter makes customizing drop-down fields within forms straightforward for those who want to add filtering without updating an options generator workflow. It takes inputs, filters them, and produces an output agnostic of the data source. See our separate [options filter documentation here](options-filter-filtering-in-forms.md).
 
 {% hint style="info" %}
 This setup requires the workflow type be an option generator. See our [option generator workflow page](../workflows/option-generator-workflows.md) for more details on this functionality. The below documentation is high-level only.
@@ -226,7 +220,7 @@ A _dynamic form link_ is a special type of URL that automatically directs users 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-23 at 4.40.04 PM.png" alt=""><figcaption></figcaption></figure>
 
 When sharing a form, instead of clicking **View Direct URLs**, you can click **Copy URL**.\
-This generates a dynamic link that looks like this:&#x20;
+This generates a dynamic link that looks like this:
 
 ```
 https://app.rewst.io/form/<form_trigger_guid>
@@ -260,7 +254,7 @@ Follow the steps below for your relevant browser to use only the region you need
 
 <summary>Mozilla Firefox</summary>
 
-#### Open Language Preferences
+**Open Language Preferences**
 
 1. Navigate to **Settings > General > Language**.
 2. Under **Language and Appearance**, click **Choose…** next to **Language for displaying pages**.
@@ -269,11 +263,11 @@ Follow the steps below for your relevant browser to use only the region you need
    * English (United States)
    * English (United Kingdom)
 
-#### Remove Others
+**Remove Others**
 
 * Highlight any extra languages and click **Remove** so only one remains.
 
-#### Confirm Locale
+**Confirm Locale**
 
 (Optional advanced step)
 
@@ -291,7 +285,7 @@ Follow the steps below for your relevant browser to use only the region you need
 
 <summary>Google Chrome</summary>
 
-#### Open language settings
+**Open language settings**
 
 1.  In the address bar, go to:
 
@@ -304,18 +298,18 @@ Follow the steps below for your relevant browser to use only the region you need
    * **English (United States)** → `en-US`
    * **English (United Kingdom)** → `en-GB`
 
-#### Remove unused languages
+**Remove unused languages**
 
 * Click the **⋯** next to any other languages and select **Remove**.\
   This prevents Chrome from using fallback locales.
 
-#### Set as display language
+**Set as display language**
 
 * Click the **⋯** next to your chosen language.
 * Select **Display Google Chrome in this language**.
 * Restart Chrome to apply the change.
 
-#### Check your date/time format
+**Check your date/time format**
 
 * Open your system settings to make sure the region matches your browser locale:
   * **Windows:** `Settings > Time & language > Language & region`
@@ -327,7 +321,7 @@ Follow the steps below for your relevant browser to use only the region you need
 
 <summary>Microsoft Edge</summary>
 
-#### Open Language Settings
+**Open Language Settings**
 
 1.  Navigate to:
 
@@ -339,16 +333,16 @@ Follow the steps below for your relevant browser to use only the region you need
    * English (United States)
    * English (United Kingdom)
 
-#### Remove Extra Languages
+**Remove Extra Languages**
 
 * Click the **⋯** beside any other languages and choose **Remove**.
 
-#### 3. Set Display Language
+**3. Set Display Language**
 
 * Click the **⋯** next to your chosen language.
 * Select **Display Microsoft Edge in this language** and restart Edge.
 
-#### 4. Match Your System Region
+**4. Match Your System Region**
 
 * Go to `Settings > Time & language > Language & region > Regional format`
 * Choose the same region: Australia, United States, or United Kingdom.
@@ -421,7 +415,7 @@ Recall that you can access all forms in your form list in Rewst. Understanding h
 2. Click **View Form URLs**.
 3. Select the desired organization's form from the list.
 
-<figure><img src="../../../.gitbook/assets/trigger-view-form-urls (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/trigger-view-form-urls.png" alt=""><figcaption></figcaption></figure>
 
 ## Restrict form drop-downs
 

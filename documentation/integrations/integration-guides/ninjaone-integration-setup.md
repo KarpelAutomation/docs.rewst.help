@@ -75,15 +75,15 @@ iex $commands
 5. Click **Save Configuration**. This saving is necessary to ensure that there is no error in the next step.
 6. Authorize OAuth into NinjaOne, via Microsoft. You should see your customer show up at the bottom. You may need to click **Refresh Options** for customers to populate.
 7. Click **Save Configuration** again.
-8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 {% hint style="info" %}
 For APAC customers:
 
-* When you click **Authorize** during the set up process, you end up at the URL [https://app.ninjarmm.com/auth/](https://app.ninjarmm.com/auth/).&#x20;
+* When you click **Authorize** during the set up process, you end up at the URL [https://app.ninjarmm.com/auth/](https://app.ninjarmm.com/auth/).
 * If you change the **Region Instance** to APAC and click **Authorize**, you may still be redirected to the US site.
 * Click **Save Configuration** first. Then, reload Ninja's website and ensure that it's showing the correct APAC region.
-* Click **Authorize** again. The URL should now show the correct APAC address.&#x20;
+* Click **Authorize** again. The URL should now show the correct APAC address.
 {% endhint %}
 
 ## Test the integration
@@ -96,7 +96,7 @@ Once you’ve [mapped your customers](https://docs.rewst.help/documentation/inte
 4. Drag a Ninja action onto your workflow builder canvas. In this example, we use **List Contacts**.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2026-01-16 at 2.18.21 PM.png>)<br>
-5. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (1).png" alt="" data-size="line"> to add a trigger. In the relevant fields, choose or enter the following settings:
+5. Click <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM.png" alt="" data-size="line"> to add a trigger. In the relevant fields, choose or enter the following settings:
    1. **Name** your trigger
    2. **Trigger Type**: **Core - Always Pass**
    3. **Integration Overrides**: **NinjaOne**
@@ -134,8 +134,6 @@ If any list action is failing, ensure that you have added the script in previous
 {% hint style="info" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
-
-
 
 ## NinjaOne actions and endpoints
 

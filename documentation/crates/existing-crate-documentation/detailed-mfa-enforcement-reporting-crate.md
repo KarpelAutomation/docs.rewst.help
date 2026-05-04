@@ -36,12 +36,12 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
    ![](<../../../.gitbook/assets/Screenshot 2025-09-25 at 11.15.43 AM.png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate.**
-5. Enter the email where you want the report to be sent in the **Cron Recipient** field.&#x20;
+5. Enter the email where you want the report to be sent in the **Cron Recipient** field.
 6. Use the **Send as CSV** drop-down selector to choose your preference:
    1. **True** if you want the report format to be in CSV
    2. **False** if you prefer to view in an HTML page
 7. Click **Continue**.
-8. You have the option to run this Crate on a schedule via cron job. Expand the **Cron Job** accordion menu and toggle **Enabled** on if you wish to have this Crate run regularly. Leave this as-is if you wish to use the Crate with manual form trigger submission.&#x20;
+8. You have the option to run this Crate on a schedule via cron job. Expand the **Cron Job** accordion menu and toggle **Enabled** on if you wish to have this Crate run regularly. Leave this as-is if you wish to use the Crate with manual form trigger submission.
 9. Click **Unpack**.
 
 ### Fill out the form
@@ -63,7 +63,7 @@ If you chose to run the workflow in this Crate on a schedule rather than manuall
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - PROC] Detailed MFA Reporting` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (199).png>) to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (196).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to your desired time.
 6. Click **Submit**.
 

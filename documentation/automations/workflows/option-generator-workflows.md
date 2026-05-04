@@ -20,16 +20,16 @@ Ultimately, an option generator workflow needs three things:
 
 Before you begin, decide which options need to be displayed based on the user’s selection. For this example, the list of groups will change depending on whether the action is to add or remove a user.
 
-1. [Create a new workflow](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
-2. Click  <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM (2).png" alt="" data-size="line">in the top menu bar of your workflow's workflow builder canvas.&#x20;
-3. Click the **Workflow Type** drop-down selector.&#x20;
+1. [Create a new workflow](workflow-builder-how-to-set-up-a-workflow.md).
+2. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line">in the top menu bar of your workflow's workflow builder canvas.
+3. Click the **Workflow Type** drop-down selector.
 4.  Select **Option Generator**.\
     <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-24 at 5.07.54 PM.png" alt=""><figcaption></figcaption></figure>
 5. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 11.22.42 AM.png>) next to **Output Configuration** to create an output variable. Name the variable `options`. Every option generator workflow must have an [output variable](data-input-and-output-input-variables-and-context-variables.md#workflow-output) called `options`, which will contain the context variable that holds the data that you want to display.
 6. Click **Submit**. This will launch the workflow builder.
-7. Set up a [trigger](../intro-to-triggers/) for the workflow.&#x20;
+7. Set up a [trigger](../intro-to-triggers/) for the workflow.
 
 ### Create a form to be used with the workflow
 
@@ -48,4 +48,3 @@ See the documentation for how to use our form builder to achieve this step [here
    3. Using the **Default Selected Field** will evaluate an attribute of the `options` list for truthiness. Items which evaluate `true` will be selected by default when this field populates.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 2.42.54 PM.png" alt=""><figcaption></figcaption></figure>
-

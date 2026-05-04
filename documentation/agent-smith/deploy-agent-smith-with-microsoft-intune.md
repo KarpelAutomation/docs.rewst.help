@@ -8,7 +8,7 @@ Rewst has two methods for deploying Agent Smith using Microsoft Intune:
 {% hint style="info" %}
 Win32 is the preferred Microsoft way of deployment. This method provides more granular installation and health feedback, plus the ability to uninstall if the deployment is unsuccessful. However, this method is more complicated and time consuming.\
 \
-The use of Intune platform scripts is much simpler, but yields a much less robust result. You'll be shown a yes/no response for if the script runs, which may or may not install the app successfully. \
+The use of Intune platform scripts is much simpler, but yields a much less robust result. You'll be shown a yes/no response for if the script runs, which may or may not install the app successfully.\
 \
 Choose the deployment method that fits your level of comfort and experience.
 {% endhint %}
@@ -27,7 +27,7 @@ Click on each of the methods to expand and view its instructions.
 
 <summary>Method 1: Deploy via Win32 packaging</summary>
 
-### Generate Agent Smith script
+#### Generate Agent Smith script
 
 Follow the instructions under the **Provision agents** section of the [Agent Smith Configuration Guide](https://docs.rewst.help/documentation/agent-smith/agent-smith-configuration-overview#set-up-agent-smith) to generate the dynamic PowerShell configuration script. Your generated script will look something like this:
 
@@ -41,7 +41,7 @@ iwr ((irm {{ INSTALLER }}).assets|?{$_.name -eq \\\\"rewst_agent_config.win.exe\
 
 <figure><img src="../../.gitbook/assets/image (59) (2).png" alt="" width="331"><figcaption></figcaption></figure>
 
-### Package using IntuneWin package
+#### Package using IntuneWin package
 
 1.  Create a PowerShell Install Script - install.ps1
 
@@ -64,7 +64,7 @@ AgentSmith
 2. Create install.ps1 using the provided install script mentioned earlier.
 3. Save the provided install script as `install.ps1`.
 
-### **Create the IntuneWin package**
+#### **Create the IntuneWin package**
 
 Use Microsoft Win32 Content Prep Tool (IntuneWinAppUtil.exe) to complete the following.
 
@@ -80,7 +80,7 @@ Use Microsoft Win32 Content Prep Tool (IntuneWinAppUtil.exe) to complete the fol
     IntuneWinAppUtil.exe -c "FOLDERLOCATION" -s "INSERTPOWERSHELLFILENAMEHERE" -o "OUTPUTFOLDER"
     ```
 
-&#x20;       Example:
+Example:
 
 ```
 IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentSmith\\output"
@@ -92,7 +92,7 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 
 <figure><img src="../../.gitbook/assets/image (61) (2).png" alt=""><figcaption></figcaption></figure>
 
-### **Use Microsoft Endpoint Manager to deploy**
+#### **Use Microsoft Endpoint Manager to deploy**
 
 1. Sign in to the [Microsoft Endpoint Manager Portal](https://endpoint.microsoft.com/).
 2. Navigate to **Apps > Windows > + Add > Windows app (Win32)**.
@@ -105,7 +105,7 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
         ```
         powershell.exe -ExecutionPolicy Bypass -File install.ps1 
         ```
-    2.  **Uninstall command:** <br>
+    2.  **Uninstall command:**<br>
 
         ```
         powershell.exe -ExecutionPolicy Bypass -Command "Get-Service -Name 'AgentSmithService' -ErrorAction SilentlyContinue | Stop-Service -Force -ErrorAction SilentlyContinue; sc.exe delete 'AgentSmithService'"
@@ -131,8 +131,8 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
       ![](<../../.gitbook/assets/CleanShot 2025-04-14 at 15.12.47@2x.png>)
    4. Set the **Path** to C:\Program Files\RewstRemoteAgent\\
    5. Set **File or folder** to `rewst_remote_agent_REPLACEWITHORGID.win.exe` after replacing the placeholder ORGID.
-   6. Set the **Detection method** to **File or folder exists**.&#x20;
-   7. Alternatively you can use a detection script such as the one provided in the [Immybot install guide. ](deploying-agent-smith-with-immybot.md)\
+   6. Set the **Detection method** to **File or folder exists**.
+   7. Alternatively you can use a detection script such as the one provided in the [Immybot install guide.](deploying-agent-smith-with-immybot.md)\
       ![](<../../.gitbook/assets/CleanShot 2025-04-10 at 01.15.44.png>)
 8. No alterations to the **Dependencies** or **Supersedence** tabs are needed. Under the **Assignments** tab:
    1. Assign the application to required groups, be they users or devices.\
@@ -147,13 +147,9 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 
     <figure><img src="../../.gitbook/assets/CleanShot 2025-04-10 at 01.18.44@2x.png" alt=""><figcaption></figcaption></figure>
 
-
-
     <figure><img src="../../.gitbook/assets/CleanShot 2025-04-10 at 01.20.10@2x.png" alt=""><figcaption></figcaption></figure>
 
-
-
-### Additional considerations
+#### Additional considerations
 
 * Deploy initially to a test group to verify the agent installs and detects correctly before wider distribution.
 * Intune checkin times can be sporadic at times, app deployment times may take up to 48 hours.
@@ -165,13 +161,13 @@ IntuneWinAppUtil.exe -c "C:\\AgentSmith\\source" -s "install.ps1" -o "C:\\AgentS
 
 <summary>Method 2: Deploy via Intune Platform scripts</summary>
 
-### Generate Agent Smith script
+#### Generate Agent Smith script
 
 Ensure that you have your PowerShell script from the **Provision agents** section of your [Agent Smith Configuration Guide](agent-smith-configuration-overview.md). Use a text editor such as VS Code to take this copied PowerShell script and save it as a .ps1 file.
 
-<figure><img src="../../.gitbook/assets/image (62) (2).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (2).png" alt="" width="331"><figcaption></figcaption></figure>
 
-### Configure Intune PowerShell Script
+#### Configure Intune PowerShell Script
 
 1. Navigate to **Devices > Scripts and remediations** in Intune.\
    ![](<../../.gitbook/assets/CleanShot 2025-04-10 at 00.17.55@2x.png>)
@@ -187,7 +183,7 @@ Ensure that you have your PowerShell script from the **Provision agents** sectio
 
        <figure><img src="../../.gitbook/assets/CleanShot 2025-04-10 at 00.20.30@2x.png" alt=""><figcaption></figcaption></figure>
 
-### Deploy via Intune
+#### Deploy via Intune
 
 1. Assign the script to your target device or user groups under the **Assignments** tab.\
    \

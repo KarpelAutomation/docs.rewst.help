@@ -8,7 +8,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 The Organizational Setup Report Crate offers a report of your managed organizations, including their installed integrations, mapping IDs, users, and organization variables. This can be helpful during the onboarding process to track your setup progress.
 
-Find the [webhook](https://docs.rewst.help/documentation/automations/intro-to-triggers/use-cases-and-examples/using-webhook-triggers#what-is-a-webhook-trigger) trigger URL to view the report, updated nightly.&#x20;
+Find the [webhook](https://docs.rewst.help/documentation/automations/intro-to-triggers/use-cases-and-examples/using-webhook-triggers#what-is-a-webhook-trigger) trigger URL to view the report, updated nightly.
 
 ## Unpack the Organizational Setup Report Crate
 
@@ -17,7 +17,7 @@ Find the [webhook](https://docs.rewst.help/documentation/automations/intro-to-tr
    \
    ![](<../../../.gitbook/assets/image (184).png>)
 3. Click on the Crate tile to begin unpacking.
-4. Click **Unpack Crate**.&#x20;
+4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Edit your workflow name in the **Workflow Name** field, if desired.
 7. Enter your estimate into the **Time Saved** field.
@@ -38,13 +38,13 @@ The first run of the report usually takes some time, with subsequent runs comple
 4. Select the **Web GET** trigger from the trigger drop-down selector.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-05-23 at 4.00.05 PM.png>)
-5. Click ![](<../../../.gitbook/assets/image (198).png>) to open the trigger.
+5. Click ![](<../../../.gitbook/assets/image (196).png>) to open the trigger.
 6. Under **Trigger Configuration**, click **View Webhook URLs**.
 7. Copy the URL and launch it in a new tab.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-14 at 5.00.28 PM.png" alt=""><figcaption></figcaption></figure>
 
-8. View the report. If desired after making changes, click **Background Refresh Data** to push the workflow to update the report.&#x20;
+8. View the report. If desired after making changes, click **Background Refresh Data** to push the workflow to update the report.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-02 at 11.17.26 AM.png" alt=""><figcaption><p>An example of a completed report</p></figcaption></figure>
 

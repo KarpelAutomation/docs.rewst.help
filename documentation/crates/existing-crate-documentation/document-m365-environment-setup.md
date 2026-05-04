@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Document M365 Environment Crate do?
 
-The Document M365 Environment Crate fetches user details from the Microsoft 365 API and documents this information in your documentation tool. It records details such as licenses, total users, and disabled, enabled, synced uses, as well as all members of privileged groups. The Crate ensures that all changes are recorded as part of the version history. Improve reporting accuracy, save time through automated documentation, and aid troubleshooting with readily available group information.&#x20;
+The Document M365 Environment Crate fetches user details from the Microsoft 365 API and documents this information in your documentation tool. It records details such as licenses, total users, and disabled, enabled, synced uses, as well as all members of privileged groups. The Crate ensures that all changes are recorded as part of the version history. Improve reporting accuracy, save time through automated documentation, and aid troubleshooting with readily available group information.
 
 ## Crate prerequisites
 
@@ -24,7 +24,7 @@ Before unpacking this Crate:
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
-6. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.&#x20;
+6. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
 7. Click **Unpack**.
 
 ### Test the Crate
@@ -34,7 +34,7 @@ To test this Crate, you'll need to adjust the [cron trigger](../../automations/i
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document M365 Environment` .
 3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (199).png>) to **Edit Trigger**.
+4. Click ![](<../../../.gitbook/assets/image (196).png>) to **Edit Trigger**.
 5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then. A fresh documentation record will appear in your documentation tool if the workflow is successful.
 6. Re-adjust the time of the cron trigger to when you would like it to routinely ru&#x6E;**.**
 

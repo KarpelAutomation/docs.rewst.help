@@ -41,7 +41,7 @@ A new firewall is deployed, Rewst **creates a configuration item (CI) in** Autot
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-31 at 4.40.22 PM.png" alt=""><figcaption></figcaption></figure>
 8. Click **Save**.
-9. Navigate to **Commonly Used >** **Resources (Users)**. Click **⌄** to expand the **+New** drop down selector.&#x20;
+9. Navigate to **Commonly Used >** **Resources (Users)**. Click **⌄** to expand the **+New** drop down selector.
 10. Click **New API User**. This will open a new browser tab.\
     \
     ![](<../../../../.gitbook/assets/CleanShot 2025-03-18 at 13.28.43.jpg>)
@@ -79,9 +79,9 @@ Before saving and closing the API user page, copy the Secret Key and Username . 
       1. Choose your zone of residence from the drop-down selector.
       2. This can also be referenced in your Autotask PSA URL.
    2. **Username (Key)**: `APIUser@example.com`
-   3. **API User Password**: `[Paste Secret Key]`&#x20;
-6. Click **Save**.&#x20;
-7.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+   3. **API User Password**: `[Paste Secret Key]`
+6. Click **Save**.
+7.  Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-04 at 1.08.48 PM.png" alt=""><figcaption></figcaption></figure>
 8. Note the **company Filter** section at the bottom of the configuration page. Click ![](<../../../../.gitbook/assets/Screenshot 2025-03-26 at 11.10.58 AM.png>)to create a new company filter. This will display a new submenu of options.
@@ -106,7 +106,7 @@ Ensure you enter the number for the company type you would like to filter on.
 {% endhint %}
 
 {% hint style="danger" %}
-If there are too many customers in the query, you may experience long loading times when refreshing options. If this is the case, you can make use of the page filters to make the list of customers smaller.&#x20;
+If there are too many customers in the query, you may experience long loading times when refreshing options. If this is the case, you can make use of the page filters to make the list of customers smaller.
 {% endhint %}
 
 ## Test the integration
@@ -114,7 +114,7 @@ If there are too many customers in the query, you may experience long loading ti
 1. Navigate to **Automation > Workflows** in Rewst.
 2. Create a new workflow and name it with something short and descriptive, such as `Test Autotask PSA Integration`.
 3. Drag and drop the action **List Companies** from the left actions menu to the workflow builder canvas.
-4. Click <img src="../../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (1).png" alt="" data-size="line"> to add a trigger to your workflow.
+4. Click <img src="../../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM.png" alt="" data-size="line"> to add a trigger to your workflow.
 5. Name your trigger whatever you’d like.
 6. Click into the trigger’s settings.
 7. Toggle **Enabled** to on.\
@@ -142,7 +142,7 @@ To see an up-to-date list of Crates that can be unpacked after completing Autota
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.33.25 PM.png" alt=""><figcaption></figcaption></figure>
 
-Click **Filter** to expand the filter menu. Enter **Autotask PSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
+Click **Filter** to expand the filter menu. Enter **Autotask PSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
 
@@ -158,7 +158,7 @@ By default, the Autotask PSA API User system security level does not have permis
 6. Scroll down to the **Other** tab.
 7. Check the checkbox for **Create Company Webhooks**.
 8. Enter a number. Each trigger will require at least one webhook.
-9. Click **Save**.  &#x20;
+9. Click **Save**.
 10. Edit the user you are using to authorize Rewst and set it to this new security level.
 
 {% hint style="success" %}
@@ -208,7 +208,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Autotask PSA actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 For details on Autotask’s API documentation, refer to their [official documentation](https://ww2.autotask.net/help/developerhelp/Content/0_HOME/HOME.htm).
@@ -258,4 +258,3 @@ For details on Autotask’s API documentation, refer to their [official document
 | Update Time Entry                | Updates existing time entry                           | `PATCH /V1.0/TimeEntries`                        |
 | List Webhook Event Error Logs    | Retrieves webhook event error logs                    | `POST /V1.0/WebhookEventErrorLogs/query`         |
 | Get Webhook Event Error Log      | Fetches details of a specific webhook event error log | `GET /V1.0/WebhookEventErrorLogs/{id}`           |
-
