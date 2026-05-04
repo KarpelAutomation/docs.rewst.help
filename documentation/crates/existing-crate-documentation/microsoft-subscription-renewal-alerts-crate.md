@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Microsoft Subscription Renewal Alerts Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
 
-Our Microsoft Subscription Renewal Alerts Crate monitors Microsoft 365 subscriptions and generates alerts when subscriptions approach expiration.&#x20;
+Our Microsoft Subscription Renewal Alerts Crate monitors Microsoft 365 subscriptions and generates alerts when subscriptions approach expiration.
 
 ### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
 
@@ -45,8 +45,8 @@ To use ticket creation when no matching ticket is found in the workflow's result
 
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Microsoft Subscription Renewal Alerts`.​\
-   &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (278).png>)
+   \
+   ![](<../../../.gitbook/assets/image (278).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -60,25 +60,21 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `[REWST - CRATE] M365 Subscription Renewal Alerts`.
 
-
-
     <figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
 3.  Click on the workflow to view it in the Workflow Builder.
 
-
-
     <figure><img src="../../../.gitbook/assets/image (280).png" alt=""><figcaption></figcaption></figure>
 4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your PSA's portal to ensure that the workflow is able to move new devices to their correct location as expected.
-5. If using ticket creation for your PSA with this workflow, check in your PSA to confirm that tickets are being created when conditions are met.&#x20;
+5. If using ticket creation for your PSA with this workflow, check in your PSA to confirm that tickets are being created when conditions are met.
 
 ### Update the cron trigger schedule
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for  `[REWST - CRATE] M365 Subscription Renewal Alerts`.
+2. Search for `[REWST - CRATE] M365 Subscription Renewal Alerts`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.<br>
+4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.<br>
 
     <figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
@@ -87,7 +83,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 
@@ -105,7 +101,7 @@ If you haven't done so already, we recommended that you run the [Configure Organ
 | `psa_default_ticket_status`   | Default PSA configuration | Yes      |
 | `psa_default_ticket_urgency`  | Default PSA configuration | Yes      |
 
-#### Set variables if default\_PSA is set to email\_only&#x20;
+#### Set variables if default\_PSA is set to email\_only
 
 | Variable              | Description                                             | Required                 |
 | --------------------- | ------------------------------------------------------- | ------------------------ |

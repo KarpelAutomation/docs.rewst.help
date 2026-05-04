@@ -13,7 +13,7 @@ This Crate is [deprecated](https://docs.rewst.help/documentation/crates/crate-de
 
 The Technical Toolbox Crate gives your technicians access to a wide range of tools, without the need to leave ConnectWise PSA's web-based service desk.
 
-## Crate prerequisites&#x20;
+## Crate prerequisites
 
 Before unpacking this Crate:
 
@@ -38,7 +38,7 @@ The Crate will unpack with its triggers enabled. The trigger is set to work on a
 
 ## Use the tool box
 
-On tickets with the pod running, you will see five main categories. Clicking the categories will open menu options for further tasks, as outlined below.&#x20;
+On tickets with the pod running, you will see five main categories. Clicking the categories will open menu options for further tasks, as outlined below.
 
 <figure><img src="../../../.gitbook/assets/Default View.png" alt=""><figcaption></figcaption></figure>
 
@@ -100,7 +100,7 @@ On tickets with the pod running, you will see five main categories. Clicking the
 
 Let's imagine that you have a ticket that has had its associated pod workflow execution expire or fail. If you attempt to view the pod in the ticket, you'll see something along the lines of:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-04-10 at 3.47.03 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-04-10 at 3.47.03 PM.png" alt=""><figcaption></figcaption></figure>
 
 To execute a new instance of the pod, click the **Links** drop-down menu in the ticket. Choose **Rewst - Start Pod on this Ticket**.
 

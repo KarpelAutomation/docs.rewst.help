@@ -33,11 +33,11 @@ The [Microsoft Cloud Bundle](../../integrations/integration-guides/microsoft-clo
 8. Navigate to **Automation > Workflows**.
 9. Search for `[Rewst Master v3] ITG: Document Users - [Part 1]`.
 10. Click into the workflow.
-11. Click ![](<../../../.gitbook/assets/image (205).png>) to view trigger details.
+11. Click ![](<../../../.gitbook/assets/image (196).png>) to view trigger details.
 12. Set the trigger to **Enabled**.
 13. Set the **Cron Schedule** as desired.<br>
 
-    <figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 14. Click **Submit**.
 
 {% hint style="info" %}
@@ -63,4 +63,3 @@ Enable [password access to the API user in IT Glue](https://support.itglue.com/h
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

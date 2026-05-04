@@ -136,8 +136,6 @@ To deploy the PowerShell Interpreter, you'll need these roles for your service a
 | Resource group | Resource group                    | Create and manage resources - Function App, etc. | Contributor            |
 | Key vault      | Microsoft.KeyVault/vaults/secrets | Access to the key vault if one is being used     | Key Vault Secrets User |
 
-
-
 1.  Navigate to **Settings > Interpreters** in the left side menu of your Rewst platform.<br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2026-03-06 at 10.51.01 AM.png" alt=""><figcaption></figcaption></figure>
@@ -192,7 +190,7 @@ PowerShell works in:
 * **Transitions** – e.g., to determine conditional logic
 * **Data Aliases** – e.g., when transforming or mapping data
 
-Use PowerShell  exactly as you would Jinja:
+Use PowerShell exactly as you would Jinja:
 
 <pre class="language-powershell"><code class="lang-powershell"><strong>#ps
 </strong>if ($CTX.User.Name -eq "Alice") {
@@ -213,13 +211,11 @@ The interpreter also allows for a `#psl` header for line-by-line PowerShell. Cur
 
 ## PowerShell Interpreter limitations and workarounds
 
-
-
 <details>
 
 <summary>Module persistence</summary>
 
-You shouldn't install modules at runtime. Instead, you can install them in the Azure deployment during setup. This will prevent the need to reinstall in scripts every time. However, if Rewst updates PowerShell's implementation, you'll need to reapply your customizations. If this occurs, Rewst will prompt you in-app to make this update.&#x20;
+You shouldn't install modules at runtime. Instead, you can install them in the Azure deployment during setup. This will prevent the need to reinstall in scripts every time. However, if Rewst updates PowerShell's implementation, you'll need to reapply your customizations. If this occurs, Rewst will prompt you in-app to make this update.
 
 If you modify your Azure deployment, Rewst's support team will not be able to provide support for your PowerShell Interpreter use, due to the modifications. For instructions, see [#modify-azure-package-instructions](powershell-interpreter.md#modify-azure-package-instructions "mention").
 
@@ -229,7 +225,7 @@ If you modify your Azure deployment, Rewst's support team will not be able to pr
 
 <summary>UI syntax highlighting errors</summary>
 
-The Live Editor in Rewst sometimes throws errors in syntax writing for PowerShell. Each time you would normally enter a single `\` in your scripting, enter two  `\\`  instead.
+The Live Editor in Rewst sometimes throws errors in syntax writing for PowerShell. Each time you would normally enter a single `\` in your scripting, enter two `\\` instead.
 
 </details>
 
@@ -237,14 +233,14 @@ The Live Editor in Rewst sometimes throws errors in syntax writing for PowerShel
 
 <summary>Serialization failures</summary>
 
-Returning non-JSON serializable objects (e.g., from `New-Item`) causes errors even if the command worked.  Any time we return an object from PowerShell, we need to convert the object to JSON. The error message for this is as follows:\
+Returning non-JSON serializable objects (e.g., from `New-Item`) causes errors even if the command worked. Any time we return an object from PowerShell, we need to convert the object to JSON. The error message for this is as follows:\
 `{`\
-&#x20; `"transition_errors": [`\
-&#x20;   `"Powershell Expression failed to evaluate with error: \"Object of type '`[`System.IO`](http://system.io/)`.FileInfo' is not JSON Schema compatible\""`\
-&#x20; `]`\
+`"transition_errors": [`\
+`"Powershell Expression failed to evaluate with error: \"Object of type '`[`System.IO`](http://system.io/)`.FileInfo' is not JSON Schema compatible\""`\
+`]`\
 `}`\
 \
-If you see this error, you're trying to pass an object back from PowerShell, and will need to convert it to JSON first. Add `ConvertTo-Json` to resolve this.&#x20;
+If you see this error, you're trying to pass an object back from PowerShell, and will need to convert it to JSON first. Add `ConvertTo-Json` to resolve this.
 
 <figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
@@ -263,7 +259,7 @@ Rewst's version of PowerShell does not allow the use of `Write-Host`. Instead, u
 <summary>Access to organizational variables</summary>
 
 We have limited data context available in PowerShell compared to Jinja: `$CTX`, `$RESULT` only\
-In a [data alias](../automations/workflows/data-aliases.md#what-are-data-aliases), reference the org variable you want access to, to include it in the context before you run PowerShell. This does require knowing basic Jinja to achieve.&#x20;
+In a [data alias](../automations/workflows/data-aliases.md#what-are-data-aliases), reference the org variable you want access to, to include it in the context before you run PowerShell. This does require knowing basic Jinja to achieve.
 
 </details>
 
@@ -280,8 +276,6 @@ To work around this, record everything into a variable, and provide that variabl
 
 </details>
 
-
-
 ## Modify the Azure package for Rewst's PowerShell Interpreter
 
 {% hint style="danger" %}
@@ -296,7 +290,7 @@ Confirm that you have deployed the PowerShell Interpreter before attempting the 
 
 <summary>Modify Azure package instructions</summary>
 
-### Initial setup
+#### Initial setup
 
 1. Navigate to your Azure Resource Group.
 2.  Locate and open the **Function App**.\
@@ -312,7 +306,7 @@ Confirm that you have deployed the PowerShell Interpreter before attempting the 
 5. Note the URL for the script: `rewst-powershell-{GUID}/RewstWebhook/run.ps1`
 6. Click **X** to close the RewstWebHook function and return to the Function App.
 
-### Update environment variables
+#### Update environment variables
 
 1. Navigate to **Settings > Environment Variables**.
 2. Click **Advanced Edit**.
@@ -327,7 +321,7 @@ Confirm that you have deployed the PowerShell Interpreter before attempting the 
   },
 ```
 
-### Modify Profile.ps1
+#### Modify Profile.ps1
 
 1. Navigate to **App Files**.
 2. Select `profile.ps1`.
@@ -342,7 +336,7 @@ Connect-AzAccount -Identity
 
 <figure><img src="../../.gitbook/assets/image (65) (3).png" alt=""><figcaption></figcaption></figure>
 
-### Recreate the RewstWebHook function
+#### Recreate the RewstWebHook function
 
 1. Create a new function named `RewstWebHook`.
    * **Authorization level:** Function
@@ -364,7 +358,7 @@ Connect-AzAccount -Identity
 2. Open your new **RewstWebHook**.
 3. Paste the previously saved code back into `run.ps1`.
 
-### Install PowerShell modules - persistent method
+#### Install PowerShell modules - persistent method
 
 The most reliable method is to manually upload modules directly into the Function App’s file system.
 
@@ -386,9 +380,9 @@ cd Modules
 Import-Module ModuleName
 ```
 
-### A note on persistence
+#### A note on persistence
 
-Running the following inside a script will install modules temporarily for that execution only.&#x20;
+Running the following inside a script will install modules temporarily for that execution only.
 
 ```powershell
 Install-Module ModuleName -Scope CurrentUser
@@ -400,17 +394,15 @@ Until support for persistent installs (`50982`) is implemented, manual upload is
 
 </details>
 
-
-
 ## Troubleshoot the PowerShell Interpreter
 
 ### Subscription registration error
 
-If you encounter an error of `The subscription is not registered to use namespace Microsoft.Storage`, you may need to add providers in Azure to complete setup.&#x20;
+If you encounter an error of `The subscription is not registered to use namespace Microsoft.Storage`, you may need to add providers in Azure to complete setup.
 
 In Azure:
 
-1. Navigate to **Home > Subscriptions.**&#x20;
+1. Navigate to **Home > Subscriptions.**
 2. Register each of the following resource providers:
    1. Microsoft.Web
    2. Microsoft.Insight
@@ -423,9 +415,9 @@ In Azure:
 ### Azure region quotas
 
 Users hitting deployment failures in popular regions (like East US) because subscription quotas are \`0\`. Requires manually selecting other regions.\
-\--Error is : `SubscriptionIsOverQuotaForSku` \
+\--Error is : `SubscriptionIsOverQuotaForSku`\
 Go to your azure instance. Create new resource group in a different region. Then, select that resource group during the setup process.\
-MS documentation for how to create resource group: [https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)&#x20;
+MS documentation for how to create resource group: [https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
 
 {% hint style="info" %}
 Do you have questions or feedback? Reach out to Support or post in your dedicated Discord support channel. Suggest improvements or new features in our [Canny](https://rewst.canny.io/features) feedback collector.

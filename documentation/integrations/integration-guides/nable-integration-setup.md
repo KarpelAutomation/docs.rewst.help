@@ -5,11 +5,11 @@
 
 The new REST API endpoints are only available on N-central with a version of 2023.9 or above. Contact your N-able Representative to be upgraded where applicable.
 
-&#x20;If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 {% hint style="info" %}
-&#x20;If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ## What does the N-able N-central integration do?
@@ -63,10 +63,8 @@ Set up steps in N-able N-central
 4. Under **Parameters**, enter the information copied from N-able N-central into its relevant field:
    1. **API Key:** The JSON Web Token generated on the API user you created
    2. **Base URL:** The base URL of your N-able N-central environment, e.g `rewst.n-able.com` if different from the resource server hostname
-5. Click **Save Configuration**.&#x20;
-6. Rewst will do a quick validation of your input.Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
-
-
+5. Click **Save Configuration**.
+6. Rewst will do a quick validation of your input.Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 ### Run Powershell via RMM: Script setup
 
@@ -90,7 +88,7 @@ To complete all the needed script setup steps in N-able N-central, you'll need t
     <figure><img src="../../../.gitbook/assets/image (81) (1).png" alt=""><figcaption></figcaption></figure>
 9. Enable **API Access** for the script.
 10. Note the **Repository ID**.
-11. In Rewst, [create an organization variable](../organization-variables.md#manually-add-a-new-organization-variable) named `nable_rewst_powershell_script_id` with the Repository ID as its value. Set this organization variable as default.&#x20;
+11. In Rewst, [create an organization variable](../organization-variables.md#manually-add-a-new-organization-variable) named `nable_rewst_powershell_script_id` with the Repository ID as its value. Set this organization variable as default.
 
 | Rewst URL        | Base URL            |
 | ---------------- | ------------------- |
@@ -100,7 +98,7 @@ To complete all the needed script setup steps in N-able N-central, you'll need t
 | app.rewst.eu     | engine.rewst.eu     |
 | app.rewst.asia   | engine.rewst.asia   |
 
-{% file src="../../../.gitbook/assets/run-nable-powershell (2).ps1" %}
+{% file src="../../../.gitbook/assets/run-nable-powershell.ps1" %}
 
 {% hint style="info" %}
 The org variable is only currently required as there is no way to search for a script with the existing API endpoints.
@@ -128,13 +126,13 @@ charset=utf-8'
 3. Add the action **List Agents** to the workflow builder canvas, by dragging it from the left pane.\
    \
    ![](<../../../.gitbook/assets/CleanShot 2025-03-31 at 19.28.49.jpg>)
-4. Add a trigger to your test workflow by clicking <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM (2).png" alt="" data-size="line">. Name your trigger whatever you’d like.
+4. Add a trigger to your test workflow by clicking <img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM.png" alt="" data-size="line">. Name your trigger whatever you’d like.
 5. Click into the trigger’s settings.
 6. Toggle **Enabled** to on.\
    \
    ![](<../../../.gitbook/assets/CleanShot 2025-03-31 at 19.29.17.jpg>)
 7. Set the Trigger Type to **Core - Always Pass**.
-8. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (1).png>) next to **Integration Overrides**. Add **N-able N-central** as your integration override.\
+8. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Integration Overrides**. Add **N-able N-central** as your integration override.\
    \
    ![](<../../../.gitbook/assets/CleanShot 2025-03-31 at 19.29.51.jpg>)
 9. In the **Activate Trigger To Run For** section, keep **Selected Organization** toggled on. Toggle **All current and future managed organizations** on, or choose just one or individually selected organizations from the **Organizations** drop-down selector.\
@@ -174,7 +172,7 @@ There is currently no way to identify a domain controller via the N-able REST AP
 ## N-able N-central actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 For detailed endpoint documentation, log in to your N-able account or view their API documentation [here](https://documentation.n-able.com/).
@@ -232,4 +230,3 @@ For detailed endpoint documentation, log in to your N-able account or view their
 | **User Roles**          | Create User Role                                 | Add a new user role for an organization unit and return the role id                                                                                                        |
 | **User Roles**          | Get User Role                                    | Returns a user role for a given organization unit and user role id                                                                                                         |
 | **User Roles**          | List User Roles                                  | Fetch a list of user roles for a given organization unit                                                                                                                   |
-

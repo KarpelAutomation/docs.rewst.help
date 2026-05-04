@@ -45,7 +45,7 @@ Your [RMM must be integrated](../../integrations/top-5-integration-types-get-sta
 
 ### Additional Crate configurations
 
-If desired, there are two additional trigger parameter options to configure in the unpacked workflow for this Crate.&#x20;
+If desired, there are two additional trigger parameter options to configure in the unpacked workflow for this Crate.
 
 1. Open the workflow `[Rewst- Crate] Alert on Low Disk Space` in the workflow builder.
 2. Click ![](<../../../.gitbook/assets/Screenshot 2025-11-17 at 4.41.39 PM.png>) to edit the trigger.
@@ -60,11 +60,11 @@ If desired, there are two additional trigger parameter options to configure in t
 
 To test the Crate to see if it works:
 
-1. You'll need to manually identify a device with limited disk space.&#x20;
+1. You'll need to manually identify a device with limited disk space.
 2. Navigate to **Automations > Workflows**.
 3. Search for `[Rewst- Crate] Alert on Low Disk Space`. Click to open the workflow in the Workflow Builder.
 4. Click **Test**.
-5. Check in your PSA to see if the ticket is attached to the device as expected.&#x20;
+5. Check in your PSA to see if the ticket is attached to the device as expected.
 6. If the ticket doesn't appear, check the workflow's results for the error and contact Rewst Support.
 
 ### Adjust the Crate's cron trigger
@@ -74,8 +74,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[Rewst- Crate] Alert on Low Disk Space`.
 3. Click on the workflow to view it in the workflow builder.
-4.  Click ![](<../../../.gitbook/assets/image (205).png>) to open the edit trigger menu.\
-    &#x20;
+4.  Click ![](<../../../.gitbook/assets/image (196).png>) to open the edit trigger menu.<br>
 
     <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FwnXIbYjmeXtTETWFBKkI%252FScreenshot%25202025-06-25%2520at%25205.53.42%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D53680b5e-a0a9-4260-8d31-4802c66355e8&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e56327e1&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.

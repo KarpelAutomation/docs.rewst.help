@@ -1,39 +1,39 @@
 # Data input and output: Input variables and context variables
 
 {% hint style="success" %}
-To understand this topic, you'll first need to learn the difference between an input and an output.&#x20;
+To understand this topic, you'll first need to learn the difference between an input and an output.
 
 An _input_ is information that will be put into Rewst automations. This could be the contents of a form, or information sent via integration, for example. Knowing what your input is will help you determine what to use when crafting your automations.
 
-An _output_ is the expected result of the automation.&#x20;
+An _output_ is the expected result of the automation.
 {% endhint %}
 
 ### Workflow input: Input variables
 
 Workflow inputs are commonly known as _input variables_. The role of input variables is to provide data that can be used by tasks within the workflow, or into a subworkflow.
 
-Input variables can be broken down into two parts:&#x20;
+Input variables can be broken down into two parts:
 
-1. A key&#x20;
+1. A key
 2. The specific data or values that vary
 
 This is an example of a variable where \[first\_name] is the key and Ashley is the value:
 
-&#x20;               \[first\_name] : "Ashley"
+\[first\_name] : "Ashley"
 
 {% hint style="warning" %}
 Input variables can only be modified or added on the source workflow, not clones of workflows unpacked from Crates.
 {% endhint %}
 
-You can add new variables, or modify existing ones, by navigating to your **Workflow > Configure Workflow Settings  > Input Configuration**.
+You can add new variables, or modify existing ones, by navigating to your **Workflow > Configure Workflow Settings > Input Configuration**.
 
 Click **+** next to **Input Configuration** to see a number of new fields.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-07 at 3.50.21 PM.png" alt=""><figcaption></figcaption></figure>
 
-1. **Name:** This can be a unique entry relevant to what the aim of the input is going to be. This should not contain spaces.&#x20;
-2. **Label:** This text field is used to set a friendly name. It's the field name visible at the time of input.&#x20;
-3. **Type:** Short for data type, this field defines what format the data will be in. The most common types are Text (general string), Integer (whole number), and String (a combo of characters).&#x20;
+1. **Name:** This can be a unique entry relevant to what the aim of the input is going to be. This should not contain spaces.
+2. **Label:** This text field is used to set a friendly name. It's the field name visible at the time of input.
+3. **Type:** Short for data type, this field defines what format the data will be in. The most common types are Text (general string), Integer (whole number), and String (a combo of characters).
 4. **Default Value:** You can specify a value that will be used if no other input is specified manually.
 5. **Description:** You can give a better description of what the field is used for.
 
@@ -57,7 +57,7 @@ In the example below, creating a user in Microsoft 365 using three variables:
 
 For now, these are all specified directly on the workflow rather than being submitted via a form.
 
-<figure><img src="../../../.gitbook/assets/input-configuration-example (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/input-configuration-example (1).png" alt=""><figcaption></figcaption></figure>
 
 Create an action by dragging it from the integration list on the left menu.
 
@@ -69,7 +69,7 @@ Click on this action to reveal a number of input fields on the right-hand side.
 
 Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the right of the field to open up a Monaco editor, the same type that VSCode uses. Learn more about the [code that Rewst uses, called Jinja, here](/broken/pages/Xie1v7V1Vqm4kxsoGpiM).
 
-In the image below,  see how to use the variables by using CTX, which stands for context, and then the name of the variable. This will autocomplete to make it easier to reference.
+In the image below, see how to use the variables by using CTX, which stands for context, and then the name of the variable. This will autocomplete to make it easier to reference.
 
 ![](../../../.gitbook/assets/workflow-action-outputs1.png)
 

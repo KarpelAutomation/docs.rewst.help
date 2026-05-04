@@ -1,7 +1,7 @@
 # Microsoft Cloud Integration Bundle
 
 {% hint style="warning" %}
-Rewst's previous setup for Microsoft was separate integrations for each Microsoft app. If you are an older Rewst customer and have not yet migrated from our individual integration to bundle configuration, please see the below section for how to [Migrate to the Microsoft Cloud Integration Bundle.](./#migrate-legacy-microsoft-integrations-to-the-new-microsoft-cloud-integration-bundle)&#x20;
+Rewst's previous setup for Microsoft was separate integrations for each Microsoft app. If you are an older Rewst customer and have not yet migrated from our individual integration to bundle configuration, please see the below section for how to [Migrate to the Microsoft Cloud Integration Bundle.](./#migrate-legacy-microsoft-integrations-to-the-new-microsoft-cloud-integration-bundle)
 {% endhint %}
 
 ## What is the Microsoft Cloud Integration Bundle?
@@ -11,7 +11,7 @@ The Microsoft Cloud Integration Bundle is Rewst’s solution for integrating you
 {% hint style="info" %}
 Though you’ll be working from one integration menu tile to set up all integrations, each integration will appear as its own section with its own actions in the actions list of the workflow builder.
 
-For detailed permission breakdown for all Microsoft integrations in the bundle, see our separate documentation [here](microsoft-cloud-permissions.md).&#x20;
+For detailed permission breakdown for all Microsoft integrations in the bundle, see our separate documentation [here](microsoft-cloud-permissions.md).
 {% endhint %}
 
 ## Why use the Microsoft Cloud Integration Bundle?
@@ -39,7 +39,7 @@ You'll be prompted to check off any or all of the following integrations to be i
 ## Set up the Microsoft Cloud Integration Bundle
 
 {% hint style="info" %}
-We've broken down instructions into three  larger steps, each with its own section. Read through the entire process before starting step 1 to familiarize yourself with what will be needed.
+We've broken down instructions into three larger steps, each with its own section. Read through the entire process before starting step 1 to familiarize yourself with what will be needed.
 
 Click each expander to open and view that substep's instructions and information.
 {% endhint %}
@@ -54,8 +54,6 @@ To set up Rewst integration, you'll need a new service account that has Global A
 
 <summary>Create a user in Microsoft Entra to use as your Rewst service account.</summary>
 
-
-
 1. Navigate to **Overview > +Add > User > Create new user** in Microsoft Entra.
 
 <figure><img src="../../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
@@ -63,7 +61,7 @@ To set up Rewst integration, you'll need a new service account that has Global A
 2. Name the user `Rewst`.
 3. Check the box **derive from user principal name**.
 4. Enter a display name of `Rewst Service Account`.
-5. Auto generate a password.&#x20;
+5. Auto generate a password.
 6. Document all the user's information within your documentation platform. Be sure to note the user principal name.\
    \
    ![](<../../../../.gitbook/assets/image (210).png>)
@@ -79,8 +77,6 @@ To set up Rewst integration, you'll need a new service account that has Global A
 
 <figure><img src="../../../../.gitbook/assets/image (73) (1).png" alt=""><figcaption><p>The group selection list</p></figcaption></figure>
 
-
-
 <figure><img src="../../../../.gitbook/assets/image (74) (1).png" alt=""><figcaption><p>How the group will appear in the <strong>Assignments</strong> list if you have this properly enabled</p></figcaption></figure>
 
 12. Click **Review + Create**, then **Create**.
@@ -91,14 +87,12 @@ To set up Rewst integration, you'll need a new service account that has Global A
 
 <summary>Turn on MFA requirement for the user</summary>
 
-
-
 1. Log in to the Microsoft 365 Admin Center.
 2. Navigate to **Users > Active Users > Multifactor Authentication**.
 3. Locate and select your Rewst service account user in the list that appears.
 4. Click **Enable** under the **Quick Steps** menu.
 5. Select the Rewst service account user again.
-6. Click **Enforce** under the **Quick Steps** menu.&#x20;
+6. Click **Enforce** under the **Quick Steps** menu.
 7. Click **Enforce multi-factor**.
 
 {% hint style="warning" %}
@@ -111,7 +105,7 @@ Only Microsoft authentication is permissible. Providers like Duo are incompatibl
 
 <summary>Modify conditional access policy in Microsoft Azure</summary>
 
-#### Set up your MSP's policies
+**Set up your MSP's policies**
 
 {% hint style="info" %}
 This step is unnecessary if the tenant is under Microsoft default security settings. If you have no conditional access policies and are operating under security defaults, which already require MFA, skip to the next section.
@@ -124,12 +118,12 @@ This step is unnecessary if the tenant is under Microsoft default security setti
    * **Enforce MFA**: Mandate Azure Multi-factor Authentication for each login and application if you have not done so already
    * **Policy Name**: Save this policy under the name `Rewst Conditional Access Policy`
 
-#### Set up your Client's policies
+**Set up your Client's policies**
 
 Granular access is influenced by your clients' [conditional access policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview). To ensure seamless access to your clients using your Rewst integration user, follow these steps
 
 1. Navigate to your client's [Conditional Access Policies](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies) blade in Azure.
-2. &#x20;For each policy listed, add an exclusion to **Users and Groups** with these settings:
+2. For each policy listed, add an exclusion to **Users and Groups** with these settings:
    * Guest or external users
    * Service Provider Users
    * **Tenant ID**: Enter your tenant ID. If unknown, find it at [What Is My Tenant ID](https://whatismytenantid.com/).
@@ -143,8 +137,6 @@ Granular access is influenced by your clients' [conditional access policies](htt
 * **Quick refresh**: Click the blue shield icon next to the client's name on the Microsoft Cloud Integration Bundle page in Rewst to expedite propagation.
 {% endhint %}
 
-
-
 </details>
 
 ### Step 2: Register the enterprise app and authorize the Rewst integration
@@ -155,16 +147,12 @@ Granular access is influenced by your clients' [conditional access policies](htt
 
 1.  Choose how to register the app.
 
-
-
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-18 at 3.16.36 PM.png" alt=""><figcaption></figcaption></figure>
 
     1. Most users should select the Rewst-created enterprise app. It simplifies setup, includes the required permissions, and is secure. Unless you’re absolutely sure you need your own, choose the default option.
     2. If you are absolutely certain that you must bring your own app rather than using the Rewst-created one, choose this registration option. Owned app registration instructions can be found here: [https://docs.rewst.help/documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/owned-app-registration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/microsoft-cloud-integration-bundle/owned-app-registration)
     3. Click **Next**.
 2.  Set permissions for Microsoft Graph.
-
-
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-19 at 3.41.50 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -199,7 +187,7 @@ Granular access is influenced by your clients' [conditional access policies](htt
 ### Step 3: Link your customers to Rewst child organizations
 
 {% hint style="info" %}
-This section covers the different ways you can set up your child organizations. Please read through the entire section before beginning, to determine which of the situational steps are right for you.  How you complete this step will depend on the way you choose to use Rewst: If you're unsure of which of these situations apply to you, contact Rewst Support for assistance.\
+This section covers the different ways you can set up your child organizations. Please read through the entire section before beginning, to determine which of the situational steps are right for you. How you complete this step will depend on the way you choose to use Rewst: If you're unsure of which of these situations apply to you, contact Rewst Support for assistance.\
 \
 If you are part of the Microsoft Cloud Solution Provider (CSP) program and have access to GDAP, follow the instructions below to configure GDAP before linking customers.
 {% endhint %}
@@ -216,7 +204,7 @@ For example, let’s say that 12 roles map to 177 permissions.
 * The enterprise app will look for permissions.
 * The enterprise app will ask if it is making the call at customer level, and if there are roles at the customer level.
 
-#### Click to expand instructions and choose your situation from these three methods&#x20;
+#### Click to expand instructions and choose your situation from these three methods
 
 <details>
 
@@ -230,16 +218,14 @@ If you are part of the Microsoft Cloud Solution Provider (CSP) program and have 
    \
    ![](<../../../../.gitbook/assets/image (331).png>)<br>
 2. Return to your Rewst platform. Navigate to **Marketplace > Integrations > Microsoft Cloud Bundle**.
-3. Use the **organization mapping** menu that appears at the bottom of the screen to choose the customer organizations you wish to map the bundle to.&#x20;
+3. Use the **organization mapping** menu that appears at the bottom of the screen to choose the customer organizations you wish to map the bundle to.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.21.58 PM.png" alt=""><figcaption></figcaption></figure>
 
 3. Click **consent** next to your organization to consent for just that customer. Alternatively, click <img src="../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.23.48 PM.png" alt="" data-size="line"> to consent to delegated admin permissions for all linked customers. If you haven't completed GDAP set up for all customers, this button will fail on the uncompleted customers.
-4. Check for each of your organizations to ensure that the consent process was successful.&#x20;
+4. Check for each of your organizations to ensure that the consent process was successful.
    1. A green shield to the right of the integration name means the GDAP relationship is working and API access is valid.
    2. A blue shield or error means setup failed, and permissions are missing or incorrectly configured.
-
-
 
 </details>
 
@@ -249,10 +235,10 @@ If you are part of the Microsoft Cloud Solution Provider (CSP) program and have 
 
 Follow these instructions to set up GDAP relationships without the Rewst Microsoft GDAP Assistant Crate. Note that Rewst recommends using the Crate if possible, for a better setup experience.
 
-#### Assign the security group to the service account user you created previously&#x20;
+**Assign the security group to the service account user you created previously**
 
 1. Navigate to **Manage > Groups**. Click **+New Group**.
-   1. Choose **security group** as the group type.&#x20;
+   1. Choose **security group** as the group type.
    2. Name the group `Rewst GDAP-[ROLE NAME]`.
    3. Enter `for SCP GDAP role assignment` as the description.
    4. Choose **Yes** for **Microsoft Entra roles can be assigned to the group**.
@@ -260,9 +246,9 @@ Follow these instructions to set up GDAP relationships without the Rewst Microso
    6. Click **Create**.
    7. Click **Yes** in the dialog that appears.
 2. You will need to complete step 1 a total of 12 times, to create 12 security groups, each named differently to indicate the role it is associated with. For example, `Rewst GDAP-[NEXT ROLE NAME]`, etc.
-3. Wait for the status to change to **Active**. Note that this can take anywhere from a few minutes to 24 hours depending on Microsoft's response time.&#x20;
+3. Wait for the status to change to **Active**. Note that this can take anywhere from a few minutes to 24 hours depending on Microsoft's response time.
 
-#### Assign recommended roles for GDAP
+**Assign recommended roles for GDAP**
 
 1. Navigate to [partner.microsoft.com](http://partner.microsoft.com) and sign in.
 2. Click **Partner Center > Customers > Customer List**.\
@@ -288,25 +274,21 @@ Follow these instructions to set up GDAP relationships without the Rewst Microso
    11. [**SharePoint Administrator**](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#sharepoint-administrator) **-** Manages all aspects of SharePoint Online, Microsoft 365 groups, support tickets, service health. Scoped permissions for Microsoft Intune, SharePoint, and OneDrive resources.
    12. [**Teams Administrator**](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#teams-administrator) **-** Manages all aspects of Microsoft Teams, including telephony, messaging, meetings, teams, Microsoft 365 groups, support tickets, and service health.
 9. Click **Save**.
-10. Review your selection and click **Finalize Request**. \
-    ![](<../../../../.gitbook/assets/image (216).png>)
-11. You'll be redirected to a page that shows the request. Copy the link in that page.&#x20;
-12. Email the link to your customer. They will need to accept the request to continue your bundle set up steps. Once approved, the relationship will show as **Active** in the **Admin Relationships** list. \
+10. Review your selection and click **Finalize Request**.\
+    ![](<../../../../.gitbook/assets/image (215).png>)
+11. You'll be redirected to a page that shows the request. Copy the link in that page.
+12. Email the link to your customer. They will need to accept the request to continue your bundle set up steps. Once approved, the relationship will show as **Active** in the **Admin Relationships** list.\
     You may also approve on the customer's behalf since you have Global Administrative privileges. To do this, choose to send the email to yourself. Note that if you choose this option, it will still send an email to your customer. You may want to notify them that they can disregard the email.
 13. Add the 12 Security Groups created to the relationship. This can only be done after the request is accepted.
 14. Return to your Rewst platform. Navigate to **Configuration > Integrations > Microsoft Cloud Bundle**.
-15. Use the **organization mapping** menu that appears at the bottom of the screen to choose the customer organizations you wish to map the bundle to.&#x20;
+15. Use the **organization mapping** menu that appears at the bottom of the screen to choose the customer organizations you wish to map the bundle to.
 16. Click **consent** next to your organization to consent for just that customer. Alternatively, click <img src="../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.23.48 PM.png" alt="" data-size="line"> to consent to delegated admin permissions for all linked customers. If you haven't completed GDAP set up for all customers, this button will fail on the uncompleted customers.
-17. Check for each of your organizations to ensure that the consent process was successful.&#x20;
+17. Check for each of your organizations to ensure that the consent process was successful.
 
     1. A green shield to the right of the integration name means the GDAP relationship is working and API access is valid.
     2. A blue shield or error means setup failed, and permissions are missing or incorrectly configured.
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-12-11 at 12.21.58 PM.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
 
 </details>
 
@@ -325,7 +307,7 @@ Follow these instructions to link customers if you don't have a CSP or want to u
    2. Choose **Rewst Microsoft Cloud Connector**.\
       \
       ![](<../../../../.gitbook/assets/Screenshot 2025-09-05 at 12.19.46 PM.png>)
-   3. &#x20;Click **Next**.
+   3. Click **Next**.
    4. Choose your tenant permissions. Click the **Microsoft Graph Permissions** accordion menu to expand and view the total permission list. Unless you have specific, verified reasons for unchecking any of these boxes, we recommend leaving our stock settings checked.
    5. Click **Next**.
    6.  Double check your choices and click **Authorize**.\
@@ -336,19 +318,15 @@ Follow these instructions to link customers if you don't have a CSP or want to u
 
        This process may take a few moments to complete. Don't navigate away from this page until the process is finished.
 4. Repeat these delegated admin permission consent steps for each customer organization you where wish to set up the Microsoft Cloud integration bundle.
-5.  Check for each of your organizations to ensure that the consent process was successful.&#x20;
+5.  Check for each of your organizations to ensure that the consent process was successful.
 
     1. A green shield to the right of the integration name means the GDAP relationship is working and API access is valid.
     2. A blue shield or error means setup failed, and permissions are missing or incorrectly configured.
 
-
-
     <figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-05 at 12.22.37 PM.png" alt=""><figcaption></figcaption></figure>
 
-
-
 {% hint style="success" %}
-#### Once you have completed the integration under your child organization, you can remove the Global Admin permission and add these 12 roles the Rewst Service account you have created for your customer.&#x20;
+**Once you have completed the integration under your child organization, you can remove the Global Admin permission and add these 12 roles the Rewst Service account you have created for your customer.**
 {% endhint %}
 
 1. [Application Administrator](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#application-administrator) - Can create and manage all applications, service principals, app registration, enterprise apps, consent requests. Cannot manage directory roles, security groups.
@@ -368,7 +346,7 @@ Follow these instructions to link customers if you don't have a CSP or want to u
 
 ## Manage your organizations that have been registered with enterprise apps in Rewst
 
-If you’d like to manage your internal organization with Rewst and enable it to run automations, you’ll need to assign specific roles to your Rewst service account. If you don't want to manage your internal MSP, you can remove the Global Administrator Role now.  If you wish to continue managing your MSP organization, add the 12 roles indicated below to the Rewst service account. Then, remove the Global Administrator Role.  Removing the role will not remove the 12 added roles.
+If you’d like to manage your internal organization with Rewst and enable it to run automations, you’ll need to assign specific roles to your Rewst service account. If you don't want to manage your internal MSP, you can remove the Global Administrator Role now. If you wish to continue managing your MSP organization, add the 12 roles indicated below to the Rewst service account. Then, remove the Global Administrator Role. Removing the role will not remove the 12 added roles.
 
 * If you used the Rewst Microsoft GDAP Assistant Crate to set up your GDAP roles, you'll still need to manually add these roles to your Rewst service account. The Crate does not add them at the MSP parent organization level for you.
 * If you chose to set up the GDAP roles manually without using the Crate, you'll also need to manually add these roles to your Rewst service account. Note that they're the same 12 roles that you used previously.
@@ -435,4 +413,4 @@ After migrating, you'll configure each integration according to your needs, incl
 
 ## Troubleshoot the Microsoft Cloud integration bundle setup
 
-We have a separate guide with all bundle troubleshooting information. View that page [here](microsoft-cloud-integration-bundle-troubleshooting-guide.md).&#x20;
+We have a separate guide with all bundle troubleshooting information. View that page [here](microsoft-cloud-integration-bundle-troubleshooting-guide.md).

@@ -31,7 +31,7 @@ The [IT Glue integration](../../integrations/integration-guides/it-glue-integrat
 1. Navigate to **Crates** > **Crate Marketplace** in the left side menu Rewst platform.
 2.  Search for `Relate ITG Contact with ITG Configuration`.<br>
 
-    ![](<../../../.gitbook/assets/image (233).png>)
+    ![](<../../../.gitbook/assets/image (232).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.

@@ -24,7 +24,7 @@ Our ITPortal integration enables you to seamlessly update documentation.
 7. Click **Generate API Key**.
 8.  Copy the new API key and store it somewhere secure. Once you leave this screen you won't be able to view the key again. You'll need this information for further steps in Rewst.
 
-    <figure><img src="../../../.gitbook/assets/Step6 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Step6.png" alt=""><figcaption></figcaption></figure>
 
 ### Set up steps in Rewst
 
@@ -37,9 +37,9 @@ Our ITPortal integration enables you to seamlessly update documentation.
    1. Enter the key copied from ITPortal into the **API Key** field
    2. Enter the **Base URL** from your ITPortal environment - e.g. demo.itportal.com
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
-<figure><img src="../../../.gitbook/assets/step8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/step8.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
@@ -48,7 +48,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category                   | Action                             | Description                                                                                                                                                                |

@@ -35,14 +35,14 @@ The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to strea
 5. Enter Rewst into the **API Key Name** field.
 6. Enter your desired explanation into the **Description** field.
 7. Use the **Scopes** drop-down to select the following scopes that will be attached to the API Key. This list is what Rewst recommends for the integration. If desired, you may add additional scopes or remove scopes. The integration will require at least one scope to work. Note that any scoping that deviates from our recommended list may create unknown errors or dependencies. Rewst support is not responsible for assisting you with custom scoping.
-   1. platform.companies.read&#x20;
-   2. platform.sites.read&#x20;
-   3. platform.asset.read&#x20;
-   4. platform.custom\_fields\_definitions.read&#x20;
-   5. platform.custom\_fields\_values.read&#x20;
-   6. platform.custom\_fields\_values.write&#x20;
-   7. platform.patching.read&#x20;
-   8. platform.automation.read&#x20;
+   1. platform.companies.read
+   2. platform.sites.read
+   3. platform.asset.read
+   4. platform.custom\_fields\_definitions.read
+   5. platform.custom\_fields\_values.read
+   6. platform.custom\_fields\_values.write
+   7. platform.patching.read
+   8. platform.automation.read
    9. platform.automation.create
    10. platform.devices.read
    11. platform.devicegroups.read
@@ -56,13 +56,13 @@ The ConnectWise ASIO platform empowers Managed Service Providers (MSPs) to strea
 ### Set up steps in Rewst
 
 {% hint style="warning" %}
-If editing an existing setup of the integration, note that previously created access tokens are cached with a lifetime of one hour. Wait an hour before reauthorizing.&#x20;
+If editing an existing setup of the integration, note that previously created access tokens are cached with a lifetime of one hour. Wait an hour before reauthorizing.
 {% endhint %}
 
 1. Navigate to **Marketplace > Integrations** in the left side menu of your Rewst platform.
 2. Search for `ConnectWise ASIO` in the integrations page.\
    \
-   ![](<../../../.gitbook/assets/image (3) (5).png>)
+   ![](<../../../.gitbook/assets/image (2) (7).png>)
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the following details copied from ConnectWise ASIO into the relevant fields under the **Parameters** section:
    * **API Key -** This is the OAuth2 API Key for ConnectWise API access
@@ -89,7 +89,7 @@ Got an idea for a new integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category            | Action                       | Description                                                                                         |

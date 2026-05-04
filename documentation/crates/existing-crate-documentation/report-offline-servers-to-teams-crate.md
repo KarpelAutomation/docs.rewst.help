@@ -18,7 +18,7 @@ Our Report Offline Servers to Teams Crate is designed to track offline servers a
 
 ### Workflow breakdown
 
-The workflow unpacked from this Crate will identify the offline ConnectWise Automate servers and validate them against ConnectWise ScreenConnect. This helps confirm if the servers are actually offline or experiencing communication issues.&#x20;&#x20;The workflow will attempt to restart the ConnectWise Automate agent service twice. If the status is still offline, the workflow will use a webhook URL to post the notification to Microsoft Teams. The workflow will require the fully qualified domain name or the FQDN of your ConnectWise Automate server.
+The workflow unpacked from this Crate will identify the offline ConnectWise Automate servers and validate them against ConnectWise ScreenConnect. This helps confirm if the servers are actually offline or experiencing communication issues. The workflow will attempt to restart the ConnectWise Automate agent service twice. If the status is still offline, the workflow will use a webhook URL to post the notification to Microsoft Teams. The workflow will require the fully qualified domain name or the FQDN of your ConnectWise Automate server.
 
 ## Crate prerequisites
 
@@ -70,14 +70,12 @@ Refer to the following FQDN examples:
 * fileserver01.contoso.com
 * app01.company.com
 
-To obtain the FQDN, sign in to your organization's ConnectWise Automate account. The FQDN is the portion of the URL that appears before `/automate`. Copy the FQDN and store it somewhere secure. You'll need this for further steps in Rewst.&#x20;
+To obtain the FQDN, sign in to your organization's ConnectWise Automate account. The FQDN is the portion of the URL that appears before `/automate`. Copy the FQDN and store it somewhere secure. You'll need this for further steps in Rewst.
 
 #### In Rewst
 
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Report Offline Servers to Teams`.​
-
-
 
     ![](<../../../.gitbook/assets/image (305).png>)
 3. Click on the Crate tile to begin unpacking.
@@ -99,8 +97,6 @@ You can test this Crate to ensure that the workflow executes correctly. However,
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2.  Search for `[ROC] RMM: Report Offline Servers to Teams`.
 
-
-
     <figure><img src="../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
 3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test** in the top right corner of the builder canvas.
@@ -114,11 +110,9 @@ You can test this Crate to ensure that the workflow executes correctly. However,
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for  `[ROC] RMM: Report Offline Servers to Teams`.
+2. Search for `[ROC] RMM: Report Offline Servers to Teams`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
-
-
+4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
 
     <figure><img src="../../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 

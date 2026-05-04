@@ -4,13 +4,13 @@
 To understand this topic, you'll need to first complete Lesson 3 of the Cluck University course Automation Basics. This will introduce you to JSON and teach you how to both understand and use JSON in Rewst. If you haven't done your coursework yet, start there, then come back to this document.
 {% endhint %}
 
-## **What are Data aliases?**&#x20;
+## **What are Data aliases?**
 
 A _data alias_ is a shortcut that extracts specific pieces of information from a JSON response and stores them in an easy-to-use _variable_. Instead of navigating the entire JSON structure every time, a data alias pulls out exactly what you need—like a user’s name or email—and makes it accessible throughout your workflow. Think of data aliases as custom labels you assign to specific data.
 
-Recall that _the context_ is where all data generated, captured, or used in a workflow is stored. Think of it as a shared memory for a specific workflow. Data aliases are stored in the context, making them available for reuse at any step in your workflow without re-fetching the data.&#x20;
+Recall that _the context_ is where all data generated, captured, or used in a workflow is stored. Think of it as a shared memory for a specific workflow. Data aliases are stored in the context, making them available for reuse at any step in your workflow without re-fetching the data.
 
-For example, imagine that you've set up your Microsoft Graph integration. You send a request via API call to get info about a user. The response comes back to you in JSON format, which can be lengthy and time consuming to search through. A data alias would let you get all of the information, or pinpoint specific information like the user's name or email address, and store it in a simpler variable in the context for use.&#x20;
+For example, imagine that you've set up your Microsoft Graph integration. You send a request via API call to get info about a user. The response comes back to you in JSON format, which can be lengthy and time consuming to search through. A data alias would let you get all of the information, or pinpoint specific information like the user's name or email address, and store it in a simpler variable in the context for use.
 
 Together, variables, data aliases, and the context make your workflows in Rewst more efficient, organized, and adaptable. These tools help you reuse workflows, reduce manual work, and customize data handling to fit any automation need.
 
@@ -51,8 +51,6 @@ You can also use a data alias to extract specific information and manipulate dat
 
     <figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Add a data alias to a workflow
 
 Data aliases are added via transitions. See more about how to use [transitions in workflows here](task-transitions.md).
@@ -67,9 +65,9 @@ Data aliases are added via transitions. See more about how to use [transitions i
 ## Access data aliases in a workflow
 
 1. Navigate to **Automations > Workflows**.
-2. Search for your desired workflow.&#x20;
-3.  Click **>** to the far right of that workflow to open its workflow builder canvas. \
+2. Search for your desired workflow.
+3.  Click **>** to the far right of that workflow to open its workflow builder canvas.\
     <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-06 at 4.39.51 PM.png" alt=""><figcaption></figcaption></figure>
-4. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.42.21 PM (1).png" alt="" data-size="line"> to open the **Data Aliases** menu. This will display a complete list of all data aliases for that workflow.
+4. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.42.21 PM.png" alt="" data-size="line"> to open the **Data Aliases** menu. This will display a complete list of all data aliases for that workflow.

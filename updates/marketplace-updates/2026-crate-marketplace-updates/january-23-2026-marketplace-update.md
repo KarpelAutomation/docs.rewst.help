@@ -13,25 +13,25 @@
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-### Crates
+#### Crates
 
 * [Document M365 Environment](../../../documentation/crates/existing-crate-documentation/document-m365-environment-setup.md)
-  * Replaced deprecated Microsoft licensing download endpoint with a template; removed endpoint tasks and updated all references&#x20;
+  * Replaced deprecated Microsoft licensing download endpoint with a template; removed endpoint tasks and updated all references
 * [Microsoft: User Onboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
   * Expanded ISO 3166 country code data; added workflow to look up ISO codes; added usage\_location input and updated AD user tasks to reference new ISO values
-  * Updated Device Name field logic in \[REWST - PROC] User: Change Password to include primary/preferred domain controller org variables&#x20;
-  * Added validation to ensure SQL integration is installed and db\_override is enabled before proceeding&#x20;
+  * Updated Device Name field logic in \[REWST - PROC] User: Change Password to include primary/preferred domain controller org variables
+  * Added validation to ensure SQL integration is installed and db\_override is enabled before proceeding
 * Rewst: User Onboarding - deprecated Crate updated to support customers using legacy versions
-  * Updated Get Subscribed Products sub-workflow to use a SKU template instead of pulling from Microsoft; affects older onboarding forms&#x20;
+  * Updated Get Subscribed Products sub-workflow to use a SKU template instead of pulling from Microsoft; affects older onboarding forms
 
-### Kits
+#### Kits
 
 There were no updates to kits this week.
 
-### Subworkflows
+#### Subworkflows
 
 * \[REWST - TASK] CW Control: Run Powershell - used by every Crate that works with RMM integrations
-  * Added logging to check\_if\_device\_name\_id noop and old\_find\_session\_groups&#x20;
+  * Added logging to check\_if\_device\_name\_id noop and old\_find\_session\_groups
 
 </details>
 

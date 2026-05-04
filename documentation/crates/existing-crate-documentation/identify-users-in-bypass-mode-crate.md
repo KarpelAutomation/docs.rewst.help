@@ -35,11 +35,10 @@ Before unpacking this Crate:
 3.  Click into the workflow.<br>
 
     <figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
-4.  The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking ![](<../../../.gitbook/assets/image (200).png>). You also have the option to set an email send to notify you if the workflow fails.<br>
+4.  The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking ![](<../../../.gitbook/assets/image (196).png>). You also have the option to set an email send to notify you if the workflow fails.<br>
 
     <figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

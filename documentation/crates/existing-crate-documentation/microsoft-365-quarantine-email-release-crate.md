@@ -20,9 +20,9 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
    ![](<../../../.gitbook/assets/image (175).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
-5. Click **Continue**.&#x20;
-6. Enter your estimated time saved into the **Time Saved (seconds)** field.&#x20;
-7. Click **Unpack**.&#x20;
+5. Click **Continue**.
+6. Enter your estimated time saved into the **Time Saved (seconds)** field.
+7. Click **Unpack**.
 
 ### Test the Crate
 
@@ -30,8 +30,8 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 2.  Search for M365 Quarantine Release. Click on the workflow to open it in the workflow builder. Note that this workflow is triggered by a form submission.<br>
 
     <figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
-3. Click ![](<../../../.gitbook/assets/image (199).png>) to access the **Edit Trigger** page.
-4.  Click ![](<../../../.gitbook/assets/Screenshot 2025-03-31 at 5.16.58 PM.png>) under **Trigger Configuration** to copy the form's URL. <br>
+3. Click ![](<../../../.gitbook/assets/image (196).png>) to access the **Edit Trigger** page.
+4.  Click ![](<../../../.gitbook/assets/Screenshot 2025-03-31 at 5.16.58 PM.png>) under **Trigger Configuration** to copy the form's URL.<br>
 
     <figure><img src="../../../.gitbook/assets/image (66) (1).png" alt=""><figcaption></figcaption></figure>
 5. Paste the URL into a new browser tab.
@@ -43,7 +43,7 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
    5. Choose to allow or deny future messages from the sender.
    6. Choose to release the email to all recipients, or only the selected user.
 7. Click **Submit**.
-8.  Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> to view the results of the workflow. If there are errors in the result record, the Crate is not working properly. <br>
+8.  Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM.png" alt="" data-size="line"> to view the results of the workflow. If there are errors in the result record, the Crate is not working properly.<br>
 
     <figure><img src="../../../.gitbook/assets/image (64) (1).png" alt=""><figcaption></figcaption></figure>
 

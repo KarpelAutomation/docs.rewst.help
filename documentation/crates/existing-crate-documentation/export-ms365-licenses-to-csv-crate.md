@@ -10,14 +10,14 @@ This Crate is designed to automate the audit of Microsoft 365 licenses within a 
 
 ### How the Crate works
 
-1. &#x20;Initially, the workflow scans the Microsoft 365 tenant to identify all licenses.
+1. Initially, the workflow scans the Microsoft 365 tenant to identify all licenses.
 2. It generates a CSV report detailing the license information, such as type, usage, and allocation.
 3. The CSV is then attached to a designated ticket within the PSA.
 4. The entire process is set to recur at regular intervals for continuous monitoring and auditing.
 
 ## Crate prerequisites
 
-* Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.&#x20;
+* Your [PSA must be successfully integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst before unpacking this Crate.
 * The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Export MS365 Licenses to CSV Crate
@@ -46,7 +46,7 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] MS Graph - M365 License Export`.
 3. Click on the workflow to view it in the workflow builder.
-4. Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.
+4. Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 

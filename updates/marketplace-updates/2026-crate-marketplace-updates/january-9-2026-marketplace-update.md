@@ -1,8 +1,8 @@
-# January 9, 2026 - Marketplace Update
+# January 9, 2026 - Marketplace update
 
 <details>
 
-<summary><strong>New Crates</strong> </summary>
+<summary><strong>New Crates</strong></summary>
 
 There are no new Crates this week.
 
@@ -12,7 +12,7 @@ There are no new Crates this week.
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-### Crates
+#### Crates
 
 * [Microsoft: User Onboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
   * Use email as UPN to prevent incorrect user assignment
@@ -45,7 +45,7 @@ There are no new Crates this week.
 * [Report on Disabled M365 Users with Licenses](../../../documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
   * Use trigger type name "Webhook" instead of ID in condition
 * [Microsoft: User Offboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
-  * Use user\_filter input instead of hardcoded asterisk (\*)&#x20;
+  * Use user\_filter input instead of hardcoded asterisk (\*)
 * [Billing Count Report](../../../documentation/crates/existing-crate-documentation/billing-count-report-crate.md)
   * Wrap CTX.id in array for auvik\_list\_devices\_info/details input handling
 * [Bulk Create Client from PSA](../../../documentation/crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md)
@@ -59,7 +59,7 @@ There are no new Crates this week.
 * [Change a User's Password](../../../documentation/crates/existing-crate-documentation/change-a-users-password-crate.md)
   * Added PSAs and RMMs as associated integrations on the crate details page
 
-### Workflows
+#### Workflows
 
 * \[REWST - TASK] Agent Smith: Run Powershell
   * Move output data alias from query\_device 404 to retry max-retries transition

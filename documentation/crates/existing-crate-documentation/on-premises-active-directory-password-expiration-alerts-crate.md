@@ -17,7 +17,7 @@ This workflow is designed for on-premises Active Directory only. It does not mon
 * Ensures that passwords are updated promptly, reducing the likelihood of unauthorized access due to expired passwords
 * Streamlines the password management process, lowering the frequency of IT support tickets related to password issues and freeing up resources for other critical tasks
 
-The workflow is initiated by a scheduled task that runs a PowerShell script at predefined intervals.&#x20;
+The workflow is initiated by a scheduled task that runs a PowerShell script at predefined intervals.
 
 If Rewst's [PowerShell interpreter](../../settings/powershell-interpreter.md) tool is installed, Crate workflows which have multiple-system dependencies will have increased efficiency with faster and more consistent cloud-native executions that are completed in seconds.
 
@@ -31,20 +31,18 @@ One of the following RMM integrations must be set up before unpacking this Crate
 * [Kaseya VSA](../../integrations/integration-guides/kaseya-vsa-integration-setup.md)
 * [Kaseya VSA X](../../integrations/integration-guides/kaseya-vsa-x-integration-setup.md)
 * [N-able (NAble)](../../integrations/integration-guides/n-able-n-sight-integration.md)
-* [NinjaOne](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/documentation/configuration/integrations/integration-guides/ninjaone-integration-setup)
+* [NinjaOne](../../integrations/integration-guides/ninjaone-integration-setup.md)
 * [SuperOps](../../integrations/integration-guides/superops-integration.md)
 
 The following must be set up before unpacking this Crate:
 
 * [PowerShell](../../jinja/use-powershell-scripts-in-rewst.md) scripts
-* `password_expiry_crate_admin_email`  [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable)
+* `password_expiry_crate_admin_email` [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable)
 
 ## Unpack the On-Premises Active Directory Password Expiration Alerts Crate <a href="#unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate" id="unpack-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate"></a>
 
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `On-Premises Active Directory Password Expiration Alerts`.​
-
-
 
     ![](<../../../.gitbook/assets/image (259).png>)
 3. Click on the Crate tile to begin unpacking.
@@ -65,7 +63,7 @@ Since this workflow sends real emails to real users, consider testing against a 
 2. Search for `Alert: Password Expiry - Notify End User`.
 3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test**.
-5. Click **Run Test** to confirm.&#x20;
+5. Click **Run Test** to confirm.
 6. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
 7. Confirm that the **check\_expiring\_passwords** task successfully connected to the domain controller and returned data. If it failed, check that your RMM integration is properly configured and the domain controller is reachable.
 8. Check your inbox or the inbox of the test users to confirm the password expiry notification emails were actually delivered.

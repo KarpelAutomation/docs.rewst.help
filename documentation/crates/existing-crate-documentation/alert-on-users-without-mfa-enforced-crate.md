@@ -56,8 +56,8 @@ Your PSA must be successfully integrated with Rewst. PSAs that work with this Cr
 
 1. Navigate to **Marketplace** **> Crates** in the left side menu Rewst platform.
 2. Search for `Alert on Users Without MFA Enforced`.​\
-   &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (265).png>)
+   \
+   ![](<../../../.gitbook/assets/image (265).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -82,18 +82,18 @@ To test this Crate, you'll need to adjust the cron trigger's schedule to a few m
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for  `[REWST - PROC] Alert on Users Without MFA Enforced`.
+2. Search for `[REWST - PROC] Alert on Users Without MFA Enforced`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (205).png" alt="" data-size="line"> to open the edit trigger menu.<br>
+4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.<br>
 
-    <figure><img src="../../../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (271).png" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
 6. Click **Submit**.
 
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](../../integrations/organization-variables.md).
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 

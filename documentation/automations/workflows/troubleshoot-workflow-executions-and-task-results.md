@@ -7,7 +7,7 @@ If the issue involves another platform like your [RMM](../../integrations/top-5-
 ## Workflow executions for troubleshooting
 
 {% hint style="info" %}
-See our documentation for how to view workflow results [here](https://docs.rewst.help/documentation/automations/workflows#view-specific-workflow-results).&#x20;
+See our documentation for how to view workflow results [here](https://docs.rewst.help/documentation/automations/workflows#view-specific-workflow-results).
 
 To learn the fundamentals of troubleshooting in Rewst, sign up for our course in [Cluck University](https://learn.rewst.io/troubleshooting-in-rewst).
 {% endhint %}
@@ -76,7 +76,7 @@ Rewst gives you three powerful tools: the [live editor](../the-live-editor.md), 
 * You want to test changes as you go by running a true execution, not just testing data
 * You need a fast feedback loop while adjusting tasks
 
-### Use the re-run button when:&#x20;
+### Use the re-run button when:
 
 * You’ve fixed something and want to confirm the outcome
 * You’re testing workflows with consistent inputs like forms or webhooks
@@ -100,25 +100,25 @@ Remember to ask yourself the following questions while troubleshooting your resu
 
 {% stepper %}
 {% step %}
-### Where did it run?
+#### Where did it run?
 
 Check the org-level vs. workflow-level execution. Use the **graph icon** or **Automations > Results**.
 {% endstep %}
 
 {% step %}
-### What data came in?
+#### What data came in?
 
 Review the **Inputs** section to confirm trigger values or parent workflow data were passed correctly.
 {% endstep %}
 
 {% step %}
-### What was created in context?
+#### What was created in context?
 
 Open the **Context** tab and look for expected variables. Check for typos, nulls, or casing mismatches.
 {% endstep %}
 
 {% step %}
-### What failed, and why?
+#### What failed, and why?
 
 Click into the failed task. Read the error message and check:
 

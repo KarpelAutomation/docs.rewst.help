@@ -6,7 +6,7 @@ End user portals, like all Prebuilt Apps, are available by request only. To requ
 
 The _end user portal_ is built around self-service automation, letting you manage tasks independently while still maintaining the ability to log tickets for more complex needs. With 24/7 access to essential automations, this portal reduces reliance on service desk calls and streamlines operations for both you and your end users.
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 ## Features
 
@@ -44,12 +44,9 @@ As a bonus, you can customize your End User Portal by unpacking our App Builder 
 * Apply consistent branding across all apps
 * Input hex codes, upload logos, and select themes to apply at the MSP or client level
 
-
-
 ## Troubleshoot the end user portal
 
 ### Validation errors
 
 * The End User Portal has several workflows built in from Crates. A validation error typically occurs when an unsynced workflow shares the same name as one being cloned into the environment. If an unsynced workflow exists, at minimum rename it to avoid conflicts.
 * The other cause of validation errors is usually from [support access](../../../support-and-community/roc-support/rewst-support-allow-write-access.md) not being enabled.
-

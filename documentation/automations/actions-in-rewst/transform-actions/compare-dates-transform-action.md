@@ -6,7 +6,7 @@ You are building a workflow that checks if the tickets closed date is greater th
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-04 at 3.12.19 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-04 at 3.12.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 This transform will take two dates and an operator, it will then perform a comparison based on the operator and return a boolean value.
 

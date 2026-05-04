@@ -12,14 +12,14 @@
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-### Crates
+#### Crates
 
 * [Reset Locked Accounts](../../../documentation/crates/existing-crate-documentation/reset-locked-accounts-crate.md)
-  * Ensures workflow completes and outputs "No locked accounts found" for empty result sets&#x20;
-  * Implemented revised PowerShell logic to return locked-out users&#x20;
+  * Ensures workflow completes and outputs "No locked accounts found" for empty result sets
+  * Implemented revised PowerShell logic to return locked-out users
 * [Microsoft: User Onboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
-  * Device lookups are now case-insensitive&#x20;
-  * Resolved issue creating contacts and linking to the correct company in ConnectWise&#x20;
+  * Device lookups are now case-insensitive
+  * Resolved issue creating contacts and linking to the correct company in ConnectWise
   * Updated Raw JSON for create contact; added int to company and fixed firstName typo
   * Added Kaseya VSA X integration override
 * [Alert on Unused M365 Licenses](../../../documentation/crates/existing-crate-documentation/alert-on-unused-m365-licenses-crate.md)
@@ -35,25 +35,24 @@
 * [Use AI to Suggest Responses to New Tickets](../../../documentation/crates/existing-crate-documentation/use-ai-to-suggest-responses-to-new-tickets-crate.md)
   * Updated Jinja for setting the Anthropic model in set\_model
 * [PSA: Update Ticket with New User Onboard Links](../../../documentation/crates/existing-crate-documentation/psa-update-ticket-with-user-onboard-links-crate.md)
-  * Added check\_form\_name\_input to subworkflow; main workflow handles subworkflow failure with custom note; added static form name defaulting to Rewst Onboarding and Offboarding names&#x20;
+  * Added check\_form\_name\_input to subworkflow; main workflow handles subworkflow failure with custom note; added static form name defaulting to Rewst Onboarding and Offboarding names
 * [Upload File to PSA Ticket](../../../documentation/crates/existing-crate-documentation/upload-file-to-psa-ticket-crate.md)
-  * Changed Jinja for publish field default to CTX.publish\_type|d("1", true)&#x20;
+  * Changed Jinja for publish field default to CTX.publish\_type|d("1", true)
 * [Update User Attributes (On-Prem/Azure) v2](../../../documentation/crates/existing-crate-documentation/update-user-attributes-on-prem-azure-v2-crate.md)
-  * Added success alias for the success output variable&#x20;
+  * Added success alias for the success output variable
 * [Microsoft: User Offboarding](../../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
-  * Added minutes-worked timing from automation\_task\_offboard\_user\_time for final ticket notes&#x20;
+  * Added minutes-worked timing from automation\_task\_offboard\_user\_time for final ticket notes
   * For AD-synced environments, restore shared mailbox if disabled user is moved to an unsynced OU
   * Revised Jinja to filter agreements by name and company ID
 * [Rewst Microsoft GDAP Assistant](../../../documentation/crates/existing-crate-documentation/rewst-microsoft-gdap-assistant-crate.md)
-  * Set Force Delegated Admin to True for create\_admin\_relationship and activate\_invite actions&#x20;
+  * Set Force Delegated Admin to True for create\_admin\_relationship and activate\_invite actions
 
-### Kits
+#### Kits
 
 There were no updates to kits this week.
 
-### Subworkflows
+#### Subworkflows
 
 There were no updates to subworkflows this week.
 
 </details>
-

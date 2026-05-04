@@ -9,12 +9,11 @@ Explore what new changes the Cluck University team made in the last week.
 * **SHOUT OUTS** **TO:**
   * Dion, Patrick, Alex, Aaron, Aaron, Bill, Calvin, Chris, and Ethan for passing the Foundations Certification.
   * Dylan, Luuk, Lauren, Paul, JC, Jordan, Sam, Brendan, Dawood, Kayla, Kathryn, Richard, Eric, Alex, Chris, Mahad, Kartik, Matthew, and Michael
-    * Take the [Rewst Foundations](https://learn.rewst.io/rewst-foundations-certification) Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
+    * Take the [Rewst Foundations](https://learn.rewst.io/rewst-foundations-certification) Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.
   * JC, Jordan, Revashlyn, Kayla, Patrick, Brendan, Brandon, and Divesh for passing the Clean Automation Certification.
     * Take the [Clean Automation](https://learn.rewst.io/clean-automation-certification) exam and get that fancy certificate!
-
-- Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
-- Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours)  to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
+* Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
+* Sign up for Cluck University [Office Hours](https://learn.rewst.io/cluck-university-office-hours) to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
 
 </details>
 
@@ -40,7 +39,7 @@ Explore what new changes the Cluck University team made in the last week.
 * [Assign Asset/Config to Ticket Based on Contact Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/assign-asset-config-to-ticket-based-on-contact-crate)
 * [Detailed MFA Enforcement Reporting Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/detailed-mfa-enforcement-reporting-crate)
 * [Exchange CIS Audit Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/exchange-cis-audit-crate)
-* [Microsoft Azure Tables Connection Crate](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/documentation/crates/existing-crate-documentation/microsoft-azure-tables-connection-crate)
+* [Microsoft Azure Tables Connection Crate](../../../documentation/crates/existing-crate-documentation/microsoft-azure-tables-connection-crate.md)
 * [Deactivate ConnectWise PSA Contacts when their Company is Deactivated Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/deactivate-connectwise-psa-contacts-when-their-company-is-deactivated-crate)
 * [Updated guidance on field results in the Microsoft: User Onboarding Crate’s new user onboarding form](https://docs.rewst.help/documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/onboarding-form-inputs-and-workflow-process)
 * [Updated guidance on how and when to use subworkflows in Rewst](https://docs.rewst.help/documentation/automations/workflows#subworkflows)<br>

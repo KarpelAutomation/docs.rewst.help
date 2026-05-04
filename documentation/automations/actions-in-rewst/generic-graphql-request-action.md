@@ -3,7 +3,7 @@
 ## What is GraphQL?
 
 {% hint style="info" %}
-Learn more about GraphQL in its official documentation [here](https://graphql.org/learn/introduction/).&#x20;
+Learn more about GraphQL in its official documentation [here](https://graphql.org/learn/introduction/).
 {% endhint %}
 
 GraphQL is an open-source query language for APIs and a server-side runtime for fulfilling those queries. It enables clients to interact with a single endpoint to get the exact data they need, without chaining requests together. Unlike traditional REST APIs that return fixed datasets, GraphQL allows clients to request specific data, eliminating over-fetching or under-fetching of data and offering improved efficiency. The [GraphQL Schema](https://graphql.org/learn/schema/) defines the structure of the data and available operations, serving as a clear contract between the frontend and backend. Like REST APIs, GraphQL is composed of a basic request and response for each call. While REST APIs rely on multiple endpoints for this process, GraphQL shifts the responsibility of defining what should be called back to the user.
@@ -47,7 +47,7 @@ Make your choices in the **Parameters** tab of the action's settings to set it u
   * Contains the input parameters for the selected operation
 * **Response fields**: Enter text into this field to specify the fields to include in the GraphQL response
   * Only provide the inner content, as it will be wrapped in curly braces
-  * Example, `id orgName email { name }`&#x20;
+  * Example, `id orgName email { name }`
 * **Raw query**: The complete raw GraphQL query string to execute
   * An advanced alternative to using the other fields and selectors in the Parameters tab
   * Allows for full control over query structure
@@ -104,10 +104,10 @@ variable_values:
   workflowId: "{{ CTX.workflow_id }}"
 ```
 
-## Generic GraphQL request action: Allowed operations&#x20;
+## Generic GraphQL request action: Allowed operations
 
 {% hint style="info" %}
-## Schema reference
+### Schema reference
 
 Key entity types include:
 
@@ -418,8 +418,6 @@ componentsByRoots(rootIds: [ID]!): [Component]
 <details>
 
 <summary><strong><code>componentTree</code></strong>-Gets the component tree structure.</summary>
-
-
 
 **GraphQL schema:**
 
@@ -3530,4 +3528,3 @@ input TemplateCreateInput {
 2. For debugging, use the `raw_query` parameter to see exact queries
 3. Review workflow execution logs for detailed error messages
 4. Build queries incrementally, adding fields and filters gradually
-

@@ -1,7 +1,5 @@
 # September 26, 2025 - Marketplace Update
 
-
-
 <details>
 
 <summary><strong>New Crates and enhancements</strong></summary>
@@ -20,12 +18,12 @@ There are no new Crates this week.
 * [Deactivate ConnectWise PSA Contacts when their Company is Deactivated](../../../documentation/crates/existing-crate-documentation/deactivate-connectwise-psa-contacts-when-their-company-is-deactivated-crate.md)
   * When a company is listed as inactive, the workflow now creates a dummy replacement contact for that company
   * With a replacement set, the Crate can then delete or disable the original default contact
-* [Alert on Login from Non-Native Country](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/documentation/crates/existing-crate-documentation/alert-on-login-from-non-native-country-crate)
+* [Alert on Login from Non-Native Country](../../../documentation/crates/existing-crate-documentation/alert-on-login-from-non-native-country-crate.md)
   * Updated the filter in `microsoft_graph_list_logins` to check if include\_failed\_attempts or not
-* [Add Client to Rewst ](../../../documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
+* [Add Client to Rewst](../../../documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
   * Updated the option configuration from "sites" to "site" to fix error
 * [Huntress EDR: AD Account Lockdown](../../../documentation/crates/existing-crate-documentation/huntress-edr-ad-account-lockdown-crate.md)
-  * Increased webhook timeout length from 8 hours to 1 day&#x20;
+  * Increased webhook timeout length from 8 hours to 1 day
 * [Document M365 Shared Mailboxes V2](../../../documentation/crates/existing-crate-documentation/document-m365-shared-mailboxes-setup.md)
   * Updated cron trigger from daily to every 14 days based on user feedback, to alleviate high task counts
   * Workflow: \[REWST - PROC] Docs: Document M365 Shared Mailboxes

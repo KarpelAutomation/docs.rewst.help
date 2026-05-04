@@ -6,7 +6,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the HubSpot integration do?
 
-With our HubSpot integration, synchronize data between any other integration and HubSpot, ensuring a unified view of customer interactions, leads, and sales processes.&#x20;
+With our HubSpot integration, synchronize data between any other integration and HubSpot, ensuring a unified view of customer interactions, leads, and sales processes.
 
 There are two ways to use HubSpot integration in Rewst.
 
@@ -32,18 +32,18 @@ If you're a Rewst customer who set up their HubSpot integration prior to Rewst's
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-03 at 11.54.13 AM.png" alt="" width="254"><figcaption></figcaption></figure>
 3. Click on the integration tile to launch the configuration setup page.
-4. Leave the **Client ID** and **Client Secret** fields blank.&#x20;
-5. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (2).png>) next to **Filters** to add filter criteria, if desired.
+4. Leave the **Client ID** and **Client Secret** fields blank.
+5. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Filters** to add filter criteria, if desired.
 6. Click **Authorize**.
 7. Sign in to HubSpot in the dialog that appears. Follow the prompts to complete the authorization.
 8. Click **Save Configuration**.
-9. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+9. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 ## Set up the HubSpot integration: Private HubSpot app
 
 ### Set up steps in HubSpot
 
-1. Log in to your HubSpot Developer account.&#x20;
+1. Log in to your HubSpot Developer account.
 2. Navigate to **Apps** in the left side menu.
 3.  Click **Create App**.<br>
 
@@ -54,10 +54,8 @@ If you're a Rewst customer who set up their HubSpot integration prior to Rewst's
 7. Click **Create App**. You should see a confirmation dialog appear at the top of your screen if the app is created successfully.
 8.  Copy the following information that appears and store it somewhere secure. You'll need it for additional steps in Rewst.
 
-    1. **Client ID**&#x20;
-    2. **Client Secret**&#x20;
-
-
+    1. **Client ID**
+    2. **Client Secret**
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-03 at 1.18.56 PM.png" alt=""><figcaption></figcaption></figure>
 9. Scroll down to the **Scopes** section of the **Auth** tab.
@@ -79,13 +77,11 @@ If you're a Rewst customer who set up their HubSpot integration prior to Rewst's
    1. **Client ID**
    2. **Client Secret**
 5. Enter the scopes you chose in HubSpot into the **Scopes** field. Enter one scope per line. The scopes must be a direct match for what was selected in HubSpot.
-6. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM (2).png>) next to **Filters** to add filter criteria, if desired.
+6. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Filters** to add filter criteria, if desired.
 7. Click **Authorize**.
 8. Sign in to HubSpot in the dialog that appears. Follow the prompts to complete the authorization.
 9. Click **Save Configuration**.
-10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
-
-
+10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-03 at 11.55.36 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -99,7 +95,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 Test the integration by running a simple workflow that calls a HubSpot action
 
-#### Scope mismatch errors&#x20;
+#### Scope mismatch errors
 
 Ensure that the scopes in Rewst match exactly what's listed in your HubSpot app
 
@@ -124,17 +120,17 @@ Rewst handles token refresh automatically. If issues arise, try re-authorizing t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 {% hint style="warning" %}
 HubSpot has optional scopes which aren't included in Rewst's standard integration. If you're using the generic HubSpot API Request action, certain endpoints may return an error where missing scopes and permissions are listed.
 
-![](<../../../.gitbook/assets/image (325).png>)
+<img src="../../../.gitbook/assets/image (324).png" alt="" data-size="original">
 
 If you wish to use the generic HubSpot API Request action, we recommend choosing the private app setup method for HubSpot integration.
 
-HubSpot's documentation on their scopes can be found [here](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes). <br>
+HubSpot's documentation on their scopes can be found [here](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes).<br>
 {% endhint %}
 
 HubSpot's own API documentation can be found [here](https://developers.hubspot.com/docs/reference/api/overview).

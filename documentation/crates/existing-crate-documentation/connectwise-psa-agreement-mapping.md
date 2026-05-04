@@ -26,13 +26,13 @@ Before unpacking this Crate:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 at 12.36.16 PM.png" alt=""><figcaption></figcaption></figure>
 
-5. Enter **Time Saved**.&#x20;
+5. Enter **Time Saved**.
 6. Click **Unpack**.
 
 ### Test the Crate
 
 {% hint style="info" %}
-A form unpacked from this Crate is used to maintain mappings between environments and PSA agreements. These are stored in organizational variables in Rewst, based on the form inputs.&#x20;
+A form unpacked from this Crate is used to maintain mappings between environments and PSA agreements. These are stored in organizational variables in Rewst, based on the form inputs.
 {% endhint %}
 
 1. Navigate to **Automations > Workflows**.
@@ -42,7 +42,7 @@ A form unpacked from this Crate is used to maintain mappings between environment
 3. Click the trigger drop-down and select **Form Trigger.**\
    \
    ![](<../../../.gitbook/assets/image (147).png>)
-4. &#x20;Click ![](<../../../.gitbook/assets/image (201).png>).&#x20;
+4. Click ![](<../../../.gitbook/assets/image (196).png>).
 5. Click **View Direct URLs**.
 6. Copy the form URL and paste it in a different browser window.\
    \
@@ -73,7 +73,7 @@ From the MSP organization, use this form to **Add**, **Modify**, or **Remove** a
 ## Limitations
 
 * **Department** fields are free-form text. If you aren't automating the filling-in of these, there's always the chance that spellings or formatting may vary, resulting in incomplete data.
-* The **Description** field in PSA Agreement Additions is limited to 6000 characters. Large sets of users can easily exceed that maximum and usernames won't appear in the Addition. When this happens, an email will be sent to the person who created the mapping to let them know that this is the case.&#x20;
+* The **Description** field in PSA Agreement Additions is limited to 6000 characters. Large sets of users can easily exceed that maximum and usernames won't appear in the Addition. When this happens, an email will be sent to the person who created the mapping to let them know that this is the case.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

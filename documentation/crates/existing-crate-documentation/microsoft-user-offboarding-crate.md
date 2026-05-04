@@ -14,7 +14,7 @@ Our Microsoft: User Offboarding Crate streamlines the offboarding process for us
 
 {% hint style="warning" %}
 This Crate does not handle On-Prem Exchange and will only handle Exchange functionality via Office 365.\
-It does not take action to remove the licenses from your license vendor.&#x20;
+It does not take action to remove the licenses from your license vendor.
 {% endhint %}
 
 This Crate does the following tasks:
@@ -61,7 +61,7 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Click **Unpack.**
-7. The [organization variable](../../integrations/organization-variables.md#manually-add-a-new-organization-variable) `user_offboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
+7. The [organization variable](../../integrations/organization-variables.md#manually-add-a-new-organization-variable) `user_offboard_form_name` must be set to the name of the form unpacked with the Crate.
 
 ## Use the Microsoft: User Offboarding Crate
 
@@ -79,14 +79,12 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 7.  Fill out the form as appropriate for the company and user you are offboarding. Make sure to click **Submit** at the end of the form.<br>
 
     <figure><img src="../../../.gitbook/assets/image (63) (2).png" alt=""><figcaption></figcaption></figure>
-8.  Once the form is submitted, the workflow will begin to run. To view the results, click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM (1).png" alt="" data-size="line"> in the workflow editor page.<br>
+8.  Once the form is submitted, the workflow will begin to run. To view the results, click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM.png" alt="" data-size="line"> in the workflow editor page.<br>
 
     <figure><img src="../../../.gitbook/assets/image (65) (2).png" alt=""><figcaption></figcaption></figure>
 9. Click into the results to see the execution results with successes and failures, if there are any.
 
 <figure><img src="../../../.gitbook/assets/image (66) (2).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Example of end of ticket output
 
@@ -187,7 +185,7 @@ Entry: Workflow complete, attempting ticket update. - Status: 1000
 ## Org variables in use for the Microsoft: User Offboarding Crate
 
 {% hint style="info" %}
-For information specific to these org variables please review our guidance organization variables [here](../../integrations/organization-variables.md).&#x20;
+For information specific to these org variables please review our guidance organization variables [here](../../integrations/organization-variables.md).
 
 Note that org variables not found in the organization variables documentation are typically system variables that are handled by the integration mappings.
 

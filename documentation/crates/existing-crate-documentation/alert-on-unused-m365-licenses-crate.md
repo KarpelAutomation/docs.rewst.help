@@ -71,7 +71,7 @@ The workflow unpacked with this Crate won't process any licenses that have 10,00
 * Processing massive enterprise licenses that might be intentionally over-provisioned
 * Accidental reduction of licenses for organizations with very large license pools
 
-Licenses under 10,000 units will be processed normally and included in the PSA ticket for potential reduction. Licenses with more than 10,000 units will be automatically excluded from processing, but no notification will be sent when these licenses are excluded.&#x20;
+Licenses under 10,000 units will be processed normally and included in the PSA ticket for potential reduction. Licenses with more than 10,000 units will be automatically excluded from processing, but no notification will be sent when these licenses are excluded.
 
 The workflow will also exclude free, trial, and consumption-based licenses, as well as licenses with Year in the commitment term.
 
@@ -87,7 +87,7 @@ The[ Pax 8 integration](../../integrations/integration-guides/pax8-integration-s
 
 The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up to enable the Microsoft Graph integration with Rewst.
 
-Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
+Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 ## Unpack the Alert on Unused M365 Licenses Crate
 
@@ -98,13 +98,13 @@ Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-sta
 3. Click **Unpack Crate**.
 4. Click **Continue.**
 5. Enter your **Time Saved**.
-6. Expand the **Cron Job** accordion menu and ensure that **Enabled** is toggled on.&#x20;
+6. Expand the **Cron Job** accordion menu and ensure that **Enabled** is toggled on.
 7. Click **Unpack**.
 
 ## Test the Crate
 
 {% hint style="info" %}
-The workflow must first be run as the top level parent organization. Then, the workflow can be used by  child organizations.
+The workflow must first be run as the top level parent organization. Then, the workflow can be used by child organizations.
 {% endhint %}
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. To test the Crate, adjust the trigger to five minutes in the future. Then, check your PSA to see if tickets were created. If your execution is successful, go back into the workflow and reset the cron trigger's timing to your normal desired schedule.
@@ -112,14 +112,13 @@ The Crate runs on a cron trigger, and will execute the workflow to generate the 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `Pax8 Extra License Removal.`
 3. Click on the workflow to view it in the workflow builder.
-4.  Click ![](<../../../.gitbook/assets/image (205).png>) to open the edit trigger menu.\
-    &#x20;
+4.  Click ![](<../../../.gitbook/assets/image (196).png>) to open the edit trigger menu.<br>
 
     <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FwnXIbYjmeXtTETWFBKkI%252FScreenshot%25202025-06-25%2520at%25205.53.42%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D53680b5e-a0a9-4260-8d31-4802c66355e8&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e56327e1&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.
 6. Click **Submit**.
 
-&#x20;If tickets are not created, check the workflow's execution results.
+If tickets are not created, check the workflow's execution results.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

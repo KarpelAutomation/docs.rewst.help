@@ -35,7 +35,7 @@ In your Google Cloud console:
 9. You should automatically be navigated to step **2,** in the **Scopes** tab of that same screen. Click **ADD OR REMOVE SCOPES** to open the **Update selected scopes** dialog. Ensure that the specific scopes that your application requires access to are selected.
 10. Search for **Enterprise License Manager** in the search box, and select all related scopes.<br>
 
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-14 at 4.00.36 PM (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2025-01-14 at 4.00.36 PM.png" alt=""><figcaption></figcaption></figure>
 11. Click **UPDATE** once you've reviewed the necessary scopes.
 12. Navigate to **Credentials** within the **APIs and Services** menu. Click on **+CREATE CREDENTIALS** and choose **OAuth client ID** from the drop-down menu if new credentials are needed.\
     \
@@ -54,7 +54,7 @@ In your Google Cloud console:
    ![](<../../../../.gitbook/assets/Screenshot 2025-05-01 at 3.25.51 PM.png>)
 4. Enter the information you received from Google Cloud into the relevant **Client ID**, **Client Secret**, and **Email / User ID** fields.
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
@@ -63,7 +63,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category      | Action                                       | Description                                                 |

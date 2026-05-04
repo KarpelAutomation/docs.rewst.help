@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Configure ConnectWise PSA Agreement for Duo Sync Crate do?
 
-Our Configure ConnectWise PSA Agreement for Duo Sync Crate provides a simple form-based interface for easy variable configuration. It prepares your system for the Duo-CWM User Sync Crate and ensures secure and accurate input of API keys and other sensitive data. You'll only need to perform the setup once and you're good to go for future syncs.&#x20;
+Our Configure ConnectWise PSA Agreement for Duo Sync Crate provides a simple form-based interface for easy variable configuration. It prepares your system for the Duo-CWM User Sync Crate and ensures secure and accurate input of API keys and other sensitive data. You'll only need to perform the setup once and you're good to go for future syncs.
 
 This Crate only deals with configuring variables and does not perform the actual sync operation. Use this as a preparatory step before running the [Sync Duo User Counts with ConnectWise PSA Agreement Crate](sync-duo-user-counts-with-connectwise-psa-agreement-crate.md).
 
@@ -52,11 +52,11 @@ The following integrations must be set up before unpacking this Crate:
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows**.
-2. Search for `[ROC] ConnectWise Manage - Duo Agreement Mapping - Set Org Variables.`&#x20;
+2. Search for `[ROC] ConnectWise Manage - Duo Agreement Mapping - Set Org Variables.`
 3.  Click on the workflow to view it in the Workflow Builder.<br>
 
     <figure><img src="../../../.gitbook/assets/image (328) (1).png" alt=""><figcaption></figcaption></figure>
-4. &#x20;Click ![](<../../../.gitbook/assets/image (201).png>).&#x20;
+4. Click ![](<../../../.gitbook/assets/image (196).png>).
 5. Click **View Direct URLs**.
 6.  Copy the form URL and paste it in a different browser window.<br>
 
