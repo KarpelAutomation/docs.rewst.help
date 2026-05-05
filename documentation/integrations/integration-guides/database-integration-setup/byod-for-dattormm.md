@@ -8,20 +8,20 @@ This process requires you to have at least a basic understanding of PowerShell a
 
 ## What does BYOD do?
 
-RMM customers occasionally face challenges with the speed at which data is returned from RMM's APIs. One efficient workaround is to leverage the Bring Your Own Database (BYOD) functionality of Rewst's SQL Database integration. Integrating BYOD with RMM streamlines data retrieval and bypasses potential lags or slow responses. With BYOD in place, RMM's options generation workflows are optimized, leading to improved performance and reduced wait times.&#x20;
+RMM customers occasionally face challenges with the speed at which data is returned from RMM's APIs. One efficient workaround is to leverage the Bring Your Own Database (BYOD) functionality of Rewst's SQL Database integration. Integrating BYOD with RMM streamlines data retrieval and bypasses potential lags or slow responses. With BYOD in place, RMM's options generation workflows are optimized, leading to improved performance and reduced wait times.
 
 {% hint style="info" %}
 Before attempting BYOD setup, first set up the [SQL Database integration](../../../configuration/integrations/integration-guides/database-integration-setup/).
 {% endhint %}
 
-## Set up BYOD for options generators&#x20;
+## Set up BYOD for options generators
 
 ### Set up the database
 
 You'll need to do the following before attempting setup in Rewst:
 
 1. **Database setup via PowerShell:** Set up an Azure Database instance utilizing the script below. It is assumed that you have an understanding of how to use PowerShell to run PowerShell scripts. Ensure that you're running this script with PowerShell 7. For more information regarding PowerShell please refer to [Microsoft's documentation](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-5.1).
-2. **Password and script output:** During the Azure setup, you'll be prompted to create a password for the DB account designated for the integration. Make sure to safely store this password and all information resulting from the run of the script. Retaining all of the script's output will be crucial for the next steps in Rewst.&#x20;
+2. **Password and script output:** During the Azure setup, you'll be prompted to create a password for the DB account designated for the integration. Make sure to safely store this password and all information resulting from the run of the script. Retaining all of the script's output will be crucial for the next steps in Rewst.
 
 Click to expand and copy the below script.
 
@@ -195,10 +195,13 @@ Write-Host '--------------------------------------------------------' -Foregroun
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `SQL Database`.
 3. Click on the integration tile.
-4. Note that as with traditional use of the SQL Database integration, multiple databases are entered into Rewst using the drop-down menu at the top left of your configuration page.&#x20;
+4. Note that as with traditional use of the SQL Database integration, multiple databases are entered into Rewst using the drop-down menu at the top left of your configuration page.
 5.
 
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-05 at 10.40.36 AM.png" alt=""><figcaption></figcaption></figure>
+```
+<figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-05 at 10.40.36 AM.png" alt=""><figcaption></figcaption></figure>
+```
+
 6. Enter the information received from running the PowerShell script into the relevant fields:
    1. **Database Config Name** - Unique identifier to pick database for action
    2. **Database Type** - Supported SQL databases
@@ -215,7 +218,7 @@ Write-Host '--------------------------------------------------------' -Foregroun
 
 #### Post-integration steps specific to Rewst workflows
 
-Following the database setup, you must attach the \[Rewst- TASK] BYOD: Upsert Cache DB Data Listener\_ workflow as a [completion handler](../../../automations/workflows/completion-handlers-and-workflow-wrappers.md#completion-handlers) to the on-prem workflows. If you are missing this workflow, please [reach out to Rewst support](../../../../support-and-community/roc-support/).&#x20;
+Following the database setup, you must attach the \[Rewst - TASK] BYOD: Upsert Cache DB Data Listener workflow as a [completion handler](../../../automations/workflows/completion-handlers-and-workflow-wrappers.md#completion-handlers) to the on-prem workflows. If you are missing this workflow, please [reach out to Rewst support](../../../../support-and-community/roc-support/).
 
 1. Navigate to **Automations > Workflows.**
 2. Search for `[Rewst- TASK] BYOD: Upsert Cache DB Data Listener`.
@@ -224,17 +227,24 @@ Following the database setup, you must attach the \[Rewst- TASK] BYOD: Upsert Ca
 5. Click **Run this workflow when...**
 6. Click <img src="../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.35.44 AM.png" alt="" data-size="line">.
 7. Select the following settings:
-   * **Workflow:** \[REWST - TASK] BYOD: Upsert Cache DB Data Listener
+   * **Workflow:** \[REWST - OPT GEN] On-Prem: List Users By Filter With SID And UPN/sam
    * **Trigger On Statuses:** succeeded
    * **Integration Override:** SQL Database
    * **Enabled:** On
 8. Click **Submit**.
-9. Repeat steps 6-8 with the following workflows
-   * \[REWST - OPT GEN] On-Prem: List All Groups
-   * \[REWST - OPT GEN] Graph: List Mail Enabled Graph Users with ID and UPN
-   * \[REWST - OPT GEN] On-Prem: List Users By Filter With SID And UPN/sam
-   * \[REWST - OPT GEN] List On-Prem Exchange Email Domains
-   * \[REWST - OPT GEN] Get All AD OUs Containing Users
-   * \[REWST - OPT GEN] List On-Prem Exchange Databases - (optional)
-   * \[REWST - TASK] List On Prem Exchange Shared Mailboxes - (optional)
-   * \[REWST - OPT GEN] List On-Prem Exchange Servers - (optional)
+9. Repeat steps 6-8 with the following workflows:
+   * `[REWST - OPT GEN] List On-Prem Exchange Email Domains`
+   * `[REWST - OPT GEN] Get All AD OUs Containing Users`
+   * `[REWST - TASK] List On-Prem Groups(Not Tenant Specific)`
+   * `[REWST - OPT GEN] Graph: List Mail Enabled Graph Users with ID and UPN`
+   * `[REWST - OPT GEN] List On-Prem Exchange Databases` — optional
+   * `[REWST - TASK] List On Prem Exchange Shared Mailboxes` — optional
+   * `[REWST - OPT GEN] List On-Prem Exchange Servers` — optional
+
+#### Post-integration steps specific to Rewst org variables <a href="#marked-post-integration-steps-specific-to-rewst-org-variables" id="marked-post-integration-steps-specific-to-rewst-org-variables"></a>
+
+Create an [organization variable](../../organization-variables.md) named `db_override` and set its value to `0`. This variable must exist for the BYOD integration to function correctly. To bypass BYOD tasks and fall back to live RMM calls, change the value to `1`.
+
+{% hint style="warning" %}
+The first run of `[REWST - TASK] BYOD: Upsert Cache DB Data Listener` may take significantly longer than subsequent runs due to the initial loading of data into the cache.
+{% endhint %}
