@@ -33,7 +33,7 @@ The list of workflows that appears in the center of your screen will include bot
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-05 at 3.38.10 PM.png" alt="" width="159"><figcaption></figcaption></figure>
 
-Once you create a workflow, you'll be taken to the [_workflow builder_](workflow-builder-how-to-set-up-a-workflow.md), a canvas for assembling your workflows. See our documentation for how to use the workflow builder [here](workflow-builder-how-to-set-up-a-workflow.md).
+Rewst will notify you when we make changes to actions that affect your workflows. These notifications will appear in the workflows page. Learn more about those notifications in our documentation for our [action version log](../actions-in-rewst/#action-version-updates). Once you create a workflow, you'll be taken to the [_Workflow Builder_](workflow-builder-how-to-set-up-a-workflow.md), a Canvas for assembling your workflows. See our documentation for how to use the Workflow Builder [here](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
 
 ## Synced versus unsynced workflows
 
