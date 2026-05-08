@@ -78,7 +78,7 @@ This import method allows you to pull customer organizations directly from a con
 1. Navigate to **Settings > Organizations**.
 2. Click **Upload > Import from PSA**.
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3.  Choose your configured PSA from the list in the dialog. If you use more than one PSA, multiple options will appear. Only integrations that are eligible, installed, and configured are selectable.&#x20;
 

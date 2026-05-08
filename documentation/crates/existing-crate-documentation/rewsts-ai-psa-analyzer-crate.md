@@ -56,7 +56,7 @@ This Crate uses Rewst’s internal AI or your integrated Anthropic or OpenAI pro
 
 ## Example ticket analysis report
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 ## Unpack Rewst's AI PSA Analyzer Crate
 

@@ -1002,6 +1002,7 @@
     * [October 28, 2022 - Training Update](updates/cs-and-training-updates/2022-training-updates/october-28th-2022-1.md)
 * [Crate Marketplace updates](updates/marketplace-updates/README.md)
   * [2026 Crate Marketplace updates](updates/marketplace-updates/2026-crate-marketplace-updates/README.md)
+    * [May 8, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/may-8-2026-marketplace-update.md)
     * [May 1, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/may-1-2026-marketplace-update.md)
     * [April 24, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/april-24-2026-marketplace-update.md)
     * [April 17, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/april-17-2026-marketplace-update.md)
