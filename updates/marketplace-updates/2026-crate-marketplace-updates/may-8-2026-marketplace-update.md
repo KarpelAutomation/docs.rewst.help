@@ -4,7 +4,7 @@
 
 <summary><strong>New Crates</strong></summary>
 
-[Rewst's AI PSA Analyzer](https://docs.rewst.help/documentation/crates/existing-crate-documentation/rewsts-ai-psa-analyzer-crate) - This Crate uses Rewst’s internal AI or your integrated Anthropic or OpenAI provider to analyze ticket data and recommend the most effective automations for your customers' needs.
+No new Crates were released this week.
 
 </details>
 
@@ -37,5 +37,13 @@ There were no updates to kits this week.
 #### Subworkflows
 
 There were no updates to subworkflows this week.
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+Rewst's AI PSA Analyzer - This Crate uses Rewst’s internal AI or your integrated Anthropic or OpenAI provider to analyze ticket data and recommend the most effective automations for your customers' needs.
 
 </details>
