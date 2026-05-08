@@ -12,7 +12,6 @@ This can be anything from new features, bug fixes, or QoL changes!
   * [Action version history](https://docs.rewst.help/documentation/automations/actions-in-rewst#action-version-updates) - When an integration action used in your workflows has been updated or has a breaking change, Rewst will now alert you directly in the platform so you can take action before anything breaks.
 * **Onboarding**
   * [Client Import to Rewst organization](../../../documentation/settings/organizations.md) - Added the ability to import customer organizations directly into Rewst via CSV import or PSA import (Autotask PSA, HaloPSA, or ConnectWise PSA)
-  * Added an “Attention Needed” state to onboarding integrations so invalid configurations are clearly identified with health check errors.
 * **Workflow Builder**
   * Added Follow First transition tooltips and right-click navigation to edit transition order directly from the workflow canvas.
 
