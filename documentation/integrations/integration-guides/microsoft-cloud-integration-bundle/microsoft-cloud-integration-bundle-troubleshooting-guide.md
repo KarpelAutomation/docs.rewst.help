@@ -59,7 +59,7 @@ The Rewst Prod App is necessary for authentication and might already be installe
 
 * **Symptom**: When trying to delete the MS Bundle form your instance, Rewst displays this screen and never progresses.\
   \
-  ![](../../../../.gitbook/assets/image.png)<br>
+  ![](<../../../../.gitbook/assets/image (22).png>)<br>
 * **Potential Cause**: This usually happens if Rewst can't find the enterprise app.
 * **Solution**:
   * Switch to owned app registration
