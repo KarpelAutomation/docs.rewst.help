@@ -61,6 +61,65 @@ Uploads that don't match the expected schema will fail validation.
 | **DUPLICATE\_DOMAIN\_IN\_FILE**     | `domain`                                   | Two or more rows in the same import have the same domain, which is case-insensitive. Reports which earlier row it duplicates.                                        |
 | **DUPLICATE\_DOMAIN\_IN\_DATABASE** | `domain`                                   | An org with the same domain already exists under the managing org's hierarchy                                                                                        |
 
+## Rewst onboarding preliminary organization import - PSA
+
+{% hint style="info" %}
+Currently, Rewst's import-from-PSA feature supports three brands of PSA:
+
+* ConnectWise PSA
+* Datto Autotask PSA
+* HaloPSA
+
+Your PSA must successfully be integrated with Rewst before attempting the import. If your brand of PSA isn't on this list, use the [Bulk Create Clients from PSA ](../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md)Crate or the Upload CSV import method as alternatives.&#x20;
+{% endhint %}
+
+This import method allows you to pull customer organizations directly from a connected PSA integration and import them into Rewst, without exporting or uploading a file. Unlike our Crate import processes, PSA import doesn't consume workflow tasks, and organization mappings are created automatically as part of the process. Rewst limits the size of your import to 1,000 organizations per import execution. MSPs with more than 1,000 organizations should split their data across multiple import jobs.<br>
+
+1. Navigate to **Settings > Organizations**.
+2. Click **Upload > Import from PSA**.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+3.  Choose your configured PSA from the list in the dialog. If you use more than one PSA, multiple options will appear. Only integrations that are eligible, installed, and configured are selectable.&#x20;
+
+    1. **Green** - selectable: The PSA is installed, configured, and healthy. You can select a PSA and continue with the import.
+    2. **Orange** - disabled: The PSA is installed but not fully configured or has some sort of failure. Address your PSA's issues before resuming the import.
+    3. **Red** - disabled: The PSA is installed and configured, but is not connected. Verify the settings to resolve this to a Green status.&#x20;
+
+    ![](<../../.gitbook/assets/Screenshot 2026-04-13 at 10.13.06 AM.png>)<br>
+4. Click **Continue**.
+5. Rewst will fetch your PSA's customer list. Use the search and filter controls to select the organizations you want to import.
+   1. Type in the **search** field to filter by customer name.
+   2. Filter by the **Customer Status** drop-down selector: Such as Active, Inactive
+   3. Filter by the **Customer Type** drop-down selector: Such as Customer, Prospect, Vendor, etc.\
+      \
+      ![](<../../.gitbook/assets/Screenshot 2026-04-13 at 10.13.35 AM.png>)
+6. Click **Import.** Rewst validates and creates the selected organizations. While importing, you can watch the progress on your screen. Don't close the tab. This will cancel the import.&#x20;
+   1. Each imported organization is automatically linked back to its PSA record via an [organization variable](../integrations/organization-variables.md#what-is-an-organization-variable). You don't need to manually configure organization mappings after import.
+   2. Organization names must be unique. No duplicate names may exist within the import or database, and you can't use no reserved names. The maximum for each name is 255 characters.
+   3. All imported organizations default to enabled - `isEnabled: true`.
+7. After processing, Rewst will display a summary of the results. Note that this summary can only be viewed once.&#x20;
+   1. Records are categorized as Imported, Skipped, or Failed. The **Issues encountered** summary will list out the organizations that were unsuccessful, with a reason for why Rewst failed on its import. Skipped organizations already exist in Rewst, and are not imported to avoid duplicate org creation.
+   2. Individual record failures won't block the rest of the import.
+   3. If you experience import failures, click **Download Log** to download the log to a CSV file and view the cause of failures. Then, [manually add the failed organizations to Rewst](organizations.md#manually-create-a-new-organization-in-rewst).
+   4. Click **View Organizations** to close the summary and return to the refreshed organizations table in Rewst.
+   5. Click **Import More** to start another import.\
+      \
+      ![](<../../.gitbook/assets/Screenshot 2026-04-13 at 11.32.34 AM.png>)
+
+### PSA import error codes
+
+{% hint style="warning" %}
+Uploads that don't match the expected schema will fail validation.
+{% endhint %}
+
+| Error Code                  | Field                                      | When It's Triggered                                                                                                                                                  |
+| --------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **REQUIRED\_FIELD**         | `organizationName`                         | Name is missing or empty after trimming whitespace                                                                                                                   |
+| **MAX\_LENGTH\_EXCEEDED**   | `organizationName`, `domain`, or `orgSlug` | Any of these fields exceed 255 characters                                                                                                                            |
+| **DUPLICATE\_IN\_DATABASE** | `organizationName`                         | An org with the same name (case-insensitive) already exists under the target managing org's hierarchy. Record is categorized as `EXISTING` and skipped (not failed). |
+| **RESERVED\_NAME**          | `organizationName`                         | The name contains a substring reserved for Rewst staff - only enforced for non-staff users, via `validateOrganizationName`                                           |
+
 ## Manually create a new organization in Rewst
 
 {% hint style="warning" %}
