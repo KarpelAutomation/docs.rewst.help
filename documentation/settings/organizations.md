@@ -4,14 +4,71 @@
 Before editing anything in this section of Rewst, be sure to read up on our introductory documentation on organizations and organization variables [here](https://docs.rewst.help/documentation/organization-variables#what-is-an-organization).
 {% endhint %}
 
-### Manually create a new organization in Rewst
+## Rewst onboarding preliminary organization import - CSV
+
+{% hint style="info" %}
+These steps will work for any MSP, regardless of the tools your company uses.
+
+Tag names must already exist in Rewst before the file import.
+{% endhint %}
+
+1. Navigate to **Settings > Organizations**.
+2.  Click **Upload > Upload CSV**.<br>
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-04-07 at 2.11.43 PM.png" alt=""><figcaption></figcaption></figure>
+3. Click **Download CSV template** in the import dialog. The template defines the expected columns and format for proper import into Rewst.\
+   \
+   ![](<../../.gitbook/assets/Screenshot 2026-04-07 at 2.08.06 PM.png>)
+4.  Fill out the template with your customer organization data to correspond with the template headers. Rewst limits the size of your CSV to 1,000 organizations per upload. MSPs with more than 1,000 organizations should split their data across multiple files and uploads.\
+    Headers:
+
+    * **organizationName**, max 255 characters, required — The customer org name, which must be unique within the managing org hierarchy. It can't be a reserved name. This is the only mandatory field.
+    * **managingOrgId**, optional— This is the UUID to override the default managing organization on a per-row basis. Find the UUID in one of two ways:
+      * When you navigate to that specific organization, you will see the UUID in the browser’s URL bar.
+      * Within a Workflow, you can use the [Rewst: List Organizations action](../automations/actions-in-rewst/rewst-actions.md#list-organizations-action). This will return a list of all organizations in their Rewst instance. Each object in the response includes the UUID, name, managing\_org\_id, and other details.
+    * **domain,** max 255 characters, optional— This refers to the customer domain, which must be checked for uniqueness.
+    * **orgSlug,** max 255 characters, optional — This is the identifier for Rewst's [App Builder](../app-builder/), and is auto-generated if not provided. If you're unsure if you want to use App Builder at the time of import, you can manage the orgSlug through the organizations page at a later time.
+    * **isEnabled**, optional— Boolean, defaults to `true` if not specified in your CSV.
+    * **tagNames**, optional — Use this for comma-separated tag names to apply. If you use this column, be sure to [add the corresponding tags](tags-in-rewst.md) in Rewst before uploading your file<br>
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-04-07 at 2.18.40 PM.png" alt=""><figcaption></figcaption></figure>
+5. Return to Rewst. Upload your completed CSV file via the upload dialog.
+6. Rewst will validate every row and process the import. After processing, Rewst will display a summary of the results. Note that this summary can only be viewed once.
+   1. Records are categorized as Imported, Skipped, or Failed.&#x20;
+   2. Individual record failures won't block the rest of the import.
+   3. If you experience import failures, download the log, use that as a reference to update the records in your original file, then upload again. Or, alternatively, [manually add the failed organizations to Rewst](organizations.md#manually-create-a-new-organization-in-rewst).
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-07 at 2.08.02 PM.png" alt=""><figcaption><p>An example of the import summary</p></figcaption></figure>
+
+### CSV upload error codes
+
+{% hint style="warning" %}
+Uploads that don't match the expected schema will fail validation.
+{% endhint %}
+
+| Error Code                          | Field                                      | When It's Triggered                                                                                                                                                  |
+| ----------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **REQUIRED\_FIELD**                 | `organizationName`                         | Name is missing or empty after trimming whitespace                                                                                                                   |
+| **MAX\_LENGTH\_EXCEEDED**           | `organizationName`, `domain`, or `orgSlug` | Any of these fields exceed 255 characters                                                                                                                            |
+| **INVALID\_FORMAT**                 | `managingOrgId`                            | The managing org ID is not a valid UUID - `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`                                                                                     |
+| **NOT\_FOUND**                      | `managingOrgId`                            | The managing org ID is a valid UUID but doesn't match any organization in the database                                                                               |
+| **UNAUTHORIZED**                    | `managingOrgId`                            | The user doesn't have management access or staff write access to the specified managing org                                                                          |
+| **DUPLICATE\_IN\_FILE**             | `organizationName`                         | Two or more rows in the same import have the same org name (case-insensitive). Reports which earlier row it duplicates.                                              |
+| **DUPLICATE\_IN\_DATABASE**         | `organizationName`                         | An org with the same name (case-insensitive) already exists under the target managing org's hierarchy. Record is categorized as `EXISTING` and skipped (not failed). |
+| **RESERVED\_NAME**                  | `organizationName`                         | The name contains a substring reserved for Rewst staff - only enforced for non-staff users, via `validateOrganizationName`                                           |
+| **INVALID\_SLUG**                   | `orgSlug`                                  | The slug fails `validateSiteDomain` validation - forbidden domains, format issues, etc.                                                                              |
+| **INVALID\_TAGS**                   | `tagNames`                                 | One or more tag names don't match any existing tags for the managing org or global tags                                                                              |
+| **DUPLICATE\_DOMAIN\_IN\_FILE**     | `domain`                                   | Two or more rows in the same import have the same domain, which is case-insensitive. Reports which earlier row it duplicates.                                        |
+| **DUPLICATE\_DOMAIN\_IN\_DATABASE** | `domain`                                   | An org with the same domain already exists under the managing org's hierarchy                                                                                        |
+
+## Manually create a new organization in Rewst
 
 {% hint style="warning" %}
 Remember, organizations are divided up into parent and child organizations. Every new customer you onboard into Rewst will need its own separate child org.
 {% endhint %}
 
 1. Navigate to **Settings >** **Organizations** in the left side menu of the Rewst platform.
-2. Click **+ Create**.\
+2. Click **Create Organization**.\
    ![A modal window titled “Create a New Organization” within a dark-themed user interface. The form includes several input fields:  A checkbox labeled “Enabled” (checked by default)  A required “Name” field marked with a red asterisk  “Org Slug” field  “Domain” field  “Microsoft Tenant ID” field  A dropdown labeled “Managing Organization ID” with the value “Real Fake Customer” preselected  At the bottom of the form are two buttons: a “Cancel” link and a pink “Submit” button. All input fields are styled with a dark background and light text.](<../../.gitbook/assets/Screenshot 2025-04-22 at 12.05.55 PM.png>)
 3. Fill out the following fields in the **Create a New Organization** dialog that appears:
    1. **Name**: This is the display name for the organization - keep it short and recognizable, and avoid special characters
@@ -41,7 +98,7 @@ Once an organization is deleted, it can’t be brought back, even by Rewst suppo
 2.  Click **Delete Organization(s)** in the top right corner.\
     <br>
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2025-04-22 at 12.18.46 PM.png" alt=""><figcaption><p>Delete organizations will only appear once an org has been selected</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-04-07 at 2.16.07 PM.png" alt=""><figcaption><p>Delete organizations will only appear once an org has been selected</p></figcaption></figure>
 3. Confirm that you wish to delete the organization. Type `delete orgs` into the field.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-04-22 at 12.20.45 PM.png>)
@@ -59,7 +116,7 @@ Rewst retains workflow execution for a configurable number of days, up to 30 day
 
 Access data retention settings in the Rewst platform by navigating to **Settings > Organizations**. Note that only users with the admin role will be able to update this setting.<br>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.19.00 PM.png" alt=""><figcaption><p>The organizations list page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-07 at 2.14.00 PM.png" alt=""><figcaption><p>The organizations list page</p></figcaption></figure>
 
 Click <img src="../../.gitbook/assets/Screenshot 2025-04-23 at 2.38.16 PM.png" alt="" data-size="line"> next to each individual organization to edit the settings for that organization.
 
