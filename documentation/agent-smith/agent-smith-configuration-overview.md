@@ -17,7 +17,7 @@ Budget between 50 to 200 messages per day per agent, depending on your workflows
 ## Set up Agent Smith
 
 {% hint style="success" %}
-Unpack the Agent Smith setup Crates at the MSP level. Then, set the [organization variable](../integrations/organization-variables.md#what-is-an-organization-variable) `default_rmm` at the customer level for the child organizations that you want to use with Agent Smith, or use the form unpacked during setup to apply Agent Smith as your RMM for all organizations.&#x20;
+Unpack the Agent Smith setup Crates at the MSP level. Then, set the [organization variable](../integrations/organization-variables.md#what-is-an-organization-variable) `default_rmm` at the customer level for the child organizations that you want to use with Agent Smith, or use the form unpacked during setup to apply Agent Smith as your RMM for all organizations.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -35,7 +35,7 @@ The Rewst integration user setup for the [Microsoft Cloud Integration Bundle](..
    2. Search for and install the `Agent Smith: Service Provisioning` Crate. Unpacking this Crate will configure the Azure IoT Hub as a gateway for sending commands to endpoints. It will also unpack a form named **Agent Smith: Service Configuration.** You'll use this form to set up and execute all of Agent Smith's capabilities.\
       \
       ![](<../../.gitbook/assets/Screenshot 2025-09-24 at 12.00.55 PM.png>)
-3. Navigate to **Automations > Assets > Forms** and search for the `Agent Smith: Service Configuration` form. Click **⋮> View Direct URLs**, then click on the URL of the form.&#x20;
+3. Navigate to **Automations > Assets > Forms** and search for the `Agent Smith: Service Configuration` form. Click **⋮> View Direct URLs**, then click on the URL of the form.
 4. Choose **Action: Create IoT Hub Instance** from the **Action** drop-down menu.
 5. Use the relevant drop-down selectors to choose the proper:
    1. **Azure Subscription**
@@ -67,8 +67,8 @@ This form option gives information about how you should configure your RMM to al
 
 1. Return to the same **Agent Smith: Service Configuration** form and choose **Display Agent Configuration Instructions**.
 2. Choose your **Registration Organization**. Operations may fail unless your account is a Rewst Admin. The form will display instructions for using PowerShell to configure the agent for that organization. It also shows how the organization ID is filled in. Note that changing the registration organization will update the organization ID in the code snippets.
-3. Copy the code relevant to your operating system.&#x20;
-4. Follow the given instructions produced by the form to complete steps in your RMM to allow Agent Smith's management. \
+3. Copy the code relevant to your operating system.
+4. Follow the given instructions produced by the form to complete steps in your RMM to allow Agent Smith's management.\
    \
    ![](<../../.gitbook/assets/Screenshot 2025-02-07 at 2.50.37 PM.png>)
 
@@ -88,7 +88,7 @@ Fill out the form as follows to set Agent Smith-related organization variables i
    2. Check the **Set as Default for Sub-Orgs** box to set your indicated settings for all child organizations, via inheritance.
 5. Click **Submit**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-02-13 at 4.39.25 PM.png" alt="" width="335"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-08 at 1.40.36 PM.png" alt="" width="330"><figcaption></figcaption></figure>
 
 ## Deploy to Devices
 
@@ -111,7 +111,7 @@ Agent Smith uses the Microsoft Azure integration. You'll need to add that as an 
 
 ## Optional: Unpack the Agent Smith: Track Agent Inventory In Azure Tables Crate
 
-This Crate will add some additional capabilities to your Agent Smith deployments. Using it is optional. See our total Crate setup and user guide [here](agent-smith-configuration-overview.md#agent-smith-track-agent-inventory-in-azure-tables-crate).&#x20;
+This Crate will add some additional capabilities to your Agent Smith deployments. Using it is optional. See our total Crate setup and user guide [here](agent-smith-configuration-overview.md#agent-smith-track-agent-inventory-in-azure-tables-crate).
 
 <div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-02-12 at 12.47.39 PM.png" alt="" width="217"><figcaption></figcaption></figure></div>
 
@@ -142,7 +142,7 @@ $postData = $PS_Results | ConvertTo-Json Invoke-RestMethod -Method 'Post' -Uri $
 ## Troubleshoot Agent Smith
 
 {% hint style="info" %}
-In our Discord server, the [#agent-smith ](https://discord.com/channels/936789089703845988/1184866106482110608)channel is a great place for community help with setting up and running Agent Smith. Post your questions and share your successes for how you're using Agent Smith to save time. Or, ask for assistance from Rewst Support in your dedicated Discord support channel.&#x20;
+In our Discord server, the [#agent-smith ](https://discord.com/channels/936789089703845988/1184866106482110608)channel is a great place for community help with setting up and running Agent Smith. Post your questions and share your successes for how you're using Agent Smith to save time. Or, ask for assistance from Rewst Support in your dedicated Discord support channel.
 {% endhint %}
 
 * Ensure admin-level account setup, so the service will install as SYSTEM.
@@ -164,5 +164,4 @@ We've received rare reports of the setup Crates improperly generating secret key
     <br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2026-02-13 at 4.14.09 PM.png" alt=""><figcaption></figcaption></figure>
-6. Click **Submit**.&#x20;
-
+6. Click **Submit**.
