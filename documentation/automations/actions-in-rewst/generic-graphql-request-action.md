@@ -52,6 +52,33 @@ Make your choices in the **Parameters** tab of the action's settings to set it u
   * An advanced alternative to using the other fields and selectors in the Parameters tab
   * Allows for full control over query structure
 
+## Filtering arguments: Where versus search
+
+Every plural list query in the Generic GraphQL Request action accepts up to two filtering arguments: _where_ and _search_. They are not interchangeable.&#x20;
+
+#### Where: Equality only - `field: value` → `WHERE field = value`
+
+`where` accepts a flat object of `field: value` pairs. Each pair is rendered as `WHERE field = value`. There's no way to express greater than, in this list, contains substring, etc. through `where`.
+
+The set of fields exposed in each `<Object>WhereInput` type is hand-curated by Rewst engineering, not auto-derived from the GraphQL model. That is why `Tags` exposes `id`, `name`, `orgId` for filtering but not `color` or `description`, even though those columns exist on the model.
+
+#### Search: Accepts operator wrappers
+
+`search` accepts a `<Object>SearchInput` type whose fields are wrapped in _comparison expressions_. The wrapper type depends on the column type:
+
+| Wrapper                 | Operators supported                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `id_comparison_exp`     | `_eq`, `_ne`, `_in`, `_nin`                                                                                   |
+| `string_comparison_exp` | `_eq`, `_neq`, `_in`, `_nin`, `_like`, `_nlike`, `_ilike`, `_nilike`, `_substr`, `_lt`, `_lte`, `_gt`, `_gte` |
+| `int_comparison_exp`    | `_eq`, `_neq`, `_in`, `_nin`, `_lt`, `_lte`, `_gt`, `_gte`                                                    |
+| `float_comparison_exp`  | `_eq`, `_neq`, `_in`, `_nin`, `_lt`, `_lte`, `_gt`, `_gte`                                                    |
+| `bool_comparison_exp`   | `_eq`, `_ne`                                                                                                  |
+| `json_comparison_exp`   | `_eq`, `_ne`, `_contains`                                                                                     |
+
+Use `search` whenever you need anything other than strict equality, or any time the field you want to filter on isn't exposed by `where`.&#x20;
+
+Example: `isEnabled` is not on `OrganizationWhereInput`, but it **is** on `OrganizationSearchInput`.
+
 ## Generic GraphQL request action usage examples
 
 ### Basic query example
@@ -104,6 +131,21 @@ variable_values:
   workflowId: "{{ CTX.workflow_id }}"
 ```
 
+### Tag example
+
+```graphql
+tags(
+  where: TagWhereInput
+  search: TagSearchInput
+  limit: Int
+  offset: Int
+  order: [[String!]!] = [["name"]]
+  includeTagsWithNoOwner: Boolean = false
+): [Tag!]!  @requiresManagesOwningOrg
+```
+
+
+
 ## Generic GraphQL request action: Allowed operations
 
 {% hint style="info" %}
@@ -119,6 +161,10 @@ Key entity types include:
 * Template: Reusable templates and scripts
 * User: User accounts and permissions
 * Pack: Integration packs and their components
+{% endhint %}
+
+{% hint style="success" %}
+Each of the query expanders below contains information that includes if where or search are mandatory for use of the query. Be sure to reference this information and use your query accordingly.
 {% endhint %}
 
 ### Operation type: Queries
@@ -147,7 +193,22 @@ type ActionOption {
 }
 ```
 
-**Usage example:**
+**`ActionOptionWhereInput` supported fields**
+
+| Field            | Type                            |
+| ---------------- | ------------------------------- |
+| `optionLabel`    | `String`                        |
+| `optionValue`    | `String`                        |
+| `organizationId` | `ID`                            |
+| `packConfigId`   | `ID`                            |
+| `packConfig`     | `PackConfigWhereInput` (nested) |
+| `resourceName`   | `String`                        |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes: `where` with enough fields to identify a single row — typically `packConfigId` plus `optionValue` or `optionLabel`. The parent `packConfig` must belong to an organization that you manage. No `search` input is needed.&#x20;
+
+**Usage example**
 
 ```yaml
 operation_type: "query"
@@ -165,7 +226,7 @@ fields: "id, optionLabel, optionValue, resourceName"
 
 <summary><strong><code>actionOptions</code></strong>-Retrieves multiple action options with filtering and sorting.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 actionOptions(
@@ -176,7 +237,24 @@ actionOptions(
 ): [ActionOption!]!
 ```
 
-**Usage example:**
+**`ActionOptionWhereInput` supported fields**
+
+| Field            | Type                            |
+| ---------------- | ------------------------------- |
+| `optionLabel`    | `String`                        |
+| `optionValue`    | `String`                        |
+| `organizationId` | `ID`                            |
+| `packConfigId`   | `ID`                            |
+| `packConfig`     | `PackConfigWhereInput` (nested) |
+| `resourceName`   | `String`                        |
+
+**Is where or search mandatory?**
+
+Yes: `where: { packConfigId: <id> }` (or `organizationId`) plus `limit`/`offset`. The parent `packConfig` must belong to an organization that you manage.
+
+No `search` input required— only equality filtering via `where`.
+
+**Usage example**
 
 ```yaml
 operation_type: "query"
@@ -193,9 +271,9 @@ fields: "id, optionLabel, optionValue, organization { name }"
 
 <details>
 
-<summary><strong><code>localReferenceOptions</code></strong>-Gets dropdown options for local reference models.</summary>
+<summary><strong><code>localReferenceOptions</code></strong>-Gets dropdown options for picking another Rewst object such as a workflow, template or form,  inside a parameter</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 localReferenceOptions(
@@ -226,7 +304,13 @@ type DropdownOption {
 }
 ```
 
-**Usage example:**
+**Is where or search mandatory?**
+
+Yes: required  `modelName` and `orgId`
+
+Note: `search` here is a plain string matched against the option label, not a `SearchInput` with operator wrappers.
+
+**Usage example**
 
 ```yaml
 operation_type: "query"
@@ -244,7 +328,7 @@ fields: "label, value"
 
 <summary><strong><code>resourceTypesByPack</code></strong>-Gets resource types organized by pack.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 resourceTypesByPack: [PackResourceTypesContainer!]!
@@ -256,6 +340,10 @@ type PackResourceTypesContainer {
 }
 ```
 
+**Is where or search mandatory?**
+
+No - takes no `where`, `search`, or pagination.
+
 </details>
 
 #### **Action management queries**
@@ -264,7 +352,7 @@ type PackResourceTypesContainer {
 
 <summary><strong><code>action</code></strong>-Retrieves a specific action definition.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 action(where: ActionInput, search: ActionSearch): Action
@@ -297,7 +385,47 @@ type Action {
 }
 ```
 
-**Usage example:**
+**`ActionInput` (where) supported fields**
+
+| Field          | Type                 |
+| -------------- | -------------------- |
+| `runner_type`  | `String`             |
+| `deprecated`   | `Boolean`            |
+| `description`  | `String`             |
+| `enabled`      | `Boolean`            |
+| `hidden`       | `Boolean`            |
+| `id`           | `ID`                 |
+| `name`         | `String`             |
+| `category`     | `String`             |
+| `outputSchema` | `JSON`               |
+| `pack`         | `PackInput` (nested) |
+| `packId`       | `ID`                 |
+| `parameters`   | `JSON`               |
+| `ref`          | `String`             |
+| `uid`          | `ID`                 |
+
+**`ActionSearch` supported fields**
+
+| Field          | Wrapper                    |
+| -------------- | -------------------------- |
+| `deprecated`   | `bool_comparison_exp`      |
+| `description`  | `string_comparison_exp`    |
+| `enabled`      | `bool_comparison_exp`      |
+| `hidden`       | `bool_comparison_exp`      |
+| `id`           | `id_comparison_exp`        |
+| `name`         | `string_comparison_exp`    |
+| `outputSchema` | `json_comparison_exp`      |
+| `parameters`   | `json_comparison_exp`      |
+| `ref`          | `string_comparison_exp`    |
+| `uid`          | `id_comparison_exp`        |
+| `category`     | `string_comparison_exp`    |
+| `pack`         | `PackSearchInput` (nested) |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`where` or `search` narrow enough to match a single action — typically `id`, or `packId` + `ref`. Note: `ActionInput` is the where-input despite the name. It's reused as the create/update input.
+
+**Usage example**
 
 ```yaml
 operation_type: "query"
@@ -315,7 +443,7 @@ fields: "id, name, description, parameters, outputSchema"
 
 <summary><strong><code>actions</code></strong>-Retrieves multiple actions with filtering.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 actions(
@@ -327,9 +455,53 @@ actions(
 ): [Action!]!
 ```
 
-**`actionsForOrg`**-Gets actions available to a specific organization.
+**`ActionInput` (where) supported fields**
 
-**GraphQL schema:**
+| Field          | Type                 |
+| -------------- | -------------------- |
+| `runner_type`  | `String`             |
+| `deprecated`   | `Boolean`            |
+| `description`  | `String`             |
+| `enabled`      | `Boolean`            |
+| `hidden`       | `Boolean`            |
+| `id`           | `ID`                 |
+| `name`         | `String`             |
+| `category`     | `String`             |
+| `outputSchema` | `JSON`               |
+| `pack`         | `PackInput` (nested) |
+| `packId`       | `ID`                 |
+| `parameters`   | `JSON`               |
+| `ref`          | `String`             |
+| `uid`          | `ID`                 |
+
+**`ActionSearch` supported fields**
+
+| Field          | Wrapper                    |
+| -------------- | -------------------------- |
+| `deprecated`   | `bool_comparison_exp`      |
+| `description`  | `string_comparison_exp`    |
+| `enabled`      | `bool_comparison_exp`      |
+| `hidden`       | `bool_comparison_exp`      |
+| `id`           | `id_comparison_exp`        |
+| `name`         | `string_comparison_exp`    |
+| `outputSchema` | `json_comparison_exp`      |
+| `parameters`   | `json_comparison_exp`      |
+| `ref`          | `string_comparison_exp`    |
+| `uid`          | `id_comparison_exp`        |
+| `category`     | `string_comparison_exp`    |
+| `pack`         | `PackSearchInput` (nested) |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`limit` (defaults to 100) and `offset`. Scope by `packId` (`where: { packId: <id> }`) or by `pack` (`search: { pack: { id: { _eq: <id> } } }`) when possible — unscoped calls return every action visible to your managed orgs.
+
+</details>
+
+<details>
+
+<summary><strong><code>actionsForOrg</code></strong>-Gets actions available to a specific organization.</summary>
+
+**GraphQL schema**
 
 ```graphql
 actionsForOrg(
@@ -341,6 +513,46 @@ actionsForOrg(
   orgId: ID
 ): [Action!]!
 ```
+
+**`ActionInput` (where) supported fields**
+
+| Field          | Type                 |
+| -------------- | -------------------- |
+| `runner_type`  | `String`             |
+| `deprecated`   | `Boolean`            |
+| `description`  | `String`             |
+| `enabled`      | `Boolean`            |
+| `hidden`       | `Boolean`            |
+| `id`           | `ID`                 |
+| `name`         | `String`             |
+| `category`     | `String`             |
+| `outputSchema` | `JSON`               |
+| `pack`         | `PackInput` (nested) |
+| `packId`       | `ID`                 |
+| `parameters`   | `JSON`               |
+| `ref`          | `String`             |
+| `uid`          | `ID`                 |
+
+**`ActionSearch` supported fields**
+
+| Field          | Wrapper                    |
+| -------------- | -------------------------- |
+| `deprecated`   | `bool_comparison_exp`      |
+| `description`  | `string_comparison_exp`    |
+| `enabled`      | `bool_comparison_exp`      |
+| `hidden`       | `bool_comparison_exp`      |
+| `id`           | `id_comparison_exp`        |
+| `name`         | `string_comparison_exp`    |
+| `outputSchema` | `json_comparison_exp`      |
+| `parameters`   | `json_comparison_exp`      |
+| `ref`          | `string_comparison_exp`    |
+| `uid`          | `id_comparison_exp`        |
+| `category`     | `string_comparison_exp`    |
+| `pack`         | `PackSearchInput` (nested) |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`orgId` plus `limit`/`offset`. Use this instead of `actions` when you want the action list as it appears for one specific org.
 
 </details>
 
@@ -372,7 +584,7 @@ debug: Boolean
 
 <summary><strong><code>component</code></strong>-Retrieves a specific component definition.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 component(id: ID!): Component
@@ -393,25 +605,41 @@ type Component {
 }
 ```
 
+**Is** `where` **or** `search` **mandatory?**
+
+No -  identified directly by `id`.
+
 </details>
 
 <details>
 
 <summary><strong><code>components</code></strong>-Gets multiple components for an organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 components(orgId: ID!): [Component]
 ```
 
-**`componentsByRoots`**-Gets components by their root IDs.
+**Is** `where` **or** `search` **mandatory?**
 
-**GraphQL schema:**
+No - scoped solely by `orgId`. Filter client-side or use `componentsByRoots` for specific IDs.
+
+</details>
+
+<details>
+
+<summary><strong><code>componentsByRoots</code></strong>-Gets components by their root IDs.</summary>
+
+**GraphQL schema**
 
 ```graphql
 componentsByRoots(rootIds: [ID]!): [Component]
 ```
+
+**Is** `where` **or** `search` **mandatory?**
+
+No - identified by `rootIds` list.
 
 </details>
 
@@ -419,7 +647,7 @@ componentsByRoots(rootIds: [ID]!): [Component]
 
 <summary><strong><code>componentTree</code></strong>-Gets the component tree structure.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 componentTree(id: ID!): ComponentTree
@@ -435,27 +663,19 @@ type ComponentTree {
 }
 ```
 
+**Is** `where` **or** `search` **mandatory?**
+
+No - identified by `id` and returns the latest version's tree.
+
 </details>
 
 #### **Crate management queries**
 
 <details>
 
-<summary><strong><code>crateTokenTypes</code></strong>-Gets available crate token types.</summary>
-
-**GraphQL schema:**
-
-```graphql
-crateTokenTypes: [String!]!
-```
-
-</details>
-
-<details>
-
 <summary><strong><code>crate</code></strong>-Retrieves a specific crate.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 crate(
@@ -501,13 +721,46 @@ type Crate {
 }
 ```
 
+**`CrateWhereInput` supported fields**
+
+| Field             | Type                          |
+| ----------------- | ----------------------------- |
+| `description`     | `String`                      |
+| `id`              | `ID`                          |
+| `lastPublishedAt` | `String`                      |
+| `name`            | `String`                      |
+| `orgId`           | `ID`                          |
+| `primaryPack`     | `PackWhereInput` (nested)     |
+| `status`          | `String`                      |
+| `tokens`          | `JSON`                        |
+| `workflow`        | `WorkflowWhereInput` (nested) |
+| `workflowId`      | `ID`                          |
+| `gid`             | `ID`                          |
+| `isPublic`        | `Boolean`                     |
+
+**`CrateSearchInput` supported fields**
+
+| Field             | Wrapper                    |
+| ----------------- | -------------------------- |
+| `description`     | `string_comparison_exp`    |
+| `id`              | `id_comparison_exp`        |
+| `lastPublishedAt` | `string_comparison_exp`    |
+| `name`            | `string_comparison_exp`    |
+| `primaryPack`     | `PackSearchInput` (nested) |
+| `tokens`          | `json_comparison_exp`      |
+| `workflow`        | `WorkflowSearch` (nested)  |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`where` or `search` narrow enough to match a single Crate — typically `id` or `gid`. Pass `selectedOrgId` to control the per-org `isUnpackedForSelectedOrg` flag.
+
 </details>
 
 <details>
 
 <summary><strong><code>crates</code></strong>-Gets multiple crates with filtering and sorting.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 crates(
@@ -520,17 +773,70 @@ crates(
 ): [Crate!]!
 ```
 
+**`CrateWhereInput` supported fields**
+
+| Field             | Type                          |
+| ----------------- | ----------------------------- |
+| `description`     | `String`                      |
+| `id`              | `ID`                          |
+| `lastPublishedAt` | `String`                      |
+| `name`            | `String`                      |
+| `orgId`           | `ID`                          |
+| `primaryPack`     | `PackWhereInput` (nested)     |
+| `status`          | `String`                      |
+| `tokens`          | `JSON`                        |
+| `workflow`        | `WorkflowWhereInput` (nested) |
+| `workflowId`      | `ID`                          |
+| `gid`             | `ID`                          |
+| `isPublic`        | `Boolean`                     |
+
+**`CrateSearchInput` supported fields**
+
+| Field             | Wrapper                    |
+| ----------------- | -------------------------- |
+| `description`     | `string_comparison_exp`    |
+| `id`              | `id_comparison_exp`        |
+| `lastPublishedAt` | `string_comparison_exp`    |
+| `name`            | `string_comparison_exp`    |
+| `primaryPack`     | `PackSearchInput` (nested) |
+| `tokens`          | `json_comparison_exp`      |
+| `workflow`        | `WorkflowSearch` (nested)  |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`limit` and `offset`, plus a scoping filter — typically `where: { orgId: <id> }`, `where: { isPublic: true }`, or `search: { name: { _ilike: "%foo%" } }`. Unscoped calls are slow.
+
 </details>
 
 <details>
 
 <summary><strong><code>crateExportInfo</code></strong>-Gets export information for a workflow to crate.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 crateExportInfo(workflowId: ID!): JSON
 ```
+
+**Is** `where` **or** `search` **mandatory?**
+
+No - `workflowId` returns an unstructured JSON blob.
+
+</details>
+
+<details>
+
+<summary><strong><code>crateTokenTypes</code></strong>-Gets available crate token types.</summary>
+
+**GraphQL schema**
+
+```graphql
+crateTokenTypes: [String!]!
+```
+
+**Is** `where` **or** `search` **mandatory?**
+
+No - Returns values like `text`, `linebreak`, `selectVar`, `inputVar`, `selectPackVar`, etc.
 
 </details>
 
@@ -538,7 +844,7 @@ crateExportInfo(workflowId: ID!): JSON
 
 <summary><strong><code>crateUnpackingArgumentSet</code></strong>-Gets crate unpacking argument sets.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 crateUnpackingArgumentSet(
@@ -563,6 +869,18 @@ type CrateUnpackingArgumentSet {
 }
 ```
 
+**`CrateUnpackingArgumentSetWhereInput` supported fields**
+
+| Field     | Type |
+| --------- | ---- |
+| `crateId` | `ID` |
+| `id`      | `ID` |
+| `orgId`   | `ID` |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes - `where` narrow enough to match a single set — typically `id`, or `crateId` + `orgId`. No search input is needed.
+
 </details>
 
 #### **Feature preview queries**
@@ -571,7 +889,7 @@ type CrateUnpackingArgumentSet {
 
 <summary><strong><code>featurePreviewSetting</code></strong>-Gets a specific feature preview setting.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 featurePreviewSetting(where: FeaturePreviewSettingWhereInput): FeaturePreviewSetting
@@ -584,13 +902,24 @@ type FeaturePreviewSetting {
 }
 ```
 
+**`FeaturePreviewSettingWhereInput` supported fields**
+
+| Field   | Type     |
+| ------- | -------- |
+| `id`    | `ID`     |
+| `label` | `String` |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes - at least one of `id` or `label` on `where`. No search input is needed.&#x20;
+
 </details>
 
 <details>
 
 <summary><strong><code>featurePreviewSettings</code></strong>-Gets multiple feature preview settings.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 featurePreviewSettings(
@@ -598,6 +927,10 @@ featurePreviewSettings(
   order: [[String!]!] = [["createdAt"]]
 ): [FeaturePreviewSetting]
 ```
+
+**Is** `where` **or** `search` **mandatory?**
+
+No - no `search` input, no `limit`/`offset` . The table is small and unpaginated.
 
 </details>
 
@@ -607,7 +940,7 @@ featurePreviewSettings(
 
 <summary><strong><code>foreignObjectReference</code></strong>-Gets a specific foreign object reference.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 foreignObjectReference(
@@ -629,13 +962,31 @@ type ForeignObjectReference {
 }
 ```
 
+**`ForeignObjectReferenceWhereInput` supported fields**
+
+| Field               | Type                                   |
+| ------------------- | -------------------------------------- |
+| `id`                | `ID`                                   |
+| `referenceId`       | `ID`                                   |
+| `identifier`        | `ID`                                   |
+| `workflowExecution` | `WorkflowExecutionWhereInput` (nested) |
+| `action`            | `ActionInput` (nested)                 |
+| `actionId`          | `ID`                                   |
+| `packConfig`        | `PackConfigWhereInput` (nested)        |
+| `packConfigId`      | `ID`                                   |
+| `orgId`             | `ID`                                   |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes - For `where`, at least one filter — typically `id`, or `referenceId` + `orgId`. No search input is needed.&#x20;
+
 </details>
 
 <details>
 
 <summary><strong><code>foreignObjectReferences</code></strong>-Gets multiple foreign object references.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 foreignObjectReferences(
@@ -643,15 +994,33 @@ foreignObjectReferences(
 ): [ForeignObjectReference!]!
 ```
 
+**`ForeignObjectReferenceWhereInput` supported fields**
+
+| Field               | Type                                   |
+| ------------------- | -------------------------------------- |
+| `id`                | `ID`                                   |
+| `referenceId`       | `ID`                                   |
+| `identifier`        | `ID`                                   |
+| `workflowExecution` | `WorkflowExecutionWhereInput` (nested) |
+| `action`            | `ActionInput` (nested)                 |
+| `actionId`          | `ID`                                   |
+| `packConfig`        | `PackConfigWhereInput` (nested)        |
+| `packConfigId`      | `ID`                                   |
+| `orgId`             | `ID`                                   |
+
+**Is** `where` **or** `search` **mandatory?**
+
+No `search` input and no `limit`/`offset` — scope with `where: { orgId: <id> }` to avoid pulling cross-organization rows.
+
 </details>
 
 #### **Form management queries**
 
 <details>
 
-<summary><strong><code>form</code></strong>-Retrieves a specific form definition.</summary>
+<summary><strong><code>form</code></strong>-Retrieves a specific form definition, gets a single form.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 form(
@@ -686,13 +1055,45 @@ type Form {
 }
 ```
 
+**`FormWhereInput` — supported fields**
+
+| Field            | Type                         |
+| ---------------- | ---------------------------- |
+| `clonedFromId`   | `ID`                         |
+| `id`             | `ID`                         |
+| `isSynchronized` | `Boolean`                    |
+| `name`           | `String`                     |
+| `orgId`          | `ID`                         |
+| `triggers`       | `TriggerWhereInput` (nested) |
+| `triggerId`      | `[ID]`                       |
+| `unpackedFromId` | `ID`                         |
+
+**`FormSearchInput` — supported fields**
+
+| Field            | Wrapper                            |
+| ---------------- | ---------------------------------- |
+| `clonedFromId`   | `id_comparison_exp`                |
+| `createdBy`      | `UserSearchInput` (nested)         |
+| `id`             | `id_comparison_exp`                |
+| `isSynchronized` | `bool_comparison_exp`              |
+| `name`           | `string_comparison_exp`            |
+| `organization`   | `OrganizationSearchInput` (nested) |
+| `organizationId` | `id_comparison_exp`                |
+| `triggerId`      | `id_comparison_exp`                |
+| `unpackedFromId` | `id_comparison_exp`                |
+| `updatedBy`      | `UserSearchInput` (nested)         |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes - At least one filter is needed, identifying a single form - typically `id` on `where`.
+
 </details>
 
 <details>
 
 <summary><strong><code>forms</code></strong>-Gets multiple forms with filtering.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 forms(
@@ -705,17 +1106,55 @@ forms(
 ): [Form!]!
 ```
 
+**`FormWhereInput` — supported fields**
+
+| Field            | Type                         |
+| ---------------- | ---------------------------- |
+| `clonedFromId`   | `ID`                         |
+| `id`             | `ID`                         |
+| `isSynchronized` | `Boolean`                    |
+| `name`           | `String`                     |
+| `orgId`          | `ID`                         |
+| `triggers`       | `TriggerWhereInput` (nested) |
+| `triggerId`      | `[ID]`                       |
+| `unpackedFromId` | `ID`                         |
+
+**`FormSearchInput` — supported fields**
+
+| Field            | Wrapper                            |
+| ---------------- | ---------------------------------- |
+| `clonedFromId`   | `id_comparison_exp`                |
+| `createdBy`      | `UserSearchInput` (nested)         |
+| `id`             | `id_comparison_exp`                |
+| `isSynchronized` | `bool_comparison_exp`              |
+| `name`           | `string_comparison_exp`            |
+| `organization`   | `OrganizationSearchInput` (nested) |
+| `organizationId` | `id_comparison_exp`                |
+| `triggerId`      | `id_comparison_exp`                |
+| `unpackedFromId` | `id_comparison_exp`                |
+| `updatedBy`      | `UserSearchInput` (nested)         |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`limit` and `offset`.&#x20;
+
+Note: `forms` runs SpiceDB permission filtering with a scan-budget cap (default 5× `limit`). For low-auth-ratio tenants the helper may return `hasMore: false` before exhausting the table — raise `limit` if a `while (hasMore)` paginator stops short.
+
 </details>
 
 <details>
 
 <summary><strong><code>packConfigsForForm</code></strong>-Gets pack configurations associated with a form.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packConfigsForForm(formId: ID!, orgId: ID!, triggerId: ID): [PackConfig!]!
 ```
+
+**Is** `where` **or** `search` **mandatory?**
+
+No - `formId`, `orgId`.
 
 </details>
 
@@ -723,7 +1162,7 @@ packConfigsForForm(formId: ID!, orgId: ID!, triggerId: ID): [PackConfig!]!
 
 <summary><strong><code>evaluatedForm</code></strong>-Gets an evaluated form for a specific trigger.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 evaluatedForm(
@@ -731,6 +1170,17 @@ evaluatedForm(
   orgContextId: ID
 ): Form
 ```
+
+**`EvaluatedFormWhereInput` supported fields**
+
+| Field       | Type             |
+| ----------- | ---------------- |
+| `orgId`     | `ID!` (required) |
+| `triggerId` | `ID!` (required) |
+
+**Is** `where` **or** `search` **mandatory?**
+
+No `search` input is needed. Use both `orgId` and `triggerId` on `where` - both non-null.
 
 </details>
 
@@ -740,7 +1190,7 @@ evaluatedForm(
 
 <summary><strong><code>microsoftCSPCustomer</code></strong>-Gets Microsoft CSP customer information.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 microsoftCSPCustomer(
@@ -760,13 +1210,28 @@ type MicrosoftCSPCustomer {
 }
 ```
 
+**`MicrosoftCSPCustomerWhereInput` supported fields**
+
+| Field                 | Type                              |
+| --------------------- | --------------------------------- |
+| `companyName`         | `String`                          |
+| `cspTenantId`         | `String`                          |
+| `hasConsent`          | `Boolean`                         |
+| `id`                  | `ID`                              |
+| `linkedOrganizations` | `OrganizationWhereInput` (nested) |
+| `tenantId`            | `String`                          |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes - `cspPackConfigId` plus at least one filter on `where` to identify the customer. No `search` input is needed.&#x20;
+
 </details>
 
 <details>
 
 <summary><strong><code>microsoftCSPCustomers</code></strong>-Gets multiple Microsoft CSP customers.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 microsoftCSPCustomers(
@@ -776,6 +1241,21 @@ microsoftCSPCustomers(
 ): [MicrosoftCSPCustomer!]!
 ```
 
+**`MicrosoftCSPCustomerSearchInput` supported fields**
+
+| Field                 | Wrapper                            |
+| --------------------- | ---------------------------------- |
+| `companyName`         | `string_comparison_exp`            |
+| `cspTenantId`         | `string_comparison_exp`            |
+| `hasConsent`          | `bool_comparison_exp`              |
+| `id`                  | `id_comparison_exp`                |
+| `linkedOrganizations` | `OrganizationSearchInput` (nested) |
+| `tenantId`            | `string_comparison_exp`            |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`cspPackConfigId`. No `limit`/`offset` — results are scoped to the supplied pack config.
+
 </details>
 
 #### **Trigger instance queries**
@@ -784,7 +1264,7 @@ microsoftCSPCustomers(
 
 <summary><strong><code>orgTriggerInstance</code></strong>-Gets a specific organization trigger instance.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 orgTriggerInstance(
@@ -806,13 +1286,37 @@ type OrgTriggerInstance {
 }
 ```
 
+**`OrgTriggerInstanceWhereInput` supported fields**
+
+| Field          | Type                         |
+| -------------- | ---------------------------- |
+| `id`           | `ID`                         |
+| `orgId`        | `ID`                         |
+| `organization` | `OrganizationInput` (nested) |
+| `triggerId`    | `ID`                         |
+| `trigger`      | `TriggerWhereInput` (nested) |
+
+**`OrgTriggerInstanceSearchInput` supported fields**
+
+| Field          | Wrapper                       |
+| -------------- | ----------------------------- |
+| `id`           | `id_comparison_exp`           |
+| `orgId`        | `id_comparison_exp`           |
+| `organization` | `OrganizationInput` (nested)  |
+| `triggerId`    | `id_comparison_exp`           |
+| `trigger`      | `TriggerSearchInput` (nested) |
+
+**Is** `where` **or** `search` **mandatory?**
+
+At least one filter is needed identifying a single instance — typically `id`, or `orgId` + `triggerId`.
+
 </details>
 
 <details>
 
 <summary><strong><code>orgTriggerInstances</code></strong>-Gets multiple organization trigger instances.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 orgTriggerInstances(
@@ -824,6 +1328,30 @@ orgTriggerInstances(
 ): [OrgTriggerInstance!]!
 ```
 
+**`OrgTriggerInstanceWhereInput` supported fields**
+
+| Field          | Type                         |
+| -------------- | ---------------------------- |
+| `id`           | `ID`                         |
+| `orgId`        | `ID`                         |
+| `organization` | `OrganizationInput` (nested) |
+| `triggerId`    | `ID`                         |
+| `trigger`      | `TriggerWhereInput` (nested) |
+
+**`OrgTriggerInstanceSearchInput` supported fields**
+
+| Field          | Wrapper                       |
+| -------------- | ----------------------------- |
+| `id`           | `id_comparison_exp`           |
+| `orgId`        | `id_comparison_exp`           |
+| `organization` | `OrganizationInput` (nested)  |
+| `triggerId`    | `id_comparison_exp`           |
+| `trigger`      | `TriggerSearchInput` (nested) |
+
+**Is** `where` **or** `search` **mandatory?**
+
+`limit` and `offset` .
+
 </details>
 
 #### **Organization variable queries**
@@ -832,7 +1360,7 @@ orgTriggerInstances(
 
 <summary><strong><code>orgVariable</code></strong>-Gets a specific organization variable.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 orgVariable(
@@ -863,13 +1391,43 @@ enum OrgVariableCategory {
 }
 ```
 
+**`OrgVariableWhereInput` supported fields**
+
+| Field          | Type                              |
+| -------------- | --------------------------------- |
+| `id`           | `ID`                              |
+| `name`         | `String`                          |
+| `value`        | `String`                          |
+| `category`     | `OrgVariableCategory`             |
+| `orgId`        | `ID`                              |
+| `organization` | `OrganizationWhereInput` (nested) |
+| `packConfigId` | `ID`                              |
+| `packConfig`   | `PackConfigWhereInput` (nested)   |
+
+**`OrgVariableSearchInput` supported fields**
+
+| Field          | Wrapper                            |
+| -------------- | ---------------------------------- |
+| `id`           | `id_comparison_exp`                |
+| `name`         | `string_comparison_exp`            |
+| `value`        | `string_comparison_exp`            |
+| `category`     | `OrgVariableCategorySearchInput`   |
+| `orgId`        | `id_comparison_exp`                |
+| `organization` | `OrganizationSearchInput` (nested) |
+| `packConfigId` | `id_comparison_exp`                |
+| `packConfig`   | `PackConfigSearch` (nested)        |
+
+**Is** `where` **or** `search` **mandatory?**
+
+At least one filter is required— typically `id`, or `orgId` + `name`. Pass `maskSecrets: false` only when raw secret values are required.
+
 </details>
 
 <details>
 
 <summary><strong><code>orgVariables</code></strong>-Gets multiple organization variables.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 orgVariables(
@@ -882,13 +1440,43 @@ orgVariables(
 ): [OrgVariable!]!
 ```
 
+**`OrgVariableWhereInput` supported fields**
+
+| Field          | Type                              |
+| -------------- | --------------------------------- |
+| `id`           | `ID`                              |
+| `name`         | `String`                          |
+| `value`        | `String`                          |
+| `category`     | `OrgVariableCategory`             |
+| `orgId`        | `ID`                              |
+| `organization` | `OrganizationWhereInput` (nested) |
+| `packConfigId` | `ID`                              |
+| `packConfig`   | `PackConfigWhereInput` (nested)   |
+
+**`OrgVariableSearchInput` supported fields**
+
+| Field          | Wrapper                            |
+| -------------- | ---------------------------------- |
+| `id`           | `id_comparison_exp`                |
+| `name`         | `string_comparison_exp`            |
+| `value`        | `string_comparison_exp`            |
+| `category`     | `OrgVariableCategorySearchInput`   |
+| `orgId`        | `id_comparison_exp`                |
+| `organization` | `OrganizationSearchInput` (nested) |
+| `packConfigId` | `id_comparison_exp`                |
+| `packConfig`   | `PackConfigSearch` (nested)        |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes - `limit` and `offset`; scope with `where: { orgId: <id> }`.
+
 </details>
 
 <details>
 
 <summary><strong><code>visibleOrgVariables</code></strong>-Gets organization variables visible to a specific organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 visibleOrgVariables(
@@ -900,6 +1488,36 @@ visibleOrgVariables(
 ): [OrgVariable!]!
 ```
 
+**`OrgVariableWhereInput` supported fields**
+
+| Field          | Type                              |
+| -------------- | --------------------------------- |
+| `id`           | `ID`                              |
+| `name`         | `String`                          |
+| `value`        | `String`                          |
+| `category`     | `OrgVariableCategory`             |
+| `orgId`        | `ID`                              |
+| `organization` | `OrganizationWhereInput` (nested) |
+| `packConfigId` | `ID`                              |
+| `packConfig`   | `PackConfigWhereInput` (nested)   |
+
+**`OrgVariableSearchInput` supported fields**
+
+| Field          | Wrapper                            |
+| -------------- | ---------------------------------- |
+| `id`           | `id_comparison_exp`                |
+| `name`         | `string_comparison_exp`            |
+| `value`        | `string_comparison_exp`            |
+| `category`     | `OrgVariableCategorySearchInput`   |
+| `orgId`        | `id_comparison_exp`                |
+| `organization` | `OrganizationSearchInput` (nested) |
+| `packConfigId` | `id_comparison_exp`                |
+| `packConfig`   | `PackConfigSearch` (nested)        |
+
+**Is** `where` **or** `search` **mandatory?**
+
+Yes - filter via `search`. Results include cascading variables from parent orgs. No `where` input is required. `visibleForOrgId`, `limit`, `offset`.
+
 </details>
 
 #### **Organization management queries**
@@ -908,7 +1526,7 @@ visibleOrgVariables(
 
 <summary><strong><code>organization</code></strong>-Gets a specific organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 organization(
@@ -958,13 +1576,55 @@ type Organization {
 }
 ```
 
+**`OrganizationWhereInput` supported fields**
+
+| Field           | Type                                 | Notes                      |
+| --------------- | ------------------------------------ | -------------------------- |
+| `id`            | `ID`                                 |                            |
+| `isStaff`       | `Boolean`                            |                            |
+| `managedOrgs`   | `OrganizationWhereInput` (recursive) |                            |
+| `managingOrg`   | `OrganizationWhereInput` (recursive) |                            |
+| `managingOrgId` | `ID`                                 |                            |
+| `name`          | `String`                             | Exact match only           |
+| `orgSlug`       | `String`                             |                            |
+| `rocSiteId`     | `String`                             |                            |
+| `tags`          | `OrganizationTagsWhereInput`         | Nested: `{ id: [ID!] }`    |
+| `users`         | `UserWhereInput`                     | Filter orgs by their users |
+| `domain`        | `String`                             |                            |
+
+**`OrganizationSearchInput` supported fields**
+
+| Field                  | Wrapper                               |
+| ---------------------- | ------------------------------------- |
+| `createdAt`            | `string_comparison_exp`               |
+| `id`                   | `id_comparison_exp`                   |
+| `installedPacks`       | `PackSearchInput`                     |
+| `isDeleted`            | `bool_comparison_exp`                 |
+| `isEnabled`            | `bool_comparison_exp`                 |
+| `isInternal`           | `bool_comparison_exp`                 |
+| `isOnboarding`         | `bool_comparison_exp`                 |
+| `isStaff`              | `bool_comparison_exp`                 |
+| `managedOrgs`          | `OrganizationSearchInput` (recursive) |
+| `managingOrg`          | `OrganizationSearchInput` (recursive) |
+| `managingOrgId`        | `id_comparison_exp`                   |
+| `name`                 | `string_comparison_exp`               |
+| `orgSlug`              | `string_comparison_exp`               |
+| `resultsRetentionDays` | `int_comparison_exp`                  |
+| `rocSiteId`            | `string_comparison_exp`               |
+| `tags`                 | `TagSearchInput`                      |
+| `users`                | `UserSearchInput`                     |
+
+**Is `where` or `search` mandatory?**
+
+At least one of `where` or `search` to identify the org — typically `where: { id: <id> }` or `where: { orgSlug: <slug> }`.
+
 </details>
 
 <details>
 
 <summary><strong><code>organizations</code></strong>-Gets multiple organizations.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 organizations(
@@ -976,13 +1636,88 @@ organizations(
 ): [Organization!]!
 ```
 
+
+
+**`OrganizationWhereInput` supported fields**
+
+| Field           | Type                                 | Notes                      |
+| --------------- | ------------------------------------ | -------------------------- |
+| `id`            | `ID`                                 |                            |
+| `isStaff`       | `Boolean`                            |                            |
+| `managedOrgs`   | `OrganizationWhereInput` (recursive) |                            |
+| `managingOrg`   | `OrganizationWhereInput` (recursive) |                            |
+| `managingOrgId` | `ID`                                 |                            |
+| `name`          | `String`                             | Exact match only           |
+| `orgSlug`       | `String`                             |                            |
+| `rocSiteId`     | `String`                             |                            |
+| `tags`          | `OrganizationTagsWhereInput`         | Nested: `{ id: [ID!] }`    |
+| `users`         | `UserWhereInput`                     | Filter orgs by their users |
+| `domain`        | `String`                             |                            |
+
+Not filterable via `where` -  available via `search`: `isEnabled`, `isInternal`, `isDeleted`, `isOnboarding`, `createdAt`, `resultsRetentionDays`
+
+Not filterable at all - neither `where` nor `search`): `isMsp`, `tid`, `deletedAt`
+
+**`OrganizationSearchInput` supported fields**
+
+| Field                  | Wrapper                               |
+| ---------------------- | ------------------------------------- |
+| `createdAt`            | `string_comparison_exp`               |
+| `id`                   | `id_comparison_exp`                   |
+| `installedPacks`       | `PackSearchInput`                     |
+| `isDeleted`            | `bool_comparison_exp`                 |
+| `isEnabled`            | `bool_comparison_exp`                 |
+| `isInternal`           | `bool_comparison_exp`                 |
+| `isOnboarding`         | `bool_comparison_exp`                 |
+| `isStaff`              | `bool_comparison_exp`                 |
+| `managedOrgs`          | `OrganizationSearchInput` (recursive) |
+| `managingOrg`          | `OrganizationSearchInput` (recursive) |
+| `managingOrgId`        | `id_comparison_exp`                   |
+| `name`                 | `string_comparison_exp`               |
+| `orgSlug`              | `string_comparison_exp`               |
+| `resultsRetentionDays` | `int_comparison_exp`                  |
+| `rocSiteId`            | `string_comparison_exp`               |
+| `tags`                 | `TagSearchInput`                      |
+| `users`                | `UserSearchInput`                     |
+
+**Is `where` or `search` mandatory?**
+
+Yes, in practice. `organizations` is one of the three unbounded tables. Always pass:
+
+* `where: { managingOrgId: CTX.organization.id }` or a `search` filter, and
+* `limit` (recommended ≤ 100) and `offset` for pagination.
+
+**Worked example: Listing disabled organizations**
+
+`isEnabled` is not on `OrganizationWhereInput`, so this fails:
+
+```yaml
+# ❌ WRONG — isEnabled is not on OrganizationWhereInput
+operation: organizations
+variables:
+  where: { isEnabled: false }
+```
+
+Use `search` instead:
+
+```yaml
+# ✅ CORRECT
+operation: organizations
+variables:
+  search:
+    isEnabled: { _eq: false }
+    managingOrgId: { _eq: "{{ CTX.organization.id }}" }
+  limit: 100
+  offset: 0
+```
+
 </details>
 
 <details>
 
 <summary><strong><code>orgSearch</code></strong>-Performs organization search with breadcrumbs.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 orgSearch(
@@ -1002,17 +1737,25 @@ type OrgSearchResult {
   }
 ```
 
+**Is `where` or `search` mandatory?**
+
+No - WhereInput`/`SearchInput - search here is a plain free-text string matched against org name, not an operator-wrapper type. ReturnsOrgSearchResult (id, name, hasChildren, breadcrumbs, managingOrgId, supportAccessStatus, isInternal), not fullOrganization\`.
+
 </details>
 
 <details>
 
 <summary><strong><code>softDeletedOrgs</code></strong>-Gets soft-deleted organizations.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 softDeletedOrgs(managingOrgId: ID!): [Organization!]!
 ```
+
+**Is `where` or `search` mandatory?**
+
+There is no `where`/`search`/pagination. Scoping is solely `managingOrgId`.
 
 </details>
 
@@ -1022,7 +1765,7 @@ softDeletedOrgs(managingOrgId: ID!): [Organization!]!
 
 <summary><strong><code>packActionOption</code></strong>-Gets a specific pack action option.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packActionOption(where: PackActionOptionWhereInput): PackActionOption
@@ -1050,13 +1793,37 @@ type PackActionOption {
 }
 ```
 
+**`PackActionOptionWhereInput` supported fields**
+
+| Field                | Type         |
+| -------------------- | ------------ |
+| `id`                 | `ID`         |
+| `packId`             | `ID`         |
+| `name`               | `String`     |
+| `path`               | `String`     |
+| `method`             | `HTTPMethod` |
+| `paginate`           | `Boolean`    |
+| `queryParams`        | `JSON`       |
+| `pathParams`         | `JSON`       |
+| `headers`            | `JSON`       |
+| `requiredPathVars`   | `[String!]`  |
+| `requiredQueryVars`  | `[String!]`  |
+| `requiredHeaderVars` | `[String!]`  |
+| `resultsKey`         | `String`     |
+| `valueField`         | `String`     |
+| `label`              | `String`     |
+| `labelIsTemplate`    | `Boolean`    |
+| `valueFieldIsPath`   | `Boolean`    |
+
+**Is `where` or `search` mandatory?**
+
+Yes - There is no `search` input — equality filtering via `where` only. `PackActionOptionWhereInput`
+
 </details>
 
 <details>
 
 <summary><strong><code>packActionOptions</code></strong>-Gets multiple pack action options.</summary>
-
-**GraphQL schema:**
 
 ```graphql
 packActionOptions(
@@ -1067,6 +1834,34 @@ packActionOptions(
 ): [PackActionOption!]!
 ```
 
+**GraphQL schema**
+
+**`PackActionOptionsWhereInput` supported fields**
+
+| Field                | Type         |
+| -------------------- | ------------ |
+| `id`                 | `ID`         |
+| `packId`             | `ID`         |
+| `name`               | `String`     |
+| `path`               | `String`     |
+| `method`             | `HTTPMethod` |
+| `paginate`           | `Boolean`    |
+| `queryParams`        | `JSON`       |
+| `pathParams`         | `JSON`       |
+| `headers`            | `JSON`       |
+| `requiredPathVars`   | `[String!]`  |
+| `requiredQueryVars`  | `[String!]`  |
+| `requiredHeaderVars` | `[String!]`  |
+| `resultsKey`         | `String`     |
+| `valueField`         | `String`     |
+| `label`              | `String`     |
+| `labelIsTemplate`    | `Boolean`    |
+| `valueFieldIsPath`   | `Boolean`    |
+
+**Is `where` or `search` mandatory?**
+
+There is no `search` input — equality filtering via `where` only. `limit`, `offset`; scope with `where: { packId: <id> }`.
+
 </details>
 
 #### **Pack bundle queries**
@@ -1075,7 +1870,7 @@ packActionOptions(
 
 <summary><strong><code>packBundle</code></strong>-Gets a specific pack bundle.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packBundle(where: PackBundleWhereInput!): PackBundle
@@ -1090,13 +1885,27 @@ type PackBundle {
 }
 ```
 
+**`PackBundleWhereInput` supported fields**
+
+| Field         | Type                      |
+| ------------- | ------------------------- |
+| `description` | `String`                  |
+| `id`          | `ID`                      |
+| `name`        | `String`                  |
+| `packs`       | `PackWhereInput` (nested) |
+| `ref`         | `String`                  |
+
+**Is `where` or `search` mandatory?**
+
+Yes - there is no `search` input. Use `where` (non-null) with at least one identifying field — typically `id` or `ref`.
+
 </details>
 
 <details>
 
 <summary><strong><code>packBundles</code></strong>-Gets multiple pack bundles.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packBundles(
@@ -1108,6 +1917,20 @@ packBundles(
 ): [PackBundle]!
 ```
 
+**`PackBundleSearchInput` — supported fields**
+
+| Field         | Wrapper                                                       |
+| ------------- | ------------------------------------------------------------- |
+| `description` | `string_comparison_exp`                                       |
+| `id`          | `id_comparison_exp`                                           |
+| `name`        | `string_comparison_exp`                                       |
+| `packs`       | `PackSearchInput` (nested)                                    |
+| `ref`         | `String` (equality only — plain string, not a comparison exp) |
+
+**Is `where` or `search` mandatory?**
+
+`limit` and `offset`
+
 </details>
 
 #### **Pack configuration queries**
@@ -1116,7 +1939,7 @@ packBundles(
 
 <summary><strong><code>packConfig</code></strong>-Gets a specific pack configuration.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packConfig(
@@ -1146,13 +1969,49 @@ type PackConfig {
 }
 ```
 
+**`PackConfigWhereInput` supported fields**
+
+| Field           | Type                              |
+| --------------- | --------------------------------- |
+| `actionOptions` | `ActionOptionWhereInput` (nested) |
+| `config`        | `JSON`                            |
+| `default`       | `Boolean`                         |
+| `description`   | `String`                          |
+| `id`            | `ID`                              |
+| `metadata`      | `JSON`                            |
+| `name`          | `String`                          |
+| `orgId`         | `ID`                              |
+| `pack`          | `PackWhereInput` (nested)         |
+| `packId`        | `ID`                              |
+| `ref`           | `ID`                              |
+
+**`PackConfigSearch` supported fields**
+
+| Field         | Wrapper                    |
+| ------------- | -------------------------- |
+| `id`          | `id_comparison_exp`        |
+| `name`        | `string_comparison_exp`    |
+| `default`     | `bool_comparison_exp`      |
+| `description` | `string_comparison_exp`    |
+| `config`      | `json_comparison_exp`      |
+| `metadata`    | `json_comparison_exp`      |
+| `orgId`       | `id_comparison_exp`        |
+| `pack`        | `PackSearchInput` (nested) |
+| `packId`      | `id_comparison_exp`        |
+
+**Is `where` or `search` mandatory?**
+
+Yes - Use at least one of `where` or `search` to identify the config.&#x20;
+
+Note: `config` and `metadata` are `@sensitive` and may be redacted depending on caller permissions.
+
 </details>
 
 <details>
 
 <summary><strong><code>packConfigs</code></strong>-Gets multiple pack configurations.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packConfigs(
@@ -1164,13 +2023,49 @@ packConfigs(
 ): [PackConfig!]!
 ```
 
+**`PackConfigWhereInput` supported fields**
+
+| Field           | Type                              |
+| --------------- | --------------------------------- |
+| `actionOptions` | `ActionOptionWhereInput` (nested) |
+| `config`        | `JSON`                            |
+| `default`       | `Boolean`                         |
+| `description`   | `String`                          |
+| `id`            | `ID`                              |
+| `metadata`      | `JSON`                            |
+| `name`          | `String`                          |
+| `orgId`         | `ID`                              |
+| `pack`          | `PackWhereInput` (nested)         |
+| `packId`        | `ID`                              |
+| `ref`           | `ID`                              |
+
+**`PackConfigSearch` supported fields**
+
+| Field         | Wrapper                    |
+| ------------- | -------------------------- |
+| `id`          | `id_comparison_exp`        |
+| `name`        | `string_comparison_exp`    |
+| `default`     | `bool_comparison_exp`      |
+| `description` | `string_comparison_exp`    |
+| `config`      | `json_comparison_exp`      |
+| `metadata`    | `json_comparison_exp`      |
+| `orgId`       | `id_comparison_exp`        |
+| `pack`        | `PackSearchInput` (nested) |
+| `packId`      | `id_comparison_exp`        |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `orgId` scoping via `where` or `search` — unscoped calls return everything visible to the caller.
+
+There is no **`limit`/`offset`** — this query does not accept pagination args. Always scope aggressively - e.g. `where: { orgId: <id>, packId: <id> }`.
+
 </details>
 
 <details>
 
 <summary><strong><code>packConfigsForOrg</code></strong>-Gets pack configurations for a specific organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packConfigsForOrg(
@@ -1180,6 +2075,10 @@ packConfigsForOrg(
 ): [PackConfig!]!
 ```
 
+**Is `where` or `search` mandatory?**
+
+No - There is no `where`/`search`/pagination. It's scoped solely by `packIds` + `orgId`.
+
 </details>
 
 #### **Pack management queries**
@@ -1188,7 +2087,7 @@ packConfigsForOrg(
 
 <summary><strong><code>pack</code></strong>-Gets a specific integration pack.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 pack(where: PackWhereInput): Pack
@@ -1225,13 +2124,33 @@ type Pack {
 }
 ```
 
+**`PackWhereInput` supported fields**
+
+| Field                  | Type                              |
+| ---------------------- | --------------------------------- |
+| `actions`              | `ActionInput` (nested)            |
+| `packType`             | `PackType`                        |
+| `description`          | `String`                          |
+| `id`                   | `ID`                              |
+| `installedBy`          | `OrganizationWhereInput` (nested) |
+| `name`                 | `String`                          |
+| `packBundleId`         | `ID`                              |
+| `ref`                  | `String`                          |
+| `orgId`                | `ID`                              |
+| `status`               | `PackStatus`                      |
+| `isOauthConfiguration` | `Boolean`                         |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where` with at least one identifying field — typically `id` or `ref`. There is no `search` input.
+
 </details>
 
 <details>
 
 <summary><strong><code>packsAndBundlesByInstalledState</code></strong>-Gets packs and bundles organized by installation state.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 packsAndBundlesByInstalledState(
@@ -1245,6 +2164,10 @@ type PacksAndBundlesByInstalledState {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+There is no `where`/`search`/pagination. Returns `installedPacksAndBundles` and `marketplacePacksAndBundles`. `orgId` is mandatory.&#x20;
+
 </details>
 
 #### **Page management queries**
@@ -1253,7 +2176,7 @@ type PacksAndBundlesByInstalledState {
 
 <summary><strong><code>page</code></strong>-Gets a specific page definition.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 page(where: PageWhereInput!): Page
@@ -1286,17 +2209,23 @@ type Page {
 }
 ```
 
-</details>
+**`PageWhereInput` supported fields**
 
-<details>
+| Field          | Type                                                         |
+| -------------- | ------------------------------------------------------------ |
+| `id`           | `ID`                                                         |
+| `name`         | `String`                                                     |
+| `siteId`       | `ID`                                                         |
+| `site`         | `SitePropertiesInput` (nested: `{ id: ID, domain: String }`) |
+| `path`         | `String`                                                     |
+| `domain`       | `String`                                                     |
+| `orgId`        | `ID`                                                         |
+| `clonedFromId` | `ID`                                                         |
+| `_`            | `String` (editor render hint — ignored server-side)          |
 
-<summary><strong><code>pageVars</code></strong>-Gets page variables.</summary>
+**Is `where` or `search` mandatory?**
 
-**GraphQL schema:**
-
-```graphql
-pageVars(id: ID!, query: JSON): JSON
-```
+Yes - `where` (non-null) with at least one identifying field — typically `id` or `siteId` + `path`. There is no `search` input.
 
 </details>
 
@@ -1304,7 +2233,7 @@ pageVars(id: ID!, query: JSON): JSON
 
 <summary><strong><code>pages</code></strong>-Gets multiple pages.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 pages(
@@ -1316,6 +2245,35 @@ pages(
 ): [Page!]!
 ```
 
+**`PageSearchInput` supported fields**
+
+| Field    | Type     | Notes                                                       |
+| -------- | -------- | ----------------------------------------------------------- |
+| `name`   | `String` | Equality only — plain string, NOT a `string_comparison_exp` |
+| `siteId` | `ID`     | Equality only                                               |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `limit` and `offset`; scope with `where: { orgId: <id> }` or `where: { siteId: <id> }`.
+
+`PageSearchInput` does not accept `_eq`/`_in`/`_like` wrappers despite being named `search`.
+
+</details>
+
+<details>
+
+<summary><strong><code>pageVars</code></strong>-Gets page variables.</summary>
+
+**GraphQL schema**
+
+```graphql
+pageVars(id: ID!, query: JSON): JSON
+```
+
+**Is `where` or `search` mandatory?**
+
+`id`. `query` is an arbitrary JSON object passed as URL query params for variable resolution.
+
 </details>
 
 #### **Permission queries**
@@ -1324,7 +2282,7 @@ pages(
 
 <summary><strong><code>permission</code></strong>-Gets a specific permission.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 permission(where: PermissionWhereInput): Permission
@@ -1347,17 +2305,45 @@ type Permission {
 }
 ```
 
+**`PermissionWhereInput` supported fields**
+
+| Field            | Type     |
+| ---------------- | -------- |
+| `id`             | `ID`     |
+| `templateId`     | `ID`     |
+| `objectId`       | `String` |
+| `objectType`     | `String` |
+| `permissionType` | `String` |
+
+**Is `where` or `search` mandatory?**
+
+There is no `search` input and no `limit`/`offset`. Scope to a specific object to keep result sets small (typically `objectId` + `objectType`).
+
 </details>
 
 <details>
 
 <summary><strong><code>permissions</code></strong>-Gets multiple permissions.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 permissions(where: PermissionWhereInput): [Permission!]!
 ```
+
+**`PermissionWhereInput` supported fields**
+
+| Field            | Type     |
+| ---------------- | -------- |
+| `id`             | `ID`     |
+| `templateId`     | `ID`     |
+| `objectId`       | `String` |
+| `objectType`     | `String` |
+| `permissionType` | `String` |
+
+**Is `where` or `search` mandatory?**
+
+There is no `search` input and no `limit`/`offset`. Scope to a specific object to keep result sets small (typically `objectId` + `objectType`).
 
 </details>
 
@@ -1367,7 +2353,7 @@ permissions(where: PermissionWhereInput): [Permission!]!
 
 <summary><strong><code>sensorType</code></strong>-Gets a specific sensor type.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 sensorType(
@@ -1388,13 +2374,43 @@ type SensorType {
 }
 ```
 
+**`SensorTypeInput` (where) supported fields**
+
+| Field                    | Type      |
+| ------------------------ | --------- |
+| `description`            | `String`  |
+| `enabled`                | `Boolean` |
+| `entryPoint`             | `String`  |
+| `id`                     | `ID`      |
+| `name`                   | `String`  |
+| `notifyOnTriggerChanges` | `Boolean` |
+| `packId`                 | `ID`      |
+| `ref`                    | `String`  |
+
+**`SensorTypeSearchInput` supported fields**
+
+| Field                    | Wrapper                   |
+| ------------------------ | ------------------------- |
+| `description`            | `string_comparison_exp`   |
+| `enabled`                | `bool_comparison_exp`     |
+| `entryPoint`             | `string_comparison_exp`   |
+| `id`                     | `id_comparison_exp`       |
+| `name`                   | `string_comparison_exp`   |
+| `notifyOnTriggerChanges` | `Boolean` (equality only) |
+| `packId`                 | `id_comparison_exp`       |
+| `ref`                    | `string_comparison_exp`   |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where` or `search` with at least one filter field is required.
+
 </details>
 
 <details>
 
 <summary><strong><code>sensorTypes</code></strong>-Gets multiple sensor types.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 sensorTypes(
@@ -1406,6 +2422,36 @@ sensorTypes(
 ): [SensorType!]!
 ```
 
+**`SensorTypeInput` (where) supported fields**
+
+| Field                    | Type      |
+| ------------------------ | --------- |
+| `description`            | `String`  |
+| `enabled`                | `Boolean` |
+| `entryPoint`             | `String`  |
+| `id`                     | `ID`      |
+| `name`                   | `String`  |
+| `notifyOnTriggerChanges` | `Boolean` |
+| `packId`                 | `ID`      |
+| `ref`                    | `String`  |
+
+**`SensorTypeSearchInput` supported fields**
+
+| Field                    | Wrapper                   |
+| ------------------------ | ------------------------- |
+| `description`            | `string_comparison_exp`   |
+| `enabled`                | `bool_comparison_exp`     |
+| `entryPoint`             | `string_comparison_exp`   |
+| `id`                     | `id_comparison_exp`       |
+| `name`                   | `string_comparison_exp`   |
+| `notifyOnTriggerChanges` | `Boolean` (equality only) |
+| `packId`                 | `id_comparison_exp`       |
+| `ref`                    | `string_comparison_exp`   |
+
+**Is `where` or `search` mandatory?**
+
+`limit` and `offset`.
+
 </details>
 
 #### **Site and app management queries**
@@ -1414,7 +2460,7 @@ sensorTypes(
 
 <summary><strong><code>site</code></strong>-Gets a specific site/app.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 site(where: SiteWhereInput, search: SiteSearchInput): Site
@@ -1452,17 +2498,85 @@ type Site {
 }
 ```
 
+**`SiteWhereInput`  supported fields**
+
+| Field             | Type      |
+| ----------------- | --------- |
+| `id`              | `ID`      |
+| `isLive`          | `Boolean` |
+| `name`            | `String`  |
+| `domain`          | `String`  |
+| `orgId`           | `ID`      |
+| `customDomain`    | `String`  |
+| `isDnsValidated`  | `Boolean` |
+| `useCustomDomain` | `Boolean` |
+| `clonedFromId`    | `ID`      |
+| `isSynchronized`  | `Boolean` |
+
+**`SiteSearchInput` supported fields**
+
+| Field             | Wrapper                            |
+| ----------------- | ---------------------------------- |
+| `id`              | `id_comparison_exp`                |
+| `isLive`          | `bool_comparison_exp`              |
+| `name`            | `string_comparison_exp`            |
+| `domain`          | `string_comparison_exp`            |
+| `organization`    | `OrganizationSearchInput` (nested) |
+| `organizationId`  | `id_comparison_exp`                |
+| `customDomain`    | `string_comparison_exp`            |
+| `isDnsValidated`  | `bool_comparison_exp`              |
+| `useCustomDomain` | `bool_comparison_exp`              |
+| `clonedFromId`    | `id_comparison_exp`                |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where` or `search` with at least one filter field.
+
 </details>
 
 <details>
 
 <summary><strong><code>sites</code></strong>-Gets multiple sites/apps.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 sites(where: SiteWhereInput, search: SiteSearchInput): [Site!]!
 ```
+
+**`SiteWhereInput` supported fields**
+
+| Field             | Type      |
+| ----------------- | --------- |
+| `id`              | `ID`      |
+| `isLive`          | `Boolean` |
+| `name`            | `String`  |
+| `domain`          | `String`  |
+| `orgId`           | `ID`      |
+| `customDomain`    | `String`  |
+| `isDnsValidated`  | `Boolean` |
+| `useCustomDomain` | `Boolean` |
+| `clonedFromId`    | `ID`      |
+| `isSynchronized`  | `Boolean` |
+
+**`SiteSearchInput` supported fields**
+
+| Field             | Wrapper                            |
+| ----------------- | ---------------------------------- |
+| `id`              | `id_comparison_exp`                |
+| `isLive`          | `bool_comparison_exp`              |
+| `name`            | `string_comparison_exp`            |
+| `domain`          | `string_comparison_exp`            |
+| `organization`    | `OrganizationSearchInput` (nested) |
+| `organizationId`  | `id_comparison_exp`                |
+| `customDomain`    | `string_comparison_exp`            |
+| `isDnsValidated`  | `bool_comparison_exp`              |
+| `useCustomDomain` | `bool_comparison_exp`              |
+| `clonedFromId`    | `id_comparison_exp`                |
+
+**Is `where` or `search` mandatory?**
+
+There is no `limit`/`offset`. Always scope by `orgId` to keep result sets small.
 
 </details>
 
@@ -1470,11 +2584,14 @@ sites(where: SiteWhereInput, search: SiteSearchInput): [Site!]!
 
 <summary><strong><code>getAppPermissions</code></strong>-Gets app permissions for an organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
-```graphql
-getAppPermissions(orgId: ID!): [Site!]!
-```
+<pre class="language-graphql"><code class="lang-graphql"><strong>getAppPermissions(orgId: ID!): [Site!]!
+</strong></code></pre>
+
+**Is `where` or `search` mandatory?**
+
+`orgId`
 
 </details>
 
@@ -1482,11 +2599,15 @@ getAppPermissions(orgId: ID!): [Site!]!
 
 <summary><strong><code>getSiteTheme</code></strong>-Gets site theme configuration.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 getSiteTheme(id: ID, domain: String): JSON
 ```
+
+**Is `where` or `search` mandatory?**
+
+One of `id` or `domain`.
 
 </details>
 
@@ -1496,7 +2617,7 @@ getSiteTheme(id: ID, domain: String): JSON
 
 <summary><strong><code>tag</code></strong>-Gets a specific tag.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 tag(where: TagWhereInput, search: TagSearchInput): Tag
@@ -1517,13 +2638,39 @@ type Tag {
 }
 ```
 
+**`TagWhereInput`  supported fields**
+
+| Field           | Type                         | Notes                                                                    |
+| --------------- | ---------------------------- | ------------------------------------------------------------------------ |
+| `id`            | `ID`                         |                                                                          |
+| `name`          | `String`                     | Exact match only — use `search.name` for `_like`/`_ilike`                |
+| `orgId`         | `ID`                         | Recommended on every call (see scoping rule above)                       |
+| `organizations` | `TagOrganizationsWhereInput` | Nested filter: `{ id: [ID] }` — match tags assigned to any of these orgs |
+
+**`TagSearchInput`  supported fields**
+
+| Field           | Wrapper                               |
+| --------------- | ------------------------------------- |
+| `id`            | `id_comparison_exp`                   |
+| `name`          | `string_comparison_exp`               |
+| `orgId`         | `id_comparison_exp`                   |
+| `organizations` | `OrganizationSearchInput` (recursive) |
+
+
+
+**Is `where` or `search` mandatory?**
+
+Use `limit` and `offset`.
+
+It is not filterable via **`where`** , despite existing on the `Tag` model: `color`, `description`, `createdAt`, `updatedAt`, `crates`, `packs`, `triggers`.
+
 </details>
 
 <details>
 
 <summary><strong><code>tags</code></strong>-Gets multiple tags.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 tags(
@@ -1536,13 +2683,38 @@ tags(
 ): [Tag!]!
 ```
 
+**`TagWhereInput`  supported fields**
+
+| Field           | Type                         | Notes                                                                    |
+| --------------- | ---------------------------- | ------------------------------------------------------------------------ |
+| `id`            | `ID`                         |                                                                          |
+| `name`          | `String`                     | Exact match only — use `search.name` for `_like`/`_ilike`                |
+| `orgId`         | `ID`                         | Recommended on every call (see scoping rule above)                       |
+| `organizations` | `TagOrganizationsWhereInput` | Nested filter: `{ id: [ID] }` — match tags assigned to any of these orgs |
+
+It is not filterable via **`where`** , despite existing on the `Tag` model: `color`, `description`, `createdAt`, `updatedAt`, `crates`, `packs`, `triggers`.
+
+**`TagSearchInput`  supported fields**
+
+| Field           | Wrapper                               |
+| --------------- | ------------------------------------- |
+| `id`            | `id_comparison_exp`                   |
+| `name`          | `string_comparison_exp`               |
+| `orgId`         | `id_comparison_exp`                   |
+| `organizations` | `OrganizationSearchInput` (recursive) |
+
+**Is `where` or `search` mandatory?**
+
+Schema-level: no. \
+Practically: yes — pass `where: { orgId: CTX.organization.id }` to avoid the auto-inject path. This is the operation that produced the `Symbol(or)/Symbol(eq)/Symbol(in)` error.
+
 </details>
 
 <details>
 
 <summary><strong><code>crateTags</code></strong>-Gets tags associated with crates.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 crateTags(
@@ -1554,6 +2726,10 @@ crateTags(
 ): [Tag!]!
 ```
 
+**Is `where` or `search` mandatory?**
+
+`tag.orgId`.
+
 </details>
 
 #### **Task and execution analytics queries**
@@ -1562,7 +2738,7 @@ crateTags(
 
 <summary><strong><code>dailyTaskCountsByDateRange</code></strong>-Gets daily task counts within a date range.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 dailyTaskCountsByDateRange(
@@ -1577,17 +2753,25 @@ type TaskCountByDate {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+`orgId`, `startDate`, `endDate`
+
 </details>
 
 <details>
 
 <summary><strong><code>taskExecutionStats</code></strong>-Gets task execution statistics.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 taskExecutionStats(orgId: ID!, createdSince: String): Int!
 ```
+
+**Is `where` or `search` mandatory?**
+
+`orgId`. `createdSince` is optional but recommended to bound the scan.
 
 </details>
 
@@ -1595,7 +2779,7 @@ taskExecutionStats(orgId: ID!, createdSince: String): Int!
 
 <summary><strong><code>taskLog</code></strong>-Gets a specific task log entry.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 taskLog(
@@ -1636,13 +2820,57 @@ type TaskLog {
 }
 ```
 
+**`TaskLogWhereInput` supported fields**
+
+| Field                         | Type     |
+| ----------------------------- | -------- |
+| `executionTime`               | `String` |
+| `id`                          | `ID`     |
+| `input`                       | `JSON`   |
+| `message`                     | `String` |
+| `originalParentTaskId`        | `String` |
+| `originalPrincipalOrgId`      | `String` |
+| `originalPrincipalOrgName`    | `String` |
+| `originalRunAsOrgId`          | `String` |
+| `originalRunAsOrgName`        | `String` |
+| `originalWorkflowExecutionId` | `String` |
+| `originalWorkflowTaskId`      | `String` |
+| `parentTaskId`                | `ID`     |
+| `principalOrgId`              | `ID`     |
+| `result`                      | `JSON`   |
+| `runAsOrgId`                  | `ID`     |
+| `status`                      | `String` |
+| `taskExecutionId`             | `ID`     |
+| `workflowExecutionId`         | `ID`     |
+| `workflowTaskId`              | `ID`     |
+
+**`TaskLogSearchInput` supported fields**
+
+| Field                      | Wrapper                 |
+| -------------------------- | ----------------------- |
+| `id`                       | `ID` (equality only)    |
+| `originalPrincipalOrgId`   | `string_comparison_exp` |
+| `originalPrincipalOrgName` | `string_comparison_exp` |
+| `originalRunAsOrgId`       | `string_comparison_exp` |
+| `originalRunAsOrgName`     | `string_comparison_exp` |
+| `principalOrgId`           | `id_comparison_exp`     |
+| `runAsOrgId`               | `id_comparison_exp`     |
+| `status`                   | `string_comparison_exp` |
+| `workflowExecutionId`      | `id_comparison_exp`     |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where` or `search` with at least `id` or `workflowExecutionId` is required.
+
+&#x20;Note: `input` and `result` are sensitive fields and may be redacted.
+
 </details>
 
 <details>
 
 <summary><strong><code>taskLogs</code></strong>-Gets multiple task log entries.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 taskLogs(
@@ -1654,6 +2882,48 @@ taskLogs(
   ): [TaskLog!]!
 ```
 
+**`TaskLogWhereInput` supported fields**
+
+| Field                         | Type     |
+| ----------------------------- | -------- |
+| `executionTime`               | `String` |
+| `id`                          | `ID`     |
+| `input`                       | `JSON`   |
+| `message`                     | `String` |
+| `originalParentTaskId`        | `String` |
+| `originalPrincipalOrgId`      | `String` |
+| `originalPrincipalOrgName`    | `String` |
+| `originalRunAsOrgId`          | `String` |
+| `originalRunAsOrgName`        | `String` |
+| `originalWorkflowExecutionId` | `String` |
+| `originalWorkflowTaskId`      | `String` |
+| `parentTaskId`                | `ID`     |
+| `principalOrgId`              | `ID`     |
+| `result`                      | `JSON`   |
+| `runAsOrgId`                  | `ID`     |
+| `status`                      | `String` |
+| `taskExecutionId`             | `ID`     |
+| `workflowExecutionId`         | `ID`     |
+| `workflowTaskId`              | `ID`     |
+
+**`TaskLogSearchInput` supported fields**
+
+| Field                      | Wrapper                 |
+| -------------------------- | ----------------------- |
+| `id`                       | `ID` (equality only)    |
+| `originalPrincipalOrgId`   | `string_comparison_exp` |
+| `originalPrincipalOrgName` | `string_comparison_exp` |
+| `originalRunAsOrgId`       | `string_comparison_exp` |
+| `originalRunAsOrgName`     | `string_comparison_exp` |
+| `principalOrgId`           | `id_comparison_exp`     |
+| `runAsOrgId`               | `id_comparison_exp`     |
+| `status`                   | `string_comparison_exp` |
+| `workflowExecutionId`      | `id_comparison_exp`     |
+
+**Is `where` or `search` mandatory?**
+
+workflowExecutionId`(via`where`or`search`),` limit`, and` offset`.` task\_logs\` is one of the three large unbounded tables — unscoped or unpaginated calls will time out.
+
 </details>
 
 #### **Template management queries**
@@ -1662,7 +2932,7 @@ taskLogs(
 
 <summary><strong><code>template</code></strong>- Gets a specific template.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 template(where: TemplateInput): Template
@@ -1694,13 +2964,35 @@ type Template {
 }
 ```
 
+**`TemplateInput` (where) supported fields**
+
+| Field            | Type      |
+| ---------------- | --------- |
+| `body`           | `String`  |
+| `clonedFromId`   | `ID`      |
+| `contentType`    | `String`  |
+| `description`    | `String`  |
+| `id`             | `ID`      |
+| `isSynchronized` | `Boolean` |
+| `language`       | `String`  |
+| `name`           | `String`  |
+| `orgId`          | `ID`      |
+| `tagIds`         | `[ID!]`   |
+| `unpackedFromId` | `ID`      |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where` with at least one filter field, typically `id`. There is no `search` input.
+
+
+
 </details>
 
 <details>
 
 <summary><strong><code>templates</code></strong>-Gets multiple templates.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 templates(
@@ -1712,17 +3004,36 @@ templates(
 ): [Template!]!
 ```
 
+**`TemplateSearch` supported fields**
+
+| Field            | Wrapper                            |
+| ---------------- | ---------------------------------- |
+| `clonedFromId`   | `id_comparison_exp`                |
+| `contentType`    | `string_comparison_exp`            |
+| `description`    | `string_comparison_exp`            |
+| `id`             | `id_comparison_exp`                |
+| `isSynchronized` | `bool_comparison_exp`              |
+| `name`           | `string_comparison_exp`            |
+| `organization`   | `OrganizationSearchInput` (nested) |
+| `unpackedFromId` | `id_comparison_exp`                |
+
+**Is `where` or `search` mandatory?**
+
+`limit` and `offset`
+
 </details>
 
 <details>
 
 <summary><strong><code>jinjaTemplate</code></strong>-Gets a Jinja template for rendering.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 jinjaTemplate(where: TemplateInput): Template
 ```
+
+
 
 </details>
 
@@ -1732,7 +3043,7 @@ jinjaTemplate(where: TemplateInput): Template
 
 <summary><strong><code>triggerType</code></strong>-Gets a specific trigger type.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 triggerType(where: TriggerTypeWhereInput): TriggerType
@@ -1755,13 +3066,33 @@ type TriggerType {
 }
 ```
 
+**`TriggerTypeWhereInput` supported fields**
+
+| Field              | Type                         |
+| ------------------ | ---------------------------- |
+| `description`      | `String`                     |
+| `id`               | `ID`                         |
+| `isPoll`           | `Boolean`                    |
+| `isWebhook`        | `Boolean`                    |
+| `name`             | `String`                     |
+| `packId`           | `ID`                         |
+| `parametersSchema` | `JSON`                       |
+| `outputSchema`     | `JSON`                       |
+| `ref`              | `String`                     |
+| `triggers`         | `TriggerWhereInput` (nested) |
+| `enabled`          | `Boolean`                    |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where` with at least one filter field. There is no `search` input.
+
 </details>
 
 <details>
 
 <summary><strong><code>triggerTypes</code></strong>-Gets multiple trigger types.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 triggerTypes(
@@ -1773,6 +3104,26 @@ triggerTypes(
 ): [TriggerType!]!
 ```
 
+**`TriggerTypesSearchInput` supported fields**
+
+| Field              | Wrapper                       |
+| ------------------ | ----------------------------- |
+| `description`      | `string_comparison_exp`       |
+| `id`               | `id_comparison_exp`           |
+| `isPoll`           | `Boolean` (equality only)     |
+| `isWebhook`        | `Boolean` (equality only)     |
+| `name`             | `string_comparison_exp`       |
+| `pack`             | `PackSearchInput` (nested)    |
+| `parametersSchema` | `json_comparison_exp`         |
+| `outputSchema`     | `json_comparison_exp`         |
+| `ref`              | `string_comparison_exp`       |
+| `triggers`         | `TriggerSearchInput` (nested) |
+| `enabled`          | `bool_comparison_exp`         |
+
+**Is `where` or `search` mandatory?**
+
+`limit` and `offset`
+
 </details>
 
 #### **Trigger management queries**
@@ -1781,7 +3132,7 @@ triggerTypes(
 
 <summary><strong><code>trigger</code></strong>-Gets a specific trigger.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 trigger(
@@ -1821,11 +3172,60 @@ type Trigger {
 }
 ```
 
+**`TriggerWhereInput` supported fields**
+
+| Field            | Type                                    |
+| ---------------- | --------------------------------------- |
+| `clonedFromId`   | `ID`                                    |
+| `criteria`       | `JSON`                                  |
+| `description`    | `String`                                |
+| `enabled`        | `Boolean`                               |
+| `formId`         | `ID`                                    |
+| `id`             | `ID`                                    |
+| `isSynchronized` | `Boolean`                               |
+| `name`           | `String`                                |
+| `orgId`          | `ID`                                    |
+| `orgInstances`   | `OrgTriggerInstanceWhereInput` (nested) |
+| `parameters`     | `JSON`                                  |
+| `state`          | `JSON`                                  |
+| `triggerType`    | `TriggerTypeInput` (nested)             |
+| `triggerTypeId`  | `ID`                                    |
+| `unpackedFromId` | `ID`                                    |
+| `workflowId`     | `ID`                                    |
+
+**`TriggerSearchInput` supported fields**
+
+| Field            | Wrapper                                  |
+| ---------------- | ---------------------------------------- |
+| `clonedFromId`   | `id_comparison_exp`                      |
+| `criteria`       | `json_comparison_exp`                    |
+| `description`    | `string_comparison_exp`                  |
+| `enabled`        | `Boolean` (equality only)                |
+| `formId`         | `id_comparison_exp`                      |
+| `id`             | `id_comparison_exp`                      |
+| `isSynchronized` | `bool_comparison_exp`                    |
+| `name`           | `string_comparison_exp`                  |
+| `organization`   | `OrganizationSearchInput` (nested)       |
+| `orgId`          | `id_comparison_exp`                      |
+| `orgInstances`   | `OrgTriggerInstanceSearchInput` (nested) |
+| `packOverrides`  | `PackOverrideSearchInput` (nested)       |
+| `parameters`     | `json_comparison_exp`                    |
+| `state`          | `json_comparison_exp`                    |
+| `triggerType`    | `TriggerTypesSearchInput` (nested)       |
+| `triggerTypeId`  | `id_comparison_exp`                      |
+| `unpackedFromId` | `id_comparison_exp`                      |
+| `workflow`       | `WorkflowSearch` (nested)                |
+| `workflowId`     | `id_comparison_exp`                      |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where` or `search` with at least one filter field.
+
 </details>
 
 <details>
 
-<summary><strong><code>workflowCompletionListeners</code></strong>-Gets workflow completion listeners.</summary>
+<summary><strong><code>workflowCompletionListeners</code></strong>-Gets triggers configured to listen for workflow completion events.</summary>
 
 **GraphQL schema:**
 
@@ -1842,7 +3242,7 @@ workflowCompletionListeners(
 
 <summary><strong><code>triggers</code></strong>-Gets multiple triggers.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 triggers(
@@ -1855,13 +3255,62 @@ triggers(
 ): [Trigger!]!
 ```
 
+**`TriggerWhereInput` supported fields**
+
+| Field            | Type                                    |
+| ---------------- | --------------------------------------- |
+| `clonedFromId`   | `ID`                                    |
+| `criteria`       | `JSON`                                  |
+| `description`    | `String`                                |
+| `enabled`        | `Boolean`                               |
+| `formId`         | `ID`                                    |
+| `id`             | `ID`                                    |
+| `isSynchronized` | `Boolean`                               |
+| `name`           | `String`                                |
+| `orgId`          | `ID`                                    |
+| `orgInstances`   | `OrgTriggerInstanceWhereInput` (nested) |
+| `parameters`     | `JSON`                                  |
+| `state`          | `JSON`                                  |
+| `triggerType`    | `TriggerTypeInput` (nested)             |
+| `triggerTypeId`  | `ID`                                    |
+| `unpackedFromId` | `ID`                                    |
+| `workflowId`     | `ID`                                    |
+
+**`TriggerSearchInput` supported fields**
+
+| Field            | Wrapper                                  |
+| ---------------- | ---------------------------------------- |
+| `clonedFromId`   | `id_comparison_exp`                      |
+| `criteria`       | `json_comparison_exp`                    |
+| `description`    | `string_comparison_exp`                  |
+| `enabled`        | `Boolean` (equality only)                |
+| `formId`         | `id_comparison_exp`                      |
+| `id`             | `id_comparison_exp`                      |
+| `isSynchronized` | `bool_comparison_exp`                    |
+| `name`           | `string_comparison_exp`                  |
+| `organization`   | `OrganizationSearchInput` (nested)       |
+| `orgId`          | `id_comparison_exp`                      |
+| `orgInstances`   | `OrgTriggerInstanceSearchInput` (nested) |
+| `packOverrides`  | `PackOverrideSearchInput` (nested)       |
+| `parameters`     | `json_comparison_exp`                    |
+| `state`          | `json_comparison_exp`                    |
+| `triggerType`    | `TriggerTypesSearchInput` (nested)       |
+| `triggerTypeId`  | `id_comparison_exp`                      |
+| `unpackedFromId` | `id_comparison_exp`                      |
+| `workflow`       | `WorkflowSearch` (nested)                |
+| `workflowId`     | `id_comparison_exp`                      |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `limit` and `offset`, plus a scoping filter (typically `where: { orgId: <id> }` or `workflowId`). `hasTagIds` and `excludeTagIds` are convenience filters layered on top of `where`/`search`.
+
 </details>
 
 <details>
 
 <summary><strong><code>triggerDbNotificationErrors</code></strong>-Gets database notification errors for a trigger.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 triggerDbNotificationErrors(triggerId: ID!): [DatabaseNotificationError!]!
@@ -1873,6 +3322,10 @@ type DatabaseNotificationError {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+`triggerId`
+
 </details>
 
 #### **User invite queries**
@@ -1881,7 +3334,7 @@ type DatabaseNotificationError {
 
 <summary><strong><code>userInvite</code></strong>-Gets a specific user invite.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 userInvite(
@@ -1905,13 +3358,39 @@ type UserInvite {
 }
 ```
 
+**`UserInviteWhereInput` supported fields**
+
+| Field          | Type                              |
+| -------------- | --------------------------------- |
+| `acceptedAt`   | `String`                          |
+| `email`        | `String`                          |
+| `id`           | `ID`                              |
+| `isAccepted`   | `Boolean`                         |
+| `organization` | `OrganizationWhereInput` (nested) |
+| `orgId`        | `ID`                              |
+| `sendEmail`    | `Boolean`                         |
+
+**`UserInviteSearchInput` supported fields**
+
+| Field          | Wrapper                            |
+| -------------- | ---------------------------------- |
+| `email`        | `string_comparison_exp`            |
+| `id`           | `id_comparison_exp`                |
+| `organization` | `OrganizationSearchInput` (nested) |
+| `orgId`        | `id_comparison_exp`                |
+| `sendEmail`    | `bool_comparison_exp`              |
+
+**Is `where` or `search` mandatory?**
+
+Yes - use `where` or `search` with at least one filter field. Only available when `ENABLE_ADMIN_APPROVAL_REQUESTS` is OFF.
+
 </details>
 
 <details>
 
 <summary><strong><code>userInvites</code></strong>-Gets multiple user invites.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 userInvites(
@@ -1923,6 +3402,32 @@ userInvites(
 ): [UserInvite]
 ```
 
+**`UserInviteWhereInput` supported fields**
+
+| Field          | Type                              |
+| -------------- | --------------------------------- |
+| `acceptedAt`   | `String`                          |
+| `email`        | `String`                          |
+| `id`           | `ID`                              |
+| `isAccepted`   | `Boolean`                         |
+| `organization` | `OrganizationWhereInput` (nested) |
+| `orgId`        | `ID`                              |
+| `sendEmail`    | `Boolean`                         |
+
+**`UserInviteSearchInput` supported fields**
+
+| Field          | Wrapper                            |
+| -------------- | ---------------------------------- |
+| `email`        | `string_comparison_exp`            |
+| `id`           | `id_comparison_exp`                |
+| `organization` | `OrganizationSearchInput` (nested) |
+| `orgId`        | `id_comparison_exp`                |
+| `sendEmail`    | `bool_comparison_exp`              |
+
+**Is `where` or `search` mandatory?**
+
+`limit`, `offset`, and a scoping filter, typically `where: { orgId: <id> }`). Only available when `ENABLE_ADMIN_APPROVAL_REQUESTS` is OFF.
+
 </details>
 
 #### **User management queries**
@@ -1931,7 +3436,7 @@ userInvites(
 
 <summary><strong><code>me</code></strong>-Gets current user information.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 me: User
@@ -1956,6 +3461,10 @@ type User {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+No - returns the currently authenticated user and their organization respectively.
+
 </details>
 
 <details>
@@ -1974,11 +3483,46 @@ userOrganization: Organization
 
 <summary><strong><code>user</code></strong>-Gets a specific user.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 user(where: UserWhereInput, search: UserSearchInput): User
 ```
+
+**`GetUserWhereInput` supported fields**
+
+| Field          | Type                              |
+| -------------- | --------------------------------- |
+| `id`           | `ID`                              |
+| `isSuperuser`  | `Boolean`                         |
+| `managedOrgs`  | `OrganizationWhereInput` (nested) |
+| `organization` | `OrganizationWhereInput` (nested) |
+| `orgId`        | `ID!` (required)                  |
+| `roleIds`      | `[String!]`                       |
+| `sub`          | `String`                          |
+| `username`     | `String`                          |
+| `isTestUser`   | `Boolean`                         |
+| `isApiUser`    | `Boolean`                         |
+
+**`UserSearchInput` supported fields**
+
+| Field          | Wrapper                            |
+| -------------- | ---------------------------------- |
+| `createdAt`    | `string_comparison_exp`            |
+| `id`           | `id_comparison_exp`                |
+| `isApiUser`    | `bool_comparison_exp`              |
+| `isSuperuser`  | `bool_comparison_exp`              |
+| `isTestUser`   | `bool_comparison_exp`              |
+| `managedOrgs`  | `OrganizationSearchInput` (nested) |
+| `organization` | `OrganizationSearchInput` (nested) |
+| `orgId`        | `id_comparison_exp`                |
+| `roleIds`      | `string_comparison_exp`            |
+| `sub`          | `string_comparison_exp`            |
+| `username`     | `string_comparison_exp`            |
+
+**Is `where` or `search` mandatory?**
+
+`orgId` on `where` is non-null — every user lookup must be scoped to an org. `createdAt` is filterable only via `search`, not `where`.
 
 </details>
 
@@ -1986,7 +3530,7 @@ user(where: UserWhereInput, search: UserSearchInput): User
 
 <summary><strong><code>users</code></strong>-Gets multiple users.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 users(
@@ -1998,17 +3542,56 @@ users(
 ): [User!]!
 ```
 
+**`GetUserWhereInput` supported fields**
+
+| Field          | Type                              |
+| -------------- | --------------------------------- |
+| `id`           | `ID`                              |
+| `isSuperuser`  | `Boolean`                         |
+| `managedOrgs`  | `OrganizationWhereInput` (nested) |
+| `organization` | `OrganizationWhereInput` (nested) |
+| `orgId`        | `ID!` (required)                  |
+| `roleIds`      | `[String!]`                       |
+| `sub`          | `String`                          |
+| `username`     | `String`                          |
+| `isTestUser`   | `Boolean`                         |
+| `isApiUser`    | `Boolean`                         |
+
+**`UserSearchInput` supported fields**
+
+| Field          | Wrapper                            |
+| -------------- | ---------------------------------- |
+| `createdAt`    | `string_comparison_exp`            |
+| `id`           | `id_comparison_exp`                |
+| `isApiUser`    | `bool_comparison_exp`              |
+| `isSuperuser`  | `bool_comparison_exp`              |
+| `isTestUser`   | `bool_comparison_exp`              |
+| `managedOrgs`  | `OrganizationSearchInput` (nested) |
+| `organization` | `OrganizationSearchInput` (nested) |
+| `orgId`        | `id_comparison_exp`                |
+| `roleIds`      | `string_comparison_exp`            |
+| `sub`          | `string_comparison_exp`            |
+| `username`     | `string_comparison_exp`            |
+
+**Is `where` or `search` mandatory?**
+
+`orgId` on `where` (non-null), `limit`, and `offset`.
+
 </details>
 
 <details>
 
 <summary><strong><code>getTestUsers</code></strong>-Gets test users.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 getTestUsers(where: UserWhereInput): [User!]!
 ```
+
+**Is `where` or `search` mandatory?**
+
+Yes - requires `orgId` on `where`.
 
 </details>
 
@@ -2016,11 +3599,15 @@ getTestUsers(where: UserWhereInput): [User!]!
 
 <summary><strong><code>getTestUserSession</code></strong>-Gets current test user session.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 getTestUserSession: User
 ```
+
+**Is `where` or `search` mandatory?**
+
+No.
 
 </details>
 
@@ -2030,7 +3617,7 @@ getTestUserSession: User
 
 <summary><strong><code>timeSavedGroupByWorkflow</code></strong>-Gets time saved statistics grouped by workflow.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 timeSavedGroupByWorkflow(
@@ -2049,6 +3636,10 @@ type TimeSavedGroupByWorkflow {
   failedExecutions: Int
 }
 ```
+
+**Is `where` or `search` mandatory?**
+
+`orgId`, `updatedAt`, `useStatsTable`
 
 </details>
 
@@ -2081,7 +3672,7 @@ type TimeSavedGroupByOrg {
 
 <summary><strong><code>workflowExecutionStats</code></strong>-Gets workflow execution statistics.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowExecutionStats(
@@ -2102,13 +3693,17 @@ type WorkflowExecutionStats {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+`orgId`, `createdSince`.
+
 </details>
 
 <details>
 
 <summary><strong><code>workflowExecution</code></strong>-Gets a specific workflow execution.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowExecution(
@@ -2141,13 +3736,45 @@ type WorkflowExecution {
 }
 ```
 
+**`WorkflowExecutionWhereInput` supported fields**
+
+| Field                      | Type                 | Notes                            |
+| -------------------------- | -------------------- | -------------------------------- |
+| `id`                       | `ID`                 |                                  |
+| `orgId`                    | `ID`                 | **Required in practice**         |
+| `originatingExecutionId`   | `ID`                 |                                  |
+| `status`                   | `String`             | Exact match only                 |
+| `numAwaitingResponseTasks` | `Int`                |                                  |
+| `workflow`                 | `WorkflowWhereInput` | Nested filter on parent workflow |
+| `workflowId`               | `ID`                 |                                  |
+
+Not filterable via `where` - use `search` instead: `createdAt`, `processedCompletionAt`, `organization`
+
+**`WorkflowExecutionSearchInput` supported fields**
+
+| Field                      | Wrapper                   |
+| -------------------------- | ------------------------- |
+| `id`                       | `id_comparison_exp`       |
+| `orgId`                    | `id_comparison_exp`       |
+| `originatingExecutionId`   | `id_comparison_exp`       |
+| `status`                   | `string_comparison_exp`   |
+| `numAwaitingResponseTasks` | `int_comparison_exp`      |
+| `workflow`                 | `WorkflowSearch`          |
+| `createdAt`                | `string_comparison_exp`   |
+| `processedCompletionAt`    | `string_comparison_exp`   |
+| `organization`             | `OrganizationSearchInput` |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `id` via `where` or `search`. `workflow_executions` is partitioned — pass `id` so the lookup hits a single partition. `createdAt` and `processedCompletionAt` are filterable only via `search`.
+
 </details>
 
 <details>
 
 <summary><strong><code>workflowExecutions</code></strong>-Gets multiple workflow executions.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowExecutions(
@@ -2160,17 +3787,77 @@ workflowExecutions(
 ): [WorkflowExecution]
 ```
 
+**`WorkflowExecutionWhereInput` supported fields**
+
+| Field                      | Type                 | Notes                            |
+| -------------------------- | -------------------- | -------------------------------- |
+| `id`                       | `ID`                 |                                  |
+| `orgId`                    | `ID`                 | **Required in practice**         |
+| `originatingExecutionId`   | `ID`                 |                                  |
+| `status`                   | `String`             | Exact match only                 |
+| `numAwaitingResponseTasks` | `Int`                |                                  |
+| `workflow`                 | `WorkflowWhereInput` | Nested filter on parent workflow |
+| `workflowId`               | `ID`                 |                                  |
+
+Not filterable via `where` - use `search` instead: `createdAt`, `processedCompletionAt`, `organization`
+
+**`WorkflowExecutionSearchInput` supported fields**
+
+| Field                      | Wrapper                   |
+| -------------------------- | ------------------------- |
+| `id`                       | `id_comparison_exp`       |
+| `orgId`                    | `id_comparison_exp`       |
+| `originatingExecutionId`   | `id_comparison_exp`       |
+| `status`                   | `string_comparison_exp`   |
+| `numAwaitingResponseTasks` | `int_comparison_exp`      |
+| `workflow`                 | `WorkflowSearch`          |
+| `createdAt`                | `string_comparison_exp`   |
+| `processedCompletionAt`    | `string_comparison_exp`   |
+| `organization`             | `OrganizationSearchInput` |
+
+**Is `where` or `search` mandatory?**
+
+Yes, strongly. `workflow_executions` is the largest of the three unbounded tables. An unscoped query is essentially guaranteed to time-out. Always pass:
+
+* `orgId` (via `where` or `search`)
+* `limit` (recommended ≤ 50; payloads are large)
+* `offset` for pagination
+* A `createdAt` lower bound on `search` if you can will drastically narrow the partition scan
+
+Shared pagination rule: Every plural query should be called with `limit` and `offset`. Queries against the largest tables—  `workflowExecutions`, `taskLogs`, `organizations`, and anything that traverses into them— will time out without it.
+
+**Worked example: Recent failed executions for the current org**
+
+```yaml
+operation: workflowExecutions
+variables:
+  where:
+    orgId: "{{ CTX.organization.id }}"
+    status: "FAILED"
+  search:
+    createdAt: { _gte: "{{ CTX.now.minus(days=7).isoformat() }}" }
+  limit: 50
+  offset: 0
+  order: [["createdAt", "DESC"]]
+```
+
+
+
 </details>
 
 <details>
 
 <summary><strong><code>workflowExecutionContexts</code></strong>-Gets workflow execution contexts.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowExecutionContexts(workflowExecutionId: ID!): JSON
 ```
+
+**Is `where` or `search` mandatory?**
+
+`workflowExecutionId`. Always scoped to one execution — there is no list form.
 
 </details>
 
@@ -2178,7 +3865,7 @@ workflowExecutionContexts(workflowExecutionId: ID!): JSON
 
 <summary><strong><code>dailyTimeSavedByDateRange</code></strong>-Gets daily time saved within a date range.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 dailyTimeSavedByDateRange(
@@ -2193,6 +3880,10 @@ type TimeSavedByDate {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+`orgId`, `startDate`, `endDate`
+
 </details>
 
 #### **Workflow patch queries**
@@ -2201,7 +3892,7 @@ type TimeSavedByDate {
 
 <summary><strong><code>workflowPatch</code></strong>-Gets a specific workflow patch.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowPatch(id: ID!): WorkflowPatch!
@@ -2220,13 +3911,17 @@ type WorkflowPatch {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+`id`
+
 </details>
 
 <details>
 
 <summary><strong><code>workflowPatches</code></strong>-Gets multiple workflow patches.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowPatches(
@@ -2237,6 +3932,24 @@ workflowPatches(
   createdSince: String
 ): [WorkflowPatch!]!
 ```
+
+**`WorkflowPatchWhereInput` — supported fields**
+
+| Field        | Type                              |
+| ------------ | --------------------------------- |
+| `comment`    | `String`                          |
+| `user`       | `UserWhereInput` (nested)         |
+| `patchType`  | `PatchType`                       |
+| `workflowId` | `ID`                              |
+| `foreignId`  | `ID`                              |
+| `createdAt`  | `String`                          |
+| `updatedAt`  | <p></p><p><code>String</code></p> |
+
+**Is `where` or `search` mandatory?**
+
+Uses `orderBy` (an enum), not the `order` array used by most other plural queries. `where: { workflowId }`, `limit`, `offset`.
+
+There is no `search` input.
 
 </details>
 
@@ -2339,7 +4052,7 @@ workflows(
 
 <summary><strong><code>workflowNote</code></strong>-Gets a specific workflow note.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowNote(where: WorkflowNoteWhereInput): WorkflowNote
@@ -2359,13 +4072,29 @@ type WorkflowNote {
 }
 ```
 
+**`WorkflowNoteWhereInput` supported fields**
+
+| Field          | Type     |
+| -------------- | -------- |
+| `id`           | `ID`     |
+| `title`        | `String` |
+| `content`      | `String` |
+| `metadata`     | `JSON`   |
+| `clonedFromId` | `ID`     |
+| `index`        | `Int`    |
+| `workflowId`   | `ID`     |
+
+**Is `where` or `search` mandatory?**
+
+`id` or `workflowId` on `where` . There is no `search` input.
+
 </details>
 
 <details>
 
 <summary><strong><code>workflowNotes</code></strong>-Gets multiple workflow notes.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowNotes(
@@ -2377,13 +4106,29 @@ workflowNotes(
   ): [WorkflowNote!]!
 ```
 
+**`WorkflowNoteSearchInput` supported fields**
+
+| Field          | Wrapper                 |
+| -------------- | ----------------------- |
+| `id`           | `id_comparison_exp`     |
+| `title`        | `string_comparison_exp` |
+| `content`      | `string_comparison_exp` |
+| `metadata`     | `json_comparison_exp`   |
+| `clonedFromId` | `id_comparison_exp`     |
+| `index`        | `int_comparison_exp`    |
+| `workflowId`   | `id_comparison_exp`     |
+
+**Is `where` or `search` mandatory?**
+
+`limit` and `offset`. Scope by `workflowId`.
+
 </details>
 
 <details>
 
 <summary><strong><code>workflowTask</code></strong>-Gets a specific workflow task.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowTask(where: WorkflowTaskWhereInput): WorkflowTask
@@ -2414,13 +4159,40 @@ type WorkflowTask {
 }
 ```
 
+`WorkflowTaskWhereInput` supported fields
+
+| Field               | Type                          |
+| ------------------- | ----------------------------- |
+| `action`            | `ActionInput` (nested)        |
+| `actionId`          | `ID`                          |
+| `description`       | `String`                      |
+| `humanSecondsSaved` | `Int`                         |
+| `id`                | `ID`                          |
+| `input`             | `JSON`                        |
+| `isMocked`          | `Boolean`                     |
+| `join`              | `Int`                         |
+| `metadata`          | `JSON`                        |
+| `mockInput`         | `JSON`                        |
+| `name`              | `String`                      |
+| `next`              | `[WorkflowTransitionInput!]`  |
+| `retry`             | `WorkflowTaskRetryInput`      |
+| `runAsOrgId`        | `String`                      |
+| `timeout`           | `Int`                         |
+| `with`              | `WorkflowTaskWithItemsInput`  |
+| `workflowId`        | `ID`                          |
+| `workflow`          | `WorkflowWhereInput` (nested) |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `id` or `workflowId` and a discriminator on `where`. There is no `search` input.
+
 </details>
 
 <details>
 
 <summary><strong><code>workflowTasks</code></strong>-Gets multiple workflow tasks.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflowTasks(
@@ -2430,6 +4202,33 @@ workflowTasks(
   order: [[String!]!] = [["name"]]
 ): [WorkflowTask!]!
 ```
+
+`WorkflowTaskWhereInput` supported fields
+
+| Field               | Type                          |
+| ------------------- | ----------------------------- |
+| `action`            | `ActionInput` (nested)        |
+| `actionId`          | `ID`                          |
+| `description`       | `String`                      |
+| `humanSecondsSaved` | `Int`                         |
+| `id`                | `ID`                          |
+| `input`             | `JSON`                        |
+| `isMocked`          | `Boolean`                     |
+| `join`              | `Int`                         |
+| `metadata`          | `JSON`                        |
+| `mockInput`         | `JSON`                        |
+| `name`              | `String`                      |
+| `next`              | `[WorkflowTransitionInput!]`  |
+| `retry`             | `WorkflowTaskRetryInput`      |
+| `runAsOrgId`        | `String`                      |
+| `timeout`           | `Int`                         |
+| `with`              | `WorkflowTaskWithItemsInput`  |
+| `workflowId`        | `ID`                          |
+| `workflow`          | `WorkflowWhereInput` (nested) |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `where: { workflowId }`, `limit`, `offset`. `workflow_tasks` is large — unscoped calls will be slow. There is no `search` input.
 
 </details>
 
@@ -2441,7 +4240,7 @@ workflowTasks(
 
 <summary><strong><code>createActionOptions</code></strong>-Creates multiple action options.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createActionOptions(
@@ -2450,7 +4249,11 @@ createActionOptions(
 ): [ActionOption]
 ```
 
-**Usage example:**
+**Is** `where` **or** `search` **mandatory?**
+
+Each item should supply `packConfigId`, `organizationId`, `optionLabel`, `optionValue`, and `resourceName`. Pass `replace: true` to overwrite the existing set; otherwise rows are appended.
+
+**Usage example**
 
 ```yaml
 operation_type: "mutation"
@@ -2474,7 +4277,7 @@ fields: "id, optionLabel, optionValue"
 
 <summary><strong><code>unlinkClone</code></strong>-Unlinks a cloned object from its source.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 unlinkClone(id: ID!, objectType: CloneableObjectType!): ID
@@ -2489,7 +4292,12 @@ enum CloneableObjectType {
 }
 ```
 
-**Usage example:**
+**Is** `where` **or** `search` **mandatory?**
+
+No - `id` and `objectType`. \
+Note: this only severs the link. The object itself is not deleted.
+
+**Usage example**
 
 ```yaml
 operation_type: "mutation"
@@ -2507,7 +4315,7 @@ variable_values:
 
 <summary><strong><code>createComponent</code></strong>-Creates a new component.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createComponent(component: CreateComponentInput!): Component
@@ -2522,17 +4330,25 @@ input CreateComponentInput {
 }
 ```
 
+**Is** `where` **or** `search` **mandatory?**
+
+`component.orgId`, `component.name`, `component.nodeTree`.
+
 </details>
 
 <details>
 
 <summary><strong><code>updateComponent</code></strong>-Updates an existing component.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updateComponent(component: UpdateComponentInput!): Component
 ```
+
+**Is** `where` **or** `search` **mandatory?**
+
+`component.id`, `component.name`, `component.orgId`. Pass through existing `name`/`orgId` values when only editing the tree.
 
 </details>
 
@@ -2540,11 +4356,15 @@ updateComponent(component: UpdateComponentInput!): Component
 
 <summary><strong><code>deleteComponent</code></strong>-Deletes a component.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deleteComponent(id: ID!): Boolean
 ```
+
+**Is** `where` **or** `search` **mandatory?**
+
+No. Just `Id`.
 
 </details>
 
@@ -2552,11 +4372,15 @@ deleteComponent(id: ID!): Boolean
 
 <summary><strong><code>duplicateComponent</code></strong>-Duplicates an existing component.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 duplicateComponent(id: ID!): Component
 ```
+
+**Is** `where` **or** `search` **mandatory?**
+
+No. Just `Id`.
 
 </details>
 
@@ -3292,7 +5116,7 @@ type DNSValidationResponse {
 
 <summary><strong><code>createTag</code></strong>-Creates a new tag.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createTag(tag: TagCreateInput!): Tag
@@ -3306,41 +5130,50 @@ input TagCreateInput {
 }
 ```
 
+**Is `where` or `search` mandatory?**
+
+Use `id`, `name`, and `orgId` on each entry.
+
 </details>
 
 <details>
 
 <summary><strong><code>deleteTag</code></strong>-Deletes a tag.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deleteTag(id: ID!): ID
 ```
 
-</details>
+**Is `where` or `search` mandatory?**
 
-<details>
-
-<summary><strong><code>updateTag</code></strong>-Updates a tag.</summary>
-
-**GraphQL schema:**
-
-```graphql
-updateTag(tag: TagUpdateInput!): Tag
-```
+`id`
 
 </details>
 
 <details>
 
-<summary><strong><code>updateTags</code></strong>-Updates multiple tags.</summary>
+<summary><strong><code>updateTag or updateTags</code></strong>-Updates one tag, updates multiple tags.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
+updateTag(tag: TagUpdateInput!): Tag!
 updateTags(tags: [TagUpdateInput!]!): [Tag!]!
+
+input TagUpdateInput {
+  id: ID!
+  name: String!
+  description: String
+  orgId: ID!
+  color: String
+}
 ```
+
+**Is `where` or `search` mandatory?**
+
+`id`, `name`, and `orgId` on each entry.
 
 </details>
 
@@ -3348,11 +5181,15 @@ updateTags(tags: [TagUpdateInput!]!): [Tag!]!
 
 <summary><strong><code>setOrganizationTags</code></strong>-Sets tags for an organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 setOrganizationTags(tagIds: [ID!]!, orgId: ID!): Organization
 ```
+
+**Is `where` or `search` mandatory?**
+
+Use `tagIds` and `orgId`. This is a replace operation — passing `tagIds: []` clears all tags on the org.
 
 </details>
 
