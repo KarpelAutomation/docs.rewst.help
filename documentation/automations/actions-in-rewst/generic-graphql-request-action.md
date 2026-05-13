@@ -556,7 +556,7 @@ actionsForOrg(
 
 </details>
 
-#### **System and Debug Queries**
+#### **System and debug queries**
 
 <details>
 
@@ -934,7 +934,7 @@ No - no `search` input, no `limit`/`offset` . The table is small and unpaginated
 
 </details>
 
-#### **Foreign Object Reference Queries**
+#### **Foreign object reference queries**
 
 <details>
 
@@ -1184,7 +1184,7 @@ No `search` input is needed. Use both `orgId` and `triggerId` on `where` - both 
 
 </details>
 
-#### **Microsoft CSP Queries**
+#### **Microsoft CSP queries**
 
 <details>
 
