@@ -556,7 +556,7 @@ actionsForOrg(
 
 </details>
 
-#### **System and Debug Queries**
+#### **System and debug queries**
 
 <details>
 
@@ -934,7 +934,7 @@ No - no `search` input, no `limit`/`offset` . The table is small and unpaginated
 
 </details>
 
-#### **Foreign Object Reference Queries**
+#### **Foreign object reference queries**
 
 <details>
 
@@ -1184,7 +1184,7 @@ No `search` input is needed. Use both `orgId` and `triggerId` on `where` - both 
 
 </details>
 
-#### **Microsoft CSP Queries**
+#### **Microsoft CSP queries**
 
 <details>
 
@@ -2724,11 +2724,25 @@ crateTags(
   offset: Int
   order: [[String!]!] = [["name"]]
 ): [Tag!]!
+
+input TagWhereInput {
+  id: ID
+  name: String
+  orgId: ID
+  organizations: TagOrganizationsWhereInput
+}
+
+input TagSearchInput {
+  id: id_comparison_exp
+  name: string_comparison_exp
+  orgId: id_comparison_exp
+  organizations: OrganizationSearchInput
+}
 ```
 
 **Is `where` or `search` mandatory?**
 
-`tag.orgId`.
+`tag.orgId`, `limit` and `offset`.
 
 </details>
 
@@ -3102,9 +3116,20 @@ triggerTypes(
   offset: Int
   order: [[String!]!] = [["name"]]
 ): [TriggerType!]!
-```
 
-**`TriggerTypesSearchInput` supported fields**
+input TriggerTypesSearchInput {
+  description: string_comparison_exp
+  id: id_comparison_exp
+  isPoll: Boolean
+  isWebhook: Boolean
+  name: string_comparison_exp
+  pack: PackSearchInput
+  parametersSchema: json_comparison_exp
+  outputSchema: json_comparison_exp
+  ref: string_comparison_exp
+  triggers: TriggerSearchInput
+  enabled: bool_comparison_exp
+```
 
 | Field              | Wrapper                       |
 | ------------------ | ----------------------------- |
@@ -3959,7 +3984,7 @@ There is no `search` input.
 
 <summary><strong><code>workflow</code></strong>-Gets a specific workflow.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflow(
@@ -3967,52 +3992,97 @@ workflow(
   search: WorkflowSearch
 ): Workflow
 
-type Workflow {
-  autoInstallingForManagedOrgs: [Organization!]!
-  action: Action
-  clonedFrom: Workflow
+input WorkflowWhereInput {
   clonedFromId: ID
-  cloneOverrides: JSON
-  clones: [Workflow]!
-  crates: [Crate!]
-  completionListeners: [Trigger!]!
-  createdAt: String
-  createdBy: User
-  createdById: ID
+  unpackedFromId: ID
+  crates: CrateWhereInput
   description: String
-  humanSecondsSaved: Int!
   id: ID
-  input: [String!]!
-  inputSchema: JSON
+  input: [String]
   isSynchronized: Boolean
   name: String
-  notes: [WorkflowNote!]
-  organization: Organization!
-  orgId: ID!
-  output: [JSON]!
-  outputSchema: JSON
-  packsUsed: [Pack!]!
-  parentWorkflows: [WorkflowTask]
-  permission: Permission
+  orgId: ID
+  output: [JSON]
   schemaVersion: String
-  tags: [Tag!]!
-  tasks: [WorkflowTask!]!
-  tasksObject: JSON
-  taskActions: [Action!]!
   timeout: Int
-  tokens: [JSON!]
-  triggers: [Trigger]
-  type: WorkflowType!
-  unpackedFrom: Crate
-  unpackedFromId: ID
-  updatedAt: String
-  updatedBy: User
-  updatedById: ID
-  varsSchema: JSON
   version: String
-  visibleForOrganizations: [Organization!]!
+  type: WorkflowType
+  visibleForOrganizations: ID
+}
+
+input WorkflowSearch {
+  createdAt: string_comparison_exp
+  clonedFromId: id_comparison_exp
+  description: string_comparison_exp
+  id: id_comparison_exp
+  input: string_comparison_exp
+  isSynchronized: bool_comparison_exp
+  name: string_comparison_exp
+  orgId: id_comparison_exp
+  organization: OrganizationSearchInput
+  org_id: id_comparison_exp
+  output: string_comparison_exp
+  schemaVersion: string_comparison_exp
+  tags: TagSearchInput
+  tasks: id_comparison_exp
+  timeout: int_comparison_exp
+  tokens: json_comparison_exp
+  updatedAt: string_comparison_exp
+  updatedBy: UserSearchInput
+  version: string_comparison_exp
+  visibleForOrganizations: id_comparison_exp
 }
 ```
+
+**`WorkflowWhereInput` supported fields**
+
+| Field                     | Type                       |
+| ------------------------- | -------------------------- |
+| `clonedFromId`            | `ID`                       |
+| `unpackedFromId`          | `ID`                       |
+| `crates`                  | `CrateWhereInput` (nested) |
+| `description`             | `String`                   |
+| `id`                      | `ID`                       |
+| `input`                   | `[String]`                 |
+| `isSynchronized`          | `Boolean`                  |
+| `name`                    | `String`                   |
+| `orgId`                   | `ID`                       |
+| `output`                  | `[JSON]`                   |
+| `schemaVersion`           | `String`                   |
+| `timeout`                 | `Int`                      |
+| `version`                 | `String`                   |
+| `type`                    | `WorkflowType`             |
+| `visibleForOrganizations` | `ID`                       |
+
+**`WorkflowSearch` supported fields**
+
+| Field                     | Wrapper                            |
+| ------------------------- | ---------------------------------- |
+| `createdAt`               | `string_comparison_exp`            |
+| `clonedFromId`            | `id_comparison_exp`                |
+| `description`             | `string_comparison_exp`            |
+| `id`                      | `id_comparison_exp`                |
+| `input`                   | `string_comparison_exp`            |
+| `isSynchronized`          | `bool_comparison_exp`              |
+| `name`                    | `string_comparison_exp`            |
+| `orgId`                   | `id_comparison_exp`                |
+| `organization`            | `OrganizationSearchInput` (nested) |
+| `org_id`                  | `id_comparison_exp` (alias)        |
+| `output`                  | `string_comparison_exp`            |
+| `schemaVersion`           | `string_comparison_exp`            |
+| `tags`                    | `TagSearchInput` (nested)          |
+| `tasks`                   | `id_comparison_exp`                |
+| `timeout`                 | `int_comparison_exp`               |
+| `tokens`                  | `json_comparison_exp`              |
+| `updatedAt`               | `string_comparison_exp`            |
+| `updatedBy`               | `UserSearchInput` (nested)         |
+| `version`                 | `string_comparison_exp`            |
+| `visibleForOrganizations` | `id_comparison_exp`                |
+
+**Is `where` or `search` mandatory?**
+
+Yes - `id` via `where` or `search`. \
+Note: `createdAt`, `updatedAt`, and `tokens` are filterable only via `search`.
 
 </details>
 
@@ -4020,7 +4090,7 @@ type Workflow {
 
 <summary><strong><code>workflows</code></strong>-Gets multiple workflows.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 workflows(
@@ -4045,6 +4115,55 @@ workflows(
   order: [[String!]!] = [["name"]]
 ): [Workflow!]!
 ```
+
+**`WorkflowWhereInput` supported fields**
+
+| Field                     | Type                       |
+| ------------------------- | -------------------------- |
+| `clonedFromId`            | `ID`                       |
+| `unpackedFromId`          | `ID`                       |
+| `crates`                  | `CrateWhereInput` (nested) |
+| `description`             | `String`                   |
+| `id`                      | `ID`                       |
+| `input`                   | `[String]`                 |
+| `isSynchronized`          | `Boolean`                  |
+| `name`                    | `String`                   |
+| `orgId`                   | `ID`                       |
+| `output`                  | `[JSON]`                   |
+| `schemaVersion`           | `String`                   |
+| `timeout`                 | `Int`                      |
+| `version`                 | `String`                   |
+| `type`                    | `WorkflowType`             |
+| `visibleForOrganizations` | `ID`                       |
+
+**`WorkflowSearch` supported fields**
+
+| Field                     | Wrapper                            |
+| ------------------------- | ---------------------------------- |
+| `createdAt`               | `string_comparison_exp`            |
+| `clonedFromId`            | `id_comparison_exp`                |
+| `description`             | `string_comparison_exp`            |
+| `id`                      | `id_comparison_exp`                |
+| `input`                   | `string_comparison_exp`            |
+| `isSynchronized`          | `bool_comparison_exp`              |
+| `name`                    | `string_comparison_exp`            |
+| `orgId`                   | `id_comparison_exp`                |
+| `organization`            | `OrganizationSearchInput` (nested) |
+| `org_id`                  | `id_comparison_exp` (alias)        |
+| `output`                  | `string_comparison_exp`            |
+| `schemaVersion`           | `string_comparison_exp`            |
+| `tags`                    | `TagSearchInput` (nested)          |
+| `tasks`                   | `id_comparison_exp`                |
+| `timeout`                 | `int_comparison_exp`               |
+| `tokens`                  | `json_comparison_exp`              |
+| `updatedAt`               | `string_comparison_exp`            |
+| `updatedBy`               | `UserSearchInput` (nested)         |
+| `version`                 | `string_comparison_exp`            |
+| `visibleForOrganizations` | `id_comparison_exp`                |
+
+**Is `where` or `search` mandatory?**
+
+`limit` and `offset`. Scope by `orgId` — `workflows` is a large table and unscoped calls will be slow.
 
 </details>
 
@@ -4232,6 +4351,10 @@ Yes - `where: { workflowId }`, `limit`, `offset`. `workflow_tasks` is large — 
 
 </details>
 
+{% hint style="info" %}
+Each of the mutation expanders below contains information that includes the necessary updates you'll need to make for use of the mutation. Be sure to reference this information accordingly.
+{% endhint %}
+
 ### Operation type: Mutations
 
 #### **Action option mutations**
@@ -4249,7 +4372,7 @@ createActionOptions(
 ): [ActionOption]
 ```
 
-**Is** `where` **or** `search` **mandatory?**
+**Necessary modifications**
 
 Each item should supply `packConfigId`, `organizationId`, `optionLabel`, `optionValue`, and `resourceName`. Pass `replace: true` to overwrite the existing set; otherwise rows are appended.
 
@@ -4292,9 +4415,9 @@ enum CloneableObjectType {
 }
 ```
 
-**Is** `where` **or** `search` **mandatory?**
+**Necessary modifications**
 
-No - `id` and `objectType`. \
+&#x20;`id` and `objectType`. \
 Note: this only severs the link. The object itself is not deleted.
 
 **Usage example**
@@ -4330,7 +4453,7 @@ input CreateComponentInput {
 }
 ```
 
-**Is** `where` **or** `search` **mandatory?**
+**Necessary modifications**
 
 `component.orgId`, `component.name`, `component.nodeTree`.
 
@@ -4346,7 +4469,7 @@ input CreateComponentInput {
 updateComponent(component: UpdateComponentInput!): Component
 ```
 
-**Is** `where` **or** `search` **mandatory?**
+**Necessary modifications**
 
 `component.id`, `component.name`, `component.orgId`. Pass through existing `name`/`orgId` values when only editing the tree.
 
@@ -4362,9 +4485,9 @@ updateComponent(component: UpdateComponentInput!): Component
 deleteComponent(id: ID!): Boolean
 ```
 
-**Is** `where` **or** `search` **mandatory?**
+**Necessary modifications**
 
-No. Just `Id`.
+&#x20;`Id`.
 
 </details>
 
@@ -4378,9 +4501,9 @@ No. Just `Id`.
 duplicateComponent(id: ID!): Component
 ```
 
-**Is** `where` **or** `search` **mandatory?**
+**Necessary modifications**
 
-No. Just `Id`.
+&#x20;`Id`.
 
 </details>
 
@@ -4390,7 +4513,7 @@ No. Just `Id`.
 
 <summary><strong><code>createForeignObjectReference</code></strong>-Creates a foreign object reference.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createForeignObjectReference(
@@ -4408,19 +4531,27 @@ input CreateForeignObjectReferenceInput {
 }
 ```
 
+**Necessary modifications**
+
+`orgId` and `referenceId` on the input
+
 </details>
 
 <details>
 
 <summary><strong><code>createOrUpdateForeignObjectReference</code></strong>-Creates or updates a foreign object reference.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createOrUpdateForeignObjectReference(
   foreignObjectReference: CreateForeignObjectReferenceInput
 ): ForeignObjectReference
 ```
+
+**Necessary modifications**
+
+`orgId` and `referenceId`
 
 </details>
 
@@ -4430,7 +4561,7 @@ createOrUpdateForeignObjectReference(
 
 <summary><strong><code>createForm</code></strong>-Creates a new form.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createForm(form: FormCreateInput!): Form
@@ -4449,7 +4580,11 @@ input FormCreateInput {
 
 ```
 
-**Usage example:**
+**Necessary modifications**
+
+`form` with `orgId`.
+
+**Usage example**
 
 ```yaml
 operation_type: "mutation"
@@ -4474,7 +4609,7 @@ fields: "id, name, description, fields { id, type, schema }"
 
 <summary><strong><code>submitForm</code></strong>-Submits form data and triggers associated workflow.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 submitForm(
@@ -4485,13 +4620,17 @@ submitForm(
 ): JSON
 ```
 
+**Necessary modifications**
+
+`id`, `values`, `triggerId`, `orgId`
+
 </details>
 
 <details>
 
 <summary><strong><code>setFormTags</code></strong>-Sets tags for a form.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 setFormTags(form: SetFormTagsInput!): Form
@@ -4502,13 +4641,17 @@ input SetFormTagsInput {
 }
 ```
 
+**Necessary modifications**
+
+`id` and `tagIds`.
+
 </details>
 
 <details>
 
 <summary><strong><code>shallowCloneForm</code></strong>-Creates a shallow clone of a form.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 shallowCloneForm(
@@ -4518,17 +4661,25 @@ shallowCloneForm(
   : Form)
 ```
 
+**Necessary modifications**
+
+`id`, `orgId`.
+
 </details>
 
 <details>
 
 <summary><strong><code>updateForm</code></strong>-Updates an existing form.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updateForm(form: FormUpdateInput!): Form
 ```
+
+**Necessary modifications**
+
+`form` with `id`.
 
 </details>
 
@@ -4536,11 +4687,15 @@ updateForm(form: FormUpdateInput!): Form
 
 <summary><strong><code>deleteForm</code></strong>-Deletes a form.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deleteForm(id: ID!): Void
 ```
+
+**Necessary modifications**
+
+`id`
 
 </details>
 
@@ -4550,7 +4705,7 @@ deleteForm(id: ID!): Void
 
 <summary><strong><code>updateOrgTriggerInstance</code></strong>-Updates an organization trigger instance.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updateOrgTriggerInstance(
@@ -4568,6 +4723,10 @@ input OrgTriggerInstanceInput {
   state: JSON
 }
 ```
+
+**Necessary modifications**
+
+`orgTriggerInstance`, and an `id` or `orgId` + `triggerId` on the input to identify the row.
 
 </details>
 
@@ -4593,7 +4752,11 @@ input OrgVariableCreateInput {
 }
 ```
 
-**Usage example:**
+**Necessary modifications**
+
+`cascade`, `name`, `value`, `orgId`.
+
+**Usage example**
 
 ```yaml
 operation_type: "mutation"
@@ -4614,11 +4777,15 @@ fields: "id, name, value, category, cascade"
 
 <summary><strong><code>deleteOrgVariable</code></strong>-Deletes an organization variable.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deleteOrgVariable(id: ID!): ID
 ```
+
+**Necessary modifications**
+
+`id`
 
 </details>
 
@@ -4626,7 +4793,7 @@ deleteOrgVariable(id: ID!): ID
 
 <summary><strong><code>updateOrgVariables</code></strong>-Updates multiple organization variables.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updateOrgVariables(
@@ -4644,6 +4811,10 @@ input OrgVariableUpdateInput {
 }
 ```
 
+**Necessary modifications**
+
+`orgVariables` (non-empty); each entry requires `id` and `name`.
+
 </details>
 
 #### **Organization management mutations**
@@ -4652,7 +4823,7 @@ input OrgVariableUpdateInput {
 
 <summary><strong><code>bulkCreateOrganizations</code></strong>-Creates multiple organizations in bulk.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 bulkCreateOrganizations(
@@ -4660,17 +4831,25 @@ bulkCreateOrganizations(
 ): [Organization!]!
 ```
 
+**Necessary modifications**
+
+`organizations` (non-empty); each item requires `name`.
+
 </details>
 
 <details>
 
 <summary><strong><code>bulkDeleteOrganizations</code></strong>-Deletes multiple organizations in bulk.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 bulkDeleteOrganizations(organizationIds: [ID!]!): Void
 ```
+
+**Necessary modifications**
+
+`organizationIds`
 
 </details>
 
@@ -4678,7 +4857,7 @@ bulkDeleteOrganizations(organizationIds: [ID!]!): Void
 
 <summary><strong><code>createOrganization</code></strong>-Creates a single organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createOrganization(organization: OrganizationInput): Organization
@@ -4696,13 +4875,19 @@ input OrganizationInput {
 }
 ```
 
+**Necessary modifications**
+
+`name` on each item.&#x20;
+
+Note: `createOrganizations` returns nullable elements — a per-row failure yields a `null` slot rather than aborting the batch.
+
 </details>
 
 <details>
 
 <summary><strong><code>createOrganizations</code></strong>-Creates multiple organizations.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createOrganizations(
@@ -4710,31 +4895,59 @@ createOrganizations(
 ): [Organization]
 ```
 
+**Necessary modifications**
+
+**`organizationinput`**
+
 </details>
 
 <details>
 
 <summary><strong><code>deleteOrganization</code></strong>-Deletes an organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deleteOrganization(id: ID!): Void
 ```
 
+**Necessary modifications**
+
+`id`
+
 </details>
 
 <details>
 
-<summary><strong><code>updateManagedAndSubOrganizations</code></strong>-Updates managed and sub-organizations.</summary>
+<summary><strong><code>updateManagedAndSubOrganizations</code></strong>-Updates all managed and suborganizations.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updateManagedAndSubOrganizations(
   organization: OrganizationUpdateInput!
 ): Int
+
+input OrganizationUpdateInput {
+  domain: String
+  id: ID!
+  isEnabled: Boolean
+  isInternal: Boolean
+  isDeleted: Boolean
+  isOnboarding: Boolean
+  deletedAt: String
+  name: String
+  orgSlug: String
+  resultsRetentionDays: Int
+  rocSiteId: String
+  tagIds: [ID!]
+  tid: ID
+}
 ```
+
+**Necessary modifications**
+
+`organization.id` (the parent org whose tree is being updated). Returns the count of affected rows.
 
 </details>
 
@@ -4742,11 +4955,34 @@ updateManagedAndSubOrganizations(
 
 <summary><strong><code>updateOrganization</code></strong>-Updates an organization.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
-updateOrganization(organization: OrganizationUpdateInput): Organization
+updateOrganization(
+  organization: OrganizationUpdateInput
+  cascadeChildOrgReenable: Boolean = false
+): Organization
+
+input OrganizationUpdateInput {
+  domain: String
+  id: ID!
+  isEnabled: Boolean
+  isInternal: Boolean
+  isDeleted: Boolean
+  isOnboarding: Boolean
+  deletedAt: String
+  name: String
+  orgSlug: String
+  resultsRetentionDays: Int
+  rocSiteId: String
+  tagIds: [ID!]
+  tid: ID
+}
 ```
+
+**Necessary modifications**
+
+`organization.id`. Pass `cascadeChildOrgReenable: true` to propagate `isEnabled: true` to child orgs when re-enabling.
 
 </details>
 
@@ -4754,7 +4990,7 @@ updateOrganization(organization: OrganizationUpdateInput): Organization
 
 <summary><strong><code>bulkUpdateOrganizationFeaturePreviewSettingByLabel</code></strong>-Bulk updates feature preview settings by label.</summary>
 
-**GraphQL schema:**
+**Necessary modifications**
 
 ```graphql
 bulkUpdateOrganizationFeaturePreviewSettingByLabel(
@@ -4772,7 +5008,7 @@ bulkUpdateOrganizationFeaturePreviewSettingByLabel(
 
 <summary><strong><code>synchronizePackBundleConfigs</code></strong>-Synchronizes pack bundle configurations.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 synchronizePackBundleConfigs(
@@ -4782,13 +5018,17 @@ synchronizePackBundleConfigs(
 ): [SynchronizedPackConfig!]!
 ```
 
+**Necessary modifications**
+
+`orgId`, `packBundleId`, `primaryPackConfigId`
+
 </details>
 
 <details>
 
 <summary><strong><code>createPackConfig</code></strong>-Creates a new pack configuration.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createPackConfig(packConfig: PackConfigCreateInput!): PackConfig
@@ -4805,17 +5045,25 @@ input PackConfigCreateInput {
 }
 ```
 
+**Necessary modifications**
+
+`packConfig.name`, `packConfig.orgId`, `packConfig.packId`.
+
 </details>
 
 <details>
 
 <summary><strong><code>deletePackConfig</code></strong>-Deletes a pack configuration.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deletePackConfig(id: ID!, orgId: ID!): Void
 ```
+
+**Necessary modifications**
+
+`id`, `orgId`.
 
 </details>
 
@@ -4823,7 +5071,7 @@ deletePackConfig(id: ID!, orgId: ID!): Void
 
 <summary><strong><code>refetchPackConfigRefOptions</code></strong>-Refetches pack configuration reference options.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 refetchPackConfigRefOptions(
@@ -4832,17 +5080,25 @@ refetchPackConfigRefOptions(
 ): JobRequestedResponse
 ```
 
+**Necessary modifications**
+
+`packConfigId` returns a `JobRequestedResponse` — work is asynchronous.
+
 </details>
 
 <details>
 
 <summary><strong><code>testPackConfig</code></strong>-Tests a pack configuration.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 testPackConfig(packConfig: PackConfigTestInput!): JobRequestedResponse
 ```
+
+**Necessary modifications**
+
+`packConfig.id` returns a `JobRequestedResponse` — results delivered via `actionResults` subscription.
 
 </details>
 
@@ -4850,11 +5106,15 @@ testPackConfig(packConfig: PackConfigTestInput!): JobRequestedResponse
 
 <summary><strong><code>updatePackConfig</code></strong>-Updates a pack configuration.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updatePackConfig(packConfig: PackConfigUpdateInput!): PackConfig
 ```
+
+**Necessary modifications**
+
+`id` on each entry
 
 </details>
 
@@ -4862,7 +5122,7 @@ updatePackConfig(packConfig: PackConfigUpdateInput!): PackConfig
 
 <summary><strong><code>updatePackConfigs</code></strong>-Updates multiple pack configurations.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updatePackConfigs(
@@ -4878,7 +5138,7 @@ updatePackConfigs(
 
 <summary><strong><code>generatePackOrBundleAuthUrl</code></strong>-Generates authorization URL for pack or bundle.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 generatePackOrBundleAuthUrl(
@@ -4894,41 +5154,57 @@ type AuthUrlResponse {
 }
 ```
 
+**Necessary modifications**
+
+`orgId`, plus exactly one of `packBundleId` or `packConfigId`.
+
 </details>
 
 <details>
 
-<summary><strong><code>installPack</code></strong>-Installs a pack for an organization.</summary>
+<summary><strong><code>installPack</code></strong>-Installs a pack for an organization. Returns the updated Organization, not the pack.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 installPack(orgId: ID!, packId: ID!, name: String): Organization
 ```
 
+**Necessary modifications**
+
+`orgId`, `packId`
+
 </details>
 
 <details>
 
-<summary><strong><code>getPackInstallations</code></strong>-Gets pack installation information.</summary>
+<summary><strong><code>getPackInstallations</code></strong>-Gets pack installation information. Defined as a mutation despite being read-only.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 getPackInstallations(packId: ID!): PackInstalledByResponse
 ```
 
+**Necessary modifications**
+
+`packId`
+
 </details>
 
 <details>
 
-<summary><strong><code>getPackPageUrl</code></strong>-Gets the URL for a pack page</summary>
+<summary><strong><code>getPackPageUrl</code></strong>-Gets the URL for a pack page. Defined as a mutation despite being read-only.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 getPackPageUrl(integrationRef: String!, pagePath: String!): String
 ```
+
+**Necessary modifications**
+
+`integrationRef`, `pagePath`
 
 </details>
 
@@ -4936,11 +5212,37 @@ getPackPageUrl(integrationRef: String!, pagePath: String!): String
 
 <summary><strong><code>updatePack</code></strong>-Updates a pack.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updatePack(pack: PackUpdateInput!): Pack
+
+input PackUpdateInput {
+  actions: [ActionUpdateInput!]
+  configSchema: JSON
+  description: String
+  icon: String
+  id: ID
+  isDefault: Boolean
+  isMultitenancyEnabled: Boolean
+  isOauthConfiguration: Boolean
+  metadata: JSON
+  name: String
+  orgId: ID
+  orgVariables: JSON
+  packTestActionId: ID
+  ref: String
+  setupInstructions: String
+  status: PackStatus
+  tags: [String!]
+  uid: String
+  version: String
+}
 ```
+
+**Necessary modifications**
+
+`pack` with `id` to identify the row
 
 </details>
 
@@ -4950,7 +5252,7 @@ updatePack(pack: PackUpdateInput!): Pack
 
 <summary><strong><code>createPage</code></strong>-Creates a new page.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createPage(
@@ -4974,13 +5276,17 @@ input PageCreateInput {
 }
 ```
 
+**Necessary modifications**
+
+`page.name`, `page.path`, `page.orgId`
+
 </details>
 
 <details>
 
 <summary><strong><code>updatePage</code></strong>-Updates an existing page.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updatePage(
@@ -4989,17 +5295,26 @@ updatePage(
 ): Page
 ```
 
+**Necessary modifications**
+
+`page.id`, `page.siteId`. \
+Note: `pageNodes` is the encoded editor state passed as a string — decoded server-side.
+
 </details>
 
 <details>
 
 <summary><strong><code>deletePage</code></strong>-Deletes a page.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deletePage(id: ID!): Void
 ```
+
+**Necessary modifications**
+
+`deletePage`: requires `id`.&#x20;
 
 </details>
 
@@ -5007,11 +5322,15 @@ deletePage(id: ID!): Void
 
 <summary><strong><code>updatePageNode</code></strong>-Updates a page node.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updatePageNode(id: ID!, props: JSON!): PageNode
 ```
+
+**Necessary modifications**
+
+`updatePageNode`: requires `id`, `props`.&#x20;
 
 </details>
 
@@ -5019,7 +5338,7 @@ updatePageNode(id: ID!, props: JSON!): PageNode
 
 <summary><strong><code>updatePageNodeByCraftId</code></strong>-Updates a page node by craft ID.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updatePageNodeByCraftId(
@@ -5029,6 +5348,10 @@ updatePageNodeByCraftId(
 ): PageNode
 ```
 
+**Necessary modifications**
+
+`updatePageNodeByCraftId`: requires `craftId`, `pageId`, `props` — use when you have the Craft.js editor id rather than the persisted `PageNode.id`.
+
 </details>
 
 #### **Site mutations**
@@ -5037,7 +5360,7 @@ updatePageNodeByCraftId(
 
 <summary><strong><code>createSite</code></strong>-Creates a new site/app.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 createSite(site: SiteCreateInput!): Site
@@ -5055,17 +5378,47 @@ input SiteCreateInput {
 }
 ```
 
+**Necessary modifications**
+
+`site.orgId`
+
 </details>
 
 <details>
 
 <summary><strong><code>updateSite</code></strong>-Updates an existing site/app.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updateSite(site: SiteUpdateInput!): Site
+updateSites(sites: [SiteUpdateInput!]!): [Site!]!
+
+input SiteUpdateInput {
+  id: ID!
+  name: String
+  domain: String
+  orgId: ID
+  layout: String
+  theme: JSON
+  isLive: Boolean
+  statusCode: Int
+  statusMessage: String
+  customDomain: String
+  isDnsValidated: Boolean
+  useCustomDomain: Boolean
+  themeReferenceOrgVariable: String
+  pages: [PagesImportInput]
+  clonedFromId: ID
+  isSynchronized: Boolean
+  cloneOverrides: JSON
+  faviconUrl: String
+}
 ```
+
+**Necessary modifications**
+
+`id` on each entry
 
 </details>
 
@@ -5073,11 +5426,15 @@ updateSite(site: SiteUpdateInput!): Site
 
 <summary><strong><code>updateSites</code></strong>-Updates multiple sites.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 updateSites(sites: [SiteUpdateInput!]!): [Site!]!
 ```
+
+**Necessary modifications**
+
+`id`
 
 </details>
 
@@ -5085,11 +5442,15 @@ updateSites(sites: [SiteUpdateInput!]!): [Site!]!
 
 <summary><strong><code>deleteSite</code></strong>-Deletes a site/app.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 deleteSite(id: ID!): Void
 ```
+
+**Necessary modifications**
+
+`id`
 
 </details>
 
@@ -5097,7 +5458,7 @@ deleteSite(id: ID!): Void
 
 <summary><strong><code>validateSiteCustomDomainDNS</code></strong>-Validates custom domain DNS settings.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ```graphql
 validateSiteCustomDomainDNS(id: ID!): DNSValidationResponse
@@ -5108,13 +5469,17 @@ type DNSValidationResponse {
 }
 ```
 
+**Necessary modifications**
+
+`id`
+
 </details>
 
 #### **Tag mutations**
 
 <details>
 
-<summary><strong><code>createTag</code></strong>-Creates a new tag.</summary>
+<summary><strong><code>createTag</code>  -</strong> Creates a new tag.</summary>
 
 **GraphQL schema**
 
@@ -5130,9 +5495,9 @@ input TagCreateInput {
 }
 ```
 
-**Is `where` or `search` mandatory?**
+**Necessary modifications**
 
-Use `id`, `name`, and `orgId` on each entry.
+Use `id`, `name`, and `orgId` on each entry.&#x20;
 
 </details>
 
@@ -5146,7 +5511,7 @@ Use `id`, `name`, and `orgId` on each entry.
 deleteTag(id: ID!): ID
 ```
 
-**Is `where` or `search` mandatory?**
+**Necessary modifications**
 
 `id`
 
@@ -5171,7 +5536,7 @@ input TagUpdateInput {
 }
 ```
 
-**Is `where` or `search` mandatory?**
+**Necessary modifications**
 
 `id`, `name`, and `orgId` on each entry.
 
@@ -5187,7 +5552,7 @@ input TagUpdateInput {
 setOrganizationTags(tagIds: [ID!]!, orgId: ID!): Organization
 ```
 
-**Is `where` or `search` mandatory?**
+**Necessary modifications**
 
 Use `tagIds` and `orgId`. This is a replace operation — passing `tagIds: []` clears all tags on the org.
 
@@ -5199,7 +5564,7 @@ Use `tagIds` and `orgId`. This is a replace operation — passing `tagIds: []` c
 
 <summary><strong><code>createTemplate</code></strong>-Creates a new template.</summary>
 
-**GraphQL schema:**
+**GraphQL schema**
 
 ````graphql
 createTemplate(template: TemplateCreateInput!): Template
@@ -5247,7 +5612,521 @@ input TemplateCreateInput {
         message: "GraphQL query failed: {{ RESULT.error }}"
 ````
 
+**Necessary modifications**
+
+`body`, `name`, `orgId`.
+
 </details>
+
+<details>
+
+<summary>update<strong><code>Template</code></strong>-Updates an existing template.</summary>
+
+**GraphQL schema**
+
+```graphql
+updateTemplate(template: TemplateUpdateInput!): Template
+
+input TemplateUpdateInput {
+  body: String
+  clonedFromId: ID
+  cloneOverrides: JSON
+  contentType: String
+  context: JSON
+  description: String
+  id: ID!
+  isShared: Boolean
+  isSynchronized: Boolean
+  language: String
+  name: String
+  orgId: ID
+  tags: [TagInput!]
+  unpackedFromId: ID
+}
+```
+
+**Necessary modifications**
+
+`template.id`
+
+</details>
+
+<details>
+
+<summary><code>update</code><strong><code>Template</code></strong>-Updates an existing template.</summary>
+
+**GraphQL schema**
+
+```graphql
+updateTemplate(template: TemplateUpdateInput!): Template
+
+input TemplateUpdateInput {
+  body: String
+  clonedFromId: ID
+  cloneOverrides: JSON
+  contentType: String
+  context: JSON
+  description: String
+  id: ID!
+  isShared: Boolean
+  isSynchronized: Boolean
+  language: String
+  name: String
+  orgId: ID
+  tags: [TagInput!]
+  unpackedFromId: ID
+}
+```
+
+**Necessary modifications**
+
+`template.id`
+
+</details>
+
+#### Trigger mutations
+
+<details>
+
+<summary><code>Createtrigger</code><strong>- Creates a trigger.</strong></summary>
+
+**GraphQL schema**
+
+```graphql
+CreateTrigger(trigger: TriggerCreateInput!, createPatch: Boolean): Trigger
+
+input TriggerCreateInput {
+  activatedForOrgIds: [ID!]
+  activatedForTagIds: [ID!]
+  autoActivateManagedOrgs: Boolean
+  clonedFromId: ID
+  cloneOverrides: JSON
+  criteria: JSON
+  description: String
+  enabled: Boolean
+  formId: ID
+  id: ID
+  isActivatedForOwner: Boolean
+  isSynchronized: Boolean
+  name: String
+  orgId: ID
+  packOverrides: [PackOverrideInput]
+  parameters: JSON
+  state: JSON
+  triggerTypeId: ID
+  unpackedFromId: ID
+  vars: [JSON!]
+  workflow: WorkflowInput
+  workflowBuilderInfo: JSON
+  workflowId: ID
+}
+```
+
+**Necessary modifications**
+
+`trigger` with `triggerTypeId`, `orgId`, and either `workflowId` or `workflow.id`.
+
+</details>
+
+<details>
+
+<summary><code>updatetrigger</code><strong>- Updates a trigger.</strong></summary>
+
+**GraphQL schema**
+
+```graphql
+updateTrigger(
+  trigger: TriggerUpdateInput!
+  comment: String
+  commentDescription: String
+  createPatch: Boolean
+): Trigger
+
+input TriggerUpdateInput {
+  activatedForOrgIds: [ID!]
+  activatedForTagIds: [ID!]
+  autoActivateManagedOrgs: Boolean
+  clonedFromId: ID
+  cloneOverrides: JSON
+  criteria: JSON
+  description: String
+  enabled: Boolean
+  formId: ID
+  id: ID
+  isActivatedForOwner: Boolean
+  isSynchronized: Boolean
+  name: String
+  orgId: ID
+  packOverrides: [PackOverrideInput]
+  parameters: JSON
+  state: JSON
+  unpackedFromId: ID
+  vars: [JSON!]
+  workflow: WorkflowInput
+  workflowBuilderInfo: JSON
+  workflowId: ID
+}
+
+```
+
+**Necessary modifications**
+
+`trigger.id`
+
+</details>
+
+<details>
+
+<summary><code>testworkflowtrigger</code><strong>-</strong> Fires a trigger against a workflow for testing.</summary>
+
+**GraphQL schema**
+
+```graphql
+testWorkflowTrigger(
+  triggerInstance: OrgTriggerInstanceInput!
+  workflowId: ID
+  input: JSON
+): JobRequestedResponse
+```
+
+**Necessary modifications**
+
+`triggerInstance`. `workflowId` and `input` are optional but typically supplied.
+
+</details>
+
+<details>
+
+<summary><code>deletetrigger</code><strong>- Deletes a trigger.</strong></summary>
+
+**GraphQL schema**
+
+```graphql
+deleteTrigger(id: ID!): ID
+```
+
+**Necessary modifications**
+
+`id`
+
+</details>
+
+#### User mutations
+
+<details>
+
+<summary><code>updateuserpreferences</code> - Updates preferences for a user</summary>
+
+**GraphQL schema**
+
+```graphql
+updateUserPreferences(userId: ID!, preferences: UserPreferencesInput!): User!
+
+input UserPreferencesInput {
+  isDarkModePreferred: Boolean
+  dateFormat: String
+  datetimeFormat: String
+}
+```
+
+**Necessary modifications**
+
+`userId`, `preferences`
+
+</details>
+
+<details>
+
+<summary><code>createuser</code> - Creates a new user in an organization</summary>
+
+**GraphQL schema**
+
+```graphql
+createUser(user: CreateUserInput!): User
+
+input CreateUserInput {
+  orgId: ID!
+  isTestUser: Boolean
+  username: String!
+  roleIds: [String!]!
+}
+```
+
+**Necessary modifications**
+
+`orgId`, `username`, `roleIds`. Only available when `ENABLE_ADMIN_APPROVAL_REQUESTS` is OFF.
+
+</details>
+
+<details>
+
+<summary><code>deleteuser</code> - Deletes a user in an organization</summary>
+
+**GraphQL schema**
+
+```graphql
+deleteUser(id: ID!): Void
+
+input UserRolesInput {
+  id: ID!
+  roleIds: [String!]!
+}
+```
+
+**Necessary modifications**
+
+Only available when `ENABLE_ADMIN_APPROVAL_REQUESTS` is OFF.
+
+</details>
+
+<details>
+
+<summary><code>addfavoriteaction</code> - Adds a favorite action</summary>
+
+**GraphQL schema**
+
+```graphql
+addFavoriteAction(userId: ID!, actionId: ID!): Void
+```
+
+**Necessary modifications**
+
+`actionId` and `index`
+
+</details>
+
+<details>
+
+<summary><code>removefavoriteaction</code> - Removes a favorite action</summary>
+
+**GraphQL schema**
+
+
+
+```graphql
+removeFavoriteAction(userId: ID!, actionId: ID!): Void
+```
+
+**Necessary modifications**
+
+`actionId` and `index`
+
+</details>
+
+<details>
+
+<summary><code>setFavoriteActions</code> - Replaces the entire favorites list</summary>
+
+**GraphQL schema**
+
+```graphql
+setFavoriteActions(userId: ID!, favoriteActions: [UserFavoriteActionInput!]!): [UserFavoriteAction!]!
+```
+
+**Necessary modifications**
+
+`actionId` and `index`
+
+</details>
+
+#### Workflow mutations
+
+<details>
+
+<summary><code>createworkflow</code> - Creates a new workflow</summary>
+
+**GraphQL schema**
+
+{% include "../../../.gitbook/includes/createworkflow-workflow-wo....md" %}
+
+</details>
+
+<details>
+
+<summary><code>deleteworkflow</code> - Deletes a workflow</summary>
+
+**GraphQL schema**
+
+{% include "../../../.gitbook/includes/createworkflow-workflow-wo....md" %}
+
+</details>
+
+<details>
+
+<summary><code>deleteworkflows</code> - Deletes multiple workflows</summary>
+
+**GraphQL schema**
+
+{% include "../../../.gitbook/includes/createworkflow-workflow-wo....md" %}
+
+</details>
+
+<details>
+
+<summary><code>deleteWorkflowExecution</code> - Deletes workflow executions</summary>
+
+**GraphQL schema**
+
+```graphql
+deleteWorkflowExecution(id: ID!): Boolean
+```
+
+**Necessary modifications**
+
+`id`
+
+</details>
+
+<details>
+
+<summary><code>killWorkflowExecution</code> - Kills active workflow executions</summary>
+
+**GraphQL schema**
+
+```graphql
+killWorkflowExecution(id: ID!): JSON
+```
+
+**Necessary modifications**
+
+`id`
+
+</details>
+
+<details>
+
+<summary><code>shallowcloneworkflow</code> - Creates a shallow clone of a workflow into an org.</summary>
+
+**GraphQL schema**
+
+```graphql
+shallowCloneWorkflow(id: ID!, orgId: ID!, overrides: ShallowCloneOverridesInput): Workflow
+
+input ShallowCloneOverridesInput {
+  name: String
+}
+```
+
+**Necessary modifications**
+
+`id`, `orgId`. Does not deep-clone referenced objects.
+
+</details>
+
+<details>
+
+<summary><code>testworkflow</code> - Triggers a one-off test execution of a workflow.</summary>
+
+**GraphQL schema**
+
+
+
+```graphql
+testWorkflow(id: ID!, orgId: ID!, input: JSON, context: ExecuteContextType): JobRequestedResponse
+```
+
+**Necessary modifications**
+
+`id`, `orgId`.
+
+</details>
+
+<details>
+
+<summary><code>bulksetworkflowtags</code> - Replaces tag assignments on multiple workflows in one call.</summary>
+
+**GraphQL schema**
+
+```graphql
+bulkSetWorkflowTags(workflowIds: [ID!]!, tagIds: [ID!]!): [Workflow!]!
+```
+
+**Necessary modifications**
+
+`workflowIds`, `tagIds`.
+
+</details>
+
+<details>
+
+<summary><code>createWorkflowCompletionListener</code> - Creates a completion listener trigger.</summary>
+
+**GraphQL schema**
+
+```graphql
+createWorkflowCompletionListener(listener: CompletionListenerCreateInput!): Trigger
+
+input CompletionListenerCreateInput {
+  enabled: Boolean
+  listeningToWorkflowId: ID!
+  orgId: ID!
+  packOverrides: [PackOverrideInput]
+  handlerWorkflowId: ID!
+  triggerOnStatuses: [String!]!
+}
+```
+
+**Necessary modifications**
+
+`listeningToWorkflowId`, `orgId`, `handlerWorkflowId`, `triggerOnStatuses`
+
+</details>
+
+<details>
+
+<summary><code>updateWorkflowCompletionListener</code> - Updates a completion listener trigger.</summary>
+
+**GraphQL schema**
+
+```graphql
+updateWorkflowCompletionListener(listener: CompletionListenerUpdateInput!): Trigger
+
+input CompletionListenerUpdateInput {
+  enabled: Boolean
+  triggerId: ID!
+  listeningToWorkflowId: ID!
+  orgId: ID!
+  packOverrides: [PackOverrideInput]
+  handlerWorkflowId: ID!
+  triggerOnStatuses: [String!]!
+  cloneOverrides: JSON
+}
+```
+
+**Necessary modifications**
+
+`triggerId`, `listeningToWorkflowId`, `orgId`, `handlerWorkflowId`, `triggerOnStatuses`.
+
+</details>
+
+<details>
+
+<summary><code>deleteWorkflowCompletionListener</code> - Deletes a completion listener trigger.</summary>
+
+**GraphQL schema**
+
+```graphql
+deleteWorkflowCompletionListener(id: ID!): Void
+
+input CompletionListenerUpdateInput {
+  enabled: Boolean
+  triggerId: ID!
+  listeningToWorkflowId: ID!
+  orgId: ID!
+  packOverrides: [PackOverrideInput]
+  handlerWorkflowId: ID!
+  triggerOnStatuses: [String!]!
+  cloneOverrides: JSON
+}
+```
+
+**Necessary modifications**
+
+`id`
+
+</details>
+
+
 
 ## Security considerations
 
