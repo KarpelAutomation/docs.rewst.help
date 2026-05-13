@@ -148,7 +148,7 @@ Expand each of the provider types below to see their individual workflow breakdo
 
 <details>
 
-<summary> <strong>On-premise AD only</strong></summary>
+<summary><strong>On-premise AD only</strong></summary>
 
 * Main workflow: Creates a user in Active Directory.
 * Subworkflows:
@@ -209,7 +209,7 @@ Before unpacking the Microsoft: User Onboarding Crate, make sure that the follow
 ### Required integrations
 
 * The [Microsoft Cloud integration bundle](https://docs.rewst.help/documentation/integrations/cloud/-cloud-integration-bundle) must be set up first. This enables Microsoft Graph API access for Azure AD and M365 provisioning.
-* &#x20;For Active Directory setup, you’ll need to first set up your [RMM integration](https://docs.rewst.help/documentation/integrations/rmm), or [Agent Smith](https://docs.rewst.help/documentation/agent-smith). This is optional.
+* For Active Directory setup, you’ll need to first set up your [RMM integration](https://docs.rewst.help/documentation/integrations/rmm), or [Agent Smith](https://docs.rewst.help/documentation/agent-smith). This is optional.
 * [PSA Integration](https://docs.rewst.help/documentation/integrations/psa) must be setup. This is required for automated ticket creation and ticket updates. This is optional.
 * [Documentation Integrations](https://docs.rewst.help/documentation/integrations/documentation) must be set up if you wish to create documentation in your knowledge base. This is optional.
 * [Licensing integrations](https://docs.rewst.help/documentation/integrations/licensing) should be completed if you wish to set up automated license purchases. Configure Pax8, Ingram Micro, Sherweb, or Synnex. This is optional.
@@ -240,8 +240,6 @@ Expand each of the categories below to see that type of CTX variable's reference
 
 <summary>User information CTX variable reference</summary>
 
-
-
 | **CTX variable**                             | **Purpose**                                                        |
 | -------------------------------------------- | ------------------------------------------------------------------ |
 | `CTX.first_name`                             | Stores the user's first name.                                      |
@@ -262,8 +260,6 @@ Expand each of the categories below to see that type of CTX variable's reference
 
 <summary>Identity and directory information CTX variable reference</summary>
 
-
-
 | **CTX variable**                  | **Purpose**                                                      |
 | --------------------------------- | ---------------------------------------------------------------- |
 | `CTX.aad_user_id`                 | Stores the Azure AD (Entra ID) user ID.                          |
@@ -281,8 +277,6 @@ Expand each of the categories below to see that type of CTX variable's reference
 
 <summary>Ticketing and documentation CTX variable reference</summary>
 
-
-
 | **CTX variable**                     | **Purpose**                                               |
 | ------------------------------------ | --------------------------------------------------------- |
 | `CTX.ticket_id`                      | Tracks the ticket ID for onboarding.                      |
@@ -297,8 +291,6 @@ Expand each of the categories below to see that type of CTX variable's reference
 
 <summary>Security and password management CTX variable reference</summary>
 
-
-
 | **CTX variable**                | **Purpose**                                                      |
 | ------------------------------- | ---------------------------------------------------------------- |
 | `CTX.requested_password`        | Stores the initial password for user onboarding.                 |
@@ -312,8 +304,6 @@ Expand each of the categories below to see that type of CTX variable's reference
 <details>
 
 <summary>License and group management CTX variable reference</summary>
-
-
 
 | **CTX variable**               | **Purpose**                                                 |
 | ------------------------------ | ----------------------------------------------------------- |
@@ -337,8 +327,6 @@ Expand each of the categories below to see that type of org variable's reference
 
 <summary>Identity and access management org variable reference</summary>
 
-
-
 | **ORG.VARIABLES**             | **Purpose**                                                                |
 | ----------------------------- | -------------------------------------------------------------------------- |
 | `default_rmm`                 | Selects the RMM platform used for automation.                              |
@@ -352,8 +340,6 @@ Expand each of the categories below to see that type of org variable's reference
 <details>
 
 <summary>Ticketing and documentation org variable reference</summary>
-
-
 
 | **ORG.VARIABLES**                 | **Purpose**                                                 |
 | --------------------------------- | ----------------------------------------------------------- |
@@ -371,8 +357,6 @@ Expand each of the categories below to see that type of org variable's reference
 
 <summary>Licensing and purchases org variable reference</summary>
 
-
-
 | **ORG.VARIABLES**                         | **Purpose**                                                                                                                       |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | `ms_licensing_distributor`                | <p>Selects the default Microsoft 365 license distributor (Pax8, Sherweb, etc.).<br>For ArrowSphere, set to <code>Arrow</code></p> |
@@ -385,17 +369,13 @@ Expand each of the categories below to see that type of org variable's reference
 
 <summary>Security and password management org variable reference</summary>
 
-
-
-<table data-header-hidden><thead><tr><th width="379.567626953125">ORG.VARIABLES</th><th>Purpose</th></tr></thead><tbody><tr><td><code>store_password_in_ticket</code></td><td>Saves the password in the PSA ticket internal notes.</td></tr><tr><td><code>onboarding_password_save_location</code></td><td>Defines alternative storage - PSA, ITGlue, Hudu.</td></tr><tr><td><code>new_user_password_save_location_custom_url</code></td><td>The URL for PWPush if used for secure password sharing. Use <a href="https://us.pwpush.com">https://us.pwpush.com</a> or <a href="https://eu.pwpush.com">https://eu.pwpush.com</a> - no authorization is needed. </td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="379.567626953125">ORG.VARIABLES</th><th>Purpose</th></tr></thead><tbody><tr><td><code>store_password_in_ticket</code></td><td>Saves the password in the PSA ticket internal notes.</td></tr><tr><td><code>onboarding_password_save_location</code></td><td>Defines alternative storage - PSA, ITGlue, Hudu.</td></tr><tr><td><code>new_user_password_save_location_custom_url</code></td><td>The URL for PWPush if used for secure password sharing. Use <a href="https://us.pwpush.com">https://us.pwpush.com</a> or <a href="https://eu.pwpush.com">https://eu.pwpush.com</a> - no authorization is needed.</td></tr></tbody></table>
 
 </details>
 
 <details>
 
 <summary>User onboarding and offboarding defaults org variable reference</summary>
-
-
 
 | **ORG.VARIABLES**                     | **Purpose**                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -413,22 +393,22 @@ Expand each of the categories below to see that type of org variable's reference
 
 <summary>Miscellaneous settings org variable reference</summary>
 
-
-
-| **ORG.VARIABLES**               | **Purpose**                                             |
-| ------------------------------- | ------------------------------------------------------- |
-| `preferred_phone_number_format` | Defines the preferred format for phone numbers.         |
-| `m365_usage_location`           | Defines the default Microsoft 365 usage location.       |
-| `new_user_approval_email`       | Specifies the email address for user approval requests. |
+| `preferred_phone_number_format` | Defines the preferred format for phone numbers.                                                                                                                                                                        |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `m365_usage_location`           | Defines the default Microsoft 365 usage location.                                                                                                                                                                      |
+| `new_user_approval_email`       | Specifies the email address for user approval requests.                                                                                                                                                                |
+| `no_azure_ad`                   | Sets workflow variable 'idp\_config' to 'on\_prem\_only' to skip Entra actions in applicable steps if 'on\_prem\_only' is set to a value of 'true' and the 'primary\_identity\_provider' variable is set to 'on\_prem' |
 
 </details>
 
+
+
 #### OpenText SecureCloud organizational variables
 
-If using OpenText SecureCloud with this Crate, you'll also need to set **`primary_identity_provider`&#x20;**&#x20; to one of the two values below:
+If using OpenText SecureCloud with this Crate, you'll also need to set **`primary_identity_provider`** to one of the two values below:
 
 * **`secure_cloud`** if you're creating a SecureCloud user for Microsoft 365 usage
-* **`secure_cloud_and_on_prem`**  if you're using SecureCloud for Microsoft 365 usage and you have Active Directory without ad sync.
+* **`secure_cloud_and_on_prem`** if you're using SecureCloud for Microsoft 365 usage and you have Active Directory without ad sync.
 
 To pre-populate the fields for OpenText SecureCloud in the [**User Onboarding** **form**](onboarding-form-inputs-and-workflow-process.md#form-fields-present-if-using-opentext-securecloud) unpacked with this Crate to a specific location, you can create the org variable **`secure_cloud_usage_location`** and set the location as the value.
 
@@ -446,13 +426,11 @@ If not set, your organization's default settings will be applied.
 1. Navigate to **Marketplace > Crates** in the left side menu of the Rewst platform.
 2.  Search for `Microsoft: User Onboarding`.
 
-
-
     <div align="left"><figure><img src="../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure></div>
 3. Click on the Crate to open the details page.
 4. Click **Unpack Crate**, then **Continue**.
 5. Click **Unpack**. Note that this is a large Crate, and the process may take a few minutes.
-6. The [organization variable](../../../integrations/organization-variables.md#manually-add-a-new-organization-variable) `user_onboard_form_name` must be set  to the name of the form unpacked with the Crate.&#x20;
+6. The [organization variable](../../../integrations/organization-variables.md#manually-add-a-new-organization-variable) `user_onboard_form_name` must be set to the name of the form unpacked with the Crate.
 
 ## Use the Crate
 
@@ -467,7 +445,7 @@ Once the Crate is unpacked, use the onboarding form to create new users.
 5. Fill out the form as desired. For detailed information on all form options, see [onboarding-form-inputs-and-workflow-process.md](onboarding-form-inputs-and-workflow-process.md "mention").
 6. Click **Submit**.
 
-### &#x20;**Validate workflow execution**
+### **Validate workflow execution**
 
 1. Go to **Automations > Results**.
 2. Search for `Microsoft: User Onboarding`.
@@ -507,20 +485,18 @@ Expand each of the issues below to see its full documentation and known solution
 
 <summary>Issue: User not created in Azure AD</summary>
 
-
-
-#### **Symptoms:**
+**Symptoms:**
 
 * No user is found in Microsoft Entra ID (Azure AD).
 * The workflow fails before provisioning the account.
 
-#### Possible causes:
+**Possible causes:**
 
 * The identity provider configuration is incorrect.
 * The workflow execution failed before user creation.
 * The user already exists in Azure AD.
 
-#### Solution:
+**Solution:**
 
 1. Check the workflow execution logs in Automations > Results for errors.
 2. Search manually for the user in Azure AD to confirm if the account exists.
@@ -538,21 +514,19 @@ Expand each of the issues below to see its full documentation and known solution
 
 <summary>Issue: User not created in Active Directory</summary>
 
-
-
-#### **Symptoms:**
+**Symptoms:**
 
 * No user appears in Active Directory Users & Computers (ADUC).
 * The workflow fails before provisioning the account.
 
-#### **Possible causes:**
+**Possible causes:**
 
 * The RMM tool has not been configured.
 * The identity provider configuration is incorrect.
 * The workflow execution failed before user creation.
 * The user already exists in Active Directory.
 
-#### **Solution:**
+**Solution:**
 
 1. Check the [integration guide](https://docs.rewst.help/documentation/integrations/rmm) for the following RMMs and ensure you have completed the process:
    * Datto RMM
@@ -574,18 +548,18 @@ Expand each of the issues below to see its full documentation and known solution
 
 <summary>Issue: Microsoft 365 license not assigned</summary>
 
-#### **Symptoms:**
+**Symptoms:**
 
 * The user is created in Azure AD but has no assigned license.
 * The license purchase request fails in Microsoft 365 Admin Center.
 
-#### Possible causes:
+**Possible causes:**
 
 * No available licenses in the tenant.
 * The user was not added to the correct license group.
 * License auto-purchasing is disabled.
 
-#### **Solution:**
+**Solution:**
 
 1. Check available licenses in the Microsoft 365 Admin Center.
 2. Enable automatic license purchasing in Rewst:
@@ -602,19 +576,17 @@ If using group-based licensing, ensure the user is added to the correct M365 Lic
 
 <summary>Issue: User not added to security groups</summary>
 
-
-
-#### **Symptoms:**
+**Symptoms:**
 
 * The user appears in AD/Azure AD but is not assigned to any security groups.
 * Permissions are missing due to lack of group membership.
 
-#### Possible causes:
+**Possible causes:**
 
 * The group selection was missed during onboarding.
 * The group name is incorrect or does not exist in AD/Azure AD.
 
-#### Solution:
+**Solution:**
 
 1. Check the selected groups in the onboarding form submission.
 2. Manually search for the group in Active Directory Users & Computers or Azure AD.
@@ -626,20 +598,18 @@ If using group-based licensing, ensure the user is added to the correct M365 Lic
 
 <summary>Issue: PSA ticket not created or updated</summary>
 
-
-
-#### **Symptoms:**
+**Symptoms:**
 
 * No onboarding ticket appears in ConnectWise, Autotask, or other PSA.
 * The ticket is created but missing onboarding details.
 
-#### Possible causes:
+**Possible causes:**
 
 * PSA integration is not configured correctly.
 * PSA API credentials are incorrect or expired.
 * The company contact does not exist in PSA.
 
-#### **Solution:**
+**Solution:**
 
 1. Verify PSA integration settings in Rewst.
 2. Check the workflow execution logs for API errors.
@@ -652,21 +622,19 @@ If using group-based licensing, ensure the user is added to the correct M365 Lic
 
 <summary>Issue: Required fields in Halo preventing ticket creation or updates</summary>
 
-
-
-#### Symptoms:
+**Symptoms:**
 
 * Ticket creation or updates in Halo PSA fail unexpectedly.
 * Errors appear related to missing mandatory fields when attempting to create or update a ticket.
 * The default Halo PSA ruleset causes validation failures.
 
-#### Possible causes:
+**Possible causes:**
 
 * Mandatory fields are enabled in Halo PSA, preventing Rewst from creating or updating tickets.
 * The default Halo PSA ruleset requires additional fields not configured in the workflow.
 * The \[REWST - TASK] PSA-Halo PSA: Create Ticket action does not include the required mandatory field values.
 
-#### **S**olution:
+**Solution:**
 
 1. Remove mandatory fields from your PSA to allow for seamless automation.
 2. Unsync your PSA-Halo Create Ticket Crate to manually modify field requirements:
@@ -683,19 +651,17 @@ If using group-based licensing, ensure the user is added to the correct M365 Lic
 
 <summary>Issue: Password not stored in documentation system</summary>
 
-
-
-#### **Symptoms:**
+**Symptoms:**
 
 * The password does not appear in ITGlue, Hudu, or Passportal.
 * The PSA ticket is missing the temporary password.
 
-#### **Possible causes:**
+**Possible causes:**
 
 * Documentation integration is not enabled.
 * API credentials for ITGlue/Hudu/Passportal are incorrect or expired.
 
-#### **Solution:**
+**Solution:**
 
 1. Enable password storage by setting `store_user_credentials_in_external_doc = 1`.
 2. Check the API integration settings in Rewst.
@@ -707,28 +673,24 @@ If using group-based licensing, ensure the user is added to the correct M365 Lic
 
 <summary>Issue: Delayed user creation not working</summary>
 
-
-
-#### Symptoms:
+**Symptoms:**
 
 * The user is created immediately, despite a future start date.
 * The workflow does not pause as expected.
 
-#### Possible causes:
+**Possible causes:**
 
 * The Start Date field was missing or not populated.
 * The `allow_scheduled_user_creation` setting is disabled.
 * The workflow scheduler is not running correctly.
 
-#### Solution:
+**Solution:**
 
 1. Ensure that the **Start Date** field is enabled in the onboarding form.
 2. Set `allow_scheduled_user_creation = 1` in organizational variables.
 3. Check scheduled automations in Rewst to verify execution timing.
 
 </details>
-
-
 
 ## **Onboarding Workflows, triggers, forms, scripts, and templates**
 
