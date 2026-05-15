@@ -6224,7 +6224,8 @@ input CompletionListenerUpdateInput {
 
 ### **Permission denied**
 
-* Verify the feature flag is enabled for your organization
+* Check for query syntax issues
+* &#x20;You may be attempting to run an unsupported GraphQL action
 
 ### **Query syntax errors**
 
