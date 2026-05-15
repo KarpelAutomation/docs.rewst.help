@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome to Rewst documentation](README.md)
-* [Documentation updates](documentation-updates.md)
 
 ## Documentation
 
@@ -297,7 +296,7 @@
     * [Report on Disabled M365 Users with Licenses Crate](documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
     * [Reset Locked Accounts Crate](documentation/crates/existing-crate-documentation/reset-locked-accounts-crate.md)
     * [Reset Microsoft MFA Crate](documentation/crates/existing-crate-documentation/reset-microsoft-mfa-crate.md)
-    * [Rewst's AI PSA Analyzer Crate: Coming soon](documentation/crates/existing-crate-documentation/rewsts-ai-psa-analyzer-crate.md)
+    * [Rewst's AI PSA Analyzer Crate](documentation/crates/existing-crate-documentation/rewsts-ai-psa-analyzer-crate.md)
     * [REWST CA Policy Assistant Crate](documentation/crates/existing-crate-documentation/rewst-ca-policy-assistant-crate.md)
     * [Rewst Examples: Jinja Comprehension Crate](documentation/crates/existing-crate-documentation/rewst-examples-jinja-comprehension-crate.md)
     * [Rewst Microsoft GDAP Assistant Crate](documentation/crates/existing-crate-documentation/rewst-microsoft-gdap-assistant-crate.md)
@@ -678,6 +677,7 @@
       * [April 4, 2025: The Very First ANZ Open Mic!](updates/roc-open-mics/roc-open-mics-oceania/2025-roc-open-mics-oceania/april-4-2025-the-very-first-anz-open-mic.md)
 * [Development updates](updates/development-updates/README.md)
   * [2026 Dev updates](updates/development-updates/2026-dev-updates/README.md)
+    * [May 15, 2026 - Dev update](updates/development-updates/2026-dev-updates/may-15-2026-dev-update.md)
     * [May 8, 2026 - Dev update](updates/development-updates/2026-dev-updates/may-8-2026-dev-update.md)
     * [May 1, 2026 - Dev update](updates/development-updates/2026-dev-updates/may-1-2026-dev-update.md)
     * [April 24, 2026 - Dev update](updates/development-updates/2026-dev-updates/april-24-2026-dev-update-1.md)
@@ -845,8 +845,9 @@
     * [October 28, 2022 - Dev Update](updates/development-updates/2022-dev-updates/october-28th-2022.md)
 * [Training updates](updates/cs-and-training-updates/README.md)
   * [2026 Training updates](updates/cs-and-training-updates/2026-training-updates/README.md)
-    * [May 8, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/may-1-2026-training-update.md)
-    * [May 1, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/may-1-2026-training-update-1.md)
+    * [May 15, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/may-1-2026-training-update.md)
+    * [May 8, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/may-1-2026-training-update-1.md)
+    * [May 1, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/may-1-2026-training-update-2.md)
     * [April 24, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/april-24-2026-training-update.md)
     * [April 17, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/april-17-2026-training-update.md)
     * [April 10, 2026 - Training update](updates/cs-and-training-updates/2026-training-updates/april-10-2026-training-update.md)
@@ -1005,6 +1006,7 @@
     * [October 28, 2022 - Training Update](updates/cs-and-training-updates/2022-training-updates/october-28th-2022-1.md)
 * [Crate Marketplace updates](updates/marketplace-updates/README.md)
   * [2026 Crate Marketplace updates](updates/marketplace-updates/2026-crate-marketplace-updates/README.md)
+    * [May 15, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/may-15-2026-marketplace-update.md)
     * [May 8, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/may-8-2026-marketplace-update.md)
     * [May 1, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/may-1-2026-marketplace-update.md)
     * [April 24, 2026 - Marketplace update](updates/marketplace-updates/2026-crate-marketplace-updates/april-24-2026-marketplace-update.md)
@@ -1114,6 +1116,7 @@
     * [Sept 18, 2024: Our first App Builder AMA](updates/app-builder-amas/2024-app-builder-amas/sept-18-2024-our-first-app-builder-ama.md)
 * [Alerts](updates/issue-alerts/README.md)
   * [2024 Alerts archive](updates/issue-alerts/2024-alerts-archive.md)
+* [Documentation updates](updates/documentation-updates.md)
 
 ## Support and Community
 

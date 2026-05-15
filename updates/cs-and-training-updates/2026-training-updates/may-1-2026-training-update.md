@@ -1,4 +1,4 @@
-# May 8, 2026 - Training update
+# May 15, 2026 - Training update
 
 Explore what new changes the Cluck University team made in the last week.
 
@@ -6,13 +6,11 @@ Explore what new changes the Cluck University team made in the last week.
 
 <summary><strong>Cluck University updates</strong></summary>
 
-* We're updating beginner-level courses to reflect the new Workflow Builder Canvas, RoboRewsty capabilities, and improved clarity/brevity overall (we know you're busy).
-* All courses in [Automation Fundamentals](https://learn.rewst.io/path/automation-fundamentals) have been refreshed!&#x20;
-* [Automation Builder Basics](https://learn.rewst.io/path/automation-builder-basics) courses will get updated soon.
+* We've updated the appropriate [onboarding courses](https://learn.rewst.io/path/onboarding-learning-path) to reflect Rewst's new PSA CSV import ability.&#x20;
+* All courses in [Automation Fundamentals](https://learn.rewst.io/path/automation-fundamentals) have been refreshed - check them out even if you've taken them before!&#x20;
 * Sign up for upcoming live training with the legendary Cluck University instructor, Eddie Chow:
   * [Get personalized help at Office Hours](https://learn.rewst.io/cluck-university-office-hours/266786)
-  * [Rewst Foundations Live - May 12-14](https://learn.rewst.io/live-training-rewst-foundations/258144)
-  * [Clean Automation Live - May 19-21](https://learn.rewst.io/live-training-clean-automation)
+  * [Clean Automation Live - May 19-21](https://learn.rewst.io/live-training-clean-automation) (psst — there's some special content you can only get by attending!)&#x20;
 * Find a course that suits your needs on our revamped [search courses page](https://learn.rewst.io/page/course-catalog) -- either filter by categories and/or enter keywords.
 
 </details>
@@ -21,9 +19,7 @@ Explore what new changes the Cluck University team made in the last week.
 
 <summary><strong>Documentation updates</strong></summary>
 
-* [Updated documentation for BYOD for options generators](https://docs.rewst.help/documentation/integrations/integration-guides/database-integration-setup/byod-for-dattormm)
-* [Documentation on our new action version log feature](https://docs.rewst.help/documentation/automations/actions-in-rewst#action-version-updates)
-* [Documentation on our new CSV and PSA organization import features](https://docs.rewst.help/documentation/settings/organizations)
+* [Updated documentation for our GraphQL Generic Request action: Mutations now list necessary updates in the schema, and Queries now list if where or search is necessary for each query.](https://docs.rewst.help/documentation/automations/actions-in-rewst/generic-graphql-request-action)
 
 </details>
 
