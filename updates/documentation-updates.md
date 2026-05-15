@@ -1,9 +1,14 @@
 ---
 hidden: true
 noIndex: true
+icon: pencil-mechanical
 ---
 
 # Documentation updates
+
+{% hint style="info" %}
+To subscribe to this feed,&#x20;
+{% endhint %}
 
 {% updates format="numeric" %}
 {% update date="2026-05-15" %}

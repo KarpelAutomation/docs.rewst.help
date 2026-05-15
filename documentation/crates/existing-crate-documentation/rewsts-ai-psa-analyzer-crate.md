@@ -1,8 +1,4 @@
-# Rewst's AI PSA Analyzer Crate: Coming soon
-
-{% hint style="info" %}
-This Crate is in its final stages of development and will soon be released into our Crate Marketplace.&#x20;
-{% endhint %}
+# Rewst's AI PSA Analyzer Crate
 
 ## What does Rewst's AI PSA Analyzer Crate do?
 
