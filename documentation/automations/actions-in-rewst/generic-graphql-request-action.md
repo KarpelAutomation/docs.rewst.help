@@ -6222,6 +6222,11 @@ input CompletionListenerUpdateInput {
 
 ## Troubleshoot the Generic GraphQL request action
 
+### **Permission denied**
+
+* Check for query syntax issues
+* &#x20;You may be attempting to run an unsupported GraphQL action
+
 ### **Query syntax errors**
 
 * Validate GraphQL syntax using a GraphQL validator
