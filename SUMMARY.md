@@ -677,6 +677,7 @@
       * [April 4, 2025: The Very First ANZ Open Mic!](updates/roc-open-mics/roc-open-mics-oceania/2025-roc-open-mics-oceania/april-4-2025-the-very-first-anz-open-mic.md)
 * [Development updates](updates/development-updates/README.md)
   * [2026 Dev updates](updates/development-updates/2026-dev-updates/README.md)
+    * [May 15, 2026 - Dev update](updates/development-updates/2026-dev-updates/may-15-2026-dev-update.md)
     * [May 8, 2026 - Dev update](updates/development-updates/2026-dev-updates/may-8-2026-dev-update.md)
     * [May 1, 2026 - Dev update](updates/development-updates/2026-dev-updates/may-1-2026-dev-update.md)
     * [April 24, 2026 - Dev update](updates/development-updates/2026-dev-updates/april-24-2026-dev-update-1.md)
