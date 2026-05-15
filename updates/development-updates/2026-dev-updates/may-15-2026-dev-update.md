@@ -12,7 +12,7 @@ This can be anything from new features, bug fixes, or QoL changes!
   * Added an “Attention Needed” integration state to crate details pages when health checks detect broken configurations.
 * **Onboarding**
   * Sorted onboarding checklist crates by use case complexity to guide MSPs toward easier early wins.
-* RoboRewsty
+* **RoboRewsty**
   * Added context compacting to avoid max context errors.
 * **Workflow Builder**
   * Closed the Action Settings pane automatically when deleting tasks in the new workflow canvas.
