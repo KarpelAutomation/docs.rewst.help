@@ -4,80 +4,68 @@ icon: circle-exclamation
 
 # Alerts
 
-## 2026
+{% updates format="full" %}
+{% update date="2026-04-11" %}
+## ⚠️ Concluded: Rewst database maintenance
 
-<details>
+Rewst will be performing infrastructure maintenance in all regions on Saturday, April 11, from 2:00 PM ET to 2:30 PM ET. Our engineering team will be conducting database maintenance to ensure continued platform stability and performance. During this brief window, workflow executions will be paused. The expected disruption in each region is approximately 5-7 minutes, and the paused workflows will resume immediately after the work is complete.
 
-<summary>⚠️ Planned: Rewst database maintenance, April 11, 2026</summary>
-
-Rewst will be performing infrastructure maintenance in all regions on Saturday, April 11, from 2:00 PM ET to 2:30 PM ET. Our engineering team will be conducting database maintenance to ensure continued platform stability and performance.\
-During this brief window, workflow executions will be paused. The expected disruption in each region is approximately 5-7 minutes, and the paused workflows will resume immediately after the work is complete.
-
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
+{% endupdate %}
 
-</details>
-
-<details>
-
-<summary>⚠️Resolved: SQL Database Integration – Refactor Issues - AU, EU, UK, and US Region January 13, 2026</summary>
+{% update date="2026-01-19" %}
+## ⚠️ Resolved: SQL Database Integration – Refactor Issues - AU, EU, UK, and US Region&#x20;
 
 Release 4.83 SQL Database integration refactor triggered multiple related issues over 4 days,\
-including configuration loss for some organizations, custom SSL certificates breaking, and\
-MSSQL datetime handling failure. Full mitigation was achieved through multiple hotfixes and\
-manual configuration restoration through January 9th.
-
+including configuration loss for some organizations, custom SSL certificates breaking, and MSSQL datetime handling failure. Full mitigation was achieved through multiple hotfixes and manual configuration restoration through January 9th.\
+\
 Customers should review any SQL Database configurations and workflows using the integration to ensure they are set as expected and have run correctly. Workflows that failed during the issues may need to be re-run; for any customers with large numbers of workflows that have not already been re-run, please reach out to your Customer Success representative so we can support you.
 
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
+{% endupdate %}
 
-</details>
+{% update date="2026-01-12" %}
+## ⚠️ Resolved: Microsoft Azure Secret Expiration - AU, EU, UK, and US Region&#x20;
 
-<details>
-
-<summary>⚠️ Resolved: Microsoft Azure Secret Expiration - AU, EU, UK, and US Region January 12, 2026. </summary>
-
-On Sunday, January 11th at 2:17 AM ET, an issue was identified that affected workflows using\
-Microsoft integrations. This was caused by an authentication credential that required renewal, which also impacted Slack and PagerDuty integrations. The Rewst team responded immediately and the production environment was fully restored by 2:44 am ET.
+On Sunday, January 11th at 2:17 AM ET, an issue was identified that affected workflows using Microsoft integrations. This was caused by an authentication credential that required renewal, which also impacted Slack and PagerDuty integrations. The Rewst team responded immediately and the production environment was fully restored by 2:44 am ET.
 
 Any workflows that failed during the outage should be re-run if they have not already. For customers with large numbers of impacted workflows that still need to be re-run, please reach out to your Customer Success representative for support.
 
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
+{% endupdate %}
+{% endupdates %}
 
-</details>
-
-
-
-## 2025
+## 2025 alerts archive
 
 <details>
 
@@ -85,17 +73,17 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 On December 10th, from 6:25 pm ET to 8:27 pm ET, the Rewst platform experienced intermittent delays in workflow processing. We recommend checking any workflows that were expected to run during this time to ensure that they executed as expected.
 
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 
 </details>
 
@@ -112,17 +100,17 @@ On Sunday, November 16th at 9:00 AM EDT, Rewst will be performing brief maintena
 
 Normal operation will resume immediately after the work is complete, at which point we'll also provide a detailed report of all entities created during the affected period. We recommend that you plan to not update any of the affected entities during the window.
 
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 
 </details>
 
@@ -136,19 +124,19 @@ During this platform update, we introduced an enhancement to improve task log st
 \
 Our engineering team identified the issue within approximately 30 minutes of the update’s completion and deployed a fix. Service was fully restored by 12:31 PM EDT. It's recommended that all customers verify that tasks executed in their workflows executed as expected during this degradation window.\
 \
-We apologize for any inconvenience this incident caused. We take platform stability seriously and are committed to learning from this incident to provide you with more reliable service. The swift detection and resolution demonstrates our team's ability to respond quickly to issues, and the improvements we're implementing will help prevent similar issues in the future.&#x20;
+We apologize for any inconvenience this incident caused. We take platform stability seriously and are committed to learning from this incident to provide you with more reliable service. The swift detection and resolution demonstrates our team's ability to respond quickly to issues, and the improvements we're implementing will help prevent similar issues in the future.
 
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 
 </details>
 
@@ -156,19 +144,19 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 <summary>⚠️ Concluded: Planned maintenance window - US region August 9th, 2025</summary>
 
-On Saturday, August 9th, at 11:45 PM EDT, Rewst will be performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be conducting work involving database connection management to ensure continued platform stability and performance. During this brief window, the Rewst platform, including the user interface, API access, and workflow execution, will be temporarily unavailable. The duration of this work outage will be approximately five minutes. Normal operation will resume immediately after the work is complete. We believe that disruption will be minimal, but recommend that you monitor for failed workflows after the maintenance is conducted, and rerun workflows as needed.&#x20;
+On Saturday, August 9th, at 11:45 PM EDT, Rewst will be performing brief maintenance on the US instance [app.rewst.io](http://app.rewst.io/). Our engineering team will be conducting work involving database connection management to ensure continued platform stability and performance. During this brief window, the Rewst platform, including the user interface, API access, and workflow execution, will be temporarily unavailable. The duration of this work outage will be approximately five minutes. Normal operation will resume immediately after the work is complete. We believe that disruption will be minimal, but recommend that you monitor for failed workflows after the maintenance is conducted, and rerun workflows as needed.
 
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 
 </details>
 
@@ -193,17 +181,17 @@ The maintenance is scheduled across multiple regions during off-hours as follows
   * Date: Sunday, July 20, 2025 2:00 AM – 4:00 AM AEST
   * Saturday, July 19, 2025 16:00 – 18:00 UTC
 
-#### Updates
+**Updates**
 
 You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need help?
+**Need help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a ticket
+**Create a ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 
 </details>
 
@@ -211,21 +199,21 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 
 <summary>⚠️ Resolved: Performance degradation due to memory exhaustion - US region June 6th, 2025</summary>
 
-On June 6, 2025, from 8:15 AM to 10:00 AM EDT, we detected that workflow processing in Rewst was experiencing significant delays in the US region. The issue has since been resolved, and workflows are now processing normally.&#x20;
+On June 6, 2025, from 8:15 AM to 10:00 AM EDT, we detected that workflow processing in Rewst was experiencing significant delays in the US region. The issue has since been resolved, and workflows are now processing normally.
 
 We appreciate your patience as we continue to strengthen our systems. Our team has taken steps to improve monitoring and infrastructure responsiveness to help prevent similar incidents across all regions in the future.
 
-#### Updates
+**Updates**
 
 For ongoing status updates, please visit: [https://status.rewst.io/](https://status.rewst.io/)
 
-#### Need Help?
+**Need Help?**
 
 Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 
-#### Create a Ticket
+**Create a Ticket**
 
-[Email the team](mailto:roc@rewst.io)  and someone will be in touch ASAP.
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
 
 </details>
 
@@ -272,7 +260,7 @@ If you have any urgent concerns, please contact your support team.
 
 <summary>⚠️ Resolved: Interrupted workflow execution in US instance - April 4th, 2025</summary>
 
-On April 4, Rewst identified an issue that interrupted workflow execution in the US instance from 2:30 PM EDT to 2:45 PM EDT. Running workflows may have been interrupted and may need to be restarted.&#x20;
+On April 4, Rewst identified an issue that interrupted workflow execution in the US instance from 2:30 PM EDT to 2:45 PM EDT. Running workflows may have been interrupted and may need to be restarted.
 
 If you have any urgent concerns, please contact your support team.
 
@@ -325,7 +313,7 @@ If you have any urgent concerns, please contact your support team.
 
 <summary>⚠️ App Builder incorrectly displays HTML containers - March 14th, 2025</summary>
 
-On Friday, March 14th, some Rewst users experienced disruptions with App Builder where their HTML containers were not displaying correctly. The issue has been identified and a resolution has been implemented.&#x20;
+On Friday, March 14th, some Rewst users experienced disruptions with App Builder where their HTML containers were not displaying correctly. The issue has been identified and a resolution has been implemented.
 
 If you have any urgent concerns, please contact your support team.
 
@@ -356,7 +344,7 @@ If you have any urgent concerns, please contact your support team.
 We will be performing maintenance on:\
 **March 7th, 2025** 2100–2300 EST / March 8th, 2025 0200–0400 UTC
 
-No outages or end user impacts are expected. Thank you for your understanding.&#x20;
+No outages or end user impacts are expected. Thank you for your understanding.
 
 If you have any urgent concerns, please contact your support team.
 
@@ -390,7 +378,7 @@ As of **January 31st, 2025**, Pax8 will retire API Key requests as a method of a
 
 To continue using the Pax8 integration with Rewst, you will need to transition to OAuth 2.0 authentication before January 31st, 2025. For information on how to update the configuration in Rewst, check this page: [Broken link](/broken/pages/JTewUNxCZGcGg3FdP57W "mention")
 
-This transition to OAuth 2.0 provides enhanced security, streamlined user experience, and improved API access management.&#x20;
+This transition to OAuth 2.0 provides enhanced security, streamlined user experience, and improved API access management.
 
 If you have any questions or need assistance with the transition, our team is here to help.
 
