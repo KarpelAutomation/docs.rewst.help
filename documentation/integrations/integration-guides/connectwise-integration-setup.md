@@ -647,12 +647,11 @@ _Pods_ are a way to customize each of your screens in ConnectWise with relevant 
 
 During pod configuration, you'll need to update your Rewst base URL to match your geographic Rewst instance. This will vary depending on which Rewst instance you are on. Identify your instance by the URL you use to access Rewst. Please use the following table as a guide to identify your Rewst base URL
 
-| <p><br>Rewst URL</p> | Base URL           |
-| -------------------- | ------------------ |
-| app.rewst.io         | engine.rewst.io    |
-| app.eu.rewst.io      | engine.eu.rewst.io |
-| app.rewst.eu         | engine.rewst.eu    |
-| app.rewst.asia       | engine.rewst.asia  |
+| app.rewst.io    |
+| --------------- |
+| app.eu.rewst.io |
+| app.rewst.eu    |
+| app.rewst.asia  |
 
 ### Configure ConnectWise pods <a href="#configure-connectwise-pods" id="configure-connectwise-pods"></a>
 
@@ -832,7 +831,7 @@ The ability to filter and query specific data is essential when working with Con
 Query strings are made up of three parts:
 
 1. Attribute - This can be the name of the attribute you’re looking to filter on, such as `name`, or it can be the path to get to the attribute you’re looking to filter on, such as `board/name`.
-2. Symbol - These define how you want to filter your incoming data. This can range from one-character symbols, for example  `=` , to entire words, such as `contains`.
+2. Symbol - These define how you want to filter your incoming data. This can range from one-character symbols, for example `=` , to entire words, such as `contains`.
 3. Value - This is what you’re actually looking for. This can be a wide range of data types including Strings such as `"hello world",` and Booleans, such as `True` .
 
 These three parts can be combine to pull any data you need.
