@@ -43,7 +43,7 @@ Input variables get their values in a Rewst workflow through the workflow's init
 
 ### Workflow action inputs
 
-When variables are created within the workflow, they become [Context Variables](/broken/pages/aMUGuyVYvi7p26HwKud2#context-variables), and can be used directly in action inputs.
+When variables are created within the workflow, they become context variables, and can be used directly in action inputs.
 
 {% hint style="info" %}
 Recall from your Cluck University training that _the context_ is where all data generated, captured, or used in a workflow is stored.
@@ -67,7 +67,7 @@ Click on this action to reveal a number of input fields on the right-hand side.
 
 <figure><img src="../../../.gitbook/assets/m365-create-user-example-inputs.png" alt=""><figcaption></figcaption></figure>
 
-Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the right of the field to open up a Monaco editor, the same type that VSCode uses. Learn more about the [code that Rewst uses, called Jinja, here](/broken/pages/Xie1v7V1Vqm4kxsoGpiM).
+Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the right of the field to open up a Monaco editor, the same type that VSCode uses. Learn more about the code that Rewst uses, called Jinja, [here](../../jinja/).
 
 In the image below, see how to use the variables by using CTX, which stands for context, and then the name of the variable. This will autocomplete to make it easier to reference.
 
@@ -103,7 +103,7 @@ First, take the action of **List Users** from the Microsoft Graph integration in
 
 If you ran this action as-is, you would get the list of users, but wouldn't be able to use that data anywhere.
 
-This is where t[ask transitions](task-transitions.md) come into play.
+This is where [task transitions](task-transitions.md) come into play.
 
 Click the **On Success** transition on the action. This gives you the option to create a [data alias](data-aliases.md).
 

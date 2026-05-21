@@ -1,6 +1,6 @@
 # Support priorities
 
-At Rewst, our approach to support requests is both client-focused and realistic. We classify requests into four priority levels: Critical, High, Medium, and Low. Below are the definitions, examples, and our response objectives for each level.
+At Rewst, our approach to support requests is both client-focused and realistic. We classify requests into three priority levels: High, Medium, and Low. Below are the definitions, examples, and our response objectives for each level.
 
 {% hint style="info" %}
 Please note that these objectives are goals aimed at guiding our response times and should not be interpreted as rigid Service Level Agreements (SLAs).
@@ -8,39 +8,31 @@ Please note that these objectives are goals aimed at guiding our response times 
 
 ## Here's what each level means:
 
-While the below information outlines our response times for our 4 ticket priorities, our initial response target for a message in your private channel in Discord is within 60 minutes. At this stage we may then decide your query needs to be turned into a ticket which will then follow the priorities and response targets outlined below.&#x20;
+While the below information outlines our response times for our 3 ticket priorities, our initial response target for a message in your private channel in Discord is within 60 minutes. At this stage we may then decide your query needs to be turned into a ticket which will then follow the priorities and response targets outlined below.
 
 Queries submitted via Email or the Self-Service Portal will always follow the priorities and response targets outlined below.
 
-### Critical
+### High
 
-**Definition:** Issues that severely impact your operations and require immediate attention. This includes situations where an automation in production is not working as expected and is essential for a system-critical part of the MSP.
+**Definition:** Issues where a production automation is completely down or critically failing, causing severe impact to your operations. This includes any automation that is essential to a system-critical part of your MSP.
 
 **Example:** An in-production workflow crucial for client data backup fails, posing a risk of significant data loss.
 
-**Response Objective:** Our goal is to provide an initial response to Critical issues as swiftly as possible, typically within 30 minutes of notification.
-
-### High
-
-**Definition:** Significant issues that are not immediately threatening to your operations. These might include situations where an automation in production is not functioning as expected, but it affects a non-system critical part of the MSP.
-
-**Example:** A ticket routing automation in production is not categorizing tickets correctly, causing delays but not stopping the workflow.
-
-**Response Objective:** We aim to perform an initial response to High-priority issues within 2 working hours.
+**Response Objective:** We aim to perform an initial response to High-priority issues within 1 working hour
 
 ### Medium
 
-**Definition:** Issues that cause inconvenience but don't significantly impact your operations. These could include non-critical functionality problems or issues that have workarounds.
+**Definition:** Issues where a production automation is not functioning as expected and there is no viable workaround, but it does not pose an immediate threat to your operations.
 
-**Example:** An in-production workflow for generating monthly client reports is producing inconsistent formatting, but the data remains accurate and the reports are still usable.
+**Example:** A ticket routing automation in production has stopped working entirely, meaning tickets must be manually triaged with no automated fallback.
 
-**Response Objective:** We aim to perform an initial response to Medium-priority issues within 6 working hours.
+**Response Objective:** We aim to perform an initial response to Medium-priority issues within 4 working hours.
 
 ### Low
 
-**Definition:** Minor inconveniences that don't impact your operations. These might include cosmetic issues, general inquiries, or feature requests. This would also include all requests that are around building of new workflows / testing etc, rather than something that is actively in production.
+**Definition:** Minor issues, inconveniences, or requests that don't significantly impact your operations. This includes production automations that are misbehaving but can be tolerated or worked around, cosmetic issues, general inquiries, feature requests, and all work related to building or testing workflows not yet in production.
 
-**Example:** Requests for changes or additions to workflows currently in the testing or building phase, or a request for a new feature in a non-critical automation.
+**Example:** A ticket routing automation is miscategorizing some tickets, but staff can manually correct them. Or a request for changes to a workflow currently in testing.
 
 **Response Objective:** We aim to perform an initial response to Low-priority issues within 8 working hours.
 
