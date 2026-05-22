@@ -15,9 +15,9 @@ This Crate allows you to bulk add or update organization variables using a CSV f
    \
    ![](<../../../.gitbook/assets/image (173).png>)
 3. Click on the Crate tile to begin unpacking.
-4. Click **Unpack Crate**.&#x20;
+4. Click **Unpack Crate**.
 5. Click **Continue**.
-6. Add your **Time Saved**.&#x20;
+6. Add your **Time Saved**.
 7. Click **Unpack**.
 
 ### Use the Mass Update Org Variables via CSV Crate
@@ -29,15 +29,13 @@ This Crate allows you to bulk add or update organization variables using a CSV f
     * `org_variable_1`: The name of the variable
     * `org_variable_2`: The data or value for the variable<br>
 
-    #### Example Column Headers
+    **Example Column Headers**
 
     ```
     "name","org_id","org_variable_1","org_variable_2"
     ```
 
-
-
-    #### Example Row Data
+    **Example Row Data**
 
     ```
     "testorg","abcdefg-hijk-aaa12-855d-3d1ddd1917aa","testvar1","true"
@@ -47,7 +45,7 @@ This Crate allows you to bulk add or update organization variables using a CSV f
 3.  Search for the form named CSV Mass Org Variable Upload.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-28 at 1.18.53 PM.png" alt=""><figcaption></figcaption></figure>
-4. Click **⋮**, then **Usages**. &#x20;
+4. Click **⋮**, then **Usages**.
 5. Click **View Direct URLs**.
 6. Click on the URL in the dialog that appears.
 7. Upload your CSV into the form.

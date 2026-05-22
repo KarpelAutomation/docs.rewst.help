@@ -1,4 +1,4 @@
-# May 15, 2026 - Training update
+# May 22, 2026 - Training update
 
 Explore what new changes the Cluck University team made in the last week.
 
@@ -6,11 +6,9 @@ Explore what new changes the Cluck University team made in the last week.
 
 <summary><strong>Cluck University updates</strong></summary>
 
-* We've updated the appropriate [onboarding courses](https://learn.rewst.io/path/onboarding-learning-path) to reflect Rewst's new PSA CSV import ability.&#x20;
-* All courses in [Automation Fundamentals](https://learn.rewst.io/path/automation-fundamentals) have been refreshed - check them out even if you've taken them before!&#x20;
-* Sign up for upcoming live training with the legendary Cluck University instructor, Eddie Chow:
+* [Troubleshooting in Rewst](https://learn.rewst.io/path/automation-builder-basics/troubleshooting-in-rewst) has been updated; check it out to see how troubleshooting has evolved with RoboRewsty and UI updates! &#x20;
+* Sign up for office hours with the legendary Cluck University instructor, Eddie Chow:
   * [Get personalized help at Office Hours](https://learn.rewst.io/cluck-university-office-hours/266786)
-  * [Clean Automation Live - May 19-21](https://learn.rewst.io/live-training-clean-automation) (psst — there's some special content you can only get by attending!)&#x20;
 * Find a course that suits your needs on our revamped [search courses page](https://learn.rewst.io/page/course-catalog) -- either filter by categories and/or enter keywords.
 
 </details>
@@ -19,7 +17,7 @@ Explore what new changes the Cluck University team made in the last week.
 
 <summary><strong>Documentation updates</strong></summary>
 
-* [Updated documentation for our GraphQL Generic Request action: Mutations now list necessary updates in the schema, and Queries now list if where or search is necessary for each query.](https://docs.rewst.help/documentation/automations/actions-in-rewst/generic-graphql-request-action)
+* [Updated setup instructions for our Huntress integration](https://docs.rewst.help/documentation/integrations/integration-guides/huntress-integration-setup)
 
 </details>
 

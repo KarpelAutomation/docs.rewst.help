@@ -1,7 +1,7 @@
 # Configure Organizational Variables Crate
 
 {% hint style="info" %}
-If you're new to organization variables, read through [our documentation on them here](../../integrations/organization-variables.md) before unpacking this Crate.&#x20;
+If you're new to organization variables, read through [our documentation on them here](../../integrations/organization-variables.md) before unpacking this Crate.
 
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find this Crate in our Crate Marketplace.
 {% endhint %}
@@ -47,10 +47,10 @@ Unpacking this Crate adds two forms to your Rewst platform.
 3. Click **Usages > View Direct URLs**.
 4. Choose your MSP URL.
 5. Select **Standard** in the form options.
-6. **Fill out** the form.&#x20;
+6. **Fill out** the form.
 
 {% hint style="info" %}
-&#x20;Use the table at the bottom of this page for a definition of each field
+Use the table at the bottom of this page for a definition of each field
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-02-29 at 2.28.19 PM.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -60,58 +60,56 @@ Unpacking this Crate adds two forms to your Rewst platform.
 To customize variables for client organizations:
 
 1. Navigate to **Automations > Assets> Forms > \[ROC] Rewst: Simple Organizational Variable Form for Child Accounts**.
-2. Click **⋮**.&#x20;
+2. Click **⋮**.
 3. Click **Usages > View Direct URLs**.
 4. Select the URL of the client you would like to configure.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-02-29 at 2.30.14 PM.png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### PSA configuration
 
-| Field label                            | Description                                                                                                                                     |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Default PSA                            | Select your PSA                                                                                                                                 |
-| Default Ticket Location                | The board you want Rewst generated tickets to go onto                                                                                           |
-| Default Ticket Status                  | The status when Rewst is actively working on a ticket                                                                                           |
-| Ticket Status while Waiting for Input  | The status when Rewst is waiting for a techs input on a ticket, such as when waiting on a license to be purchased                               |
-| Ticket Status when Workflow Complete   | The status when Rewst has finished the workflow and is ready for a tech to review                                                               |
-| No Time in Tickets                     | <p>Only Use Notes: Will not add time entries to the ticket<br>Add Time Entries: Will add time entries into the ticket</p>                       |
-| Default Tech ID                        | Define the Tech ID of the member that Rewst will impersonate for Time Entries                                                                   |
-| Default Work Role                      | Define the Work Role for the Tech that Rewst will impersonate for Time Entries                                                                  |
-| Default Work Type                      | Define the Work Type for the Tech that Rewst will impersonate for Time Entries                                                                  |
-| Default Priority                       | Priority for Rewst created tickets                                                                                                              |
-| Send From Address                      | Define the reply to address when sending emails to ensure replies automatically get created in your PSA. This will likely be your support email |
+| Field label                           | Description                                                                                                                                     |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Default PSA                           | Select your PSA                                                                                                                                 |
+| Default Ticket Location               | The board you want Rewst generated tickets to go onto                                                                                           |
+| Default Ticket Status                 | The status when Rewst is actively working on a ticket                                                                                           |
+| Ticket Status while Waiting for Input | The status when Rewst is waiting for a techs input on a ticket, such as when waiting on a license to be purchased                               |
+| Ticket Status when Workflow Complete  | The status when Rewst has finished the workflow and is ready for a tech to review                                                               |
+| No Time in Tickets                    | <p>Only Use Notes: Will not add time entries to the ticket<br>Add Time Entries: Will add time entries into the ticket</p>                       |
+| Default Tech ID                       | Define the Tech ID of the member that Rewst will impersonate for Time Entries                                                                   |
+| Default Work Role                     | Define the Work Role for the Tech that Rewst will impersonate for Time Entries                                                                  |
+| Default Work Type                     | Define the Work Type for the Tech that Rewst will impersonate for Time Entries                                                                  |
+| Default Priority                      | Priority for Rewst created tickets                                                                                                              |
+| Send From Address                     | Define the reply to address when sending emails to ensure replies automatically get created in your PSA. This will likely be your support email |
 
 #### **Identity and access management**
 
-| Field label                  | Description                                                                                                                                                                                                                                                        |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Default RMM                  | Select your RMM                                                                                                                                                                                                                                                    |
-| Primary Identity Provider    | <p>Select what your organization uses for IDP.<br>Note if you use a hybrid setup with or with out ADsync you will want to select On-Prem</p>                                                                                                                       |
-| Preferred Domain Controller  | Enter the domain controller's (DC) host name for Rewst to run PowerShell on — e.g., DC-01; fully qualified name not required. Note: Rewst auto-selects a DC for most RMMs, but you must specify one for N-able N-sight, N-able N-central, and ConnectWise Control. |
-| Preferred ADConnect Server   | The name of the Server running ADConnect                                                                                                                                                                                                                           |
-| On-Prem Exchange Server      | Name of the On-Prem Exchange Server (if you are not running On-Prem Exchange, leave blank)                                                                                                                                                                         |
+| Field label                 | Description                                                                                                                                                                                                                                                        |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Default RMM                 | Select your RMM                                                                                                                                                                                                                                                    |
+| Primary Identity Provider   | <p>Select what your organization uses for IDP.<br>Note if you use a hybrid setup with or with out ADsync you will want to select On-Prem</p>                                                                                                                       |
+| Preferred Domain Controller | Enter the domain controller's (DC) host name for Rewst to run PowerShell on — e.g., DC-01; fully qualified name not required. Note: Rewst auto-selects a DC for most RMMs, but you must specify one for N-able N-sight, N-able N-central, and ConnectWise Control. |
+| Preferred ADConnect Server  | The name of the Server running ADConnect                                                                                                                                                                                                                           |
+| On-Prem Exchange Server     | Name of the On-Prem Exchange Server (if you are not running On-Prem Exchange, leave blank)                                                                                                                                                                         |
 
 #### Licensing and purchases
 
-| Field label                      | Description                  |
-| -------------------------------- | ---------------------------- |
-| Microsoft Licensing Distributor  | Select your license provider |
+| Field label                     | Description                  |
+| ------------------------------- | ---------------------------- |
+| Microsoft Licensing Distributor | Select your license provider |
 
 #### Password management
 
-| Field label                          | Description                                                                                                                               |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Store Password in Ticket             | Define whether to add the onboarding user one time password into the ticket internal notes. This is specific to the User Onboarding Crate |
-| Onboarding - Password Save Location  | Select another location to create the user onboard password. Such as PSA, ItGlue, Hudu                                                    |
-| PWPush URL                           | Add the URL for your PWPush if you have selected that option above                                                                        |
+| Field label                         | Description                                                                                                                               |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Store Password in Ticket            | Define whether to add the onboarding user one time password into the ticket internal notes. This is specific to the User Onboarding Crate |
+| Onboarding - Password Save Location | Select another location to create the user onboard password. Such as PSA, ItGlue, Hudu                                                    |
+| PWPush URL                          | Add the URL for your PWPush if you have selected that option above                                                                        |
 
-#### User onboarding and offboarding defaults&#x20;
+#### User onboarding and offboarding defaults
 
 {% hint style="warning" %}
-#### These settings are specific to the User Onboarding and Offboarding Crates
+**These settings are specific to the User Onboarding and Offboarding Crates**
 {% endhint %}
 
 | Field label                               | Description                                                                                                                                                                                                                                                                                |

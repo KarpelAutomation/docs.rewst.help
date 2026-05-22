@@ -1,4 +1,4 @@
-# January 19th 2024
+# January 19, 2024 - Dev Update
 
 Explore what new changes the Dev team has deployed in the last week!
 
@@ -25,12 +25,12 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>In review, testing and development</strong></summary>
 
-#### On QA
+**On QA**
 
 * Fix a bug with refreshing OAuth2 tokens for custom integration
 * Workflow normalization v1
 
-#### In Review
+**In Review**
 
 * Improved Time Saved functionality with Task level Time Saved and persistence beyond workflow execution retention.
 * Support for new Auvik region: US 5
@@ -42,7 +42,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 * Nerdio integration
 * Support for custom error pages in App Platform, like 404
 
-#### In Development
+**In Development**
 
 * Refactor Microsoft integration configuration setup to improve UX and offer a better permission system
 * Custom integrations overhaul

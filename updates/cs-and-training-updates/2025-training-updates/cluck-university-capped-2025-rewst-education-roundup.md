@@ -1,4 +1,4 @@
-# Cluck University Capped  🎓 — 2025 Rewst Education Roundup
+# Cluck University Capped 🎓 — 2025 Rewst Education Roundup
 
 Buckle up for a **year of learning Rewst** recap, proudly presented by the Rewst Education team (_Clea, Eddie, and Lauren — you can find them in Rewst Discord at #cluck-u)._
 
@@ -8,7 +8,7 @@ We ended the year smarter than ever, with the certificates to prove it — over 
 
 <details>
 
-<summary><strong>Documentation improvements</strong> </summary>
+<summary><strong>Documentation improvements</strong></summary>
 
 This year, we shipped major upgrades to documentation coverage and quality:
 
@@ -42,13 +42,13 @@ At the start of the year, training content lived inside Docs as checklist-style 
 
 <summary><strong>Cluck University LMS opens for business</strong></summary>
 
-#### **Launched March 31, 2025**
+**Launched March 31, 2025**
 
 We migrated from basic Docs pages to a full learning management system (LMS) with 10+ comprehensive Rewst onboarding courses featuring detailed guidance, documentation links, and demo videos on the most popular tools and trickier concepts (like organization structure, variable inheritance, and how it all matters for your automations).
 
 And we enhanced our foundational series — Automation Basics, Rewst Foundations, and Clean Automation — making it easier to pick and choose bite-sized self-paced courses or attend live training with the legendary Eddie Chow.
 
-#### **New courses launched in 2025**
+**New courses launched in 2025**
 
 Based on your feedback, and in collaboration with Rewst teams like Customer Success, Automation Strategy, and ROC/Support, we identified and closed gaps in your Rewst automation knowledge base.
 
@@ -69,11 +69,11 @@ Here’s what we launched and when:
 * [Automation lab: Just-in-time Admin Access](https://learn.rewst.io/just-in-time-admin-access-crate-enablement) — December 9
 * [RoboRewsty prompting](https://learn.rewst.io/roborewsty-prompting) — December 12
 
-#### **Quality over quantity**
+**Quality over quantity**
 
 With so much new content, we carefully reviewed everything to ensure courses remain helpful, up-to-date, and goal-oriented. We deprecated 15 older courses with lower engagement and replaced them with improved content.
 
-#### **Everyone’s first course**
+**Everyone’s first course**
 
 Recognizing that not everyone has time for extensive training, we created a streamlined "first course for everyone" that includes a platform overview, key concepts that power Rewst automations, and guidance on what course(s) to take next, based on your needs and goals.
 
@@ -106,7 +106,7 @@ Special recognition to our most dedicated learners who each completed 50+ course
 
 **Company spotlight**
 
-Congratulations to ITBD for leading the pack with the most course enrollments and completions across their team—167 enrollments and 143 completions.&#x20;
+Congratulations to ITBD for leading the pack with the most course enrollments and completions across their team—167 enrollments and 143 completions.
 
 **Teacher's pets**
 

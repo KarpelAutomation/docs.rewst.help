@@ -1,6 +1,6 @@
 # Core actions
 
-_Core actions_ in Rewst are your gateway to the platform's vast array of intrinsic functionalities. These actions, usable right out of the box, offer features ranging from ad-hoc HTTP requests to document parsing.&#x20;
+_Core actions_ in Rewst are your gateway to the platform's vast array of intrinsic functionalities. These actions, usable right out of the box, offer features ranging from ad-hoc HTTP requests to document parsing.
 
 Core actions are used in the same way as regular actions within workflows. They are selected from the list of available actions, configured based on their parameters, and then added to the workflow at the appropriate place.
 
@@ -40,16 +40,14 @@ This action calculates the ratio of how many words from the smaller string are f
 
 **Output**: Returns an integer representing the ratio of word overlap between the two strings. Higher values indicate greater similarity.
 
-
-
 </details>
 
 <details>
 
 <summary>Confirmation Email action</summary>
 
-Send a confirmation email with reply options to a specified recipient. \
-This action pauses the workflow and places it in an `Awaiting-User-Input` state. The workflow will not proceed until the confirmation email is interacted with via buttons, or the task times out. You can configure task timeout on the **Advanced** tab of the action. Task time out means that the action fails. Note that this setup means that buttons are required for the workflow to proceed. \
+Send a confirmation email with reply options to a specified recipient.\
+This action pauses the workflow and places it in an `Awaiting-User-Input` state. The workflow will not proceed until the confirmation email is interacted with via buttons, or the task times out. You can configure task timeout on the **Advanced** tab of the action. Task time out means that the action fails. Note that this setup means that buttons are required for the workflow to proceed.\
 \
 ![](<../../../.gitbook/assets/image (83).png>)
 
@@ -59,7 +57,7 @@ This action pauses the workflow and places it in an `Awaiting-User-Input` state.
     * Custom Footer - Custom footer to be displayed in the email. If not provided, this will default to the Rewst footer unless the footer is set to be removed.
     * Custom Title CSS - Custom CSS to be applied to the title
     * Logo Link - URL to go to if the logo is clicked. If not provided, this will default to [https://rewst.io](https://rewst.io/)
-    * Logo URI - String value URI of the logo to be displayed in the email. If not provided, this will default to the Rewst logo image. This is essentially providing a value for the src param of a img tag. You could also provide a base64 encoded value. The file format for your hosted file will need to follow the guidance for your particular email client, which is independent of Rewst. For example, Outlook does not accept PNG formatted files. For broader guidance for all email clients, we recommend using this resource called [caniemail](https://www.caniemail.com/features/).&#x20;
+    * Logo URI - String value URI of the logo to be displayed in the email. If not provided, this will default to the Rewst logo image. This is essentially providing a value for the src param of a img tag. You could also provide a base64 encoded value. The file format for your hosted file will need to follow the guidance for your particular email client, which is independent of Rewst. For example, Outlook does not accept PNG formatted files. For broader guidance for all email clients, we recommend using this resource called [caniemail](https://www.caniemail.com/features/).
     * Remove Footer - Removes the Rewst footer from the email
     * Render Markdown - Renders markdown as HTML when set to **True**
 * **Output:** If the action is correctly executed, a confirmation email will be sent. Output variable `inquiry_result` is an output of the task and can be used to route the workflow in a specific path. `Inquiry_result` 's value is that of the button clicked, and is configured as a string value on the action itself in the workflow builder.
@@ -73,7 +71,7 @@ This action pauses the workflow and places it in an `Awaiting-User-Input` state.
     * Danger; danger
   * Title class:
     * Title; title
-* #### Example custom button CSS
+* **Example custom button CSS**
 
 ```css
 a,
@@ -113,11 +111,7 @@ background: #dc2626;
 }
 ```
 
-
-
-*   #### Example custom footer
-
-
+*   **Example custom footer**
 
     ```
     <tr>
@@ -162,7 +156,7 @@ background: #dc2626;
 
     </tr>
     ```
-* #### Example custom title CSS
+* **Example custom title CSS**
 
 ```
 .title {
@@ -186,13 +180,13 @@ padding: 25px 30px 0 30px;
 }
 ```
 
-* #### Example logo link
+* **Example logo link**
 
 ```
 https://google.com
 ```
 
-* #### Example logo URI
+* **Example logo URI**
 
 ```
 https://www.svgrepo.com/download/533811/donuts-cake.svg
@@ -658,10 +652,10 @@ The result includes all `book` tags where the `category` attribute is `children`
 
 Allows for the sending of an email.
 
-* **Parameters:** This action requires a sender prefix (`sender`), with multiple options available, the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also has the option to render markdown as HTML (`render_markdown`). You can also fully control the HTML of the email with `(Custom HTML)`. This can also reference a template using the `{{ template(“guid”) }}` function.&#x20;
-  * Note that if you're using the `Custom HTML` field, the message and title fields will be ignored. \
+* **Parameters:** This action requires a sender prefix (`sender`), with multiple options available, the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also has the option to render markdown as HTML (`render_markdown`). You can also fully control the HTML of the email with `(Custom HTML)`. This can also reference a template using the `{{ template(“guid”) }}` function.
+  * Note that if you're using the `Custom HTML` field, the message and title fields will be ignored.\
     ![](<../../../.gitbook/assets/Screenshot 2026-03-03 at 9.44.26 AM.png>)
-  * You cannot upload images to Rewst, so any image will need to be externally referenced via URL. The file format will need to follow the guidance for your particular email client, which is independent of Rewst. For example, Outlook does not accept PNG formatted files. For broader guidance for all email clients, we recommend using this resource called [caniemail](https://www.caniemail.com/features/).&#x20;
+  * You cannot upload images to Rewst, so any image will need to be externally referenced via URL. The file format will need to follow the guidance for your particular email client, which is independent of Rewst. For example, Outlook does not accept PNG formatted files. For broader guidance for all email clients, we recommend using this resource called [caniemail](https://www.caniemail.com/features/).
   * Emails will still be sent from the rewst.io domain.
 * **Output:** The task doesn't yield an output upon success. It will fail if there are any errors during the process of sending the email.
 
@@ -678,7 +672,7 @@ Allows you to send a text message to a specified phone number.
     Example: `+14155552671`
 * **Output**: The output of this action will depend on the implementation details. Usually, it will return a confirmation message or an error message.
 
-#### Sending number origin
+**Sending number origin**
 
 The `core_send_sms` action sends messages from a US-based phone number owned and managed by Rewst.
 
@@ -690,7 +684,7 @@ Due to this setup:
 
 These limitations are imposed by telecommunications carriers and regional messaging regulations.
 
-#### When to use your own messaging account
+**When to use your own messaging account**
 
 If you need to send SMS messages to a region that is not supported by the shared Rewst sending number, you can set up your own messaging account and use it through Rewst’s [Twilio integration](../../integrations/integration-guides/twilio-integration-setup.md).
 
@@ -701,7 +695,7 @@ Using your own account allows you to:
 * Register country-specific sender IDs
 * Meet regional compliance requirements
 
-#### Delivery behavior
+**Delivery behavior**
 
 When the `core_send_sms` action is executed, it returns the **current delivery status** for the message. This status reflects the system's understanding of the message state after it has been sent to the carrier networks. Even when a message is reported as sent, final delivery still depends on external telecom carrier networks and the recipient device.
 
@@ -713,7 +707,7 @@ Because SMS delivery involves multiple third-party carriers, failures may still 
 * Network congestion
 * Recipient opt-outs
 
-#### Common SMS error responses
+**Common SMS error responses**
 
 * SMS service is temporarily unavailable, please try again later
 * Invalid phone number format
@@ -726,7 +720,7 @@ Because SMS delivery involves multiple third-party carriers, failures may still 
 * This number cannot receive SMS messages (likely a landline or unsupported carrier)
 * Network congestion - please try again in a few minutes
 
-#### Error scenario: Carrier or regional restrictions
+**Error scenario: Carrier or regional restrictions**
 
 This situation occurs when the destination carrier or region doesn't allow messages from the sending number.
 
@@ -739,7 +733,7 @@ Possible causes include:
 * Destinations with no connectivity – Some carriers or regions may not have messaging routes available for your sending number.
   * This error is more common when sending international messages from a US-based number. If you need to reliably reach a destination with restrictions, consider using your own messaging account via the Twilio integration, where you can configure allowed countries, local numbers, and sender IDs.
 
-#### Error scenario: Messaging geo-permissions disabled
+**Error scenario: Messaging geo-permissions disabled**
 
 This situation occurs when an SMS or MMS message is sent to a country or region that the Rewst-managed sending number is not authorized to send messages to.
 
@@ -750,15 +744,15 @@ Possible causes:
 * Messaging to that region is restricted by telecom regulations
   * If you need to send messages to a country that is not supported, consider using your own Twilio account via the Twilio integration, where you can configure allowed countries and sender IDs.
 
-#### Error scenario: Recipient has opted out
+**Error scenario: Recipient has opted out**
 
 The recipient has opted out of receiving messages from the sending number.
 
-#### Error scenario: Landline number
+**Error scenario: Landline number**
 
 The destination phone number is a landline and cannot receive SMS messages.
 
-#### Error scenario: Phone unreachable
+**Error scenario: Phone unreachable**
 
 The destination device cannot currently be reached. Retrying later may resolve the issue.
 
@@ -768,11 +762,11 @@ Possible causes:
 * No cellular signal
 * Temporary carrier network issues
 
-#### Error scenario: Unknown or unreachable numbers
+**Error scenario: Unknown or unreachable numbers**
 
 The destination number may not exist, cannot receive SMS, or is otherwise unreachable due to carrier restrictions.
 
-#### Error scenario: Network congestion
+**Error scenario: Network congestion**
 
 The carrier network is currently congested. Retrying the message later may resolve the issue.
 

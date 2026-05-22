@@ -6,7 +6,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the HaloPSA integration do?
 
-Our HaloPSA integration provides automation and workflow capabilities by connecting HaloPSA’s IT service management functions with Rewst’s automation platform. This integration allows users to manage and interact with various components of their PSA system directly from Rewst. For example:&#x20;
+Our HaloPSA integration provides automation and workflow capabilities by connecting HaloPSA’s IT service management functions with Rewst’s automation platform. This integration allows users to manage and interact with various components of their PSA system directly from Rewst. For example:
 
 * A new support ticket is submitted in HaloPSA. A Rewst workflow can automatically classify the ticket, assign it to the correct team based on predefined criteria, and send an acknowledgment email to the customer.
 * When a new asset is assigned to a client, update inventory records. Rewst can capture the asset details and update HaloPSA records, ensuring real-time inventory tracking.
@@ -31,7 +31,7 @@ Before configuring the Rewst integration you must generate an API user. Here is 
 4. Create an agent for Rewst to use. We suggest naming this user `Rewst API` or similar.
 5. Grant the user permissions according to what you would like Rewst to do for you. However, for optimal functionality and reliability of the Halo integration, assign administrator permissions to the service account. We’ve consistently observed higher success rates and fewer connectivity issues when using admin-level access for this integration. While lower permission levels may work in limited scenarios, they often lead to unexpected failures during automated workflows.
 6. Click **Save**.
-7. Navigate to **Configuration > Advanced > Integrations > HaloPSA API** \
+7. Navigate to **Configuration > Advanced > Integrations > HaloPSA API**\
    See [Halo Authorization Docs](https://halo.haloservicedesk.com/apidoc/authorisation) here.
 8. Select **View Applications**.
 9.  Click **+New**.\
@@ -91,11 +91,11 @@ Note that the links copied from HaloPSA contain https:// at their start. You'll 
 
 Resource Server Hostname: `https://sanboxrewst.halopsa.com/api` should be `sandboxrewst.halopsa.com`
 
-Auth Server Hostname: `https://sanboxrewst.halopsa.com/auth` should be `sanboxrewst.halopsa.com/auth`&#x20;
+Auth Server Hostname: `https://sanboxrewst.halopsa.com/auth` should be `sanboxrewst.halopsa.com/auth`
 {% endhint %}
 
 5. Click **Save Configuration**.
-6. &#x20;Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 ## Test the integration
 
@@ -134,7 +134,7 @@ To see an up-to-date list of Crates that can be unpacked after completing HaloPS
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-11-13 at 12.38.40 PM.png" alt=""><figcaption></figcaption></figure>
 
-Click **Filter** to expand the filter menu. Enter **HaloPSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.&#x20;
+Click **Filter** to expand the filter menu. Enter **HaloPSA** into the **Integrations** field, and watch Rewst filter down to just the Crates that relate to that integration. Any other prerequisites for the Crate will be listed in the right side of that Crate's details page.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-11-13 at 12.39.02 PM.png" alt="" width="131"><figcaption></figcaption></figure>
 
@@ -162,10 +162,8 @@ Customers not showing when refreshing options is due to an issue with permission
 * Create Support Tickets
 
 {% hint style="warning" %}
-You may need to uninstall and reinstall the Halo integration for the new permissions to take place.&#x20;
+You may need to uninstall and reinstall the Halo integration for the new permissions to take place.
 {% endhint %}
-
-
 
 </details>
 
@@ -194,7 +192,7 @@ If you run into an issue where the Email, Name, Department, or other information
 
 Rewst only uses the bare minimum of fields for ticket creation in these Crates.
 
-#### Ticket Creation
+**Ticket Creation**
 
 * team
 * source
@@ -214,7 +212,7 @@ Rewst only uses the bare minimum of fields for ticket creation in these Crates.
   * type
   * cab\_id
 
-#### Ticket Updates
+**Ticket Updates**
 
 * note
 * outcome
@@ -227,10 +225,8 @@ Rewst only uses the bare minimum of fields for ticket creation in these Crates.
 It's possible that Halo is set up to require multiple other fields. If this is the case, there are two paths:
 
 1. You can make sure additional fields are not checked as required.
-2. You can unsync the Crate and modify it to include the required fields in your setup.&#x20;
+2. You can unsync the Crate and modify it to include the required fields in your setup.
 {% endhint %}
-
-
 
 </details>
 
@@ -244,15 +240,13 @@ When creating custom workflows, you may encounter the error **HaloPSA integratio
 To execute workflows at the MSP level across client accounts, you must configure Halo integration overrides to ensure proper functionality in the workflow and form field triggers
 {% endhint %}
 
-
-
 </details>
 
 <details>
 
 <summary>Error code: Client error '403 Forbidden' for url</summary>
 
-* Check what you have given the API user access to within Halo. This is most frequently the result of a permissions issue.&#x20;
+* Check what you have given the API user access to within Halo. This is most frequently the result of a permissions issue.
 * Are you able to make any API calls to Halo in a workflow? Can you list clients? If so, this also suggests a permissions error on Halo's side.
 
 </details>
@@ -263,7 +257,7 @@ To execute workflows at the MSP level across client accounts, you must configure
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Halo's own API documentation can be found [here](/broken/pages/Ih2PHYcnJ3BTz0qR3qwt).&#x20;
+Halo's own API documentation can be found [here](/broken/pages/Ih2PHYcnJ3BTz0qR3qwt).
 
 | Action Name                           | Description                                                                                                                                                  | Endpoint Related to Action     |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
@@ -334,4 +328,3 @@ Halo's own API documentation can be found [here](/broken/pages/Ih2PHYcnJ3BTz0qR3
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
-

@@ -1,7 +1,5 @@
 # Agent Smith: Track Agent Inventory in Azure Tables Crate
 
-
-
 {% hint style="info" %}
 If you’re new to Crates, read through our introductory Crate documentation [here](https://docs.rewst.help/prebuilt-automations/crates). Find the Crate in our Crate Marketplace.
 {% endhint %}
@@ -48,25 +46,23 @@ Install and deploy the following before unpacking the Crate:
 2.  Search for `Agent Smith: Receive Check-In from Endpoint`.<br>
 
     <figure><img src="../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
-3. Click on the workflow to view it in the Workflow Builder.&#x20;
+3. Click on the workflow to view it in the Workflow Builder.
 4. Click **Test** in the top right corner of the Workflow Builder Canvas.
 5.  On the `body_stringified` field, you can enter the following:
 
-
-
-    #### For HTTP/API actions
+    **For HTTP/API actions**
 
     * JSON data - If the workflow expects a JSON input, enter a valid JSON format.
 
     `json { "test": "Hello, World!", "user_id": "12345", "action": "create_user" }`
 
-    #### For webhook testing
+    **For webhook testing**
 
     * Request body data - This is the actual payload that would be sent to the webhook.
 
     `json { "event_type": "user_created", "data": { "name": "John Doe", "email": "{EMAIL}" } }`
 
-    #### For general workflow input variables
+    **For general workflow input variables**
 
     * Static test data - These should be values that match the expected input variable types defined in your workflow.
     * String values - Enter plain text if the field requires a string.
