@@ -13,7 +13,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 
 {% updates format="numeric" %}
 {% update date="2026-05-22" %}
-## May 22, 2026 - Dev update
+## 💻 May 22, 2026 - Dev update
 
 <details>
 
@@ -83,7 +83,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-05-15" %}
-## May 15, 2026 - Dev update
+## 💻 May 15, 2026 - Dev update
 
 <details>
 
@@ -153,7 +153,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-05-08" %}
-## May 8, 2026 - Dev update
+## 💻 May 8, 2026 - Dev update
 
 <details>
 
@@ -221,7 +221,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-05-01" %}
-## May 1, 2026 - Dev update
+## 💻 May 1, 2026 - Dev update
 
 <details>
 
@@ -298,7 +298,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-04-24" %}
-## April 24, 2026 - Dev update
+## 💻 April 24, 2026 - Dev update
 
 <details>
 
@@ -365,7 +365,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-04-17" %}
-## April 17, 2026 - Dev update
+## 💻 April 17, 2026 - Dev update
 
 <details>
 
@@ -437,7 +437,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-04-10" %}
-## April 10, 2026 - Dev update
+## 💻 April 10, 2026 - Dev update
 
 <details>
 
@@ -517,7 +517,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-04-03" %}
-## April 3, 2026 - Dev update
+## 💻 April 3, 2026 - Dev update
 
 <details>
 
@@ -590,7 +590,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-03-27" %}
-## March 27, 2026 - Dev update
+## 💻 March 27, 2026 - Dev update
 
 <details>
 
@@ -660,7 +660,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-03-20" %}
-## March 20, 2026 - Dev update
+## 💻 March 20, 2026 - Dev update
 
 <details>
 
@@ -726,7 +726,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-03-13" %}
-## March 13, 2026 - Dev update
+## 💻 March 13, 2026 - Dev update
 
 <details>
 
@@ -796,7 +796,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-03-06" %}
-## March 6, 2026 - Dev update
+## 💻 March 6, 2026 - Dev update
 
 <details>
 
@@ -866,7 +866,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-02-20" %}
-## February 20, 2026 - Dev update
+## 💻 February 20, 2026 - Dev update
 
 <details>
 
@@ -953,7 +953,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-02-13" %}
-## February 13, 2026 - Dev update
+## 💻 February 13, 2026 - Dev update
 
 <details>
 
@@ -1043,7 +1043,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-02-06" %}
-## February 6, 2026 - Dev update
+## 💻 February 6, 2026 - Dev update
 
 <details>
 
@@ -1128,7 +1128,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-01-30" %}
-## January 30, 2026 - Dev update
+## 💻 January 30, 2026 - Dev update
 
 <details>
 
@@ -1194,7 +1194,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-01-23" %}
-## January 23, 2026 - Dev update
+## 💻 January 23, 2026 - Dev update
 
 <details>
 
@@ -1269,7 +1269,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-01-16" %}
-## January 16, 2026 - Dev update
+## 💻 January 16, 2026 - Dev update
 
 <details>
 
@@ -1361,7 +1361,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endupdate %}
 
 {% update date="2026-01-09" %}
-## January 9, 2026 - Dev update
+## 💻 January 9, 2026 - Dev update
 
 <details>
 

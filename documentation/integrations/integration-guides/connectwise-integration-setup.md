@@ -777,6 +777,10 @@ In addition to the above that’s required for authentication, there are several
 * **Project Ticket - Dependancies**: Set **Add**, **Edit**, **Inquire** to **All**
 * **Close Project Tickets**: Set **Edit**, **Inquire** to **All**
 
+**Project Headers**
+
+* Set **Add, Edit, Delete**, and **Inquire** to **All**
+
 **Service Desk**
 
 * **Service Tickets**: Set **Add**, **Edit**, **Inquire** to **All**
