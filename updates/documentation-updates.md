@@ -1,16 +1,23 @@
 ---
-hidden: true
-noIndex: true
+description: >-
+  Any Rewst documentation that receives important or significant updates in the
+  prior week will be added to this update feed.
 icon: pencil-mechanical
 ---
 
 # Documentation updates
 
 {% hint style="info" %}
-To subscribe to this feed,&#x20;
+To subscribe to this feed, click **RSS feed** in the top right corner of the page.&#x20;
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-05-26" %}
+## Recently updated documentation
+
+[Updated setup instructions for our Huntress integration](https://docs.rewst.help/documentation/integrations/integration-guides/huntress-integration-setup)
+{% endupdate %}
+
 {% update date="2026-05-15" %}
 ## Recently updated documentation
 
