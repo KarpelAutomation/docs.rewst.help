@@ -58,3 +58,16 @@ For quick visual reference of categories, tags can be color coded.
 * Give better visual indicators for your long list of automations, not just text. For example, you could choose to make all Powershell workflows red.
 * Tags can also be used to mark associations between pieces of a larger workflow. Consider a parent workflow which contains several child workflows and a form. Each piece of that parent workflow could be tagged with one tag. Then, you’d select that tag to isolate everything for just that one workflow, regardless of the pieces you used to create it.
 * Try creating tags for the development status of a workflow: In Development, In Testing, In Production, etc. If your MSP has multiple builders on staff, different individuals will know not to edit or experiment on an In Production workflow, which could cause problems for their team.
+* Try making all internal MSP operations a different color than the client facing/ service desk automations.
+
+## Workflow design to optimize tags
+
+Designing your workflow to intentionally optimize the use of tags sets you up for better organization as you grow your number of automations and assets in Rewst. Names of workflows, actions, and variables should tell a story of what's happening and reduce the need for comments to explain what your reasoning. Learn more about our best practices for naming conventions when designing workflows [here](../automations/workflows/best-practices-for-designing-workflows.md).&#x20;
+
+Tags alongside a naming convention provide a good way of organizing workflows, especially when Crates have been unpacked and there are several pages of workflows in your total list.&#x20;
+
+* Create three standard tags — Development, Testing, and Production — and apply one to every workflow. Builders can see at a glance what's safe to edit and what's live. This is especially important when multiple people are building in the same organization: a workflow tagged Production signals that changes could break something for a real customer.
+* Tag all the pieces of a complex build with a shared tag so you can isolate them from the rest of your workflow list. For example, an automated ticket dispatching workflow might include subworkflows for checking tech availability, matching skillsets, and updating the ticket. Tagging all of them Ticket Dispatching lets you pull the full set with one filter. This is useful when you're debugging, updating, or handing off to someone else.
+* Add tags for the integrations a workflow relies on — for example, O365, Huntress, or Autotask. When an integration changes or has an outage, you can quickly find every workflow that touches it.
+* If you're building out a larger initiative like a client portal, QBR automation, or billing reconciliation, tag every workflow involved. This keeps project-related builds grouped even as your overall list grows.
+* Use color to add a visual layer on top of your tags. A useful approach: give internal MSP operations workflows one color and client-facing or service desk automations another, so you can orient yourself faster when scrolling a long list.
