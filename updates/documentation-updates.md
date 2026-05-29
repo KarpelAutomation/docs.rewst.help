@@ -12,6 +12,14 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-05-29" %}
+## ✍️ May 29, 2026 - Recently updated documentation
+
+* [Updated documentation with more examples of how to use tags to categorize workflows](https://docs.rewst.help/documentation/settings/tags-in-rewst)
+* [Updates to our list of org variables for our ConnectWise PSA integration](https://docs.rewst.help/documentation/integrations/integration-guides/connectwise-integration-setup)
+* A big change to how we store and share weekly notes/updates for Open Mic: Crate Marketplace notes are now a part of Dev Update notes, and each type of update or alert has its own RSS feed
+{% endupdate %}
+
 {% update date="2026-05-26" %}
 ## &#x20;✍️ May 26, 2026 - Recently updated documentation
 
