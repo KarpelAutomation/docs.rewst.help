@@ -12,6 +12,63 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-05-29" %}
+## 💻 May 29, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **RoboRewsty**
+  * Added support for RoboRewsty to build scripts, expanding AI-assisted workflow creation beyond templates.
+* **Workflow Builder**
+  * Improved the new Workflow Builder canvas zoom-out range so users can view and navigate larger workflows more easily.
+  * Renamed the "New Actions" section to "Next Actions" in the workflow execution viewer to provide clearer action flow terminology.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **General**
+  * Strengthened Graph API security controls to address findings from a vulnerability assessment and improve platform resilience.
+* **Workflow Builder**
+  * Fixed an issue where the workflow header disappeared when clicking tasks in execution history for large workflows, keeping navigation and controls consistently visible.
+  * Fixed an issue that prevented workflows with invalid or deleted form trigger references from being saved, synced, or published successfully.
+  * Fixed Library search in the new Workflow Builder to return only actions matching the user’s search term.
+  * Fixed an issue where saving Advanced settings on SQL Custom Query actions caused the new workflow canvas to render blank.
+* **Crates**
+  * [Bulk Create Client from PSA](../../documentation/crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md)
+    * Made `account_types` and a`ccount_statuses` optional for Datto PSA; when empty, return all customers
+      * Made `account_types` and `account_statuses` optional for Halo PSA; updated `halo_list_psa_clients` to return all when types empty, else filter&#x20;
+  * [Alert on Unused M365 Licenses](../../documentation/crates/existing-crate-documentation/alert-on-unused-m365-licenses-crate.md)
+    * Prevented duplicate removals when Remediate is clicked multiple times during commitment; daily scan no longer creates repeat tickets for queued removals
+  * [Organizational Setup Report](../../documentation/crates/existing-crate-documentation/organizational-setup-report-crate.md)
+    * Added on-demand email form trigger; default email pulled from org variable and updated on submit; submitting generates and emails the report&#x20;
+  * [Report on Disabled M365 Users with Licenses](../../documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
+    * `get_webhook_trigger` now matches trigger type names containing `webhook` instead of filtering by a specific ID
+  * [Add Client to Rewst](../../documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
+    * Renamed Azure Active Directory to Microsoft Entra (AAD); added field for ConnectWise ASIO integration mapping&#x20;
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Fixed device matching across multiple sites by flattening endpoints before filtering in `list_computers` On Success&#x20;
+      * Added sanitized\_zip to zero‑pad 4‑digit ZIPs; `cw_update_contact` and `cw_create_contact` now use it&#x20;
+* **Kits**
+  * There were no updates to kits this week.
+* **Subworkflows**
+  * There were no updates to subworkflows this week.&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* Check back soon
+
+</details>
+{% endupdate %}
+
 {% update date="2026-05-22" %}
 ## 💻 May 22, 2026 - Dev update
 

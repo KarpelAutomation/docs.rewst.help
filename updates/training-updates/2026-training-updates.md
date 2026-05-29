@@ -11,6 +11,13 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-05-29" %}
+## 🎓 May 29, 2026 - Training update
+
+* New course: [Build an automation with RoboRewsty](../../documentation/roborewsty/document-with-roborewsty.md)
+* New course: [Dev environments in Rewst](https://learn.rewst.io/dev-environments-in-rewst)
+{% endupdate %}
+
 {% update date="2026-05-22" %}
 ## 🎓 May 22, 2026 - Training update
 
