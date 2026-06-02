@@ -10,28 +10,27 @@ Our ServiceNow integration enables the automation of IT service management and b
 
 ## Set up the ServiceNow integration
 
-Before you complete integration setup, you'll need to obtain a developer instance from ServiceNow. This is a request process documented on their own website [here](https://developer.servicenow.com/dev.do#!/guides/yokohama/now-platform/devsite_account_guide_yokohama_developer-site-account-guide/DAG_DevSiteAcctGuide). The steps listed below won't work until you have this completed. If you already had a [developer or partner instance granted at the time of your ServiceNow onboarding](https://developer.servicenow.com/dev.do#!/guides/yokohama/developer-program/dev-program/dev-program-guide), this should be sufficient. Actions taken within the developer instance won't affect what's in your customer or partner instances
+{% hint style="info" %}
+A developer instance of ServiceNow is not required to set up the Rewst integration, but is available from ServiceNow for safe testing of Rewst workflows against their application before connecting a regular production environment to Rewst. If you wish to safely test before fully deploying the integration, use the developer instance first, then reinstall the integration on your production instance.
+{% endhint %}
 
 ### Set up steps in ServiceNow
 
-1. Log in to your ServiceNow account.
-2.  Click on the **Developer Program** tile under the **My Apps** menu.<br>
+{% hint style="info" %}
+If your account has MFA enabled, the ServiceNow API will ignore this requirement. It will not interfere with the integration.
+{% endhint %}
 
-    <figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
-3. Click **Start Building** if prompted. This will appear if this is your first time logging in to the Developer Portal.
-4. Find the hostname for your ServiceNow instance. This would be the part of the URL that appears before the first / . For example, in a URL that reads as `dev12345.service-now.com/abc123/4567` , the host name would be `dev12345.service-now.com` .
-5. Copy the hostname someplace secure. You'll need this for further steps in Rewst.
-6. Navigate to **All > User Administration > Users**.
-7.  Click **New** to add a new user.<br>
+1. Navigate to **All > User Administration > Users**.
+2.  Click **New** to add a new user.<br>
 
     <figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption><p>The new user set up page</p></figcaption></figure>
-8. Enter `RewstAPI` into the **User ID** field. Save this information with your hostname. You'll need it for further steps in Rewst.&#x20;
-9. Check the **Active** box.&#x20;
-10. Click **Submit**.
-11. Click on the new user that appears in the total user table to re-open its record.&#x20;
-12. Click **Set Password**.
-13. Click **Generate** to create a new secure password. Copy this password and save the information with your hostname and username.&#x20;
-14. Click **Save Password**.
+3. Enter `RewstAPI` into the **User ID** field. Save this information with your hostname. You'll need it for further steps in Rewst.
+4. Check the **Active** box.
+5. Click **Submit**.
+6. Click on the new user that appears in the total user table to re-open its record.
+7. Click **Set Password**.
+8. Click **Generate** to create a new secure password. Copy this password and save the information with your hostname and username. The hostname of your ServiceNow instance should exclude the protocol — e.g. `example.service-now.com`.
+9. Click **Save Password**.
 
 ### Set up steps in Rewst
 
@@ -45,23 +44,34 @@ Before you complete integration setup, you'll need to obtain a developer instanc
    2. **Password**
    3. **User Name**
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
+
+### Additional ServiceNow steps
+
+Several of the ServiceNow endpoints require you to set up plugins for them to work for the Rewst integration.&#x20;
+
+1. Navigate to **All > System Definition > Plugins** in your ServiceNow instance.
+2. Search for the below listed plugins and install them.&#x20;
+   1. Customer Service plugin (com.sn\_customerservice) and csm\_ws\_integration role and is provided within the now namespace.
+   2. Order Management for Customer Service Management (app-csm-order-mgmt) and sn\_csm\_order\_mgmt role.
+   3. Order Management for Telecommunications (sn\_ind\_tmt\_orm) - Optional
+   4. Telecommunications Assurance Workflows
+   5. Customer Service (com.sn\_customerservice)
+   6. Customer Service Install Base Management (com.snc.install\_base)
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
 
-## ServiceNow Domain Separation in Rewst&#x20;
+## ServiceNow Domain Separation in Rewst
 
 {% hint style="info" %}
 See ServiceNow's own documentation on Domain Separation [here](https://support.servicenow.com/kb?id=kb_article_view\&sysparm_article=KB0715934).
 {% endhint %}
 
-_Domain Separation_ in ServiceNow is a way to separate data, processes, and administrative tasks into logical groupings called domains, so that users in one domain cannot see or interact with data in another domain unless explicitly permitted. This shouldn't be confused with [multi-instance integration](../multi-instance-integration/), which is a way of setting up integrations that is specific to Rewst. While the Rewst integration was not explicitly designed for MSPs who use Domain Separation, they can still use Rewst with the ServiceNow integration. Any call or action that can be initiated from ServiceNow can be received by Rewst.&#x20;
+_Domain Separation_ in ServiceNow is a way to separate data, processes, and administrative tasks into logical groupings called domains, so that users in one domain cannot see or interact with data in another domain unless explicitly permitted. This shouldn't be confused with [multi-instance integration](../multi-instance-integration/), which is a way of setting up integrations that is specific to Rewst. While the Rewst integration was not explicitly designed for MSPs who use Domain Separation, they can still use Rewst with the ServiceNow integration. Any call or action that can be initiated from ServiceNow can be received by Rewst.
 
 Note that Domain Separated ServiceNow users will need to [clone and customize](../../../prebuilt-automations/crates/#synced-versus-unsynced-crates) any related Rewst Crates to successfully use them. When using Rewst tasks for ServiceNow, they can be scoped at either the global - parent - level or the domain - child - level. In some tasks, you can use the **No Domain** field to add a flag that indicates whether the record search should be restricted to only domains for which the logged-in user is configured.
-
-
 
 <figure><img src="../../../.gitbook/assets/image (335).png" alt=""><figcaption><p>An example of a task with the <strong>No Domain</strong> field</p></figcaption></figure>
 
@@ -74,7 +84,7 @@ Note that Domain Separated ServiceNow users will need to [clone and customize](.
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 These endpoints requires the following plugins:
@@ -85,8 +95,6 @@ These endpoints requires the following plugins:
 * Telecommunications Assurance Workflows
 * Customer Service (`com.sn_customerservice`)
 * Customer Service Install Base Management (`com.snc.install_base`)
-
-
 
 | category            | action                                         | description                                                                                                                                                                            |
 | ------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

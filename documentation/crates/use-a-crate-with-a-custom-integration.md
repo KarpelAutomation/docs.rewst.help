@@ -82,7 +82,7 @@ This is the primary RMM abstraction workflow that routes PowerShell execution to
 | `nable_run_ps`        | **N-able**               | Runs PowerShell scripts via N-able               |
 | `superops_run_ps`     | **SuperOps**             | Runs PowerShell scripts via SuperOps             |
 | `agent_smith_run_ps`  | **Agent Smith**          | Runs PowerShell scripts via Agent Smith          |
-| `cw_asio_run_ps`      | **ConnectWise ASIO**     | Runs PowerShell scripts via ConnectWise ASIO     |
+| `cw_platform_run_ps`  | **ConnectWise Platform** | Runs PowerShell scripts via ConnectWise Platform |
 
 #### **Subworkflow: \[REWST - PROCESS] PSA: Update Ticket** (ID: `01932b4f-ac6f-7663-abe3-3244579c1bcd`)
 

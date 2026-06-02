@@ -341,7 +341,7 @@
     * [Cisco Meraki integration](documentation/integrations/integration-guides/cisco-meraki-integration.md)
     * [Cloudmore integration](documentation/integrations/integration-guides/cloudmore-integration.md)
     * [ConnectSecure integration](documentation/integrations/integration-guides/connectsecure-integration.md)
-    * [ConnectWise ASIO integration](documentation/integrations/integration-guides/connectwise-asio-integration.md)
+    * [ConnectWise Platform integration](documentation/integrations/integration-guides/connectwise-asio-integration.md)
     * [ConnectWise Automate integration](documentation/integrations/integration-guides/connectwise-automate-integration-setup.md)
     * [ConnectWise PSA integration](documentation/integrations/integration-guides/connectwise-integration-setup.md)
     * [ConnectWise ScreenConnect integration](documentation/integrations/integration-guides/connectwise-control-screenconnect.md)
