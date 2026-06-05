@@ -12,6 +12,86 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-06-05" %}
+## 💻 June 5, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Crate Marketplace**
+  * Improved Crate Unpack by making Direct Form URLs easier to find.
+* **General**
+  * Enhanced the Rewst Status Page with regional status views, region-specific alerts, and improved workflow performance monitoring.
+* **Organizations**
+  * Improved PSA customer imports by loading customers only after users configure filters and start a search.
+* **RoboRewsty**
+  * Added RoboRewsty support for configuring task transition criteria sensitivity when creating or updating workflow tasks.
+* **Workflow builder**
+  * Restored trigger health visibility in the new Workflow Builder by adding External Status monitoring and error reporting to supported triggers.
+  * Restored support for selecting any pack configuration in trigger integration overrides on the new Workflow Builder.
+  * Added one-click access to workflow execution history from the new Workflow Builder while preserving the in-canvas execution viewer.
+  * Added click-to-create trigger filters from incoming event data in the new Workflow Builder, making trigger configuration faster and easier.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* App Builder
+  * Improved App Builder live page reliability by preventing transient authorization service errors from appearing as false “Not Authorized” failures.
+* **General**
+  * Strengthened cross-org security controls for user metadata lookups and rate limit subscriptions.
+* **Integrations**
+  * Improved NinjaRMM authentication handling to prevent intermittent workflow failures during token refresh.
+* **RoboRewsty**
+  * Fixed RoboRewsty-created workflow input variables so they now appear immediately and persist on the new Workflow Builder canvas.
+  * Aligned RoboRewsty with the active draft workflow state so follow-up edits and workflow reads reflect the latest canvas changes.
+  * Improved RoboRewsty conversation compaction to prevent token-limit errors in long-running chats.
+  * Improved RoboRewsty’s Jinja rendering guidance to reduce template failures and help users recover faster while building.
+* **Triggers**
+  * Fixed trigger and CRON Critical Timing toggles so they immediately reflect their saved state without reverting in the UI.
+* **Workflow Builder**
+  * Fixed trigger criteria deletion in the new Workflow Builder canvas so removed criteria stay deleted after refresh.
+  * Improved auto-arrange in the Workflow Builder so starting tasks stay positioned correctly even in workflows with loops.
+* **Workflows**
+  * Fixed completion handler timestamps so started and completed times now accurately reflect workflow duration.
+* **Crates**
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Added missing M365 Business Premium and Copilot Business license mappings to the M365 License Lookup template
+    * Ensured Office field is applied for new Azure AD users during onboarding
+    * Fixed Pax8 nonprofit donation licensing lookup to correctly identify Donation SKU
+    * Prevented false "User Exists - Amend Username" on Secure Cloud IDP path by improving subworkflow error detection and defaults
+    * Prevented false "User Exists - Amend Username" on on-prem path by detecting subworkflow failures earlier&#x20;
+  * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
+    * Replaced hardcoded BMS priority ID with runtime lookup; preserved existing fallbacks
+  * [Sync AzureAD Account Information with ConnectWise PSA Contacts (v3)](../../documentation/crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md)
+    * Fixed phone number sync when M365 and ConnectWise email casing differs&#x20;
+  * [Billing Count Report](../../documentation/crates/existing-crate-documentation/billing-count-report-crate.md)
+    * Corrected logic to list Dropsuite counts accurately
+  * [Rotate Account Passwords](../../documentation/crates/existing-crate-documentation/rotate-account-passwords-crate.md)
+    * Added org-level PWPush link expiration settings (days/views) and updated delivery messages
+  * [Configure Organizational Variables](../../documentation/crates/existing-crate-documentation/configure-organization-variables.md)
+    * Added cloudmore and secure\_cloud options for ms\_licensing\_distributor org variable
+  * [Add Client to Rewst](../../documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
+    * Added "no AD sync" form option; included `onprem_no_adsync` in organization variable sets
+* **Kits**
+  * There were no updates to kits this week.
+* **Subworkflows**
+  * There were no updates to subworkflows this week.&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* New workflow canvas as default view
+
+</details>
+{% endupdate %}
+
 {% update date="2026-05-29" %}
 ## 💻 May 29, 2026 - Dev update
 

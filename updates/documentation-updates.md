@@ -12,6 +12,13 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-06-05" %}
+## ✍️ June 5, 2026 - Recently updated documentation
+
+* [Updated documentation for setting up our ServiceNow integration](https://docs.rewst.help/documentation/integrations/integration-guides/servicenow-integration-setup)
+* Updated branding references across various pages to reflect ConnectWise's change from the brand name of ASIO to Platform
+{% endupdate %}
+
 {% update date="2026-05-29" %}
 ## ✍️ May 29, 2026 - Recently updated documentation
 
