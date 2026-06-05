@@ -11,6 +11,12 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-06-05" %}
+## 🎓 June 5, 2026 - Training update
+
+* New course: [Get started with RoboRewsty](https://learn.rewst.io/get-started-with-roborewsty) is now live. Alongside [Build an automation with RoboRewsty](https://learn.rewst.io/build-an-automation-with-roborewsty), these are the go-to RoboRewsty resources going forward. RoboRewsty prompting, 3 ways to start using RoboRewsty, and RoboRewsty workflow builder tips & tricks are now deprecated.
+{% endupdate %}
+
 {% update date="2026-05-29" %}
 ## 🎓 May 29, 2026 - Training update
 
