@@ -5,7 +5,7 @@
 * Access the Jinja Editor on any fields where you see the code editor icon <img src="../../.gitbook/assets/jinja-burger.png" alt="" data-size="line">, fondly called the Jinja Burger amongst other Rewst users.
 * Press `F1` within the editor to see menu and shortcut options.
 * Press `Ctrl + Space` to get the initial root options.
-* Add `|` to the end of your variables to access [Jinja filters](list-of-jinja-filters.md). e.g.: `{{ ORG.ATTRIBUTES.id|default('test default string') }}`&#x20;
+* Add `|` to the end of your variables to access [Jinja filters](list-of-jinja-filters.md). e.g.: `{{ ORG.ATTRIBUTES.id|default('test default string') }}`
 
 ## Variable roots
 
@@ -60,8 +60,6 @@ Variables prefixed with `ORG` are related to data and functions specific to the 
 {% endtab %}
 
 {% tab title="WORKFLOW" %}
-
-
 Used to reference attributes and properties of the "current workflow", the workflow that these commands are used in
 
 * WORKFLOW.human\_seconds\_saved
@@ -145,7 +143,7 @@ Rewst uses a set of Jinja variables that are available at the "Rewst" level. The
 Note that these are different from [organization variables](../integrations/organization-variables.md#what-is-an-organization-variable), which are created in the **Configuration > Organization Variables** menu of Rewst, and set by you.
 {% endhint %}
 
-System ORG variables are attributes associated with the Rewst organization you are currently using in your organization drop-down selector. These are variables with that Rewst organization that can be referenced in The Context— think things like the name of the organization, the ID, the parent organization, etc.&#x20;
+System ORG variables are attributes associated with the Rewst organization you are currently using in your organization drop-down selector. These are variables with that Rewst organization that can be referenced in The Context— think things like the name of the organization, the ID, the parent organization, etc.
 
 To view a list of all available attributes in your editor, enter `ORG.` between a set of braces. This will reveal the clickable list below your current line:
 
@@ -308,20 +306,20 @@ In your Rewst environment, you have access to several custom Jinja2 extensions t
     Timestamp: {{ now("UTC") }}
     ```
 
-### &#x20;Try and catch blocks
+### Try and catch blocks
 
 * **Purpose:** The Try Catch extension introduces try and catch blocks in your Jinja2 templates, allowing you to handle exceptions gracefully.
 * **Usage:**
-  * `{{ try }}`: Defines a try block where you can place code that may raise exceptions.
-  * `{{ catch }}`: Optionally defines a catch block to handle exceptions. If no catch block is specified, an empty string is returned in case of an exception.
+  * `{% try %}`: Defines a try block where you can place code that may raise exceptions.
+  * `{% catch %}`: Optionally defines a catch block to handle exceptions. If no catch block is specified, an empty string is returned in case of an exception.
 *   **Example:**
 
     ```jinja2
-    {{ try }}
+    {% try %}
         The thing: {{ i_do_not_exist_and_throw_an_error }}
-    {{ catch }}
+    {% catch %}
         Error: {{ exception }}
-    {{ endtry }}
+    {% endtry %}
     ```
 
 ### UUID generation
@@ -346,7 +344,7 @@ _List comprehension_ in Rewst's implementation of Jinja provides a compact way t
 The basic structure for list comprehension is:
 
 `{{ [ output for output`\
-&#x20;`in CTX.list` \
+`in CTX.list`\
 `if condition ]}}`
 
 #### Iterate through a list
@@ -433,4 +431,3 @@ In this example, the list comprehension filters `CTX.users` to return only the o
 {% endtabs %}
 
 These custom Jinja2 extensions enhance your templating capabilities, enabling you to work with dates, handle exceptions, generate UUIDs and perform List Comprehension seamlessly within your Rewst environment. Whether you need to format dates, gracefully handle exceptions, or generate unique identifiers, or perform comprehensions, these extensions provide the tools you need to streamline your templating tasks.
-
