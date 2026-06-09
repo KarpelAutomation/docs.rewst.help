@@ -9,7 +9,7 @@ description: >-
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 
-Pax8's own documentation on least privileged access can be found [here](https://devx.pax8.com/docs#authentication).&#x20;
+Pax8's own documentation on least privileged access can be found [here](https://devx.pax8.com/docs#authentication).
 {% endhint %}
 
 ## **What does the Pax8 integration do?**
@@ -51,7 +51,7 @@ Our Pax8 integration allows MSPs to automate license procurement and billing rec
 {% hint style="info" %}
 Once further Rewst set up steps are completed, you'll be able to see Rewst as an integrated app in Pax8 by navigating to **Settings > Integrations > Apps** and searching for `Rewst` from the total app list.<br>
 
-<p align="center"><img src="../../../.gitbook/assets/image (91).png" alt=""></p>
+<img src="../../../.gitbook/assets/image (91).png" alt="" data-size="original">
 {% endhint %}
 
 ### Set up steps in Rewst
@@ -67,7 +67,7 @@ Once further Rewst set up steps are completed, you'll be able to see Rewst as an
 7. If prompted, log in to your Pax8 account by entering your username, password, and one-time code.
 8. Accept the authorization request. You'll know that the integration was successfully installed if you now see an option to **ReAuthorize**.
 9. Click **Save Configuration**.
-10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. \
+10. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.\
     <br>
 
     <figure><img src="../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
@@ -110,23 +110,24 @@ For more on how actions work in Rewst, check out our [introductory actions docum
 
 Ensure that you have the necessary permissions and correct endpoint URLs as specified in Pax8's [API documentation](https://devx.pax8.com/docs/introduction) when configuring these actions.
 
-| Action Name                   | Description                                                                                                                                                                        | Endpoint Related to Action                                                                                                                                                |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Cancel subscription           | Cancels the Subscription specified by subscriptionId                                                                                                                               | <p>DELETE<br><a href="https://api.pax8.com/v1/subscriptions/%7BsubscriptionId%7D">https://api.pax8.com/v1/subscriptions/{subscriptionId}</a></p>                          |
-| Create Company                | Creates a new Company. The Company will be placed in an “inactive” status until the Company has primary Contacts added. Once contacts are added, the company will move to “active” | <p>POST<br><a href="https://api.pax8.com/v1/companies">https://api.pax8.com/v1/companies</a></p>                                                                          |
-| Create order                  | Create a new order. Currently NOT supported for scheduled orders (orders with a future date)                                                                                       | <p>POST<br><a href="https://api.pax8.com/v1/orders">https://api.pax8.com/v1/orders</a></p>                                                                                |
-| Get company                   | Returns a single company record matching the companyId you specify                                                                                                                 | <p>GET<br><a href="https://api.pax8.com/v1/companies/%7BcompanyId%7D">https://api.pax8.com/v1/companies/{companyId}</a></p>                                               |
-| Get company contact           | Returns a contact matching the companyId and contactId you specify                                                                                                                 | <p>GET<br><a href="https://api.pax8.com/v1/companies/%7BcompanyId%7D/contacts/%7BcontactId%7D">https://api.pax8.com/v1/companies/{companyId}/contacts/{contactId}</a></p> |
-| Get order                     | Returns the Order record specified by OrderId. Currently NOT supported for scheduled orders (orders with a future date).                                                           | <p>GET<br><a href="https://api.pax8.com/v1/orders/%7BorderId%7D">https://api.pax8.com/v1/orders/{orderId}</a></p>                                                         |
-| Get product                   | Returns only the product record for the productId you specify                                                                                                                      | <p>GET<br><a href="https://api.pax8.com/v1/products/%7BproductId%7D">https://api.pax8.com/v1/products/{productId}</a></p>                                                 |
-| Get product provision details | Returns provisioning details for the specified productId. Provisioning details for a product are dynamic data.                                                                     | <p>GET<br><a href="https://api.pax8.com/v1/products/%7BproductId%7D/provision-details">https://api.pax8.com/v1/products/{productId}/provision-details</a></p>             |
-| Get subscription              | Returns the Subscription record specified by the subscriptionId                                                                                                                    | <p>GET<br><a href="https://api.pax8.com/v1/subscriptions/%7BsubscriptionId%7D">https://api.pax8.com/v1/subscriptions/{subscriptionId}</a></p>                             |
-| List companies                | Returns a paginated list of all your companies filtered by optional parameters                                                                                                     | <p>GET<br><a href="https://api.pax8.com/v1/companies">https://api.pax8.com/v1/companies</a></p>                                                                           |
-| List company contacts         | Returns a paginated list of contacts ordered by createDate descending                                                                                                              | <p>GET<br><a href="https://api.pax8.com/v1/companies/%7BcompanyId%7D/contacts">https://api.pax8.com/v1/companies/{companyId}/contacts</a></p>                             |
-| List orders                   | Returns a paginated list of orders. Currently NOT supported for scheduled orders(orders with a future date).                                                                       | <p>GET<br><a href="https://api.pax8.com/v1/orders">https://api.pax8.com/v1/orders</a></p>                                                                                 |
-| List products                 | Returns a paginated list of Pax8 products filtered by optional query parameters                                                                                                    | <p>GET<br><a href="https://api.pax8.com/v1/products">https://api.pax8.com/v1/products</a></p>                                                                             |
-| List subscriptions            | Fetch a paginated list of subscriptions. Default page is 0 and default size is 10. The maximum page size is 200                                                                    | <p>GET<br><a href="https://api.pax8.com/v1/subscriptions">https://api.pax8.com/v1/subscriptions</a></p>                                                                   |
-| Update subscription           | Updates a subscription. Currently NOT supported for subscriptions with a future date.                                                                                              | <p>PUT<br><a href="https://api.pax8.com/v1/subscriptions/%7BsubscriptionId%7D">https://api.pax8.com/v1/subscriptions/{subscriptionId}</a></p>                             |
+| name                          | http\_method |
+| ----------------------------- | ------------ |
+| Cancel Subscription           | DELETE       |
+| Create Company                | POST         |
+| Create Order                  | POST         |
+| Get Company                   | GET          |
+| Get Company Contact           | GET          |
+| Get Order                     | GET          |
+| Get Product                   | GET          |
+| Get Product Provision Details | GET          |
+| Get Subscription              | GET          |
+| List Companies                | GET          |
+| List Company Contacts         | GET          |
+| List Orders                   | GET          |
+| List Products                 | GET          |
+| List Subscriptions            | GET          |
+| Pax8 API Request              | GET          |
+| Update Subscription           | PUT          |
 
 {% hint style="info" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
