@@ -65,9 +65,9 @@ Org mapping isn't necessary for a few of our integrations because the tool you'r
 Organization mapping for Microsoft integrations is slightly different than the process outlined on this page. Refer to the video on mapping and consenting organizations for the Microsoft Cloud bundle.
 {% endhint %}
 
-For org mapping to work properly, it's best to aim for having the names of organizations in Rewst match the names of organizations in your PSA.  If they don't, you can make the mapping match manually, but having 1:1 names will speed up the mapping process and have you reap the benefits of automation more quickly.
+For org mapping to work properly, it's best to aim for having the names of organizations in Rewst match the names of organizations in your PSA. If they don't, you can make the mapping match manually, but having 1:1 names will speed up the mapping process and have you reap the benefits of automation more quickly.
 
-Additionally, we recommend that you unpack the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) when onboarding into Rewst to prepare for easier org mapping.&#x20;
+Additionally, we recommend that you unpack the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) when onboarding into Rewst to prepare for easier org mapping.
 
 ### How to map organizations: Org mapping
 
@@ -79,7 +79,7 @@ Note that the mapping menu won't be visible during initial integration set up. I
 
 The general steps to map each organization are as follows.
 
-1. Navigate to **Configuration > Integrations** in the Rewst platform.
+1. Navigate to **Marketplace > Integrations** in the Rewst platform.
 2. Select the integration that you want to map from your collection of already set up integrations, or complete the integration configuration setup process for your new desired integration.
 3. Scroll down the page to the **Organization Mapping** submenu. Here you'll see your **Organizations** listed in a table.
 
@@ -87,16 +87,16 @@ The general steps to map each organization are as follows.
 
 4. Click **Refresh Options** to pull customer accounts from your integration. This will refresh the potential mapping options for both organizations and companies in the partner tool.
    1. If the blank text box turns into a dropdown field, the sync was successful.
-   2. If accounts are missing:&#x20;
+   2. If accounts are missing:
       1. Check if the customer account exists in your integrated tool.
       2. Adjust any applied filters that might be excluding accounts.
-5. Click **Suggest Values**. Rewst will try to match organization names automatically. This generates mappings between Rewst organizations and corresponding entities in the partner app.&#x20;
+5. Click **Suggest Values**. Rewst will try to match organization names automatically. This generates mappings between Rewst organizations and corresponding entities in the partner app.
    1. If Rewst can't find a matching option, the drop-down field will remain blank. You should then click the drop-down to expand the list, scroll through the list, and manually choose the org associated with the desired org in Rewst.
    2. If it does find an option, the corresponding name will appear in the drop-down field automatically.
 6. Review the suggestions to ensure that organizations in Rewst and customer names in the integrated tool are aligned. If a match is missing, manually select the correct organization from the dropdown menu.
 7. Double-check all mappings, especially if you have multiple pages of organizations. By default, only the first 10 organizations will be listed.
-8. Click **Save Mappings** to finalize the connections.&#x20;
-9. Once you map an integration, Rewst will create an org variable for that organization. You can view the related org variables and their corresponding IDs by navigating to the total org variable list in **Configuration > Organization Variables**. Note that this will not be the case for any Microsoft integration in the Microsoft Cloud Bundle.
+8. Click **Save Mappings** to finalize the connections.
+9. Once you map an integration, Rewst will create an org variable for that organization. You can view the related org variables and their corresponding IDs by navigating to the total org variable list in **Settings > Organization Variables**. Note that this will not be the case for any Microsoft integration in the Microsoft Cloud Bundle.
 
 {% hint style="info" %}
 If you uninstall an integration and reinstall it again, you won't need to redo your org mapping. Rewst will have this information stored and will repopulate it into the new installation.
@@ -104,7 +104,7 @@ If you uninstall an integration and reinstall it again, you won't need to redo y
 
 ### Integration overrides
 
-Integration overrides allow you to specify which integration configurations should be used. When a workflow is triggered by and running within the context of a [child organization](organization-variables.md#what-is-an-organization), by default they only have access to their own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden.  Integration overrides are set in the trigger menu of the workflow in question, not from the actual integration configuration page in Rewst. Learn more about integration overrides in our [triggers](../automations/intro-to-triggers/) documentation.
+Integration overrides allow you to specify which integration configurations should be used. When a workflow is triggered by and running within the context of a [child organization](organization-variables.md#what-is-an-organization), by default they only have access to their own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden. Integration overrides are set in the trigger menu of the workflow in question, not from the actual integration configuration page in Rewst. Learn more about integration overrides in our [triggers](../automations/intro-to-triggers/) documentation.
 
 ## Request an integration
 

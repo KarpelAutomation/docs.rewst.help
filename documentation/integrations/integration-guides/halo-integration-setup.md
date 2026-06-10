@@ -130,7 +130,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Crates related to the HaloPSA integration
 
-To see an up-to-date list of Crates that can be unpacked after completing HaloPSA integration, navigate to **Crates > Crate Marketplace** in the left side menu of your Rewst platform.
+To see an up-to-date list of Crates that can be unpacked after completing HaloPSA integration, navigate to **Marketplace > Crates** in the left side menu of your Rewst platform.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-11-13 at 12.38.40 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -257,7 +257,7 @@ To execute workflows at the MSP level across client accounts, you must configure
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Halo's own API documentation can be found [here](/broken/pages/Ih2PHYcnJ3BTz0qR3qwt).
+Halo's own API documentation can be found [here](https://app.gitbook.com/s/AQQ1EHVcEsGKBPVHmiav/documentation).
 
 | Action Name                           | Description                                                                                                                                                  | Endpoint Related to Action     |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |

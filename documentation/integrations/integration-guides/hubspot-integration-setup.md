@@ -67,7 +67,7 @@ If you're a Rewst customer who set up their HubSpot integration prior to Rewst's
 
 ### Set up steps in Rewst
 
-1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
+1. Navigate to **Marketplace > Integrations** in the left side menu of your Rewst platform.
 2.  Search for `HubSpot` in the integrations page.\
     <br>
 

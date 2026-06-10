@@ -2,7 +2,7 @@
 
 ## What does the SQL Database integration do?
 
-The SQL Database integration in Rewst allows users to connect to their existing Postgres, MySQL, or MSSQL database and perform queries on the database, including those hosted in Azure SQL or AWS RDS.&#x20;
+The SQL Database integration in Rewst allows users to connect to their existing Postgres, MySQL, or MSSQL database and perform queries on the database, including those hosted in Azure SQL or AWS RDS.
 
 Our integration works with [versions of MSSQL that are actively supported by Microsoft](https://docs.sqlalchemy.org/en/20/dialects/mssql.html#dialect-mssql).
 
@@ -19,16 +19,14 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 Once you've set up the database and have the necessary credentials, follow the below steps to configure a new integration:
 
-1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
-2. Click or search for SQL Database.\
+1. Navigate to **Marketplace > Integrations** in the left side menu of your Rewst platform.
+2. Click or search for `SQL Database`.\
    \
    ![](<../../../../../.gitbook/assets/Screenshot 2025-05-12 at 9.33.16 AM.png>)
 3. Click on the integration tile to launch the configuration page.
 4.  Note the drop-down menu in the top left of the configuration page. You'll need to add each database into Rewst separately. Click **Add Configuration** to add each new database, and follow the rest of these steps each time, for each new database.<br>
 
     <figure><img src="../../../../../.gitbook/assets/Screenshot 2026-03-05 at 10.40.36 AM.png" alt=""><figcaption></figcaption></figure>
-
-
 5. Complete the fields with your database information.
    1. **Database Config Name** - Unique identifier to pick database for action
    2. **Database Type** - Supported SQL databases

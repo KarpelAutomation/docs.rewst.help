@@ -10,9 +10,9 @@ For more on how to see which triggers appear on a specific workflow, view our do
 
 ## View all triggers
 
-Navigate to **Automations > Triggers** in the left side menu of Rewst to view the total triggers page, which contains a sortable list of all triggers in your Rewst instance, organized by tabs labeled with automation type. This includes triggers from your custom-built workflows and from unpacked Crates. Click on any of the column headers to sort the list by that criteria. Use the **Tags** drop-down selector to filter the list by specific tags.&#x20;
+Navigate to **Automations > Triggers** in the left side menu of Rewst to view the total triggers page, which contains a sortable list of all triggers in your Rewst instance, organized by tabs labeled with automation type. This includes triggers from your custom-built workflows and from unpacked Crates. Click on any of the column headers to sort the list by that criteria. Use the **Tags** drop-down selector to filter the list by specific tags.
 
-<figure><img src="../../../.gitbook/assets/image (85) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-06-10 at 12.35.45 PM.png" alt=""><figcaption></figcaption></figure>
 
 Toggle any trigger to enabled or disabled in the **Status** column. Once toggled on, the slider will turn green, and a green checkmark will appear to the right to let you know that the enablement is complete.
 
@@ -22,7 +22,7 @@ We're currently working on a feature limitation that prevents the last activity 
 
 ## Create a trigger
 
-Add a trigger to a workflow by clicking the **Add Trigger** button in the workflow builder, which will open up a new dialog with a form. \
+Add a trigger to a workflow by clicking the **Add Trigger** button in the workflow builder, which will open up a new dialog with a form.\
 ![](<../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM.png>)
 
 Note that you can have multiple triggers per workflow, for example a webhook and a trigger that runs when a ticket gets saved in the PSA.
@@ -39,14 +39,12 @@ When you're comfortable with the basics of triggers, learn more about [trigger c
 
 ### Integration overrides
 
-Integration overrides allow selection between multiple versions of the same integration at both the trigger and action levels, enabling granular control over workflow execution. When a workflow is triggered by and running within the context of a child organization, by default they only have access to their own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden.  Rewst recommends adding more integration overrides rather than fewer.
-
-
+Integration overrides allow selection between multiple versions of the same integration at both the trigger and action levels, enabling granular control over workflow execution. When a workflow is triggered by and running within the context of a child organization, by default they only have access to their own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden. Rewst recommends adding more integration overrides rather than fewer.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-23 at 3.09.52 PM.png" alt="" width="375"><figcaption><p>Choose the integration for which to apply configuration overrides to from the drop-down list.</p></figcaption></figure>
 
 1. Click <img src="../../../.gitbook/assets/Screenshot 2026-03-23 at 3.14.04 PM.png" alt="" data-size="line"> next to integration overrides.
-2. Choose your desired integration or integrations from the drop-down selector that appears. This will populate the options for that integration below the selector. Each selected integration will have its own accordion menu added to the trigger configuration page.&#x20;
+2. Choose your desired integration or integrations from the drop-down selector that appears. This will populate the options for that integration below the selector. Each selected integration will have its own accordion menu added to the trigger configuration page.
    1. Configuration Selection Mode options
       1. **Use Default** - The default configuration for the workflow owner will be used
       2. **Use Selected Config** - Select a specific integration configuration to use: choosing this option reveals a new **Integration Configuration** drop-down selector where you'll choose an existing configuration
@@ -70,7 +68,7 @@ Note that when you unpack a Crate, it will automatically look at your installed 
 
 #### Integration override on an action
 
-While integration overrides mainly live on and apply to triggers, you can also add them to actions under the **Advanced** tab of their right side configuration menu. The main use case for an action-based integration override is when you use [multi-instance integration](../../integrations/multi-instance-integration/) in Rewst.&#x20;
+While integration overrides mainly live on and apply to triggers, you can also add them to actions under the **Advanced** tab of their right side configuration menu. The main use case for an action-based integration override is when you use [multi-instance integration](../../integrations/multi-instance-integration/) in Rewst.
 
 The process and selections for this integration override are the same as for those set on a trigger.
 
@@ -149,7 +147,7 @@ The _always pass trigger_ allows a workflow to start without conditions. It is c
 
 This trigger is most useful for:
 
-* Manual workflow execution: running a workflow on demand&#x20;
+* Manual workflow execution: running a workflow on demand
 * Subworkflows or completion handlers: workflows triggered by other workflows
 * Testing automation: verifying workflow functionality
 * Option generators: dynamically populating form fields in Rewst
@@ -164,7 +162,7 @@ For more information on option generators, refer to [Rewst Foundations](https://
 
 <summary>Core - App Platform</summary>
 
-This trigger functions the same as Core - Always Pass. By using this trigger type, you create a clear indication that the intended use case is for Rewst's [App Builder](../../app-builder/). Note that it is only useful in locations where you can select a trigger— Data Tables and Charts.&#x20;
+This trigger functions the same as Core - Always Pass. By using this trigger type, you create a clear indication that the intended use case is for Rewst's [App Builder](../../app-builder/). Note that it is only useful in locations where you can select a trigger— Data Tables and Charts.
 
 </details>
 
@@ -345,7 +343,7 @@ The Rewst - Crate Published Trigger kicks off the workflow when a Crate is publi
 
 The Crate will include the following in the workflow execution once triggered.
 
-`CTX.triggering_crate_data.crate_id`                 ID of the Crate `CTX.triggering_crate_data.workflow_id`             ID of the parent workflow in the Crate
+`CTX.triggering_crate_data.crate_id` ID of the Crate `CTX.triggering_crate_data.workflow_id` ID of the parent workflow in the Crate
 
 </details>
 
@@ -555,4 +553,3 @@ When this trigger kicks off, it provides the following data in `triggering_user_
 Rewst offers additional triggers for some of our integrations tailored to different automation needs. Explore the available triggers in the trigger type list to find the best fit for your specific processes. Try asking [RoboRewsty](../../rewst-tools/roborewsty.md) what each integration-specific trigger does to learn more about how it can be used, or read more about included triggers on each integration's info page in this site.
 
 <figure><img src="../../../.gitbook/assets/trigger drop-down gif.gif" alt="A moving GIF image depicting scrolling through the trigger type list in an example organization in Rewst. Various integrations&#x27; actions are shown."><figcaption><p>The contents of the complete trigger type list will depend on your particular integrations</p></figcaption></figure>
-
