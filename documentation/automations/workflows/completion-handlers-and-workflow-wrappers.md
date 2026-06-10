@@ -18,6 +18,10 @@ Let's look at a few use cases for using completion handlers:
 
 ### Configure a completion handler in a workflow
 
+{% hint style="warning" %}
+Completion handlers should be linear, never circular. Don't set two workflows to continually run when the other completes. This will cause the workflows to trigger each other in an infinite loop.
+{% endhint %}
+
 1. Navigate to **Automations > Workflows**.
 2. Locate the existing workflow that you want to address. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.43.57 PM.png" alt="" data-size="line"> **Workflow Completion Handlers**.
 3. Note the two options in the **Completion Handlers** section. You'll need to choose which one you want to use:
