@@ -46,7 +46,7 @@ If additional Crates are added later, this workflow can be extended to include t
 #### Rewst forms currently supported in the Crate
 
 * **password\_reset** - unpacked from the [Change a User's Password Crate](change-a-users-password-crate.md)
-* **user\_onboarding** - unpacked from the [Microsoft: User Onboarding Crate](microsoft-user-onboarding-crate-v2/)&#x20;
+* **user\_onboarding** - unpacked from the [Microsoft: User Onboarding Crate](microsoft-user-onboarding-crate-v2/)
 * **user\_offboarding** - unpacked from the [Microsoft: User Offboarding Crate](microsoft-user-offboarding-crate.md)
 * **reset\_mfa** - unpacked from the [Reset Microsoft MFA Crate](reset-microsoft-mfa-crate.md)
 * **group\_membership** - unpacked from the [Add or Remove Group Membership Crate](add-or-remove-group-membership-crate.md)
@@ -55,7 +55,7 @@ If additional Crates are added later, this workflow can be extended to include t
 
 Ensure that the following integrations are already configured and [mapped](https://docs.rewst.help/documentation/configuration/integrations#how-to-map-organizations-org-mapping) in Rewst before using this Crate:
 
-* Your [PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)&#x20;
+* Your [PSA integration](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)
 * Each of the supported forms is unpacked from its relevant Crate and added to your Rewst instance. The specified Crates must be unpacked before unpacking this 1Stream Crate. Otherwise, clicking the link will take you directly to the relevant Crate so you can unpack it.
 * The specified Crates containing the supported forms must be configured as per their individual specifications in order to function when submitted.
 
@@ -116,9 +116,12 @@ Note that since you can choose which of the supported forms is used for 1Stream,
 11. Set the **Link Type** to **Custom**.&#x20;
 12. Set the **Status** to **Active**, and **Do Screen Pop** to **Yes**.\
     ![](<../../../.gitbook/assets/Screenshot 2025-11-04 at 10.35.29 AM.png>)
-13. Enter each of the URLs referenced in the table below into the **Link Template** field, replacing `{rewst_webhook_url}` with your actual Rewst webhook URL. This can be found by navigating to the `[REWST - TASK] 1Stream Technician Toolbox` workflow unpacked with the Crate, opening the workflow's settings, and scrolling to the **Trigger Configuration** menu. Then, click **View Webhook URLs**.
+13. Enter each of the URLs referenced in the table below into the **Link Template** field, replacing `{rewst_webhook_url}` with your actual Rewst webhook URL. To find this URL:
+    1. Navigate to the `[REWST - TASK] 1Stream Technician Toolbox` workflow unpacked with the Crate.
+    2. Click on the trigger to open its settings in the right side menu.
+    3. Click **Copy URL**. Copy the value in the **Webhook URLs** dialog that appears.
 
-<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption><p>Example webhook URL</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-14 at 10.36.05 AM.png" alt=""><figcaption><p>Example webhook URL</p></figcaption></figure>
 
 | Form Name        | URL Format                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -128,12 +131,10 @@ Note that since you can choose which of the supported forms is used for 1Stream,
 | Reset MFA        | `{rewst_webhook_url}?ticket_id=@ticketid&company_id=@companyid&contact_id=@contactid&form_name=reset_mfa`        |
 | Group Membership | `{rewst_webhook_url}?ticket_id=@ticketid&company_id=@companyid&contact_id=@contactid&form_name=group_membership` |
 
-
-
-14. Optionally, add an [organization variable](../../integrations/organization-variables.md#manually-add-a-new-organization-variable) in Rewst.&#x20;
+14. Optionally, add an [organization variable](../../integrations/organization-variables.md#manually-add-a-new-organization-variable) in Rewst.
     1. If you set an API Key in 1Stream, you’ll need to mirror it as a [secret org variable](../../integrations/organization-variables.md#create-secret-values-for-organization-variables) in Rewst.
     2. Open the webhook trigger in the `[REWST - TASK] 1Stream Technician Toolbox` workflow.
-    3. Select this secret key.&#x20;
+    3. Select this secret key.
     4. Click **Save**.
 
 | Field            | Value                                                  |
@@ -142,8 +143,6 @@ Note that since you can choose which of the supported forms is used for 1Stream,
 | **Value**        | Same key you used in 1Stream                           |
 | **Category**     | `secret`                                               |
 | **Organization** | Your top-level organization (check **Use as Default**) |
-
-
 
 ### **Use the 1Stream Technician Toolbox Crate**
 
@@ -158,7 +157,7 @@ When a screen pop URL is clicked:
 
 After the first use, verify that forms populate correctly and trigger their workflows as expected.
 
-If failures occur, review the **workflow execution logs** in Rewst for details.
+If failures occur, review the workflow execution logs in Rewst for details.
 
 ## **Crate customization**
 
@@ -168,8 +167,8 @@ You can extend the functionality of the 1Stream Technician Toolbox Crate by addi
 
 1. In Rewst, open the `[REWST - TASK] 1Stream Technician Toolbox` workflow.
 2. Copy one of the existing form handling branches— for example, `password_reset`.
-3. Update the **form\_name** parameter in the condition node to match your new form’s internal name.
-4. In 1Stream, add a new **Screen Pop URL** entry following the same URL format, replacing the `form_name` value with the new form’s name.
+3. Update the `form_name` parameter in the condition node to match your new form’s internal name.
+4. In 1Stream, add a new **Screen Pop URL** entry following the same URL format. Replace the `form_name` value with the new form’s name.
 5. Test the new link from 1Stream to confirm that it opens your desired Rewst form and auto-fills as expected.
 
 You can repeat this process for as many forms as desired. The logic is designed to be modular, so additional forms can be integrated without editing the core connection between 1Stream and Rewst.

@@ -60,18 +60,36 @@ Your [PSA](../../integrations/top-5-integration-types-get-started-with-integrati
 5. Click **Continue**.
 6. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
 7. Click **Unpack**.
+8. Navigate to **Automations > Workflows**.
+9. Search for `[REWST - CRATE] M365: Alert on Login from Non-Native Country`.
+10. Click on the workflow to open it in the workflow builder.
+11. Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
+12. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+13. Click **Submit**.
+14. If adjusting to immediately test, remember to adjust the trigger back to its normal timing after testing.
+15. Navigate to **Automations > Workflows**.
+16. Search for `[REWST - CRATE] M365: Alert on Login from Non-Native Country`.
+17. Click on the workflow to open it in the workflow builder.
+18. Click <img src="/broken/files/TvD8yFt1Fk4nu7qDWP00" alt="" data-size="line"> to open the edit trigger menu.
+19. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+20. Click **Submit**.
+21. If adjusting to immediately test, remember to adjust the trigger back to its normal timing after testing.
 
-### Use the Crate
+### Update the cron trigger schedule
 
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. To edit a cron trigger in the workflow to either test it once or change the timing it will routinely run:
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
+{% endhint %}
+
+The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] M365: Alert on Login from Non-Native Country`.
-3. Click on the workflow to open it in the workflow builder.
-4. Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. Click **Submit**.
-7. If adjusting to immediately test, remember to adjust the trigger back to its normal timing after testing.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. If necessary, enable [Critical Timing](../../automations/intro-to-triggers/#critical-timing).
+7. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

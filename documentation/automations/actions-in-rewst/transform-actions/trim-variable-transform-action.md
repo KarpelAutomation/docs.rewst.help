@@ -6,8 +6,6 @@ You have a string that has been grabbed from an API return, however due to bad f
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 3.11.55 PM.png" alt="A screenshot of trim variable objects transform action, seen in the actions list menu of the workflow builder canvas. "><figcaption></figcaption></figure>
-
 Trim whitespace characters from a variable.
 
 ## Parameters

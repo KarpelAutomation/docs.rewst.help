@@ -31,20 +31,14 @@ The first run of the report usually takes some time, with subsequent runs comple
 {% endhint %}
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platfor,.
-2.  Search for `View Org Setup Report`.<br>
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-23 at 3.59.12 PM.png" alt=""><figcaption></figcaption></figure>
-3. Click the workflow to launch it in the Workflow Builder.
-4. Select the **Web GET** trigger from the trigger drop-down selector.\
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-23 at 4.00.05 PM.png>)
-5. Click ![](<../../../.gitbook/assets/image (196).png>) to open the trigger.
-6. Under **Trigger Configuration**, click **View Webhook URLs**.
-7. Copy the URL and launch it in a new tab.
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-14 at 5.00.28 PM.png" alt=""><figcaption></figcaption></figure>
-
-8. View the report. If desired after making changes, click **Background Refresh Data** to push the workflow to update the report.
+2. Search for `View Org Setup Report`.
+3. Click on the workflow to launch it in the Workflow Builder.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Click on the **Web GET** trigger from the trigger list.
+6. Click **Copy URL**. Copy the URL in the dialog that appears.
+7. Paste and launch the URL in a new browser tab.
+8. View the report. If desired after making changes, click **Background Refresh Data** to push the workflow to update the report.&#x20;
+9. View the report. If desired after making changes, click **Background Refresh Data** to push the workflow to update the report.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-02 at 11.17.26 AM.png" alt=""><figcaption><p>An example of a completed report</p></figcaption></figure>
 

@@ -6,13 +6,7 @@ You would like to programmatically determine what the date was thirty days ago.
 
 ## Overview
 
-
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.33.30 PM.png" alt=""><figcaption></figcaption></figure>
-
 Add or Subtract from a DateTime
-
-***
 
 ## Parameters
 

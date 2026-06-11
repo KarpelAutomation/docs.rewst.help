@@ -55,44 +55,39 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
 ![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/6f6620ef-ba27-4c8d-b6da-8f51083e060b/2.5/50.000998652147/42.015659694788?0)
 
-4. Add a noop action to the workflow builder canvas by clicking on the action in the left action menu and dragging and dropping it on the canvas.
-5. Click on the action.
-6. Click the <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line">in the action's menu.
-7.  Change the name of the action to `BEGIN`, which allows other users reviewing the workflow to clearly identify the top of a workflow.\
+4. Drag and drop a noop action to the Workflow Builder Canvas.
+5. Click on the action to open its settings in the right side menu.
+6.  Change the name of the action to `BEGIN`, which allows other users reviewing the workflow to clearly identify the top of a workflow.\
     <br>
 
-    <figure><img src="../../.gitbook/assets/test 8-min.png" alt=""><figcaption></figcaption></figure>
-8. Add a **List Forms with Granular Permissions** action to the workflow builder canvas. Find the action under the **Rewst** actions submenu. This is a prebuilt action that uses the platform's GraphQL backend to return the requested data.
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-04-21 at 3.01.32 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+7. Add a **List Forms with Granular Permissions** action to the Workflow Builder Canvas. Find the action under the **Rewst** actions submenu. This is a prebuilt action that uses the platform's GraphQL backend to return the requested data.
 
-9\. Connect the **Begin** action to the **List Forms with Granular Permissions** action.\
-<br>
-
-<figure><img src="../../.gitbook/assets/test10-min.png" alt=""><figcaption></figcaption></figure>
+9\. Connect the **Begin** action to the **List Forms with Granular Permissions** action with a transition.
 
 10\. In the **List Forms with Granular Permissions** action, add `all_available_forms` as the **Publish Results As** variable name. This ensures that the output of the action gets added to this variable.\
 <br>
 
-<figure><img src="../../.gitbook/assets/test 11-min.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-21 at 3.03.20 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
-11. Under the **Parameters** tab for the action, click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>)to open the Jinja code editor.
-12. Enter `{{ CTX.user.id }}` , which uses the ID of the running user, ensuring we always get the right forms based on the logged in user.\
+11. Click the **Parameters** tab.
+12. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>)  next to **Run as User** to open the Jinja code editor.
+13. Enter `{{ CTX.user.id }}` , which uses the ID of the running user, ensuring we always get the right forms based on the logged in user.\
     <br>
 
     <figure><img src="../../.gitbook/assets/test 12-min.png" alt=""><figcaption></figcaption></figure>
-13. Return to the action's menu. Click the **Advanced** tab. Scroll down to the **Run as Org** field. Enter `{{ ORG.ATTRIBUTES.id }}` into the Run as Org box under the Advanced tab.\
+14. Click the **Advanced** tab of the right side menu.
+15. Enter `{{ ORG.ATTRIBUTES.id }}` into the **Run as Org** field.\
     This ensures that the workflow always runs as the organization that you are logged into. If you have a form that is only enabled for certain orgs, this is how you ensure that you return the correct ones.\
-    <br>
+    \
+    ![](<../../.gitbook/assets/Screenshot 2026-04-21 at 3.08.17 PM.png>)
+16. Add another noop action to the workflow builder canvas. Rename the noop `set_form_output` .
+17. Click the transition status between the two actions.
+18. Click **+ Add Data Alias**. Name the data alias`form_output` .<br>
 
-    <figure><img src="../../.gitbook/assets/test 13-min.png" alt=""><figcaption></figcaption></figure>
-14. Add another noop action to the workflow builder canvas. Rename the noop `set_form_output` .\
-    <br>
-
-    <figure><img src="../../.gitbook/assets/test 14-min.png" alt=""><figcaption></figcaption></figure>
-15. Click a data alias in this new action. Name the data alias`form_output` .<br>
-
-    <figure><img src="../../.gitbook/assets/test 15-min.png" alt=""><figcaption></figcaption></figure>
-16. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) next to your new data alias.
-17. Copy the Jinja code below. Here, we're looking at all returned forms, and creating a new key with name, tags, view, and triggerId key. Eventually we'll display the name and tags to the user and use the view key to allow an action for the user - in the case of this example, go directly to the form.
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-04-21 at 3.10.59 PM.png" alt=""><figcaption></figcaption></figure>
+19. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) next to your new data alias.
+20. Copy the Jinja code below. Here, we're looking at all returned forms, and creating a new key with name, tags, view, and triggerId key. Eventually we'll display the name and tags to the user and use the view key to allow an action for the user - in the case of this example, go directly to the form.&#x20;
 
 ```
 {#- Assumes single trigger per form -#}
@@ -106,28 +101,19 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 ] }}
 ```
 
-<figure><img src="../../.gitbook/assets/test 16.png" alt=""><figcaption></figcaption></figure>
-
 19. Add a final noop action to your workflow builder canvas. Rename the noop action `END`.
-20. Connect **END** to the **Set Form Outputs** action.\
+20. Connect **END** to the **Set Form Outputs** action.
+21. Click <img src="../../.gitbook/assets/Screenshot 2026-04-20 at 4.45.41 PM.png" alt="" data-size="line"> to open the workflow's settings.
+22. Click the **Output** tab **> + Add Output**.
+23. Name the output configuration`form_output`. \
     <br>
 
-    <figure><img src="../../.gitbook/assets/test 17-min.png" alt=""><figcaption></figcaption></figure>
-21. Click <img src="../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line"> in the top right of the workflow builder.
-22. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 6.14.27 PM.png>) next to **Output Configuration**.
-23. Name the output configuration`form_output`.
-24. Click ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-04-21 at 3.13.06 PM.png" alt=""><figcaption></figcaption></figure>
+24. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .&#x20;
 25. Add notes to your workflow, or use RoboRewsty to do documentation for you.
-26. Click **Submit.**
-27. Click **Publish**.\
-    <br>
-
-    <figure><img src="../../.gitbook/assets/test 18-min.png" alt=""><figcaption></figcaption></figure>
-28. Click **Test**. Click **Test** again.
-29. Click **View Results**.
-
-![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/6620cc93-6a1f-417c-9ead-9cdfead3d832/2.5/59.405584283214/7.7570362307242?0)
-
+26. Click **Run.**
+27. Click **Run Test**.&#x20;
+28. Click **View Results**.
 29. Click **End**, then **output**.
 
 ![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/8fa2cc87-fbcc-4887-8fff-86c45a98c69a/2.0619180396/36.369196092847/60.363212791649?0)

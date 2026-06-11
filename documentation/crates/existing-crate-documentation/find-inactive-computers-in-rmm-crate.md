@@ -38,31 +38,29 @@ Before unpacking this Crate:
 6. Ensure that **Enabled** is toggled on for the **Cron Job** accordion menu under **Configure Triggers**. Note that you have the option to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](../../settings/tags-in-rewst.md), and set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 7. Click **Unpack**.
 
-### Test the Crate
+### Update the cron trigger
 
+{% hint style="info" %}
 To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
+{% endhint %}
+
+The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself.&#x20;
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[REWST - CRATE] RMM: Find Inactive Computers`.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
-3.  Click on the workflow to view it in the Workflow Builder.
-
-    <figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
-4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your RMM's portal to ensure that the workflow is able to find the inactive computers as expected.
-
-### Update the cron trigger schedule
-
-The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. To edit a cron trigger in the workflow to change the timing it will routinely run:
-
-1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] RMM: Find Inactive Computers`.
-3. Click on the workflow to open it in the workflow builder.
-4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the Cron Schedule field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. Navigate to **Automations > Workflows**.
+7. Search for  `[REWST - CRATE] RMM: Find Inactive Computers`.
+8. Click on the workflow to open it in the workflow builder.
+9.  Click <img src="/broken/files/TvD8yFt1Fk4nu7qDWP00" alt="" data-size="line"> to open the edit trigger menu.
 
-    <figure><img src="../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. Click **Submit**.
+
+
+    <figure><img src="/broken/files/DxJqKpp2lT3zF0qYTLkg" alt=""><figcaption></figcaption></figure>
+10. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+11. Click **Submit**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

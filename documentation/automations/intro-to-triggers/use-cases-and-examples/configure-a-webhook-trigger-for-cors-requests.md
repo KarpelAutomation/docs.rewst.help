@@ -1,7 +1,7 @@
 # Configure a webhook trigger for CORS requests
 
 {% hint style="info" %}
-Though this is related to triggers, it's most often used in conjunction with App Builder. Learn more about Rewst's App Builder in our documentation [here](../../../app-builder/).&#x20;
+Though this is related to triggers, it's most often used in conjunction with App Builder. Learn more about Rewst's App Builder in our documentation [here](../../../app-builder/).
 {% endhint %}
 
 ## What is a CORS request?
@@ -17,9 +17,7 @@ Note that **wait for webhook** cannot be set to `true` for this to work. Additio
 ## Add CORS headers to your web hook response
 
 1. Open your webhook trigger inside the workflow.
-2.  Open the response headers.<br>
-
-    <figure><img src="../../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) to open the response headers code editor.
 3. Add the following headers:
 
 ```django
@@ -31,9 +29,7 @@ Note that **wait for webhook** cannot be set to `true` for this to work. Additio
 }
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../../.gitbook/assets/Screenshot 2026-04-20 at 3.42.34 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Important -** Match the _exact_ origin of your site.
@@ -60,7 +56,7 @@ Browsers send an _OPTIONS_ request before certain POST or PUT requests to confir
 
 Add OPTIONS under the **Allowed Methods** field of your **Trigger Parameters** menu in workflow setting&#x73;**.**
 
-<figure><img src="../../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2026-04-20 at 3.43.36 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Troubleshoot the CORS webhook trigger
 

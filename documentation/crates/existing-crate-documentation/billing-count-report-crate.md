@@ -138,22 +138,27 @@ Below is the total list of tools that work with our Billing Count Report Crate.
 6. Click **Continue**.
 7. Click **Unpack**.
 
-### Test the Crate
+### Update the cron trigger schedule
 
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.<br>
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
+{% endhint %}
 
-1. Navigate to **Automations > Workflows**.
-2. Search for `billing count` .
-3. Click on the workflow to open it in the workflow builder.
-4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will trigger then on its own. A ticket or email will be generated if the workflow is successful.
+The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
-<figure><img src="../../../.gitbook/assets/image (49) (2).png" alt=""><figcaption></figcaption></figure>
+1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
+2. Search for `[REWST - PROCESS] Billing Count Report`.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. If necessary, enable [Critical Timing](../../automations/intro-to-triggers/#critical-timing).
+7. Click **Save Trigger**.
 
 ## Troubleshoot the Billing Count Report Crate
 
-This workflow is meant to run from your parent organization only. If you’re seeing workflow failures for child organizations, disable the trigger for child organizations in the configuration page for the Crate.
+This workflow is meant to run from your parent organization only. If you’re seeing workflow failures for child organizations, disable the trigger for child organizations in the Run For tab of the Trigger Settings menu for the workflow.
 
-<figure><img src="../../../.gitbook/assets/image (48) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 1.52.00 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

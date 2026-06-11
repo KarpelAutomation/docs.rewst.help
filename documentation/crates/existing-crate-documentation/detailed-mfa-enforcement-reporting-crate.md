@@ -56,16 +56,20 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-09-25 at 11.37.40 AM.png" alt=""><figcaption></figcaption></figure>
 
-### Adjust the cron trigger and schedule
+### Adjust the cron trigger&#x20;
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.&#x20;
+{% endhint %}
 
 If you chose to run the workflow in this Crate on a schedule rather than manually triggering via form submission, you can adjust the timing of when the run will be scheduled. The cron trigger for this Crate is set to trigger once monthly, on the first day of the month.
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - PROC] Detailed MFA Reporting` .
-3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (196).png>) to **Edit Trigger**.
-5. Adjust the cron trigger's schedule to your desired time.
-6. Click **Submit**.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Adjust the cron trigger's schedule to your desired time.&#x20;
+6. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

@@ -6,8 +6,6 @@ You would like to get the count of days between dates.
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.57.44 PM.png" alt="A screenshot of the get days between dates transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 Get the number of days between two dates.
 
 ## Parameters

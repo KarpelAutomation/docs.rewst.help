@@ -9,12 +9,12 @@ Multi-instance integration enables you to designate one instance as the default,
 ### Set up a multi-instance integration
 
 1. Navigate to the integration settings page for the integration that requires multiple configurations.
-2. Click ![](<../../../.gitbook/assets/Screenshot 2025-05-12 at 9.11.03 AM.png>) in the top left of your screen.&#x20;
+2. Click ![](<../../../.gitbook/assets/Screenshot 2025-05-12 at 9.11.03 AM.png>) in the top left of your screen.
 3.  Click **Add Configuration**. A new configuration form will appear.\
     <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-12 at 9.09.48 AM.png" alt=""><figcaption></figcaption></figure>
-4. Enter descriptive title into the **Name** field of the **Add Configuration** dialog.&#x20;
+4. Enter descriptive title into the **Name** field of the **Add Configuration** dialog.
 5. Click **Submit.** This will create a new Configuration form to fill out on the center of your screen, as well as a new option for this configuration under the ![](<../../../.gitbook/assets/Screenshot 2025-05-12 at 9.11.03 AM.png>) drop-down selector. In future, you'll click in this list to determine which configuration you'd like to view at any given time.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-05-12 at 9.13.08 AM.png>)<br>
@@ -25,35 +25,38 @@ Multi-instance integration enables you to designate one instance as the default,
 Organizations that are assigned to another configuration should be blocked from editing until you navigate to that configuration page. Ensure any existing workflows using the integration continue to run normally with the correct configuration.
 {% endhint %}
 
-
-
 ### Trigger a workflow with a non-default integration configuration
 
 A workflow trigger can be set up to use a secondary integration configuration. Setting up the integration override will cause all actions in the workflow to use the override configuration.
 
-1. Click **Add Trigger** or click the trigger you have already set up from the workflow editor.
-2. Fill out the [trigger](../../automations/intro-to-triggers/) form to create your trigger.
-3. Click ⊕ to add an override.
-4. Select the integration you have set up with multiple configurations that you would like to override.
-5. Choose the **Use Select Config** radio button to generate a drop-down with available configurations, **Use** **Name Search** to type in the name of the configuration to select the new configuration for this action, or **Use Org Mapping** to use the mapping defined on the integration settings page.
-6. Select the fallback mode radio button to either use the default integration configuration when the override configuration is unavailable, or fail the workflow when the override configuration is unavailable.
-7. Click **Submit**.
+1. Click on the trigger in the workflow to open its settings in the right side menu.
+2. Click **Overrides > + Add Integration Override**.
+3. Select the integration you have set up with multiple configurations that you would like to override.
+4. Use the **Configuration Selection Mode** radio buttons to generate a drop-down with available configurations:
+   1. **Use Default** - The default configuration for the workflow owner will be used
+   2. **Use Selected Config** - Select a specific integration configuration to use
+   3. **Use** **Name Search** - Type in the name of the configuration to select the new configuration for this action
+   4. **Use Org Mapping** - Use the mapping defined on the integration settings page
+5. Select the fallback mode radio button to either use the default integration configuration when the override configuration is unavailable, or fail the workflow when the override configuration is unavailable.
+6. Click **Submit**.
 
-![multitenancy-trigger-form](https://user-images.githubusercontent.com/22626085/223553923-558f8e2c-f73f-4a6d-995c-3bdfbaa3bb47.gif)
+<div><figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 2.21.21 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 2.18.45 PM.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Configure an action to use a non-default integration configuration
 
 Actions can be set on an action-by-action basis to use a non-default or secondary integration. If you have already set an override on the trigger for the workflow, the actions will use the same configuration as the trigger.
 
-1. Add the action to a workflow. Remember, once an action is on your workflow builder canvas, we call it a task.
-2. Click on task to open the action panel.
-3. Scroll to the **Integration Overrides** Section on the advanced tab of the panel.
-4. Click ⊕ to add an override.
-5. Choose the **Use Select Config** radio button to generate a drop-down with available configurations, **Use Name Search** to type in the name of the configuration to select the new configuration for this action, or **Use Org Mapping** to use the mapping defined on the integration settings page.
-6. Select the configuration from the drop-down or type in the configuration name depending on which radio button was chosen.
-7. Select the fallback mode radio button to either use the default integration configuration when the override configuration is unavailable, or fail the workflow when the override configuration is unavailable.
+1. Add the action to a workflow.&#x20;
+2. Click on action to open the its settings in the right side menu.
+3. Click **Advanced > + Add New Integration Override**.
+4. Use the **Configuration Selection Mode** radio buttons:
+   1. **Use Default** - The default configuration will be used
+   2. **Use Select Config** - Choose a specific integration configuration to use for this task from a list of available configurations
+   3. **Use Name Search** - Type in the name of the configuration to select the new configuration for this action
+   4. **Use Org Mapping** - Use the mapping defined on the integration settings page
+5. Select the fallback mode radio button to either use the default integration configuration when the override configuration is unavailable, or fail the workflow when the override configuration is unavailable.
 
-![multitenancy-task-config-form](https://user-images.githubusercontent.com/22626085/223554540-427c55e4-8d87-4576-980e-2cc1c853a7da.gif)
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 2.41.52 PM.png" alt="" width="195"><figcaption></figcaption></figure>
 
 ### Limitations and future enhancements to multi-instance integrations
 
@@ -71,5 +74,5 @@ Currently, Rewst doesn't support multitenancy for the following integrations:
 * Microsoft Graph
 * SQL Database
 
-For directions for how to handle multiple instances of these integrated apps, see our documentation [here](integrate-multiple-instances-of-the-same-integration.md).&#x20;
+For directions for how to handle multiple instances of these integrated apps, see our documentation [here](integrate-multiple-instances-of-the-same-integration.md).
 {% endhint %}

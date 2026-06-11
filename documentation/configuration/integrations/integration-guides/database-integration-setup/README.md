@@ -7,7 +7,7 @@ The SQL Database integration in Rewst allows users to connect to their existing 
 Our integration works with [versions of MSSQL that are actively supported by Microsoft](https://docs.sqlalchemy.org/en/20/dialects/mssql.html#dialect-mssql).
 
 {% hint style="info" %}
-When enabling SQL Database integration and not using[ BYOD](../../../../integrations/integration-guides/database-integration-setup/byod-for-dattormm.md), the following [completion handlers](../../../../automations/workflows/completion-handlers-and-workflow-wrappers.md) will still be automatically enabled, and will need to be disabled manually:
+When enabling SQL Database integration and not using[ BYOD](../../../../integrations/integration-guides/database-integration-setup/byod-for-dattormm.md), the following [completion handlers](/broken/pages/fm8eIBTHO3CnDr23CZjX) will still be automatically enabled, and will need to be disabled manually:
 
 * BOYD: Insert Data Into Database
 * BYOD: Upsert Cache DB Data Listener<br>

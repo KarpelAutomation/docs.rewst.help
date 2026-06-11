@@ -10,11 +10,7 @@ You need to compare two lists and highlight the unique entries or entries exclus
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.24.48 AM.png" alt=""><figcaption></figcaption></figure>
-
 The `Diff Lists` transform is your solution for list comparison tasks. It uses two methods - `Anti-Join` and `Symmetric Difference` - to focus on unique or exclusive entries, thereby streamlining your data comparison process.
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.59.50 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Parameters
 

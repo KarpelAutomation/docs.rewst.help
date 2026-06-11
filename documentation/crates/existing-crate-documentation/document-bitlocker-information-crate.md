@@ -40,21 +40,23 @@ Before unpacking this Crate, you'll first need to have:
    4. **Cron Schedule**: A trigger parameter that defines when the workflow will be executed. This determines the frequency at which computer configurations and BitLocker data updated.
 7. Click **Unpack**.
 
-### Test the Crate
+### Update the cron trigger
 
-To test this Crate, you'll need to adjust the [cron trigger](https://docs.rewst.help/documentation/automations/intro-to-triggers#core-cron-job)'s schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. The cron trigger for this Crate is set to trigger daily at 7:00 AM (UTC).
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.&#x20;
+
+Verify documented results. Depending on your configured documentation platform:
+
+1. Check for computer assets/configurations and verify they match with your RMM.
+2. Check for BitLocker assets/documents and verify they are correct for each computer.
+{% endhint %}
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `[REWST - CRATE] Docs: Document Bitlockers` .
-3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (196).png>) to **Edit Trigger**.
-5. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own then.
-6. Verify documented results. Depending on your configured documentation platform:
-   1. Check for computer assets/configurations and verify they match with your RMM.
-   2. Check for BitLocker assets/documents and verify they are correct for each computer.
-7. Re-adjust the time of the cron trigger to when you would like it to routinely ru&#x6E;**.**
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-25 at 3.51.53 PM.png" alt="Screenshot of the Rewst automation interface titled “[REWST – CRATE] Docs: Document Bitlockers,” showing an enabled cron job trigger named “Cron Job.” The configuration includes integration overrides like ConnectWise Automate and others. The cron schedule is set to run daily at 7:00 AM UTC, with no errors detected in the external status."><figcaption></figcaption></figure>
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Adjust the cron trigger's schedule to your desired time. The cron trigger for this Crate is set to trigger daily at 7:00 AM (UTC) if left on its default setting.
+6. Click **Save Trigger**.
 
 ## Organization variables associated with this Crate
 

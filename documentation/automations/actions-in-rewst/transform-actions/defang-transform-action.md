@@ -8,8 +8,6 @@ You would like to defang it and make it not directly usable.
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-14 at 12.17.28 PM.png" alt=""><figcaption></figcaption></figure>
-
 Given a URL, this action will 'defang' the url by adding characters to prevent it from being directly usable.
 
 ## Parameters

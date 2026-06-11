@@ -1,8 +1,8 @@
 # JSONPath for data redaction in Rewst
 
-In the **Security** tab of any task, you have the option to use the **Redacted** fields to customize how Rewst handles sensitive information.
+In the **Security** setting menu of any action, you have the option to use the **Redacted** fields to customize how Rewst handles sensitive information.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-11-11 at 10.02.34 AM.png" alt="" width="369"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-27 at 2.55.46 PM.png" alt="" width="201"><figcaption></figcaption></figure>
 
 ## Jinja versus JSONPath with complex nested data
 
@@ -73,7 +73,7 @@ Imagine that you have a large JSON payload returned from an API containing organ
 
 This solution works for your goal, but it's dense, and leaves chains of loops and filters that can be hard to read or debug given how nested the code becomes.
 
-Instead, you could use JSONPath for a much simpler situation that requires just one line to navigate straight down the structure.  You can combine multiple queries to redact several fields at once. Test redaction by reviewing task logs. Sensitive fields will appear as `********`.
+Instead, you could use JSONPath for a much simpler situation that requires just one line to navigate straight down the structure. You can combine multiple queries to redact several fields at once. Test redaction by reviewing task logs. Sensitive fields will appear as `********`.
 
 #### Example JSONPath
 
@@ -132,8 +132,6 @@ The result would be:
 | Mask credentials   | `$..password`, `$..Authorization`, `$..tokens[*].value`        |
 | Mask sensitive IDs | `$..id`                                                        |
 | Mask partial sets  | `$.result.services[0].users[0:2].username` or `[-2:].username` |
-
-
 
 ```
 ## 🔹 Basic Structure
@@ -646,7 +644,7 @@ result → services[*] → name
 ["auth-service", "data-service"]
 ```
 
-#### &#x20;**Endpoint URLs**
+#### **Endpoint URLs**
 
 **Path**
 
@@ -903,7 +901,7 @@ result → meta → contact → team[*] → members[?(@.on_call == true)]
 ["Eve", "Rita"]
 ```
 
-#### &#x20;Extract a**ll timestamps** anywhere in the structure using `$[*]..timestamp` style
+#### Extract a**ll timestamps** anywhere in the structure using `$[*]..timestamp` style
 
 #### **JSONPath**
 

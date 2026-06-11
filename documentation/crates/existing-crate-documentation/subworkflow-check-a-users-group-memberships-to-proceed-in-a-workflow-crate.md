@@ -71,14 +71,17 @@ jinja
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Click into the workflow where you would like to use the subworkflow, or create a new workflow.
 3. Search in your actions list for `Check if a User is in an AzureAD Group`.\
-   ![](<../../../.gitbook/assets/Screenshot 2025-12-19 at 9.51.38 AM.png>)
-4. Click and drag the action to the Workflow Builder canvas.
-5.  Enter the required information into the following fields of the task's configuration menu:
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 9.14.19 PM.png>)
+4. Click and drag the action to the Workflow Builder Canvas.
+5.  Enter the required information into the following fields of the action's **Parameters** tab:
 
     1. **groups**: the name or ID of AzureAD Groups to check the user's membership against
     2. **username**: use CTX.username to capture the form submitter
 
-    ![](<../../../.gitbook/assets/Screenshot 2025-12-19 at 9.54.30 AM.png>)
+
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 9.15.16 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

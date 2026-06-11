@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Identify Users in Bypass Mode Crate do?
 
-Our Identify Users in Bypass Mode Crate identifies all users that are in bypass mode and creates a PSA ticket to ensure that the granting of bypass mode is intentional and tracked. The Crate’s workflow has a weekly cron trigger. Guarantee that any user in bypass mode is regularly identified, and not missed or forgotten.
+Our Identify Users in Bypass Mode Crate identifies all users that are in bypass mode and creates a PSA ticket to ensure that the granting of bypass mode is intentional and tracked. The Crate’s workflow has a weekly cron trigger. Guarantee that any user in bypass mode is regularly identified, and not missed or forgotten. You also have the option to set an email send to notify you if the workflow fails.
 
 ## Crate prerequisites
 
@@ -28,17 +28,27 @@ Before unpacking this Crate:
 
 <figure><img src="../../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
-### Test the Crate
+### Update the cron trigger
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
+{% endhint %}
 
 1. Navigate to **Automations > Workflows**.
-2. Search **Duo:** **Identify Users In Bypass Mode**.
-3.  Click into the workflow.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
-4.  The trigger has the workflow set to run at 12 am on Fridays. This can be changed by clicking ![](<../../../.gitbook/assets/image (196).png>). You also have the option to set an email send to notify you if the workflow fails.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
+2. Search for **`Duo: Identify Users In Bypass Mode`**.
+3. Click on the workflow to view it in the Workflow Builder.
+4. Update the timing of the cron trigger as desired. Note that when entering the time into the Cron Schedule field, the correct format is minutes followed by hour. For example, 18 3, not 3 18. The trigger has a default setting to run at 12 AM EDT on Fridays.&#x20;
+5. Click **Save Trigger**.<br>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
+
+### Set the email for failure notification.
+
+1. Navigate to **Automations > Workflows**.
+2. Search for **`Duo: Identify Users In Bypass Mode`**.
+3. Click on the workflow to view it in the Workflow Builder.
+4. Scroll over the workflow and locate the **send\_error\_to\_email** task.
+5. Click into the task. Navigate to the **Parameters** tab.
+6. Update the desired email address in the **fallback\_email** field.&#x20;

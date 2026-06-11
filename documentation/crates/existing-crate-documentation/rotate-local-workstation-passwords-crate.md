@@ -31,7 +31,7 @@ This Crate provisions a dedicated local administrator account on each workstatio
 
 ## Crate prerequisites
 
-Your [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be successfully integrated with Rewst.&#x20;
+Your [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) must be successfully integrated with Rewst.
 
 [IT Glue](../../integrations/integration-guides/it-glue-integration-setup.md) or [Hudu](../../integrations/integration-guides/hudu-integration-setup.md) integration must successfully be set up with Rewst.
 
@@ -39,27 +39,26 @@ Your [RMM](../../integrations/top-5-integration-types-get-started-with-integrati
 
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Rotate Local Workstation Passwords`.​\
-   &#x20; \
-   &#x20;![](<../../../.gitbook/assets/Screenshot 2025-12-02 at 4.18.38 PM.png>)
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2025-12-02 at 4.18.38 PM.png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Ensure that **Enabled** is toggled on for **Cron Job** under **Configure Triggers**. Note that you have the option under the accordion menu of the trigger to activate the Crate for all future organizations in addition to the current one. You may also set the [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 7. Click **Unpack**.
 
-## Use the Crate
+## Update the cron trigger
 
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. To edit a cron trigger in the workflow to either test it once or change the time it will routinely run:
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Check your documentation tool to ensure that the asset is created.
+{% endhint %}
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[REWST - CRATE] Rotate Local Workstation Passwords`**.**
 3. Click on the workflow to view it in the Workflow Builder.
-4. Click ![](<../../../.gitbook/assets/image (226).png>) to open the **Edit Trigger** menu.
-5. The default **Cron Schedule** under **Trigger Parameters** is currently set to Friday at 3:20 PM UTC. This may be kept as is or if desired, be modified. To modify, update the timing of the cron trigger in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. Click **Submit**.
-7. Click **Save**.
-8. You'll see a green message at the top of your screen indicating the trigger is saved.
-9. Check your documentation tool to ensure that the asset is created.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. The default **Cron Schedule** is set to Friday at 3:20 PM UTC by default. Update the timing of the cron trigger as desired. Note that when entering the time into the Cron Schedule field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

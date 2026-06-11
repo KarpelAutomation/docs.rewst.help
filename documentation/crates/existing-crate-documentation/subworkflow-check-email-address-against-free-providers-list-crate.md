@@ -48,11 +48,13 @@ Output: `free_provider` - boolean of whether the email provided is from a free p
 2. Click into the workflow where you would like to use the subworkflow, or create a new workflow.
 3. Search in your actions list for `Check Email Address Against Free Providers List`.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-12-19 at 10.23.53 AM.png>)
+   ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 9.16.50 PM.png>)
 4. Click and drag the action to the Workflow Builder canvas.
-5.  Enter the **email address** you would like to check into the relevant field of the task's configuration menu.
+5.  Enter the email address you would like to check into the **email\_address** field of the action's **Parameters** tab.
 
-    ![](<../../../.gitbook/assets/Screenshot 2025-12-19 at 10.24.11 AM.png>)
+
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 9.17.02 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

@@ -33,20 +33,20 @@ Your [ConnectWise PSA](../../integrations/integration-guides/connectwise-integra
 10. Ensure that **Enabled** is toggled on in the **Company Record Saved** accordion menu.
 11. Click **Unpack**.
 
-### Use the Crate
+## Adjust the cron trigger&#x20;
 
-#### Adjust the cron trigger and schedule
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.&#x20;
+{% endhint %}
 
 You can adjust the timing of when the run of the Crate's workflow will be scheduled. The cron trigger for this Crate is set to trigger once monthly, on the first day of the month.
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `Deactivate Contacts from Deactivated PSA Companies`.
-3. Click on the workflow to open it in the workflow builder.
-4. Click ![](<../../../.gitbook/assets/image (196).png>) to **Edit Trigger**.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
 5. Adjust the cron trigger's schedule to your desired time. By default, the Crate runs daily at 3:32 AM.
-6. Click **Submit**.
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-26 at 11.01.04 AM.png" alt=""><figcaption></figcaption></figure>
+6. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

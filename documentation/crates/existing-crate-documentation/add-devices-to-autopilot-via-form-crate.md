@@ -31,7 +31,7 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
     ![](<../../../.gitbook/assets/image (8).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
-5. Click **Continue**.&#x20;
+5. Click **Continue**.
 6. Enter **Time Saved** under **Crate Configuration**.
 7. Ensure that **Enabled** is toggled on under **Configure Triggers**.\
    Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also choose to add trigger criteria from this menu.
@@ -57,22 +57,20 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
     * **Assigned user -** Select the applicable user from the drop-down list
 
     If **Import via CSV** is selected, proceed to the next step.
-6. Click **Submit**.  You'll see a green message at the top of your screen indicating the form is submitted successfully.
+6. Click **Submit**. You'll see a green message at the top of your screen indicating the form is submitted successfully.
 
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[Rewst Master v2] BYOD: Retrieve Data from Database`.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[Rewst Master v2] BYOD: Retrieve Data from Database`.
 3. Click on the workflow to view it in the Workflow Builder.&#x20;
-4. Click **Test** in the top right corner of the Workflow Builder Canvas.
+4. Click **Run** in the top right corner of the Workflow Builder Canvas.
 5. The following fields will show:
    * `force_default` **-** This field is used in form configurations to control whether a form field should use a predefined default value from organization variables. When set to `true`, it tells the form to use the corresponding `form_default_*` organization variable as the default value for that field.
    * `byod_object_type` **-** This field is related to the [Bring Your Own Database](../../integrations/integration-guides/database-integration-setup/byod-for-dattormm.md) or BYOD integration feature. BYOD is used to improve performance when RMM APIs are slow by caching data in a local database.
-6. Click **Test**.
+6. Click **Run Test**.
 7. Allow the workflow to run.
-8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
+8. You'll see a green success message in the workflow results in the right side menu if the execution is successful. You'll see a red failure message if the execution fails. Click on the blocks in the execution summary for a more detailed breakdown of the results.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

@@ -31,8 +31,8 @@ The [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integra
 
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Sync LastLoggedInUser to PSA Config Item`.​\
-   &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (262).png>)
+   \
+   ![](<../../../.gitbook/assets/image (262).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -51,18 +51,15 @@ The [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integra
 ### Test the Crate <a href="#test-the-crate" id="test-the-crate"></a>
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[Rewst Master v2] Assign Last Logged in User to AT Asset`.\
-    &#x20;&#x20;
-
-    <figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[Rewst Master v2] Assign Last Logged in User to AT Asset`.
 3. Click on the workflow to view it in the Workflow Builder.
-4. Click **Test** in the top right corner of the builder canvas.
+4. Click **Run** in the top right corner of the builder canvas.
 5. Choose the applicable options from the following drop-down selectors:
    * **Trigger Context Organization** - The applicable organization&#x20;
    * **target\_org** - A string variable or parameter that holds the textual identifier of the target organization
-6. Click **Test**.
+6. Click **Run Test**.
 7. Allow the workflow to run.
-8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
+8. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
 9. Verify that the PSA assets are up to date with RMM device data.
 
 {% hint style="info" %}

@@ -1,9 +1,5 @@
 # Best practices for designing workflows
 
-{% hint style="info" %}
-These recommendations align with the standards and guidelines that our internal ROC team and service partners follow when building workflows with Rewst. By adhering to these practices, you can leverage the same principles that guide our experts, enhancing the efficiency, reliability, and maintainability of your automation.
-{% endhint %}
-
 ## Design principles
 
 When designing workflows, keep these three guiding principles in mind.

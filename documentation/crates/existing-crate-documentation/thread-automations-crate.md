@@ -27,13 +27,13 @@ Note that the individual setting up the integration must be an admin in Thread.
 2. Navigate to [**Thread Admin**](https://admin.getthread.com/) **> Magic AI > Magic Agents > Catalog**.
 3. Click **Create Intent**.
 4. Enter the intent details into their relevant fields exactly as follows:
-   * **Intent Name**: `Rewst - Onboarding` \
+   * **Intent Name**: `Rewst - Onboarding`\
      ![](<../../../.gitbook/assets/Screenshot 2025-06-09 at 1.33.24 PM.png>)
-   *   **Describe the intent**: `An intent to assist in building new intents within the Magic Agent service catalog by gathering necessary information, including crafting effective prompts for arguments. Think logically about the user’s intent and craft questions to fill in more about the issue or request, like features IT might need. The goal is to ask the right questions to gather accurate information so a Tier 2 IT Service Tech will have all they need to resolve the issue. Keep questions succinct, minimal, logically ordered, and ensure logical consistency.` \
+   *   **Describe the intent**: `An intent to assist in building new intents within the Magic Agent service catalog by gathering necessary information, including crafting effective prompts for arguments. Think logically about the user’s intent and craft questions to fill in more about the issue or request, like features IT might need. The goal is to ask the right questions to gather accurate information so a Tier 2 IT Service Tech will have all they need to resolve the issue. Keep questions succinct, minimal, logically ordered, and ensure logical consistency.`\
        <br>
 
        <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.08.53 AM.png" alt=""><figcaption></figcaption></figure>
-   * **Visibility filters**: Choose the **Specific clients** option to select your internal or test companies, or modify to specific client types as needed. If you would rather, choose **All clients**.&#x20;
+   * **Visibility filters**: Choose the **Specific clients** option to select your internal or test companies, or modify to specific client types as needed. If you would rather, choose **All clients**.
 5.  Click **+Add form field** three times to create a total of four form fields, including the one that was available when you first created the intent. Name them each exactly as follows - the match must be exact for the Crate to work:
 
     1. `First Name`
@@ -72,16 +72,15 @@ Note that the individual setting up the integration must be an admin in Thread.
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 11.05.39 AM.png" alt=""><figcaption></figcaption></figure>
 12. Navigate to **Automations > Workflows**.&#x20;
 13. Search for `[Rewst - Crate] Thread Automations`.
-14. Click on the workflow to enter the workflow builder view.
-15. Click ![](<../../../.gitbook/assets/image (196).png>) to open the trigger.
-16. Click **View Webhook URLs** under **Trigger Configuration**.<br>
+14. Click on the workflow to view it in the Workflow Builder.
+15. Click on the trigger in the workflow to open its settings in the right side menu.
+16. Click **Copy URL**. You'll need this URL for further set up steps in Thread.\
+    \
+    ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 9.23.38 PM.png>)
+17. Find the **Secret Key** drop-down selector under that **Trigger Parameters** submenu. Set the organization variable you created earlier. <br>
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 10.42.00 AM.png" alt=""><figcaption></figcaption></figure>
-17. Copy the URL. You'll need this URL for further set up steps in Thread.
-18. Find the **Secret Key** drop-down selector under that **Trigger Parameters** submenu. Set the organization variable you created earlier. <br>
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-10 at 11.22.13 AM.png" alt=""><figcaption></figcaption></figure>
-19. Click **Submit**.
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 9.24.36 PM.png" alt=""><figcaption></figcaption></figure>
+18. Click **Save Trigger**.
 
 ### Additional setup steps in Thread
 
@@ -101,8 +100,6 @@ You can modify the fields collected in the Thread Intent to match your specific 
 ### **Thread reply message**
 
 You can customize the External Reply field in the Intent to provide personalized confirmation messages to users after they submit their information.
-
-
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

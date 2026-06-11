@@ -6,8 +6,6 @@ You are working with an API that returns a time in UTC, you would like to locali
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.38.40 PM.png" alt="" width="191"><figcaption></figcaption></figure>
-
 Convert a DateTime to a different timezone.
 
 ## Parameters

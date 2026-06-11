@@ -64,17 +64,15 @@ Set the [org variable](../../integrations/organization-variables.md) **`mail_quo
 To test if the Crate is working properly, you'll want to use the test function directly in the workflow for the Crate.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `Alert when Users' Mailboxes are Reaching Quota`.<br>
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-16 at 3.34.41 PM.png" alt=""><figcaption></figcaption></figure>
-3. Click on the workflow to view it in the workflow builder.&#x20;
-4. Click **Test** in the top right corner of the builder canvas.
-5.  Choose the organization you'd like to use to test the workflow.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
-6. Click **Test**.
+2. Search for `[REWST - PROC] Alert when Users' Mailboxes are Reaching Quota`.
+3. Click on the workflow to view it in the Workflow Builder.&#x20;
+4. Click **Run** in the top right corner of the Workflow Builder Canvas.
+5. Choose the organization you'd like to use to test the workflow from the drop-down selector.
+6. Click **Run Test**.
 7. Allow the workflow to run.
-8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
+8. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.\
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 1.13.20 PM.png>)
 9. If using PSA ticketing with this workflow, check in your PSA to ensure that the ticket was created as expected. If not using PSA ticketing, check your inbox to ensure that the email was sent.
 
 {% hint style="info" %}

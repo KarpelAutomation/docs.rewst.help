@@ -12,7 +12,7 @@ This Crate does not update accounts not listed in the configuration, grant or re
 
 ### How the Crate works
 
-The Crate runs on a scheduled rotation, based on configured frequency preference. There's also a manual trigger for immediate rotation, if needed.&#x20;
+The Crate runs on a scheduled rotation, based on configured frequency preference. There's also a manual trigger for immediate rotation, if needed.
 
 * Identifies configured admin accounts
 * Generates strong, random passwords that meet your policy
@@ -44,26 +44,26 @@ Before unpacking this Crate, you'll need to successfully integrate either [IT Gl
 5. Decide if you want the workflow in the Crate to run on a schedule or by manual triggering.
    1. Leave **Enabled** toggled on to use a cron trigger and schedule
    2. Toggle **Enabled** to off to use the workflow with a manual trigger
-6. Choose which organizations you would like to activate this Crate for via the **Activate for organizations** drop-down selector.&#x20;
+6. Choose which organizations you would like to activate this Crate for via the **Activate for organizations** drop-down selector.
 7. Add **Trigger Criteria** and **Integration Overrides**, if desired.
 8. Click **Unpack**.
 
 ### Set up the organization variable for the Crate
 
-Make an organization variable called `rotate_admins`  for each organization that you want to rotate passwords for. Follow setup instructions here for [how to create new organization variables](../../integrations/organization-variables.md).
+Create an organization variable called `rotate_admins`  for each organization that you want to rotate passwords for. Follow setup instructions here for [how to create new organization variables](../../integrations/organization-variables.md).
 
 In the organization variable, give a list of users for all accounts you want to rotate. Format that list comma delimited. For example, `job_admin,paul_admin,steve_admin`.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-19 at 3.52.50 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Note that if you test or run the workflow in this Crate before setting up the rotate\_admins organization variable, your workflow will still show as successful, but will consider the list of users to be empty.&#x20;
+Note that if you test or run the workflow in this Crate before setting up the rotate\_admins organization variable, your workflow will still show as successful, but will consider the list of users to be empty.
 {% endhint %}
 
 ### Update the cron trigger
 
 {% hint style="info" %}
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.&#x20;
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
 {% endhint %}
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.

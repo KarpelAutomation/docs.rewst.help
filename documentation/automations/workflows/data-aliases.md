@@ -23,19 +23,22 @@ When adding a new data alias, you'll need the following:
 
 ### Data alias context example
 
-If you set an alias such as `my_task_result -> {{ RESULT }}`, later tasks can refer to this data using `{{ CTX.my_task_result }}`.
+If you set an alias such as `my_task_result -> {{ RESULT }}`, tasks can later refer to this data using `{{ CTX.my_task_result }}`.
 
 You can also use a data alias to extract specific information and manipulate data. Expanding on our example from above, take the input from the Microsoft Graph get user action and extract the user's name and user principal name for ease of use.<br>
 
-1. Drag the **Get User** action onto the workflow builder canvas.
-2. Add your user into the **User ID** field.
-3.  Set your context variable name under **Publish Result As.** The workflow action results will be stored as the value.<br>
+1. Drag the Microsoft Graph **Get User** action onto the Workflow Builder Canvas.
+2. Click on the action, then its **Parameters** tab.
+3. Add your user into the **User ID** field.
 
-    <figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
-4.  Add your data alias name. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>)to open the Jinja editor and set up your data alias.
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.58.31 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
-5.  Use the following Jinja to create a new dictionary object and set the `displayName` and `userPrincipalName` keys.<br>
+4. Click the **General** tab.
+5.  Set your context variable name under **Publish Result As.** The workflow action results will be stored as this value.<br>
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 5.00.26 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+6. Open the Jinja editor and set up your data alias.
+7.  Use the following Jinja to create a new dictionary object and set the `displayName` and `userPrincipalName` keys.<br>
 
     ```
     {{
@@ -45,9 +48,9 @@ You can also use a data alias to extract specific information and manipulate dat
     }
     }}
     ```
-6. Run the workflow. Then, click **View Results**
-7. Click **Load Context.**
-8.  Expand the context to see our data alias `filtered_user_details` now only showing the `displayName` and `userPrincipalName` .
+8. Run the workflow. Then, click **View Results**
+9. Click **Load Context.**
+10. Expand the context to see our data alias `filtered_user_details` now only showing the `displayName` and `userPrincipalName` .
 
     <figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
@@ -55,19 +58,23 @@ You can also use a data alias to extract specific information and manipulate dat
 
 Data aliases are added via transitions. See more about how to use [transitions in workflows here](task-transitions.md).
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-24 at 11.21.18 AM.png" alt=""><figcaption></figcaption></figure>
+1. Click on the transition in your workflow in the Workflow Builder Canvas.\
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2026-04-20 at 4.49.13 PM.png>)
+2. Click **+ Add Data Alias** in the right side menu.
+3. Paste the key into the **key** field. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) to open the Jinja editor and set up your data alias.
+4. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-20 at 4.53.10 PM.png>)to remove a data alias.
+5. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-20 at 4.53.40 PM.png>) and drag it as desired to move multiple data aliases up and down in the data alias list.
 
-1. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 11.22.42 AM.png>)to add your data alias.
-2. Paste the key into the **key** field. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>)to open the Jinja editor and set up your data alias.
-3. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 11.27.05 AM.png>)to remove a data alias.
-4. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 11.27.26 AM.png>) and ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 11.27.45 AM.png>)to move multiple data aliases up and down in the data alias list.
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.52.39 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Access data aliases in a workflow
 
 1. Navigate to **Automations > Workflows**.
-2. Search for your desired workflow.
-3.  Click **>** to the far right of that workflow to open its workflow builder canvas.\
+2. Search for your desired workflow.&#x20;
+3.  Click **>** to the far right of that workflow to open its Workflow Builder Canvas. \
     <br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-06 at 4.39.51 PM.png" alt=""><figcaption></figcaption></figure>
-4. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.42.21 PM.png" alt="" data-size="line"> to open the **Data Aliases** menu. This will display a complete list of all data aliases for that workflow.
+4. Click <img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.45.41 PM.png" alt="" data-size="line"> in the top navigation bar to open the **Settings** in the right side menu.
+5. Click the **Data Aliases** tab. This will show a complete list of all existing data aliases for that workflow.

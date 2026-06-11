@@ -2,19 +2,19 @@
 
 ## What is an action?
 
-_Actions_ are the operations available for creating and automating, which live inside of a [workflow](../workflows/). You grab these actions from the left side menu of the workflow builder, and drag them onto the workflow canvas. When you run a workflow, Rewst is completing a series of actions specified within that workflow. Once an action has been dragged onto the canvas, we refer to that dragged action as a _task_, to differentiate between a dragged and undragged action.
+_Actions_ are the operations available for creating and automating, which live inside of a [workflow](../workflows/). You grab these actions from the left side library menu of the workflow builder, and drag them onto the Workflow Builder Canvas. When you run a workflow, Rewst is completing a series of actions specified within that workflow.
 
-Once you've set up an [integration](https://docs.rewst.help/documentation/integrations), Rewst offers you a number of actions related to that integration to build your workflows. They're accessible from the accordion menus in the left side menu of the workflow builder, and sorted based on their respective sources, including integrations by brand, Core, Rewst, Transform, and Workflow. Expand any accordion to see the related actions it contains.
+Once you've set up an [integration](https://docs.rewst.help/documentation/integrations), Rewst offers you a number of actions related to that integration to build your workflows. They're accessible from the accordion menus in the left side library menu of the Workflow Builder, and sorted based on their respective sources, including integrations by brand, Core, Rewst, Transform, and Workflow. Expand any accordion to see the related actions it contains.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-04 at 4.15.14 PM.png" alt="" width="242"><figcaption><p>The actions menu of the workflow builder</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 10.01.24 PM.png" alt=""><figcaption><p>The actions menu of the Workflow Builder</p></figcaption></figure>
 
-Each action serves a unique purpose and comes with a brief description to aid in understanding its functionality. Click on any action to begin dragging and dropping it onto your Workflow Builder Canvas. For more on our workflow builder and how workflows are essential to Rewst, see our workflow documentation [here](https://docs.rewst.help/documentation/workflows).&#x20;
+Each action serves a unique purpose and comes with a brief description to aid in understanding its functionality. Click on any action to begin dragging and dropping it onto your Workflow Builder Canvas. For more on our Workflow Builder and how workflows are essential to Rewst, see our workflow documentation [here](https://docs.rewst.help/documentation/workflows).&#x20;
 
 {% hint style="success" %}
 Click through to any of the related action type pages to learn more.
 {% endhint %}
 
-Each task has a set of configuration options within it, editable in its right side menu of the Workflow Builder once dragged onto the canvas. Learn more about settings for tasks [here](../workflows/workflow-builder-how-to-set-up-a-workflow.md#configure-tasks) in our workflow documentation.
+Each action has a set of configuration options within it, editable in its right side menu of the Workflow Builder once dragged onto the Canvas. Learn more about settings for tasks [here](../workflows/workflow-builder-how-to-set-up-a-workflow.md#configure-tasks) in our workflow documentation.
 
 ### Core actions
 
@@ -64,7 +64,7 @@ Generic actions rely heavily on your reading the integration's API documentation
 
 Generic actions are typically named after the integration in the format of `[integration] API Request`. For example, for HaloPSA the action is called `HaloPSA API Request` .
 
-<figure><img src="../../../.gitbook/assets/image (79).png" alt="" width="246"><figcaption><p>The HaloPSA generic action</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-16 at 11.49.29 AM.png" alt=""><figcaption><p>The HaloPSA generic action</p></figcaption></figure>
 
 {% hint style="warning" %}
 Note that the paginate request option in any generic action modifies how the request is formed. This can cause issues on the API's side, causing them to behave unexpectedly and return error messages.

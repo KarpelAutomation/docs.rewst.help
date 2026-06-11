@@ -8,7 +8,7 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Mart, Jon, Joshua, Michael, and Dom for passing the Foundations Certification.
-    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.
   * Bart, Charlie, Stephen, Kian, and Sebastian for passing the Clean Automation Certification.
     * Take the [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention") exam and get that fancy certificate!
 * The next [**Rewst Foundations Bootcamp**](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp) is coming up **Mar 3 - Mar 4.** Remember to register for **both parts** 1 and 2!
@@ -49,10 +49,7 @@ Explore what new changes the Training team has made in the last week.
 * [Cove integration documentation](https://docs.rewst.help/documentation/integrations/security/cove-integration)
 * [Webroot integration documentation](https://docs.rewst.help/documentation/integrations/security/webroot)
 * [Updated Crate documentation template to include more styling examples and links to other new existing documentation](https://www.notion.so/rewst/CLONE-ME-Crate-documentation-template-18cb56f9907180a2a9bcca3b6b26506d)
-* [Updated the Completion Handler documentation](../../../documentation/automations/workflows/completion-handlers-and-workflow-wrappers.md)
+* [Updated the Completion Handler documentation](/broken/pages/fm8eIBTHO3CnDr23CZjX)
 * [Updated Email + Text Automation Jump Start Page to clarify last step with link to Completion handler docs](/broken/pages/hu1NFkJO9UmG8ssgIFy7)
 
 </details>
-
-
-

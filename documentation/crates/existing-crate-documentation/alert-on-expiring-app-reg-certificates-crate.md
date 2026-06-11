@@ -42,18 +42,21 @@ Our Alert on Expiring App Reg Certificates Crate identifies any expiring certifi
 4. Enter your **Time Saved**.
 5. Click **Unpack**.
 
-### Test the Crate
+### Update the cron trigger schedule
 
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Tickets will be created if expiring certs are found.
+{% endhint %}
+
+The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for `Alert on Expiring App Certs [Part 1]`.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption><p>The workflow, in a search result</p></figcaption></figure>
-3.  Click on the workflow to open it in the workflow builder.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
-4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own, and tickets will be created if expiring certs are found.
+2. Search for  `Alert on Expiring App Certs [Part 1]`.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. If necessary, enable [Critical Timing](../../automations/intro-to-triggers/#critical-timing).
+7. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

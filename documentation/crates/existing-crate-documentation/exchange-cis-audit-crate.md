@@ -33,19 +33,21 @@ Your [PSA must successfully be integrated](../../integrations/top-5-integration-
 6. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](https://docs.rewst.help/documentation/automations/intro-to-triggers/trigger-criteria), or for integration overrides.
 7. Click **Unpack**.
 
-### Test the Crate
+### Update the cron trigger
 
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. After unpacking, the default schedule for this Crate is once monthly, on the first day of each month.
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Check in your PSA to ensure that the workflow creates a ticket as expected.
+{% endhint %}
+
+&#x20;After unpacking, the default schedule for this Crate is once monthly, on the first day of each month.
 
 1. Navigate to **Automations > Workflows**.
 2. Search for `[ROC] EXO: CIS Audit`.
-3. Click on the workflow to open it in the workflow builder.
-4. Adjust the cron trigger's schedule to five minutes from your current time. The workflow will run on its own. Check in your PSA to ensure that the workflow creates a ticket as expected.
-5. Re-adjust the cron trigger's schedule to run as you would normally wish.
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-25 at 12.05.01 PM.png" alt=""><figcaption></figcaption></figure>
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

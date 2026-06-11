@@ -1,7 +1,5 @@
 # YAML parse transform action
 
-
-
 ## Use case
 
 An API has returned a YAML formatted string and you would like to convert it to a JSON object.
@@ -9,8 +7,6 @@ An API has returned a YAML formatted string and you would like to convert it to 
 ## Overview
 
 Parses a YAML string and returns the resulting data structure in JSON.
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-03 at 8.38.28 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Parameters
 

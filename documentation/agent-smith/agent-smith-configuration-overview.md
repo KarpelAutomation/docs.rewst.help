@@ -158,10 +158,6 @@ We've received rare reports of the setup Crates improperly generating secret key
 
 1. Navigate to **Automations > Workflows**.
 2. Search for and open the **Agent Smith: Agent Registration** workflow.
-3. Click <img src="../../.gitbook/assets/Screenshot 2026-02-13 at 4.12.42 PM.png" alt="" data-size="line">to open the edit trigger menu.
-4. Scroll down to **Trigger Parameters**.
-5.  Choose **iothub\_registration\_secret** in the **Secret Key** drop-down selector.\
-    <br>
-
-    <figure><img src="../../.gitbook/assets/Screenshot 2026-02-13 at 4.14.09 PM.png" alt=""><figcaption></figcaption></figure>
-6. Click **Submit**.
+3. Click on the trigger to open its settings in the right side menu.
+4. Choose **iothub\_registration\_secret** in the **Secret Key** drop-down selector.
+5. Click **Submit**.&#x20;

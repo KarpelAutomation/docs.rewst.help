@@ -6,8 +6,6 @@ You would like to set a variable for use later in the workflow
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 3.07.35 PM.png" alt="A screenshot of the set variable transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 Set a variable as an action.
 
 This transform will allow you to set a variable using an action vs. setting a data alias in a transition.

@@ -16,10 +16,9 @@ By default, the Microsoft: User Onboarding Crate provisions users immediately up
 
 Configure the following **organizational variable** in **Rewst > Configuration > Organizational Variables**:
 
-| **Variable name**                | **Purpose**                                              | **Default value** |
-| -------------------------------- | -------------------------------------------------------- | ----------------- |
-| `require_approval_for_new_users` | Enables the approval step before user creation.          | `0` Disabled      |
-| `new_user_approval_email`        | Defines the email address for sending approval requests. | None              |
+| `require_approval_for_new_users` | Enables the approval step before user creation.          | `0` Disabled |
+| -------------------------------- | -------------------------------------------------------- | ------------ |
+| `new_user_approval_email`        | Defines the email address for sending approval requests. | None         |
 
 {% hint style="warning" %}
 If approvals are enabled, ensure that designated approvers regularly check for pending requests.
@@ -31,18 +30,16 @@ The Crate automatically creates and updates tickets in supported PSA platforms.
 
 ### **Automated PSA ticket creation and management**
 
-| **Functionality**                | **Description**                                                   |
-| -------------------------------- | ----------------------------------------------------------------- |
 | **Create Ticket if None Exists** | A ticket is automatically created if one is not found.            |
+| -------------------------------- | ----------------------------------------------------------------- |
 | **Update Existing Ticket**       | If a ticket exists, it is updated with onboarding progress.       |
 | **Track Onboarding Status**      | The ticket logs user details, licensing, and provisioning status. |
 | **Define Ticket Prioritization** | Rewst assigns default priorities, work roles, and tech IDs.       |
 
 ### **Ticketing organizational variables**
 
-| **Variable name**                 | **Purpose**                                                      |
-| --------------------------------- | ---------------------------------------------------------------- |
 | `default_psa`                     | Selects the PSA where tickets will be created.                   |
+| --------------------------------- | ---------------------------------------------------------------- |
 | `default_ticket_location`         | Defines the board for Rewst-created tickets.                     |
 | `default_ticket_status`           | The ticket status when Rewst is actively processing.             |
 | `ticket_status_waiting_input`     | The status when waiting for manual input-e.g., license purchase. |
@@ -68,9 +65,8 @@ The onboarding process can be scheduled for a future date instead of immediate p
 
 This setting is useful when onboarding users before their official start date.
 
-| **Variable name**               | **Purpose**                        | **Default value** |
-| ------------------------------- | ---------------------------------- | ----------------- |
-| `allow_scheduled_user_creation` | Enables scheduled user activation. | `0` (Disabled)    |
+| `allow_scheduled_user_creation` | Enables scheduled user activation. | `0` (Disabled) |
+| ------------------------------- | ---------------------------------- | -------------- |
 
 ## **Multi-Factor Authentication enrollment**
 
@@ -128,17 +124,14 @@ To configure where passwords are stored, update the following variables:
 
 </details>
 
-
-
 ## **Licensing and group assignments**
 
 The Crate supports multiple licensing and group assignment methods.
 
 ### **License assignment options**
 
-| **Method**                   | **Description**                                             |
-| ---------------------------- | ----------------------------------------------------------- |
 | **Direct Assignment**        | The user is assigned an M365 license individually.          |
+| ---------------------------- | ----------------------------------------------------------- |
 | **License Group Membership** | The user is added to an M365 license group.                 |
 | **Auto-Purchase Licenses**   | If no licenses are available, Rewst can purchase new seats. |
 
@@ -168,12 +161,8 @@ Expand each of the steps below to see the related part of the process flow.
 
 <summary>1. Adding a note to the PSA ticket</summary>
 
-
-
 * When a manual license purchase is required, the workflow adds an internal note to the PSA ticket.
-
-- This note informs the technician that a license is needed and provides action URLs to confirm purchase or reject purchase.
-
+* This note informs the technician that a license is needed and provides action URLs to confirm purchase or reject purchase.
 *   The message added to the ticket is as follows:
 
     > `The organization Name requires a license and either you have selected to purchase the license manually or the organization is not mapped with the distributor.`
@@ -185,16 +174,13 @@ Expand each of the steps below to see the related part of the process flow.
     > `If you don't want to purchase the license right now, click the URL below. You will need to manually apply a license to the user after the workflow is complete:`
     >
     > \*\*`Reject License Purchase:** **Link**`
-
-- The workflow pauses execution until one of these actions is taken.
+* The workflow pauses execution until one of these actions is taken.
 
 </details>
 
 <details>
 
 <summary>2. Technician decision : Confirm or reject license purchase</summary>
-
-
 
 The technician has two options:
 
@@ -221,36 +207,30 @@ The technician has two options:
 
 <summary>3. Handling timeouts: No action taken</summary>
 
-
-
 * If **neither Confirm** nor **Reject** is selected within 24 hours, the workflow automatically adds a timeout note to the PSA ticket.
-
--   The message added to the ticket is:
+*   The message added to the ticket is:
 
     `No option was chosen to purchase the license, and the request has now timed out.`
-
 * The workflow proceeds without assigning a license, requiring manual intervention later.
 
 </details>
 
 ## **Workflow breakdown**
 
-| **Step**                             | **Action taken**                                                               | **Outcome**                                                                               |
-| ------------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | Add PSA Note                         | Adds a note to the PSA ticket requesting manual license purchase confirmation. | Technician receives instructions to confirm or reject the purchase.                       |
-| Technician Confirms License Purchase | Clicks **"Confirm License Purchase"** link.                                    | The workflow assigns the license and proceeds with onboarding.                            |
-| Technician Rejects License Purchase  | Clicks **"Reject License Purchase"** link.                                     | The workflow proceeds **without assigning a license**, requiring manual assignment later. |
+| ------------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Technician Confirms License Purchase | Clicks **Confirm License Purchase** link.                                      | The workflow assigns the license and proceeds with onboarding.                            |
+| Technician Rejects License Purchase  | Clicks **Reject License Purchase** link.                                       | The workflow proceeds **without assigning a license**, requiring manual assignment later. |
 | Technician Takes No Action           | No response within **24 hours**.                                               | The workflow adds a timeout note and proceeds without assigning a license.                |
 
 ## **Organizational variables affecting this workflow**
 
-| **ORG.VARIABLES**                         | **Purpose**                                                                    |   |
-| ----------------------------------------- | ------------------------------------------------------------------------------ | - |
-| `ms_licensing_distributor`                | Defines the distributor for license purchases (if auto-purchasing is enabled). |   |
-| `auto_purchase_license_if_none_available` | Enables auto-purchase of licenses when none are available.                     |   |
-| `default_psa`                             | Defines which PSA system to log ticket updates in.                             |   |
-| `default_ticket_status`                   | Defines the PSA ticket status when waiting for technician input.               |   |
-| `ticket_status_waiting_input`             | The status set in PSA when awaiting technician action.                         |   |
+| `ms_licensing_distributor`                | Defines the distributor for license purchases (if auto-purchasing is enabled). |
+| ----------------------------------------- | ------------------------------------------------------------------------------ |
+| `auto_purchase_license_if_none_available` | Enables auto-purchase of licenses when none are available.                     |
+| `default_psa`                             | Defines which PSA system to log ticket updates in.                             |
+| `default_ticket_status`                   | Defines the PSA ticket status when waiting for technician input.               |
+| `ticket_status_waiting_input`             | The status set in PSA when awaiting technician action.                         |
 
 ## **Final notes**
 
@@ -264,26 +244,23 @@ The technician has two options:
 
 The Crate allows you to standardize username formats for new accounts.
 
-| **Format option**         | **Example** |
-| ------------------------- | ----------- |
-| First Initial + Last Name | `jdoe`      |
-| First Name + Last Name    | `johndoe`   |
-| First Name + Last Initial | `johnd`     |
+| First Initial + Last Name | `jdoe`    |
+| ------------------------- | --------- |
+| First Name + Last Name    | `johndoe` |
+| First Name + Last Initial | `johnd`   |
 
 Set the username format using the following variable:
 
-| **Variable Name** | **Purpose**                              | **Default Value**      |
-| ----------------- | ---------------------------------------- | ---------------------- |
 | `username_format` | Defines the standard username structure. | `firstinitiallastname` |
+| ----------------- | ---------------------------------------- | ---------------------- |
 
 ### **Offboarding defaults**
 
 The same workflow principles apply to user offboarding, ensuring proper deactivation and account cleanup.
 
-| **Setting**                   | **Purpose**                                   | **Default value** |
-| ----------------------------- | --------------------------------------------- | ----------------- |
-| `offboarding_deactivate_user` | Disables the user account during offboarding. | ✅ Enabled         |
-| `offboarding_remove_groups`   | Removes the user from security groups.        | ✅ Enabled         |
+| `offboarding_deactivate_user` | Disables the user account during offboarding. | ✅ Enabled |
+| ----------------------------- | --------------------------------------------- | --------- |
+| `offboarding_remove_groups`   | Removes the user from security groups.        | ✅ Enabled |
 
 {% hint style="warning" %}
 Offboarding settings should be reviewed periodically to ensure compliance with company policies.

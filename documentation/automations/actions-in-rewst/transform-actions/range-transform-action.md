@@ -8,8 +8,6 @@ You want to generate an array of integers from 1 to 100 to use in the **With Ite
 
 This transform will return a list of integers from start to end.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-08-21 at 2.21.45 PM.png" alt=""><figcaption></figcaption></figure>
-
 ## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>Start</td><td>The starting value of the range, inclusive. Default is 0 if not provided.</td><td>true</td></tr><tr><td>End</td><td>The ending value of the range, exclusive. Default is 0 if not provided.</td><td>true</td></tr><tr><td>Step</td><td>The step size for the range. Defaults to 1 if not provided.</td><td>false</td></tr></tbody></table>

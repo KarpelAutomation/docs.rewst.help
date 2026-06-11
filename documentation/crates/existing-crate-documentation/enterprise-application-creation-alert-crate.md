@@ -41,36 +41,29 @@ This Crate automates the monitoring of new enterprise applications in Microsoft 
 5. Note that you have the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [trigger criteria](https://docs.rewst.help/documentation/automations/intro-to-triggers/trigger-criteria) or for integration overrides.
 6. Click **Unpack**.
 
-### Use the Crate
-
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
-
-1. Create a new enterprise application in Microsoft Entra.
-2. Update your cron trigger in Rewst in the workflow to five minutes in the future.
-3. After the time has passed, check to ensure that a ticket was created for the new enterprise application in your PSA.
-4. Re-adjust the cron trigger as desired.
-
 ### Update the cron trigger schedule
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Check to ensure that a ticket was created for the new enterprise application in your PSA.
+{% endhint %}
 
 The cron trigger will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for `Alert - New Enterprise App Detected`.
+2. Search for  `Alert - New Enterprise App Detected`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure>
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. Click **Submit**.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. Click **Save Trigger**.
 
 ### Information recorded in the PSA ticket
 
 The ticket description contains the following detailed information about each new enterprise application detected, formatted differently based on the PSA system:
 
-1. **Application Display Name** - The friendly name of the application
-2. **Description** - The application's description from Azure AD
-3. **Creation Date** - When the application was created, formatted as `createdDateTime`
-4. **App ID** - The unique identifier for the application , `appId`
+1. Application Display Name - The friendly name of the application
+2. Description - The application's description from Azure AD
+3. Creation Date - When the application was created, formatted as `createdDateTime`
+4. App ID - The unique identifier for the application , `appId`
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

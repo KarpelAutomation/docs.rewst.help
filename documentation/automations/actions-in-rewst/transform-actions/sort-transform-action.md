@@ -2,8 +2,6 @@
 
 ## Use case
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-05-01 at 2.53.28 PM.png" alt="A screenshot of the sort transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 You are listing users from Microsoft Graph and you would like to sort the result alphabetically based on their displayName attribute.
 
 ## Overview

@@ -8,8 +8,6 @@ You have received a time value in epoch time from an API and would like to conve
 
 Given an integer for epoch time, convert it to a date time string.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-08-21 at 2.23.16 PM.png" alt=""><figcaption></figcaption></figure>
-
 ## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>Epoch Time Value</td><td>Epoch time value to convert to a date time string.</td><td>true</td></tr></tbody></table>

@@ -50,16 +50,12 @@ Before unpacking this Crate:
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `ConnectWise PSA Add or Update Communication Item to Contact`.
-
-
-
-    <figure><img src="../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+2. Search for `ConnectWise PSA Add or Update Communication Item to Contact`.
 3. Click on the workflow to view it in the Workflow Builder Canvas.&#x20;
-4. Click **Test** in the top right corner of the Workflow Builder Canvas.
-5. Click **Test**.
+4. Click **Run** in the top right corner of the Workflow Builder Canvas.
+5. Click **Run Test**.
 6. Allow the workflow to run.
-7. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
+7. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

@@ -6,8 +6,6 @@ You are trying to create a list of users from a Microsoft Graph return and want 
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.29.02 AM.png" alt=""><figcaption></figcaption></figure>
-
 Map to an attribute for each dictionary object in a list.
 
 ## Parameters

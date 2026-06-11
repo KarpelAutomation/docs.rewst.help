@@ -20,7 +20,7 @@ Our [Google Workspace Admin integration](../../integrations/integration-guides/g
 
 Your [PSA ](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)must be successfully integrated with Rewst.
 
-You must first add the [organization variables](../../integrations/organization-variables.md#what-is-an-organization-variable) `primary_identity_provider` and `default_PSA` in Rewst.&#x20;
+You must first add the [organization variables](../../integrations/organization-variables.md#what-is-an-organization-variable) `primary_identity_provider` and `default_PSA` in Rewst.
 
 ## Unpack the Google: User Offboarding Crate
 
@@ -36,10 +36,10 @@ You must first add the [organization variables](../../integrations/organization-
 ### Use the Crate
 
 {% hint style="warning" %}
-The form unpacked with this Crate offers a section for advanced settings. They should only be used if you fully understand their impact. For questions about the ramifications of using advanced settings, [contact Rewst Support](../../../support-and-community/roc-support/).&#x20;
+The form unpacked with this Crate offers a section for advanced settings. They should only be used if you fully understand their impact. For questions about the ramifications of using advanced settings, [contact Rewst Support](../../../support-and-community/roc-support/).
 {% endhint %}
 
-1. Navigate to **Automations > Assets> Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[Crate] GWS: User Offboarding`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains your relevant user. This will launch the form in a new tab.\

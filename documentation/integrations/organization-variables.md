@@ -2,7 +2,7 @@
 
 ## What is an organization?
 
-A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short.&#x20;
+A group or entity within the Rewst platform that may have its own variables, forms, workflows, and users, _organizations_ enable multi-tenanted management and customization of the platform according to specific customer needs. You may see us refer to an organization as an _org_ for short.
 
 Rewst uses a two-tier system to manage organizations, with your MSP as the _parent org_ and your customers as _child orgs_. To make automations work for your managed clients/customers, set them up as child orgs. Each time you bring on a new customer account, you'll need to add a corresponding child org in Rewst to enable automations for them.
 
@@ -64,7 +64,7 @@ For example, consider a scenario where you have three layers of organizations:
 
 **Parent > Child 1 > Child of Child 1**.
 
-If you create a workflow at the parent level and run the workflow via trigger as Child of Child 1, the organization variable value will come from the parent, not the Child 1 organization.&#x20;
+If you create a workflow at the parent level and run the workflow via trigger as Child of Child 1, the organization variable value will come from the parent, not the Child 1 organization.
 
 <figure><img src="../../.gitbook/assets/Org variable child of child graphic.png" alt=""><figcaption></figcaption></figure>
 
@@ -131,14 +131,11 @@ An easy way to find these is through the workflow builder, using create ticket a
 3. Add the following action type, depending on the brand of PSA you use:
    1. **ConnectWise PSA:** Create Service Ticket
    2. **Datto PSA:** Create Ticket v2
-   3.  **Halo PSA:** Add or Update Tickets
+   3. **Halo PSA:** Add or Update Tickets
+4. Click on your action to open up its settings in the right side menu.
+5.  Select the Display name you want the ID for from the drop-down selector, then click the ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) to the right to get the ID.<br>
 
-       <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.13 pm.png" alt=""><figcaption></figcaption></figure>
-4. Click the ⋮ in your action to open up its settings.
-5. Click in any field with a blue arrow.
-6.  Select the Display name you want the ID for, then click the ![](<../../.gitbook/assets/Screenshot 2025-03-13 at 5.55.52 PM.png>) to the left to get the ID.
-
-    <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.27 pm.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-04-27 at 9.22.04 AM.png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2024-12-31 at 1.59.32 pm.png" alt=""><figcaption></figcaption></figure>
 
@@ -148,7 +145,7 @@ Note that this method will only work for the three indicated PSA brands: Connect
 
 ## Form organization variables
 
-See more on organization variables for forms unpacked from Crates [here](organization-variables.md#form-organization-variables).&#x20;
+See more on organization variables for forms unpacked from Crates [here](organization-variables.md#form-organization-variables).
 
 ## Onboarding requirements
 

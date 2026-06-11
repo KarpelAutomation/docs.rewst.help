@@ -3,6 +3,24 @@ description: >-
   Learn all about our prebuilt automations: where to find them, and how to set
   them up
 icon: box
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Crates
@@ -16,7 +34,7 @@ Essentially, a Crate is a pre-built automation. A Rewst crate contains all the p
 Prebuilt automations are made by the Rewst team. We've tested them and created them for optimal time savings, with your most common tooling and processes in mind. Starting out with Crates is the quickest way to start seeing benefit from Rewst.
 
 {% hint style="success" %}
-Note that each Crate may differ in terms of requirements, setup time, and complexity.&#x20;
+Note that each Crate may differ in terms of requirements, setup time, and complexity.
 
 We try to provide an estimate of the setup time for each Crate, whenever possible, but info may not be readily available for newly released Crates.
 {% endhint %}
@@ -36,7 +54,7 @@ In the Crate Marketplace screen, you can:
 
 ![](<../../.gitbook/assets/Screenshot 2025-04-22 at 11.07.52 AM.png>)\
 \
-Each Crate has its own Crate tile in Crate Marketplace. The number on the bottom left corner of a Crate tile shows you the current count of fellow Rewsters that have unpacked and used the Crate.&#x20;
+Each Crate has its own Crate tile in Crate Marketplace. The number on the bottom left corner of a Crate tile shows you the current count of fellow Rewsters that have unpacked and used the Crate.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.00.22 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,11 +64,11 @@ Each Crate has its own Crate tile in Crate Marketplace. The number on the bottom
   * Integration
 * Click <img src="../../.gitbook/assets/Screenshot 2025-04-22 at 11.03.34 AM.png" alt="" data-size="line"> to access a shortcut to Rewst's documentation site section for Crates.<br>
 
-Click on the Crate tile for your desired Crate to open up its **Crate Details** page, which breaks down the purpose, features, and setup requirements of the Crate.  Note that there are two tabs to this page: **Overview**, and **What's Being Unpacked**.
+Click on the Crate tile for your desired Crate to open up its **Crate Details** page, which breaks down the purpose, features, and setup requirements of the Crate. Note that there are two tabs to this page: **Overview**, and **What's Being Unpacked**.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 11.24.30 AM.png" alt=""><figcaption></figcaption></figure>
 
-In the center of the **Overview** tab of the Crate details page, you'll find links to instructions for unpacking and using the Crate on our documentation site, in addition to some brief instructions for what to expect during the unpacking process.&#x20;
+In the center of the **Overview** tab of the Crate details page, you'll find links to instructions for unpacking and using the Crate on our documentation site, in addition to some brief instructions for what to expect during the unpacking process.
 
 In the right side menu, find the following information:
 
@@ -65,10 +83,10 @@ In the right side menu, find the following information:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-12 at 3.11.55 PM.png" alt=""><figcaption></figcaption></figure>
 
-* If the Crate requires [organization variables](../../documentation/integrations/organization-variables.md#what-is-an-organization-variable), these required variables will be shown in a section at the bottom of the right side menu. Crates that don't require organization variables won't have this section.&#x20;
+* If the Crate requires [organization variables](../../documentation/integrations/organization-variables.md#what-is-an-organization-variable), these required variables will be shown in a section at the bottom of the right side menu. Crates that don't require organization variables won't have this section.
 
 {% hint style="warning" %}
-You have the option to unpack a Crate even if your required integrations or organization variables aren't set up. Rewst will ask you to check a box to acknowledge that the minimum requirements haven't been met, then let you click **Unpack Crate** without those requirements.&#x20;
+You have the option to unpack a Crate even if your required integrations or organization variables aren't set up. Rewst will ask you to check a box to acknowledge that the minimum requirements haven't been met, then let you click **Unpack Crate** without those requirements.
 
 Any integrations or org variables set up after unpacking the Crate should be registered by the Crate and work towards satisfying its requirements to work properly. Rewst recommends you set up integrations and org variables before unpacking Crates unless you have a specific reason to do otherwise.
 {% endhint %}
@@ -87,8 +105,6 @@ Begin to unpack a Crate by clicking the pink **Unpack Crate** button in the top 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 11.11.16 AM.png" alt=""><figcaption><p>An example of a setup prompt, from the unpacking process of the Rewst: User Onboarding Crate</p></figcaption></figure>
 
-
-
 You might encounter a screen prompting you to enable or disable specific triggers. Make sure that you're only enabling the triggers that are relevant to you. Add any necessary customizations required by your business logic to avoid overwriting on Crate updates.
 
 {% hint style="danger" %}
@@ -98,8 +114,6 @@ Generally, integration overrides will be enabled on triggers when unpacking a Cr
 Optionally rename your workflow, trigger and form names, and update your **Time Saved** in the **Crate Configuration** page before finally confirming that you want to **Unpack**.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 11.12.46 AM.png" alt=""><figcaption><p>The final Crate Configuration screen from the unpacking process of the Rewst: User Onboarding Crate</p></figcaption></figure>
-
-
 
 Depending on the size of the Crate, unpacking may take a few minutes. Leave your browser window open without navigating away from your Rewst platform while the process completes. You'll see an animation on your screen while the Crate unpacks.
 
@@ -135,25 +149,27 @@ Modifying a Crate allows you to:
 
 * The left-side panel shows no editable actions when you are viewing the workflow. Instead, it contains a message letting you know it's cloned and synchronized.
 * A warning appears when testing the workflow: **This workflow is synchronized. No changes will be saved.**
-* The **Is synchronized** box will be checked in the workflow settings menu. Additionally, view the status in the **Attributes** column of the main workflow list page. Synced workflows will be listed as **Clone (sync)**.<br>
+* The **Sync with Original Workflow** toggle will be toggled on in the workflow settings menu. Additionally, view the status in the **Attributes** column of the main workflow list page. Synced workflows will be listed as **Clone (sync)**.<br>
+
+![Screenshot of the Workflow details panel in the Rewst Workflows interface, showing crate and clone information for a workflow, including notices about synchronization limits, the source crate and workflow links, and a dark-themed layout with a left navigation sidebar.](<../../.gitbook/assets/Screenshot 2026-04-16 at 2.29.53 PM.png>)
 
 ![Screenshot of the Workflow details panel in the Rewst Workflows interface, showing crate and clone information for a workflow, including notices about synchronization limits, the source crate and workflow links, and a dark-themed layout with a left navigation sidebar.](<../../.gitbook/assets/Screenshot 2026-03-06 at 10.07.12 AM.png>)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-21 at 5.45.04 PM.png" alt=""><figcaption><p>The <strong>Is Synchronized</strong> box, in a synced workflow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90) (1).png" alt=""><figcaption><p>The <strong>Sync with Original Workflow</strong> toggle, in a synced workflow</p></figcaption></figure>
 
 ### Sync or unsync subworkflows in a Crate
 
 Unsyncing a top level workflow doesn't affect the subworkflows inside it. They remain synced unless you unsync them individually. However, if you unsync a subworkflow and leave the top level synced, future updates to the Crate will overwrite your changes. To avoid this, you'll also need to unsync the parent workflow.
 
 {% hint style="info" %}
-[Completion handlers](../../documentation/automations/workflows/completion-handlers-and-workflow-wrappers.md) are a great, useful way to keep Crates synced while expanding functionality.
+[Completion handlers](/broken/pages/fm8eIBTHO3CnDr23CZjX) are a great, useful way to keep Crates synced while expanding functionality.
 {% endhint %}
 
 #### Scenario examples for syncing subworkflows in Crates
 
 If you have a workflow that has the parent workflow unsynced but has subworkflows that are synced, the subworkflows will still get updates.
 
-You have a parent workflow that is synced and have the subworkflows unsynced.  When Rewst pushes a update to the parent workflow, new subworkflows will get pushed to their organization and associate to that parent workflow.
+You have a parent workflow that is synced and have the subworkflows unsynced. When Rewst pushes a update to the parent workflow, new subworkflows will get pushed to their organization and associate to that parent workflow.
 
 If you make a clone with Synchronize changes unchecked, this will clone the workflow, and the parent workflow will not be associated with anything in the Crate and will not get updates. The subworkflows, however, will still be synced and will get updates.
 

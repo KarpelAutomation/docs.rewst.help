@@ -21,6 +21,19 @@ The workflow is initiated by a scheduled task that runs a PowerShell script at p
 
 If Rewst's [PowerShell interpreter](../../settings/powershell-interpreter.md) tool is installed, Crate workflows which have multiple-system dependencies will have increased efficiency with faster and more consistent cloud-native executions that are completed in seconds.
 
+## Workflow breakdown
+
+1. The workflow is initiated by a **Cron** trigger, which runs the workflow on a scheduled basis once activated.
+2. The first action, **begin**, executes a noop action that serves as the entry point of the workflow and immediately transitions on success to the next step.
+3. The action **check\_expiring\_passwords** runs the **On-Prem: Run PowerShell on Org Domain Controller** subworkflow, which executes a PowerShell script on the organization's domain controller to retrieve a list of users whose passwords are approaching expiration. The result is published into the workflow context as **expiring\_passwords**.
+4. If the PowerShell execution fails, the workflow transitions to the **failure\_getting\_expired\_passwords** action, which is a terminal noop action that ends the workflow on that failure path.
+5. If the PowerShell execution succeeds, the workflow moves to a second action also named **check\_expiring\_passwords**, which uses a noop action to evaluate whether any expiring passwords were actually returned. This action normalizes the data into a consistent list format via a data alias on its transition, handling both single-result and multi-result responses. If only one result is returned, it wraps it in a list. For each entry, if the user has no email address on file, it falls back to the organization variable **password\_expiry\_crate\_admin\_email** as a default recipient.
+6. If no expiring passwords were found — meaning the output is null or empty — the workflow transitions to the **no\_expiring\_passwords** action, which is a terminal noop action that ends the workflow gracefully with nothing to do.
+7. If expiring passwords were found, the workflow transitions to the **check\_email** action, which is a noop action using a "follow first" transition mode to determine whether any of the expiring password records have a valid email address.
+8. If at least one record has a non-null email address, the "Found" transition fires and the workflow proceeds to the **alert\_user** action. If none of the records have a valid email address, the "Not Found" transition fires and the workflow proceeds to the **email\_not\_found** action instead, which is a terminal noop that ends the workflow.
+9. The **alert\_user** action executes the **sendmail** action using a with-items loop that iterates over every entry in the expiring passwords list with a concurrency of one. For each user, it sends an email from "noreply" with a subject line indicating how many days remain until the password expires, and the message body is rendered from a stored template.
+10. After all emails have been sent, the workflow transitions to the **end** action, which is a terminal noop action that marks the successful completion of the workflow.
+
 ## Crate prerequisites
 
 One of the following RMM integrations must be set up before unpacking this Crate:

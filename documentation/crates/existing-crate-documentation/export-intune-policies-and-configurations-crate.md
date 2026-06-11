@@ -34,7 +34,7 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 1. Access the form by navigating to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `Intune`.&#x20;
 3. Click the form named **\[ROC] Endpoint: Export Intune Policies.**
-4. Click **⋮ >** **Usages >View Direct URLs**.
+4. Click **⋮ >** **Usages > View Direct URLs**.
 5. Click the form link for the organization you would like to use for your test.
 6.  Click the policies and configurations you would like to export, then click **Submit**.
 
@@ -54,4 +54,3 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).
 {% endhint %}
-

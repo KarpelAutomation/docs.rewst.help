@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Bulk Move Users to Specified OU Crate do? <a href="#what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do" id="what-does-the-browse-rewst-form-triggers-within-a-form-and-attach-to-a-ticket-crate-do"></a>
 
-Our Bulk Move Users to Specified OU Crate simplifies the task of moving Active Directory users to different organizational units by allowing you to select multiple users and then move them to the desired organizational unit in one automation, directly from your PSA ticket.&#x20;
+Our Bulk Move Users to Specified OU Crate simplifies the task of moving Active Directory users to different organizational units by allowing you to select multiple users and then move them to the desired organizational unit in one automation, directly from your PSA ticket.
 
 ### How the Crate works <a href="#how-the-crate-works" id="how-the-crate-works"></a>
 
@@ -17,7 +17,7 @@ Our Bulk Move Users to Specified OU Crate simplifies the task of moving Active D
 
 ### Workflow breakdown
 
-The workflow requires three input parameters: a ticket ID for tracking, the selected user with labels for identification, and the destination organizational unit with labels for the move operation.&#x20;
+The workflow requires three input parameters: a ticket ID for tracking, the selected user with labels for identification, and the destination organizational unit with labels for the move operation.
 
 1. The workflow begins with the **noop** action in the BEGIN task, which serves as the starting point and processes the input parameters including ticket\_id, selected\_user\_wlabels, and destination\_ou\_wlabels.
 2. The **BEGIN** task parses the input data by splitting the selected\_user\_wlabels and destination\_ou\_wlabels parameters to extract the user identifier, user label, destination OU identifier, and destination OU label, then publishes these values to the workflow context.
@@ -31,7 +31,7 @@ The workflow requires three input parameters: a ticket ID for tracking, the sele
 Before unpacking this Crate, you'll need to have successfully integrated your [RMM](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#rmm-integrations) and [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 
 {% hint style="warning" %}
-Note that this Crate does not work with SuperOps PSA. \
+Note that this Crate does not work with SuperOps PSA.\
 For RMM integration, you'll also need to import the appropriate PowerShell script component into your RMM platform to enable remote PowerShell execution on domain controllers.\
 Your RMM must have agents installed on or access to your Active Directory domain controllers
 {% endhint %}
@@ -40,8 +40,8 @@ Your RMM must have agents installed on or access to your Active Directory domain
 
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Bulk Move Users to Specified OU`.​\
-   &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (273).png>)
+   \
+   ![](<../../../.gitbook/assets/image (273).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -63,16 +63,12 @@ Your RMM must have agents installed on or access to your Active Directory domain
 ### Test the Crate <a href="#test-the-crate" id="test-the-crate"></a>
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[ROC] RMM: Move AD Users to Specified OU`.\
-    &#x20;&#x20;
-
-    <figure><img src="../../../.gitbook/assets/image (274).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[ROC] RMM: Move AD Users to Specified OU`.
 3. Click on the workflow to view it in the Workflow Builder.
-4. Click **Test** in the top right corner of the builder canvas.
-5. Click **Test**.
+4. Click **Run** in the top right corner of the Workflow Builder Canvas.
+5. Click **Run Test**.
 6. Allow the workflow to run.
-7. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
-8. Verify that the specified users have been moved to the target organizational unit. Also, confirm that no users were moved incorrectly.
+7. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

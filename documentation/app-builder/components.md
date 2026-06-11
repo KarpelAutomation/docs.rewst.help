@@ -564,7 +564,7 @@ An MSP might use the Chart component to visualize client network usage, system p
 
 The data table component allows you to display and manage rows of data in a structured, tabular format. This component is essential for MSPs to handle large datasets efficiently, such as client information, service logs, or performance metrics, providing a clear and interactive view of data.
 
-#### What the data table component could be used for
+### What the data table component could be used for
 
 * Displaying detailed lists of customer tickets and their statuses.
 * Managing inventory levels across multiple client sites.
@@ -573,11 +573,11 @@ The data table component allows you to display and manage rows of data in a stru
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 9.35.18 AM.png" alt=""><figcaption></figcaption></figure>
 
-#### **Example use case for the data table component** <a href="#example-use-case-for-the-data-table-component" id="example-use-case-for-the-data-table-component"></a>
+### **Example use case for the data table component** <a href="#example-use-case-for-the-data-table-component" id="example-use-case-for-the-data-table-component"></a>
 
 Consider a scenario where an MSP needs to monitor and manage network equipment across various client sites. The Data Table component can be used to list all equipment, displaying columns for device type, status, last service date, and location. Technicians can quickly sort by any column to prioritize devices that require immediate attention or filter to view only certain types of equipment. This use of the Data Table simplifies the management of numerous devices, ensuring that maintenance is timely and no critical issues are overlooked.
 
-#### Configure the data table component <a href="#configure-the-data-table-component" id="configure-the-data-table-component"></a>
+### Configure the data table component <a href="#configure-the-data-table-component" id="configure-the-data-table-component"></a>
 
 1. **Select the component**: Click on the added 'Data Table' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -616,7 +616,7 @@ Consider a scenario where an MSP needs to monitor and manage network equipment a
        * **Edit Table Configuration**: An array of component specific toggle's to modify the overall look and feel of the data table component.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
-#### Detailed example: Add data table component to page <a href="#detailed-example-add-data-table-component-to-page" id="detailed-example-add-data-table-component-to-page"></a>
+### Detailed example: Add data table component to page <a href="#detailed-example-add-data-table-component-to-page" id="detailed-example-add-data-table-component-to-page"></a>
 
 1. Navigate to **App Builder > Apps**. Click on your **Hello World** app.
 2. Click ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FCZo6ldGnH6mI54IKvYHU%252FScreenshot%25202025-03-14%2520at%252010.07.35%25E2%2580%25AFAM.png%3Falt%3Dmedia%26token%3D604f834d-4e7b-4ae9-8e89-7f68afc1c8f9\&width=300\&dpr=4\&quality=100\&sign=4f42465e\&sv=2)in the left side menu of the App Builder canvas. This will open the full component library.
@@ -624,10 +624,10 @@ Consider a scenario where an MSP needs to monitor and manage network equipment a
 4. Click **No Records Found. Add a Data Source**.
 5. Choose **Run Workflow on Load**.
    1. Whenever the page is loaded, the latest data will pull into it.
-   2.  Alternatively, **Use Latest Workflow** could be used if you were returning data on a cron and didn't want to load it each time.
+   2.  Alternatively, **Use Latest Workflow** could be used if you were returning data on a cron and didn't want to load it each time.&#x20;
 
        <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FmVmXQ4VZuUJ9HXLvrbXU%252Fdata%2520test%25201-min.png%3Falt%3Dmedia%26token%3Dcd1d8f2c-2ed0-4912-a408-6ed28ae1c05f&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e7226764&#x26;sv=2" alt=""><figcaption></figcaption></figure>
-6.  Choose **form\_output** in the **Workflow Output** drop-down selector. Once the workflow has finished, you'll see that option in the available list.
+6.  Choose **form\_output** in the **Workflow Output** drop-down selector. Once the workflow has finished, you'll see that option in the available list.&#x20;
 
     <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FeUVPJGuGdqK4ED04AGk9%252Fdata%2520test%25202-min.png%3Falt%3Dmedia%26token%3D534e804a-3afd-4889-9f6f-fd7a7b4b2d35&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=ec4d3dac&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 7. Click **Submit**.
@@ -645,6 +645,8 @@ Now let's make sure the user can actually get to the form, rather than just view
 
 11\. In the Accessor dropdown, select the **view** key. By leaving the URL blank later on, the action button will automatically use the value from this key. In the Jinja from the last step, we made sure the value was the link to that form.
 
+
+
 12\. Change the Type
 
 Change the Type to **action.**
@@ -652,6 +654,8 @@ Change the Type to **action.**
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2F0090aae6-a97f-4852-ad90-894040ec6c25%2F2.2922731242124%2F50.012881778879%2F77.418572277013%3F0\&width=768\&dpr=4\&quality=100\&sign=e31ebe81\&sv=2)
 
 13\. Change the column name. Add a header, which is the column name for this action button.
+
+
 
 <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2F60004a87-993c-4eb8-8c8b-8ef38c0ee908%2F2.2921757115931%2F50.000996727961%2F57.1015980728%3F0&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1b7e348c&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -673,9 +677,11 @@ Change the Type to **action.**
 
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2Fc2fb15ed-2320-42d1-a08a-2c2eb4421de4%2F2.5%2F53.71904729945%2F1.1118548791515%3F0\&width=768\&dpr=4\&quality=100\&sign=feefbf6c\&sv=2)
 
-#### Data table component settings
 
-**Data source settings**
+
+### Data table component settings
+
+#### Data source settings
 
 Configure how your data table loads and displays data from workflows:
 
@@ -689,11 +695,11 @@ Configure how your data table loads and displays data from workflows:
 | Watch Node IDs     | Form components that trigger automatic table refresh when submitted | Array of component IDs                                                                                                                                                                   |
 |                    |                                                                     |                                                                                                                                                                                          |
 
-#### Column configuration
+### Column configuration
 
 Each column supports extensive customization through both basic properties and advanced features inherited from Material React Table.
 
-**Basic column properties**
+#### Basic column properties
 
 | Setting      | Description                                                                        | Type                                           |
 | ------------ | ---------------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -705,7 +711,7 @@ Each column supports extensive customization through both basic properties and a
 | Min Size     | Minimum width when resizing                                                        | Number (default: 40px)                         |
 | Max Size     | Maximum width when resizing                                                        | Number (default: 1000px)                       |
 
-**Column behavior settings**
+#### Column behavior settings
 
 | Setting                | Description                                                           | Default |
 | ---------------------- | --------------------------------------------------------------------- | ------- |
@@ -716,7 +722,7 @@ Each column supports extensive customization through both basic properties and a
 | Enable Sorting         | Allow users to sort table by this column (shift+click for multi-sort) | True    |
 | Enable Column Actions  | Show column menu with options to hide, pin, group, or filter          | True    |
 
-**Column format and display**
+#### Column format and display
 
 | Setting             | Description                         | Options                           |
 | ------------------- | ----------------------------------- | --------------------------------- |
@@ -725,7 +731,7 @@ Each column supports extensive customization through both basic properties and a
 | Edit Variant        | Input type when editing             | text (default), select            |
 | Edit Select Options | Options for select dropdown editors | Array of { label, value } objects |
 
-**Aggregation and grouping**
+#### Aggregation and grouping
 
 When rows are grouped, columns can display aggregated values:
 
@@ -736,7 +742,7 @@ When rows are grouped, columns can display aggregated values:
 
 Custom Aggregation Cells: You can write custom React components to render aggregated values using the Custom Aggregated Cell code editor.
 
-**Action columns**
+#### Action columns
 
 Action columns display buttons that trigger workflows, open links, run scripts, or show dialogs:
 
@@ -755,7 +761,7 @@ Action columns display buttons that trigger workflows, open links, run scripts, 
 | Reload Table             | Refresh table data after action completes        | Boolean (default: false)                                                                                                      |
 | Use Hidden Column Data   | Include hidden column data when executing action | Boolean (default: false)                                                                                                      |
 
-**Conditional formatting**
+#### Conditional formatting
 
 Apply dynamic styling or behavior based on cell/row values:
 
@@ -771,7 +777,7 @@ Example Use Cases:
 * Show "Active" status in green, "Inactive" in gray
 * Apply warning colors based on numeric thresholds
 
-**Custom cell rendering**
+#### Custom cell rendering
 
 For maximum flexibility, write custom React/TypeScript components using the built-in code editor:
 
@@ -788,11 +794,11 @@ Features:
 * RoboRewsty AI assistant for code generation
 * Live preview of rendered component
 
-#### Table configuration settings
+### Table configuration settings
 
 These settings control the overall behavior and appearance of your data table, organized by feature area.
 
-**Layout and display**
+#### Layout and display
 
 | Setting                   | Description                                   | Options                                                                                                          | Default |
 | ------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------- |
@@ -800,7 +806,7 @@ These settings control the overall behavior and appearance of your data table, o
 | Enable Sticky Header      | Keep header visible when scrolling vertically | Boolean                                                                                                          | True    |
 | Enable Full Screen Toggle | Show button to expand table to full screen    | Boolean                                                                                                          | True    |
 
-**Pagination**
+#### Pagination
 
 Control how data is paginated and displayed across multiple pages:
 
@@ -813,7 +819,7 @@ Control how data is paginated and displayed across multiple pages:
 
 Note: Pagination is client-side by default. All data is loaded at once and paginated in the browser for optimal performance with datasets up to a few thousand rows.
 
-**Row expansion and detail panels**
+#### Row expansion and detail panels
 
 Configure how rows expand to show additional information:
 
@@ -828,7 +834,7 @@ Two types of expansion:
 1. Sub-Rows -hierarchical data: For nested data structures where each row can contain child rows of the same type. Example: Organization → Departments → Teams
 2. Detail panels - supplementary info: For showing additional information about a single row. Example: User row expands to show activity history, preferences, etc.
 
-#### Editing
+### Editing
 
 Enable inline or modal editing of table data:
 
@@ -841,7 +847,7 @@ Enable inline or modal editing of table data:
 Important: Enabling editing only updates the table UI. You must configure action columns or workflows to persist changes to your data source.
 {% endhint %}
 
-#### Column features
+### Column features
 
 Control user interactions with columns:
 
@@ -854,7 +860,7 @@ Control user interactions with columns:
 
 Column Pinning Best Practice: Use layoutMode: 'grid-no-grow' for fixed column widths when pinning to prevent columns from collapsing during horizontal scrolling.
 
-**Grouping and aggregation**
+#### Grouping and aggregation
 
 Group rows by column values and display aggregated summaries:
 
@@ -871,7 +877,7 @@ How grouping works:
 4. Aggregation functions calculate summaries for each group
 5. Multi-level grouping supported (group by Status, then by Priority)
 
-#### Toolbar customization
+### Toolbar customization
 
 Configure the top and bottom toolbars:
 
@@ -889,7 +895,7 @@ Built-in toolbar actions include:
 * Toggle fullscreen
 * Export data
 
-#### State management
+### State management
 
 The data table maintains state for various user interactions. These are typically managed automatically but can be controlled programmatically:
 
@@ -905,15 +911,15 @@ The data table maintains state for various user interactions. These are typicall
 | Expanded                | Object mapping row IDs to expansion state                    |
 | Workflow Output Columns | Auto-generated column definitions from workflow schema       |
 
-#### Advanced features
+### Advanced features
 
-#### Automatic table refresh
+### Automatic table refresh
 
 Configure the table to automatically refresh when specific events occur.
 
 Example: After a user submits a "Create User" form, automatically refresh the users table to show the new entry.
 
-#### AI-powered custom components
+### AI-powered custom components
 
 The RoboRewsty AI assistant helps you write custom cell rendering code:
 
@@ -930,19 +936,19 @@ Use cases:
 * Render images or avatars from URLs
 * Create complex layouts combining multiple fields
 
-#### Schema-based column generation
+### Schema-based column generation
 
-**Multi-column sorting**
+#### Multi-column sorting
 
 Hold Shift while clicking column headers to sort by multiple columns simultaneously. The sort order indicator shows the sequence.
 
 Example: Sort by Status (ascending), then by Priority (descending), then by Due Date (ascending).
 
-**Click to copy**
+#### Click to copy
 
 Enable on columns containing data users frequently need to copy (IDs, emails, URLs). A copy button appears on hover, providing one-click clipboard access.
 
-**Column actions menu**
+#### Column actions menu
 
 Each column header can display a menu (three dots icon) with options to:
 

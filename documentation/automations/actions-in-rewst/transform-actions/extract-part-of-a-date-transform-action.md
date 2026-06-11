@@ -8,8 +8,6 @@ You have received a date in a response from an API, you are going to use this to
 
 Given a date or date time string, extract a part of the date.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-09 at 9.39.20 AM.png" alt=""><figcaption></figcaption></figure>
-
 ## Parameters
 
 <table><thead><tr><th width="217">Parameter</th><th width="417.3333333333333">Description</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>Date Time String</td><td>The original date time string to extract a part from.</td><td>true</td></tr><tr><td>Part to Extract</td><td>The part of the date to extract. Defaults to year.</td><td>true</td></tr></tbody></table>

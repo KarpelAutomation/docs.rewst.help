@@ -12,24 +12,25 @@ Ultimately, an option generator workflow needs three things:
 1. A workflow designated as an option generator in the workflow configuration.
 2. Workflow output configuration that sets the value of options to the relevant workflow context variable.
 3. A Rewst form that contains a form field connected to the option generator workflow and its trigger.
-{% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=NGImOFnyeo8&t=1s" %}
+[RoboRewsty](../../roborewsty.md) can also help you generate option generator workflows, but the order of operations for how you make your ask and generate the pieces is important. If you ask for his help to make the option generator workflow from scratch, you'll be required to manually set up the form he uses before asking for his help. If you build the option generator yourself, then ask RoboRewsty to build a form for use with the option generator, he can generate the form for you.
+{% endhint %}
 
 ### Create an option generator workflow
 
 Before you begin, decide which options need to be displayed based on the user’s selection. For this example, the list of groups will change depending on whether the action is to add or remove a user.
 
-1. [Create a new workflow](workflow-builder-how-to-set-up-a-workflow.md).
-2. Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.39.11 PM.png" alt="" data-size="line">in the top menu bar of your workflow's workflow builder canvas.
-3. Click the **Workflow Type** drop-down selector.
-4.  Select **Option Generator**.\
-    <br>
+1. [Create a new workflow](workflow-builder-how-to-set-up-a-workflow.md).&#x20;
+2. Click  <img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.45.41 PM.png" alt="" data-size="line"> in the top menu bar of your workflow's Workflow Builder Canvas.&#x20;
+3. Click the **Workflow Type** drop-down selector.&#x20;
+4.  Select **Option Generator**.<br>
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-24 at 5.07.54 PM.png" alt=""><figcaption></figcaption></figure>
-5. Click ![](<../../../.gitbook/assets/Screenshot 2025-03-24 at 11.22.42 AM.png>) next to **Output Configuration** to create an output variable. Name the variable `options`. Every option generator workflow must have an [output variable](data-input-and-output-input-variables-and-context-variables.md#workflow-output) called `options`, which will contain the context variable that holds the data that you want to display.
-6. Click **Submit**. This will launch the workflow builder.
-7. Set up a [trigger](../intro-to-triggers/) for the workflow.
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 10.08.30 AM.png" alt=""><figcaption></figcaption></figure>
+5. Click the **Output** tab.
+6.  Click **+ Add Variable** to create an output variable. Name the variable `options`. Every option generator workflow must have an [output variable](data-input-and-output-input-variables-and-context-variables.md#workflow-output) called `options`, which will contain the context variable that holds the data that you want to display.<br>
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 10.38.13 AM.png" alt=""><figcaption></figcaption></figure>
+7. Set up a [trigger](../intro-to-triggers/) for the workflow. We recommend using an always pass trigger, to allow the corresponding form to 'always' be available to use. When you attach the trigger, you have the ability to add an integration override, which allows you to choose which organizations will run that specific option generator.
 
 ### Create a form to be used with the workflow
 
@@ -41,7 +42,7 @@ See the documentation for how to use our form builder to achieve this step [here
 
 1.  When the workflow runs, it should result in a context variable `{{ CTX.options }}` that contains a list of items with key-value pairs that will be referenced in the form editor.<br>
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 at 2.39.11 PM.png" alt=""><figcaption><p>An example of an options generator workflow for one of our unpacked Crates</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 10.37.04 AM.png" alt=""><figcaption><p>An example of an options generator workflow for one of our unpacked Crates</p></figcaption></figure>
 2. The values here will be used in the **Label Field** an **Value Field** for a form fiel&#x64;_._
    1. The **Label** is what gets shown to the user who fills out the form as an available choice.
    2. The **Value** field will be set to the value of the **Field Name** when that form is submitted. Workflows will reference this as `{{ CTX.<field_name> }}`

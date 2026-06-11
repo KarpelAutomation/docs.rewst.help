@@ -6,8 +6,6 @@ You are working with a list of users however, the dataset contains multiple obje
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-04 at 3.12.19 PM.png" alt=""><figcaption></figcaption></figure>
-
 Returns a list of unique items from the given list/iterable.
 
 ## Parameters

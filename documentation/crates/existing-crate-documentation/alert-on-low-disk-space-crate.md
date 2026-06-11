@@ -47,38 +47,37 @@ Your [RMM must be integrated](../../integrations/top-5-integration-types-get-sta
 
 If desired, there are two additional trigger parameter options to configure in the unpacked workflow for this Crate.
 
-1. Open the workflow `[Rewst- Crate] Alert on Low Disk Space` in the workflow builder.
-2. Click ![](<../../../.gitbook/assets/Screenshot 2025-11-17 at 4.41.39 PM.png>) to edit the trigger.
-3. Scroll down to the **Trigger Parameters** section.
-   1. Generate Ticket - A boolean value specifying whether you want a ticket generated or not
+1. Open the workflow `[Rewst - Crate] Alert on Low Disk Space` in the Workflow Builder.
+2. Click on the trigger to open its settings in the right side menu.
+3. Scroll down to the **Trigger Variables** section.
+   1. vars.generate\_ticket - A boolean value specifying whether you want a ticket generated or not
    2. Alert Remaining Freespace Percent - The percent, expressed as an integer, that an alert should be created for when freespace on a disk is at or falls below that value
 4. Click **Submit** when your desired changes have been configured.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-11-17 at 4.39.34 PM.png" alt="A navy blue background with white text denoting a section called Trigger Parameters. There are two fields, each titled Alert Remaining Freespace Percent and Generate Ticket. There is a notation that each of these fields is required. A button to open the Jinja editor appears to the right of each field."><figcaption></figcaption></figure>
 
-### Test the Crate
-
-To test the Crate to see if it works:
-
-1. You'll need to manually identify a device with limited disk space.
+1. You'll need to manually identify a device with limited disk space.&#x20;
 2. Navigate to **Automations > Workflows**.
 3. Search for `[Rewst- Crate] Alert on Low Disk Space`. Click to open the workflow in the Workflow Builder.
 4. Click **Test**.
-5. Check in your PSA to see if the ticket is attached to the device as expected.
+5. Check in your PSA to see if the ticket is attached to the device as expected.&#x20;
 6. If the ticket doesn't appear, check the workflow's results for the error and contact Rewst Support.
 
-### Adjust the Crate's cron trigger
+### Update the Crate's cron trigger
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Check in your PSA to see if the ticket is attached to the device as expected. If the ticket doesn't appear, check the workflow's results for the error and contact Rewst Support.
+{% endhint %}
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself.
 
-1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Workflows**.
 2. Search for `[Rewst- Crate] Alert on Low Disk Space`.
-3. Click on the workflow to view it in the workflow builder.
-4.  Click ![](<../../../.gitbook/assets/image (196).png>) to open the edit trigger menu.<br>
-
-    <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FwnXIbYjmeXtTETWFBKkI%252FScreenshot%25202025-06-25%2520at%25205.53.42%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D53680b5e-a0a9-4260-8d31-4802c66355e8&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e56327e1&#x26;sv=2" alt=""><figcaption></figcaption></figure>
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.
-6. Click **Submit**.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. If necessary, enable [Critical Timing](../../automations/intro-to-triggers/#critical-timing).
+7. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

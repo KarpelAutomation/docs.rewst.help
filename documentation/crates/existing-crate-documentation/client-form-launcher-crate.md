@@ -31,7 +31,7 @@ The automation kicks off via form submission:
 4. Click **Unpack Crate**.
 5. Click **Continue**.
 6. Ensure that **Enabled** is toggled on under **Configure Triggers**.\
-   Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one.  You may also set activation to certain [tags](../../settings/tags-in-rewst.md).&#x20;
+   Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](../../settings/tags-in-rewst.md).
 7. Click **Unpack**.
 
 ### Use the Crate
@@ -53,14 +53,12 @@ The automation kicks off via form submission:
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[[Rewst Master v3] PSA: Update Ticket – Actual`.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[[Rewst Master v3] PSA: Update Ticket – Actual`.
 3. Click on the workflow to view it in the Workflow Builder.&#x20;
-4. Click **Test** in the top right corner of the Workflow Builder Canvas.
-5. Click **Test**.
+4. Click **Run** in the top right corner of the Workflow Builder Canvas.
+5. Click **Run Test**.
 6. Allow the workflow to run.
-7. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
+7. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

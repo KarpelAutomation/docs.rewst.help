@@ -12,7 +12,7 @@ For more on how to see which triggers appear on a specific workflow, view our do
 
 Navigate to **Automations > Triggers** in the left side menu of Rewst to view the total triggers page, which contains a sortable list of all triggers in your Rewst instance, organized by tabs labeled with automation type. This includes triggers from your custom-built workflows and from unpacked Crates. Click on any of the column headers to sort the list by that criteria. Use the **Tags** drop-down selector to filter the list by specific tags.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-06-10 at 12.35.45 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.35.03 PM.png" alt=""><figcaption></figcaption></figure>
 
 Toggle any trigger to enabled or disabled in the **Status** column. Once toggled on, the slider will turn green, and a green checkmark will appear to the right to let you know that the enablement is complete.
 
@@ -20,31 +20,134 @@ Toggle any trigger to enabled or disabled in the **Status** column. Once toggled
 We're currently working on a feature limitation that prevents the last activity display for Always Pass and Interval triggers. Instead of listing the last activity, the trigger will show that it has never been activated. For these particular trigger types, confirm the last time the trigger was activated directly in the trigger rather than in the triggers page.
 {% endhint %}
 
+## Three trigger modes in Rewst
+
+{% hint style="info" %}
+Rewst launched the new Workflow Builder in May of 2026. Prior to that product change, the term _completion handler_ was used to refer to the interlinking of workflows. If you're a seasoned Rewst user, note that completion handlers are now achieved via inbound and outbound triggers.&#x20;
+{% endhint %}
+
+There are three trigger modes in Rewst. All are selected when creating your trigger in the trigger settings of the right side menu. Trigger modes can't be edited after a trigger is created. Click each type below to expand and learn about different modes.
+
+<details>
+
+<summary>Integration mode: Workflow triggered by an integration</summary>
+
+his is the default choice for standard events within the Rewst platform. The workflow waits for specified events to happen in your partner tools, if those partner tools are integrated with Rewst. Examples include ticket updates in your PSA, or user creation alerts. When you choose integration mode, the **Trigger Type** drop-down selector appears with a complete list populated to include all of your Rewst integrations.&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 3.15.34 PM.png" alt="" width="238"><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>Inbound mode: Workflow triggered by another workflow's completion</summary>
+
+This enables the workflow to start when another workflow completes, pulling in the data from each run. The workflow you're currently setting up is the first, enabling workflow in this scenario. Examples include alerting for failed workflow executions, like kicking off the trigger based on a failed status. These workflows have a [context variable ](../workflows/data-input-and-output-input-variables-and-context-variables.md)that can be used to reference previous contexts from the workflow that was completed. Select one or more status conditions that will trigger the target workflow
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 3.17.01 PM.png" alt="" width="241"><figcaption></figcaption></figure>
+
+Contexts from the previously run workflow can be accessed with the `COMPLETED_WORKFLOW` variable. You can access most info via the context including ORG and CTX such as:
+
+1. `{{ COMPLETED_WORKFLOW.ORG.VARIABLES.cw_manage_company_id }}`
+2. `{{ COMPLETED_WORKFLOW.CTX.user.username }}`
+
+Inbound and outbound triggers will always run in the context of the parent organization. If you are taking actions on a suborganization in the workflow, then you must use the run-as-organization functionality and overrides set at the trigger level.
+
+The organization ID that was used in the previous workflow context can be referenced with the following Jinja:
+
+`{{ COMPLETED_WORKFLOW.ORG.ATTRIBUTES.id }}`
+
+### Test inbound triggers <a href="#access-the-context-of-the-previous-workflow" id="access-the-context-of-the-previous-workflow"></a>
+
+Inbound trigger data is hard to fake for testing because it's represented as `COMPLETED_WORKFLOW.` instead of `CTX.COMPLETED_WORKFLOW.` Rather than running an entire workflow multiple times to test just this one element, create a [noop action](https://docs.rewst.help/documentation/workflows/actions-in-rewst/core-actions#no-operation-noop) that sets the test data, and use it to trigger your inbound trigger.
+
+In the noop, set all of the variables that will be used in your inbound trigger in the On Success transition as data aliases.
+
+It’s important that the names of the data aliases you create in the On Success transition of the noop match both:
+
+* the names of the variables that will be used in your inbound trigger
+* the names of the variables that will be used in the live parent workflow that your inbound trigger is triggered by
+
+Add static values that represent a good test case for ensuring that your inbound trigger functions the way you expect.
+
+#### **Example:** Test inbound triggers
+
+In the example below, we’ve created a workflow with a single noop. In the **On Success** transition, we’ve added several data aliases that represent user data that could be used to test a completion handler, which could be used after a user is onboarded or offboarded.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-06-10 at 1.14.08 PM.png" alt=""><figcaption><p>The noop action, its On Success transition, and the corresponding data aliases</p></figcaption></figure>
+
+Once you’ve created the noop and added the correct data, attach this workflow to your other workflow's inbound trigger as another parent workflow that will trigger the the inbound trigger. This will enable testing. If you need to run your test workflow for organizations other than your parent MSP organization, add a trigger to the workflow which will allow you to select which organization the test workflow runs for.
+
+</details>
+
+<details>
+
+<summary>Outbound mode: Workflow's completing triggers another workflow</summary>
+
+This enables another workflow to start when your workflow completes, pulling in the data from each run. The workflow you're currently setting up is the second, completing workflow in this scenario. These workflows have a [context variable ](../workflows/data-input-and-output-input-variables-and-context-variables.md)that can be used to reference previous contexts from the workflow that was completed. Select one or more status conditions that will trigger the target workflow
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 3.23.39 PM.png" alt="" width="242"><figcaption></figcaption></figure>
+
+Contexts from the previously run workflow can be accessed with the `COMPLETED_WORKFLOW` variable. You can access most info via the context including ORG and CTX such as:
+
+1. `{{ COMPLETED_WORKFLOW.ORG.VARIABLES.cw_manage_company_id }}`
+2. `{{ COMPLETED_WORKFLOW.CTX.user.username }}`
+
+Inbound and outbound triggers will always run in the context of the parent organization. If you are taking actions on a suborganization in the workflow, then you must use the run-as-organization functionality and overrides set at the trigger level.
+
+The organization ID that was used in the previous workflow context can be referenced with the following Jinja:
+
+`{{ COMPLETED_WORKFLOW.ORG.ATTRIBUTES.id }}`
+
+</details>
+
+{% hint style="warning" %}
+Inbound and outbound workflow triggering should be linear, never circular. Don't set two workflows to continually run when the other completes. This will cause the workflows to trigger each other in an infinite loop.
+{% endhint %}
+
 ## Create a trigger
 
-Add a trigger to a workflow by clicking the **Add Trigger** button in the workflow builder, which will open up a new dialog with a form.\
-![](<../../../.gitbook/assets/Screenshot 2025-02-21 at 11.13.39 AM.png>)
+Depending on your workflow, you may have one trigger or multiple triggers— for example, a webhook trigger and a trigger that runs when a ticket gets saved in your PSA. In either case, to begin:
 
-Note that you can have multiple triggers per workflow, for example a webhook and a trigger that runs when a ticket gets saved in the PSA.
+1. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-17 at 4.41.26 PM.png>) to open the library.&#x20;
+2. Click the **Flow Control** tab.&#x20;
+3. Drag the yellow **Triggers** bar onto your Workflow Builder Canvas.&#x20;
+4. Click on the bar to open trigger settings in the right side menu. Note that if you have one trigger or many triggers, all will show up in this right side menu in a list, which is always accessible by clicking the yellow bar. The number of total triggers will appear in a counter box in the far right of the dragged yellow bar.
 
-<figure><img src="../../../.gitbook/assets/add-trigger-form.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 3.55.59 PM.png" alt=""><figcaption><p>Note the Flow Control tab on the left, and the trigger settings on the right.</p></figcaption></figure>
 
-Update the relevant fields in the setup menu as needed, to set up your trigger. This might include [integration overrides](./) or [tags](../../settings/tags-in-rewst.md).
+5. Click + **Add Trigger**.&#x20;
+6. Fill out the **Trigger Settings** menu as follows:
+   1. Enter a descriptive name into the **Trigger Name** field.
+   2. Toggle the trigger to **Enabled** to use it in the workflow.
+   3. Use the **Trigger Mode** drop-down selector to choose the mode for your trigger:
+      1. **Integration**: The workflow is triggered by an integration with Rewst. If this is selected, choose a **Trigger Type** from the drop-down selector. Read more about trigger types in the  [later sections of this document](./#core-triggers).&#x20;
+      2. **Inbound**: The workflow's start is triggered by another workflow.
+      3. **Outbound**: The workflow's completing triggers another workflow.
+   4. Fill out the fields that appear depending on your trigger mode selection. For more on trigger modes and their required fields, see the [trigger mode section](./#three-trigger-modes-in-rewst) of this document.&#x20;
+7. Optional: Click the **Overrides** tab and add [integration overrides](./).
+8. Optional: Click the **Run For** tab and add or [tags](../../settings/tags-in-rewst.md).
+9. Click **Save Trigger**.
+10. Follow the process again to add additional triggers.&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 3.58.36 PM.png" alt="" width="233"><figcaption></figcaption></figure>
+
+
 
 ### Trigger criteria
 
-When you're comfortable with the basics of triggers, learn more about [trigger criteria here](./#trigger-criteria). It's a separate submenu within the trigger menu, and has its own documentation page. The below table outlines the fields in the trigger criteria configuration menu.<br>
+When you're comfortable with the basics of triggers, learn more about [trigger criteria here](./#trigger-criteria). It's a separate submenu tab the trigger menu, and has its own documentation page. The below table outlines the fields in the trigger criteria configuration menu.
 
 <table data-full-width="false"><thead><tr><th width="267">Item</th><th>Description</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>Whatever you would like to name your trigger, with a descriptive word or phrase for what it does.</td></tr><tr><td><strong>Enabled</strong></td><td>Toggle this on or off.</td></tr><tr><td><strong>Organizations</strong></td><td>Select all the organization that exist within Rewst that may need to use this workflow. If you add a new client, they will have to be added in that workflow trigger.</td></tr><tr><td><strong>Integration Override</strong></td><td>To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden. In the above example image, the trigger allows your clients to use your PSA, RRM and licensing integration. See more about integration overrrides in the next section of this document.</td></tr><tr><td><strong>Trigger Type</strong></td><td>There are a number of types to choose from, such as a webhook, form submission, ticket saved, M365 alerts. See <a data-mention href="./#core-triggers">#core-triggers</a> for more information on common trigger types.</td></tr><tr><td><strong>Form</strong></td><td>If your trigger type is a form submission, you would select the form that links to the workflow.</td></tr></tbody></table>
 
-### Integration overrides
+### What are integration overrides
 
-Integration overrides allow selection between multiple versions of the same integration at both the trigger and action levels, enabling granular control over workflow execution. When a workflow is triggered by and running within the context of a child organization, by default they only have access to their own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden. Rewst recommends adding more integration overrides rather than fewer.
+_Integration overrides_ allow selection between multiple versions of the same integration at both the trigger and action levels, enabling granular control over workflow execution. When a workflow is triggered by and running within the context of a child organization, by default it only has access to the org's own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden.  Rewst recommends adding more integration overrides rather than fewer.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-23 at 3.09.52 PM.png" alt="" width="375"><figcaption><p>Choose the integration for which to apply configuration overrides to from the drop-down list.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.11.43 PM.png" alt=""><figcaption><p>Choose the integration for which to apply configuration overrides to by clicking<br><strong>+Add Integration Override</strong> and selecting from the list.</p></figcaption></figure>
 
 1. Click <img src="../../../.gitbook/assets/Screenshot 2026-03-23 at 3.14.04 PM.png" alt="" data-size="line"> next to integration overrides.
-2. Choose your desired integration or integrations from the drop-down selector that appears. This will populate the options for that integration below the selector. Each selected integration will have its own accordion menu added to the trigger configuration page.
+2. Choose your desired integration or integrations from the drop-down selector that appears. This will populate the options for that integration below the selector. Each selected integration will have its own accordion menu added to the trigger configuration page.&#x20;
    1. Configuration Selection Mode options
       1. **Use Default** - The default configuration for the workflow owner will be used
       2. **Use Selected Config** - Select a specific integration configuration to use: choosing this option reveals a new **Integration Configuration** drop-down selector where you'll choose an existing configuration
@@ -56,11 +159,51 @@ Integration overrides allow selection between multiple versions of the same inte
           \
           <br>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-23 at 3.14.59 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+### Add an integration override
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-26 at 1.42.08 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+1. Click the **Overrides** tab.
+2. Choose your desired integration from the selector that appears. You may select multiple integrations, but must choose one at a time. Click **+ Add Integration Override** each time to add another integration, and **Edit Integration Override** to return to the list for additional selections. This will populate the options for that integration below the selector. Each selected integration will have its own menu added to the overrides list.&#x20;
 
-3. Click **Submit**.
+{% columns %}
+{% column %}
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.15.34 PM.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.13.42 PM.png" alt="" width="239"><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+3. For each integration override, choose from the following settings:
+   1. **Use Default** - The default configuration for the workflow owner will be used
+   2. **Use Selected Config** - Select a specific integration configuration to use: choosing this option reveals a new **Integration Configuration** drop-down selector where you'll choose an existing configuration
+   3. **Use Name Search** - Search the workflow owner's integration configurations by name: choosing this option reveals a new **Configuration Name** field where you'll enter the name
+   4. **Configuration Fallback Mode**, available for Use Selected Config and Use Name Search only - The behavior to be used if the selected configuration is not found, available for all Configuration Selection Mode options excluding Use Default
+      1. **Use Default** - If the matching configuration is not found, the default configuration for the workflow owner will be used
+      2. **Fail Workflow** - If the matching configuration is not found, the workflow will fail with an error
+4. Click **Submit**.
+
+{% columns %}
+{% column %}
+
+
+
+
+
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.22.14 PM.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.22.07 PM.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 {% hint style="warning" %}
 Note that when you unpack a Crate, it will automatically look at your installed integrations to decide which integration overrides to apply to your particular unpack. If you add additional integrations or change integrations after a Crate has been unpacked, and want that integration to be recognized and used with integration overrides for the Crate's workflow, you'll need to go to the trigger for that workflow and manually add the new integration to the integration overrides field.
@@ -72,7 +215,7 @@ While integration overrides mainly live on and apply to triggers, you can also a
 
 The process and selections for this integration override are the same as for those set on a trigger.
 
-<div><figure><img src="../../../.gitbook/assets/Screenshot 2026-03-27 at 8.55.16 AM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2026-03-27 at 8.55.25 AM.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.23.56 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.24.02 PM.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If you've set integration overrides on both the trigger and an action in a workflow, the action override takes precedence over the trigger override and will cancel it out.
@@ -81,8 +224,6 @@ If you've set integration overrides on both the trigger and an action in a workf
 ### Activate trigger to run for
 
 This submenu controls which organization**s** a workflow trigger is enabled for. When a triggered, it determines which organizations the workflow can execute in the context of. Each trigger on a workflow has its own Activate Trigger To Run For settings. They aren't shared between multiple triggers on the same workflow.
-
-Find the **Activate Trigger To Run For** section at the very bottom of the configuration screen with the following options:
 
 1. **Selected Organization** toggle
    1. Toggled on by default, this enables the trigger for the organization that owns the workflow, usually the parent organization
@@ -94,8 +235,23 @@ Find the **Activate Trigger To Run For** section at the very bottom of the confi
    1. Toggle on to automatically enable the trigger for:
       1. All currently existing child organizations
       2. Any new organizations added in the future - automatically included
+4. Click the **Run For** tab.
+5. Choose your settings:
+   1. **Selected Organization** toggle
+      1. Toggled on by default, this enables the trigger for the organization that owns the workflow, usually the parent organization
+      2. Toggle off if you don't want the workflow to run for the owning organization
+   2. **All Current and Future Managed Organizations** toggle
+      1. Toggle on to automatically enable the trigger for:
+      2. All currently existing child organizations
+      3. Any new organizations added in the future - automatically included
+   3. **Organizations** drop-down selector
+      1. Manually select specific organizations
+      2. Choose individual child organizations that should have this trigger active
+   4. **Tags** drop-down selector
+      1. Choose to activate organizations which have been given the specified tags
+      2. Any future organizations tagged will be pulled in via the tag
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 5.27.56 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.35.43 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 * If you don't enable All current and future managed organizations, you must manually add new clients to the trigger when they're onboarded.
@@ -112,7 +268,7 @@ Starting on May 2, 2026, all workflows will default to their critical timing set
 
 _Critical timing_ is Rewst's setting for indicating if a workflow with a cron trigger must be run at a certain time or if there can be allowed variation in when the workflow is triggered. Choose **true** if the workflow must run at the same time each day. Choose **False** or **None** if the workflow's schedule has flexibility. This will adjust the start time, but maintain the frequency of when the workflow is triggered. By default, triggers that share the same schedule are spread across a short window to reduce load spikes and improve performance.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-31 at 2.17.26 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.46.25 PM.png" alt=""><figcaption></figcaption></figure>
 
 The time window will depend on your schedule's frequency, capped at 30 minutes:\
 `*/5 * * * *` : every 5 min — within \~1 min\
@@ -122,22 +278,21 @@ The time window will depend on your schedule's frequency, capped at 30 minutes:\
 
 ## Modify an existing trigger
 
-To modify an existing trigger, click **Edit Trigger**. If there are multiple triggers for the workflow, select the appropriate trigger from the dropdown menu.\
-![](<../../../.gitbook/assets/Screenshot 2025-02-21 at 11.20.06 AM.png>)
+To modify an existing trigger, click on the yellow trigger bar. Then, click on the individual trigger in the trigger list. Update any of the settings in the tabs as desired, then click **Save Trigger**.
 
-### How to use a trigger on a form
+## Use a trigger on a form
 
 Once the trigger has been created on a workflow, it can then be used on a form. This must be an options generator workflow. The requirements for this[ can be found here](../workflows/option-generator-workflows.md).
 
 <figure><img src="../../../.gitbook/assets/form-trigger.png" alt=""><figcaption></figcaption></figure>
 
-The above is a snippet from a form where a dropdown field has been selected and the output will be based on the workflow output. When running the form, if the client is added on the trigger and the trigger is set on the form, the workflow will run, and the options will fill into the form field.
+The above is a screenshot from a form where a dropdown field has been selected and the output will be based on the workflow output. When running the form, if the client is added on the trigger and the trigger is set on the form, the workflow will run, and the options will fill into the form field.
 
 ## Core triggers
 
 There are seven key triggers to understand when getting started with Rewst. These triggers cover a range of automation scenarios, from scheduled executions to real-time event responses. In Rewst, we denote these from other triggers by calling them _core triggers_. Type `core` into the **Trigger Type** field to isolate most of these trigger types from the total list.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-21 at 11.44.46 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-21 at 4.48.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -550,6 +705,6 @@ When this trigger kicks off, it provides the following data in `triggering_user_
 
 ## Other triggers
 
-Rewst offers additional triggers for some of our integrations tailored to different automation needs. Explore the available triggers in the trigger type list to find the best fit for your specific processes. Try asking [RoboRewsty](../../rewst-tools/roborewsty.md) what each integration-specific trigger does to learn more about how it can be used, or read more about included triggers on each integration's info page in this site.
+Rewst offers additional triggers for some of our integrations tailored to different automation needs. Explore the available triggers in the trigger type list to find the best fit for your specific processes. Try asking [RoboRewsty](../../roborewsty.md) what each integration-specific trigger does to learn more about how it can be used, or read more about included triggers on each integration's info page in this site.
 
-<figure><img src="../../../.gitbook/assets/trigger drop-down gif.gif" alt="A moving GIF image depicting scrolling through the trigger type list in an example organization in Rewst. Various integrations&#x27; actions are shown."><figcaption><p>The contents of the complete trigger type list will depend on your particular integrations</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/trigger list gif.gif" alt="A moving GIF image depicting scrolling through the trigger type list in an example organization in Rewst. Various integrations&#x27; actions are shown."><figcaption><p>The contents of the complete trigger type list will depend on your particular integrations</p></figcaption></figure>

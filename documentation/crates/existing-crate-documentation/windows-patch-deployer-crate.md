@@ -80,13 +80,15 @@ A variable configuration of `max_diff_hours` defines the maximum number of hours
 
 ### Update the cron trigger schedule
 
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
+{% endhint %}
+
 The Crate runs on a cron trigger, and will execute the workflow on a schedule. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for `[Rewst - CRATE] Windows: Deploy Patches`.
+2. Search for  `[Rewst - CRATE] Windows: Deploy Patches`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
-
-    <figure><img src="../../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+4. Click on the trigger in the workflow to open its settings in the right side menu.
 5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. Click **Submit**.
+6. Click **Save Trigger**.

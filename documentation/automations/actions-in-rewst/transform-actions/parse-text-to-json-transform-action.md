@@ -6,8 +6,6 @@ You have received an API response of a JSON string instead of a JSON object and 
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 3.05.44 PM.png" alt="A screenshot of the parse test to JSON transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 Parse Text Data into JSON.
 
 ## Parameters

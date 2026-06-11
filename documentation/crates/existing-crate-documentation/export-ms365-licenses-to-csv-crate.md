@@ -39,18 +39,20 @@ This Crate is designed to automate the audit of Microsoft 365 licenses within a 
 8. Ensure that the cron job trigger has **Enabled** toggled on.
 9. Click **Unpack**.
 
-### Use the Crate
+### Update the cron trigger
 
-The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. If you wish to test the workflow, adjust the time to 5 minutes in future, check workflow execution logs to make sure that the workflow ran properly, the readjust the cron trigger's timing to run as desired for normal scheduling.
+{% hint style="info" %}
+adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.&#x20;
+{% endhint %}
+
+The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself.&#x20;
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] MS Graph - M365 License Export`.
-3. Click on the workflow to view it in the workflow builder.
-4. Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. Click **Submit**.
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-22 at 10.31.33 AM.png" alt=""><figcaption></figcaption></figure>
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

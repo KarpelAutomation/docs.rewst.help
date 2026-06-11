@@ -23,13 +23,13 @@ This is only applicable to non-administrator accounts.
 
 ## Crate prerequisites
 
-* Your PSA must be successfully integrated with Rewst before unpacking this Crate. \
-  PSAs that are compatible with this Crate are:&#x20;
+* Your PSA must be successfully integrated with Rewst before unpacking this Crate.\
+  PSAs that are compatible with this Crate are:
   * [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
   * [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
   * [HaloPSA](../../integrations/integration-guides/halo-integration-setup.md)
   * [Kaseya BMS](../../integrations/integration-guides/kaseya-bms-integration-setup.md)
-* Your RMM must be successfully integrated with Rewst before unpacking this Crate. RMMs that are compatible with this Crate are:&#x20;
+* Your RMM must be successfully integrated with Rewst before unpacking this Crate. RMMs that are compatible with this Crate are:
   * [ConnectWise Automate](../../integrations/integration-guides/connectwise-automate-integration-setup.md)
   * [Datto RMM](../../integrations/integration-guides/datto-rmm-integration-setup.md)
   * [NinjaOne](../../integrations/integration-guides/ninjaone-integration-setup.md)
@@ -55,14 +55,14 @@ This is only applicable to non-administrator accounts.
 
 ### Test the Crate
 
-Huntress' documentation on how to simulate an EDR event can be found [here](https://support.huntress.io/hc/en-us/articles/30950483531539-EDR-ITDR-Incident-Simulation).&#x20;
+Huntress' documentation on how to simulate an EDR event can be found [here](https://support.huntress.io/hc/en-us/articles/30950483531539-EDR-ITDR-Incident-Simulation).
 
 1. Log in to your Huntress account.
 2. Simulate an EDR incident to create a dummy ticket in your PSA.
 3. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 4. Search for the workflow `[REWST - TASK] Huntress EDR: AD Account Lockdown`.
-5. Click on the workflow to open it in the workflow builder.
-6. Click to view workflow results.
+5. Click on the workflow to open it in the Workflow Builder.
+6. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 4.43.48 PM.png>) **> Execution History** to view workflow results.
 7. Examine the results to ensure that actions were executed as expected.&#x20;
 8. Return to your Huntress account. Check the ticket to confirm that it contains updated information after the running of the workflow.
 

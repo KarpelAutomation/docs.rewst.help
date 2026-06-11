@@ -702,7 +702,7 @@ This section provides a detailed list of all workflows, triggers, forms, scripts
 
 The following workflows are included in this Crate:
 
-* **User Provisioning & Automation**
+* **User provisioning and automation**
   * \[REWST - PROC] Microsoft: User Onboarding
   * \[REWST - PROC] User: Change Password
   * \[REWST - PROCESS] PSA: Update Ticket

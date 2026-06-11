@@ -6,8 +6,6 @@ You would like to get the current date/datetime.
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.55.53 PM.png" alt="An image of the get datetime transform action in the actions menu in the workflow builder canvas."><figcaption></figcaption></figure>
-
 Returns the current date/time in the requested timezone.
 
 ## Parameters

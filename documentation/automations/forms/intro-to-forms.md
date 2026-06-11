@@ -412,10 +412,10 @@ Here's a Jinja code snippet for achieving this:
 Recall that you can access all forms in your form list in Rewst. Understanding how to test a form can sometimes be confusing due to its intrinsic link to a workflow. To get the Form URL for testing directly from a workflow:
 
 1. Locate the [trigger](../intro-to-triggers/) on the workflow.
-2. Click **View Form URLs**.
+2. Click **View URL**.
 3. Select the desired organization's form from the list.
-
-<figure><img src="../../../.gitbook/assets/trigger-view-form-urls.png" alt=""><figcaption></figcaption></figure>
+4. Click **Copy**.
+5. Paste the URL into a new tab and launch.
 
 ## Restrict form drop-downs
 

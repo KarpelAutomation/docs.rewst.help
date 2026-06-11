@@ -31,22 +31,24 @@ Webhook URLs are formatted consistently using the trigger ID and organization ID
 
 In the Rewst platform:
 
-1. Navigate to **Automations > Workflows > Create Workflow**.
-2. Enter a workflow name, like `My First Webhook Trigger`.
-3. Click **Submit** to proceed to a blank workflow creation screen.
-4. Add a single [no-op](../../actions-in-rewst/core-actions.md#no-operation-noop) action to the canvas. Name it `BEGIN`
-5. Click **Publish** to save your workflow. No other actions are needed, as you'll just be working with triggers.
-6. Click **Add Trigger** at the top of your workflow builder.
+1. Navigate to **Automations > Workflows**.
+2. Click **Create Workflow**.
+3. Enter a workflow name, like `My First Webhook Trigger`.
+4. Click **Submit** to proceed to a blank Workflow Builder Canvas
+5. Add a single [no-op](../../actions-in-rewst/core-actions.md#no-operation-noop) action to the canvas. Name it `BEGIN`
+6. Click **Deploy** to save your workflow. No other actions are needed, as you'll just be working with triggers.
+7. Click <img src="../../../../.gitbook/assets/Screenshot 2026-04-17 at 4.41.26 PM.png" alt="" data-size="line"> **> Flow Control**.
+8. Drag the yellow **Triggers** to the Canvas. This opens up the new trigger's **Trigger Settings** in the right side menu.
 
-<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2026-04-17 at 4.44.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## **Create the webhook trigger**
 
 1. Name your trigger.
-2. Toggle **Enable** on.
-3. Choose the trigger type **Core - Webhook**.\
+2. Toggle **Enabled** on.
+3. Choose the trigger type **Core - Webhook**. This will reveal a new **Parameters** section in the right side menu.\
    \
-   ![](<../../../../.gitbook/assets/Screenshot 2025-02-21 at 12.50.29 PM.png>)
+   ![](<../../../../.gitbook/assets/Screenshot 2026-04-17 at 4.45.48 PM.png>)
 
 ## **Set trigger parameters**
 
@@ -66,12 +68,18 @@ The following parameters are available for editing in workflow trigger configura
 * **Response status**
   * HTTP status to return in response. `{{ REQUEST }}` may be used to access request data.
 * **Secret key**
-  * Recommended to be used with Wait For Results, this value must be included in the header as x-rewst-secret when making calls to this webhook. You will receive a 401 if this field is filled out and the secret key is not provided when making the request. Navigate to **Settings >** [**Organization Variables** ](../../../integrations/organization-variables.md#create-secret-values-for-organization-variables)in the right side menu of your Rewst platform to define the secret org variable.&#x20;
+  * Recommended to be used with Wait For Results. This value must be included in the header as x-rewst-secret when making calls to this webhook. You will receive a 401 if this field is filled out and the secret key is not provided when making the request. Secrets can be defined in the Organization Variables section of the UI.
 *   **Wait for results**
 
     * If true, this calls to the trigger endpoint will redirect to a results endpoint that will return the output of the workflow.<br>
 
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-06 at 12.01.04 PM.png" alt=""><figcaption></figcaption></figure>
+
+
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2026-04-17 at 4.47.12 PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+When finished updating your parameters, remember to click **Save Trigger**.
+{% endhint %}
 
 ## **Access data in a webhook trigger request**
 

@@ -92,33 +92,31 @@ To obtain the FQDN, sign in to your organization's ConnectWise Automate account.
 
 ### Test the Crate
 
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Learn more about how to update cron trigger schedules in the next section. Remember to readjust your trigger after testing.
+{% endhint %}
+
 You can test this Crate to ensure that the workflow executes correctly. However, a message will only post to your Microsoft Teams channel if offline servers are detected, which is something you can't control or include in your test. A successful test run of the workflow will likely mean no message is posted.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[ROC] RMM: Report Offline Servers to Teams`.
-
-    <figure><img src="../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[ROC] RMM: Report Offline Servers to Teams`.
 3. Click on the workflow to view it in the Workflow Builder.
-4. Click **Test** in the top right corner of the builder canvas.
-5. Choose the applicable organization from the **Trigger Context Organization** drop-down selector.
-6. Click **Test**.
+4. Click **Run** in the top right corner of the builder canvas.
+5. Choose the applicable organization you would like to use to run your test.
+6. Click **Run Test**.
 7. Allow the workflow to run.
-8. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
+8. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
 
-#### Update the cron trigger schedule
+### Update the cron trigger&#x20;
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. Edit a cron trigger in the workflow to change the timing of when it will routinely run.
 
 1. Navigate to **Automations > Workflows**.
-2. Search for `[ROC] RMM: Report Offline Servers to Teams`.
+2. Search for  `[ROC] RMM: Report Offline Servers to Teams`.
 3. Click on the workflow to open it in the Workflow Builder.
-4.  Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
-
-    <figure><img src="../../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
-
-    <figure><img src="../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. Click **Submit**.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the Cron Schedule field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

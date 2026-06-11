@@ -6,8 +6,6 @@ You have a list of user's that has been returned from an API, you would like to 
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.59.32 PM.png" alt="A screenshot of the get list length transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 Measures the length of a List. It will return the number of elements of that list.
 
 ## Parameters

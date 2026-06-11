@@ -58,21 +58,21 @@ Take note of the following guidelines:
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `Liongard - MFA Remediation`.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+2. Search for `Liongard - MFA Remediation`.
 3. Click on the workflow to view it in the Workflow Builder.
-4. Select the preferred trigger from the trigger selector:
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Select the preferred trigger from the trigger list:
    * **ConnectWise PSA Ticket**
    * **Datto PSA Ticket**
    * **Halo Ticket**
    * **Kaseya BMS**
-5. Click **Test** in the top right corner of the Workflow Builder Canvas.
-6. Select the applicable **Trigger Context Organization**.
-7. Click **Test**.
-8. Allow the workflow to run.
-9. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
-10. Check in your Liongard's portal to ensure that the workflow is able to check Microsoft Azure for users without MFA registered and add them to a conditional access policy as expected. If you don't see the desired result in Liongard, return to Rewst and view your workflow's execution results.
+6. Click **Save Trigger**.
+7. Click **Run** in the top right corner of the Workflow Builder Canvas.
+8. Select the applicable organization for your test.
+9. Click **Run Test**.
+10. Allow the workflow to run.
+11. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
+12. Check in your Liongard's portal to ensure that the workflow is able to check Microsoft Azure for users without MFA registered and add them to a conditional access policy as expected. If you don't see the desired result in Liongard, return to Rewst and view your workflow's execution results.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

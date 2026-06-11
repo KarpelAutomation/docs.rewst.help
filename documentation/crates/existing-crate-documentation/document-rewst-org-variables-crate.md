@@ -33,21 +33,34 @@ The [ITGlue integration ](../../integrations/integration-guides/it-glue-integrat
 6. Note the option under the **Cron Job** accordion menu to activate the Crate for all future organizations in addition to the current one. This is defaulted to on for the Crate. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
 7. Click **Unpack**.<br>
 
-### Use the Crate
+### Update the cron trigger
 
 1. The Crate runs on a cron trigger, and will execute the workflow to check and generate the flexible asset content at the same time each day. You can adjust the chosen time for execution in the workflow itself.
    1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
    2. Search for `[ROC] ITG: Store Org Vars ITG`.
    3. Click on the workflow to view it in the workflow builder.
-   4. Click <img src="../../../.gitbook/assets/image (196).png" alt="" data-size="line"> to open the edit trigger menu.
+   4. Click <img src="/broken/files/GkbNLyEm9dAoaLgVGc1j" alt="" data-size="line"> to open the edit trigger menu.
    5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.\
       ![](<../../../.gitbook/assets/Screenshot 2025-09-24 at 12.24.40 PM.png>)
    6. Click **Submit**.
 2. To test the Crate after unpacking:
-   1. Adjust the timing of the cron job to five minutes in the future.
+   1. Adjust the timing of the cron job to five minutes in the future.&#x20;
    2. Click **Submit**.
    3. Check in ITGlue to see if the flexible asset is created.
    4. Return to Rewst and re-adjust the cron job timing as desired.
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Check in ITGlue to see if the flexible asset is created.
+{% endhint %}
+
+The Crate runs on a cron trigger, and will execute the workflow to check and generate the flexible asset content at the same time each day. You can adjust the chosen time for execution in the workflow itself.
+
+1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
+2. Search for `[ROC] ITG: Store Org Vars ITG`.
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Adjust the cron trigger's schedule to your desired time. The cron trigger for this Crate is set to trigger daily at 8:20 PM (UTC) if left on its default setting.
+6. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

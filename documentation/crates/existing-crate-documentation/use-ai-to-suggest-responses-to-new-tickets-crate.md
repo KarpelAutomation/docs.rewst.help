@@ -16,7 +16,7 @@ The workflow only acts on tickets with a single note to avoid interfering with t
 2. It waits briefly to see if other automations will handle the ticket first, avoiding duplicate responses.
 3. Based on the PSA type, it fetches ticket notes:
    * **ConnectWise PSA**: Lists service ticket notes
-   * **Datto PSA**: Lists notes on ticket&#x20;
+   * **Datto PSA**: Lists notes on ticket
    * **Halo PSA**: Lists ticket actions and notes
    * **Kaseya BMS**: Uses ticket details directly
 4. It then verifies that the ticket has exactly one note. If there are no notes or multiple notes, the workflow ends without action
@@ -29,7 +29,7 @@ The workflow only acts on tickets with a single note to avoid interfering with t
 
 ## Crate prerequisites
 
-Before unpacking this Crate, you'll need to successfully integrate one of the following [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)s  with Rewst:
+Before unpacking this Crate, you'll need to successfully integrate one of the following [PSA](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations)s with Rewst:
 
 * [ConnectWise PSA](../../integrations/integration-guides/connectwise-integration-setup.md)
 * [Datto Autotask PSA](../../integrations/integration-guides/datto-psa-integration-setup/)
@@ -42,7 +42,7 @@ If you would like this Crate to work with a type of PSA not listed here, let us 
 
 You'll also need to have one of the following successfully set up:
 
-* [OpenAI integration ](../../integrations/integration-guides/openai/openai-integration-setup.md)
+* [OpenAI integration](../../integrations/integration-guides/openai/openai-integration-setup.md)
 * [Anthropic integration](../../integrations/integration-guides/anthropic-integration.md)
 
 The [organization variable](../../integrations/organization-variables.md#what-is-an-organization-variable) `default_psa` must be set to match your PSA system.
@@ -79,8 +79,8 @@ The [organization variable](../../integrations/organization-variables.md#what-is
    2. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform
    3. Search for `Use AI to Suggest Responses to Tickets`.
    4. Click on the workflow to view it in the Workflow Builder.
-   5. Click ![](<../../../.gitbook/assets/Screenshot 2025-09-22 at 3.55.54 PM.png>) to view the workflow results.
-   6. If an execution is listed with failure, click **>** to view the execution summary.&#x20;
+   5. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 4.43.48 PM.png>) **> Execution History** to view the workflow results.
+   6. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

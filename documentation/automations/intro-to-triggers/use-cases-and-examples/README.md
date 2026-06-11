@@ -7,3 +7,8 @@
 {% content-ref url="using-webhook-triggers.md" %}
 [using-webhook-triggers.md](using-webhook-triggers.md)
 {% endcontent-ref %}
+
+{% content-ref url="configure-a-webhook-trigger-for-cors-requests.md" %}
+[configure-a-webhook-trigger-for-cors-requests.md](configure-a-webhook-trigger-for-cors-requests.md)
+{% endcontent-ref %}
+

@@ -55,25 +55,22 @@ Your [PSA must be successfully integrated](../../integrations/top-5-integration-
 7. Expand the **Cron Job** accordion menu under **Configure Triggers**. By default, the **Enabled** toggle button is disabled. Ensure **Enabled** is toggled on. Note that you also have the option to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](../../settings/tags-in-rewst.md), and set the [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 8. Click **Unpack**.
 
-## Use the Crate
+## Update the cron trigger
 
-To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. To edit a cron trigger in the workflow to either test it once or change the time it will routinely run:
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.&#x20;
+
+* Verify that the inactive user accounts have been disabled in the in the Microsoft 365 Admin Center.
+* Check your PSA to ensure that the changes have been logged in a ticket.
+{% endhint %}
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[ROC] Check for Disabled Users With Licenses`.
-
-
-
-    <figure><img src="../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[ROC] Check for Disabled Users With Licenses`.
 3. Click on the workflow to view it in the Workflow Builder.
-4. Click ![](<../../../.gitbook/assets/image (226).png>) to open the **Edit Trigger** menu.
-5. The default **Cron Schedule** under **Trigger Parameters** is currently set to Monday at 3:00 AM UTC. This may be kept as is or if desired, be modified. To modify, update the timing of the cron trigger in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
-6. It is recommended that you manually execute the workflow with the **Weekly Check** trigger selected using the **Test** button for your main organization. This will complete the first step, where the organization variable for the webhook trigger ID is created. If this is not performed, on the first run, the customer organizations will exit the workflow, and the main organization will create the variable and run normally. The subsequent runs will function normally for the customer organization.
-7. Click **Submit**.
-8. Click **Save**.
-9. You'll see a green message at the top of your screen indicating the trigger is saved.
-10. Verify that the inactive user accounts have been disabled in the in the Microsoft 365 Admin Center.
-11. Check your PSA to ensure that the changes have been logged in a ticket.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the Cron Schedule field, the correct format is minutes followed by hour. For example, 18 3, not 3 18. The default is currently set to Monday at 3:00 AM UTC.&#x20;
+6. It is recommended that you manually execute the workflow with the **Weekly Check** trigger selected using the **Run** function for your main organization. This will complete the first step, where the organization variable for the webhook trigger ID is created. If this is not performed, on the first run, the customer organizations will exit the workflow, and the main organization will create the variable and run normally. The subsequent runs will function normally for the customer organization.
+7. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

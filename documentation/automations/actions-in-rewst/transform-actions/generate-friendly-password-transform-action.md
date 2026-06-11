@@ -6,8 +6,6 @@ You are resetting a user's password and would like to generate a friendly passwo
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.49.09 PM.png" alt="A photo of the text header in the transform menu of the workflow builder for generate friendly password "><figcaption></figcaption></figure>
-
 This action generates an easy password with adjective, name, number, symbol and random caps.
 
 ## Parameters

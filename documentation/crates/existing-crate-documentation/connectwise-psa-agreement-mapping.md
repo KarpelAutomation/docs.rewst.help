@@ -36,18 +36,15 @@ A form unpacked from this Crate is used to maintain mappings between environment
 {% endhint %}
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for **Map Organization Users to Manage Agreement**. Click on the workflow.<br>
+2. Search for **Map Organization Users to Manage Agreement**.&#x20;
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Click on the form trigger.
+6. Click **Copy URL**.
+7.  Copy the form URL for the organization you'd like to use to test the form and paste it in a different browser window.<br>
 
-    <figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
-3. Click the trigger drop-down and select **Form Trigger.**\
-   \
-   ![](<../../../.gitbook/assets/image (147).png>)
-4. Click ![](<../../../.gitbook/assets/image (196).png>).
-5. Click **View Direct URLs**.
-6. Copy the form URL and paste it in a different browser window.\
-   \
-   ![](<../../../.gitbook/assets/image (47) (1).png>)
-7. Fill out the form to add, modify, or remove an agreement--see the below section for information on what each selection does. Once the form is fully filled out, click **Submit**.
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 3.32.47 PM.png" alt=""><figcaption></figcaption></figure>
+8. Fill out the form to add, modify, or remove an agreement. See the below section for information on what each selection does. Once the form is fully filled out, click **Submit**.
 
 {% hint style="warning" %}
 Note: Once an agreement has been added, a cron trigger runs daily to sync users for each company that has been mapped.
@@ -72,8 +69,8 @@ From the MSP organization, use this form to **Add**, **Modify**, or **Remove** a
 
 ## Limitations
 
-* **Department** fields are free-form text. If you aren't automating the filling-in of these, there's always the chance that spellings or formatting may vary, resulting in incomplete data.
-* The **Description** field in PSA Agreement Additions is limited to 6000 characters. Large sets of users can easily exceed that maximum and usernames won't appear in the Addition. When this happens, an email will be sent to the person who created the mapping to let them know that this is the case.
+* Department fields are free-form text. If you aren't automating the filling-in of these, there's always the chance that spellings or formatting may vary, resulting in incomplete data.
+* The Description field in PSA Agreement Additions is limited to 6000 characters. Large sets of users can easily exceed that maximum and usernames won't appear in the Addition. When this happens, an email will be sent to the person who created the mapping to let them know that this is the case.&#x20;
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

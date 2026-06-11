@@ -6,8 +6,6 @@ You have received a return with a string in CSV format and you would like to con
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 3.03.41 PM.png" alt="A screenshot of the parse csv transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 Parse CSV Data into JSON. The first line will be keys, and subsequent lines will be values.
 
 ## Parameters

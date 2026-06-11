@@ -26,7 +26,7 @@ Here are some features and keystrokes you can use with the Monaco Editor in Rews
   * Ctrl + /: Toggle line commenting
 
 {% hint style="info" %}
-Note that Rewst's Jinja2 implementation displays mutable object— lists, dicts, namespaces—  in their final state immediately when first rendered, rather than their current state at render time. This differs from standard Jinja2 behavior where objects should display their state at the time of rendering.
+Note that Rewst's Jinja2 implementation displays mutable object— lists, dicts, namespaces— in their final state immediately when first rendered, rather than their current state at render time. This differs from standard Jinja2 behavior where objects should display their state at the time of rendering.
 {% endhint %}
 
 ### Work with JSON
@@ -56,17 +56,17 @@ Generally, _variables_ are labeled containers for data that you want to use in y
 
 ### What is The Context?
 
-_The Context_ is a central storage space that keeps track of all data generated, captured, or used throughout a workflow.  Think of it as a shared memory for a specific workflow, containing all that workflow's information. Every time a Rewst workflow runs, the data processed is shown in JSON format in the context of the workflow.
+_The Context_ is a central storage space that keeps track of all data generated, captured, or used throughout a workflow. Think of it as a shared memory for a specific workflow, containing all that workflow's information. Every time a Rewst workflow runs, the data processed is shown in JSON format in the context of the workflow.
 
 Key objects like action, user\_id, and group\_id are visible as part of the context data. These were configured in the workflow input and are now accessible for use in Jinja code.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-02-16 at 3.48.02 PM.png" alt="" width="375"><figcaption><p>Click on the blue icon to the right of fields to access The Context <br>as it pertains to that field.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-27 at 12.13.19 PM.png" alt="" width="200"><figcaption><p>Click on the blue &#x3C; > to the right of fields <br>to access The Context <br>as it pertains to that field.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-02-16 at 4.20.38 PM.png" alt="" width="375"><figcaption><p>Type CTX. in between the curly braces to expose all <br>available options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-27 at 12.12.56 PM.png" alt=""><figcaption><p>Type <code>CTX.</code> in between the curly braces to expose all <br>available options.</p></figcaption></figure>
 
 ### **Variable management with Jinja**
 
-Variables in Rewst are specifically referred to as [data aliases](../automations/workflows/data-aliases.md). Data aliases defined within a workflow are prefixed with `CTX` for context variable, and stored in The Context. There are several variable types in Jinja. Learn more about them [here](data-types.md).&#x20;
+Variables in Rewst are specifically referred to as [data aliases](../automations/workflows/data-aliases.md). Data aliases defined within a workflow are prefixed with `CTX` for context variable, and stored in The Context. There are several variable types in Jinja. Learn more about them [here](data-types.md).
 
 * Use _context (CTX) variables_ in data aliases on your task's transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
 * These types of variables can be created and modified by workflow tasks but are not global. Their scope is confined to the workflow.
@@ -144,7 +144,7 @@ In this snippet, the loop iterates through numbers from 0 to 8, appending each v
 
 ## Jinja filters
 
-For more detailed information on Jinja filters, see our list [here](jinja-essentials.md#jinja-filters).&#x20;
+For more detailed information on Jinja filters, see our list [here](jinja-essentials.md#jinja-filters).
 
 _Jinja filters_ are functions that can be applied to variables and expressions within Jinja templates to modify their output. They are used to perform a wide range of data manipulations, such as formatting strings, converting data types, and filtering lists. Some commonly used filters include `upper`, `lower`, `title`, `default,` `join`, and `random`. Jinja also allows for the creation of custom filters to meet specific needs. Overall, filters are a powerful tool that can help you to manipulate data more easily and efficiently within your Jinja templates
 
@@ -192,7 +192,7 @@ By default, when Jinja begins a statement block, it preserves any _whitespace_ c
 
 ### List comprehension in action
 
-_List comprehension_ efficiently creates new lists from existing ones, based on specific criteria. It tailors data selection in workflows, enhancing efficiency and precision. Create a new list from an existing one in a simplified way, without needing to end the code with `{% endfor %}`.&#x20;
+_List comprehension_ efficiently creates new lists from existing ones, based on specific criteria. It tailors data selection in workflows, enhancing efficiency and precision. Create a new list from an existing one in a simplified way, without needing to end the code with `{% endfor %}`.
 
 You can combine filters and conditions to produce concise, targeted lists, all in one Jinja expression.
 
@@ -245,7 +245,7 @@ This concise approach efficiently applies the squaring function to each item in 
 
 ### With Items
 
-_With Items_ is the equivalent to a `foreach` statement in other languages. With this, you can pass a list of parameters into a certain action, based on the parameters of a specific task or subworkflow, collect the results from each, and then do something with that information. Learn more about how to achieve this in our [workflows documentation](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu?q=%22append+with+items%22#with-items).&#x20;
+_With Items_ is the equivalent to a `foreach` statement in other languages. With this, you can pass a list of parameters into a certain action, based on the parameters of a specific task or subworkflow, collect the results from each, and then do something with that information. Learn more about how to achieve this in our [workflows documentation](https://docs.rewst.help/documentation/automations/workflows/advanced-workflow-operations-menu?q=%22append+with+items%22#with-items).
 
 With Items is sometimes but not always used in conjunction with [collected results](jinja-essentials.md#collected-results). Collected results only applies if the task or subworkflow is outputting something that you want in the result. Otherwise, you don't have to use it. Consider these two examples:
 
@@ -259,13 +259,13 @@ This would return a long list, and does require you to use collected results.
 
 ### Collected results
 
-Each time a task or subworkflow runs using With Items, a new result section is created. Each new result section is stored in the task or subworkflow's collected results. Collected results is the list of all the results of a single With Items execution. To use multiple collected results in a single parent workflow, you would need to repeat the process for each subworkflow separately.&#x20;
+Each time a task or subworkflow runs using With Items, a new result section is created. Each new result section is stored in the task or subworkflow's collected results. Collected results is the list of all the results of a single With Items execution. To use multiple collected results in a single parent workflow, you would need to repeat the process for each subworkflow separately.
 
 Choose which of the following two methods you would like to use for collected results. Both will net the same goal, and which you use is generally a matter of preference:
 
 #### Use syntax collected results
 
-1. Add a noop action to your Workflow Builder canvas; it's best practice to start with a noop to make it clear where your collected results will start. Name it something descriptive, following the format `<taskname>_collected_results`.&#x20;
+1. Add a noop action to your Workflow Builder Canvas. It's best practice to start with a noop to make it clear where your collected results will start. Name it something descriptive, following the format `<taskname>_collected_results`.&#x20;
 2. Add a transition between the noop task and your task or subworkflow so that it runs after the execution.&#x20;
 3. Create a data alias in the transition. Name it something descriptive that relates to the name you gave the noop, following the format `get_<taskname>_collected_results`.
 4. Click <img src="../../.gitbook/assets/Screenshot 2026-03-04 at 4.24.45 PM.png" alt="" data-size="line"> to open the Jinja editor.&#x20;
@@ -287,13 +287,9 @@ Choose which of the following two methods you would like to use for collected re
 
 #### Use publish result as
 
-1. Add a noop action to your Workflow Builder canvas; it's best practice to start with a noop to make it clear where your collected results will start. Name it something descriptive, following the format `get_<taskname>_collected_results`.&#x20;
+1. Add a noop action to your Workflow Builder Canvas. It's best practice to start with a noop to make it clear where your collected results will start. Name it something descriptive, following the format `get_<taskname>_collected_results`.&#x20;
 2. Add a transition between the noop task and your subworkflow so that it runs after the subworkflow.&#x20;
 3. Enter `pra_collected_results` in the publish result as field of the parameters for that noop. This will put the entire collected results into a single variable.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2026-03-09 at 3.09.42 PM.png" alt=""><figcaption></figcaption></figure>
-
-
 
 {% hint style="info" %}
 Interested in seeing Jinja examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.

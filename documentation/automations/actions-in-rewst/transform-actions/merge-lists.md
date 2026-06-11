@@ -10,13 +10,7 @@ You're faced with two separate lists of data that need to be combined based on a
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.23.33 AM.png" alt=""><figcaption></figcaption></figure>
-
-
-
 The `Merge Lists` transform equips you with the functionality to effectively merge two lists into one. By aligning items based on a shared key attribute and allowing for three types of merging strategies (`inner`, `left`, and `outer`), it enhances your data analysis and manipulation capabilities.
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.59.22 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Parameters
 

@@ -311,6 +311,10 @@ An upgrade from the deprecated password generation action. It crafts a cryptogra
 
 Performs an HTTP request to a specified URL, supporting a variety of methods, body content types, and configurations. This is useful for interacting with APIs or other web services within a workflow, or for performing any other tasks that involve HTTP requests.
 
+{% hint style="info" %}
+_In most cases, we recommend that you use a_ [_Custom Integration_](../../integrations/custom-integrations/) _instead of this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs. The_ HTTP Request action will require building out all endpoints as individual actions/subworkflows. It is only recommended for when Custom Integration is not possible or repeatedly fails.
+{% endhint %}
+
 **Parameters**
 
 * **URL**: The URL to which the HTTP request is sent.
@@ -334,7 +338,7 @@ Performs an HTTP request to a specified URL, supporting a variety of methods, bo
 
 **Output**: The action returns the content returned by the server in response to the HTTP request. This could be a success message, a failure message, a data object, or any other content that the server sends as a response.
 
-_<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _If you need more advanced security around calling particular endpoints, you can also use a_ [_Custom Integration_](../../integrations/custom-integrations/) _in addition to this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs._
+
 
 </details>
 

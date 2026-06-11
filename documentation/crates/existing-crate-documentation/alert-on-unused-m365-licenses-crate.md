@@ -104,21 +104,22 @@ Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-sta
 ## Test the Crate
 
 {% hint style="info" %}
-The workflow must first be run as the top level parent organization. Then, the workflow can be used by child organizations.
+The workflow must first be run as the top level parent organization. Then, the workflow can be used by  child organizations.
 {% endhint %}
 
 The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself. To test the Crate, adjust the trigger to five minutes in the future. Then, check your PSA to see if tickets were created. If your execution is successful, go back into the workflow and reset the cron trigger's timing to your normal desired schedule.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `Pax8 Extra License Removal.`
-3. Click on the workflow to view it in the workflow builder.
-4.  Click ![](<../../../.gitbook/assets/image (196).png>) to open the edit trigger menu.<br>
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. If necessary, enable [Critical Timing](../../automations/intro-to-triggers/#critical-timing).
+7. Click **Save Trigger**.
+8. If tickets are not created, check the workflow's execution results for error reasoning.
+9. Readjust the trigger's timing to your normal desired schedule.
 
-    <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FwnXIbYjmeXtTETWFBKkI%252FScreenshot%25202025-06-25%2520at%25205.53.42%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D53680b5e-a0a9-4260-8d31-4802c66355e8&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e56327e1&#x26;sv=2" alt=""><figcaption></figcaption></figure>
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.
-6. Click **Submit**.
-
-If tickets are not created, check the workflow's execution results.
+&#x20;If tickets are not created, check the workflow's execution results.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

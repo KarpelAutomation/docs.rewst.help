@@ -10,11 +10,7 @@ You have a list of objects where certain field values need adjusting. You need a
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.27.48 AM.png" alt=""><figcaption></figcaption></figure>
-
 The `Set List Field Value` action enables the customization of a field's value within a list of objects. Whether it's for conditional value adjustment based on specific criteria or working with nested elements, this action offers the flexibility you need.
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.57.50 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Parameters
 
@@ -151,4 +147,3 @@ results: [
   },
 ]
 ```
-

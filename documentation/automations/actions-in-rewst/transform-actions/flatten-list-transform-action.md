@@ -8,8 +8,6 @@ You would like to flatten the list of lists so it ends up as a list of objects.
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.40.56 PM.png" alt=""><figcaption></figcaption></figure>
-
 Flatten a nested List.
 
 ## Parameters

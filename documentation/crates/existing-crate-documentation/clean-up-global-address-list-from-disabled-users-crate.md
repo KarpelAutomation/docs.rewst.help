@@ -27,18 +27,20 @@ Before unpacking this Crate, you'll first need to set up the Microsoft Graph int
 5. Ensure that **Enabled** is toggled on under the **Cron Job** accordion men&#x75;**.**
 6. Click **Unpack Crate**.
 
-### Use the Clean up Global Address List from Disabled Users Crate
+### Update the cron trigger
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.
+{% endhint %}
 
 The Crate runs on a cron trigger, and will execute the workflow at the same time each day. You can adjust the chosen time for execution in the workflow itself.
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[ROC] Remove Disabled Users from GAL`.
-3. Click on the workflow to view it in the workflow builder.
-4.  Click ![](<../../../.gitbook/assets/image (196).png>) to open the edit trigger menu.<br>
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-06-25 at 5.53.42 PM.png" alt=""><figcaption></figcaption></figure>
-5. Update the timing of the cron trigger as desired in the fields under **Trigger Parameters**. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.
-6. Click **Submit**
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example. 18 3, not 3 18.
+6. Click **Save Trigger**.
 
 {% hint style="warning" %}
 No notification is sent when the workflow runs. If the workflow fails, you'll see the following noop in the results: `failed_to_hide_from_gal`

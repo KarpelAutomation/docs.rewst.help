@@ -41,7 +41,7 @@ This Crate does not send email notifications to users or administrators.
 
 ### Use the Crate
 
-1. Navigate to **Automations > Assets> Forms** in the left side menu of your Rewst platform.
+1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
 2. Search for `[REWST - CRATE] Reset Locked-Out Accounts`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.

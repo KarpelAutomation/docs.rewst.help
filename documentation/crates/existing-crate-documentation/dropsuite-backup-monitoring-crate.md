@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Dropsuite: Backup Monitoring Crate do?
 
-Dropsuite has three possible backup statuses:&#x20;
+Dropsuite has three possible backup statuses:
 
 * Success
 * Failure
@@ -48,14 +48,14 @@ Monitoring is done through the statuses' multiple endpoints. A ticket is created
 {% hint style="info" %}
 Since this Crate contains many cron triggers that would need to be repeatedly adjusted, we recommend waiting for the triggers to activate at their normal schedule rather than adjusting each trigger to a few moments in future and readjusting to the normal preferred time. However, if you would like to do this to immediately test the Crate, you can.
 
-Rewst has no way to simiulate a backup failure. To fully test the workflow and ensure that a ticket is created in your PSA, you'll need to initially monitor Dropsuite until a legitimate failure status occurs, then check your PSA  for the workflow's created ticket.
+Rewst has no way to simiulate a backup failure. To fully test the workflow and ensure that a ticket is created in your PSA, you'll need to initially monitor Dropsuite until a legitimate failure status occurs, then check your PSA for the workflow's created ticket.
 {% endhint %}
 
 1. Wait for the Crate's workflow to trigger and run at its indicated time.
 2. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 3. Search for the workflow `[Rewst- PROCESS] Dropsuite: Backup Monitoring`.&#x20;
 4. Click on the workflow to view it in the Workflow Builder.
-5. Click ![](<../../../.gitbook/assets/Screenshot 2025-12-08 at 12.49.28 PM.png>)to view the workflow's execution results. Ensure that no failures to the Rewst workflow appear in the results.
+5. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 4.43.48 PM.png>) > **Execution History** to view the workflow's execution results. Ensure that no failures to the Rewst workflow appear in the results.
 
 ## Organization variables associated with this Crate <a href="#organization-variables-associated-with-this-crate" id="organization-variables-associated-with-this-crate"></a>
 
@@ -64,7 +64,7 @@ For more on organization variables and how to use them, see our org variable doc
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below. are typically system variables that are handled by integration mappings.
 
-If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.&#x20;
+If you haven't done so already, we recommended that you run the [Configure Organization Variables Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/configure-organization-variables), which will help you set org variables that are relevant to you and your customer's environments.
 {% endhint %}
 
 * `cw_manage_company_id`

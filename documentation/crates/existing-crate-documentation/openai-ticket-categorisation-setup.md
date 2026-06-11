@@ -59,7 +59,7 @@ The Crate workflow is triggered by a **webhook** whenever a new ticket is create
 
     If you're using a PSA that isn't on this list, please let us know. Our support team will look at whether it has the ability to trigger an automation based on a ticket being created.
 * You'll also need to have the one of the following AI integrations set up in Rewst before unpacking this Crate:
-  * [OpenAI](../../integrations/integration-guides/openai/openai-integration-setup.md)&#x20;
+  * [OpenAI](../../integrations/integration-guides/openai/openai-integration-setup.md)
   * [Anthropic](../../integrations/integration-guides/anthropic-integration.md)
 * Remember, you can also set up an Azure instance of OpenAI, and use that with this Crate. If you want to use an Azure instance of OpenAI with this Crate, you'll need to follow the Azure OpenAI Integration Setup steps to have this completed before unpacking.
 
@@ -73,16 +73,12 @@ The Crate workflow is triggered by a **webhook** whenever a new ticket is create
 4.  Click **Unpack Crate.**<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-12-02 at 1.24.17 PM.png" alt=""><figcaption></figcaption></figure>
-5. Choose your desired PSA from the drop-down selector. This is especially important for customers using multiple PSAs.&#x20;
-6. Choose the AI provider that you wish to use from the drop-down selector.&#x20;
-7. Choose the AI provider again in the **AI Provider** drop-down selector. Choose the **AI Model** of that provider that you would like to use with the Crate.&#x20;
+5. Choose your desired PSA from the drop-down selector. This is especially important for customers using multiple PSAs.
+6. Choose the AI provider that you wish to use from the drop-down selector.
+7. Choose the AI provider again in the **AI Provider** drop-down selector. Choose the **AI Model** of that provider that you would like to use with the Crate.
 8. Choose if you would like to **Report errors in ticket when unable to utilize AI**.
 9. Click **Continue**.
 10. Triggers for all possible PSAs are included in this Crate. By default, they're disabled, and only the PSA indicated by your choice in the drop-down selector used in the previous step will be enabled.
-
-<figure><img src="../../../.gitbook/assets/DisabledTriggers.png" alt=""><figcaption><p>Disable the unused triggers</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Enabledtriggers.png" alt=""><figcaption><p>Enabled Trigger</p></figcaption></figure>
 
 ### Test the Crate
 
@@ -108,7 +104,7 @@ These organization variables give you more control over the functionality of thi
 ## Increase the success rate of categorization
 
 * Creating more types, subtypes, and items in your PSA will give OpenAI more choices to choose from to better fit the response.
-* Choosing a different model may improve your response. Note that different models have different price points. See more on OpenAI's model pricing [here](https://openai.com/api/pricing/).&#x20;
+* Choosing a different model may improve your response. Note that different models have different price points. See more on OpenAI's model pricing [here](https://openai.com/api/pricing/).
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

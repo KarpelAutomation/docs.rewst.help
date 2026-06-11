@@ -24,13 +24,13 @@ Using the form in this Crate will provision a Microsoft Azure Table storage acco
    ![](<../../../.gitbook/assets/Screenshot 2025-09-26 at 11.14.31 AM.png>)<br>
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
-5. Click **Continue**.&#x20;
+5. Click **Continue**.
 6. Note that you have the option under the **Form Submission** accordion menu to activate the Crate for all future organizations in addition to the current one. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](https://docs.rewst.help/documentation/automations/intro-to-triggers/trigger-criteria), or for integration overrides.
-7. Click **Unpack**.&#x20;
+7. Click **Unpack**.
 
 ### Use the form
 
-1. Navigate to **Automations > Assets> Forms**.
+1. Navigate to **Automations > Assets > Forms**.
 2. Search for `Azure Tables: Create Table`.
 3. Click **⋮ > Usages > View Direct URLs**.
 4. Copy the URL and paste it into a new tab or browser window.

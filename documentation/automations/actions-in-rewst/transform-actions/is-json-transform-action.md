@@ -6,8 +6,6 @@ You are working with an API and the return comes back as a JSON string instead o
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.22.11 AM.png" alt=""><figcaption></figcaption></figure>
-
 This transform will check whether or not a string provided via the 'String to Check' input is a valid JSON string.
 
 ## Parameters

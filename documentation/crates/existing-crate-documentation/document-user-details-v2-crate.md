@@ -30,15 +30,6 @@ The [Microsoft Cloud Bundle](../../integrations/integration-guides/microsoft-clo
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-24 at 2.54.27 PM.png" alt=""><figcaption></figcaption></figure>
 7. Click **Unpack**.
-8. Navigate to **Automation > Workflows**.
-9. Search for `[Rewst Master v3] ITG: Document Users - [Part 1]`.
-10. Click into the workflow.
-11. Click ![](<../../../.gitbook/assets/image (196).png>) to view trigger details.
-12. Set the trigger to **Enabled**.
-13. Set the **Cron Schedule** as desired.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
-14. Click **Submit**.
 
 {% hint style="info" %}
 The workflow is designed to run at the MSP level organization. The workflow will automatically iterate through your Rewst child organizations and populate their specific form URLs in the documentation platform.
@@ -46,9 +37,27 @@ The workflow is designed to run at the MSP level organization. The workflow will
 
 ### Test the Crate
 
-1. Click **test** in the top right corner of the page.
-2. Select your MSP organization and click **Test**.
-3. Navigate to **Automations > Results** to view the workflow execution. Failed tasks in the record would indicate that the Crate is not working.
+1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
+2. Search for `[Rewst Master v3] ITG: Document Users - [Part 1`.
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click **Run** in the top right corner of the Workflow Builder Canvas.
+5. Select your MSP organization and click **Run Test**.
+6. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
+
+### Update the cron trigger
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule. Check in ITGlue to see if the flexible asset is created.
+{% endhint %}
+
+The Crate runs on a cron trigger, and will execute the workflow to check and generate the flexible asset content at the same time each day. You can adjust the chosen time for execution in the workflow itself.
+
+1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
+2. Search for `[Rewst Master v3] ITG: Document Users - [Part 1`.
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Adjust the cron trigger's schedule to your desired time.
+6. Click **Save Trigger**.
 
 ## Troubleshoot the Document User Details V2 Crate
 

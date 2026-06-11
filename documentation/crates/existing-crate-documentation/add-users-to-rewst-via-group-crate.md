@@ -27,7 +27,7 @@ Our Add Users to Rewst via Group Crate syncs membership from a Microsoft 365 gro
 
 ## Crate prerequisites
 
-Rewst's [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.&#x20;
+Rewst's [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/microsoft-cloud-integration-bundle/) must be set up before unpacking this Crate.
 
 ## Unpack the Add Users to Rewst via Group Crate
 
@@ -42,10 +42,17 @@ Rewst's [Microsoft Cloud Integration Bundle](../../integrations/integration-guid
    2. Enter the name of your relevant Azure AD Group into the field.
    3. Choose the roles of the users to be included from the drop-down selector: **Forms Only**, **Member**, or **Admin**.
 6. Click **Continue**.
-7. By default, the cron trigger option of the Crate is set to enabled. If you wish to use the time interval trigger, disable the cron trigger. You'll need to go into the workflow after it's unpacked from the Crate and [enable the interval trigger](../../automations/intro-to-triggers/#modify-an-existing-trigger) from the Workflow Builder.\
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2026-03-25 at 9.16.48 AM.png>)
-8. Note that you have the option under the **Configure Triggers** accordion menu to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
+7.  By default, the cron trigger option of the Crate is set to enabled. If you wish to use the time interval trigger, disable the cron trigger. You'll need to go into the workflow after it's unpacked from the Crate and [enable the interval trigger](../../automations/intro-to-triggers/#modify-an-existing-trigger) from the Workflow Builder. To do so:
+
+    1. Click on the trigger in the workflow to open the trigger settings in the right side menu.
+    2. Click on the Cron Trigger and toggle **Enabled** off.
+    3. Return to the trigger settings.
+    4. Click on the Time Interval trigger and toggle **Enabled** on.
+
+    ![](<../../../.gitbook/assets/Screenshot 2026-04-14 at 11.43.13 AM (1).png>)\
+    \
+    ![](<../../../.gitbook/assets/Screenshot 2026-04-14 at 11.43.20 AM.png>)<br>
+8. Note that you have the option under the **Configure Triggers** accordion menu of the Crate configuration page to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.
 9. Click **Unpack Crate**.
 
 {% hint style="info" %}

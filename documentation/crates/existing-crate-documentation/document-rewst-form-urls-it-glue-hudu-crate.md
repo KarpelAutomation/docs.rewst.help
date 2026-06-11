@@ -32,15 +32,11 @@ Our Document Rewst Form URLs (IT Glue/Hudu) Crate takes your Rewst form URLs and
 8. Click **Unpack**.
 9. Navigate to **Automation > Workflows**.
 10. Search for `[ROC] Add Missing Forms to ITGlue/Hudu`.
-11. Click into the workflow.
-12. Select the Gear icon to view trigger details.\
-    \
-    ![](<../../../.gitbook/assets/image (15) (1).png>)
+11. Click on the workflow to view it in the Workflow Builder.
+12. Click on the trigger to open its settings in the right side menu.
 13. Set the trigger to **Enabled**.
-14. Set the **Cron Schedule** as desired.\
-    \
-    ![](<../../../.gitbook/assets/image (16) (1).png>)
-15. Click **Submit**.
+14. Set the **Cron Schedule** as desired.
+15. Click **Save Trigger**.
 
 {% hint style="info" %}
 The workflow is designed to run at the MSP level organization. The workflow will automatically iterate through your Rewst child orgs and populate their specific form URLs in the documentation platform
@@ -48,10 +44,13 @@ The workflow is designed to run at the MSP level organization. The workflow will
 
 ### Test the Crate
 
-1. Click **test** in the top right corner of the page.
-2. Select your MSP organization and click **Test**.
-3. Navigate to **Automations > Results** to view the workflow execution.
-4.  Navigate to your relevant documentation tool's portal and ensure that the documentation is present.
+1. Navigate to **Automation > Workflows**.
+2. Search for `[ROC] Add Missing Forms to ITGlue/Hudu`.
+3. Click on the workflow to view it in the Workflow Builder.
+4. Click **Run** in the top right corner of the page.
+5. Select your MSP organization and click **Run Test**.
+6. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
+7.  Navigate to your relevant documentation tool's portal and ensure that the documentation is present.
 
     1. The new asset type created in Hudu will be called **Rewst Forms**.\
        ![](<../../../.gitbook/assets/Screenshot 2025-10-02 at 2.43.17 PM.png>)
@@ -63,7 +62,7 @@ The workflow is designed to run at the MSP level organization. The workflow will
 ## Organization variables associated with this Crate
 
 {% hint style="info" %}
-For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables). To review how to add and edit organization variables, see our documentation [here](../../integrations/organization-variables.md#edit-or-delete-existing-organization-variables).&#x20;
+For more on organization variables and how to use them, see our org variable documentation [here](https://docs.rewst.help/documentation/configuration/organization-variables). To review how to add and edit organization variables, see our documentation [here](../../integrations/organization-variables.md#edit-or-delete-existing-organization-variables).
 
 Organization variables not found in our standard organization variables documentation, such as the ones listed below, are typically system variables that are handled by integration mappings.
 
@@ -74,11 +73,10 @@ If you haven't done so already, we recommended that you run the [Configure Organ
 
 An organization variable will automatically be created while unpacking the Crate if it doesn't already exist in your organization:
 
-* For Hudu users, `hudu_form_excluded_forms`&#x20;
+* For Hudu users, `hudu_form_excluded_forms`
 * For ITGlue users, `itg_form_excluded_forms`
 
-These org variables are created as an empty list between two `[]` and will contain a list of trigger IDs. To use this feature, edit the org variable and insert the trigger IDs of any forms you wish to exclude within the brackets, separated by commas. For example: `["form_trigger_id_1", "form_trigger_id_2"]`. The related portion of the Crate's workflow will retrieve a list of all forms and find the ones that don't match the input. Forms in that list will be removed.\
-&#x20;&#x20;
+These org variables are created as an empty list between two `[]` and will contain a list of trigger IDs. To use this feature, edit the org variable and insert the trigger IDs of any forms you wish to exclude within the brackets, separated by commas. For example: `["form_trigger_id_1", "form_trigger_id_2"]`. The related portion of the Crate's workflow will retrieve a list of all forms and find the ones that don't match the input. Forms in that list will be removed.<br>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

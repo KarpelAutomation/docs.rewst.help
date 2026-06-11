@@ -18,12 +18,12 @@ Our Alert on Onboard/Offboard Execution Crate ensures that your security protoco
 * An automated email is dispatched to the specified security email address, detailing the action taken.
 
 {% hint style="info" %}
-Note that this Crate has no triggers. Its workflow is meant to be set up using a workflow [completion handler](../../automations/workflows/completion-handlers-and-workflow-wrappers.md), which will run after the onboarding or offboarding workflows execute. You'll need to manually connect it to your desired workflow— either the workflow unpacked from the Microsoft: User Onboarding Crate or the workflow unpacked from the Microsoft: User Offboarding Crate.
+Note that this Crate has no triggers. Its workflow is meant to be set up using a workflow [completion handler](/broken/pages/fm8eIBTHO3CnDr23CZjX), which will run after the onboarding or offboarding workflows execute. You'll need to manually connect it to your desired workflow— either the workflow unpacked from the Microsoft: User Onboarding Crate or the workflow unpacked from the Microsoft: User Offboarding Crate.
 {% endhint %}
 
 ## Crate prerequisite
 
-To choose the email where the notification will be sent, you must set the [organization variable ](../../integrations/organization-variables.md#manually-add-a-new-organization-variable)`onboard_offboard_notification_email` before unpacking this Crate.    &#x20;
+To choose the email where the notification will be sent, you must set the [organization variable ](../../integrations/organization-variables.md#manually-add-a-new-organization-variable)`onboard_offboard_notification_email` before unpacking this Crate.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-12-10 at 4.13.55 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,10 +36,8 @@ To choose the email where the notification will be sent, you must set the [organ
     ![](<../../../.gitbook/assets/image (1) (2) (2).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
-5. Click **Continue**.&#x20;
-6.  Enter **Time Saved** under **Crate Configuration**.&#x20;
-
-
+5. Click **Continue**.
+6.  Enter **Time Saved** under **Crate Configuration**.
 
     <figure><img src="../../../.gitbook/assets/image (1) (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 7. Click **Unpack**.
@@ -57,13 +55,27 @@ Follow [steps here](https://docs.rewst.help/documentation/automations/workflows/
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-12-10 at 4.05.12 PM.png" alt=""><figcaption><p>Be sure to add all statuses, which will send an email for all possible initial workflow execution results.</p></figcaption></figure>
 
-### Test the Crate
+### Update the cron trigger
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for the workflow you used as the initial workflow in your completion handler.&#x20;
 3. Click on that workflow to open it in the Workflow Builder.
 4. Click **Test** to run that workflow.&#x20;
 5. Check the email address indicated in your set organization variable to ensure that an email was sent.
+
+{% hint style="info" %}
+To test this Crate, you'll need to adjust the cron trigger's schedule to a few minutes in the future, then adjust it back to your regular schedule after the test. Alternatively, you could wait until the regularly scheduled run occurs and check your result, which would not require you to update the cron trigger schedule.&#x20;
+{% endhint %}
+
+The Crate runs on a cron trigger, and will execute the workflow to generate the ticket at the same time each day. You can adjust the chosen time for execution in the workflow itself.
+
+1. Navigate to **Automations > Workflows**.
+2. Search for `[ROC] Listener: New Employee Run Notification`.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger to open its settings in the right side menu.
+5. Update the timing of the cron trigger as desired. Note that when entering the time into the **Cron Schedule** field, the correct format is minutes followed by hour. For example, 18 3, not 3 18.
+6. If necessary, enable [Critical Timing](../../automations/intro-to-triggers/#critical-timing).
+7. Click **Save Trigger**.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

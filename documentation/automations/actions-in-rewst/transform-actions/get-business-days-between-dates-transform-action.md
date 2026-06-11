@@ -6,8 +6,6 @@ You would like to get the count of business days between dates.
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 2.50.19 PM.png" alt="A photo of the text header in the transform menu of the workflow builder for get business days between dates "><figcaption></figcaption></figure>
-
 Get the number of business days between two dates.
 
 ## Parameters

@@ -10,11 +10,7 @@ You're dealing with nested data structures and need to extract results from task
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.26.27 AM.png" alt=""><figcaption></figcaption></figure>
-
-The `Append With Items Results` transform enables effective incorporation of "With Items" task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient.
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-24 at 10.58.44 AM.png" alt=""><figcaption></figcaption></figure>
+The `Append With Items Results` transform enables effective incorporation of "With Items" task results into your original list. It bridges the gap between the collected results and the original list, making your data manipulation tasks simpler and more efficient. Extract a nested `result.result` list from each item in a specified list and append it to another specified list as an attribute with a provided name.
 
 ## Parameters
 

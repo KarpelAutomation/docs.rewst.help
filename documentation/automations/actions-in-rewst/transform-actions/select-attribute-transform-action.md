@@ -6,8 +6,6 @@ While reviewing a list of users returned from Microsoft Graph, you need to get a
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-28 at 11.29.37 AM.png" alt=""><figcaption></figcaption></figure>
-
 This action filters a sequence of objects by applying a test to the specified attribute of each object, and only selecting the objects where the test succeeds.
 
 ## Parameters

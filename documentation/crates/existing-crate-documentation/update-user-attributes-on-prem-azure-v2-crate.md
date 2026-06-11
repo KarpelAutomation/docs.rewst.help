@@ -33,7 +33,7 @@ Hybrid environments without syncing are not supported at this time.
 
 3\. If Azure AD is the identity provider, the workflow executes the task to update user attributes in Microsoft Entra ID, handling both success and failure scenarios with appropriate logging.
 
-4\. The workflow checks if the primary identity provider is configured as on-premises Active Directory—  on\_prem\_ad or on\_prem.
+4\. The workflow checks if the primary identity provider is configured as on-premises Active Directory— on\_prem\_ad or on\_prem.
 
 5\. If on-premises AD is the identity provider, the workflow executes the task to update user attributes in the on-premises AD environment, with proper error handling and logging.
 
@@ -49,8 +49,8 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2. Search for `Update User Attributes (On-Prem/Azure) V2`.​\
-   &#x20; \
-   &#x20;![](<../../../.gitbook/assets/image (283).png>)
+   \
+   ![](<../../../.gitbook/assets/image (283).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -79,21 +79,18 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
     * **State**
     * **Zip**
 
-    Take note that the fields default to `[Do Not Change],` and the current values for the attributes are  displayed and kept as-is. If `[Clear Value]` is selected, the value will be cleared.
-7. Click **Submit** to run the workflow.&#x20;
+    Take note that the fields default to `[Do Not Change],` and the current values for the attributes are displayed and kept as-is. If `[Clear Value]` is selected, the value will be cleared.
+7. Click **Submit** to run the workflow.
 
 ### Test the Crate <a href="#test-the-crate" id="test-the-crate"></a>
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[REWST - PROC] Update User Attributes in IDP`.\
-    &#x20;&#x20;
-
-    <figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[REWST - PROC] Update User Attributes in IDP`.
 3. Click on the workflow to view it in the Workflow Builder.
-4. Click **Test** in the top right corner of the builder canvas.
-5. Click **Test**.
+4. Click **Run** in the top right corner of the builder canvas.
+5. Click **Run Test**.
 6. Allow the workflow to run.
-7. You'll see a green success message at the top of your screen if the execution is successful. You'll see a red failure message if the execution fails. Click **View Results** for a more detailed breakdown of each.
+7. Execution results for the workflow run will appear in the right side menu. Click into any of the success or failure tiles for a more detailed breakdown of each.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

@@ -33,10 +33,10 @@ All per‑minute limits scale linearly with both units and SKU size.
 
 ### Scenarios
 
-| Choose one                          | How to do it                                                                                                                                                     | Throughput                          | Cost example\*                                         |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------------------------ |
-| **Scale the hub (fast)**            | <p>• <code>bash az iot hub update -n &#x3C;hub> --sku S3 --unit 2</code><br><br>• Run 5 min before deploy; scale back to <code>S1 --unit 1</code> when done.</p> | \~2 000 agents/min                  | S3 ≈ **$3.47 per unit‑hour** → 2 units × 4 h ≈ **$28** |
-| **Throttle in RMM (no Azure cost)** | <p>• Deploy ≤ 50 agents / min / S1‑unit.<br><br>• Add jitter: <code>Start‑Sleep (Get‑Random 5 3600)</code> before install.</p>                                   | Current hub limit (\~20 agents/min) | Longer total time; more scripting effort               |
+| Choose one                         | How to do it                                                                                                                                                     | Throughput                          | Cost example\*                                 |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------- |
+| Scale the hub                      | <p>• <code>bash az iot hub update -n &#x3C;hub> --sku S3 --unit 2</code><br><br>• Run 5 min before deploy; scale back to <code>S1 --unit 1</code> when done.</p> | \~2 000 agents/min                  | S3 ≈ $3.47 per unit‑hour → 2 units × 4 h ≈ $28 |
+| Throttle in RMM with no Azure cost | <p>• Deploy ≤ 50 agents / min / S1‑unit.<br><br>• Add jitter: <code>Start‑Sleep (Get‑Random 5 3600)</code> before install.</p>                                   | Current hub limit (\~20 agents/min) | Longer total time; more scripting effort       |
 
 \*US‑East pricing, rounded
 

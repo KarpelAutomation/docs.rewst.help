@@ -66,23 +66,19 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 ## Use the Microsoft: User Offboarding Crate
 
 1. Navigate to **Automations > Workflows** in the Rewst platform
-2. Search for `Microsoft: User Offboarding`.
-3. Click into the workflow.
-4.  Click ![](<../../../.gitbook/assets/image (196).png>) to navigate to the trigger.\
-    <br>
-
-    <figure><img src="../../../.gitbook/assets/image (61) (3).png" alt=""><figcaption></figcaption></figure>
-5. Click **View Direct URLs.**
-6.  Select the company you'd like to use to test the workflow. Copy the URL and paste it into a new window.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (62) (4).png" alt=""><figcaption></figcaption></figure>
-7.  Fill out the form as appropriate for the company and user you are offboarding. Make sure to click **Submit** at the end of the form.<br>
+2. Search for `[REWST - PROC] Microsoft: User Offboarding`.
+3. Click on the workflow to open it in the Workflow Builder.
+4. Locate the trigger on the Workflow Builder Canvas.&#x20;
+5. Click on the trigger to open its settings in the right side menu.
+6. Click **Copy URL.**\
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2026-04-21 at 3.49.07 PM.png>)
+7. Select the company you'd like to use to test the workflow from the total organization list. Copy the relevant URL and paste it into a new window.<br>
+8.  Fill out the form as appropriate for the company and user you are offboarding. Make sure to click **Submit** at the end of the form.<br>
 
     <figure><img src="../../../.gitbook/assets/image (63) (2).png" alt=""><figcaption></figcaption></figure>
-8.  Once the form is submitted, the workflow will begin to run. To view the results, click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM.png" alt="" data-size="line"> in the workflow editor page.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (65) (2).png" alt=""><figcaption></figcaption></figure>
-9. Click into the results to see the execution results with successes and failures, if there are any.
+9. Once the form is submitted, the workflow will begin to run. To view the results, click ![](<../../../.gitbook/assets/Screenshot 2026-04-21 at 10.41.58 AM (1).png>) **> Execution History** in the Workflow Builder.
+10. Click into the results to see the execution results with successes and failures, if there are any.
 
 <figure><img src="../../../.gitbook/assets/image (66) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -271,7 +267,7 @@ If you haven't done so already, it's recommended that you run the [org variable 
 2. Perform testing to make sure that you have all the required organization variables set correctly. The same variables are used in this updated Crate as were used in the previous version. If you need to update any organization variables, then please follow [this guide](https://docs.rewst.help/prebuilt-automations/existing-crate-documentation/configure-organization-variables).
 3. After testing and confirming that it is functioning as expected, please move forward with the steps below:
    1. If you plan to utilize the updated form in this crate, rather than the legacy form:
-      1. Go to the [previous crate's](https://app.rewst.io/marketplace/crates/018fdeb1-347e-7de5-93d9-61f6ce9fba31) top level workflow and disable any form triggers. This will prevent users from submitting requests to the wrong workflow.
+      1. Go to the [previous Crate's](https://app.rewst.io/marketplace/crates/018fdeb1-347e-7de5-93d9-61f6ce9fba31) top level workflow and disable any form triggers. This will prevent users from submitting requests to the wrong workflow.
       2. Update your internal documentation with the new form links.
       3. If Applicable, provide your customers with their new form link.
    2. You are able to link the previous Crates form to this version, though given the minimal differences there may not be a clear advantage other than not needing to change the link destinations. The previous form will not receive any further updates or enhancements.

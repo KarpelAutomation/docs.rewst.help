@@ -38,9 +38,7 @@ This Crate requires one or more of the following PSAs to be successfully integra
 1. Navigate to **Marketplace > Crates** in the left side menu Rewst platform.
 2.  Search for `Upload File to PSA Ticket`.​
 
-
-
-    &#x20;![](<../../../.gitbook/assets/image (323).png>)
+    ![](<../../../.gitbook/assets/image (323).png>)
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
@@ -49,21 +47,17 @@ This Crate requires one or more of the following PSAs to be successfully integra
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
-2.  Search for `[ROC] PSA: Upload File To Ticket`.
-
-
-
-    <figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+2. Search for `[ROC] PSA: Upload File To Ticket`.
 3. Click on the workflow to view it in the Workflow Builder.&#x20;
-4. Click **Test** in the top right corner of the Workflow Builder Canvas.
+4. Click **Run** in the top right corner of the Workflow Builder Canvas.
 5. Fill in the following fields:
    * **file** - This is the raw data
    * **title** - Enter the title for the raw data
    * **ticket\_id** - Enter the unique identifier assigned to support ticket
    * **attachment\_name** - Add the file extension into the name
-6. Click **Test**.
+6. Click **Run Test**.
 7. Check in your PSA to see if the file is uploaded to the ticket as expected.&#x20;
-8. If the file isn't uploaded, check the workflow's results for the error and contact Rewst Support.
+8. If the file isn't uploaded, check the workflow's execution results for the error and contact Rewst Support.
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

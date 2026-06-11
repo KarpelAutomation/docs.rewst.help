@@ -27,25 +27,21 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 ### Test the Crate
 
 1. Navigate to **Automations > Workflows**.
-2.  Search for M365 Quarantine Release. Click on the workflow to open it in the workflow builder. Note that this workflow is triggered by a form submission.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
-3. Click ![](<../../../.gitbook/assets/image (196).png>) to access the **Edit Trigger** page.
-4.  Click ![](<../../../.gitbook/assets/Screenshot 2025-03-31 at 5.16.58 PM.png>) under **Trigger Configuration** to copy the form's URL.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (66) (1).png" alt=""><figcaption></figcaption></figure>
-5. Paste the URL into a new browser tab.
-6. Fill out the form as follows:
+2. Search for `M365 Quarantine Release`.&#x20;
+3. Click on the workflow to open it in the Workflow Builder. Note that this workflow is triggered by a form submission.
+4. Click on the trigger in the workflow to open its settings in the right side menu.
+5. Click **Copy URL**.&#x20;
+6. Copy the URL for the organization that you wish to use for your test.
+7. Paste the URL into a new browser tab.
+8. Fill out the form as follows:
    1. Choose the organization that you want to release an email from.
    2. Choose a ticket that you want updates to be posted to.
    3. Select if you want to search an individual mailbox or all users mailbox. If individual, select the user.
    4. Select the email to release.
    5. Choose to allow or deny future messages from the sender.
    6. Choose to release the email to all recipients, or only the selected user.
-7. Click **Submit**.
-8.  Click <img src="../../../.gitbook/assets/Screenshot 2025-03-05 at 2.40.07 PM.png" alt="" data-size="line"> to view the results of the workflow. If there are errors in the result record, the Crate is not working properly.<br>
-
-    <figure><img src="../../../.gitbook/assets/image (64) (1).png" alt=""><figcaption></figcaption></figure>
+9. Click **Submit**.
+10. Click ![](<../../../.gitbook/assets/Screenshot 2026-04-15 at 4.43.48 PM.png>) **> Execution History** to view the results of the workflow. If there are errors in the result record, the Crate is not working properly. <br>
 
 {% hint style="info" %}
 Got an idea for a new Crate? Rewst is constantly adding new Crates to our Crate Marketplace. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/crates).

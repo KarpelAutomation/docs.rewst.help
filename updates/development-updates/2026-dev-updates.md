@@ -365,7 +365,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 <summary><strong>New features and items</strong></summary>
 
 * **Workflow Builder**
-  * The new [Workflow Builder](../../documentation/automations/workflows/new-workflow-builder.md) is now enabled for all customers. A redesigned experience bringing a more intuitive way to build and manage your workflows.
+  * The new [Workflow Builder](/broken/pages/6cIR2bnP5Js8cytxzRfO) is now enabled for all customers. A redesigned experience bringing a more intuitive way to build and manage your workflows.
   * We added a Compact Auto Layout toggle that reduces node spacing, making it easier to view and manage larger workflows.
   * We added the ability to navigate workflows using the Data Aliases tab, making it quicker to find and reference your data aliases while building.
 * **Crates**

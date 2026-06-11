@@ -6,7 +6,7 @@ If you’re new to Crates, read through our introductory Crate documentation [he
 
 ## What does the Update Ticket With Form Link - Generic Crate do?
 
-This Crate will allow you to provide a variable configuration— via trigger variable—  or input configuration— via workflow input— at runtime, with the name of a form you would like to use to update single or multiple tickets.
+This Crate will allow you to provide a variable configuration— via trigger variable— or input configuration— via workflow input— at runtime, with the name of a form you would like to use to update single or multiple tickets.
 
 ### How the Crate works
 
@@ -44,17 +44,17 @@ If you do not have a trigger variable configured before running the workflow in 
 
 1. Navigate to **Automations > Workflows** in the left side menu of your Rewst platform.
 2. Search for `[REWST - PROCESS] PSA: Update Ticket With Form Link - Generic`.&#x20;
-3. Click on the workflow to open it in the Workflow Builder Canvas.
-4. Click ![](<../../../.gitbook/assets/image (226).png>) to edit your trigger.
-5.  Update your trigger variable under the **Trigger Variables** submenu. Enter the name of the form you would like to provide a link to in the **Form Name** field\
+3. Click on the workflow to open it in the Workflow Builder.
+4. Click on the trigger in the workflow to open its settings in the right side menu. If you are using multiple PSAs, click the trigger for the PSA you wish to use.
+5.  Update your trigger variable under the **Trigger Variables** submenu. Enter the name of the form you would like to provide a link to in the **Vars.form\_name** field\
     <br>
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-10-16 at 4.00.22 PM.png" alt="Form interface labeled “Trigger Parameters” and “Trigger Variables.” Under “Trigger Parameters,” there are two required fields: “Level,” set to “Owner,” and “Object ID,” set to “1.” Both fields include descriptions explaining their purpose and turquoise refresh icons on the right. Under “Trigger Variables,” there is a required “Form Name” field set to “[REWST – EXAMPLE] Rewst: Example Form,” with a note stating it is an overrideable field. The interface has a dark background with white text and gray input boxes."><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 9.27.29 PM.png" alt="Form interface labeled “Trigger Parameters” and “Trigger Variables.” Under “Trigger Parameters,” there are two required fields: “Level,” set to “Owner,” and “Object ID,” set to “1.” Both fields include descriptions explaining their purpose and turquoise refresh icons on the right. Under “Trigger Variables,” there is a required “Form Name” field set to “[REWST – EXAMPLE] Rewst: Example Form,” with a note stating it is an overrideable field. The interface has a dark background with white text and gray input boxes."><figcaption></figcaption></figure>
 6. Recommended: Add trigger criteria that limits what tickets the workflow will run for when the trigger kicks off based on criteria you define. This could be criteria such as board, queue, type, subtype, item, etc.
-7. Click **Submit**.
+7. Click **Save Trigger**.
 
 {% hint style="info" %}
-If you would like to use this Crate for several forms, you'll need to create a separate trigger instance for each form. See our documentation for how to create and update triggers [here](https://docs.rewst.help/documentation/automations/intro-to-triggers#create-a-trigger).  Repeat the above steps 1-6 for each of the forms you wish to use with the Crate.
+If you would like to use this Crate for several forms, you'll need to create a separate trigger instance for each form. See our documentation for how to create and update triggers [here](https://docs.rewst.help/documentation/automations/intro-to-triggers#create-a-trigger). Repeat the above steps 1-6 for each of the forms you wish to use with the Crate.
 {% endhint %}
 
 ### Example ticket update

@@ -6,8 +6,6 @@ There is a character limit on a field in an upcoming API call, you would like to
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 3.01.49 PM.png" alt="A screenshot of the get string length transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 Measures the length of a String. It will return the number of characters in that string.
 
 ## Parameters

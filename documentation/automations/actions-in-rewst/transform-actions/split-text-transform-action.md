@@ -6,8 +6,6 @@ You have a string that you would like to split each word/character by a delimite
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-18 at 3.10.03 PM.png" alt="A screenshot of the split text transform action, seen in the actions list menu of the workflow builder canvas."><figcaption></figcaption></figure>
-
 Splits text on a delimiter into a list of strings.
 
 ## Parameters

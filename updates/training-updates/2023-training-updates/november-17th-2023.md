@@ -27,7 +27,7 @@ Explore what new changes the Training team has made in the last week.
 * Added a page for [app-builder](../../../documentation/app-builder/ "mention") and how to submit your[Broken link](/broken/pages/dxgpCZqg6WIDfYNi3qW4 "mention") to us.
 * Added the [Broken link](/broken/pages/r0okphdpEM12Yj7m4fk2 "mention") page with tips on how to take advantage of little breaks where you can find them.
 * Added a page for the [view-rewst-integration-org-variables.md](../../../documentation/crates/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
-* Added page about [document-with-roborewsty.md](../../../documentation/roborewsty/document-with-roborewsty.md "mention")
+* Added page about [Broken link](/broken/pages/R5d3HUpwFqVUcNhr0zUP "mention")
 * Added a use case page about [efficiently-extracting-nested-data.md](../../../documentation/jinja/use-cases-and-best-practices/efficiently-extracting-nested-data.md "mention")
 * Added a use case page about [customizing-psa-ticket-triggers.md](../../../documentation/automations/intro-to-triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md "mention")
 

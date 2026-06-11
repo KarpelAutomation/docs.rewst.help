@@ -8,8 +8,6 @@ You would like to refang it and make the URL directly usable.
 
 ## Overview
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-14 at 12.17.49 PM.png" alt=""><figcaption></figcaption></figure>
-
 Given a defanged URL, this action will refang the url by removing the added characters that prevent it from being directly usable.
 
 ## Parameters
