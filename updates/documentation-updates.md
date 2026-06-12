@@ -12,6 +12,15 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-06-12" %}
+## ✍️ June 12, 2026 - Recently updated documentation
+
+* A big change to all documentation that relates to workflows, actions, and how to use the Workflow Builder: all documentation now references and shows examples for the new Workflow Builder, not our legacy Builder
+* [Updated documentation for our HTTP request action](https://docs.rewst.help/documentation/automations/actions-in-rewst/core-actions#http-request-action)
+* [Additional guidance for how to properly use completion handlers](https://docs.rewst.help/documentation/automations/workflows/completion-handlers-and-workflow-wrappers)
+* [Updated endpoint list for our Pax8 integration](https://docs.rewst.help/documentation/integrations/integration-guides/pax8-integration-setup)
+{% endupdate %}
+
 {% update date="2026-06-05" %}
 ## ✍️ June 5, 2026 - Recently updated documentation
 

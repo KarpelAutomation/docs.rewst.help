@@ -11,6 +11,15 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-06-12" %}
+## June 12, 2026 - Training update
+
+* **New course:** [Intro to automation as a service](https://learn.rewst.io/intro-to-automation-as-a-service) — Ready to offer automation to your clients as a billable service? This course walks you through finding the right opportunities, running a discovery conversation, and thinking through pricing your first engagement.
+* **New YouTube playlist**: [RoboRewsty short videos](https://youtube.com/playlist?list=PLDWjfoX6CSp86xk5_bji9AUABluuZ8gW7\&si=_iiGeDsFRAMMfQNT) you (mostly) won't find in any courses. Watch, learn, and apply in your next RoboRewsty chat.
+* **Changes coming soon** to Rewst Foundations: New self-paced course with updated video content featuring the new Workflow Builder UI, new certification exam questions.
+* **Changes coming soon** to Clean Automation: New certification exam questions.
+{% endupdate %}
+
 {% update date="2026-06-05" %}
 ## 🎓 June 5, 2026 - Training update
 

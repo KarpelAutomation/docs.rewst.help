@@ -12,6 +12,70 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-06-12" %}
+## 💻 June 12, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **General**
+  * Improved workflow execution query performance by reducing redundant trigger lookups.
+  * Improved workflow execution performance to deliver faster loading times for large execution histories.
+* **Onboarding**
+  * Added an optional onboarding step that helps PSA-connected customers analyze historical tickets and identify automation opportunities.
+* **Workflow builder**
+  * Made the new workflow canvas the default experience for workflow building.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **App Builder**
+  * Enabled App Builder template components to correctly render shared parent-organization templates for child-organization users.
+  * Improved workflow output security while maintaining App Builder support for shared workflows across managed organizations.
+* **Integrations**
+  * Strengthened integration export permissions to prevent unauthorized cross-org access to pack YAML and documentation.
+  * Hardened GraphQL query permissions to prevent unauthorized access to integration action options, unlisted trigger types, and runner data.
+  * Fixed Proofpoint user listing to return each organization user only once when handling paginated results.
+* **Organization Variables**
+  * Fixed org variable updates to encrypt secret values correctly and prevent unauthorized or unsafe category changes.
+* **RoboRewsty**
+  * Fixed an issue where RoboRewsty could fail when removing workflow transitions between tasks connected by multiple paths.
+* **Workflow Builder**
+  * Restored selection highlighting on the new workflow canvas so the currently selected task or transition is always clearly indicated.
+  * Fixed an issue where saving cron triggers in the new workflow canvas could prevent scheduled workflows from running.
+* **Crates**
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Show "Send SMS to user" checkbox without requiring CTX.phone\_number; visibility now based on org variable and password section
+    * Updated PowerShell workflows to use CW ASIO Run PowerShell with dynamic ConnectWise ASIO script ID lookup
+    * Fixed JSON syntax, which was missing trailing commas, in Ingram Micro → Microsoft License Lookup template for Teams Enterprise and Microsoft 365 Copilot entries
+  * [Just-In-Time Admin Access](../../documentation/crates/existing-crate-documentation/just-in-time-admin-access-crate.md)
+    * Added Microsoft Entra Temporary Access Pass generation after Just-In-Time admin user creation and Global Admin assignment
+  * [Configure Organizational Variables](../../documentation/crates/existing-crate-documentation/configure-organization-variables.md)
+    * Save Offboarding Ticket SubType to the correct variable used by Microsoft User Offboarding, with fallback to legacy variable name
+  * [Google: User Offboarding](../../documentation/crates/existing-crate-documentation/google-user-offboarding-crate.md)
+    * Existing Ticket field now appears for all organizations using the Crate
+  * [CIPP: Alert Triage](../../documentation/crates/existing-crate-documentation/cipp-alert-triage-crate.md)
+    * Support for an additional payload format and normalize alerts to surface key details in PSA ticket notes
+* **Kits**
+  * There were no updates to kits this week.
+* **Subworkflows**
+  * There were no updates to subworkflows this week.&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [FLOW](https://www.mspflow.events/)!
+
+</details>
+{% endupdate %}
+
 {% update date="2026-06-05" %}
 ## 💻 June 5, 2026 - Dev update
 
@@ -39,7 +103,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-* App Builder
+* **App Builder**
   * Improved App Builder live page reliability by preventing transient authorization service errors from appearing as false “Not Authorized” failures.
 * **General**
   * Strengthened cross-org security controls for user metadata lookups and rate limit subscriptions.
