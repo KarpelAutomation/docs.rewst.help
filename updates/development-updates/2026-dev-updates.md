@@ -12,6 +12,50 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-06-19" %}
+## 💻 June 19, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Check back next week!**
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **App Builder**
+  * Restored the ability to delete components when editing cloned apps in App Builder.
+* **RoboRewsty**
+  * Improved RoboRewsty performance for large requests to prevent long delays and failed responses.
+  * Preserved manually deleted workflow connections when making additional RoboRewsty updates.
+  * Fixed an issue that could cause RoboRewsty conversations to become unusable after compacting long conversations.
+  * Prevented RoboRewsty from overwriting existing workflow configuration when adding or updating variables and parameters.
+  * Improved RoboRewsty workflow generation to correctly configure with items task inputs and iteration settings.
+* **Workflow Builder**
+  * Restored automatic propagation of default sub-workflow input values to existing parent workflow actions in the new canvas.
+* **Crates**
+  * [Rewst's AI PSA Analyzer](../../documentation/crates/existing-crate-documentation/rewsts-ai-psa-analyzer-crate.md)
+    * Persist AI-recommended crate suggestions to org var psa\_analysis\_results for downstream use (96032)
+    * Fix NinjaOne logic to correctly list filtered tickets (98806)
+    * Use ID (not UID) for NinjaOne board values in option generation (98807)
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Show send\_sms\_to\_user checkbox based on org var and password section; removed phone\_number dependency (95628)
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [FLOW](https://www.mspflow.events/)!
+
+</details>
+{% endupdate %}
+
 {% update date="2026-06-12" %}
 ## 💻 June 12, 2026 - Dev update
 
