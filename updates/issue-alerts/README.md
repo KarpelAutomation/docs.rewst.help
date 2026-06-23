@@ -5,6 +5,26 @@ icon: circle-exclamation
 # Alerts
 
 {% updates format="full" %}
+{% update date="2026-06-23" %}
+## ⚠️ Upcoming: Rewst database maintenance - US
+
+To address semi-regular database maintenance, Rewst will be performing a brief maintenance in the US environment on June 27th, 2026 from 10:00 AM ET - 11:00 AM ET. Our engineering team will be conducting standard database maintenance to ensure continued platform stability and performance. During this window, workflow executions will be paused. The expected disruption is approximately 60 minutes. Paused workflows will resume immediately after the work is complete.\
+\
+If you have any questions or concerns, please contact our Support team via your dedicated Discord channel or by email. For account-related inquiries, reach out to your Customer Success Manager.\
+\
+**Updates**
+
+You can monitor live updates and service status at: [https://status.rewst.io/](https://status.rewst.io/)
+
+**Need help?**
+
+Rewst support is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+
+**Create a ticket**
+
+[Email the team](mailto:roc@rewst.io) and someone will be in touch ASAP.
+{% endupdate %}
+
 {% update date="2026-04-11" %}
 ## ⚠️ Concluded: Rewst database maintenance
 
