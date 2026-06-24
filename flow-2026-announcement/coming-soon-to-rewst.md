@@ -56,14 +56,14 @@ Forms have four options for access, which can be set in the Form Builder.&#x20;
 
 * **All suborganizations**, default: MSP owner and all suborganizations can authenticate at the runtime URL
 * **Owner only**: MSP only
-* **Selected sub-tenants:** explicit allow-list
+* **Selected suborganizations:** explicit allow-list
 * **Public forms:** no login required
 
 You can also create form-level exceptions per customer, without cloning the form. Add components that only exist for one organization, or hide specific components for select organizations.
 
 ## Workflow Builder
 
-The Rewst Agent can build your workflows and any associated forms or scripts for you, all stemming from your query. Alternatively, you or you can build and edit workflows manually in our new Workflow Builder, just like you always have in Rewst.
+The Rewst Agent can build your workflows and any associated forms or scripts for you, all stemming from your query. Alternatively, you can build and edit workflows manually in our new Workflow Builder, just like you always have in Rewst.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-06-09 at 3.24.30 PM.png" alt=""><figcaption></figcaption></figure>
 
