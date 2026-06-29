@@ -3,21 +3,19 @@
 {% hint style="info" %}
 For more on custom integrations in Rewst, see our introductory documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations). Custom integrations can only be enabled by users with the Rewst Admin role. We recommend taking our [Cluck University course on custom integration](https://learn.rewst.io/getting-started-with-custom-integrations) before attempting setup.
 
-Note that this is V2 of our custom integrations feature. Customers who previously installed V1 of custom integrations may find that setup documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations/integration-setup).  V1 of custom integrations is deprecated and should no longer be used. Documentation for V1 remains to assist existing customers with the migration to the V2 method. If you have questions about migrating from V1 to V2, please reach out to Rewst [support](../../../support-and-community/roc-support/).&#x20;
+Note that this is V2 of our custom integrations feature. Customers who previously installed V1 of custom integrations may find that setup documentation [here](https://docs.rewst.help/documentation/integrations/custom-integrations/integration-setup). V1 of custom integrations is deprecated and should no longer be used. Documentation for V1 remains to assist existing customers with the migration to the V2 method. If you have questions about migrating from V1 to V2, please reach out to Rewst [support](../../../support-and-community/roc-support/).
 {% endhint %}
 
 ## Two options for adding a custom integration
 
 ### Build a new integration without an OpenAPI JSON file
 
-
-
 {% columns %}
 {% column %}
 This is a completely manual, built-from-scratch integration where you'll add and configure each API endpoint, the basis of Rewst actions, one at a time. This option is more time-consuming than option two. You may want to use this advanced option if:
 
 * You're building your own API in the backend
-* Your partnered app has an  undocumented API
+* Your partnered app has an undocumented API
 * You only need a very limited selection of operations
 {% endcolumn %}
 
@@ -44,7 +42,7 @@ Occasionally, some vendors may use [Swagger](https://swagger.io/docs/specificati
 1. Navigate to the API documentation URL for your desired vendor. For example formatting, consider `https://api-docs.pedroaviary.com/` .
 2. Enter swagger.json a the end of the URL. For example, `https://api-docs.pedroaviary.com/swagger.json` .
 3. This will retrieve the file if one exists. Right click on the page, then **Save as**. The JSON file will download to your chosen location.
-4. Your Swagger file will need to be cleaned up before it can be imported into Rewst. We recommend the tool at [https://schemadoctor.com/](https://schemadoctor.com/) for larger schemas that are too large for Rewst, or its older counterpart [https://schemadoctor.com/archive/](https://schemadoctor.com/archive/) for broader cleaning on smaller schemas.&#x20;
+4. Your Swagger file will need to be cleaned up before it can be imported into Rewst. We recommend the tool at [https://schemadoctor.com/](https://schemadoctor.com/) for larger schemas that are too large for Rewst, or its older counterpart [https://schemadoctor.com/archive/](https://schemadoctor.com/archive/) for broader cleaning on smaller schemas.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -56,7 +54,7 @@ For either option, you'll also need to know the pagination and authorization spe
 ### Enable custom integrations in your Rewst instance
 
 {% hint style="info" %}
-Custom integrations can only be enabled by users with the Rewst Admin role.&#x20;
+Custom integrations can only be enabled by users with the Rewst Admin role.
 {% endhint %}
 
 1. Navigate to **Settings > Feature Preview** in the right side menu of your Rewst platform.
@@ -69,7 +67,7 @@ Custom integrations can only be enabled by users with the Rewst Admin role.&#x20
 ### Choose the type of custom integration
 
 1. Navigate to **Marketplace > Integrations** in the left side menu of your Rewst platform.
-2.  Click <img src="../../../.gitbook/assets/Screenshot 2026-02-05 at 4.52.46 PM.png" alt="" data-size="line">.&#x20;
+2.  Click <img src="../../../.gitbook/assets/Screenshot 2026-02-05 at 4.52.46 PM.png" alt="" data-size="line">.
 
     1. Click **New Integration** to build your integration from the beginning.
     2. Alternatively, click **Add OpenAPI Integration** if you have an OpenAPI JSON file.
@@ -88,11 +86,11 @@ For either method of custom integration, you'll need an SVG file of the logo of 
 
 ### Steps to add a custom integration with an OpenAPI file
 
-1. Drag and drop your OpenAPI file into the upload box.&#x20;
-2. Click **Submit**.&#x20;
-3. Once you upload your file and there are no validation errors, you can start configuring your integration.&#x20;
+1. Drag and drop your OpenAPI file into the upload box.
+2. Click **Submit**.
+3. Once you upload your file and there are no validation errors, you can start configuring your integration.
    1. Add a **Name** for your integration. Note that this name is what will show up as the accordion menu header for your integration's list of actions in the Workflow Builder. It shouldn't contain special characters.
-   2.  Upload an **Icon** via an SVG file. Other image file formats will not upload into Rewst. This icon will represent your custom integration across Rewst in the integration tile, actions menu, etc.&#x20;
+   2.  Upload an **Icon** via an SVG file. Other image file formats will not upload into Rewst. This icon will represent your custom integration across Rewst in the integration tile, actions menu, etc.
 
        <br>
 
@@ -121,7 +119,7 @@ Examples of OpenAPI files for common custom integrations
 ### Steps to build a new custom integration without an OpenAPI JSON file
 
 1. Add a **Name** for your integration. Note that this name is what will show up as the accordion menu header for your integration's list of actions in the Workflow Builder. It shouldn't contain special characters.
-2. Upload an **Icon** via an SVG file. Other image file formats will not upload into Rewst. This icon will represent your custom integration across Rewst in the integration tile, actions menu, etc.&#x20;
+2. Upload an **Icon** via an SVG file. Other image file formats will not upload into Rewst. This icon will represent your custom integration across Rewst in the integration tile, actions menu, etc.
 
 <br>
 
@@ -133,7 +131,7 @@ Examples of OpenAPI files for common custom integrations
 7. Choose an authentication method from the drop-down selector. Rewst supports:
    1. API Key - this is the most common and simplest method, which should chosen if:
       1. The API provides a single static key or token
-      2. &#x20;Requests include a header like `Authorization` or `X-API-Key`
+      2. Requests include a header like `Authorization` or `X-API-Key`
       3. Tokens do not expire or refresh automatically
       4. Vendor documentation mentions API key, token, or bearer token
    2. Basic Auth - this is simple, less secure, and usually avoided if other options exist, but should be chosen if:
@@ -194,12 +192,12 @@ Examples of OpenAPI files for common custom integrations
        1. The endpoint always returns a small, complete dataset
        2. The response is a single list with no paging metadata
        3. The API documentation from the vendor doesn't mention pages, limits, cursors or links
-    2. **Index** - this is common in older or SQL-backed APIs and should be chosen if:&#x20;
+    2. **Index** - this is common in older or SQL-backed APIs and should be chosen if:
        1. The API uses an offset-style parameter
        2. Requests look like `offset=0&limit=50` or `start=100`
        3. Documentation mentions offset, start, skip, or from
        4. You move through results by increasing a number
-    3. **Page** - this is common in traditional REST APIs and should be chosen if:&#x20;
+    3. **Page** - this is common in traditional REST APIs and should be chosen if:
        1. The API uses page numbers
        2. Requests look like `page=1&page_size=50`
        3. Vendor documentation mentions page, page number, or pages
@@ -215,7 +213,7 @@ Examples of OpenAPI files for common custom integrations
        3. The response includes a value you pass back to get the next page
        4. Page order must remain consistent as data changes
 12. Click **Next**.
-13. Fill out the pagination details.&#x20;
+13. Fill out the pagination details.
     1. For all types except None:
        1. **Results Key** - A path within the action's output to the iterable list of results (which must be an array) - i.e. `results` or `results.foo`
        2. **Page Size Param** - The query parameter used to control the amount of items returned in a response
@@ -233,7 +231,7 @@ Examples of OpenAPI files for common custom integrations
     5. Additionally, if Pointer:
        1. **After Param** - The query param the identifies the starting pointer/cursor of the returned page.
        2. **Pointer JSONPath** - The JSONPath to the pointer/cursor in the response.
-14. Click **Next**.&#x20;
+14. Click **Next**.
 15. The **Edit Actions** screen is where you'll add in your actions for your integration. When the integration is complete, you'll be able to access these actions in the [Workflow Builder](../../automations/workflows/workflow-builder-how-to-set-up-a-workflow.md#drag-the-action) just like you would for any other integration, only they will show up in a separate accordion section titled with the name you gave your custom integration.
 
     1. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-26 at 3.15.05 PM.png>) to add a default action. This will reveal new fields and menus to fill out for that action, and add the action to the left side list.
@@ -243,15 +241,13 @@ Examples of OpenAPI files for common custom integrations
     1. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-26 at 3.15.34 PM.png>)to the right of your action to delete it.
     2. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-26 at 3.22.37 PM.png>)to open the **Regex Replace** dialog. Here you can change the name or description of your action to something else, editing multiple actions at once. For example, `Photo Records Get` could be changed to `Get Photo Records`. In this example it would match `(.*?) Get`.
 
-
-
     <figure><img src="../../../.gitbook/assets/Screenshot 2026-01-26 at 3.20.00 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 16. Click **Finalize** when all desired actions are added.
-17. Click **Finalize** again only when you're finished adding actions. You won't be able to edit certain fields again after finalizing.&#x20;
+17. Click **Finalize** again only when you're finished adding actions. You won't be able to edit certain fields again after finalizing.
 
 ![Click Finalize](<../../../.gitbook/assets/Screenshot 2026-03-06 at 10.17.10 AM.png>)
 
-20. If your actions are available, you'll see a new [organization mapping](https://docs.rewst.help/documentation/configuration/integrations#what-is-organization-mapping) menu appear at the bottom of the screen. Note that organization mapping will only appear if a paginated endpoint is in the integration.&#x20;
+20. If your actions are available, you'll see a new [organization mapping](https://docs.rewst.help/documentation/configuration/integrations#what-is-organization-mapping) menu appear at the bottom of the screen. Note that organization mapping will only appear if a paginated endpoint is in the integration.
 21. Click **Save**.
 22. Select a status from the status list. Note that statuses determine how Rewst handles your custom integration's current state:
     1. **Draft**: The integration is not finalized, can be still be edited, but not installed. Once an integration is finalized it can't be put back in to draft mode.
@@ -264,11 +260,170 @@ Examples of OpenAPI files for common custom integrations
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-02-16 at 12.14.25 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
+## Enable organization mapping for non-native multi-tenant APIs
+
+{% hint style="info" %}
+Some APIs do not natively support multi-tenant organization mapping either because they return data in a format the Custom Integrations V2 organization mapping UI cannot consume, or because they issue per-tenant credentials that need to be configured individually. This section offers two patterns for enabling organization mapping on these integrations using Rewst workflows and webhooks.
+
+Rewst's custom integrations menu only displays the organization mapping table if at least one action in the integration is marked as paginated. Where an API natively supports listing client/tenant accounts via a paginated endpoint, organization mapping works as intended. Where it does not, or where per-tenant credentials are needed, the following two patterns apply.
+{% endhint %}
+
+<details>
+
+<summary>Pattern 1: Dynamic organization mapping via workflow webhook</summary>
+
+Scenario: The API does not expose a suitable client list endpoint, or the response format isn't compatible with the organization mapping UI's expected options schema, but you can programmatically generate the mapping list.
+
+### Build the organization mapping workflow
+
+Create a workflow that:
+
+1. Calls the relevant API to retrieve a list of client IDs and names
+2. Formats the output as options array: each item needs a value field and a label field — note that the exact field names will depend on your workflow output
+
+```
+[
+  { "id": "client-001", "name": "Acme Corp" },
+  { "id": "client-002", "name": "Contoso" }
+]
+```
+
+3. JSON-stringifies the array and writes it to an org variable using the Set Org Variable action in Rewst - for example, `my_integration_orgs`
+
+<figure><img src="../../../.gitbook/assets/Screenshot_26-6-2026_16167_app.rewst.asia.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot_26-6-2026_161513_app.rewst.asia.jpeg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot_26-6-2026_161539_app.rewst.asia.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+### Create the webhook trigger
+
+1. Add a Webhook trigger to the workflow (GET or POST — either works. If you wish to use a x-secret-header in the webhook I recommend using the host option)
+2. In the workflow's response configuration, return the org variable value as the response body:
+   1. Source: `Response Body`
+   2. Value: `{{ ORG.VARIABLES.my_integration_orgs }}`
+3. Set Wait for Results to false — the webhook should return the cached org variable immediately, not wait for the workflow to complete a new fetch on every call
+4. Save the trigger.
+5. Click **Copy URL** and save it for later.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-06-29 at 2.21.47 PM.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Configure the custom integration action
+
+In the custom integration's action editor, create or designate an action as the organization mapping endpoint.
+
+1. Set the action URL to your Rewst Webhook URL that you saved earlier and ensure the Method matches the configured trigger (GET or POST) `{regional_engine_domain}/webhooks/custom/trigger/{trigger_id}/{org_id}`.
+2. Set the action as **Paginated**.
+3. Under pagination settings, set the Results Key to match the top-level key in your workflow's returned object that contains the array— for example, options if your workflow wraps the array under an options key. Adjust this to match your actual output.
+4.  Under **Output Schema**, map the value and label fields from each item in the array to match what your workflow returns. The field names in the screenshots reflect the demo implementation and may differ from yours.<br>
+
+    <figure><img src="../../../.gitbook/assets/Screenshot_26-6-2026_162437_app.rewst.asia.jpeg" alt=""><figcaption></figcaption></figure>
+5. In the **Organization Mapping** section of the integration, set this action as the mapping endpoint.
+
+<figure><img src="../../../.gitbook/assets/image (93) (1).png" alt=""><figcaption></figcaption></figure>
+
+### Refresh options
+
+1. Navigate to the custom integration's configuration page in Rewst.
+2. Scroll to the organization mapping table. Click **Refresh Options**.&#x20;
+3. Rewst will call the webhook, retrieve the cached list, and populate the drop-down options for each child organization row.
+
+<figure><img src="../../../.gitbook/assets/screenshot-1782455026366.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Run the organization mapping workflow on a schedule to refresh the organization variable. Each time **Refresh Options** is clicked in the integration, the webhook returns whatever is currently stored in the organization variable.
+{% endhint %}
+
+### Webhook trigger - secure with a secret key
+
+Secure the webhook so that only your custom integration can call it. A secret value is stored as a secret organization variable in Rewst. The custom integration action sends that secret in an `x-rewst-secret` request header on every call to the webhook. The webhook trigger validates the incoming header against the stored secret and rejects requests that don't match.
+
+1. Navigate to **Settings → Organization Variables** in Rewst
+2. Click **Add Variable**
+3. Set the following:
+   1. **Name:** a descriptive key, e.g. `org_mapping_webhook_secret`
+   2. **Value:** the secret password you want to use
+   3. **Category:** `Secret`
+   4. **Organization:** your MSP-level organization
+4. Untick **Use as Default** — this variable should not be inherited by child organizations.
+5. Save the variable.
+6. Open the org mapping action in the Custom Integration's action editor.
+7. Add a new request header:
+   1. **Name**: `x-rewst-secret`
+   2. **Type**: String
+   3. **Value**: The secret value you previously set
+8. Save the action.
+9. Open the workflow's webhook trigger settings.
+10. Locate the **Secret Key** field and select the organization variable you created earlier.
+11. Save the trigger. Rewst will now reject any requests to the webhook that don't include the correct header value.
+12. Click **Refresh Options** on the integration's organization mapping table to confirm the webhook still responds correctly with the secret in place. If it fails, verify the header value in the action matches the organization variable value exactly.
+13. Navigate to **Settings > Organization Variables** in the left side menu of your Rewst platform.&#x20;
+14. Add a new organization variable, for example org\_mapping\_for\_defender. The value is the password you wish to use. The category must be **secret**. The organization must be your organization. Uncheck **use as default**.
+
+<figure><img src="../../../.gitbook/assets/Screenshot_26-6-2026_163211_app.rewst.asia.jpeg" alt=""><figcaption></figcaption></figure>
+
+### Notes
+
+* The org variable, e.g. `my_integration_orgs` , is accessible in workflows via `{{ ORG.VARIABLES.my_integration_orgs }}` and can be used anywhere the client identifier is needed, not just in organization mapping.
+* **Wait for Results** = **false** is important. Without it, Rewst holds the webhook response open until the workflow finishes, including any API calls, adding unnecessary latency on every instance of refresh options.
+* If the webhook is called but the organization variable is empty, the drop-down will be empty. Run the update workflow manually once before clicking **Refresh Options** for the first time.
+
+</details>
+
+<details>
+
+<summary>Pattern 2: Per-tenant credential configuration via dummy paginated endpoint</summary>
+
+Scenario: The API issues separate credentials (e.g. client ID + secret) per customer tenant and does not support a single credential set that covers all clients. The goal is to unlock the org mapping UI so you can configure per-org credentials — not to map external IDs. A common example is Microsoft Defender for Endpoint, where each tenant has its own OAuth client ID and secret.
+
+### Add a dummy paginated action
+
+In the custom integration's action editor:
+
+1. Create a new action. Name it something clear, e.g. `org_mapping` or `org_list` .
+2. Set a placeholder URL. This doesn't need to be a real endpoint.
+3. Set it as **Paginated**.
+4. Add a minimal output schema: an object containing an array with an `id` field.
+5. Click Finalize. The organization mapping table will now appear on the integration's configuration page. You can now select the paginated endpoint.
+
+### Disable the default configuration
+
+On the integration's main configuration page:
+
+1. Locate the default configuration entry.
+2. Uncheck **Set as Default**. This prevents the integration from falling back to the parent's credentials when running against a child organization.
+
+### Add per-tenant configurations
+
+For each customer tenant:
+
+1. Click **Add Configuration**.
+2. Enter the tenant's credentials— client ID, secret, etc.
+3. Save the configuration.
+4. In the organization mapping table, select a value for that organization under the mapping drop-down to register the configuration against the organization.
+
+### Use in workflows
+
+When running a workflow action from this integration against a child organization:
+
+1. Set the action's **Configuration Selection** to **Use Org Mapping** and **No Default**.
+2. Rewst will select the configuration registered against the child org's mapping entry and use its credentials for the API call.
+
+### Notes
+
+The dummy action does not need to function. It exists only to satisfy the UI requirement. Don't use it in workflows.
+
+</details>
+
 ## Troubleshoot custom integration setup
 
 #### Imported Swagger file throws red error messages
 
-This occurs when you import the Swagger file without first cleaning it. See our steps for how to clean Swagger files pre-import [here](custom-integrations-v2.md#upload-an-openapi-json-file).&#x20;
+This occurs when you import the Swagger file without first cleaning it. See our steps for how to clean Swagger files pre-import [here](custom-integrations-v2.md#upload-an-openapi-json-file).
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-01-22 at 4.33.58 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
