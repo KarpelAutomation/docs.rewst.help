@@ -25,7 +25,7 @@ We provide guidance to address specific concerns or clarify best practices on a 
 1. What we do - Offer recommendations and advice to help you achieve your goals.
 2. What we don’t do
    1. Create custom automations on your behalf, such as workflows, forms, templates, scripts, apps, or integration configuration
-   2. Provide bespoke training: we have a robust[ library of documentation along with multiple training courses and live training sessions](../getting-started.md).
+   2. Provide bespoke training: we have a robust[ library of documentation along with multiple training courses and live training sessions](../cluck-university.md).
 3. Boundary for customization - If your needs go beyond troubleshooting or troubleshooting calls, such as extended workflow building, our customer success managers (CSMs) or services teams will assist you in taking next steps.
 
 {% hint style="warning" %}

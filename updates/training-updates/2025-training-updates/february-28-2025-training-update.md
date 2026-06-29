@@ -8,7 +8,7 @@ Explore what new changes the Training team has made in the last week.
 
 * **SHOUT OUTS** **TO:**
   * Daniel, Matthew, Fred, Scott, Brennan, Nate, David, Derek, Kevin, and James for passing the Foundations Certification.
-    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.&#x20;
+    * Take the [Broken link](/broken/pages/CnFnuPXakXtXmcgtSAYh "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord along with access to the super-secret Discord channel.
   * Charles for passing the Clean Automation Certification.
     * Take the [Broken link](/broken/pages/kZmqUPxWa9V5daScSOby "mention") exam and get that fancy certificate!
 * The next [**Rewst Foundations Bootcamp**](https://docs.rewst.help/cluck-university/rewst-foundations#live-instructor-led-bootcamp) is coming up **Mar 3 - Mar 4.** Remember to register for **both parts 1 and 2!**
@@ -27,11 +27,11 @@ Explore what new changes the Training team has made in the last week.
 
 _**Weekly Training Starting March 10:**_
 
-| Day         | Time                | Session                                                                                                                                                                                                                                                                                                       |
-| ----------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Monday**  | 9:30–10:30 AM PT    | [Office Hour](https://calendly.com/cluck-u/office-hours?back=1\&month=2025-03)                                                                                                                                                                                                                                |
-|             | 10:45–11:45 AM PT   | [Automation Basics ](https://calendly.com/cluck-u/automation-basics)(recommended before Foundations)                                                                                                                                                                                                          |
-| **Tue–Thu** | 9:30 AM–12:00 PM PT | <p>Rewst Foundations </p><ul><li><a href="https://calendly.com/cluck-u/rewst-foundations-session-1">Session 1</a></li><li><a href="https://calendly.com/cluck-u/rewst-foundations-session-2">Session 2</a></li><li><a href="https://calendly.com/cluck-u/rewst-foundations-session-3">Session 3</a></li></ul> |
+| Day         | Time                | Session                                                                                                                                                                                                                                                                                                      |
+| ----------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Monday**  | 9:30–10:30 AM PT    | [Office Hour](https://calendly.com/cluck-u/office-hours?back=1\&month=2025-03)                                                                                                                                                                                                                               |
+|             | 10:45–11:45 AM PT   | [Automation Basics ](https://calendly.com/cluck-u/automation-basics)(recommended before Foundations)                                                                                                                                                                                                         |
+| **Tue–Thu** | 9:30 AM–12:00 PM PT | <p>Rewst Foundations</p><ul><li><a href="https://calendly.com/cluck-u/rewst-foundations-session-1">Session 1</a></li><li><a href="https://calendly.com/cluck-u/rewst-foundations-session-2">Session 2</a></li><li><a href="https://calendly.com/cluck-u/rewst-foundations-session-3">Session 3</a></li></ul> |
 
 _**Monthly Clean Automation Starting March 24:**_
 
@@ -55,10 +55,10 @@ _**Monthly Clean Automation Starting March 24:**_
 * [cisco-meraki-integration.md](../../../documentation/integrations/integration-guides/cisco-meraki-integration.md "mention") page added.
 * [syncmonkey-integration.md](../../../documentation/integrations/integration-guides/syncmonkey-integration.md "mention") page added.
 * [anthropic-integration.md](../../../documentation/integrations/integration-guides/anthropic-integration.md "mention") page added.
-* [superops-integration.md](../../../documentation/integrations/integration-guides/superops-integration.md "mention") page added.&#x20;
+* [superops-integration.md](../../../documentation/integrations/integration-guides/superops-integration.md "mention") page added.
 * [microsoft-user-onboarding-crate-v2](../../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/ "mention") pages added (MASSIVE shout out to Ray).
-* Reorganization of [Broken link](/broken/pages/USoRgr2FnRP2mYaXjEiC "mention") to provide more clarity with new [getting-started.md](../../../support-and-community/getting-started.md "mention") page.&#x20;
-* [Broken link](/broken/pages/DZRfMonLdJAkgeuADrxY "mention") broken down into micro-lessons to match our Foundations update.&#x20;
+* Reorganization of [Broken link](/broken/pages/USoRgr2FnRP2mYaXjEiC "mention") to provide more clarity with new [cluck-university.md](../../../support-and-community/cluck-university.md "mention") page.
+* [Broken link](/broken/pages/DZRfMonLdJAkgeuADrxY "mention") broken down into micro-lessons to match our Foundations update.
 * [halo-integration-setup.md](../../../documentation/integrations/integration-guides/halo-integration-setup.md "mention") page updated to include not about required field expectations
 * [Broken link](/broken/pages/qIIKKVa04mw5O3TLxsU6 "mention") Quick Start steps updated.
 * [connectwise-control-screenconnect.md](../../../documentation/integrations/integration-guides/connectwise-control-screenconnect.md "mention") branding and setup steps updated.
@@ -71,6 +71,3 @@ _**Monthly Clean Automation Starting March 24:**_
 * [february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md](../../roc-open-mics/roc-open-mics-north-america/2025-roc-open-mics/february-21-2025-live-from-right-of-boom-2025-its-the-weekly-roc-open-mic.md "mention") page added
 
 </details>
-
-
-
