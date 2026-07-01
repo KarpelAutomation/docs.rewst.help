@@ -22,7 +22,7 @@ Rewst customers who set up this integration prior to the additional API support 
 To complete these steps in Google Cloud Console, project Editor or Owner permissions are required.
 {% endhint %}
 
-1. Log in to your Google Cloud Console at [https://console.cloud.google.com/](https://console.cloud.google.com/).&#x20;
+1. Log in to your Google Cloud Console at [https://console.cloud.google.com/](https://console.cloud.google.com/).
 2. Navigate to **Navigation Menu > IAM & Admin > Manage Resources**.
 3. Click the **CREATE PROJECT**.
 4. Enter a descriptive name for your project that will help you identify it later.
@@ -37,7 +37,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 {% endhint %}
 
 1. Choose the GCP project you just created from the project drop-down menu at the top of the page
-2. **Click APIs & Services** in the left side menu.&#x20;
+2. **Click APIs & Services** in the left side menu.
 3. Select **Library**.
 4. Use the search bar within the API Library to find the `Admin SDK API` and select it from the results.
 5. Click **Enable**.
@@ -50,7 +50,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
     1. Primary Google Admin scopes for Google Cloud services:
        1. https://www.googleapis.com/auth/admin.reports.audit.readonly
        2. https://www.googleapis.com/auth/admin.reports.usage.readonly
-       3. &#x20;https://www.googleapis.com/auth/admin.datatransfer
+       3. https://www.googleapis.com/auth/admin.datatransfer
        4. https://www.googleapis.com/auth/admin.datatransfer.readonly
        5. https://www.googleapis.com/auth/admin.chrome.printers
        6. https://www.googleapis.com/auth/admin.chrome.printers.readonly
@@ -122,7 +122,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
    2. **Client Secret**
    3. Email / User ID: this should be the one used to authenticate with the API
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-17 at 3.51.49 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -130,13 +130,21 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 
 #### Add integration as trusted app
 
-1. Navigate to **Security > Access and Data Control > API controls** in your Google console at [admin.google.com](https://admin.google.com).&#x20;
-2. Click **Accessed Apps > View List**.
-3. Search for `Rewst`.
-4. Select **Trusted** under **Status**.
-5.  Check on the box **Allowlist for exemption from API access blocks in context-aware access.**<br>
+1. Navigate to Navigate to [https://admin.google.com/ac/owl/list?tab=configuredApps](https://admin.google.com/ac/owl/list?tab=configuredApps).
+2. Select **Configure new app**.
+3. Search for `Client ID` , created in section Obtain client ID and secret&#x20;
+4.  Click **Select app > Continue**.<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+5. Select **Trusted** under **Status**.
+6.  Check on the box **Exempt from having API access blocked by context-aware access levels.**<br>
+
+    <figure><img src="../../../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+7.  Click **Continue.**\
+    <br>
+
+    <figure><img src="../../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+8. Click **Finish**.<br>
 
 **Set reauthentication policy for exemption**
 
@@ -155,7 +163,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 
 1. Select your Project from the drop-down selector.
 2. Select **APIs and Services** from the left side menu.
-3. Search for `Groups Settings API.`
+3. Search for `Google Drive API.`
 4.  Click **Enable**.\
     <br>
 
@@ -175,7 +183,7 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 
 1. Select your Project from the drop-down selector.
 2. Select **APIs and Services** from the left side menu.
-3. Search for `Google Drive API.`
+3. Search for `Group Settings API.`
 4.  Click **Enable**.<br>
 
     <figure><img src="../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
@@ -187,7 +195,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category  | Action                                       | Description                                                 |

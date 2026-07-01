@@ -340,7 +340,9 @@ One of the key metrics you can use to understand the value added by your automat
 {% hint style="info" %}
 **Considerations for time saved**
 
-When determining how much time to set for any given process, it's a good practice to consider not only how much time it may take you or your most experienced tech to go through that process manually, but also how much time it takes to fix any human errors that may happen during this process.
+* When determining how much time to set for any given process, it's a good practice to consider not only how much time it may take you or your most experienced tech to go through that process manually, but also how much time it takes to fix any human errors that may happen during this process.
+* Action-level time-savings are not included in calculations. Workflow-level time-savings drives reporting on time saved in Rewst.&#x20;
+* Time saved in seconds can only be manually reported on by using our [GraphQL](../actions-in-rewst/generic-graphql-request-action.md) action. To do so, you would pulling the information via the GraphQL action and compute time saved based on values entered and execution history.
 {% endhint %}
 
 1. Click on the workflow that you want to configure to open it in the Workflow Builder.
