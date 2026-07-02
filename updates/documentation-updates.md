@@ -12,6 +12,15 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-07-02" %}
+## ✍️ July 2, 2026 - Recently updated documentation
+
+* [A new glossary for some basic AI terms relevant to current and future Rewst features](https://docs.rewst.help/flow-2026-announcement/ai-basics)
+* [A high level summary of some of the changes coming soon to Rewst, announced at FLOW](https://docs.rewst.help/flow-2026-announcement/coming-soon-to-rewst)
+* [Updates to our setup instructions for the Google Workspace Admin integration](https://docs.rewst.help/documentation/integrations/integration-guides/google-admin/google-workspace-admin-sdk-integration-setup)
+* [Updated guidance on how calculating time savings works in the new Workflow Builder](https://docs.rewst.help/documentation/automations/workflows/workflow-builder-how-to-set-up-a-workflow)
+{% endupdate %}
+
 {% update date="2026-06-12" %}
 ## ✍️ June 12, 2026 - Recently updated documentation
 
