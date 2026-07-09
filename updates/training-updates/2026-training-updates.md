@@ -11,6 +11,14 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-07-09" %}
+## July 9, 2026 - Training update
+
+* **New Office Hours time**: We've added a weekly [Office Hours](https://learn.rewst.io/cluck-university-office-hours) session on Mondays at 12pm EST. Bring your questions and get live help with your automations.
+* [Rewst Foundations](https://learn.rewst.io/rewst-foundations) and [Clean Automations](https://learn.rewst.io/path/clean-automation) are now fully self-serve: Both courses are available on demand, so you can enroll and work through them at your own pace, anytime.
+* Check out our Discord Course of the Month: Each month we spotlight a course worth your time. See this month's pick and join the conversation in [Discord](https://discord.com/channels/936789089703845988/1521560725284196454).
+{% endupdate %}
+
 {% update date="2026-06-12" %}
 ## June 12, 2026 - Training update
 
