@@ -1,10 +1,10 @@
-# Ubiquiti integration
+# Ubiquiti Site Manager integration
 
 {% hint style="info" %}
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
-## What does the Ubiquiti integration do?
+## What does the Ubiquiti Site Manager integration do?
 
 Integrate Ubiquiti's UniFi platform with Rewst for centralized network management, device monitoring, and multi-site orchestration for MSPs.
 
@@ -15,11 +15,10 @@ Integrate Ubiquiti's UniFi platform with Rewst for centralized network managemen
 1. Open [UniFi Site Manager](https://unifi.ui.com/) and log in to your account.
 2. Navigate to the **API** section in the Site Manager.
 3. Click **Create a New API Key**.
-4. Enter `Rewst` into the **Name** field.
+4. Enter `RewstSiteManager` into the **Name** field.
 5. Choose **Never Expires** from the **Expiration** drop-down selector.
-6. Choose **Read Only** permissions. The Ubiquiti API is currently read-only. No write endpoints exist.
-7. Click **Create.**
-8. Note that the key value will only be shown once. Copy the generated key and store it somewhere secure. You'll need this information for further steps in Rewst.
+6. Click **Create.**
+7. Note that the key value will only be shown once. Copy the generated key and store it somewhere secure. You'll need this information for further steps in Rewst.
 
 ### Set up steps in Rewst
 
@@ -30,7 +29,7 @@ Integrate Ubiquiti's UniFi platform with Rewst for centralized network managemen
 3. Click on the integration tile to launch the configuration setup page.
 4. Enter the copied API key value into the **API Key** field.
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
@@ -39,10 +38,10 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Ubiquiti's own API documentation can be found [here](https://developer.ui.com/site-manager/v1.0.0/gettingstarted).&#x20;
+Ubiquiti's own API documentation can be found [here](https://developer.ui.com/site-manager/v1.0.0/gettingstarted).
 
 | Category        | Action                   | Description                                                                                                    |
 | --------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------- |
