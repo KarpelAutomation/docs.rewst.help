@@ -6,7 +6,7 @@ If you’re new to integrations in Rewst, read through our introductory integrat
 
 ## What does the Ubiquiti Protect API integration do?
 
-
+Integrate Rewst with the UniFi Protect API for NVR and camera management. Gain cameras, lights, sensors, viewers, liveviews, chimes, and snapshot access for MSPs.
 
 ## Set up the Ubiquiti Protect API integration
 
