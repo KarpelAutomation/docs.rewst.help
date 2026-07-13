@@ -42,9 +42,8 @@ For all of the following, make sure to copy the designated information into a se
 
 1. Create the Duo Admin API by following the instructions [here](https://duo.com/docs/adminapi#first-steps).
    * You'll need the integration key, secret key, and API hostname.
-2. Create the Duo Accounts API by following the instructions [here](https://duo.com/docs/accountsapi#first-steps).
-   * You'll  need the integration key, secret key, and API hostname.
-3. Create the Duo Auth API by following the instructions [here](https://duo.com/docs/authapi).
+   * The account should have `Grant Account` read/write permissions.
+2. Create the Duo Auth API by following the instructions [here](https://duo.com/docs/authapi).
    * You'll need the integration key, secret key, and API hostname.
 
 #### Obtain the Admin API directory key
@@ -53,7 +52,7 @@ Now, retrieve the Admin API directory key for directory synchronization. This ke
 
 1. Log in to the Duo Admin Panel.
 2. Navigate to **Users > External Directories**.
-3. Click on your configured directory from the **Directory Syncs** list.&#x20;
+3. Click on your configured directory from the **Directory Syncs** list.
 4. Scroll down to the **Admin API directory key** field.
 5. Copy the key value and store it someplace secure. You'll need it for further set up steps in Rewst.
 
@@ -86,7 +85,7 @@ Now, retrieve the Admin API directory key for directory synchronization. This ke
 
        <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-05 at 10.47.51 AM.png" alt=""><figcaption></figcaption></figure>
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 7. Apply the Admin API Directory Key for each organization in the `duo_admin_api_directory_key` field under the organization mapping menu.
 
 <figure><img src="../../../.gitbook/assets/image (79) (1).png" alt=""><figcaption></figcaption></figure>
@@ -94,8 +93,6 @@ Now, retrieve the Admin API directory key for directory synchronization. This ke
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
 {% endhint %}
-
-
 
 ## Actions and endpoints
 

@@ -456,21 +456,3 @@ Any value you add to a variable must exist in the list that the form value is pu
 {% endhint %}
 
 Next, the variable can be added to the form field.
-
-#### Add the organization variable to the form field
-
-1. Navigate to **Automations > Assets > Forms**.
-2. Open the User Onboarding Form.
-3. Click to open the settings for the **Email Domain Name** field.
-4. Enter `true` in the **schema.enumSourceWorkflow.input.force\_default** setting.
-5. Enter `email_domain` in the **schema.enumSourceWorkflow.input.choose\_variable** setting.
-
-{% hint style="info" %}
-You only need to add the latter half of the `form_default` variable when adding it to the **schema.enumSourceWorkflow.input.choose\_variable** setting.
-{% endhint %}
-
-6. Click **Save**.
-
-{% hint style="danger" %}
-Make sure to set the org variable values for any company organization using the form. For example, say there are three company organizations that need to use the same form with a list of three domains to choose from. Each organization needs to have the variable added with the domain values set. If you only set the variable and values in Company 1, the other two Companies won't see any options to choose from.
-{% endhint %}

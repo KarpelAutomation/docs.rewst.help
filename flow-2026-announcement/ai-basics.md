@@ -1,6 +1,6 @@
 # AI basics
 
-If you're newer to AI, read through this document to get up and running with some of the terms you'll need to be familiar with to properly use Rewst. For more information on how our existing AI chat bot RoboRewsty works, see his documentation [here](../documentation/roborewsty.md).&#x20;
+If you're newer to AI, read through this document to get up and running with some of the terms you'll need to be familiar with to properly use Rewst. For more information on how our existing AI chatbot RoboRewsty works, see his documentation [here](../documentation/roborewsty.md).&#x20;
 
 ## What is AI? How is it different from automation?
 

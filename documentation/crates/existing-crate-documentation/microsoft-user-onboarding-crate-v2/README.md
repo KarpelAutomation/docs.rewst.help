@@ -260,9 +260,8 @@ Expand each of the categories below to see that type of CTX variable's reference
 
 <summary>Identity and directory information CTX variable reference</summary>
 
-| **CTX variable**                  | **Purpose**                                                      |
-| --------------------------------- | ---------------------------------------------------------------- |
 | `CTX.aad_user_id`                 | Stores the Azure AD (Entra ID) user ID.                          |
+| --------------------------------- | ---------------------------------------------------------------- |
 | `CTX.ad_user_id`                  | Stores the On-Prem AD user ID.                                   |
 | `CTX.email_domain`                | Defines the email domain assigned to the user.                   |
 | `CTX.group_lists_with_names`      | Stores assigned security/distribution groups.                    |
@@ -291,13 +290,13 @@ Expand each of the categories below to see that type of CTX variable's reference
 
 <summary>Security and password management CTX variable reference</summary>
 
-| **CTX variable**                | **Purpose**                                                      |
-| ------------------------------- | ---------------------------------------------------------------- |
-| `CTX.requested_password`        | Stores the initial password for user onboarding.                 |
-| `CTX.password_storage_location` | Defines where the password is stored (PSA, ITGlue, Hudu, etc.).  |
-| `CTX.require_password_change`   | Indicates if the user must change the password upon first login. |
-| `CTX.prevent_password_change`   | Restricts the user from manually updating their password.        |
-| `CTX.store_password_in_ticket`  | Determines whether the password should be stored as a ticket.    |
+| **CTX variable**                | **Purpose**                                                                                                                                                                                                             |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CTX.requested_password`        | Stores the initial password for user onboarding.                                                                                                                                                                        |
+| `CTX.password_storage_location` | Defines where the password is stored (PSA, ITGlue, Hudu, etc.).                                                                                                                                                         |
+| `CTX.require_password_change`   | Indicates if the user must change the password upon first login.                                                                                                                                                        |
+| `CTX.prevent_password_change`   | Restricts the user from manually updating their password.                                                                                                                                                               |
+| `CTX.store_password_in_ticket`  | Set by the form's "Store Password in Ticket" checkbox. When checked, and if the org variable `psa_store_password_in_ticket` is also `true`, the generated password will be recorded in the PSA ticket's internal notes. |
 
 </details>
 
@@ -369,7 +368,7 @@ Expand each of the categories below to see that type of org variable's reference
 
 <summary>Security and password management org variable reference</summary>
 
-<table data-header-hidden><thead><tr><th width="379.567626953125">ORG.VARIABLES</th><th>Purpose</th></tr></thead><tbody><tr><td><code>store_password_in_ticket</code></td><td>Saves the password in the PSA ticket internal notes.</td></tr><tr><td><code>new_user_password_save_locations</code></td><td>Defines alternative storage - PSA, ITGlue, Hudu.</td></tr><tr><td><code>new_user_password_save_location_custom_url</code></td><td>The URL for PWPush if used for secure password sharing. Use <a href="https://us.pwpush.com">https://us.pwpush.com</a> or <a href="https://eu.pwpush.com">https://eu.pwpush.com</a> - no authorization is needed.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="379.567626953125">ORG.VARIABLES</th><th>Purpose</th></tr></thead><tbody><tr><td><code>psa_store_password_in_ticket</code></td><td>Enables storing the password in the PSA ticket's internal notes. Acts as a permission gate: when set to <code>true</code>, the form's "Store Password in Ticket" checkbox controls whether the password is actually stored. When unset or <code>false</code>, the password is never stored in the ticket regardless of the form checkbox.</td></tr><tr><td><code>new_user_password_save_locations</code></td><td>Comma-separated list of documentation destinations for the user's password. Supported values: <code>psa</code>, <code>hudu</code>, <code>itglue</code>, <code>custom_pwpush</code>. Each destination listed will be written to during onboarding.</td></tr><tr><td><code>new_user_password_save_location_custom_url</code></td><td>The URL for PWPush if <code>custom_pwpush</code> is included in <code>new_user_password_save_locations</code>. Use <a href="https://us.pwpush.com/">https://us.pwpush.com</a> or <a href="https://eu.pwpush.com/">https://eu.pwpush.com</a> . No authorization is needed.</td></tr></tbody></table>
 
 </details>
 
@@ -663,9 +662,10 @@ If using group-based licensing, ensure the user is added to the correct M365 Lic
 
 **Solution:**
 
-1. Enable password storage by setting `store_user_credentials_in_external_doc = 1`.
-2. Check the API integration settings in Rewst.
-3. Test manual credential storage to confirm integration is working.
+1. Verify that the destination is listed in `new_user_password_save_locations` - supported values: `psa`, `hudu`, `itglue`, `custom_pwpush`.
+2. For PSA ticket storage: confirm `psa_store_password_in_ticket` is `true` and the form's **Store Password in Ticket** checkbox was checked. Both are required.
+3. Verify the API integration settings for the target documentation system.
+4. Test the integration manually.
 
 </details>
 
