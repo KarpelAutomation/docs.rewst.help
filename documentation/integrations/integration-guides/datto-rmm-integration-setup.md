@@ -7,7 +7,7 @@ description: >-
 # Datto RMM integration
 
 {% hint style="info" %}
-&#x20;If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ## What does the Datto RMM integration do?
@@ -67,6 +67,10 @@ Windows Instructions
 
 ## Set up the Datto RMM integration
 
+{% hint style="warning" %}
+Kaseya’s July 2026 release will cause 500 errors in cases where the API user is being instructed to run Components above its stipulated Component security level. For an example, an API user with Component level 2 cannot run level 5 Components. Please update your component security levels in Datto RMM to match your level of running components.
+{% endhint %}
+
 ### Set up steps in Datto RMM
 
 Please refer to Datto's documentation for enabling the API for your organization if you haven't enabled it already. You will need an API-enabled user for your integration setup in the next steps. We recommend creating a new user named Rewst for this.
@@ -89,7 +93,7 @@ Copy the API Key, API Secret, and Datto RMM Server for your new API user. Store 
    2. **API Secret**
    3. **Datto RMM Server**: The API URL provided to your API user, provided on the same page as the API key and secret
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 {% hint style="danger" %}
 Please note that Datto Quick Jobs can take 10 - 30 minutes to execute. To speed this up, you can either use BYOD to speed up form load time. You can find more information here: [byod-for-dattormm.md](database-integration-setup/byod-for-dattormm.md "mention")
