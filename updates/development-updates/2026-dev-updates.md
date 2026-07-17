@@ -12,6 +12,59 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-07-17" %}
+## 💻 July 17, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **RoboRewsty**
+  * Improved RoboRewsty’s “Start fresh” experience so conversation summaries now carry over correctly.
+  * Added one-click RoboRewsty analysis for failed workflows, with suggested fixes that can be reviewed and applied directly to the canvas.
+* **Workflows**
+  * Made it easier to troubleshoot workflow runs in the new workflow canvas by letting Ctrl+F or Cmd+F search all execution data, including collapsed details.
+  * Improved trigger and action field selectors to display selected field names instead of raw IDs.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **App Builder**
+  * Improved custom domain reliability by providing more accurate status reporting and reducing unnecessary certificate retry attempts.
+  * Fixed an issue that could prevent App Builder apps from cloning successfully between organizations.
+* **Forms**
+  * Fixed an issue that prevented integration-based dropdowns from loading options in Rewst forms.
+* **General**
+  * Improved database performance for looking up referenced objects.
+* **Integrations**
+  * Fixed the Google Workspace **List Group Members** action to return all group members by properly handling paginated results.
+  * Fixed an issue that could cause the Microsoft Cloud Bundle page to crash when loading.
+* **Crates**
+  * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
+    * Restructured Remove Employee ID to add an on-prem branch; Azure users use Graph PATCH, AD Sync clears employeeID via RMM; parent now passes `on_prem_id` and `idp_config`
+    * Updated gates and added UPN fallback mappings to unblock steps when only on-prem identifier is provided - Hybrid AD Sync
+  * [Dropsuite: Backup Monitoring](../../documentation/crates/existing-crate-documentation/dropsuite-backup-monitoring-crate.md)
+    * Removed duplicate triggers
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Added resolution note parameter and handling logic
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Early Access](https://rewst.io/earlyaccess)
+* Engine Improvements Beta
+
+</details>
+
+
+{% endupdate %}
+
 {% update date="2026-07-10" %}
 ## 💻 July 10, 2026 - Dev update
 
@@ -42,34 +95,38 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 * **Workflows**
   * Fixed trigger activation failures in the new canvas by preserving default parameters required by Autotask PSA and other integration triggers.
 * **Crates**
-  * Just-In-Time Admin Access - Safely ignore misnamed Traveling Employee CA policies to prevent job failures (97991) - Fixed hardcoded user reference; now uses form submitter (99968) - Better handling of Temporary Access Pass lifetime policy limits (99507) - Correctly capture Temporary Access Pass value after creation (99683)
-  * Microsoft: User Onboarding
-    * Added customizable approval confirmation email templates (title, subject, logo, styles, button, footer) (62436)
-    * Hardened license lookup publishes; surface missing license as purchase\_error (97001)
-    * Optional device\_id input to override default domain controller for on‑prem actions (97716)
-    * Added Azure and SuperOps integration overrides to Users: List users template (99988)
-    * Added retry logic to Purchase Licenses for concurrent runs (98046)
-    * Updated affected workflows to latest M365 License Lookup template (97578)
-    * Added conditional m365\_user\_to\_copy for Hybrid No Sync; require both when visible (95975)
-  * Sync AzureAD Account Information with ConnectWise PSA Contacts (v3)
+  * [Just-In-Time Admin Access](../../documentation/crates/existing-crate-documentation/just-in-time-admin-access-crate.md)
+    * Safely ignore misnamed Traveling Employee CA policies to prevent job failures
+    * Fixed hardcoded user reference; now uses form submitter
+    * Better handling of Temporary Access Pass lifetime policy limits&#x20;
+    * Correctly capture Temporary Access Pass value after creation
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Added customizable approval confirmation email templates - title, subject, logo, styles, button, footer
+    * Hardened license lookup publishes; surface missing license as `purchase_error`
+    * Optional device\_id input to override default domain controller for on‑prem actions
+    * Added Azure and SuperOps integration overrides to Users: List users template&#x20;
+    * Added retry logic to Purchase Licenses for concurrent runs&#x20;
+    * Updated affected workflows to latest M365 License Lookup template
+    * Added conditional `m365_user_to_copy` for Hybrid No Sync; require both when visible
+  * [Sync AzureAD Account Information with ConnectWise PSA Contacts (v3)](../../documentation/crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md)
     * Added extension param and improved phone-number format handling in Jinja (95430)
-    * Fixed mobile number mapping; pass correct data (98010)
-  * Compromised User Response
-    * Fixed notification wrapper/subworkflow (flatten targets, populate body, gate impersonation, set mail fields) (98057)
-  * Microsoft: User Offboarding
-    * Fallback to on\_prem\_user.userPrincipalName when azure\_user.id is empty for Exchange offboarding (100717)
-    * Accept on\_prem\_user in validate\_vars and include remove\_mobile\_devices action (97572)
-    * Correctly save/use Offboarding Ticket SubType org variable (97819)
-  * Report on Disabled M365 Users with Licenses
-    * Fixed first-run webhook link creation; include webhook trigger ID (97452)
-  * Google: User Offboarding
-    * Existing Ticket field displays consistently across organizations (97817)
-  * Alert on Expiring App Reg Certificates
-    * Implemented pagination so all registrations are evaluated. (94895)
-  * AI Ticket Categorization
-    * Striped markdown/code fences before JSON parsing to avoid JSONDecodeError (96238)
+    * Fixed mobile number mapping; pass correct data
+  * [Compromised User Response](../../documentation/crates/existing-crate-documentation/compromised-user-response-crate.md)
+    * Fixed notification wrapper/subworkflow - flatten targets, populate body, gate impersonation, set mail fields
+  * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
+    * Fallback to on\_prem\_user.userPrincipalName when azure\_user.id is empty for Exchange offboarding&#x20;
+    * Accept on\_prem\_user in validate\_vars and include remove\_mobile\_devices action
+    * Correctly save/use Offboarding Ticket SubType org variable
+  * [Report on Disabled M365 Users with Licenses](../../documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
+    * Fixed first-run webhook link creation; include webhook trigger ID
+  * [Google: User Offboarding](../../documentation/crates/existing-crate-documentation/google-user-offboarding-crate.md)
+    * Existing Ticket field displays consistently across organizations
+  * [Alert on Expiring App Reg Certificates](../../documentation/crates/existing-crate-documentation/alert-on-expiring-app-reg-certificates-crate.md)
+    * Implemented pagination so all registrations are evaluated
+  * [AI Ticket Categorization](../../documentation/crates/existing-crate-documentation/openai-ticket-categorisation-setup.md)
+    * Striped markdown/code fences before JSON parsing to avoid JSONDecodeError
   * \[Deprecated] Rewst: User Onboarding
-    * Removed whitespace generated by CTX.contact\_email (95967)
+    * Removed whitespace generated by `CTX.contact_email`
 
 </details>
 

@@ -11,6 +11,17 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-07-17" %}
+## July 17, 2026 - Training update
+
+* The [Cluck University](https://learn.rewst.io/) homepage got a makeover! Top to bottom, you'll see "get started" quickly resources, followed by certifications, and then just-in-time supplementary learning.&#x20;
+* Follow along in the AI summer learning challenge through August in [Discord at #cluck-u](https://discord.com/channels/936789089703845988/1121465945295167588).
+
+<figure><img src="../../.gitbook/assets/AI Summer Social challenge (1).png" alt=""><figcaption></figcaption></figure>
+
+
+{% endupdate %}
+
 {% update date="2026-07-09" %}
 ## July 9, 2026 - Training update
 
