@@ -12,6 +12,18 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-07-17" %}
+## ✍️ July 17, 2026 - Recently updated documentation
+
+* [Documentation for our Ubiquiti Network API integration](https://docs.rewst.help/documentation/integrations/integration-guides/ubiquiti-network-api-integration)
+* [Documentation for our Ubiquiti Protect API integration](https://docs.rewst.help/documentation/integrations/integration-guides/ubiquiti-protect-api-integration)
+* [Updated organization and CTX variable guidance for our Microsoft: User Onboarding Crate](../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+* [Updated documentation for our Form Builder](https://docs.rewst.help/documentation/automations/forms/intro-to-forms)
+* [Updated documentation for setting up our Duo integration](https://docs.rewst.help/documentation/integrations/integration-guides/duo-integration-setup)
+* [Updated documentation for our Addigy integration](https://docs.rewst.help/documentation/integrations/integration-guides/addigy-integration-setup)
+* [Updated documentation for our Datto RMM integration](https://docs.rewst.help/documentation/integrations/integration-guides/datto-rmm-integration-setup)
+{% endupdate %}
+
 {% update date="2026-07-02" %}
 ## ✍️ July 2, 2026 - Recently updated documentation
 
