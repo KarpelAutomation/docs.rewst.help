@@ -44,7 +44,7 @@ The workflow can be started by two triggers:
 
 ## Crate prerequisites
 
-* Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.&#x20;
+* Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
 * Your [CIPP integration](../../integrations/integration-guides/cipp-cyberdrain-improved-partner-portal-integration.md) must successfully be set up in Rewst.
 
 ## Unpack the CIPP Alert Triage Crate
@@ -65,8 +65,7 @@ This form should be used to create or update organization variables for the Crat
 2. Search for `[REWST] CIPP: Alert Triage - Create or Update ORG Variables`.
 3. Click **⋮ > Usages > View Direct URLs.**
 4. Click on the link for the organization which contains the user you wish to manage. This will launch the form in a new tab.
-5.
-6. Click **Submit**.
+5. Click **Submit**.
 
 {% columns %}
 {% column %}

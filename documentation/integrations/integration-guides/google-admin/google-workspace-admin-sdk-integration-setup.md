@@ -104,11 +104,14 @@ The user who is authorizing this integration in Rewst must have Super Admin acce
 14. Navigate to the **Credentials** tab within APIs & Services. Click **CREATE CREDENTIALS** and choose **OAuth client ID** from the drop-down selector.
 15. Select **Web Application** as the type of application you're building. This is the most broad and generic option and will always work with Rewst. Other options may not allow the integration to successfully set up.
 16. Enter a name for your ID in the **Client ID** field.
-17. Enter the following URL under **Authorized Redirect URIs**:
-
-[`https://engine.rewst.io/integrations/google_workspace_admin_sdk/callback`](https://engine.rewst.io/integrations/google_workspace_admin_sdk/callback)
-
-14. After creation, you will be presented with a pop-up window containing your client ID and client secret. Make sure to copy both of these.
+17. Enter the following URL under **Authorized Redirect URIs**, with your base URL updated to your relevant Rewst region.
+    1. [`https://[BASE URL]/integrations/google_workspace_admin_sdk/callback`](https://engine.rewst.io/integrations/google_workspace_admin_sdk/callback)
+    2. Possible base URLS:
+       1. engine.rewst.io
+       2. engine.eu.rewst.io
+       3. engine.rewst.eu
+       4. engine.rewst.asia
+18. After creation, you will be presented with a pop-up window containing your client ID and client secret. Make sure to copy both of these.
 
 ### Set up steps in Rewst
 
