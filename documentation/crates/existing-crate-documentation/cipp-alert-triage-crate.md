@@ -45,7 +45,7 @@ The workflow can be started by two triggers:
 ## Crate prerequisites
 
 * Your[ PSA must be integrated](../../integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md#psa-integrations) with Rewst.
-* Your [CIPP integration](../../integrations/integration-guides/cipp-cyberdrain-improved-partner-portal-integration.md) must successfully be set up in Rewst.
+* Your [CIPP integration](../../integrations/integration-guides/cipp-cyberdrain-improved-partner-portal-integration.md) must successfully be set up in Rewst. Before unpacking the Crate, your organizations should be fully mapped.
 
 ## Unpack the CIPP Alert Triage Crate
 
@@ -56,6 +56,22 @@ The workflow can be started by two triggers:
    ![](<../../../.gitbook/assets/Screenshot 2026-03-16 at 3.34.37 PM.png>)
 4. Click **Continue**.
 5. Click **Unpack**.
+
+### Set up the webhook
+
+1. Navigate to the **Automations > Workflows** in the left side menu of your Rewst platform.
+2. Search for and click to open `[REWST - Crate] CIPP: Alert Triage`, the workflow unpacked with the Crate.
+3. Click the yellow **Triggers** box on the Workflow Builder Canvas.
+4. Click the trigger named **CIPP Alert Triage - Webhook - Notifications**.
+5. Click **Copy URL** in the right side menu.
+6.  Copy the URL that appears in the dialog. This webhook URL comes from your parent organization.<br>
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2026-07-20 at 4.07.31 PM.png" alt=""><figcaption></figcaption></figure>
+7. Navigate back to your CIPP application.
+8. Navigate to **CIPP > Application Settings**.&#x20;
+9. Paste your copied webhook URL into the **Webhook URL** field.
+
+<figure><img src="../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
 ### Use the form
 
