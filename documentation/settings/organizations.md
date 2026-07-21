@@ -150,7 +150,7 @@ Click <img src="../../.gitbook/assets/Screenshot 2025-04-23 at 2.38.16 PM.png"
 ## Delete an organization
 
 {% hint style="danger" %}
-Once an organization is deleted, it can’t be brought back, even by Rewst support. Make sure that you intend to delete an organization permanently before proceeding with the following steps.
+Once an organization is deleted, it will be stored in the **Soft-Deleted Orgs** section of your **Settings** menu. Deleted organizations are held here for 30 days, at which point they are permanently deleted and can't be restored, even by Rewst Support.&#x20;
 {% endhint %}
 
 1. Check off the box next to the organization you wish to delete.
@@ -164,6 +164,15 @@ Once an organization is deleted, it can’t be brought back, even by Rewst suppo
 4. Click **Submit**.
 5. A green confirmation message will appear once the deletion completes.\
    ![](<../../.gitbook/assets/Screenshot 2025-04-22 at 12.24.00 PM.png>)
+
+### Restore a deleted organization
+
+1. Navigate to **Settings > Organizations** in the right side menu of your Rewst platform.
+2. Scroll down the page to the **Soft-Deleted Orgs** section.
+3. Locate the desired organization. You can use the **filter** search bar to narrow down your list of deleted organizations.
+4. Click **Restore.**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-07-21 at 10.16.01 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Rewst data retention
 

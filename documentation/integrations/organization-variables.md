@@ -11,7 +11,7 @@ Rewst uses a two-tier system to manage organizations, with your MSP as the _pare
 {% hint style="success" %}
 We recommend using the [Bulk Create Client from PSA Crate](../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md) to add the majority of your customers quickly during your Rewst onboarding, and using the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) to streamline the [mapping process ](./#map-your-organizations-to-finish-integrating)for each new customer you add in the future. You can also [add organizations manually](../settings/organizations.md), or through the [Microsoft Cloud Bundle](integration-guides/microsoft-cloud-integration-bundle/).\
 \
-For information on how to access the organizations menu in Rewst, see our documentation [here](../settings/organizations.md).
+For information on how to access the organizations menu in Rewst, or on how to delete or add organizations, see our documentation [here](../settings/organizations.md).
 {% endhint %}
 
 {% embed url="https://youtu.be/rYLnWl54Sz8?si=m8o7WGyaMIIRmGmy" %}

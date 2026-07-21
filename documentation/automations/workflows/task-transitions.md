@@ -10,6 +10,28 @@ The diamond that appears between the two actions once the transition has been cr
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.49.13 PM.png" alt=""><figcaption><p>The transition indicator for a dragged action that has had its transition created</p></figcaption></figure>
 
+### **Task transition order**
+
+The Workflow Builder will evaluate transitions on the Canvas for follow-first actions. Order is shown by the number on the transition, but can be reordered to preference.&#x20;
+
+1. Right on the related action. This will open the right side menu.
+2. Click the **Advanced** tab.
+3. If **Follow First** is selected, the option to edit the order of transitions will appear, and order of the transitions can be dragged to preference. If **Follow All** is selected, order does not matter. <br>
+
+{% columns %}
+{% column %}
+
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-07-21 at 11.15.02 AM.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+
+
+![](<../../../.gitbook/assets/Screenshot 2026-07-21 at 11.11.40 AM.png>)
+{% endcolumn %}
+{% endcolumns %}
+
 ## **Transition settings options**
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 5.13.26 PM.png" alt=""><figcaption></figcaption></figure>

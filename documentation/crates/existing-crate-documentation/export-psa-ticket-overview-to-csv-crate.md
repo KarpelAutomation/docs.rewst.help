@@ -55,20 +55,20 @@ You must first successfully integrate your PSA with Rewst before unpacking this 
 3. Click on the Crate tile to begin unpacking.
 4. Click **Unpack Crate**.
 5. Click **Continue**.
-6. Note that you have the option to activate the Crate for all future organizations in addition to the current one. You may also set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).&#x20;
+6. Note that you have the option to activate the Crate for all future organizations in addition to the current one. You may also set [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md) or [integration overrides](../../automations/intro-to-triggers/).
 7. Click **Unpack**.
 
 ### Use the Crate
 
-#### Fill out the form&#x20;
+#### Fill out the form
 
 1. Navigate to **Automations > Assets > Forms** in the left side menu of your Rewst platform.
-2. Search for `[ROC] Organization Variables to CSV Form` .
-3. Click on the form name.&#x20;
+2. Search for `Export Ticket Data to CSV via Email`.
+3. Click on the form name.
 4. Click **View Usages > View Direct URLs.**
 5. Click on the organization where you'd like to use the form.
 6. Choose or enter the required information into its relevant field:
-   1. **PSA** - leave this as **DEFAULT**&#x20;
+   1. **PSA** - leave this as **DEFAULT**
    2. Check **Exclude Parent Organization (MSP)** to exclude your parent organization from the report
    3. Check **Include Time Logged** to add this information to your report
    4. **Filter** the report to **All Tickets**, **Only Open Tickets**, or **Only Closed Tickets**
