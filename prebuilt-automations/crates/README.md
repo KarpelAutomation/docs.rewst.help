@@ -135,6 +135,10 @@ By default, all Crates are synced when you unpack them. However, you have the op
 
 We recommend starting out with synced Crates only until you’ve completed all of your Rewst training in Cluck University.
 
+{% hint style="warning" %}
+Unsynching a workflow doesn't change it's UUID in Rewst. The ID in the URL will stay the same regardless of sync status.&#x20;
+{% endhint %}
+
 ### Why modify Crates?
 
 Modifying a Crate allows you to:
