@@ -195,26 +195,24 @@ Write-Host '--------------------------------------------------------' -Foregroun
 1. Navigate to **Configuration > Integrations** in the left side menu of your Rewst platform.
 2. Search for `SQL Database`.
 3. Click on the integration tile.
-4. Note that as with traditional use of the SQL Database integration, multiple databases are entered into Rewst using the drop-down menu at the top left of your configuration page.
-5.
-
-```
-<figure><img src="../../../../.gitbook/assets/Screenshot 2026-03-05 at 10.40.36 AM.png" alt=""><figcaption></figcaption></figure>
-```
-
-6. Enter the information received from running the PowerShell script into the relevant fields:
-   1. **Database Config Name** - Unique identifier to pick database for action
-   2. **Database Type** - Supported SQL databases
-   3. **Hostname** - Hostname for database connection
-   4. **Port** - Port for database connection
-   5. **Username** - Database user username
-   6. **Password** - Database user password
-   7. **Database Name** - Database name for database connection
-   8. **SSL Required** - SSL encryption provides end-to-end security of data sent during the session
-   9. **SSL Hostname Verification** - Verify that the SSL certificate hostname matches the connection hostname. Disable for cloud databases (GCP, AWS, Azure) that use dynamic hostnames or load balancers. SSL certificates are still validated when disabled. SSL Required must be enabled.
-   10. **Custom Connection Timeout (seconds)** - Default database connection timeout is 5 seconds
-   11. **Custom SSL Certificate** - Leave this blank if using AWS RDS or Azure SQL, which are supported by default. If your database needs a custom SSL, copy and paste the raw CA certificate here.
-7. Click **Save Configuration**.
+4. Note that as with traditional use of the SQL Database integration, multiple databases are entered into Rewst using the drop-down menu at the top left of your configuration page.\
+   ![](<../../../../.gitbook/assets/Screenshot 2026-07-24 at 11.58.45 AM.png>)
+5. Enter the information received from running the PowerShell script into the relevant fields:
+   1. **Name** - Enter `Rewst Cache - Database` exactly
+   2. **Description** - A brief description of what the database does
+   3. **Is Default** checkbox - Keep this checked on
+   4. **Database Config Name** - Unique identifier to pick database for action
+   5. **Database Type** - Supported SQL databases
+   6. **Hostname** - Hostname for database connection
+   7. **Port** - Port for database connection
+   8. **Username** - Database user username
+   9. **Password** - Database user password
+   10. **Database Name** - Database name for database connection
+   11. **SSL Required** - SSL encryption provides end-to-end security of data sent during the session
+   12. **SSL Hostname Verification** - Verify that the SSL certificate hostname matches the connection hostname. Disable for cloud databases (GCP, AWS, Azure) that use dynamic hostnames or load balancers. SSL certificates are still validated when disabled. SSL Required must be enabled.
+   13. **Custom Connection Timeout (seconds)** - Default database connection timeout is 5 seconds
+   14. **Custom SSL Certificate** - Leave this blank if using AWS RDS or Azure SQL, which are supported by default. If your database needs a custom SSL, copy and paste the raw CA certificate here.
+6. Click **Save Configuration**.
 
 #### Post-integration steps specific to Rewst workflows
 

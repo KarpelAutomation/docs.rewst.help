@@ -23,7 +23,7 @@ Organizational variables define how Rewst handles identity creation and manageme
 | `preferred_domain_controller` | Hostname of the **domain controller** for executing PowerShell commands.   |
 | `preferred_adconnect_server`  | Hostname of the **ADConnect server** for syncing users to Azure AD.        |
 | `onprem_no_adsync`            | If set to `1`, prevents On-Prem AD users from syncing to Azure AD.         |
-| `user_name_format`            | Defines the username format for new users. (See table below)               |
+| `username_format`             | Defines the username format for new users. (See table below)               |
 
 ### **Username format options**
 

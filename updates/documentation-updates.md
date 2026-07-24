@@ -12,12 +12,23 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-07-24" %}
+## ✍️ July 24, 2026 - Recently updated documentation
+
+* [A list of all keyboard shortcuts for our new Workflow Builder](https://docs.rewst.help/documentation/automations/workflows/keyboard-shortcuts-for-the-workflow-builder)
+* [Updated instructions for our Export PSA Ticket Overview to CSV Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/export-psa-ticket-overview-to-csv-crate)
+* [Updated guidance for how task transitions work in our new Workflow Builder](https://docs.rewst.help/documentation/automations/workflows/task-transitions)
+* [Documentation on our new soft delete organizations feature](https://docs.rewst.help/documentation/settings/organizations#delete-an-organization)
+* [Updated webhook setup instructions for our CIPP Alert Triage Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/cipp-alert-triage-crate)
+* [Updated base URL instructions for our Google Workspace Admin integration setup](https://docs.rewst.help/documentation/integrations/integration-guides/google-admin/google-workspace-admin-sdk-integration-setup)
+{% endupdate %}
+
 {% update date="2026-07-17" %}
 ## ✍️ July 17, 2026 - Recently updated documentation
 
 * [Documentation for our Ubiquiti Network API integration](https://docs.rewst.help/documentation/integrations/integration-guides/ubiquiti-network-api-integration)
 * [Documentation for our Ubiquiti Protect API integration](https://docs.rewst.help/documentation/integrations/integration-guides/ubiquiti-protect-api-integration)
-* [Updated organization and CTX variable guidance for our Microsoft: User Onboarding Crate](../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+* Updated organization and CTX variable guidance for our Microsoft: User Onboarding Crate
 * [Updated documentation for our Form Builder](https://docs.rewst.help/documentation/automations/forms/intro-to-forms)
 * [Updated documentation for setting up our Duo integration](https://docs.rewst.help/documentation/integrations/integration-guides/duo-integration-setup)
 * [Updated documentation for our Addigy integration](https://docs.rewst.help/documentation/integrations/integration-guides/addigy-integration-setup)
