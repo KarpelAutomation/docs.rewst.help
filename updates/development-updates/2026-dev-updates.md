@@ -12,6 +12,40 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-07-24" %}
+## 💻 July 24, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Check back next week!**
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **RoboRewsty**
+  * Prevented workflow changes from being lost when users and RoboRewsty edited the same workflow at the same time.
+  * Improved RoboRewsty reliability to prevent conversations from getting stuck during summarization.
+  * Prevented RoboRewsty from editing synchronized workflows and guided users to unsync or clone them first.
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Early Access](https://rewst.io/earlyaccess)
+* Engine Improvements Beta
+
+</details>
+
+
+{% endupdate %}
+
 {% update date="2026-07-17" %}
 ## 💻 July 17, 2026 - Dev update
 

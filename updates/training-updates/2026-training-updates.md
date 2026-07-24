@@ -11,6 +11,14 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-07-24" %}
+## July 24, 2026 - Training update
+
+* Get personalized help from Eddie in [Cluck U Office Hours](https://learn.rewst.io/cluck-university-office-hours)!
+* Take our RoboRewsty courses to unlock results faster: [Get started with RoboRewsty](https://learn.rewst.io/get-started-with-roborewsty) and [Build an automation with RoboRewsty](https://learn.rewst.io/build-an-automation-with-roborewsty)
+* Follow along in the AI summer learning challenge through August in [Discord at #cluck-u](https://discord.com/channels/936789089703845988/1121465945295167588).
+{% endupdate %}
+
 {% update date="2026-07-17" %}
 ## July 17, 2026 - Training update
 
