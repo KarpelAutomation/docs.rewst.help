@@ -8,10 +8,69 @@ description: >-
 # 2026 Dev updates
 
 {% hint style="info" %}
-As of 2026, our Dev updates now include our Crate Marketplace updates in the same document. Click the **RSS** button at the top of this page to subscribe to all Dev updates, or view older [Dev](./) and [Marketplace ](../marketplace-updates/)updates in the Updates section of this site's navigation tree.&#x20;
+As of 2026, our Dev updates now include our Crate Marketplace updates in the same document. Click the **RSS** button at the top of this page to subscribe to all Dev updates, or view older [Dev](./) and [Marketplace ](../marketplace-updates/)updates in the Updates section of this site's navigation tree.
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-07-31" %}
+## 💻 July 31, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Workflows**
+  * Added a save check that prevents overwriting a newer version of a workflow
+  * Added the selected trigger to the workflow URL so that shared and bookmarked links open with the trigger in context
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **Integrations**
+  * Fixed Pax8 list actions, such as List Products, to return all assets by properly handling paginated responses
+  * Fixed the Ingram Micro Cloud Marketplace Get Report action, which failed when a report ID was provided
+* **RoboRewsty**
+  * Fixed RoboRewsty-generated ConnectWise PSA service ticket tasks crashing the parameter editor in the new Workflow Builder Canvas
+* **Workflows**
+  * Fixed boolean values in action query parameters not displaying in the key/value pairs UI when loading an action in the new Workflow Builder Canvas
+* **Crates**
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Added missing params to the Microsoft Tier 1 Purchase License subworkflow&#x20;
+    * Updated `get_datto_devices` to use `dc_filter_id` when available
+    * Removed placeholder text from the `device_id default`
+    * Added Business Premium/Standard/Basic with Co-Pilot entries to license lookup
+    * Added Microsoft Defender for Office 365 F1 to license lookup
+    * Reordered transitions to fix Synnex StreamOne path execution
+    * Increased device query retry delay to 10s in Agent Smith workflows
+    * Fixed rehired ConnectWise contacts remaining inactive during onboarding
+  * [AI Ticket Categorization](../../documentation/crates/existing-crate-documentation/openai-ticket-categorisation-setup.md)
+    * Added validation and fallback for invalid AI-generated ticket type/subtype/item combos
+  * [Just-In-Time Admin Access](../../documentation/crates/existing-crate-documentation/just-in-time-admin-access-crate.md)
+    * Added failure ticket notes, M365 account cleanup, and technician email notifications
+    * Added Microsoft Graph integration override to Always Pass trigger for TAP policy options via GDAP&#x20;
+    * Updated SuperOps to show selected customer tickets correctly
+  * [Add Client to Rewst](../../documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
+    * Set `cw_asio_company_id` field resource to Company&#x20;
+    * Fixed whitespace control in `create_general_org_var` task value at crate source
+  * [Alert on Expiring App Reg Secrets](../../documentation/crates/existing-crate-documentation/alert-on-expiring-app-reg-certificates-crate.md)
+    * Now uses ORG.VARIABLES.psa\_default\_ticket\_status for default ticket status
+  * [Configure Organizational Variables](../../documentation/crates/existing-crate-documentation/configure-organization-variables.md)
+    * Added Microsoft User Attributes To Copy field to Configure Org Var form
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* RoboRewsty Conversation Handoff
+
+</details>
+{% endupdate %}
+
 {% update date="2026-07-24" %}
 ## 💻 July 24, 2026 - Dev update
 
@@ -42,8 +101,6 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 * Engine Improvements Beta
 
 </details>
-
-
 {% endupdate %}
 
 {% update date="2026-07-17" %}
@@ -95,8 +152,6 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 * Engine Improvements Beta
 
 </details>
-
-
 {% endupdate %}
 
 {% update date="2026-07-10" %}
@@ -108,7 +163,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 
 * **Integrations**
   * Ubiquity Network - [documentation](../../documentation/integrations/integration-guides/ubiquiti-network-api-integration.md)
-  * Ubiquity Protect - [documentation](../../documentation/integrations/integration-guides/ubiquiti-protect-api-integration.md)&#x20;
+  * Ubiquity Protect - [documentation](../../documentation/integrations/integration-guides/ubiquiti-protect-api-integration.md)
   * Improved Cisco Meraki API Request errors by displaying detailed error messages returned by the Meraki API.
 * **Organizations**
   * Improved organization restoration with a dedicated Restore button, confirmation prompt, and automatic list refresh.
@@ -132,14 +187,14 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
   * [Just-In-Time Admin Access](../../documentation/crates/existing-crate-documentation/just-in-time-admin-access-crate.md)
     * Safely ignore misnamed Traveling Employee CA policies to prevent job failures
     * Fixed hardcoded user reference; now uses form submitter
-    * Better handling of Temporary Access Pass lifetime policy limits&#x20;
+    * Better handling of Temporary Access Pass lifetime policy limits
     * Correctly capture Temporary Access Pass value after creation
   * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
     * Added customizable approval confirmation email templates - title, subject, logo, styles, button, footer
     * Hardened license lookup publishes; surface missing license as `purchase_error`
     * Optional device\_id input to override default domain controller for on‑prem actions
-    * Added Azure and SuperOps integration overrides to Users: List users template&#x20;
-    * Added retry logic to Purchase Licenses for concurrent runs&#x20;
+    * Added Azure and SuperOps integration overrides to Users: List users template
+    * Added retry logic to Purchase Licenses for concurrent runs
     * Updated affected workflows to latest M365 License Lookup template
     * Added conditional `m365_user_to_copy` for Hybrid No Sync; require both when visible
   * [Sync AzureAD Account Information with ConnectWise PSA Contacts (v3)](../../documentation/crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md)
@@ -148,7 +203,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
   * [Compromised User Response](../../documentation/crates/existing-crate-documentation/compromised-user-response-crate.md)
     * Fixed notification wrapper/subworkflow - flatten targets, populate body, gate impersonation, set mail fields
   * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
-    * Fallback to on\_prem\_user.userPrincipalName when azure\_user.id is empty for Exchange offboarding&#x20;
+    * Fallback to on\_prem\_user.userPrincipalName when azure\_user.id is empty for Exchange offboarding
     * Accept on\_prem\_user in validate\_vars and include remove\_mobile\_devices action
     * Correctly save/use Offboarding Ticket SubType org variable
   * [Report on Disabled M365 Users with Licenses](../../documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
@@ -269,7 +324,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 * **Kits**
   * There were no updates to kits this week.
 * **Subworkflows**
-  * There were no updates to subworkflows this week.&#x20;
+  * There were no updates to subworkflows this week.
 
 </details>
 
@@ -333,11 +388,11 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
     * Ensured Office field is applied for new Azure AD users during onboarding
     * Fixed Pax8 nonprofit donation licensing lookup to correctly identify Donation SKU
     * Prevented false "User Exists - Amend Username" on Secure Cloud IDP path by improving subworkflow error detection and defaults
-    * Prevented false "User Exists - Amend Username" on on-prem path by detecting subworkflow failures earlier&#x20;
+    * Prevented false "User Exists - Amend Username" on on-prem path by detecting subworkflow failures earlier
   * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
     * Replaced hardcoded BMS priority ID with runtime lookup; preserved existing fallbacks
   * [Sync AzureAD Account Information with ConnectWise PSA Contacts (v3)](../../documentation/crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md)
-    * Fixed phone number sync when M365 and ConnectWise email casing differs&#x20;
+    * Fixed phone number sync when M365 and ConnectWise email casing differs
   * [Billing Count Report](../../documentation/crates/existing-crate-documentation/billing-count-report-crate.md)
     * Corrected logic to list Dropsuite counts accurately
   * [Rotate Account Passwords](../../documentation/crates/existing-crate-documentation/rotate-account-passwords-crate.md)
@@ -349,7 +404,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 * **Kits**
   * There were no updates to kits this week.
 * **Subworkflows**
-  * There were no updates to subworkflows this week.&#x20;
+  * There were no updates to subworkflows this week.
 
 </details>
 
@@ -391,22 +446,22 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 * **Crates**
   * [Bulk Create Client from PSA](../../documentation/crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md)
     * Made `account_types` and a`ccount_statuses` optional for Datto PSA; when empty, return all customers
-      * Made `account_types` and `account_statuses` optional for Halo PSA; updated `halo_list_psa_clients` to return all when types empty, else filter&#x20;
+      * Made `account_types` and `account_statuses` optional for Halo PSA; updated `halo_list_psa_clients` to return all when types empty, else filter
   * [Alert on Unused M365 Licenses](../../documentation/crates/existing-crate-documentation/alert-on-unused-m365-licenses-crate.md)
     * Prevented duplicate removals when Remediate is clicked multiple times during commitment; daily scan no longer creates repeat tickets for queued removals
   * [Organizational Setup Report](../../documentation/crates/existing-crate-documentation/organizational-setup-report-crate.md)
-    * Added on-demand email form trigger; default email pulled from org variable and updated on submit; submitting generates and emails the report&#x20;
+    * Added on-demand email form trigger; default email pulled from org variable and updated on submit; submitting generates and emails the report
   * [Report on Disabled M365 Users with Licenses](../../documentation/crates/existing-crate-documentation/report-on-disabled-m365-users-with-licenses-crate.md)
     * `get_webhook_trigger` now matches trigger type names containing `webhook` instead of filtering by a specific ID
   * [Add Client to Rewst](../../documentation/crates/existing-crate-documentation/add-client-to-rewst-setup.md)
-    * Renamed Azure Active Directory to Microsoft Entra (AAD); added field for ConnectWise ASIO integration mapping&#x20;
+    * Renamed Azure Active Directory to Microsoft Entra (AAD); added field for ConnectWise ASIO integration mapping
   * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
-    * Fixed device matching across multiple sites by flattening endpoints before filtering in `list_computers` On Success&#x20;
-      * Added sanitized\_zip to zero‑pad 4‑digit ZIPs; `cw_update_contact` and `cw_create_contact` now use it&#x20;
+    * Fixed device matching across multiple sites by flattening endpoints before filtering in `list_computers` On Success
+      * Added sanitized\_zip to zero‑pad 4‑digit ZIPs; `cw_update_contact` and `cw_create_contact` now use it
 * **Kits**
   * There were no updates to kits this week.
 * **Subworkflows**
-  * There were no updates to subworkflows this week.&#x20;
+  * There were no updates to subworkflows this week.
 
 </details>
 
@@ -458,25 +513,25 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
   * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
     * Updated onboarding form to make force\_password\_change and password\_never\_expires mutually exclusive
     * Added | json filter to pax8\_sku\_mapping alias in \[REWST TASK] Licenses: Update Quantity
-    * Updated \[REWST - TASK] CW ASIO: Run PowerShell list\_shell\_scripts failure transition to use input script\_id or default ID&#x20;
+    * Updated \[REWST - TASK] CW ASIO: Run PowerShell list\_shell\_scripts failure transition to use input script\_id or default ID
     * Added CW, SX, and BQ to ISO 3166 country code options generator (90206)
-    * Added object in script at correct sequence&#x20;
-    * Reordered FAILURE transition for core\_await\_webhook\_request and set webhook expiration to 85800&#x20;
+    * Added object in script at correct sequence
+    * Reordered FAILURE transition for core\_await\_webhook\_request and set webhook expiration to 85800
   * [Configure Organizational Variables](../../documentation/crates/existing-crate-documentation/configure-organization-variables.md)
     * Added default\_sla to Create or Update Org Variable
   * [Google: User Onboarding](../../documentation/crates/existing-crate-documentation/google-user-onboarding-crate.md)
-    * Updated check\_copy\_user to use manager's email address instead of ID&#x20;
+    * Updated check\_copy\_user to use manager's email address instead of ID
   * [Rewst Microsoft GDAP Assistant](../../documentation/crates/existing-crate-documentation/rewst-microsoft-gdap-assistant-crate.md)
-    * Fixed Jinja failure in Create GDAP Relationship sub-workflow that stopped execution&#x20;
+    * Fixed Jinja failure in Create GDAP Relationship sub-workflow that stopped execution
     * Corrected msp\_created\_relationships filter to use customer.tenantId and de-duplicated customer\_name\_history
   * [Compromised User Response](../../documentation/crates/existing-crate-documentation/compromised-user-response-crate.md)
-    * Updated Jinja in external\_forward\_rules to return only external emails&#x20;
+    * Updated Jinja in external\_forward\_rules to return only external emails
   * [Reset Locked Accounts](../../documentation/crates/existing-crate-documentation/reset-locked-accounts-crate.md)
     * list\_locked\_accounts now runs as org using CTX.org\_id in \[REWST - OPT GEN] List Locked-Out Accounts
 * **Kits**
   * There were no updates to kits this week.
 * **Subworkflows**
-  * There were no updates to subworkflows this week.&#x20;
+  * There were no updates to subworkflows this week.
 
 </details>
 
@@ -544,9 +599,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 * **Kits**
   * There were no updates to kits this week.
 * **Subworkflows**
-  *   There were no updates to subworkflows this week.
-
-
+  * There were no updates to subworkflows this week.
 
 </details>
 
@@ -596,20 +649,20 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
   * Improved RoboRewsty conversation handling to prevent token-limit crashes and retry transient model errors automatically.
 * **Crates**
   * [Agent Smith: Service Provisioning \[Install Second\]](../../documentation/agent-smith/agent-smith-configuration-overview.md)
-    * Updated form descriptions to specify which org variables to use&#x20;
-    * Removed the **Remove Control Device** form the action dropdown&#x20;
+    * Updated form descriptions to specify which org variables to use
+    * Removed the **Remove Control Device** form the action dropdown
   * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
-    * Show group display names in onboarding ticket notes instead of GUIDs&#x20;
-    * Enhanced user validation: detect existing users by email, UPN, and proxyAddresses; on-prem AD checks proxyAddresses to prevent duplicates&#x20;
-    * Fixed conditional for get\_all\_security\_groups in "List On-Prem Groups — Not Tenant Specific— subworkflow&#x20;
-    * Fixed false positives in User: Check Exists; improved on-prem error detection; standardized failure handling; added task logs&#x20;
-    * Debugged/validated BYOD SQL integration; fixed user\_exists false positive; confirmed db\_override gate and skipCache wiring; updated docs and workflow lists&#x20;
+    * Show group display names in onboarding ticket notes instead of GUIDs
+    * Enhanced user validation: detect existing users by email, UPN, and proxyAddresses; on-prem AD checks proxyAddresses to prevent duplicates
+    * Fixed conditional for get\_all\_security\_groups in "List On-Prem Groups — Not Tenant Specific— subworkflow
+    * Fixed false positives in User: Check Exists; improved on-prem error detection; standardized failure handling; added task logs
+    * Debugged/validated BYOD SQL integration; fixed user\_exists false positive; confirmed db\_override gate and skipCache wiring; updated docs and workflow lists
   * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
-    * Refactored OneDrive grant: create Offboarding\_Transfer, move root items, share with recipient&#x20;
+    * Refactored OneDrive grant: create Offboarding\_Transfer, move root items, share with recipient
   * [Triage SentinelOne Tickets](../../documentation/crates/existing-crate-documentation/triage-sentinelone-tickets-crate.md)
     * Tightened trigger criteria: run only when Entity.summary contains `sentinelone`, `machine`, and `threat`
   * [CIPP: Alert Triage](../../documentation/crates/existing-crate-documentation/cipp-alert-triage-crate.md)
-    * Rewrote Build Ticket Variables as template to support both drift and flat payloads; dedupes and routes standards alerts correctly&#x20;
+    * Rewrote Build Ticket Variables as template to support both drift and flat payloads; dedupes and routes standards alerts correctly
 * **Kits**
   * There were no updates to kits this week.
 * **Subworkflows**
@@ -1583,7 +1636,7 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
   * [Amend Calendar Permission on User](../../documentation/crates/existing-crate-documentation/amend-calendar-permission-on-user-crate.md)
     * Add default board ID to M365 Set Calendar Permissions create ticket action
 * **Kits**
-  * There were no updates to kits this week.&#x20;
+  * There were no updates to kits this week.
 * **Subworkflows**
   * There were no updates to subworkflows this week.
 
