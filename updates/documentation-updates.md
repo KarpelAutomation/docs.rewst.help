@@ -8,10 +8,16 @@ icon: pencil-mechanical
 # Documentation updates
 
 {% hint style="info" %}
-To subscribe to this feed, click **RSS feed** in the top right corner of the page.&#x20;
+To subscribe to this feed, click **RSS feed** in the top right corner of the page.
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-07-31" %}
+## ✍️ July 31, 2026 - Recently updated documentation
+
+* [Updated guidance for our BYOD for options generators integration](https://docs.rewst.help/documentation/integrations/integration-guides/database-integration-setup/byod-for-dattormm)
+{% endupdate %}
+
 {% update date="2026-07-24" %}
 ## ✍️ July 24, 2026 - Recently updated documentation
 
@@ -69,7 +75,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-05-26" %}
-## &#x20;✍️ May 26, 2026 - Recently updated documentation
+## ✍️ May 26, 2026 - Recently updated documentation
 
 * [Updated setup instructions for our Huntress integration](https://docs.rewst.help/documentation/integrations/integration-guides/huntress-integration-setup)
 {% endupdate %}
@@ -78,11 +84,11 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 ## ✍️ May 15, 2026 - Recently updated documentation
 
 * [Updated documentation for our GraphQL Generic Request action: Mutations now list necessary updates in the schema, and Queries now list if where or search is necessary for each query.](https://docs.rewst.help/documentation/automations/actions-in-rewst/generic-graphql-request-action)
-* We added our new RSS feature for docs updates.&#x20;
+* We added our new RSS feature for docs updates.
 {% endupdate %}
 
 {% update date="2026-05-08" %}
-## ✍️ May 8, 2026 - Recently updated documentation&#x20;
+## ✍️ May 8, 2026 - Recently updated documentation
 
 * [Updated documentation for BYOD for options generators](https://docs.rewst.help/documentation/integrations/integration-guides/database-integration-setup/byod-for-dattormm)
 * [Documentation on our new action version log feature](https://docs.rewst.help/documentation/automations/actions-in-rewst#action-version-updates)
@@ -90,7 +96,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-05-01" %}
-## ✍️ May 1, 2026 - Recently updated documentation&#x20;
+## ✍️ May 1, 2026 - Recently updated documentation
 
 * Updated documentation for our [On-Premises Active Directory Password Expiration Alerts Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/on-premises-active-directory-password-expiration-alerts-crate)
 * [Updates to our documentation on the generic GraphQL request action](https://docs.rewst.help/documentation/automations/actions-in-rewst/generic-graphql-request-action)
@@ -99,13 +105,13 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-04-24" %}
-## ✍️ April 24, 2026 - Recently updated documentation&#x20;
+## ✍️ April 24, 2026 - Recently updated documentation
 
 * [Updated documentation for our Lexful integration](https://docs.rewst.help/documentation/integrations/integration-guides/lexful-integration)
 {% endupdate %}
 
 {% update date="2026-04-17" %}
-## ✍️ April 17, 2026 - Recently updated documentation&#x20;
+## ✍️ April 17, 2026 - Recently updated documentation
 
 * [Documentation for our new Ubiquiti integration](https://docs.rewst.help/documentation/integrations/integration-guides/ubiquiti-integration)
 * [Updated setup instructions for our Lexful integration](https://docs.rewst.help/documentation/integrations/integration-guides/lexful-integration)
@@ -115,7 +121,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-04-10" %}
-## ✍️ April 10, 2026 - Recently updated documentation&#x20;
+## ✍️ April 10, 2026 - Recently updated documentation
 
 * [Update to our Await Webhook Request action documentation](https://docs.rewst.help/documentation/automations/actions-in-rewst/core-actions)
 * [Updated hours for our support team’s availability](https://docs.rewst.help/support-and-community/roc-support)
@@ -127,7 +133,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-04-03" %}
-## ✍️ April 3, 2026 - Recently updated documentation&#x20;
+## ✍️ April 3, 2026 - Recently updated documentation
 
 * [Updated guidance to reflect permissions changes for our Microsoft Cloud Integration Bundle](https://docs.rewst.help/documentation/integrations/integration-guides/microsoft-cloud-integration-bundle)
 * [Documentation on our new critical timing feature for cron triggers](https://docs.rewst.help/documentation/automations/intro-to-triggers#critical-timing)
@@ -136,7 +142,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-03-27" %}
-## ✍️ March 27, 2026 - Recently updated documentation&#x20;
+## ✍️ March 27, 2026 - Recently updated documentation
 
 * [Hatz AI integration](https://docs.rewst.help/documentation/integrations/integration-guides/hatz-integration)
 * [Updated endpoints for our Huntress integration](https://docs.rewst.help/documentation/integrations/integration-guides/huntress-integration-setup)
@@ -145,7 +151,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-03-20" %}
-## ✍️ March 20, 2026 - Recently updated documentation&#x20;
+## ✍️ March 20, 2026 - Recently updated documentation
 
 * [Updated guidance to reflect recent changes to include additional integrations in our Billing Count Report Crate functionality](https://docs.rewst.help/documentation/crates/existing-crate-documentation/billing-count-report-crate)
 * [Updated documentation for our core\_send\_sms action](https://docs.rewst.help/documentation/automations/actions-in-rewst/core-actions#send-sms-action)
@@ -157,7 +163,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-03-13" %}
-## ✍️ March 13, 2026 - Recently updated documentation&#x20;
+## ✍️ March 13, 2026 - Recently updated documentation
 
 * Update to all existing documentation to reflect the changes to the left side nav tree in Rewst
 * [Updates to our list of recommended scopes for ConnectWise ASIO - now including platform.devices.read](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-asio-integration)
@@ -173,7 +179,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-03-06" %}
-## ✍️ March 6, 2026 - Recently updated documentation&#x20;
+## ✍️ March 6, 2026 - Recently updated documentation
 
 * [Updated documentation for introducing webhook triggers](https://docs.rewst.help/documentation/automations/intro-to-triggers/use-cases-and-examples/using-webhook-triggers)
 * [A guide on how to unsync Crates to use with custom integrations](https://docs.rewst.help/documentation/crates/use-a-crate-with-a-custom-integration)
@@ -186,7 +192,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-02-20" %}
-## ✍️ February 20, 2026 - Recently updated documentation&#x20;
+## ✍️ February 20, 2026 - Recently updated documentation
 
 * [Documentation for our Senteon integration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/senteon-integration)
 * [Updated organization variable guidance for our Traveling Employee CA Policy Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/traveling-employee-ca-policy-crate)
@@ -199,7 +205,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-02-13" %}
-## ✍️ February 13, 2026 - Recently updated documentation&#x20;
+## ✍️ February 13, 2026 - Recently updated documentation
 
 * [Clone and synchronize workflows](https://docs.rewst.help/documentation/automations/workflows/workflow-builder-how-to-set-up-a-workflow#clone-and-synchronize-a-workflow)
 * Updated endpoint tables for our [Datto RMM](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/datto-rmm-integration-setup), [SentinelOne](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/sentinelone-integration-setup), and [Nerdio](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/nerdio-integration-setup) integrations
@@ -210,7 +216,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-02-06" %}
-## ✍️ February 6, 2026 - Recently updated documentation&#x20;
+## ✍️ February 6, 2026 - Recently updated documentation
 
 * [Clarification on how time savings in your dashboard is calculated](https://docs.rewst.help/documentation/rewst-dashboard)
 * [Updated documentation on how to set up custom integration in Rewst, now outlined for both the simpler OAuth file upload method and the more complex manual import method.](https://docs.rewst.help/documentation/configuration/integrations/custom-integrations/custom-integrations-v2)
@@ -220,7 +226,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-01-30" %}
-## ✍️ January 30, 2026 - Recently updated documentation&#x20;
+## ✍️ January 30, 2026 - Recently updated documentation
 
 * [Updated guidance for our Australian customers who use ConnectWise PSA integration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/connectwise-integration-setup)
 * [Updated guidance for organization variables for the Document Bitlocker Information Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/document-bitlocker-information-crate)
@@ -231,7 +237,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-01-23" %}
-## ✍️ January 23, 2026 - Recently updated documentation&#x20;
+## ✍️ January 23, 2026 - Recently updated documentation
 
 * Updated formatting for our documentation on [Core](https://docs.rewst.help/documentation/automations/actions-in-rewst) and [Rewst](https://docs.rewst.help/documentation/automations/actions-in-rewst/rewst-actions) actions: rather than grouping them by category of what they relate to in Rewst, all actions now appear as alphabetical lists, for easier indexing.
 * [Updated information on our Google Workspace integration, to now include needed scopes for the setup process.](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/google-admin/google-workspace-admin-sdk-integration-setup)
@@ -243,7 +249,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endupdate %}
 
 {% update date="2026-01-16" %}
-## ✍️ January 16, 2026 - Recently updated documentation&#x20;
+## ✍️ January 16, 2026 - Recently updated documentation
 
 * [Updated documentation on our RoboRewsty feature, which now has customized action approval options in-chat.](https://docs.rewst.help/documentation/rewst-tools/roborewsty)
 * [Updated setup steps for our QuickBooks integration](https://docs.rewst.help/documentation/configuration/integrations/integration-guides/quickbooks-online-integration-setup)
