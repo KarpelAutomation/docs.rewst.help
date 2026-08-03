@@ -73,6 +73,19 @@ The Rewst Prod App is necessary for authentication and might already be installe
 
 If you encounter problems during the authorization step, ensure that you are using the correct account, and that all permissions are properly set.
 
+<details>
+
+<summary>Issue: Failed to authorize one or more integrations.<br>AADSTS65001: The user or administrator has not consented to use the application with ID '2bfb92c3-5845-4776-a1ad-5398acdf285e' named 'Rewst MS Cloud Connector'. Send an interactive authorization request for this user and resource. Trace ID: Correlation ID: Timestamp</summary>
+
+This error can mean one of two things:
+
+* The user has logged into a customers tenant using the wrong 365 account, then logged in again with another 365 account with a different domain. This creates a conflict of two different Microsoft Tenant IDs recorded in Rewst.
+* The Microsoft Cloud Integration Bundle could be installed at both the MSP organization level and the customer organization level. If this is your setup and you're trying to use GDAP with integration overrides, it may throw this error.
+
+In either case, uninstall and reinstall the entire Microsoft Cloud Integration Bundle, making sure that you're setting it up with the correct desired tenant ID and only at one level. If this fails to resolve your issue, contact Rewst support for further troubleshooting.
+
+</details>
+
 ## **Permission configuration errors**
 
 Double-check the permissions if there are issues with accessing certain functionalities. Ensure that the appropriate permissions are enabled and correctly configured.
