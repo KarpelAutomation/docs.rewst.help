@@ -7,10 +7,17 @@ description: >-
 # 2026 Training updates
 
 {% hint style="info" %}
-To subscribe to this feed, click **RSS feed** in the top right corner of the page.&#x20;
+To subscribe to this feed, click **RSS feed** in the top right corner of the page.
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-08-04" %}
+## August 4, 2026 - Training update
+
+* We've refreshed [_Jinja in action_](https://learn.rewst.io/jinja-in-action) with clearer learning outcomes, a callout on using RoboRewsty to generate Jinja for you, and the final quiz is now split into shorter, lesson-level checks with a fixed question.
+* We’ve updated [_Simplify Microsoft User Onboarding with a form and workflow wrapper_](https://learn.rewst.io/simplify-microsoft-user-onboarding) with new screenshots and updated terminology to match the latest workflow builder UI.
+{% endupdate %}
+
 {% update date="2026-07-24" %}
 ## July 24, 2026 - Training update
 
@@ -22,12 +29,10 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% update date="2026-07-17" %}
 ## July 17, 2026 - Training update
 
-* The [Cluck University](https://learn.rewst.io/) homepage got a makeover! Top to bottom, you'll see "get started" quickly resources, followed by certifications, and then just-in-time supplementary learning.&#x20;
+* The [Cluck University](https://learn.rewst.io/) homepage got a makeover! Top to bottom, you'll see "get started" quickly resources, followed by certifications, and then just-in-time supplementary learning.
 * Follow along in the AI summer learning challenge through August in [Discord at #cluck-u](https://discord.com/channels/936789089703845988/1121465945295167588).
 
 <figure><img src="../../.gitbook/assets/AI Summer Social challenge (1).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endupdate %}
 
 {% update date="2026-07-09" %}
@@ -65,7 +70,7 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 
 Explore what new changes the Cluck University team made in the last week.
 
-* [Troubleshooting in Rewst](https://learn.rewst.io/path/automation-builder-basics/troubleshooting-in-rewst) has been updated; check it out to see how troubleshooting has evolved with RoboRewsty and UI updates! &#x20;
+* [Troubleshooting in Rewst](https://learn.rewst.io/path/automation-builder-basics/troubleshooting-in-rewst) has been updated; check it out to see how troubleshooting has evolved with RoboRewsty and UI updates!
 * Sign up for office hours with the legendary Cluck University instructor, Eddie Chow:
   * [Get personalized help at Office Hours](https://learn.rewst.io/cluck-university-office-hours/266786)
 * Find a course that suits your needs on our revamped [search courses page](https://learn.rewst.io/page/course-catalog) -- either filter by categories and/or enter keywords.
@@ -82,11 +87,11 @@ Explore what new changes the Cluck University team made in the last week.
 
 Explore what new changes the Cluck University team made in the last week.
 
-* We've updated the appropriate [onboarding courses](https://learn.rewst.io/path/onboarding-learning-path) to reflect Rewst's new PSA CSV import ability.&#x20;
-* All courses in [Automation Fundamentals](https://learn.rewst.io/path/automation-fundamentals) have been refreshed - check them out even if you've taken them before!&#x20;
+* We've updated the appropriate [onboarding courses](https://learn.rewst.io/path/onboarding-learning-path) to reflect Rewst's new PSA CSV import ability.
+* All courses in [Automation Fundamentals](https://learn.rewst.io/path/automation-fundamentals) have been refreshed - check them out even if you've taken them before!
 * Sign up for upcoming live training with the legendary Cluck University instructor, Eddie Chow:
   * [Get personalized help at Office Hours](https://learn.rewst.io/cluck-university-office-hours/266786)
-  * [Clean Automation Live - May 19-21](https://learn.rewst.io/live-training-clean-automation) (psst — there's some special content you can only get by attending!)&#x20;
+  * [Clean Automation Live - May 19-21](https://learn.rewst.io/live-training-clean-automation) (psst — there's some special content you can only get by attending!)
 * Find a course that suits your needs on our revamped [search courses page](https://learn.rewst.io/page/course-catalog) -- either filter by categories and/or enter keywords.
 
 **Contact us**
@@ -102,7 +107,7 @@ Explore what new changes the Cluck University team made in the last week.
 Explore what new changes the Cluck University team made in the last week.
 
 * We're updating beginner-level courses to reflect the new Workflow Builder Canvas, RoboRewsty capabilities, and improved clarity/brevity overall (we know you're busy).
-* All courses in [Automation Fundamentals](https://learn.rewst.io/path/automation-fundamentals) have been refreshed!&#x20;
+* All courses in [Automation Fundamentals](https://learn.rewst.io/path/automation-fundamentals) have been refreshed!
 * [Automation Builder Basics](https://learn.rewst.io/path/automation-builder-basics) courses will get updated soon.
 * Sign up for upcoming live training with the legendary Cluck University instructor, Eddie Chow:
   * [Get personalized help at Office Hours](https://learn.rewst.io/cluck-university-office-hours/266786)
@@ -351,8 +356,6 @@ Explore what new changes the Cluck University team made in the last week.
 {% update date="2026-01-16" %}
 ## 🎓 January 16, 2026 - Training update
 
-
-
 * Want to get the most out of RoboRewsty? Take our RoboRewsty courses!
   * [RoboRewsty prompting](https://learn.rewst.io/roborewsty-prompting)
   * [3 ways to start using RoboRewsty](https://learn.rewst.io/3-ways-to-start-using-roborewsty)
@@ -367,4 +370,3 @@ Explore what new changes the Cluck University team made in the last week.
 * Get live, 2x/week help in [Office Hours](https://learn.rewst.io/cluck-university-office-hours) — we're experimenting with sessions on **AI and RoboRewsty** but we'll do our best to answer _any_ questions you have about learning Rewst.
 {% endupdate %}
 {% endupdates %}
-
