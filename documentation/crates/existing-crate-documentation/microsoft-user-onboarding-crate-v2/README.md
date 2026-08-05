@@ -212,10 +212,10 @@ Before unpacking the Microsoft: User Onboarding Crate, make sure that the follow
 * For Active Directory setup, you’ll need to first set up your [RMM integration](https://docs.rewst.help/documentation/integrations/rmm), or [Agent Smith](https://docs.rewst.help/documentation/agent-smith). This is optional.
 * [PSA Integration](https://docs.rewst.help/documentation/integrations/psa) must be setup. This is required for automated ticket creation and ticket updates. This is optional.
 * [Documentation Integrations](https://docs.rewst.help/documentation/integrations/documentation) must be set up if you wish to create documentation in your knowledge base. This is optional.
-* [Licensing integrations](https://docs.rewst.help/documentation/integrations/licensing) should be completed if you wish to set up automated license purchases. Configure Pax8, Ingram Micro, Sherweb, or Synnex. This is optional.
+* [Licensing integrations](https://docs.rewst.help/documentation/integrations/top-5-integration-types-get-started-with-integrations-in-rewst) should be completed if you wish to set up automated license purchases. Configure Pax8, Ingram Micro, Sherweb, or Synnex. This is optional.
 * [OpenText SecureCloud](../../../integrations/integration-guides/opentext-secure-cloud-integration.md) must be integrated with Rewst if you wish to use OpenText SecureCloud with this Crate. This is optional.
 * [ArrowSphere](../../../integrations/integration-guides/arrowsphere-integration.md) must be integrated with Rewst if you wish to use this Crate for user license purchasing. This is optional.
-* [ConnectWise ASIO](../../../integrations/integration-guides/connectwise-asio-integration.md) must be integrated with Rewst if you wish to use this Crate with that integration.
+* [ConnectWise Platform](../../../integrations/integration-guides/connectwise-asio-integration.md) must be integrated with Rewst if you wish to use this Crate with that integration.
 
 ### Overview of required context variables and organizational variables
 
@@ -400,8 +400,6 @@ Expand each of the categories below to see that type of org variable's reference
 
 </details>
 
-
-
 #### OpenText SecureCloud organizational variables
 
 If using OpenText SecureCloud with this Crate, you'll also need to set **`primary_identity_provider`** to one of the two values below:
@@ -471,7 +469,7 @@ If a user does not appear in AD or Azure AD, check the **workflow execution logs
 | **External Documentation (Optional)** | User credentials are stored in ITGlue, Hudu, or Passportal, if enabled.       |
 
 {% hint style="success" %}
-If the ticket was not created or updated, verify that [PSA integration is configured correctly](https://docs.rewst.help/documentation/integrations/psa).
+If the ticket was not created or updated, verify that [PSA integration is configured correctly](https://docs.rewst.help/documentation/integrations/top-5-integration-types-get-started-with-integrations-in-rewst).
 {% endhint %}
 
 ## **Troubleshoot the Microsoft: User Onboarding Crate**
