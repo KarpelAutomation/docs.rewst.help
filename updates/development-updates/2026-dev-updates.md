@@ -12,6 +12,56 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-08-07" %}
+## 💻 August 7, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Integrations**
+  * Added filtering to the password generator action to reduce the chance of creating passwords containing potentially offensive or sensitive terms.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **Forms**
+  * Prevented duplicate form submissions from creating multiple workflow executions by gating submissions while requests are in flight.
+* **Integrations**
+  * Fixed the N-sight List Servers action so it correctly retrieves servers for the selected site.
+  * Fixed automatic OAuth 2.0 token refreshes for custom integrations so workflows can continue running after access tokens expire.
+* **RoboRewsty**
+  * Fixed an edge issue where RoboRewsty could disconnect workflow steps when making small edits to the connection between them.
+  * Fixed RoboRewsty workflow link updates to preserve existing data aliases when only one alias is changed.
+* **Crates**
+  * [Google: User Onboarding](../../documentation/crates/existing-crate-documentation/google-user-onboarding-crate.md)
+    * Updated GWS Remove Mobile Devices task to use the correct DELETE method
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Added missing Microsoft Defender Suite for Business Premium SKU to the M365 License Lookup&#x20;
+    * Correctly copies Office Location and Company Name from the selected reference user when using Copy User Attributes&#x20;
+  * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
+    * Error now shows in ticket when a ConnectWise Manage contact fails to disable because it is set as a primary point of contact&#x20;
+  * [Sync AzureAD Account Information with ConnectWise PSA Contacts (v3)](../../documentation/crates/existing-crate-documentation/sync-azuread-account-information-with-connectwise-psa-contacts-v3-crate.md)
+    * Fixed case-sensitive email matching that skipped contacts when Graph and PSA email casing differed&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Early Access](https://rewst.io/earlyaccess)
+* [Engine Improvements Beta](https://rewst.io/go/engine-next-beta-signup)
+* RoboRewsty per-conversation usage limits
+
+</details>
+
+
+{% endupdate %}
+
 {% update date="2026-07-31" %}
 ## 💻 July 31, 2026 - Dev update
 

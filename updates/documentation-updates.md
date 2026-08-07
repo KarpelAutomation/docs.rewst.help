@@ -12,6 +12,12 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-08-07" %}
+## ✍️ August 7, 2026 - Recently updated documentation
+
+* [Updated guidance on error codes for our Microsoft Cloud Integration Bundle](https://docs.rewst.help/documentation/integrations/integration-guides/microsoft-cloud-integration-bundle/microsoft-cloud-integration-bundle-troubleshooting-guide)
+{% endupdate %}
+
 {% update date="2026-07-31" %}
 ## ✍️ July 31, 2026 - Recently updated documentation
 
