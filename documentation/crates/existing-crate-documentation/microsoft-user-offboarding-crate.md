@@ -68,7 +68,7 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 1. Navigate to **Automations > Workflows** in the Rewst platform
 2. Search for `[REWST - PROC] Microsoft: User Offboarding`.
 3. Click on the workflow to open it in the Workflow Builder.
-4. Locate the trigger on the Workflow Builder Canvas.&#x20;
+4. Locate the trigger on the Workflow Builder Canvas.
 5. Click on the trigger to open its settings in the right side menu.
 6. Click **Copy URL.**\
    \
@@ -77,7 +77,7 @@ The [Microsoft Cloud Integration Bundle](../../integrations/integration-guides/m
 8.  Fill out the form as appropriate for the company and user you are offboarding. Make sure to click **Submit** at the end of the form.<br>
 
     <figure><img src="../../../.gitbook/assets/image (63) (2).png" alt=""><figcaption></figcaption></figure>
-9. Once the form is submitted, the workflow will begin to run. To view the results, click ![](<../../../.gitbook/assets/Screenshot 2026-04-21 at 10.41.58 AM (1).png>) **> Execution History** in the Workflow Builder.
+9. Once the form is submitted, the workflow will begin to run. To view the results, click ![](<../../../.gitbook/assets/Screenshot 2026-04-21 at 10.41.58 AM.png>) **> Execution History** in the Workflow Builder.
 10. Click into the results to see the execution results with successes and failures, if there are any.
 
 <figure><img src="../../../.gitbook/assets/image (66) (2).png" alt=""><figcaption></figcaption></figure>

@@ -49,7 +49,7 @@ Rewst's [Microsoft Cloud Integration Bundle](../../integrations/integration-guid
     3. Return to the trigger settings.
     4. Click on the Time Interval trigger and toggle **Enabled** on.
 
-    ![](<../../../.gitbook/assets/Screenshot 2026-04-14 at 11.43.13 AM (1).png>)\
+    ![](<../../../.gitbook/assets/Screenshot 2026-04-14 at 11.43.13 AM.png>)\
     \
     ![](<../../../.gitbook/assets/Screenshot 2026-04-14 at 11.43.20 AM.png>)<br>
 8. Note that you have the option under the **Configure Triggers** accordion menu of the Crate configuration page to activate the Crate for all future organizations in addition to the current one. Current org-only is the default. You may also set activation to certain [tags](https://docs.rewst.help/documentation/settings/tags-in-rewst), [trigger criteria](../../automations/intro-to-triggers/trigger-criteria.md), or for integration overrides.

@@ -8,13 +8,13 @@ The trigger criteria tab of the trigger menu will only appear if you've chosen a
 
 ## Trigger criteria submenu
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 3.33.41 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 3.33.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 1. Click **+Add Criterion** to add new trigger criteria. This will reveal a new set of fields. You can only add one set at a time, but may add multiple criterion.
-2. Click **Test Criteria** at the bottom of the right side menu to open the trigger criteria test dialog. This option will only appear after you've saved both your trigger and your trigger criteria. The dialog allows you to use past events in your relevant tool to test out conditions for future events.  From this dialog, you can also add new trigger criteria. Note that the trigger must be set to **enabled** for this dialog to work. Learn more about this dialog in the [Trigger criteria test dialog](trigger-criteria.md#trigger-criteria-test-dialog) section of this document.
-3. The **Key** field is used to access the trigger context. A trigger context is a dictionary of key-value pairs that contain the data of the event that triggered the workflow.&#x20;
+2. Click **Test Criteria** at the bottom of the right side menu to open the trigger criteria test dialog. This option will only appear after you've saved both your trigger and your trigger criteria. The dialog allows you to use past events in your relevant tool to test out conditions for future events. From this dialog, you can also add new trigger criteria. Note that the trigger must be set to **enabled** for this dialog to work. Learn more about this dialog in the [Trigger criteria test dialog](trigger-criteria.md#trigger-criteria-test-dialog) section of this document.
+3. The **Key** field is used to access the trigger context. A trigger context is a dictionary of key-value pairs that contain the data of the event that triggered the workflow.
 4. Click <img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png" alt="" data-size="line"> to open a Monaco editor dialog.
-5. The **Operator** drop-down is used to compare the value of the Key field with the **Value** field. Click the arrow to open the drop-down list of all possible operators.&#x20;
+5. The **Operator** drop-down is used to compare the value of the Key field with the **Value** field. Click the arrow to open the drop-down list of all possible operators.
    1. Equals
    2. Equals (case sensitive)
    3. Not Equals
@@ -28,33 +28,33 @@ The trigger criteria tab of the trigger menu will only appear if you've chosen a
    11. In - be sure to press the `Enter` key to convert the value into a list
    12. Not In - be sure to press the `Enter` key to convert the value into a list
    13. Jinja Evaluation
-6. The **Value** field contains the text parameter of the **Key** field to compare with the value of the trigger context. Note that only string values are supported in this field. If you need to evaluate non-string values, you can use Jinja Evaluation to do so.&#x20;
+6. The **Value** field contains the text parameter of the **Key** field to compare with the value of the trigger context. Note that only string values are supported in this field. If you need to evaluate non-string values, you can use Jinja Evaluation to do so.
 7. Click **Delete Condition** to remove the related trigger criteria.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.15.32 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Trigger criteria test dialog
 
-The dialog can be viewed in the right side menu in condensed form, or via a full dialog that appears in the center of your screen by clicking <img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.22.59 PM.png" alt="" data-size="line">.&#x20;
+The dialog can be viewed in the right side menu in condensed form, or via a full dialog that appears in the center of your screen by clicking <img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.22.59 PM.png" alt="" data-size="line">.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.22.26 PM.png" alt="" width="239"><figcaption><p>The condensed view</p></figcaption></figure>
 
-The full dialog is made up of two panels. The right panel shows all prior triggering events in a list, with the most recent events displayed at the top. You must enable the trigger to receive trigger events, and also slide the **Test Trigger Criteria** toggle to play, not pause. The system will approximately log the latest 10 events for one day. There is no throttling on the logging system.&#x20;
+The full dialog is made up of two panels. The right panel shows all prior triggering events in a list, with the most recent events displayed at the top. You must enable the trigger to receive trigger events, and also slide the **Test Trigger Criteria** toggle to play, not pause. The system will approximately log the latest 10 events for one day. There is no throttling on the logging system.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.22.48 PM.png" alt=""><figcaption><p>The full dialog</p></figcaption></figure>
 
 Click on the value of the trigger context for any of these events to generate and display its criteria in the left panel. This will automatically map the field accessor and the selected value of the trigger context. Note that the events in the right panel list have color coded headers at the top of each, with the color denoting a different status for that event. Each trigger type may have different trigger context data or formatting.
 
-| Status                                                                                    | Meaning                                                                                                                                                                                                                                                                                                                                                   |
-| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| VALID  - Blue![](<../../../.gitbook/assets/Screenshot 2025-07-01 at 2.56.30 PM.png>)      | A valid trigger criteria means the triggered event satisfies all possible conditions and will start the workflow. A criteria is satisfied when all specified conditions are satisfied by logical means against the trigger context. All valid trigger events should have a corresponding workflow execution.                                              |
-| FILTERED  - Yellow![](<../../../.gitbook/assets/Screenshot 2025-07-01 at 2.57.03 PM.png>) | A filtered trigger will not start the workflow, typically for one of the following reasons: a condition is logically unmet by design, a condition is malformed and unparseable, or the trigger request itself is malformed and rejected by the system. A filtered trigger event may show warnings if errors are found while processing the trigger event. |
+| Status                                                                                   | Meaning                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| VALID - Blue![](<../../../.gitbook/assets/Screenshot 2025-07-01 at 2.56.30 PM.png>)      | A valid trigger criteria means the triggered event satisfies all possible conditions and will start the workflow. A criteria is satisfied when all specified conditions are satisfied by logical means against the trigger context. All valid trigger events should have a corresponding workflow execution.                                              |
+| FILTERED - Yellow![](<../../../.gitbook/assets/Screenshot 2025-07-01 at 2.57.03 PM.png>) | A filtered trigger will not start the workflow, typically for one of the following reasons: a condition is logically unmet by design, a condition is malformed and unparseable, or the trigger request itself is malformed and rejected by the system. A filtered trigger event may show warnings if errors are found while processing the trigger event. |
 
 {% hint style="warning" %}
 If no criteria are set, anything will be considered a valid triggering event.
 {% endhint %}
 
-Alternatively, click **+ Add Criteria** to create a new set of fields for a new criteria.&#x20;
+Alternatively, click **+ Add Criteria** to create a new set of fields for a new criteria.
 
 {% hint style="success" %}
 You can’t set more than one condition on the same field. Rewst will adopt the first condition and destroy any future conditions without giving a warning message.
@@ -127,11 +127,11 @@ Jinja evaulations do not require a field accessor, and the entire trigger contex
 
 You'll need to save your updates for the trigger criteria to take effect. How you do this will depend on if you are adding criteria directly under the **Trigger Criteria** submenu or within the Trigger Criteria Test dialog.
 
-Click **Save Trigger** under the Trigger Criteria submenu to save your added or updated trigger criteria. <br>
+Click **Save Trigger** under the Trigger Criteria submenu to save your added or updated trigger criteria.<br>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-20 at 4.28.21 PM.png" alt=""><figcaption></figcaption></figure>
 
-Click **Save Trigger Criteria** in the Trigger Criteria Test dialog to save and close the dialog.&#x20;
+Click **Save Trigger Criteria** in the Trigger Criteria Test dialog to save and close the dialog.
 
 {% hint style="success" %}
 While the Trigger Criteria Test dialog is open, you can press the **`F8`** key to save the trigger.

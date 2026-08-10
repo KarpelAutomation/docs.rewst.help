@@ -12,7 +12,7 @@ Learn more about how to properly prompt RoboRewsty in our Cluck University cours
 
 RoboRewsty, our in-platform AI assistant, gives teams intelligent support across the entire automation build and management process. RoboRewsty understands your environment and supports you throughout the automation journey, from building and troubleshooting to managing and documenting workflows. It extends the value Rewst already provides to MSP teams by helping technicians upskill as they work, reducing manual effort, speeding up problem solving, and making it easier to scale automation with less overhead and greater impact. The introduction of AI in Rewst isn’t meant to replace builders or the need to learn the platform. Instead, it simply gives you more tools to work more efficiently.
 
-If you're a Rewst user who has loved working with our existing RoboRewsty documentation capabilities in-app, you can still use it to help [document your workflows](/broken/pages/R5d3HUpwFqVUcNhr0zUP).&#x20;
+If you're a Rewst user who has loved working with our existing RoboRewsty documentation capabilities in-app, you can still use it to help document your workflows.
 
 {% embed url="https://www.youtube.com/watch?v=usZFKk7pVs8" %}
 
@@ -110,7 +110,7 @@ If RoboRewsty lags in processing your request for more than 30 seconds, he might
 
 Once complete, RoboRewsty will assemble the workflow for you right on the Workflow Builder Canvas, with no dragging and dropping required on your part.
 
-Always test your workflow after it’s assembled. If the workflow fails, ask RoboRewsty to explain the failure for the most recent execution of the workflow. Then, have him update the workflow as needed to correct errors. When finished updating your workflow, remember to click **Publish** to save the workflow changes. RoboRewsty won't be able to do this final step for you.&#x20;
+Always test your workflow after it’s assembled. If the workflow fails, ask RoboRewsty to explain the failure for the most recent execution of the workflow. Then, have him update the workflow as needed to correct errors. When finished updating your workflow, remember to click **Publish** to save the workflow changes. RoboRewsty won't be able to do this final step for you.
 
 #### [Forms](automations/forms/)
 
@@ -345,6 +345,34 @@ RoboRewsty's setup structure will sometimes cause him to give you the answer of 
 * Confirming that your prompt doesn’t contain or request any personally identifiable information (PII)
 
 Be sure to let us know when you encounter this error by using RoboRewsty's feedback features, to help us improve his responses.
+
+### RoboRewsty conversation efficiency improvements
+
+{% hint style="info" %}
+These improvements will go into effect for all existing and newly created chats as of August 2026.
+{% endhint %}
+
+#### Conversation compaction
+
+When you chat with RoboRewsty, every message you’ve sent and every reply it’s given has to be re-read by the AI model each time it responds. The longer a conversation runs, the more there is to re-read at every single turn, and the less efficient the interaction becomes. _Compaction_ solves this by periodically condensing the older parts of a conversation into a short summary, while keeping the most recent messages exactly as they were. The conversation keeps its memory of context, but stops carrying the excess weight.
+
+A context dial appears to the left of your chat text box. This indicates how much of the current memory space for your chat is in use.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-29 at 5.14.21 PM.jpg" alt=""><figcaption><p>The context dial, and the text guidance that appears when you hover over it</p></figcaption></figure>
+
+The percentage and token count in the textbox that appears when you over over the context dial are a count of the current tokens that are being used as model context for your chat. RoboRewsty is allowed to store 350 000 tokens of context at once. When your chat goes past this allowance, you'll see the context dial max out, and will be forced to compact your chat.
+
+#### Conversation limits
+
+Once a conversation reaches a certain length, RoboRewsty will prompt you to start a new conversation to keep answer quality in check. Choosing to start fresh carries a summary of the prior conversation into the new one.
+
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
+#### Character limits
+
+RoboRewsty has a 60,000 character limit on how much can be pasted into a single message. Large pastes get re-processed on every subsequent turn of the conversation, diluting relevance and muddying your conversation. RoboRewsty will cap how much can be pasted at once and show a counter as your paste approaches the limit.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-29 at 5.10.38 PM.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Submit your feedback
 
