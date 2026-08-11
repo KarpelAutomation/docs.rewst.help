@@ -11,7 +11,7 @@ Our Huntress integration enables the automation of threat detection and response
 ## Set up the Huntress integration
 
 {% hint style="info" %}
-To enable the  REST API Within your Huntress Account you may need to contact Huntress support.. You can find more about this process [here](https://support.huntress.io/hc/en-us/articles/4780697192851-Huntress-REST-API).
+To enable the REST API Within your Huntress Account you may need to contact Huntress support.. You can find more about this process [here](https://support.huntress.io/hc/en-us/articles/4780697192851-Huntress-REST-API).
 {% endhint %}
 
 ### Set up steps in Huntress
@@ -81,7 +81,3 @@ For more on how actions work in Rewst, check out our [introductory actions docum
 | Delete a membership                        | DELETE | /v1/memberships/{id}                                                           |
 | Delete membership (reseller)               | DELETE | /v1/accounts/{account\_id}/memberships/{id}                                    |
 | Generic authenticated API request          | \*     | (any)                                                                          |
-
-<br>
-
-Reply…Also send to squad-ecosystem
