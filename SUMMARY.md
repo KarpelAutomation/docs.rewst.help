@@ -187,6 +187,7 @@
     * [App Builder Prebuilt Apps: Forms portal](documentation/app-builder/prebuilt-apps/forms-portal.md)
     * [App Builder Prebuilt Apps: End user portal](documentation/app-builder/prebuilt-apps/end-user-portal.md)
     * [App Builder Prebuilt Apps: Operational analytics reporting portal](documentation/app-builder/prebuilt-apps/msp-reporting-portal.md)
+  * [App Builder: App examples and prompts](documentation/app-builder/app-builder-app-examples-and-prompts.md)
 * [Crates](prebuilt-automations/crates/README.md)
   * [Stewart's 30 favorite Crates](prebuilt-automations/crates/stewarts-30-favorite-crates.md)
   * [Production Crate list](documentation/crates/production-crate-list.md)
@@ -476,7 +477,7 @@
   * [Deploy Agent Smith with ImmyBot](documentation/agent-smith/deploying-agent-smith-with-immybot.md)
   * [Deploy Agent Smith with Microsoft Intune](documentation/agent-smith/deploy-agent-smith-with-microsoft-intune.md)
   * [Bulk onboarding with Agent Smith](documentation/agent-smith/bulk-onboarding-with-agent-smith.md)
-* [Rewst workflow Engine Next upgrade:  Beta guide](documentation/rewst-workflow-engine-next-upgrade-beta-guide.md)
+* [Rewst workflow Engine Next upgrade: Beta guide](documentation/rewst-workflow-engine-next-upgrade-beta-guide.md)
 
 ## Security
 
