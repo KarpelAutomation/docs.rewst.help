@@ -1,7 +1,7 @@
 # Twilio integration
 
 {% hint style="info" %}
-&#x20;If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ## What does the Twilio integration do?
@@ -15,16 +15,14 @@ When you first sign up with Twilio, you have one main account. However, you can 
 ### Set up steps in Twilio
 
 1. Log in to your [Twilio Console](https://console.twilio.com/).
-2.  Navigate to **Admin > Account management > Keys & Credentials > API keys & tokens**.\
-    <br>
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-13 at 4.06.55 PM.png" alt=""><figcaption></figcaption></figure>
+2. Navigate to **Admin > Account management > Keys & Credentials > API keys & auth tokens**.
 3. Click **Create API Key**.
 4. Name your credential Rewst API key.
 5. Click **Create**.
-6. Copy the SID and key that are displayed. Note that once you navigate away from the page, you won't be able to see this information again. Store it somewhere secure. You'll need it for further steps in Rewst.\
+6. Navigate to the **Auth Tokens** tab.
+7. Copy the account SID and primary auth token that are displayed. Note that once you navigate away from the page, you won't be able to see this information again. Store it somewhere secure. You'll need it for further steps in Rewst.\
    \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-13 at 4.08.31 PM.png>)
+   ![](<../../../.gitbook/assets/image (94) (1).png>)
 
 ### Set up steps in Rewst
 
@@ -70,7 +68,7 @@ The Twilio integration does not require you to complete the organization mapping
 
 1. Click <img src="../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
 2. Select the following for your organization variable drop-down options:
-   * **Name**: `messaging_service_sid`&#x20;
+   * **Name**: `messaging_service_sid`
    * **Value**: Your Messaging Service SID
    * **Category**: general
    * **Organization**: Select your organization
@@ -80,7 +78,7 @@ The Twilio integration does not require you to complete the organization mapping
 
 1. Click <img src="../../../.gitbook/assets/Screenshot 2025-05-13 at 4.00.11 PM.png" alt="" data-size="line">.
 2. Select the following for your organization variable drop-down options:
-   1. **Name**: `send_sms_to_user`&#x20;
+   1. **Name**: `send_sms_to_user`
    2. **Value**: `1`
    3. **Category**: general
    4. **Organization**: Select your organization
@@ -95,7 +93,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category                  | Action                                                | Description                                                                                                                                                         |
