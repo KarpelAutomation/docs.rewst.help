@@ -12,6 +12,74 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-08-14" %}
+## 💻 August 14, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **RoboRewsty**
+  * RoboRewsty per-conversation usage limits
+  * Clarified when RoboRewsty carried conversation context forward so users could confidently continue where they left off.
+  * Added structured in-chat questions so RoboRewsty could gather required details and continue with user responses.
+  * Improved RoboRewsty naming so created tasks, triggers, and transitions used clear, descriptive labels instead of placeholders.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **Integrations**
+  * Prevented long Custom Integration action descriptions from causing workflow save failures.
+  * Restored Acronis Fetch Archives action by correcting token scoping.
+  * Enabled Custom Integrations to connect reliably to APIs hosted on non-standard ports.
+* **RoboRewsty**
+  * Preserved existing data aliases when RoboRewsty updated individual aliases on workflow transitions.
+  * Ensured RoboRewsty workflow edits continued applying correctly after starting a new chat or draft reset.
+  * Corrected RoboRewsty’s synced-workflow messaging to accurately reflect that unsyncing can be reversed.
+* **Workflows**
+  * Protected synced workflow clone settings in the new builder from edits that would be overwritten during synchronization.
+  * Restored automatic canvas centering on actions when deep-linking into the new Workflow Builder.
+  * Improved webhook trigger testing to identify invalid HTTP methods instead of incorrectly reporting them as valid.
+  * Fixed sub-workflow usage navigation so the workflow list table updates correctly when switching between workflows.
+  * Fixed Input Configuration checkbox changes so Required and Multiline settings persist correctly.
+* **Crates**
+  * Add Rewst Form Link to New User Request Tickets
+    * Removed deprecated crates from the crate marketplace&#x20;
+  * Microsoft: User Onboarding
+    * Added time-of-day selection and UTC computation for Account Creation Date; backward compatible&#x20;
+    * Prevent false-positive 2000 rollups: adjusted logging for Ingram license purchase and "already in group" cases&#x20;
+    * Fixed On-Prem with Sync to find Entra ID users when SAM and UPN differ&#x20;
+    * Fixed "with items" variable causing license-group purchases to fail&#x20;
+  * Microsoft: User Offboarding
+    * Split date/time into date + preset time + timezone; compute correct UTC instant and preserve legacy var&#x20;
+  * Export PSA Ticket Overview to CSV
+    * Limited trigger to parent organization only&#x20;
+  * Just-In-Time Admin Access
+    * Added retry loop for M365 user creation after immediate delete/recreate&#x20;
+  * PSA: Update Ticket with New User Onboard Form Links
+    * Don't post form links for unselected orgs; renamed crates to include "Form Links"&#x20;
+  * Agent Smith: Device Provisioning \[Install First]
+    * Updated ConnectWise Asio actions to use renamed "companies" resource type
+  * CIPP: Alert Triage
+    * Added normalization for payload\[] shape and updated gate check to avoid premature filtering&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Early Access](https://rewst.io/earlyaccess)
+* [Engine Improvements Beta](https://rewst.io/go/engine-next-beta-signup)
+
+</details>
+
+
+{% endupdate %}
+
 {% update date="2026-08-07" %}
 ## 💻 August 7, 2026 - Dev update
 
