@@ -10,29 +10,6 @@ Our Asana integration connects Rewst’s automation capabilities with Asana’s 
 
 ## Set up the Asana integration
 
-### Set up steps in Asana
-
-1. Log in to Asana.
-2. Navigate to **Account > Settings**.\
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2025-04-07 at 4.01.12 PM (2).png>)<br>
-3.  Click the **Apps** tab in the dialog that appears.\
-    <br>
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-07 at 4.11.04 PM.png" alt=""><figcaption></figcaption></figure>
-4. Click **Create New Token**.&#x20;
-5. Enter `Rewst` in the **Token Name** field.
-6. Check off the **I agree to the Asana API Terms box**.
-7. Click **Create Token**.
-8. Copy the access token value. Note that once you click out of the display dialog, you won't be able to come back and view this token again. Click **Done** once copied.\
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2025-04-07 at 4.14.00 PM.png>)
-9. Paste the following URL into your browser's address bar, while still logged in to Asana: [https://app.asana.com/api/1.0/users/me](https://app.asana.com/api/1.0/users/me) .
-10. Find the GID in the code that appears. Copy the GID. You'll need this to continue setup in Rewst.\
-    ![](<../../../.gitbook/assets/Screenshot 2025-04-07 at 4.18.10 PM.png>)
-
-
-
 ### Set up steps in Rewst
 
 1. Navigate to **Marketplace > Integrations** in the left side menu of your Rewst platform.
@@ -42,7 +19,7 @@ Our Asana integration connects Rewst’s automation capabilities with Asana’s 
 3. Click on the integration tile to launch the configuration setup page.
 4. Click **Authorize** under the **Parameters** submenu. If authorization is successful, you'll see a green confirmation message. The **Authorize** button will change to now say **Re-Authorize**.
 5. Click **Save Configuration**.
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired. <br>
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 ## Test the Integration
 
