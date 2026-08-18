@@ -36,10 +36,6 @@ Queries submitted via Email or the Self-Service Portal will always follow the pr
 
 **Response Objective:** We aim to perform an initial response to Low-priority issues within 8 working hours.
 
-### Need escalation?
-
-If you believe your support query requires some level of escalation, we understand. Flexibility is important to us, and we're here to accommodate your needs. Please contact support leadership or your Customer Success Advisor (CSA) via the [Contact page](../../contact-resources.md). You can also ping us in Discord.
-
 ## Operating hours and holiday availability
 
 At Rewst, we are committed to providing exceptional support while also respecting the work-life balance of our international team. Here’s what you can expect in terms of our operating hours and availability during holidays.

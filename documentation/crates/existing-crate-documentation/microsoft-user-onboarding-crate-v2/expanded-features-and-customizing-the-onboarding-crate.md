@@ -57,9 +57,14 @@ The onboarding process can be scheduled for a future date instead of immediate p
 
 ### **How it works**
 
-1. The **Start Date** field is set in the onboarding form.
-2. The workflow pauses execution until the specified date.
-3. On the activation date, the workflow automatically resumes and creates the user.
+1. Ensure that the organizational variable `user_start_date_action` is set to `pause_workflow` . This is required for the delay to actually be actioned.
+2. Under Customize Advanced Options > Advanced - Delayed Creation, check **Enable Delay User Creation**.
+3. Set the **Account Creation Date**, **Account Creation Time**, and **Timezone**.
+4. On submission, the workflow computes the correct UTC instant from those three fields and pauses until that time, then resumes and creates the user. If no timezone is selected, UTC is assumed.
+
+{% hint style="success" %}
+Remove the `allow_scheduled_user_creation` row unless confirmed as a real, currently-used variable.
+{% endhint %}
 
 ### **Enable delayed user creation**
 
@@ -89,8 +94,6 @@ The Crate includes flexible password handling options based on security policies
 <details>
 
 <summary>Password handling options</summary>
-
-
 
 | **Setting**                                | **Description**                                                  | **Default value** |
 | ------------------------------------------ | ---------------------------------------------------------------- | ----------------- |

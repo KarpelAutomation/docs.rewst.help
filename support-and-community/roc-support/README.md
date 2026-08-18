@@ -7,11 +7,11 @@ icon: message-question
 Our support team, also known as the ROC, is here to assist with all platform-related questions and technical guidance. They're not a fit to talk about account issues or commercial needs such as contract, billing, or general relationship questions. For those, please contact your Customer Success Advisor (CSA).
 
 {% hint style="info" %}
-**Other Rewst employees who help**
+**Other resources who help**
 
-During your onboarding process, you'll be assigned an &#x61;_&#x75;tomation strategist_, or _AS_, to help you get set up. If you're experiencing issues during your onboarding process, reach out to your automation specialist as your first step.
+During your onboarding process, you'll be working with one of our onboarding partners to help you get set up. If you're experiencing issues during your onboarding process, reach out to the onboarding partner as your first step.
 
-Once you're through Rewst onboarding, you'll be assigned a _customer success advisor_, or _CSA,_ for all your account needs. Reach out to your CSA for all your strategic, but not necessarily technical, questions and concerns.
+Once you're through onboarding, you'll be assigned a _customer success advisor_, or _CSA,_ for all your account needs. Reach out to your CSA for all your strategic, but not necessarily technical, questions and concerns.
 {% endhint %}
 
 ## Rewst support operating hours

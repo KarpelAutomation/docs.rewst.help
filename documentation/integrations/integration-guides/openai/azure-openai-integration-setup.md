@@ -52,13 +52,18 @@ Note that activation of the service can take up to 48 hours, based on Microsoft'
 13. You can now deploy a desired OpenAI model. The below example deploys a `gpt-5-mini` model. Click **Deploy Model** **>** **Deploy base model**.<br>
 
     <figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
-14. Search for `gpt-5-mini` and select `gpt-5-mini`. Click **Confirm**.<br>
+14. Search for `gpt-5-mini` and select `gpt-5-mini`. Click **Confirm**.&#x20;
+
+
+
+
 
     <figure><img src="../../../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
-15. Click **Deploy**.<br>
+15. Important: When creating an Azure OpenAI deployment, ensure the deployment name does not contain periods. If the model name includes periods, for example gpt-5.4, use a deployment name with hyphens instead. For example, gpt-5-4. Rewst uses the deployment name when constructing Azure OpenAI deployment URLs. Click **Deploy** once you check your deployment name format.<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
-16. You'll be redirected to the deployed model page that contains the **Key** and the **Target URI**. Copy both values and store them somewhere secure. These will be needed for further setup steps in Rewst.
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
+
+9. You'll be redirected to the deployed model page that contains the **Key** and the **Target URI**. Copy both values and store them somewhere secure. These will be needed for further setup steps in Rewst.
 
 <figure><img src="../../../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -111,3 +116,6 @@ If this is your second instance of OpenAI, meaning you configured the direct Ope
 5. Choose which of your your OpenAI integration instances to use in the **Integration Configuration** drop-down selector.
 
 <figure><img src="../../../../.gitbook/assets/azure-ai-12.png" alt=""><figcaption></figcaption></figure>
+
+### Use Azure OpenAI actions in Rewst
+

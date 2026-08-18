@@ -1,6 +1,6 @@
 # Create a ticket via Discord
 
-### Create a ticket&#x20;
+### Create a ticket
 
 When you encounter an issue that needs our attention, creating a ticket is a straightforward process. Here's how you can do it:
 
@@ -17,4 +17,4 @@ Our support team will then review the ticket and get back to you based on the [p
 
 If you're unsure whether your issue warrants creating a ticket or not, we've got you covered. Please refer to our [Support Priorities page](./) for guidance on when to log a ticket versus having a discussion in your channel.
 
-Remember, if you have any questions or need assistance, don't hesitate to reach out to a member of the support team. [We're here to help!](../../contact-resources.md)
+Remember, if you have any questions or need assistance, don't hesitate to reach out to a member of the support team. [We're here to help!](./)
