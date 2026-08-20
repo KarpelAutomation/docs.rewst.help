@@ -257,8 +257,6 @@ To execute workflows at the MSP level across client accounts, you must configure
 For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
-Halo's own API documentation can be found [here](https://app.gitbook.com/s/AQQ1EHVcEsGKBPVHmiav/documentation).
-
 | Action Name                           | Description                                                                                                                                                  | Endpoint Related to Action     |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
 | Add or Update Actions                 | Adds or updates one or more action(s). If id is included then updates, if not included then creates new. Ticket ID is mandatory                              | /Actions                       |
