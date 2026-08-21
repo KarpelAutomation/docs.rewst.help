@@ -12,6 +12,65 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-08-21" %}
+## 💻 August 21, 2026 - Dev update
+
+
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Integrations**
+  * Simplified Custom Integration setup by making custom icons optional and automatically applying a default icon when one isn’t provided.
+  * Updated Azure OpenAI setup instructions to warn that deployment names cannot contain periods and should use hyphens instead.
+* **Roborewsty**
+  * Improved RoboRewsty usage limits by including sub-agent token usage in conversation spend and cost calculations.
+  * Improved RoboRewsty reliability by preventing oversized tool results from exceeding context limits and guiding agents to use filtering, pagination, or narrower requests instead.
+  * Improved RoboRewsty efficiency by improving prompt caching so large tool results aren’t repeatedly reprocessed during the same turn.
+* **Workflows**
+  * Improved how existing workflows open in the new builder by preserving their original node positioning instead of automatically rearranging the canvas.
+  * Simplified adding trigger integration overrides by keeping users on the override list instead of automatically opening the configuration screen.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **Integrations**
+  * Updated the SonicWall NSM “Get License for Device” action to use the new supported device license API endpoint, restoring successful license lookups.
+  * Fixed a Custom Integrations issue that could crash the workflow builder after an action’s path parameter was changed or removed.
+* **Permissions**
+  * Fixed a permissions issue that allowed users with view-only custom roles to execute workflows from the Workflow Builder.
+* **Workflows**
+  * Fixed an issue in the new canvas where removing an entry from a multi-entry field could silently clear the values of entries below it.
+* **Crates**
+  * [Microsoft: User Onboarding](../../documentation/automations/kits/microsoft-onboarding-solution-kit.md)
+    * Replaced `ad-hoc start_date` with `account_creation_date` + preset `account_creation_time` + `creation_date_timezone`; fixed browser-locale bug and UndefinedError; safe fallback to "now".&#x20;
+    * Added defaults for `account_creation_date` and `account_creation_time` to prevent failures on empty input.&#x20;
+    * Added support for generating a friendly password with complexity. To enable this, both `ORG.VARIABLES.friendly_password` and `ORG.VARIABLES.use_friendly_password_with_complexity` must be set to `true`. If only `ORG.VARIABLES.friendly_password` is true, the standard non-complex friendly password will be used.
+    * \[REWST - TASK] M365: Purchase Licenses subworkflow
+      * Added Synnex AU support — new list\_subs task and distributor transition—  and corrected TD Synnex StreamOne Ion purchase path; adjusted transition order in `choose_disti`.
+  * [Document BitLocker Information](../../documentation/crates/existing-crate-documentation/document-bitlocker-information-crate.md)
+    * Hardened trigger variable by using `ORG.VARIABLES.documentation_platform|d` to avoid pre-start failures when org var is missing.&#x20;
+  * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
+    * Replaced the remove\_licenses task with a new Remove Licenses subworkflow to correctly handle users with both group-based and directly assigned licenses.
+
+
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Early Access](https://rewst.io/earlyaccess)
+* [Engine Improvements Beta](https://rewst.io/go/engine-next-beta-signup)
+
+</details>
+{% endupdate %}
+
 {% update date="2026-08-14" %}
 ## 💻 August 14, 2026 - Dev update
 

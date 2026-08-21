@@ -11,6 +11,13 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-08-21" %}
+## August 21, 2026 - Training update
+
+* **Course updated:** [Get started with RoboRewsty](https://learn.rewst.io/get-started-with-roborewsty) — now includes guidance on when to start a new chat, two new optional AI guidance videos, and a new RoboRewsty Prompt Guide download.
+* We have a new demo video for the [_New User Onboarding Crate_](https://learn.rewst.io/path/onboarding-learning-path/introduction-to-crates/313207).
+{% endupdate %}
+
 {% update date="2026-08-04" %}
 ## August 4, 2026 - Training update
 

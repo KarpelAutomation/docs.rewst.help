@@ -12,6 +12,20 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-08-21" %}
+## ✍️ August 21, 2026 - Recently updated documentation
+
+* [Guidance on our new compaction feature for RoboRewsty](https://docs.rewst.help/documentation/roborewsty)
+* [A list of prompts for using Rewst's App Builder with RoboRewsty](https://docs.rewst.help/documentation/app-builder/app-builder-app-examples-and-prompts)
+* [Updated installation instructions for our Twilio integration](https://docs.rewst.help/documentation/integrations/integration-guides/twilio-integration-setup)
+* [Updated instructions for our Azure OpenAI integration setup](https://docs.rewst.help/documentation/integrations/integration-guides/openai/azure-openai-integration-setup)
+* [Updated guidance for customizing the Microsoft User Onboarding Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/expanded-features-and-customizing-the-onboarding-crate)
+* [Updated and corrected guidance on Jinja filters in Rewst](https://docs.rewst.help/documentation/jinja/list-of-jinja-filters)
+* [Updated instructions for our Asana integration setup](https://docs.rewst.help/documentation/integrations/integration-guides/asana-integration)
+* [Updated guidance for our Halo PSA integration setup](https://docs.rewst.help/documentation/integrations/integration-guides/halo-integration-setup)
+* [New org variable guidance for the Microsoft User Onboarding Crate](https://docs.rewst.help/documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2)
+{% endupdate %}
+
 {% update date="2026-08-07" %}
 ## ✍️ August 7, 2026 - Recently updated documentation
 
