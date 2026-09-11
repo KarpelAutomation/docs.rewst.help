@@ -12,6 +12,12 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-09-11" %}
+## ✍️ September 11, 2026 - Recently updated documentation
+
+* [Updated guidance on org variables for our Microsoft User Onboarding Crate](../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+{% endupdate %}
+
 {% update date="2026-08-28" %}
 ## ✍️ August 28, 2026 - Recently updated documentation
 

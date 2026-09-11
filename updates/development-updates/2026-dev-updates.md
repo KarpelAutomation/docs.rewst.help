@@ -12,6 +12,54 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-09-11" %}
+## 💻 September 11, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Permissions**
+  * [Granular permissions beta](https://rewst.io/go/granular-permissions-beta-signup)
+* **Workflows**
+  * Added warnings when saving workflows with duplicate action names to help prevent broken task references and loops.
+  * Improved workflow version history so reverting reliably restores deleted tasks and handles historical references to deleted tasks.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **Integrations**
+  * Fixed the NinjaRMM Generate Installer action to correctly send `MAC_PKG` when generating macOS package installers.
+  * Fixed custom integration OAuth authorization windows from closing before users could grant access.
+  * Fixed the ConnectWise PSA Update Contact action to correctly update communication item extensions within the supported character limit.
+  * Fixed Addigy integration actions to return the expected API response data instead of empty results.
+  * Fixed the ConnectWise PSA Update Service Ticket action to correctly update a ticket’s SLA using the selected SLA ID.
+* **RoboRewsty**
+  * Fixed RoboRewsty to continue respecting custom instructions after switching templates or scripts mid-conversation.
+  * Fixed RoboRewsty workflow diagnosis agents to consistently use the latest system instructions across multiple turns.
+* **Crates**
+  * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
+    * Added missing "\[]" to the success transition of remove\_licenses path
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Added condition to hide delayed-creation fields unless org var user\_start\_date\_action == pause\_workflow; consolidated conditions; updated descriptions
+    * Added TD Synnex StreamOne Ion to ms\_licensing\_distributor options in Get and Set ORG Variables workflow
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Granular permissions beta](https://rewst.io/go/granular-permissions-beta-signup)
+
+</details>
+
+
+{% endupdate %}
+
 {% update date="2026-09-04" %}
 ## 💻 September 4, 2026 - Dev update
 
