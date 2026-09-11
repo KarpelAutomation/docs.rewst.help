@@ -55,23 +55,27 @@ Ensure that PSA permissions allow Rewst to create and modify tickets.
 
 The onboarding process can be scheduled for a future date instead of immediate provisioning.
 
-### **How it works**
-
-1. Ensure that the organizational variable `user_start_date_action` is set to `pause_workflow` . This is required for the delay to actually be actioned.
-2. Under Customize Advanced Options > Advanced - Delayed Creation, check **Enable Delay User Creation**.
-3. Set the **Account Creation Date**, **Account Creation Time**, and **Timezone**.
-4. On submission, the workflow computes the correct UTC instant from those three fields and pauses until that time, then resumes and creates the user. If no timezone is selected, UTC is assumed.
-
-{% hint style="success" %}
-Remove the `allow_scheduled_user_creation` row unless confirmed as a real, currently-used variable.
+{% hint style="info" %}
+Limit: The account creation date cannot be more than 30 days in the future. A request scheduled beyond that limit will fail, and a note explaining the failure is added to the PSA ticket.
 {% endhint %}
 
-### **Enable delayed user creation**
+### **How it works**
 
-This setting is useful when onboarding users before their official start date.
+1. Set `user_start_date_action` to `pause_workflow` in Configuration > Organizational Variables.
+2. On the onboarding form, under Customize Advanced Options > Advanced - Delayed Creation, check **Enable Delay User Creation**.
+3. Set the **Account Creation Date**, **Account Creation Time**, and **Timezone**.
+4. On submission the workflow computes the correct UTC instant from those three fields, pauses until that time, then resumes and creates the user. If no timezone is selected, UTC is assumed.
 
-| `allow_scheduled_user_creation` | Enables scheduled user activation. | `0` (Disabled) |
-| ------------------------------- | ---------------------------------- | -------------- |
+### **Enabling the feature**
+
+Delayed creation is controlled by the organizational variable `user_start_date_action`:
+
+| Value                      | Behavior                                                        |
+| -------------------------- | --------------------------------------------------------------- |
+| `document_only` - deefault | The start date is recorded on the ticket only. No delay occurs. |
+| `pause_workflow`           | The workflow pauses and creates the user at the scheduled time. |
+
+Because the default is `document_only`, delayed creation is off until an administrator sets this variable. The delayed-creation options do not appear on the onboarding form unless `user_start_date_action` is set to `pause_workflow`.
 
 ## **Multi-Factor Authentication enrollment**
 
