@@ -10,14 +10,16 @@ The ArrowSphere integration enables the automation of ArrowSphere, which is a di
 
 ## Set up the **ArrowSphere integration**
 
-### Set up steps in **Arrow**
+### Set up steps in **ArrowSphere**
 
-1. To get started, you'll need to have an Arrowsphere account.
-2. Navigate to the [API keys page](https://identity.arrowsphere.com/enduser/credentials).
-3. Click **Create a new API token**, and then copy the key value to be used in Rewst.
-4.  Save the configuration.
+To get started, you'll need to have an Arrowsphere account.
 
-    A test action will be run to ensure everything is working as expected.
+1. Navigate to **API > API Keys** in ArrowSphere
+2. Click **Generate a new key.**
+3. Enter Rewst into the **API Key Name** field.&#x20;
+4. Set the expiration for the token to 1 year.
+5. Click **Create**.
+6. Copy the key value to be used in Rewst. Store it somewhere secure. The token won't be viewable again after you close the dialog.
 
 ### Set up steps in Rewst
 
@@ -37,7 +39,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category            | Action                                                    | Description                                                                                                                   |

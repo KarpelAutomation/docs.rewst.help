@@ -1,7 +1,7 @@
 # Auvik integration
 
 {% hint style="info" %}
-&#x20;If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
+If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ## What does the Auvik integration do?
@@ -53,25 +53,23 @@ Our Auvik integration enables the automation of network management and monitorin
 
 ### Set up steps in Auvik
 
-Auvik's own instructions for how to invite and manage a new user invitation can be seen [here](https://support.auvik.com/hc/en-us/articles/204696564-How-do-I-manage-invitations-for-new-users).&#x20;
+Auvik's own instructions for how to invite and manage a new user invitation can be seen [here](https://support.auvik.com/hc/en-us/articles/204696564-How-do-I-manage-invitations-for-new-users).
 
-1. Navigate to **ADMIN > Manage Users** in the side navigation bar.\
-   \
-   ![](<../../../.gitbook/assets/Screenshot 2025-05-06 at 11.09.34 AM.png>)
-2. Click **Invite Users.**&#x20;
+1. Navigate to **ADMIN > Manage Users** in the side navigation bar.
+2. Click **Invite Users.**
 3. Enter the email address you would like to use for the user.
 4. Check the **All** box under **User Roles on Site**.
 5. Click **Send**.
 6. Log into that email in a separate tab and accept the email invite sent from Auvik.
 
-<figure><img src="../../../.gitbook/assets/2023-09-13_15-17-10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-09-15 at 3.56.26 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 5. Locate this new user in the **Users** table. Check the checkbox to its left.
 6. Click **Authorize**.
-7. Click to expand the the **Roles** drop-down selector.
+7. Click to expand the **Roles** drop-down selector in the dialog that appears.
 8. Select the role **API Access Only**.
 
-<figure><img src="../../../.gitbook/assets/2023-09-13_15-19-10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-09-15 at 3.58.53 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 10. Click **Save**.
 11. Examine the URL of your browser while in Auvik. Note the region, designated by the country code and number directly after the first period in the URL. Save this for later use in Rewst.
@@ -85,15 +83,9 @@ You can find the the Auvik documentation instructions [here](https://support.auv
 
 1. Sign in as your new user.
 2. Click the profile button at the very bottom of the left sidebar.
-
-<figure><img src="../../../.gitbook/assets/2023-09-13_15-20-58.png" alt=""><figcaption></figcaption></figure>
-
 3. Find the API Key submenu in the bottom right.
 4. Copy the domain prefix. Store this information somewhere secure. You'll need it for further steps in Rewst.
 5. Click **Generate** and copy the generated key. Store this information somewhere secure. You'll need it for further steps in Rewst.
-
-<figure><img src="../../../.gitbook/assets/2023-09-13_15-21-34.png" alt=""><figcaption></figcaption></figure>
-
 6. Click **Save**.
 
 ### Set up steps in Rewst
@@ -109,7 +101,7 @@ You can find the the Auvik documentation instructions [here](https://support.auv
    3. **Default Tenant Prefix**
    4. **Region**
 5. Click **Save Configuration.**
-6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
+6. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
@@ -122,7 +114,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category                | Action                                     | Description                                                                                                                           |
