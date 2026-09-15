@@ -11,6 +11,12 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="full" %}
+{% update date="2026-09-15" %}
+## September 15, 2026 - Training update
+
+* Testing the new Rewst? If you've thought "I wish there was a course for this" or want to test-drive draft courses, tell us in #cluck-u on Discord or at [CluckU@rewst.io](mailto:CluckU@rewst.io).
+{% endupdate %}
+
 {% update date="2026-08-21" %}
 ## September 4, 2026 - Training update
 
