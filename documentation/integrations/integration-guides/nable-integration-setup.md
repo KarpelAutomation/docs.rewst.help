@@ -8,10 +8,6 @@ The new REST API endpoints are only available on N-central with a version of 202
 If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
-{% hint style="info" %}
-If you’re new to integrations in Rewst, read through our introductory integration documentation [here](https://docs.rewst.help/documentation/integrations).
-{% endhint %}
-
 ## What does the N-able N-central integration do?
 
 Our N-able N-central integration allows MSPs to seamlessly interact with N-central's powerful RMM capabilities through Rewst, facilitating device management, task automation, and efficient operational workflows.
@@ -160,10 +156,6 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 * **API authentication errors**: Verify JSON Web Token permissions and validity.
 * **PowerShell script execution issues**: Check script API access permissions in N-able.
-
-{% hint style="info" %}
-Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
-{% endhint %}
 
 ## Current limitations
 

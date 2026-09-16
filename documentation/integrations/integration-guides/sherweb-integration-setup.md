@@ -51,13 +51,10 @@ Our Sherweb integration enables seamless management of customer information, pro
 5. Under **Configuration**:
    1. Optionally provide a short description of the intended use of the configuration.
    2. Check **Is Default** on.
-6.  Under **Parameters**:
-
-    1. Paste the client ID copied from Sherweb into the **Client ID** field of the configuration form.
-    2. Paste your client secret copied from Sherweb into the **Client Secret** field.
-    3. Paste your subdomain copied from Sherweb into the **Subdomain** field.
-
-    <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-04 at 9.32.45 AM.png" alt=""><figcaption></figcaption></figure>
+6. Under **Parameters**:
+   1. Paste the client ID copied from Sherweb into the **Client ID** field of the configuration form.
+   2. Paste your client secret copied from Sherweb into the **Client Secret** field.
+   3. Paste your subscription key copied from Sherweb into the **Subscription Key** field.
 7. Click **Save Configuration.**
 8. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
