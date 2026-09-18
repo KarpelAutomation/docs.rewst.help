@@ -66,14 +66,14 @@ Limit: The account creation date cannot be more than 30 days in the future. A re
 3. Set the **Account Creation Date**, **Account Creation Time**, and **Timezone**.
 4. On submission the workflow computes the correct UTC instant from those three fields, pauses until that time, then resumes and creates the user. If no timezone is selected, UTC is assumed.
 
-### **Enabling the feature**
+### **Enable the feature**
 
 Delayed creation is controlled by the organizational variable `user_start_date_action`:
 
-| Value                      | Behavior                                                        |
-| -------------------------- | --------------------------------------------------------------- |
-| `document_only` - deefault | The start date is recorded on the ticket only. No delay occurs. |
-| `pause_workflow`           | The workflow pauses and creates the user at the scheduled time. |
+| Value                     | Behavior                                                        |
+| ------------------------- | --------------------------------------------------------------- |
+| `document_only` - default | The start date is recorded on the ticket only. No delay occurs. |
+| `pause_workflow`          | The workflow pauses and creates the user at the scheduled time. |
 
 Because the default is `document_only`, delayed creation is off until an administrator sets this variable. The delayed-creation options do not appear on the onboarding form unless `user_start_date_action` is set to `pause_workflow`.
 
@@ -232,12 +232,13 @@ The technician has two options:
 
 ## **Organizational variables affecting this workflow**
 
-| `ms_licensing_distributor`                | Defines the distributor for license purchases (if auto-purchasing is enabled). |
-| ----------------------------------------- | ------------------------------------------------------------------------------ |
-| `auto_purchase_license_if_none_available` | Enables auto-purchase of licenses when none are available.                     |
-| `default_psa`                             | Defines which PSA system to log ticket updates in.                             |
-| `default_ticket_status`                   | Defines the PSA ticket status when waiting for technician input.               |
-| `ticket_status_waiting_input`             | The status set in PSA when awaiting technician action.                         |
+| `ms_licensing_distributor`                | Defines the distributor for license purchases (if auto-purchasing is enabled).                                         |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `auto_purchase_license_if_none_available` | Enables auto-purchase of licenses when none are available.                                                             |
+| `default_psa`                             | Defines which PSA system to log ticket updates in.                                                                     |
+| `default_ticket_status`                   | Defines the PSA ticket status when waiting for technician input.                                                       |
+| `ticket_status_waiting_input`             | The status set in PSA when awaiting technician action.                                                                 |
+| `default_ad_list_users`                   | Controls filtering of disabled users; defaults to true with safe boolean conversion, with false reverting to all users |
 
 ## **Final notes**
 

@@ -12,6 +12,60 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-09-18" %}
+## 💻 September 18, 2026 - Dev update
+
+
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **App Builder**
+  * Restricted App Builder workflow execution so components can only run workflows explicitly wired to the page.
+* **Integrations**
+  * Added expiration time support to the Duo Send Activation Email action.
+* **Workflows**
+  * Removed Jinja editor toggles from Advanced workflow fields that do not support templating, while preserving them on fields that do.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **Forms**
+  * Fixed duplicated form fields so they can be moved and renamed independently without affecting other fields or blocking form publishing.
+* **Integrations**
+  * Added support for passing additional OAuth body parameters, including `audience`, when configuring custom integrations.
+  * Fixed Xero OAuth re-authentication failures caused by missing authorization codes in the callback.
+  * Fixed custom integration fields imported from OpenAPI specs so values save correctly and invalid field names are handled more safely.
+  * Fixed the ConnectWise Manage Create Contact action to correctly format selected contact types and type IDs for the API.
+  * Fixed the Microsoft Graph Generic API Request action so disabling Require Success Status allows non-success HTTP responses without failing the workflow.
+  * Fixed the ConnectWise Create Ticket action to fail when the API returns invalid or unexpected output.
+* **Workflows**
+  * Fixed dropdown sizing so long option labels display fully without unnecessary scrolling.
+* **Crates**
+  * [Microsoft: User Onboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/)
+    * Replaced date fields with workflow-generated date dropdown and added server-computed "Onboarding at" UTC validator to prevent browser-locale shifts
+    * Added `ORG.VARIABLES.default_ad_list_users` toggle to control filtering of disabled users; defaults to true with safe boolean conversion
+    * Fixed TD Synnex StreamOne Ion license purchase by sourcing IDs from existing subscription, incrementing seats, and adding detailed logging
+  * [Microsoft: User Offboarding](../../documentation/crates/existing-crate-documentation/microsoft-user-offboarding-crate.md)
+    * Replaced date fields with dropdown and added server-computed "Offboarding at" UTC validator; prevents browser-locale shifts
+  * [Update User Attributes (On-Prem/Azure) v2](../../documentation/crates/existing-crate-documentation/update-user-attributes-on-prem-azure-v2-crate.md)
+    * Added Microsoft Azure, SuperOps, and ConnectWise Platform to the trigger overrides&#x20;
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Granular permissions beta](https://rewst.io/go/granular-permissions-beta-signup)
+
+</details>
+{% endupdate %}
+
 {% update date="2026-09-11" %}
 ## 💻 September 11, 2026 - Dev update
 

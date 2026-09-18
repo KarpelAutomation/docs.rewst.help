@@ -12,6 +12,17 @@ To subscribe to this feed, click **RSS feed** in the top right corner of the pag
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-09-18" %}
+## ✍️ September 18, 2026 - Recently updated documentation
+
+* [Updated setup guidance for our Sherweb integration](https://docs.rewst.help/documentation/integrations/integration-guides/sherweb-integration-setup)
+* [Updated setup guidance for our N-able N-central integration](https://docs.rewst.help/documentation/integrations/integration-guides/nable-integration-setup)
+* [Updated setup guidance for our ArrowSphere integration](https://docs.rewst.help/documentation/integrations/integration-guides/arrowsphere-integration)
+* [Updated setup guidance for our Auvik integration](https://docs.rewst.help/documentation/integrations/integration-guides/auvik-integration-setup)
+* [Updated setup and user guidance for our ImmyBot integration](../documentation/integrations/integration-guides/immybot-integration-setup.md)
+* [Updated documentation for a new organization variable for our Microsoft: User Onboarding Crate](../documentation/crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/expanded-features-and-customizing-the-onboarding-crate.md)
+{% endupdate %}
+
 {% update date="2026-09-11" %}
 ## ✍️ September 11, 2026 - Recently updated documentation
 

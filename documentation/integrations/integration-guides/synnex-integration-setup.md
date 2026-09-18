@@ -12,10 +12,10 @@ Our TD Synnex Stellr integration enables automation of supply chain and business
 
 ### Set up steps in TD Synnex
 
-1. Log in to ECexpress with your reseller account information.&#x20;
+1. Log in to ECexpress with your reseller account information.
 2.  Click the tile on the screen to access **StreamOne** Stellr.<br>
 
-    ![](<../../../.gitbook/assets/Screenshot 2025-05-05 at 5.00.24 PM.png>)
+    <div align="left"><img src="../../../.gitbook/assets/Screenshot 2025-05-05 at 5.00.24 PM.png" alt="" width="375"></div>
 3. Navigate to **Integration > Developer Resource**.\
    \
    ![](<../../../.gitbook/assets/Screenshot 2025-05-05 at 5.01.43 PM.png>)
@@ -24,9 +24,9 @@ Our TD Synnex Stellr integration enables automation of supply chain and business
 6. Navigate to **My Account > Client Credentials**.
 7. Choose whether you want to use the Sandbox or Production environment.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-05 at 5.11.05 PM.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../.gitbook/assets/Screenshot 2025-05-05 at 5.11.05 PM.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-8. Copy the Client ID and Client Secret and store them somewhere secure. You'll need these for further set up steps in Rewst. <br>
+8. Copy the Client ID and Client Secret and store them somewhere secure. You'll need these for further set up steps in Rewst.<br>
 
 ### Set up steps in Rewst
 
@@ -41,23 +41,20 @@ Our TD Synnex Stellr integration enables automation of supply chain and business
    3. **Region**
 5. In the **Enable Sandbox?** drop-down selector, choose if you will be using the Sandbox environmen&#x74;**,** with **True** for yes and **False** for n&#x6F;**.**
 6. Click **Save Configuration**.
-7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.&#x20;
-
-
+7. Rewst will do a quick validation of your input. Once completed, you'll see a new section beneath the configuration form for[ organization mapping](https://docs.rewst.help/documentation/integrations#what-is-organization-mapping). Complete your mapping as desired.
 
 ## Synnex integration limitations
 
-{% hint style="danger" %}
-Note that in order to purchase licences via the New User Employee automation, you must follow the below instructions
-{% endhint %}
+When you purchase a license, Rewst validates the number of licenses that are available in the Microsoft Tenant. The Graph API returns the quantity, SkuID, and several other properties related to the license. When you need to purchase a license via your distributor, such as Synnex, Rewst must match that license to the product and subscription in the distributor. Some distributors have a way to say the XYZ SkuID is the ABC Subscription, which then allows us to match, and therefore update the relevant subscription.
 
-When you purchase a license, Rewst validates the number of licenses that are available in the Microsoft Tenant. The Graph API returns the quantity, SkuID, and several other properties related to the license. When you need to purchase a license via your distributor, such as Synnex, we need to match that license to the product and subscription in the distributor.  Some distributors have a way to say the XYZ SkuID is the ABC Subscription, which then allows us to match, and therefore update the relevant subscription.
-
-Currently, Synnex does not have a way for us to match the license in M365, to their own product or subscription. This limitation on the Synnex end, means Rewst must give you a choice about which subscription you wish to update. The fix is to use a field on the New User form that returns the subscriptions from Synnex itself, and choose which is the relevant sub you want to update.
+Currently, Synnex does not have a way for us to match the license in M365 to their own product or subscription. This limitation on the Synnex end means Rewst must give you a choice about which subscription you wish to update. The fix is to use a field on the New User form that returns the subscriptions from Synnex itself, and choose which is the relevant sub you want to update.
 
 ### Set up the Synnex limitation workaround
 
-There is a single requirement, an org variable to be created either at the MSP Level with default set or an org variable created at the customer level.  The former means that the field will appear for all customers, the latter will just appear for the single org you select.
+Create an org variable to be created either:
+
+* At the MSP Level with default set - the field will appear for all customers
+* At the customer level - the field will just appear for the single org you select
 
 #### Step 1: Create the org variable
 
@@ -71,15 +68,15 @@ There is a single requirement, an org variable to be created either at the MSP L
 
 #### Step 2: Choose the subscription
 
-Once the org variable has been created, navigate to the New User form as normal.  You will notice a new field, as outlined in the image below.
+Once the org variable has been created, navigate to the New User form as normal. You will notice a new field, as outlined in the image below.
 
 <figure><img src="https://i.ibb.co/P1TkvTK/Screenshot-20240513-234203.png" alt=""><figcaption><p>Example Sub via Synnex</p></figcaption></figure>
 
 {% hint style="warning" %}
-Note there is a limitation on only being able to select a single licence at this stage, so we correctly increase the correct sub.&#x20;
+Note that you may only select a single license at this stage.
 {% endhint %}
 
-Ensure that you correctly select the Direct M365 License Assignment, which is from the M365 tenant itself and reflects the quantity.  In License Subscription, ensure that you select the Sub returned from Synnex that matches the one you want to increase.&#x20;
+Ensure that you correctly select the Direct M365 License Assignment, which is from the M365 tenant itself and reflects the quantity. In License Subscription, select the subscription returned from Synnex that matches the one you want to increase.
 
 {% hint style="success" %}
 Got an idea for a new Integration? Rewst is constantly adding new integrations to our integrations page. Submit your idea or upvote existing ideas here in our [Canny feedback collector](https://rewst.canny.io/integrations).
@@ -88,7 +85,7 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category            | Action                               | Description                                                                                                                                             |
