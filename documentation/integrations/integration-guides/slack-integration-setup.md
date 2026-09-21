@@ -30,14 +30,14 @@ Got an idea for a new Integration? Rewst is constantly adding new integrations t
 
 ## Triggers for Slack integration
 
-| Trigger type name | Type    | Description                                              |
-| ----------------- | ------- | -------------------------------------------------------- |
-| object\_changed   | Webhook | Fires on creation, update, or deletion of a hubspot item |
+| Trigger type name | Type    | Description                                                        |
+| ----------------- | ------- | ------------------------------------------------------------------ |
+| slash\_command    | Webhook | Fires a workflow when a specific slash command is invoked in Slack |
 
 ## Actions and endpoints
 
 {% hint style="info" %}
-For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).&#x20;
+For more on how actions work in Rewst, check out our [introductory actions documentation here](https://docs.rewst.help/documentation/workflows/actions-in-rewst).
 {% endhint %}
 
 | Category                      | Action                      | Description                                                                                              |
