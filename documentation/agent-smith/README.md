@@ -1,7 +1,3 @@
----
-icon: user-secret
----
-
 # Agent Smith
 
 Built with [GoLang](https://go.dev/) and leveraging Microsoft Azure IoT Hub, Agent Smith is all about keeping things fast, simple, and within your control. Agent Smith steps in to fill any gaps in your ability to execute scripts and syncs smoothly within your workflows.
@@ -9,7 +5,7 @@ Built with [GoLang](https://go.dev/) and leveraging Microsoft Azure IoT Hub, Age
 If your current RMM responds too slowly for your needs, lacks an integration API, or you haven't yet invested in a complete RMM solution, Agent Smith bridges the gap. Agent Smith provides essential RMM-like functionality, empowering you to build your ideal technology ecosystem with the software that best fits your specific processes and automation initiatives. If you're working in an environment where RMM-triggered tasks take 30–90+ seconds to queue, execute, and return results, Agent Smith can retrieve key system data in a fraction of that time.
 
 {% hint style="info" %}
-Agent Smith is best suited for MSPs with experience working in open source tools, time spent managing such tools on GitHub, and experience configuring Microsoft Azure.&#x20;
+Agent Smith is best suited for MSPs with experience working in open source tools, time spent managing such tools on GitHub, and experience configuring Microsoft Azure.
 {% endhint %}
 
 ### Agent Smith features and benefits:
@@ -38,11 +34,11 @@ Agent Smith is best suited for MSPs with experience working in open source tools
 
 ### Requirements
 
-* You'll need to obtain your own Microsoft Azure subscription, and integrate it to Rewst at your top-level organization via the [Microsoft Cloud Integration Bundle](../integrations/integration-guides/microsoft-cloud-integration-bundle/).&#x20;
+* You'll need to obtain your own Microsoft Azure subscription, and integrate it to Rewst at your top-level organization via the [Microsoft Cloud Integration Bundle](../integrations/integration-guides/microsoft-cloud-integration-bundle/).
 * Follow the setup instructions for Agent Smith [here](https://docs.rewst.help/community-corner/agent-smith/agent-smith-configuration-overview)
 
 {% hint style="info" %}
-It's always a good idea to test your agent in a lab environment first before deploying broadly.&#x20;
+It's always a good idea to test your agent in a lab environment first before deploying broadly.
 {% endhint %}
 
 ## Agent Smith FAQs
@@ -50,7 +46,7 @@ It's always a good idea to test your agent in a lab environment first before dep
 * Am I allowed to customize Agent Smith?
   * Yes. Agent Smith is open-source. You're free to [fork and modify it](https://github.com/RewstApp/agent-smith-go).
 * Will new features be added? Can you add Feature X?
-  * Our focus for Agent Smith is on simplicity.&#x20;
+  * Our focus for Agent Smith is on simplicity.
   * Consider adding additional functionality by writing a PowerShell script and kicking it off with a workflow.
 * Does Rewst provide Agent Smith support for older operating systems?
   * No, support for outdated OS is not available.

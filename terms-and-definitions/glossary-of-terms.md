@@ -1,7 +1,3 @@
----
-icon: book-open
----
-
 # Glossary of terms
 
 {% hint style="info" %}

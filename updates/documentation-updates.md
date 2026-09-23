@@ -2,7 +2,6 @@
 description: >-
   Any Rewst documentation that receives important or significant updates in the
   prior week will be added to this update feed.
-icon: pencil-mechanical
 ---
 
 # Documentation updates

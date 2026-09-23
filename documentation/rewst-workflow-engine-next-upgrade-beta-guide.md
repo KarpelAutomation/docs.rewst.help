@@ -1,10 +1,9 @@
 ---
 hidden: true
 noIndex: true
-icon: gauge-max
 ---
 
-# Rewst workflow Engine Next upgrade:  Beta guide
+# Rewst workflow Engine Next upgrade: Beta guide
 
 {% hint style="info" %}
 Shhh, this page is a secret!
@@ -16,7 +15,7 @@ For betas within the Rewst product, our related documentation is link access-onl
 
 We’re upgrading the core engine that executes your workflows in Rewst. It's designed to make workflows faster, more reliable, and better able to handle complex and long-running automation. For you, nothing about how you build or manage workflows changes. The same Crates, actions, triggers, and integrations all work identically.
 
-Right now, this upgrade is in beta. The old and new workflow engines are running side-by-side with a per-workflow toggle that you control to determine which engine to use. This allows you full control and immediate rollback to the old engine at any time if you encounter any issues.  Both engines use the same database.
+Right now, this upgrade is in beta. The old and new workflow engines are running side-by-side with a per-workflow toggle that you control to determine which engine to use. This allows you full control and immediate rollback to the old engine at any time if you encounter any issues. Both engines use the same database.
 
 ### How much faster is the Next Engine?
 
@@ -33,10 +32,10 @@ The larger and more complex the workflow, the more dramatic the improvement
 
 ## Your role as a beta user
 
-Run your normal workflows and let us know if anything looks different from what you’d expect. If you see something unexpected, post it in the Beta Discord channel, or open a normal support ticket with the workflow execution ID. The engine is designed to drive every workflow to a completed state and to eliminate hung and stuck executions. If you do see something stuck in running for an unusually long time on Engine Next, please report it — reducing that to zero is an explicit goal of the beta. We also love hearing about your wins! Send us your before and after run times, too.&#x20;
+Run your normal workflows and let us know if anything looks different from what you’d expect. If you see something unexpected, post it in the Beta Discord channel, or open a normal support ticket with the workflow execution ID. The engine is designed to drive every workflow to a completed state and to eliminate hung and stuck executions. If you do see something stuck in running for an unusually long time on Engine Next, please report it — reducing that to zero is an explicit goal of the beta. We also love hearing about your wins! Send us your before and after run times, too.
 
 {% hint style="info" %}
-You’re joining a private Discord channel with other beta participants and Rewst team members. It’s the place to share findings, ask questions, and give us feedback. [Click here to activate your channel invite.](https://discord.gg/XW2nkvDPF)&#x20;
+You’re joining a private Discord channel with other beta participants and Rewst team members. It’s the place to share findings, ask questions, and give us feedback. [Click here to activate your channel invite.](https://discord.gg/XW2nkvDPF)
 {% endhint %}
 
 Start with workflows that are not ultra business-critical, and favor larger, more\
@@ -46,7 +45,7 @@ complex ones. Those are the best stress tests, and where you'll see the biggest 
 
 #### How do you turn it on?
 
-* Once your organization is enabled as a beta tester, you'll find the per-workflow toggle as a column in the workflow list view labeled **Engine Next**. The default off setting uses the old engine, and the on setting uses the new engine.&#x20;
+* Once your organization is enabled as a beta tester, you'll find the per-workflow toggle as a column in the workflow list view labeled **Engine Next**. The default off setting uses the old engine, and the on setting uses the new engine.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-07-23 at 3.45.37 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,8 +63,8 @@ new runs of that workflow pick up the change.
 
 #### How do you know a workflow actually ran on Engine Next?
 
-* At the top of the workflow results page, an **Engine Next** tag will show if the workflow execution used the new engine.&#x20;
-* Execution history remains visible for 30 days, the same as today.&#x20;
+* At the top of the workflow results page, an **Engine Next** tag will show if the workflow execution used the new engine.
+* Execution history remains visible for 30 days, the same as today.
 
 #### If you rerun a previous execution, which engine does it use?
 
@@ -81,7 +80,7 @@ new runs of that workflow pick up the change.
 
 #### Will Rewst deployments interrupt your running workflows?
 
-* No. Engine Next pins each in-flight workflow to the engine version it started on.&#x20;
+* No. Engine Next pins each in-flight workflow to the engine version it started on.
 * When we deploy a new version, existing runs finish on their original version and only newly\
   started workflows use the new one, so rolling deploys don't break workflows that are\
   mid-flight, including long-running ones.
@@ -96,7 +95,7 @@ new runs of that workflow pick up the change.
 
 * Engine Next doesn't write to the database continuously the way the old engine did. Instead, it\
   records an initial in progress record when the run kicks off and then writes the full\
-  results at the end of the run. While a run is in flight, live progress is streamed to the results page instead of being read from the database.&#x20;
+  results at the end of the run. While a run is in flight, live progress is streamed to the results page instead of being read from the database.
 * As a result you may notice minor in-flight display quirks. For example, a running subworkflow not appearing until it completes, or a subworkflow name showing where a task name used to. Several of these have already been fixed and more fixes are rolling out. The final saved result matches the old engine's view.
 
 #### What happens if Engine Next, or the underlying infrastructure, goes down?

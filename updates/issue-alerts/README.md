@@ -1,7 +1,3 @@
----
-icon: circle-exclamation
----
-
 # Alerts
 
 {% updates format="full" %}
@@ -44,7 +40,7 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 {% endupdate %}
 
 {% update date="2026-01-19" %}
-## ⚠️ Resolved: SQL Database Integration – Refactor Issues - AU, EU, UK, and US Region&#x20;
+## ⚠️ Resolved: SQL Database Integration – Refactor Issues - AU, EU, UK, and US Region
 
 Release 4.83 SQL Database integration refactor triggered multiple related issues over 4 days,\
 including configuration loss for some organizations, custom SSL certificates breaking, and MSSQL datetime handling failure. Full mitigation was achieved through multiple hotfixes and manual configuration restoration through January 9th.\
@@ -65,7 +61,7 @@ Rewst support is always available here: [https://discord.gg/rewst](https://disco
 {% endupdate %}
 
 {% update date="2026-01-12" %}
-## ⚠️ Resolved: Microsoft Azure Secret Expiration - AU, EU, UK, and US Region&#x20;
+## ⚠️ Resolved: Microsoft Azure Secret Expiration - AU, EU, UK, and US Region
 
 On Sunday, January 11th at 2:17 AM ET, an issue was identified that affected workflows using Microsoft integrations. This was caused by an authentication credential that required renewal, which also impacted Slack and PagerDuty integrations. The Rewst team responded immediately and the production environment was fully restored by 2:44 am ET.
 

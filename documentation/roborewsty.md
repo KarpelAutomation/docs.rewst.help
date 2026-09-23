@@ -1,7 +1,3 @@
----
-icon: robot
----
-
 # RoboRewsty
 
 ## What is RoboRewsty?

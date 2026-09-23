@@ -1,6 +1,2 @@
----
-icon: diagram-project
----
-
 # Automations
 

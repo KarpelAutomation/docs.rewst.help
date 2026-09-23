@@ -1,7 +1,3 @@
----
-icon: microphone-lines
----
-
 # Rewst Open Mic
 
 <figure><img src="../../.gitbook/assets/Open-Mic.png" alt=""><figcaption></figcaption></figure>
@@ -14,8 +10,8 @@ Is 3pm EST on Fridays not a great time for you? Check out our EU and ANZ monthly
 
 ## Register for the Rewst Community Open Mic
 
-Click through to our website [here](https://rewst.io/support/community) and scroll down the page to access our signup form. Check off the relevant boxes to receive invites for the Open Mic for one or more of our regional calls.&#x20;
+Click through to our website [here](https://rewst.io/support/community) and scroll down the page to access our signup form. Check off the relevant boxes to receive invites for the Open Mic for one or more of our regional calls.
 
-## Archive of previous Open Mic recordings&#x20;
+## Archive of previous Open Mic recordings
 
-View all previous Open Mic recordings on our website [here](https://rewst.io/resources/videos?filter=all). Or, if you prefer, visit our YouTube channel to view playlists for each region's Open Mic [here](https://www.youtube.com/playlist?list=PLDWjfoX6CSp9BQnZKRRjnt4wJtQjdLJch).&#x20;
+View all previous Open Mic recordings on our website [here](https://rewst.io/resources/videos?filter=all). Or, if you prefer, visit our YouTube channel to view playlists for each region's Open Mic [here](https://www.youtube.com/playlist?list=PLDWjfoX6CSp9BQnZKRRjnt4wJtQjdLJch).

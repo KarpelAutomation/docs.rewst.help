@@ -1,7 +1,3 @@
----
-icon: message-question
----
-
 # Rewst support
 
 Our support team, also known as the ROC, is here to assist with all platform-related questions and technical guidance. They're not a fit to talk about account issues or commercial needs such as contract, billing, or general relationship questions. For those, please contact your Customer Success Advisor (CSA).

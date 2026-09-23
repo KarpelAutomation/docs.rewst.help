@@ -2,7 +2,6 @@
 description: >-
   Learn about training, self-paced courses, and all the resources to learn the
   art of automating with Rewst.
-icon: school-flag
 ---
 
 # Cluck University
@@ -33,7 +32,7 @@ Get hands-on practice in Rewst, whether you're building by yourself or with Robo
 
 ### Best practices for building with RoboRewsty
 
-The fastest path to a working automation.&#x20;
+The fastest path to a working automation.
 
 * [Get started with RoboRewsty](https://learn.rewst.io/get-started-with-roborewsty): configure RoboRewsty and write better prompts
 * [Build an automation with RoboRewsty](https://learn.rewst.io/build-an-automation-with-roborewsty): blueprint to working automation in 45 minutes
@@ -47,7 +46,7 @@ The fastest path to a working automation.&#x20;
 
 ### Additional courses
 
-Browse the [full catalog](https://learn.rewst.io/page/course-catalog) in Cluck University. Here's a few recommendations based on recent releases.&#x20;
+Browse the [full catalog](https://learn.rewst.io/page/course-catalog) in Cluck University. Here's a few recommendations based on recent releases.
 
 * [Dev environments in Rewst](https://learn.rewst.io/dev-environments-in-rewst)
 * [Intro to Automation as a Service](https://learn.rewst.io/intro-to-automation-as-a-service)

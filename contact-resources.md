@@ -1,7 +1,3 @@
----
-icon: envelope
----
-
 # Contact resources
 
 ### Cluck University
@@ -12,7 +8,7 @@ You can also reach out in Discord in the [#cluck-u](https://discord.com/channels
 
 ### Community
 
-Rewst's community team are here to help you with any questions you may have around our community.&#x20;
+Rewst's community team are here to help you with any questions you may have around our community.
 
 * George Smith - `@maple_how_now_brown_cow` - Community Engagement Manager
 
@@ -20,9 +16,8 @@ Rewst's community team are here to help you with any questions you may have arou
 
 Rewst's support team is always here to help in any way we can. Reach us via the following channels:
 
-* **Discord** -  [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Discord** - [https://discord.gg/rewst](https://discord.gg/rewst)
   * Private channel
   * [#the-kewp](https://discord.com/channels/936789089703845988/1005169634682609704)
 * **Create a Ticket** - [E-mail the team](mailto:support@rewst.io) and someone will be in touch ASAP
 * **Self service portal -** [https://service.rewst.io/portal](https://service.rewst.io/portal)
-

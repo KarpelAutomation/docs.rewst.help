@@ -1,7 +1,3 @@
----
-icon: arrow-right-arrow-left
----
-
 # Incoming and outgoing domains and IPs
 
 ## **Outgoing IP addresses**
@@ -74,7 +70,7 @@ Rewst customers can create subdomains (\*.rew.st) to host their App Builder apps
 ### **Custom domains**
 
 {% hint style="info" %}
-For more on the use of custom domains with App Builder, see our documentation [here](https://docs.rewst.help/documentation/app-builder/domains#custom-subdomains).&#x20;
+For more on the use of custom domains with App Builder, see our documentation [here](https://docs.rewst.help/documentation/app-builder/domains#custom-subdomains).
 {% endhint %}
 
 In addition to wildcard subdomains, Rewst customers can configure and use their own custom domains to host their App Builder apps. These custom domains should also be added to your allow lists as needed for integrations. Hosting apps on a domain you own helps maintain a professional and consistent brand presence for your customers and internal users.
@@ -98,7 +94,7 @@ To avoid disruption, it’s recommended to configure allowlists or bypass rules 
 
 ### ThreatLocker whitelisting
 
-Depending on their level of security and permissions, ThreatLocker users may also need to click the following buttons in the ThreatLocker app to allow the server to look up the DNS hostname.&#x20;
+Depending on their level of security and permissions, ThreatLocker users may also need to click the following buttons in the ThreatLocker app to allow the server to look up the DNS hostname.
 
 1. Click **Devices**.
 2. Select the relevant row from the **Name / Operating System** column.

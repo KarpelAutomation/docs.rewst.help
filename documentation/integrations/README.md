@@ -1,7 +1,3 @@
----
-icon: hexagon
----
-
 # Integrations
 
 ## What is an integration?

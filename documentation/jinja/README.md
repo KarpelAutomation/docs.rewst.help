@@ -1,7 +1,3 @@
----
-icon: brackets-curly
----
-
 # Jinja
 
 {% hint style="success" %}

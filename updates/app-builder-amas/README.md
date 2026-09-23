@@ -1,7 +1,3 @@
----
-icon: seal-question
----
-
 # App Builder AMAs
 
 {% hint style="info" %}

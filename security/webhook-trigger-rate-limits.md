@@ -1,13 +1,9 @@
----
-icon: traffic-light
----
-
 # Webhook trigger rate limits
 
 {% hint style="info" %}
 _Rate limiting_ is a technique to control the number of requests a user or application can make to a service within a specific time frame. It's used to prevent system overload, ensure fair usage, and protect against attacks like DDoS or scraping by temporarily slowing or rejecting requests that exceed predefined limits.
 
-Rewst will enable rate limits for our webhook triggers on February 18, 2026. Existing customers should see the section [Existing customer rate limit transition](webhook-trigger-rate-limits.md#existing-customer-rate-limit-transition) for instructions on how to prepare.&#x20;
+Rewst will enable rate limits for our webhook triggers on February 18, 2026. Existing customers should see the section [Existing customer rate limit transition](webhook-trigger-rate-limits.md#existing-customer-rate-limit-transition) for instructions on how to prepare.
 {% endhint %}
 
 To ensure platform reliability and consistent performance for the entire platform, Rewst applies rate limits to inbound webhook triggers.
@@ -31,9 +27,9 @@ The rate limit occurs at ingest rather than after trigger criteria are considere
 
 ## Response when limit is exceeded
 
-If your webhook traffic exceeds our limits, Rewst will respond with an HTTP `429 Too Many Requests` status code. This is a [standard response](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) that signals the sending service to [slow down and retry](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Retry-After), and is displayed in the header of the webhook response.&#x20;
+If your webhook traffic exceeds our limits, Rewst will respond with an HTTP `429 Too Many Requests` status code. This is a [standard response](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) that signals the sending service to [slow down and retry](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Retry-After), and is displayed in the header of the webhook response.
 
-As webhook requests originate from external platforms, Rewst can't retry the request on your behalf. The event is lost once it's rejected, unless the external platform is configured to retry on 429 responses. Most well-designed webhook senders will automatically back-off and retry when they receive a 429 response. WHRL However, note that Rewst has built integrations with MSP-requested tools, and not all tools have 429 responses built in yet.&#x20;
+As webhook requests originate from external platforms, Rewst can't retry the request on your behalf. The event is lost once it's rejected, unless the external platform is configured to retry on 429 responses. Most well-designed webhook senders will automatically back-off and retry when they receive a 429 response. WHRL However, note that Rewst has built integrations with MSP-requested tools, and not all tools have 429 responses built in yet.
 
 ### Example response
 
@@ -73,7 +69,7 @@ Naive immediate retries will cause loops and continued rate limiting.
 * Review your integration configuration to ensure that events aren't being sent multiple times.
 * Verify that upstream services are correctly handling 429 responses and implementing back-off.
 * If you're performing bulk operations, consider spacing them out over time.
-* Add delays or exponential back-off before retrying.&#x20;
+* Add delays or exponential back-off before retrying.
 * Filter events before sending requests. Configure the source system to only emit webhook events that are actually needed: limit event types, scopes, objects, environments, etc.
 * If supported, batch or consolidate events. Prefer sending fewer webhook requests that contain multiple changes or events, or use built-in batching aggregation options on the source platform to reduce request volume.
 * Contact [Rewst support](../support-and-community/roc-support/) if you need further guidance on how to prevent rate limiting.
@@ -90,7 +86,7 @@ Below are links to related documentation from some of the apps Rewst integrates 
 
 [Webhooks error handling - Autotask Official Documentation](https://www.autotask.net/help/developerhelp/Content/APIs/Webhooks/Webhooks_Error_Handling.htm): This contains an authoritative description of Autotask webhook retry behavior.
 
-[ConnectWise developer guide](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FConnectWise_PSA%2FDeveloper_Guide#tab=login): This contains ConnectWise's documentation on how their product handles retries.&#x20;
+[ConnectWise developer guide](https://developer.connectwise.com/Special:Userlogin?returntotitle=Products%2FConnectWise_PSA%2FDeveloper_Guide#tab=login): This contains ConnectWise's documentation on how their product handles retries.
 
 ## Webhook integration triggers reference table
 

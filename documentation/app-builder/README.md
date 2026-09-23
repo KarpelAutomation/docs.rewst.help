@@ -1,17 +1,16 @@
 ---
 description: Revolutionize your MSP operations with Rewst's App Builder.
-icon: compass-drafting
 ---
 
 # App Builder
 
 {% hint style="info" %}
-Rewst's earliest version of App Builder was called App Platform. App Builder is the same product as App Platform, now with a more descriptive name.&#x20;
+Rewst's earliest version of App Builder was called App Platform. App Builder is the same product as App Platform, now with a more descriptive name.
 
 App Builder works best for users who have some existing skills in HTML and CSS. For free tutorials on how to learn those skills, Rewst recommends [W3 Schools' tutorials](https://www.w3schools.com/html/default.asp) and [Mozilla's intro and guided practice](https://developer.mozilla.org/en-US/docs/MDN/Tutorials).
 {% endhint %}
 
-## **What is App Builder?**&#x20;
+## **What is App Builder?**
 
 App Builder is an extension of Rewst’s automation platform that allows MSPs to quickly build front-end web applications for interacting with Rewst-generated data from workflows, forms, and data. Apps consist of _pages_, and pages are made up of _components_ like images, text, forms, tables, and charts. Use App Builder to drive additional efficiency, consistency, and visibility gains, and differentiate your personal brand through engaging front-end experiences.
 
@@ -27,9 +26,9 @@ Access App Builder by navigating to **App Builder** **> Apps** in the left side 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.14.43 PM.png" alt=""><figcaption></figcaption></figure>
 
-The center of the App Builder screen contains a list of all your apps. Click either the name of the app or **>** to the right of your app to open its profile and info screen.&#x20;
+The center of the App Builder screen contains a list of all your apps. Click either the name of the app or **>** to the right of your app to open its profile and info screen.
 
-Click **⋮** to the right of the app in the **Actions** column to expand the **Delete**, **Permissions**, **Export**, and **Clone** submenus. &#x20;
+Click **⋮** to the right of the app in the **Actions** column to expand the **Delete**, **Permissions**, **Export**, and **Clone** submenus.
 
 ## More on how to use App Builder
 
@@ -66,5 +65,5 @@ Click **⋮** to the right of the app in the **Actions** column to expand the **
 {% endcontent-ref %}
 
 {% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
+If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).
 {% endhint %}

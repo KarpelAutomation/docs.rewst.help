@@ -2,7 +2,6 @@
 description: >-
   Learn all about our prebuilt automations: where to find them, and how to set
   them up
-icon: box
 layout:
   width: default
   title:
@@ -20,6 +19,8 @@ layout:
   tags:
     visible: true
   actions:
+    visible: true
+  anchors:
     visible: true
 ---
 
@@ -136,7 +137,7 @@ By default, all Crates are synced when you unpack them. However, you have the op
 We recommend starting out with synced Crates only until you’ve completed all of your Rewst training in Cluck University.
 
 {% hint style="warning" %}
-Unsynching a workflow doesn't change it's UUID in Rewst. The ID in the URL will stay the same regardless of sync status.&#x20;
+Unsynching a workflow doesn't change it's UUID in Rewst. The ID in the URL will stay the same regardless of sync status.
 {% endhint %}
 
 ### Why modify Crates?
