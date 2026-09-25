@@ -12,6 +12,51 @@ As of 2026, our Dev updates now include our Crate Marketplace updates in the sam
 {% endhint %}
 
 {% updates format="numeric" %}
+{% update date="2026-09-25" %}
+## 💻 September 25, 2026 - Dev update
+
+<details>
+
+<summary><strong>New features and items</strong></summary>
+
+* **Integrations**
+  * Updated the Lexful integration to support its renamed resources, new API endpoints, Tags actions, and expanded organization, search, and user options.
+* **Workflows**
+  * Improved workflow execution performance by caching successful task counts for completed runs, reducing database load on large queries.
+
+</details>
+
+<details>
+
+<summary><strong>Bug fixes and chores</strong></summary>
+
+* **Integrations**
+  * Fixed ConnectWise Manage Contact Type assignments so selections made through the **Types IDs** field are now correctly applied and persisted.
+  * Fixed Microsoft CSP customer link and unlink actions to surface meaningful error messages instead of failing with a generic `Cannot instantiate typing.`Union error.
+  * Fixed duplicate ConnectWise Manage Ticket Record Saved trigger executions so a single ticket update no longer fires the workflow twice.
+  * Fixed Google Workspace Admin SDK Drive API requests so Drive endpoints route to the correct Google API URL instead of returning 404 errors.
+  * Fixed StreamOne organization mapping so the stored org variable now uses the Customer ID required by StreamOne actions instead of the Customer UID.
+* **Workflows**
+  * Fixed workflow saves on the new canvas after reordering comment fields, so comment order now persists without validation errors.
+* **Crates**
+  * PSA: Update Ticket with New User Onboard Form Links&#x20;
+    * Added `update_ticket_waiting_input_pod`; sets ticket status before `pod_confirmation`; flow: `associate_external_object` → `update_ticket_waiting_input_pod` → `pod_confirmation`&#x20;
+  * Microsoft: User Onboarding
+    * Default `force_password_change` set to true (108611)
+
+</details>
+
+<details>
+
+<summary><strong>Coming soon</strong></summary>
+
+* [Granular permissions beta](https://rewst.io/go/granular-permissions-beta-signup)
+
+</details>
+
+
+{% endupdate %}
+
 {% update date="2026-09-18" %}
 ## 💻 September 18, 2026 - Dev update
 
