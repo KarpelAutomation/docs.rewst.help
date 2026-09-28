@@ -8,7 +8,7 @@ Learn more about GraphQL in its official documentation [here](https://graphql.or
 
 GraphQL is an open-source query language for APIs and a server-side runtime for fulfilling those queries. It enables clients to interact with a single endpoint to get the exact data they need, without chaining requests together. Unlike traditional REST APIs that return fixed datasets, GraphQL allows clients to request specific data, eliminating over-fetching or under-fetching of data and offering improved efficiency. The [GraphQL Schema](https://graphql.org/learn/schema/) defines the structure of the data and available operations, serving as a clear contract between the frontend and backend. Like REST APIs, GraphQL is composed of a basic request and response for each call. While REST APIs rely on multiple endpoints for this process, GraphQL shifts the responsibility of defining what should be called back to the user.
 
-GraphQL in Rewst works off of two _operation types_:
+GraphQL in Rewst Classic works off of two _operation types_:
 
 1. Query: Used for reading or fetching data
 2. Mutation: Used for writing, updating, or deleting data
@@ -17,7 +17,7 @@ GraphQL in Rewst works off of two _operation types_:
 GraphQL has a third operation type called subscription. Rewst's generic GraphQL action currently only supports queries and mutations. If there is a subscription you are looking to use in Rewst, please submit a request to our product team for a dedicated action.
 {% endhint %}
 
-## What is the Rewst GraphQL generic request action?
+## What is the Rewst Classic's GraphQL generic request action?
 
 {% hint style="warning" %}
 Before using the Generic GraphQL request action, we recommend that you have:
@@ -27,7 +27,7 @@ Before using the Generic GraphQL request action, we recommend that you have:
 {% endhint %}
 
 \
-The Rewst GraphQL generic request action is used for making authenticated requests against Rewst's GraphQL API. This action is available in the Rewst actions section of the Workflow Builder's actions library, but is open-ended in its capabilities. It enables:
+The Rewst Classic GraphQL generic request action is used for making authenticated requests against Rewst's GraphQL API. This action is available in the Rewst actions section of the Workflow Builder's actions library, but is open-ended in its capabilities. It enables:
 
 * Direct API access: Execute custom GraphQL queries and mutations against Rewst's backend
 * Advanced data retrieval: Access data structures not available through standard actions
@@ -54,7 +54,7 @@ Make your choices in the **Parameters** tab of the action's settings to set it u
 
 ## Filtering arguments: Where versus search
 
-Every plural list query in the Generic GraphQL Request action accepts up to two filtering arguments: _where_ and _search_. They are not interchangeable.&#x20;
+Every plural list query in the Generic GraphQL Request action accepts up to two filtering arguments: _where_ and _search_. They are not interchangeable.
 
 #### Where: Equality only - `field: value` → `WHERE field = value`
 
@@ -75,7 +75,7 @@ The set of fields exposed in each `<Object>WhereInput` type is hand-curated by R
 | `bool_comparison_exp`   | `_eq`, `_ne`                                                                                                  |
 | `json_comparison_exp`   | `_eq`, `_ne`, `_contains`                                                                                     |
 
-Use `search` whenever you need anything other than strict equality, or any time the field you want to filter on isn't exposed by `where`.&#x20;
+Use `search` whenever you need anything other than strict equality, or any time the field you want to filter on isn't exposed by `where`.
 
 Example: `isEnabled` is not on `OrganizationWhereInput`, but it **is** on `OrganizationSearchInput`.
 
@@ -144,8 +144,6 @@ tags(
 ): [Tag!]!  @requiresManagesOwningOrg
 ```
 
-
-
 ## Generic GraphQL request action: Allowed operations
 
 {% hint style="info" %}
@@ -206,7 +204,7 @@ type ActionOption {
 
 **Is** `where` **or** `search` **mandatory?**
 
-Yes: `where` with enough fields to identify a single row — typically `packConfigId` plus `optionValue` or `optionLabel`. The parent `packConfig` must belong to an organization that you manage. No `search` input is needed.&#x20;
+Yes: `where` with enough fields to identify a single row — typically `packConfigId` plus `optionValue` or `optionLabel`. The parent `packConfig` must belong to an organization that you manage. No `search` input is needed.
 
 **Usage example**
 
@@ -271,7 +269,7 @@ fields: "id, optionLabel, optionValue, organization { name }"
 
 <details>
 
-<summary><strong><code>localReferenceOptions</code></strong>-Gets dropdown options for picking another Rewst object such as a workflow, template or form,  inside a parameter</summary>
+<summary><strong><code>localReferenceOptions</code></strong>-Gets dropdown options for picking another Rewst object such as a workflow, template or form, inside a parameter</summary>
 
 **GraphQL schema**
 
@@ -306,7 +304,7 @@ type DropdownOption {
 
 **Is where or search mandatory?**
 
-Yes: required  `modelName` and `orgId`
+Yes: required `modelName` and `orgId`
 
 Note: `search` here is a plain string matched against the option label, not a `SearchInput` with operator wrappers.
 
@@ -607,7 +605,7 @@ type Component {
 
 **Is** `where` **or** `search` **mandatory?**
 
-No -  identified directly by `id`.
+No - identified directly by `id`.
 
 </details>
 
@@ -911,7 +909,7 @@ type FeaturePreviewSetting {
 
 **Is** `where` **or** `search` **mandatory?**
 
-Yes - at least one of `id` or `label` on `where`. No search input is needed.&#x20;
+Yes - at least one of `id` or `label` on `where`. No search input is needed.
 
 </details>
 
@@ -978,7 +976,7 @@ type ForeignObjectReference {
 
 **Is** `where` **or** `search` **mandatory?**
 
-Yes - For `where`, at least one filter — typically `id`, or `referenceId` + `orgId`. No search input is needed.&#x20;
+Yes - For `where`, at least one filter — typically `id`, or `referenceId` + `orgId`. No search input is needed.
 
 </details>
 
@@ -1136,7 +1134,7 @@ forms(
 
 **Is** `where` **or** `search` **mandatory?**
 
-`limit` and `offset`.&#x20;
+`limit` and `offset`.
 
 Note: `forms` runs SpiceDB permission filtering with a scan-budget cap (default 5× `limit`). For low-auth-ratio tenants the helper may return `hasMore: false` before exhausting the table — raise `limit` if a `while (hasMore)` paginator stops short.
 
@@ -1223,7 +1221,7 @@ type MicrosoftCSPCustomer {
 
 **Is** `where` **or** `search` **mandatory?**
 
-Yes - `cspPackConfigId` plus at least one filter on `where` to identify the customer. No `search` input is needed.&#x20;
+Yes - `cspPackConfigId` plus at least one filter on `where` to identify the customer. No `search` input is needed.
 
 </details>
 
@@ -1636,8 +1634,6 @@ organizations(
 ): [Organization!]!
 ```
 
-
-
 **`OrganizationWhereInput` supported fields**
 
 | Field           | Type                                 | Notes                      |
@@ -1654,7 +1650,7 @@ organizations(
 | `users`         | `UserWhereInput`                     | Filter orgs by their users |
 | `domain`        | `String`                             |                            |
 
-Not filterable via `where` -  available via `search`: `isEnabled`, `isInternal`, `isDeleted`, `isOnboarding`, `createdAt`, `resultsRetentionDays`
+Not filterable via `where` - available via `search`: `isEnabled`, `isInternal`, `isDeleted`, `isOnboarding`, `createdAt`, `resultsRetentionDays`
 
 Not filterable at all - neither `where` nor `search`): `isMsp`, `tid`, `deletedAt`
 
@@ -2001,7 +1997,7 @@ type PackConfig {
 
 **Is `where` or `search` mandatory?**
 
-Yes - Use at least one of `where` or `search` to identify the config.&#x20;
+Yes - Use at least one of `where` or `search` to identify the config.
 
 Note: `config` and `metadata` are `@sensitive` and may be redacted depending on caller permissions.
 
@@ -2166,7 +2162,7 @@ type PacksAndBundlesByInstalledState {
 
 **Is `where` or `search` mandatory?**
 
-There is no `where`/`search`/pagination. Returns `installedPacksAndBundles` and `marketplacePacksAndBundles`. `orgId` is mandatory.&#x20;
+There is no `where`/`search`/pagination. Returns `installedPacksAndBundles` and `marketplacePacksAndBundles`. `orgId` is mandatory.
 
 </details>
 
@@ -2498,7 +2494,7 @@ type Site {
 }
 ```
 
-**`SiteWhereInput`  supported fields**
+**`SiteWhereInput` supported fields**
 
 | Field             | Type      |
 | ----------------- | --------- |
@@ -2638,7 +2634,7 @@ type Tag {
 }
 ```
 
-**`TagWhereInput`  supported fields**
+**`TagWhereInput` supported fields**
 
 | Field           | Type                         | Notes                                                                    |
 | --------------- | ---------------------------- | ------------------------------------------------------------------------ |
@@ -2647,7 +2643,7 @@ type Tag {
 | `orgId`         | `ID`                         | Recommended on every call (see scoping rule above)                       |
 | `organizations` | `TagOrganizationsWhereInput` | Nested filter: `{ id: [ID] }` — match tags assigned to any of these orgs |
 
-**`TagSearchInput`  supported fields**
+**`TagSearchInput` supported fields**
 
 | Field           | Wrapper                               |
 | --------------- | ------------------------------------- |
@@ -2655,8 +2651,6 @@ type Tag {
 | `name`          | `string_comparison_exp`               |
 | `orgId`         | `id_comparison_exp`                   |
 | `organizations` | `OrganizationSearchInput` (recursive) |
-
-
 
 **Is `where` or `search` mandatory?**
 
@@ -2683,7 +2677,7 @@ tags(
 ): [Tag!]!
 ```
 
-**`TagWhereInput`  supported fields**
+**`TagWhereInput` supported fields**
 
 | Field           | Type                         | Notes                                                                    |
 | --------------- | ---------------------------- | ------------------------------------------------------------------------ |
@@ -2694,7 +2688,7 @@ tags(
 
 It is not filterable via **`where`** , despite existing on the `Tag` model: `color`, `description`, `createdAt`, `updatedAt`, `crates`, `packs`, `triggers`.
 
-**`TagSearchInput`  supported fields**
+**`TagSearchInput` supported fields**
 
 | Field           | Wrapper                               |
 | --------------- | ------------------------------------- |
@@ -2705,7 +2699,7 @@ It is not filterable via **`where`** , despite existing on the `Tag` model: `col
 
 **Is `where` or `search` mandatory?**
 
-Schema-level: no. \
+Schema-level: no.\
 Practically: yes — pass `where: { orgId: CTX.organization.id }` to avoid the auto-inject path. This is the operation that produced the `Symbol(or)/Symbol(eq)/Symbol(in)` error.
 
 </details>
@@ -2876,7 +2870,7 @@ type TaskLog {
 
 Yes - `where` or `search` with at least `id` or `workflowExecutionId` is required.
 
-&#x20;Note: `input` and `result` are sensitive fields and may be redacted.
+Note: `input` and `result` are sensitive fields and may be redacted.
 
 </details>
 
@@ -2998,8 +2992,6 @@ type Template {
 
 Yes - `where` with at least one filter field, typically `id`. There is no `search` input.
 
-
-
 </details>
 
 <details>
@@ -3046,8 +3038,6 @@ templates(
 ```graphql
 jinjaTemplate(where: TemplateInput): Template
 ```
-
-
 
 </details>
 
@@ -3849,7 +3839,7 @@ Yes, strongly. `workflow_executions` is the largest of the three unbounded table
 * `offset` for pagination
 * A `createdAt` lower bound on `search` if you can will drastically narrow the partition scan
 
-Shared pagination rule: Every plural query should be called with `limit` and `offset`. Queries against the largest tables—  `workflowExecutions`, `taskLogs`, `organizations`, and anything that traverses into them— will time out without it.
+Shared pagination rule: Every plural query should be called with `limit` and `offset`. Queries against the largest tables— `workflowExecutions`, `taskLogs`, `organizations`, and anything that traverses into them— will time out without it.
 
 **Worked example: Recent failed executions for the current org**
 
@@ -3865,8 +3855,6 @@ variables:
   offset: 0
   order: [["createdAt", "DESC"]]
 ```
-
-
 
 </details>
 
@@ -3960,15 +3948,15 @@ workflowPatches(
 
 **`WorkflowPatchWhereInput` — supported fields**
 
-| Field        | Type                              |
-| ------------ | --------------------------------- |
-| `comment`    | `String`                          |
-| `user`       | `UserWhereInput` (nested)         |
-| `patchType`  | `PatchType`                       |
-| `workflowId` | `ID`                              |
-| `foreignId`  | `ID`                              |
-| `createdAt`  | `String`                          |
-| `updatedAt`  | <p></p><p><code>String</code></p> |
+| Field        | Type                      |
+| ------------ | ------------------------- |
+| `comment`    | `String`                  |
+| `user`       | `UserWhereInput` (nested) |
+| `patchType`  | `PatchType`               |
+| `workflowId` | `ID`                      |
+| `foreignId`  | `ID`                      |
+| `createdAt`  | `String`                  |
+| `updatedAt`  | `String`                  |
 
 **Is `where` or `search` mandatory?**
 
@@ -4081,7 +4069,7 @@ input WorkflowSearch {
 
 **Is `where` or `search` mandatory?**
 
-Yes - `id` via `where` or `search`. \
+Yes - `id` via `where` or `search`.\
 Note: `createdAt`, `updatedAt`, and `tokens` are filterable only via `search`.
 
 </details>
@@ -4417,7 +4405,7 @@ enum CloneableObjectType {
 
 **Necessary modifications**
 
-&#x20;`id` and `objectType`. \
+`id` and `objectType`.\
 Note: this only severs the link. The object itself is not deleted.
 
 **Usage example**
@@ -4487,7 +4475,7 @@ deleteComponent(id: ID!): Boolean
 
 **Necessary modifications**
 
-&#x20;`Id`.
+`Id`.
 
 </details>
 
@@ -4503,7 +4491,7 @@ duplicateComponent(id: ID!): Component
 
 **Necessary modifications**
 
-&#x20;`Id`.
+`Id`.
 
 </details>
 
@@ -4877,7 +4865,7 @@ input OrganizationInput {
 
 **Necessary modifications**
 
-`name` on each item.&#x20;
+`name` on each item.
 
 Note: `createOrganizations` returns nullable elements — a per-row failure yields a `null` slot rather than aborting the batch.
 
@@ -5297,7 +5285,7 @@ updatePage(
 
 **Necessary modifications**
 
-`page.id`, `page.siteId`. \
+`page.id`, `page.siteId`.\
 Note: `pageNodes` is the encoded editor state passed as a string — decoded server-side.
 
 </details>
@@ -5314,7 +5302,7 @@ deletePage(id: ID!): Void
 
 **Necessary modifications**
 
-`deletePage`: requires `id`.&#x20;
+`deletePage`: requires `id`.
 
 </details>
 
@@ -5330,7 +5318,7 @@ updatePageNode(id: ID!, props: JSON!): PageNode
 
 **Necessary modifications**
 
-`updatePageNode`: requires `id`, `props`.&#x20;
+`updatePageNode`: requires `id`, `props`.
 
 </details>
 
@@ -5479,7 +5467,7 @@ type DNSValidationResponse {
 
 <details>
 
-<summary><strong><code>createTag</code>  -</strong> Creates a new tag.</summary>
+<summary><strong><code>createTag</code> -</strong> Creates a new tag.</summary>
 
 **GraphQL schema**
 
@@ -5497,7 +5485,7 @@ input TagCreateInput {
 
 **Necessary modifications**
 
-Use `id`, `name`, and `orgId` on each entry.&#x20;
+Use `id`, `name`, and `orgId` on each entry.
 
 </details>
 
@@ -5901,8 +5889,6 @@ addFavoriteAction(userId: ID!, actionId: ID!): Void
 
 **GraphQL schema**
 
-
-
 ```graphql
 removeFavoriteAction(userId: ID!, actionId: ID!): Void
 ```
@@ -6019,8 +6005,6 @@ input ShallowCloneOverridesInput {
 
 **GraphQL schema**
 
-
-
 ```graphql
 testWorkflow(id: ID!, orgId: ID!, input: JSON, context: ExecuteContextType): JobRequestedResponse
 ```
@@ -6126,8 +6110,6 @@ input CompletionListenerUpdateInput {
 
 </details>
 
-
-
 ## Security considerations
 
 1. Always validate user inputs before including in queries
@@ -6225,7 +6207,7 @@ input CompletionListenerUpdateInput {
 ### **Permission denied**
 
 * Check for query syntax issues
-* &#x20;You may be attempting to run an unsupported GraphQL action
+* You may be attempting to run an unsupported GraphQL action
 
 ### **Query syntax errors**
 

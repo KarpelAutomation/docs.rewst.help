@@ -2,7 +2,7 @@
 
 ## **Outgoing IP addresses**
 
-Rewst uses static NAT Gateway IPs for outbound connections from our services hosted in AWS. These IPs should be included in any necessary allow lists for outbound connections.
+Rewst Classic uses static NAT Gateway IPs for outbound connections from our services hosted in AWS. These IPs should be included in any necessary allow lists for outbound connections.
 
 ### North America
 
@@ -65,7 +65,7 @@ For the following services, Rewst employs application load balancers, resulting 
 
 ### **Wildcard domains**
 
-Rewst customers can create subdomains (\*.rew.st) to host their App Builder apps. These domains are fully managed by Rewst, making them easier to set up and maintain. Depending on your integration needs, you should also include these domains in your allow lists to ensure proper connectivity.
+Rewst Classic customers can create subdomains (\*.rew.st) to host their App Builder apps. These domains are fully managed by Rewst, making them easier to set up and maintain. Depending on your integration needs, you should also include these domains in your allow lists to ensure proper connectivity.
 
 ### **Custom domains**
 
@@ -73,11 +73,11 @@ Rewst customers can create subdomains (\*.rew.st) to host their App Builder apps
 For more on the use of custom domains with App Builder, see our documentation [here](https://docs.rewst.help/documentation/app-builder/domains#custom-subdomains).
 {% endhint %}
 
-In addition to wildcard subdomains, Rewst customers can configure and use their own custom domains to host their App Builder apps. These custom domains should also be added to your allow lists as needed for integrations. Hosting apps on a domain you own helps maintain a professional and consistent brand presence for your customers and internal users.
+In addition to wildcard subdomains, Rewst Classic customers can configure and use their own custom domains to host their App Builder apps. These custom domains should also be added to your allow lists as needed for integrations. Hosting apps on a domain you own helps maintain a professional and consistent brand presence for your customers and internal users.
 
 ## **Important information for RMM integrations and Agent Smith**
 
-When Rewst initiates a PowerShell task through an RMM platform, it is the endpoint located within the customer’s environment — such as a domain controller, Exchange server, or workstation at the customer’s office — that connects to a webhook. This webhook is dynamically created during the execution of the associated Rewst workflow. The connection targets the dynamic hostname beginning with engine.\*, based on the customer’s region.
+When Rewst Classic initiates a PowerShell task through an RMM platform, it is the endpoint located within the customer’s environment — such as a domain controller, Exchange server, or workstation at the customer’s office — that connects to a webhook. This webhook is dynamically created during the execution of the associated Rewst Classic workflow. The connection targets the dynamic hostname beginning with engine.\*, based on the customer’s region.
 
 These webhook URLs are designed for one-time use. If a security system outside the endpoint attempts to scan, inspect, or pre-fetch the URL before the PowerShell task executes, it can consume or invalidate the link. This can prevent the customer’s device from successfully completing the connection. Examples of systems that may cause such interference include:
 
@@ -106,7 +106,7 @@ Depending on their level of security and permissions, ThreatLocker users may als
 
 ## **Email filter considerations**
 
-In environments where Rewst webhook URLs are sent via email, such as in workflow notifications, approval requests, or alert messages, it's important to consider how email security systems interact with these links.
+In environments where Rewst Classic webhook URLs are sent via email, such as in workflow notifications, approval requests, or alert messages, it's important to consider how email security systems interact with these links.
 
 Many modern email protection platforms automatically scan, rewrite, or pre-fetch links to check for threats. This behavior can prematurely trigger a one-time-use webhook URL, making it unavailable when the actual endpoint tries to connect.
 
@@ -137,4 +137,4 @@ If issues persist, it may be necessary to extend allowlisting beyond just the on
 
 ### **Best practice**
 
-First review logs — including firewall logs, proxy logs, endpoint protection logs, and email filtering logs — to determine whether connections or emails containing Rewst webhook URLs are being blocked, inspected, or altered. Only after confirming should allowlisting or bypass rules be added.
+First review logs — including firewall logs, proxy logs, endpoint protection logs, and email filtering logs — to determine whether connections or emails containing Rewst Classic webhook URLs are being blocked, inspected, or altered. Only after confirming should allowlisting or bypass rules be added.

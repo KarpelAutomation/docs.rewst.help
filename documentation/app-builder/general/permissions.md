@@ -25,7 +25,7 @@ Permissions flow downward: Organization → App → Page
 
 ### Roles and organizations work together
 
-Custom roles must be created in an organization, typically the parent org where the app resides. A user may only access an app or page if they have both a role and that role assigned within an authorized organization. If a custom role is created in the parent organization, users in child organizations can receive that role as long as their child organization  is authorized for the app.
+Custom roles must be created in an organization, typically the parent org where the app resides. A user may only access an app or page if they have both a role and that role assigned within an authorized organization. If a custom role is created in the parent organization, users in child organizations can receive that role as long as their child organization is authorized for the app.
 
 {% hint style="warning" %}
 There are current UI inconsistencies related to how roles are displayed:
@@ -76,7 +76,7 @@ Page-level permissions don't:
 * Override app-level access
 * Remove access already granted at a higher level
 
-#### Use custom roles to limit page access&#x20;
+#### Use custom roles to limit page access
 
 To restrict a role to specific pages:
 
@@ -97,7 +97,7 @@ In the [End User Portal](../prebuilt-apps/end-user-portal.md):
 
 1. Navigate to **App Builder > Apps** in the left side menu of your Rewst platform.
 2. Locate the app you want to edit permissions for in your app list.
-3.  Click **⋮ > Permissions** next to the app. <br>
+3.  Click **⋮ > Permissions** next to the app.<br>
 
     <div align="left"><figure><img src="../../../.gitbook/assets/Screenshot 2025-08-21 at 5.20.42 PM.png" alt="" width="137"><figcaption></figcaption></figure></div>
 4. Use the drop-down selectors to choose the roles and organizations that should have access to your live app.\
@@ -119,7 +119,3 @@ To see forms and data for a child organization, the Rewst user must be created a
 6. This will open the permission settings for that particular page.
 7. Use the drop-down selectors to choose the roles and organizations that should have access to your page.
 8. Click **Update**.
-
-{% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
-{% endhint %}

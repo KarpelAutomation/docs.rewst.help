@@ -1,6 +1,6 @@
 # Core actions
 
-_Core actions_ in Rewst are your gateway to the platform's vast array of intrinsic functionalities. These actions, usable right out of the box, offer features ranging from ad-hoc HTTP requests to document parsing.
+_Core actions_ in Rewst Classic are your gateway to the platform's vast array of intrinsic functionalities. These actions, usable right out of the box, offer features ranging from ad-hoc HTTP requests to document parsing.
 
 Core actions are used in the same way as regular actions within workflows. They are selected from the list of available actions, configured based on their parameters, and then added to the workflow at the appropriate place.
 
@@ -337,8 +337,6 @@ _In most cases, we recommend that you use a_ [_Custom Integration_](../../integr
 * **Require Success Status**: If you check this box, the task will fail if a non-2xx HTTP status code is returned. This is useful for identifying and handling HTTP errors during the task's execution.
 
 **Output**: The action returns the content returned by the server in response to the HTTP request. This could be a success message, a failure message, a data object, or any other content that the server sends as a response.
-
-
 
 </details>
 

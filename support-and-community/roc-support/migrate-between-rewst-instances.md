@@ -1,17 +1,16 @@
 # Migrate between Rewst instances
 
-This guide provides a step-by-step process for migrating from one Rewst instance to another, including\
-manual migration of organizations, workflows, integrations, templates, forms, and other elements.&#x20;
+This guide provides a step-by-step process for migrating from one Rewst Classic instance to another, including manual migration of organizations, workflows, integrations, templates, forms, and other elements.
 
 {% hint style="warning" %}
-Migration of instances is an advanced process completed by Rewst customers and should not be attempted by new Rewst users.  [Reach out to Rewst Support ](./)to set up your new organization in a different region. Expect the entire migration process to take several weeks, or perhaps months if your first Rewst instance is especially large. Proper planning for migration should include ample time for dedicated testing.
+Migration of instances is an advanced process completed by Rewst customers and should not be attempted by new Rewst Classic users. [Reach out to Rewst Support ](./)to set up your new organization in a different region. Expect the entire migration process to take several weeks, or perhaps months if your first Rewst Classic instance is especially large. Proper planning for migration should include ample time for dedicated testing.
 
 Currently, there is no way to move custom integrations from one instance to another. When you set up your custom integration in your new instance, any imports containing custom integration actions will fail in the new instance. You'll need to redo all actions in the custom integration.
 {% endhint %}
 
 ## What customers can expect after migration
 
-When moving from an existing Rewst instance to a new instance, the following elements will change:
+When moving from an existing Rewst Classic instance to a new instance, the following elements will change:
 
 * Rewst outgoing IP addresses - review your outgoing IP address and hostnames by following guidance [here](https://docs.rewst.help/security/security-policy)
 * MSP and customer organization ID
@@ -20,7 +19,7 @@ When moving from an existing Rewst instance to a new instance, the following ele
 
 ### What can and cannot be migrated
 
-Note that the **Workaround** column explains the steps you can complete to manually migrate data that would otherwise fail and error during the standard Rewst import and export process. If there is no workaround listed, you must follow the manual instruction in the **Migration status** column to complete the migration step.
+Note that the **Workaround** column explains the steps you can complete to manually migrate data that would otherwise fail and error during the standard Rewst Classic import and export process. If there is no workaround listed, you must follow the manual instruction in the **Migration status** column to complete the migration step.
 
 | Item                                               | Migration status                                                                          | Workaround                                                                                                                                      |
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -118,7 +117,7 @@ You'll need this full list to properly prepare for your migration.
 Use the following like a checklist, and make sure that you complete each item as part of your migration.
 
 * Reconfigure and reauthorize all integrations in your new instance.
-* Re-invite users to Rewst.
+* Re-invite users to Rewst Classic.
 * Import workflows.
 * Re-link custom forms.
 * Rebuild custom actions in applicable workflows.
@@ -130,13 +129,11 @@ Use the following like a checklist, and make sure that you complete each item as
 
 ### Microsoft Cloud Integration Bundle
 
-You must first uninstall the Microsoft Cloud Integration Bundle on your old instance before setting up the bundle on the new instance.
-
-If you don't immediately have time for this uninstall and reinstall, you can complete the following steps to allow for the Bundle to work on both instances for a short length of time.
+You must first uninstall the Microsoft Cloud Integration Bundle on your old instance before setting up the bundle on the new instance. If you don't immediately have time for this uninstall and reinstall, you can complete the following steps to allow for the Bundle to work on both instances for a short length of time.
 
 1. Navigate to the Microsoft Cloud Integration Bundle configuration page on the old instance.
 2. Click **review steps** at the bottom.
 3. Click **next** to navigate to **permissions.**
 4. Click **Clear All.**
-5. **Click Next**. Ensure that you go through the full permissions screen.&#x20;
+5. **Click Next**. Ensure that you go through the full permissions screen.
 6. Now, [install the Microsoft Cloud Integration Bundle](../../documentation/integrations/integration-guides/microsoft-cloud-integration-bundle/) in your new Rewst instance.

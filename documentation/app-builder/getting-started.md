@@ -71,7 +71,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 <figure><img src="../../.gitbook/assets/Screenshot 2026-04-21 at 3.03.20 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 11. Click the **Parameters** tab.
-12. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>)  next to **Run as User** to open the Jinja code editor.
+12. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) next to **Run as User** to open the Jinja code editor.
 13. Enter `{{ CTX.user.id }}` , which uses the ID of the running user, ensuring we always get the right forms based on the logged in user.\
     <br>
 
@@ -87,7 +87,7 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 
     <figure><img src="../../.gitbook/assets/Screenshot 2026-04-21 at 3.10.59 PM.png" alt=""><figcaption></figcaption></figure>
 19. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) next to your new data alias.
-20. Copy the Jinja code below. Here, we're looking at all returned forms, and creating a new key with name, tags, view, and triggerId key. Eventually we'll display the name and tags to the user and use the view key to allow an action for the user - in the case of this example, go directly to the form.&#x20;
+20. Copy the Jinja code below. Here, we're looking at all returned forms, and creating a new key with name, tags, view, and triggerId key. Eventually we'll display the name and tags to the user and use the view key to allow an action for the user - in the case of this example, go directly to the form.
 
 ```
 {#- Assumes single trigger per form -#}
@@ -105,14 +105,14 @@ The bottom section of the **Pages** menu will consist of all non-default pages c
 20. Connect **END** to the **Set Form Outputs** action.
 21. Click <img src="../../.gitbook/assets/Screenshot 2026-04-20 at 4.45.41 PM.png" alt="" data-size="line"> to open the workflow's settings.
 22. Click the **Output** tab **> + Add Output**.
-23. Name the output configuration`form_output`. \
+23. Name the output configuration`form_output`.\
     <br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2026-04-21 at 3.13.06 PM.png" alt=""><figcaption></figcaption></figure>
-24. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .&#x20;
+24. Click ![](<../../.gitbook/assets/Screenshot 2026-04-20 at 3.41.07 PM.png>) next to the output configuration to open the Jinja editor. Enter `{{ CTX.form_output }}` .
 25. Add notes to your workflow, or use RoboRewsty to do documentation for you.
 26. Click **Run.**
-27. Click **Run Test**.&#x20;
+27. Click **Run Test**.
 28. Click **View Results**.
 29. Click **End**, then **output**.
 
@@ -199,7 +199,3 @@ Portals or our Prebuilt Apps must still be initially cloned into customer enviro
 2. Click <img src="../../.gitbook/assets/Screenshot 2025-09-12 at 8.54.56 AM.png" alt="" data-size="line">.
 3. Drag your app file to the **Import Bundle** dialog that appears.
 4. Click **Submit**.
-
-{% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).
-{% endhint %}

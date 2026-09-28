@@ -1,6 +1,6 @@
 # App Builder: App examples and prompts
 
-Below are 10 examples of common uses for creating an app with Rewst's App Builder, complete with the prompts we recommend you feed RoboRewsty to help you create them. The common thread across all is that App Builder lets you put a professional, controlled front end on top of your Rewst automation, solving the problem of getting data and actions into the hands of people who shouldn't need to touch the platform directly.
+Below are 10 examples of common uses for creating an app with Rewst Classic's App Builder, complete with the prompts we recommend you feed RoboRewsty to help you create them. The common thread across all is that App Builder lets you put a professional, controlled front end on top of your Rewst automation, solving the problem of getting data and actions into the hands of people who shouldn't need to touch the platform directly.
 
 ## **1. Replace expensive third-party client portals**&#x20;
 

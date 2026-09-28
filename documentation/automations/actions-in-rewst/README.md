@@ -2,13 +2,13 @@
 
 ## What is an action?
 
-_Actions_ are the operations available for creating and automating, which live inside of a [workflow](../workflows/). You grab these actions from the left side library menu of the workflow builder, and drag them onto the Workflow Builder Canvas. When you run a workflow, Rewst is completing a series of actions specified within that workflow.
+_Actions_ are the operations available for creating and automating, which live inside of a [workflow](../workflows/). You grab these actions from the left side library menu of the Workflow Builder, and drag them onto the Workflow Builder Canvas. When you run a workflow, Rewst is completing a series of actions specified within that workflow.
 
-Once you've set up an [integration](https://docs.rewst.help/documentation/integrations), Rewst offers you a number of actions related to that integration to build your workflows. They're accessible from the accordion menus in the left side library menu of the Workflow Builder, and sorted based on their respective sources, including integrations by brand, Core, Rewst, Transform, and Workflow. Expand any accordion to see the related actions it contains.
+Once you've set up an [integration](https://docs.rewst.help/documentation/integrations), Rewst Classic offers you a number of actions related to that integration to build your workflows. They're accessible from the accordion menus in the left side library menu of the Workflow Builder, and sorted based on their respective sources, including integrations by brand, Core, Rewst, Transform, and Workflow. Expand any accordion to see the related actions it contains.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-15 at 10.01.24 PM.png" alt=""><figcaption><p>The actions menu of the Workflow Builder</p></figcaption></figure>
 
-Each action serves a unique purpose and comes with a brief description to aid in understanding its functionality. Click on any action to begin dragging and dropping it onto your Workflow Builder Canvas. For more on our Workflow Builder and how workflows are essential to Rewst, see our workflow documentation [here](https://docs.rewst.help/documentation/workflows).&#x20;
+Each action serves a unique purpose and comes with a brief description to aid in understanding its functionality. Click on any action to begin dragging and dropping it onto your Workflow Builder Canvas. For more on our Workflow Builder and how workflows are essential to Rewst, see our workflow documentation [here](https://docs.rewst.help/documentation/workflows).
 
 {% hint style="success" %}
 Click through to any of the related action type pages to learn more.
@@ -26,7 +26,7 @@ These are the essential platform components like webhooks, email dispatching, an
 
 ### Integrations actions
 
-When you set up an integration in Rewst, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst's integrations pull in the most useful and most commonly used actions, but not all available actions. See our [individual integration setup pages](../../integrations/) for more information on available actions.
+When you set up an integration in Rewst Classic, it comes with a predefined set of actions, which will appear in your workflow builder action menu. These actions allow you to work with various parts of the integrated product as per its API. Rewst Classic's integrations pull in the most useful and most commonly used actions, but not all available actions. See our [individual integration setup pages](../../integrations/) for more information on available actions.
 
 {% content-ref url="../../integrations/" %}
 [integrations](../../integrations/)
@@ -34,7 +34,7 @@ When you set up an integration in Rewst, it comes with a predefined set of actio
 
 ### Rewst actions
 
-These actions are for interacting with your Rewst environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables.
+These actions are for interacting with your Rewst Classic environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables.
 
 {% content-ref url="rewst-actions.md" %}
 [rewst-actions.md](rewst-actions.md)
@@ -58,7 +58,7 @@ These actions allow you to call other workflows within your environment. They en
 
 ### Generic actions
 
-For each integration, Rewst provides a single action that isn't predefined like the other integration-related actions, but which can be used to define a URL path. Using that path for the endpoint you wish to reach in the partner's API allows you to specify data, cookies, headers, etc., for custom targeting beyond what Rewst's other predefined actions allow.
+For each integration, Rewst Classic provides a single action that isn't predefined like the other integration-related actions, but which can be used to define a URL path. Using that path for the endpoint you wish to reach in the partner's API allows you to specify data, cookies, headers, etc., for custom targeting beyond what Rewst's other predefined actions allow.
 
 Generic actions rely heavily on your reading the integration's API documentation and researching the endpoints yourself. Most frequently, we suggest this as a feature for more advanced users, though customers with specific goals might be required to use it early on in their onboarding process.
 
@@ -78,7 +78,7 @@ If your integration is missing a generic action and you'd like to see us develop
 Note that this action version functionality won't appear for any actions related to your custom integrations.
 {% endhint %}
 
-From time to time, Rewst will make updates to existing actions. These updates may require customers  who are using those actions in their workflows to make modifications or adjustments. View the changelog of an action's version history in the left side action list of the [Workflow Builder.](../workflows/workflow-builder-how-to-set-up-a-workflow.md) If the action in the action list has logged changes, an icon will appear to the right of its name in the list. Click on that icon to expand the version history log.
+From time to time, Rewst will make updates to existing actions. These updates may require customers who are using those actions in their workflows to make modifications or adjustments. View the changelog of an action's version history in the left side action list of the [Workflow Builder.](../workflows/workflow-builder-how-to-set-up-a-workflow.md) If the action in the action list has logged changes, an icon will appear to the right of its name in the list. Click on that icon to expand the version history log.
 
 <figure><img src="../../../.gitbook/assets/action gif.gif" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -90,12 +90,12 @@ From time to time, Rewst will make updates to existing actions. These updates ma
 | Attention Needed | Yellow | Actions need review, but aren't breaking                                         |
 | Updated          | Blue   | Actions have been updated - no action is required and the alert is informational |
 
-<figure><img src="../../../.gitbook/assets/image (86) (1).png" alt="" width="375"><figcaption><p>Click links in the action changelog to view additional <br>documentation or guides.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (86) (1).png" alt="" width="375"><figcaption><p>Click links in the action changelog to view additional<br>documentation or guides.</p></figcaption></figure>
 
-You'll see a red pulsing dot to the right of the **Workflows** section of your left side menu when there are unread breaking changes. \
+You'll see a red pulsing dot to the right of the **Workflows** section of your left side menu when there are unread breaking changes.\
 ![](<../../../.gitbook/assets/Screenshot 2026-04-16 at 12.28.56 PM.png>)
 
-When workflows in your current organization are affected by version changes, a toolbar will appear in your workflows list page with up to three buttons, each containing the total count of actions in the organization that fall into each alert category. A red pulsing dot will be present next to the Attention Needed category when unread breaking changes exist. Click on any of the categories in the toolbar to filter your workflows list to just that group of workflows. These statuses also apply to the **Attributes** column's filtering capabilities.&#x20;
+When workflows in your current organization are affected by version changes, a toolbar will appear in your workflows list page with up to three buttons, each containing the total count of actions in the organization that fall into each alert category. A red pulsing dot will be present next to the Attention Needed category when unread breaking changes exist. Click on any of the categories in the toolbar to filter your workflows list to just that group of workflows. These statuses also apply to the **Attributes** column's filtering capabilities.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-16 at 12.44.25 PM.png" alt=""><figcaption></figcaption></figure>
 

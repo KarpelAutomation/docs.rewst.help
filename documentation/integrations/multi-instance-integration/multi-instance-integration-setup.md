@@ -2,7 +2,7 @@
 
 ## What is multiple instance integration?
 
-Also known as muti-tenancy, _multiple instance integration_ refers to connecting **multiple, separate instances of a given app or system** to Rewst, where they're managed via one Rewst instance. Most MSPs manage multiple clients, each with their own environments. You can’t run one integration to Autotask and expect it to cover every client, because each client has its own instance.
+Also known as muti-tenancy, _multiple instance integration_ refers to connecting **multiple, separate instances of a given app or system** to Rewst Classic, where they're managed via one Rewst instance. Most MSPs manage multiple clients, each with their own environments. You can’t run one integration to Autotask and expect it to cover every client, because each client has its own instance.
 
 Multi-instance integration enables you to designate one instance as the default, and expands integration overrides to support the additional configurations. This is done as an advanced option at the workflow task level, allowing you to specify a configuration on a per-task basis.
 
@@ -46,7 +46,7 @@ A workflow trigger can be set up to use a secondary integration configuration. S
 
 Actions can be set on an action-by-action basis to use a non-default or secondary integration. If you have already set an override on the trigger for the workflow, the actions will use the same configuration as the trigger.
 
-1. Add the action to a workflow.&#x20;
+1. Add the action to a workflow.
 2. Click on action to open the its settings in the right side menu.
 3. Click **Advanced > + Add New Integration Override**.
 4. Use the **Configuration Selection Mode** radio buttons:

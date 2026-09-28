@@ -1,19 +1,19 @@
 # Rewst support: Allow write access
 
 {% hint style="warning" %}
-By default, all organizations are now read-only for Rewst support. If you have organizations that you wish to continually have available for write access to support, you’ll need to follow the steps in this document to manually set write access for each of those organizations. These changes automatically went into effect for all of your child organizations existing prior to February 2025.
+By default, all organizations are now read-only for Rewst Classic support. If you have organizations that you wish to continually have available for write access to support, you’ll need to follow the steps in this document to manually set write access for each of those organizations. These changes automatically went into effect for all of your child organizations existing prior to February 2025.
 
 NOTE: setting write access for a parent organization will cascade down and set this level of support access for all of your child organizations.
 {% endhint %}
 
 ## What is support access?
 
-Rewst’s support access feature allows you to control levels of child organization access for Rewst employees, enhancing transparency and security for your organizations. You have the flexibility to enable or disable write access permanently or temporarily. Regardless of your chosen setting, you’ll still be able to take advantage of Rewst’s support assistance if you need help.
+Rewst Classic;s support access feature allows you to control levels of child organization access for Rewst employees, enhancing transparency and security for your organizations. You have the flexibility to enable or disable write access permanently or temporarily. Regardless of your chosen setting, you’ll still be able to take advantage of Rewst Classic's support assistance if you need help.
 
 {% hint style="info" %}
 The two levels of access for this feature are:
 
-1. Read-only access: Rewst support will be able to see all details in the organization. We will not be able to edit anything within that organization. This is the default setting for organizations for all support. \
+1. Read-only access: Rewst support will be able to see all details in the organization. We will not be able to edit anything within that organization. This is the default setting for organizations for all support.\
    NOTE: Rewst support with read-only access are able to use the Jinja live editor.
 2. Write access: Rewst support will be able to edit and make changes to the contents of that organization.
 {% endhint %}
@@ -26,7 +26,7 @@ Rewst support employees are granted read-only access to your organizations unles
 Rewst support employees are granted read-only access to your organizations unless you specifically set access for that organization to enabled. Rewst reserves the right to override access restrictions to ensure that platform stability and performance is maintained at acceptable levels.
 {% endhint %}
 
-## Set Rewst access control
+## Set Rewst Classic access control
 
 Note that only the Rewst [Admin role](../../documentation/settings/roles.md#admin-role) can enable or disable support access.
 
@@ -45,4 +45,3 @@ Note that only the Rewst [Admin role](../../documentation/settings/roles.md#admi
       ![](<../../.gitbook/assets/Screenshot 2025-01-30 at 4.12.01 PM.png>)<br>
    2. Remaining time in the access duration is displayed in the bottom left corner of the left side menu. Rewst support can also see this countdown from their side of the Rewst platform. If the duration times out before your support issue is handled, you’ll need to grant write access to your Rewst support member again.\
       ![](<../../.gitbook/assets/Screenshot 2025-01-30 at 4.15.37 PM.png>)
-

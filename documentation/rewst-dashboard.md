@@ -1,6 +1,6 @@
 # Rewst Dashboard
 
-The Rewst Dashboard is the home screen you'll see when you first log into the platform. Click the drop-down organization selector in the top right to choose which org's information will be displayed in the dashboard at any given time.
+The Rewst Dashboard is the home screen you'll see when you first log into the Rewst Classic platform. Click the drop-down organization selector in the top right to choose which org's information will be displayed in the dashboard at any given time.
 
 Use the dashboard to easily digest key metrics for every workflow executed within a selected timeframe and better understand how Rewst is bringing you value. Identify usage patterns, success rates, and estimated time savings.
 

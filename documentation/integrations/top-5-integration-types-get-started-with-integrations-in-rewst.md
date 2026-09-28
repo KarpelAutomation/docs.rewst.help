@@ -1,11 +1,11 @@
-# Top 5 integration types : Get started with integrations in Rewst
+# Top 5 integration types : Get started with integrations in Rewst Classic
 
-This list contains the five integration types we recommend you first set up in Rewst.&#x20;
+This list contains the five integration types we recommend you first set up in Rewst Classic.
 
 ## PSA integrations
 
 {% hint style="success" %}
-Integrating your PSA is the foundation to streamlining and automating your MSP workflows. It's one of the first things you'll need to do to get started with Rewst. Centralize service tickets, automate billing and reporting, and improve your turnaround times. Before attempting to integrate your PSA, read through our introductions to [Crates](https://docs.rewst.help/prebuilt-automations/crates) and [integrations](https://docs.rewst.help/documentation/integrations).
+Integrating your PSA is the foundation to streamlining and automating your MSP workflows. It's one of the first things you'll need to do to get started with Rewst Classic. Centralize service tickets, automate billing and reporting, and improve your turnaround times. Before attempting to integrate your PSA, read through our introductions to [Crates](https://docs.rewst.help/prebuilt-automations/crates) and [integrations](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
 
 ### PSA integrations offered by Rewst
@@ -52,8 +52,6 @@ Click each of the tiles below to launch that Crate's information page. Find more
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>Bulk Create Client from PSA</strong></td><td><a href="../crates/existing-crate-documentation/bulk-create-client-from-psa-crate.md">bulk-create-client-from-psa-crate.md</a></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.29.34 PM.png">Screenshot 2025-10-17 at 2.29.34 PM.png</a></td></tr><tr><td><strong>Microsoft: User Onboarding</strong></td><td><a href="../crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/">microsoft-user-onboarding-crate-v2</a></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.30.29 PM.png">Screenshot 2025-10-17 at 2.30.29 PM.png</a></td></tr><tr><td><strong>PSA: Update Ticket With New User Onboard Links</strong></td><td><a href="../crates/existing-crate-documentation/psa-update-ticket-with-user-onboard-links-crate.md">psa-update-ticket-with-user-onboard-links-crate.md</a></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.31.26 PM.png">Screenshot 2025-10-17 at 2.31.26 PM.png</a></td></tr><tr><td><strong>AI Ticket Categorization</strong></td><td><a href="../crates/existing-crate-documentation/openai-ticket-categorisation-setup.md">openai-ticket-categorisation-setup.md</a></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2026-01-16 at 3.12.56 PM.png">Screenshot 2026-01-16 at 3.12.56 PM.png</a></td></tr><tr><td><strong>Billing Count Report</strong></td><td><a href="../crates/existing-crate-documentation/billing-count-report-crate.md">billing-count-report-crate.md</a></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.33.09 PM.png">Screenshot 2025-10-17 at 2.33.09 PM.png</a></td></tr><tr><td><strong>Microsoft: User Offboarding</strong></td><td><a href="../crates/existing-crate-documentation/microsoft-user-offboarding-crate.md">microsoft-user-offboarding-crate.md</a></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.33.57 PM.png">Screenshot 2025-10-17 at 2.33.57 PM.png</a></td></tr></tbody></table>
 
-
-
 ## RMM integrations
 
 {% hint style="success" %}
@@ -67,7 +65,7 @@ Before you attempt to integrate your RMM, read through our introduction to [Crat
 ### RMM integrations offered by Rewst
 
 {% hint style="info" %}
-Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup documentation. Find the version for your particular RMM below or by scrolling through the left side navigation menu of this docs site, and click the link to open your instructions.
+Rewst Classic integrates with a variety of RMMs. Each brand of RMM has its own setup documentation. Find the version for your particular RMM below or by scrolling through the left side navigation menu of this docs site, and click the link to open your instructions.
 {% endhint %}
 
 {% content-ref url="integration-guides/addigy-integration-setup.md" %}
@@ -114,8 +112,6 @@ Rewst integrates with a variety of RMMs. Each brand of RMM has its own setup doc
 [ninjaone-integration-setup.md](integration-guides/ninjaone-integration-setup.md)
 {% endcontent-ref %}
 
-
-
 ### Crates to optionally unpack after integrating your RMM
 
 Click each of the tiles below to launch that Crate's information page. Find more relevant Crates in our Crate Marketplace. You'll find it in the left side menu of the platform by navigating to **Crates** **>** **Crate Marketplace**.
@@ -129,7 +125,7 @@ Integrating your cloud tool allows you to connect Rewst workflows to your Micros
 {% endhint %}
 
 {% hint style="warning" %}
-**Remember your prerequisites!**&#x20;
+**Remember your prerequisites!**
 
 Before you set up these integrations, make sure that you:
 
@@ -154,9 +150,9 @@ Before you set up these integrations, make sure that you:
 ## Documentation tool integrations
 
 {% hint style="success" %}
-Integrating your documentation tool centralizes and automates your documentation processes.&#x20;
+Integrating your documentation tool centralizes and automates your documentation processes.
 
-Rewst is constantly adding new integrations. If Rewst doesn't currently have an integration for your particular documentation tool, you can still build a custom integration, as long as your tool has an API.&#x20;
+Rewst is constantly adding new integrations. If Rewst Classic doesn't currently have an integration for your particular documentation tool, you can still build a custom integration, as long as your tool has an API.
 
 Before you attempt to integrate your documentation tool, read through our introduction to [Crates](https://docs.rewst.help/prebuilt-automations/crates) and [integrations](https://docs.rewst.help/documentation/integrations).
 {% endhint %}
@@ -238,4 +234,3 @@ Rewst integrates with a variety of licensing tools. Each brand has its own setup
 ### Crates to optionally unpack after integrating your licensing tool
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Billing Count Report</strong></td><td><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.33.09 PM.png">Screenshot 2025-10-17 at 2.33.09 PM.png</a></td><td><a href="../crates/existing-crate-documentation/billing-count-report-crate.md">billing-count-report-crate.md</a></td></tr><tr><td><strong>Microsoft: User Onboarding</strong></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.30.29 PM.png">Screenshot 2025-10-17 at 2.30.29 PM.png</a></td><td><a href="../crates/existing-crate-documentation/microsoft-user-onboarding-crate-v2/">microsoft-user-onboarding-crate-v2</a></td></tr><tr><td><strong>Microsoft: User Offboarding</strong></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.33.57 PM.png">Screenshot 2025-10-17 at 2.33.57 PM.png</a></td><td><a href="../crates/existing-crate-documentation/microsoft-user-offboarding-crate.md">microsoft-user-offboarding-crate.md</a></td></tr><tr><td><strong>Export MS365 Licenses to CSV</strong></td><td data-object-fit="fill"><a href="../../.gitbook/assets/Screenshot 2025-10-17 at 2.44.25 PM.png">Screenshot 2025-10-17 at 2.44.25 PM.png</a></td><td><a href="../crates/existing-crate-documentation/export-ms365-licenses-to-csv-crate.md">export-ms365-licenses-to-csv-crate.md</a></td></tr></tbody></table>
-

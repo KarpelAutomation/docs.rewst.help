@@ -5,14 +5,14 @@ description: Revolutionize your MSP operations with Rewst's App Builder.
 # App Builder
 
 {% hint style="info" %}
-Rewst's earliest version of App Builder was called App Platform. App Builder is the same product as App Platform, now with a more descriptive name.
+Rewst Classic's earliest version of App Builder was called App Platform. App Builder is the same product as App Platform, now with a more descriptive name.
 
 App Builder works best for users who have some existing skills in HTML and CSS. For free tutorials on how to learn those skills, Rewst recommends [W3 Schools' tutorials](https://www.w3schools.com/html/default.asp) and [Mozilla's intro and guided practice](https://developer.mozilla.org/en-US/docs/MDN/Tutorials).
 {% endhint %}
 
 ## **What is App Builder?**
 
-App Builder is an extension of Rewst’s automation platform that allows MSPs to quickly build front-end web applications for interacting with Rewst-generated data from workflows, forms, and data. Apps consist of _pages_, and pages are made up of _components_ like images, text, forms, tables, and charts. Use App Builder to drive additional efficiency, consistency, and visibility gains, and differentiate your personal brand through engaging front-end experiences.
+App Builder is an extension of Rewst Classic’s automation platform that allows MSPs to quickly build front-end web applications for interacting with Rewst-generated data from workflows, forms, and data. Apps consist of _pages_, and pages are made up of _components_ like images, text, forms, tables, and charts. Use App Builder to drive additional efficiency, consistency, and visibility gains, and differentiate your personal brand through engaging front-end experiences.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-03-05 at 4.12.34 PM.png" alt="Screenshot of the Apps page in the Rewst App Builder section, showing a dark-themed interface with a left navigation menu, a top search bar and Create New App button, and a table listing apps with domain names, update details, attributes, status indicators, and action controls."><figcaption></figcaption></figure>
 
@@ -65,5 +65,5 @@ Click **⋮** to the right of the app in the **Actions** column to expand the **
 {% endcontent-ref %}
 
 {% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).
+If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst Classic, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).
 {% endhint %}

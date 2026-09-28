@@ -2,7 +2,7 @@
 
 ## Available Rewst actions
 
-_Rewst actions_ provide you the tools to effectively manage and customize your environment. From setting up organizations and users to associating with multi-tenanted objects, these actions form the foundation of your interaction with the platform. This guide explores each of the available actions in detail, providing you a clear path to maximize the potential of your Rewst functionality.
+_Rewst actions_ provide you the tools to effectively manage and customize your Rewst Classic environment. From setting up organizations and users to associating with multi-tenanted objects, these actions form the foundation of your interaction with the platform. This guide explores each of the available actions in detail, providing you a clear path to maximize the potential of your Rewst functionality.
 
 {% hint style="info" %}
 Click to expand each of the Rewst action accordions below to see its documentation.
@@ -166,7 +166,7 @@ Delete a user invite from your organization in Rewst.
 
 The `rewst_export_object` task is a Rewst platform action that exports Rewst objects— workflows, triggers, forms, templates, sites, or pages— into a portable bundle format that can be shared, backed up, or imported into other Rewst environments. The exported bundle includes cryptographic signing to ensure the integrity and authenticity of the exported data.
 
-**Parameters:**&#x20;
+**Parameters:**
 
 * **object\_type** - required: The type of object to export
   * Options: workflow, trigger, form, template, site, page
@@ -192,15 +192,13 @@ The action returns a bundle object containing:
 * Share workflows or templates with other organizations
 * Create snapshots of objects at specific points in time
 
-
-
 </details>
 
 <details>
 
 <summary>Generic GraphQL request action</summary>
 
-This action has its own separate documentation page [here](generic-graphql-request-action.md).&#x20;
+This action has its own separate documentation page [here](generic-graphql-request-action.md).
 
 </details>
 
@@ -389,7 +387,7 @@ Retrieves a list of all forms in the system.
 
 <summary>List Forms With Granular Permissions</summary>
 
-The rewst\_list\_forms\_with\_granular\_permissions task retrieves a list of all forms in your Rewst organization that the specified user has permission to access, taking into account granular permission settings. If run\_as\_user is set to null,  it will use the default organization user. This action is useful for building dynamic interfaces or workflows that need to work with forms based on user permissions, ensuring users only see forms they have access to.
+The rewst\_list\_forms\_with\_granular\_permissions task retrieves a list of all forms in your Rewst organization that the specified user has permission to access, taking into account granular permission settings. If run\_as\_user is set to null, it will use the default organization user. This action is useful for building dynamic interfaces or workflows that need to work with forms based on user permissions, ensuring users only see forms they have access to.
 
 **Parameters:**
 
@@ -410,8 +408,6 @@ The task returns an array of form objects, where each form contains:
 | **is\_synchronized** | Boolean | Whether the form is synchronized                                                             |
 | **tags**             | Array   | List of tags associated with the form (each tag has `id` and `name`)                         |
 | **triggers**         | Array   | List of triggers associated with the form (each trigger has `id`, `name`, and `workflow_id`) |
-
-
 
 </details>
 
@@ -495,7 +491,7 @@ Lets you retrieve a list of all existing templates. Template actions are used to
 
 <summary>List Triggers action</summary>
 
-&#x20;Retrieves a list of all triggers in the system.
+Retrieves a list of all triggers in the system.
 
 **Parameters:** No parameters are required for this action.
 
@@ -649,8 +645,6 @@ This action lets you update the details of an existing template. Template action
 
 **Output:** The action returns the updated template's information, including its `id`.
 
-
-
 </details>
 
 <details>
@@ -737,18 +731,3 @@ Updates the text-based content of a page element— such as a text block, button
 **Output:** Returns the updated element's details, including confirmation of the new text content.
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

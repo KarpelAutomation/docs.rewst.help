@@ -1,9 +1,9 @@
 # Stewart's 30 favorite Crates
 
 {% hint style="info" %}
-Rewst is constantly developing new Crates. This list of our 30 most popular Crates is just a small sample of the Crates you can find in the Crate Marketplace.
+Rewst is constantly developing new Crates for Rewst Classic. This list of our 30 most popular Crates is just a small sample of the Crates you can find in the Crate Marketplace.
 
-For more on Crates, including detailed information on what each of our Crate states means, see our [Crates in Rewst page here](./).
+For more on Crates, including detailed information on what each of our Crate states means, see our [Crates in Rewst Classic page here](./).
 {% endhint %}
 
 ### Security Crates

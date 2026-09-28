@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Rewst documentation](README.md)
+* [Welcome to Rewst Classic documentation](README.md)
 
 ## FLOW 2026 ANNOUNCEMENT
 
@@ -329,7 +329,7 @@
     * [Windows Patch Deployer Crate](documentation/crates/existing-crate-documentation/windows-patch-deployer-crate.md)
     * [Workstation Offboarding Crate](documentation/crates/existing-crate-documentation/workstation-offboarding-crate.md)
 * [Integrations](documentation/integrations/README.md)
-  * [Top 5 integration types : Get started with integrations in Rewst](documentation/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md)
+  * [Top 5 integration types : Get started with integrations in Rewst Classic](documentation/integrations/top-5-integration-types-get-started-with-integrations-in-rewst.md)
   * [Integration guides](documentation/integrations/integration-guides/README.md)
     * [1Stream integration](documentation/integrations/integration-guides/1stream-integration.md)
     * [Acronis integration](documentation/integrations/integration-guides/acronis-integration.md)
@@ -1080,10 +1080,10 @@
   * [Rewst support: Allow write access](support-and-community/roc-support/rewst-support-allow-write-access.md)
   * [Discord: Join and verify yourself in our Discord community](support-and-community/roc-support/discord-join-and-verification.md)
   * [Create a ticket via Discord](support-and-community/roc-support/create-a-ticket-via-discord.md)
-  * [Collecting diagnostics with browser developer tools](support-and-community/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
-  * [Find your Rewst instance region](support-and-community/roc-support/find-your-rewst-instance-region.md)
+  * [Collect diagnostics with browser developer tools](support-and-community/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
+  * [Find your Rewst Classic instance region](support-and-community/roc-support/find-your-rewst-instance-region.md)
   * [Migrate between Rewst instances](support-and-community/roc-support/migrate-between-rewst-instances.md)
-* [Cluck University](support-and-community/cluck-university.md)
+* [Cluck University - Rewst Classic](support-and-community/cluck-university.md)
 
 ***
 

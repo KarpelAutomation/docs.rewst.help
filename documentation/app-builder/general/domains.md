@@ -23,7 +23,7 @@ URLs on your App Builder pages are generated based on your organization slug wit
 
 1. Navigate to **Settings > Organization** in the left side menu of your Rewst platform. Do this for the organization you're using for your app.
 2. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-22 at 10.01.13 AM.png>) to open the display options list.
-3. Check the **Org Slug** column. \
+3. Check the **Org Slug** column.\
    ![](<../../../.gitbook/assets/Screenshot 2026-01-22 at 10.01.08 AM.png>)
 4. Locate the organization slug field for your organization.
 5. Click ![](<../../../.gitbook/assets/Screenshot 2026-01-22 at 10.02.59 AM.png>) to the far right of your organization to enable editing.
@@ -55,7 +55,3 @@ Custom subdomains provide a branded and personalized touch to your apps. It make
 ### Custom domain support and creation guidelines
 
 Rewst offers custom domain support, allowing you to use your own domain name for your Rewst-hosted apps. Ensure that your custom subdomains comply with Rewst's guidelines and any applicable legal or branding standards. Abusive or inappropriate subdomains may be subject to action by Rewst.
-
-{% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).&#x20;
-{% endhint %}

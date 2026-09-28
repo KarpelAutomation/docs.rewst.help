@@ -624,10 +624,10 @@ Consider a scenario where an MSP needs to monitor and manage network equipment a
 4. Click **No Records Found. Add a Data Source**.
 5. Choose **Run Workflow on Load**.
    1. Whenever the page is loaded, the latest data will pull into it.
-   2.  Alternatively, **Use Latest Workflow** could be used if you were returning data on a cron and didn't want to load it each time.&#x20;
+   2.  Alternatively, **Use Latest Workflow** could be used if you were returning data on a cron and didn't want to load it each time.
 
        <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FmVmXQ4VZuUJ9HXLvrbXU%252Fdata%2520test%25201-min.png%3Falt%3Dmedia%26token%3Dcd1d8f2c-2ed0-4912-a408-6ed28ae1c05f&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=e7226764&#x26;sv=2" alt=""><figcaption></figcaption></figure>
-6.  Choose **form\_output** in the **Workflow Output** drop-down selector. Once the workflow has finished, you'll see that option in the available list.&#x20;
+6.  Choose **form\_output** in the **Workflow Output** drop-down selector. Once the workflow has finished, you'll see that option in the available list.
 
     <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2F1835401289-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FAQQ1EHVcEsGKBPVHmiav%252Fuploads%252FeUVPJGuGdqK4ED04AGk9%252Fdata%2520test%25202-min.png%3Falt%3Dmedia%26token%3D534e804a-3afd-4889-9f6f-fd7a7b4b2d35&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=ec4d3dac&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 7. Click **Submit**.
@@ -645,8 +645,6 @@ Now let's make sure the user can actually get to the form, rather than just view
 
 11\. In the Accessor dropdown, select the **view** key. By leaving the URL blank later on, the action button will automatically use the value from this key. In the Jinja from the last step, we made sure the value was the link to that form.
 
-
-
 12\. Change the Type
 
 Change the Type to **action.**
@@ -654,8 +652,6 @@ Change the Type to **action.**
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2F0090aae6-a97f-4852-ad90-894040ec6c25%2F2.2922731242124%2F50.012881778879%2F77.418572277013%3F0\&width=768\&dpr=4\&quality=100\&sign=e31ebe81\&sv=2)
 
 13\. Change the column name. Add a header, which is the column name for this action button.
-
-
 
 <figure><img src="https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2F60004a87-993c-4eb8-8c8b-8ef38c0ee908%2F2.2921757115931%2F50.000996727961%2F57.1015980728%3F0&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1b7e348c&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -676,8 +672,6 @@ Change the Type to **action.**
 18\. At the top of the menu bar, you'll see a url that is unique to your app. Clicking this navigates to the page itself, the same one you'll send to your users.
 
 ![](https://docs.rewst.help/~gitbook/image?url=https%3A%2F%2Fd3q7ie80jbiqey.cloudfront.net%2Fmedia%2Fimage%2Fzoom%2Fc2fb15ed-2320-42d1-a08a-2c2eb4421de4%2F2.5%2F53.71904729945%2F1.1118548791515%3F0\&width=768\&dpr=4\&quality=100\&sign=feefbf6c\&sv=2)
-
-
 
 ### Data table component settings
 
@@ -1316,7 +1310,3 @@ Here are some common use cases for icons.
 | **Implementation** | `packages/app/src/utils/iconMap.ts`                                                |
 | **Icon variants**  | Some icons have multiple variants: e.g., `Sharp`, `Rounded`, `TwoTone`, `Outlined` |
 | **Fallback**       | If an icon cannot be found, the system displays a `HelpOutline` icon as a fallback |
-
-{% hint style="info" %}
-If you have suggestions for new App Builder features, or general feedback about your experience using this part of Rewst, submit your thoughts to our [Canny](https://rewst.canny.io/app-builder).
-{% endhint %}

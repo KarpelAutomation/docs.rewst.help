@@ -1,7 +1,4 @@
 ---
-description: >-
-  Learn all about our prebuilt automations: where to find them, and how to set
-  them up
 layout:
   width: default
   title:
@@ -28,11 +25,11 @@ layout:
 
 ## What is a Crate?
 
-Essentially, a Crate is a pre-built automation. A Rewst crate contains all the pieces that power the automation: workflows, triggers, and often forms. These are usually built and curated by the Rewst team or from our community to facilitate easy deployment. Many of our Crates depend on your first setting up relevant integrations
+Essentially, a Crate is a pre-built automation. A Rewst Crate contains all the pieces that power the automation: workflows, triggers, and often forms. These are usually built and curated by the Rewst team or from our community to facilitate easy deployment. Many of our Crates depend on your first setting up relevant integrations
 
 ## Why use Crates?
 
-Prebuilt automations are made by the Rewst team. We've tested them and created them for optimal time savings, with your most common tooling and processes in mind. Starting out with Crates is the quickest way to start seeing benefit from Rewst.
+Prebuilt automations are made by the Rewst team. We've tested them and created them for optimal time savings, with your most common tooling and processes in mind. Starting out with Crates is the quickest way to start seeing benefit from Rewst Classic.
 
 {% hint style="success" %}
 Note that each Crate may differ in terms of requirements, setup time, and complexity.

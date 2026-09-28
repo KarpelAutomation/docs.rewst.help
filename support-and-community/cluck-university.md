@@ -1,10 +1,10 @@
 ---
 description: >-
   Learn about training, self-paced courses, and all the resources to learn the
-  art of automating with Rewst.
+  art of automating with Rewst Classic.
 ---
 
-# Cluck University
+# Cluck University - Rewst Classic
 
 ## Cluck University updates and recommended courses
 
@@ -46,7 +46,7 @@ The fastest path to a working automation.
 
 ### Additional courses
 
-Browse the [full catalog](https://learn.rewst.io/page/course-catalog) in Cluck University. Here's a few recommendations based on recent releases.
+Browse the [full catalog](https://learn.rewst.io/page/course-catalog) for Rewst Classic in Cluck University. Here's a few recommendations based on recent releases.
 
 * [Dev environments in Rewst](https://learn.rewst.io/dev-environments-in-rewst)
 * [Intro to Automation as a Service](https://learn.rewst.io/intro-to-automation-as-a-service)

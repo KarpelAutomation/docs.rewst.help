@@ -1,14 +1,14 @@
 # Templates and scripts
 
 {% hint style="info" %}
-Templates and scripts are similar features in Rewst, though each is intended for a different purpose. Once created, they're separated by type into two sections in the platform for ease of organization and sorting. Both can be referenced in workflows.
+Templates and scripts are similar features in Rewst Classic, though each is intended for a different purpose. Once created, they're separated by type into two sections in the platform for ease of organization and sorting. Both can be referenced in workflows.
 {% endhint %}
 
 ## What is a template?
 
-_Templates_ are used to create a standardized set of text used in several places in Rewst. For example, if you want to create a ticket and always use the same HTML for the ticket description, you would create a template. In the input, you would reference the template instead of having to type that same text each time.
+_Templates_ are used to create a standardized set of text used in several places in Rewst Classic. For example, if you want to create a ticket and always use the same HTML for the ticket description, you would create a template. In the input, you would reference the template instead of having to type that same text each time.
 
-To access templates, navigate to **Automations > Assets > Templates** in the left side menu of your Rewst platform.
+To access templates, navigate to **Automations > Assets > Templates** in the left side menu of your Rewst Classic platform.
 
 Write templates in either Markdown or HTML language. Common examples of templates include:
 
@@ -59,7 +59,7 @@ Write templates in either Markdown or HTML language.
 
 ## What is a script?
 
-_Scripts_ in Rewst enable you to write scripts in a straightforward and accessible manner compared to traditional programming languages. Scripting tasks can range from batch processes on a local computer to generating dynamic web pages on a web server. Scripts can be written, edited, and executed more quickly and easily than software programs.
+_Scripts_ in Rewst Classic enable you to write scripts in a straightforward and accessible manner compared to traditional programming languages. Scripting tasks can range from batch processes on a local computer to generating dynamic web pages on a web server. Scripts can be written, edited, and executed more quickly and easily than software programs.
 
 To access scripts, navigate to **Automations > Scripts** in the left side menu of your Rewst platform.
 
@@ -84,7 +84,7 @@ Write Rewst scripts in any of the following languages: PowerShell, Python, YALM,
 
 ## Jinja: Use templates and scripts within workflows
 
-While templates and scripts are written in HTML or Markdown, they can accept small elements of Jinja to set up their elsewhere in Rewst. They allow for context variables to be set within them, which can then be referenced in workflows to allow the eventual sent message to populate with dynamic information.
+While templates and scripts are written in HTML or Markdown, they can accept small elements of Jinja to set up their elsewhere in Rewst Classic. They allow for context variables to be set within them, which can then be referenced in workflows to allow the eventual sent message to populate with dynamic information.
 
 In the example below, you're sending an e-mail to a new user that has been created.
 
@@ -114,6 +114,6 @@ The part of the URL underlined in yellow is the template ID. For this particular
 
 ## Export and import templates and scripts
 
-You can export a template or script to share with other Rewst customers, or create your own hard copies of template and script backups. To export a template or script as a JSON bundle, ![](<../../.gitbook/assets/Screenshot 2025-10-21 at 4.50.38 PM.png>)next to your relevant template or script in its total list.
+You can export a template or script to share with other Rewst Classic customers, or create your own hard copies of template and script backups. To export a template or script as a JSON bundle, ![](<../../.gitbook/assets/Screenshot 2025-10-21 at 4.50.38 PM.png>)next to your relevant template or script in its total list.
 
 To import a template or script bundled as a JSON file, click ![](<../../.gitbook/assets/Screenshot 2025-10-21 at 4.48.45 PM.png>) in the top right navigation bar of the list page. Then, drag and drop your file into the upload dialog that appears.

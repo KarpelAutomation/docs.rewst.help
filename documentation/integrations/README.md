@@ -2,7 +2,7 @@
 
 ## What is an integration?
 
-_Integrations_ are a core part of Rewst. Simply put, an integration is the successful linking of the Rewst platform and a separate tool, to allow the free back and forth flow of information between platform and tool. Integrations are achieved with a variety of setup steps that will differ depending on the type of tool—PSA versus RMM, for example—and brand of tool type.
+_Integrations_ are a core part of Rewst Classic. Simply put, an integration is the successful linking of the Rewst platform and a separate tool, to allow the free back and forth flow of information between platform and tool. Integrations are achieved with a variety of setup steps that will differ depending on the type of tool—PSA versus RMM, for example—and brand of tool type.
 
 ## Why use integrations?
 
@@ -10,13 +10,13 @@ Once you’ve set up an integration, you can unpack Crates to achieve automation
 
 ## Custom integrations
 
-If Rewst doesn’t have an integration for your particular tool, you have the option to build one custom. Any tool that has an API can be integrated with Rewst via custom integration. We recommend that new Rewst users start with stock integrations, and complete all training in Cluck University before attempting custom integration builds.
+If Rewst Classic doesn’t have an integration for your particular tool, you have the option to build one custom. Any tool that has an API can be integrated with Rewst Classic via custom integration. We recommend that new Rewst users start with stock integrations, and complete all training in Cluck University before attempting custom integration builds.
 
 Our intro to custom integrations can be found [here](https://docs.rewst.help/documentation/integrations/custom-integrations). Information on how to set up custom integrations can be found [here](https://docs.rewst.help/documentation/integrations/custom-integrations/custom-integrations-v2).
 
 ## View integrations in Rewst
 
-Access integrations that are both installed and available for installation in the Rewst platform by navigating to **Marketplace > Integrations** in the left side menu.
+Access integrations that are both installed and available for installation in the Rewst Classic platform by navigating to **Marketplace > Integrations** in the left side menu.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-03-06 at 10.10.39 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -53,7 +53,7 @@ Alternatively, you can kickoff the custom integration setup process by clicking 
 
 ### What is organization mapping?
 
-_Organization mapping,_ or _org mapping_ for short, is the process of connecting each Rewst integration with your child organizations, enabling automations that leverage that integration to work for your customers. When setting up your integrations, this is frequently the last step.
+_Organization mapping,_ or _org mapping_ for short, is the process of connecting each Rewst Classic integration with your child organizations, enabling automations that leverage that integration to work for your customers. When setting up your integrations, this is frequently the last step.
 
 Org mapping isn't necessary for a few of our integrations because the tool you're integrating with doesn't itself have a concept of organizations. When this is the case for a particular integration, we'll call that out in that integration's setup documentation.
 
@@ -63,7 +63,7 @@ Organization mapping for Microsoft integrations is slightly different than the p
 
 For org mapping to work properly, it's best to aim for having the names of organizations in Rewst match the names of organizations in your PSA. If they don't, you can make the mapping match manually, but having 1:1 names will speed up the mapping process and have you reap the benefits of automation more quickly.
 
-Additionally, we recommend that you unpack the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) when onboarding into Rewst to prepare for easier org mapping.
+Additionally, we recommend that you unpack the [Add Client to Rewst Crate](../crates/existing-crate-documentation/add-client-to-rewst-setup.md) when onboarding into Rewst Classic to prepare for easier org mapping.
 
 ### How to map organizations: Org mapping
 
@@ -101,7 +101,3 @@ If you uninstall an integration and reinstall it again, you won't need to redo y
 ### Integration overrides
 
 Integration overrides allow you to specify which integration configurations should be used. When a workflow is triggered by and running within the context of a [child organization](organization-variables.md#what-is-an-organization), by default they only have access to their own integrations and configurations. To give the workflow access to integrations and credentials owned by the parent organization, that default behavior must be explicitly overridden. Integration overrides are set in the trigger menu of the workflow in question, not from the actual integration configuration page in Rewst. Learn more about integration overrides in our [triggers](../automations/intro-to-triggers/) documentation.
-
-## Request an integration
-
-We’re constantly adding new integrations to Rewst. Vote for which upcoming integrations should take priority by creating a post with your thoughts or upvoting other existing suggestion posts [in our Canny.](https://rewst.canny.io/integrations)

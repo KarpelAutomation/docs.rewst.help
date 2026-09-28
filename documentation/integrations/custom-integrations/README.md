@@ -1,6 +1,6 @@
 # Custom integrations
 
-_Custom integrations_ allow Rewst users to build their own integrations tailored specifically to their organization's needs. Integrate workflows with any service that exposes an API, even if Rewst doesn't currently have a native integration with that vendor.
+_Custom integrations_ allow Rewst Classic users to build their own integrations tailored specifically to their organization's needs. Integrate workflows with any service that exposes an API, even if Rewst Classic doesn't currently have a native integration with that vendor.
 
 {% hint style="warning" %}
 Currently, there is documentation for both V1 and V2 of Rewst's custom integrations on this site. All new custom integrations should be set up using the method for V2. V1 documentation remains to assist existing customers with their migration from V1 to V2.
@@ -16,7 +16,7 @@ Currently, there is documentation for both V1 and V2 of Rewst's custom integrati
 
 ## How to use custom integrations
 
-### Enable custom integrations in your Rewst instance
+### Enable custom integrations in your Rewst Classic instance
 
 {% hint style="info" %}
 Custom integrations can only be enabled by users with the Rewst Admin role.
@@ -74,8 +74,6 @@ Once your custom integration is set up, you can use it in your workflows and tas
 {% columns %}
 {% column %}
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 2.15.04 PM.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endcolumn %}
 
 {% column %}
